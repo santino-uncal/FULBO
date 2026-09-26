@@ -84,6 +84,7 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .grupo td.pos { width: 34px; font-weight: 700; color: #8b919a; }
 .grupo td.pos.pasa { background: var(--pasa); color: #fff; }
 .grupo td.pos.sudamericana { background: var(--sudamericana); color: #fff; }
+.grupo td.pos.campeon { background: var(--oro); color: #111; }
 .grupo td.pts { font-weight: 800; font-size: 1.05rem; }
 .grupo .pos-dif { color: var(--res-v); font-weight: 700; }
 .grupo .neg-dif { color: var(--res-d); font-weight: 700; }
@@ -99,6 +100,7 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .leyenda i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
 .leyenda i.pasa { background: var(--pasa); }
 .leyenda i.sudamericana { background: var(--sudamericana); }
+.leyenda i.campeon { background: var(--oro); }
 
 /* En celular se ocultan G/E/P para que entre todo */
 @media (max-width: 560px) {

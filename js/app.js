@@ -110,6 +110,22 @@
     return etapas;
   }
 
+  // Ediciones sin grupos (1960, 1961): cada llave de ida y vuelta se definía por puntos, como un grupo de 2
+  function etapasDeLlaves(ed) {
+    return ed.fases.map((f, i) => {
+      const llaves = {};
+      f.partidos.forEach(p => (llaves[p.llave ?? `${p.local}|${p.visitante}`] ||= []).push(p));
+      const sig = ed.fases[i + 1];
+      const pasan = sig ? sig.partidos.flatMap(p => [p.local, p.visitante]) : [ed.campeon];
+      return {
+        nombre: f.nombre, siguiente: sig ? sig.nombre : null, campeon: !sig, pasan: new Set(pasan),
+        grupos: Object.values(llaves).map(ps => ({
+          titulo: `${equipo(ps[0].local).nombre} – ${equipo(ps[0].visitante).nombre}`, partidos: ps
+        }))
+      };
+    });
+  }
+
   function tablaDeGrupo(partidos, anio) {
     const ptsVictoria = anio >= 1995 ? 3 : 2;   // hasta 1994 la victoria valía 2 puntos
     const t = {};
@@ -135,7 +151,7 @@
     const hayResultados = filas.some(f => f.pj);
     const cuerpo = filas.map((f, i) => {
       let marca = "";
-      if (hayResultados && etapa.pasan.has(f.id)) marca = "pasa";
+      if (hayResultados && etapa.pasan.has(f.id)) marca = etapa.campeon ? "campeon" : "pasa";
       else if (hayResultados && anio >= 2017 && etapa.nombre === "Fase de grupos" && i === 2) marca = "sudamericana";
       const dif = f.dif > 0 ? `+${f.dif}` : f.dif;
       const ultimos = f.ultimos.slice(-5).reverse().map(u => `<span class="res res-${u.r}" title="${esc(u.texto)}">${u.r}</span>`).join("");
@@ -149,7 +165,7 @@
       </tr>`;
     }).join("");
     return `<div class="grupo">
-      <h4>Grupo ${esc(grupo.letra)}</h4>
+      <h4>${esc(grupo.titulo || `Grupo ${grupo.letra}`)}</h4>
       <table>
         <thead><tr><th>#</th><th class="eq">Equipo</th><th>Pts</th><th>J</th><th>Gol</th><th>+/-</th>
           <th class="opc">G</th><th class="opc">E</th><th class="opc">P</th><th class="ultimas">Últimas</th></tr></thead>
@@ -159,9 +175,12 @@
   }
 
   function gruposHTML(ed) {
-    return etapasDeGrupos(ed).map(etapa => {
+    const conGrupos = etapasDeGrupos(ed);
+    const etapas = conGrupos.length ? conGrupos : etapasDeLlaves(ed);
+    return etapas.map(etapa => {
       const leyenda = [
         etapa.siguiente && `<span><i class="pasa"></i>Clasificación a ${esc(etapa.siguiente)}</span>`,
+        etapa.campeon && `<span><i class="campeon"></i>Campeón</span>`,
         ed.anio >= 2017 && etapa.nombre === "Fase de grupos" && `<span><i class="sudamericana"></i>Pasa a la Copa Sudamericana</span>`
       ].filter(Boolean).join("");
       return `<h3>${esc(etapa.nombre)}</h3>
