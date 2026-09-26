@@ -5,6 +5,7 @@ Orden de búsqueda:
   1. ESPN (clubes que jugaron desde 2005: tienen id de ESPN en equipos.js)
   2. TheSportsDB (API gratuita), buscando por nombre y país
 Guarda assets/escudos/<id>.png (120x120 aprox.) y no vuelve a bajar los que ya existen.
+Si un escudo viene con fondo de color liso (blanco, por ejemplo), se lo saca para que quede transparente.
 Al final lista los que no encontró, para buscarlos a mano o dejar que la web muestre las iniciales.
 """
 import json
@@ -14,6 +15,8 @@ import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
+
+from PIL import Image, ImageDraw
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from equipos import normalizar  # noqa: E402
@@ -37,6 +40,23 @@ def bajar(url, archivo):
     if len(datos) < 500:  # respuesta vacía o imagen "no disponible"
         return False
     archivo.write_bytes(datos)
+    return True
+
+
+def quitar_fondo(archivo):
+    """Si las 4 esquinas son del mismo color opaco, borra ese fondo (relleno desde cada esquina). Devuelve True si cambió."""
+    im = Image.open(archivo).convert("RGBA")
+    w, h = im.size
+    esquinas = [(0, 0), (w - 1, 0), (0, h - 1), (w - 1, h - 1)]
+    colores = [im.getpixel(p) for p in esquinas]
+    if not all(c[3] > 200 for c in colores):
+        return False  # ya tiene fondo transparente
+    if max(abs(a - b) for c in colores for a, b in zip(c, colores[0])) > 30:
+        return False  # esquinas de distinto color: probablemente el escudo ocupa toda la imagen
+    for p in esquinas:
+        if im.getpixel(p)[3]:
+            ImageDraw.floodfill(im, p, (0, 0, 0, 0), thresh=60)
+    im.save(archivo)
     return True
 
 
@@ -84,6 +104,9 @@ def main():
         if not ok:
             faltan.append(f"{id_} ({eq['nombre']}, {eq.get('pais')})")
         time.sleep(0.3)
+    for archivo in sorted(DESTINO.glob("*.png")):
+        if quitar_fondo(archivo):
+            print(f"  ✓ fondo quitado: {archivo.name}")
     print(f"\nNo encontrados ({len(faltan)}):", *faltan, sep="\n  ")
 
 
