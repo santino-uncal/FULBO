@@ -101,6 +101,14 @@ def emparejar(rs_ed, es_ed, espn_a_club):
     return pares, usados
 
 
+def mismo_resultado(pr, pe, local_espn):
+    """¿El partido de RSSSF y el de ESPN terminaron igual? (sirve para no unir la ida con la vuelta)"""
+    if pr["gl"] is None or pe["gl"] is None:
+        return True
+    goles = (pr["gl"], pr["gv"]) if pr["local_id"] == local_espn else (pr["gv"], pr["gl"])
+    return goles == (pe["gl"], pe["gv"])
+
+
 def emparejar_por_club(rs_ed, es_ed, pares, usados, mapa):
     """2da pasada: con los clubes ya conocidos, emparejar por fecha y clubes."""
     for pe in es_ed["partidos"]:
@@ -109,6 +117,12 @@ def emparejar_por_club(rs_ed, es_ed, pares, usados, mapa):
         l, v = mapa.get(pe["local_espn"]), mapa.get(pe["visitante_espn"])
         cand = [pr for pr in rs_ed["partidos"] if id(pr) not in usados and pr.get("fecha")
                 and dias(pr["fecha"], pe["fecha"]) <= 3 and {pr["local_id"], pr["visitante_id"]} == {l, v}]
+        iguales = [pr for pr in cand if mismo_resultado(pr, pe, l)]
+        # Si el resultado no coincide pero hay otro partido de RSSSF con el mismo cruce y resultado
+        # (con la fecha mal), ese es el verdadero: lo empareja la pasada flexible.
+        otro = any(id(pr) not in usados and {pr["local_id"], pr["visitante_id"]} == {l, v}
+                   and pr["gl"] is not None and mismo_resultado(pr, pe, l) for pr in rs_ed["partidos"])
+        cand = iguales or ([] if otro else cand)
         if cand:
             pr = min(cand, key=lambda x: dias(x["fecha"], pe["fecha"]))
             pares[pe["espn"]] = pr
@@ -391,13 +405,14 @@ def main():
                 base["formaciones_final"] = forms
                 local, visitante = pr["local_id"], pr["visitante_id"]
                 if pe:
-                    # Si RSSSF confundió un homónimo (Nacional URU / PAR), manda el club de ESPN
+                    # Si RSSSF confundió un club (Nacional URU / PAR, Universitario PER / Sucre), manda ESPN
                     el, ev = mapa.get(pe["local_espn"]), mapa.get(pe["visitante_espn"])
                     if invertido:
                         el, ev = ev, el
-                    if el and base_club(el) == base_club(local):
+                    # (solo si el otro equipo coincide: si no coincide ninguno, el emparejamiento es dudoso)
+                    if el and el != "a-definir" and ev == visitante:
                         local = el
-                    if ev and base_club(ev) == base_club(visitante):
+                    if ev and ev != "a-definir" and el == local:
                         visitante = ev
                 x = partido_final(base, local, visitante, goles, pe["espn"] if pe else None)
                 # Desde 2005 ESPN nombra las fases de forma más prolija y uniforme que RSSSF

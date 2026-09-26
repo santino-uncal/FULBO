@@ -1,5 +1,5 @@
 {
-  "_ayuda": "Correcciones manuales para unificar clubes. pais_por_nombre: país de un club cuando la fuente no lo dice. alias: 'Nombre|PAÍS' -> id del club (para unir nombres distintos del mismo club). nombres: id -> nombre que se muestra en la web. pais_club: id -> país, para forzar el país de un club. pais_espn: id de ESPN -> país, para clubes que solo aparecen en ESPN. resultados: id de ESPN del partido -> resultado definido fuera de la cancha.",
+  "_ayuda": "Correcciones manuales para unificar clubes. pais_por_nombre: país de un club cuando la fuente no lo dice. alias: 'Nombre|PAÍS' -> id del club (para unir nombres distintos del mismo club). nombres: id -> nombre que se muestra en la web. pais_club: id -> país, para forzar el país de un club. pais_espn: id de ESPN -> país, para clubes que solo aparecen en ESPN. espn: id de ESPN -> id del club, para forzar a qué club corresponde. resultados: id de ESPN del partido -> resultado definido fuera de la cancha.",
   "pais_por_nombre": {
     "Univ. Católica": "CHI",
     "Deportivo Galicia": "VEN",
@@ -216,6 +216,9 @@
     "7764": "ARG",
     "22137": "BOL",
     "10094": "VEN"
+  },
+  "espn": {
+    "6149": "universitario-de-sucre"
   },
   "resultados": {
     "734789": {"gl": 0, "gv": 3, "notas": "Suspendido a los 70' (0-0) por incidentes; la Conmebol le dio el partido 0-3 a Fortaleza"}
