@@ -50,6 +50,24 @@ def dias(a, b):
     return abs((datetime.date.fromisoformat(a) - datetime.date.fromisoformat(b)).days)
 
 
+def repartir_por_temporada(es):
+    """ESPN agrupa por año calendario: la final 2020 (jugada en enero de 2021) viene con 2021.
+    Cada partido trae su temporada, pero hasta 2015 ESPN la etiqueta corrida un año: se corrige
+    con el corrimiento de la mayoría del calendario."""
+    nuevo = {a: {"anio": a, "partidos": [], "equipos": dict(r["equipos"])} for a, r in es.items()}
+    vistos = set()
+    for a, r in es.items():
+        etiquetas = collections.Counter(p["temporada_espn"] for p in r["partidos"] if p["temporada_espn"])
+        corrimiento = a - etiquetas.most_common(1)[0][0] if etiquetas else 0
+        for p in r["partidos"]:
+            t = (p["temporada_espn"] + corrimiento) if p["temporada_espn"] else a
+            if p["espn"] in vistos or t not in nuevo:
+                continue
+            vistos.add(p["espn"])
+            nuevo[t]["partidos"].append(p)
+    return nuevo
+
+
 # ---------------------------------------------------------------- clubes
 def asignar_clubes_rsssf(rs, cat):
     R = E.Resolutor(rs)
@@ -95,6 +113,38 @@ def emparejar_por_club(rs_ed, es_ed, pares, usados, mapa):
             pr = min(cand, key=lambda x: dias(x["fecha"], pe["fecha"]))
             pares[pe["espn"]] = pr
             usados.add(id(pr))
+
+
+def emparejar_flexible(rs_ed, es_ed, pares, usados, mapa):
+    """3ra pasada: mismo resultado y al menos un club en común, aunque la fecha de RSSSF esté mal
+    o RSSSF haya confundido un homónimo (Nacional URU / PAR). En esos casos manda ESPN:
+    se corrigen el club y la fecha del partido de RSSSF."""
+    for pe in es_ed["partidos"]:
+        if not pe["jugado"] or pe["espn"] in pares:
+            continue
+        l, v = mapa.get(pe["local_espn"]), mapa.get(pe["visitante_espn"])
+        if not l or not v:
+            continue
+        cand = []
+        for pr in rs_ed["partidos"]:
+            if id(pr) in usados or pr["gl"] is None:
+                continue
+            if (pr["gl"], pr["gv"]) == (pe["gl"], pe["gv"]) and (pr["local_id"] == l or pr["visitante_id"] == v):
+                cand.append(pr)
+            elif (pr["gl"], pr["gv"]) == (pe["gv"], pe["gl"]) and (pr["local_id"] == v or pr["visitante_id"] == l):
+                cand.append(pr)  # RSSSF tiene local y visitante al revés
+        if not cand:
+            continue
+        pr = min(cand, key=lambda x: dias(x["fecha"], pe["fecha"]) if x.get("fecha") else 999)
+        if (pr["gl"], pr["gv"]) != (pe["gl"], pe["gv"]) or pr["local_id"] == v:
+            # dar vuelta el partido de RSSSF para que coincida con ESPN
+            pr["gl"], pr["gv"] = pr["gv"], pr["gl"]
+            pr["pen_l"], pr["pen_v"] = pr.get("pen_v"), pr.get("pen_l")
+            for g in pr.get("goles", []):
+                g["lado"] = "visitante" if g["lado"] == "local" else "local"
+        pr["local_id"], pr["visitante_id"], pr["fecha"] = l, v, pe["fecha"]
+        pares[pe["espn"]] = pr
+        usados.add(id(pr))
 
 
 # ---------------------------------------------------------------- partidos
@@ -230,7 +280,7 @@ def main():
     cat = E.Catalogo()
     ajustes = E.cargar_ajustes()
     rs = {a: leer_rsssf.leer(a) for a in anios_rsssf()}
-    es = {a: leer_espn.leer(a) for a in anios_espn()}
+    es = repartir_por_temporada({a: leer_espn.leer(a) for a in anios_espn()})
     sin_pais = asignar_clubes_rsssf(rs, cat)
 
     # ESPN -> club: votos por emparejamiento de partidos
@@ -248,6 +298,9 @@ def main():
     for a in es:
         info_espn.update(es[a]["equipos"])
     for eid, t in info_espn.items():
+        if t["nombre"].startswith("TBD"):  # partido futuro con rival todavía no definido
+            mapa[eid] = cat.id_de("A definir", None)
+            continue
         if eid not in mapa:
             # buscar un club con el mismo nombre; si no hay, es un club nuevo
             norm = E.normalizar(t["nombre"])
@@ -255,6 +308,8 @@ def main():
             mapa[eid] = por_nombre[0] if len(por_nombre) == 1 else \
                 cat.id_de(t["nombre"], ajustes.get("pais_espn", {}).get(eid))
         cat.clubes[mapa[eid]]["espn"].add(eid)
+    for a, (pares, usados) in pares_por_anio.items():
+        emparejar_flexible(rs[a], es[a], pares, usados, mapa)
 
     ediciones, indice, control = {}, [], []
     for a in sorted(set(rs) | set(es)):
@@ -282,7 +337,7 @@ def main():
                         f = pe["formaciones"]
                         forms = {("visitante" if l == "local" else "local") if invertido else l: v
                                  for l, v in f.items()}
-                    extra = {k: pe.get(k) for k in ("estadio", "ciudad", "arbitro", "publico")}
+                    extra = {k: pe.get(k) for k in ("estadio", "ciudad", "arbitro", "publico", "fecha")}
                 elif a in es and pr["gl"] is not None:
                     faltan_espn += 1
                 base = dict(pr)

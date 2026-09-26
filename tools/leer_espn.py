@@ -69,7 +69,7 @@ def leer(anio):
                                 "escudo": t.get("logo")}
         estado = e["status"]["type"]
         p = {
-            "espn": e["id"], "fase": nombre_fase(e), "fecha": fecha_local(e["date"]), "hora_utc": e["date"],
+            "espn": e["id"], "fase": nombre_fase(e), "temporada_espn": (e.get("season") or {}).get("year"), "fecha": fecha_local(e["date"]), "hora_utc": e["date"],
             "local_espn": lados["home"]["team"]["id"], "visitante_espn": lados["away"]["team"]["id"],
             "local": lados["home"]["team"]["displayName"], "visitante": lados["away"]["team"]["displayName"],
             "gl": int(lados["home"]["score"]) if estado.get("completed") else None,
