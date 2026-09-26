@@ -102,7 +102,9 @@
       // La fase siguiente es la primera que viene después y no es de esta misma etapa
       const sig = ed.fases.slice(e.ultima + 1).find(f => !f.nombre.startsWith(e.nombre));
       e.siguiente = sig ? sig.nombre.replace(/ — .*$/, "") : null;
-      e.pasan = new Set(sig ? sig.partidos.flatMap(p => [p.local, p.visitante]) : []);
+      // Pasan los que juegan la etapa siguiente (puede ser, a su vez, varios grupos)
+      const siguientes = sig ? ed.fases.filter(f => f.nombre.replace(/ — .*$/, "") === e.siguiente) : [];
+      e.pasan = new Set(siguientes.flatMap(f => f.partidos.flatMap(p => [p.local, p.visitante])));
       e.grupos.sort((a, b) => a.letra.localeCompare(b.letra, "es", { numeric: true }));
     });
     return etapas;

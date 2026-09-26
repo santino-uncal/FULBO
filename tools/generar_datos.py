@@ -226,6 +226,43 @@ def ganador_llave(partidos):
 
 
 # ---------------------------------------------------------------- planteles
+def base_club(id_):
+    """'nacional-par' -> 'nacional': clubes homónimos de distinto país."""
+    return re.sub(r"-(arg|bra|uru|par|chi|col|per|ecu|bol|ven|mex)$", "", id_)
+
+
+def corregir_homonimos(partidos):
+    """A veces un partido de grupos queda con el homónimo equivocado (Nacional URU / PAR, River ARG / URU).
+    Se nota porque el grupo queda con un equipo de más, o con un partido de un club contra sí mismo."""
+    grupos = collections.defaultdict(list)
+    for p in partidos:
+        if p["fase"].startswith("Fase de grupos — "):
+            grupos[p["fase"]].append(p)
+    for nombre, ps in grupos.items():
+        cuenta = collections.Counter(x for p in ps for x in (p["local"], p["visitante"]))
+        if len(cuenta) > 4:
+            # el que sobra es el homónimo que además juega en otro grupo (o, si no, el que menos aparece)
+            for x in list(cuenta):
+                otros = [y for y in cuenta if y != x and base_club(y) == base_club(x)]
+                if not otros:
+                    continue
+                y = otros[0]
+                en_otro = any(x in (p["local"], p["visitante"]) for g, qs in grupos.items() if g != nombre for p in qs)
+                if en_otro or cuenta[x] < cuenta[y]:
+                    for p in ps:
+                        for lado in ("local", "visitante"):
+                            if p[lado] == x:
+                                p[lado] = y
+                    cuenta = collections.Counter(z for p in ps for z in (p["local"], p["visitante"]))
+        for p in ps:
+            if p["local"] == p["visitante"]:
+                # el otro partido entre los dos homónimos dice quién es quién (la vuelta es al revés)
+                rival = next((y for y in cuenta if y != p["local"] and base_club(y) == base_club(p["local"])), None)
+                ida = next((q for q in ps if q is not p and {q["local"], q["visitante"]} == {p["local"], rival}), None)
+                if rival and ida:
+                    p["local"], p["visitante"] = ida["visitante"], ida["local"]
+
+
 def armar_planteles(partidos):
     """Planteles a partir de formaciones y goles: quién jugó, cuántos partidos, goles y asistencias."""
     pl = collections.defaultdict(dict)
@@ -319,6 +356,13 @@ def main():
             pares = pares_por_anio.get(a, ({}, set()))[0]
             por_rsssf = {id(pr): pe_id for pe_id, pr in pares.items()}
             espn_por_id = {p["espn"]: p for p in es.get(a, {"partidos": []})["partidos"]}
+            # Cómo llama ESPN a cada fase de RSSSF (para los partidos que ESPN no tiene)
+            votos = collections.defaultdict(collections.Counter)
+            for pr in rs[a]["partidos"]:
+                pe = espn_por_id.get(por_rsssf.get(id(pr)))
+                if pe:
+                    votos[pr["fase"]][pe["fase"]] += 1
+            fase_espn = {f: c.most_common(1)[0][0] for f, c in votos.items()}
             for pr in rs[a]["partidos"]:
                 pe = espn_por_id.get(por_rsssf.get(id(pr)))
                 goles = goles_rsssf(pr)
@@ -345,9 +389,23 @@ def main():
                     if v:
                         base[k] = v
                 base["formaciones_final"] = forms
-                x = partido_final(base, pr["local_id"], pr["visitante_id"], goles, pe["espn"] if pe else None)
+                local, visitante = pr["local_id"], pr["visitante_id"]
+                if pe:
+                    # Si RSSSF confundió un homónimo (Nacional URU / PAR), manda el club de ESPN
+                    el, ev = mapa.get(pe["local_espn"]), mapa.get(pe["visitante_espn"])
+                    if invertido:
+                        el, ev = ev, el
+                    if el and base_club(el) == base_club(local):
+                        local = el
+                    if ev and base_club(ev) == base_club(visitante):
+                        visitante = ev
+                x = partido_final(base, local, visitante, goles, pe["espn"] if pe else None)
                 # Desde 2005 ESPN nombra las fases de forma más prolija y uniforme que RSSSF
-                x["fase"] = pe["fase"] if pe else pr["fase"]
+                x["fase"] = pe["fase"] if pe else fase_espn.get(pr["fase"], pr["fase"])
+                # En algunas temporadas ESPN no dice el grupo: se toma el de RSSSF
+                m = re.search(r"Grupo\s+(\w+)", pr["fase"])
+                if x["fase"] == "Fase de grupos" and m:
+                    x["fase"] = f"Fase de grupos — Grupo {m.group(1)}"
                 partidos.append(x)
             # Partidos que ESPN tiene y RSSSF no (p. ej. una página de RSSSF incompleta)
             emparejados = set(pares)
@@ -373,6 +431,21 @@ def main():
                                   goles_espn(pe), pe["espn"])
                 x["fase"] = pe["fase"]
                 partidos.append(x)
+
+        # Resultados definidos por escritorio (ver "resultados" en equipos_ajustes.json)
+        for p in partidos:
+            if p.get("espn") in ajustes.get("resultados", {}):
+                p.update(ajustes["resultados"][p["espn"]])
+        corregir_homonimos(partidos)
+        # Partidos de grupos que quedaron sin grupo: se ubican por el grupo de sus dos equipos
+        grupo_de = {}
+        for p in partidos:
+            if p["fase"].startswith("Fase de grupos — "):
+                grupo_de[p["local"]] = grupo_de[p["visitante"]] = p["fase"]
+        for p in partidos:
+            if p["fase"] == "Fase de grupos" and grupo_de.get(p["local"]) and \
+                    grupo_de.get(p["local"]) == grupo_de.get(p["visitante"]):
+                p["fase"] = grupo_de[p["local"]]
 
         # Agrupar por fase, en orden cronológico de la fase
         fases = collections.OrderedDict()
