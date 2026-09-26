@@ -85,10 +85,94 @@
         </tbody></table></details>`).join("");
   }
 
+  // ---- Tablas de grupos (se calculan a partir de los partidos) ----
+
+  // Agrupa las fases tipo "Fase de grupos — Grupo A" por etapa ("Fase de grupos") y averigua a qué fase se pasa
+  function etapasDeGrupos(ed) {
+    const etapas = [];
+    ed.fases.forEach((f, i) => {
+      const m = f.nombre.match(/^(.*) — Grupo (\S+)$/);   // los "— Desempate" quedan afuera
+      if (!m) return;
+      let etapa = etapas.find(e => e.nombre === m[1]);
+      if (!etapa) etapas.push(etapa = { nombre: m[1], grupos: [], ultima: i });
+      etapa.grupos.push({ letra: m[2], partidos: f.partidos });
+      etapa.ultima = i;
+    });
+    etapas.forEach(e => {
+      // La fase siguiente es la primera que viene después y no es de esta misma etapa
+      const sig = ed.fases.slice(e.ultima + 1).find(f => !f.nombre.startsWith(e.nombre));
+      e.siguiente = sig ? sig.nombre.replace(/ — .*$/, "") : null;
+      e.pasan = new Set(sig ? sig.partidos.flatMap(p => [p.local, p.visitante]) : []);
+      e.grupos.sort((a, b) => a.letra.localeCompare(b.letra, "es", { numeric: true }));
+    });
+    return etapas;
+  }
+
+  function tablaDeGrupo(partidos, anio) {
+    const ptsVictoria = anio >= 1995 ? 3 : 2;   // hasta 1994 la victoria valía 2 puntos
+    const t = {};
+    const fila = id => t[id] = t[id] || { id, pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, ultimos: [] };
+    [...partidos].sort((a, b) => (a.fecha || "").localeCompare(b.fecha || "")).forEach(p => {
+      const l = fila(p.local), v = fila(p.visitante);
+      if (p.gl == null || p.gv == null) return;   // partido sin jugar
+      [[l, p.gl, p.gv, p.visitante], [v, p.gv, p.gl, p.local]].forEach(([f, a, b, rival]) => {
+        f.pj++; f.gf += a; f.gc += b;
+        const r = a > b ? "V" : a < b ? "D" : "E";
+        f[{ V: "g", E: "e", D: "p" }[r]]++;
+        f.ultimos.push({ r, texto: `${equipo(p.local).nombre} ${p.gl}–${p.gv} ${equipo(p.visitante).nombre}${p.fecha ? " (" + p.fecha + ")" : ""}` });
+      });
+    });
+    return Object.values(t).map(f => ({ ...f, pts: f.g * ptsVictoria + f.e, dif: f.gf - f.gc }));
+  }
+
+  function grupoHTML(grupo, etapa, anio) {
+    const filas = tablaDeGrupo(grupo.partidos, anio).sort((a, b) =>
+      b.pts - a.pts || b.dif - a.dif || b.gf - a.gf ||
+      etapa.pasan.has(b.id) - etapa.pasan.has(a.id) ||          // desempates que no se ven en la tabla
+      equipo(a.id).nombre.localeCompare(equipo(b.id).nombre));
+    const hayResultados = filas.some(f => f.pj);
+    const cuerpo = filas.map((f, i) => {
+      let marca = "";
+      if (hayResultados && etapa.pasan.has(f.id)) marca = "pasa";
+      else if (hayResultados && anio >= 2017 && etapa.nombre === "Fase de grupos" && i === 2) marca = "sudamericana";
+      const dif = f.dif > 0 ? `+${f.dif}` : f.dif;
+      const ultimos = f.ultimos.slice(-5).reverse().map(u => `<span class="res res-${u.r}" title="${esc(u.texto)}">${u.r}</span>`).join("");
+      return `<tr>
+        <td class="pos ${marca}">${i + 1}</td>
+        <td class="eq">${club(f.id)}</td>
+        <td class="pts">${f.pts}</td><td>${f.pj}</td><td>${f.gf}:${f.gc}</td>
+        <td class="dif ${f.dif > 0 ? "pos-dif" : f.dif < 0 ? "neg-dif" : ""}">${dif}</td>
+        <td class="opc">${f.g}</td><td class="opc">${f.e}</td><td class="opc">${f.p}</td>
+        <td class="ultimas" title="El más reciente a la izquierda">${ultimos}</td>
+      </tr>`;
+    }).join("");
+    return `<div class="grupo">
+      <h4>Grupo ${esc(grupo.letra)}</h4>
+      <table>
+        <thead><tr><th>#</th><th class="eq">Equipo</th><th>Pts</th><th>J</th><th>Gol</th><th>+/-</th>
+          <th class="opc">G</th><th class="opc">E</th><th class="opc">P</th><th class="ultimas">Últimas</th></tr></thead>
+        <tbody>${cuerpo}</tbody>
+      </table>
+    </div>`;
+  }
+
+  function gruposHTML(ed) {
+    return etapasDeGrupos(ed).map(etapa => {
+      const leyenda = [
+        etapa.siguiente && `<span><i class="pasa"></i>Clasificación a ${esc(etapa.siguiente)}</span>`,
+        ed.anio >= 2017 && etapa.nombre === "Fase de grupos" && `<span><i class="sudamericana"></i>Pasa a la Copa Sudamericana</span>`
+      ].filter(Boolean).join("");
+      return `<h3>${esc(etapa.nombre)}</h3>
+        <div class="grupos">${etapa.grupos.map(g => grupoHTML(g, etapa, ed.anio)).join("")}</div>
+        <p class="leyenda">${leyenda}</p>`;
+    }).join("");
+  }
+
   function mostrar(ed) {
     let html = `<h2>${ed.anio}</h2>
       <p>🏆 Campeón: <strong>${ed.campeon ? club(ed.campeon) : "—"}</strong> · Subcampeón: ${ed.subcampeon ? club(ed.subcampeon) : "—"}</p>
       <p class="vacio">Fuentes: ${ed.fuentes.join(" + ")}</p>`;
+    html += gruposHTML(ed);
     html += tablaRanking("Goleadores", ranking(ed, "goles"));
     html += tablaRanking("Asistidores", ranking(ed, "asistencias"));
     // Las fases más importantes primero (la final arriba)

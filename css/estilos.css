@@ -27,7 +27,7 @@ body {
 .cabecera-eyebrow { margin: 0; letter-spacing: .2em; text-transform: uppercase; color: var(--texto-suave); font-size: .8rem; }
 .cabecera-sub { margin: 0; color: var(--texto-suave); }
 
-main { max-width: 960px; margin: 0 auto; padding: 24px 16px; }
+main { max-width: 1240px; margin: 0 auto; padding: 24px 16px; }
 
 .ediciones { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
 .ediciones button {
@@ -59,3 +59,49 @@ td.num { text-align: right; }
 details.fase, details.plantel { margin: 12px 0; }
 details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .gol-eq { opacity: .7; }
+
+/* ---- Tablas de grupos ---- */
+:root {
+  --pasa: #3b82f6;
+  --sudamericana: #06b6d4;
+  --res-v: #c8f031;
+  --res-e: #5b6470;
+  --res-d: #ef4444;
+}
+.grupos { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 540px), 1fr)); gap: 16px; }
+.grupo { background: #0f1115; border: 1px solid #262a31; border-radius: var(--radio); overflow: hidden; }
+.grupo h4 {
+  margin: 0; padding: 14px; text-align: center; text-transform: uppercase;
+  letter-spacing: .15em; color: #b9bec6; border-bottom: 1px solid #262a31;
+}
+.grupo table { font-variant-numeric: tabular-nums; }
+.grupo th, .grupo td { text-align: center; padding: 8px 6px; border-bottom: 1px solid #1e2127; white-space: nowrap; }
+.grupo th { font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; color: #8b919a; }
+.grupo tbody tr:nth-child(even) { background: #14171c; }
+.grupo tbody tr:last-child td { border-bottom: 0; }
+.grupo .eq { text-align: left; width: 100%; max-width: 0; overflow: hidden; text-overflow: ellipsis; font-weight: 600; }
+.grupo .eq .escudo { margin: 0 8px 0 0; }
+.grupo td.pos { width: 34px; font-weight: 700; color: #8b919a; }
+.grupo td.pos.pasa { background: var(--pasa); color: #fff; }
+.grupo td.pos.sudamericana { background: var(--sudamericana); color: #fff; }
+.grupo td.pts { font-weight: 800; font-size: 1.05rem; }
+.grupo .pos-dif { color: var(--res-v); font-weight: 700; }
+.grupo .neg-dif { color: var(--res-d); font-weight: 700; }
+.grupo td.ultimas { padding-right: 10px; }
+.res {
+  display: inline-block; width: 18px; line-height: 18px; margin-left: 3px; border-radius: 3px;
+  font-size: .7rem; font-weight: 800; cursor: default;
+}
+.res-V { background: var(--res-v); color: #111; }
+.res-E { background: var(--res-e); color: #fff; }
+.res-D { background: var(--res-d); color: #fff; }
+.leyenda { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: .85rem; color: var(--texto-suave); }
+.leyenda i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.leyenda i.pasa { background: var(--pasa); }
+.leyenda i.sudamericana { background: var(--sudamericana); }
+
+/* En celular se ocultan G/E/P para que entre todo */
+@media (max-width: 560px) {
+  .grupo .opc { display: none; }
+  .res { width: 15px; line-height: 15px; margin-left: 2px; }
+}
