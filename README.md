@@ -1,6 +1,6 @@
 # Historia de la Copa Libertadores
 
-Todas las ediciones desde 1960: resultados, goleadores, asistidores, planteles, escudos y camisetas.
+Todas las ediciones desde 1960: resultados, goleadores, asistidores, planteles y escudos.
 
 ## Cómo verlo
 
@@ -17,24 +17,48 @@ Todas las ediciones desde 1960: resultados, goleadores, asistidores, planteles, 
 |---|---|---|
 | `index.html` | Esqueleto de la página. | Cambios de maquetación. |
 | `css/estilos.css` | Estilos y paleta (`:root`). | Colores, tipografías, responsive. |
-| `js/app.js` | Lógica: arma la lista de ediciones, partidos y rankings. | Comportamiento e interacción. |
-| `data/indice.js` | Lista de años disponibles. | Al agregar una edición. |
-| `data/equipos.js` | Catálogo de clubes (nombre, país, escudo). | Agregar/corregir clubes. |
-| `data/jugadores.js` | Catálogo de jugadores (un id único por jugador). | Agregar/corregir jugadores. |
-| `data/ediciones/<año>.js` | Una edición: fases, partidos, goles, formaciones, planteles. | Cargar resultados. |
+| `js/app.js` | Lógica: lista de ediciones, partidos, rankings y planteles. | Comportamiento e interacción. |
+| `data/indice.js` | Años disponibles con campeón y subcampeón. | **Generado** — no editar a mano. |
+| `data/equipos.js` | Catálogo de clubes (nombre, país, ciudad, escudo, colores). | **Generado**. |
+| `data/ediciones/<año>.js` | Una edición: fases, partidos, goles, formaciones, planteles. | **Generado**. |
 | `assets/escudos/<club>.png` | Escudos. | Se bajan con `tools/descargar_escudos.py`. |
-| `assets/camisetas/<club>/<año>.png` | Camisetas por temporada. | — |
-| `tools/` | Scripts de Python para descargar y convertir datos. | — |
+| `tools/` | Scripts de Python que descargan y arman los datos. | Ver abajo. |
 
-Orden de carga en `index.html`: `indice.js` → `equipos.js` → `jugadores.js` → `app.js`.
-Cada edición se carga sola cuando se la elige.
+La página carga cada edición recién cuando se la elige. Los **goleadores y asistidores no se escriben
+a mano**: se calculan a partir de los goles de cada partido.
 
-Los **goleadores y asistidores no se escriben a mano**: se calculan a partir de los goles de cada partido.
+## De dónde salen los datos
 
-## Fuentes
+| Años | Fuente | Qué trae |
+|---|---|---|
+| 1960–2004 | **RSSSF** (rsssf.org) | Resultados, goleadores, formaciones de las finales. |
+| 2005–2024 | **RSSSF + ESPN** | RSSSF da la lista completa de partidos; ESPN agrega goles con minuto, asistencias, formaciones, árbitro y público. |
+| 2025 en adelante | **ESPN** | Todo lo anterior. |
 
-- **RSSSF** (rsssf.org/sacups) — resultados, goles y formaciones de todas las ediciones.
-- **TheSportsDB** — escudos y camisetas.
+Los datos de RSSSF son de Juan Pablo Andrés, Pablo Ciullini y Frank Ballesteros (Rec.Sport.Soccer
+Statistics Foundation), que permiten copiarlos citando a los autores.
+
+## Actualizar los datos
+
+```bash
+python tools/descargar_rsssf.py     # baja las páginas nuevas de RSSSF
+python tools/descargar_espn.py      # baja partidos de ESPN (la 1ra vez tarda ~2 horas)
+python tools/generar_datos.py       # arma data/ y muestra un control de calidad por año
+python tools/descargar_escudos.py   # baja los escudos que falten
+```
+
+Para la temporada en curso alcanza con `python tools/descargar_espn.py 2026` y después `generar_datos.py`.
+
+### Corregir clubes
+
+`tools/equipos_ajustes.json` guarda las correcciones manuales:
+
+- `alias`: unir nombres distintos del mismo club (`"Atl. Nacional|COL": "atletico-nacional"`).
+- `pais_por_nombre`: el país de un club cuando la fuente no lo dice.
+- `nombres`: el nombre que se muestra en la web.
+- `campeones`: forzar campeón y subcampeón de un año (`"1960": ["penarol", "olimpia"]`), por si hiciera falta.
+
+Después de tocarlo, volver a correr `generar_datos.py`.
 
 ## Fases
 
