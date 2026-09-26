@@ -1,0 +1,57 @@
+:root {
+  --fondo: #0d1b2a;
+  --panel: #13263a;
+  --borde: #24405c;
+  --texto: #eef2f6;
+  --texto-suave: #9fb3c8;
+  --oro: #d4af37;
+  --radio: 10px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--fondo);
+  color: var(--texto);
+  line-height: 1.5;
+}
+
+.cabecera {
+  text-align: center;
+  padding: 40px 16px 24px;
+  border-bottom: 2px solid var(--oro);
+}
+.cabecera h1 { margin: 4px 0; font-size: clamp(2rem, 6vw, 3.2rem); color: var(--oro); }
+.cabecera-eyebrow { margin: 0; letter-spacing: .2em; text-transform: uppercase; color: var(--texto-suave); font-size: .8rem; }
+.cabecera-sub { margin: 0; color: var(--texto-suave); }
+
+main { max-width: 960px; margin: 0 auto; padding: 24px 16px; }
+
+.ediciones { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+.ediciones button {
+  background: var(--panel); color: var(--texto); border: 1px solid var(--borde);
+  border-radius: var(--radio); padding: 6px 12px; cursor: pointer; font: inherit;
+}
+.ediciones button[aria-pressed="true"] { border-color: var(--oro); color: var(--oro); }
+
+.edicion h2 { color: var(--oro); margin-top: 0; }
+.edicion h3 { border-bottom: 1px solid var(--borde); padding-bottom: 4px; }
+.vacio { color: var(--texto-suave); }
+
+.partido {
+  background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio);
+  padding: 12px 16px; margin-bottom: 12px;
+}
+.partido-meta { color: var(--texto-suave); font-size: .85rem; }
+.marcador { display: grid; grid-template-columns: 1fr auto 1fr; gap: 12px; align-items: center; font-size: 1.1rem; margin: 6px 0; }
+.marcador .local { text-align: right; }
+.marcador .resultado { font-weight: 700; color: var(--oro); }
+.escudo { width: 24px; height: 24px; object-fit: contain; vertical-align: middle; margin: 0 6px; }
+.goles { list-style: none; padding: 0; margin: 0; color: var(--texto-suave); font-size: .9rem; }
+
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--borde); }
+th { color: var(--texto-suave); font-weight: 600; }
+td.num { text-align: right; }

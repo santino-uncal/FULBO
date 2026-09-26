@@ -1,0 +1,20 @@
+# Sistema
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editores
+.vscode/
+*.swp
+*~
+
+# Copias sueltas de trabajo (usá git para el historial, no archivos numerados)
+*_backup.html
+*(1).html
+*(2).html
+*(3).html
+*(4).html
+
+# Descargas crudas (se regeneran con tools/)
+tools/cache/
+__pycache__/
