@@ -4,6 +4,9 @@ Todas las ediciones desde 1960: resultados, goleadores, asistidores, planteles y
 
 ## Cómo verlo
 
+- **Publicado:** https://santino-uncal.github.io/FULBO/ (GitHub Pages). Cada edición tiene su link: `?edicion=1986`.
+  `sitemap.xml` (lo arma `tools/generar_datos.py`) y `robots.txt` le indican a Google qué páginas indexar.
+
 - **Rápido:** doble clic en `index.html`.
 - **Con servidor local:**
   ```bash

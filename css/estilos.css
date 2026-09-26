@@ -30,11 +30,12 @@ body {
 main { max-width: 1240px; margin: 0 auto; padding: 24px 16px; }
 
 .ediciones { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
-.ediciones button {
+.ediciones a {
   background: var(--panel); color: var(--texto); border: 1px solid var(--borde);
-  border-radius: var(--radio); padding: 6px 12px; cursor: pointer; font: inherit;
+  border-radius: var(--radio); padding: 6px 12px; cursor: pointer; font: inherit; text-decoration: none;
 }
-.ediciones button[aria-pressed="true"] { border-color: var(--oro); color: var(--oro); }
+.ediciones a:hover { border-color: var(--texto-suave); }
+.ediciones a[aria-current] { border-color: var(--oro); color: var(--oro); }
 
 .edicion h2 { color: var(--oro); margin-top: 0; }
 .edicion h3 { border-bottom: 1px solid var(--borde); padding-bottom: 4px; }

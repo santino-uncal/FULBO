@@ -1,6 +1,7 @@
 /* Lógica de la página. Los datos viven en data/ (window.LIB). Versión funcional provisoria: el diseño se define después. */
 (function () {
   const LIB = window.LIB;
+  const URL_SITIO = "https://santino-uncal.github.io/FULBO/";   // dirección publicada en GitHub Pages
   const navEl = document.getElementById("ediciones");
   const edicionEl = document.getElementById("edicion");
 
@@ -210,13 +211,40 @@
     edicionEl.innerHTML = html;
   }
 
-  function seleccionar(anio) {
-    navEl.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.anio == anio));
+  // Título y descripción de cada edición (lo que muestra Google en el resultado de búsqueda)
+  function actualizarTitulo(anio) {
+    const e = LIB.indice.find(x => x.anio == anio) || {};
+    const campeon = e.campeon ? equipo(e.campeon).nombre : null;
+    document.title = `Copa Libertadores ${anio}${campeon ? " — Campeón " + campeon : ""}`;
+    const desc = document.querySelector('meta[name="description"]');
+    if (desc) desc.content = `Copa Libertadores ${anio}: ${campeon ? `campeón ${campeon}, subcampeón ${equipo(e.subcampeon).nombre}. ` : ""}` +
+      "Final, tablas de grupos, todos los partidos, goleadores, asistidores y planteles.";
+    // Dirección "oficial" de esta edición, para que Google no la tome como copia de otra
+    let canonica = document.querySelector('link[rel="canonical"]');
+    if (!canonica) document.head.appendChild(canonica = Object.assign(document.createElement("link"), { rel: "canonical" }));
+    canonica.href = `${URL_SITIO}?edicion=${anio}`;
+  }
+
+  function seleccionar(anio, guardarEnHistorial) {
+    navEl.querySelectorAll("a").forEach(a => a.toggleAttribute("aria-current", a.dataset.anio == anio));
+    if (guardarEnHistorial) history.pushState(null, "", `?edicion=${anio}`);
+    actualizarTitulo(anio);
     edicionEl.innerHTML = `<p class="vacio">Cargando ${anio}…</p>`;
     cargarEdicion(anio).then(mostrar).catch(e => { edicionEl.innerHTML = `<p class="vacio">${esc(e.message)}</p>`; });
   }
 
-  navEl.innerHTML = LIB.indice.map(e => `<button data-anio="${e.anio}" aria-pressed="false" title="${esc(equipo(e.campeon).nombre)}">${e.anio}</button>`).join("");
-  navEl.addEventListener("click", e => { if (e.target.dataset.anio) seleccionar(e.target.dataset.anio); });
-  seleccionar(LIB.indice[LIB.indice.length - 1].anio);
+  // Cada edición es un link real (?edicion=1960) para que Google pueda encontrarlas todas
+  navEl.innerHTML = LIB.indice.map(e => `<a href="?edicion=${e.anio}" data-anio="${e.anio}" title="${esc(equipo(e.campeon).nombre)}">${e.anio}</a>`).join("");
+  navEl.addEventListener("click", e => {
+    const a = e.target.closest("a[data-anio]");
+    if (!a || e.ctrlKey || e.metaKey || e.shiftKey) return;   // ctrl+clic: abrir en otra pestaña
+    e.preventDefault();
+    seleccionar(a.dataset.anio, true);
+  });
+  const anioDeLaUrl = () => {
+    const pedido = new URLSearchParams(location.search).get("edicion");
+    return LIB.indice.some(e => e.anio == pedido) ? pedido : LIB.indice[LIB.indice.length - 1].anio;
+  };
+  window.addEventListener("popstate", () => seleccionar(anioDeLaUrl()));   // botón "atrás" del navegador
+  seleccionar(anioDeLaUrl());
 })();

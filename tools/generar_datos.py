@@ -510,6 +510,7 @@ def main():
     escribir(DATA / "equipos.js", "window.LIB.equipos = ", clubes)
     escribir(DATA / "indice.js", "window.LIB.indice = ", indice)
     (DATA / "jugadores.js").unlink(missing_ok=True)
+    escribir_sitemap(sorted(ediciones))
 
     # -------- control de calidad
     print(f"{'año':>5} {'part':>5} {'jug':>4} {'goles':>6} {'c/autor':>8} {'formac':>7} {'asist':>6} {'sinESPN':>8}  campeón / subcampeón")
@@ -518,6 +519,19 @@ def main():
     print(f"\n{len(clubes)} clubes. Sin país: {sorted(i for i, c in clubes.items() if not c['pais'])}")
     if sin_pais:
         print("Nombres sin país (revisar equipos_ajustes.json):", sorted(sin_pais))
+
+
+URL_SITIO = "https://santino-uncal.github.io/FULBO/"  # dirección publicada en GitHub Pages
+
+
+def escribir_sitemap(anios):
+    """sitemap.xml: la lista de páginas que se le pasa a Google (la portada y una por edición)."""
+    urls = [URL_SITIO] + [f"{URL_SITIO}?edicion={a}" for a in anios]
+    (RAIZ / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls)
+        + "</urlset>\n", encoding="utf-8")
 
 
 def escribir(ruta, prefijo, datos):

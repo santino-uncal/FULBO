@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://santino-uncal.github.io/FULBO/sitemap.xml
