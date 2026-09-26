@@ -174,12 +174,17 @@
     let html = `<h2>${ed.anio}</h2>
       <p>🏆 Campeón: <strong>${ed.campeon ? club(ed.campeon) : "—"}</strong> · Subcampeón: ${ed.subcampeon ? club(ed.subcampeon) : "—"}</p>
       <p class="vacio">Fuentes: ${ed.fuentes.join(" + ")}</p>`;
+    // La final (y su desempate, si hubo) va arriba de todo
+    const esFinal = f => f.nombre.startsWith("Final");
+    ed.fases.filter(esFinal).forEach(f => {
+      html += `<h3>${esc(f.nombre)}</h3>` + f.partidos.map(partido).join("");
+    });
     html += gruposHTML(ed);
     html += tablaRanking("Goleadores", ranking(ed, "goles"));
     html += tablaRanking("Asistidores", ranking(ed, "asistencias"));
-    // Las fases más importantes primero (la final arriba)
-    [...ed.fases].reverse().forEach(f => {
-      html += `<details class="fase" ${f.nombre.startsWith("Final") ? "open" : ""}><summary>${esc(f.nombre)} (${f.partidos.length})</summary>` +
+    // El resto de las fases, de la más importante a la primera
+    [...ed.fases].reverse().filter(f => !esFinal(f)).forEach(f => {
+      html += `<details class="fase"><summary>${esc(f.nombre)} (${f.partidos.length})</summary>` +
         f.partidos.map(partido).join("") + `</details>`;
     });
     html += planteles(ed);
