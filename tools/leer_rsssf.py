@@ -1,0 +1,516 @@
+"""Convierte las páginas de RSSSF (tools/cache/rsssf) en datos estructurados.
+
+No se usa solo: lo llama tools/generar_datos.py. Para revisar una edición suelta:
+    python tools/leer_rsssf.py 1975
+Muestra los partidos leídos y las líneas que no entendió.
+"""
+import html
+import json
+import re
+import sys
+from pathlib import Path
+
+RAIZ = Path(__file__).resolve().parent.parent
+CACHE = RAIZ / "tools" / "cache" / "rsssf"
+
+MESES = {m: i for i, m in enumerate(
+    ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+
+FASES = [  # (patrón en inglés, nombre en castellano, tipo)
+    (r"preliminary|qualifying|play-?offs? [a-f]$|first stage|second stage|third stage", "Fase previa", "eliminatoria"),
+    (r"^group phase|^group stage", "Fase de grupos", "grupos"),
+    (r"^first round", "Primera fase", None),
+    (r"^second round", "Segunda fase", None),
+    (r"^third round", "Tercera fase", None),
+    (r"round of 16|eighth-?finals|^octavos", "Octavos de final", "eliminatoria"),
+    (r"quarter-?finals", "Cuartos de final", "eliminatoria"),
+    (r"semi-?finals", "Semifinales", None),
+    (r"^finals?\b", "Final", "eliminatoria"),
+    (r"third place", "Tercer puesto", "eliminatoria"),
+]
+
+RE_ESC = r"(\d+)-(\d+)"
+RE_FECHA = r"(?:([A-Z][a-z]{2})\s+(\d{1,2})|(\d{1,2})\s+([A-Z][a-z]{2}))"
+RE_PARTIDO = re.compile(
+    r"^\s*(?:" + RE_FECHA + r"\s*:)?\s*(?P<a>\S.*?)(?:\s+-\s+|\s{2,}|\s+–\s+)(?P<b>\S.*?)\s+"
+    r"(?P<ga>\d+)-(?P<gb>\d+)(?P<resto>.*)$")
+RE_LLAVE = re.compile(r"^(?P<a>\S.*?)\s{2,}(?P<pa>[A-Z][a-z]{2})\s+(?P<b>\S.*?)\s{2,}(?P<pb>[A-Z][a-z]{2})\s+(?P<resto>.*)$")
+RE_TABLA = re.compile(r"^\s*(?:\d+\.)?\s*(?P<nombre>\S.*?)\s+\d+\s+\d+\s+\d+\s+\d+\s+\d+-\s*\d+\s+-?\d+[a-z*]*(\s|$)")
+RE_DETALLE = re.compile(r"^(1st|2nd|3rd) leg[.,]|^(play-?off|replay|final|match)[.,]|^(first|second|third) leg$", re.I)
+RE_MINUTO = re.compile(r"^\s*(?:(\d+|\?)(?:\+\d+)?'\s+)?([^\d:,]+?)\s+(\d+)-(\d+)\b.*$")
+RE_PAIS = {"Arg": "ARG", "Bra": "BRA", "Uru": "URU", "Par": "PAR", "Chi": "CHI", "Col": "COL",
+           "Per": "PER", "Ecu": "ECU", "Bol": "BOL", "Ven": "VEN", "Mex": "MEX"}
+
+
+def leer_html(anio):
+    nombre = f"copa{anio}.html" if anio >= 2010 else f"copa{anio % 100:02d}.html"
+    crudo = (CACHE / nombre).read_bytes()
+    try:
+        texto = crudo.decode("utf-8")
+    except UnicodeDecodeError:
+        texto = crudo.decode("latin-1")
+    texto = texto.split('name="about"')[0]
+    texto = re.sub(r"<[^>]+>", "", texto)
+    texto = html.unescape(texto).replace("\xa0", " ").expandtabs(8)
+    lineas = [l.rstrip() for l in texto.splitlines()]
+    # Unir listas de goleadores o formaciones que siguen en la línea de abajo
+    # (solo si el renglón siguiente es continuación: sangrado y sin pinta de partido;
+    #  RSSSF a veces se olvida de cerrar el corchete)
+    unidas = []
+    for l in lineas:
+        abierta = unidas and unidas[-1].count("[") > unidas[-1].count("]")
+        continua = l.startswith((" ", "\t")) and l.strip() and not l.strip().startswith("[") \
+            and not RE_PARTIDO.match(l) and not re.match(r"^\s*\d+\.", l)
+        if abierta and continua:
+            unidas[-1] += " " + l.strip()
+        else:
+            if abierta:
+                unidas[-1] += "]"
+            unidas.append(l)
+    return unidas
+
+
+def fechas_de(texto, anio):
+    """'Apr 20 & May 3' -> ['1960-04-20', '1960-05-03']. También '24 Apr'."""
+    res, mes = [], None
+    for tok in re.findall(r"[A-Za-z]{3,}|\d+", texto):
+        if tok[:3].lower() in MESES:
+            mes = MESES[tok[:3].lower()]
+            # formato '24 Apr': el número anterior era el día de este mes
+            if res and res[-1][1] is None:
+                res[-1] = (res[-1][0], mes)
+        elif tok.isdigit() and int(tok) <= 31:
+            res.append((int(tok), mes))
+    return [f"{anio}-{m:02d}-{d:02d}" for d, m in res if m]
+
+
+def fecha_partido(m, anio):
+    if m.group(1):
+        mes, dia = m.group(1), m.group(2)
+    elif m.group(4):
+        mes, dia = m.group(4), m.group(3)
+    else:
+        return None
+    if mes.lower() not in MESES:
+        return None
+    return f"{anio}-{MESES[mes.lower()]:02d}-{int(dia):02d}"
+
+
+def leer_goles(texto):
+    """'[Spencer(4), Borges(2); Alcácer]' -> ([goles del local], [goles del visitante])."""
+    texto = texto.strip().strip("[]")
+    lados = texto.split(";")
+    res = []
+    for lado in lados[:2]:
+        goles, anterior = [], None
+        for tok in [t.strip() for t in lado.split(",") if t.strip()]:
+            tipo = None
+            if re.search(r"\bo/?g\b|\d+og$|\(og\)", tok):
+                tipo = "ec"
+            elif re.search(r"\d+pen$|\(pen\)|\bpen\b", tok):
+                tipo = "pen"
+            tok2 = re.sub(r"\s*\(?\bo/?g\)?$|(?<=\d)og$|(?<=\d)pen$|\s*\(pen\)|\s+pen$", "", tok).strip()
+            cant = 1
+            m = re.search(r"\((\d+)\)\s*$", tok2)
+            if m:
+                cant = int(m.group(1))
+                tok2 = tok2[:m.start()].strip()
+            minuto = None
+            m = re.search(r"(?:^|\s)(\d+)(?:\+(\d+))?\s*$", tok2)
+            if m:
+                minuto = int(m.group(1))
+                tok2 = tok2[:m.start()].strip()
+            nombre = tok2 or anterior
+            if not nombre:
+                continue
+            anterior = nombre
+            for _ in range(cant):
+                goles.append({"jugador": nombre, "min": minuto, "tipo": tipo})
+        res.append(goles)
+    while len(res) < 2:
+        res.append([])
+    return res
+
+
+def fase_de(titulo):
+    t = titulo.lower().strip()
+    for patron, nombre, tipo in FASES:
+        if re.search(patron, t):
+            return nombre, tipo
+    return None, None
+
+
+def separar_sin_espacios(linea, conocidos):
+    """'Feb 19: Guaraní-Cerro Porteño   1-0' (1997): elegir el guion que separa dos clubes
+    conocidos, para no partir nombres como 'Colo-Colo'."""
+    m = re.match(r"^(\s*(?:" + RE_FECHA + r"\s*:)?\s*)(\S.*?)(\s+\d+-\d+.*)$", linea)
+    if not m or " - " in linea:
+        return linea
+    equipos = m.group(6)
+    guiones = [i for i, c in enumerate(equipos) if c == "-"]
+    for i in guiones:
+        a, b = equipos[:i].strip(), equipos[i + 1:].strip()
+        if a in conocidos or b in conocidos:
+            return m.group(1) + a + " - " + b + m.group(7)
+    return linea
+
+
+def leer(anio):
+    lineas = leer_html(anio)
+    conocidos = set()
+    for l in lineas:  # nombres de las tablas de posiciones
+        mt = RE_TABLA.match(l)
+        if mt:
+            conocidos.add(re.sub(r"\s*\(.*$", "", mt.group("nombre")).strip())
+    lineas = [separar_sin_espacios(l, conocidos) if re.match(r"^\s*" + RE_FECHA + r"\s*:\s*[^\d]*\S-\S", l) else l
+              for l in lineas]
+    partidos, raros, goleadores = [], [], []
+    ciudades = {}  # nombre crudo -> ciudad (de las tablas de grupos)
+    fase, subfase, tipo_fase = "Fase de grupos", None, "grupos"
+    fechas_llave = []
+    pendientes = []        # partidos que esperan su renglón de goleadores
+    detalle = None         # bloque '1st leg. Estadio, Ciudad, 12- 6-1960'
+    en_goleadores = False
+    llave_n = 0
+    en_formacion = None
+
+    def nuevo(**kw):
+        p = {"fase": fase if not subfase else f"{fase} — {subfase}", "fecha": None,
+             "goles": [], "notas": None, **kw}
+        partidos.append(p)
+        return p
+
+    for linea in lineas:
+        s = linea.strip()
+        if not s or s.startswith(("Overview Page", "About this document")) or re.match(r"^\d{4}\s*(\||$)", s):
+            continue
+
+        # --- Tabla de goleadores del torneo ---
+        if re.match(r"^top ?scorers?", s, re.I):
+            en_goleadores = True
+            continue
+        if en_goleadores:
+            m = re.match(r"^(.+?)\s{2,}(.+?)\s{2,}(\d+)\b", s) or re.match(r"^(.+?)\s{2,}(\S.*?)\s+(\d+)$", s)
+            if m:
+                goleadores.append({"jugador": m.group(1).strip(), "equipo": m.group(2).strip(),
+                                   "goles": int(m.group(3))})
+                continue
+            en_goleadores = False
+
+        # --- Bloque de detalle de un partido (sobre todo finales) ---
+        #   '1st leg. Centenario, Montevideo, 12- 6-1960'   o bien   'First Leg' + '14 June 2000.  Buenos Aires ARG'
+        if RE_DETALLE.match(s):
+            if detalle is not None:
+                cerrar_detalle(detalle)
+            idx = 0 if re.match(r"^(1st|first)", s, re.I) else 1 if re.match(r"^(2nd|second)", s, re.I) else 2
+            de_llave = [p for p in partidos if p.get("llave") == llave_n and llave_n]
+            partes = re.split(r"[.,]", s, 1)
+            partes = [x.strip() for x in partes[1].split(",")] if len(partes) > 1 else []
+            m = re.search(r"(\d+)-\s*(\d+)-(\d{4})", s)
+            detalle = {"estadio": ", ".join(x for x in partes[:-1] if x) or None,
+                       "fecha": f"{m.group(3)}-{int(m.group(2)):02d}-{int(m.group(1)):02d}" if m else None,
+                       "partido": de_llave[idx] if idx < len(de_llave) else None,
+                       "orientado": False, "minutos": [], "formaciones": {}, "goles_texto": None}
+            if detalle["partido"] is None and detalle["fecha"]:
+                cand = [p for p in partidos if p["fecha"] == detalle["fecha"]]
+                detalle["partido"] = cand[-1] if cand else None
+            en_formacion = None
+            continue
+        if detalle is not None:
+            p = detalle["partido"]
+            # renglón con fecha larga: '14 June 2000.  Buenos Aires ARG (att: 50580)'
+            m = re.match(r"^(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})\.?\s*(.*?)\s*(\(.*)?$", s)
+            if m and m.group(2)[:3].lower() in MESES:
+                detalle["fecha"] = f"{m.group(3)}-{MESES[m.group(2)[:3].lower()]:02d}-{int(m.group(1)):02d}"
+                if m.group(4):
+                    detalle["estadio"] = re.sub(r"\s+[A-Z]{3}$", "", m.group(4))
+                continue
+            # renglón del partido: 'Peñarol - Olimpia 1-0'  o  'Boca Juniors  2-2  Palmeiras'
+            m = RE_PARTIDO.match(s) or re.match(r"^(?P<a>\S.*?)\s{2,}(?P<ga>\d+)-(?P<gb>\d+)\s{2,}(?P<b>\S.*)$", s)
+            if m and not detalle["orientado"]:
+                a, b = m.group("a").strip(), m.group("b").strip()
+                ga, gb = int(m.group("ga")), int(m.group("gb"))
+                cand = [x for x in partidos if not x.get("_detalle") and (
+                        ((x["local"], x["visitante"]) == (a, b) and (x["gl"], x["gv"]) == (ga, gb)) or
+                        ((x["local"], x["visitante"]) == (b, a) and (x["gl"], x["gv"]) == (gb, ga)))]
+                if p is None or (p not in cand and cand):
+                    p = cand[-1] if cand else p
+                if p is not None and (p["local"], p["gl"]) != (a, ga) and (p["visitante"], p["gv"]) == (a, ga):
+                    # desempate en cancha neutral escrito al revés: dar vuelta el partido
+                    p["local"], p["visitante"], p["gl"], p["gv"] = p["visitante"], p["local"], p["gv"], p["gl"]
+                    p["pen_l"], p["pen_v"] = p.get("pen_v"), p.get("pen_l")
+                    for g in p["goles"]:
+                        g["lado"] = "visitante" if g["lado"] == "local" else "local"
+                if p is None:
+                    raros.append("detalle sin partido: " + s)
+                detalle["partido"] = p
+                detalle["orientado"] = True
+                continue
+            if p is None:
+                detalle = None
+            else:
+                m = RE_MINUTO.match(linea)
+                if m and not re.match(r"^\s*[A-Z][A-Za-z ]+:", linea):
+                    minuto = int(m.group(1)) if m.group(1) and m.group(1).isdigit() else None
+                    detalle["minutos"].append((minuto, m.group(2).strip(), int(m.group(3)), int(m.group(4))))
+                    continue
+                if linea.startswith(" "):
+                    # renglón que sigue al de arriba (formación larga, tarjetas, etc.)
+                    if en_formacion:
+                        detalle["formaciones"][en_formacion] += " " + s
+                    continue
+                m = re.match(r"^([A-Za-z][^:\[\]]{0,40}?)\s*:\s*(.*)$", s)
+                if m and not re.match(r"^" + RE_FECHA + r"\s*:", s):
+                    clave, valor = m.group(1).strip(), m.group(2).strip()
+                    en_formacion = None
+                    if re.match(r"^(Referee|Ref\.?)$", clave, re.I):
+                        p["arbitro"] = re.sub(r"\s+[A-Z]{3}$", "", valor)
+                    elif re.match(r"^(Stadium|Venue)$", clave, re.I):
+                        detalle["estadio"] = valor
+                    elif re.match(r"^Goals?$", clave, re.I):
+                        detalle["goles_texto"] = valor
+                    elif re.match(r"^Penalt", clave, re.I):
+                        detalle["penales"] = True  # lo que sigue son los pateadores, no formaciones
+                    elif re.match(r"^(NB|Note|Att|Attendance|Yellow|Red|Sent|Scored|Missed|Coach|T)\b", clave, re.I):
+                        pass
+                    elif not detalle.get("penales"):
+                        en_formacion = clave
+                        detalle["formaciones"][clave] = valor
+                    continue
+                if re.match(r"^\d+-\d+ on (aggregate|penalties)|^Coach", s, re.I):
+                    continue
+                # fin del bloque: volcar lo juntado al partido
+                cerrar_detalle(detalle)
+                detalle = None
+                en_formacion = None
+
+        # --- Goleadores de los partidos recién leídos ---
+        if s.startswith("["):
+            if not pendientes:
+                raros.append("goles sin partido: " + s)
+                continue
+            p = pendientes.pop(0)
+            local, visita = leer_goles(s)
+            p["goles"] = [{**g, "lado": "local"} for g in local] + [{**g, "lado": "visitante"} for g in visita]
+            continue
+
+        # --- Fechas de una ronda eliminatoria: '(Apr 19 & 30)' ---
+        if re.match(r"^\(.*\)$", s) and fechas_de(s, anio):
+            fechas_llave = fechas_de(s, anio)
+            continue
+
+        # --- Llave de ida y vuelta: 'Peñarol  Uru  Olimpia  Par  1-0 1-1 2-1' ---
+        m = RE_LLAVE.match(s)
+        if m and m.group("pa") in RE_PAIS and m.group("pb") in RE_PAIS:
+            a, b = m.group("a").strip(), m.group("b").strip()
+            previa = [p for p in partidos if p.get("llave") == llave_n]
+            repite = previa and {previa[0]["local"], previa[0]["visitante"]} == {a, b}
+            if not repite:
+                llave_n += 1
+            resto = m.group("resto")
+            pais = {a: RE_PAIS[m.group("pa")], b: RE_PAIS[m.group("pb")]}
+            toks = resto.split()
+            normales, desempate, penales, notas = [], None, None, []
+            for t in toks:
+                mm = re.match(r"^\[(\d+)-(\d+)(aet)?\]", t)
+                if mm:
+                    desempate = (int(mm.group(1)), int(mm.group(2)))
+                    continue
+                mm = re.match(r"^(\d+)-(\d+)p", t)
+                if mm:
+                    penales = (int(mm.group(1)), int(mm.group(2)))
+                    continue
+                mm = re.match(r"^(\d+)-(\d+)", t)
+                if mm:
+                    normales.append((int(mm.group(1)), int(mm.group(2))))
+                    continue
+                if t == "awd":
+                    normales.append(None)
+                    notas.append("partido dado por ganado")
+                    continue
+                notas.append(t)
+            if len(normales) >= 3:
+                normales = normales[:2]   # el tercero es el global
+            if repite and len(normales) == 1:  # es el partido desempate de la llave anterior
+                desempate, normales = normales[0], []
+            nuevos = []
+            for i, r in enumerate(normales):
+                ida = i == 0
+                p = nuevo(local=a if ida else b, visitante=b if ida else a,
+                          gl=(r[0] if ida else r[1]) if r else None,
+                          gv=(r[1] if ida else r[0]) if r else None,
+                          fecha=fechas_llave[i] if i < len(fechas_llave) else None,
+                          llave=llave_n, paises=pais)
+                if r is None:
+                    p["notas"] = "dado por ganado"
+                nuevos.append(p)
+            if desempate:
+                p = nuevo(local=a, visitante=b, gl=desempate[0], gv=desempate[1], llave=llave_n, paises=pais,
+                          fecha=fechas_llave[len(normales)] if len(fechas_llave) > len(normales) else None,
+                          notas="partido desempate")
+                nuevos.append(p)
+            if penales and nuevos:
+                ult = nuevos[-1]
+                ult["pen_l"], ult["pen_v"] = (penales if ult["local"] == a else penales[::-1])
+            pendientes = [p for p in nuevos if (p["gl"] or 0) + (p["gv"] or 0) > 0]
+            continue
+
+        # --- Tabla de posiciones: solo se usa para saber la ciudad de cada club ---
+        m = RE_TABLA.match(linea)
+        if m and not RE_PARTIDO.match(linea.split(":")[-1] if ":" in linea[:8] else "x"):
+            nombre = m.group("nombre").strip()
+            mc = re.match(r"^(.*?)\s*\(([^)]+)\)\s*$", nombre)
+            if mc:
+                ciudades[mc.group(1).strip()] = mc.group(2).strip()
+            continue
+
+        # --- Partido no jugado, suspendido o dado por ganado: 'Boca Juniors - Universitario   n/p [awarded...]' ---
+        m = re.match(r"^\s*(?:" + RE_FECHA + r"\s*:)?\s*(\S.*?)\s+-\s+(\S.*?)\s+(n/p|awd|abd)\b\s*(.*)$", linea)
+        if m:
+            nota = m.group(8).strip(" []*") or {"n/p": "no se jugó", "awd": "dado por ganado",
+                                                "abd": "suspendido"}[m.group(7)]
+            p = nuevo(local=m.group(5).strip(), visitante=m.group(6).strip(), gl=None, gv=None,
+                      fecha=fecha_partido(m, anio), notas=nota)
+            if p["fecha"] is None and len(partidos) > 1:
+                p["fecha"] = partidos[-2]["fecha"]
+            pendientes = []
+            continue
+
+        # --- Partido suelto (grupos, desempates): 'Feb 28: Rosario Central - Newell's  1-1' ---
+        m = RE_PARTIDO.match(linea)
+        if m and (m.group(1) or m.group(3) or linea.startswith(" ") or " - " in s):
+            resto = m.group("resto")
+            p = nuevo(local=m.group("a").strip(), visitante=m.group("b").strip(),
+                      gl=int(m.group("ga")), gv=int(m.group("gb")), fecha=fecha_partido(m, anio))
+            if p["fecha"] is None and partidos[:-1]:
+                p["fecha"] = partidos[-2]["fecha"]  # misma fecha que el renglón de arriba
+            mp = re.search(r"(\d+)-(\d+)p", resto)
+            if mp:
+                p["pen_l"], p["pen_v"] = int(mp.group(1)), int(mp.group(2))
+            mn = re.search(r"\((.+)\)", resto)
+            if mn:
+                p["notas"] = mn.group(1)
+            pendientes = [p] if p["gl"] + p["gv"] > 0 else []
+            continue
+
+        # --- Partido no jugado: 'Botafogo - Millonarios        x' ---
+        if re.match(r"^" + RE_FECHA + r"\s*:.+\s-\s.+\s+[a-z*]$", s):
+            continue
+
+        # --- Títulos de fase ---
+        titulo = re.sub(r"\(.*?\)|\[.*?\]", "", s).strip()
+        nombre, tipo = fase_de(titulo)
+        if re.match(r"^group\s+\w+", titulo, re.I):
+            subfase = "Grupo " + titulo.split()[1]
+            continue
+        if re.search(r"playoff|play-off", titulo, re.I) and not nombre:
+            subfase = (subfase.split(" — ")[0] if subfase else "") + " — Desempate" if subfase else "Desempate"
+            continue
+        if nombre:
+            fase, tipo_fase, subfase = nombre, tipo, None
+            fechas_llave = fechas_de(s, anio) if "(" in s else []
+            continue
+
+        # Notas al pie ('x 1st leg in Valencia'), byes, etc.
+        if (re.match(r"^[a-z*]\s|^NB|^Note|^Competing|^Copa Libertadores|^<|^Att(endance)?\b|^[A-Z][a-z]+\s+-\s", s)
+                or re.search(r"\bbye\b", s)):
+            continue
+        raros.append(s)
+
+    if detalle is not None:
+        cerrar_detalle(detalle)
+    for p in partidos:
+        p.pop("_detalle", None)
+    return {"anio": anio, "partidos": partidos, "goleadores": goleadores, "ciudades": ciudades, "raros": raros}
+
+
+def partir_arriba(texto, seps=",;"):
+    """Separa por comas/punto y coma, pero no dentro de paréntesis."""
+    partes, nivel, actual = [], 0, ""
+    for c in texto:
+        nivel += c == "("
+        nivel -= c == ")"
+        if c in seps and nivel == 0:
+            partes.append(actual.strip())
+            actual = ""
+        else:
+            actual += c
+    if actual.strip():
+        partes.append(actual.strip())
+    return partes
+
+
+def leer_formacion(texto):
+    """'Maidana, W.Martínez (Majewski), ... Coach: Bianchi'
+       -> {'titulares': [...], 'cambios': [{'sale','entra','min'}], 'dt': ...}"""
+    dt = None
+    m = re.search(r"\b(Coach|T)\s*:\s*(.+?)\.?\s*$", texto)
+    if m:
+        dt, texto = m.group(2).strip(), texto[:m.start()]
+    titulares, cambios = [], []
+    for item in partir_arriba(texto.strip().rstrip(".")):
+        item = re.sub(r"\((c|cap)\)", "", item).strip()
+        entradas = re.findall(r"\(([^()]*)\)", item)
+        nombre = re.sub(r"\s*\([^()]*\)", "", item).strip()
+        if not nombre:
+            continue
+        titulares.append(nombre)
+        sale = nombre
+        for e in entradas:
+            me = re.match(r"^(\d+)?'?\s*(.+)$", e.strip())
+            entra = me.group(2).strip()
+            cambios.append({"sale": sale, "entra": entra, "min": int(me.group(1)) if me.group(1) else None})
+            sale = entra
+    return {"titulares": titulares, "cambios": cambios, "dt": dt}
+
+
+def cerrar_detalle(detalle):
+    """Pasa estadio, fecha, goles y formaciones del bloque de detalle al partido."""
+    p = detalle["partido"]
+    if p is None:
+        return
+    p["_detalle"] = True
+    if detalle["estadio"]:
+        p["estadio"] = detalle["estadio"]
+    if detalle["fecha"]:
+        p["fecha"] = detalle["fecha"]
+    total = (p["gl"] or 0) + (p["gv"] or 0)
+    minutos = detalle["minutos"]
+    if minutos and len(minutos) == total:
+        goles, la = [], 0
+        for minuto, nombre, a, b in minutos:
+            lado = "local" if a > la else "visitante"
+            la = a
+            tipo = "ec" if re.search(r"\bo/?g\b", nombre) else ("pen" if re.search(r"\bpen\b", nombre) else None)
+            nombre = re.sub(r"\s*\((o/?g|pen)\)|\s+(o/?g|pen)$", "", nombre).strip()
+            goles.append({"jugador": nombre, "min": minuto, "tipo": tipo, "lado": lado})
+        p["goles"] = goles
+    elif detalle["goles_texto"] and re.search(r"\d+-\d+\s*\(\d+", detalle["goles_texto"]):
+        # 'Goals: 0-1 (79) Marcelo Delgado' -> el marcador dice de qué lado fue
+        goles, la = [], 0
+        for a, b, minuto, nombre in re.findall(r"(\d+)-(\d+)\s*\((\d+)[^)]*\)\s*([^,;]+)", detalle["goles_texto"]):
+            goles.append({"jugador": nombre.strip(), "min": int(minuto), "tipo": None,
+                          "lado": "local" if int(a) > la else "visitante"})
+            la = int(a)
+        if len(goles) == total:
+            p["goles"] = goles
+    elif detalle["goles_texto"]:
+        # 'Goals: 22 Arruabarrena, 61 Arruabarrena; 43 Pena' -> el minuto va adelante
+        texto = ";".join(",".join(re.sub(r"^(\d+)\s+(.+)$", r"\2 \1", t.strip()) for t in lado.split(","))
+                         for lado in detalle["goles_texto"].split(";"))
+        local, visita = leer_goles(texto)
+        if len(local) + len(visita) == total:
+            p["goles"] = [{**g, "lado": "local"} for g in local] + [{**g, "lado": "visitante"} for g in visita]
+    forms = {k: leer_formacion(v) for k, v in detalle["formaciones"].items() if not k.startswith("_")}
+    if forms:
+        p["formaciones_crudas"] = forms
+
+
+if __name__ == "__main__":
+    for a in [int(x) for x in sys.argv[1:]] or [1960]:
+        r = leer(a)
+        for p in r["partidos"]:
+            print(f"{p['fase']:<40} {p['fecha'] or '?':<11} {p['local']:>28} {p['gl']}-{p['gv']} {p['visitante']:<28} "
+                  f"{len(p['goles'])}g {p.get('notas') or ''}")
+        print("GOLEADORES:", r["goleadores"][:5])
+        print("NO ENTENDIDAS:", *r["raros"], sep="\n  ")
