@@ -55,3 +55,7 @@ table { width: 100%; border-collapse: collapse; }
 th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--borde); }
 th { color: var(--texto-suave); font-weight: 600; }
 td.num { text-align: right; }
+
+details.fase, details.plantel { margin: 12px 0; }
+details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
+.gol-eq { opacity: .7; }

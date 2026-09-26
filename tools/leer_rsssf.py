@@ -34,10 +34,17 @@ RE_FECHA = r"(?:([A-Z][a-z]{2})\s+(\d{1,2})|(\d{1,2})\s+([A-Z][a-z]{2}))"
 RE_PARTIDO = re.compile(
     r"^\s*(?:" + RE_FECHA + r"\s*:)?\s*(?P<a>\S.*?)(?:\s+-\s+|\s{2,}|\s+–\s+)(?P<b>\S.*?)\s+"
     r"(?P<ga>\d+)-(?P<gb>\d+)(?P<resto>.*)$")
-RE_LLAVE = re.compile(r"^(?P<a>\S.*?)\s{2,}(?P<pa>[A-Z][a-z]{2})\s+(?P<b>\S.*?)\s{2,}(?P<pb>[A-Z][a-z]{2})\s+(?P<resto>.*)$")
+_COD = r"(?:Arg|Bra|Uru|Par|Chi|Col|Per|Ecu|Bol|Ven|Mex)"
+# El nombre puede ir pegado al código de país cuando es largo: 'Independiente (Avellaneda)Arg'
+RE_LLAVE = re.compile(r"^(?P<a>\S.*?)(?:\s+|(?<=\)))(?P<pa>" + _COD + r")\s+(?P<b>\S.*?)(?:\s+|(?<=\)))(?P<pb>" + _COD +
+                      r")\s+(?P<resto>(?:\d|\[|awd|bye|n/p).*)$")
 RE_TABLA = re.compile(r"^\s*(?:\d+\.)?\s*(?P<nombre>\S.*?)\s+\d+\s+\d+\s+\d+\s+\d+\s+\d+-\s*\d+\s+-?\d+[a-z*]*(\s|$)")
-RE_DETALLE = re.compile(r"^(1st|2nd|3rd) leg[.,]|^(play-?off|replay|final|match)[.,]|^(first|second|third) leg$", re.I)
+RE_DETALLE = re.compile(r"^(1st|2nd|2st|3rd) leg[.,]|^(play-?off|replay|final|match)[.,]|^(first|second|third) leg\s*(\[|$)",
+                        re.I)
 RE_MINUTO = re.compile(r"^\s*(?:(\d+|\?)(?:\+\d+)?'\s+)?([^\d:,]+?)\s+(\d+)-(\d+)\b.*$")
+PAISES_NOMBRE = {"Argentina": "ARG", "Brazil": "BRA", "Uruguay": "URU", "Paraguay": "PAR", "Chile": "CHI",
+                 "Colombia": "COL", "Peru": "PER", "Ecuador": "ECU", "Bolivia": "BOL", "Venezuela": "VEN",
+                 "Mexico": "MEX"}
 RE_PAIS = {"Arg": "ARG", "Bra": "BRA", "Uru": "URU", "Par": "PAR", "Chi": "CHI", "Col": "COL",
            "Per": "PER", "Ecu": "ECU", "Bol": "BOL", "Ven": "VEN", "Mex": "MEX"}
 
@@ -48,7 +55,7 @@ def leer_html(anio):
     try:
         texto = crudo.decode("utf-8")
     except UnicodeDecodeError:
-        texto = crudo.decode("latin-1")
+        texto = crudo.decode("cp1252", errors="replace")  # Windows: incluye el guion largo –
     texto = texto.split('name="about"')[0]
     texto = re.sub(r"<[^>]+>", "", texto)
     texto = html.unescape(texto).replace("\xa0", " ").expandtabs(8)
@@ -173,10 +180,13 @@ def leer(anio):
     en_goleadores = False
     llave_n = 0
     en_formacion = None
+    paises_grupo = []
 
     def nuevo(**kw):
         p = {"fase": fase if not subfase else f"{fase} — {subfase}", "fecha": None,
              "goles": [], "notas": None, **kw}
+        if subfase and subfase.startswith("Grupo") and paises_grupo:
+            p["paises_grupo"] = paises_grupo
         partidos.append(p)
         return p
 
@@ -202,13 +212,25 @@ def leer(anio):
         if RE_DETALLE.match(s):
             if detalle is not None:
                 cerrar_detalle(detalle)
-            idx = 0 if re.match(r"^(1st|first)", s, re.I) else 1 if re.match(r"^(2nd|second)", s, re.I) else 2
+            idx = 0 if re.match(r"^(1st|first)", s, re.I) else 1 if re.match(r"^(2nd|2st|second)", s, re.I) else 2
             de_llave = [p for p in partidos if p.get("llave") == llave_n and llave_n]
             partes = re.split(r"[.,]", s, 1)
             partes = [x.strip() for x in partes[1].split(",")] if len(partes) > 1 else []
             m = re.search(r"(\d+)-\s*(\d+)-(\d{4})", s)
-            detalle = {"estadio": ", ".join(x for x in partes[:-1] if x) or None,
-                       "fecha": f"{m.group(3)}-{int(m.group(2)):02d}-{int(m.group(1)):02d}" if m else None,
+            fecha = f"{m.group(3)}-{int(m.group(2)):02d}-{int(m.group(1)):02d}" if m else None
+            estadio = ", ".join(x for x in partes[:-1] if x) or None
+            mc = re.match(r"^\w+ leg\s*\[(.*)\]?$", s, re.I)
+            if mc:  # 'First Leg [Jul 17, Defensores del Chaco, Asunción, att: 32.212, ref: Néstor Pitana (ARG)]'
+                trozos = [x.strip() for x in mc.group(1).rstrip("]").split(",")]
+                f = fechas_de(trozos[0], anio) if trozos else []
+                fecha = f[0] if f else None
+                lugar = [x for x in trozos[1:] if not re.match(r"^(att|ref)\b", x, re.I)]
+                estadio = ", ".join(lugar) or None
+                mr = re.search(r"ref:\s*([^\]]+?)\s*(\(\w+\))?\]?$", s)
+                arbitro_det = mr.group(1).strip() if mr else None
+            else:
+                arbitro_det = None
+            detalle = {"estadio": estadio, "fecha": fecha, "arbitro": arbitro_det,
                        "partido": de_llave[idx] if idx < len(de_llave) else None,
                        "orientado": False, "minutos": [], "formaciones": {}, "goles_texto": None}
             if detalle["partido"] is None and detalle["fecha"]:
@@ -295,7 +317,7 @@ def leer(anio):
             continue
 
         # --- Fechas de una ronda eliminatoria: '(Apr 19 & 30)' ---
-        if re.match(r"^\(.*\)$", s) and fechas_de(s, anio):
+        if re.match(r"^\(.*\)?$", s) and fechas_de(s, anio):
             fechas_llave = fechas_de(s, anio)
             continue
 
@@ -402,6 +424,8 @@ def leer(anio):
         nombre, tipo = fase_de(titulo)
         if re.match(r"^group\s+\w+", titulo, re.I):
             subfase = "Grupo " + titulo.split()[1]
+            mp = re.search(r"\[(.*?)\]", s)
+            paises_grupo = [PAISES_NOMBRE.get(x.strip(), x.strip()) for x in mp.group(1).split(",")] if mp else []
             continue
         if re.search(r"playoff|play-off", titulo, re.I) and not nombre:
             subfase = (subfase.split(" — ")[0] if subfase else "") + " — Desempate" if subfase else "Desempate"
@@ -444,7 +468,7 @@ def leer_formacion(texto):
     """'Maidana, W.Martínez (Majewski), ... Coach: Bianchi'
        -> {'titulares': [...], 'cambios': [{'sale','entra','min'}], 'dt': ...}"""
     dt = None
-    m = re.search(r"\b(Coach|T)\s*:\s*(.+?)\.?\s*$", texto)
+    m = re.search(r"\b(Coach|DT|T)\s*:\s*(.+?)\.?\s*$", texto, re.I)
     if m:
         dt, texto = m.group(2).strip(), texto[:m.start()]
     titulares, cambios = [], []
@@ -457,9 +481,11 @@ def leer_formacion(texto):
         titulares.append(nombre)
         sale = nombre
         for e in entradas:
-            me = re.match(r"^(\d+)?'?\s*(.+)$", e.strip())
+            # '(65 César La Paglia)' o '(Guilherme 64)': el minuto puede ir antes o después
+            me = re.match(r"^(\d+)?'?\s*(.+?)\s*(\d+)?'?$", e.strip())
             entra = me.group(2).strip()
-            cambios.append({"sale": sale, "entra": entra, "min": int(me.group(1)) if me.group(1) else None})
+            mins = me.group(1) or me.group(3)
+            cambios.append({"sale": sale, "entra": entra, "min": int(mins) if mins else None})
             sale = entra
     return {"titulares": titulares, "cambios": cambios, "dt": dt}
 
@@ -474,6 +500,8 @@ def cerrar_detalle(detalle):
         p["estadio"] = detalle["estadio"]
     if detalle["fecha"]:
         p["fecha"] = detalle["fecha"]
+    if detalle.get("arbitro"):
+        p["arbitro"] = detalle["arbitro"]
     total = (p["gl"] or 0) + (p["gv"] or 0)
     minutos = detalle["minutos"]
     if minutos and len(minutos) == total:
