@@ -221,6 +221,8 @@
     "6149": "universitario-de-sucre"
   },
   "resultados": {
-    "734789": {"gl": 0, "gv": 3, "notas": "Suspendido a los 70' (0-0) por incidentes; la Conmebol le dio el partido 0-3 a Fortaleza"}
+    "734789": {"gl": 0, "gv": 3, "notas": "Suspendido a los 70' (0-0) por incidentes; la Conmebol le dio el partido 0-3 a Fortaleza"},
+    "511434": {"gl": 3, "gv": 0, "notas": "Terminó 0-0; la Conmebol le dio el partido 3-0 a Independiente porque Santos hizo jugar a Carlos Sánchez, que estaba suspendido"},
+    "511421": {"gl": 0, "gv": 0, "notas": "Suspendido a los 81' (0-0) por incidentes en la tribuna; Independiente pasó de ronda"}
   }
 }
