@@ -42,7 +42,7 @@
       cuenta[clave].n++;
       cuenta[clave].detalle.push({ g, p, fase: f.nombre });   // para el botón "Ver"
     })));
-    return Object.values(cuenta).sort((a, b) => b.n - a.n || a.nombre.localeCompare(b.nombre)).slice(0, 15);
+    return Object.values(cuenta).sort((a, b) => b.n - a.n || a.nombre.localeCompare(b.nombre));
   }
 
   // Un renglón por gol o asistencia: minuto, partido con resultado, fase y fecha
@@ -60,11 +60,15 @@
   function tablaRanking(titulo, filas, tipo) {
     if (!filas.length) return "";
     const que = tipo === "goles" ? "goles" : "asistencias";
-    return `<h3>${titulo}</h3><table class="ranking"><thead><tr><th>Jugador</th><th>Equipo</th><th class="num">Cant.</th><th></th></tr></thead><tbody>` +
-      filas.map(r => `<tr><td>${esc(r.nombre)}</td><td>${club(r.equipo)}</td><td class="num">${r.n}</td>
+    const renglones = lista => lista.map(r => `<tr><td>${esc(r.nombre)}</td><td>${club(r.equipo)}</td><td class="num">${r.n}</td>
         <td class="num"><button class="ver" type="button" aria-expanded="false" title="Ver sus ${que}">Ver</button></td></tr>
-        <tr class="detalle" hidden><td colspan="4"><ul>${r.detalle.map(d => detalleRanking(d, tipo)).join("")}</ul></td></tr>`).join("") +
-      `</tbody></table>`;
+        <tr class="detalle" hidden><td colspan="4"><ul>${r.detalle.map(d => detalleRanking(d, tipo)).join("")}</ul></td></tr>`).join("");
+    // Se muestran los 15 primeros; el resto queda plegado debajo del botón "Ver todos"
+    const resto = filas.slice(15);
+    return `<h3>${titulo}</h3><table class="ranking"><thead><tr><th>Jugador</th><th>Equipo</th><th class="num">Cant.</th><th></th></tr></thead>
+      <tbody>${renglones(filas.slice(0, 15))}</tbody>
+      ${resto.length ? `<tbody class="resto" hidden>${renglones(resto)}</tbody>` : ""}</table>` +
+      (resto.length ? `<button class="ver-todos" type="button" data-total="${filas.length}">Ver todos (${filas.length})</button>` : "");
   }
 
   function textoGol(g, p) {
@@ -310,6 +314,13 @@
   };
   // Botón "Ver" de goleadores y asistidores: muestra u oculta el renglón de abajo
   edicionEl.addEventListener("click", e => {
+    const todos = e.target.closest("button.ver-todos");
+    if (todos) {   // "Ver todos": despliega el resto de la tabla que está justo arriba
+      const resto = todos.previousElementSibling.querySelector("tbody.resto");
+      resto.hidden = !resto.hidden;
+      todos.textContent = resto.hidden ? `Ver todos (${todos.dataset.total})` : "Ver menos";
+      return;
+    }
     const boton = e.target.closest("button.ver");
     if (!boton) return;
     const detalle = boton.closest("tr").nextElementSibling;

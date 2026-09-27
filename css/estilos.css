@@ -134,3 +134,8 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .ranking tr.detalle li + li { border-top: 1px solid var(--borde); }
 .det-min { min-width: 3.2em; font-weight: 700; font-variant-numeric: tabular-nums; }
 .det-meta { color: var(--texto-suave); font-size: .82rem; }
+.ver-todos {
+  display: block; margin: 10px auto 0; font: inherit; font-size: .9rem; padding: 6px 18px; cursor: pointer;
+  background: var(--panel); color: var(--acento); border: 1px solid var(--borde); border-radius: var(--radio);
+}
+.ver-todos:hover { border-color: var(--acento); }
