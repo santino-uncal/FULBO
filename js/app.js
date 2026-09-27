@@ -136,11 +136,11 @@
   }
   // Línea de la cancha según la posición: arquero, defensores, volantes, delanteros; sin posición al final
   function lineaDe(pos) {
-    if (!pos) return 9;
+    if (!pos || pos === "-") return 9;
     if (pos === "G") return 0;
     if (/^DM/.test(pos)) return 2;
     if (/^(D|CD|LB|RB|SW|LWB|RWB)/.test(pos)) return 1;
-    if (/^(M|CM|LM|RM)/.test(pos)) return 3;
+    if (/^(M|CM|LM|RM|RCM|LCM)/.test(pos)) return 3;
     if (/^AM/.test(pos)) return 4;
     if (/^(F|CF|LF|RF|RCF|LCF|ST|W)/.test(pos)) return 5;
     return 8;
