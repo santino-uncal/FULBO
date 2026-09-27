@@ -198,19 +198,111 @@
     </div>`;
   }
 
-  function gruposHTML(ed) {
+  // El cuadro de la última etapa de grupos va en una pestaña al lado, "Fase eliminatoria"
+  function gruposHTML(ed, cuadro) {
     const conGrupos = etapasDeGrupos(ed);
     const etapas = conGrupos.length ? conGrupos : etapasDeLlaves(ed);
-    return etapas.map(etapa => {
+    return etapas.map((etapa, i) => {
       const leyenda = [
         etapa.siguiente && `<span><i class="pasa"></i>Clasificación a ${esc(etapa.siguiente)}</span>`,
         etapa.campeon && `<span><i class="campeon"></i>Campeón</span>`,
         ed.anio >= 2017 && etapa.nombre === "Fase de grupos" && `<span><i class="sudamericana"></i>Pasa a la Copa Sudamericana</span>`
       ].filter(Boolean).join("");
-      return `<h3>${esc(etapa.nombre)}</h3>
-        <div class="grupos">${etapa.grupos.map(g => grupoHTML(g, etapa, ed.anio)).join("")}</div>
+      const grupos = `<div class="grupos">${etapa.grupos.map(g => grupoHTML(g, etapa, ed.anio)).join("")}</div>
         <p class="leyenda">${leyenda}</p>`;
+      if (!cuadro || i !== etapas.length - 1) return `<h3>${esc(etapa.nombre)}</h3>${grupos}`;
+      return `<div class="pestanas" role="tablist">
+          <button class="pestana" type="button" role="tab" aria-selected="true">${esc(etapa.nombre)}</button>
+          <button class="pestana" type="button" role="tab" aria-selected="false">Fase eliminatoria</button>
+        </div>
+        <div class="panel">${grupos}</div>
+        <div class="panel" hidden>${cuadro}</div>`;
     }).join("");
+  }
+
+  // ---- Cuadro de la fase eliminatoria (desde la última etapa de grupos hasta la final) ----
+
+  function cuadroHTML(ed) {
+    const esGrupo = f => / — Grupo /.test(f.nombre);
+    const ultimoGrupo = ed.fases.reduce((u, f, i) => esGrupo(f) ? i : u, -1);
+    // Junta los partidos en llaves: mismo par de equipos dentro de la misma fase (con su desempate)
+    const llaves = [];
+    ed.fases.forEach((f, i) => {
+      if (i <= ultimoGrupo) return;
+      const fase = f.nombre.replace(/ — Desempate$/, "");
+      f.partidos.forEach(p => {
+        const par = [p.local, p.visitante].sort().join("|");
+        // Orden de las llaves: fase, número de llave (algunas fechas están mal cargadas) y fecha
+        const orden = `${String(i).padStart(3, "0")}|${String(p.llave ?? 999).padStart(3, "0")}|${p.fecha || ""}`;
+        let ll = llaves.find(l => l.fase === fase && l.par === par);
+        if (!ll) llaves.push(ll = { fase, par, partidos: [], orden });
+        ll.partidos.push(p);
+        if (orden < ll.orden) ll.orden = orden;
+      });
+    });
+    llaves.forEach(ll => {
+      ll.partidos.sort((a, b) => (a.fecha || "").localeCompare(b.fecha || ""));
+      ll.equipos = [ll.partidos[0].local, ll.partidos[0].visitante];
+    });
+    const final = llaves.find(l => l.fase.startsWith("Final"));
+    if (!final) return "";
+    // La llave anterior de un equipo: la última que jugó antes de esta
+    // Si el equipo todavía no se conoce ("a definir"), la primera llave libre de la ronda anterior
+    const usadas = new Set([final]);
+    const anterior = (id, ll) => {
+      if (id === "a-definir") {
+        const antes = llaves.filter(l => l.orden < ll.orden && l.fase !== ll.fase);
+        const fase = antes.length && antes[antes.length - 1].fase;
+        return antes.find(l => l.fase === fase && !usadas.has(l));
+      }
+      return llaves.filter(l => l !== ll && l.orden < ll.orden && l.equipos.includes(id))
+        .sort((a, b) => b.orden.localeCompare(a.orden))[0];
+    };
+    // Arma el árbol hacia atrás desde la final: cada llave tiene arriba la de su primer equipo y abajo la del segundo
+    const niveles = [[{ ll: final, gana: ed.campeon }]];
+    while (niveles.length < 7) {
+      const previo = niveles[niveles.length - 1].flatMap(x => x
+        ? x.ll.equipos.map(id => {
+          const ll = anterior(id, x.ll);
+          if (!ll) return null;
+          usadas.add(ll);
+          return { ll, gana: id };
+        })
+        : [null, null]);
+      if (!previo.some(Boolean)) break;
+      niveles.push(previo);
+    }
+    if (niveles.length < 2) return "";   // sin eliminación directa antes de la final (p. ej. semifinales por grupos)
+    niveles.reverse();
+    // Título de cada ronda: el nombre de su fase, o uno genérico si varias rondas comparten fase (2002)
+    const nombres = niveles.map(nivel => nivel.find(Boolean).ll.fase);
+    const generico = { 16: "Dieciseisavos de final", 8: "Octavos de final", 4: "Cuartos de final", 2: "Semifinales", 1: "Final" };
+    const columnas = niveles.map((nivel, n) => {
+      const repetido = nombres.filter(x => x === nombres[n]).length > 1;
+      const nombre = repetido ? generico[nivel.length] || nombres[n] : nombres[n];
+      const casillas = nivel.map(x => `<div class="casilla">${x ? llaveHTML(x.ll, x.gana) : ""}</div>`);
+      const cuerpo = n === niveles.length - 1 ? casillas.join("")
+        : casillas.reduce((h, c, i) => i % 2 ? h + c + "</div>" : h + `<div class="par">` + c, "");
+      return `<div class="ronda"><div class="ronda-titulo">${esc(nombre)}</div><div class="ronda-cuerpo">${cuerpo}</div></div>`;
+    });
+    return `<div class="cuadro-scroll"><div class="cuadro">${columnas.join("")}</div></div>`;
+  }
+
+  // Una llave: cada equipo con sus goles en cada partido, el total y los penales
+  function llaveHTML(ll, gana) {
+    const goles = (p, id) => p.local === id ? p.gl : p.gv;
+    const conPen = [...ll.partidos].reverse().find(p => p.pen_l != null);
+    const unSolo = ll.partidos.length === 1;
+    const fila = id => {
+      const parciales = ll.partidos.map(p => goles(p, id));
+      const total = parciales.some(g => g == null) ? "–" : parciales.reduce((a, b) => a + b, 0);
+      const pen = conPen ? ` <small>(${conPen.local === id ? conPen.pen_l : conPen.pen_v})</small>` : "";
+      const celdas = unSolo ? "" : parciales.map(g => `<span class="ll-g">${g ?? "–"}</span>`).join("");
+      return `<div class="ll-eq${id === gana ? " gana" : ""}" title="${esc(equipo(id).nombre)}">
+        <span class="ll-nombre">${club(id)}</span>${celdas}<span class="ll-total">${total}${pen}</span></div>`;
+    };
+    const detalle = ll.partidos.map(p => `${equipo(p.local).nombre} ${p.gl ?? ""}–${p.gv ?? ""} ${equipo(p.visitante).nombre}${p.fecha ? " (" + p.fecha + ")" : ""}`).join("\n");
+    return `<div class="llave" title="${esc(detalle)}">${ll.equipos.map(fila).join("")}</div>`;
   }
 
   // Reparte los partidos de un grupo en fechas (los datos no traen el número de fecha).
@@ -244,7 +336,7 @@
     ed.fases.filter(esFinal).forEach(f => {
       html += `<h3>${esc(f.nombre)}</h3>` + f.partidos.map(partido).join("");
     });
-    html += gruposHTML(ed);
+    html += gruposHTML(ed, cuadroHTML(ed));
     // El resto de las fases, de la más importante a la primera (los grupos, de la A en adelante)
     const resto = [...ed.fases].reverse().filter(f => !esFinal(f));
     const grupoDe = f => f.nombre.match(/^(.*) — Grupo (\S+)$/);
@@ -317,6 +409,17 @@
   };
   // Botón "Ver" de goleadores y asistidores: muestra u oculta el renglón de abajo
   edicionEl.addEventListener("click", e => {
+    const pestana = e.target.closest("button.pestana");
+    if (pestana) {   // pestañas "Fase de grupos" / "Fase eliminatoria"
+      const botones = [...pestana.parentElement.children];
+      let panel = pestana.parentElement.nextElementSibling;
+      botones.forEach(b => {
+        b.setAttribute("aria-selected", b === pestana);
+        panel.hidden = b !== pestana;
+        panel = panel.nextElementSibling;
+      });
+      return;
+    }
     const mostrar = e.target.closest("button.mostrar-tabla");
     if (mostrar) {   // botón del título: muestra u oculta la tabla de goleadores / asistidores
       const tabla = mostrar.closest("h3").nextElementSibling;

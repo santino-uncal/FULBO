@@ -147,3 +147,45 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
   background: var(--panel); color: var(--acento); border: 1px solid var(--borde); border-radius: var(--radio);
 }
 .mostrar-tabla:hover, .mostrar-tabla[aria-expanded="true"] { border-color: var(--acento); }
+
+/* Pestañas "Fase de grupos" / "Fase eliminatoria" */
+.pestanas { display: flex; flex-wrap: wrap; gap: 4px 24px; border-bottom: 1px solid var(--borde); margin: 1.2em 0 1em; }
+.pestana {
+  font: inherit; font-size: 1.17em; font-weight: 700; padding: 0 0 4px; margin-bottom: -1px; cursor: pointer;
+  background: none; color: var(--texto-suave); border: 0; border-bottom: 3px solid transparent;
+}
+.pestana:hover { color: var(--texto); }
+.pestana[aria-selected="true"] { color: var(--acento); border-bottom-color: var(--acento); }
+
+/* Cuadro de la fase eliminatoria: una columna por ronda, las llaves unidas con líneas */
+.cuadro-scroll { overflow-x: auto; padding-bottom: 8px; }
+.cuadro { display: flex; min-width: min-content; }
+.ronda { display: flex; flex-direction: column; width: 280px; flex-shrink: 0; }
+.ronda-titulo {
+  text-align: center; font-size: .75rem; text-transform: uppercase; letter-spacing: .12em;
+  color: var(--texto-suave); padding: 0 16px 8px;
+}
+.ronda-cuerpo, .par { flex: 1; display: flex; flex-direction: column; }
+.par { position: relative; }
+.par::after {   /* corchete que une las dos llaves con la de la ronda siguiente */
+  content: ""; position: absolute; right: 0; top: 25%; bottom: 25%; width: 16px;
+  border: 2px solid var(--borde); border-left: 0;
+}
+.casilla { flex: 1; display: flex; align-items: center; min-height: 84px; padding: 6px 16px; position: relative; }
+.ronda + .ronda .casilla::before {
+  content: ""; position: absolute; left: 0; top: 50%; width: 16px; border-top: 2px solid var(--borde);
+}
+.ronda + .ronda .casilla:empty::before { display: none; }
+.llave {
+  width: 100%; background: var(--panel); border: 1px solid var(--borde); border-radius: 6px;
+  overflow: hidden; font-size: .9rem; font-variant-numeric: tabular-nums;
+}
+.ll-eq { display: flex; align-items: center; padding: 4px 0 4px 8px; }
+.ll-eq + .ll-eq { border-top: 1px solid var(--borde); }
+.ll-eq.gana { font-weight: 700; }
+.ll-eq.gana .ll-total { color: var(--acento); }
+.ll-nombre { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ll-nombre .escudo { width: 18px; height: 18px; margin: 0 6px 0 0; }
+.ll-g { width: 22px; text-align: center; color: var(--texto-suave); font-weight: 400; }
+.ll-total { min-width: 34px; padding: 0 8px 0 4px; text-align: center; font-weight: 700; white-space: nowrap; }
+.ll-total small { font-size: .75em; font-weight: 600; }
