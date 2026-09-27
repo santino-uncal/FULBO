@@ -136,11 +136,14 @@
     return `<h3>Planteles</h3><p class="vacio">Jugadores que aparecen en formaciones o goles de esta edición.</p>
       <div class="orden-partidos">Ordenar: ${botones}</div>` +
       ids.map(id => `<details class="plantel"><summary>${club(id)} (${ed.planteles[id].length})${estadio(id)}</summary>
-        <table><thead><tr><th>#</th><th>Jugador</th><th>Posición</th><th class="num">PJ</th><th class="num">Goles</th><th class="num">Asist.</th></tr></thead><tbody>
-        ${ordenarPlantel(ed.planteles[id], modo).map(j => `<tr data-nombre="${esc(j.nombre)}" data-linea="${lineaDe(j.pos)}">
-          <td>${esc(j.num || "")}</td><td>${esc(j.nombre)}</td><td>${esc(nombrePos(j.pos))}</td>
-          <td class="num">${j.pj || 0}</td><td class="num">${j.goles || 0}</td><td class="num">${j.asist || 0}</td></tr>`).join("")}
-        </tbody></table></details>`).join("");
+        ${tablaPlantel(ed.planteles[id], modo)}</details>`).join("");
+  }
+  function tablaPlantel(jugadores, modo) {
+    return `<table><thead><tr><th>#</th><th>Jugador</th><th>Posición</th><th class="num">PJ</th><th class="num">Goles</th><th class="num">Asist.</th></tr></thead><tbody>
+      ${ordenarPlantel(jugadores, modo).map(j => `<tr data-nombre="${esc(j.nombre)}" data-linea="${lineaDe(j.pos)}">
+        <td>${esc(j.num || "")}</td><td>${esc(j.nombre)}</td><td>${esc(nombrePos(j.pos))}</td>
+        <td class="num">${j.pj || 0}</td><td class="num">${j.goles || 0}</td><td class="num">${j.asist || 0}</td></tr>`).join("")}
+      </tbody></table>`;
   }
   // Las fuentes traen las posiciones en siglas en inglés (G, CD-L, AM…): se muestran en castellano
   const POSICIONES = {
@@ -560,6 +563,36 @@
     return { fase: veces[veces.length - 1].fase, anios: veces.map(x => x.anio) };
   }
 
+  // La campaña de un equipo en una edición (se abre con "Ver" en la tabla "Edición por edición")
+  function campaniaHTML(ed, id) {
+    const fases = ed.fases.map(f => ({ nombre: f.nombre, partidos: f.partidos.filter(p => p.local === id || p.visitante === id) }))
+      .filter(f => f.partidos.length);
+    if (!fases.length) return `<p class="vacio">No hay partidos cargados de esta edición.</p>`;
+    // Rendimiento de local y de visitante (las finales en cancha neutral cuentan según quién figura como local)
+    const lado = { local: { pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0 }, visitante: { pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0 } };
+    fases.forEach(f => f.partidos.forEach(p => {
+      if (p.gl == null) return;
+      const esLocal = p.local === id;
+      const [gf, gc] = esLocal ? [p.gl, p.gv] : [p.gv, p.gl];
+      const t = lado[esLocal ? "local" : "visitante"];
+      t.pj++; t.gf += gf; t.gc += gc;
+      t[gf > gc ? "g" : gf < gc ? "p" : "e"]++;
+    }));
+    const renglon = (titulo, t) => t.pj ? `<div class="dato"><span>${titulo}</span><strong>${t.g} G · ${t.e} E · ${t.p} P</strong>
+      <small>${plural(t.pj, "partido", "partidos")} · goles ${t.gf}:${t.gc}</small></div>` : "";
+    const lista = filas => filas.map(r => `${esc(r.nombre)} <strong>${r.n}</strong>`).join(" · ");
+    const goleadores = ranking(ed, "goles").filter(r => r.equipo === id);
+    const asistidores = ranking(ed, "asistencias").filter(r => r.equipo === id);
+    const plantel = ed.planteles?.[id];
+    return `<div class="datos datos-campania">${renglon("🏠 De local", lado.local)}${renglon("✈️ De visitante", lado.visitante)}</div>
+      ${goleadores.length ? `<p>⚽ <strong>Goleadores:</strong> ${lista(goleadores)}</p>` : ""}
+      ${asistidores.length ? `<p>🎯 <strong>Asistidores:</strong> ${lista(asistidores)}</p>` : ""}
+      <h4>Partidos</h4>
+      ${fases.map(f => `<h4 class="fecha-grupo">${esc(f.nombre)}</h4>` + f.partidos.map(partido).join("")).join("")}
+      ${plantel?.length ? `<h4>Plantel (${plantel.length})</h4><div class="tabla-scroll">${tablaPlantel(plantel, "posicion")}</div>` : ""}
+      <p>${linkEdicion(ed.anio)} ← ver la edición completa</p>`;
+  }
+
   function mostrarEquipo(id) {
     const h = LIB.historial[id];
     const e = equipo(id);
@@ -591,12 +624,15 @@
 
     // Edición por edición, de la más reciente a la primera
     html += `<h3>Edición por edición</h3>
+      <p class="vacio">Tocá "Ver" para abrir la campaña de ese año: partidos, goleadores y plantel.</p>
       <div class="tabla-scroll"><table class="historial"><thead><tr><th>Año</th><th>Hasta dónde llegó</th>
-        <th class="num">PJ</th><th class="num">G</th><th class="num">E</th><th class="num">P</th><th class="num">Goles</th></tr></thead><tbody>
+        <th class="num">PJ</th><th class="num">G</th><th class="num">E</th><th class="num">P</th><th class="num">Goles</th><th></th></tr></thead><tbody>
       ${[...eds].reverse().map(x => `<tr class="${x.fase === "Campeón" ? "fila-campeon" : x.fase === "Subcampeón" ? "fila-sub" : ""}">
         <td>${linkEdicion(x.anio)}</td><td>${x.fase === "Campeón" ? "🏆 " : x.fase === "Subcampeón" ? "🥈 " : ""}${esc(x.fase)}</td>
         <td class="num">${x.pj}</td><td class="num">${x.g}</td><td class="num">${x.e}</td><td class="num">${x.p}</td>
-        <td class="num">${x.gf}:${x.gc}</td></tr>`).join("")}
+        <td class="num">${x.gf}:${x.gc}</td>
+        <td class="num"><button class="ver-campania" type="button" data-anio="${x.anio}" data-equipo="${esc(id)}" aria-expanded="false">Ver</button></td></tr>
+        <tr class="campania" hidden><td colspan="8"></td></tr>`).join("")}
       </tbody></table></div>`;
 
     if (h.rivales.length) html += `<h3>Rivales más frecuentes</h3>
@@ -749,6 +785,21 @@
         panel.hidden = b !== pestana;
         panel = panel.nextElementSibling;
       });
+      return;
+    }
+    const verCampania = e.target.closest("button.ver-campania");
+    if (verCampania) {   // ficha de un equipo: abre o cierra su campaña de ese año (carga la edición la primera vez)
+      const fila = verCampania.closest("tr").nextElementSibling;
+      fila.hidden = !fila.hidden;
+      verCampania.setAttribute("aria-expanded", !fila.hidden);
+      verCampania.textContent = fila.hidden ? "Ver" : "Ocultar";
+      const celda = fila.firstElementChild;
+      if (!fila.hidden && !celda.hasChildNodes()) {
+        celda.innerHTML = `<p class="vacio">Cargando…</p>`;
+        cargarEdicion(verCampania.dataset.anio)
+          .then(ed => { celda.innerHTML = campaniaHTML(ed, verCampania.dataset.equipo); })
+          .catch(err => { celda.innerHTML = `<p class="vacio">${esc(err.message)}</p>`; });
+      }
       return;
     }
     const irFecha = e.target.closest("button.ir-fecha");
