@@ -244,3 +244,5 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .historial td, .historial th { white-space: nowrap; }
 .historial tr.fila-campeon td { background: color-mix(in srgb, var(--oro) 22%, transparent); font-weight: 700; }
 .historial tr.fila-sub td { background: var(--panel-2); }
+/* Columnas de números: el número centrado justo debajo de su título */
+.historial th.num, .historial td.num { text-align: center; width: 1%; padding: 6px 12px; }
