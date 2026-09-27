@@ -246,3 +246,6 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .historial tr.fila-sub td { background: var(--panel-2); }
 /* Columnas de números: el número centrado justo debajo de su título */
 .historial th.num, .historial td.num { text-align: center; width: 1%; padding: 6px 12px; }
+/* Título "Copa Libertadores": link a la edición actual, sin que parezca un link */
+.cabecera h1 a.inicio { color: inherit; text-decoration: none; }
+.cabecera h1 a.inicio:hover { opacity: .85; }

@@ -710,6 +710,15 @@
     boton.setAttribute("aria-expanded", !detalle.hidden);
     boton.textContent = detalle.hidden ? "Ver" : "Ocultar";
   });
+  // El título "Copa Libertadores" lleva a la edición actual (la última)
+  document.querySelector("a.inicio").addEventListener("click", e => {
+    if (e.ctrlKey || e.metaKey || e.shiftKey) return;
+    e.preventDefault();
+    buscarEl.value = "";
+    cerrarSugerencias();
+    history.pushState(null, "", "./");
+    seleccionar(LIB.indice[LIB.indice.length - 1].anio);
+  });
   window.addEventListener("popstate", abrirDesdeLaUrl);   // botón "atrás" del navegador
   abrirDesdeLaUrl();
 })();
