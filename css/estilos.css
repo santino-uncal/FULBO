@@ -71,7 +71,7 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 
 /* ---- Tablas de grupos ---- */
 :root {
-  --pasa: #3b82f6;
+  --pasa: #15803d;   /* verde oscuro */
   --sudamericana: #06b6d4;
   --res-v: #c8f031;
   --res-e: #5b6470;
