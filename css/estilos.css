@@ -1,9 +1,13 @@
 :root {
+  /* Fondo, letras y acento: app.js los cambia por los colores del campeón de cada edición */
   --fondo: #0d1b2a;
-  --panel: #13263a;
-  --borde: #24405c;
   --texto: #eef2f6;
-  --texto-suave: #9fb3c8;
+  --acento: #d4af37;
+  /* El resto sale de mezclar esos colores, así combina con cualquier campeón */
+  --panel: color-mix(in srgb, var(--texto) 7%, var(--fondo));
+  --panel-2: color-mix(in srgb, var(--texto) 11%, var(--fondo));
+  --borde: color-mix(in srgb, var(--texto) 25%, var(--fondo));
+  --texto-suave: color-mix(in srgb, var(--texto) 72%, var(--fondo));
   --oro: #d4af37;
   --radio: 10px;
 }
@@ -17,26 +21,16 @@ body {
   color: var(--texto);
   line-height: 1.5;
   min-height: 100vh;
+  transition: background-color .3s, color .3s;
 }
 
-/* Fondo con los colores del campeón (app.js define --club1 y --club2).
-   Se mezclan con el azul oscuro para que el texto se siga leyendo bien. */
-body {
-  --club1: var(--fondo);
-  --club2: var(--fondo);
-  background:
-    linear-gradient(160deg,
-      color-mix(in srgb, var(--club1) 38%, var(--fondo)) 0%,
-      var(--fondo) 55%,
-      color-mix(in srgb, var(--club2) 28%, var(--fondo)) 100%) fixed;
-}
 
 .cabecera {
   text-align: center;
   padding: 40px 16px 24px;
-  border-bottom: 2px solid var(--oro);
+  border-bottom: 2px solid var(--acento);
 }
-.cabecera h1 { margin: 4px 0; font-size: clamp(2rem, 6vw, 3.2rem); color: var(--oro); }
+.cabecera h1 { margin: 4px 0; font-size: clamp(2rem, 6vw, 3.2rem); color: var(--acento); }
 .cabecera-eyebrow { margin: 0; letter-spacing: .2em; text-transform: uppercase; color: var(--texto-suave); font-size: .8rem; }
 .cabecera-sub { margin: 0; color: var(--texto-suave); }
 
@@ -48,9 +42,9 @@ main { max-width: 1240px; margin: 0 auto; padding: 24px 16px; }
   border-radius: var(--radio); padding: 6px 12px; cursor: pointer; font: inherit; text-decoration: none;
 }
 .ediciones a:hover { border-color: var(--texto-suave); }
-.ediciones a[aria-current] { border-color: var(--oro); color: var(--oro); }
+.ediciones a[aria-current] { border-color: var(--acento); color: var(--acento); }
 
-.edicion h2 { color: var(--oro); margin-top: 0; }
+.edicion h2 { color: var(--acento); margin-top: 0; }
 .edicion h3 { border-bottom: 1px solid var(--borde); padding-bottom: 4px; }
 .vacio { color: var(--texto-suave); }
 
@@ -61,7 +55,7 @@ main { max-width: 1240px; margin: 0 auto; padding: 24px 16px; }
 .partido-meta { color: var(--texto-suave); font-size: .85rem; }
 .marcador { display: grid; grid-template-columns: 1fr auto 1fr; gap: 12px; align-items: center; font-size: 1.1rem; margin: 6px 0; }
 .marcador .local { text-align: right; }
-.marcador .resultado { font-weight: 700; color: var(--oro); }
+.marcador .resultado { font-weight: 700; color: var(--acento); }
 .escudo { width: 24px; height: 24px; object-fit: contain; vertical-align: middle; margin: 0 6px; }
 .goles { list-style: none; padding: 0; margin: 0; color: var(--texto-suave); font-size: .9rem; }
 
@@ -83,25 +77,25 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
   --res-d: #ef4444;
 }
 .grupos { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 540px), 1fr)); gap: 16px; }
-.grupo { background: #0f1115; border: 1px solid #262a31; border-radius: var(--radio); overflow: hidden; }
+.grupo { background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio); overflow: hidden; }
 .grupo h4 {
   margin: 0; padding: 14px; text-align: center; text-transform: uppercase;
-  letter-spacing: .15em; color: #b9bec6; border-bottom: 1px solid #262a31;
+  letter-spacing: .15em; color: var(--texto-suave); border-bottom: 1px solid var(--borde);
 }
 .grupo table { font-variant-numeric: tabular-nums; }
-.grupo th, .grupo td { text-align: center; padding: 8px 6px; border-bottom: 1px solid #1e2127; white-space: nowrap; }
-.grupo th { font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; color: #8b919a; }
-.grupo tbody tr:nth-child(even) { background: #14171c; }
+.grupo th, .grupo td { text-align: center; padding: 8px 6px; border-bottom: 1px solid var(--borde); white-space: nowrap; }
+.grupo th { font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; color: var(--texto-suave); }
+.grupo tbody tr:nth-child(even) { background: var(--panel-2); }
 .grupo tbody tr:last-child td { border-bottom: 0; }
 .grupo .eq { text-align: left; width: 100%; max-width: 0; overflow: hidden; text-overflow: ellipsis; font-weight: 600; }
 .grupo .eq .escudo { margin: 0 8px 0 0; }
-.grupo td.pos { width: 34px; font-weight: 700; color: #8b919a; }
+.grupo td.pos { width: 34px; font-weight: 700; color: var(--texto-suave); }
 .grupo td.pos.pasa { background: var(--pasa); color: #fff; }
 .grupo td.pos.sudamericana { background: var(--sudamericana); color: #fff; }
 .grupo td.pos.campeon { background: var(--oro); color: #111; }
 .grupo td.pts { font-weight: 800; font-size: 1.05rem; }
-.grupo .pos-dif { color: var(--res-v); font-weight: 700; }
-.grupo .neg-dif { color: var(--res-d); font-weight: 700; }
+.grupo .pos-dif { font-weight: 700; }
+.grupo .neg-dif { font-weight: 700; }
 .grupo td.ultimas { padding-right: 10px; }
 .res {
   display: inline-block; width: 18px; line-height: 18px; margin-left: 3px; border-radius: 3px;

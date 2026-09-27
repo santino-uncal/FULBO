@@ -1,32 +1,33 @@
-/* Colores de camiseta de los campeones (cargados a mano; el primero es el que domina el fondo).
-   Si un campeón nuevo no está acá, se usan los colores que trae ESPN en equipos.js. */
+/* Colores de cada campeón para vestir la página: [fondo, letras].
+   Elegidos a mano para que las letras se lean bien sobre el fondo.
+   Si un campeón no está acá, la página queda con los colores de siempre (azul oscuro y dorado). */
 window.LIB = window.LIB || {};
 window.LIB.colores = {
-  "argentinos-juniors":      ["#D0021B", "#FFFFFF"],
+  "argentinos-juniors":      ["#C8102E", "#FFFFFF"],
   "atletico-mineiro":        ["#111111", "#FFFFFF"],
-  "atletico-nacional":       ["#00843D", "#FFFFFF"],
+  "atletico-nacional":       ["#00703A", "#FFFFFF"],
   "boca-juniors":            ["#0038A8", "#F5C400"],
   "botafogo":                ["#111111", "#FFFFFF"],
   "colo-colo":               ["#FFFFFF", "#111111"],
-  "corinthians":             ["#111111", "#FFFFFF"],
+  "corinthians":             ["#FFFFFF", "#111111"],
   "cruzeiro":                ["#0033A0", "#FFFFFF"],
-  "estudiantes-de-la-plata": ["#D0021B", "#FFFFFF"],
-  "flamengo":                ["#C8102E", "#111111"],
-  "fluminense":              ["#7A1F3D", "#00613F"],
-  "gremio":                  ["#0D80BF", "#111111"],
-  "independiente":           ["#D0021B", "#FFFFFF"],
-  "internacional":           ["#D0021B", "#FFFFFF"],
-  "ldu-quito":               ["#FFFFFF", "#C8102E"],
-  "nacional":                ["#0038A8", "#D0021B"],
+  "estudiantes-de-la-plata": ["#FFFFFF", "#C8102E"],
+  "flamengo":                ["#111111", "#F0283A"],
+  "fluminense":              ["#7A1F3D", "#FFFFFF"],
+  "gremio":                  ["#0B5F99", "#FFFFFF"],
+  "independiente":           ["#C8102E", "#FFFFFF"],
+  "internacional":           ["#C8102E", "#FFFFFF"],
+  "ldu-quito":               ["#FFFFFF", "#1C2D6B"],
+  "nacional":                ["#FFFFFF", "#0038A8"],
   "olimpia":                 ["#FFFFFF", "#111111"],
   "once-caldas":             ["#FFFFFF", "#111111"],
   "palmeiras":               ["#006437", "#FFFFFF"],
-  "penarol":                 ["#F5C400", "#111111"],
-  "racing-club":             ["#6CB4EE", "#FFFFFF"],
-  "river-plate":             ["#D0021B", "#FFFFFF"],
-  "san-lorenzo":             ["#003DA5", "#D0021B"],
+  "penarol":                 ["#111111", "#F5C400"],
+  "racing-club":             ["#FFFFFF", "#2A7FC1"],
+  "river-plate":             ["#FFFFFF", "#D0021B"],
+  "san-lorenzo":             ["#0B2A6F", "#FF5A68"],
   "santos":                  ["#FFFFFF", "#111111"],
-  "sao-paulo":               ["#D0021B", "#111111"],
+  "sao-paulo":               ["#FFFFFF", "#C8102E"],
   "vasco-da-gama":           ["#111111", "#FFFFFF"],
-  "velez-sarsfield":         ["#0055A4", "#FFFFFF"]
+  "velez-sarsfield":         ["#FFFFFF", "#0055A4"]
 };

@@ -226,13 +226,15 @@
     pintarFondo(e.campeon);
   }
 
-  // El fondo de la página toma los colores de camiseta del campeón de esa edición
+  // La página se viste con los colores del campeón de esa edición (fondo y letras)
   function pintarFondo(campeon) {
-    const colores = (LIB.colores || {})[campeon] || equipo(campeon).colores;
-    const estilo = document.body.style;
-    if (!colores) { estilo.removeProperty("--club1"); estilo.removeProperty("--club2"); return; }
-    estilo.setProperty("--club1", colores[0]);
-    estilo.setProperty("--club2", colores[1] || colores[0]);
+    const colores = (LIB.colores || {})[campeon];
+    const estilo = document.documentElement.style;
+    ["--fondo", "--texto", "--acento"].forEach(v => estilo.removeProperty(v));
+    if (!colores) return;   // sin campeón: colores de siempre
+    estilo.setProperty("--fondo", colores[0]);
+    estilo.setProperty("--texto", colores[1]);
+    estilo.setProperty("--acento", colores[1]);
   }
 
   function seleccionar(anio, guardarEnHistorial) {
