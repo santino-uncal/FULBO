@@ -122,12 +122,36 @@
       const c = Object.entries(canchas[id] || {}).sort((a, b) => b[1] - a[1])[0]?.[0] || equipo(id).estadio;
       return c ? ` <span class="plantel-estadio">🏟️ ${esc(c)}</span>` : "";
     };
-    return `<h3>Planteles</h3><p class="vacio">Jugadores que aparecen en formaciones o goles de esta edición.</p>` +
+    const modo = ordenPlantelElegido();
+    const botones = ["posicion", "nombre"].map(m => `<button class="orden orden-plantel" type="button" data-orden-plantel="${m}"
+      aria-pressed="${modo === m}">${m === "nombre" ? "Por nombre" : "Por posición"}</button>`).join("");
+    return `<h3>Planteles</h3><p class="vacio">Jugadores que aparecen en formaciones o goles de esta edición.</p>
+      <div class="orden-partidos">Ordenar: ${botones}</div>` +
       ids.map(id => `<details class="plantel"><summary>${club(id)} (${ed.planteles[id].length})${estadio(id)}</summary>
         <table><thead><tr><th>#</th><th>Jugador</th><th>Pos.</th><th class="num">PJ</th><th class="num">Goles</th><th class="num">Asist.</th></tr></thead><tbody>
-        ${ed.planteles[id].map(j => `<tr><td>${esc(j.num || "")}</td><td>${esc(j.nombre)}</td><td>${esc(j.pos || "")}</td>
+        ${ordenarPlantel(ed.planteles[id], modo).map(j => `<tr data-nombre="${esc(j.nombre)}" data-linea="${lineaDe(j.pos)}">
+          <td>${esc(j.num || "")}</td><td>${esc(j.nombre)}</td><td>${esc(j.pos || "")}</td>
           <td class="num">${j.pj || 0}</td><td class="num">${j.goles || 0}</td><td class="num">${j.asist || 0}</td></tr>`).join("")}
         </tbody></table></details>`).join("");
+  }
+  // Línea de la cancha según la posición: arquero, defensores, volantes, delanteros; sin posición al final
+  function lineaDe(pos) {
+    if (!pos) return 9;
+    if (pos === "G") return 0;
+    if (/^DM/.test(pos)) return 2;
+    if (/^(D|CD|LB|RB|SW|LWB|RWB)/.test(pos)) return 1;
+    if (/^(M|CM|LM|RM)/.test(pos)) return 3;
+    if (/^AM/.test(pos)) return 4;
+    if (/^(F|CF|LF|RF|RCF|LCF|ST|W)/.test(pos)) return 5;
+    return 8;
+  }
+  const porNombre = (a, b) => a.nombre.localeCompare(b.nombre, "es");
+  function ordenarPlantel(jugadores, modo) {
+    return [...jugadores].map(j => ({ nombre: j.nombre, linea: lineaDe(j.pos), j }))
+      .sort((a, b) => (modo === "posicion" ? a.linea - b.linea : 0) || porNombre(a, b)).map(x => x.j);
+  }
+  function ordenPlantelElegido() {
+    try { return localStorage.getItem("ordenPlantel") === "nombre" ? "nombre" : "posicion"; } catch { return "posicion"; }
   }
 
   // ---- Tablas de grupos (se calculan a partir de los partidos) ----
@@ -696,6 +720,18 @@
         b.setAttribute("aria-selected", b === pestana);
         panel.hidden = b !== pestana;
         panel = panel.nextElementSibling;
+      });
+      return;
+    }
+    const ordenPlantel = e.target.closest("button.orden-plantel");
+    if (ordenPlantel) {   // "Por posición" / "Por nombre": reordena todos los planteles de la edición
+      const modo = ordenPlantel.dataset.ordenPlantel;
+      try { localStorage.setItem("ordenPlantel", modo); } catch {}
+      edicionEl.querySelectorAll("button.orden-plantel").forEach(b => b.setAttribute("aria-pressed", b.dataset.ordenPlantel === modo));
+      edicionEl.querySelectorAll("details.plantel tbody").forEach(tb => {
+        const filas = [...tb.rows].map(tr => ({ nombre: tr.dataset.nombre, linea: +tr.dataset.linea, tr }));
+        filas.sort((a, b) => (modo === "posicion" ? a.linea - b.linea : 0) || porNombre(a, b));
+        filas.forEach(f => tb.appendChild(f.tr));
       });
       return;
     }
