@@ -506,6 +506,7 @@ def main():
             if t.get("color"):
                 c.setdefault("colores", [f"#{t['color']}", f"#{t.get('color2') or 'ffffff'}"])
     unificar_estadios(ediciones)
+    ajustar_finales(ediciones)
     # Estadio "de siempre" de cada club, para las ediciones viejas que no traen estadios (antes de 2005):
     # donde más veces jugó de local en la primera edición en que hay datos de su cancha
     for a in sorted(ediciones):
@@ -556,6 +557,39 @@ def unificar_estadios(ediciones):
                     p["estadio"], p["ciudad"] = mapa[p["estadio"]]
                 else:
                     p["estadio"] = re.sub(r"^Est[aá]dio\s+", "", p["estadio"])
+
+
+def ajustar_finales(ediciones):
+    """Correcciones a mano de partidos de final (ver tools/finales_ajustes.json) y partidos repetidos fuera."""
+    for ed in ediciones.values():
+        for f in ed["fases"]:
+            vistos, unicos = set(), []
+            for p in f["partidos"]:
+                clave = (p["local"], p["visitante"], p.get("fecha"), p.get("gl"), p.get("gv"))
+                if clave not in vistos:
+                    vistos.add(clave)
+                    unicos.append(p)
+            f["partidos"] = unicos
+    ajustes = json.loads((RAIZ / "tools" / "finales_ajustes.json").read_text(encoding="utf-8"))["partidos"]
+    for aj in ajustes:
+        ed = ediciones.get(aj["anio"])
+        fase = next((f for f in ed["fases"] if f["nombre"] == aj["fase"]), None) if ed else None
+        elegidos = [p for p in (fase or {}).get("partidos", [])
+                    if all(p.get(k) == aj[k] for k in ("local", "fecha", "gl", "gv") if k in aj)]
+        if not elegidos:
+            print("  finales_ajustes.json: no se encontró", aj)
+            continue
+        for p in elegidos:
+            if aj.get("borrar"):
+                fase["partidos"].remove(p)
+                continue
+            if aj.get("invertir"):   # la fuente puso los equipos al revés: el resultado y los goles quedan como están
+                p["local"], p["visitante"] = p["visitante"], p["local"]
+            if "goles" in aj:
+                p["goles"] = [g for g in p.get("goles") or [] if g.get("jugador") in aj["goles"]]
+            for k, destino in (("estadio", "estadio"), ("ciudad", "ciudad"), ("nueva_fecha", "fecha")):
+                if k in aj:
+                    p[destino] = aj[k]
 
 
 def escribir_sitemap(anios):

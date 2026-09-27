@@ -1,0 +1,49 @@
+{
+  "_ayuda": "Correcciones a mano de partidos de final (las fuentes no traen el estadio de varias finales viejas, y alguna viene mal). Cada entrada busca los partidos por anio + fase y, si están, local / fecha / gl / gv. Después: 'invertir' da vuelta qué equipo fue local (cuando la fuente los puso al revés; el resultado y los goles quedan como están); 'borrar' saca el partido; 'goles' deja solo esos autores; 'estadio', 'ciudad' y 'fecha' se reemplazan. Sedes chequeadas en Wikipedia (List of Copa Libertadores finals y las páginas de cada final).",
+  "partidos": [
+    {"anio": 1984, "fase": "Final", "local": "gremio", "estadio": "Olímpico Monumental", "ciudad": "Porto Alegre"},
+    {"anio": 1984, "fase": "Final", "local": "independiente", "estadio": "Libertadores de América (La Doble Visera)", "ciudad": "Avellaneda"},
+
+    {"anio": 1985, "fase": "Final", "local": "america-de-cali", "fecha": "1985-10-17", "invertir": true,
+     "estadio": "Monumental (Antonio Vespucio Liberti)", "ciudad": "Buenos Aires"},
+    {"anio": 1985, "fase": "Final", "local": "argentinos-juniors", "fecha": "1985-10-22", "invertir": true,
+     "estadio": "Pascual Guerrero", "ciudad": "Cali"},
+    {"anio": 1985, "fase": "Final — Desempate", "nueva_fecha": "1985-10-24", "estadio": "Defensores del Chaco", "ciudad": "Asunción"},
+
+    {"anio": 1986, "fase": "Final", "local": "america-de-cali", "estadio": "Pascual Guerrero", "ciudad": "Cali"},
+    {"anio": 1986, "fase": "Final", "local": "river-plate", "estadio": "Monumental (Antonio Vespucio Liberti)", "ciudad": "Buenos Aires"},
+
+    {"anio": 1988, "fase": "Final", "local": "nacional", "fecha": "1988-10-19", "borrar": true},
+    {"anio": 1988, "fase": "Final", "local": "newell-s-old-boys", "estadio": "Gigante de Arroyito", "ciudad": "Rosario"},
+    {"anio": 1988, "fase": "Final", "local": "nacional", "fecha": "1988-10-26", "goles": ["Vargas", "Ostolaza", "De Leon"],
+     "estadio": "Centenario", "ciudad": "Montevideo"},
+
+    {"anio": 1989, "fase": "Final", "local": "olimpia", "estadio": "Defensores del Chaco", "ciudad": "Asunción"},
+    {"anio": 1989, "fase": "Final", "local": "atletico-nacional", "estadio": "Nemesio Camacho El Campín", "ciudad": "Bogotá"},
+
+    {"anio": 1990, "fase": "Final", "local": "olimpia", "estadio": "Defensores del Chaco", "ciudad": "Asunción"},
+    {"anio": 1990, "fase": "Final", "local": "barcelona", "estadio": "Monumental Isidro Romero Carbo", "ciudad": "Guayaquil"},
+
+    {"anio": 1991, "fase": "Final", "local": "colo-colo", "estadio": "Monumental David Arellano", "ciudad": "Santiago"},
+
+    {"anio": 1992, "fase": "Final", "local": "newell-s-old-boys", "estadio": "Marcelo Bielsa", "ciudad": "Rosario"},
+    {"anio": 1992, "fase": "Final", "local": "sao-paulo", "estadio": "Morumbi", "ciudad": "São Paulo"},
+
+    {"anio": 1993, "fase": "Final", "local": "sao-paulo", "estadio": "Morumbi", "ciudad": "São Paulo"},
+    {"anio": 1993, "fase": "Final", "local": "universidad-catolica", "estadio": "Nacional Julio Martínez Prádanos", "ciudad": "Santiago"},
+
+    {"anio": 1994, "fase": "Final", "local": "velez-sarsfield", "estadio": "José Amalfitani", "ciudad": "Buenos Aires"},
+    {"anio": 1994, "fase": "Final", "local": "sao-paulo", "estadio": "Morumbi", "ciudad": "São Paulo"},
+
+    {"anio": 1995, "fase": "Final", "local": "gremio", "estadio": "Olímpico Monumental", "ciudad": "Porto Alegre"},
+    {"anio": 1995, "fase": "Final", "local": "atletico-nacional", "estadio": "Atanasio Girardot", "ciudad": "Medellín"},
+
+    {"anio": 1996, "fase": "Final", "local": "america-de-cali", "estadio": "Pascual Guerrero", "ciudad": "Cali"},
+    {"anio": 1996, "fase": "Final", "local": "river-plate", "estadio": "Monumental (Antonio Vespucio Liberti)", "ciudad": "Buenos Aires"},
+
+    {"anio": 1997, "fase": "Final", "local": "sporting-cristal", "estadio": "Nacional", "ciudad": "Lima"},
+    {"anio": 1997, "fase": "Final", "local": "cruzeiro", "estadio": "Mineirão", "ciudad": "Belo Horizonte"},
+
+    {"anio": 2004, "fase": "Final", "local": "once-caldas", "estadio": "Palogrande", "ciudad": "Manizales"}
+  ]
+}
