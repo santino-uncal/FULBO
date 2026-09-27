@@ -484,8 +484,11 @@
     });
     resto.forEach(f => {
       const g = grupoDe(f);
+      const fechas = g && porFechas(f.partidos);
       const cuerpo = g
-        ? porFechas(f.partidos).map((ps, n) => `<h4 class="fecha-grupo">Grupo ${esc(g[2])} · Fecha ${n + 1}</h4>` + ps.map(partido).join("")).join("")
+        ? (fechas.length > 1 ? `<div class="ir-fechas">Ir a: ${fechas.map((_, n) =>
+            `<button class="orden ir-fecha" type="button" data-fecha="${n + 1}">Fecha ${n + 1}</button>`).join("")}</div>` : "") +
+          fechas.map((ps, n) => `<h4 class="fecha-grupo" data-fecha="${n + 1}">Grupo ${esc(g[2])} · Fecha ${n + 1}</h4>` + ps.map(partido).join("")).join("")
         : eliminatoriaHTML(f.partidos);
       html += `<details class="fase"><summary>${esc(f.nombre)} (${f.partidos.length})</summary>${cuerpo}</details>`;
     });
@@ -742,6 +745,12 @@
         panel.hidden = b !== pestana;
         panel = panel.nextElementSibling;
       });
+      return;
+    }
+    const irFecha = e.target.closest("button.ir-fecha");
+    if (irFecha) {   // "Ir a: Fecha N" de un grupo: baja hasta esa fecha
+      irFecha.closest("details").querySelector(`h4.fecha-grupo[data-fecha="${irFecha.dataset.fecha}"]`)
+        ?.scrollIntoView({ behavior: "smooth", block: "start" });
       return;
     }
     const ordenPlantel = e.target.closest("button.orden-plantel");

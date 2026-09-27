@@ -127,6 +127,10 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
   color: var(--texto-suave);
 }
 
+/* Botones "Ir a: Fecha 1, Fecha 2…" arriba de los partidos de cada grupo */
+.ir-fechas { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 6px 0 4px; font-size: .85rem; color: var(--texto-suave); }
+.fecha-grupo { scroll-margin-top: 12px; }
+
 /* Goleadores y asistidores: botón "Ver" y la lista de goles/asistencias de cada jugador */
 .ranking button.ver {
   font: inherit; font-size: .8rem; padding: 2px 10px; cursor: pointer;
