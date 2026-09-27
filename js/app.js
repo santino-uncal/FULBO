@@ -245,8 +245,6 @@
       html += `<h3>${esc(f.nombre)}</h3>` + f.partidos.map(partido).join("");
     });
     html += gruposHTML(ed);
-    html += tablaRanking("Goleadores", ranking(ed, "goles"), "goles");
-    html += tablaRanking("Asistidores", ranking(ed, "asistencias"), "asistencias");
     // El resto de las fases, de la más importante a la primera (los grupos, de la A en adelante)
     const resto = [...ed.fases].reverse().filter(f => !esFinal(f));
     const grupoDe = f => f.nombre.match(/^(.*) — Grupo (\S+)$/);
@@ -265,6 +263,8 @@
         : f.partidos.map(partido).join("");
       html += `<details class="fase"><summary>${esc(f.nombre)} (${f.partidos.length})</summary>${cuerpo}</details>`;
     });
+    html += tablaRanking("Goleadores", ranking(ed, "goles"), "goles");
+    html += tablaRanking("Asistidores", ranking(ed, "asistencias"), "asistencias");
     html += planteles(ed);
     edicionEl.innerHTML = html;
   }
