@@ -174,7 +174,6 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .orden[aria-pressed="true"] { color: var(--acento); border-color: var(--acento); }
 
 /* Estadísticas históricas */
-.ediciones a.boton-estadisticas { font-weight: 700; color: var(--acento); }
 .tab-instancia, .ir-seccion {
   font: inherit; font-weight: 600; padding: 3px 12px; cursor: pointer;
   background: var(--panel); color: var(--texto-suave); border: 1px solid var(--borde); border-radius: var(--radio);
@@ -236,7 +235,13 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .bandera { width: 20px; height: 14px; object-fit: cover; border-radius: 2px; margin-right: 6px; flex-shrink: 0; box-shadow: 0 0 0 1px var(--borde); }
 
 /* ---- Buscador de equipos ---- */
-.buscador { position: relative; max-width: 460px; margin-bottom: 16px; }
+.barra-superior { display: flex; flex-wrap: wrap; align-items: stretch; gap: 10px; margin-bottom: 16px; }
+.buscador { position: relative; flex: 1 1 260px; max-width: 460px; }
+.boton-estadisticas {
+  display: flex; align-items: center; padding: 10px 16px; font-weight: 700; white-space: nowrap; text-decoration: none;
+  color: var(--acento); background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio);
+}
+.boton-estadisticas:hover, .boton-estadisticas[aria-current] { border-color: var(--acento); }
 .buscador input {
   width: 100%; font: inherit; padding: 10px 14px; color: var(--texto);
   background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio);

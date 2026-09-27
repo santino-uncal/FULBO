@@ -4,6 +4,7 @@
   const URL_SITIO = "https://santino-uncal.github.io/FULBO/";   // dirección publicada en GitHub Pages
   const navEl = document.getElementById("ediciones");
   const edicionEl = document.getElementById("edicion");
+  const botonEstEl = document.getElementById("boton-estadisticas");   // al lado del buscador de equipos
 
   // Carga data/ediciones/<año>.js una sola vez (funciona también abriendo index.html con doble clic)
   function cargarEdicion(anio) {
@@ -655,6 +656,7 @@
 
   function seleccionarEquipo(id, guardarEnHistorial) {
     navEl.querySelectorAll("a").forEach(a => a.removeAttribute("aria-current"));
+    botonEstEl.removeAttribute("aria-current");
     if (guardarEnHistorial) history.pushState(null, "", `?equipo=${encodeURIComponent(id)}`);
     const nombre = equipo(id).nombre;
     document.title = `${nombre} en la Copa Libertadores — Historial`;
@@ -790,7 +792,8 @@
   }
 
   function seleccionarEstadisticas(guardarEnHistorial) {
-    navEl.querySelectorAll("a").forEach(a => a.toggleAttribute("aria-current", a.dataset.estadisticas !== undefined));
+    navEl.querySelectorAll("a").forEach(a => a.removeAttribute("aria-current"));
+    botonEstEl.setAttribute("aria-current", "page");
     if (guardarEnHistorial) history.pushState(null, "", "?estadisticas");
     document.title = "Estadísticas históricas de la Copa Libertadores";
     const desc = document.querySelector('meta[name="description"]');
@@ -880,21 +883,25 @@
 
   function seleccionar(anio, guardarEnHistorial) {
     navEl.querySelectorAll("a").forEach(a => a.toggleAttribute("aria-current", a.dataset.anio == anio));
+    botonEstEl.removeAttribute("aria-current");
     if (guardarEnHistorial) history.pushState(null, "", `?edicion=${anio}`);
     actualizarTitulo(anio);
     edicionEl.innerHTML = `<p class="vacio">Cargando ${anio}…</p>`;
     cargarEdicion(anio).then(mostrar).catch(e => { edicionEl.innerHTML = `<p class="vacio">${esc(e.message)}</p>`; });
   }
 
-  // Cada edición es un link real (?edicion=1960) para que Google pueda encontrarlas todas; adelante, las estadísticas
-  navEl.innerHTML = `<a class="boton-estadisticas" href="?estadisticas" data-estadisticas>📊 Estadísticas históricas</a>` +
-    LIB.indice.map(e => `<a href="?edicion=${e.anio}" data-anio="${e.anio}" title="${esc(equipo(e.campeon).nombre)}">${e.anio}</a>`).join("");
+  // Cada edición es un link real (?edicion=1960) para que Google pueda encontrarlas todas
+  navEl.innerHTML = LIB.indice.map(e => `<a href="?edicion=${e.anio}" data-anio="${e.anio}" title="${esc(equipo(e.campeon).nombre)}">${e.anio}</a>`).join("");
   navEl.addEventListener("click", e => {
-    const a = e.target.closest("a[data-anio], a[data-estadisticas]");
+    const a = e.target.closest("a[data-anio]");
     if (!a || e.ctrlKey || e.metaKey || e.shiftKey) return;   // ctrl+clic: abrir en otra pestaña
     e.preventDefault();
-    if (a.dataset.anio) seleccionar(a.dataset.anio, true);
-    else seleccionarEstadisticas(true);
+    seleccionar(a.dataset.anio, true);
+  });
+  botonEstEl.addEventListener("click", e => {
+    if (e.ctrlKey || e.metaKey || e.shiftKey) return;
+    e.preventDefault();
+    seleccionarEstadisticas(true);
   });
   const anioDeLaUrl = () => {
     const pedido = new URLSearchParams(location.search).get("edicion");
