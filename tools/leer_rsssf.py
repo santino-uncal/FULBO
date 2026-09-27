@@ -435,7 +435,7 @@ def leer(anio):
             continue
         if nombre:
             fase, tipo_fase, subfase = nombre, tipo, None
-            fechas_llave = fechas_de(s, anio) if "(" in s else []
+            fechas_llave = fechas_de(s[s.index("("):], anio) if "(" in s else []   # sin el "1" de "Round 1"
             continue
 
         # Notas al pie ('x 1st leg in Valencia'), byes, etc.
