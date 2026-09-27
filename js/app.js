@@ -82,11 +82,19 @@
       `</div>`;
   }
 
-  function textoGol(g, p) {
+  // Cada gol va del lado del equipo que lo festeja (en los goles en contra, el rival del que lo hizo)
+  function textoGol(g) {
     const min = g.min != null ? `${g.min}${g.extra ? "+" + g.extra : ""}' ` : "";
     const tipo = g.tipo === "pen" ? " (penal)" : g.tipo === "ec" ? " (en contra)" : "";
-    const asis = g.asistencia ? ` — asist. ${esc(g.asistencia)}` : "";
-    return `<li>⚽ ${min}${esc(g.jugador || "?")}${tipo} <span class="gol-eq">(${esc(equipo(p[g.equipo]).nombre)})</span>${asis}</li>`;
+    const asis = g.asistencia ? `<small class="gol-asist">asist. ${esc(g.asistencia)}</small>` : "";
+    const texto = `${min}${esc(g.jugador || "?")}${tipo}`;
+    return `<li>${g.equipo === "visitante" ? `⚽ ${texto}` : `${texto} ⚽`}${asis}</li>`;
+  }
+  function golesPartido(p) {
+    const goles = p.goles || [];
+    if (!goles.length) return "";
+    const lado = l => `<ul class="goles${l === "local" ? " goles-local" : ""}">${goles.filter(g => (g.equipo === "visitante" ? "visitante" : "local") === l).map(textoGol).join("")}</ul>`;
+    return `<div class="goles-partido">${lado("local")}${lado("visitante")}</div>`;
   }
 
   function partido(p) {
@@ -102,7 +110,7 @@
         <span class="resultado">${res}</span>
         <span>${club(p.visitante)}</span>
       </div>${pen}${nota}
-      <ul class="goles">${(p.goles || []).map(g => textoGol(g, p)).join("")}</ul>
+      ${golesPartido(p)}
     </article>`;
   }
 

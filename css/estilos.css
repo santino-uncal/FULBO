@@ -58,6 +58,11 @@ main { max-width: 1240px; margin: 0 auto; padding: 24px 16px; }
 .marcador .resultado { font-weight: 700; color: var(--acento); }
 .escudo { width: 24px; height: 24px; object-fit: contain; vertical-align: middle; margin: 0 6px; }
 .goles { list-style: none; padding: 0; margin: 0; color: var(--texto-suave); font-size: .9rem; }
+/* Goles del local a la izquierda (bajo su nombre) y del visitante a la derecha */
+.goles-partido { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.goles-local { text-align: right; }
+.goles li { margin: 2px 0; }
+.gol-asist { display: block; font-size: .8rem; opacity: .7; }
 
 table { width: 100%; border-collapse: collapse; }
 th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--borde); }
@@ -66,7 +71,6 @@ td.num { text-align: right; }
 
 details.fase, details.plantel { margin: 12px 0; }
 details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
-.gol-eq { opacity: .7; }
 .plantel-estadio { margin-left: 10px; font-weight: 400; font-size: .85rem; color: var(--texto-suave); }
 
 /* ---- Tablas de grupos ---- */
