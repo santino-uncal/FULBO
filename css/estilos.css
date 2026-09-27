@@ -44,6 +44,14 @@ main { max-width: 1240px; margin: 0 auto; padding: 24px 16px; }
   color: var(--texto); background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio);
 }
 .boton-anios:hover, .boton-anios[aria-expanded="true"] { border-color: var(--acento); color: var(--acento); }
+/* Flechas ◀ ▶ a los costados del botón 📅: año anterior y siguiente */
+.grupo-anios { display: flex; align-items: stretch; gap: 6px; }
+.flecha-anio {
+  padding: 0 12px; font: inherit; font-size: .9rem; cursor: pointer;
+  color: var(--texto); background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio);
+}
+.flecha-anio:hover:not(:disabled) { border-color: var(--acento); color: var(--acento); }
+.flecha-anio:disabled { opacity: .35; cursor: default; }
 .panel-anios {
   margin: -6px 0 24px; padding: 12px; background: var(--panel-2, var(--panel)); border: 1px solid var(--borde); border-radius: var(--radio);
 }
@@ -315,7 +323,7 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .cabecera h1 a.inicio:hover { opacity: .85; }
 .dato strong .dato-texto { font-size: 1.15rem; color: inherit; }
 
-/* En celular, "Estadísticas" y "📅 Años" comparten renglón debajo del buscador */
+/* En celular: botones un poco más chicos (las flechas y "📅 Años" bajan a su propio renglón) */
 @media (max-width: 560px) {
   .boton-estadisticas, .boton-anios { padding: 10px 11px; font-size: .95rem; }
 }

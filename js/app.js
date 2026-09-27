@@ -9,7 +9,21 @@
   const panelAniosEl = document.getElementById("panel-anios");
   const buscarAnioEl = document.getElementById("buscar-anio");
   // El botón 📅 muestra el año que se está viendo ("Años" en estadísticas o en la ficha de un club)
-  const mostrarAnioEnBoton = anio => { const s = document.getElementById("anio-actual"); if (s) s.textContent = anio || "Años"; };
+  // Las flechas ◀ ▶ llevan al año anterior / siguiente (apagadas en los extremos y fuera de una edición)
+  const flechaAntEl = document.getElementById("anio-anterior");
+  const flechaSigEl = document.getElementById("anio-siguiente");
+  let anioVisto = null;
+  const anioVecino = paso => {
+    const i = LIB.indice.findIndex(e => e.anio == anioVisto);
+    return i < 0 ? null : LIB.indice[i + paso]?.anio ?? null;
+  };
+  const mostrarAnioEnBoton = anio => {
+    const s = document.getElementById("anio-actual");
+    if (s) s.textContent = anio || "Años";
+    anioVisto = anio;
+    if (flechaAntEl) flechaAntEl.disabled = anioVecino(-1) === null;
+    if (flechaSigEl) flechaSigEl.disabled = anioVecino(1) === null;
+  };
 
   // Carga data/ediciones/<año>.js una sola vez (funciona también abriendo index.html con doble clic)
   function cargarEdicion(anio) {
@@ -936,6 +950,10 @@
     return visibles;
   }
   botonAniosEl?.addEventListener("click", () => (panelAniosEl.hidden ? abrirAnios() : cerrarAnios()));
+  [[flechaAntEl, -1], [flechaSigEl, 1]].forEach(([el, paso]) => el?.addEventListener("click", () => {
+    const anio = anioVecino(paso);
+    if (anio !== null) seleccionar(anio, true);
+  }));
   buscarAnioEl?.addEventListener("input", filtrarAnios);
   buscarAnioEl?.addEventListener("keydown", e => {
     if (e.key === "Escape") { cerrarAnios(); botonAniosEl.focus(); return; }
