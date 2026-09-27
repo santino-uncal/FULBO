@@ -139,3 +139,11 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
   background: var(--panel); color: var(--acento); border: 1px solid var(--borde); border-radius: var(--radio);
 }
 .ver-todos:hover { border-color: var(--acento); }
+
+/* Título de goleadores / asistidores con el botón Mostrar / Ocultar */
+.titulo-ranking { display: flex; align-items: center; gap: 12px; }
+.mostrar-tabla {
+  font: inherit; font-size: .8rem; font-weight: 600; padding: 3px 14px; cursor: pointer;
+  background: var(--panel); color: var(--acento); border: 1px solid var(--borde); border-radius: var(--radio);
+}
+.mostrar-tabla:hover, .mostrar-tabla[aria-expanded="true"] { border-color: var(--acento); }

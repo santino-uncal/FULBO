@@ -65,10 +65,13 @@
         <tr class="detalle" hidden><td colspan="4"><ul>${r.detalle.map(d => detalleRanking(d, tipo)).join("")}</ul></td></tr>`).join("");
     // Se muestran los 15 primeros; el resto queda plegado debajo del botón "Ver todos"
     const resto = filas.slice(15);
-    return `<h3>${titulo}</h3><table class="ranking"><thead><tr><th>Jugador</th><th>Equipo</th><th class="num">Cant.</th><th></th></tr></thead>
+    // Botón al lado del título para mostrar u ocultar toda la tabla (arranca cerrada)
+    return `<h3 class="titulo-ranking">${titulo}<button class="mostrar-tabla" type="button" aria-expanded="false">Mostrar</button></h3>
+      <div class="tabla-ranking" hidden><table class="ranking"><thead><tr><th>Jugador</th><th>Equipo</th><th class="num">Cant.</th><th></th></tr></thead>
       <tbody>${renglones(filas.slice(0, 15))}</tbody>
       ${resto.length ? `<tbody class="resto" hidden>${renglones(resto)}</tbody>` : ""}</table>` +
-      (resto.length ? `<button class="ver-todos" type="button" data-total="${filas.length}">Ver todos (${filas.length})</button>` : "");
+      (resto.length ? `<button class="ver-todos" type="button" data-total="${filas.length}">Ver todos (${filas.length})</button>` : "") +
+      `</div>`;
   }
 
   function textoGol(g, p) {
@@ -314,6 +317,14 @@
   };
   // Botón "Ver" de goleadores y asistidores: muestra u oculta el renglón de abajo
   edicionEl.addEventListener("click", e => {
+    const mostrar = e.target.closest("button.mostrar-tabla");
+    if (mostrar) {   // botón del título: muestra u oculta la tabla de goleadores / asistidores
+      const tabla = mostrar.closest("h3").nextElementSibling;
+      tabla.hidden = !tabla.hidden;
+      mostrar.setAttribute("aria-expanded", !tabla.hidden);
+      mostrar.textContent = tabla.hidden ? "Mostrar" : "Ocultar";
+      return;
+    }
     const todos = e.target.closest("button.ver-todos");
     if (todos) {   // "Ver todos": despliega el resto de la tabla que está justo arriba
       const resto = todos.previousElementSibling.querySelector("tbody.resto");
