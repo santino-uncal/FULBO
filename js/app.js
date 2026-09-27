@@ -38,16 +38,32 @@
       const id = tipo === "goles" ? g.jid : g.aid;
       const eq = p[g.equipo];
       const clave = id || `${nombre}|${eq}`;
-      cuenta[clave] = cuenta[clave] || { nombre, equipo: eq, n: 0 };
+      cuenta[clave] = cuenta[clave] || { nombre, equipo: eq, n: 0, detalle: [] };
       cuenta[clave].n++;
+      cuenta[clave].detalle.push({ g, p, fase: f.nombre });   // para el botón "Ver"
     })));
     return Object.values(cuenta).sort((a, b) => b.n - a.n || a.nombre.localeCompare(b.nombre)).slice(0, 15);
   }
 
-  function tablaRanking(titulo, filas) {
+  // Un renglón por gol o asistencia: minuto, partido con resultado, fase y fecha
+  function detalleRanking({ g, p, fase }, tipo) {
+    const min = g.min != null ? `${g.min}${g.extra ? "+" + g.extra : ""}'` : "";
+    const res = p.gl == null ? "vs" : `${p.gl}–${p.gv}`;
+    const extra = tipo === "goles"
+      ? [g.tipo === "pen" && "de penal", g.asistencia && `asist. ${esc(g.asistencia)}`]
+      : [g.jugador && `gol de ${esc(g.jugador)}`];
+    return `<li><span class="det-min">${min}</span>
+      <span>${esc(equipo(p.local).nombre)} ${res} ${esc(equipo(p.visitante).nombre)}</span>
+      <span class="det-meta">${[esc(fase), esc(p.fecha || ""), ...extra].filter(Boolean).join(" · ")}</span></li>`;
+  }
+
+  function tablaRanking(titulo, filas, tipo) {
     if (!filas.length) return "";
-    return `<h3>${titulo}</h3><table><thead><tr><th>Jugador</th><th>Equipo</th><th class="num">Cant.</th></tr></thead><tbody>` +
-      filas.map(r => `<tr><td>${esc(r.nombre)}</td><td>${club(r.equipo)}</td><td class="num">${r.n}</td></tr>`).join("") +
+    const que = tipo === "goles" ? "goles" : "asistencias";
+    return `<h3>${titulo}</h3><table class="ranking"><thead><tr><th>Jugador</th><th>Equipo</th><th class="num">Cant.</th><th></th></tr></thead><tbody>` +
+      filas.map(r => `<tr><td>${esc(r.nombre)}</td><td>${club(r.equipo)}</td><td class="num">${r.n}</td>
+        <td class="num"><button class="ver" type="button" aria-expanded="false" title="Ver sus ${que}">Ver</button></td></tr>
+        <tr class="detalle" hidden><td colspan="4"><ul>${r.detalle.map(d => detalleRanking(d, tipo)).join("")}</ul></td></tr>`).join("") +
       `</tbody></table>`;
   }
 
@@ -222,8 +238,8 @@
       html += `<h3>${esc(f.nombre)}</h3>` + f.partidos.map(partido).join("");
     });
     html += gruposHTML(ed);
-    html += tablaRanking("Goleadores", ranking(ed, "goles"));
-    html += tablaRanking("Asistidores", ranking(ed, "asistencias"));
+    html += tablaRanking("Goleadores", ranking(ed, "goles"), "goles");
+    html += tablaRanking("Asistidores", ranking(ed, "asistencias"), "asistencias");
     // El resto de las fases, de la más importante a la primera (los grupos, de la A en adelante)
     const resto = [...ed.fases].reverse().filter(f => !esFinal(f));
     const grupoDe = f => f.nombre.match(/^(.*) — Grupo (\S+)$/);
@@ -292,6 +308,15 @@
     const pedido = new URLSearchParams(location.search).get("edicion");
     return LIB.indice.some(e => e.anio == pedido) ? pedido : LIB.indice[LIB.indice.length - 1].anio;
   };
+  // Botón "Ver" de goleadores y asistidores: muestra u oculta el renglón de abajo
+  edicionEl.addEventListener("click", e => {
+    const boton = e.target.closest("button.ver");
+    if (!boton) return;
+    const detalle = boton.closest("tr").nextElementSibling;
+    detalle.hidden = !detalle.hidden;
+    boton.setAttribute("aria-expanded", !detalle.hidden);
+    boton.textContent = detalle.hidden ? "Ver" : "Ocultar";
+  });
   window.addEventListener("popstate", () => seleccionar(anioDeLaUrl()));   // botón "atrás" del navegador
   seleccionar(anioDeLaUrl());
 })();
