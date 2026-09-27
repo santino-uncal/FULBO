@@ -36,7 +36,24 @@ body {
 
 main { max-width: 1240px; margin: 0 auto; padding: 24px 16px; }
 
-.ediciones { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+.ediciones { display: flex; flex-wrap: wrap; gap: 8px; }
+.ediciones a[hidden] { display: none; }
+/* Botón 📅 y panel de años (arranca cerrado) */
+.boton-anios {
+  display: flex; align-items: center; gap: 6px; padding: 10px 16px; font: inherit; font-weight: 700; cursor: pointer; white-space: nowrap;
+  color: var(--texto); background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio);
+}
+.boton-anios:hover, .boton-anios[aria-expanded="true"] { border-color: var(--acento); color: var(--acento); }
+.panel-anios {
+  margin: -6px 0 24px; padding: 12px; background: var(--panel-2, var(--panel)); border: 1px solid var(--borde); border-radius: var(--radio);
+}
+.panel-anios input {
+  width: 100%; max-width: 260px; margin-bottom: 12px; font: inherit; padding: 8px 12px; color: var(--texto);
+  background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio);
+}
+.panel-anios input:focus { outline: none; border-color: var(--acento); }
+.panel-anios input::placeholder { color: var(--texto-suave); }
+.panel-anios .vacio { margin: 4px 0 0; }
 .ediciones a {
   background: var(--panel); color: var(--texto); border: 1px solid var(--borde);
   border-radius: var(--radio); padding: 6px 12px; cursor: pointer; font: inherit; text-decoration: none;
@@ -297,3 +314,8 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .cabecera h1 a.inicio { color: inherit; text-decoration: none; }
 .cabecera h1 a.inicio:hover { opacity: .85; }
 .dato strong .dato-texto { font-size: 1.15rem; color: inherit; }
+
+/* En celular, "Estadísticas" y "📅 Años" comparten renglón debajo del buscador */
+@media (max-width: 560px) {
+  .boton-estadisticas, .boton-anios { padding: 10px 11px; font-size: .95rem; }
+}

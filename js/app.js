@@ -5,6 +5,11 @@
   const navEl = document.getElementById("ediciones");
   const edicionEl = document.getElementById("edicion");
   const botonEstEl = document.getElementById("boton-estadisticas");   // al lado del buscador de equipos
+  const botonAniosEl = document.getElementById("boton-anios");        // abre y cierra el panel de años
+  const panelAniosEl = document.getElementById("panel-anios");
+  const buscarAnioEl = document.getElementById("buscar-anio");
+  // El botón 📅 muestra el año que se está viendo ("Años" en estadísticas o en la ficha de un club)
+  const mostrarAnioEnBoton = anio => { const s = document.getElementById("anio-actual"); if (s) s.textContent = anio || "Años"; };
 
   // Carga data/ediciones/<año>.js una sola vez (funciona también abriendo index.html con doble clic)
   function cargarEdicion(anio) {
@@ -665,6 +670,7 @@
   function seleccionarEquipo(id, guardarEnHistorial) {
     navEl.querySelectorAll("a").forEach(a => a.removeAttribute("aria-current"));
     botonEstEl?.removeAttribute("aria-current");
+    mostrarAnioEnBoton(null);
     if (guardarEnHistorial) history.pushState(null, "", `?equipo=${encodeURIComponent(id)}`);
     const nombre = equipo(id).nombre;
     document.title = `${nombre} en la Copa Libertadores — Historial`;
@@ -802,6 +808,7 @@
   function seleccionarEstadisticas(guardarEnHistorial) {
     navEl.querySelectorAll("a").forEach(a => a.removeAttribute("aria-current"));
     botonEstEl?.setAttribute("aria-current", "page");
+    mostrarAnioEnBoton(null);
     if (guardarEnHistorial) history.pushState(null, "", "?estadisticas");
     document.title = "Estadísticas históricas de la Copa Libertadores";
     const desc = document.querySelector('meta[name="description"]');
@@ -892,6 +899,8 @@
   function seleccionar(anio, guardarEnHistorial) {
     navEl.querySelectorAll("a").forEach(a => a.toggleAttribute("aria-current", a.dataset.anio == anio));
     botonEstEl?.removeAttribute("aria-current");
+    mostrarAnioEnBoton(anio);
+    cerrarAnios();
     if (guardarEnHistorial) history.pushState(null, "", `?edicion=${anio}`);
     actualizarTitulo(anio);
     edicionEl.innerHTML = `<p class="vacio">Cargando ${anio}…</p>`;
@@ -906,6 +915,39 @@
     e.preventDefault();
     seleccionar(a.dataset.anio, true);
   });
+  // Panel de años: se abre con el botón 📅; escribiendo se filtran los años y con Enter se abre el elegido
+  function abrirAnios() {
+    if (!panelAniosEl) return;
+    panelAniosEl.hidden = false;
+    botonAniosEl.setAttribute("aria-expanded", "true");
+    buscarAnioEl.focus();
+  }
+  function cerrarAnios() {
+    if (!panelAniosEl || panelAniosEl.hidden) return;
+    panelAniosEl.hidden = true;
+    botonAniosEl.setAttribute("aria-expanded", "false");
+    buscarAnioEl.value = "";
+    filtrarAnios();
+  }
+  function filtrarAnios() {
+    const q = buscarAnioEl.value.replace(/\D/g, "");
+    const visibles = [...navEl.querySelectorAll("a[data-anio]")].filter(a => !(a.hidden = !a.dataset.anio.startsWith(q)));
+    document.getElementById("anio-vacio").hidden = visibles.length > 0;
+    return visibles;
+  }
+  botonAniosEl?.addEventListener("click", () => (panelAniosEl.hidden ? abrirAnios() : cerrarAnios()));
+  buscarAnioEl?.addEventListener("input", filtrarAnios);
+  buscarAnioEl?.addEventListener("keydown", e => {
+    if (e.key === "Escape") { cerrarAnios(); botonAniosEl.focus(); return; }
+    if (e.key !== "Enter") return;
+    const visibles = filtrarAnios();
+    const exacto = visibles.find(a => a.dataset.anio === buscarAnioEl.value.trim());
+    const elegido = exacto || (visibles.length === 1 ? visibles[0] : null);
+    if (elegido) seleccionar(elegido.dataset.anio, true);
+  });
+  // Tocar afuera del panel lo cierra
+  document.addEventListener("click", e => { if (!e.target.closest("#panel-anios, #boton-anios")) cerrarAnios(); });
+
   botonEstEl?.addEventListener("click", e => {
     if (e.ctrlKey || e.metaKey || e.shiftKey) return;
     e.preventDefault();

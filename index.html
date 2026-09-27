@@ -34,8 +34,15 @@
     <ul class="sugerencias" id="sugerencias" role="listbox" hidden></ul>
   </div>
   <a class="boton-estadisticas" id="boton-estadisticas" href="?estadisticas">📊 Estadísticas históricas</a>
+  <button class="boton-anios" id="boton-anios" type="button" aria-expanded="false" aria-controls="panel-anios">📅 <span id="anio-actual">Años</span> ▾</button>
   </div>
-  <nav class="ediciones" id="ediciones" aria-label="Ediciones"></nav>
+  <!-- Panel de años: arranca cerrado y se abre con el botón 📅 -->
+  <div class="panel-anios" id="panel-anios" hidden>
+    <input id="buscar-anio" type="search" inputmode="numeric" maxlength="4" placeholder="Escribí un año (ej.: 1986)"
+      autocomplete="off" aria-label="Buscar año">
+    <nav class="ediciones" id="ediciones" aria-label="Ediciones"></nav>
+    <p class="vacio" id="anio-vacio" hidden>No hay ninguna edición con ese año.</p>
+  </div>
   <section class="edicion" id="edicion">
     <p class="vacio">Elegí una edición.</p>
   </section>
