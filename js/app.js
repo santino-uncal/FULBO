@@ -190,6 +190,28 @@
     }).join("");
   }
 
+  // Reparte los partidos de un grupo en fechas (los datos no traen el número de fecha).
+  // Cada fecha junta partidos sin equipos repetidos (en un grupo de 4: A-B con C-D), tomando siempre
+  // el más temprano que falte; así un partido postergado igual queda en su fecha.
+  function porFechas(partidos) {
+    const pendientes = [...partidos].sort((a, b) => (a.fecha || "").localeCompare(b.fecha || ""));
+    const cantEquipos = new Set(partidos.flatMap(p => [p.local, p.visitante])).size;
+    const porFecha = Math.max(1, Math.floor(cantEquipos / 2));
+    const fechas = [];
+    while (pendientes.length) {
+      const fecha = [pendientes.shift()];
+      const usados = new Set([fecha[0].local, fecha[0].visitante]);
+      for (let i = 0; i < pendientes.length && fecha.length < porFecha; i++) {
+        const p = pendientes[i];
+        if (usados.has(p.local) || usados.has(p.visitante)) continue;
+        fecha.push(p); usados.add(p.local).add(p.visitante);
+        pendientes.splice(i--, 1);
+      }
+      fechas.push(fecha);
+    }
+    return fechas;
+  }
+
   function mostrar(ed) {
     let html = `<h2>${ed.anio}</h2>
       <p>🏆 Campeón: <strong>${ed.campeon ? club(ed.campeon) : "—"}</strong> · Subcampeón: ${ed.subcampeon ? club(ed.subcampeon) : "—"}</p>
@@ -202,10 +224,22 @@
     html += gruposHTML(ed);
     html += tablaRanking("Goleadores", ranking(ed, "goles"));
     html += tablaRanking("Asistidores", ranking(ed, "asistencias"));
-    // El resto de las fases, de la más importante a la primera
-    [...ed.fases].reverse().filter(f => !esFinal(f)).forEach(f => {
-      html += `<details class="fase"><summary>${esc(f.nombre)} (${f.partidos.length})</summary>` +
-        f.partidos.map(partido).join("") + `</details>`;
+    // El resto de las fases, de la más importante a la primera (los grupos, de la A en adelante)
+    const resto = [...ed.fases].reverse().filter(f => !esFinal(f));
+    const grupoDe = f => f.nombre.match(/^(.*) — Grupo (\S+)$/);
+    resto.forEach((f, i) => {                              // ordena alfabéticamente los grupos de una misma etapa
+      if (!grupoDe(f)) return;
+      let j = i;
+      while (j + 1 < resto.length && grupoDe(resto[j + 1]) && grupoDe(resto[j + 1])[1] === grupoDe(f)[1]) j++;
+      if (j > i) resto.splice(i, j - i + 1, ...resto.slice(i, j + 1)
+        .sort((a, b) => grupoDe(a)[2].localeCompare(grupoDe(b)[2], "es", { numeric: true })));
+    });
+    resto.forEach(f => {
+      const g = grupoDe(f);
+      const cuerpo = g
+        ? porFechas(f.partidos).map((ps, n) => `<h4 class="fecha-grupo">Grupo ${esc(g[2])} · Fecha ${n + 1}</h4>` + ps.map(partido).join("")).join("")
+        : f.partidos.map(partido).join("");
+      html += `<details class="fase"><summary>${esc(f.nombre)} (${f.partidos.length})</summary>${cuerpo}</details>`;
     });
     html += planteles(ed);
     edicionEl.innerHTML = html;

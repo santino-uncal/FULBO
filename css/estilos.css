@@ -115,3 +115,9 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
   .grupo .opc { display: none; }
   .res { width: 15px; line-height: 15px; margin-left: 2px; }
 }
+
+/* Títulos "Grupo A · Fecha 1" dentro de la lista de partidos de cada grupo */
+.fecha-grupo {
+  margin: 16px 0 8px; font-size: .8rem; text-transform: uppercase; letter-spacing: .12em;
+  color: var(--texto-suave);
+}
