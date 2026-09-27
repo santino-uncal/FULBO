@@ -184,7 +184,10 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .ronda + .ronda .casilla::before {
   content: ""; position: absolute; left: 0; top: 50%; width: 16px; border-top: 2px solid var(--borde);
 }
-.ronda + .ronda .casilla:empty::before { display: none; }
+.ronda + .ronda .casilla:empty::before, .ronda + .ronda .casilla.sola::before { display: none; }
+.par.vacio::after { display: none; }
+.par.solo-arriba::after { bottom: 50%; border-bottom: 0; }
+.par.solo-abajo::after { top: 50%; border-top: 0; }
 .llave {
   width: 100%; background: var(--panel); border: 1px solid var(--borde); border-radius: 6px;
   overflow: hidden; font-size: .9rem; font-variant-numeric: tabular-nums;

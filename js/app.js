@@ -220,7 +220,7 @@
   }
 
   // El cuadro de la última etapa de grupos va en una pestaña al lado, "Fase eliminatoria"
-  function gruposHTML(ed, cuadro) {
+  function gruposHTML(ed, cuadro, previa) {
     const conGrupos = etapasDeGrupos(ed);
     const etapas = conGrupos.length ? conGrupos : etapasDeLlaves(ed);
     return etapas.map((etapa, i) => {
@@ -231,31 +231,30 @@
       ].filter(Boolean).join("");
       const grupos = `<div class="grupos">${etapa.grupos.map(g => grupoHTML(g, etapa, ed.anio)).join("")}</div>
         <p class="leyenda">${leyenda}</p>`;
-      if (!cuadro || i !== etapas.length - 1) return `<h3>${esc(etapa.nombre)}</h3>${grupos}`;
-      return `<div class="pestanas" role="tablist">
-          <button class="pestana" type="button" role="tab" aria-selected="true">${esc(etapa.nombre)}</button>
-          <button class="pestana" type="button" role="tab" aria-selected="false">Fase eliminatoria</button>
-        </div>
-        <div class="panel">${grupos}</div>
-        <div class="panel" hidden>${cuadro}</div>`;
+      // En la última etapa de grupos van las pestañas: fase previa, grupos y fase eliminatoria
+      const pestanas = i !== etapas.length - 1 ? [] :
+        [previa && ["Fase previa", previa], [etapa.nombre, grupos, true], cuadro && ["Fase eliminatoria", cuadro]].filter(Boolean);
+      if (pestanas.length < 2) return `<h3>${esc(etapa.nombre)}</h3>${grupos}`;
+      return `<div class="pestanas" role="tablist">${pestanas.map(([nombre, , activa]) =>
+          `<button class="pestana" type="button" role="tab" aria-selected="${!!activa}">${esc(nombre)}</button>`).join("")}</div>` +
+        pestanas.map(([, html, activa]) => `<div class="panel"${activa ? "" : " hidden"}>${html}</div>`).join("");
     }).join("");
   }
 
   // ---- Cuadro de la fase eliminatoria (desde la última etapa de grupos hasta la final) ----
 
-  function cuadroHTML(ed) {
-    const esGrupo = f => / — Grupo /.test(f.nombre);
-    const ultimoGrupo = ed.fases.reduce((u, f, i) => esGrupo(f) ? i : u, -1);
-    // Junta los partidos en llaves: mismo par de equipos dentro de la misma fase (con su desempate)
+  // Junta los partidos de las fases [desde, hasta) en llaves: mismo par de equipos dentro de la misma fase (con su desempate).
+  // Con "soloPar" junta el mismo par aunque esté en otra fase (datos con la vuelta cargada en la fase siguiente)
+  function juntarLlaves(ed, desde, hasta, soloPar) {
     const llaves = [];
     ed.fases.forEach((f, i) => {
-      if (i <= ultimoGrupo) return;
+      if (i < desde || i >= hasta) return;
       const fase = f.nombre.replace(/ — Desempate$/, "");
       f.partidos.forEach(p => {
         const par = [p.local, p.visitante].sort().join("|");
         // Orden de las llaves: fase, número de llave (algunas fechas están mal cargadas) y fecha
         const orden = `${String(i).padStart(3, "0")}|${String(p.llave ?? 999).padStart(3, "0")}|${p.fecha || ""}`;
-        let ll = llaves.find(l => l.fase === fase && l.par === par);
+        let ll = llaves.find(l => (soloPar || l.fase === fase) && l.par === par);
         if (!ll) llaves.push(ll = { fase, par, partidos: [], orden });
         ll.partidos.push(p);
         if (orden < ll.orden) ll.orden = orden;
@@ -265,11 +264,43 @@
       ll.partidos.sort((a, b) => (a.fecha || "").localeCompare(b.fecha || ""));
       ll.equipos = [ll.partidos[0].local, ll.partidos[0].visitante];
     });
+    return llaves;
+  }
+
+  function cuadroHTML(ed) {
+    const esGrupo = f => / — Grupo /.test(f.nombre);
+    const ultimoGrupo = ed.fases.reduce((u, f, i) => esGrupo(f) ? i : u, -1);
+    const llaves = juntarLlaves(ed, ultimoGrupo + 1, ed.fases.length);
     const final = llaves.find(l => l.fase.startsWith("Final"));
     if (!final) return "";
+    return dibujarCuadro(llaves, [{ ll: final, gana: ed.campeon }], 2);
+  }
+
+  // ---- Cuadro de la fase previa (todas las fases antes de la fase de grupos) ----
+  // No es un cuadro "puro": en cada ronda entran equipos nuevos, así que esas casillas quedan vacías
+  function cuadroPreviaHTML(ed) {
+    const primerGrupo = ed.fases.findIndex(f => / — Grupo /.test(f.nombre));
+    if (primerGrupo <= 0) return "";
+    const llaves = juntarLlaves(ed, 0, primerGrupo, true);
+    // Si un equipo juega más de una llave en la misma fase no es eliminación directa (p. ej. la previa 1998-2003)
+    const vistos = new Set();
+    for (const ll of llaves) for (const id of ll.equipos) {
+      if (vistos.has(ll.fase + id)) return "";
+      vistos.add(ll.fase + id);
+    }
+    // Ganador de cada llave de la última ronda: el que sigue jugando después (en la fase de grupos)
+    const siguen = new Set(ed.fases.slice(primerGrupo).flatMap(f => f.partidos.flatMap(p => [p.local, p.visitante])));
+    const ultima = llaves[llaves.length - 1].fase;
+    const raices = llaves.filter(l => l.fase === ultima).sort((a, b) => a.orden.localeCompare(b.orden))
+      .map(ll => ({ ll, gana: ll.equipos.find(id => siguen.has(id)) }));
+    return dibujarCuadro(llaves, raices, 1);
+  }
+
+  // Dibuja el árbol hacia atrás desde las llaves de la última ronda (raíces)
+  function dibujarCuadro(llaves, raices, minRondas) {
     // La llave anterior de un equipo: la última que jugó antes de esta
     // Si el equipo todavía no se conoce ("a definir"), la primera llave libre de la ronda anterior
-    const usadas = new Set([final]);
+    const usadas = new Set(raices.map(r => r.ll));
     const anterior = (id, ll) => {
       if (id === "a-definir") {
         const antes = llaves.filter(l => l.orden < ll.orden && l.fase !== ll.fase);
@@ -279,8 +310,8 @@
       return llaves.filter(l => l !== ll && l.orden < ll.orden && l.equipos.includes(id))
         .sort((a, b) => b.orden.localeCompare(a.orden))[0];
     };
-    // Arma el árbol hacia atrás desde la final: cada llave tiene arriba la de su primer equipo y abajo la del segundo
-    const niveles = [[{ ll: final, gana: ed.campeon }]];
+    // Arma el árbol hacia atrás: cada llave tiene arriba la de su primer equipo y abajo la del segundo
+    const niveles = [raices];
     while (niveles.length < 7) {
       const previo = niveles[niveles.length - 1].flatMap(x => x
         ? x.ll.equipos.map(id => {
@@ -293,7 +324,7 @@
       if (!previo.some(Boolean)) break;
       niveles.push(previo);
     }
-    if (niveles.length < 2) return "";   // sin eliminación directa antes de la final (p. ej. semifinales por grupos)
+    if (niveles.length < minRondas) return "";   // sin eliminación directa antes de la final (p. ej. semifinales por grupos)
     niveles.reverse();
     // Título de cada ronda: el nombre de su fase, o uno genérico si varias rondas comparten fase (2002)
     const nombres = niveles.map(nivel => nivel.find(Boolean).ll.fase);
@@ -301,9 +332,16 @@
     const columnas = niveles.map((nivel, n) => {
       const repetido = nombres.filter(x => x === nombres[n]).length > 1;
       const nombre = repetido ? generico[nivel.length] || nombres[n] : nombres[n];
-      const casillas = nivel.map(x => `<div class="casilla">${x ? llaveHTML(x.ll, x.gana) : ""}</div>`);
+      // Sin llave antes (equipos que entran directo en esta ronda): sin línea hacia atrás
+      const antes = niveles[n - 1];
+      const casillas = nivel.map((x, i) => {
+        const sola = !antes || antes[2 * i] || antes[2 * i + 1] ? "" : " sola";
+        return `<div class="casilla${sola}">${x ? llaveHTML(x.ll, x.gana) : ""}</div>`;
+      });
+      // Corchete hacia la ronda siguiente: completo, sólo la mitad que tiene llave, o ninguno
+      const par = i => nivel[i] && nivel[i + 1] ? "par" : nivel[i] ? "par solo-arriba" : nivel[i + 1] ? "par solo-abajo" : "par vacio";
       const cuerpo = n === niveles.length - 1 ? casillas.join("")
-        : casillas.reduce((h, c, i) => i % 2 ? h + c + "</div>" : h + `<div class="par">` + c, "");
+        : casillas.reduce((h, c, i) => i % 2 ? h + c + "</div>" : h + `<div class="${par(i)}">` + c, "");
       return `<div class="ronda"><div class="ronda-titulo">${esc(nombre)}</div><div class="ronda-cuerpo">${cuerpo}</div></div>`;
     });
     return `<div class="cuadro-scroll"><div class="cuadro">${columnas.join("")}</div></div>`;
@@ -387,7 +425,7 @@
     ed.fases.filter(esFinal).forEach(f => {
       html += `<h3>${esc(f.nombre)}</h3>` + f.partidos.map(partido).join("");
     });
-    html += gruposHTML(ed, cuadroHTML(ed));
+    html += gruposHTML(ed, cuadroHTML(ed), cuadroPreviaHTML(ed));
     // El resto de las fases, de la más importante a la primera (los grupos, de la A en adelante)
     const resto = [...ed.fases].reverse().filter(f => !esFinal(f));
     const grupoDe = f => f.nombre.match(/^(.*) — Grupo (\S+)$/);
