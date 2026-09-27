@@ -503,6 +503,7 @@ def main():
             t = info_espn.get(eid, {})
             if t.get("color"):
                 c.setdefault("colores", [f"#{t['color']}", f"#{t.get('color2') or 'ffffff'}"])
+    unificar_estadios(ediciones)
     # Estadio "de siempre" de cada club, para las ediciones viejas que no traen estadios (antes de 2005):
     # donde más veces jugó de local en la primera edición en que hay datos de su cancha
     for a in sorted(ediciones):
@@ -510,7 +511,7 @@ def main():
         for f in ediciones[a]["fases"]:
             for p in f["partidos"]:
                 if p.get("estadio") and not f["nombre"].startswith("Final"):   # las finales pueden ser en cancha neutral
-                    k = p["estadio"] + (f" ({p['ciudad']})" if p.get("ciudad") else "")
+                    k = p["estadio"] + (f", {p['ciudad']}" if p.get("ciudad") else "")
                     cuenta.setdefault(p["local"], {}).setdefault(k, 0)
                     cuenta[p["local"]][k] += 1
         for club, canchas in cuenta.items():
@@ -535,6 +536,22 @@ def main():
 
 
 URL_SITIO = "https://santino-uncal.github.io/FULBO/"  # dirección publicada en GitHub Pages
+
+
+def unificar_estadios(ediciones):
+    """Mismo nombre y ciudad para cada estadio (ver tools/estadios.json). Los que no están en la
+    lista quedan como vienen, sin el 'Estadio' de adelante."""
+    lista = json.loads((RAIZ / "tools" / "estadios.json").read_text(encoding="utf-8"))["estadios"]
+    mapa = {crudo: (nombre, ciudad) for nombre, ciudad, crudos in lista for crudo in crudos}
+    for ed in ediciones.values():
+        for f in ed["fases"]:
+            for p in f["partidos"]:
+                if not p.get("estadio"):
+                    continue
+                if p["estadio"] in mapa:
+                    p["estadio"], p["ciudad"] = mapa[p["estadio"]]
+                else:
+                    p["estadio"] = re.sub(r"^Est[aá]dio\s+", "", p["estadio"])
 
 
 def escribir_sitemap(anios):

@@ -115,7 +115,7 @@
     ed.fases.forEach(f => f.partidos.forEach(p => {
       if (!p.estadio || f.nombre.startsWith("Final")) return;   // las finales pueden ser en cancha neutral
       const c = canchas[p.local] ??= {};
-      const k = p.estadio + (p.ciudad ? ` (${p.ciudad})` : "");
+      const k = p.estadio + (p.ciudad ? `, ${p.ciudad}` : "");
       c[k] = (c[k] || 0) + 1;
     }));
     const estadio = id => {
