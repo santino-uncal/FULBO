@@ -128,12 +128,25 @@
     return `<h3>Planteles</h3><p class="vacio">Jugadores que aparecen en formaciones o goles de esta edición.</p>
       <div class="orden-partidos">Ordenar: ${botones}</div>` +
       ids.map(id => `<details class="plantel"><summary>${club(id)} (${ed.planteles[id].length})${estadio(id)}</summary>
-        <table><thead><tr><th>#</th><th>Jugador</th><th>Pos.</th><th class="num">PJ</th><th class="num">Goles</th><th class="num">Asist.</th></tr></thead><tbody>
+        <table><thead><tr><th>#</th><th>Jugador</th><th>Posición</th><th class="num">PJ</th><th class="num">Goles</th><th class="num">Asist.</th></tr></thead><tbody>
         ${ordenarPlantel(ed.planteles[id], modo).map(j => `<tr data-nombre="${esc(j.nombre)}" data-linea="${lineaDe(j.pos)}">
-          <td>${esc(j.num || "")}</td><td>${esc(j.nombre)}</td><td>${esc(j.pos || "")}</td>
+          <td>${esc(j.num || "")}</td><td>${esc(j.nombre)}</td><td>${esc(nombrePos(j.pos))}</td>
           <td class="num">${j.pj || 0}</td><td class="num">${j.goles || 0}</td><td class="num">${j.asist || 0}</td></tr>`).join("")}
         </tbody></table></details>`).join("");
   }
+  // Las fuentes traen las posiciones en siglas en inglés (G, CD-L, AM…): se muestran en castellano
+  const POSICIONES = {
+    G: "Arquero", D: "Defensor", SW: "Líbero",
+    CD: "Defensor central", "CD-L": "Defensor central izq.", "CD-R": "Defensor central der.",
+    LB: "Lateral izquierdo", RB: "Lateral derecho",
+    DM: "Volante central (5)", M: "Mediocampista", CM: "Mediocampista central",
+    "CM-L": "Mediocampista central izq.", "CM-R": "Mediocampista central der.", RCM: "Mediocampista central der.",
+    LM: "Volante izquierdo", RM: "Volante derecho",
+    AM: "Enganche (10)", "AM-L": "Mediapunta izquierdo", "AM-R": "Mediapunta derecho",
+    F: "Delantero", "CF-L": "Delantero centro izq.", "CF-R": "Delantero centro der.", RCF: "Delantero centro der.",
+    LF: "Extremo izquierdo", RF: "Extremo derecho",
+  };
+  const nombrePos = pos => !pos || pos === "-" ? "" : POSICIONES[pos] || pos;
   // Línea de la cancha según la posición: arquero, defensores, volantes, delanteros; sin posición al final
   function lineaDe(pos) {
     if (!pos || pos === "-") return 9;
