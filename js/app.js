@@ -109,17 +109,18 @@
   function planteles(ed) {
     const ids = Object.keys(ed.planteles || {}).sort((a, b) => equipo(a).nombre.localeCompare(equipo(b).nombre));
     if (!ids.length) return "";
-    // Estadio de cada equipo: donde más veces jugó de local en esta edición (los clubes cambian de cancha con los años)
+    // Estadio de cada equipo: donde más veces jugó de local en esta edición (los clubes cambian de cancha con los años).
+    // Si esta edición no trae estadios, el de la primera edición posterior que sí los tiene (equipos.js)
     const canchas = {};
     ed.fases.forEach(f => f.partidos.forEach(p => {
-      if (!p.estadio) return;
+      if (!p.estadio || f.nombre.startsWith("Final")) return;   // las finales pueden ser en cancha neutral
       const c = canchas[p.local] ??= {};
       const k = p.estadio + (p.ciudad ? ` (${p.ciudad})` : "");
       c[k] = (c[k] || 0) + 1;
     }));
     const estadio = id => {
-      const c = Object.entries(canchas[id] || {}).sort((a, b) => b[1] - a[1])[0];
-      return c ? ` <span class="plantel-estadio">🏟️ ${esc(c[0])}</span>` : "";
+      const c = Object.entries(canchas[id] || {}).sort((a, b) => b[1] - a[1])[0]?.[0] || equipo(id).estadio;
+      return c ? ` <span class="plantel-estadio">🏟️ ${esc(c)}</span>` : "";
     };
     return `<h3>Planteles</h3><p class="vacio">Jugadores que aparecen en formaciones o goles de esta edición.</p>` +
       ids.map(id => `<details class="plantel"><summary>${club(id)} (${ed.planteles[id].length})${estadio(id)}</summary>

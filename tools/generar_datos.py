@@ -503,6 +503,19 @@ def main():
             t = info_espn.get(eid, {})
             if t.get("color"):
                 c.setdefault("colores", [f"#{t['color']}", f"#{t.get('color2') or 'ffffff'}"])
+    # Estadio "de siempre" de cada club, para las ediciones viejas que no traen estadios (antes de 2005):
+    # donde más veces jugó de local en la primera edición en que hay datos de su cancha
+    for a in sorted(ediciones):
+        cuenta = {}
+        for f in ediciones[a]["fases"]:
+            for p in f["partidos"]:
+                if p.get("estadio") and not f["nombre"].startswith("Final"):   # las finales pueden ser en cancha neutral
+                    k = p["estadio"] + (f" ({p['ciudad']})" if p.get("ciudad") else "")
+                    cuenta.setdefault(p["local"], {}).setdefault(k, 0)
+                    cuenta[p["local"]][k] += 1
+        for club, canchas in cuenta.items():
+            if club in clubes and "estadio" not in clubes[club]:
+                clubes[club]["estadio"] = max(canchas, key=canchas.get)
     (DATA / "ediciones").mkdir(parents=True, exist_ok=True)
     for a, ed in ediciones.items():
         escribir(DATA / "ediciones" / f"{a}.js",
