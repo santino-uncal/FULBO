@@ -427,7 +427,10 @@ def leer(anio):
             mp = re.search(r"\[(.*?)\]", s)
             paises_grupo = [PAISES_NOMBRE.get(x.strip(), x.strip()) for x in mp.group(1).split(",")] if mp else []
             continue
-        if re.search(r"playoff|play-off", titulo, re.I) and not nombre:
+        # 'Third Place Playoff' dentro de un grupo (1990, 1992, 1993, 1995) es el desempate por el 3.er puesto
+        # de ese grupo, no el partido por el tercer puesto del torneo
+        en_grupo = bool(subfase and subfase.startswith("Grupo"))
+        if re.search(r"playoff|play-off", titulo, re.I) and (not nombre or en_grupo):
             subfase = (subfase.split(" — ")[0] if subfase else "") + " — Desempate" if subfase else "Desempate"
             continue
         if nombre:

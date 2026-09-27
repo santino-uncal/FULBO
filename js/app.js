@@ -227,12 +227,13 @@
     // El resto de las fases, de la más importante a la primera (los grupos, de la A en adelante)
     const resto = [...ed.fases].reverse().filter(f => !esFinal(f));
     const grupoDe = f => f.nombre.match(/^(.*) — Grupo (\S+)$/);
-    resto.forEach((f, i) => {                              // ordena alfabéticamente los grupos de una misma etapa
-      if (!grupoDe(f)) return;
-      let j = i;
-      while (j + 1 < resto.length && grupoDe(resto[j + 1]) && grupoDe(resto[j + 1])[1] === grupoDe(f)[1]) j++;
-      if (j > i) resto.splice(i, j - i + 1, ...resto.slice(i, j + 1)
-        .sort((a, b) => grupoDe(a)[2].localeCompare(grupoDe(b)[2], "es", { numeric: true })));
+    // Ordena los grupos de cada etapa (A, B, C…), con el desempate de un grupo justo después del grupo
+    const clave = f => f.nombre.match(/^(.*) — Grupo (\S+)( — Desempate)?$/);
+    new Set(resto.map(clave).filter(Boolean).map(m => m[1])).forEach(etapa => {
+      const lugares = resto.map((f, i) => clave(f)?.[1] === etapa ? i : -1).filter(i => i >= 0);
+      const ordenados = lugares.map(i => resto[i]).sort((a, b) =>
+        clave(a)[2].localeCompare(clave(b)[2], "es", { numeric: true }) || !!clave(a)[3] - !!clave(b)[3]);
+      lugares.forEach((i, n) => { resto[i] = ordenados[n]; });
     });
     resto.forEach(f => {
       const g = grupoDe(f);
