@@ -335,6 +335,36 @@
     return fechas;
   }
 
+  // Partidos de una fase eliminatoria, con dos órdenes a elegir: por fecha (como vienen)
+  // o por llave (ida y vuelta juntas). La elección se recuerda para todas las fases.
+  function eliminatoriaHTML(partidos) {
+    const porFecha = partidos.map(partido).join("");
+    const llaves = [];
+    [...partidos].sort((a, b) => (a.fecha || "").localeCompare(b.fecha || "")).forEach(p => {
+      const par = [p.local, p.visitante].sort().join("|");
+      let ll = llaves.find(l => l.par === par);
+      if (!ll) llaves.push(ll = { par, llave: p.llave ?? 999, primera: p.fecha || "", partidos: [] });
+      ll.partidos.push(p);
+    });
+    if (llaves.length === partidos.length) return porFecha;   // todo a partido único: no hay nada que juntar
+    llaves.sort((a, b) => a.llave - b.llave || a.primera.localeCompare(b.primera));
+    const porLlave = llaves.map((ll, n) => {
+      const [p] = ll.partidos;
+      return `<h4 class="fecha-grupo">Llave ${n + 1} · ${esc(equipo(p.local).nombre)} – ${esc(equipo(p.visitante).nombre)}</h4>` +
+        ll.partidos.map(partido).join("");
+    }).join("");
+    const modo = ordenElegido();
+    return `<div class="orden-partidos">Ordenar:
+        <button class="orden" type="button" data-orden="llave" aria-pressed="${modo === "llave"}">Por llave</button>
+        <button class="orden" type="button" data-orden="fecha" aria-pressed="${modo === "fecha"}">Por fecha</button>
+      </div>
+      <div data-vista="llave"${modo === "llave" ? "" : " hidden"}>${porLlave}</div>
+      <div data-vista="fecha"${modo === "fecha" ? "" : " hidden"}>${porFecha}</div>`;
+  }
+  function ordenElegido() {
+    try { return localStorage.getItem("ordenEliminatoria") === "llave" ? "llave" : "fecha"; } catch { return "fecha"; }
+  }
+
   function mostrar(ed) {
     let html = `<h2>${ed.anio}</h2>
       <p>🏆 Campeón: <strong>${ed.campeon ? club(ed.campeon) : "—"}</strong> · Subcampeón: ${ed.subcampeon ? club(ed.subcampeon) : "—"}</p>
@@ -360,7 +390,7 @@
       const g = grupoDe(f);
       const cuerpo = g
         ? porFechas(f.partidos).map((ps, n) => `<h4 class="fecha-grupo">Grupo ${esc(g[2])} · Fecha ${n + 1}</h4>` + ps.map(partido).join("")).join("")
-        : f.partidos.map(partido).join("");
+        : eliminatoriaHTML(f.partidos);
       html += `<details class="fase"><summary>${esc(f.nombre)} (${f.partidos.length})</summary>${cuerpo}</details>`;
     });
     html += tablaRanking("Goleadores", ranking(ed, "goles"), "goles");
@@ -426,6 +456,14 @@
         panel.hidden = b !== pestana;
         panel = panel.nextElementSibling;
       });
+      return;
+    }
+    const orden = e.target.closest("button.orden");
+    if (orden) {   // "Por llave" / "Por fecha": cambia el orden en todas las fases eliminatorias
+      const modo = orden.dataset.orden;
+      try { localStorage.setItem("ordenEliminatoria", modo); } catch {}
+      edicionEl.querySelectorAll("button.orden").forEach(b => b.setAttribute("aria-pressed", b.dataset.orden === modo));
+      edicionEl.querySelectorAll("[data-vista]").forEach(v => { v.hidden = v.dataset.vista !== modo; });
       return;
     }
     const mostrar = e.target.closest("button.mostrar-tabla");

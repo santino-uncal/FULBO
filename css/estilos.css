@@ -148,6 +148,14 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 }
 .mostrar-tabla:hover, .mostrar-tabla[aria-expanded="true"] { border-color: var(--acento); }
 
+/* Selector "Por llave" / "Por fecha" de las fases eliminatorias */
+.orden-partidos { display: flex; align-items: center; gap: 6px; margin: 6px 0 10px; font-size: .85rem; color: var(--texto-suave); }
+.orden {
+  font: inherit; font-weight: 600; padding: 3px 12px; cursor: pointer;
+  background: var(--panel); color: var(--texto-suave); border: 1px solid var(--borde); border-radius: var(--radio);
+}
+.orden[aria-pressed="true"] { color: var(--acento); border-color: var(--acento); }
+
 /* Pestañas "Fase de grupos" / "Fase eliminatoria" */
 .pestanas { display: flex; flex-wrap: wrap; gap: 4px 24px; border-bottom: 1px solid var(--borde); margin: 1.2em 0 1em; }
 .pestana {
