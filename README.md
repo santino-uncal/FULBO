@@ -24,6 +24,7 @@ Todas las ediciones desde 1960: resultados, goleadores, asistidores, planteles y
 | `data/indice.js` | Años disponibles con campeón y subcampeón. | **Generado** — no editar a mano. |
 | `data/equipos.js` | Catálogo de clubes (nombre, país, ciudad, escudo, colores). | **Generado**. |
 | `data/historial.js` | Historia de cada club (ediciones, títulos, partidos, rivales, goleadores) para el buscador. Se carga recién al usar el buscador. | **Generado** (`tools/generar_historial.py`). |
+| `data/entrenadores.js` | Entrenador(es) de cada club en cada edición. | **Generado** (`tools/descargar_entrenadores.py`). |
 | `data/estadisticas.js` | Estadísticas históricas (goleadores de siempre, por edición y por instancia, títulos, goleadas…). Se carga al tocar "Estadísticas históricas" (`?estadisticas`). | **Generado** (`tools/generar_estadisticas.py`). |
 | `data/ediciones/<año>.js` | Una edición: fases, partidos, goles, formaciones, planteles. | **Generado**. |
 | `assets/escudos/<club>.png` | Escudos. | Se bajan con `tools/descargar_escudos.py`. |
@@ -39,6 +40,7 @@ a mano**: se calculan a partir de los goles de cada partido.
 | 1960–2004 | **RSSSF** (rsssf.org) | Resultados, goleadores, formaciones de las finales. |
 | 2005–2024 | **RSSSF + ESPN** | RSSSF da la lista completa de partidos; ESPN agrega goles con minuto, asistencias, formaciones, árbitro y público. |
 | 2025 en adelante | **ESPN** | Todo lo anterior. |
+| Todos | **Transfermarkt** | El entrenador de cada equipo en cada edición (cruzando su historial de entrenadores con las fechas de los partidos). |
 
 Los datos de RSSSF son de Juan Pablo Andrés, Pablo Ciullini y Frank Ballesteros (Rec.Sport.Soccer
 Statistics Foundation), que permiten copiarlos citando a los autores.
@@ -50,6 +52,7 @@ python tools/descargar_rsssf.py     # baja las páginas nuevas de RSSSF
 python tools/descargar_espn.py      # baja partidos de ESPN (la 1ra vez tarda ~2 horas)
 python tools/generar_datos.py       # arma data/ y muestra un control de calidad por año
 python tools/descargar_escudos.py   # baja los escudos que falten
+python tools/descargar_entrenadores.py  # entrenadores de cada equipo (Transfermarkt), arma data/entrenadores.js
 ```
 
 Para la temporada en curso alcanza con `python tools/descargar_espn.py 2026` y después `generar_datos.py`.
@@ -64,6 +67,9 @@ Para la temporada en curso alcanza con `python tools/descargar_espn.py 2026` y d
 - `campeones`: forzar campeón y subcampeón de un año (`"1960": ["penarol", "olimpia"]`), por si hiciera falta.
 
 Después de tocarlo, volver a correr `generar_datos.py`.
+
+`tools/entrenadores_ajustes.json` dice a qué club de Transfermarkt corresponde cada club nuestro cuando el
+emparejamiento automático se confunde (dos "Nacional", dos "River Plate"…): `"nacional-par": 7098`.
 
 ## Fases
 

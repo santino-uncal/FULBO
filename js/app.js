@@ -36,6 +36,13 @@
     return `<img class="bandera" src="assets/banderas/${p}.png" alt="${PAISES[p]}" title="${PAISES[p]}" onerror="this.remove()">`;
   }
   const club = id =>`${escudo(id)}${esc(equipo(id).nombre)}`;
+  // Entrenador(es) de un club en una edición (data/entrenadores.js, sale de Transfermarkt)
+  const entrenadores = (anio, id) => (LIB.entrenadores || {})[anio]?.[id] || [];
+  function lineaDT(anio, id) {
+    const dts = entrenadores(anio, id);
+    if (!dts.length) return "";
+    return `<p class="plantel-dt">🧑‍💼 ${dts.length > 1 ? "Entrenadores" : "Entrenador"}: <strong>${dts.map(esc).join(" → ")}</strong></p>`;
+  }
 
   // Goleadores y asistidores se calculan a partir de los goles de cada partido
   function ranking(ed, tipo) {
@@ -139,7 +146,7 @@
       <input class="filtro-plantel" type="search" placeholder="Buscar equipo…" aria-label="Buscar equipo en los planteles" autocomplete="off">
       <p class="vacio filtro-plantel-vacio" hidden></p>` +
       ids.map(id => `<details class="plantel" data-busqueda="${esc(normalizar(equipo(id).nombre) + " " + id)}"><summary>${club(id)} (${ed.planteles[id].length})${estadio(id)}</summary>
-        ${tablaPlantel(ed.planteles[id], modo)}</details>`).join("");
+        ${lineaDT(ed.anio, id)}${tablaPlantel(ed.planteles[id], modo)}</details>`).join("");
   }
   function tablaPlantel(jugadores, modo) {
     return `<table><thead><tr><th>#</th><th>Jugador</th><th>Posición</th><th class="num">PJ</th><th class="num">Goles</th><th class="num">Asist.</th></tr></thead><tbody>
@@ -592,7 +599,7 @@
       ${asistidores.length ? `<p>🎯 <strong>Asistidores:</strong> ${lista(asistidores)}</p>` : ""}
       <h4>Partidos</h4>
       ${fases.map(f => `<h4 class="fecha-grupo">${esc(f.nombre)}</h4>` + f.partidos.map(partido).join("")).join("")}
-      ${plantel?.length ? `<h4>Plantel (${plantel.length})</h4><div class="tabla-scroll">${tablaPlantel(plantel, "posicion")}</div>` : ""}
+      ${plantel?.length ? `<h4>Plantel (${plantel.length})</h4>${lineaDT(ed.anio, id)}<div class="tabla-scroll">${tablaPlantel(plantel, "posicion")}</div>` : ""}
       <p>${linkEdicion(ed.anio)} ← ver la edición completa</p>`;
   }
 
@@ -628,14 +635,15 @@
     // Edición por edición, de la más reciente a la primera
     html += `<h3>Edición por edición</h3>
       <p class="vacio">Tocá "Ver" para abrir la campaña de ese año: partidos, goleadores y plantel.</p>
-      <div class="tabla-scroll"><table class="historial"><thead><tr><th>Año</th><th>Hasta dónde llegó</th>
+      <div class="tabla-scroll"><table class="historial"><thead><tr><th>Año</th><th>Hasta dónde llegó</th><th>Entrenador</th>
         <th class="num">PJ</th><th class="num">G</th><th class="num">E</th><th class="num">P</th><th class="num">Goles</th><th></th></tr></thead><tbody>
       ${[...eds].reverse().map(x => `<tr class="${x.fase === "Campeón" ? "fila-campeon" : x.fase === "Subcampeón" ? "fila-sub" : ""}">
         <td>${linkEdicion(x.anio)}</td><td>${x.fase === "Campeón" ? "🏆 " : x.fase === "Subcampeón" ? "🥈 " : ""}${esc(x.fase)}</td>
+        <td class="col-dt">${entrenadores(x.anio, id).map(esc).join("<br>")}</td>
         <td class="num">${x.pj}</td><td class="num">${x.g}</td><td class="num">${x.e}</td><td class="num">${x.p}</td>
         <td class="num">${x.gf}:${x.gc}</td>
         <td class="num"><button class="ver-campania" type="button" data-anio="${x.anio}" data-equipo="${esc(id)}" aria-expanded="false">Ver</button></td></tr>
-        <tr class="campania" hidden><td colspan="8"></td></tr>`).join("")}
+        <tr class="campania" hidden><td colspan="9"></td></tr>`).join("")}
       </tbody></table></div>`;
 
     if (h.rivales.length) html += `<h3>Rivales más frecuentes</h3>
@@ -656,7 +664,7 @@
 
   function seleccionarEquipo(id, guardarEnHistorial) {
     navEl.querySelectorAll("a").forEach(a => a.removeAttribute("aria-current"));
-    botonEstEl.removeAttribute("aria-current");
+    botonEstEl?.removeAttribute("aria-current");
     if (guardarEnHistorial) history.pushState(null, "", `?equipo=${encodeURIComponent(id)}`);
     const nombre = equipo(id).nombre;
     document.title = `${nombre} en la Copa Libertadores — Historial`;
@@ -793,7 +801,7 @@
 
   function seleccionarEstadisticas(guardarEnHistorial) {
     navEl.querySelectorAll("a").forEach(a => a.removeAttribute("aria-current"));
-    botonEstEl.setAttribute("aria-current", "page");
+    botonEstEl?.setAttribute("aria-current", "page");
     if (guardarEnHistorial) history.pushState(null, "", "?estadisticas");
     document.title = "Estadísticas históricas de la Copa Libertadores";
     const desc = document.querySelector('meta[name="description"]');
@@ -883,7 +891,7 @@
 
   function seleccionar(anio, guardarEnHistorial) {
     navEl.querySelectorAll("a").forEach(a => a.toggleAttribute("aria-current", a.dataset.anio == anio));
-    botonEstEl.removeAttribute("aria-current");
+    botonEstEl?.removeAttribute("aria-current");
     if (guardarEnHistorial) history.pushState(null, "", `?edicion=${anio}`);
     actualizarTitulo(anio);
     edicionEl.innerHTML = `<p class="vacio">Cargando ${anio}…</p>`;
@@ -898,7 +906,7 @@
     e.preventDefault();
     seleccionar(a.dataset.anio, true);
   });
-  botonEstEl.addEventListener("click", e => {
+  botonEstEl?.addEventListener("click", e => {
     if (e.ctrlKey || e.metaKey || e.shiftKey) return;
     e.preventDefault();
     seleccionarEstadisticas(true);
