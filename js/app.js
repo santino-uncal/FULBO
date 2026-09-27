@@ -199,7 +199,7 @@
       if (hayResultados && etapa.pasan.has(f.id)) marca = etapa.campeon ? "campeon" : "pasa";
       else if (hayResultados && anio >= 2017 && etapa.nombre === "Fase de grupos" && i === 2) marca = "sudamericana";
       const dif = f.dif > 0 ? `+${f.dif}` : f.dif;
-      const ultimos = f.ultimos.slice(-5).reverse().map(u => `<span class="res res-${u.r}" title="${esc(u.texto)}">${u.r}</span>`).join("");
+      const ultimos = f.ultimos.slice(-5).reverse().map(u => `<span class="res res-${u.r}" title="${esc(u.texto)}" aria-label="${{ V: "Victoria", E: "Empate", D: "Derrota" }[u.r]}">${{ V: "✓", E: "–", D: "✕" }[u.r]}</span>`).join("");
       return `<tr>
         <td class="pos ${marca}">${i + 1}</td>
         <td class="eq">${club(f.id)}</td>
