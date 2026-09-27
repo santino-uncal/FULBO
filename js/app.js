@@ -492,6 +492,22 @@
       <span class="det-meta">· ${linkEdicion(r.anio)}, ${esc(r.fase)}</span>`;
   }
 
+  // Qué tan lejos llegó en una edición (más alto = mejor). "Primera fase" era la fase de grupos de antes
+  const NIVEL_FASE = { "Campeón": 10, "Subcampeón": 9, "Final": 9, "Semifinales": 8, "Cuartos de final": 7,
+    "Octavos de final": 6, "Segunda fase": 5, "Fase de grupos": 4, "Primera fase": 4,
+    "Tercera fase previa": 3, "Segunda fase previa": 2, "Primera fase previa": 1, "Fase previa": 1 };
+  // Mejor o peor instancia a la que llegó, con todos los años en que le pasó
+  function participacion(eds, cual) {
+    const nivel = x => NIVEL_FASE[x.fase] ?? 0;
+    // La edición en juego (sin campeón todavía) no cuenta para la peor: el equipo puede seguir avanzando
+    const terminadas = eds.filter(x => LIB.indice.find(e => e.anio === x.anio)?.campeon);
+    if (cual === "peor" && terminadas.length) eds = terminadas;
+    const n = (cual === "mejor" ? Math.max : Math.min)(...eds.map(nivel));
+    const veces = eds.filter(x => nivel(x) === n);
+    // Si la instancia cambió de nombre con los años ("Primera fase" → "Fase de grupos"), el más reciente
+    return { fase: veces[veces.length - 1].fase, anios: veces.map(x => x.anio) };
+  }
+
   function mostrarEquipo(id) {
     const h = LIB.historial[id];
     const e = equipo(id);
@@ -504,6 +520,7 @@
     const lugar = [PAISES[e.pais] && `${bandera(id)}${PAISES[e.pais]}`, e.ciudad && esc(e.ciudad), e.estadio && `🏟️ ${esc(e.estadio)}`]
       .filter(Boolean).join(" · ");
     const dif = t.gf - t.gc;
+    const mejor = participacion(eds, "mejor"), peor = participacion(eds, "peor");
 
     let html = `<h2 class="titulo-equipo">${e.escudo ? `<img class="escudo-grande" src="${e.escudo}" alt="" onerror="this.remove()">` : ""}${esc(e.nombre)}</h2>
       <p class="vacio">${lugar}</p>
@@ -514,6 +531,8 @@
         ${dato(t.pj, "partidos", `<small>${t.g} G · ${t.e} E · ${t.p} P</small>`)}
         ${dato(`${t.gf}:${t.gc}`, "goles a favor y en contra", `<small>diferencia ${dif > 0 ? "+" : ""}${dif}</small>`)}
         ${dato(`${efectividad}%`, "de los puntos ganados", `<small>contando 3 por victoria</small>`)}
+        ${dato(`<span class="dato-texto">📈 ${esc(mejor.fase)}</span>`, "mejor participación", anios(mejor.anios))}
+        ${dato(`<span class="dato-texto">📉 ${esc(peor.fase)}</span>`, "peor participación", anios(peor.anios))}
       </div>
       <p>💪 Mayor goleada: ${partidoDestacado(id, h.mayorVictoria)}</p>
       <p>😣 Peor derrota: ${partidoDestacado(id, h.peorDerrota)}</p>`;

@@ -249,3 +249,4 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 /* Título "Copa Libertadores": link a la edición actual, sin que parezca un link */
 .cabecera h1 a.inicio { color: inherit; text-decoration: none; }
 .cabecera h1 a.inicio:hover { opacity: .85; }
+.dato strong .dato-texto { font-size: 1.15rem; color: inherit; }
