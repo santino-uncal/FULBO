@@ -26,7 +26,15 @@
     // Si el escudo todavía no se descargó, la imagen se oculta sola
     return `<img class="escudo" src="${e.escudo}" alt="" loading="lazy" onerror="this.remove()">`;
   }
-  const club = id => `${escudo(id)}${esc(equipo(id).nombre)}`;
+  // Bandera del país de cada equipo (assets/banderas/ARG.png, BRA.png…)
+  const PAISES = { ARG: "Argentina", BOL: "Bolivia", BRA: "Brasil", CHI: "Chile", COL: "Colombia", ECU: "Ecuador",
+    MEX: "México", PAR: "Paraguay", PER: "Perú", URU: "Uruguay", VEN: "Venezuela" };
+  function bandera(id) {
+    const p = equipo(id).pais;
+    if (!PAISES[p]) return "";
+    return `<img class="bandera" src="assets/banderas/${p}.png" alt="${PAISES[p]}" title="${PAISES[p]}" onerror="this.remove()">`;
+  }
+  const club = id =>`${escudo(id)}${esc(equipo(id).nombre)}`;
 
   // Goleadores y asistidores se calculan a partir de los goles de cada partido
   function ranking(ed, tipo) {
@@ -299,7 +307,7 @@
       const pen = conPen ? ` <small>(${conPen.local === id ? conPen.pen_l : conPen.pen_v})</small>` : "";
       const celdas = unSolo ? "" : parciales.map(g => `<span class="ll-g">${g ?? "–"}</span>`).join("");
       return `<div class="ll-eq${id === gana ? " gana" : ""}" title="${esc(equipo(id).nombre)}">
-        <span class="ll-nombre">${club(id)}</span>${celdas}<span class="ll-total">${total}${pen}</span></div>`;
+        ${bandera(id)}<span class="ll-nombre">${club(id)}</span>${celdas}<span class="ll-total">${total}${pen}</span></div>`;
     };
     const detalle = ll.partidos.map(p => `${equipo(p.local).nombre} ${p.gl ?? ""}–${p.gv ?? ""} ${equipo(p.visitante).nombre}${p.fecha ? " (" + p.fecha + ")" : ""}`).join("\n");
     return `<div class="llave" title="${esc(detalle)}">${ll.equipos.map(fila).join("")}</div>`;

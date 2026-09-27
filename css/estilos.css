@@ -189,3 +189,4 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .ll-g { width: 22px; text-align: center; color: var(--texto-suave); font-weight: 400; }
 .ll-total { min-width: 34px; padding: 0 8px 0 4px; text-align: center; font-weight: 700; white-space: nowrap; }
 .ll-total small { font-size: .75em; font-weight: 600; }
+.bandera { width: 20px; height: 14px; object-fit: cover; border-radius: 2px; margin-right: 6px; flex-shrink: 0; box-shadow: 0 0 0 1px var(--borde); }
