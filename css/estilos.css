@@ -67,6 +67,7 @@ td.num { text-align: right; }
 details.fase, details.plantel { margin: 12px 0; }
 details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .gol-eq { opacity: .7; }
+.plantel-estadio { margin-left: 10px; font-weight: 400; font-size: .85rem; color: var(--texto-suave); }
 
 /* ---- Tablas de grupos ---- */
 :root {

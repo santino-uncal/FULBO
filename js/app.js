@@ -109,8 +109,20 @@
   function planteles(ed) {
     const ids = Object.keys(ed.planteles || {}).sort((a, b) => equipo(a).nombre.localeCompare(equipo(b).nombre));
     if (!ids.length) return "";
+    // Estadio de cada equipo: donde más veces jugó de local en esta edición (los clubes cambian de cancha con los años)
+    const canchas = {};
+    ed.fases.forEach(f => f.partidos.forEach(p => {
+      if (!p.estadio) return;
+      const c = canchas[p.local] ??= {};
+      const k = p.estadio + (p.ciudad ? ` (${p.ciudad})` : "");
+      c[k] = (c[k] || 0) + 1;
+    }));
+    const estadio = id => {
+      const c = Object.entries(canchas[id] || {}).sort((a, b) => b[1] - a[1])[0];
+      return c ? ` <span class="plantel-estadio">🏟️ ${esc(c[0])}</span>` : "";
+    };
     return `<h3>Planteles</h3><p class="vacio">Jugadores que aparecen en formaciones o goles de esta edición.</p>` +
-      ids.map(id => `<details class="plantel"><summary>${club(id)} (${ed.planteles[id].length})</summary>
+      ids.map(id => `<details class="plantel"><summary>${club(id)} (${ed.planteles[id].length})${estadio(id)}</summary>
         <table><thead><tr><th>#</th><th>Jugador</th><th>Pos.</th><th class="num">PJ</th><th class="num">Goles</th><th class="num">Asist.</th></tr></thead><tbody>
         ${ed.planteles[id].map(j => `<tr><td>${esc(j.num || "")}</td><td>${esc(j.nombre)}</td><td>${esc(j.pos || "")}</td>
           <td class="num">${j.pj || 0}</td><td class="num">${j.goles || 0}</td><td class="num">${j.asist || 0}</td></tr>`).join("")}
