@@ -16,6 +16,19 @@ body {
   background: var(--fondo);
   color: var(--texto);
   line-height: 1.5;
+  min-height: 100vh;
+}
+
+/* Fondo con los colores del campeón (app.js define --club1 y --club2).
+   Se mezclan con el azul oscuro para que el texto se siga leyendo bien. */
+body {
+  --club1: var(--fondo);
+  --club2: var(--fondo);
+  background:
+    linear-gradient(160deg,
+      color-mix(in srgb, var(--club1) 38%, var(--fondo)) 0%,
+      var(--fondo) 55%,
+      color-mix(in srgb, var(--club2) 28%, var(--fondo)) 100%) fixed;
 }
 
 .cabecera {

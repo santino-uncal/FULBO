@@ -223,6 +223,16 @@
     let canonica = document.querySelector('link[rel="canonical"]');
     if (!canonica) document.head.appendChild(canonica = Object.assign(document.createElement("link"), { rel: "canonical" }));
     canonica.href = `${URL_SITIO}?edicion=${anio}`;
+    pintarFondo(e.campeon);
+  }
+
+  // El fondo de la página toma los colores de camiseta del campeón de esa edición
+  function pintarFondo(campeon) {
+    const colores = (LIB.colores || {})[campeon] || equipo(campeon).colores;
+    const estilo = document.body.style;
+    if (!colores) { estilo.removeProperty("--club1"); estilo.removeProperty("--club2"); return; }
+    estilo.setProperty("--club1", colores[0]);
+    estilo.setProperty("--club2", colores[1] || colores[0]);
   }
 
   function seleccionar(anio, guardarEnHistorial) {
