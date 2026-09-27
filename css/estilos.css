@@ -73,7 +73,7 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 :root {
   --pasa: #15803d;   /* verde oscuro */
   --sudamericana: #06b6d4;
-  --res-v: #c8f031;
+  --res-v: #16a34a;
   --res-e: #5b6470;
   --res-d: #ef4444;
 }
@@ -102,7 +102,7 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
   display: inline-block; width: 18px; line-height: 18px; margin-left: 3px; border-radius: 3px;
   font-size: .7rem; font-weight: 800; cursor: default;
 }
-.res-V { background: var(--res-v); color: #111; }
+.res-V { background: var(--res-v); color: #fff; }
 .res-E { background: var(--res-e); color: #fff; }
 .res-D { background: var(--res-d); color: #fff; }
 .leyenda { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: .85rem; color: var(--texto-suave); }
