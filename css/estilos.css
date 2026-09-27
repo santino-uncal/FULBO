@@ -71,6 +71,12 @@ td.num { text-align: right; }
 
 details.fase, details.plantel { margin: 12px 0; }
 details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
+.filtro-plantel {
+  width: 100%; max-width: 320px; font: inherit; padding: 8px 12px; color: var(--texto);
+  background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio);
+}
+.filtro-plantel:focus { outline: none; border-color: var(--acento); }
+.filtro-plantel::placeholder { color: var(--texto-suave); }
 .plantel-estadio { margin-left: 10px; font-weight: 400; font-size: .85rem; color: var(--texto-suave); }
 
 /* ---- Tablas de grupos ---- */

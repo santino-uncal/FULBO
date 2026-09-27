@@ -134,8 +134,10 @@
     const botones = ["posicion", "nombre"].map(m => `<button class="orden orden-plantel" type="button" data-orden-plantel="${m}"
       aria-pressed="${modo === m}">${m === "nombre" ? "Por nombre" : "Por posición"}</button>`).join("");
     return `<h3>Planteles</h3><p class="vacio">Jugadores que aparecen en formaciones o goles de esta edición.</p>
-      <div class="orden-partidos">Ordenar: ${botones}</div>` +
-      ids.map(id => `<details class="plantel"><summary>${club(id)} (${ed.planteles[id].length})${estadio(id)}</summary>
+      <div class="orden-partidos">Ordenar: ${botones}</div>
+      <input class="filtro-plantel" type="search" placeholder="Buscar equipo…" aria-label="Buscar equipo en los planteles" autocomplete="off">
+      <p class="vacio filtro-plantel-vacio" hidden></p>` +
+      ids.map(id => `<details class="plantel" data-busqueda="${esc(normalizar(equipo(id).nombre) + " " + id)}"><summary>${club(id)} (${ed.planteles[id].length})${estadio(id)}</summary>
         ${tablaPlantel(ed.planteles[id], modo)}</details>`).join("");
   }
   function tablaPlantel(jugadores, modo) {
@@ -768,6 +770,19 @@
     else seleccionar(anioDeLaUrl());
   }
   // Botón "Ver" de goleadores y asistidores: muestra u oculta el renglón de abajo
+  edicionEl.addEventListener("input", e => {
+    if (!e.target.matches("input.filtro-plantel")) return;
+    // Buscador de planteles: deja visibles solo los equipos cuyo nombre contiene lo escrito
+    const q = normalizar(e.target.value);
+    let visibles = 0;
+    edicionEl.querySelectorAll("details.plantel").forEach(d => {
+      d.hidden = !!q && !d.dataset.busqueda.includes(q) && !d.dataset.busqueda.includes(q.replace(/\s+/g, "-"));
+      if (!d.hidden) visibles++;
+    });
+    const vacio = edicionEl.querySelector(".filtro-plantel-vacio");
+    vacio.hidden = visibles > 0;
+    vacio.textContent = `No hay equipos con “${e.target.value.trim()}” en esta edición.`;
+  });
   edicionEl.addEventListener("click", e => {
     const link = e.target.closest("a[data-anio], a[data-equipo]");
     if (link && !e.ctrlKey && !e.metaKey && !e.shiftKey) {   // años y rivales de la ficha de un equipo
