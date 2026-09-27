@@ -22,6 +22,7 @@ from generar_historial import DATA, RAIZ, leer_ediciones
 CACHE = RAIZ / "tools" / "cache" / "transfermarkt"
 BASE = "https://www.transfermarkt.com"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36"
+PARTIDOS_DT = RAIZ / "tools" / "entrenadores_partidos.json"   # {año: {"fecha|local|visitante": {"local": dt, ...}}}
 AJUSTES = RAIZ / "tools" / "entrenadores_ajustes.json"   # correcciones a mano: {"club-nuestro": id_transfermarkt}
 
 
@@ -129,6 +130,10 @@ def historial_dt(id_tm):
     return salida
 
 
+def clave_partido(p):
+    return f'{p.get("fecha")}|{p["local"]}|{p["visitante"]}'
+
+
 def quien_dirigio(dts, dia):
     """El entrenador a cargo ese día (si hay titular e interino, el titular)."""
     candidatos = [d for d in dts if d["desde"] <= dia and (d["hasta"] is None or dia <= d["hasta"])]
@@ -153,6 +158,7 @@ def main():
         historiales[club] = historial_dt(id_tm)
 
     salida, sin_dato = {}, 0
+    por_partido = {}   # quién dirigió a cada lado en cada partido (lo usa generar_estadisticas.py)
     for anio, ed in eds.items():
         por_club = defaultdict(list)
         for f in ed["fases"]:
@@ -165,6 +171,8 @@ def main():
                     if club not in historiales:
                         continue
                     dt = quien_dirigio(historiales[club], dia)
+                    if dt:
+                        por_partido.setdefault(str(anio), {}).setdefault(clave_partido(p), {})[lado] = dt
                     if dt and dt not in por_club[club]:
                         por_club[club].append(dt)
         equipos_ed = {p[l] for f in ed["fases"] for p in f["partidos"] for l in ("local", "visitante")} - {"a-definir", None}
@@ -176,6 +184,8 @@ def main():
     (DATA / "entrenadores.js").write_text(
         "/* Generado por tools/descargar_entrenadores.py (fuente: Transfermarkt) — no editar a mano */\n"
         "window.LIB = window.LIB || {};\nwindow.LIB.entrenadores = " + cuerpo + ";\n", encoding="utf-8")
+    PARTIDOS_DT.write_text(json.dumps(por_partido, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(f"{PARTIDOS_DT.name}: {sum(len(v) for v in por_partido.values())} partidos con entrenador")
 
 
 E_NOMBRES = {}

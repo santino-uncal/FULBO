@@ -1,5 +1,6 @@
 """Arma data/estadisticas.js: las estadísticas históricas de toda la Copa (goleadores de siempre, goleador de
-cada edición, goleadores por instancia, títulos por club y país, goleadas, etc.).
+cada edición, goleadores por instancia, promedio de gol, entrenadores, estadios de las finales, títulos por club
+y país, goleadas, etc.).
 
 Se calcula a partir de data/ediciones/*.js, así la página no tiene que cargar todas las ediciones.
 Lo llama generar_datos.py al final; también se puede correr solo:
@@ -9,15 +10,108 @@ import json
 import re
 from collections import defaultdict
 
-from generar_historial import DATA, leer_ediciones
+from generar_historial import DATA, RAIZ, leer_ediciones
 
 # Instancias de mata-mata (las "Semifinales — Grupo N" de los años 60-80 eran grupos, no cuentan)
 INSTANCIAS = ["Octavos de final", "Cuartos de final", "Semifinales", "Final"]
 
 
+PROMEDIO_MIN_PARTIDOS = 20   # para el ranking de promedio de gol
+
+
 def instancia(nombre_fase):
     base = re.sub(r" — Desempate$", "", nombre_fase)
+    if base == "Segunda fase":   # de 1988 a 2004 la segunda fase era de eliminación directa: los octavos
+        return "Octavos de final"
     return base if base in INSTANCIAS else None
+
+
+def jugaron(p):
+    """(id, nombre, lado) de cada jugador que entró a la cancha, si el partido tiene formaciones."""
+    for lado, f in (p.get("formaciones") or {}).items():
+        for j in (f.get("titulares") or []) + [s for s in f.get("suplentes") or [] if s.get("jugo")]:
+            if j.get("id"):
+                yield j["id"], j.get("nombre"), lado
+
+
+def promedio_de_gol(eds):
+    """Goles por partido jugado. Solo se sabe quién jugó en los partidos con formaciones (desde 2005)."""
+    jug = {}
+    for anio, ed in eds.items():
+        for fase in ed["fases"]:
+            for p in fase["partidos"]:
+                if not p.get("formaciones") or p.get("gl") is None:
+                    continue
+                for id_, nombre, lado in jugaron(p):
+                    j = jug.setdefault(id_, {"nombre": nombre, "pj": 0, "n": 0, "clubes": [], "anios": set()})
+                    j["pj"] += 1
+                    j["nombre"] = nombre or j["nombre"]
+                    j["anios"].add(anio)
+                    if p[lado] not in j["clubes"]:
+                        j["clubes"].append(p[lado])
+                for g in p.get("goles") or []:
+                    if g.get("tipo") != "ec" and g.get("jid") in jug:
+                        jug[g["jid"]]["n"] += 1
+    lista = [j for j in jug.values() if j["pj"] >= PROMEDIO_MIN_PARTIDOS and j["n"]]
+    lista.sort(key=lambda j: (-j["n"] / j["pj"], -j["n"]))
+    return [{"nombre": j["nombre"], "clubes": j["clubes"], "anios": [min(j["anios"]), max(j["anios"])],
+             "pj": j["pj"], "n": j["n"]} for j in lista[:30]]
+
+
+def entrenadores(eds):
+    """Partidos, victorias, empates y derrotas de cada entrenador.
+    Quién dirigió cada partido lo arma descargar_entrenadores.py (Transfermarkt) en tools/entrenadores_partidos.json."""
+    ruta = RAIZ / "tools" / "entrenadores_partidos.json"
+    if not ruta.exists():
+        return []
+    por_partido = json.loads(ruta.read_text(encoding="utf-8"))
+    dts = {}
+    for anio, ed in eds.items():
+        dirigio = por_partido.get(str(anio), {})
+        ultima_final = None
+        for fase in ed["fases"]:
+            for p in fase["partidos"]:
+                if p.get("gl") is None or p.get("gv") is None:
+                    continue
+                quien = dirigio.get(f'{p.get("fecha")}|{p["local"]}|{p["visitante"]}', {})
+                if instancia(fase["nombre"]) == "Final":
+                    ultima_final = (p, quien)
+                for lado, gf, gc in (("local", p["gl"], p["gv"]), ("visitante", p["gv"], p["gl"])):
+                    if not quien.get(lado):
+                        continue
+                    d = dts.setdefault(quien[lado], {"nombre": quien[lado], "pj": 0, "g": 0, "e": 0, "p": 0,
+                                                     "clubes": [], "anios": set(), "titulos": []})
+                    d["pj"] += 1
+                    d["g" if gf > gc else "e" if gf == gc else "p"] += 1
+                    d["anios"].add(anio)
+                    if p[lado] not in d["clubes"]:
+                        d["clubes"].append(p[lado])
+        # Título: para el entrenador del campeón en el último partido de la final
+        if ed.get("campeon") and ultima_final:
+            p, quien = ultima_final
+            for lado in ("local", "visitante"):
+                if p[lado] == ed["campeon"] and quien.get(lado):
+                    dts[quien[lado]]["titulos"].append(anio)
+    return [{**d, "anios": [min(d["anios"]), max(d["anios"])], "ediciones": len(d["anios"])} for d in dts.values()]
+
+
+def estadios_finales(eds):
+    """En qué estadios se jugaron las finales (los partidos de la final y sus desempates)."""
+    estadios, sin_dato = {}, set()
+    for anio, ed in eds.items():
+        for fase in ed["fases"]:
+            if instancia(fase["nombre"]) != "Final":
+                continue
+            for p in fase["partidos"]:
+                if p.get("gl") is None:
+                    continue
+                if not p.get("estadio"):
+                    sin_dato.add(anio)
+                    continue
+                e = estadios.setdefault(p["estadio"], {"estadio": p["estadio"], "ciudad": p.get("ciudad"), "anios": []})
+                e["ciudad"] = e["ciudad"] or p.get("ciudad")
+                e["anios"].append(anio)
+    return sorted(estadios.values(), key=lambda e: (-len(e["anios"]), e["anios"][0])), sorted(sin_dato)
 
 
 def goles_validos(ed):
@@ -108,6 +202,7 @@ def main():
     por_instancia = {i: {} for i in INSTANCIAS}
     goleador_edicion = []
     goles_edicion = []
+    matamata = {}                                 # goles en todas las instancias de eliminación directa juntas
     en_un_partido = []                            # jugadores con varios goles en un mismo partido
     partidos = []                                 # todos los partidos jugados, para goleadas
 
@@ -118,6 +213,7 @@ def main():
             sumar(goleadores, g["jugador"], club, anio)
             if instancia(fase):
                 sumar(por_instancia[instancia(fase)], g["jugador"], club, anio)
+                sumar(matamata, g["jugador"], club, anio)
             clave = g.get("jid") or f'{g["jugador"]}|{club}'
             cuenta.setdefault(clave, {"nombre": g["jugador"], "equipo": club, "n": 0})["n"] += 1
         if cuenta:
@@ -176,12 +272,20 @@ def main():
     goleadas = sorted(partidos, key=lambda p: (-abs(p["gl"] - p["gv"]), -(p["gl"] + p["gv"]), p["anio"]))[:15]
     mas_goles = sorted(partidos, key=lambda p: (-(p["gl"] + p["gv"]), p["anio"]))[:15]
     en_un_partido.sort(key=lambda x: (-x["n"], x["partido"]["anio"]))
+    dts = entrenadores(eds)
+    finales, finales_sin_estadio = estadios_finales(eds)
 
     salida = {
         "goleadores": ranking(goleadores, 50),
         "asistidores": ranking(asistidores, 25),
         "goleadorEdicion": goleador_edicion,
-        "porInstancia": {i: ranking(u, 15) for i, u in por_instancia.items()},
+        "porInstancia": {"Todos": ranking(matamata, 30), **{i: ranking(u, 15) for i, u in por_instancia.items()}},
+        "promedioGol": promedio_de_gol(eds),
+        "promedioMinimo": PROMEDIO_MIN_PARTIDOS,
+        "dtPartidos": sorted(dts, key=lambda d: (-d["pj"], -d["g"]))[:30],
+        "dtGanados": sorted(dts, key=lambda d: (-d["g"], -d["pj"]))[:30],
+        "estadiosFinales": finales,
+        "finalesSinEstadio": finales_sin_estadio,
         "clubesTitulos": clubes_titulos,
         "paisesTitulos": paises_titulos,
         "clubesPartidos": clubes_partidos,

@@ -744,7 +744,8 @@
     const maxTit = st.clubesTitulos[0], pais = st.paisesTitulos[0];
     const paisesEmpatados = st.paisesTitulos.filter(p => p.titulos === pais.titulos).map(p => PAISES[p.pais] || p.pais);
     const secciones = [["est-goleadores", "Goleadores"], ["est-edicion", "Goleador de cada edición"],
-      ["est-matamata", "Mata-mata"], ["est-titulos", "Títulos"], ["est-clubes", "Clubes"],
+      ["est-promedio", "Promedio de gol"], ["est-matamata", "Mata-mata"], ["est-titulos", "Títulos"],
+      ["est-estadios", "Estadios de las finales"], ["est-entrenadores", "Entrenadores"], ["est-clubes", "Clubes"],
       ["est-partidos", "Partidos"], ["est-tripletes", "Tripletes"], ["est-asistidores", "Asistidores"],
       ["est-goles", "Goles por edición"]];
 
@@ -769,13 +770,23 @@
         `<tr><td>${linkEdicion(e.anio)}</td><td>${e.jugadores.map(j => esc(j.nombre)).join("<br>")}</td>
           <td>${e.jugadores.map(j => linkEquipo(j.equipo)).join("<br>")}</td><td class="num"><strong>${e.n}</strong></td></tr>`), 20);
 
+    html += `<h3 id="est-promedio">⚡ Mejor promedio de gol</h3>
+      <p class="vacio">Goles por partido jugado. Solo se puede contar desde 2005, cuando empiezan las formaciones de cada partido,
+        y entran los jugadores con ${st.promedioMinimo} partidos o más.</p>` +
+      tablaEst(["#", "Jugador", "Club", "Años", { t: "PJ", num: 1 }, { t: "Goles", num: 1 }, { t: "Promedio", num: 1 }],
+        st.promedioGol.map((j, i) => `<tr><td class="num">${i + 1}</td><td>${esc(j.nombre)}</td><td>${clubes(j.clubes)}</td>
+          <td>${aniosDe(j.anios)}</td><td class="num">${j.pj}</td><td class="num">${j.n}</td>
+          <td class="num"><strong>${(j.n / j.pj).toFixed(2).replace(".", ",")}</strong></td></tr>`));
+
+    // Pestañas: "Todos" suma todas las instancias de eliminación directa
+    const TABS_MM = ["Todos", ...INSTANCIAS];
     html += `<h3 id="est-matamata">🔥 Goleadores en los mata-mata</h3>
-      <p class="vacio">Goles en cada instancia de eliminación directa, sumando todas las ediciones.
+      <p class="vacio">Goles en las instancias de eliminación directa (octavos, cuartos, semifinales y final), sumando todas las ediciones.
         Las semifinales que se jugaban en grupos (años 60 a 80) no cuentan.</p>
-      <div class="orden-partidos">${INSTANCIAS.map((ins, i) =>
-        `<button class="tab-instancia" type="button" data-instancia="${i}" aria-pressed="${ins === "Final"}">${ins}</button>`).join("")}</div>` +
-      INSTANCIAS.map((ins, i) => `<div class="instancia" data-instancia="${i}"${ins === "Final" ? "" : " hidden"}>
-        ${tablaGoleadores(st.porInstancia[ins] || [])}</div>`).join("");
+      <div class="grupo-tabs"><div class="orden-partidos">${TABS_MM.map((ins, i) =>
+        `<button class="tab-instancia" type="button" data-instancia="${i}" aria-pressed="${i === 0}">${ins === "Todos" ? "Todos los mata-mata" : ins}</button>`).join("")}</div>` +
+      TABS_MM.map((ins, i) => `<div class="instancia" data-instancia="${i}"${i === 0 ? "" : " hidden"}>
+        ${tablaGoleadores(st.porInstancia[ins] || [])}</div>`).join("") + `</div>`;
 
     html += `<h3 id="est-titulos">🏆 Clubes campeones</h3>` +
       tablaEst(["#", "Club", { t: "Títulos", num: 1 }, "Años", { t: "Finales perdidas", num: 1 }],
@@ -787,6 +798,32 @@
       tablaEst(["País", { t: "Títulos", num: 1 }, { t: "Finales perdidas", num: 1 }, { t: "Clubes campeones", num: 1 }],
         st.paisesTitulos.map(p => `<tr><td>${PAISES[p.pais] ? `<img class="bandera" src="assets/banderas/${p.pais}.png" alt="" onerror="this.remove()">${PAISES[p.pais]}` : esc(p.pais)}</td>
           <td class="num"><strong>${p.titulos}</strong></td><td class="num">${p.finales}</td><td class="num">${p.clubes}</td></tr>`));
+
+    const sinDato = st.finalesSinEstadio || [];
+    html += `<h3 id="est-estadios">🏟️ Estadios con más finales</h3>
+      <p class="vacio">Cuenta cada partido de la final (ida, vuelta y desempates).${sinDato.length ?
+        ` Las fuentes no traen el estadio de las finales de ${sinDato.join(", ")}.` : ""}</p>` +
+      tablaEst(["#", "Estadio", "Ciudad", { t: "Finales", num: 1 }, "Años"], st.estadiosFinales.map((e, i, l) =>
+        `<tr><td class="num">${puesto(i, e.anios.length, l[i - 1]?.anios.length)}</td><td>${esc(e.estadio)}</td><td>${esc(e.ciudad || "")}</td>
+          <td class="num"><strong>${e.anios.length}</strong></td>
+          <td class="anios-lista">${[...new Set(e.anios)].map(linkEdicion).join(" · ")}</td></tr>`), 10);
+
+    // Entrenadores: pestañas "Más partidos" y "Más partidos ganados"
+    const filaDT = (d, i, clave, l) => `<tr><td class="num">${puesto(i, d[clave], l[i - 1]?.[clave])}</td><td>${esc(d.nombre)}</td>
+      <td>${clubes(d.clubes)}</td><td>${aniosDe(d.anios)}</td>
+      <td class="num">${clave === "pj" ? `<strong>${d.pj}</strong>` : d.pj}</td>
+      <td class="num">${clave === "g" ? `<strong>${d.g}</strong>` : d.g}</td><td class="num">${d.e}</td><td class="num">${d.p}</td>
+      <td class="num">${d.titulos.length ? `🏆 ${d.titulos.length}` : ""}</td></tr>`;
+    const tablaDT = (lista, clave) => tablaEst(["#", "Entrenador", "Club", "Años", { t: "PJ", num: 1 }, { t: "G", num: 1 },
+      { t: "E", num: 1 }, { t: "P", num: 1 }, { t: "Títulos", num: 1 }], lista.map((d, i, l) => filaDT(d, i, clave, l)));
+    if (st.dtPartidos?.length) html += `<h3 id="est-entrenadores">🧑‍💼 Entrenadores</h3>
+      <p class="vacio">Quién dirigió cada partido sale de Transfermarkt, cruzando las fechas de cada entrenador en su club
+        con las de los partidos. En las ediciones viejas faltan algunos equipos.</p>
+      <div class="grupo-tabs"><div class="orden-partidos">
+        <button class="tab-instancia" type="button" data-instancia="pj" aria-pressed="true">Más partidos</button>
+        <button class="tab-instancia" type="button" data-instancia="g" aria-pressed="false">Más partidos ganados</button></div>
+        <div class="instancia" data-instancia="pj">${tablaDT(st.dtPartidos, "pj")}</div>
+        <div class="instancia" data-instancia="g" hidden>${tablaDT(st.dtGanados, "g")}</div></div>`;
 
     html += `<h3 id="est-clubes">📋 Clubes con más partidos</h3>` +
       tablaEst(["#", "Club", { t: "Ed.", num: 1 }, { t: "PJ", num: 1 }, { t: "G", num: 1 }, { t: "E", num: 1 }, { t: "P", num: 1 }, { t: "Goles", num: 1 }],
@@ -1032,9 +1069,10 @@
       return;
     }
     const tab = e.target.closest("button.tab-instancia");
-    if (tab) {   // Estadísticas: Octavos / Cuartos / Semifinales / Final
-      edicionEl.querySelectorAll("button.tab-instancia").forEach(b => b.setAttribute("aria-pressed", b === tab));
-      edicionEl.querySelectorAll("div.instancia").forEach(d => { d.hidden = d.dataset.instancia !== tab.dataset.instancia; });
+    if (tab) {   // Estadísticas: pestañas (Todos / Octavos / … / Final, o las de entrenadores), cada grupo por separado
+      const grupo = tab.closest(".grupo-tabs") || edicionEl;
+      grupo.querySelectorAll("button.tab-instancia").forEach(b => b.setAttribute("aria-pressed", b === tab));
+      grupo.querySelectorAll("div.instancia").forEach(d => { d.hidden = d.dataset.instancia !== tab.dataset.instancia; });
       return;
     }
     const irSeccion = e.target.closest("button.ir-seccion");
