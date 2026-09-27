@@ -716,7 +716,8 @@
     e.preventDefault();
     buscarEl.value = "";
     cerrarSugerencias();
-    history.pushState(null, "", "./");
+    // Misma dirección sin "?edicion=…" (con "./" falla al abrir index.html con doble clic)
+    history.pushState(null, "", location.pathname);
     seleccionar(LIB.indice[LIB.indice.length - 1].anio);
   });
   window.addEventListener("popstate", abrirDesdeLaUrl);   // botón "atrás" del navegador
