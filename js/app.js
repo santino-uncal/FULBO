@@ -485,10 +485,14 @@
     resto.forEach(f => {
       const g = grupoDe(f);
       const fechas = g && porFechas(f.partidos);
+      // Barra "Ir a: Fecha 1 … Fecha N" arriba del grupo y repetida en cada fecha (con "↑ Inicio" y la fecha actual marcada)
+      const barra = actual => fechas.length < 2 ? "" : `<div class="ir-fechas">${actual
+        ? `<button class="orden ir-fecha" type="button" data-fecha="inicio">↑ Inicio</button>` : ""}Ir a: ${fechas.map((_, n) =>
+          `<button class="orden ir-fecha" type="button" data-fecha="${n + 1}" aria-pressed="${actual === n + 1}">Fecha ${n + 1}</button>`).join("")}</div>`;
       const cuerpo = g
-        ? (fechas.length > 1 ? `<div class="ir-fechas">Ir a: ${fechas.map((_, n) =>
-            `<button class="orden ir-fecha" type="button" data-fecha="${n + 1}">Fecha ${n + 1}</button>`).join("")}</div>` : "") +
-          fechas.map((ps, n) => `<h4 class="fecha-grupo" data-fecha="${n + 1}">Grupo ${esc(g[2])} · Fecha ${n + 1}</h4>` + ps.map(partido).join("")).join("")
+        ? barra(0) +
+          fechas.map((ps, n) => `<h4 class="fecha-grupo" data-fecha="${n + 1}">Grupo ${esc(g[2])} · Fecha ${n + 1}</h4>` +
+            (n ? barra(n + 1) : "") + ps.map(partido).join("")).join("")
         : eliminatoriaHTML(f.partidos);
       html += `<details class="fase"><summary>${esc(f.nombre)} (${f.partidos.length})</summary>${cuerpo}</details>`;
     });
@@ -748,8 +752,10 @@
       return;
     }
     const irFecha = e.target.closest("button.ir-fecha");
-    if (irFecha) {   // "Ir a: Fecha N" de un grupo: baja hasta esa fecha
-      irFecha.closest("details").querySelector(`h4.fecha-grupo[data-fecha="${irFecha.dataset.fecha}"]`)
+    if (irFecha) {   // "Ir a: Fecha N" / "↑ Inicio" de un grupo: salta a esa fecha o al título del grupo
+      const grupo = irFecha.closest("details");
+      const f = irFecha.dataset.fecha;
+      (f === "inicio" ? grupo.querySelector("summary") : grupo.querySelector(`h4.fecha-grupo[data-fecha="${f}"]`))
         ?.scrollIntoView({ behavior: "smooth", block: "start" });
       return;
     }
