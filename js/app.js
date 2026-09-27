@@ -450,6 +450,164 @@
     edicionEl.innerHTML = html;
   }
 
+  // ---- Ficha de un equipo (buscador) ----
+
+  // data/historial.js (la historia de cada club) se carga recién cuando se usa el buscador
+  let historialPedido;
+  function cargarHistorial() {
+    if (LIB.historial) return Promise.resolve(LIB.historial);
+    return historialPedido ??= new Promise((ok, error) => {
+      const s = document.createElement("script");
+      s.src = "data/historial.js";
+      s.onload = () => ok(LIB.historial);
+      s.onerror = () => { historialPedido = null; error(new Error("No se pudo cargar el historial de los equipos")); };
+      document.body.appendChild(s);
+    });
+  }
+
+  // "Atlético" y "atletico" cuentan igual al buscar
+  const normalizar = t => String(t || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
+  const linkEdicion = anio => `<a href="?edicion=${anio}" data-anio="${anio}">${anio}</a>`;
+  const linkEquipo = id => `<a class="link-equipo" href="?equipo=${esc(id)}" data-equipo="${esc(id)}">${club(id)}</a>`;
+  const plural = (n, uno, varios) => `${n} ${n === 1 ? uno : varios}`;
+
+  // Equipos cuyo nombre contiene lo buscado: primero los que empiezan así, después los de más ediciones
+  function buscarEquipos(texto) {
+    const q = normalizar(texto);
+    if (!q) return [];
+    const hist = LIB.historial || {};
+    return Object.keys(hist)
+      .map(id => ({ id, nombre: normalizar(equipo(id).nombre) }))
+      .filter(x => x.nombre.includes(q) || x.id.includes(q.replace(/\s+/g, "-")))
+      .sort((a, b) => b.nombre.startsWith(q) - a.nombre.startsWith(q) ||
+        hist[b.id].ediciones.length - hist[a.id].ediciones.length || a.nombre.localeCompare(b.nombre))
+      .slice(0, 12).map(x => x.id);
+  }
+
+  // Un partido destacado (mayor goleada, peor derrota): "River 9–0 Universitario · 1970, Semifinales"
+  function partidoDestacado(id, r) {
+    if (!r) return "—";
+    const [l, v, gl, gv] = r.local ? [id, r.rival, r.gf, r.gc] : [r.rival, id, r.gc, r.gf];
+    return `${esc(equipo(l).nombre)} <strong>${gl}–${gv}</strong> ${esc(equipo(v).nombre)}
+      <span class="det-meta">· ${linkEdicion(r.anio)}, ${esc(r.fase)}</span>`;
+  }
+
+  function mostrarEquipo(id) {
+    const h = LIB.historial[id];
+    const e = equipo(id);
+    if (!h) { edicionEl.innerHTML = `<p class="vacio">No hay datos de ese equipo.</p>`; return; }
+    const t = h.total;
+    const eds = h.ediciones;
+    const efectividad = t.pj ? Math.round((t.g * 3 + t.e) / (t.pj * 3) * 100) : 0;
+    const dato = (valor, texto, extra = "") => `<div class="dato"><strong>${valor}</strong><span>${texto}</span>${extra}</div>`;
+    const anios = lista => lista.length ? `<small>${lista.map(linkEdicion).join(" · ")}</small>` : "";
+    const lugar = [PAISES[e.pais] && `${bandera(id)}${PAISES[e.pais]}`, e.ciudad && esc(e.ciudad), e.estadio && `🏟️ ${esc(e.estadio)}`]
+      .filter(Boolean).join(" · ");
+    const dif = t.gf - t.gc;
+
+    let html = `<h2 class="titulo-equipo">${e.escudo ? `<img class="escudo-grande" src="${e.escudo}" alt="" onerror="this.remove()">` : ""}${esc(e.nombre)}</h2>
+      <p class="vacio">${lugar}</p>
+      <div class="datos">
+        ${dato(eds.length, eds.length === 1 ? "edición jugada" : "ediciones jugadas", `<small>${eds[0].anio}${eds.length > 1 ? ` a ${eds[eds.length - 1].anio}` : ""}</small>`)}
+        ${dato(h.titulos.length ? "🏆 " + h.titulos.length : 0, h.titulos.length === 1 ? "título" : "títulos", anios(h.titulos))}
+        ${dato(h.finales.length, h.finales.length === 1 ? "final perdida" : "finales perdidas", anios(h.finales))}
+        ${dato(t.pj, "partidos", `<small>${t.g} G · ${t.e} E · ${t.p} P</small>`)}
+        ${dato(`${t.gf}:${t.gc}`, "goles a favor y en contra", `<small>diferencia ${dif > 0 ? "+" : ""}${dif}</small>`)}
+        ${dato(`${efectividad}%`, "de los puntos ganados", `<small>contando 3 por victoria</small>`)}
+      </div>
+      <p>💪 Mayor goleada: ${partidoDestacado(id, h.mayorVictoria)}</p>
+      <p>😣 Peor derrota: ${partidoDestacado(id, h.peorDerrota)}</p>`;
+
+    // Edición por edición, de la más reciente a la primera
+    html += `<h3>Edición por edición</h3>
+      <div class="tabla-scroll"><table class="historial"><thead><tr><th>Año</th><th>Hasta dónde llegó</th>
+        <th class="num">PJ</th><th class="num">G</th><th class="num">E</th><th class="num">P</th><th class="num">Goles</th></tr></thead><tbody>
+      ${[...eds].reverse().map(x => `<tr class="${x.fase === "Campeón" ? "fila-campeon" : x.fase === "Subcampeón" ? "fila-sub" : ""}">
+        <td>${linkEdicion(x.anio)}</td><td>${x.fase === "Campeón" ? "🏆 " : x.fase === "Subcampeón" ? "🥈 " : ""}${esc(x.fase)}</td>
+        <td class="num">${x.pj}</td><td class="num">${x.g}</td><td class="num">${x.e}</td><td class="num">${x.p}</td>
+        <td class="num">${x.gf}:${x.gc}</td></tr>`).join("")}
+      </tbody></table></div>`;
+
+    if (h.rivales.length) html += `<h3>Rivales más frecuentes</h3>
+      <div class="tabla-scroll"><table class="historial"><thead><tr><th>Rival</th>
+        <th class="num">PJ</th><th class="num">G</th><th class="num">E</th><th class="num">P</th><th class="num">Goles</th></tr></thead><tbody>
+      ${h.rivales.map(r => `<tr><td>${linkEquipo(r.id)}</td><td class="num">${r.pj}</td><td class="num">${r.g}</td>
+        <td class="num">${r.e}</td><td class="num">${r.p}</td><td class="num">${r.gf}:${r.gc}</td></tr>`).join("")}
+      </tbody></table></div>`;
+
+    if (h.goleadores.length) html += `<h3>Goleadores del club en la Copa</h3>
+      <p class="vacio">En ediciones viejas las fuentes a veces traen solo el apellido.</p>
+      <div class="tabla-scroll"><table class="historial"><thead><tr><th>Jugador</th><th>Años</th><th class="num">Goles</th></tr></thead><tbody>
+      ${h.goleadores.map(g => `<tr><td>${esc(g.nombre)}</td><td>${g.anios[0]}${g.anios[1] !== g.anios[0] ? `–${g.anios[1]}` : ""}</td>
+        <td class="num">${g.n}</td></tr>`).join("")}
+      </tbody></table></div>`;
+    edicionEl.innerHTML = html;
+  }
+
+  function seleccionarEquipo(id, guardarEnHistorial) {
+    navEl.querySelectorAll("a").forEach(a => a.removeAttribute("aria-current"));
+    if (guardarEnHistorial) history.pushState(null, "", `?equipo=${encodeURIComponent(id)}`);
+    const nombre = equipo(id).nombre;
+    document.title = `${nombre} en la Copa Libertadores — Historial`;
+    const desc = document.querySelector('meta[name="description"]');
+    if (desc) desc.content = `${nombre} en la Copa Libertadores: ediciones jugadas, títulos, finales, partidos, goleadores y rivales.`;
+    let canonica = document.querySelector('link[rel="canonical"]');
+    if (!canonica) document.head.appendChild(canonica = Object.assign(document.createElement("link"), { rel: "canonical" }));
+    canonica.href = `${URL_SITIO}?equipo=${encodeURIComponent(id)}`;
+    pintarFondo(id);
+    edicionEl.innerHTML = `<p class="vacio">Cargando ${esc(nombre)}…</p>`;
+    cargarHistorial().then(() => mostrarEquipo(id)).catch(e => { edicionEl.innerHTML = `<p class="vacio">${esc(e.message)}</p>`; });
+    window.scrollTo({ top: edicionEl.offsetTop - 16, behavior: "smooth" });
+  }
+
+  // El cuadro de búsqueda: al escribir aparece la lista de equipos que coinciden
+  const buscarEl = document.getElementById("buscar-equipo");
+  const sugerenciasEl = document.getElementById("sugerencias");
+  let elegida = -1;   // sugerencia marcada con las flechas del teclado
+  function mostrarSugerencias() {
+    cargarHistorial().then(() => {
+      const ids = buscarEquipos(buscarEl.value);
+      elegida = -1;
+      if (!buscarEl.value.trim()) { sugerenciasEl.hidden = true; return; }
+      sugerenciasEl.innerHTML = ids.length ? ids.map(id => {
+        const h = LIB.historial[id];
+        const titulos = h.titulos.length ? ` · 🏆 ${h.titulos.length}` : "";
+        return `<li role="option"><a href="?equipo=${esc(id)}" data-equipo="${esc(id)}">${bandera(id)}${club(id)}
+          <span class="sug-meta">${plural(h.ediciones.length, "edición", "ediciones")}${titulos}</span></a></li>`;
+      }).join("") : `<li class="sug-vacia">No hay equipos con “${esc(buscarEl.value.trim())}”</li>`;
+      sugerenciasEl.hidden = false;
+    }).catch(() => {});
+  }
+  function cerrarSugerencias() { sugerenciasEl.hidden = true; elegida = -1; }
+  buscarEl.addEventListener("focus", () => { cargarHistorial().catch(() => {}); if (buscarEl.value.trim()) mostrarSugerencias(); });
+  buscarEl.addEventListener("input", mostrarSugerencias);
+  buscarEl.addEventListener("keydown", e => {
+    const links = [...sugerenciasEl.querySelectorAll("a[data-equipo]")];
+    if (e.key === "Escape") return cerrarSugerencias();
+    if (!links.length || sugerenciasEl.hidden) return;
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      e.preventDefault();
+      elegida = (elegida + (e.key === "ArrowDown" ? 1 : -1) + links.length) % links.length;
+      links.forEach((a, i) => a.classList.toggle("marcada", i === elegida));
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      elegirSugerencia(links[Math.max(elegida, 0)].dataset.equipo);
+    }
+  });
+  function elegirSugerencia(id) {
+    cerrarSugerencias();
+    buscarEl.value = equipo(id).nombre;
+    buscarEl.blur();
+    seleccionarEquipo(id, true);
+  }
+  sugerenciasEl.addEventListener("click", e => {
+    const a = e.target.closest("a[data-equipo]");
+    if (!a || e.ctrlKey || e.metaKey || e.shiftKey) return;   // ctrl+clic: abrir en otra pestaña
+    e.preventDefault();
+    elegirSugerencia(a.dataset.equipo);
+  });
+  document.addEventListener("click", e => { if (!e.target.closest(".buscador")) cerrarSugerencias(); });
+
   // Título y descripción de cada edición (lo que muestra Google en el resultado de búsqueda)
   function actualizarTitulo(anio) {
     const e = LIB.indice.find(x => x.anio == anio) || {};
@@ -496,8 +654,21 @@
     const pedido = new URLSearchParams(location.search).get("edicion");
     return LIB.indice.some(e => e.anio == pedido) ? pedido : LIB.indice[LIB.indice.length - 1].anio;
   };
+  // ?equipo=river-plate abre la ficha del club; si no, la edición pedida (o la última)
+  function abrirDesdeLaUrl() {
+    const id = new URLSearchParams(location.search).get("equipo");
+    if (id && LIB.equipos[id]) seleccionarEquipo(id);
+    else seleccionar(anioDeLaUrl());
+  }
   // Botón "Ver" de goleadores y asistidores: muestra u oculta el renglón de abajo
   edicionEl.addEventListener("click", e => {
+    const link = e.target.closest("a[data-anio], a[data-equipo]");
+    if (link && !e.ctrlKey && !e.metaKey && !e.shiftKey) {   // años y rivales de la ficha de un equipo
+      e.preventDefault();
+      if (link.dataset.equipo) seleccionarEquipo(link.dataset.equipo, true);
+      else { seleccionar(link.dataset.anio, true); window.scrollTo({ top: 0, behavior: "smooth" }); }
+      return;
+    }
     const pestana = e.target.closest("button.pestana");
     if (pestana) {   // pestañas "Fase de grupos" / "Fase eliminatoria"
       const botones = [...pestana.parentElement.children];
@@ -539,6 +710,6 @@
     boton.setAttribute("aria-expanded", !detalle.hidden);
     boton.textContent = detalle.hidden ? "Ver" : "Ocultar";
   });
-  window.addEventListener("popstate", () => seleccionar(anioDeLaUrl()));   // botón "atrás" del navegador
-  seleccionar(anioDeLaUrl());
+  window.addEventListener("popstate", abrirDesdeLaUrl);   // botón "atrás" del navegador
+  abrirDesdeLaUrl();
 })();

@@ -21,6 +21,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import equipos as E  # noqa: E402
 import leer_espn  # noqa: E402
+import generar_historial  # noqa: E402
 import leer_rsssf  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -525,6 +526,7 @@ def main():
     escribir(DATA / "indice.js", "window.LIB.indice = ", indice)
     (DATA / "jugadores.js").unlink(missing_ok=True)
     escribir_sitemap(sorted(ediciones))
+    generar_historial.main()   # data/historial.js: la ficha de cada club
 
     # -------- control de calidad
     print(f"{'año':>5} {'part':>5} {'jug':>4} {'goles':>6} {'c/autor':>8} {'formac':>7} {'asist':>6} {'sinESPN':>8}  campeón / subcampeón")

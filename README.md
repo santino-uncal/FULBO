@@ -4,7 +4,7 @@ Todas las ediciones desde 1960: resultados, goleadores, asistidores, planteles y
 
 ## Cómo verlo
 
-- **Publicado:** https://santino-uncal.github.io/FULBO/ (GitHub Pages). Cada edición tiene su link: `?edicion=1986`.
+- **Publicado:** https://santino-uncal.github.io/FULBO/ (GitHub Pages). Cada edición tiene su link: `?edicion=1986`, y cada club el suyo: `?equipo=river-plate`.
   `sitemap.xml` (lo arma `tools/generar_datos.py`) y `robots.txt` le indican a Google qué páginas indexar.
 
 - **Rápido:** doble clic en `index.html`.
@@ -23,6 +23,7 @@ Todas las ediciones desde 1960: resultados, goleadores, asistidores, planteles y
 | `js/app.js` | Lógica: lista de ediciones, partidos, rankings y planteles. | Comportamiento e interacción. |
 | `data/indice.js` | Años disponibles con campeón y subcampeón. | **Generado** — no editar a mano. |
 | `data/equipos.js` | Catálogo de clubes (nombre, país, ciudad, escudo, colores). | **Generado**. |
+| `data/historial.js` | Historia de cada club (ediciones, títulos, partidos, rivales, goleadores) para el buscador. Se carga recién al usar el buscador. | **Generado** (`tools/generar_historial.py`). |
 | `data/ediciones/<año>.js` | Una edición: fases, partidos, goles, formaciones, planteles. | **Generado**. |
 | `assets/escudos/<club>.png` | Escudos. | Se bajan con `tools/descargar_escudos.py`. |
 | `tools/` | Scripts de Python que descargan y arman los datos. | Ver abajo. |

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Historia de la Copa Libertadores</title>
 <!-- Para buscadores (Google) y para la vista previa al compartir el link -->
-<meta name="description" content="Historia completa de la Copa Libertadores desde 1960: todas las finales y campeones, tablas de grupos, partidos, goleadores, asistidores y planteles de cada edición.">
+<meta name="description" content="Historia completa de la Copa Libertadores desde 1960: todas las finales y campeones, la historia de cada club, tablas de grupos, partidos, goleadores, asistidores y planteles de cada edición.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_AR">
 <meta property="og:site_name" content="Historia de la Copa Libertadores">
@@ -27,6 +27,11 @@
 </header>
 
 <main>
+  <div class="buscador">
+    <input id="buscar-equipo" type="search" placeholder="🔎 Buscar equipo (ej.: river)" autocomplete="off"
+      aria-label="Buscar equipo" aria-controls="sugerencias" aria-autocomplete="list">
+    <ul class="sugerencias" id="sugerencias" role="listbox" hidden></ul>
+  </div>
   <nav class="ediciones" id="ediciones" aria-label="Ediciones"></nav>
   <section class="edicion" id="edicion">
     <p class="vacio">Elegí una edición.</p>
