@@ -669,6 +669,141 @@
     window.scrollTo({ top: edicionEl.offsetTop - 16, behavior: "smooth" });
   }
 
+  // ---- Estadísticas históricas (botón al lado de los años) ----
+
+  // data/estadisticas.js se carga recién cuando se abre esta sección
+  let estadisticasPedidas;
+  function cargarEstadisticas() {
+    if (LIB.estadisticas) return Promise.resolve(LIB.estadisticas);
+    return estadisticasPedidas ??= new Promise((ok, error) => {
+      const s = document.createElement("script");
+      s.src = "data/estadisticas.js";
+      s.onload = () => ok(LIB.estadisticas);
+      s.onerror = () => { estadisticasPedidas = null; error(new Error("No se pudieron cargar las estadísticas")); };
+      document.body.appendChild(s);
+    });
+  }
+
+  const INSTANCIAS = ["Octavos de final", "Cuartos de final", "Semifinales", "Final"];
+  const aniosDe = a => a[0] === a[1] ? `${a[0]}` : `${a[0]}–${a[1]}`;
+  const clubes = ids => ids.map(linkEquipo).join("<br>");
+  const partidoLinea = p => `${linkEquipo(p.local)} <strong>${p.gl}–${p.gv}</strong> ${linkEquipo(p.visitante)}`;
+
+  // Tabla con los 15 primeros a la vista y el resto debajo del botón "Ver todos"
+  function tablaEst(encabezados, filas, visibles = 15) {
+    const th = encabezados.map(h => `<th${h.num ? ' class="num"' : ""}>${h.t ?? h}</th>`).join("");
+    const resto = filas.slice(visibles);
+    return `<div class="tabla-scroll"><table class="historial tabla-est"><thead><tr>${th}</tr></thead>
+      <tbody>${filas.slice(0, visibles).join("")}</tbody>
+      ${resto.length ? `<tbody class="resto" hidden>${resto.join("")}</tbody>` : ""}</table></div>` +
+      (resto.length ? `<button class="ver-todos" type="button" data-total="${filas.length}">Ver todos (${filas.length})</button>` : "");
+  }
+  const puesto = (i, n, anterior) => n === anterior ? "" : `${i + 1}`;   // empatados comparten puesto
+  function tablaGoleadores(lista, que = "Goles") {
+    return tablaEst(["#", "Jugador", "Club", "Años", { t: "Ed.", num: 1 }, { t: que, num: 1 }],
+      lista.map((j, i) => `<tr><td class="num">${puesto(i, j.n, lista[i - 1]?.n)}</td><td>${esc(j.nombre)}</td>
+        <td>${clubes(j.clubes)}</td><td>${aniosDe(j.anios)}</td><td class="num">${j.ediciones}</td>
+        <td class="num"><strong>${j.n}</strong></td></tr>`));
+  }
+
+  function mostrarEstadisticas() {
+    const st = LIB.estadisticas;
+    const dato = (valor, texto, extra = "") => `<div class="dato"><strong>${valor}</strong><span>${texto}</span>${extra}</div>`;
+    const totPartidos = st.golesEdicion.reduce((s, e) => s + e.partidos, 0);
+    const totGoles = st.golesEdicion.reduce((s, e) => s + e.goles, 0);
+    const maxTit = st.clubesTitulos[0], pais = st.paisesTitulos[0];
+    const paisesEmpatados = st.paisesTitulos.filter(p => p.titulos === pais.titulos).map(p => PAISES[p.pais] || p.pais);
+    const secciones = [["est-goleadores", "Goleadores"], ["est-edicion", "Goleador de cada edición"],
+      ["est-matamata", "Mata-mata"], ["est-titulos", "Títulos"], ["est-clubes", "Clubes"],
+      ["est-partidos", "Partidos"], ["est-tripletes", "Tripletes"], ["est-asistidores", "Asistidores"],
+      ["est-goles", "Goles por edición"]];
+
+    let html = `<h2>📊 Estadísticas históricas</h2>
+      <p class="vacio">Todas las ediciones desde 1960. En las ediciones viejas las fuentes a veces traen solo el apellido
+        del jugador, así que puede haber algún goleador partido en dos o dos jugadores con el mismo apellido juntos.</p>
+      <div class="datos">
+        ${dato(st.golesEdicion.length, "ediciones", `<small>${st.golesEdicion[0].anio} a ${st.golesEdicion.at(-1).anio}</small>`)}
+        ${dato(totPartidos.toLocaleString("es-AR"), "partidos jugados")}
+        ${dato(totGoles.toLocaleString("es-AR"), "goles", `<small>${(totGoles / totPartidos).toFixed(2).replace(".", ",")} por partido</small>`)}
+        ${dato(`🏆 ${maxTit.titulos.length}`, `títulos de ${esc(equipo(maxTit.id).nombre)}`, "<small>el club más ganador</small>")}
+        ${dato(pais.titulos, `títulos de ${paisesEmpatados.join(" y ")}`, `<small>${paisesEmpatados.length > 1 ? "los países más ganadores" : "el país más ganador"}</small>`)}
+        ${dato(st.goleadores[0].n, `goles de ${esc(st.goleadores[0].nombre)}`, "<small>el máximo goleador</small>")}
+      </div>
+      <nav class="ir-secciones" aria-label="Secciones">${secciones.map(([id, t]) =>
+        `<button class="ir-seccion" type="button" data-seccion="${id}">${t}</button>`).join("")}</nav>`;
+
+    html += `<h3 id="est-goleadores">⚽ Máximos goleadores de la historia</h3>` + tablaGoleadores(st.goleadores);
+
+    html += `<h3 id="est-edicion">👟 Goleador de cada edición</h3>` +
+      tablaEst(["Año", "Goleador", "Club", { t: "Goles", num: 1 }], [...st.goleadorEdicion].reverse().map(e =>
+        `<tr><td>${linkEdicion(e.anio)}</td><td>${e.jugadores.map(j => esc(j.nombre)).join("<br>")}</td>
+          <td>${e.jugadores.map(j => linkEquipo(j.equipo)).join("<br>")}</td><td class="num"><strong>${e.n}</strong></td></tr>`), 20);
+
+    html += `<h3 id="est-matamata">🔥 Goleadores en los mata-mata</h3>
+      <p class="vacio">Goles en cada instancia de eliminación directa, sumando todas las ediciones.
+        Las semifinales que se jugaban en grupos (años 60 a 80) no cuentan.</p>
+      <div class="orden-partidos">${INSTANCIAS.map((ins, i) =>
+        `<button class="tab-instancia" type="button" data-instancia="${i}" aria-pressed="${ins === "Final"}">${ins}</button>`).join("")}</div>` +
+      INSTANCIAS.map((ins, i) => `<div class="instancia" data-instancia="${i}"${ins === "Final" ? "" : " hidden"}>
+        ${tablaGoleadores(st.porInstancia[ins] || [])}</div>`).join("");
+
+    html += `<h3 id="est-titulos">🏆 Clubes campeones</h3>` +
+      tablaEst(["#", "Club", { t: "Títulos", num: 1 }, "Años", { t: "Finales perdidas", num: 1 }],
+        st.clubesTitulos.filter(c => c.titulos.length).map((c, i, l) =>
+          `<tr><td class="num">${puesto(i, c.titulos.length * 100 + c.finales.length, l[i - 1] && l[i - 1].titulos.length * 100 + l[i - 1].finales.length)}</td>
+            <td>${bandera(c.id)}${linkEquipo(c.id)}</td><td class="num"><strong>${c.titulos.length}</strong></td>
+            <td class="anios-lista">${c.titulos.map(linkEdicion).join(" · ")}</td><td class="num">${c.finales.length}</td></tr>`), 30) +
+      `<h4>Por país</h4>` +
+      tablaEst(["País", { t: "Títulos", num: 1 }, { t: "Finales perdidas", num: 1 }, { t: "Clubes campeones", num: 1 }],
+        st.paisesTitulos.map(p => `<tr><td>${PAISES[p.pais] ? `<img class="bandera" src="assets/banderas/${p.pais}.png" alt="" onerror="this.remove()">${PAISES[p.pais]}` : esc(p.pais)}</td>
+          <td class="num"><strong>${p.titulos}</strong></td><td class="num">${p.finales}</td><td class="num">${p.clubes}</td></tr>`));
+
+    html += `<h3 id="est-clubes">📋 Clubes con más partidos</h3>` +
+      tablaEst(["#", "Club", { t: "Ed.", num: 1 }, { t: "PJ", num: 1 }, { t: "G", num: 1 }, { t: "E", num: 1 }, { t: "P", num: 1 }, { t: "Goles", num: 1 }],
+        st.clubesPartidos.map((c, i) => `<tr><td class="num">${i + 1}</td><td>${linkEquipo(c.id)}</td><td class="num">${c.ediciones}</td>
+          <td class="num"><strong>${c.pj}</strong></td><td class="num">${c.g}</td><td class="num">${c.e}</td><td class="num">${c.p}</td>
+          <td class="num">${c.gf}:${c.gc}</td></tr>`));
+
+    const filaPartido = p => `<tr><td>${linkEdicion(p.anio)}</td><td>${partidoLinea(p)}</td><td class="det-meta">${esc(p.fase)}</td></tr>`;
+    html += `<h3 id="est-partidos">💥 Mayores goleadas</h3>` + tablaEst(["Año", "Partido", "Fase"], st.goleadas.map(filaPartido), 10) +
+      `<h4>Partidos con más goles</h4>` + tablaEst(["Año", "Partido", "Fase"], st.masGoles.map(filaPartido), 10);
+
+    html += `<h3 id="est-tripletes">🎩 Más goles de un jugador en un partido</h3>
+      <p class="vacio">Hubo ${st.tripletesTotal} veces en que un jugador hizo 3 goles o más en un partido.</p>` +
+      tablaEst(["Jugador", "Club", { t: "Goles", num: 1 }, "Partido", "Año"], st.tripletes.map(t =>
+        `<tr><td>${esc(t.nombre)}</td><td>${linkEquipo(t.equipo)}</td><td class="num"><strong>${t.n}</strong></td>
+          <td>${partidoLinea(t.partido)}</td><td>${linkEdicion(t.partido.anio)}</td></tr>`));
+
+    html += `<h3 id="est-asistidores">🎯 Máximos asistidores</h3>
+      <p class="vacio">Las asistencias están registradas solo desde 2005.</p>` + tablaGoleadores(st.asistidores, "Asist.");
+
+    const maxProm = Math.max(...st.golesEdicion.map(e => e.partidos ? e.goles / e.partidos : 0));
+    html += `<h3 id="est-goles">📈 Goles por edición</h3>
+      <p class="vacio">Promedio de goles por partido en cada edición.</p>` +
+      tablaEst(["Año", { t: "Partidos", num: 1 }, { t: "Goles", num: 1 }, "Promedio"], [...st.golesEdicion].reverse().map(e => {
+        const prom = e.partidos ? e.goles / e.partidos : 0;
+        return `<tr><td>${linkEdicion(e.anio)}</td><td class="num">${e.partidos}</td><td class="num">${e.goles}</td>
+          <td class="barra-celda"><span class="barra" style="width:${(prom / maxProm * 100).toFixed(1)}%"></span>
+          <span class="barra-valor">${prom.toFixed(2).replace(".", ",")}</span></td></tr>`;
+      }), 70);
+    edicionEl.innerHTML = html;
+  }
+
+  function seleccionarEstadisticas(guardarEnHistorial) {
+    navEl.querySelectorAll("a").forEach(a => a.toggleAttribute("aria-current", a.dataset.estadisticas !== undefined));
+    if (guardarEnHistorial) history.pushState(null, "", "?estadisticas");
+    document.title = "Estadísticas históricas de la Copa Libertadores";
+    const desc = document.querySelector('meta[name="description"]');
+    if (desc) desc.content = "Estadísticas históricas de la Copa Libertadores: máximos goleadores, goleador de cada edición, " +
+      "goleadores en octavos, cuartos, semifinales y finales, clubes y países campeones, mayores goleadas.";
+    let canonica = document.querySelector('link[rel="canonical"]');
+    if (!canonica) document.head.appendChild(canonica = Object.assign(document.createElement("link"), { rel: "canonical" }));
+    canonica.href = `${URL_SITIO}?estadisticas`;
+    pintarFondo(null);
+    edicionEl.innerHTML = `<p class="vacio">Cargando estadísticas…</p>`;
+    cargarEstadisticas().then(mostrarEstadisticas).catch(e => { edicionEl.innerHTML = `<p class="vacio">${esc(e.message)}</p>`; });
+  }
+
   // El cuadro de búsqueda: al escribir aparece la lista de equipos que coinciden
   const buscarEl = document.getElementById("buscar-equipo");
   const sugerenciasEl = document.getElementById("sugerencias");
@@ -751,22 +886,26 @@
     cargarEdicion(anio).then(mostrar).catch(e => { edicionEl.innerHTML = `<p class="vacio">${esc(e.message)}</p>`; });
   }
 
-  // Cada edición es un link real (?edicion=1960) para que Google pueda encontrarlas todas
-  navEl.innerHTML = LIB.indice.map(e => `<a href="?edicion=${e.anio}" data-anio="${e.anio}" title="${esc(equipo(e.campeon).nombre)}">${e.anio}</a>`).join("");
+  // Cada edición es un link real (?edicion=1960) para que Google pueda encontrarlas todas; adelante, las estadísticas
+  navEl.innerHTML = `<a class="boton-estadisticas" href="?estadisticas" data-estadisticas>📊 Estadísticas históricas</a>` +
+    LIB.indice.map(e => `<a href="?edicion=${e.anio}" data-anio="${e.anio}" title="${esc(equipo(e.campeon).nombre)}">${e.anio}</a>`).join("");
   navEl.addEventListener("click", e => {
-    const a = e.target.closest("a[data-anio]");
+    const a = e.target.closest("a[data-anio], a[data-estadisticas]");
     if (!a || e.ctrlKey || e.metaKey || e.shiftKey) return;   // ctrl+clic: abrir en otra pestaña
     e.preventDefault();
-    seleccionar(a.dataset.anio, true);
+    if (a.dataset.anio) seleccionar(a.dataset.anio, true);
+    else seleccionarEstadisticas(true);
   });
   const anioDeLaUrl = () => {
     const pedido = new URLSearchParams(location.search).get("edicion");
     return LIB.indice.some(e => e.anio == pedido) ? pedido : LIB.indice[LIB.indice.length - 1].anio;
   };
-  // ?equipo=river-plate abre la ficha del club; si no, la edición pedida (o la última)
+  // ?equipo=river-plate abre la ficha del club; ?estadisticas, las estadísticas; si no, la edición pedida (o la última)
   function abrirDesdeLaUrl() {
-    const id = new URLSearchParams(location.search).get("equipo");
+    const params = new URLSearchParams(location.search);
+    const id = params.get("equipo");
     if (id && LIB.equipos[id]) seleccionarEquipo(id);
+    else if (params.has("estadisticas")) seleccionarEstadisticas();
     else seleccionar(anioDeLaUrl());
   }
   // Botón "Ver" de goleadores y asistidores: muestra u oculta el renglón de abajo
@@ -815,6 +954,17 @@
           .then(ed => { celda.innerHTML = campaniaHTML(ed, verCampania.dataset.equipo); })
           .catch(err => { celda.innerHTML = `<p class="vacio">${esc(err.message)}</p>`; });
       }
+      return;
+    }
+    const tab = e.target.closest("button.tab-instancia");
+    if (tab) {   // Estadísticas: Octavos / Cuartos / Semifinales / Final
+      edicionEl.querySelectorAll("button.tab-instancia").forEach(b => b.setAttribute("aria-pressed", b === tab));
+      edicionEl.querySelectorAll("div.instancia").forEach(d => { d.hidden = d.dataset.instancia !== tab.dataset.instancia; });
+      return;
+    }
+    const irSeccion = e.target.closest("button.ir-seccion");
+    if (irSeccion) {   // Estadísticas: botones para saltar a cada sección
+      document.getElementById(irSeccion.dataset.seccion)?.scrollIntoView({ behavior: "smooth", block: "start" });
       return;
     }
     const irFecha = e.target.closest("button.ir-fecha");

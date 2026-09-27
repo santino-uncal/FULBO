@@ -21,6 +21,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import equipos as E  # noqa: E402
 import leer_espn  # noqa: E402
+import generar_estadisticas  # noqa: E402
 import generar_historial  # noqa: E402
 import leer_rsssf  # noqa: E402
 
@@ -527,6 +528,7 @@ def main():
     (DATA / "jugadores.js").unlink(missing_ok=True)
     escribir_sitemap(sorted(ediciones))
     generar_historial.main()   # data/historial.js: la ficha de cada club
+    generar_estadisticas.main()   # data/estadisticas.js: estadísticas históricas (usa historial.js)
 
     # -------- control de calidad
     print(f"{'año':>5} {'part':>5} {'jug':>4} {'goles':>6} {'c/autor':>8} {'formac':>7} {'asist':>6} {'sinESPN':>8}  campeón / subcampeón")
@@ -558,7 +560,7 @@ def unificar_estadios(ediciones):
 
 def escribir_sitemap(anios):
     """sitemap.xml: la lista de páginas que se le pasa a Google (la portada y una por edición)."""
-    urls = [URL_SITIO] + [f"{URL_SITIO}?edicion={a}" for a in anios]
+    urls = [URL_SITIO, f"{URL_SITIO}?estadisticas"] + [f"{URL_SITIO}?edicion={a}" for a in anios]
     (RAIZ / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

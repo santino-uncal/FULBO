@@ -173,6 +173,22 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 }
 .orden[aria-pressed="true"] { color: var(--acento); border-color: var(--acento); }
 
+/* Estadísticas históricas */
+.ediciones a.boton-estadisticas { font-weight: 700; color: var(--acento); }
+.tab-instancia, .ir-seccion {
+  font: inherit; font-weight: 600; padding: 3px 12px; cursor: pointer;
+  background: var(--panel); color: var(--texto-suave); border: 1px solid var(--borde); border-radius: var(--radio);
+}
+.tab-instancia[aria-pressed="true"], .tab-instancia:hover, .ir-seccion:hover { color: var(--acento); border-color: var(--acento); }
+.orden-partidos:has(.tab-instancia) { flex-wrap: wrap; }
+.ir-secciones { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 4px; font-size: .85rem; }
+.edicion h3[id^="est-"] { scroll-margin-top: 12px; }
+.tabla-est td { vertical-align: top; }
+.tabla-est td.anios-lista { white-space: normal; min-width: 160px; font-size: .9rem; }
+.barra-celda { position: relative; min-width: 160px; width: 60%; }
+.barra { position: absolute; left: 8px; top: 7px; bottom: 7px; max-width: calc(100% - 16px); background: color-mix(in srgb, var(--acento) 35%, transparent); border-radius: 3px; }
+.barra-valor { position: relative; padding-left: 6px; font-variant-numeric: tabular-nums; font-weight: 600; }
+
 /* Pestañas "Fase de grupos" / "Fase eliminatoria" */
 .pestanas { display: flex; flex-wrap: wrap; gap: 4px 24px; border-bottom: 1px solid var(--borde); margin: 1.2em 0 1em; }
 .pestana {
