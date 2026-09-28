@@ -93,7 +93,8 @@ main { max-width: 1240px; margin: 0 auto; padding: 24px 16px; }
 table { width: 100%; border-collapse: collapse; }
 th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--borde); }
 th { color: var(--texto-suave); font-weight: 600; }
-td.num { text-align: right; }
+/* Columnas de números (PJ, goles, #…): centradas, con el título arriba alineado igual */
+th.num, td.num { text-align: center; white-space: nowrap; }
 
 details.fase, details.plantel { margin: 12px 0; }
 details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }

@@ -102,7 +102,7 @@
     const resto = filas.slice(15);
     // Botón al lado del título para mostrar u ocultar toda la tabla (arranca cerrada)
     return `<h3 class="titulo-ranking">${titulo}<button class="mostrar-tabla" type="button" aria-expanded="false">Mostrar</button></h3>
-      <div class="tabla-ranking" hidden><table class="ranking"><thead><tr><th>Jugador</th><th>Equipo</th><th class="num">Cant.</th><th></th></tr></thead>
+      <div class="tabla-ranking" hidden><table class="ranking"><thead><tr><th>Jugador</th><th>Equipo</th><th class="num">Cant.</th><th class="num"></th></tr></thead>
       <tbody>${renglones(filas.slice(0, 15))}</tbody>
       ${resto.length ? `<tbody class="resto" hidden>${renglones(resto)}</tbody>` : ""}</table>` +
       (resto.length ? `<button class="ver-todos" type="button" data-total="${filas.length}">Ver todos (${filas.length})</button>` : "") +
@@ -168,9 +168,9 @@
         ${lineaDT(ed.anio, id)}${tablaPlantel(ed.planteles[id], modo)}</details>`).join("");
   }
   function tablaPlantel(jugadores, modo) {
-    return `<table><thead><tr><th>#</th><th>Jugador</th><th>Posición</th><th class="num">PJ</th><th class="num">Goles</th><th class="num">Asist.</th></tr></thead><tbody>
+    return `<table><thead><tr><th class="num">#</th><th>Jugador</th><th>Posición</th><th class="num">PJ</th><th class="num">Goles</th><th class="num">Asist.</th></tr></thead><tbody>
       ${ordenarPlantel(jugadores, modo).map(j => `<tr data-nombre="${esc(j.nombre)}" data-linea="${lineaDe(j.pos)}">
-        <td>${esc(j.num || "")}</td><td>${esc(j.nombre)}</td><td>${esc(nombrePos(j.pos))}</td>
+        <td class="num">${esc(j.num || "")}</td><td>${esc(j.nombre)}</td><td>${esc(nombrePos(j.pos))}</td>
         <td class="num">${j.pj || 0}</td><td class="num">${j.goles || 0}</td><td class="num">${j.asist || 0}</td></tr>`).join("")}
       </tbody></table>`;
   }
@@ -668,7 +668,7 @@
     html += `<h3>Edición por edición</h3>
       <p class="vacio">Tocá "Ver" para abrir la campaña de ese año: partidos, goleadores y plantel.</p>
       <div class="tabla-scroll"><table class="historial"><thead><tr><th>Año</th><th>Hasta dónde llegó</th><th>Entrenador</th>
-        <th class="num">PJ</th><th class="num">G</th><th class="num">E</th><th class="num">P</th><th class="num">Goles</th><th></th></tr></thead><tbody>
+        <th class="num">PJ</th><th class="num">G</th><th class="num">E</th><th class="num">P</th><th class="num">Goles</th><th class="num"></th></tr></thead><tbody>
       ${[...eds].reverse().map(x => `<tr class="${x.fase === "Campeón" ? "fila-campeon" : x.fase === "Subcampeón" ? "fila-sub" : ""}">
         <td>${linkEdicion(x.anio)}</td><td>${x.fase === "Campeón" ? "🏆 " : x.fase === "Subcampeón" ? "🥈 " : ""}${esc(x.fase)}</td>
         <td class="col-dt">${entrenadores(x.anio, id).map(esc).join("<br>")}</td>
@@ -695,7 +695,7 @@
     if (h.rivales.length) html += `<h3>Historial contra cada rival</h3>
       <p class="vacio">Tocá "Ver" para ver todos los partidos que jugaron entre ellos.</p>
       <div class="tabla-scroll"><table class="historial"><thead><tr><th>Rival</th>
-        <th class="num">PJ</th><th class="num">G</th><th class="num">E</th><th class="num">P</th><th class="num">Goles</th><th></th></tr></thead>
+        <th class="num">PJ</th><th class="num">G</th><th class="num">E</th><th class="num">P</th><th class="num">Goles</th><th class="num"></th></tr></thead>
       <tbody>${filasRivales(h.rivales.slice(0, 10))}</tbody>
       ${restoRivales.length ? `<tbody class="resto" hidden>${filasRivales(restoRivales)}</tbody>` : ""}
       </table></div>` +
@@ -750,7 +750,7 @@
 
   // Tabla con los 15 primeros a la vista y el resto debajo del botón "Ver todos"
   function tablaEst(encabezados, filas, visibles = 15) {
-    const th = encabezados.map(h => `<th${h.num ? ' class="num"' : ""}>${h.t ?? h}</th>`).join("");
+    const th = encabezados.map(h => `<th${h.num || h === "#" ? ' class="num"' : ""}>${h.t ?? h}</th>`).join("");
     const resto = filas.slice(visibles);
     return `<div class="tabla-scroll"><table class="historial tabla-est"><thead><tr>${th}</tr></thead>
       <tbody>${filas.slice(0, visibles).join("")}</tbody>
