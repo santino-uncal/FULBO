@@ -55,7 +55,12 @@ def main():
                     rival = p["visitante"] if lado == "local" else p["local"]
                     sumar(e, a, b)
                     sumar(c["total"], a, b)
-                    sumar(c["rivales"].setdefault(rival, ficha_vacia()), a, b)
+                    fr = c["rivales"].setdefault(rival, {**ficha_vacia(), "partidos": []})
+                    sumar(fr, a, b)
+                    # Cada partido contra ese rival: [año, fase, goles a favor, en contra, 1 si fue local, penales…]
+                    pen = [p.get("pen_l"), p.get("pen_v")][::1 if lado == "local" else -1]
+                    fr["partidos"].append([anio, fase["nombre"], a, b, int(lado == "local")] +
+                                          (pen if p.get("pen_l") is not None else []))
                     resumen = {"anio": anio, "fase": fase["nombre"], "rival": rival, "gf": a, "gc": b,
                                "local": lado == "local"}
                     # Mayor diferencia; a igual diferencia, la de más goles
@@ -84,7 +89,8 @@ def main():
     for id_, c in clubes.items():
         if id_ == "a-definir":
             continue
-        rivales = sorted(c["rivales"].items(), key=lambda x: (-x[1]["pj"], -x[1]["g"]))[:10]
+        # Todos los rivales (la página muestra los 10 más frecuentes y el resto con "Ver todos")
+        rivales = sorted(c["rivales"].items(), key=lambda x: (-x[1]["pj"], -x[1]["g"]))
         goleadores = sorted(c["goleadores"].values(), key=lambda x: (-x["n"], x["nombre"]))[:15]
         salida[id_] = {
             "ediciones": c["ediciones"],

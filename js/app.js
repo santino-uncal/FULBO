@@ -678,12 +678,28 @@
         <tr class="campania" hidden><td colspan="9"></td></tr>`).join("")}
       </tbody></table></div>`;
 
-    if (h.rivales.length) html += `<h3>Rivales más frecuentes</h3>
+    // Historial contra cada rival: los 10 más frecuentes a la vista, el resto con "Ver todos";
+    // "Ver" despliega todos los partidos que jugaron entre ellos
+    const partidoContra = (rival, [anio, fase, gf, gc, local, pf, pc]) => {
+      const [l, v, gl, gv, pl, pv] = local ? [id, rival, gf, gc, pf, pc] : [rival, id, gc, gf, pc, pf];
+      const icono = gf > gc ? "✅" : gf < gc ? "❌" : "➖";
+      return `<li>${icono} ${esc(equipo(l).nombre)} <strong>${gl}–${gv}</strong> ${esc(equipo(v).nombre)}` +
+        `${pl != null ? ` <small>(penales ${pl}–${pv})</small>` : ""}` +
+        ` <span class="det-meta">· ${linkEdicion(anio)}, ${esc(fase)}</span></li>`;
+    };
+    const filasRivales = lista => lista.map(r => `<tr><td>${linkEquipo(r.id)}</td><td class="num">${r.pj}</td><td class="num">${r.g}</td>
+        <td class="num">${r.e}</td><td class="num">${r.p}</td><td class="num">${r.gf}:${r.gc}</td>
+        <td class="num"><button class="ver" type="button" aria-expanded="false" title="Ver todos los partidos">Ver</button></td></tr>
+        <tr class="detalle" hidden><td colspan="7"><ul>${r.partidos.map(x => partidoContra(r.id, x)).join("")}</ul></td></tr>`).join("");
+    const restoRivales = h.rivales.slice(10);
+    if (h.rivales.length) html += `<h3>Historial contra cada rival</h3>
+      <p class="vacio">Tocá "Ver" para ver todos los partidos que jugaron entre ellos.</p>
       <div class="tabla-scroll"><table class="historial"><thead><tr><th>Rival</th>
-        <th class="num">PJ</th><th class="num">G</th><th class="num">E</th><th class="num">P</th><th class="num">Goles</th></tr></thead><tbody>
-      ${h.rivales.map(r => `<tr><td>${linkEquipo(r.id)}</td><td class="num">${r.pj}</td><td class="num">${r.g}</td>
-        <td class="num">${r.e}</td><td class="num">${r.p}</td><td class="num">${r.gf}:${r.gc}</td></tr>`).join("")}
-      </tbody></table></div>`;
+        <th class="num">PJ</th><th class="num">G</th><th class="num">E</th><th class="num">P</th><th class="num">Goles</th><th></th></tr></thead>
+      <tbody>${filasRivales(h.rivales.slice(0, 10))}</tbody>
+      ${restoRivales.length ? `<tbody class="resto" hidden>${filasRivales(restoRivales)}</tbody>` : ""}
+      </table></div>` +
+      (restoRivales.length ? `<button class="ver-todos" type="button" data-total="${h.rivales.length}">Ver todos (${h.rivales.length})</button>` : "");
 
     if (h.goleadores.length) html += `<h3>Goleadores del club en la Copa</h3>
       <p class="vacio">En ediciones viejas las fuentes a veces traen solo el apellido.</p>
