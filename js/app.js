@@ -3,8 +3,11 @@
 (function () {
   // Qué copa se está viendo: ?copa=sudamericana, o la Libertadores si la dirección no dice nada
   const COPAS = {
-    libertadores: { nombre: "Copa Libertadores", desde: 1960, lema: "La Gloria Eterna", datos: "data/", ns: "LIB" },
-    sudamericana: { nombre: "Copa Sudamericana", desde: 2002, lema: "La Gran Conquista", datos: "data/sudamericana/", ns: "SUD" },
+    libertadores: { nombre: "Copa Libertadores", desde: 1960, lema: "La Gloria Eterna", datos: "data/", ns: "LIB",
+      // Nombres oficiales que tuvo el torneo, desde el año en que se empezó a usar cada uno (panel de años)
+      nombres: [[1960, "Copa Campeones de América"], [1965, "Copa Libertadores de América"], [2017, "Copa Conmebol Libertadores"]] },
+    sudamericana: { nombre: "Copa Sudamericana", desde: 2002, lema: "La Gran Conquista", datos: "data/sudamericana/", ns: "SUD",
+      nombres: [[2002, "Copa Sudamericana"], [2017, "Copa Conmebol Sudamericana"]] },
   };
   const CLAVE_COPA = new URLSearchParams(location.search).get("copa") === "sudamericana" ? "sudamericana" : "libertadores";
   const COPA = COPAS[CLAVE_COPA];
@@ -1115,7 +1118,16 @@
   }
 
   // Cada edición es un link real (?edicion=1960) para que Google pueda encontrarlas todas
-  navEl.innerHTML = LIB.indice.map(e => `<a href="${enlaceHtml(`edicion=${e.anio}`)}" data-anio="${e.anio}" title="${esc(equipo(e.campeon).nombre)}">${e.anio}</a>`).join("");
+  // Agrupadas por el nombre que tenía el torneo ese año ("Copa Campeones de América 1960–1964", …)
+  navEl.innerHTML = COPA.nombres.map(([desde, nombre], i) => {
+    const hasta = COPA.nombres[i + 1]?.[0] ?? Infinity;
+    const eds = LIB.indice.filter(e => e.anio >= desde && e.anio < hasta);
+    if (!eds.length) return "";
+    const rango = eds.length > 1 ? `${eds[0].anio}–${eds[eds.length - 1].anio}` : eds[0].anio;
+    return `<div class="nombre-copa"><h3>${esc(nombre)} <small>${rango}</small></h3><div class="anios">` +
+      eds.map(e => `<a href="${enlaceHtml(`edicion=${e.anio}`)}" data-anio="${e.anio}" title="${esc(equipo(e.campeon).nombre)}">${e.anio}</a>`).join("") +
+      `</div></div>`;
+  }).join("");
   navEl.addEventListener("click", e => {
     const a = e.target.closest("a[data-anio]");
     if (!a || e.ctrlKey || e.metaKey || e.shiftKey) return;   // ctrl+clic: abrir en otra pestaña
@@ -1139,6 +1151,7 @@
   function filtrarAnios() {
     const q = buscarAnioEl.value.replace(/\D/g, "");
     const visibles = [...navEl.querySelectorAll("a[data-anio]")].filter(a => !(a.hidden = !a.dataset.anio.startsWith(q)));
+    navEl.querySelectorAll(".nombre-copa").forEach(g => { g.hidden = !g.querySelector("a[data-anio]:not([hidden])"); });
     document.getElementById("anio-vacio").hidden = visibles.length > 0;
     return visibles;
   }

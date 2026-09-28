@@ -47,8 +47,11 @@ body {
 
 main { max-width: 1240px; margin: 0 auto; padding: 24px 16px; }
 
-.ediciones { display: flex; flex-wrap: wrap; gap: 8px; }
-.ediciones a[hidden] { display: none; }
+.ediciones { display: flex; flex-direction: column; gap: 14px; }
+.ediciones .anios { display: flex; flex-wrap: wrap; gap: 8px; }
+.ediciones a[hidden], .nombre-copa[hidden] { display: none; }
+.nombre-copa h3 { margin: 0 0 8px; font-size: 0.95rem; color: var(--texto); }
+.nombre-copa h3 small { font-weight: 400; color: var(--texto-suave); margin-left: 4px; }
 /* Botón 📅 y panel de años (arranca cerrado) */
 .boton-anios {
   display: flex; align-items: center; gap: 6px; padding: 10px 16px; font: inherit; font-weight: 700; cursor: pointer; white-space: nowrap;
