@@ -102,6 +102,7 @@ def arreglar_sudamericana(linea):
         return linea
     linea = re.sub(r"^(\s*)Ap(\s+\d{1,2}:)", r"\1Apr\2", linea)                  # 'Ap   3: Rayo Zuliano - …'
     linea = re.sub(r"^(\s*[A-Z][a-z]{2}\s+\d{1,2});", r"\1:", linea)            # 'May  4; Fortaleza EC - …'
+    linea = re.sub(r"(\d)–(\d)", r"\1-\2", linea)                                # '1–1' con guion largo
     linea = RE_SIGLA_CLUB.sub("", linea)
     return re.sub(r"\s+FBC\b", "", linea)
 

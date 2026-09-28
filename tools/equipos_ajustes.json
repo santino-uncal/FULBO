@@ -195,7 +195,10 @@
     "Nacional|BOL": "nacional-potosi",
     "CAM Vinto Palma Flor": "atletico-palmaflor",
     "Gimnasia y Esgrima LP": "gimnasia-y-esgrima",
-    "Dep. Antofagasta": "deportes-antofagasta"
+    "Dep. Antofagasta": "deportes-antofagasta",
+    "Aucas|ECU": "sd-aucas",
+    "América FC-MG|BRA": "america-mineiro",
+    "America FC-MG|BRA": "america-mineiro"
   },
   "nombres": {
     "atletico-paranaense": "Athletico Paranaense",
@@ -252,7 +255,6 @@
     "nacional-potosi": "Nacional Potosí",
     "patronato": "Patronato",
     "sportivo-ameliano": "Sportivo Ameliano",
-    "america-mg": "América Mineiro",
     "plaza": "Plaza Colonia",
     "sport": "Sport Recife",
     "aguilas-doradas": "Águilas Doradas",
@@ -266,7 +268,10 @@
     "jaguares-col": "Jaguares de Córdoba",
     "iquique": "Deportes Iquique",
     "puerto-cabello": "Academia Puerto Cabello",
-    "itagui-ditaires": "Itagüí Ditaires"
+    "itagui-ditaires": "Itagüí Ditaires",
+    "america-mineiro": "América Mineiro",
+    "hermanos-colmenarez": "Hermanos Colmenárez (Inter de Barinas)",
+    "ad-tarma": "AD Tarma"
   },
   "pais_club": {
     "independiente-petrolero": "BOL",
@@ -281,17 +286,37 @@
     "9169": "BRA",
     "7764": "ARG",
     "22137": "BOL",
-    "10094": "VEN"
+    "10094": "VEN",
+    "10060": "ARG",
+    "22517": "PAR",
+    "17702": "ARG",
+    "22174": "BOL",
+    "20695": "ECU",
+    "21379": "BOL"
   },
   "espn": {
     "6149": "universitario-de-sucre",
     "4773": "portuguesa-bra",
-    "5568": "melgar"
+    "5568": "melgar",
+    "21314": "ad-tarma",
+    "20887": "hermanos-colmenarez"
   },
   "resultados": {
-    "734789": {"gl": 0, "gv": 3, "notas": "Suspendido a los 70' (0-0) por incidentes; la Conmebol le dio el partido 0-3 a Fortaleza"},
-    "511434": {"gl": 3, "gv": 0, "notas": "Terminó 0-0; la Conmebol le dio el partido 3-0 a Independiente porque Santos hizo jugar a Carlos Sánchez, que estaba suspendido"},
-    "511421": {"gl": 0, "gv": 0, "notas": "Suspendido a los 81' (0-0) por incidentes en la tribuna; Independiente pasó de ronda"}
+    "734789": {
+      "gl": 0,
+      "gv": 3,
+      "notas": "Suspendido a los 70' (0-0) por incidentes; la Conmebol le dio el partido 0-3 a Fortaleza"
+    },
+    "511434": {
+      "gl": 3,
+      "gv": 0,
+      "notas": "Terminó 0-0; la Conmebol le dio el partido 3-0 a Independiente porque Santos hizo jugar a Carlos Sánchez, que estaba suspendido"
+    },
+    "511421": {
+      "gl": 0,
+      "gv": 0,
+      "notas": "Suspendido a los 81' (0-0) por incidentes en la tribuna; Independiente pasó de ronda"
+    }
   },
   "notas_ediciones": {
     "_nota": "Texto que se muestra debajo del campeón de una edición ('copa año').",
@@ -300,7 +325,13 @@
   },
   "campeones_sudamericana": {
     "_nota": "Campeón y subcampeón forzados de la Copa Sudamericana. 2007: global 4-4, Arsenal campeón por gol de visitante. 2016: la final no se jugó (accidente aéreo de Chapecoense); la Conmebol le dio el título a Chapecoense a pedido de Atlético Nacional.",
-    "2007": ["arsenal-de-sarandi", "america-mex"],
-    "2016": ["chapecoense", "atletico-nacional"]
+    "2007": [
+      "arsenal-de-sarandi",
+      "america-mex"
+    ],
+    "2016": [
+      "chapecoense",
+      "atletico-nacional"
+    ]
   }
 }
