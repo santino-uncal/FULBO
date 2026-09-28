@@ -23,6 +23,7 @@ import equipos as E  # noqa: E402
 import leer_espn  # noqa: E402
 import generar_estadisticas  # noqa: E402
 import generar_historial  # noqa: E402
+import descargar_planteles  # noqa: E402
 import leer_rsssf  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -520,6 +521,11 @@ def main():
         for club, canchas in cuenta.items():
             if club in clubes and "estadio" not in clubes[club]:
                 clubes[club]["estadio"] = max(canchas, key=canchas.get)
+    # Planteles completos de Transfermarkt (bajados con tools/descargar_planteles.py)
+    planteles_tm = descargar_planteles.cargar_tm()
+    for a, ed in ediciones.items():
+        if str(a) in planteles_tm:
+            descargar_planteles.mezclar(ed["planteles"], planteles_tm[str(a)])
     (DATA / "ediciones").mkdir(parents=True, exist_ok=True)
     for a, ed in ediciones.items():
         escribir(DATA / "ediciones" / f"{a}.js",

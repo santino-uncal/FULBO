@@ -160,18 +160,22 @@
     const modo = ordenPlantelElegido();
     const botones = ["posicion", "nombre"].map(m => `<button class="orden orden-plantel" type="button" data-orden-plantel="${m}"
       aria-pressed="${modo === m}">${m === "nombre" ? "Por nombre" : "Por posición"}</button>`).join("");
-    return `<h3>Planteles</h3><p class="vacio">Jugadores que aparecen en formaciones o goles de esta edición.</p>
+    return `<h3>Planteles</h3><p class="vacio">Plantel de cada club en esa temporada según Transfermarkt, más los que aparecen en formaciones o goles
+      de esta edición. Partidos, goles y asistencias son solo los de esta Copa${ed.anio < 2005 ?
+        " (antes de 2005 solo hay formaciones de las finales: en los demás equipos los partidos jugados figuran como “–”)" : ""}.</p>
       <div class="orden-partidos">Ordenar: ${botones}</div>
       <input class="filtro-plantel" type="search" placeholder="Buscar equipo…" aria-label="Buscar equipo en los planteles" autocomplete="off">
       <p class="vacio filtro-plantel-vacio" hidden></p>` +
       ids.map(id => `<details class="plantel" data-busqueda="${esc(normalizar(equipo(id).nombre) + " " + id)}"><summary>${club(id)} (${ed.planteles[id].length})${estadio(id)}</summary>
         ${lineaDT(ed.anio, id)}${tablaPlantel(ed.planteles[id], modo)}</details>`).join("");
   }
+  // Si el equipo no tiene ninguna formación cargada no se sabe cuántos partidos jugó cada uno ("–")
   function tablaPlantel(jugadores, modo) {
+    const sinFormaciones = !jugadores.some(j => j.pj);
     return `<table><thead><tr><th class="num">#</th><th>Jugador</th><th>Posición</th><th class="num">PJ</th><th class="num">Goles</th><th class="num">Asist.</th></tr></thead><tbody>
       ${ordenarPlantel(jugadores, modo).map(j => `<tr data-nombre="${esc(j.nombre)}" data-linea="${lineaDe(j.pos)}">
         <td class="num">${esc(j.num || "")}</td><td>${esc(j.nombre)}</td><td>${esc(nombrePos(j.pos))}</td>
-        <td class="num">${j.pj || 0}</td><td class="num">${j.goles || 0}</td><td class="num">${j.asist || 0}</td></tr>`).join("")}
+        <td class="num">${sinFormaciones ? "–" : j.pj || 0}</td><td class="num">${j.goles || 0}</td><td class="num">${j.asist || 0}</td></tr>`).join("")}
       </tbody></table>`;
   }
   // Las fuentes traen las posiciones en siglas en inglés (G, CD-L, AM…): se muestran en castellano
