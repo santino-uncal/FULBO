@@ -983,7 +983,29 @@
     estilo.setProperty("--acento", colores[1]);
   }
 
+  // Último año visto: se guarda el año que se está mirando y el anterior (distinto), también entre visitas
+  const ultimoAnioEl = document.getElementById("ultimo-anio");
+  function recordarAnio(anio) {
+    let v = {};
+    try { v = JSON.parse(localStorage.getItem("aniosVistos")) || {}; } catch {}
+    if (v.actual != anio) {
+      if (v.actual) v.anterior = v.actual;
+      v.actual = String(anio);
+      try { localStorage.setItem("aniosVistos", JSON.stringify(v)); } catch {}
+    }
+    const hay = v.anterior && v.anterior != anio && LIB.indice.some(e => e.anio == v.anterior);
+    if (!ultimoAnioEl) return;
+    ultimoAnioEl.hidden = !hay;
+    if (hay) {
+      ultimoAnioEl.dataset.anio = v.anterior;
+      ultimoAnioEl.querySelector("span").textContent = v.anterior;
+      ultimoAnioEl.title = `Volver a ${v.anterior}`;
+    }
+  }
+  ultimoAnioEl?.addEventListener("click", () => seleccionar(ultimoAnioEl.dataset.anio, true));
+
   function seleccionar(anio, guardarEnHistorial) {
+    recordarAnio(anio);
     navEl.querySelectorAll("a").forEach(a => a.toggleAttribute("aria-current", a.dataset.anio == anio));
     botonEstEl?.removeAttribute("aria-current");
     mostrarAnioEnBoton(anio);

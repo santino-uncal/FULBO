@@ -43,8 +43,12 @@
   </div>
   <!-- Panel de años: arranca cerrado y se abre con el botón 📅 -->
   <div class="panel-anios" id="panel-anios" hidden>
-    <input id="buscar-anio" type="search" inputmode="numeric" maxlength="4" placeholder="Escribí un año (ej.: 1986)"
-      autocomplete="off" aria-label="Buscar año">
+    <div class="fila-buscar-anio">
+      <input id="buscar-anio" type="search" inputmode="numeric" maxlength="4" placeholder="Escribí un año (ej.: 1986)"
+        autocomplete="off" aria-label="Buscar año">
+      <!-- Vuelve al último año que se estuvo mirando antes del actual (se recuerda entre visitas) -->
+      <button class="ultimo-anio" id="ultimo-anio" type="button" hidden>↩ Último visto: <span></span></button>
+    </div>
     <nav class="ediciones" id="ediciones" aria-label="Ediciones"></nav>
     <p class="vacio" id="anio-vacio" hidden>No hay ninguna edición con ese año.</p>
   </div>

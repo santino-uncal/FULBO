@@ -56,8 +56,15 @@ main { max-width: 1240px; margin: 0 auto; padding: 24px 16px; }
 .panel-anios {
   margin: -6px 0 24px; padding: 12px; background: var(--panel-2, var(--panel)); border: 1px solid var(--borde); border-radius: var(--radio);
 }
+.fila-buscar-anio { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.ultimo-anio {
+  padding: 8px 12px; font: inherit; cursor: pointer; white-space: nowrap;
+  color: var(--texto); background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio);
+}
+.ultimo-anio:hover { border-color: var(--acento); color: var(--acento); }
+.ultimo-anio[hidden] { display: none; }
 .panel-anios input {
-  width: 100%; max-width: 260px; margin-bottom: 12px; font: inherit; padding: 8px 12px; color: var(--texto);
+  flex: 1 1 180px; width: 100%; max-width: 260px; font: inherit; padding: 8px 12px; color: var(--texto);
   background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio);
 }
 .panel-anios input:focus { outline: none; border-color: var(--acento); }
