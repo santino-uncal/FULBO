@@ -45,6 +45,9 @@
     a.dataset.copa === CLAVE_COPA ? "Ir a la edición actual" : `Ir a la ${COPAS[a.dataset.copa].nombre}`));
   const desdeEl = document.getElementById("copa-desde");
   if (desdeEl) desdeEl.textContent = `Desde ${COPA.desde}`;
+  // El ejemplo del buscador de años tiene que ser un año de esta copa (la Sudamericana empieza en 2002)
+  const buscarAnioEj = document.getElementById("buscar-anio");
+  if (buscarAnioEj && CLAVE_COPA === "sudamericana") buscarAnioEj.placeholder = "Escribí un año (ej.: 2014)";
   const lemaEl = document.querySelector(".cabecera-lema");
   if (lemaEl) lemaEl.hidden = CLAVE_COPA !== "libertadores";
   const navEl = document.getElementById("ediciones");
