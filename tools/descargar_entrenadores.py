@@ -6,6 +6,7 @@ Fuente: Transfermarkt.
   3. Cruzando esas fechas con las fechas de los partidos de la Copa sale quién dirigió cada partido.
 Las páginas bajadas quedan en tools/cache/transfermarkt/ (la segunda vez no se vuelve a pedir nada).
     python tools/descargar_entrenadores.py
+    python tools/descargar_entrenadores.py --copa sudamericana   (arma data/sudamericana/entrenadores.js)
 """
 import datetime
 import difflib
@@ -17,12 +18,13 @@ import urllib.request
 from collections import Counter, defaultdict
 
 import equipos as E
+from copas import COPAS, copa_de_argumentos, prefijo_js
 from generar_historial import DATA, RAIZ, leer_ediciones
 
 CACHE = RAIZ / "tools" / "cache" / "transfermarkt"
 BASE = "https://www.transfermarkt.com"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36"
-PARTIDOS_DT = RAIZ / "tools" / "entrenadores_partidos.json"   # {año: {"fecha|local|visitante": {"local": dt, ...}}}
+# Quién dirigió cada partido: {año: {"fecha|local|visitante": {"local": dt, ...}}} (ver COPAS[clave]["entrenadores_partidos"])
 AJUSTES = RAIZ / "tools" / "entrenadores_ajustes.json"   # correcciones a mano: {"club-nuestro": id_transfermarkt}
 
 
@@ -47,9 +49,11 @@ def pedir(url, archivo):
     return texto
 
 
-def participantes(anio):
+def participantes(anio, clave="libertadores"):
     """[(id_tm, nombre)] de la edición. Transfermarkt numera la temporada con el año anterior."""
-    t = pedir(f"{BASE}/copa-libertadores/teilnehmer/pokalwettbewerb/CLI/saison_id/{anio - 1}", f"participantes/{anio}.html")
+    slug, codigo = COPAS[clave]["tm"]
+    archivo = f"participantes/{anio}.html" if clave == "libertadores" else f"participantes-{clave}/{anio}.html"
+    t = pedir(f"{BASE}/{slug}/teilnehmer/pokalwettbewerb/{codigo}/saison_id/{anio - 1}", archivo)
     vistos = {}
     for nombre, id_ in re.findall(r'<a title="([^"]+)" href="/[^"/]+/startseite/verein/(\d+)"', t):
         vistos.setdefault(int(id_), html.unescape(nombre))
@@ -79,14 +83,14 @@ def parecido(nuestro_id, nombre_tm):
     return mejor
 
 
-def emparejar(eds):
+def emparejar(eds, clave="libertadores"):
     """{club_nuestro: id_tm}: en cada edición se empareja cada club con el participante más parecido."""
     votos = defaultdict(Counter)
     dudosos = []
     for anio, ed in eds.items():
         nuestros = sorted({p[l] for f in ed["fases"] for p in f["partidos"] for l in ("local", "visitante")
                            if p[l] and p[l] != "a-definir"})
-        suyos = participantes(anio)
+        suyos = participantes(anio, clave)
         pares = sorted(((parecido(n, s[1]), n, s) for n in nuestros for s in suyos), reverse=True)
         usados_n, usados_s = set(), set()
         for score, n, s in pares:
@@ -141,12 +145,23 @@ def quien_dirigio(dts, dia):
     return candidatos[0]["nombre"] if candidatos else None
 
 
-def main():
+def ids_tm(clave):
+    """{club: id_tm} de la copa. La Sudamericana suma lo que ya se sabe por la Libertadores (así un club que
+    jugó las dos no depende solo del parecido de nombres en la Sudamericana)."""
+    ids, dudosos = emparejar(leer_ediciones(clave), clave)
+    if clave != "libertadores":
+        base, _ = emparejar(leer_ediciones("libertadores"))
+        ids = {**ids, **base}
+        dudosos = [d for d in dudosos if d[1] not in base]
+    return ids, dudosos
+
+
+def main(clave="libertadores"):
     global E_NOMBRES
     js = (DATA / "equipos.js").read_text(encoding="utf-8")
     E_NOMBRES = {k: v["nombre"] for k, v in json.loads(js[js.index(".equipos = ") + 11:].rstrip().rstrip(";")).items()}
-    eds = leer_ediciones()
-    ids, dudosos = emparejar(eds)
+    eds = leer_ediciones(clave)
+    ids, dudosos = ids_tm(clave)
     print(f"{len(ids)} clubes emparejados con Transfermarkt")
     for d in dudosos:
         print("  revisar:", *d)
@@ -181,14 +196,16 @@ def main():
     total = sum(len(v) for v in salida.values())
     print(f"entrenadores.js: {total} equipos con entrenador, {sin_dato} sin dato")
     cuerpo = json.dumps(salida, ensure_ascii=False, separators=(",", ":"))
-    (DATA / "entrenadores.js").write_text(
-        "/* Generado por tools/descargar_entrenadores.py (fuente: Transfermarkt) — no editar a mano */\n"
-        "window.LIB = window.LIB || {};\nwindow.LIB.entrenadores = " + cuerpo + ";\n", encoding="utf-8")
-    PARTIDOS_DT.write_text(json.dumps(por_partido, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    print(f"{PARTIDOS_DT.name}: {sum(len(v) for v in por_partido.values())} partidos con entrenador")
+    ns = COPAS[clave]["ns"]
+    (COPAS[clave]["data"] / "entrenadores.js").write_text(
+        "/* Generado por tools/descargar_entrenadores.py (fuente: Transfermarkt) — no editar a mano */\n" +
+        prefijo_js(clave) + f"window.{ns}.entrenadores = " + cuerpo + ";\n", encoding="utf-8")
+    ruta = COPAS[clave]["entrenadores_partidos"]
+    ruta.write_text(json.dumps(por_partido, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(f"{ruta.name}: {sum(len(v) for v in por_partido.values())} partidos con entrenador")
 
 
 E_NOMBRES = {}
 
 if __name__ == "__main__":
-    main()
+    main(copa_de_argumentos()[0])

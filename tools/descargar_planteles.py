@@ -9,6 +9,7 @@ temporada y se suma a la lista: los que ya estaban ganan número/posición/nombr
   3. Se mezcla con los planteles de data/ediciones/*.js (lo hace también generar_datos.py al final).
 Las páginas bajadas quedan en tools/cache/transfermarkt/kader/ (la segunda vez no se vuelve a pedir nada).
     python tools/descargar_planteles.py
+    python tools/descargar_planteles.py --copa sudamericana
 """
 import html
 import json
@@ -19,9 +20,10 @@ from concurrent.futures import ThreadPoolExecutor
 
 import descargar_entrenadores as D
 import equipos as E
-from generar_historial import DATA, RAIZ, leer_ediciones
+from copas import COPAS, copa_de_argumentos
+from generar_historial import DATA, leer_ediciones
 
-PLANTELES_TM = RAIZ / "tools" / "planteles_tm.json"   # {año: {club: [{nombre, tid, num, pos}]}}
+# Planteles de Transfermarkt de cada copa: {año: {club: [{nombre, tid, num, pos}]}} (ver COPAS[clave]["planteles_tm"])
 
 # Posición de Transfermarkt → las mismas siglas que usan las formaciones de ESPN
 POSICIONES = {
@@ -53,11 +55,11 @@ def plantel_tm(id_tm, anio):
     return jugadores
 
 
-def descargar():
+def descargar(clave="libertadores"):
     js = (DATA / "equipos.js").read_text(encoding="utf-8")
     D.E_NOMBRES = {k: v["nombre"] for k, v in json.loads(js[js.index(".equipos = ") + 11:].rstrip().rstrip(";")).items()}
-    eds = leer_ediciones()
-    ids, _ = D.emparejar(eds)
+    eds = leer_ediciones(clave)
+    ids, _ = D.ids_tm(clave)
     salida = {}
     pares = [(anio, club) for anio, ed in eds.items()
              for club in sorted({p[l] for f in ed["fases"] for p in f["partidos"] for l in ("local", "visitante")}
@@ -72,8 +74,9 @@ def descargar():
         lista = plantel_tm(ids[club], anio)
         if lista:
             salida.setdefault(str(anio), {})[club] = lista
-    PLANTELES_TM.write_text(json.dumps(salida, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    print(f"{PLANTELES_TM.name}: {sum(len(v) for v in salida.values())} planteles de {len(pares)}")
+    ruta = COPAS[clave]["planteles_tm"]
+    ruta.write_text(json.dumps(salida, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(f"{ruta.name}: {sum(len(v) for v in salida.values())} planteles de {len(pares)}")
 
 
 # ---------------------------------------------------------------- mezcla
@@ -134,14 +137,15 @@ def completar(j, s):
             j[k] = s[k]
 
 
-def cargar_tm():
-    return json.loads(PLANTELES_TM.read_text(encoding="utf-8")) if PLANTELES_TM.exists() else {}
+def cargar_tm(clave="libertadores"):
+    ruta = COPAS[clave]["planteles_tm"]
+    return json.loads(ruta.read_text(encoding="utf-8")) if ruta.exists() else {}
 
 
-def mezclar_ediciones():
-    """Aplica la mezcla directamente sobre data/ediciones/*.js (sin tener que regenerar todo)."""
-    tm = cargar_tm()
-    for ruta in sorted((DATA / "ediciones").glob("*.js")):
+def mezclar_ediciones(clave="libertadores"):
+    """Aplica la mezcla directamente sobre las ediciones ya generadas (sin tener que regenerar todo)."""
+    tm = cargar_tm(clave)
+    for ruta in sorted((COPAS[clave]["data"] / "ediciones").glob("*.js")):
         texto = ruta.read_text(encoding="utf-8")
         cabeza, cuerpo = texto[:texto.index("] = ") + 4], texto[texto.index("] = ") + 4:].rstrip().rstrip(";")
         ed = json.loads(cuerpo)
@@ -160,10 +164,11 @@ def mezclar_ediciones():
                 break
             except OSError:
                 time.sleep(1 + intento)
-    print("planteles mezclados en data/ediciones/")
+    print(f"planteles mezclados en las ediciones ({clave})")
 
 
 if __name__ == "__main__":
+    copa, _ = copa_de_argumentos()
     if "--solo-mezclar" not in sys.argv:
-        descargar()
-    mezclar_ediciones()
+        descargar(copa)
+    mezclar_ediciones(copa)

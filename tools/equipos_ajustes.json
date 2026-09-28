@@ -148,7 +148,54 @@
     "Independiente Petrolero|BOL": "independiente-petrolero",
     "Atlético Morelia": "morelia",
     "Deportivo Municipal": "deportivo-municipal-per",
-    "Coquimbo Unido": "coquimbo"
+    "Coquimbo Unido": "coquimbo",
+    "Portuguesa|BRA": "portuguesa-bra",
+    "_sudamericana": "(desde acá, nombres de las páginas de la Copa Sudamericana)",
+    "Corinthians Paulista|BRA": "corinthians",
+    "Corinthians Pauliata|BRA": "corinthians",
+    "RC Bragantino": "red-bull-bragantino",
+    "RD Bragantino": "red-bull-bragantino",
+    "Paranaense|BRA": "atletico-paranaense",
+    "Atlético-PR|BRA": "atletico-paranaense",
+    "Atlético-MG|BRA": "atletico-mineiro",
+    "Botafogo FR|BRA": "botafogo",
+    "Sport Recife|BRA": "sport",
+    "LDU de Quito|ECU": "ldu-quito",
+    "LDU de Loja|ECU": "ldu-loja",
+    "Deportico Cuenca|ECU": "deportivo-cuenca",
+    "Cuenca|ECU": "deportivo-cuenca",
+    "Católica Ecuador|ECU": "universidad-catolica-ecu",
+    "Téc. Universitario|ECU": "tecnico-universitario",
+    "Garcilaso|PER": "real-garcilaso",
+    "Huancayo|PER": "sport-huancayo",
+    "Binacional|PER": "deportivo-binacional",
+    "César Vallejo|PER": "universidad-cesar-vallejo",
+    "U. César Vallejo|PER": "universidad-cesar-vallejo",
+    "Univ. Técnica Cajamarca|PER": "ut-cajamarca",
+    "Lara|VEN": "deportivo-lara",
+    "Estudiantes de Mérida": "estudiantes",
+    "Ameliano|PAR": "sportivo-ameliano",
+    "Sportivo Ameliano|PAR": "sportivo-ameliano",
+    "Luqueño|PAR": "sportivo-luqueno",
+    "Trinidense": "sportivo-trinidense",
+    "General Caballero JLM|PAR": "general-caballero",
+    "Santa Fe|COL": "independiente-santa-fe",
+    "DIM|COL": "independiente-medellin",
+    "Rionegro Águilas|COL": "aguilas-doradas",
+    "Rionegro Águilas Doradas|COL": "aguilas-doradas",
+    "Itagüi Ditaires|COL": "aguilas-doradas",
+    "Itagüí Ditaires|COL": "aguilas-doradas",
+    "9 de Octubre|ECU": "nueve-de-octubre",
+    "Huachipato": "huachipato",
+    "Iquique|CHI": "deportes-iquique",
+    "Palestino": "palestino",
+    "Racing MVD": "racing",
+    "Torque": "montevideo-city-torque",
+    "Nacional Potosí": "nacional-potosi",
+    "Nacional|BOL": "nacional-potosi",
+    "CAM Vinto Palma Flor": "atletico-palmaflor",
+    "Gimnasia y Esgrima LP": "gimnasia-y-esgrima",
+    "Dep. Antofagasta": "deportes-antofagasta"
   },
   "nombres": {
     "atletico-paranaense": "Athletico Paranaense",
@@ -200,7 +247,26 @@
     "coquimbo": "Coquimbo Unido",
     "ucv": "UCV (Venezuela)",
     "central-cordoba": "Central Córdoba (Santiago del Estero)",
-    "juventud": "Juventud (Las Piedras)"
+    "juventud": "Juventud (Las Piedras)",
+    "red-bull-bragantino": "Red Bull Bragantino",
+    "nacional-potosi": "Nacional Potosí",
+    "patronato": "Patronato",
+    "sportivo-ameliano": "Sportivo Ameliano",
+    "america-mg": "América Mineiro",
+    "plaza": "Plaza Colonia",
+    "sport": "Sport Recife",
+    "aguilas-doradas": "Águilas Doradas",
+    "general-caballero": "General Caballero",
+    "atletico-palmaflor": "Atlético Palmaflor",
+    "ldu-loja": "LDU Loja",
+    "deportivo-santani": "Deportivo Santaní",
+    "independiente-par": "Independiente (Paraguay)",
+    "river-plate-par": "River Plate (Paraguay)",
+    "union": "Unión de Santa Fe",
+    "jaguares-col": "Jaguares de Córdoba",
+    "iquique": "Deportes Iquique",
+    "puerto-cabello": "Academia Puerto Cabello",
+    "itagui-ditaires": "Itagüí Ditaires"
   },
   "pais_club": {
     "independiente-petrolero": "BOL",
@@ -218,11 +284,23 @@
     "10094": "VEN"
   },
   "espn": {
-    "6149": "universitario-de-sucre"
+    "6149": "universitario-de-sucre",
+    "4773": "portuguesa-bra",
+    "5568": "melgar"
   },
   "resultados": {
     "734789": {"gl": 0, "gv": 3, "notas": "Suspendido a los 70' (0-0) por incidentes; la Conmebol le dio el partido 0-3 a Fortaleza"},
     "511434": {"gl": 3, "gv": 0, "notas": "Terminó 0-0; la Conmebol le dio el partido 3-0 a Independiente porque Santos hizo jugar a Carlos Sánchez, que estaba suspendido"},
     "511421": {"gl": 0, "gv": 0, "notas": "Suspendido a los 81' (0-0) por incidentes en la tribuna; Independiente pasó de ronda"}
+  },
+  "notas_ediciones": {
+    "_nota": "Texto que se muestra debajo del campeón de una edición ('copa año').",
+    "sudamericana 2016": "La final contra Atlético Nacional no se jugó: el 28 de noviembre de 2016 el avión que llevaba al plantel de Chapecoense a Medellín se estrelló y murieron 71 personas. A pedido de Atlético Nacional, la Conmebol le dio el título a Chapecoense.",
+    "sudamericana 2007": "La final terminó 4-4 en el global: Arsenal fue campeón por los goles de visitante."
+  },
+  "campeones_sudamericana": {
+    "_nota": "Campeón y subcampeón forzados de la Copa Sudamericana. 2007: global 4-4, Arsenal campeón por gol de visitante. 2016: la final no se jugó (accidente aéreo de Chapecoense); la Conmebol le dio el título a Chapecoense a pedido de Atlético Nacional.",
+    "2007": ["arsenal-de-sarandi", "america-mex"],
+    "2016": ["chapecoense", "atletico-nacional"]
   }
 }

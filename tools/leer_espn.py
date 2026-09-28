@@ -2,15 +2,13 @@
 
 No se usa solo: lo llama tools/generar_datos.py. Para revisar una temporada:
     python tools/leer_espn.py 2025
+    python tools/leer_espn.py --copa sudamericana 2025
 """
 import datetime
 import json
 import re
-import sys
-from pathlib import Path
 
-RAIZ = Path(__file__).resolve().parent.parent
-CACHE = RAIZ / "tools" / "cache" / "espn"
+from copas import COPAS, copa_de_argumentos
 
 FASES = [
     (r"play-?off|first-stage|second-stage|third-stage|qualif|preliminary", "Fase previa"),
@@ -23,6 +21,18 @@ FASES = [
 ]
 PREVIAS = {"first-stage": "Primera fase previa", "second-stage": "Segunda fase previa",
            "third-stage": "Tercera fase previa"}
+# La Sudamericana: 2016 viene como "copa-sudamericana---first-phase" (se saca ese comienzo antes de comparar)
+FASES_SUD = [
+    (r"^preliminary", "Fase previa"),
+    (r"^first-(phase|stage)", "Primera fase"),
+    (r"^second-(phase|stage)", "Segunda fase"),
+    (r"group", "Fase de grupos"),
+    (r"knockout-round-playoffs", "Playoffs de octavos"),
+    (r"round-of-16", "Octavos de final"),
+    (r"quarter", "Cuartos de final"),
+    (r"semi", "Semifinales"),
+    (r"^finals?$", "Final"),
+]
 
 
 def fecha_local(iso):
@@ -31,10 +41,12 @@ def fecha_local(iso):
     return t.strftime("%Y-%m-%d")
 
 
-def nombre_fase(evento):
+def nombre_fase(evento, copa="libertadores"):
     slug = evento.get("season", {}).get("slug", "")
     nota = evento["competitions"][0].get("altGameNote") or ""
-    for patron, nombre in FASES:
+    if copa == "sudamericana":
+        slug = re.sub(r"^copa-sudamericana-+", "", slug)
+    for patron, nombre in (FASES_SUD if copa == "sudamericana" else FASES):
         if re.search(patron, slug):
             if nombre == "Fase de grupos":
                 m = re.search(r"Group\s+(\w+)", nota)
@@ -53,8 +65,8 @@ def minuto(clock):
     return int(m.group(1)), int(m.group(2)) if m.group(2) else None
 
 
-def leer(anio):
-    carpeta = CACHE / str(anio)
+def leer(anio, copa="libertadores"):
+    carpeta = COPAS[copa]["cache_espn"] / str(anio)
     cal = json.loads((carpeta / "calendario.json").read_text(encoding="utf-8"))
     partidos, equipos = [], {}
     for e in cal.get("events", []):
@@ -69,7 +81,7 @@ def leer(anio):
                                 "escudo": t.get("logo")}
         estado = e["status"]["type"]
         p = {
-            "espn": e["id"], "fase": nombre_fase(e), "temporada_espn": (e.get("season") or {}).get("year"), "fecha": fecha_local(e["date"]), "hora_utc": e["date"],
+            "espn": e["id"], "fase": nombre_fase(e, copa), "temporada_espn": (e.get("season") or {}).get("year"), "fecha": fecha_local(e["date"]), "hora_utc": e["date"],
             "local_espn": lados["home"]["team"]["id"], "visitante_espn": lados["away"]["team"]["id"],
             "local": lados["home"]["team"]["displayName"], "visitante": lados["away"]["team"]["displayName"],
             "gl": int(lados["home"]["score"]) if estado.get("completed") else None,
@@ -159,8 +171,9 @@ def completar(p, d):
 
 
 if __name__ == "__main__":
-    for a in [int(x) for x in sys.argv[1:]] or [2024]:
-        r = leer(a)
+    clave, args = copa_de_argumentos()
+    for a in [int(x) for x in args] or [2024]:
+        r = leer(a, clave)
         for p in r["partidos"]:
             print(f"{p['fase']:<32} {p['fecha']} {p['local']:>26} {p['gl']}-{p['gv']} {p['visitante']:<26} "
                   f"{len(p['goles'])}g {'F' if p.get('formaciones') else '-'}")

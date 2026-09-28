@@ -1,20 +1,23 @@
-"""Arma data/historial.js: el historial de cada club en la Copa (ediciones, títulos, partidos, goleadores…).
+"""Arma historial.js: el historial de cada club en la Copa (ediciones, títulos, partidos, goleadores…).
 
-Se calcula a partir de data/ediciones/*.js, así la página no tiene que cargar todas las ediciones para
-mostrar la ficha de un equipo. Lo llama generar_datos.py al final; también se puede correr solo:
-    python tools/generar_historial.py
+Se calcula a partir de las ediciones (data/ediciones/*.js, o data/sudamericana/ediciones/*.js), así la página
+no tiene que cargar todas las ediciones para mostrar la ficha de un equipo. Lo llama generar_datos.py al final
+(una vez por copa); también se puede correr solo:
+    python tools/generar_historial.py [--copa sudamericana]
 """
 import json
 import re
 from pathlib import Path
 
+from copas import COPAS, copa_de_argumentos, prefijo_js
+
 RAIZ = Path(__file__).resolve().parent.parent
-DATA = RAIZ / "data"
+DATA = RAIZ / "data"   # lo compartido por las dos copas (equipos.js); lo de cada copa está en COPAS[clave]["data"]
 
 
-def leer_ediciones():
+def leer_ediciones(clave="libertadores"):
     eds = {}
-    for ruta in (DATA / "ediciones").glob("*.js"):
+    for ruta in (COPAS[clave]["data"] / "ediciones").glob("*.js"):
         texto = ruta.read_text(encoding="utf-8")
         cuerpo = texto[texto.index("] = ") + 4:].rstrip().rstrip(";")
         ed = json.loads(cuerpo)
@@ -33,8 +36,8 @@ def sumar(f, a, b):
     f["g" if a > b else "p" if a < b else "e"] += 1
 
 
-def main():
-    eds = leer_ediciones()
+def main(copa="libertadores"):   # (no se llama clave: adentro hay otras claves)
+    eds = leer_ediciones(copa)
     clubes = {}
     club = lambda id_: clubes.setdefault(id_, {"ediciones": [], "total": ficha_vacia(), "rivales": {},
                                                "goleadores": {}, "mayorVictoria": None, "peorDerrota": None})
@@ -104,11 +107,12 @@ def main():
                            for g in goleadores],
         }
     cuerpo = json.dumps(salida, ensure_ascii=False, separators=(",", ":"))
-    (DATA / "historial.js").write_text(
-        "/* Generado por tools/generar_historial.py — no editar a mano */\nwindow.LIB = window.LIB || {};\n"
-        "window.LIB.historial = " + cuerpo + ";\n", encoding="utf-8")
-    print(f"historial.js: {len(salida)} clubes")
+    ns = COPAS[copa]["ns"]
+    (COPAS[copa]["data"] / "historial.js").write_text(
+        "/* Generado por tools/generar_historial.py — no editar a mano */\n" + prefijo_js(copa) +
+        f"window.{ns}.historial = " + cuerpo + ";\n", encoding="utf-8")
+    print(f"historial.js ({copa}): {len(salida)} clubes")
 
 
 if __name__ == "__main__":
-    main()
+    main(copa_de_argumentos()[0])

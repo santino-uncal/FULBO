@@ -1,13 +1,15 @@
-"""Genera todos los archivos de data/ a partir de lo descargado de RSSSF y ESPN.
+"""Genera todos los archivos de data/ a partir de lo descargado de RSSSF y ESPN, para las dos copas.
 
 Uso:  python tools/generar_datos.py
-Antes hay que haber corrido tools/descargar_rsssf.py y tools/descargar_espn.py.
+Antes hay que haber corrido tools/descargar_rsssf.py y tools/descargar_espn.py (con y sin --copa sudamericana).
 
-Cómo combina las fuentes:
-  - 1960–2004: solo RSSSF (resultados, goleadores; formaciones de algunas finales).
+Cómo combina las fuentes (en las dos copas):
+  - hasta 2004: solo RSSSF (resultados, goleadores; formaciones de algunas finales).
   - 2005–2024: RSSSF es la base (lista completa de partidos) y cada partido se completa
     con el detalle de ESPN (goles con minuto y asistencia, formaciones, árbitro, público).
   - 2025 en adelante: solo ESPN.
+Los clubes son uno solo para las dos copas (data/equipos.js). La Libertadores queda en data/ y la
+Sudamericana en data/sudamericana/. Cada edición se identifica por (copa, año).
 Al final imprime un control de calidad por edición.
 """
 import collections
@@ -25,28 +27,26 @@ import generar_estadisticas  # noqa: E402
 import generar_historial  # noqa: E402
 import descargar_planteles  # noqa: E402
 import leer_rsssf  # noqa: E402
+from copas import COPAS, prefijo_js  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parent.parent
 DATA = RAIZ / "data"
 CACHE = RAIZ / "tools" / "cache"
 
 ORDEN_FASES = ["Fase previa", "Primera fase previa", "Segunda fase previa", "Tercera fase previa",
-               "Primera fase", "Fase de grupos", "Segunda fase", "Tercera fase", "Octavos de final",
+               "Primera fase", "Fase de grupos", "Segunda fase", "Tercera fase", "Playoffs de octavos",
+               "Octavos de final",
                "Cuartos de final", "Semifinales", "Tercer puesto", "Final"]
 
 
-def anios_rsssf():
-    res = []
-    for f in (CACHE / "rsssf").glob("copa*.html"):
-        m = re.match(r"copa(\d+)\.html$", f.name)
-        if m:
-            n = int(m.group(1))
-            res.append(n if n > 100 else (1900 + n if n >= 60 else 2000 + n))
-    return sorted(res)
+def anios_rsssf(clave):
+    copa = COPAS[clave]
+    return [a for a in range(copa["desde"], datetime.date.today().year + 1)
+            if (copa["cache_rsssf"] / copa["rsssf"](a)).exists()]
 
 
-def anios_espn():
-    return sorted(int(d.name) for d in (CACHE / "espn").glob("*") if (d / "calendario.json").exists())
+def anios_espn(clave):
+    return sorted(int(d.name) for d in COPAS[clave]["cache_espn"].glob("*") if (d / "calendario.json").exists())
 
 
 def dias(a, b):
@@ -73,16 +73,21 @@ def repartir_por_temporada(es):
 
 # ---------------------------------------------------------------- clubes
 def asignar_clubes_rsssf(rs, cat):
-    R = E.Resolutor(rs)
+    """rs: {(copa, año): edición de RSSSF}. Primero toda la Libertadores y después la Sudamericana, que para
+    adivinar el país de un club aprende también de lo que se sabe por la Libertadores."""
     sin_pais = set()
-    for a, r in rs.items():
-        for p in r["partidos"]:
-            for lado in ("local", "visitante"):
-                crudo = p[lado]
-                pais = R.pais(a, p, crudo)
-                if not pais:
-                    sin_pais.add(f"{a}|{crudo}")
-                p[lado + "_id"] = cat.id_de(crudo, pais, r["ciudades"].get(crudo))
+    for clave in COPAS:
+        R = E.Resolutor({k: r for k, r in rs.items() if k[0] in ("libertadores", clave)})
+        for k, r in rs.items():
+            if k[0] != clave:
+                continue
+            for p in r["partidos"]:
+                for lado in ("local", "visitante"):
+                    crudo = p[lado]
+                    pais = R.pais(k, p, crudo)
+                    if not pais:
+                        sin_pais.add(f"{k[0]} {k[1]}|{crudo}")
+                    p[lado + "_id"] = cat.id_de(crudo, pais, r["ciudades"].get(crudo))
     return sin_pais
 
 
@@ -337,24 +342,28 @@ def armar_planteles(partidos):
 def main():
     cat = E.Catalogo()
     ajustes = E.cargar_ajustes()
-    rs = {a: leer_rsssf.leer(a) for a in anios_rsssf()}
-    es = repartir_por_temporada({a: leer_espn.leer(a) for a in anios_espn()})
+    # Cada edición es (copa, año): ("libertadores", 1986), ("sudamericana", 2005)…
+    rs, es = {}, {}
+    for clave in COPAS:
+        rs.update({(clave, a): leer_rsssf.leer(a, clave) for a in anios_rsssf(clave)})
+        es.update({(clave, a): r for a, r in repartir_por_temporada(
+            {a: leer_espn.leer(a, clave) for a in anios_espn(clave)}).items()})
     sin_pais = asignar_clubes_rsssf(rs, cat)
 
     # ESPN -> club: votos por emparejamiento de partidos
     votos = collections.defaultdict(collections.Counter)
     pares_por_anio = {}
-    for a in es:
-        if a in rs:
-            pares_por_anio[a] = emparejar(rs[a], es[a], votos)
+    for k in es:
+        if k in rs:
+            pares_por_anio[k] = emparejar(rs[k], es[k], votos)
     mapa = {eid: v.most_common(1)[0][0] for eid, v in votos.items()}
     mapa.update(ajustes.get("espn", {}))
-    for a, (pares, usados) in pares_por_anio.items():
-        emparejar_por_club(rs[a], es[a], pares, usados, mapa)
+    for k, (pares, usados) in pares_por_anio.items():
+        emparejar_por_club(rs[k], es[k], pares, usados, mapa)
     # Clubes de ESPN que nunca aparecieron en RSSSF (ediciones nuevas)
     info_espn = {}
-    for a in es:
-        info_espn.update(es[a]["equipos"])
+    for k in es:
+        info_espn.update(es[k]["equipos"])
     for eid, t in info_espn.items():
         if t["nombre"].startswith("TBD"):  # partido futuro con rival todavía no definido
             mapa[eid] = cat.id_de("A definir", None)
@@ -366,25 +375,26 @@ def main():
             mapa[eid] = por_nombre[0] if len(por_nombre) == 1 else \
                 cat.id_de(t["nombre"], ajustes.get("pais_espn", {}).get(eid))
         cat.clubes[mapa[eid]]["espn"].add(eid)
-    for a, (pares, usados) in pares_por_anio.items():
-        emparejar_flexible(rs[a], es[a], pares, usados, mapa)
+    for k, (pares, usados) in pares_por_anio.items():
+        emparejar_flexible(rs[k], es[k], pares, usados, mapa)
 
-    ediciones, indice, control = {}, [], []
-    for a in sorted(set(rs) | set(es)):
+    ediciones, indice, control = {}, {clave: [] for clave in COPAS}, []
+    for ek in sorted(set(rs) | set(es), key=lambda x: (list(COPAS).index(x[0]), x[1])):
+        clave, a = ek   # (la edición se llama ek: más abajo k se usa para otras cosas)
         partidos = []
         faltan_espn = 0
-        if a in rs:
-            pares = pares_por_anio.get(a, ({}, set()))[0]
+        if ek in rs:
+            pares = pares_por_anio.get(ek, ({}, set()))[0]
             por_rsssf = {id(pr): pe_id for pe_id, pr in pares.items()}
-            espn_por_id = {p["espn"]: p for p in es.get(a, {"partidos": []})["partidos"]}
+            espn_por_id = {p["espn"]: p for p in es.get(ek, {"partidos": []})["partidos"]}
             # Cómo llama ESPN a cada fase de RSSSF (para los partidos que ESPN no tiene)
             votos = collections.defaultdict(collections.Counter)
-            for pr in rs[a]["partidos"]:
+            for pr in rs[ek]["partidos"]:
                 pe = espn_por_id.get(por_rsssf.get(id(pr)))
                 if pe:
                     votos[pr["fase"]][pe["fase"]] += 1
             fase_espn = {f: c.most_common(1)[0][0] for f, c in votos.items()}
-            for pr in rs[a]["partidos"]:
+            for pr in rs[ek]["partidos"]:
                 pe = espn_por_id.get(por_rsssf.get(id(pr)))
                 goles = goles_rsssf(pr)
                 forms = formaciones_rsssf(pr) or None
@@ -403,7 +413,7 @@ def main():
                         forms = {("visitante" if l == "local" else "local") if invertido else l: v
                                  for l, v in f.items()}
                     extra = {k: pe.get(k) for k in ("estadio", "ciudad", "arbitro", "publico", "fecha")}
-                elif a in es and pr["gl"] is not None:
+                elif ek in es and pr["gl"] is not None:
                     faltan_espn += 1
                 base = dict(pr)
                 for k, v in extra.items():
@@ -431,7 +441,7 @@ def main():
                 partidos.append(x)
             # Partidos que ESPN tiene y RSSSF no (p. ej. una página de RSSSF incompleta)
             emparejados = set(pares)
-            for pe in es.get(a, {"partidos": []})["partidos"]:
+            for pe in es.get(ek, {"partidos": []})["partidos"]:
                 if pe["jugado"] and pe["espn"] not in emparejados:
                     base = dict(pe)
                     base["formaciones_final"] = pe.get("formaciones")
@@ -442,7 +452,7 @@ def main():
                     partidos.append(x)
         else:
             series = {}
-            for pe in es[a]["partidos"]:
+            for pe in es[ek]["partidos"]:
                 base = dict(pe)
                 base["formaciones_final"] = pe.get("formaciones")
                 if pe.get("serie"):
@@ -485,23 +495,24 @@ def main():
         campeon, sub = ganador_llave(finales)
         for p in finales:
             p.pop("_desempate", None)
-        fijo = ajustes.get("campeones", {}).get(str(a))
+        fijo = ajustes.get("campeones" if clave == "libertadores" else f"campeones_{clave}", {}).get(str(a))
         if fijo:
             campeon, sub = fijo
         todos = [p for f in orden for p in fases[f]]
-        ed = {"anio": a, "campeon": campeon, "subcampeon": sub,
-              "fuentes": (["RSSSF"] if a in rs else []) + (["ESPN"] if a in es else []),
+        nota = ajustes.get("notas_ediciones", {}).get(f"{clave} {a}")   # aclaración a mano (final no jugada…)
+        ed = {"anio": a, "campeon": campeon, "subcampeon": sub, **({"nota": nota} if nota else {}),
+              "fuentes": (["RSSSF"] if ek in rs else []) + (["ESPN"] if ek in es else []),
               "fases": [{"nombre": f, "partidos": fases[f]} for f in orden],
               "planteles": armar_planteles(todos)}
-        ediciones[a] = ed
+        ediciones[ek] = ed
         jugados = [p for p in todos if p.get("gl") is not None]
         goles = sum(p["gl"] + p["gv"] for p in jugados)
         con_autor = sum(len(p.get("goles", [])) for p in jugados)
-        control.append((a, len(todos), len(jugados), goles, con_autor,
+        control.append((f"{clave[:3]} {a}", len(todos), len(jugados), goles, con_autor,
                         sum(1 for p in todos if p.get("formaciones")),
                         sum(1 for p in jugados for g in p.get("goles", []) if g.get("asistencia")),
                         faltan_espn, campeon, sub))
-        indice.append({"anio": a, "campeon": campeon, "subcampeon": sub})
+        indice[clave].append({"anio": a, "campeon": campeon, "subcampeon": sub})
 
     # -------- escribir archivos
     clubes = cat.exportar()
@@ -514,9 +525,9 @@ def main():
     ajustar_finales(ediciones)
     # Estadio "de siempre" de cada club, para las ediciones viejas que no traen estadios (antes de 2005):
     # donde más veces jugó de local en la primera edición en que hay datos de su cancha
-    for a in sorted(ediciones):
+    for ek in sorted(ediciones, key=lambda x: (list(COPAS).index(x[0]), x[1])):   # primero la Libertadores
         cuenta = {}
-        for f in ediciones[a]["fases"]:
+        for f in ediciones[ek]["fases"]:
             for p in f["partidos"]:
                 if p.get("estadio") and not f["nombre"].startswith("Final"):   # las finales pueden ser en cancha neutral
                     k = p["estadio"] + (f", {p['ciudad']}" if p.get("ciudad") else "")
@@ -526,25 +537,30 @@ def main():
             if club in clubes and "estadio" not in clubes[club]:
                 clubes[club]["estadio"] = max(canchas, key=canchas.get)
     # Planteles completos de Transfermarkt (bajados con tools/descargar_planteles.py)
-    planteles_tm = descargar_planteles.cargar_tm()
-    for a, ed in ediciones.items():
-        if str(a) in planteles_tm:
-            descargar_planteles.mezclar(ed["planteles"], planteles_tm[str(a)])
-    (DATA / "ediciones").mkdir(parents=True, exist_ok=True)
-    for a, ed in ediciones.items():
-        escribir(DATA / "ediciones" / f"{a}.js",
-                 f"window.LIB.ediciones = window.LIB.ediciones || {{}};\nwindow.LIB.ediciones[{a}] = ", ed)
+    for clave in COPAS:
+        planteles_tm = descargar_planteles.cargar_tm(clave)
+        for (c, a), ed in ediciones.items():
+            if c == clave and str(a) in planteles_tm:
+                descargar_planteles.mezclar(ed["planteles"], planteles_tm[str(a)])
+    for (clave, a), ed in ediciones.items():
+        ns = COPAS[clave]["ns"]
+        carpeta = COPAS[clave]["data"] / "ediciones"
+        carpeta.mkdir(parents=True, exist_ok=True)
+        escribir(carpeta / f"{a}.js", f"window.{ns}.ediciones = window.{ns}.ediciones || {{}};\nwindow.{ns}.ediciones[{a}] = ",
+                 ed, clave)
     escribir(DATA / "equipos.js", "window.LIB.equipos = ", clubes)
-    escribir(DATA / "indice.js", "window.LIB.indice = ", indice)
+    for clave in COPAS:
+        escribir(COPAS[clave]["data"] / "indice.js", f"window.{COPAS[clave]['ns']}.indice = ", indice[clave], clave)
     (DATA / "jugadores.js").unlink(missing_ok=True)
-    escribir_sitemap(sorted(ediciones))
-    generar_historial.main()   # data/historial.js: la ficha de cada club
-    generar_estadisticas.main()   # data/estadisticas.js: estadísticas históricas (usa historial.js)
+    escribir_sitemap({clave: [a for c, a in sorted(ediciones) if c == clave] for clave in COPAS})
+    for clave in COPAS:
+        generar_historial.main(clave)   # historial.js: la ficha de cada club
+        generar_estadisticas.main(clave)   # estadisticas.js: estadísticas históricas (usa historial.js)
 
     # -------- control de calidad
-    print(f"{'año':>5} {'part':>5} {'jug':>4} {'goles':>6} {'c/autor':>8} {'formac':>7} {'asist':>6} {'sinESPN':>8}  campeón / subcampeón")
+    print(f"{'edición':>9} {'part':>5} {'jug':>4} {'goles':>6} {'c/autor':>8} {'formac':>7} {'asist':>6} {'sinESPN':>8}  campeón / subcampeón")
     for a, n, j, g, ca, fo, asi, fe, c, s in control:
-        print(f"{a:>5} {n:>5} {j:>4} {g:>6} {ca:>8} {fo:>7} {asi:>6} {fe:>8}  {c} / {s}")
+        print(f"{a:>9} {n:>5} {j:>4} {g:>6} {ca:>8} {fo:>7} {asi:>6} {fe:>8}  {c} / {s}")
     print(f"\n{len(clubes)} clubes. Sin país: {sorted(i for i, c in clubes.items() if not c['pais'])}")
     if sin_pais:
         print("Nombres sin país (revisar equipos_ajustes.json):", sorted(sin_pais))
@@ -582,7 +598,7 @@ def ajustar_finales(ediciones):
             f["partidos"] = unicos
     ajustes = json.loads((RAIZ / "tools" / "finales_ajustes.json").read_text(encoding="utf-8"))["partidos"]
     for aj in ajustes:
-        ed = ediciones.get(aj["anio"])
+        ed = ediciones.get((aj.get("copa", "libertadores"), aj["anio"]))
         fase = next((f for f in ed["fases"] if f["nombre"] == aj["fase"]), None) if ed else None
         elegidos = [p for p in (fase or {}).get("partidos", [])
                     if all(p.get(k) == aj[k] for k in ("local", "fecha", "gl", "gv") if k in aj)]
@@ -603,8 +619,13 @@ def ajustar_finales(ediciones):
 
 
 def escribir_sitemap(anios):
-    """sitemap.xml: la lista de páginas que se le pasa a Google (la portada y una por edición)."""
-    urls = [URL_SITIO, f"{URL_SITIO}?estadisticas"] + [f"{URL_SITIO}?edicion={a}" for a in anios]
+    """sitemap.xml: la lista de páginas que se le pasa a Google (la portada y una por edición, de cada copa).
+    anios: {copa: [años]}. En el XML el & se escribe &amp;"""
+    urls = []
+    for clave, lista in anios.items():
+        copa = "" if clave == "libertadores" else f"copa={clave}&amp;"
+        urls += [URL_SITIO + (f"?{copa[:-5]}" if copa else ""), f"{URL_SITIO}?{copa}estadisticas"]
+        urls += [f"{URL_SITIO}?{copa}edicion={a}" for a in lista]
     (RAIZ / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -612,9 +633,9 @@ def escribir_sitemap(anios):
         + "</urlset>\n", encoding="utf-8")
 
 
-def escribir(ruta, prefijo, datos):
+def escribir(ruta, prefijo, datos, clave="libertadores"):
     cuerpo = json.dumps(datos, ensure_ascii=False, separators=(",", ":"))
-    ruta.write_text("/* Generado por tools/generar_datos.py — no editar a mano */\nwindow.LIB = window.LIB || {};\n"
+    ruta.write_text("/* Generado por tools/generar_datos.py — no editar a mano */\n" + prefijo_js(clave)
                     + prefijo + cuerpo + ";\n", encoding="utf-8")
 
 

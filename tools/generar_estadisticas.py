@@ -4,13 +4,14 @@ y país, goleadas, etc.).
 
 Se calcula a partir de data/ediciones/*.js, así la página no tiene que cargar todas las ediciones.
 Lo llama generar_datos.py al final; también se puede correr solo:
-    python tools/generar_estadisticas.py
+    python tools/generar_estadisticas.py [--copa sudamericana]
 """
 import json
 import re
 from collections import defaultdict
 
-from generar_historial import DATA, RAIZ, leer_ediciones
+from copas import COPAS, copa_de_argumentos, prefijo_js
+from generar_historial import DATA, leer_ediciones
 
 # Instancias de mata-mata (las "Semifinales — Grupo N" de los años 60-80 eran grupos, no cuentan)
 INSTANCIAS = ["Octavos de final", "Cuartos de final", "Semifinales", "Final"]
@@ -19,9 +20,9 @@ INSTANCIAS = ["Octavos de final", "Cuartos de final", "Semifinales", "Final"]
 PROMEDIO_MIN_PARTIDOS = 20   # para el ranking de promedio de gol
 
 
-def instancia(nombre_fase):
+def instancia(nombre_fase, clave="libertadores"):
     base = re.sub(r" — Desempate$", "", nombre_fase)
-    if base == "Segunda fase":   # de 1988 a 2004 la segunda fase era de eliminación directa: los octavos
+    if base == "Segunda fase" and clave == "libertadores":   # de 1988 a 2004 la segunda fase eran los octavos
         return "Octavos de final"
     return base if base in INSTANCIAS else None
 
@@ -58,10 +59,10 @@ def promedio_de_gol(eds):
              "pj": j["pj"], "n": j["n"]} for j in lista[:30]]
 
 
-def entrenadores(eds):
+def entrenadores(eds, clave="libertadores"):
     """Partidos, victorias, empates y derrotas de cada entrenador.
     Quién dirigió cada partido lo arma descargar_entrenadores.py (Transfermarkt) en tools/entrenadores_partidos.json."""
-    ruta = RAIZ / "tools" / "entrenadores_partidos.json"
+    ruta = COPAS[clave]["entrenadores_partidos"]
     if not ruta.exists():
         return []
     por_partido = json.loads(ruta.read_text(encoding="utf-8"))
@@ -74,7 +75,7 @@ def entrenadores(eds):
                 if p.get("gl") is None or p.get("gv") is None:
                     continue
                 quien = dirigio.get(f'{p.get("fecha")}|{p["local"]}|{p["visitante"]}', {})
-                if instancia(fase["nombre"]) == "Final":
+                if instancia(fase["nombre"], clave) == "Final":
                     ultima_final = (p, quien)
                 for lado, gf, gc in (("local", p["gl"], p["gv"]), ("visitante", p["gv"], p["gl"])):
                     if not quien.get(lado):
@@ -95,12 +96,12 @@ def entrenadores(eds):
     return [{**d, "anios": [min(d["anios"]), max(d["anios"])], "ediciones": len(d["anios"])} for d in dts.values()]
 
 
-def estadios_finales(eds):
+def estadios_finales(eds, clave="libertadores"):
     """En qué estadios se jugaron las finales (los partidos de la final y sus desempates)."""
     estadios, sin_dato = {}, set()
     for anio, ed in eds.items():
         for fase in ed["fases"]:
-            if instancia(fase["nombre"]) != "Final":
+            if instancia(fase["nombre"], clave) != "Final":
                 continue
             for p in fase["partidos"]:
                 if p.get("gl") is None:
@@ -192,8 +193,8 @@ def partido_corto(p, anio, fase):
             "gl": p["gl"], "gv": p["gv"]}
 
 
-def main():
-    eds = leer_ediciones()
+def main(copa="libertadores"):   # (no se llama clave: adentro hay otras claves)
+    eds = leer_ediciones(copa)
     equipos_js = (DATA / "equipos.js").read_text(encoding="utf-8")
     equipos = json.loads(equipos_js[equipos_js.index(".equipos = ") + 11:].rstrip().rstrip(";"))
 
@@ -211,8 +212,8 @@ def main():
         cuenta = {}
         for g, p, fase, club in goles_validos(ed):
             sumar(goleadores, g["jugador"], club, anio)
-            if instancia(fase):
-                sumar(por_instancia[instancia(fase)], g["jugador"], club, anio)
+            if instancia(fase, copa):
+                sumar(por_instancia[instancia(fase, copa)], g["jugador"], club, anio)
                 sumar(matamata, g["jugador"], club, anio)
             clave = g.get("jid") or f'{g["jugador"]}|{club}'
             cuenta.setdefault(clave, {"nombre": g["jugador"], "equipo": club, "n": 0})["n"] += 1
@@ -264,7 +265,7 @@ def main():
                             key=lambda x: (-x["titulos"], -x["finales"]))
 
     # Clubes con más partidos en la historia (sale de historial.js, que ya está calculado)
-    hist_js = (DATA / "historial.js").read_text(encoding="utf-8")
+    hist_js = (COPAS[copa]["data"] / "historial.js").read_text(encoding="utf-8")
     historial = json.loads(hist_js[hist_js.index(".historial = ") + 13:].rstrip().rstrip(";"))
     clubes_partidos = sorted(({"id": id_, "ediciones": len(h["ediciones"]), **h["total"]}
                               for id_, h in historial.items()), key=lambda c: (-c["pj"], -c["g"]))[:25]
@@ -272,8 +273,8 @@ def main():
     goleadas = sorted(partidos, key=lambda p: (-abs(p["gl"] - p["gv"]), -(p["gl"] + p["gv"]), p["anio"]))[:15]
     mas_goles = sorted(partidos, key=lambda p: (-(p["gl"] + p["gv"]), p["anio"]))[:15]
     en_un_partido.sort(key=lambda x: (-x["n"], x["partido"]["anio"]))
-    dts = entrenadores(eds)
-    finales, finales_sin_estadio = estadios_finales(eds)
+    dts = entrenadores(eds, copa)
+    finales, finales_sin_estadio = estadios_finales(eds, copa)
 
     salida = {
         "goleadores": ranking(goleadores, 50),
@@ -296,11 +297,12 @@ def main():
         "golesEdicion": goles_edicion,
     }
     cuerpo = json.dumps(salida, ensure_ascii=False, separators=(",", ":"))
-    (DATA / "estadisticas.js").write_text(
-        "/* Generado por tools/generar_estadisticas.py — no editar a mano */\nwindow.LIB = window.LIB || {};\n"
-        "window.LIB.estadisticas = " + cuerpo + ";\n", encoding="utf-8")
-    print(f"estadisticas.js: {len(goleador_edicion)} ediciones, {len(partidos)} partidos")
+    ns = COPAS[copa]["ns"]
+    (COPAS[copa]["data"] / "estadisticas.js").write_text(
+        "/* Generado por tools/generar_estadisticas.py — no editar a mano */\n" + prefijo_js(copa) +
+        f"window.{ns}.estadisticas = " + cuerpo + ";\n", encoding="utf-8")
+    print(f"estadisticas.js ({copa}): {len(goleador_edicion)} ediciones, {len(partidos)} partidos")
 
 
 if __name__ == "__main__":
-    main()
+    main(copa_de_argumentos()[0])

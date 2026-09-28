@@ -80,7 +80,11 @@ class Resolutor:
         self.pais_ciudad.update(self.ajustes.get("pais_por_ciudad", {}))
 
     def pais(self, anio, partido, eq):
-        forzado = self.ajustes.get("pais_por_edicion", {}).get(f"{anio}|{eq}")
+        """anio: la edición, (copa, año). En pais_por_edicion la Libertadores va como '1980|Club' y la
+        Sudamericana como 'sudamericana 2005|Club'."""
+        copa, n = anio if isinstance(anio, tuple) else ("libertadores", anio)
+        clave = f"{n}|{eq}" if copa == "libertadores" else f"{copa} {n}|{eq}"
+        forzado = self.ajustes.get("pais_por_edicion", {}).get(clave)
         if forzado:  # corrección manual de una errata de la fuente
             return forzado
         if partido.get("paises") and eq in partido["paises"]:

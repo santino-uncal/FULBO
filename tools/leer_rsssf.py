@@ -2,16 +2,15 @@
 
 No se usa solo: lo llama tools/generar_datos.py. Para revisar una edición suelta:
     python tools/leer_rsssf.py 1975
+    python tools/leer_rsssf.py --copa sudamericana 2010
 Muestra los partidos leídos y las líneas que no entendió.
 """
 import html
 import json
 import re
 import sys
-from pathlib import Path
 
-RAIZ = Path(__file__).resolve().parent.parent
-CACHE = RAIZ / "tools" / "cache" / "rsssf"
+from copas import COPAS, copa_de_argumentos
 
 MESES = {m: i for i, m in enumerate(
     ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
@@ -28,13 +27,26 @@ FASES = [  # (patrón en inglés, nombre en castellano, tipo)
     (r"^finals?\b", "Final", "eliminatoria"),
     (r"third place", "Tercer puesto", "eliminatoria"),
 ]
+# La Sudamericana nombra sus rondas distinto: "First Phase" (con "First/Second Stage" adentro, 2003-2016),
+# "Second Phase", "Playoff Round" (desde 2023, contra los terceros de la Libertadores), "1/8 Finals"…
+FASES_SUD = [
+    (r"^preliminary round", "Fase previa", "eliminatoria"),
+    (r"^preliminary phase|^first (phase|round)|^(first|second) stage", "Primera fase", "eliminatoria"),
+    (r"^second (phase|round)", "Segunda fase", "eliminatoria"),
+    (r"^group phase|^group stage", "Fase de grupos", "grupos"),
+    (r"^playoff round|^knockout", "Playoffs de octavos", "eliminatoria"),
+    (r"^round of 16|^1/8 finals|^eighth-?finals", "Octavos de final", "eliminatoria"),
+    (r"^quarter-?finals", "Cuartos de final", "eliminatoria"),
+    (r"^semi-?finals", "Semifinales", "eliminatoria"),
+    (r"^finals?\b", "Final", "eliminatoria"),
+]
 
 RE_ESC = r"(\d+)-(\d+)"
 RE_FECHA = r"(?:([A-Z][a-z]{2})\s+(\d{1,2})|(\d{1,2})\s+([A-Z][a-z]{2}))"
 RE_PARTIDO = re.compile(
     r"^\s*(?:" + RE_FECHA + r"\s*:)?\s*(?P<a>\S.*?)(?:\s+-\s+|\s{2,}|\s+–\s+)(?P<b>\S.*?)\s+"
     r"(?P<ga>\d+)-(?P<gb>\d+)(?P<resto>.*)$")
-_COD = r"(?:Arg|Bra|Uru|Par|Chi|Col|Per|Ecu|Bol|Ven|Mex)"
+_COD = r"(?:Arg|Bra|Uru|Par|Chi|Col|Per|Ecu|Bol|Ven|Mex|USA|CRi|Hon)"
 # El nombre puede ir pegado al código de país cuando es largo: 'Independiente (Avellaneda)Arg'
 RE_LLAVE = re.compile(r"^(?P<a>\S.*?)(?:\s+|(?<=\)))(?P<pa>" + _COD + r")\s+(?P<b>\S.*?)(?:\s+|(?<=\)))(?P<pb>" + _COD +
                       r")\s+(?P<resto>(?:\d|\[|awd|bye|n/p).*)$")
@@ -46,12 +58,12 @@ PAISES_NOMBRE = {"Argentina": "ARG", "Brazil": "BRA", "Uruguay": "URU", "Paragua
                  "Colombia": "COL", "Peru": "PER", "Ecuador": "ECU", "Bolivia": "BOL", "Venezuela": "VEN",
                  "Mexico": "MEX"}
 RE_PAIS = {"Arg": "ARG", "Bra": "BRA", "Uru": "URU", "Par": "PAR", "Chi": "CHI", "Col": "COL",
-           "Per": "PER", "Ecu": "ECU", "Bol": "BOL", "Ven": "VEN", "Mex": "MEX"}
+           "Per": "PER", "Ecu": "ECU", "Bol": "BOL", "Ven": "VEN", "Mex": "MEX",
+           "USA": "USA", "CRi": "CRC", "Hon": "HON"}   # los tres últimos, invitados a la Sudamericana
 
 
-def leer_html(anio):
-    nombre = f"copa{anio}.html" if anio >= 2010 else f"copa{anio % 100:02d}.html"
-    crudo = (CACHE / nombre).read_bytes()
+def leer_html(anio, copa="libertadores"):
+    crudo = (COPAS[copa]["cache_rsssf"] / COPAS[copa]["rsssf"](anio)).read_bytes()
     try:
         texto = crudo.decode("utf-8")
     except UnicodeDecodeError:
@@ -60,6 +72,8 @@ def leer_html(anio):
     texto = re.sub(r"<[^>]+>", "", texto)
     texto = html.unescape(texto).replace("\xa0", " ").expandtabs(8)
     lineas = [l.rstrip() for l in texto.splitlines()]
+    if copa == "sudamericana":
+        lineas = [arreglar_sudamericana(l) for l in lineas]
     # Unir listas de goleadores o formaciones que siguen en la línea de abajo
     # (solo si el renglón siguiente es continuación: sangrado y sin pinta de partido;
     #  RSSSF a veces se olvida de cerrar el corchete)
@@ -75,6 +89,21 @@ def leer_html(anio):
                 unidas[-1] += "]"
             unidas.append(l)
     return unidas
+
+
+# Sigla de la sociedad delante del nombre del club ("CS Emelec", "CSD Colo-Colo", "CA Paranaense"): la usan las
+# páginas recientes de la Sudamericana y duplicaría clubes. "FBC" al final ("Melgar FBC"), lo mismo.
+RE_SIGLA_CLUB = re.compile(r"\b(?:CD|CSD|CS|CA|SC|CDP|CI|CDSC|CCD|EMD|CDU|CR|SE|EC)\s+(?=[A-ZÁÉÍÓÚÑ])")
+
+
+def arreglar_sudamericana(linea):
+    """Erratas y siglas de las páginas de la Sudamericana (no se toca lo que está entre corchetes: goleadores)."""
+    if linea.strip().startswith("["):
+        return linea
+    linea = re.sub(r"^(\s*)Ap(\s+\d{1,2}:)", r"\1Apr\2", linea)                  # 'Ap   3: Rayo Zuliano - …'
+    linea = re.sub(r"^(\s*[A-Z][a-z]{2}\s+\d{1,2});", r"\1:", linea)            # 'May  4; Fortaleza EC - …'
+    linea = RE_SIGLA_CLUB.sub("", linea)
+    return re.sub(r"\s+FBC\b", "", linea)
 
 
 def fechas_de(texto, anio):
@@ -139,9 +168,9 @@ def leer_goles(texto):
     return res
 
 
-def fase_de(titulo):
+def fase_de(titulo, copa="libertadores"):
     t = titulo.lower().strip()
-    for patron, nombre, tipo in FASES:
+    for patron, nombre, tipo in (FASES_SUD if copa == "sudamericana" else FASES):
         if re.search(patron, t):
             return nombre, tipo
     return None, None
@@ -162,14 +191,14 @@ def separar_sin_espacios(linea, conocidos):
     return linea
 
 
-def leer(anio):
-    lineas = leer_html(anio)
+def leer(anio, copa="libertadores"):
+    lineas = leer_html(anio, copa)
     conocidos = set()
     for l in lineas:  # nombres de las tablas de posiciones
         mt = RE_TABLA.match(l)
         if mt:
             conocidos.add(re.sub(r"\s*\(.*$", "", mt.group("nombre")).strip())
-    lineas = [separar_sin_espacios(l, conocidos) if re.match(r"^\s*" + RE_FECHA + r"\s*:\s*[^\d]*\S-\S", l) else l
+    lineas = [separar_sin_espacios(l, conocidos) if re.match(r"^\s*" + RE_FECHA + r"\s*:\s*(?:\d+ )?[^\d]*\S-\S", l) else l
               for l in lineas]
     partidos, raros, goleadores = [], [], []
     ciudades = {}  # nombre crudo -> ciudad (de las tablas de grupos)
@@ -421,8 +450,9 @@ def leer(anio):
 
         # --- Títulos de fase ---
         titulo = re.sub(r"\(.*?\)|\[.*?\]", "", s).strip()
-        nombre, tipo = fase_de(titulo)
-        if re.match(r"^group\s+\w+", titulo, re.I):
+        nombre, tipo = fase_de(titulo, copa)
+        # ('Group Phase' de la Sudamericana es el título de la fase, no un grupo)
+        if re.match(r"^group\s+\w+", titulo, re.I) and not (copa == "sudamericana" and nombre):
             subfase = "Grupo " + titulo.split()[1]
             mp = re.search(r"\[(.*?)\]", s)
             paises_grupo = [PAISES_NOMBRE.get(x.strip(), x.strip()) for x in mp.group(1).split(",")] if mp else []
@@ -430,7 +460,8 @@ def leer(anio):
         # 'Third Place Playoff' dentro de un grupo (1990, 1992, 1993, 1995) es el desempate por el 3.er puesto
         # de ese grupo, no el partido por el tercer puesto del torneo
         en_grupo = bool(subfase and subfase.startswith("Grupo"))
-        if re.search(r"playoff|play-off", titulo, re.I) and (not nombre or en_grupo):
+        if re.search(r"playoff|play-off", titulo, re.I) and (not nombre or en_grupo) and nombre != "Playoffs de octavos" \
+                and not (copa == "sudamericana" and len(titulo) > 40):   # una frase que menciona un "play-off"
             subfase = (subfase.split(" — ")[0] if subfase else "") + " — Desempate" if subfase else "Desempate"
             continue
         if nombre:
@@ -538,8 +569,9 @@ def cerrar_detalle(detalle):
 
 
 if __name__ == "__main__":
-    for a in [int(x) for x in sys.argv[1:]] or [1960]:
-        r = leer(a)
+    clave, args = copa_de_argumentos()
+    for a in [int(x) for x in args] or [COPAS[clave]["desde"]]:
+        r = leer(a, clave)
         for p in r["partidos"]:
             print(f"{p['fase']:<40} {p['fecha'] or '?':<11} {p['local']:>28} {p['gl']}-{p['gv']} {p['visitante']:<28} "
                   f"{len(p['goles'])}g {p.get('notas') or ''}")

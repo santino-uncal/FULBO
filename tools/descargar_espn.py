@@ -1,23 +1,22 @@
-"""Descarga de ESPN los partidos de la Libertadores 2005 en adelante.
+"""Descarga de ESPN los partidos de la Libertadores (o de la Sudamericana) 2005 en adelante.
 
 Uso:  python tools/descargar_espn.py            (todas las temporadas)
       python tools/descargar_espn.py 2025 2026  (solo esas)
+      python tools/descargar_espn.py --copa sudamericana [años]
 
-Guarda en tools/cache/espn/<año>/:
+Guarda en tools/cache/espn/<año>/ (la Sudamericana, en tools/cache/espn-sudamericana/<año>/):
   calendario.json     — la lista de partidos de la temporada
   <id_partido>.json   — el detalle de cada partido (solo lo que usamos)
 Los partidos ya descargados y terminados no se vuelven a pedir.
 """
 import json
-import sys
 import time
 import urllib.request
-from pathlib import Path
 
-RAIZ = Path(__file__).resolve().parent.parent
-CACHE = RAIZ / "tools" / "cache" / "espn"
-BASE = "https://site.api.espn.com/apis/site/v2/sports/soccer/conmebol.libertadores"
+from copas import COPAS, copa_de_argumentos
+
 PRIMER_ANIO = 2005
+CACHE = BASE = None   # los define main() según la copa
 
 
 def pedir(url, intentos=4):
@@ -75,7 +74,11 @@ def temporada(anio):
 
 
 def main():
-    anios = [int(a) for a in sys.argv[1:]] or list(range(PRIMER_ANIO, time.localtime().tm_year + 1))
+    global CACHE, BASE
+    clave, args = copa_de_argumentos()
+    CACHE = COPAS[clave]["cache_espn"]
+    BASE = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{COPAS[clave]['espn']}"
+    anios = [int(a) for a in args] or list(range(PRIMER_ANIO, time.localtime().tm_year + 1))
     for a in anios:
         temporada(a)
 
