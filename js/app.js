@@ -40,7 +40,8 @@
   const enlaceHtml = q => enlace(q).replace(/&/g, "&amp;");
 
   // Cabecera: la copa actual resaltada, el "Desde" y el lema (el lema "La Gloria Eterna" es solo de la Libertadores)
-  document.querySelectorAll("h1.copas a.copa").forEach(a => a.toggleAttribute("aria-current", a.dataset.copa === CLAVE_COPA));
+  document.querySelectorAll("h1.copas a.copa").forEach(a => a.dataset.copa === CLAVE_COPA
+    ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
   document.querySelectorAll("h1.copas a.copa").forEach(a => a.setAttribute("title",
     a.dataset.copa === CLAVE_COPA ? "Ir a la edición actual" : `Ir a la ${COPAS[a.dataset.copa].nombre}`));
   const desdeEl = document.getElementById("copa-desde");
