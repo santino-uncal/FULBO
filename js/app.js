@@ -1,7 +1,52 @@
-/* Lógica de la página. Los datos viven en data/ (window.LIB). Versión funcional provisoria: el diseño se define después. */
+/* Lógica de la página. Los datos viven en data/ (Libertadores: window.LIB) y data/sudamericana/ (window.SUD).
+   Versión funcional provisoria: el diseño se define después. */
 (function () {
-  const LIB = window.LIB;
+  // Qué copa se está viendo: ?copa=sudamericana, o la Libertadores si la dirección no dice nada
+  const COPAS = {
+    libertadores: { nombre: "Copa Libertadores", desde: 1960, datos: "data/", ns: "LIB" },
+    sudamericana: { nombre: "Copa Sudamericana", desde: 2002, datos: "data/sudamericana/", ns: "SUD" },
+  };
+  const CLAVE_COPA = new URLSearchParams(location.search).get("copa") === "sudamericana" ? "sudamericana" : "libertadores";
+  const COPA = COPAS[CLAVE_COPA];
+
+  function cargarScript(src) {
+    return new Promise((ok, error) => {
+      const s = document.createElement("script");
+      s.src = src;
+      s.onload = ok;
+      s.onerror = () => error(new Error(`No se pudo cargar ${src}`));
+      document.body.appendChild(s);
+    });
+  }
+  // La Libertadores viene cargada desde index.html; de la Sudamericana hay que traer antes su lista de años y sus
+  // entrenadores (si falta alguno de los dos archivos, la página arranca igual con lo que haya)
+  const previos = CLAVE_COPA === "libertadores" ? [] : ["indice.js", "entrenadores.js"].map(f => COPA.datos + f);
+  Promise.all(previos.map(src => cargarScript(src).catch(() => {}))).then(iniciar);
+
+  function iniciar() {
+  window[COPA.ns] = window[COPA.ns] || {};
+  const LIB = window[COPA.ns];
+  // Los clubes y sus colores son los mismos para las dos copas (data/equipos.js y data/colores.js)
+  LIB.equipos = window.LIB.equipos;
+  LIB.colores = window.LIB.colores;
+  if (!LIB.indice?.length) {
+    document.getElementById("edicion").innerHTML = `<p class="vacio">No se encontraron los datos de la ${COPA.nombre}.</p>`;
+    return;
+  }
   const URL_SITIO = "https://santino-uncal.github.io/FULBO/";   // dirección publicada en GitHub Pages
+  // Direcciones internas: en la Sudamericana todas llevan "copa=sudamericana" adelante (?copa=sudamericana&edicion=2010)
+  const enlace = (q = "") => CLAVE_COPA === "libertadores" ? (q ? `?${q}` : location.pathname)
+    : `?copa=${CLAVE_COPA}${q ? "&" + q : ""}`;
+  const enlaceHtml = q => enlace(q).replace(/&/g, "&amp;");
+
+  // Cabecera: la copa actual resaltada, el "Desde" y el lema (el lema "La Gloria Eterna" es solo de la Libertadores)
+  document.querySelectorAll("h1.copas a.copa").forEach(a => a.toggleAttribute("aria-current", a.dataset.copa === CLAVE_COPA));
+  document.querySelectorAll("h1.copas a.copa").forEach(a => a.setAttribute("title",
+    a.dataset.copa === CLAVE_COPA ? "Ir a la edición actual" : `Ir a la ${COPAS[a.dataset.copa].nombre}`));
+  const desdeEl = document.getElementById("copa-desde");
+  if (desdeEl) desdeEl.textContent = `Desde ${COPA.desde}`;
+  const lemaEl = document.querySelector(".cabecera-lema");
+  if (lemaEl) lemaEl.hidden = CLAVE_COPA !== "libertadores";
   const navEl = document.getElementById("ediciones");
   const edicionEl = document.getElementById("edicion");
   const botonEstEl = document.getElementById("boton-estadisticas");   // al lado del buscador de equipos
@@ -25,12 +70,13 @@
     if (flechaSigEl) flechaSigEl.disabled = anioVecino(1) === null;
   };
 
-  // Carga data/ediciones/<año>.js una sola vez (funciona también abriendo index.html con doble clic)
+  // Carga data/ediciones/<año>.js (o data/sudamericana/ediciones/<año>.js) una sola vez
+  // (funciona también abriendo index.html con doble clic)
   function cargarEdicion(anio) {
     if (LIB.ediciones && LIB.ediciones[anio]) return Promise.resolve(LIB.ediciones[anio]);
     return new Promise((ok, error) => {
       const s = document.createElement("script");
-      s.src = `data/ediciones/${anio}.js`;
+      s.src = `${COPA.datos}ediciones/${anio}.js`;
       s.onload = () => ok(LIB.ediciones[anio]);
       s.onerror = () => error(new Error(`No se encontró la edición ${anio}`));
       document.body.appendChild(s);
@@ -48,7 +94,9 @@
   }
   // Bandera del país de cada equipo (assets/banderas/ARG.png, BRA.png…)
   const PAISES = { ARG: "Argentina", BOL: "Bolivia", BRA: "Brasil", CHI: "Chile", COL: "Colombia", ECU: "Ecuador",
-    MEX: "México", PAR: "Paraguay", PER: "Perú", URU: "Uruguay", VEN: "Venezuela" };
+    MEX: "México", PAR: "Paraguay", PER: "Perú", URU: "Uruguay", VEN: "Venezuela",
+    // Invitados de la Concacaf a la Sudamericana (2005-2008)
+    USA: "Estados Unidos", CRC: "Costa Rica", HON: "Honduras" };
   function bandera(id) {
     const p = equipo(id).pais;
     if (!PAISES[p]) return "";
@@ -234,6 +282,13 @@
       // Pasan los que juegan la etapa siguiente (puede ser, a su vez, varios grupos)
       const siguientes = sig ? ed.fases.filter(f => f.nombre.replace(/ — .*$/, "") === e.siguiente) : [];
       e.pasan = new Set(siguientes.flatMap(f => f.partidos.flatMap(p => [p.local, p.visitante])));
+      // Los que se saltean la fase siguiente y juegan una posterior (Sudamericana desde 2023: el primero de cada
+      // grupo va directo a octavos y el segundo juega los playoffs)
+      const deEstaEtapa = new Set(e.grupos.flatMap(g => g.partidos.flatMap(p => [p.local, p.visitante])));
+      const despues = sig ? ed.fases.slice(ed.fases.indexOf(sig)).filter(f => f.nombre.replace(/ — .*$/, "") !== e.siguiente) : [];
+      e.directo = new Set(despues.flatMap(f => f.partidos.flatMap(p => [p.local, p.visitante]))
+        .filter(id => deEstaEtapa.has(id) && !e.pasan.has(id)));
+      e.saltea = despues.find(f => f.partidos.some(p => e.directo.has(p.local) || e.directo.has(p.visitante)))?.nombre.replace(/ — .*$/, "");
       e.grupos.sort((a, b) => a.letra.localeCompare(b.letra, "es", { numeric: true }));
     });
     return etapas;
@@ -247,7 +302,7 @@
       const sig = ed.fases[i + 1];
       const pasan = sig ? sig.partidos.flatMap(p => [p.local, p.visitante]) : [ed.campeon];
       return {
-        nombre: f.nombre, siguiente: sig ? sig.nombre : null, campeon: !sig, pasan: new Set(pasan),
+        nombre: f.nombre, siguiente: sig ? sig.nombre : null, campeon: !sig, pasan: new Set(pasan), directo: new Set(),
         grupos: Object.values(llaves).map(ps => ({
           titulo: `${equipo(ps[0].local).nombre} – ${equipo(ps[0].visitante).nombre}`, partidos: ps
         }))
@@ -281,7 +336,8 @@
     const cuerpo = filas.map((f, i) => {
       let marca = "";
       if (hayResultados && etapa.pasan.has(f.id)) marca = etapa.campeon ? "campeon" : "pasa";
-      else if (hayResultados && anio >= 2017 && etapa.nombre === "Fase de grupos" && i === 2) marca = "sudamericana";
+      else if (hayResultados && etapa.directo.has(f.id)) marca = "directo";
+      else if (hayResultados && CLAVE_COPA === "libertadores" && anio >= 2017 && etapa.nombre === "Fase de grupos" && i === 2) marca = "sudamericana";
       const dif = f.dif > 0 ? `+${f.dif}` : f.dif;
       const ultimos = f.ultimos.slice(-5).reverse().map(u => `<span class="res res-${u.r}" title="${esc(u.texto)}" aria-label="${{ V: "Victoria", E: "Empate", D: "Derrota" }[u.r]}">${{ V: "✓", E: "–", D: "✕" }[u.r]}</span>`).join("");
       return `<tr>
@@ -306,18 +362,21 @@
   // El cuadro de la última etapa de grupos va en una pestaña al lado, "Fase eliminatoria"
   function gruposHTML(ed, cuadro, previa) {
     const conGrupos = etapasDeGrupos(ed);
+    // La Sudamericana hasta 2020 fue toda por eliminación directa: en vez de tablas, el cuadro completo
+    if (!conGrupos.length && CLAVE_COPA !== "libertadores") return cuadro ? `<h3>Cuadro</h3>${cuadro}` : "";
     const etapas = conGrupos.length ? conGrupos : etapasDeLlaves(ed);
     return etapas.map((etapa, i) => {
       const leyenda = [
         etapa.siguiente && `<span><i class="pasa"></i>Clasificación a ${esc(etapa.siguiente)}</span>`,
         etapa.campeon && `<span><i class="campeon"></i>Campeón</span>`,
-        ed.anio >= 2017 && etapa.nombre === "Fase de grupos" && `<span><i class="sudamericana"></i>Pasa a la Copa Sudamericana</span>`
+        etapa.directo.size && etapa.saltea && `<span><i class="directo"></i>Clasificación directa a ${esc(etapa.saltea)}</span>`,
+        CLAVE_COPA === "libertadores" && ed.anio >= 2017 && etapa.nombre === "Fase de grupos" && `<span><i class="sudamericana"></i>Pasa a la Copa Sudamericana</span>`
       ].filter(Boolean).join("");
       const grupos = `<div class="grupos">${etapa.grupos.map(g => grupoHTML(g, etapa, ed.anio)).join("")}</div>
         <p class="leyenda">${leyenda}</p>`;
       // En la última etapa de grupos van las pestañas: fase previa, grupos y fase eliminatoria
       const pestanas = i !== etapas.length - 1 ? [] :
-        [previa && ["Fase previa", previa], [etapa.nombre, grupos, true], cuadro && ["Fase eliminatoria", cuadro]].filter(Boolean);
+        [previa && [CLAVE_COPA === "libertadores" ? "Fase previa" : ed.fases[0].nombre.replace(/ — .*$/, ""), previa], [etapa.nombre, grupos, true], cuadro && ["Fase eliminatoria", cuadro]].filter(Boolean);
       if (pestanas.length < 2) return `<h3>${esc(etapa.nombre)}</h3>${grupos}`;
       return `<div class="pestanas" role="tablist">${pestanas.map(([nombre, , activa]) =>
           `<button class="pestana" type="button" role="tab" aria-selected="${!!activa}">${esc(nombre)}</button>`).join("")}</div>` +
@@ -502,6 +561,7 @@
 
   // Mejor jugador de la Copa (premio oficial desde 2008; antes no existía)
   function jugadorTorneoHTML(ed) {
+    if (CLAVE_COPA !== "libertadores") return "";   // la lista cargada a mano es solo de la Libertadores
     const premios = LIB.jugadorTorneo || {};
     const j = premios[ed.anio];
     let texto;
@@ -521,6 +581,7 @@
   function mostrar(ed) {
     let html = `<h2>${ed.anio}</h2>
       <p>🏆 Campeón: <strong class="${ed.campeon ? "campeon-edicion" : ""}">${ed.campeon ? `<span>${club(ed.campeon)}</span>${vecesCampeon(ed)}` : "—"}</strong> · Subcampeón: ${ed.subcampeon ? club(ed.subcampeon) : "—"}</p>
+      ${ed.nota ? `<p class="nota-edicion">${esc(ed.nota)}</p>` : ""}
       <p class="vacio">Fuentes: ${ed.fuentes.join(" + ")}</p>`;
     // La final (y su desempate, si hubo) va arriba de todo
     const esFinal = f => f.nombre.startsWith("Final");
@@ -568,7 +629,7 @@
     if (LIB.historial) return Promise.resolve(LIB.historial);
     return historialPedido ??= new Promise((ok, error) => {
       const s = document.createElement("script");
-      s.src = "data/historial.js";
+      s.src = `${COPA.datos}historial.js`;
       s.onload = () => ok(LIB.historial);
       s.onerror = () => { historialPedido = null; error(new Error("No se pudo cargar el historial de los equipos")); };
       document.body.appendChild(s);
@@ -577,8 +638,8 @@
 
   // "Atlético" y "atletico" cuentan igual al buscar
   const normalizar = t => String(t || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
-  const linkEdicion = anio => `<a href="?edicion=${anio}" data-anio="${anio}">${anio}</a>`;
-  const linkEquipo = id => `<a class="link-equipo" href="?equipo=${esc(id)}" data-equipo="${esc(id)}">${club(id)}</a>`;
+  const linkEdicion = anio => `<a href="${enlaceHtml(`edicion=${anio}`)}" data-anio="${anio}">${anio}</a>`;
+  const linkEquipo = id => `<a class="link-equipo" href="${enlaceHtml(`equipo=${esc(id)}`)}" data-equipo="${esc(id)}">${club(id)}</a>`;
   const plural = (n, uno, varios) => `${n} ${n === 1 ? uno : varios}`;
 
   // Equipos cuyo nombre contiene lo buscado: primero los que empiezan así, después los de más ediciones
@@ -604,8 +665,9 @@
 
   // Qué tan lejos llegó en una edición (más alto = mejor). "Primera fase" era la fase de grupos de antes
   const NIVEL_FASE = { "Campeón": 10, "Subcampeón": 9, "Final": 9, "Semifinales": 8, "Cuartos de final": 7,
-    "Octavos de final": 6, "Segunda fase": 5, "Fase de grupos": 4, "Primera fase": 4,
-    "Tercera fase previa": 3, "Segunda fase previa": 2, "Primera fase previa": 1, "Fase previa": 1 };
+    "Octavos de final": 6, "Playoffs de octavos": 5, "Segunda fase": 5, "Fase de grupos": 4, "Primera fase": 4,
+    "Tercera fase previa": 3, "Segunda fase previa": 2, "Primera fase previa": 1, "Fase previa": 1,
+    ...(CLAVE_COPA === "sudamericana" ? { "Segunda fase": 3, "Primera fase": 2 } : {}) };
   // Mejor o peor instancia a la que llegó, con todos los años en que le pasó
   function participacion(eds, cual) {
     const nivel = x => NIVEL_FASE[x.fase] ?? 0;
@@ -727,14 +789,14 @@
     navEl.querySelectorAll("a").forEach(a => a.removeAttribute("aria-current"));
     botonEstEl?.removeAttribute("aria-current");
     mostrarAnioEnBoton(null);
-    if (guardarEnHistorial) history.pushState(null, "", `?equipo=${encodeURIComponent(id)}`);
+    if (guardarEnHistorial) history.pushState(null, "", enlace(`equipo=${encodeURIComponent(id)}`));
     const nombre = equipo(id).nombre;
-    document.title = `${nombre} en la Copa Libertadores — Historial`;
+    document.title = `${nombre} en la ${COPA.nombre} — Historial`;
     const desc = document.querySelector('meta[name="description"]');
-    if (desc) desc.content = `${nombre} en la Copa Libertadores: ediciones jugadas, títulos, finales, partidos, goleadores y rivales.`;
+    if (desc) desc.content = `${nombre} en la ${COPA.nombre}: ediciones jugadas, títulos, finales, partidos, goleadores y rivales.`;
     let canonica = document.querySelector('link[rel="canonical"]');
     if (!canonica) document.head.appendChild(canonica = Object.assign(document.createElement("link"), { rel: "canonical" }));
-    canonica.href = `${URL_SITIO}?equipo=${encodeURIComponent(id)}`;
+    canonica.href = URL_SITIO + enlace(`equipo=${encodeURIComponent(id)}`);
     pintarFondo(id);
     edicionEl.innerHTML = `<p class="vacio">Cargando ${esc(nombre)}…</p>`;
     cargarHistorial().then(() => mostrarEquipo(id)).catch(e => { edicionEl.innerHTML = `<p class="vacio">${esc(e.message)}</p>`; });
@@ -749,7 +811,7 @@
     if (LIB.estadisticas) return Promise.resolve(LIB.estadisticas);
     return estadisticasPedidas ??= new Promise((ok, error) => {
       const s = document.createElement("script");
-      s.src = "data/estadisticas.js";
+      s.src = `${COPA.datos}estadisticas.js`;
       s.onload = () => ok(LIB.estadisticas);
       s.onerror = () => { estadisticasPedidas = null; error(new Error("No se pudieron cargar las estadísticas")); };
       document.body.appendChild(s);
@@ -785,6 +847,7 @@
     const totGoles = st.golesEdicion.reduce((s, e) => s + e.goles, 0);
     const maxTit = st.clubesTitulos[0], pais = st.paisesTitulos[0];
     const paisesEmpatados = st.paisesTitulos.filter(p => p.titulos === pais.titulos).map(p => PAISES[p.pais] || p.pais);
+    const clubesEmpatados = st.clubesTitulos.filter(c => c.titulos.length === maxTit.titulos.length);
     const secciones = [["est-goleadores", "Goleadores"], ["est-edicion", "Goleador de cada edición"],
       ["est-promedio", "Promedio de gol"], ["est-matamata", "Mata-mata"], ["est-titulos", "Títulos"],
       ["est-estadios", "Estadios de las finales"], ["est-entrenadores", "Entrenadores"], ["est-clubes", "Clubes"],
@@ -792,13 +855,15 @@
       ["est-goles", "Goles por edición"]];
 
     let html = `<h2>📊 Estadísticas históricas</h2>
-      <p class="vacio">Todas las ediciones desde 1960. En las ediciones viejas las fuentes a veces traen solo el apellido
+      <p class="vacio">Todas las ediciones desde ${COPA.desde}. En las ediciones viejas las fuentes a veces traen solo el apellido
         del jugador, así que puede haber algún goleador partido en dos o dos jugadores con el mismo apellido juntos.</p>
       <div class="datos">
         ${dato(st.golesEdicion.length, "ediciones", `<small>${st.golesEdicion[0].anio} a ${st.golesEdicion.at(-1).anio}</small>`)}
         ${dato(totPartidos.toLocaleString("es-AR"), "partidos jugados")}
         ${dato(totGoles.toLocaleString("es-AR"), "goles", `<small>${(totGoles / totPartidos).toFixed(2).replace(".", ",")} por partido</small>`)}
-        ${dato(`🏆 ${maxTit.titulos.length}`, `títulos de ${esc(equipo(maxTit.id).nombre)}`, "<small>el club más ganador</small>")}
+        ${clubesEmpatados.length === 1
+          ? dato(`🏆 ${maxTit.titulos.length}`, `títulos de ${esc(equipo(maxTit.id).nombre)}`, "<small>el club más ganador</small>")
+          : dato(`🏆 ${maxTit.titulos.length}`, "títulos: el récord, compartido", `<small>${clubesEmpatados.map(c => esc(equipo(c.id).nombre)).join(", ")}</small>`)}
         ${dato(pais.titulos, `títulos de ${paisesEmpatados.join(" y ")}`, `<small>${paisesEmpatados.length > 1 ? "los países más ganadores" : "el país más ganador"}</small>`)}
         ${dato(st.goleadores[0].n, `goles de ${esc(st.goleadores[0].nombre)}`, "<small>el máximo goleador</small>")}
       </div>
@@ -823,8 +888,8 @@
     // Pestañas: "Todos" suma todas las instancias de eliminación directa
     const TABS_MM = ["Todos", ...INSTANCIAS];
     html += `<h3 id="est-matamata">🔥 Goleadores en los mata-mata</h3>
-      <p class="vacio">Goles en las instancias de eliminación directa (octavos, cuartos, semifinales y final), sumando todas las ediciones.
-        Las semifinales que se jugaban en grupos (años 60 a 80) no cuentan.</p>
+      <p class="vacio">Goles en las instancias de eliminación directa (octavos, cuartos, semifinales y final), sumando todas las ediciones.${
+        CLAVE_COPA === "libertadores" ? " Las semifinales que se jugaban en grupos (años 60 a 80) no cuentan." : ""}</p>
       <div class="grupo-tabs"><div class="orden-partidos">${TABS_MM.map((ins, i) =>
         `<button class="tab-instancia" type="button" data-instancia="${i}" aria-pressed="${i === 0}">${ins === "Todos" ? "Todos los mata-mata" : ins}</button>`).join("")}</div>` +
       TABS_MM.map((ins, i) => `<div class="instancia" data-instancia="${i}"${i === 0 ? "" : " hidden"}>
@@ -902,14 +967,14 @@
     navEl.querySelectorAll("a").forEach(a => a.removeAttribute("aria-current"));
     botonEstEl?.setAttribute("aria-current", "page");
     mostrarAnioEnBoton(null);
-    if (guardarEnHistorial) history.pushState(null, "", "?estadisticas");
-    document.title = "Estadísticas históricas de la Copa Libertadores";
+    if (guardarEnHistorial) history.pushState(null, "", enlace("estadisticas"));
+    document.title = `Estadísticas históricas de la ${COPA.nombre}`;
     const desc = document.querySelector('meta[name="description"]');
-    if (desc) desc.content = "Estadísticas históricas de la Copa Libertadores: máximos goleadores, goleador de cada edición, " +
+    if (desc) desc.content = `Estadísticas históricas de la ${COPA.nombre}: máximos goleadores, goleador de cada edición, ` +
       "goleadores en octavos, cuartos, semifinales y finales, clubes y países campeones, mayores goleadas.";
     let canonica = document.querySelector('link[rel="canonical"]');
     if (!canonica) document.head.appendChild(canonica = Object.assign(document.createElement("link"), { rel: "canonical" }));
-    canonica.href = `${URL_SITIO}?estadisticas`;
+    canonica.href = URL_SITIO + enlace("estadisticas");
     pintarFondo(null);
     edicionEl.innerHTML = `<p class="vacio">Cargando estadísticas…</p>`;
     cargarEstadisticas().then(mostrarEstadisticas).catch(e => { edicionEl.innerHTML = `<p class="vacio">${esc(e.message)}</p>`; });
@@ -927,7 +992,7 @@
       sugerenciasEl.innerHTML = ids.length ? ids.map(id => {
         const h = LIB.historial[id];
         const titulos = h.titulos.length ? ` · 🏆 ${h.titulos.length}` : "";
-        return `<li role="option"><a href="?equipo=${esc(id)}" data-equipo="${esc(id)}">${bandera(id)}${club(id)}
+        return `<li role="option"><a href="${enlaceHtml(`equipo=${esc(id)}`)}" data-equipo="${esc(id)}">${bandera(id)}${club(id)}
           <span class="sug-meta">${plural(h.ediciones.length, "edición", "ediciones")}${titulos}</span></a></li>`;
       }).join("") : `<li class="sug-vacia">No hay equipos con “${esc(buscarEl.value.trim())}”</li>`;
       sugerenciasEl.hidden = false;
@@ -967,14 +1032,14 @@
   function actualizarTitulo(anio) {
     const e = LIB.indice.find(x => x.anio == anio) || {};
     const campeon = e.campeon ? equipo(e.campeon).nombre : null;
-    document.title = `Copa Libertadores ${anio}${campeon ? " — Campeón " + campeon : ""}`;
+    document.title = `${COPA.nombre} ${anio}${campeon ? " — Campeón " + campeon : ""}`;
     const desc = document.querySelector('meta[name="description"]');
-    if (desc) desc.content = `Copa Libertadores ${anio}: ${campeon ? `campeón ${campeon}, subcampeón ${equipo(e.subcampeon).nombre}. ` : ""}` +
+    if (desc) desc.content = `${COPA.nombre} ${anio}: ${campeon ? `campeón ${campeon}, subcampeón ${equipo(e.subcampeon).nombre}. ` : ""}` +
       "Final, tablas de grupos, todos los partidos, goleadores, asistidores y planteles.";
     // Dirección "oficial" de esta edición, para que Google no la tome como copia de otra
     let canonica = document.querySelector('link[rel="canonical"]');
     if (!canonica) document.head.appendChild(canonica = Object.assign(document.createElement("link"), { rel: "canonical" }));
-    canonica.href = `${URL_SITIO}?edicion=${anio}`;
+    canonica.href = URL_SITIO + enlace(`edicion=${anio}`);
     pintarFondo(e.campeon);
   }
 
@@ -991,13 +1056,14 @@
 
   // Último año visto: se guarda el año que se está mirando y el anterior (distinto), también entre visitas
   const ultimoAnioEls = document.querySelectorAll(".ultimo-anio");   // en la barra y en el panel de años
+  const claveAnios = CLAVE_COPA === "libertadores" ? "aniosVistos" : `aniosVistos-${CLAVE_COPA}`;   // uno por copa
   function recordarAnio(anio) {
     let v = {};
-    try { v = JSON.parse(localStorage.getItem("aniosVistos")) || {}; } catch {}
+    try { v = JSON.parse(localStorage.getItem(claveAnios)) || {}; } catch {}
     if (v.actual != anio) {
       if (v.actual) v.anterior = v.actual;
       v.actual = String(anio);
-      try { localStorage.setItem("aniosVistos", JSON.stringify(v)); } catch {}
+      try { localStorage.setItem(claveAnios, JSON.stringify(v)); } catch {}
     }
     const hay = v.anterior && v.anterior != anio && LIB.indice.some(e => e.anio == v.anterior);
     ultimoAnioEls.forEach(el => {
@@ -1016,14 +1082,14 @@
     botonEstEl?.removeAttribute("aria-current");
     mostrarAnioEnBoton(anio);
     cerrarAnios();
-    if (guardarEnHistorial) history.pushState(null, "", `?edicion=${anio}`);
+    if (guardarEnHistorial) history.pushState(null, "", enlace(`edicion=${anio}`));
     actualizarTitulo(anio);
     edicionEl.innerHTML = `<p class="vacio">Cargando ${anio}…</p>`;
     cargarEdicion(anio).then(mostrar).catch(e => { edicionEl.innerHTML = `<p class="vacio">${esc(e.message)}</p>`; });
   }
 
   // Cada edición es un link real (?edicion=1960) para que Google pueda encontrarlas todas
-  navEl.innerHTML = LIB.indice.map(e => `<a href="?edicion=${e.anio}" data-anio="${e.anio}" title="${esc(equipo(e.campeon).nombre)}">${e.anio}</a>`).join("");
+  navEl.innerHTML = LIB.indice.map(e => `<a href="${enlaceHtml(`edicion=${e.anio}`)}" data-anio="${e.anio}" title="${esc(equipo(e.campeon).nombre)}">${e.anio}</a>`).join("");
   navEl.addEventListener("click", e => {
     const a = e.target.closest("a[data-anio]");
     if (!a || e.ctrlKey || e.metaKey || e.shiftKey) return;   // ctrl+clic: abrir en otra pestaña
@@ -1067,6 +1133,7 @@
   // Tocar afuera del panel lo cierra
   document.addEventListener("click", e => { if (!e.target.closest("#panel-anios, #boton-anios")) cerrarAnios(); });
 
+  if (botonEstEl) botonEstEl.href = enlace("estadisticas");
   botonEstEl?.addEventListener("click", e => {
     if (e.ctrlKey || e.metaKey || e.shiftKey) return;
     e.preventDefault();
@@ -1194,16 +1261,22 @@
     boton.setAttribute("aria-expanded", !detalle.hidden);
     boton.textContent = detalle.hidden ? "Ver" : "Ocultar";
   });
-  // El título "Copa Libertadores" lleva a la edición actual (la última)
-  document.querySelector("a.inicio").addEventListener("click", e => {
-    if (e.ctrlKey || e.metaKey || e.shiftKey) return;
-    e.preventDefault();
-    buscarEl.value = "";
-    cerrarSugerencias();
-    // Misma dirección sin "?edicion=…" (con "./" falla al abrir index.html con doble clic)
-    history.pushState(null, "", location.pathname);
-    seleccionar(LIB.indice[LIB.indice.length - 1].anio);
+  // El título de la copa que se está viendo lleva a su edición actual (la última); el de la otra copa, a esa copa
+  // (ese es un link común: la página se vuelve a abrir con los datos de la otra copa)
+  document.querySelectorAll("h1.copas a.copa").forEach(a => {
+    a.href = a.dataset.copa === "libertadores" ? location.pathname : `?copa=${a.dataset.copa}`;
+    if (a.dataset.copa !== CLAVE_COPA) return;
+    a.addEventListener("click", e => {
+      if (e.ctrlKey || e.metaKey || e.shiftKey) return;
+      e.preventDefault();
+      buscarEl.value = "";
+      cerrarSugerencias();
+      // Misma dirección sin "?edicion=…" (con "./" falla al abrir index.html con doble clic)
+      history.pushState(null, "", enlace());
+      seleccionar(LIB.indice[LIB.indice.length - 1].anio);
+    });
   });
   window.addEventListener("popstate", abrirDesdeLaUrl);   // botón "atrás" del navegador
   abrirDesdeLaUrl();
+  }
 })();

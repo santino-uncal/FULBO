@@ -4,6 +4,16 @@
 window.LIB = window.LIB || {};
 window.LIB.colores = {
   "argentinos-juniors":      ["#C8102E", "#FFFFFF"],
+  "arsenal-de-sarandi":      ["#6CB4E4", "#8B0A1A"],
+  "atletico-paranaense":     ["#111111", "#E4002B"],
+  "chapecoense":             ["#00843D", "#FFFFFF"],
+  "cienciano":               ["#C8102E", "#FFFFFF"],
+  "defensa-y-justicia":      ["#00843D", "#FFD100"],
+  "independiente-del-valle": ["#111111", "#5BA4E6"],
+  "independiente-santa-fe":  ["#C8102E", "#FFFFFF"],
+  "lanus":                   ["#7A1F3D", "#FFFFFF"],
+  "pachuca":                 ["#0B2A6F", "#FFFFFF"],
+  "universidad-de-chile":    ["#0033A0", "#FFFFFF"],
   "atletico-mineiro":        ["#111111", "#FFFFFF"],
   "atletico-nacional":       ["#00703A", "#FFFFFF"],
   "boca-juniors":            ["#0038A8", "#F5C400"],

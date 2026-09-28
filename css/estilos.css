@@ -31,9 +31,17 @@ body {
   border-bottom: 2px solid var(--acento);
 }
 .cabecera h1 { margin: 4px 0; font-size: clamp(2rem, 6vw, 3.2rem); color: var(--acento); }
+/* Las dos copas lado a lado con la misma letra: la actual resaltada, la otra apagada (lleva a esa copa) */
+.cabecera h1.copas { display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; column-gap: .8em; row-gap: 0; font-size: clamp(1.6rem, 4.6vw, 3.2rem); line-height: 1.15; }
+.cabecera h1.copas a.copa { color: inherit; text-decoration: none; opacity: .38; transition: opacity .2s; }
+.cabecera h1.copas a.copa:hover { opacity: .7; }
+.cabecera h1.copas a.copa[aria-current="page"] { opacity: 1; }
+.cabecera h1.copas a.copa[aria-current="page"]:hover { opacity: .85; }
 .cabecera-eyebrow { margin: 0; letter-spacing: .2em; text-transform: uppercase; color: var(--texto-suave); font-size: .8rem; }
 .cabecera-lema { margin: 0 0 8px; letter-spacing: .3em; text-transform: uppercase; font-weight: 700; color: var(--acento); font-size: clamp(.85rem, 2.2vw, 1.1rem); }
 .cabecera-sub { margin: 0; color: var(--texto-suave); }
+/* Aclaración de una edición (final no jugada, definida por gol de visitante…) */
+.nota-edicion { max-width: 70ch; padding: 10px 14px; border-left: 3px solid var(--acento); background: var(--panel); border-radius: 0 var(--radio) var(--radio) 0; }
 
 main { max-width: 1240px; margin: 0 auto; padding: 24px 16px; }
 
@@ -123,6 +131,7 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 :root {
   --pasa: #15803d;   /* verde oscuro */
   --sudamericana: #06b6d4;
+  --directo: #2563eb;   /* Sudamericana desde 2023: el primero del grupo va directo a octavos */
   --res-v: #16a34a;
   --res-e: #5b6470;
   --res-d: #ef4444;
@@ -143,6 +152,7 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .grupo td.pos { width: 34px; font-weight: 700; color: var(--texto-suave); }
 .grupo td.pos.pasa { background: var(--pasa); color: #fff; }
 .grupo td.pos.sudamericana { background: var(--sudamericana); color: #fff; }
+.grupo td.pos.directo { background: var(--directo); color: #fff; }
 .grupo td.pos.campeon { background: var(--oro); color: #111; }
 .grupo td.pts { font-weight: 800; font-size: 1.05rem; }
 .grupo .pos-dif { font-weight: 700; }
@@ -159,6 +169,7 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .leyenda i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
 .leyenda i.pasa { background: var(--pasa); }
 .leyenda i.sudamericana { background: var(--sudamericana); }
+.leyenda i.directo { background: var(--directo); }
 .leyenda i.campeon { background: var(--oro); }
 
 /* En celular se ocultan G/E/P para que entre todo */
@@ -332,8 +343,8 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 /* En el celular la tabla se desplaza de costado: la campaña queda del ancho de la pantalla */
 .historial tr.campania > td > * { max-width: calc(100vw - 60px); }
 /* Título "Copa Libertadores": link a la edición actual, sin que parezca un link */
-.cabecera h1 a.inicio { color: inherit; text-decoration: none; }
-.cabecera h1 a.inicio:hover { opacity: .85; }
+
+
 .dato strong .dato-texto { font-size: 1.15rem; color: inherit; }
 
 /* En celular: botones un poco más chicos (las flechas y "📅 Años" bajan a su propio renglón) */

@@ -4,7 +4,7 @@
 window.LIB = window.LIB || {};
 window.LIB.jugadorTorneo = {
   "2008": { "nombre": "Joffre Guerrón", "equipo": "ldu-quito" },
-  "2009": { "nombre": "Juan Sebastián Verón", "equipo": "estudiantes" },
+  "2009": { "nombre": "Juan Sebastián Verón", "equipo": "estudiantes-de-la-plata" },
   "2010": { "nombre": "Giuliano", "equipo": "internacional" },
   "2011": { "nombre": "Neymar", "equipo": "santos" },
   "2012": { "nombre": "Emerson Sheik", "equipo": "corinthians" },

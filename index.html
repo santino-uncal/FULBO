@@ -21,8 +21,13 @@
 </head>
 <body>
 <header class="cabecera">
-  <p class="cabecera-eyebrow">Desde 1960</p>
-  <h1><a class="inicio" href="index.html" title="Ir a la edición actual">Copa Libertadores</a></h1>
+  <p class="cabecera-eyebrow" id="copa-desde">Desde 1960</p>
+  <!-- Las dos copas, con la misma letra: la que se está viendo resaltada; la otra, más apagada, lleva a esa copa.
+       app.js marca cuál es la actual según la dirección (?copa=sudamericana) -->
+  <h1 class="copas">
+    <a class="copa" data-copa="libertadores" href="index.html" aria-current="page">Copa Libertadores</a>
+    <a class="copa" data-copa="sudamericana" href="?copa=sudamericana">Copa Sudamericana</a>
+  </h1>
   <p class="cabecera-lema">La Gloria Eterna</p>
   <p class="cabecera-sub">Todas las ediciones, partidos, goleadores y planteles</p>
 </header>
