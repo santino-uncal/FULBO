@@ -89,6 +89,13 @@ Después de tocarlo, volver a correr `generar_datos.py`.
 `tools/entrenadores_ajustes.json` dice a qué club de Transfermarkt corresponde cada club nuestro cuando el
 emparejamiento automático se confunde (dos "Nacional", dos "River Plate"…): `"nacional-par": 7098`.
 
+## Créditos de imágenes
+
+Trofeos de la cabecera (`assets/img/`), de Wikimedia Commons, licencia CC BY-SA 4.0:
+- Copa Libertadores: [Mathiaseditorxd](https://commons.wikimedia.org/wiki/File:328-3287452_copa-libertadores-primer-trofeo-hd-png-download.png).
+- Copa Sudamericana: [ChapeTerror](https://commons.wikimedia.org/wiki/File:Ta%C3%A7a_da_Copa_Sul-Americana_de_2016.jpg)
+  (recortada del fondo y achicada).
+
 ## Fases
 
 Cada sesión se cierra con un `fases/fase_NN.md`. Para saber en qué fase vamos, mirá el último archivo de `fases/`.
