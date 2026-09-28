@@ -108,6 +108,21 @@ main { max-width: 1240px; margin: 0 auto; padding: 24px 16px; }
 .goles-local { text-align: right; }
 .goles li { margin: 2px 0; }
 .gol-asist { display: block; font-size: .8rem; opacity: .7; }
+/* Tanda de penales (se despliega tocando "Penales: x – y") */
+.tanda summary { cursor: pointer; width: fit-content; margin: 4px auto 0; }
+.penales { text-align: center; margin-top: 4px; }
+.tanda summary:hover .tanda-ver { color: var(--acento); }
+.tanda-ver { text-decoration: underline; text-underline-offset: 2px; }
+.tanda[open] .tanda-ver { display: none; }
+.tanda-lista { list-style: none; padding: 0; margin: 6px 0 4px; font-size: .9rem; }
+.tanda-lista li { display: grid; grid-template-columns: 1fr 2em 1fr; gap: 10px; align-items: center; margin: 2px 0; }
+.pen-local { text-align: right; }
+.pen-ronda { text-align: center; color: var(--texto-suave); font-size: .8rem; }
+.pen-gol, .pen-errado { display: inline-block; width: 1.2em; text-align: center; font-weight: 700; }
+.pen-gol { color: #22c55e; }
+.pen-errado { color: #ef4444; }
+.pen-nombre.errado { color: var(--texto-suave); text-decoration: line-through; text-decoration-color: #ef4444; }
+.tanda-nota { text-align: center; font-size: .8rem; }
 
 table { width: 100%; border-collapse: collapse; }
 th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--borde); }

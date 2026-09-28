@@ -7,7 +7,8 @@ Uso:  python tools/descargar_espn.py            (todas las temporadas)
 Guarda en tools/cache/espn/<año>/ (la Sudamericana, en tools/cache/espn-sudamericana/<año>/):
   calendario.json     — la lista de partidos de la temporada
   <id_partido>.json   — el detalle de cada partido (solo lo que usamos)
-Los partidos ya descargados y terminados no se vuelven a pedir.
+Los partidos ya descargados y terminados no se vuelven a pedir (salvo los que se definieron por penales
+y se bajaron antes de que se guardara la tanda).
 """
 import json
 import time
@@ -51,7 +52,17 @@ def recortar(d):
                 "posicion": (p.get("position") or {}).get("abbreviation"),
             } for p in r.get("roster", [])],
         } for r in d.get("rosters", [])],
+        "shootout": d.get("shootout") or [],   # la tanda de penales, remate por remate
     }
+
+
+def falta_tanda(evento, archivo):
+    """Partidos con penales descargados antes de que se guardara la tanda: hay que volver a pedirlos."""
+    if not archivo.exists():
+        return False
+    if all(c.get("shootoutScore") is None for c in evento["competitions"][0]["competitors"]):
+        return False
+    return "shootout" not in json.loads(archivo.read_text(encoding="utf-8"))
 
 
 def temporada(anio):
@@ -64,7 +75,7 @@ def temporada(anio):
     for e in eventos:
         terminado = e["status"]["type"].get("completed")
         archivo = carpeta / f"{e['id']}.json"
-        if not terminado or archivo.exists():
+        if not terminado or (archivo.exists() and not falta_tanda(e, archivo)):
             continue
         archivo.write_text(json.dumps(recortar(pedir(f"{BASE}/summary?event={e['id']}")), ensure_ascii=False),
                            encoding="utf-8")

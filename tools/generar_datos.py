@@ -189,6 +189,25 @@ def goles_espn(p):
     return res
 
 
+def tanda_espn(p, invertido=False):
+    """Tanda de penales de ESPN, remate por remate (invertido: ESPN tomó como local al otro equipo)."""
+    tanda = p.get("tanda") or []
+    if not tanda:
+        return None
+    return [{"jugador": t["jugador"], "jid": t.get("jid"), "gol": t["gol"],
+             "equipo": ("visitante" if t["lado"] == "local" else "local") if invertido else t["lado"]}
+            for t in tanda]
+
+
+def tanda_cuadra(x):
+    """La tanda solo se muestra si los goles suman lo mismo que el resultado de los penales."""
+    t = x.get("tanda")
+    if t and (sum(1 for r in t if r["gol"] and r["equipo"] == "local") != x.get("pen_l") or
+              sum(1 for r in t if r["gol"] and r["equipo"] == "visitante") != x.get("pen_v")):
+        del x["tanda"]
+    return x
+
+
 def formaciones_rsssf(p):
     """Formaciones de RSSSF (solo nombres): asignarlas a local/visitante por parecido del nombre."""
     crudas = p.get("formaciones_crudas") or {}
@@ -215,10 +234,10 @@ def partido_final(p, local, visitante, fuente_goles, espn=None):
          "pen_l": p.get("pen_l"), "pen_v": p.get("pen_v"), "estadio": p.get("estadio"),
          "ciudad": p.get("ciudad"), "arbitro": p.get("arbitro"), "publico": p.get("publico"),
          "notas": p.get("notas"), "llave": p.get("llave"), "goles": fuente_goles,
-         "formaciones": p.get("formaciones_final")}
+         "formaciones": p.get("formaciones_final"), "tanda": p.get("tanda_final")}
     if espn:
         x["espn"] = espn
-    return limpiar(x)
+    return tanda_cuadra(limpiar(x))
 
 
 # ---------------------------------------------------------------- campeón
@@ -413,6 +432,7 @@ def main():
                         forms = {("visitante" if l == "local" else "local") if invertido else l: v
                                  for l, v in f.items()}
                     extra = {k: pe.get(k) for k in ("estadio", "ciudad", "arbitro", "publico", "fecha")}
+                    extra["tanda_final"] = tanda_espn(pe, invertido)
                 elif ek in es and pr["gl"] is not None:
                     faltan_espn += 1
                 base = dict(pr)
@@ -445,6 +465,7 @@ def main():
                 if pe["jugado"] and pe["espn"] not in emparejados:
                     base = dict(pe)
                     base["formaciones_final"] = pe.get("formaciones")
+                    base["tanda_final"] = tanda_espn(pe)
                     base["notas"] = "solo en ESPN"
                     x = partido_final(base, mapa[pe["local_espn"]], mapa[pe["visitante_espn"]],
                                       goles_espn(pe), pe["espn"])
@@ -455,6 +476,7 @@ def main():
             for pe in es[ek]["partidos"]:
                 base = dict(pe)
                 base["formaciones_final"] = pe.get("formaciones")
+                base["tanda_final"] = tanda_espn(pe)
                 if pe.get("serie"):
                     base["llave"] = series.setdefault(pe["serie"], len(series) + 1)
                 if not pe["jugado"]:

@@ -131,6 +131,18 @@ def completar(p, d):
             "lado": "local" if k.get("team", {}).get("id") == p["local_espn"] else "visitante",
         })
     p["goles"] = goles
+    # Tanda de penales: cada remate en el orden en que se pateó. Por ronda (shotNumber); dentro de la ronda,
+    # primero el equipo que abrió la tanda (el del primer remate según la numeración de eventos de ESPN)
+    tanda = []
+    for eq in d.get("shootout") or []:
+        lado = "local" if eq.get("id") == p["local_espn"] else "visitante"
+        for t in eq.get("shots", []):
+            tanda.append({"ronda": t.get("shotNumber") or 0, "ev": int(t.get("id") or 0), "jugador": t.get("player"),
+                          "jid": t.get("playerId"), "gol": bool(t.get("didScore")), "lado": lado})
+    if tanda:
+        abre = min(tanda, key=lambda t: (t["ronda"], t["ev"]))["lado"]
+        tanda.sort(key=lambda t: (t["ronda"], t["lado"] != abre))
+        p["tanda"] = [{k: v for k, v in t.items() if k not in ("ronda", "ev")} for t in tanda]
     # Tarjetas rojas y cambios (con minuto)
     rojas, cambios = [], []
     for k in d.get("keyEvents", []):

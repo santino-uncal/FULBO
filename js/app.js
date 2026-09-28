@@ -175,9 +175,31 @@
     return `<div class="goles-partido">${lado("local")}${lado("visitante")}</div>`;
   }
 
+  // Tanda de penales: una fila por ronda, cada equipo de su lado (verde = gol, cruz roja = errado)
+  function tandaPenales(p) {
+    const texto = `Penales: ${p.pen_l} – ${p.pen_v}`;
+    if (!p.tanda || !p.tanda.length) return `<div class="partido-meta penales">${texto}</div>`;
+    const lado = l => p.tanda.filter(t => t.equipo === l);
+    const loc = lado("local"), vis = lado("visitante");
+    const remate = (t, l) => {
+      if (!t) return "<span></span>";
+      const marca = t.gol ? `<span class="pen-gol" title="Gol">●</span>` : `<span class="pen-errado" title="Errado">✕</span>`;
+      const nombre = `<span class="pen-nombre${t.gol ? "" : " errado"}">${esc(t.jugador || "?")}</span>`;
+      return `<span class="pen-${l}">${l === "local" ? nombre + marca : marca + nombre}</span>`;
+    };
+    const filas = Array.from({ length: Math.max(loc.length, vis.length) }, (_, i) =>
+      `<li>${remate(loc[i], "local")}<span class="pen-ronda">${i + 1}</span>${remate(vis[i], "visitante")}</li>`).join("");
+    const primero = equipo(p[p.tanda[0].equipo]).nombre;
+    return `<details class="tanda">
+      <summary class="partido-meta">${texto} <span class="tanda-ver">· ver quién pateó</span></summary>
+      <ol class="tanda-lista">${filas}</ol>
+      <div class="partido-meta tanda-nota">Empezó pateando ${esc(primero)}</div>
+    </details>`;
+  }
+
   function partido(p) {
     const res = p.gl == null ? "vs" : `${p.gl} – ${p.gv}`;
-    const pen = p.pen_l != null ? `<div class="partido-meta">Penales: ${p.pen_l} – ${p.pen_v}</div>` : "";
+    const pen = p.pen_l != null ? tandaPenales(p) : "";
     const meta = [p.fecha, p.estadio, p.arbitro && `Árbitro: ${p.arbitro}`, p.publico && `${p.publico.toLocaleString("es-AR")} espectadores`]
       .filter(Boolean).map(esc).join(" · ");
     const nota = p.notas ? `<div class="partido-meta">Nota: ${esc(p.notas)}</div>` : "";
@@ -187,8 +209,8 @@
         <span class="local">${esc(equipo(p.local).nombre)}${escudo(p.local)}</span>
         <span class="resultado">${res}</span>
         <span>${club(p.visitante)}</span>
-      </div>${pen}${nota}
-      ${golesPartido(p)}
+      </div>${nota}
+      ${golesPartido(p)}${pen}
     </article>`;
   }
 

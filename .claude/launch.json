@@ -12,6 +12,12 @@
       "runtimeExecutable": "C:/Users/munca/AppData/Local/Programs/Python/Python310/python.exe",
       "runtimeArgs": ["-m", "http.server", "8779"],
       "port": 8779
+    },
+    {
+      "name": "libertadores-3",
+      "runtimeExecutable": "C:/Users/munca/AppData/Local/Programs/Python/Python310/python.exe",
+      "runtimeArgs": ["-m", "http.server", "8780"],
+      "port": 8780
     }
   ]
 }
