@@ -166,8 +166,11 @@
       <div class="orden-partidos">Ordenar: ${botones}</div>
       <input class="filtro-plantel" type="search" placeholder="Buscar equipo…" aria-label="Buscar equipo en los planteles" autocomplete="off">
       <p class="vacio filtro-plantel-vacio" hidden></p>` +
-      ids.map(id => `<details class="plantel" data-busqueda="${esc(normalizar(equipo(id).nombre) + " " + id)}"><summary>${club(id)} (${ed.planteles[id].length})${estadio(id)}</summary>
-        ${lineaDT(ed.anio, id)}${tablaPlantel(ed.planteles[id], modo)}</details>`).join("");
+      ids.map(id => {
+        const jugadores = ed.planteles[id].filter(j => j.nombre);   // alguna formación trae jugadores sin nombre
+        return `<details class="plantel" data-busqueda="${esc(normalizar(equipo(id).nombre) + " " + id)}"><summary>${club(id)} (${jugadores.length})${estadio(id)}</summary>
+        ${lineaDT(ed.anio, id)}${tablaPlantel(jugadores, modo)}</details>`;
+      }).join("");
   }
   // Si el equipo no tiene ninguna formación cargada no se sabe cuántos partidos jugó cada uno ("–")
   function tablaPlantel(jugadores, modo) {

@@ -285,9 +285,13 @@ def armar_planteles(partidos):
     pl = collections.defaultdict(dict)
 
     def ficha(club, jid, nombre):
-        clave = jid or nombre
-        return pl[club].setdefault(clave, {"id": jid, "nombre": nombre, "pj": 0, "tit": 0, "goles": 0,
-                                           "asist": 0, "num": collections.Counter(), "pos": collections.Counter()})
+        if not nombre:   # alguna formación de ESPN trae jugadores sin nombre: no se suman al plantel
+            return nueva(jid, nombre)
+        return pl[club].setdefault(jid or nombre, nueva(jid, nombre))
+
+    def nueva(jid, nombre):
+        return {"id": jid, "nombre": nombre, "pj": 0, "tit": 0, "goles": 0,
+                "asist": 0, "num": collections.Counter(), "pos": collections.Counter()}
 
     for p in partidos:
         for lado in ("local", "visitante"):
