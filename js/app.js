@@ -512,9 +512,15 @@
     return `<h3>⭐ Jugador del torneo</h3><p class="jugador-torneo">${texto}</p>`;
   }
 
+  // Cuántas Copas llevaba el campeón contando la de ese año (River en 2018: 4)
+  function vecesCampeon(ed) {
+    const n = LIB.indice.filter(e => e.campeon === ed.campeon && e.anio <= ed.anio).length;
+    return `<small class="veces-campeon">${n === 1 ? "1 vez campeón" : `${n} veces campeón`}</small>`;
+  }
+
   function mostrar(ed) {
     let html = `<h2>${ed.anio}</h2>
-      <p>🏆 Campeón: <strong>${ed.campeon ? club(ed.campeon) : "—"}</strong> · Subcampeón: ${ed.subcampeon ? club(ed.subcampeon) : "—"}</p>
+      <p>🏆 Campeón: <strong class="${ed.campeon ? "campeon-edicion" : ""}">${ed.campeon ? `<span>${club(ed.campeon)}</span>${vecesCampeon(ed)}` : "—"}</strong> · Subcampeón: ${ed.subcampeon ? club(ed.subcampeon) : "—"}</p>
       <p class="vacio">Fuentes: ${ed.fuentes.join(" + ")}</p>`;
     // La final (y su desempate, si hubo) va arriba de todo
     const esFinal = f => f.nombre.startsWith("Final");

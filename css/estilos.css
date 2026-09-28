@@ -79,6 +79,9 @@ main { max-width: 1240px; margin: 0 auto; padding: 24px 16px; }
 .ediciones a[aria-current] { border-color: var(--acento); color: var(--acento); }
 
 .edicion h2 { color: var(--acento); margin-top: 0; }
+/* Campeón de la edición con sus títulos debajo ("4 veces campeón") */
+.campeon-edicion { display: inline-flex; flex-direction: column; align-items: center; vertical-align: top; }
+.veces-campeon { font-size: .8rem; font-weight: 400; color: var(--texto-suave); }
 .edicion h3 { border-bottom: 1px solid var(--borde); padding-bottom: 4px; }
 .vacio { color: var(--texto-suave); }
 
