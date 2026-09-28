@@ -493,6 +493,18 @@
     try { return localStorage.getItem("ordenEliminatoria") === "llave" ? "llave" : "fecha"; } catch { return "fecha"; }
   }
 
+  // Mejor jugador de la Copa (premio oficial desde 2008; antes no existía)
+  function jugadorTorneoHTML(ed) {
+    const premios = LIB.jugadorTorneo || {};
+    const j = premios[ed.anio];
+    let texto;
+    if (j) texto = `<strong>${esc(j.nombre)}</strong> · ${club(j.equipo)}`;
+    else if (ed.anio in premios) texto = `Ninguno <em>(ese año no se entregó el premio)</em>`;
+    else if (ed.anio > 2008 && !ed.campeon) texto = `A definir`;
+    else texto = `Ninguno <em>(no se entregaba el premio)</em>`;
+    return `<h3>⭐ Jugador del torneo</h3><p class="jugador-torneo">${texto}</p>`;
+  }
+
   function mostrar(ed) {
     let html = `<h2>${ed.anio}</h2>
       <p>🏆 Campeón: <strong>${ed.campeon ? club(ed.campeon) : "—"}</strong> · Subcampeón: ${ed.subcampeon ? club(ed.subcampeon) : "—"}</p>
@@ -528,6 +540,7 @@
         : eliminatoriaHTML(f.partidos);
       html += `<details class="fase"><summary>${esc(f.nombre)} (${f.partidos.length})</summary>${cuerpo}</details>`;
     });
+    html += jugadorTorneoHTML(ed);
     html += tablaRanking("Goleadores", ranking(ed, "goles"), "goles");
     html += tablaRanking("Asistidores", ranking(ed, "asistencias"), "asistencias");
     html += planteles(ed);
