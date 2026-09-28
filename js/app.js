@@ -984,7 +984,7 @@
   }
 
   // Último año visto: se guarda el año que se está mirando y el anterior (distinto), también entre visitas
-  const ultimoAnioEl = document.getElementById("ultimo-anio");
+  const ultimoAnioEls = document.querySelectorAll(".ultimo-anio");   // en la barra y en el panel de años
   function recordarAnio(anio) {
     let v = {};
     try { v = JSON.parse(localStorage.getItem("aniosVistos")) || {}; } catch {}
@@ -994,15 +994,15 @@
       try { localStorage.setItem("aniosVistos", JSON.stringify(v)); } catch {}
     }
     const hay = v.anterior && v.anterior != anio && LIB.indice.some(e => e.anio == v.anterior);
-    if (!ultimoAnioEl) return;
-    ultimoAnioEl.hidden = !hay;
-    if (hay) {
-      ultimoAnioEl.dataset.anio = v.anterior;
-      ultimoAnioEl.querySelector("span").textContent = v.anterior;
-      ultimoAnioEl.title = `Volver a ${v.anterior}`;
-    }
+    ultimoAnioEls.forEach(el => {
+      el.hidden = !hay;
+      if (!hay) return;
+      el.dataset.anio = v.anterior;
+      el.querySelector("span").textContent = v.anterior;
+      el.title = `Volver a ${v.anterior}, el último año que viste`;
+    });
   }
-  ultimoAnioEl?.addEventListener("click", () => seleccionar(ultimoAnioEl.dataset.anio, true));
+  ultimoAnioEls.forEach(el => el.addEventListener("click", () => seleccionar(el.dataset.anio, true)));
 
   function seleccionar(anio, guardarEnHistorial) {
     recordarAnio(anio);

@@ -63,6 +63,7 @@ main { max-width: 1240px; margin: 0 auto; padding: 24px 16px; }
 }
 .ultimo-anio:hover { border-color: var(--acento); color: var(--acento); }
 .ultimo-anio[hidden] { display: none; }
+.ultimo-anio-barra { padding: 0 12px; font-weight: 700; }   /* al lado de las flechas ◀ ▶ */
 .panel-anios input {
   flex: 1 1 180px; width: 100%; max-width: 260px; font: inherit; padding: 8px 12px; color: var(--texto);
   background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio);

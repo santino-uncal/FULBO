@@ -39,6 +39,7 @@
     <button class="flecha-anio" id="anio-anterior" type="button" aria-label="Año anterior" title="Año anterior" disabled>◀</button>
     <button class="boton-anios" id="boton-anios" type="button" aria-expanded="false" aria-controls="panel-anios">📅 <span id="anio-actual">Años</span> ▾</button>
     <button class="flecha-anio" id="anio-siguiente" type="button" aria-label="Año siguiente" title="Año siguiente" disabled>▶</button>
+    <button class="ultimo-anio ultimo-anio-barra" type="button" hidden>↩ <span></span></button>
   </div>
   </div>
   <!-- Panel de años: arranca cerrado y se abre con el botón 📅 -->
@@ -47,7 +48,7 @@
       <input id="buscar-anio" type="search" inputmode="numeric" maxlength="4" placeholder="Escribí un año (ej.: 1986)"
         autocomplete="off" aria-label="Buscar año">
       <!-- Vuelve al último año que se estuvo mirando antes del actual (se recuerda entre visitas) -->
-      <button class="ultimo-anio" id="ultimo-anio" type="button" hidden>↩ Último visto: <span></span></button>
+      <button class="ultimo-anio" type="button" hidden>↩ Último visto: <span></span></button>
     </div>
     <nav class="ediciones" id="ediciones" aria-label="Ediciones"></nav>
     <p class="vacio" id="anio-vacio" hidden>No hay ninguna edición con ese año.</p>
