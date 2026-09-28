@@ -3,8 +3,8 @@
 (function () {
   // Qué copa se está viendo: ?copa=sudamericana, o la Libertadores si la dirección no dice nada
   const COPAS = {
-    libertadores: { nombre: "Copa Libertadores", desde: 1960, datos: "data/", ns: "LIB" },
-    sudamericana: { nombre: "Copa Sudamericana", desde: 2002, datos: "data/sudamericana/", ns: "SUD" },
+    libertadores: { nombre: "Copa Libertadores", desde: 1960, lema: "La Gloria Eterna", datos: "data/", ns: "LIB" },
+    sudamericana: { nombre: "Copa Sudamericana", desde: 2002, lema: "La Gran Conquista", datos: "data/sudamericana/", ns: "SUD" },
   };
   const CLAVE_COPA = new URLSearchParams(location.search).get("copa") === "sudamericana" ? "sudamericana" : "libertadores";
   const COPA = COPAS[CLAVE_COPA];
@@ -39,7 +39,7 @@
     : `?copa=${CLAVE_COPA}${q ? "&" + q : ""}`;
   const enlaceHtml = q => enlace(q).replace(/&/g, "&amp;");
 
-  // Cabecera: la copa actual resaltada, el "Desde" y el lema (el lema "La Gloria Eterna" es solo de la Libertadores)
+  // Cabecera: la copa actual resaltada, el "Desde" y el lema de cada copa
   document.querySelectorAll("h1.copas a.copa").forEach(a => a.dataset.copa === CLAVE_COPA
     ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
   document.querySelectorAll("h1.copas a.copa").forEach(a => a.setAttribute("title",
@@ -50,7 +50,7 @@
   const buscarAnioEj = document.getElementById("buscar-anio");
   if (buscarAnioEj && CLAVE_COPA === "sudamericana") buscarAnioEj.placeholder = "Escribí un año (ej.: 2014)";
   const lemaEl = document.querySelector(".cabecera-lema");
-  if (lemaEl) lemaEl.hidden = CLAVE_COPA !== "libertadores";
+  if (lemaEl) lemaEl.textContent = COPA.lema;
   const navEl = document.getElementById("ediciones");
   const edicionEl = document.getElementById("edicion");
   const botonEstEl = document.getElementById("boton-estadisticas");   // al lado del buscador de equipos
