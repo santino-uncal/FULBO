@@ -4,6 +4,7 @@ Uso:  python tools/descargar_escudos.py
 Orden de búsqueda:
   1. ESPN (clubes que jugaron desde 2005: tienen id de ESPN en equipos.js)
   2. TheSportsDB (API gratuita), buscando por nombre y país
+  (antes que nada, ESCUDOS_A_MANO: clubes que no se encuentran solos, con su número en ESPN o en TheSportsDB)
 Guarda assets/escudos/<id>.png (120x120 aprox.) y no vuelve a bajar los que ya existen.
 Si un escudo viene con fondo de color liso (blanco, por ejemplo), se lo saca para que quede transparente.
 Al final lista los que no encontró, para buscarlos a mano o dejar que la web muestre las iniciales.
@@ -25,8 +26,23 @@ RAIZ = Path(__file__).resolve().parent.parent
 DESTINO = RAIZ / "assets" / "escudos"
 ESPN = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=120&w=120"
 TSDB = "https://www.thesportsdb.com/api/v1/json/3/searchteams.php?t="
+TSDB_ID = "https://www.thesportsdb.com/api/v1/json/3/lookupteam.php?id="
+# Clubes cuyo escudo no se encuentra solo (en ESPN figuran con otro número o sin escudo; en TheSportsDB, con otro nombre)
+ESCUDOS_A_MANO = {
+    "ajax": "espn:139", "feyenoord": "espn:142", "psv": "espn:148", "nottingham-forest": "espn:393",
+    "red-star-belgrade": "espn:2290", "kashiwa-reysol": "espn:7476", "hamburger-sv": "espn:127",
+    "steaua-bucuresti": "tsdb:143176", "raja-casablanca": "tsdb:136404", "tp-mazembe": "tsdb:138139",
+    "pyramids": "tsdb:139838", "jeonbuk-motors": "tsdb:138111", "sepahan": "tsdb:139014", "etoile-sahel": "tsdb:138999",
+    "al-wahda": "tsdb:137836", "shabab-al-ahli": "tsdb:137828", "seongnam-ilhwa": "tsdb:138114",
+    "hekari-united": "tsdb:139102", "waitakere-united": "tsdb:139101", "hienghene-sport": "tsdb:137649",
+    "as-pirae": "tsdb:144956",
+}
 PAISES = {"ARG": "Argentina", "BRA": "Brazil", "URU": "Uruguay", "PAR": "Paraguay", "CHI": "Chile",
-          "COL": "Colombia", "PER": "Peru", "ECU": "Ecuador", "BOL": "Bolivia", "VEN": "Venezuela", "MEX": "Mexico"}
+          "COL": "Colombia", "PER": "Peru", "ECU": "Ecuador", "BOL": "Bolivia", "VEN": "Venezuela", "MEX": "Mexico",
+          # clubes del Mundial de Clubes y la Intercontinental que no están en ESPN
+          "ESP": "Spain", "ITA": "Italy", "ENG": "England", "SCO": "Scotland", "GER": "Germany", "NED": "Netherlands",
+          "POR": "Portugal", "ROU": "Romania", "SWE": "Sweden", "GRE": "Greece", "YUG": "Serbia", "KSA": "Saudi Arabia",
+          "AUS": "Australia"}
 
 
 def leer_equipos():
@@ -85,7 +101,18 @@ def main():
         if archivo.exists():
             continue
         ok = False
-        for eid in reversed(eq.get("espn", [])):
+        fuente, _, num = ESCUDOS_A_MANO.get(id_, "").partition(":")
+        try:
+            if fuente == "espn":
+                ok = bajar(ESPN.format(num), archivo)
+            elif fuente == "tsdb":
+                with urllib.request.urlopen(TSDB_ID + num, timeout=20) as r:
+                    ok = bajar(json.load(r)["teams"][0]["strBadge"] + "/small", archivo)
+        except Exception:
+            ok = False
+        if ok:
+            print(f"  ✓ {eq['nombre']} (a mano)", flush=True)
+        for eid in [] if ok else reversed(eq.get("espn", [])):
             try:
                 ok = bajar(ESPN.format(eid), archivo)
             except Exception:
