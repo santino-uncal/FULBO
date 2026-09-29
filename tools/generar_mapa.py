@@ -20,10 +20,12 @@ MARGEN = 6   # aire alrededor del dibujo
 
 # Cada mapa: el continente de Natural Earth, el meridiano del centro y el recorte (oeste, este, sur, norte).
 # extras: países que Natural Earth pone en otro continente pero se dibujan en este (Turquía, Armenia, Georgia y Azerbaiyán
-# figuran en Asia, pero en el fútbol son de Europa: juegan en la UEFA)
+# figuran en Asia, pero en el fútbol son de Europa: juegan en la UEFA; lo mismo Israel, Chipre y Kazajistán.
+# El norte de Chipre viene aparte y se dibuja para que la isla no quede cortada)
 MAPAS = {
     "sudamerica": {"continente": "South America", "centro": -60, "recorte": (-95, -30, -57, 14)},
-    "europa": {"continente": "Europe", "centro": 15, "recorte": (-25, 51, 34, 71), "extras": {"TUR", "ARM", "GEO", "AZE"}},
+    "europa": {"continente": "Europe", "centro": 18, "recorte": (-25, 62, 29, 71),
+               "extras": {"TUR", "ARM", "GEO", "AZE", "ISR", "CYP", "CYN", "KAZ"}},
 }
 # Territorios que se dibujan aparte de su país (ver continente_de_parte)
 TERRITORIOS = {("Francia", "South America"): "Guayana Francesa"}
