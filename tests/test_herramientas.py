@@ -72,6 +72,34 @@ class LeerRsssf(unittest.TestCase):
         self.assertEqual(local[1], {"jugador": "Alzamendi", "min": 70, "tipo": None})
         self.assertEqual(visitante[0]["tipo"], "ec")
 
+    def lados(self, texto, gl, gv, mesa=False):
+        return [(g["jugador"], g["lado"]) for g in leer_rsssf.goles_por_lado(texto, gl, gv, mesa)]
+
+    def test_goles_que_cuadran_quedan_igual(self):
+        self.assertEqual(self.lados("[Perazzo, Castro; Gildo]", 2, 1),
+                         [("Perazzo", "local"), ("Castro", "local"), ("Gildo", "visitante")])
+
+    def test_local_sin_goles_lista_solo_al_visitante(self):
+        self.assertEqual(self.lados("[Klinger(2), Pizarro]", 0, 3), [("Klinger", "visitante")] * 2 + [("Pizarro", "visitante")])
+
+    def test_empate_sin_punto_y_coma(self):
+        self.assertEqual(self.lados("[Pizzi, Morigi]", 1, 1), [("Pizzi", "local"), ("Morigi", "visitante")])
+
+    def test_gol_en_contra_con_punto_y_coma_de_mas(self):
+        self.assertEqual(self.lados("[Miño o/g; Usuriaga]", 2, 0), [("Miño", "local"), ("Usuriaga", "local")])
+        goles = leer_rsssf.goles_por_lado("[Morales o/g; Marcelinho, Nelio; Camacho(2)]", 3, 2)
+        self.assertEqual([g["lado"] for g in goles], ["local"] * 3 + ["visitante"] * 2)
+
+    def test_desempate_escrito_al_reves(self):
+        self.assertEqual(self.lados("[Joya, Sasía; Pelé]", 1, 2), [("Pelé", "local"), ("Joya", "visitante"), ("Sasía", "visitante")])
+
+    def test_partido_ganado_en_mesa_no_se_toca(self):
+        self.assertEqual(self.lados("[José Sand; Wellington Paulista, Luiz Otávio]", 3, 0, mesa=True),
+                         [("José Sand", "local"), ("Wellington Paulista", "visitante"), ("Luiz Otávio", "visitante")])
+
+    def test_lista_incompleta_del_local_queda_del_local(self):
+        self.assertEqual(self.lados("[Marzolini]", 2, 0), [("Marzolini", "local")])
+
     def test_fases(self):
         self.assertEqual(leer_rsssf.fase_de("Quarter-finals"), ("Cuartos de final", "eliminatoria"))
         self.assertEqual(leer_rsssf.fase_de("Final"), ("Final", "eliminatoria"))
@@ -171,6 +199,11 @@ class OtrasDeGenerarDatos(unittest.TestCase):
     def test_base_club(self):
         self.assertEqual(GD.base_club("nacional-par"), "nacional")
         self.assertEqual(GD.base_club("river-plate"), "river-plate")
+
+    def test_cuadra(self):
+        goles = [{"equipo": "local"}, {"equipo": "visitante"}]
+        self.assertTrue(GD.cuadra(goles, {"gl": 1, "gv": 1}))
+        self.assertFalse(GD.cuadra(goles, {"gl": 2, "gv": 0}))
 
     def test_tanda_que_cuadra_se_queda(self):
         tanda = [{"gol": True, "equipo": "local"}, {"gol": False, "equipo": "visitante"}]

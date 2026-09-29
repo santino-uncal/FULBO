@@ -198,6 +198,12 @@ def goles_espn(p):
     return res
 
 
+def cuadra(goles, p):
+    """Si la lista de goles coincide con el resultado de cada equipo."""
+    local = sum(g["equipo"] == "local" for g in goles)
+    return (local, len(goles) - local) == (p.get("gl") or 0, p.get("gv") or 0)
+
+
 def tanda_espn(p, invertido=False):
     """Tanda de penales de ESPN, remate por remate (invertido: ESPN tomó como local al otro equipo)."""
     tanda = p.get("tanda") or []
@@ -438,7 +444,9 @@ def main():
                     if invertido:  # ESPN tomó como local al otro (cancha neutral)
                         for g in ge:
                             g["equipo"] = "visitante" if g["equipo"] == "local" else "local"
-                    if len(ge) == (pr["gl"] or 0) + (pr["gv"] or 0):
+                    # ESPN a veces anota un gol al otro equipo (Caracas-Peñarol 2012): si sus goles no cuadran
+                    # con el resultado de cada equipo y los de RSSSF sí, quedan los de RSSSF
+                    if len(ge) == (pr["gl"] or 0) + (pr["gv"] or 0) and (cuadra(ge, pr) or not cuadra(goles, pr)):
                         goles = ge
                     if pe.get("formaciones"):
                         f = pe["formaciones"]

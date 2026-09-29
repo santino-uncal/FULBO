@@ -15,6 +15,10 @@ from generar_historial import leer_ediciones  # noqa: E402
 
 # Ediciones cuyo campeón no jugó la final (la Sudamericana 2016 se le dio al Chapecoense tras el accidente)
 CAMPEON_SIN_FINAL = {("sudamericana", 2016)}
+# Partidos ganados en los escritorios: los goles son los de la cancha y el resultado, el que se dio por reglamento
+GANADOS_EN_MESA = {("libertadores", 1966, "alianza-lima", "universitario"),
+                   ("libertadores", 2017, "lanus", "chapecoense"),        # Chapecoense incluyó a un jugador suspendido
+                   ("libertadores", 2019, "defensor-sporting", "barcelona")}
 
 
 def cargar(ruta):
@@ -131,15 +135,12 @@ class Ediciones(unittest.TestCase):
                     self.assertEqual(sum(r["gol"] and r["equipo"] == "local" for r in p["tanda"]), p["pen_l"])
                     self.assertEqual(sum(r["gol"] and r["equipo"] == "visitante" for r in p["tanda"]), p["pen_v"])
 
-    # Falla hoy: en ~400 partidos viejos de RSSSF donde el local no hizo goles, los goles del visitante quedan
-    # anotados al local (ej.: 1960, Universidad de Chile 0-6 Millonarios). Cuando se arregle, borrar esta línea.
-    @unittest.expectedFailure
-    def test_goles_no_superan_el_resultado(self):
+    def test_goles_cuadran_con_el_resultado(self):
         malos = []
         for clave in COPAS:
             for anio, fase, p in partidos(clave):
                 goles = p.get("goles") or []
-                if p.get("gl") is None:
+                if p.get("gl") is None or (clave, anio, p["local"], p["visitante"]) in GANADOS_EN_MESA:
                     continue
                 if (sum(g["equipo"] == "local" for g in goles) > p["gl"]
                         or sum(g["equipo"] == "visitante" for g in goles) > p["gv"]):

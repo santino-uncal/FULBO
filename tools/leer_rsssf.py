@@ -169,6 +169,29 @@ def leer_goles(texto):
     return res
 
 
+def goles_por_lado(texto, gl, gv, mesa=False):
+    """Goles de '[...]' con su lado ('local' o 'visitante'). RSSSF no siempre separa los dos equipos con un ';':
+      - si el local no hizo goles escribe solo los del visitante: '[Klinger(2), Pizarro(2)]' en un 0-4;
+      - en los empates a veces falta el ';': '[Pizzi, Morigi]' en un 1-1;
+      - el gol en contra a veces va primero y con un ';' de más: '[Miño o/g; Usuriaga]' en un 2-0;
+      - en los desempates en cancha neutral a veces va primero el que figura de visitante.
+    Si la lista no cuadra con el resultado, se reparte de la forma que sí cuadre. Salvo en los partidos con 'x'
+    (mesa: en general, ganados en los escritorios) que ya separan los dos equipos con ';': ahí los goles son los de
+    la cancha y el resultado, el del reglamento."""
+    local, visita = leer_goles(texto)
+    gl, gv = gl or 0, gv or 0
+    if (len(local), len(visita)) != (gl, gv) and not (mesa and ";" in texto):
+        partes = texto.strip().strip("[]").split(";")
+        todos = [g for parte in partes for g in leer_goles(parte)[0]]
+        if (len(visita), len(local)) == (gl, gv):
+            local, visita = visita, local
+        elif len(todos) == gl + gv:
+            local, visita = todos[:gl], todos[gl:]   # RSSSF nombra siempre primero los goles del local
+        elif len(partes) == 1 and gl < len(local) <= gv:
+            local, visita = [], local                 # lista incompleta de un equipo que no le entra al local
+    return [{**g, "lado": "local"} for g in local] + [{**g, "lado": "visitante"} for g in visita]
+
+
 def fase_de(titulo, copa="libertadores"):
     t = titulo.lower().strip()
     for patron, nombre, tipo in (FASES_SUD if copa == "sudamericana" else FASES):
@@ -342,8 +365,7 @@ def leer(anio, copa="libertadores"):
                 raros.append("goles sin partido: " + s)
                 continue
             p = pendientes.pop(0)
-            local, visita = leer_goles(s)
-            p["goles"] = [{**g, "lado": "local"} for g in local] + [{**g, "lado": "visitante"} for g in visita]
+            p["goles"] = goles_por_lado(s, p["gl"], p["gv"], p.get("_mesa"))
             continue
 
         # --- Fechas de una ronda eliminatoria: '(Apr 19 & 30)' ---
@@ -442,6 +464,8 @@ def leer(anio, copa="libertadores"):
             mn = re.search(r"\((.+)\)", resto)
             if mn:
                 p["notas"] = mn.group(1)
+            if resto.startswith("x"):   # '3-0x': resultado dado por reglamento (los goles no tienen por qué cuadrar)
+                p["_mesa"] = True
             pendientes = [p] if p["gl"] + p["gv"] > 0 else []
             continue
 
@@ -561,9 +585,9 @@ def cerrar_detalle(detalle):
         # 'Goals: 22 Arruabarrena, 61 Arruabarrena; 43 Pena' -> el minuto va adelante
         texto = ";".join(",".join(re.sub(r"^(\d+)\s+(.+)$", r"\2 \1", t.strip()) for t in lado.split(","))
                          for lado in detalle["goles_texto"].split(";"))
-        local, visita = leer_goles(texto)
-        if len(local) + len(visita) == total:
-            p["goles"] = [{**g, "lado": "local"} for g in local] + [{**g, "lado": "visitante"} for g in visita]
+        goles = goles_por_lado(texto, p["gl"], p["gv"])
+        if len(goles) == total:
+            p["goles"] = goles
     forms = {k: leer_formacion(v) for k, v in detalle["formaciones"].items() if not k.startswith("_")}
     if forms:
         p["formaciones_crudas"] = forms
