@@ -9,6 +9,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
 import equipos as E  # noqa: E402
 import generar_datos as GD  # noqa: E402
+import descargar_planteles as DP  # noqa: E402
 import generar_estadisticas as GE  # noqa: E402
 import leer_espn  # noqa: E402
 import leer_rsssf  # noqa: E402
@@ -212,6 +213,44 @@ class OtrasDeGenerarDatos(unittest.TestCase):
     def test_tanda_que_no_cuadra_se_borra(self):
         tanda = [{"gol": True, "equipo": "local"}, {"gol": False, "equipo": "visitante"}]
         self.assertNotIn("tanda", GD.tanda_cuadra({"pen_l": 4, "pen_v": 2, "tanda": tanda}))
+
+
+def edicion(anio, *partidos_):
+    return {"anio": anio, "fases": [{"nombre": "Fase de grupos", "partidos": list(partidos_)}]}
+
+
+class Planteles(unittest.TestCase):
+    TM = [{"nombre": "Clemer", "tid": "1", "num": "1", "pos": "G"},
+          {"nombre": "Alexandre Pato", "tid": "2", "num": "11", "pos": "F"},
+          {"nombre": "Juvenil Que Nunca Jugó", "tid": "3", "pos": "M"},
+          {"nombre": "Pablo Guiñazú", "tid": "4", "pos": "DM", "llegada": "2007-07-01"}]
+
+    def test_mismo_jugador(self):
+        self.assertTrue(DP.mismo_jugador("Francescoli", "Enzo Francescoli"))
+        self.assertTrue(DP.mismo_jugador("Alexandre", "Alexandre Pato"))    # ESPN a veces pone solo el nombre
+        self.assertTrue(DP.mismo_jugador("E. Francescoli", "Enzo Francescoli"))
+        self.assertFalse(DP.mismo_jugador("Pato", "Clemer"))
+
+    def test_llego_tarde(self):
+        self.assertTrue(DP.llego_tarde({"llegada": "2007-07-01"}, "2007-04-19", 2007))
+        self.assertFalse(DP.llego_tarde({"llegada": "2007-01-01"}, "2007-04-19", 2007))
+        self.assertFalse(DP.llego_tarde({"llegada": "2016-08-18"}, "2007-04-19", 2007))   # volvió al club años después
+        self.assertFalse(DP.llego_tarde({}, "2007-04-19", 2007))
+
+    def test_con_formaciones_solo_completa(self):
+        form = {"titulares": [{"nombre": "Clemer"}]}
+        ed = edicion(2007, partido("internacional", "velez", 1, 0, fecha="2007-02-21", formaciones={"local": form}))
+        planteles = {"internacional": [{"id": "9", "nombre": "Clemer", "pj": 1}, {"id": "8", "nombre": "Alexandre", "pj": 1}]}
+        res = DP.mezclar(planteles, {"internacional": self.TM}, ed)["internacional"]
+        self.assertEqual([j["nombre"] for j in res], ["Clemer", "Alexandre Pato"])   # no se suma nadie
+        self.assertEqual(res[1]["num"], "11")                                       # pero se completa el número
+
+    def test_sin_formaciones_suma_menos_los_que_llegaron_tarde(self):
+        ed = edicion(1995, partido("internacional", "velez", 1, 0, fecha="1995-04-19"))
+        planteles = {"internacional": [{"nombre": "Clemer", "pj": 0, "goles": 1}]}
+        tm = [dict(j, llegada="1995-07-01") if j["tid"] == "4" else j for j in self.TM]
+        res = DP.mezclar(planteles, {"internacional": tm}, ed)["internacional"]
+        self.assertEqual([j["nombre"] for j in res], ["Clemer", "Alexandre Pato", "Juvenil Que Nunca Jugó"])
 
 
 class Estadisticas(unittest.TestCase):

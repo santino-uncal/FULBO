@@ -11,6 +11,7 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ / "tools"))
 from copas import COPAS  # noqa: E402
+from descargar_planteles import con_formaciones  # noqa: E402
 from generar_historial import leer_ediciones  # noqa: E402
 
 # Ediciones cuyo campeón no jugó la final (la Sudamericana 2016 se le dio al Chapecoense tras el accidente)
@@ -146,6 +147,29 @@ class Ediciones(unittest.TestCase):
                         or sum(g["equipo"] == "visitante" for g in goles) > p["gv"]):
                     malos.append(f"{clave} {describir(anio, fase, p)}")
         self.assertEqual(malos, [], f"{len(malos)} partidos con goles de más de un lado")
+
+
+class Planteles(unittest.TestCase):
+    def test_con_formaciones_el_plantel_son_los_convocados(self):
+        """Si el club tiene formaciones, no se le suman los de Transfermarkt que no fueron a ningún partido
+        (Transfermarkt da la plantilla de todo el año: el Inter 2007 llegaba a 70)."""
+        for clave in COPAS:
+            for anio, ed in EDICIONES[clave].items():
+                for club, jugadores in (ed.get("planteles") or {}).items():
+                    if not con_formaciones(ed, club):
+                        continue
+                    with self.subTest(copa=clave, anio=anio, club=club):
+                        solo_tm = [j["nombre"] for j in jugadores if j.get("tid") and not j.get("id")
+                                   and not j.get("pj") and not j.get("goles") and not j.get("asist")]
+                        self.assertEqual(solo_tm, [])
+
+    def test_sin_jugadores_repetidos(self):
+        for clave in COPAS:
+            for anio, ed in EDICIONES[clave].items():
+                for club, jugadores in (ed.get("planteles") or {}).items():
+                    with self.subTest(copa=clave, anio=anio, club=club):
+                        tids = [j["tid"] for j in jugadores if j.get("tid")]
+                        self.assertEqual(len(tids), len(set(tids)))
 
 
 class Portada(unittest.TestCase):

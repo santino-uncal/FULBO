@@ -49,9 +49,12 @@ def plantel_tm(id_tm, anio):
         num = re.search(r'<div class=rn_nummer>([^<]*)</div>', fila)
         pos = re.search(r'</tr>\s*<tr>\s*<td>\s*([^<]+?)\s*</td>', fila)
         num = num.group(1).strip() if num else ""
+        # Fecha de llegada al club (la de la última vez que llegó: si volvió años después, es la de la vuelta)
+        llegada = re.search(r'<td class="zentriert">(\d\d)/(\d\d)/(\d{4})</td>', fila)
         jugadores.append({"nombre": html.unescape(m.group(2)), "tid": m.group(1),
                           "num": num if num.isdigit() else None,
-                          "pos": POSICIONES.get(pos.group(1).strip()) if pos else None})
+                          "pos": POSICIONES.get(pos.group(1).strip()) if pos else None,
+                          **({"llegada": "-".join(reversed(llegada.groups()))} if llegada else {})})
     return jugadores
 
 
@@ -92,20 +95,47 @@ def mismo_jugador(nuestro, suyo):
         return False
     if a == b:
         return True
-    if len(a) == 1:   # "Francescoli" / "Enzo Francescoli"
-        return a[0] in b[1:] or (len(b) == 1 and a[0] == b[0])
+    if len(a) == 1:   # "Francescoli" / "Enzo Francescoli"; ESPN a veces pone solo el nombre: "Alexandre" / "Alexandre Pato"
+        return a[0] in b
     if len(b) == 1:   # apodos de Transfermarkt ("Ronaldinho")
         return b[0] in a
     return a[-1] == b[-1] and a[0][0] == b[0][0] or " ".join(a) in " ".join(b) or " ".join(b) in " ".join(a)
 
 
-def mezclar(planteles, tm):
-    """Suma la plantilla de Transfermarkt a los planteles de una edición ({club: [jugadores]})."""
+def con_formaciones(ed, club):
+    """Si el club tiene formación en la mayoría de sus partidos de la edición (desde 2005, con ESPN)."""
+    jugados = [p for f in ed["fases"] for p in f["partidos"] if club in (p["local"], p["visitante"]) and p.get("gl") is not None]
+    con = [p for p in jugados if (p.get("formaciones") or {}).get("local" if p["local"] == club else "visitante")]
+    return bool(jugados) and len(con) * 2 > len(jugados)
+
+
+def ultimo_partido(ed, club):
+    fechas = [p["fecha"] for f in ed["fases"] for p in f["partidos"]
+              if club in (p["local"], p["visitante"]) and p.get("fecha")]
+    return max(fechas) if fechas else None
+
+
+def llego_tarde(s, ultimo, anio):
+    """Llegó al club después de que terminó de jugar la copa, ese mismo año (la plantilla de Transfermarkt es la de
+    toda la temporada). Si la fecha es de años después, es la de una vuelta al club y no dice nada."""
+    return bool(ultimo and s.get("llegada") and ultimo < s["llegada"] <= f"{anio}-12-31")
+
+
+def mezclar(planteles, tm, ed=None):
+    """Suma la plantilla de Transfermarkt a los planteles de una edición ({club: [jugadores]}).
+    Con la edición (ed): si el club tiene formaciones, el plantel son los que estuvieron en ellas (titulares y
+    suplentes) y Transfermarkt solo completa número, posición y nombre; si no, se suman los de Transfermarkt,
+    menos los que llegaron al club después de su último partido de la copa."""
     for club, suyos in tm.items():
         nuestros = planteles.setdefault(club, [])
+        cerrado = ed is not None and con_formaciones(ed, club)
+        ultimo = ultimo_partido(ed, club) if ed is not None else None
         sueltos = []
         for s in suyos:
-            candidatos = [j for j in nuestros if j.get("tid") == s["tid"]] or                 [j for j in nuestros if not j.get("tid") and mismo_jugador(j.get("nombre") or "", s["nombre"])]
+            libres = [j for j in nuestros if not j.get("tid")]
+            candidatos = ([j for j in nuestros if j.get("tid") == s["tid"]]
+                          or [j for j in libres if palabras(j.get("nombre") or "") == palabras(s["nombre"])]
+                          or [j for j in libres if mismo_jugador(j.get("nombre") or "", s["nombre"])])
             if len(candidatos) == 1:
                 completar(candidatos[0], s)
             elif not candidatos:
@@ -119,6 +149,8 @@ def mezclar(planteles, tm):
             if len(mios) == 1 and len(suyos_igual) == 1 and len(palabras(s["nombre"])) > 1:
                 completar(mios[0], s)
                 libres.remove(mios[0])
+                continue
+            if cerrado or llego_tarde(s, ultimo, ed["anio"] if ed else 0):
                 continue
             nuevo = {"nombre": s["nombre"], "tid": s["tid"], "pj": 0, "goles": 0, "asist": 0}
             nuevo.update({k: s[k] for k in ("num", "pos") if s.get(k)})
@@ -154,7 +186,7 @@ def mezclar_ediciones(clave="libertadores"):
         # se parte de los planteles sin lo agregado antes, para que correrlo dos veces dé lo mismo
         base = {c: [j for j in js if j.get("id") or j.get("pj") or j.get("goles") or j.get("asist") or not j.get("tid")]
                 for c, js in (ed.get("planteles") or {}).items()}
-        ed["planteles"] = mezclar(base, tm[str(ed["anio"])])
+        ed["planteles"] = mezclar(base, tm[str(ed["anio"])], ed)
         nuevo = cabeza + json.dumps(ed, ensure_ascii=False, separators=(",", ":")) + ";\n"
         if nuevo == texto:
             continue

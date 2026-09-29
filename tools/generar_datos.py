@@ -590,7 +590,7 @@ def main():
         planteles_tm = descargar_planteles.cargar_tm(clave)
         for (c, a), ed in ediciones.items():
             if c == clave and str(a) in planteles_tm:
-                descargar_planteles.mezclar(ed["planteles"], planteles_tm[str(a)])
+                descargar_planteles.mezclar(ed["planteles"], planteles_tm[str(a)], ed)
     for (clave, a), ed in ediciones.items():
         ns = COPAS[clave]["ns"]
         carpeta = COPAS[clave]["data"] / "ediciones"
