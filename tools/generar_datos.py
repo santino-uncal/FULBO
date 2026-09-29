@@ -1,4 +1,4 @@
-"""Genera todos los archivos de data/ a partir de lo descargado de RSSSF y ESPN, para las dos copas.
+"""Genera todos los archivos de data/ a partir de lo descargado de RSSSF, Wikipedia y ESPN, para todas las copas.
 
 Uso:  python tools/generar_datos.py
 Antes hay que haber corrido tools/descargar_rsssf.py y tools/descargar_espn.py (con y sin --copa sudamericana).
@@ -8,8 +8,10 @@ Cómo combina las fuentes (en las dos copas):
   - 2005–2024: RSSSF es la base (lista completa de partidos) y cada partido se completa
     con el detalle de ESPN (goles con minuto y asistencia, formaciones, árbitro, público).
   - 2025 en adelante: solo ESPN.
-Los clubes son uno solo para las dos copas (data/equipos.js). La Libertadores queda en data/ y la
-Sudamericana en data/sudamericana/. Cada edición se identifica por (copa, año).
+El Mundial de Clubes y la Copa Intercontinental toman de Wikipedia lo que ESPN no tiene (la Intercontinental
+1960-2004 y el Mundial 2000); lo demás sale de ESPN.
+Los clubes son uno solo para todas las copas (data/equipos.js). La Libertadores queda en data/ y cada una de
+las otras en su carpeta (data/sudamericana/, data/mundial/…). Cada edición se identifica por (copa, año).
 Al final imprime un control de calidad por edición.
 """
 import collections
@@ -27,6 +29,7 @@ import generar_estadisticas  # noqa: E402
 import generar_historial  # noqa: E402
 import descargar_planteles  # noqa: E402
 import leer_rsssf  # noqa: E402
+import leer_wikipedia  # noqa: E402
 from copas import COPAS, prefijo_js  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -35,12 +38,15 @@ CACHE = RAIZ / "tools" / "cache"
 
 ORDEN_FASES = ["Fase previa", "Primera fase previa", "Segunda fase previa", "Tercera fase previa",
                "Primera fase", "Fase de grupos", "Segunda fase", "Tercera fase", "Playoffs de octavos",
+               "Primera ronda", "Copa África-Asia-Pacífico", "Segunda ronda", "Derbi de las Américas", "Copa Challenger",
                "Octavos de final",
-               "Cuartos de final", "Semifinales", "Tercer puesto", "Final"]
+               "Cuartos de final", "Semifinales", "Quinto puesto", "Tercer puesto", "Final"]
 
 
 def anios_rsssf(clave):
     copa = COPAS[clave]
+    if "rsssf" not in copa:
+        return []
     return [a for a in range(copa["desde"], datetime.date.today().year + 1)
             if (copa["cache_rsssf"] / copa["rsssf"](a)).exists()]
 
@@ -53,22 +59,24 @@ def dias(a, b):
     return abs((datetime.date.fromisoformat(a) - datetime.date.fromisoformat(b)).days)
 
 
-def repartir_por_temporada(es):
+def repartir_por_temporada(es, corregir=True):
     """ESPN agrupa por año calendario: la final 2020 (jugada en enero de 2021) viene con 2021.
-    Cada partido trae su temporada, pero hasta 2015 ESPN la etiqueta corrida un año: se corrige
-    con el corrimiento de la mayoría del calendario."""
+    Cada partido trae su temporada, pero hasta 2015 ESPN la etiqueta corrida un año (en la Libertadores y la
+    Sudamericana): se corrige con el corrimiento de la mayoría del calendario. En el Mundial de Clubes la
+    etiqueta ya es la edición de la FIFA (corregir=False): la "2020" se jugó en febrero de 2021.
+    Las temporadas que quedan sin partidos (el Mundial 2024 no existió) se descartan."""
     nuevo = {a: {"anio": a, "partidos": [], "equipos": dict(r["equipos"])} for a, r in es.items()}
     vistos = set()
     for a, r in es.items():
         etiquetas = collections.Counter(p["temporada_espn"] for p in r["partidos"] if p["temporada_espn"])
-        corrimiento = a - etiquetas.most_common(1)[0][0] if etiquetas else 0
+        corrimiento = a - etiquetas.most_common(1)[0][0] if etiquetas and corregir else 0
         for p in r["partidos"]:
             t = (p["temporada_espn"] + corrimiento) if p["temporada_espn"] else a
             if p["espn"] in vistos or t not in nuevo:
                 continue
             vistos.add(p["espn"])
             nuevo[t]["partidos"].append(p)
-    return nuevo
+    return {a: r for a, r in nuevo.items() if r["partidos"]}
 
 
 # ---------------------------------------------------------------- clubes
@@ -171,8 +179,9 @@ def emparejar_flexible(rs_ed, es_ed, pares, usados, mapa):
 
 # ---------------------------------------------------------------- partidos
 def goles_rsssf(p):
-    return [{"jugador": g["jugador"], "min": g.get("min"), "tipo": g.get("tipo"), "equipo": g["lado"]}
-            for g in p.get("goles", [])]
+    """Goles de RSSSF o Wikipedia (Wikipedia trae el tiempo de descuento: 90+2 es min 90, extra 2)."""
+    return [{"jugador": g["jugador"], "min": g.get("min"), "tipo": g.get("tipo"), "equipo": g["lado"],
+             **({"extra": g["extra"]} if g.get("extra") else {})} for g in p.get("goles", [])]
 
 
 def goles_espn(p):
@@ -209,7 +218,10 @@ def tanda_cuadra(x):
 
 
 def formaciones_rsssf(p):
-    """Formaciones de RSSSF (solo nombres): asignarlas a local/visitante por parecido del nombre."""
+    """Formaciones de RSSSF (solo nombres): asignarlas a local/visitante por parecido del nombre.
+    Las de Wikipedia ya vienen armadas (con número, posición y cambios) y separadas en local y visitante."""
+    if p.get("formaciones"):
+        return p["formaciones"]
     crudas = p.get("formaciones_crudas") or {}
     res = {}
     for i, (clave, f) in enumerate(crudas.items()):
@@ -365,8 +377,9 @@ def main():
     rs, es = {}, {}
     for clave in COPAS:
         rs.update({(clave, a): leer_rsssf.leer(a, clave) for a in anios_rsssf(clave)})
+        rs.update({(clave, a): leer_wikipedia.leer(a, clave) for a in leer_wikipedia.anios(clave)})
         es.update({(clave, a): r for a, r in repartir_por_temporada(
-            {a: leer_espn.leer(a, clave) for a in anios_espn(clave)}).items()})
+            {a: leer_espn.leer(a, clave) for a in anios_espn(clave)}, "rsssf" in COPAS[clave]).items()})
     sin_pais = asignar_clubes_rsssf(rs, cat)
 
     # ESPN -> club: votos por emparejamiento de partidos
@@ -393,7 +406,7 @@ def main():
             por_nombre = [i for i in cat.clubes if any(E.normalizar(n) == norm for n in cat.nombres[i])]
             mapa[eid] = por_nombre[0] if len(por_nombre) == 1 else \
                 cat.id_de(t["nombre"], ajustes.get("pais_espn", {}).get(eid))
-        cat.clubes[mapa[eid]]["espn"].add(eid)
+        cat.asegurar(mapa[eid], t["nombre"], ajustes.get("pais_espn", {}).get(eid))["espn"].add(eid)
     for k, (pares, usados) in pares_por_anio.items():
         emparejar_flexible(rs[k], es[k], pares, usados, mapa)
 
@@ -480,7 +493,9 @@ def main():
                 if pe.get("serie"):
                     base["llave"] = series.setdefault(pe["serie"], len(series) + 1)
                 if not pe["jugado"]:
-                    base["notas"] = "a jugarse"
+                    # (un partido viejo sin resultado no se jugó: en el Mundial 2020 Auckland City se bajó por la pandemia)
+                    viejo = "rsssf" not in COPAS[clave] and pe["fecha"] < datetime.date.today().isoformat()
+                    base["notas"] = "no se jugó" if viejo else "a jugarse"
                 x = partido_final(base, mapa[pe["local_espn"]], mapa[pe["visitante_espn"]],
                                   goles_espn(pe), pe["espn"])
                 x["fase"] = pe["fase"]
@@ -523,7 +538,8 @@ def main():
         todos = [p for f in orden for p in fases[f]]
         nota = ajustes.get("notas_ediciones", {}).get(f"{clave} {a}")   # aclaración a mano (final no jugada…)
         ed = {"anio": a, "campeon": campeon, "subcampeon": sub, **({"nota": nota} if nota else {}),
-              "fuentes": (["RSSSF"] if ek in rs else []) + (["ESPN"] if ek in es else []),
+              "fuentes": ([("RSSSF" if "rsssf" in COPAS[clave] else "Wikipedia")] if ek in rs else []) +
+                         (["ESPN"] if ek in es else []),
               "fases": [{"nombre": f, "partidos": fases[f]} for f in orden],
               "planteles": armar_planteles(todos)}
         ediciones[ek] = ed
@@ -547,7 +563,10 @@ def main():
     ajustar_finales(ediciones)
     # Estadio "de siempre" de cada club, para las ediciones viejas que no traen estadios (antes de 2005):
     # donde más veces jugó de local en la primera edición en que hay datos de su cancha
+    # (el Mundial y la Intercontinental no cuentan: casi todo se juega en cancha neutral)
     for ek in sorted(ediciones, key=lambda x: (list(COPAS).index(x[0]), x[1])):   # primero la Libertadores
+        if "rsssf" not in COPAS[ek[0]]:
+            continue
         cuenta = {}
         for f in ediciones[ek]["fases"]:
             for p in f["partidos"]:
@@ -596,13 +615,14 @@ def unificar_estadios(ediciones):
     lista quedan como vienen, sin el 'Estadio' de adelante."""
     lista = json.loads((RAIZ / "tools" / "estadios.json").read_text(encoding="utf-8"))["estadios"]
     mapa = {crudo: (nombre, ciudad) for nombre, ciudad, crudos in lista for crudo in crudos}
-    for ed in ediciones.values():
+    for (copa, _), ed in ediciones.items():
         for f in ed["fases"]:
             for p in f["partidos"]:
                 if not p.get("estadio"):
                     continue
-                if p["estadio"] in mapa:
-                    p["estadio"], p["ciudad"] = mapa[p["estadio"]]
+                crudo = next((c for c in (f"{copa}|{p['estadio']}", p["estadio"]) if c in mapa), None)   # el de la copa, primero
+                if crudo:
+                    p["estadio"], p["ciudad"] = mapa[crudo]
                 else:
                     p["estadio"] = re.sub(r"^Est[aá]dio\s+", "", p["estadio"])
 

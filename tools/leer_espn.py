@@ -35,22 +35,51 @@ FASES_SUD = [
 ]
 
 
+# Mundial de Clubes: el partido del campeón de Oceanía contra el del país organizador se llamó "playoff" (2007-2019)
+# y "first round" (2020-2023); los cuartos de final, "second round" desde 2020. 2025: grupos y eliminación directa
+FASES_MUN = [
+    (r"qualifying|play-in", "Fase previa"),
+    (r"^playoffs?$|first-round", "Primera ronda"),
+    (r"quarter", "Cuartos de final"),
+    (r"second-round", "Segunda ronda"),
+    (r"group", "Fase de grupos"),
+    (r"round-of-16", "Octavos de final"),
+    (r"semi", "Semifinales"),
+    (r"fifth", "Quinto puesto"),
+    (r"third", "Tercer puesto"),
+    (r"^final", "Final"),
+]
+# Copa Intercontinental de la FIFA (desde 2024): cada partido tiene su nombre. La "second round" son dos partidos:
+# la Copa África-Asia-Pacífico (septiembre-octubre) y el Derbi de las Américas (diciembre)
+FASES_INT = [
+    (r"first-round", "Primera ronda"),
+    (r"second-round", "Copa África-Asia-Pacífico"),
+    (r"playoff", "Copa Challenger"),
+    (r"^final", "Final"),
+]
+
+
 def fecha_local(iso):
     """ESPN da la hora en UTC; los partidos nocturnos de Sudamérica caen al día siguiente en UTC."""
     t = datetime.datetime.strptime(iso[:16], "%Y-%m-%dT%H:%M") - datetime.timedelta(hours=4)
     return t.strftime("%Y-%m-%d")
 
 
-def nombre_fase(evento, copa="libertadores"):
+def nombre_fase(evento, copa="libertadores", grupos=None):
+    """grupos: {id de ESPN del club: letra}, para las temporadas en que el partido no dice el grupo (Mundial 2025)."""
     slug = evento.get("season", {}).get("slug", "")
     nota = evento["competitions"][0].get("altGameNote") or ""
     if copa == "sudamericana":
         slug = re.sub(r"^copa-sudamericana-+", "", slug)
-    for patron, nombre in (FASES_SUD if copa == "sudamericana" else FASES):
+    tabla = {"sudamericana": FASES_SUD, "mundial": FASES_MUN, "intercontinental": FASES_INT}.get(copa, FASES)
+    for patron, nombre in tabla:
+        if nombre == "Copa África-Asia-Pacífico" and re.search(patron, slug) and evento["date"][5:7] == "12":
+            return "Derbi de las Américas"
         if re.search(patron, slug):
             if nombre == "Fase de grupos":
                 m = re.search(r"Group\s+(\w+)", nota)
-                return f"Fase de grupos — Grupo {m.group(1)}" if m else nombre
+                letra = m.group(1) if m else (grupos or {}).get(evento["competitions"][0]["competitors"][0]["team"]["id"])
+                return f"Fase de grupos — Grupo {letra}" if letra else nombre
             if nombre == "Fase previa" and slug in PREVIAS:
                 return PREVIAS[slug]
             return nombre
@@ -68,6 +97,7 @@ def minuto(clock):
 def leer(anio, copa="libertadores"):
     carpeta = COPAS[copa]["cache_espn"] / str(anio)
     cal = json.loads((carpeta / "calendario.json").read_text(encoding="utf-8"))
+    grupos = json.loads((carpeta / "grupos.json").read_text(encoding="utf-8")) if (carpeta / "grupos.json").exists() else {}
     partidos, equipos = [], {}
     for e in cal.get("events", []):
         comp = e["competitions"][0]
@@ -81,7 +111,7 @@ def leer(anio, copa="libertadores"):
                                 "escudo": t.get("logo")}
         estado = e["status"]["type"]
         p = {
-            "espn": e["id"], "fase": nombre_fase(e, copa), "temporada_espn": (e.get("season") or {}).get("year"), "fecha": fecha_local(e["date"]), "hora_utc": e["date"],
+            "espn": e["id"], "fase": nombre_fase(e, copa, grupos), "temporada_espn": (e.get("season") or {}).get("year"), "fecha": fecha_local(e["date"]), "hora_utc": e["date"],
             "local_espn": lados["home"]["team"]["id"], "visitante_espn": lados["away"]["team"]["id"],
             "local": lados["home"]["team"]["displayName"], "visitante": lados["away"]["team"]["displayName"],
             "gl": int(lados["home"]["score"]) if estado.get("completed") else None,

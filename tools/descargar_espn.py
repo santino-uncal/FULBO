@@ -7,6 +7,7 @@ Uso:  python tools/descargar_espn.py            (todas las temporadas)
 Guarda en tools/cache/espn/<año>/ (la Sudamericana, en tools/cache/espn-sudamericana/<año>/):
   calendario.json     — la lista de partidos de la temporada
   <id_partido>.json   — el detalle de cada partido (solo lo que usamos)
+  grupos.json         — el grupo de cada club, solo si los partidos no lo dicen (Mundial de Clubes 2025)
 Los partidos ya descargados y terminados no se vuelven a pedir (salvo los que se definieron por penales
 y se bajaron antes de que se guardara la tanda).
 """
@@ -71,6 +72,13 @@ def temporada(anio):
     cal = pedir(f"{BASE}/scoreboard?dates={anio}&limit=1000")
     (carpeta / "calendario.json").write_text(json.dumps(cal, ensure_ascii=False), encoding="utf-8")
     eventos = cal.get("events", [])
+    sin_grupo = [e for e in eventos if "group" in (e.get("season") or {}).get("slug", "")
+                 and "Group" not in (e["competitions"][0].get("altGameNote") or "")]
+    if sin_grupo:
+        tabla = pedir(f"{BASE.replace('/site/v2/', '/v2/')}/standings?season={anio}")
+        grupos = {x["team"]["id"]: g["name"].split()[-1] for g in tabla.get("children", [])
+                  for x in g["standings"]["entries"]}
+        (carpeta / "grupos.json").write_text(json.dumps(grupos), encoding="utf-8")
     nuevos = 0
     for e in eventos:
         terminado = e["status"]["type"].get("completed")
@@ -89,7 +97,8 @@ def main():
     clave, args = copa_de_argumentos()
     CACHE = COPAS[clave]["cache_espn"]
     BASE = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{COPAS[clave]['espn']}"
-    anios = [int(a) for a in args] or list(range(PRIMER_ANIO, time.localtime().tm_year + 1))
+    desde = COPAS[clave].get("espn_desde", PRIMER_ANIO)
+    anios = [int(a) for a in args] or list(range(desde, time.localtime().tm_year + 1))
     for a in anios:
         temporada(a)
 

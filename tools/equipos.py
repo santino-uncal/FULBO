@@ -160,6 +160,13 @@ class Catalogo:
         self.nombres[id_][nombre] += 1
         return id_
 
+    def asegurar(self, id_, nombre, pais=None):
+        """El club con ese id (lo crea si todavía no existe: un club que se conoce por un ajuste a mano)."""
+        if id_ not in self.clubes:
+            self.clubes[id_] = {"pais": pais, "ciudad": None, "espn": set()}
+            self.nombres[id_][nombre] += 1
+        return self.clubes[id_]
+
     def exportar(self):
         fijos = self.ajustes.get("nombres", {})
         res = {}

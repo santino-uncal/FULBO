@@ -1,7 +1,8 @@
 """Las copas que tiene la página y dónde vive cada cosa de cada una.
 
 Lo usan todos los scripts de tools/. Para elegir la copa, los scripts aceptan --copa sudamericana
-(sin nada, es la Libertadores).
+(o mundial, o intercontinental; sin nada, es la Libertadores).
+Las copas que no tienen "rsssf" toman de Wikipedia las ediciones viejas (las que ESPN no tiene).
 """
 import sys
 from pathlib import Path
@@ -35,6 +36,36 @@ COPAS = {
         "tm": ("copa-sudamericana", "CS"),
         "entrenadores_partidos": RAIZ / "tools" / "entrenadores_partidos_sudamericana.json",
         "planteles_tm": RAIZ / "tools" / "planteles_tm_sudamericana.json",
+    },
+    # El Mundial de Clubes de la FIFA: 2000 (sale de Wikipedia) y 2005 en adelante (ESPN).
+    # La edición es la de la FIFA: la "2020" se jugó en febrero de 2021.
+    "mundial": {
+        "nombre": "Mundial de Clubes",
+        "desde": 2000,
+        "wikipedia": {2000: "2000_FIFA_Club_World_Championship"},
+        "cache_wikipedia": CACHE / "wikipedia-mundial",
+        "espn": "fifa.cwc",
+        "espn_desde": 2005,
+        "cache_espn": CACHE / "espn-mundial",
+        "data": RAIZ / "data" / "mundial",
+        "ns": "MUN",
+        "entrenadores_partidos": RAIZ / "tools" / "entrenadores_partidos_mundial.json",
+        "planteles_tm": RAIZ / "tools" / "planteles_tm_mundial.json",
+    },
+    # La Copa Intercontinental (Europa contra Sudamérica, 1960-2004, sale de Wikipedia) y la Copa Intercontinental
+    # de la FIFA (desde 2024, ESPN).
+    "intercontinental": {
+        "nombre": "Copa Intercontinental",
+        "desde": 1960,
+        "wikipedia": {a: f"{a}_Intercontinental_Cup" for a in range(1960, 2005) if a not in (1975, 1978)},
+        "cache_wikipedia": CACHE / "wikipedia-intercontinental",
+        "espn": "fifa.intercontinental_cup",
+        "espn_desde": 2024,
+        "cache_espn": CACHE / "espn-intercontinental",
+        "data": RAIZ / "data" / "intercontinental",
+        "ns": "INT",
+        "entrenadores_partidos": RAIZ / "tools" / "entrenadores_partidos_intercontinental.json",
+        "planteles_tm": RAIZ / "tools" / "planteles_tm_intercontinental.json",
     },
 }
 
