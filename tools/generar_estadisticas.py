@@ -18,12 +18,16 @@ INSTANCIAS = ["Octavos de final", "Cuartos de final", "Semifinales", "Final"]
 
 
 PROMEDIO_MIN_PARTIDOS = 20   # para el ranking de promedio de gol
+# En el Mundial y la Intercontinental se juegan pocos partidos por edición: con 20 no entraría nadie
+PROMEDIO_MIN_POR_COPA = {"mundial": 6, "intercontinental": 3}
 
 
 def instancia(nombre_fase, clave="libertadores"):
     base = re.sub(r" — Desempate$", "", nombre_fase)
     if base == "Segunda fase" and clave == "libertadores":   # de 1988 a 2004 la segunda fase eran los octavos
         return "Octavos de final"
+    if base == "Segunda ronda" and clave == "mundial":   # de 2020 a 2023 los cuartos de final se llamaron así
+        return "Cuartos de final"
     return base if base in INSTANCIAS else None
 
 
@@ -35,7 +39,7 @@ def jugaron(p):
                 yield j["id"], j.get("nombre"), lado
 
 
-def promedio_de_gol(eds):
+def promedio_de_gol(eds, minimo=PROMEDIO_MIN_PARTIDOS):
     """Goles por partido jugado. Solo se sabe quién jugó en los partidos con formaciones (desde 2005)."""
     jug = {}
     for anio, ed in eds.items():
@@ -53,7 +57,7 @@ def promedio_de_gol(eds):
                 for g in p.get("goles") or []:
                     if g.get("tipo") != "ec" and g.get("jid") in jug:
                         jug[g["jid"]]["n"] += 1
-    lista = [j for j in jug.values() if j["pj"] >= PROMEDIO_MIN_PARTIDOS and j["n"]]
+    lista = [j for j in jug.values() if j["pj"] >= minimo and j["n"]]
     lista.sort(key=lambda j: (-j["n"] / j["pj"], -j["n"]))
     return [{"nombre": j["nombre"], "clubes": j["clubes"], "anios": [min(j["anios"]), max(j["anios"])],
              "pj": j["pj"], "n": j["n"]} for j in lista[:30]]
@@ -125,13 +129,15 @@ def goles_validos(ed):
                     yield g, p, fase["nombre"], id_
 
 
-def juntar_carreras(unidades):
+def juntar_carreras(unidades, holgura=0):
     """unidades: {(nombre, club): {anio: goles}}. Devuelve jugadores con sus clubes.
 
     En los años viejos las fuentes traen solo el apellido: dos "Silva" pueden ser personas distintas,
     incluso en el mismo club con años de diferencia. Por eso cada nombre en cada club se corta en tramos
     sin huecos largos, y los tramos de un mismo nombre se juntan solo si parecen la misma carrera:
     nunca en dos clubes el mismo año y sin huecos largos entre un club y el siguiente.
+    holgura: años de más que se toleran entre dos tramos de un nombre completo. En el Mundial y la Intercontinental
+    un jugador aparece salteado (Cristiano Ronaldo: 2008 con el United y 2016 con el Real Madrid).
     """
     por_nombre = defaultdict(list)
     for (nombre, club), por_anio in unidades.items():
@@ -145,7 +151,9 @@ def juntar_carreras(unidades):
             tramo["anios"].add(anio)
     jugadores = []
     for nombre, lista in por_nombre.items():
-        hueco_max = 6 if " " in nombre.strip() else 3
+        completo = " " in nombre.strip()
+        hueco_max = 6 + holgura if completo else 3
+        largo_max = 18 + (holgura if completo else 0)
         # Si el mismo nombre aparece en dos clubes a la vez en más de un año, es un apellido común
         # (varios "Da Silva"): no se juntan clubes, cada uno queda por separado
         clubes_por_anio = defaultdict(set)
@@ -159,7 +167,7 @@ def juntar_carreras(unidades):
             destino = None
             for c in carreras:
                 if (not comun and not c["anios"] & u["anios"] and min(u["anios"]) - max(c["anios"]) <= hueco_max
-                        and max(u["anios"]) - min(c["anios"]) <= 18):
+                        and max(u["anios"]) - min(c["anios"]) <= largo_max):
                     destino = c
                     break
             if destino is None:
@@ -178,8 +186,11 @@ def resumen_jugador(j):
             "anios": [min(j["anios"]), max(j["anios"])], "ediciones": len(j["anios"])}
 
 
-def ranking(unidades, cuantos):
-    jugadores = sorted(juntar_carreras(unidades), key=lambda j: (-j["n"], min(j["anios"]), j["nombre"]))
+HOLGURA_POR_COPA = {"mundial": 6, "intercontinental": 6}   # ver juntar_carreras
+
+
+def ranking(unidades, cuantos, holgura=0):
+    jugadores = sorted(juntar_carreras(unidades, holgura), key=lambda j: (-j["n"], min(j["anios"]), j["nombre"]))
     return [resumen_jugador(j) for j in jugadores[:cuantos]]
 
 
@@ -276,13 +287,15 @@ def main(copa="libertadores"):   # (no se llama clave: adentro hay otras claves)
     dts = entrenadores(eds, copa)
     finales, finales_sin_estadio = estadios_finales(eds, copa)
 
+    holgura = HOLGURA_POR_COPA.get(copa, 0)
     salida = {
-        "goleadores": ranking(goleadores, 50),
-        "asistidores": ranking(asistidores, 25),
+        "goleadores": ranking(goleadores, 50, holgura),
+        "asistidores": ranking(asistidores, 25, holgura),
         "goleadorEdicion": goleador_edicion,
-        "porInstancia": {"Todos": ranking(matamata, 30), **{i: ranking(u, 15) for i, u in por_instancia.items()}},
-        "promedioGol": promedio_de_gol(eds),
-        "promedioMinimo": PROMEDIO_MIN_PARTIDOS,
+        "porInstancia": {"Todos": ranking(matamata, 30, holgura),
+                         **{i: ranking(u, 15, holgura) for i, u in por_instancia.items()}},
+        "promedioGol": promedio_de_gol(eds, PROMEDIO_MIN_POR_COPA.get(copa, PROMEDIO_MIN_PARTIDOS)),
+        "promedioMinimo": PROMEDIO_MIN_POR_COPA.get(copa, PROMEDIO_MIN_PARTIDOS),
         "dtPartidos": sorted(dts, key=lambda d: (-d["pj"], -d["g"]))[:30],
         "dtGanados": sorted(dts, key=lambda d: (-d["g"], -d["pj"]))[:30],
         "estadiosFinales": finales,

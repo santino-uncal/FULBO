@@ -594,6 +594,7 @@ def main():
         escribir(COPAS[clave]["data"] / "indice.js", f"window.{COPAS[clave]['ns']}.indice = ", indice[clave], clave)
     (DATA / "jugadores.js").unlink(missing_ok=True)
     escribir_sitemap({clave: [a for c, a in sorted(ediciones) if c == clave] for clave in COPAS})
+    entrenadores_de_formaciones(ediciones)
     for clave in COPAS:
         generar_historial.main(clave)   # historial.js: la ficha de cada club
         generar_estadisticas.main(clave)   # estadisticas.js: estadísticas históricas (usa historial.js)
@@ -658,6 +659,39 @@ def ajustar_finales(ediciones):
             for k, destino in (("estadio", "estadio"), ("ciudad", "ciudad"), ("nueva_fecha", "fecha")):
                 if k in aj:
                     p[destino] = aj[k]
+
+
+def entrenadores_de_formaciones(ediciones):
+    """En las copas sin Transfermarkt (Mundial e Intercontinental), el entrenador de cada club sale de las formaciones
+    de Wikipedia, que dicen quién dirigió cada partido. Escribe data/<copa>/entrenadores.js y el archivo de
+    entrenadores por partido que usan las estadísticas (solo si hay algún dato)."""
+    for clave in COPAS:
+        if "tm" in COPAS[clave]:
+            continue   # las copas de la Conmebol los bajan de Transfermarkt (descargar_entrenadores.py)
+        por_club, por_partido = {}, {}
+        for (c, anio), ed in sorted(ediciones.items()):
+            if c != clave:
+                continue
+            for f in ed["fases"]:
+                for p in f["partidos"]:
+                    for lado, form in (p.get("formaciones") or {}).items():
+                        dt = form.get("dt")
+                        if not dt:
+                            continue
+                        lista = por_club.setdefault(str(anio), {}).setdefault(p[lado], [])
+                        if dt not in lista:
+                            lista.append(dt)
+                        por_partido.setdefault(str(anio), {}).setdefault(
+                            f'{p.get("fecha")}|{p["local"]}|{p["visitante"]}', {})[lado] = dt
+        if not por_club:
+            continue
+        ns = COPAS[clave]["ns"]
+        (COPAS[clave]["data"] / "entrenadores.js").write_text(
+            "/* Generado por tools/generar_datos.py (fuente: formaciones de Wikipedia) — no editar a mano */\n" +
+            prefijo_js(clave) + f"window.{ns}.entrenadores = " + json.dumps(por_club, ensure_ascii=False, separators=(",", ":")) +
+            ";\n", encoding="utf-8")
+        COPAS[clave]["entrenadores_partidos"].write_text(json.dumps(por_partido, ensure_ascii=False, separators=(",", ":")),
+                                                         encoding="utf-8")
 
 
 def escribir_sitemap(anios):
