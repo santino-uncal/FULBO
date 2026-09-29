@@ -31,11 +31,20 @@ body {
   border-bottom: 2px solid var(--acento);
 }
 .cabecera h1 { margin: 4px 0; font-size: clamp(2rem, 6vw, 3.2rem); color: var(--acento); }
-/* Las dos copas lado a lado con la misma letra: la actual resaltada, la otra apagada (lleva a esa copa) */
-.cabecera h1.copas { display: flex; justify-content: center; align-items: flex-end; column-gap: clamp(16px, 6vw, 64px); margin: 12px 0 8px; font-size: clamp(1.05rem, 3.6vw, 2.2rem); line-height: 1.15; }
-.cabecera h1.copas a.copa { display: flex; flex-direction: column; align-items: center; gap: 10px; color: inherit; text-decoration: none; opacity: .38; transition: opacity .2s; }
+/* Las copas lado a lado con la misma letra: la actual resaltada, las otras apagadas (llevan a esa copa).
+   Las cuatro en fila; en pantallas angostas, de a dos por fila */
+.cabecera h1.copas { display: grid; grid-template-columns: repeat(4, auto); justify-content: center; align-items: end; column-gap: clamp(16px, 4vw, 48px); row-gap: 18px; margin: 12px 0 8px; font-size: clamp(.95rem, 1.7vw, 1.35rem); line-height: 1.15; }
+.cabecera h1.copas a.copa { display: flex; flex-direction: column; justify-content: flex-end; align-items: center; gap: 10px; color: inherit; text-decoration: none; opacity: .38; transition: opacity .2s; }
 /* El trofeo de cada copa, con el nombre abajo */
-.cabecera h1.copas .trofeo { display: block; height: clamp(120px, 26vw, 200px); width: auto; filter: drop-shadow(0 6px 14px rgb(0 0 0 / .45)); }
+.cabecera h1.copas .trofeo { display: block; height: clamp(110px, 15vw, 170px); width: auto; filter: drop-shadow(0 6px 14px rgb(0 0 0 / .45)); }
+@media (max-width: 900px) {
+  .cabecera h1.copas { grid-template-columns: repeat(2, auto); column-gap: clamp(12px, 8vw, 64px); font-size: clamp(1rem, 3.4vw, 1.35rem); }
+}
+@media (max-width: 560px) {
+  .cabecera h1.copas { grid-template-columns: 1fr 1fr; column-gap: 12px; row-gap: 14px; }
+  .cabecera h1.copas a.copa { gap: 6px; }
+  .cabecera h1.copas .trofeo { height: 92px; }
+}
 .cabecera h1.copas a.copa:hover { opacity: .7; }
 .cabecera h1.copas a.copa[aria-current="page"] { opacity: 1; }
 .cabecera h1.copas a.copa[aria-current="page"]:hover { opacity: .85; }

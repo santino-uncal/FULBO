@@ -1,13 +1,14 @@
-# Historia de la Copa Libertadores y la Copa Sudamericana
+# Historia de la Copa Libertadores, la Sudamericana, la Intercontinental y el Mundial de Clubes
 
-Todas las ediciones de la Libertadores desde 1960 y de la Sudamericana desde 2002: resultados, goleadores,
-asistidores, planteles y escudos.
+Todas las ediciones de la Libertadores desde 1960, de la Sudamericana desde 2002, de la Copa Intercontinental
+desde 1960 y del Mundial de Clubes desde 2000: resultados, goleadores, asistidores, planteles y escudos.
 
 ## Cómo verlo
 
 - **Publicado:** https://santino-uncal.github.io/FULBO/ (GitHub Pages). Cada edición tiene su link: `?edicion=1986`, y cada club el suyo: `?equipo=river-plate`.
   La Sudamericana es la misma página con `copa=sudamericana` adelante: `?copa=sudamericana`, `?copa=sudamericana&edicion=2014`,
-  `?copa=sudamericana&equipo=lanus`, `?copa=sudamericana&estadisticas`. En la cabecera, tocando el nombre de la otra copa se cambia de copa.
+  `?copa=sudamericana&equipo=lanus`, `?copa=sudamericana&estadisticas`. Lo mismo con `copa=intercontinental` y `copa=mundial`
+  (`?copa=mundial&edicion=2012`). En la cabecera, tocando el nombre de otra copa se cambia de copa.
   `sitemap.xml` (lo arma `tools/generar_datos.py`) y `robots.txt` le indican a Google qué páginas indexar.
 
 - **Rápido:** doble clic en `index.html`.
@@ -24,7 +25,7 @@ asistidores, planteles y escudos.
 | `index.html` | Esqueleto de la página. | Cambios de maquetación. |
 | `css/estilos.css` | Estilos y paleta (`:root`). | Colores, tipografías, responsive. |
 | `js/app.js` | Lógica: lista de ediciones, partidos, rankings y planteles (de la copa que diga la dirección). | Comportamiento e interacción. |
-| `data/equipos.js` | Catálogo de clubes de las dos copas (nombre, país, ciudad, escudo, colores). | **Generado**. |
+| `data/equipos.js` | Catálogo de clubes de todas las copas (nombre, país, ciudad, escudo, colores). | **Generado**. |
 | `data/colores.js` | Colores de cada campeón para vestir la página. | A mano. |
 | `data/jugador-torneo.js` | Mejor jugador de cada Libertadores. | A mano. |
 | `data/indice.js` | Años disponibles con campeón y subcampeón. | **Generado** — no editar a mano. |
@@ -33,7 +34,9 @@ asistidores, planteles y escudos.
 | `data/estadisticas.js` | Estadísticas históricas (goleadores de siempre, por edición y por instancia, títulos, goleadas…). Se carga al tocar "Estadísticas históricas" (`?estadisticas`). | **Generado** (`tools/generar_estadisticas.py`). |
 | `data/ediciones/<año>.js` | Una edición: fases, partidos, goles, formaciones, planteles. | **Generado**. |
 | `data/sudamericana/…` | Lo mismo para la Sudamericana (`indice.js`, `historial.js`, `entrenadores.js`, `estadisticas.js`, `ediciones/<año>.js`). | **Generado**. |
+| `data/intercontinental/…`, `data/mundial/…` | Lo mismo para la Copa Intercontinental y el Mundial de Clubes. Los entrenadores de la Intercontinental salen de las formaciones de Wikipedia; el Mundial todavía no tiene. | **Generado**. |
 | `assets/escudos/<club>.png` | Escudos. | Se bajan con `tools/descargar_escudos.py`. |
+| `assets/banderas/<país>.png` | Banderas (código de la FIFA: `ARG`, `ENG`…). | Se bajan con `tools/descargar_banderas.py`. |
 | `tools/` | Scripts de Python que descargan y arman los datos. `tools/copas.py` dice dónde vive cada cosa de cada copa. | Ver abajo. |
 
 La página carga cada edición recién cuando se la elige. Los **goleadores y asistidores no se escriben
@@ -48,15 +51,27 @@ a mano**: se calculan a partir de los goles de cada partido.
 | 2025 en adelante | **ESPN** | Todo lo anterior. |
 | Todos | **Transfermarkt** | El entrenador de cada equipo en cada edición (cruzando su historial de entrenadores con las fechas de los partidos) y el plantel de cada temporada. |
 
-Vale igual para las dos copas (la Sudamericana empieza en 2002).
+Vale igual para la Libertadores y la Sudamericana (la Sudamericana empieza en 2002).
+
+La **Copa Intercontinental** y el **Mundial de Clubes** tienen otras fuentes:
+
+| Copa | Años | Fuente |
+|---|---|---|
+| Intercontinental | 1960–2004 | **Wikipedia** (en inglés): goles con minuto, formaciones con los cambios, entrenadores, árbitro, estadio y público. |
+| Intercontinental de la FIFA | 2024 en adelante | **ESPN**. |
+| Mundial de Clubes | 2000 | **Wikipedia** (sin formaciones). |
+| Mundial de Clubes | 2005 en adelante | **ESPN** (incluye el de 32 equipos de 2025). |
+
+Los textos de Wikipedia tienen licencia CC BY-SA. Los clubes de otros continentes llevan su país y su nombre en
+castellano en `tools/equipos_ajustes.json` (`pais_espn` y `nombres`), y los estadios en `tools/estadios.json`.
 Los datos de RSSSF de la Libertadores son de Juan Pablo Andrés, Pablo Ciullini y Frank Ballesteros, y los de la
 Sudamericana de Karel Stokkermans, Osvaldo José Gorgazzi y otros (Rec.Sport.Soccer Statistics Foundation), que
 permiten copiarlos citando a los autores.
 
 ## Actualizar los datos
 
-Cada script de descarga trabaja con la Libertadores; con `--copa sudamericana`, con la Sudamericana.
-`generar_datos.py` arma las dos copas juntas (los clubes son los mismos).
+Cada script de descarga trabaja con la Libertadores; con `--copa sudamericana` (o `intercontinental`, o `mundial`),
+con esa copa. `generar_datos.py` arma todas las copas juntas (los clubes son los mismos).
 
 ```bash
 python tools/descargar_rsssf.py     # baja las páginas nuevas de RSSSF
@@ -69,6 +84,11 @@ python tools/descargar_entrenadores.py  # entrenadores de cada equipo (Transferm
 python tools/descargar_entrenadores.py --copa sudamericana
 python tools/descargar_planteles.py     # planteles de Transfermarkt
 python tools/descargar_planteles.py --copa sudamericana
+python tools/descargar_wikipedia.py --copa intercontinental   # Intercontinental 1960-2004 (una sola vez)
+python tools/descargar_wikipedia.py --copa mundial            # Mundial 2000 (una sola vez)
+python tools/descargar_espn.py --copa intercontinental
+python tools/descargar_espn.py --copa mundial
+python tools/descargar_banderas.py  # banderas de los países nuevos
 ```
 
 Para la temporada en curso alcanza con `python tools/descargar_espn.py 2026` (y `--copa sudamericana 2026`)
@@ -83,6 +103,8 @@ y después `generar_datos.py`.
 - `nombres`: el nombre que se muestra en la web.
 - `campeones`: forzar campeón y subcampeón de un año de la Libertadores (`"1960": ["penarol", "olimpia"]`), por si hiciera falta.
   `campeones_sudamericana`: lo mismo para la Sudamericana (2007 se definió por gol de visitante y la final de 2016 no se jugó).
+- `pais_espn`: el país de un club que solo aparece en ESPN (los del Mundial de Clubes).
+- `espn`: unir un club de ESPN a uno nuestro (ESPN tiene al Al Ahly con dos números, por ejemplo).
 
 Después de tocarlo, volver a correr `generar_datos.py`.
 
@@ -91,10 +113,16 @@ emparejamiento automático se confunde (dos "Nacional", dos "River Plate"…): `
 
 ## Créditos de imágenes
 
-Trofeos de la cabecera (`assets/img/`), de Wikimedia Commons, licencia CC BY-SA 4.0:
-- Copa Libertadores: [Mathiaseditorxd](https://commons.wikimedia.org/wiki/File:328-3287452_copa-libertadores-primer-trofeo-hd-png-download.png).
-- Copa Sudamericana: [ChapeTerror](https://commons.wikimedia.org/wiki/File:Ta%C3%A7a_da_Copa_Sul-Americana_de_2016.jpg)
+Trofeos de la cabecera (`assets/img/`), de Wikimedia Commons:
+- Copa Libertadores: [Mathiaseditorxd](https://commons.wikimedia.org/wiki/File:328-3287452_copa-libertadores-primer-trofeo-hd-png-download.png), CC BY-SA 4.0.
+- Copa Sudamericana: [ChapeTerror](https://commons.wikimedia.org/wiki/File:Ta%C3%A7a_da_Copa_Sul-Americana_de_2016.jpg), CC BY-SA 4.0
   (recortada del fondo y achicada).
+- Copa Intercontinental (la de Boca, exhibida en La Plata): [BugWarp](https://commons.wikimedia.org/wiki/File:Intercontinental_de_Boca_exhibida_en_el_Dardo_Rocha_01.jpg),
+  CC BY 4.0 (recortada del fondo y achicada).
+- Mundial de Clubes (en el museo de Anfield): [Daniel from Glasgow](https://commons.wikimedia.org/wiki/File:Anfield_Stadium_Tour_(51930554120).jpg),
+  CC BY 2.0 (recortada del fondo y achicada).
+
+Banderas: [flagcdn.com](https://flagcdn.com) (dominio público); la de Yugoslavia, de Wikimedia Commons.
 
 ## Fases
 

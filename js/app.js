@@ -1,16 +1,32 @@
-/* Lógica de la página. Los datos viven en data/ (Libertadores: window.LIB) y data/sudamericana/ (window.SUD).
+/* Lógica de la página. Los datos viven en data/ (Libertadores: window.LIB), data/sudamericana/ (window.SUD),
+   data/intercontinental/ (window.INT) y data/mundial/ (window.MUN).
    Versión funcional provisoria: el diseño se define después. */
 (function () {
-  // Qué copa se está viendo: ?copa=sudamericana, o la Libertadores si la dirección no dice nada
+  // Qué copa se está viendo: ?copa=sudamericana (o intercontinental, o mundial), o la Libertadores si la dirección no dice nada.
+  // el: se dice "el Mundial de Clubes" (las demás son "la Copa…"); ejemplo: el año de ejemplo del buscador de años;
+  // espn: desde qué año hay asistencias (las trae ESPN); tm: tiene entrenadores y planteles completos de Transfermarkt;
+  // neutral: los partidos son en cancha neutral (no sirven para saber el estadio de cada club);
+  // dt: tiene entrenadores sacados de las formaciones de Wikipedia (la Intercontinental hasta 2004)
   const COPAS = {
-    libertadores: { nombre: "Copa Libertadores", desde: 1960, lema: "La Gloria Eterna", datos: "data/", ns: "LIB",
+    libertadores: { nombre: "Copa Libertadores", desde: 1960, lema: "La Gloria Eterna", datos: "data/", ns: "LIB", ejemplo: 1986, espn: 2005, tm: true,
       // Nombres oficiales que tuvo el torneo, desde el año en que se empezó a usar cada uno (panel de años)
       nombres: [[1960, "Copa Campeones de América"], [1965, "Copa Libertadores de América"], [2017, "Copa Conmebol Libertadores"]] },
-    sudamericana: { nombre: "Copa Sudamericana", desde: 2002, lema: "La Gran Conquista", datos: "data/sudamericana/", ns: "SUD",
+    sudamericana: { nombre: "Copa Sudamericana", desde: 2002, lema: "La Gran Conquista", datos: "data/sudamericana/", ns: "SUD", ejemplo: 2014, espn: 2005, tm: true,
       nombres: [[2002, "Copa Sudamericana"], [2017, "Copa Conmebol Sudamericana"]] },
+    intercontinental: { nombre: "Copa Intercontinental", desde: 1960, lema: "Campeones del Mundo", datos: "data/intercontinental/", ns: "INT",
+      ejemplo: 1986, espn: 2024, neutral: true, dt: true,
+      nombres: [[1960, "Copa Intercontinental"], [1980, "Copa Toyota"], [2024, "Copa Intercontinental de la FIFA"]] },
+    mundial: { nombre: "Mundial de Clubes", el: true, desde: 2000, lema: "El Campeón de Campeones", datos: "data/mundial/", ns: "MUN",
+      ejemplo: 2012, espn: 2005, neutral: true,
+      nombres: [[2000, "Campeonato Mundial de Clubes de la FIFA"], [2006, "Copa Mundial de Clubes de la FIFA"], [2025, "Mundial de Clubes de 32 equipos"]] },
   };
-  const CLAVE_COPA = new URLSearchParams(location.search).get("copa") === "sudamericana" ? "sudamericana" : "libertadores";
+  const pedida = new URLSearchParams(location.search).get("copa");
+  const CLAVE_COPA = COPAS[pedida] ? pedida : "libertadores";
   const COPA = COPAS[CLAVE_COPA];
+  // "la Copa Libertadores" / "el Mundial de Clubes", con la preposición pegada: "de la Copa…" / "del Mundial…", "a la" / "al"
+  const conArticulo = (copa, prep = "") => copa.el
+    ? `${prep === "de" ? "del" : prep === "a" ? "al" : (prep ? prep + " " : "") + "el"} ${copa.nombre}`
+    : `${prep ? prep + " " : ""}la ${copa.nombre}`;
 
   function cargarScript(src) {
     return new Promise((ok, error) => {
@@ -21,9 +37,9 @@
       document.body.appendChild(s);
     });
   }
-  // La Libertadores viene cargada desde index.html; de la Sudamericana hay que traer antes su lista de años y sus
+  // La Libertadores viene cargada desde index.html; de las otras copas hay que traer antes su lista de años y sus
   // entrenadores (si falta alguno de los dos archivos, la página arranca igual con lo que haya)
-  const previos = CLAVE_COPA === "libertadores" ? [] : ["indice.js", "entrenadores.js"].map(f => COPA.datos + f);
+  const previos = CLAVE_COPA === "libertadores" ? [] : ["indice.js", ...(COPA.tm || COPA.dt ? ["entrenadores.js"] : [])].map(f => COPA.datos + f);
   Promise.all(previos.map(src => cargarScript(src).catch(() => {}))).then(iniciar);
 
   function iniciar() {
@@ -33,11 +49,11 @@
   LIB.equipos = window.LIB.equipos;
   LIB.colores = window.LIB.colores;
   if (!LIB.indice?.length) {
-    document.getElementById("edicion").innerHTML = `<p class="vacio">No se encontraron los datos de la ${COPA.nombre}.</p>`;
+    document.getElementById("edicion").innerHTML = `<p class="vacio">No se encontraron los datos ${conArticulo(COPA, "de")}.</p>`;
     return;
   }
   const URL_SITIO = "https://santino-uncal.github.io/FULBO/";   // dirección publicada en GitHub Pages
-  // Direcciones internas: en la Sudamericana todas llevan "copa=sudamericana" adelante (?copa=sudamericana&edicion=2010)
+  // Direcciones internas: en las otras copas todas llevan la copa adelante (?copa=sudamericana&edicion=2010)
   const enlace = (q = "") => CLAVE_COPA === "libertadores" ? (q ? `?${q}` : location.pathname)
     : `?copa=${CLAVE_COPA}${q ? "&" + q : ""}`;
   const enlaceHtml = q => enlace(q).replace(/&/g, "&amp;");
@@ -46,12 +62,12 @@
   document.querySelectorAll("h1.copas a.copa").forEach(a => a.dataset.copa === CLAVE_COPA
     ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
   document.querySelectorAll("h1.copas a.copa").forEach(a => a.setAttribute("title",
-    a.dataset.copa === CLAVE_COPA ? "Ir a la edición actual" : `Ir a la ${COPAS[a.dataset.copa].nombre}`));
+    a.dataset.copa === CLAVE_COPA ? "Ir a la edición actual" : `Ir ${conArticulo(COPAS[a.dataset.copa], "a")}`));
   const desdeEl = document.getElementById("copa-desde");
   if (desdeEl) desdeEl.textContent = `Desde ${COPA.desde}`;
   // El ejemplo del buscador de años tiene que ser un año de esta copa (la Sudamericana empieza en 2002)
   const buscarAnioEj = document.getElementById("buscar-anio");
-  if (buscarAnioEj && CLAVE_COPA === "sudamericana") buscarAnioEj.placeholder = "Escribí un año (ej.: 2014)";
+  if (buscarAnioEj) buscarAnioEj.placeholder = `Escribí un año (ej.: ${COPA.ejemplo})`;
   const lemaEl = document.querySelector(".cabecera-lema");
   if (lemaEl) lemaEl.textContent = COPA.lema;
   const navEl = document.getElementById("ediciones");
@@ -77,7 +93,7 @@
     if (flechaSigEl) flechaSigEl.disabled = anioVecino(1) === null;
   };
 
-  // Carga data/ediciones/<año>.js (o data/sudamericana/ediciones/<año>.js) una sola vez
+  // Carga data/ediciones/<año>.js (o data/<copa>/ediciones/<año>.js) una sola vez
   // (funciona también abriendo index.html con doble clic)
   function cargarEdicion(anio) {
     if (LIB.ediciones && LIB.ediciones[anio]) return Promise.resolve(LIB.ediciones[anio]);
@@ -103,7 +119,13 @@
   const PAISES = { ARG: "Argentina", BOL: "Bolivia", BRA: "Brasil", CHI: "Chile", COL: "Colombia", ECU: "Ecuador",
     MEX: "México", PAR: "Paraguay", PER: "Perú", URU: "Uruguay", VEN: "Venezuela",
     // Invitados de la Concacaf a la Sudamericana (2005-2008)
-    USA: "Estados Unidos", CRC: "Costa Rica", HON: "Honduras" };
+    USA: "Estados Unidos", CRC: "Costa Rica", HON: "Honduras",
+    // Clubes de los otros continentes (Intercontinental y Mundial de Clubes)
+    ESP: "España", ITA: "Italia", ENG: "Inglaterra", SCO: "Escocia", GER: "Alemania", NED: "Países Bajos", POR: "Portugal",
+    FRA: "Francia", AUT: "Austria", GRE: "Grecia", ROU: "Rumania", SWE: "Suecia", YUG: "Yugoslavia",
+    KSA: "Arabia Saudita", UAE: "Emiratos Árabes Unidos", QAT: "Catar", IRN: "Irán", JPN: "Japón", KOR: "Corea del Sur", CHN: "China",
+    AUS: "Australia", NZL: "Nueva Zelanda", TAH: "Tahití", NCL: "Nueva Caledonia", PNG: "Papúa Nueva Guinea",
+    EGY: "Egipto", TUN: "Túnez", ALG: "Argelia", MAR: "Marruecos", RSA: "Sudáfrica", COD: "RD del Congo" };
   function bandera(id) {
     const p = equipo(id).pais;
     if (!PAISES[p]) return "";
@@ -225,7 +247,7 @@
     // Si esta edición no trae estadios, el de la primera edición posterior que sí los tiene (equipos.js)
     const canchas = {};
     ed.fases.forEach(f => f.partidos.forEach(p => {
-      if (!p.estadio || f.nombre.startsWith("Final")) return;   // las finales pueden ser en cancha neutral
+      if (!p.estadio || f.nombre.startsWith("Final") || COPA.neutral) return;   // las finales pueden ser en cancha neutral
       const c = canchas[p.local] ??= {};
       const k = p.estadio + (p.ciudad ? `, ${p.ciudad}` : "");
       c[k] = (c[k] || 0) + 1;
@@ -237,9 +259,10 @@
     const modo = ordenPlantelElegido();
     const botones = ["posicion", "nombre"].map(m => `<button class="orden orden-plantel" type="button" data-orden-plantel="${m}"
       aria-pressed="${modo === m}">${m === "nombre" ? "Por nombre" : "Por posición"}</button>`).join("");
-    return `<h3>Planteles</h3><p class="vacio">Plantel de cada club en esa temporada según Transfermarkt, más los que aparecen en formaciones o goles
+    return `<h3>Planteles</h3><p class="vacio">${COPA.tm ? `Plantel de cada club en esa temporada según Transfermarkt, más los que aparecen en formaciones o goles
       de esta edición. Partidos, goles y asistencias son solo los de esta Copa${ed.anio < 2005 ?
-        " (antes de 2005 solo hay formaciones de las finales: en los demás equipos los partidos jugados figuran como “–”)" : ""}.</p>
+        " (antes de 2005 solo hay formaciones de las finales: en los demás equipos los partidos jugados figuran como “–”)" : ""}.`
+      : "Jugadores que aparecen en las formaciones o los goles de esta edición."}</p>
       <div class="orden-partidos">Ordenar: ${botones}</div>
       <input class="filtro-plantel" type="search" placeholder="Buscar equipo…" aria-label="Buscar equipo en los planteles" autocomplete="off">
       <p class="vacio filtro-plantel-vacio" hidden></p>` +
@@ -499,7 +522,8 @@
     if (niveles.length < minRondas) return "";   // sin eliminación directa antes de la final (p. ej. semifinales por grupos)
     niveles.reverse();
     // Título de cada ronda: el nombre de su fase, o uno genérico si varias rondas comparten fase (2002)
-    const nombres = niveles.map(nivel => nivel.find(Boolean).ll.fase);
+    // (si en una misma ronda hay llaves de fases distintas, van todas: Intercontinental de la FIFA, "Derbi de las Américas / Copa África-Asia-Pacífico")
+    const nombres = niveles.map(nivel => [...new Set(nivel.filter(Boolean).map(x => x.ll.fase))].join(" / "));
     const generico = { 16: "Dieciseisavos de final", 8: "Octavos de final", 4: "Cuartos de final", 2: "Semifinales", 1: "Final" };
     const columnas = niveles.map((nivel, n) => {
       const repetido = nombres.filter(x => x === nombres[n]).length > 1;
@@ -696,6 +720,9 @@
   const NIVEL_FASE = { "Campeón": 10, "Subcampeón": 9, "Final": 9, "Semifinales": 8, "Cuartos de final": 7,
     "Octavos de final": 6, "Playoffs de octavos": 5, "Segunda fase": 5, "Fase de grupos": 4, "Primera fase": 4,
     "Tercera fase previa": 3, "Segunda fase previa": 2, "Primera fase previa": 1, "Fase previa": 1,
+    // Mundial de Clubes e Intercontinental de la FIFA ("Tercer puesto": perdió la semifinal; "Quinto puesto": los cuartos)
+    "Tercer puesto": 8, "Quinto puesto": 7, "Segunda ronda": 7, "Primera ronda": 3,
+    "Copa Challenger": 8, "Derbi de las Américas": 7, "Copa África-Asia-Pacífico": 7,
     ...(CLAVE_COPA === "sudamericana" ? { "Segunda fase": 3, "Primera fase": 2 } : {}) };
   // Mejor o peor instancia a la que llegó, con todos los años en que le pasó
   function participacion(eds, cual) {
@@ -820,9 +847,9 @@
     mostrarAnioEnBoton(null);
     if (guardarEnHistorial) history.pushState(null, "", enlace(`equipo=${encodeURIComponent(id)}`));
     const nombre = equipo(id).nombre;
-    document.title = `${nombre} en la ${COPA.nombre} — Historial`;
+    document.title = `${nombre} ${conArticulo(COPA, "en")} — Historial`;
     const desc = document.querySelector('meta[name="description"]');
-    if (desc) desc.content = `${nombre} en la ${COPA.nombre}: ediciones jugadas, títulos, finales, partidos, goleadores y rivales.`;
+    if (desc) desc.content = `${nombre} ${conArticulo(COPA, "en")}: ediciones jugadas, títulos, finales, partidos, goleadores y rivales.`;
     let canonica = document.querySelector('link[rel="canonical"]');
     if (!canonica) document.head.appendChild(canonica = Object.assign(document.createElement("link"), { rel: "canonical" }));
     canonica.href = URL_SITIO + enlace(`equipo=${encodeURIComponent(id)}`);
@@ -881,7 +908,8 @@
       ["est-promedio", "Promedio de gol"], ["est-matamata", "Mata-mata"], ["est-titulos", "Títulos"],
       ["est-estadios", "Estadios de las finales"], ["est-entrenadores", "Entrenadores"], ["est-clubes", "Clubes"],
       ["est-partidos", "Partidos"], ["est-tripletes", "Tripletes"], ["est-asistidores", "Asistidores"],
-      ["est-goles", "Goles por edición"]];
+      ["est-goles", "Goles por edición"]]
+      .filter(([id]) => id !== "est-entrenadores" || st.dtPartidos?.length);   // sin datos de Transfermarkt no hay entrenadores
 
     let html = `<h2>📊 Estadísticas históricas</h2>
       <p class="vacio">Todas las ediciones desde ${COPA.desde}. En las ediciones viejas las fuentes a veces traen solo el apellido
@@ -907,15 +935,14 @@
           <td>${e.jugadores.map(j => linkEquipo(j.equipo)).join("<br>")}</td><td class="num"><strong>${e.n}</strong></td></tr>`), 20);
 
     html += `<h3 id="est-promedio">⚡ Mejor promedio de gol</h3>
-      <p class="vacio">Goles por partido jugado. Solo se puede contar desde 2005, cuando empiezan las formaciones de cada partido,
-        y entran los jugadores con ${st.promedioMinimo} partidos o más.</p>` +
+      <p class="vacio">Goles por partido jugado. Solo se puede contar en los partidos con formaciones${COPA.tm ? " (desde 2005)" : ""}, y entran los jugadores con ${st.promedioMinimo} partidos o más.</p>` +
       tablaEst(["#", "Jugador", "Club", "Años", { t: "PJ", num: 1 }, { t: "Goles", num: 1 }, { t: "Promedio", num: 1 }],
         st.promedioGol.map((j, i) => `<tr><td class="num">${i + 1}</td><td>${esc(j.nombre)}</td><td>${clubes(j.clubes)}</td>
           <td>${aniosDe(j.anios)}</td><td class="num">${j.pj}</td><td class="num">${j.n}</td>
           <td class="num"><strong>${(j.n / j.pj).toFixed(2).replace(".", ",")}</strong></td></tr>`));
 
     // Pestañas: "Todos" suma todas las instancias de eliminación directa
-    const TABS_MM = ["Todos", ...INSTANCIAS];
+    const TABS_MM = ["Todos", ...INSTANCIAS.filter(ins => st.porInstancia[ins]?.length)];   // (en la Intercontinental solo hay finales)
     html += `<h3 id="est-matamata">🔥 Goleadores en los mata-mata</h3>
       <p class="vacio">Goles en las instancias de eliminación directa (octavos, cuartos, semifinales y final), sumando todas las ediciones.${
         CLAVE_COPA === "libertadores" ? " Las semifinales que se jugaban en grupos (años 60 a 80) no cuentan." : ""}</p>
@@ -953,8 +980,9 @@
     const tablaDT = (lista, clave) => tablaEst(["#", "Entrenador", "Club", "Años", { t: "PJ", num: 1 }, { t: "G", num: 1 },
       { t: "E", num: 1 }, { t: "P", num: 1 }, { t: "Títulos", num: 1 }], lista.map((d, i, l) => filaDT(d, i, clave, l)));
     if (st.dtPartidos?.length) html += `<h3 id="est-entrenadores">🧑‍💼 Entrenadores</h3>
-      <p class="vacio">Quién dirigió cada partido sale de Transfermarkt, cruzando las fechas de cada entrenador en su club
-        con las de los partidos. En las ediciones viejas faltan algunos equipos.</p>
+      <p class="vacio">${COPA.tm ? `Quién dirigió cada partido sale de Transfermarkt, cruzando las fechas de cada entrenador en su club
+        con las de los partidos. En las ediciones viejas faltan algunos equipos.`
+        : "Quién dirigió cada partido sale de las formaciones de Wikipedia (hasta 2004); faltan los partidos sin formación."}</p>
       <div class="grupo-tabs"><div class="orden-partidos">
         <button class="tab-instancia" type="button" data-instancia="pj" aria-pressed="true">Más partidos</button>
         <button class="tab-instancia" type="button" data-instancia="g" aria-pressed="false">Más partidos ganados</button></div>
@@ -978,7 +1006,7 @@
           <td>${partidoLinea(t.partido)}</td><td>${linkEdicion(t.partido.anio)}</td></tr>`));
 
     html += `<h3 id="est-asistidores">🎯 Máximos asistidores</h3>
-      <p class="vacio">Las asistencias están registradas solo desde 2005.</p>` + tablaGoleadores(st.asistidores, "Asist.");
+      <p class="vacio">Las asistencias están registradas solo desde ${COPA.espn}.</p>` + tablaGoleadores(st.asistidores, "Asist.");
 
     const maxProm = Math.max(...st.golesEdicion.map(e => e.partidos ? e.goles / e.partidos : 0));
     html += `<h3 id="est-goles">📈 Goles por edición</h3>
@@ -997,9 +1025,9 @@
     botonEstEl?.setAttribute("aria-current", "page");
     mostrarAnioEnBoton(null);
     if (guardarEnHistorial) history.pushState(null, "", enlace("estadisticas"));
-    document.title = `Estadísticas históricas de la ${COPA.nombre}`;
+    document.title = `Estadísticas históricas ${conArticulo(COPA, "de")}`;
     const desc = document.querySelector('meta[name="description"]');
-    if (desc) desc.content = `Estadísticas históricas de la ${COPA.nombre}: máximos goleadores, goleador de cada edición, ` +
+    if (desc) desc.content = `Estadísticas históricas ${conArticulo(COPA, "de")}: máximos goleadores, goleador de cada edición, ` +
       "goleadores en octavos, cuartos, semifinales y finales, clubes y países campeones, mayores goleadas.";
     let canonica = document.querySelector('link[rel="canonical"]');
     if (!canonica) document.head.appendChild(canonica = Object.assign(document.createElement("link"), { rel: "canonical" }));

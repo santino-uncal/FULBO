@@ -22,8 +22,8 @@
 <body>
 <header class="cabecera">
   <p class="cabecera-eyebrow" id="copa-desde">Desde 1960</p>
-  <!-- Las dos copas (el trofeo y el nombre abajo), con la misma letra: la que se está viendo resaltada; la otra, más apagada, lleva a esa copa.
-       app.js marca cuál es la actual según la dirección (?copa=sudamericana) -->
+  <!-- Las copas (el trofeo y el nombre abajo), con la misma letra: la que se está viendo resaltada; las otras, más apagadas, llevan a esa copa.
+       app.js marca cuál es la actual según la dirección (?copa=sudamericana, ?copa=mundial…) -->
   <h1 class="copas">
     <a class="copa" data-copa="libertadores" href="index.html" aria-current="page">
       <img class="trofeo" src="assets/img/copa-libertadores.webp" alt="" width="147" height="440">
@@ -31,6 +31,12 @@
     <a class="copa" data-copa="sudamericana" href="?copa=sudamericana">
       <img class="trofeo" src="assets/img/copa-sudamericana.webp" alt="" width="192" height="440">
       <span>Copa Sudamericana</span></a>
+    <a class="copa" data-copa="intercontinental" href="?copa=intercontinental">
+      <img class="trofeo" src="assets/img/copa-intercontinental.webp" alt="" width="187" height="440">
+      <span>Copa Intercontinental</span></a>
+    <a class="copa" data-copa="mundial" href="?copa=mundial">
+      <img class="trofeo" src="assets/img/copa-mundial.webp" alt="" width="211" height="440">
+      <span>Mundial de Clubes</span></a>
   </h1>
   <p class="cabecera-lema">La Gloria Eterna</p>
   <p class="cabecera-sub">Todas las ediciones, partidos, goleadores y planteles</p>

@@ -39,5 +39,23 @@ window.LIB.colores = {
   "santos":                  ["#FFFFFF", "#111111"],
   "sao-paulo":               ["#FFFFFF", "#C8102E"],
   "vasco-da-gama":           ["#111111", "#FFFFFF"],
-  "velez-sarsfield":         ["#FFFFFF", "#0055A4"]
+  "velez-sarsfield":         ["#FFFFFF", "#0055A4"],
+  // Campeones de Europa (Intercontinental y Mundial de Clubes)
+  "ajax":                    ["#FFFFFF", "#C8102E"],
+  "atletico-madrid":         ["#CB3524", "#FFFFFF"],
+  "barcelona-esp":           ["#004D98", "#EDBB00"],
+  "bayern-munich":           ["#DC052D", "#FFFFFF"],
+  "borussia-dortmund":       ["#FDE100", "#111111"],
+  "chelsea":                 ["#034694", "#FFFFFF"],
+  "feyenoord":               ["#FFFFFF", "#D2001E"],
+  "inter-milan":             ["#111111", "#3A8DDE"],
+  "juventus":                ["#111111", "#FFFFFF"],
+  "liverpool-eng":           ["#C8102E", "#FFFFFF"],
+  "manchester-city":         ["#6CABDD", "#1C2C5B"],
+  "manchester-united":       ["#DA291C", "#FFFFFF"],
+  "milan":                   ["#111111", "#FB090B"],
+  "paris-saint-germain":     ["#004170", "#FFFFFF"],
+  "porto":                   ["#FFFFFF", "#003893"],
+  "real-madrid":             ["#FFFFFF", "#1B2A5C"],
+  "red-star-belgrade":       ["#C8102E", "#FFFFFF"]
 };
