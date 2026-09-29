@@ -94,26 +94,6 @@ main { max-width: 1240px; margin: 0 auto; padding: 24px 16px; }
 .edicion h2 { color: var(--acento); margin-top: 0; }
 /* Campeón de la edición con sus títulos debajo ("4 veces campeón") */
 .campeon-edicion { display: inline-flex; flex-direction: column; align-items: center; vertical-align: top; }
-/* El campeón se puede tocar para ver la foto con la copa (cuando hay foto) */
-.ver-foto-campeon {
-  font: inherit; font-weight: 700; color: inherit; cursor: pointer; padding: 2px 8px; margin: -2px -8px;
-  background: none; border: 1px dashed transparent; border-radius: var(--radio);
-}
-.ver-foto-campeon:hover, .ver-foto-campeon:focus-visible { border-color: var(--acento); color: var(--acento); outline: none; }
-#foto-campeon {
-  padding: 0; max-width: min(92vw, 900px); background: var(--panel-2); color: var(--texto);
-  border: 1px solid var(--acento); border-radius: var(--radio); overflow: hidden;
-}
-#foto-campeon::backdrop { background: rgb(0 0 0 / .75); }
-#foto-campeon figure { margin: 0; }
-#foto-campeon img { display: block; width: 100%; max-height: 75vh; object-fit: contain; background: #000; }
-#foto-campeon figcaption { padding: 12px 16px; font-size: .95rem; }
-#foto-campeon figcaption small { display: block; margin-top: 6px; color: var(--texto-suave); font-size: .78rem; }
-#foto-campeon figcaption a { color: inherit; }
-.cerrar-foto {
-  position: absolute; top: 8px; right: 8px; width: 36px; height: 36px; font-size: 1.1rem; cursor: pointer;
-  color: #fff; background: rgb(0 0 0 / .6); border: none; border-radius: 50%;
-}
 .veces-campeon { font-size: .8rem; font-weight: 400; color: var(--texto-suave); }
 .edicion h3 { border-bottom: 1px solid var(--borde); padding-bottom: 4px; }
 .vacio { color: var(--texto-suave); }

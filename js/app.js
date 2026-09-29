@@ -602,26 +602,6 @@
   }
 
   // Cuántas Copas llevaba el campeón contando la de ese año (River en 2018: 4)
-  // Foto del campeón levantando la copa (data/fotos-campeones.js, de Wikimedia Commons; no hay de todos los años)
-  const fotoCampeon = anio => (window.FOTOS_CAMPEONES || {})[CLAVE_COPA]?.[anio];
-  function abrirFotoCampeon(anio) {
-    const f = fotoCampeon(anio);
-    if (!f) return;
-    let dlg = document.getElementById("foto-campeon");
-    if (!dlg) {
-      dlg = document.createElement("dialog");
-      dlg.id = "foto-campeon";
-      document.body.appendChild(dlg);
-      dlg.addEventListener("click", e => { if (e.target === dlg || e.target.closest(".cerrar-foto")) dlg.close(); });
-    }
-    const ed = LIB.indice.find(e => e.anio == anio);
-    dlg.innerHTML = `<button class="cerrar-foto" type="button" aria-label="Cerrar">✕</button>
-      <figure><img src="${esc(f.archivo)}" alt="${esc(f.descripcion)}">
-      <figcaption><strong>${club(ed.campeon)}, campeón ${anio}</strong><br>${esc(f.descripcion)}
-      <small>Foto: <a href="${esc(f.fuente)}" target="_blank" rel="noopener">${esc(f.autor)}</a> · ${esc(f.licencia)} · Wikimedia Commons</small></figcaption></figure>`;
-    dlg.showModal();
-  }
-
   function vecesCampeon(ed) {
     const n = LIB.indice.filter(e => e.campeon === ed.campeon && e.anio <= ed.anio).length;
     return `<small class="veces-campeon">${n === 1 ? "1 vez campeón" : `${n} veces campeón`}</small>`;
@@ -629,9 +609,7 @@
 
   function mostrar(ed) {
     let html = `<h2>${ed.anio}</h2>
-      <p>🏆 Campeón: <strong class="${ed.campeon ? "campeon-edicion" : ""}">${ed.campeon ? `${fotoCampeon(ed.anio)
-        ? `<button class="ver-foto-campeon" type="button" data-anio="${ed.anio}" title="Ver la foto del campeón con la copa">${club(ed.campeon)} 📷</button>`
-        : `<span>${club(ed.campeon)}</span>`}${vecesCampeon(ed)}` : "—"}</strong> · Subcampeón: ${ed.subcampeon ? club(ed.subcampeon) : "—"}</p>
+      <p>🏆 Campeón: <strong class="${ed.campeon ? "campeon-edicion" : ""}">${ed.campeon ? `<span>${club(ed.campeon)}</span>${vecesCampeon(ed)}` : "—"}</strong> · Subcampeón: ${ed.subcampeon ? club(ed.subcampeon) : "—"}</p>
       ${ed.nota ? `<p class="nota-edicion">${esc(ed.nota)}</p>` : ""}
       <p class="vacio">Fuentes: ${ed.fuentes.join(" + ")}</p>`;
     // La final (y su desempate, si hubo) va arriba de todo
@@ -1227,8 +1205,6 @@
     vacio.textContent = `No hay equipos con “${e.target.value.trim()}” en esta edición.`;
   });
   edicionEl.addEventListener("click", e => {
-    const botonFoto = e.target.closest("button.ver-foto-campeon");
-    if (botonFoto) { abrirFotoCampeon(botonFoto.dataset.anio); return; }
     const link = e.target.closest("a[data-anio], a[data-equipo]");
     if (link && !e.ctrlKey && !e.metaKey && !e.shiftKey) {   // años y rivales de la ficha de un equipo
       e.preventDefault();

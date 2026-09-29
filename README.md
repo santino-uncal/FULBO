@@ -96,10 +96,6 @@ Trofeos de la cabecera (`assets/img/`), de Wikimedia Commons, licencia CC BY-SA 
 - Copa Sudamericana: [ChapeTerror](https://commons.wikimedia.org/wiki/File:Ta%C3%A7a_da_Copa_Sul-Americana_de_2016.jpg)
   (recortada del fondo y achicada).
 
-Fotos de los campeones con la copa (`assets/campeones/`): de Wikimedia Commons, elegidas en
-`tools/fotos_campeones.json` y bajadas con `tools/descargar_fotos_campeones.py`. El autor y la licencia de cada una
-se muestran debajo de la foto (quedan guardados en `data/fotos-campeones.js`). No hay foto libre de todos los años.
-
 ## Fases
 
 Cada sesión se cierra con un `fases/fase_NN.md`. Para saber en qué fase vamos, mirá el último archivo de `fases/`.
