@@ -18,10 +18,12 @@ CACHE = RAIZ / "tools" / "cache" / "mapa" / "paises.geojson"
 ANCHO = 600
 MARGEN = 6   # aire alrededor del dibujo
 
-# Cada mapa: el continente de Natural Earth, el meridiano del centro y el recorte (oeste, este, sur, norte)
+# Cada mapa: el continente de Natural Earth, el meridiano del centro y el recorte (oeste, este, sur, norte).
+# extras: países que Natural Earth pone en otro continente pero se dibujan en este (Turquía, Armenia, Georgia y Azerbaiyán
+# figuran en Asia, pero en el fútbol son de Europa: juegan en la UEFA)
 MAPAS = {
     "sudamerica": {"continente": "South America", "centro": -60, "recorte": (-95, -30, -57, 14)},
-    "europa": {"continente": "Europe", "centro": 15, "recorte": (-25, 45, 34, 71)},
+    "europa": {"continente": "Europe", "centro": 15, "recorte": (-25, 51, 34, 71), "extras": {"TUR", "ARM", "GEO", "AZE"}},
 }
 # Territorios que se dibujan aparte de su país (ver continente_de_parte)
 TERRITORIOS = {("Francia", "South America"): "Guayana Francesa"}
@@ -79,7 +81,7 @@ def armar(datos, conf):
         poligonos = g["coordinates"] if g["type"] == "MultiPolygon" else [g["coordinates"]]
         anillos = []
         for pol in poligonos:
-            if continente_de_parte(p["CONTINENT"], pol) != conf["continente"]:
+            if continente_de_parte(p["CONTINENT"], pol) != conf["continente"] and p["ADM0_A3"] not in conf.get("extras", ()):
                 continue
             for anillo in pol:
                 for eje, limite, menor in ((0, este, True), (0, oeste, False), (1, norte, True), (1, sur, False)):
