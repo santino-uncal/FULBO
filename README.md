@@ -117,6 +117,18 @@ Después de tocarlo, volver a correr `generar_datos.py`.
 `tools/entrenadores_ajustes.json` dice a qué club de Transfermarkt corresponde cada club nuestro cuando el
 emparejamiento automático se confunde (dos "Nacional", dos "River Plate"…): `"nacional-par": 7098`.
 
+## Pruebas
+
+Doble clic en `probar.bat` (o `py -m unittest discover tests`). Conviene correrlas después de `generar_datos.py`.
+
+- `tests/test_herramientas.py`: las funciones de `tools/` (leer goles, fechas y formaciones de RSSSF, Wikipedia y
+  ESPN; quién gana una llave; nombres de clubes; estadísticas).
+- `tests/test_datos.py`: que los datos de `data/` sean coherentes en las cuatro copas (el índice coincide con las
+  ediciones, el campeón jugó la final, todos los clubes están en el catálogo, los penales y las tandas cuadran…).
+
+Al final dice `OK` si todo anda. Hoy hay una "expected failure" (falla conocida): en unos 400 partidos viejos de
+RSSSF los goles del visitante quedaron anotados al local.
+
 ## Créditos de imágenes
 
 Trofeos de la cabecera (`assets/img/`), de Wikimedia Commons:
