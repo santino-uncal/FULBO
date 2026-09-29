@@ -5,7 +5,7 @@ desde 1960 y del Mundial de Clubes desde 2000: resultados, goleadores, asistidor
 
 ## Cómo verlo
 
-- **Publicado:** https://santino-uncal.github.io/FULBO/ (GitHub Pages). La portada es un mapa de América y Europa: tocando un
+- **Publicado:** https://santino-uncal.github.io/FULBO/ (GitHub Pages). La portada es un cuadro partido en dos, con los mapas de Sudamérica y Europa: tocando un
   continente (`?continente=sudamerica`) aparecen sus copas internacionales, sus ligas nacionales (próximamente) y los títulos
   de sus clubes en el Mundial y la Intercontinental. Arriba, en todas las páginas, están las pestañas Continentes,
   Mundial de Clubes e Intercontinental.
@@ -32,7 +32,7 @@ desde 1960 y del Mundial de Clubes desde 2000: resultados, goleadores, asistidor
 | `data/equipos.js` | Catálogo de clubes de todas las copas (nombre, país, ciudad, escudo, colores). | **Generado**. |
 | `data/colores.js` | Colores de cada campeón para vestir la página. | A mano. |
 | `data/continentes.js` | Los continentes de la portada: confederación, copas internacionales (con link si ya están cargadas), ligas nacionales y países. | A mano. |
-| `data/mapa.js` | El dibujo del mapa de América y Europa de la portada (fuente: Natural Earth, dominio público). | **Generado** (`tools/generar_mapa.py`). |
+| `data/mapa.js` | Los mapas de Sudamérica y Europa de la portada (fuente: Natural Earth, dominio público). | **Generado** (`tools/generar_mapa.py`). |
 | `data/jugador-torneo.js` | Mejor jugador de cada Libertadores. | A mano. |
 | `data/indice.js` | Años disponibles con campeón y subcampeón. | **Generado** — no editar a mano. |
 | `data/historial.js` | Historia de cada club (ediciones, títulos, partidos, rivales, goleadores) para el buscador. Se carga recién al usar el buscador. | **Generado** (`tools/generar_historial.py`). |

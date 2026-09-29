@@ -52,18 +52,21 @@ body {
 .pestanas-mundo a[aria-current="page"] { background: var(--acento); border-color: var(--acento); color: var(--fondo); }
 .titulo-portada { margin: 8px 0 6px; }
 
-/* ---- Portada: el mapa de América y Europa y el continente elegido ---- */
+/* ---- Portada: los mapas de Sudamérica y Europa y el continente elegido ---- */
 .portada[hidden], .barra-superior[hidden], .edicion[hidden] { display: none; }
-.mapa-caja { background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio); padding: clamp(6px, 2vw, 18px); }
-.mapa { display: block; width: 100%; height: auto; max-height: 68vh; margin: 0 auto; }
-.mapa-continente { fill: var(--color-continente); stroke: var(--fondo); stroke-width: .6; cursor: pointer; transition: opacity .2s, filter .2s; outline: none; }
-.mapa-continente:hover, .mapa-continente:focus-visible { filter: brightness(1.25); }
-.mapa.con-eleccion .mapa-continente { opacity: .35; }
-.mapa.con-eleccion .mapa-continente.elegido, .mapa.con-eleccion .mapa-continente:hover { opacity: 1; }
-.botones-continentes { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 14px 0 6px; }
-.boton-continente { padding: 7px 14px; border-radius: 999px; border: 2px solid var(--color-continente); color: var(--texto);
-  text-decoration: none; font-weight: 600; font-size: .92rem; }
-.boton-continente:hover, .boton-continente.elegido { background: var(--color-continente); color: #fff; }
+/* El cuadro partido al medio: Sudamérica a la izquierda, Europa a la derecha; nombre arriba y mapa abajo */
+.cuadro-continentes { display: grid; grid-template-columns: 1fr 1fr; background: var(--panel); border: 2px solid var(--borde);
+  border-radius: var(--radio); overflow: hidden; }
+.mitad { display: flex; flex-direction: column; align-items: center; padding: clamp(12px, 3vw, 26px) clamp(8px, 2vw, 20px);
+  color: var(--texto); text-decoration: none; transition: background .2s, opacity .2s; }
+.mitad + .mitad { border-left: 2px solid var(--borde); }
+.mitad-nombre { margin: 0 0 clamp(10px, 2vw, 20px); font-size: clamp(1.2rem, 3.2vw, 2.1rem); }
+.mitad .mapa { display: block; width: 100%; height: clamp(190px, 38vw, 440px); fill: var(--color-continente);
+  stroke: var(--panel); stroke-width: .8; transition: filter .2s; }
+.mitad:hover, .mitad:focus-visible, .mitad.elegido { background: var(--panel-2); }
+.mitad:hover .mapa, .mitad:focus-visible .mapa { filter: brightness(1.2); }
+.mitad.elegido .mitad-nombre { color: var(--color-continente); }
+.cuadro-continentes.con-eleccion .mitad:not(.elegido):not(:hover) { opacity: .5; }
 .continente { scroll-margin-top: 12px; }
 .continente h2 { border-bottom: 3px solid var(--color-continente); padding-bottom: 6px; }
 .continente h2 small { font-size: .6em; font-weight: 600; color: var(--texto-suave); margin-left: 6px; }

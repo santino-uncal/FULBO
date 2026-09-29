@@ -1,9 +1,9 @@
-/* Los continentes de la portada (el mapa de América y Europa): su confederación, sus copas internacionales y sus ligas nacionales.
+/* Los continentes de la portada (el cuadro con los mapas de Sudamérica y Europa): su confederación, sus copas internacionales y sus ligas nacionales.
    Se edita a mano.
    - copa: la clave de la copa en la página (?copa=libertadores); si no tiene, la copa todavía no está cargada ("próximamente").
    - paises: los países de cada continente con el código que usa la página (el de la FIFA), para contar los títulos
      de sus clubes en el Mundial de Clubes y la Intercontinental.
-   - color: el del continente en el mapa. */
+   - color: el del continente en su mapa. */
 window.CONTINENTES = {
   sudamerica: {
     nombre: "Sudamérica", confederacion: "Conmebol", color: "#2e9e57",
@@ -18,15 +18,6 @@ window.CONTINENTES = {
       ["BOL", "División Profesional"], ["VEN", "Liga FUTVE"],
     ],
     paises: ["ARG", "BRA", "URU", "PAR", "CHI", "COL", "PER", "ECU", "BOL", "VEN"],
-  },
-  norteamerica: {
-    nombre: "Norte y Centroamérica", confederacion: "Concacaf", color: "#d9534f",
-    internacionales: [
-      { nombre: "Copa de Campeones de la Concacaf", desde: 1962 },
-      { nombre: "Copa Centroamericana", desde: 2023 },
-    ],
-    nacionales: [["MEX", "Liga MX"], ["USA", "MLS"], ["CRC", "Primera División"], ["HON", "Liga Nacional"]],
-    paises: ["MEX", "USA", "CRC", "HON"],
   },
   europa: {
     nombre: "Europa", confederacion: "UEFA", color: "#3f7fd9",

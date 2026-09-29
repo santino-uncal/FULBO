@@ -1,6 +1,6 @@
 /* Lógica de la página. Los datos viven en data/ (Libertadores: window.LIB), data/sudamericana/ (window.SUD),
    data/intercontinental/ (window.INT) y data/mundial/ (window.MUN).
-   Sin copa en la dirección, la página es la portada: el mapa de América y Europa (data/mapa.js y data/continentes.js).
+   Sin copa en la dirección, la página es la portada: los mapas de Sudamérica y Europa (data/mapa.js y data/continentes.js).
    Versión funcional provisoria: el diseño se define después. */
 (function () {
   // Qué copa se está viendo: ?copa=sudamericana (o libertadores, intercontinental, mundial). Sin copa pero con
@@ -72,7 +72,7 @@
   const previos = CLAVE_COPA === "libertadores" ? [] : ["indice.js", ...(COPA.tm || COPA.dt ? ["entrenadores.js"] : [])].map(f => COPA.datos + f);
   Promise.all(previos.map(src => cargarScript(src).catch(() => {}))).then(iniciar);
 
-  // ---- Portada: el mapa de América y Europa. Se toca un continente y abajo aparecen sus copas, sus ligas y sus títulos mundiales ----
+  // ---- Portada: los mapas de Sudamérica y Europa. Se toca un continente y abajo aparecen sus copas, sus ligas y sus títulos mundiales ----
   function iniciarPortada() {
     const URL_SITIO = "https://santino-uncal.github.io/FULBO/";
     const CONT = window.CONTINENTES || {};
@@ -90,14 +90,16 @@
     portadaEl.hidden = false;
     if (!MAPA) { portadaEl.innerHTML = `<p class="vacio">No se pudo cargar el mapa.</p>`; return; }
 
-    // El mapa: un dibujo por país, agrupados por continente (el nombre del país aparece al pasar el mouse)
-    const grupos = Object.keys(CONT).map(c => `<g class="mapa-continente" data-continente="${c}" style="--color-continente:${CONT[c].color}"
-        role="button" tabindex="0" aria-label="${esc(CONT[c].nombre)}">${MAPA.paises.filter(p => p.c === c)
-        .map(p => `<path d="${p.d}"><title>${esc(p.n)} · ${esc(CONT[c].nombre)}</title></path>`).join("")}</g>`).join("");
-    portadaEl.innerHTML = `<div class="mapa-caja"><svg class="mapa" viewBox="0 0 ${MAPA.ancho} ${MAPA.alto}" role="group"
-        aria-label="Mapa de América y Europa: elegí un continente">${grupos}</svg></div>
-      <nav class="botones-continentes" aria-label="Continentes">${Object.entries(CONT).map(([c, x]) =>
-        `<a class="boton-continente" href="?continente=${c}" data-continente="${c}" style="--color-continente:${x.color}">${esc(x.nombre)}</a>`).join("")}</nav>
+    // Un cuadro grande partido al medio: cada mitad es un continente, con el nombre arriba y su mapa abajo
+    // (un dibujo por país: el nombre del país aparece al pasar el mouse). Toda la mitad es un link
+    const mitades = Object.entries(CONT).map(([c, x]) => {
+      const m = MAPA[c];
+      const mapa = m ? `<svg class="mapa" viewBox="0 0 ${m.ancho} ${m.alto}" aria-hidden="true">${m.paises
+        .map(p => `<path d="${p.d}"><title>${esc(p.n)}</title></path>`).join("")}</svg>` : "";
+      return `<a class="mitad" href="?continente=${c}" data-continente="${c}" style="--color-continente:${x.color}">
+        <h2 class="mitad-nombre">${esc(x.nombre)}</h2>${mapa}</a>`;
+    }).join("");
+    portadaEl.innerHTML = `<nav class="cuadro-continentes" aria-label="Continentes">${mitades}</nav>
       <section class="continente" id="continente" aria-live="polite"></section>`;
     const panelEl = document.getElementById("continente");
 
@@ -128,9 +130,9 @@
     function mostrarContinente(c) {
       const x = CONT[c];
       portadaEl.querySelectorAll("[data-continente]").forEach(el => el.classList.toggle("elegido", el.dataset.continente === c));
-      portadaEl.querySelector(".mapa").classList.toggle("con-eleccion", !!x);
+      portadaEl.querySelector(".cuadro-continentes").classList.toggle("con-eleccion", !!x);
       if (!x) {
-        panelEl.innerHTML = `<p class="vacio continente-ayuda">👆 Tocá un continente en el mapa (o su nombre, arriba) para ver sus copas.</p>`;
+        panelEl.innerHTML = `<p class="vacio continente-ayuda">👆 Tocá Sudamérica o Europa para ver sus copas.</p>`;
         return;
       }
       const tarjeta = t => t.copa
@@ -165,10 +167,6 @@
       if (!el || e.ctrlKey || e.metaKey || e.shiftKey) return;
       e.preventDefault();
       elegir(el.dataset.continente, true);
-    });
-    portadaEl.addEventListener("keydown", e => {
-      const g = e.target.closest("g[data-continente]");
-      if (g && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); elegir(g.dataset.continente, true); }
     });
     window.addEventListener("popstate", () => elegir(new URLSearchParams(location.search).get("continente")));
     elegir(PARAMS.get("continente"));
