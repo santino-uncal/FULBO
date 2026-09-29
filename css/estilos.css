@@ -31,26 +31,74 @@ body {
   border-bottom: 2px solid var(--acento);
 }
 .cabecera h1 { margin: 4px 0; font-size: clamp(2rem, 6vw, 3.2rem); color: var(--acento); }
-/* Las copas lado a lado con la misma letra: la actual resaltada, las otras apagadas (llevan a esa copa).
-   Las cuatro en fila; en pantallas angostas, de a dos por fila */
-.cabecera h1.copas { display: grid; grid-template-columns: repeat(4, auto); justify-content: center; align-items: end; column-gap: clamp(16px, 4vw, 48px); row-gap: 18px; margin: 12px 0 8px; font-size: clamp(.95rem, 1.7vw, 1.35rem); line-height: 1.15; }
-.cabecera h1.copas a.copa { display: flex; flex-direction: column; justify-content: flex-end; align-items: center; gap: 10px; color: inherit; text-decoration: none; opacity: .38; transition: opacity .2s; }
+/* Las dos copas de la misma familia lado a lado con la misma letra (Libertadores y Sudamericana, o Intercontinental y
+   Mundial): la actual resaltada, la otra apagada (lleva a esa copa). Las de la otra familia quedan ocultas */
+.cabecera h1.copas { display: flex; justify-content: center; align-items: flex-end; column-gap: clamp(16px, 6vw, 64px); margin: 12px 0 8px; font-size: clamp(1.05rem, 3.6vw, 2.2rem); line-height: 1.15; }
+.cabecera h1.copas[hidden], .cabecera h1.copas a.copa[hidden] { display: none; }
+.cabecera h1.copas a.copa { display: flex; flex-direction: column; align-items: center; gap: 10px; color: inherit; text-decoration: none; opacity: .38; transition: opacity .2s; }
 /* El trofeo de cada copa, con el nombre abajo */
-.cabecera h1.copas .trofeo { display: block; height: clamp(110px, 15vw, 170px); width: auto; filter: drop-shadow(0 6px 14px rgb(0 0 0 / .45)); }
-@media (max-width: 900px) {
-  .cabecera h1.copas { grid-template-columns: repeat(2, auto); column-gap: clamp(12px, 8vw, 64px); font-size: clamp(1rem, 3.4vw, 1.35rem); }
-}
-@media (max-width: 560px) {
-  .cabecera h1.copas { grid-template-columns: 1fr 1fr; column-gap: 12px; row-gap: 14px; }
-  .cabecera h1.copas a.copa { gap: 6px; }
-  .cabecera h1.copas .trofeo { height: 92px; }
-}
+.cabecera h1.copas .trofeo { display: block; height: clamp(120px, 26vw, 200px); width: auto; filter: drop-shadow(0 6px 14px rgb(0 0 0 / .45)); }
 .cabecera h1.copas a.copa:hover { opacity: .7; }
 .cabecera h1.copas a.copa[aria-current="page"] { opacity: 1; }
 .cabecera h1.copas a.copa[aria-current="page"]:hover { opacity: .85; }
 .cabecera-eyebrow { margin: 0; letter-spacing: .2em; text-transform: uppercase; color: var(--texto-suave); font-size: .8rem; }
 .cabecera-lema { margin: 0 0 8px; letter-spacing: .3em; text-transform: uppercase; font-weight: 700; color: var(--acento); font-size: clamp(.85rem, 2.2vw, 1.1rem); }
 .cabecera-sub { margin: 0; color: var(--texto-suave); }
+/* Pestañas de arriba: Continentes (la portada con el mapa), Mundial de Clubes y Copa Intercontinental */
+.pestanas-mundo { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px; margin: -24px 0 22px; }
+.pestanas-mundo a { padding: 8px 16px; border-radius: 999px; border: 1px solid var(--borde); background: var(--panel);
+  color: var(--texto); text-decoration: none; font-weight: 600; font-size: .95rem; white-space: nowrap; }
+.pestanas-mundo a:hover { border-color: var(--acento); }
+.pestanas-mundo a[aria-current="page"] { background: var(--acento); border-color: var(--acento); color: var(--fondo); }
+.titulo-portada { margin: 8px 0 6px; }
+
+/* ---- Portada: el mapa de América y Europa y el continente elegido ---- */
+.portada[hidden], .barra-superior[hidden], .edicion[hidden] { display: none; }
+.mapa-caja { background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio); padding: clamp(6px, 2vw, 18px); }
+.mapa { display: block; width: 100%; height: auto; max-height: 68vh; margin: 0 auto; }
+.mapa-continente { fill: var(--color-continente); stroke: var(--fondo); stroke-width: .6; cursor: pointer; transition: opacity .2s, filter .2s; outline: none; }
+.mapa-continente:hover, .mapa-continente:focus-visible { filter: brightness(1.25); }
+.mapa.con-eleccion .mapa-continente { opacity: .35; }
+.mapa.con-eleccion .mapa-continente.elegido, .mapa.con-eleccion .mapa-continente:hover { opacity: 1; }
+.botones-continentes { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 14px 0 6px; }
+.boton-continente { padding: 7px 14px; border-radius: 999px; border: 2px solid var(--color-continente); color: var(--texto);
+  text-decoration: none; font-weight: 600; font-size: .92rem; }
+.boton-continente:hover, .boton-continente.elegido { background: var(--color-continente); color: #fff; }
+.continente { scroll-margin-top: 12px; }
+.continente h2 { border-bottom: 3px solid var(--color-continente); padding-bottom: 6px; }
+.continente h2 small { font-size: .6em; font-weight: 600; color: var(--texto-suave); margin-left: 6px; }
+.continente-ayuda { text-align: center; margin: 18px 0; }
+.etiqueta { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: .72rem; font-weight: 700; letter-spacing: .03em;
+  vertical-align: middle; background: var(--panel-2); color: var(--texto-suave); border: 1px solid var(--borde); }
+/* Tarjetas de las copas del continente: las que ya están en la página llevan a su historia */
+.tarjetas-copas { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 12px; }
+.tarjeta-copa { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; padding: 14px; border-radius: var(--radio);
+  background: var(--panel); border: 1px solid var(--borde); color: var(--texto); text-decoration: none; }
+a.tarjeta-copa { border-color: var(--color-continente); }
+a.tarjeta-copa:hover { background: var(--panel-2); }
+.tarjeta-copa img { height: 90px; width: auto; align-self: center; margin-bottom: 6px; filter: drop-shadow(0 4px 10px rgb(0 0 0 / .4)); }
+.tarjeta-copa span { font-size: .88rem; color: var(--texto-suave); }
+.tarjeta-copa .tarjeta-ver { color: var(--acento); font-weight: 700; }
+.tarjeta-copa.proxima { opacity: .75; }
+.tarjeta-copa .etiqueta { margin-top: 4px; }
+/* Títulos de sus clubes en el Mundial y la Intercontinental */
+.mundo { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
+.mundo-copa { padding: 12px 14px; border-radius: var(--radio); background: var(--panel); border: 1px solid var(--borde); }
+.mundo-copa h4 { margin: 0 0 8px; display: flex; justify-content: space-between; gap: 8px; }
+.mundo-copa h4 a { color: inherit; }
+.mundo-total { color: var(--acento); }
+.mundo-clubes { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.mundo-clubes li { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }
+.mundo-clubes a { color: var(--texto); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; }
+.mundo-clubes a:hover { color: var(--acento); }
+/* Ligas nacionales (todavía sin datos) */
+.ligas { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 8px; }
+.ligas li { display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-radius: var(--radio); background: var(--panel); border: 1px solid var(--borde); }
+.ligas li small { margin-left: auto; color: var(--texto-suave); }
+@media (max-width: 560px) {
+  .pestanas-mundo { margin-top: -28px; }
+  .pestanas-mundo a { padding: 7px 12px; font-size: .88rem; }
+}
 /* Aclaración de una edición (final no jugada, definida por gol de visitante…) */
 .nota-edicion { max-width: 70ch; padding: 10px 14px; border-left: 3px solid var(--acento); background: var(--panel); border-radius: 0 var(--radio) var(--radio) 0; }
 

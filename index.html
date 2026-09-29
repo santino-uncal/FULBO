@@ -3,29 +3,36 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Historia de la Copa Libertadores</title>
+<title>Historia del fútbol de clubes</title>
 <!-- Para buscadores (Google) y para la vista previa al compartir el link -->
-<meta name="description" content="Historia completa de la Copa Libertadores desde 1960: todas las finales y campeones, la historia de cada club, tablas de grupos, partidos, goleadores, asistidores y planteles de cada edición.">
+<meta name="description" content="Historia de las copas de clubes: Copa Libertadores, Copa Sudamericana, Copa Intercontinental y Mundial de Clubes. Todas las finales y campeones, la historia de cada club, partidos, goleadores y planteles de cada edición.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_AR">
-<meta property="og:site_name" content="Historia de la Copa Libertadores">
-<meta property="og:title" content="Historia de la Copa Libertadores">
-<meta property="og:description" content="Todas las ediciones desde 1960: finales, campeones, grupos, partidos, goleadores y planteles.">
+<meta property="og:site_name" content="Historia del fútbol de clubes">
+<meta property="og:title" content="Historia del fútbol de clubes">
+<meta property="og:description" content="Libertadores, Sudamericana, Intercontinental y Mundial de Clubes: finales, campeones, grupos, partidos, goleadores y planteles.">
 <meta property="og:url" content="https://santino-uncal.github.io/FULBO/">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏆</text></svg>">
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "WebSite", "name": "Historia de la Copa Libertadores",
+{"@context": "https://schema.org", "@type": "WebSite", "name": "Historia del fútbol de clubes",
  "url": "https://santino-uncal.github.io/FULBO/", "inLanguage": "es"}
 </script>
 <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 <header class="cabecera">
+  <!-- Pestañas de arriba, en todas las páginas: la portada con el mapa y las dos copas del mundo -->
+  <nav class="pestanas-mundo" aria-label="Secciones">
+    <a data-seccion="continentes" href="index.html">🌍 Continentes</a>
+    <a data-seccion="mundial" href="?copa=mundial">Mundial de Clubes</a>
+    <a data-seccion="intercontinental" href="?copa=intercontinental">Copa Intercontinental</a>
+  </nav>
   <p class="cabecera-eyebrow" id="copa-desde">Desde 1960</p>
+  <h1 class="titulo-portada" hidden>Historia del fútbol de clubes</h1>
   <!-- Las copas (el trofeo y el nombre abajo), con la misma letra: la que se está viendo resaltada; las otras, más apagadas, llevan a esa copa.
        app.js marca cuál es la actual según la dirección (?copa=sudamericana, ?copa=mundial…) -->
   <h1 class="copas">
-    <a class="copa" data-copa="libertadores" href="index.html" aria-current="page">
+    <a class="copa" data-copa="libertadores" href="?copa=libertadores" aria-current="page">
       <img class="trofeo" src="assets/img/copa-libertadores.webp" alt="" width="147" height="440">
       <span>Copa Libertadores</span></a>
     <a class="copa" data-copa="sudamericana" href="?copa=sudamericana">
@@ -68,6 +75,8 @@
     <nav class="ediciones" id="ediciones" aria-label="Ediciones"></nav>
     <p class="vacio" id="anio-vacio" hidden>No hay ninguna edición con ese año.</p>
   </div>
+  <!-- Portada: el mapa de América y Europa y la información del continente elegido (la arma app.js) -->
+  <section class="portada" id="portada" hidden></section>
   <section class="edicion" id="edicion">
     <p class="vacio">Elegí una edición.</p>
   </section>

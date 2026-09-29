@@ -695,12 +695,12 @@ def entrenadores_de_formaciones(ediciones):
 
 
 def escribir_sitemap(anios):
-    """sitemap.xml: la lista de páginas que se le pasa a Google (la portada y una por edición, de cada copa).
-    anios: {copa: [años]}. En el XML el & se escribe &amp;"""
-    urls = []
+    """sitemap.xml: la lista de páginas que se le pasa a Google (la portada con el mapa, cada continente, y la
+    portada, las estadísticas y cada edición de cada copa). anios: {copa: [años]}. En el XML el & se escribe &amp;"""
+    urls = [URL_SITIO] + [f"{URL_SITIO}?continente={c}" for c in ("sudamerica", "norteamerica", "europa")]
     for clave, lista in anios.items():
-        copa = "" if clave == "libertadores" else f"copa={clave}&amp;"
-        urls += [URL_SITIO + (f"?{copa[:-5]}" if copa else ""), f"{URL_SITIO}?{copa}estadisticas"]
+        copa = "" if clave == "libertadores" else f"copa={clave}&amp;"   # (la Libertadores sin copa=: los links viejos)
+        urls += [f"{URL_SITIO}?copa={clave}", f"{URL_SITIO}?{copa}estadisticas"]
         urls += [f"{URL_SITIO}?{copa}edicion={a}" for a in lista]
     (RAIZ / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'

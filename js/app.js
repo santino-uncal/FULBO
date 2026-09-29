@@ -1,28 +1,44 @@
 /* Lógica de la página. Los datos viven en data/ (Libertadores: window.LIB), data/sudamericana/ (window.SUD),
    data/intercontinental/ (window.INT) y data/mundial/ (window.MUN).
+   Sin copa en la dirección, la página es la portada: el mapa de América y Europa (data/mapa.js y data/continentes.js).
    Versión funcional provisoria: el diseño se define después. */
 (function () {
-  // Qué copa se está viendo: ?copa=sudamericana (o intercontinental, o mundial), o la Libertadores si la dirección no dice nada.
+  // Qué copa se está viendo: ?copa=sudamericana (o libertadores, intercontinental, mundial). Sin copa pero con
+  // edición, equipo o estadísticas es la Libertadores (así siguen andando los links viejos: ?edicion=1986).
   // el: se dice "el Mundial de Clubes" (las demás son "la Copa…"); ejemplo: el año de ejemplo del buscador de años;
   // espn: desde qué año hay asistencias (las trae ESPN); tm: tiene entrenadores y planteles completos de Transfermarkt;
   // neutral: los partidos son en cancha neutral (no sirven para saber el estadio de cada club);
   // dt: tiene entrenadores sacados de las formaciones de Wikipedia (la Intercontinental hasta 2004)
   const COPAS = {
-    libertadores: { nombre: "Copa Libertadores", desde: 1960, lema: "La Gloria Eterna", datos: "data/", ns: "LIB", ejemplo: 1986, espn: 2005, tm: true,
+    libertadores: { nombre: "Copa Libertadores", grupo: "conmebol", desde: 1960, lema: "La Gloria Eterna", datos: "data/", ns: "LIB", ejemplo: 1986, espn: 2005, tm: true,
       // Nombres oficiales que tuvo el torneo, desde el año en que se empezó a usar cada uno (panel de años)
       nombres: [[1960, "Copa Campeones de América"], [1965, "Copa Libertadores de América"], [2017, "Copa Conmebol Libertadores"]] },
-    sudamericana: { nombre: "Copa Sudamericana", desde: 2002, lema: "La Gran Conquista", datos: "data/sudamericana/", ns: "SUD", ejemplo: 2014, espn: 2005, tm: true,
+    sudamericana: { nombre: "Copa Sudamericana", grupo: "conmebol", desde: 2002, lema: "La Gran Conquista", datos: "data/sudamericana/", ns: "SUD", ejemplo: 2014, espn: 2005, tm: true,
       nombres: [[2002, "Copa Sudamericana"], [2017, "Copa Conmebol Sudamericana"]] },
-    intercontinental: { nombre: "Copa Intercontinental", desde: 1960, lema: "Campeones del Mundo", datos: "data/intercontinental/", ns: "INT",
+    intercontinental: { nombre: "Copa Intercontinental", grupo: "fifa", desde: 1960, lema: "Campeones del Mundo", datos: "data/intercontinental/", ns: "INT",
       ejemplo: 1986, espn: 2024, neutral: true, dt: true,
       nombres: [[1960, "Copa Intercontinental"], [1980, "Copa Toyota"], [2024, "Copa Intercontinental de la FIFA"]] },
-    mundial: { nombre: "Mundial de Clubes", el: true, desde: 2000, lema: "El Campeón de Campeones", datos: "data/mundial/", ns: "MUN",
+    mundial: { nombre: "Mundial de Clubes", grupo: "fifa", el: true, desde: 2000, lema: "El Campeón de Campeones", datos: "data/mundial/", ns: "MUN",
       ejemplo: 2012, espn: 2005, neutral: true,
       nombres: [[2000, "Campeonato Mundial de Clubes de la FIFA"], [2006, "Copa Mundial de Clubes de la FIFA"], [2025, "Mundial de Clubes de 32 equipos"]] },
   };
-  const pedida = new URLSearchParams(location.search).get("copa");
+  const PARAMS = new URLSearchParams(location.search);
+  const pedida = PARAMS.get("copa");
   const CLAVE_COPA = COPAS[pedida] ? pedida : "libertadores";
   const COPA = COPAS[CLAVE_COPA];
+  const PORTADA = !COPAS[pedida] && !["edicion", "equipo", "estadisticas"].some(k => PARAMS.has(k));
+  // Bandera del país de cada equipo (assets/banderas/ARG.png, BRA.png…)
+  const PAISES = { ARG: "Argentina", BOL: "Bolivia", BRA: "Brasil", CHI: "Chile", COL: "Colombia", ECU: "Ecuador",
+    MEX: "México", PAR: "Paraguay", PER: "Perú", URU: "Uruguay", VEN: "Venezuela",
+    // Invitados de la Concacaf a la Sudamericana (2005-2008)
+    USA: "Estados Unidos", CRC: "Costa Rica", HON: "Honduras",
+    // Clubes de los otros continentes (Intercontinental y Mundial de Clubes)
+    ESP: "España", ITA: "Italia", ENG: "Inglaterra", SCO: "Escocia", GER: "Alemania", NED: "Países Bajos", POR: "Portugal",
+    FRA: "Francia", AUT: "Austria", GRE: "Grecia", ROU: "Rumania", SWE: "Suecia", YUG: "Yugoslavia",
+    KSA: "Arabia Saudita", UAE: "Emiratos Árabes Unidos", QAT: "Catar", IRN: "Irán", JPN: "Japón", KOR: "Corea del Sur", CHN: "China",
+    AUS: "Australia", NZL: "Nueva Zelanda", TAH: "Tahití", NCL: "Nueva Caledonia", PNG: "Papúa Nueva Guinea",
+    EGY: "Egipto", TUN: "Túnez", ALG: "Argelia", MAR: "Marruecos", RSA: "Sudáfrica", COD: "RD del Congo" };
+  const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   // "la Copa Libertadores" / "el Mundial de Clubes", con la preposición pegada: "de la Copa…" / "del Mundial…", "a la" / "al"
   const conArticulo = (copa, prep = "") => copa.el
     ? `${prep === "de" ? "del" : prep === "a" ? "al" : (prep ? prep + " " : "") + "el"} ${copa.nombre}`
@@ -39,8 +55,124 @@
   }
   // La Libertadores viene cargada desde index.html; de las otras copas hay que traer antes su lista de años y sus
   // entrenadores (si falta alguno de los dos archivos, la página arranca igual con lo que haya)
+  // Pestañas de arriba (Continentes, Mundial de Clubes, Copa Intercontinental): la sección actual resaltada.
+  // La Libertadores y la Sudamericana cuelgan de "Continentes" (se llega desde Sudamérica)
+  document.querySelectorAll(".pestanas-mundo a").forEach(a => {
+    if (a.dataset.seccion === "continentes") a.href = location.pathname;
+    const actual = PORTADA ? "continentes" : COPA.grupo === "fifa" ? CLAVE_COPA : "continentes";
+    a.toggleAttribute("aria-current", a.dataset.seccion === actual);
+    if (a.dataset.seccion === actual) a.setAttribute("aria-current", "page");
+  });
+
+  if (PORTADA) {
+    Promise.all(["data/mapa.js", "data/continentes.js", "data/mundial/indice.js", "data/intercontinental/indice.js"]
+      .map(src => cargarScript(src).catch(() => {}))).then(iniciarPortada);
+    return;
+  }
   const previos = CLAVE_COPA === "libertadores" ? [] : ["indice.js", ...(COPA.tm || COPA.dt ? ["entrenadores.js"] : [])].map(f => COPA.datos + f);
   Promise.all(previos.map(src => cargarScript(src).catch(() => {}))).then(iniciar);
+
+  // ---- Portada: el mapa de América y Europa. Se toca un continente y abajo aparecen sus copas, sus ligas y sus títulos mundiales ----
+  function iniciarPortada() {
+    const URL_SITIO = "https://santino-uncal.github.io/FULBO/";
+    const CONT = window.CONTINENTES || {};
+    const MAPA = window.MAPA;
+    const equipos = window.LIB.equipos || {};
+    document.body.classList.add("en-portada");
+    document.querySelector("h1.copas").hidden = true;
+    document.querySelector(".titulo-portada").hidden = false;
+    document.getElementById("copa-desde").textContent = "Fútbol de clubes";
+    document.querySelector(".cabecera-lema").textContent = "Las copas de todo el mundo";
+    document.querySelector(".cabecera-sub").textContent = "Tocá un continente para ver sus copas internacionales y sus ligas";
+    document.querySelector(".barra-superior").hidden = true;
+    document.getElementById("edicion").hidden = true;
+    const portadaEl = document.getElementById("portada");
+    portadaEl.hidden = false;
+    if (!MAPA) { portadaEl.innerHTML = `<p class="vacio">No se pudo cargar el mapa.</p>`; return; }
+
+    // El mapa: un dibujo por país, agrupados por continente (el nombre del país aparece al pasar el mouse)
+    const grupos = Object.keys(CONT).map(c => `<g class="mapa-continente" data-continente="${c}" style="--color-continente:${CONT[c].color}"
+        role="button" tabindex="0" aria-label="${esc(CONT[c].nombre)}">${MAPA.paises.filter(p => p.c === c)
+        .map(p => `<path d="${p.d}"><title>${esc(p.n)} · ${esc(CONT[c].nombre)}</title></path>`).join("")}</g>`).join("");
+    portadaEl.innerHTML = `<div class="mapa-caja"><svg class="mapa" viewBox="0 0 ${MAPA.ancho} ${MAPA.alto}" role="group"
+        aria-label="Mapa de América y Europa: elegí un continente">${grupos}</svg></div>
+      <nav class="botones-continentes" aria-label="Continentes">${Object.entries(CONT).map(([c, x]) =>
+        `<a class="boton-continente" href="?continente=${c}" data-continente="${c}" style="--color-continente:${x.color}">${esc(x.nombre)}</a>`).join("")}</nav>
+      <section class="continente" id="continente" aria-live="polite"></section>`;
+    const panelEl = document.getElementById("continente");
+
+    // Títulos de los clubes del continente en el Mundial de Clubes y en la Intercontinental
+    const paisesDe = c => new Set(CONT[c].paises || []);
+    function titulosMundiales(c, ns, clave) {
+      const indice = (window[ns] || {}).indice || [];
+      const paises = paisesDe(c);
+      const cuenta = {};
+      let finales = 0;
+      indice.forEach(e => {
+        if (e.campeon && paises.has(equipos[e.campeon]?.pais)) (cuenta[e.campeon] ||= []).push(e.anio);
+        if (e.subcampeon && paises.has(equipos[e.subcampeon]?.pais)) finales++;
+      });
+      const clubes = Object.entries(cuenta).sort((a, b) => b[1].length - a[1].length || a[1][0] - b[1][0]);
+      const total = clubes.reduce((n, [, anios]) => n + anios.length, 0);
+      const nombreCopa = COPAS[clave].nombre;
+      const titulo = `<a href="?copa=${clave}">${esc(nombreCopa)}</a>`;
+      if (!total) return `<div class="mundo-copa"><h4>${titulo}</h4><p class="vacio">Ningún club ganó todavía${finales
+        ? ` (${finales === 1 ? "una final perdida" : `${finales} finales perdidas`})` : ""}.</p></div>`;
+      const escudo = id => equipos[id]?.escudo ? `<img class="escudo" src="${equipos[id].escudo}" alt="" loading="lazy" onerror="this.remove()">` : "";
+      return `<div class="mundo-copa"><h4>${titulo} <span class="mundo-total">🏆 ${total}</span></h4><ul class="mundo-clubes">${clubes.map(([id, anios]) =>
+        `<li><a href="?copa=${clave}&amp;equipo=${esc(id)}">${escudo(id)}${esc(equipos[id]?.nombre || id)}</a>
+          <span class="det-meta">${anios.length > 1 ? `${anios.length} · ` : ""}${anios.join(", ")}</span></li>`).join("")}</ul></div>`;
+    }
+
+    const bandera = p => PAISES[p] ? `<img class="bandera" src="assets/banderas/${p}.png" alt="" onerror="this.remove()">` : "";
+    function mostrarContinente(c) {
+      const x = CONT[c];
+      portadaEl.querySelectorAll("[data-continente]").forEach(el => el.classList.toggle("elegido", el.dataset.continente === c));
+      portadaEl.querySelector(".mapa").classList.toggle("con-eleccion", !!x);
+      if (!x) {
+        panelEl.innerHTML = `<p class="vacio continente-ayuda">👆 Tocá un continente en el mapa (o su nombre, arriba) para ver sus copas.</p>`;
+        return;
+      }
+      const tarjeta = t => t.copa
+        ? `<a class="tarjeta-copa" href="?copa=${t.copa}">${t.trofeo ? `<img src="${t.trofeo}" alt="" loading="lazy">` : ""}
+            <strong>${esc(t.nombre)}</strong><span>Desde ${t.desde}</span><span class="tarjeta-ver">Ver la historia →</span></a>`
+        : `<div class="tarjeta-copa proxima"><strong>${esc(t.nombre)}</strong><span>Desde ${t.desde}</span>
+            ${t.nota ? `<span class="det-meta">${esc(t.nota)}</span>` : ""}<span class="etiqueta">Próximamente</span></div>`;
+      panelEl.style.setProperty("--color-continente", x.color);
+      panelEl.innerHTML = `<h2>${esc(x.nombre)} <small>${esc(x.confederacion)}</small></h2>
+        ${x.nota ? `<p class="nota-edicion">${esc(x.nota)}</p>` : ""}
+        <h3>Copas internacionales</h3>
+        <div class="tarjetas-copas">${x.internacionales.map(tarjeta).join("")}</div>
+        <h3>Sus clubes en el mundo</h3>
+        <div class="mundo">${titulosMundiales(c, "MUN", "mundial")}${titulosMundiales(c, "INT", "intercontinental")}</div>
+        <h3>Ligas nacionales <span class="etiqueta">Próximamente</span></h3>
+        <ul class="ligas">${x.nacionales.map(([p, liga]) => `<li>${bandera(p)}<span>${esc(liga)}</span>
+          <small>${esc(PAISES[p] || p)}</small></li>`).join("")}</ul>`;
+    }
+
+    function elegir(c, guardar) {
+      if (guardar) history.pushState(null, "", c ? `?continente=${c}` : location.pathname);
+      mostrarContinente(c);
+      const x = CONT[c];
+      document.title = x ? `${x.nombre}: copas y ligas de clubes — Historia del fútbol de clubes` : "Historia del fútbol de clubes";
+      let canonica = document.querySelector('link[rel="canonical"]');
+      if (!canonica) document.head.appendChild(canonica = Object.assign(document.createElement("link"), { rel: "canonical" }));
+      canonica.href = URL_SITIO + (x ? `?continente=${c}` : "");
+      if (guardar && x) panelEl.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+    portadaEl.addEventListener("click", e => {
+      const el = e.target.closest("[data-continente]");
+      if (!el || e.ctrlKey || e.metaKey || e.shiftKey) return;
+      e.preventDefault();
+      elegir(el.dataset.continente, true);
+    });
+    portadaEl.addEventListener("keydown", e => {
+      const g = e.target.closest("g[data-continente]");
+      if (g && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); elegir(g.dataset.continente, true); }
+    });
+    window.addEventListener("popstate", () => elegir(new URLSearchParams(location.search).get("continente")));
+    elegir(PARAMS.get("continente"));
+  }
 
   function iniciar() {
   window[COPA.ns] = window[COPA.ns] || {};
@@ -54,11 +186,13 @@
   }
   const URL_SITIO = "https://santino-uncal.github.io/FULBO/";   // dirección publicada en GitHub Pages
   // Direcciones internas: en las otras copas todas llevan la copa adelante (?copa=sudamericana&edicion=2010)
-  const enlace = (q = "") => CLAVE_COPA === "libertadores" ? (q ? `?${q}` : location.pathname)
-    : `?copa=${CLAVE_COPA}${q ? "&" + q : ""}`;
+  // (la Libertadores sin nada más es ?copa=libertadores: la dirección pelada es la portada)
+  const enlace = (q = "") => CLAVE_COPA === "libertadores" && q ? `?${q}` : `?copa=${CLAVE_COPA}${q ? "&" + q : ""}`;
   const enlaceHtml = q => enlace(q).replace(/&/g, "&amp;");
 
-  // Cabecera: la copa actual resaltada, el "Desde" y el lema de cada copa
+  // Cabecera: los trofeos de la misma familia (Libertadores y Sudamericana, o Intercontinental y Mundial), la copa actual
+  // resaltada, el "Desde" y el lema de cada copa
+  document.querySelectorAll("h1.copas a.copa").forEach(a => { a.hidden = COPAS[a.dataset.copa].grupo !== COPA.grupo; });
   document.querySelectorAll("h1.copas a.copa").forEach(a => a.dataset.copa === CLAVE_COPA
     ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
   document.querySelectorAll("h1.copas a.copa").forEach(a => a.setAttribute("title",
@@ -106,7 +240,6 @@
     });
   }
 
-  const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const equipo = id => LIB.equipos[id] || { nombre: id || "?" };
 
   function escudo(id) {
@@ -115,17 +248,6 @@
     // Si el escudo todavía no se descargó, la imagen se oculta sola
     return `<img class="escudo" src="${e.escudo}" alt="" loading="lazy" onerror="this.remove()">`;
   }
-  // Bandera del país de cada equipo (assets/banderas/ARG.png, BRA.png…)
-  const PAISES = { ARG: "Argentina", BOL: "Bolivia", BRA: "Brasil", CHI: "Chile", COL: "Colombia", ECU: "Ecuador",
-    MEX: "México", PAR: "Paraguay", PER: "Perú", URU: "Uruguay", VEN: "Venezuela",
-    // Invitados de la Concacaf a la Sudamericana (2005-2008)
-    USA: "Estados Unidos", CRC: "Costa Rica", HON: "Honduras",
-    // Clubes de los otros continentes (Intercontinental y Mundial de Clubes)
-    ESP: "España", ITA: "Italia", ENG: "Inglaterra", SCO: "Escocia", GER: "Alemania", NED: "Países Bajos", POR: "Portugal",
-    FRA: "Francia", AUT: "Austria", GRE: "Grecia", ROU: "Rumania", SWE: "Suecia", YUG: "Yugoslavia",
-    KSA: "Arabia Saudita", UAE: "Emiratos Árabes Unidos", QAT: "Catar", IRN: "Irán", JPN: "Japón", KOR: "Corea del Sur", CHN: "China",
-    AUS: "Australia", NZL: "Nueva Zelanda", TAH: "Tahití", NCL: "Nueva Caledonia", PNG: "Papúa Nueva Guinea",
-    EGY: "Egipto", TUN: "Túnez", ALG: "Argelia", MAR: "Marruecos", RSA: "Sudáfrica", COD: "RD del Congo" };
   function bandera(id) {
     const p = equipo(id).pais;
     if (!PAISES[p]) return "";
@@ -1331,7 +1453,7 @@
   // El título de la copa que se está viendo lleva a su edición actual (la última); el de la otra copa, a esa copa
   // (ese es un link común: la página se vuelve a abrir con los datos de la otra copa)
   document.querySelectorAll("h1.copas a.copa").forEach(a => {
-    a.href = a.dataset.copa === "libertadores" ? location.pathname : `?copa=${a.dataset.copa}`;
+    a.href = `?copa=${a.dataset.copa}`;
     if (a.dataset.copa !== CLAVE_COPA) return;
     a.addEventListener("click", e => {
       if (e.ctrlKey || e.metaKey || e.shiftKey) return;

@@ -1,0 +1,45 @@
+/* Los continentes de la portada (el mapa de América y Europa): su confederación, sus copas internacionales y sus ligas nacionales.
+   Se edita a mano.
+   - copa: la clave de la copa en la página (?copa=libertadores); si no tiene, la copa todavía no está cargada ("próximamente").
+   - paises: los países de cada continente con el código que usa la página (el de la FIFA), para contar los títulos
+     de sus clubes en el Mundial de Clubes y la Intercontinental.
+   - color: el del continente en el mapa. */
+window.CONTINENTES = {
+  sudamerica: {
+    nombre: "Sudamérica", confederacion: "Conmebol", color: "#2e9e57",
+    internacionales: [
+      { nombre: "Copa Libertadores", copa: "libertadores", desde: 1960, trofeo: "assets/img/copa-libertadores.webp" },
+      { nombre: "Copa Sudamericana", copa: "sudamericana", desde: 2002, trofeo: "assets/img/copa-sudamericana.webp" },
+      { nombre: "Recopa Sudamericana", desde: 1989 },
+    ],
+    nacionales: [
+      ["ARG", "Liga Profesional"], ["BRA", "Brasileirão"], ["URU", "Primera División"], ["PAR", "Primera División"],
+      ["CHI", "Primera División"], ["COL", "Primera A"], ["PER", "Liga 1"], ["ECU", "LigaPro"],
+      ["BOL", "División Profesional"], ["VEN", "Liga FUTVE"],
+    ],
+    paises: ["ARG", "BRA", "URU", "PAR", "CHI", "COL", "PER", "ECU", "BOL", "VEN"],
+  },
+  norteamerica: {
+    nombre: "Norte y Centroamérica", confederacion: "Concacaf", color: "#d9534f",
+    internacionales: [
+      { nombre: "Copa de Campeones de la Concacaf", desde: 1962 },
+      { nombre: "Copa Centroamericana", desde: 2023 },
+    ],
+    nacionales: [["MEX", "Liga MX"], ["USA", "MLS"], ["CRC", "Primera División"], ["HON", "Liga Nacional"]],
+    paises: ["MEX", "USA", "CRC", "HON"],
+  },
+  europa: {
+    nombre: "Europa", confederacion: "UEFA", color: "#3f7fd9",
+    internacionales: [
+      { nombre: "Champions League", desde: 1955, nota: "hasta 1992, Copa de Campeones de Europa" },
+      { nombre: "Europa League", desde: 1971, nota: "hasta 2009, Copa UEFA" },
+      { nombre: "Conference League", desde: 2021 },
+      { nombre: "Supercopa de Europa", desde: 1972 },
+    ],
+    nacionales: [
+      ["ENG", "Premier League"], ["ESP", "LaLiga"], ["ITA", "Serie A"], ["GER", "Bundesliga"], ["FRA", "Ligue 1"],
+      ["POR", "Primeira Liga"], ["NED", "Eredivisie"], ["SCO", "Premiership"],
+    ],
+    paises: ["ESP", "ITA", "ENG", "SCO", "GER", "NED", "POR", "FRA", "AUT", "GRE", "ROU", "SWE", "YUG"],
+  },
+};
