@@ -57,5 +57,14 @@ window.LIB.colores = {
   "paris-saint-germain":     ["#004170", "#FFFFFF"],
   "porto":                   ["#FFFFFF", "#003893"],
   "real-madrid":             ["#FFFFFF", "#1B2A5C"],
-  "red-star-belgrade":       ["#C8102E", "#FFFFFF"]
+  "red-star-belgrade":       ["#C8102E", "#FFFFFF"],
+  // Campeones de la Champions que no ganaron la Intercontinental ni el Mundial
+  "aston-villa":             ["#670E36", "#95BFE5"],
+  "benfica":                 ["#E30613", "#FFFFFF"],
+  "celtic":                  ["#018749", "#FFFFFF"],
+  "hamburger-sv":            ["#0A3F87", "#FFFFFF"],
+  "marsella":                ["#FFFFFF", "#0081C9"],
+  "nottingham-forest":       ["#DD0000", "#FFFFFF"],
+  "psv":                     ["#ED1C24", "#FFFFFF"],
+  "steaua-bucuresti":        ["#C8102E", "#FFFFFF"]
 };
