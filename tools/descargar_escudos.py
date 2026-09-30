@@ -4,6 +4,7 @@ Uso:  python tools/descargar_escudos.py
 Orden de búsqueda:
   1. ESPN (clubes que jugaron desde 2005: tienen id de ESPN en equipos.js)
   2. TheSportsDB (API gratuita), buscando por nombre y país
+  (y a mano, para los que no están en ninguno de los dos: la imagen de la ficha del club en Wikipedia)
   (antes que nada, ESCUDOS_A_MANO: clubes que no se encuentran solos, con su número en ESPN o en TheSportsDB)
 Guarda assets/escudos/<id>.png (120x120 aprox.) y no vuelve a bajar los que ya existen.
 Si un escudo viene con fondo de color liso (blanco, por ejemplo), se lo saca para que quede transparente.
@@ -41,6 +42,29 @@ ESCUDOS_A_MANO = {
     "1-kaiserslautern": "tsdb:133663", "hertha-bsc": "tsdb:133658", "heerenveen": "tsdb:133759", "willem-ii": "tsdb:133827",
     "kispest-honved": "tsdb:134070", "fram": "tsdb:140780", "ia": "tsdb:137972", "hamrun-spartans": "tsdb:138133",
     "artmedia-petrzalka": "tsdb:146306",
+    # los que no están ni en ESPN ni en TheSportsDB: el escudo de la ficha del club en Wikipedia ("wiki:<idioma>:<archivo>";
+    # 1. FC Frankfurt es el continuador del Vorwärts Berlin)
+    "avenir-beggen": "wiki:en:FC_Avenir_Beggen_logo.svg", "ifk-helsingfors": "wiki:en:HIFK-Jalkapallo.svg", "kb": "wiki:en:Kjøbenhavns_Boldklub_logo.png",
+    "vorwarts-berlin": "wiki:en:Logo_1._FC_Frankfurt_(Oder).svg", "cork-celtic": "wiki:en:Cork Celtic FC logo.png", "cork-hibernians": "wiki:en:Cork Hibs logo.png",
+    "dinamo-minsk": "wiki:en:Dinamo Minsk logo.svg", "gwardia-warsaw": "wiki:en:Gwardia Warszawa Logo.png", "hapoel-tel-aviv": "wiki:en:Hapoel_Tel_Aviv_F.C._logo.svg",
+    "polonia-bytom": "wiki:en:Polonia Bytom crest.png", "rabat-ajax": "wiki:en:Rabat Ajax Crest.jpg", "rapid-bucuresti": "wiki:en:FC Rapid Bucuresti logo.svg",
+    "szombierki-bytom": "wiki:en:Szombierki Bytom badge.png", "unirea-urziceni": "wiki:en:Unirea Urziceni.png", "boldklubben-1903": "wiki:en:Boldklubben 1903.png",
+    "ops": "wiki:fi:OPS logo.png", "aris-bonnevoie": "wiki:en:Aris Bonnevoie (logo).png",
+    "atletico-chalaco": "wiki:es:EscudoClubAtleticoChalaco2021.jpg", "atletico-torino": "wiki:es:Logo_de_Club_Atletico_Torino.png",
+    "coronel-bolognesi": "wiki:es:Club_Coronel_Bolognesi_(logo).svg",
+    "everest": "wiki:es:Logo_del_Club_Deportivo_Everest.png", "rangers": "wiki:es:Rangers_de_Talca_-_Escudo.svg",
+    # (clubes que ya no existen con ese nombre: el escudo de su continuador — 17 Nëntori es el KF Tirana,
+    # Karl-Marx-Stadt el Chemnitzer, Rapid JC el Roda JC, Stade Dudelange el F91…)
+    "17-nentori": "tsdb:134037", "ab": "tsdb:141778", "admira-no-energie-wien": "tsdb:134008", "banik-ostrava": "tsdb:136684",
+    "bfc-dynamo": "tsdb:138384", "bohemians-prague": "tsdb:136681", "boldklubben-1909": "tsdb:143431", "boldklubben-1913": "tsdb:143422",
+    "cervena-hviezda-bratislava": "tsdb:134029", "derry-city": "tsdb:134354", "dinamo-tirana": "tsdb:140666", "dukla-prague": "tsdb:136682",
+    "dws": "tsdb:155108", "helsingin-palloseura": "tsdb:155348", "ifk-norrkoping": "tsdb:134165", "ka": "tsdb:137970",
+    "karl-marx-stadt": "tsdb:137957", "kr": "tsdb:133968", "labinoti": "tsdb:140668", "lausanne-sports": "tsdb:138990",
+    "molenbeek": "tsdb:135924", "progres-niedercorn": "tsdb:138347", "rapid-jc": "tsdb:133761", "red-boys-differdange": "tsdb:134064",
+    "reims": "tsdb:133934", "reipas-lahti": "tsdb:136686", "sarajevo": "tsdb:134013", "sparta-rotterdam": "tsdb:133866",
+    "spartak-hradec-kralove": "tsdb:141109", "spora-luxembourg": "tsdb:139740", "stade-dudelange": "tsdb:133947", "vardar": "tsdb:133979",
+    "vitkovice": "tsdb:153228", "voest-linz": "tsdb:139412", "vv-dos": "tsdb:133764", "wisla-krakow": "tsdb:135303",
+    "wismut-karl-marx-stadt": "tsdb:134445", "zbrojovka-brno": "tsdb:140094", "zeljeznicar": "tsdb:137934", "zorya-voroshilovgrad": "tsdb:134422",
 }
 PAISES = {"ARG": "Argentina", "BRA": "Brazil", "URU": "Uruguay", "PAR": "Paraguay", "CHI": "Chile",
           "COL": "Colombia", "PER": "Peru", "ECU": "Ecuador", "BOL": "Bolivia", "VEN": "Venezuela", "MEX": "Mexico",
@@ -63,8 +87,11 @@ def leer_equipos():
     return json.loads(re.search(r"window\.LIB\.equipos\s*=\s*(\{.*\});", texto, re.S).group(1))
 
 
-def bajar(url, archivo):
-    with urllib.request.urlopen(urllib.request.Request(url), timeout=30) as r:
+UA = "FULBO-historia/1.0 (https://santino-uncal.github.io/FULBO/)"   # Wikipedia pide que los programas se identifiquen
+
+
+def bajar(url, archivo, ua=None):
+    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": ua} if ua else {}), timeout=30) as r:
         datos = r.read()
     if len(datos) < 500:  # respuesta vacía o imagen "no disponible"
         return False
@@ -130,6 +157,14 @@ def main():
         try:
             if fuente == "espn":
                 ok = bajar(ESPN.format(num), archivo)
+            elif fuente == "wiki":   # la imagen achicada a 120 px (Wikipedia la da en PNG aunque el archivo sea SVG)
+                idioma, _, archivo_wiki = num.partition(":")
+                q = urllib.parse.urlencode({"action": "query", "format": "json", "prop": "imageinfo", "iiprop": "url",
+                                            "iiurlwidth": 120, "titles": "File:" + archivo_wiki})
+                req = urllib.request.Request(f"https://{idioma}.wikipedia.org/w/api.php?{q}", headers={"User-Agent": UA})
+                with urllib.request.urlopen(req, timeout=20) as r:
+                    info = next(iter(json.load(r)["query"]["pages"].values()))["imageinfo"][0]
+                ok = bajar(info["thumburl"], archivo, UA)
             elif fuente == "tsdb":
                 ok = bajar(pedir_tsdb(TSDB_ID + num)["teams"][0]["strBadge"] + "/small", archivo)
         except Exception:
