@@ -142,6 +142,8 @@ Trofeos de la cabecera (`assets/img/`), de Wikimedia Commons:
   CC BY 4.0 (recortada del fondo y achicada).
 - Mundial de Clubes (en el museo de Anfield): [Daniel from Glasgow](https://commons.wikimedia.org/wiki/File:Anfield_Stadium_Tour_(51930554120).jpg),
   CC BY 2.0 (recortada del fondo y achicada).
+- Champions League: [dom fellowes](https://commons.wikimedia.org/wiki/File:Champions_League_Trophy_(52736201132).jpg),
+  CC BY 2.0 (recortada del fondo y achicada).
 
 Banderas: [flagcdn.com](https://flagcdn.com) (dominio público); la de Yugoslavia, de Wikimedia Commons.
 
