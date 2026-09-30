@@ -1,5 +1,5 @@
 """Descarga de Wikipedia (en inglés) el texto de las ediciones que ESPN no tiene: la Copa Intercontinental
-1960-2004, el Mundial de Clubes 2000 y la Champions League 1991/92-2000/01.
+1960-2004, el Mundial de Clubes 2000 y la Champions League 1955/56-2000/01.
 
 Uso:  python tools/descargar_wikipedia.py --copa intercontinental
       python tools/descargar_wikipedia.py --copa mundial

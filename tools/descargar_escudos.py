@@ -13,6 +13,7 @@ import json
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -53,7 +54,8 @@ PAISES = {"ARG": "Argentina", "BRA": "Brazil", "URU": "Uruguay", "PAR": "Paragua
           "NOR": "Norway", "FIN": "Finland", "IRL": "Ireland", "ISL": "Iceland", "LTU": "Lithuania", "LUX": "Luxembourg",
           "LVA": "Latvia", "MLT": "Malta", "NIR": "Northern Ireland", "POL": "Poland", "HUN": "Hungary", "BUL": "Bulgaria",
           "ALB": "Albania", "SRB": "Serbia", "SVN": "Slovenia", "MDA": "Moldova", "BLR": "Belarus", "ISR": "Israel",
-          "RUS": "Russia", "KAZ": "Kazakhstan", "AZE": "Azerbaijan"}
+          "RUS": "Russia", "KAZ": "Kazakhstan", "AZE": "Azerbaijan",
+          "GEO": "Georgia", "ARM": "Armenia", "BIH": "Bosnia-Herzegovina", "MKD": "North Macedonia"}
 
 
 def leer_equipos():
@@ -87,12 +89,24 @@ def quitar_fondo(archivo):
     return True
 
 
-def buscar_tsdb(eq):
-    """Busca en TheSportsDB probando variantes del nombre; exige que coincida el país."""
-    nombres = [eq["nombre"], re.sub(r"\s*\(.*\)", "", eq["nombre"])]
-    for nombre in dict.fromkeys(nombres):
-        with urllib.request.urlopen(TSDB + urllib.parse.quote(nombre), timeout=20) as r:
-            equipos = json.load(r).get("teams") or []
+def pedir_tsdb(url):
+    """TheSportsDB corta con "Too Many Requests" si se le pide mucho seguido: se espera un minuto y se reintenta."""
+    for intento in range(4):
+        try:
+            with urllib.request.urlopen(url, timeout=20) as r:
+                return json.load(r)
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or intento == 3:
+                raise
+            time.sleep(60)
+
+
+def buscar_tsdb(eq, id_=""):
+    """Busca en TheSportsDB probando variantes del nombre (también el id, que suele ser el nombre original:
+    'Niza' se busca como 'nice'); exige que coincida el país."""
+    nombres = [eq["nombre"], re.sub(r"\s*\(.*\)", "", eq["nombre"]), re.sub(r"-[a-z]{3}$", "", id_).replace("-", " ")]
+    for nombre in dict.fromkeys(n for n in nombres if n):
+        equipos = pedir_tsdb(TSDB + urllib.parse.quote(nombre)).get("teams") or []
         time.sleep(2)  # la API gratuita limita la cantidad de pedidos por minuto
         for t in equipos:
             if t.get("strSport") != "Soccer" or not t.get("strBadge"):
@@ -117,8 +131,7 @@ def main():
             if fuente == "espn":
                 ok = bajar(ESPN.format(num), archivo)
             elif fuente == "tsdb":
-                with urllib.request.urlopen(TSDB_ID + num, timeout=20) as r:
-                    ok = bajar(json.load(r)["teams"][0]["strBadge"] + "/small", archivo)
+                ok = bajar(pedir_tsdb(TSDB_ID + num)["teams"][0]["strBadge"] + "/small", archivo)
         except Exception:
             ok = False
         if ok:
@@ -133,7 +146,7 @@ def main():
                 break
         if not ok:
             try:
-                url = buscar_tsdb(eq)
+                url = buscar_tsdb(eq, id_)
                 ok = bool(url) and bajar(url, archivo)
             except Exception:
                 ok = False

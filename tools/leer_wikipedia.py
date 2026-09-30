@@ -14,7 +14,7 @@ from copas import COPAS, copa_de_argumentos
 MESES = {m: i for i, m in enumerate(["january", "february", "march", "april", "may", "june", "july", "august",
                                      "september", "october", "november", "december"], 1)}
 # Códigos de país de Wikipedia que se escriben distinto en la página (Alemania Federal = Alemania)
-PAISES = {"FRG": "GER", "SPA": "ESP"}
+PAISES = {"FRG": "GER", "SPA": "ESP", "DDR": "GDR", "CSK": "TCH", "ROM": "ROU", "USS": "URS", "SWI": "SUI"}
 # Posiciones de Wikipedia -> las que usa la página (las mismas siglas que ESPN)
 POSICIONES = {"GK": "G", "CB": "CD", "DF": "D", "FB": "D", "MF": "M", "HB": "M", "WH": "M", "FW": "F", "CF": "F",
               "ST": "F", "SS": "F", "RW": "RF", "OR": "RF", "LW": "LF", "OL": "LF", "IR": "AM-R", "IL": "AM-L",
@@ -242,9 +242,36 @@ def fase_etapa(etapa, titulos):
     if etapa in ("Fase de grupos", "Segunda fase de grupos"):
         letra = next((m.group(1).upper() for t in reversed(titulos) for m in [re.match(r"group\s+(\w+)$", t, re.I)] if m), None)
         return f"{etapa} — Grupo {letra}" if letra else None
-    if etapa == "Eliminatorias":   # cuartos, semifinales y final
-        return next((f for f in (fase_de(t, "champions") for t in reversed(titulos)) if f), None)
+    if etapa == "Eliminatorias":   # la ronda sale del título de la sección ("First leg" y "Play-off" no son rondas)
+        return next((f for f in map(ronda_champions, reversed(titulos)) if f), None)
     return etapa
+
+
+def ronda_champions(titulo):
+    t = titulo.lower().strip()
+    for patron, nombre in ((r"^preliminary", "Ronda preliminar"), (r"^first round", "Primera ronda"),
+                           (r"^second round", "Segunda ronda"), (r"^quarter", "Cuartos de final"),
+                           (r"^semi", "Semifinales"), (r"^final$", "Final")):
+        if re.search(patron, t):
+            return nombre
+    return None
+
+
+def rondas_por_cantidad(partidos):
+    """Champions hasta 1990/91: la "primera ronda" y la "segunda ronda" se llaman según cuántos equipos las jugaron
+    (32 equipos: dieciseisavos de final; 16: octavos). Y si hay una página de la final, la final de la página de la
+    temporada sobra (es el mismo partido)."""
+    for ronda in ("Primera ronda", "Segunda ronda"):
+        equipos = {x for p in partidos if p["fase"] == ronda for x in (p["local"], p["visitante"])}
+        if equipos:
+            nombre = "Dieciseisavos de final" if len(equipos) > 16 else "Octavos de final" if len(equipos) > 8 else ronda
+            for p in partidos:
+                if p["fase"] == ronda:
+                    p["fase"] = nombre
+    if any(p.get("_pagina_final") for p in partidos):
+        partidos[:] = [p for p in partidos if p["fase"] != "Final" or p.get("_pagina_final")]
+    for p in partidos:
+        p.pop("_pagina_final", None)
 
 
 def leer(anio, copa="intercontinental"):
@@ -270,6 +297,8 @@ def leer(anio, copa="intercontinental"):
         if not fase:
             raros.append(f"sin fase: {titulo}")
             continue
+        if re.search(r"annulled|void", par.get("score", ""), re.I):
+            continue   # partido anulado y vuelto a jugar (Panathinaikos-CSKA Sofia 1972): vale el otro
         gl, gv = resultado(par.get("score", ""))
         if gl is None and par.get("score1"):
             gl, gv = int(par["score1"]), int(par["score2"])
@@ -283,7 +312,10 @@ def leer(anio, copa="intercontinental"):
             en_cancha = sum(g["lado"] == "local" for g in p["goles"]), sum(g["lado"] == "visitante" for g in p["goles"])
             p["notas"] = f"resultado dado por la UEFA (en la cancha terminó {en_cancha[0]}–{en_cancha[1]})"
             p["goles"] = []
-        if re.search(r"play-?off", par.get("id", ""), re.I) and copa == "champions":
+        if etapa == "Final":
+            p["_pagina_final"] = True
+        if copa == "champions" and (re.search(r"play-?off", par.get("id", ""), re.I) or
+                                    re.search(r"play-?off|replay|decider", titulo, re.I)):
             p["notas"] = "partido desempate"
         if copa == "intercontinental":
             p["llave"] = 1
@@ -318,6 +350,14 @@ def leer(anio, copa="intercontinental"):
         if len(p["goles"]) != total and not p["notas"]:
             raros.append(f"{local} {gl}-{gv} {visitante}: {len(p['goles'])} goles con autor")
         partidos.append(p)
+    if copa == "champions":
+        rondas_por_cantidad(partidos)
+        for p in partidos:
+            if p["gl"] is None:
+                p["notas"] = p["notas"] or "no se jugó"   # retiros y prohibiciones (Linfield-Vorwärts 1961…)
+            # erratas en el año (Basel-Wacker 1977 figura en 1967): la temporada va de julio a junio
+            if p.get("fecha") and int(p["fecha"][:4]) not in (anio, anio + 1):
+                p["fecha"] = f"{anio if int(p['fecha'][5:7]) >= 7 else anio + 1}{p['fecha'][4:]}"
     return {"anio": anio, "partidos": partidos, "goleadores": [], "ciudades": {}, "raros": raros}
 
 

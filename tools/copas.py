@@ -11,10 +11,13 @@ RAIZ = Path(__file__).resolve().parent.parent
 CACHE = RAIZ / "tools" / "cache"
 
 def paginas_champions(a):
-    """Las páginas de Wikipedia de la Champions 1991/92-2000/01 (una por fase) y a qué fase corresponde cada una.
-    'Eliminatorias': cuartos, semifinales y final (la fase sale del título de cada sección)."""
+    """Las páginas de Wikipedia de la Copa de Campeones / Champions 1955/56-2000/01 y a qué fase corresponde cada una.
+    'Eliminatorias': la fase sale del título de cada sección (ronda preliminar, primera ronda… final).
+    Hasta 1990/91 cada temporada es una sola página (todo por eliminación directa) más la de la final."""
     temporada = f"{a}–{str(a + 1)[2:] if a != 1999 else '2000'}"
-    base = f"{temporada} European Cup" if a == 1991 else f"{temporada} UEFA Champions League"
+    base = f"{temporada} European Cup" if a <= 1991 else f"{temporada} UEFA Champions League"
+    if a <= 1990:
+        return [(base, "Eliminatorias"), (f"{a + 1} European Cup final", "Final")]
     if a <= 1993:   # primera y segunda ronda (32 y 16 equipos), grupos y final (1993/94: con semifinales)
         paginas = [(f"{base} first round", "Dieciseisavos de final"), (f"{base} second round", "Octavos de final"),
                    (f"{base} group stage", "Fase de grupos")]
@@ -25,7 +28,7 @@ def paginas_champions(a):
     else:
         paginas = [(f"{base} group stage", "Fase de grupos"), (f"{base} knockout stage", "Eliminatorias")]
     # la final tiene su propia página (en la de eliminatorias hay solo un link)
-    return paginas + [(f"{a + 1} {'European Cup' if a == 1991 else 'UEFA Champions League'} final", "Final")]
+    return paginas + [(f"{a + 1} {'European Cup' if a <= 1991 else 'UEFA Champions League'} final", "Final")]
 
 
 COPAS = {
@@ -85,18 +88,18 @@ COPAS = {
         "entrenadores_partidos": RAIZ / "tools" / "entrenadores_partidos_intercontinental.json",
         "planteles_tm": RAIZ / "tools" / "planteles_tm_intercontinental.json",
     },
-    # La Champions League, desde 1991/92 (la primera con fase de grupos). Cada edición se nombra por el año en que
-    # empieza la temporada (la 2024/25 es 2024, como la etiqueta ESPN). 1991/92-2000/01 sale de Wikipedia (una página
-    # por fase, ver paginas_champions); desde 2001/02, de ESPN: se bajan los años calendario que tocan las temporadas
+    # La Copa de Campeones de Europa (1955/56) y la Champions League (desde 1992/93). Cada edición se nombra por el año en que
+    # empieza la temporada (la 2024/25 es 2024, como la etiqueta ESPN). 1955/56-2000/01 sale de Wikipedia (una página
+    # por fase, ver paginas_champions; hasta 1990/91, una por temporada); desde 2001/02, de ESPN: se bajan los años calendario que tocan las temporadas
     # (espn_anios) y se queda con las de "ediciones". No se cargan las rondas clasificatorias.
     "champions": {
         "nombre": "Champions League",
-        "desde": 1991,
-        "wikipedia": {a: paginas_champions(a) for a in range(1991, 2001)},
+        "desde": 1955,
+        "wikipedia": {a: paginas_champions(a) for a in range(1955, 2001)},
         "cache_wikipedia": CACHE / "wikipedia-champions",
         "espn": "uefa.champions",
         "espn_anios": list(range(2001, 2027)),
-        "ediciones": list(range(1991, 2026)),
+        "ediciones": list(range(1955, 2026)),
         "cache_espn": CACHE / "espn-champions",
         "data": RAIZ / "data" / "champions",
         "ns": "UCL",

@@ -22,11 +22,10 @@
       ejemplo: 2012, espn: 2005, neutral: true,
       nombres: [[2000, "Campeonato Mundial de Clubes de la FIFA"], [2006, "Copa Mundial de Clubes de la FIFA"], [2025, "Mundial de Clubes de 32 equipos"]] },
     // temporada: cada edición es una temporada europea (el año es el del comienzo: 2024 es la 2024/25);
-    // parcial: faltan las ediciones más viejas (la Champions está desde 1991/92, la primera con fase de grupos):
-    // no se cuentan los títulos de antes
-    champions: { nombre: "Champions League", grupo: "uefa", desde: 1991, lema: "La Orejona", datos: "data/champions/", ns: "UCL",
-      ejemplo: 1998, espn: 2011, temporada: true, parcial: true,
-      nombres: [[1991, "Copa de Campeones de Europa"], [1992, "UEFA Champions League"], [2024, "UEFA Champions League (fase de liga)"]] },
+    // parcial: faltan las ediciones más viejas (no se cuentan los títulos de antes)
+    champions: { nombre: "Champions League", grupo: "uefa", desde: 1955, lema: "La Orejona", datos: "data/champions/", ns: "UCL",
+      ejemplo: 1998, espn: 2011, temporada: true,
+      nombres: [[1955, "Copa de Campeones de Europa"], [1992, "UEFA Champions League"], [2024, "UEFA Champions League (fase de liga)"]] },
   };
   const PARAMS = new URLSearchParams(location.search);
   const pedida = PARAMS.get("copa");
@@ -47,7 +46,7 @@
     // Clubes de la Champions League
     MCO: "Mónaco", NOR: "Noruega", BEL: "Bélgica", CRO: "Croacia", DEN: "Dinamarca", AZE: "Azerbaiyán", TUR: "Turquía",
     KAZ: "Kazajistán", CYP: "Chipre", UKR: "Ucrania", CZE: "República Checa", SVK: "Eslovaquia", SUI: "Suiza",
-    FIN: "Finlandia", IRL: "Irlanda", ISL: "Islandia", LTU: "Lituania", LUX: "Luxemburgo", LVA: "Letonia", MLT: "Malta", NIR: "Irlanda del Norte", POL: "Polonia", HUN: "Hungría", BUL: "Bulgaria", ALB: "Albania", SRB: "Serbia", SVN: "Eslovenia", MDA: "Moldavia", BLR: "Bielorrusia", ISR: "Israel", RUS: "Rusia" };
+    FIN: "Finlandia", IRL: "Irlanda", ISL: "Islandia", LTU: "Lituania", LUX: "Luxemburgo", LVA: "Letonia", MLT: "Malta", NIR: "Irlanda del Norte", POL: "Polonia", HUN: "Hungría", BUL: "Bulgaria", ALB: "Albania", SRB: "Serbia", SVN: "Eslovenia", MDA: "Moldavia", BLR: "Bielorrusia", ISR: "Israel", RUS: "Rusia", GEO: "Georgia", ARM: "Armenia", BIH: "Bosnia y Herzegovina", MKD: "Macedonia del Norte" };
   // Cómo se muestra una edición: el año, o la temporada en las copas europeas (2024 -> "2024/25")
   const nombreAnio = (a, copa = COPA) => copa.temporada && a != null && /^\d{4}$/.test(a) ? `${a}/${String(+a + 1).slice(-2)}` : String(a ?? "");
   const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -770,7 +769,7 @@
     let html = `<h2>${nombreAnio(ed.anio)}</h2>
       <p>🏆 Campeón: <strong class="${ed.campeon ? "campeon-edicion" : ""}">${ed.campeon ? `<span>${club(ed.campeon)}</span>${vecesCampeon(ed)}` : "—"}</strong> · Subcampeón: ${ed.subcampeon ? club(ed.subcampeon) : "—"}</p>
       ${ed.nota ? `<p class="nota-edicion">${esc(ed.nota)}</p>` : ""}
-      ${COPA.parcial ? `<p class="vacio">Están cargadas las temporadas desde ${nombreAnio(LIB.indice[0].anio)}, la primera con fase de grupos (las anteriores, todavía no).</p>` : ""}
+      ${COPA.parcial ? `<p class="vacio">Están cargadas las temporadas desde ${nombreAnio(LIB.indice[0].anio)} (las anteriores, todavía no).</p>` : ""}
       <p class="vacio">Fuentes: ${ed.fuentes.join(" + ")}</p>`;
     // La final (y su desempate, si hubo) va arriba de todo
     const esFinal = f => f.nombre.startsWith("Final");
@@ -860,7 +859,7 @@
     "Tercer puesto": 8, "Quinto puesto": 7, "Segunda ronda": 7, "Primera ronda": 3,
     "Copa Challenger": 8, "Derbi de las Américas": 7, "Copa África-Asia-Pacífico": 7,
     // Champions League: la segunda fase de grupos (1999-2003) eran los 16 mejores; la primera ronda de 1991-1993, 32
-    "Segunda fase de grupos": 6, "Dieciseisavos de final": 3, "Fase de liga": 4,
+    "Segunda fase de grupos": 6, "Dieciseisavos de final": 3, "Fase de liga": 4, "Ronda preliminar": 2,
     ...(CLAVE_COPA === "sudamericana" ? { "Segunda fase": 3, "Primera fase": 2 } : {}) };
   // Mejor o peor instancia a la que llegó, con todos los años en que le pasó
   function participacion(eds, cual) {

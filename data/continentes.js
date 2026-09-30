@@ -22,7 +22,7 @@ window.CONTINENTES = {
   europa: {
     nombre: "Europa", confederacion: "UEFA", color: "#3f7fd9",
     internacionales: [
-      { nombre: "Champions League", copa: "champions", desde: 1955, trofeo: "assets/img/copa-champions.webp", nota: "cargada desde 1991/92, la primera con fase de grupos" },
+      { nombre: "Champions League", copa: "champions", desde: 1955, trofeo: "assets/img/copa-champions.webp", nota: "hasta 1992, Copa de Campeones de Europa" },
       { nombre: "Europa League", desde: 1971, nota: "hasta 2009, Copa UEFA" },
       { nombre: "Conference League", desde: 2021 },
       { nombre: "Supercopa de Europa", desde: 1972 },
@@ -33,6 +33,6 @@ window.CONTINENTES = {
     ],
     paises: ["ESP", "ITA", "ENG", "SCO", "GER", "NED", "POR", "FRA", "AUT", "GRE", "ROU", "SWE", "YUG",
       "MCO", "NOR", "BEL", "CRO", "DEN", "AZE", "TUR", "KAZ", "CYP", "UKR", "CZE", "SVK", "SUI",
-      "FIN", "IRL", "ISL", "LTU", "LUX", "LVA", "MLT", "NIR", "POL", "HUN", "BUL", "ALB", "SRB", "SVN", "MDA", "BLR", "ISR", "RUS"],
+      "FIN", "IRL", "ISL", "LTU", "LUX", "LVA", "MLT", "NIR", "POL", "HUN", "BUL", "ALB", "SRB", "SVN", "MDA", "BLR", "ISR", "RUS", "GEO", "ARM", "BIH", "MKD"],
   },
 };
