@@ -21,6 +21,11 @@
     mundial: { nombre: "Mundial de Clubes", grupo: "fifa", el: true, desde: 2000, lema: "El Campeón de Campeones", datos: "data/mundial/", ns: "MUN",
       ejemplo: 2012, espn: 2005, neutral: true,
       nombres: [[2000, "Campeonato Mundial de Clubes de la FIFA"], [2006, "Copa Mundial de Clubes de la FIFA"], [2025, "Mundial de Clubes de 32 equipos"]] },
+    // temporada: cada edición es una temporada europea (el año es el del comienzo: 2024 es la 2024/25);
+    // parcial: solo están cargadas algunas ediciones (no se cuentan los títulos de antes)
+    champions: { nombre: "Champions League", grupo: "uefa", desde: 2024, lema: "La Orejona", datos: "data/champions/", ns: "UCL",
+      ejemplo: 2024, espn: 2024, temporada: true, parcial: true,
+      nombres: [[2024, "UEFA Champions League"]] },
   };
   const PARAMS = new URLSearchParams(location.search);
   const pedida = PARAMS.get("copa");
@@ -37,7 +42,12 @@
     FRA: "Francia", AUT: "Austria", GRE: "Grecia", ROU: "Rumania", SWE: "Suecia", YUG: "Yugoslavia",
     KSA: "Arabia Saudita", UAE: "Emiratos Árabes Unidos", QAT: "Catar", IRN: "Irán", JPN: "Japón", KOR: "Corea del Sur", CHN: "China",
     AUS: "Australia", NZL: "Nueva Zelanda", TAH: "Tahití", NCL: "Nueva Caledonia", PNG: "Papúa Nueva Guinea",
-    EGY: "Egipto", TUN: "Túnez", ALG: "Argelia", MAR: "Marruecos", RSA: "Sudáfrica", COD: "RD del Congo" };
+    EGY: "Egipto", TUN: "Túnez", ALG: "Argelia", MAR: "Marruecos", RSA: "Sudáfrica", COD: "RD del Congo",
+    // Clubes de la Champions League
+    MCO: "Mónaco", NOR: "Noruega", BEL: "Bélgica", CRO: "Croacia", DEN: "Dinamarca", AZE: "Azerbaiyán", TUR: "Turquía",
+    KAZ: "Kazajistán", CYP: "Chipre", UKR: "Ucrania", CZE: "República Checa", SVK: "Eslovaquia", SUI: "Suiza" };
+  // Cómo se muestra una edición: el año, o la temporada en las copas europeas (2024 -> "2024/25")
+  const nombreAnio = (a, copa = COPA) => copa.temporada && a != null && /^\d{4}$/.test(a) ? `${a}/${String(+a + 1).slice(-2)}` : String(a ?? "");
   const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   // "la Copa Libertadores" / "el Mundial de Clubes", con la preposición pegada: "de la Copa…" / "del Mundial…", "a la" / "al"
   const conArticulo = (copa, prep = "") => copa.el
@@ -196,7 +206,7 @@
   document.querySelectorAll("h1.copas a.copa").forEach(a => a.setAttribute("title",
     a.dataset.copa === CLAVE_COPA ? "Ir a la edición actual" : `Ir ${conArticulo(COPAS[a.dataset.copa], "a")}`));
   const desdeEl = document.getElementById("copa-desde");
-  if (desdeEl) desdeEl.textContent = `Desde ${COPA.desde}`;
+  if (desdeEl) desdeEl.textContent = `Desde ${nombreAnio(COPA.desde)}`;
   // El ejemplo del buscador de años tiene que ser un año de esta copa (la Sudamericana empieza en 2002)
   const buscarAnioEj = document.getElementById("buscar-anio");
   if (buscarAnioEj) buscarAnioEj.placeholder = `Escribí un año (ej.: ${COPA.ejemplo})`;
@@ -219,7 +229,7 @@
   };
   const mostrarAnioEnBoton = anio => {
     const s = document.getElementById("anio-actual");
-    if (s) s.textContent = anio || "Años";
+    if (s) s.textContent = anio ? nombreAnio(anio) : "Años";
     anioVisto = anio;
     if (flechaAntEl) flechaAntEl.disabled = anioVecino(-1) === null;
     if (flechaSigEl) flechaSigEl.disabled = anioVecino(1) === null;
@@ -440,7 +450,8 @@
   function etapasDeGrupos(ed) {
     const etapas = [];
     ed.fases.forEach((f, i) => {
-      const m = f.nombre.match(/^(.*) — Grupo (\S+)$/);   // los "— Desempate" quedan afuera
+      // los "— Desempate" quedan afuera; la "Fase de liga" de la Champions es una sola tabla (sin letra)
+      const m = f.nombre.match(/^(.*) — Grupo (\S+)$/) || f.nombre.match(/^(Fase de liga)()$/);
       if (!m) return;
       let etapa = etapas.find(e => e.nombre === m[1]);
       if (!etapa) etapas.push(etapa = { nombre: m[1], grupos: [], ultima: i });
@@ -502,7 +513,8 @@
   function grupoHTML(grupo, etapa, anio) {
     const filas = tablaDeGrupo(grupo.partidos, anio).sort((a, b) =>
       b.pts - a.pts || b.dif - a.dif || b.gf - a.gf ||
-      etapa.pasan.has(b.id) - etapa.pasan.has(a.id) ||          // desempates que no se ven en la tabla
+      etapa.directo.has(b.id) - etapa.directo.has(a.id) ||      // desempates que no se ven en la tabla
+      etapa.pasan.has(b.id) - etapa.pasan.has(a.id) ||
       equipo(a.id).nombre.localeCompare(equipo(b.id).nombre));
     const hayResultados = filas.some(f => f.pj);
     const cuerpo = filas.map((f, i) => {
@@ -522,7 +534,7 @@
       </tr>`;
     }).join("");
     return `<div class="grupo">
-      <h4>${esc(grupo.titulo || `Grupo ${grupo.letra}`)}</h4>
+      <h4>${esc(grupo.titulo || (grupo.letra ? `Grupo ${grupo.letra}` : "Tabla de posiciones"))}</h4>
       <table>
         <thead><tr><th>#</th><th class="eq">Equipo</th><th>Pts</th><th>J</th><th>Gol</th><th>+/-</th>
           <th class="opc">G</th><th class="opc">E</th><th class="opc">P</th><th class="ultimas">Últimas</th></tr></thead>
@@ -583,7 +595,7 @@
   }
 
   function cuadroHTML(ed) {
-    const esGrupo = f => / — Grupo /.test(f.nombre);
+    const esGrupo = f => / — Grupo |^Fase de liga$/.test(f.nombre);
     const ultimoGrupo = ed.fases.reduce((u, f, i) => esGrupo(f) ? i : u, -1);
     const llaves = juntarLlaves(ed, ultimoGrupo + 1, ed.fases.length);
     const final = llaves.find(l => l.fase.startsWith("Final"));
@@ -594,7 +606,7 @@
   // ---- Cuadro de la fase previa (todas las fases antes de la fase de grupos) ----
   // No es un cuadro "puro": en cada ronda entran equipos nuevos, así que esas casillas quedan vacías
   function cuadroPreviaHTML(ed) {
-    const primerGrupo = ed.fases.findIndex(f => / — Grupo /.test(f.nombre));
+    const primerGrupo = ed.fases.findIndex(f => / — Grupo |^Fase de liga$/.test(f.nombre));
     if (primerGrupo <= 0) return "";
     const llaves = juntarLlaves(ed, 0, primerGrupo, true);
     // Si un equipo juega más de una llave en la misma fase no es eliminación directa (p. ej. la previa 1998-2003)
@@ -747,14 +759,16 @@
 
   // Cuántas Copas llevaba el campeón contando la de ese año (River en 2018: 4)
   function vecesCampeon(ed) {
+    if (COPA.parcial) return "";   // faltan las ediciones viejas: no se sabe cuántas llevaba
     const n = LIB.indice.filter(e => e.campeon === ed.campeon && e.anio <= ed.anio).length;
     return `<small class="veces-campeon">${n === 1 ? "1 vez campeón" : `${n} veces campeón`}</small>`;
   }
 
   function mostrar(ed) {
-    let html = `<h2>${ed.anio}</h2>
+    let html = `<h2>${nombreAnio(ed.anio)}</h2>
       <p>🏆 Campeón: <strong class="${ed.campeon ? "campeon-edicion" : ""}">${ed.campeon ? `<span>${club(ed.campeon)}</span>${vecesCampeon(ed)}` : "—"}</strong> · Subcampeón: ${ed.subcampeon ? club(ed.subcampeon) : "—"}</p>
       ${ed.nota ? `<p class="nota-edicion">${esc(ed.nota)}</p>` : ""}
+      ${COPA.parcial ? `<p class="vacio">Por ahora solo están cargadas las temporadas ${LIB.indice.map(e => nombreAnio(e.anio)).join(" y ")}.</p>` : ""}
       <p class="vacio">Fuentes: ${ed.fuentes.join(" + ")}</p>`;
     // La final (y su desempate, si hubo) va arriba de todo
     const esFinal = f => f.nombre.startsWith("Final");
@@ -764,7 +778,7 @@
     html += gruposHTML(ed, cuadroHTML(ed), cuadroPreviaHTML(ed));
     // El resto de las fases, de la más importante a la primera (los grupos, de la A en adelante)
     const resto = [...ed.fases].reverse().filter(f => !esFinal(f));
-    const grupoDe = f => f.nombre.match(/^(.*) — Grupo (\S+)$/);
+    const grupoDe = f => f.nombre.match(/^(.*) — Grupo (\S+)$/) || f.nombre.match(/^(Fase de liga)()$/);
     // Ordena los grupos de cada etapa (A, B, C…), con el desempate de un grupo justo después del grupo
     const clave = f => f.nombre.match(/^(.*) — Grupo (\S+)( — Desempate)?$/);
     new Set(resto.map(clave).filter(Boolean).map(m => m[1])).forEach(etapa => {
@@ -782,7 +796,7 @@
           `<button class="orden ir-fecha" type="button" data-fecha="${n + 1}" aria-pressed="${actual === n + 1}">Fecha ${n + 1}</button>`).join("")}</div>`;
       const cuerpo = g
         ? barra(0) +
-          fechas.map((ps, n) => `<h4 class="fecha-grupo" data-fecha="${n + 1}">Grupo ${esc(g[2])} · Fecha ${n + 1}</h4>` +
+          fechas.map((ps, n) => `<h4 class="fecha-grupo" data-fecha="${n + 1}">${g[2] ? `Grupo ${esc(g[2])} · ` : ""}Fecha ${n + 1}</h4>` +
             (n ? barra(n + 1) : "") + ps.map(partido).join("")).join("")
         : eliminatoriaHTML(f.partidos);
       html += `<details class="fase"><summary>${esc(f.nombre)} (${f.partidos.length})</summary>${cuerpo}</details>`;
@@ -811,7 +825,7 @@
 
   // "Atlético" y "atletico" cuentan igual al buscar
   const normalizar = t => String(t || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
-  const linkEdicion = anio => `<a href="${enlaceHtml(`edicion=${anio}`)}" data-anio="${anio}">${anio}</a>`;
+  const linkEdicion = anio => `<a href="${enlaceHtml(`edicion=${anio}`)}" data-anio="${anio}">${nombreAnio(anio)}</a>`;
   const linkEquipo = id => `<a class="link-equipo" href="${enlaceHtml(`equipo=${esc(id)}`)}" data-equipo="${esc(id)}">${club(id)}</a>`;
   const plural = (n, uno, varios) => `${n} ${n === 1 ? uno : varios}`;
 
@@ -903,7 +917,7 @@
     let html = `<h2 class="titulo-equipo">${e.escudo ? `<img class="escudo-grande" src="${e.escudo}" alt="" onerror="this.remove()">` : ""}${esc(e.nombre)}</h2>
       <p class="vacio">${lugar}</p>
       <div class="datos">
-        ${dato(eds.length, eds.length === 1 ? "edición jugada" : "ediciones jugadas", `<small>${eds[0].anio}${eds.length > 1 ? ` a ${eds[eds.length - 1].anio}` : ""}</small>`)}
+        ${dato(eds.length, eds.length === 1 ? "edición jugada" : "ediciones jugadas", `<small>${nombreAnio(eds[0].anio)}${eds.length > 1 ? ` a ${nombreAnio(eds[eds.length - 1].anio)}` : ""}</small>`)}
         ${dato(h.titulos.length ? "🏆 " + h.titulos.length : 0, h.titulos.length === 1 ? "título" : "títulos", anios(h.titulos))}
         ${dato(h.finales.length, h.finales.length === 1 ? "final perdida" : "finales perdidas", anios(h.finales))}
         ${dato(t.pj, "partidos", `<small>${t.g} G · ${t.e} E · ${t.p} P</small>`)}
@@ -995,7 +1009,7 @@
   }
 
   const INSTANCIAS = ["Octavos de final", "Cuartos de final", "Semifinales", "Final"];
-  const aniosDe = a => a[0] === a[1] ? `${a[0]}` : `${a[0]}–${a[1]}`;
+  const aniosDe = a => a[0] === a[1] ? nombreAnio(a[0]) : `${nombreAnio(a[0])} a ${nombreAnio(a[1])}`.replace(/^(\d+) a (\d+)$/, "$1–$2");
   const clubes = ids => ids.map(linkEquipo).join("<br>");
   const partidoLinea = p => `${linkEquipo(p.local)} <strong>${p.gl}–${p.gv}</strong> ${linkEquipo(p.visitante)}`;
 
@@ -1032,10 +1046,10 @@
       .filter(([id]) => id !== "est-entrenadores" || st.dtPartidos?.length);   // sin datos de Transfermarkt no hay entrenadores
 
     let html = `<h2>📊 Estadísticas históricas</h2>
-      <p class="vacio">Todas las ediciones desde ${COPA.desde}. En las ediciones viejas las fuentes a veces traen solo el apellido
+      <p class="vacio">Todas las ediciones desde ${nombreAnio(COPA.desde)}. En las ediciones viejas las fuentes a veces traen solo el apellido
         del jugador, así que puede haber algún goleador partido en dos o dos jugadores con el mismo apellido juntos.</p>
       <div class="datos">
-        ${dato(st.golesEdicion.length, "ediciones", `<small>${st.golesEdicion[0].anio} a ${st.golesEdicion.at(-1).anio}</small>`)}
+        ${dato(st.golesEdicion.length, "ediciones", `<small>${nombreAnio(st.golesEdicion[0].anio)} a ${nombreAnio(st.golesEdicion.at(-1).anio)}</small>`)}
         ${dato(totPartidos.toLocaleString("es-AR"), "partidos jugados")}
         ${dato(totGoles.toLocaleString("es-AR"), "goles", `<small>${(totGoles / totPartidos).toFixed(2).replace(".", ",")} por partido</small>`)}
         ${clubesEmpatados.length === 1
@@ -1126,7 +1140,7 @@
           <td>${partidoLinea(t.partido)}</td><td>${linkEdicion(t.partido.anio)}</td></tr>`));
 
     html += `<h3 id="est-asistidores">🎯 Máximos asistidores</h3>
-      <p class="vacio">Las asistencias están registradas solo desde ${COPA.espn}.</p>` + tablaGoleadores(st.asistidores, "Asist.");
+      <p class="vacio">Las asistencias están registradas solo desde ${nombreAnio(COPA.espn)}.</p>` + tablaGoleadores(st.asistidores, "Asist.");
 
     const maxProm = Math.max(...st.golesEdicion.map(e => e.partidos ? e.goles / e.partidos : 0));
     html += `<h3 id="est-goles">📈 Goles por edición</h3>
@@ -1209,9 +1223,9 @@
   function actualizarTitulo(anio) {
     const e = LIB.indice.find(x => x.anio == anio) || {};
     const campeon = e.campeon ? equipo(e.campeon).nombre : null;
-    document.title = `${COPA.nombre} ${anio}${campeon ? " — Campeón " + campeon : ""}`;
+    document.title = `${COPA.nombre} ${nombreAnio(anio)}${campeon ? " — Campeón " + campeon : ""}`;
     const desc = document.querySelector('meta[name="description"]');
-    if (desc) desc.content = `${COPA.nombre} ${anio}: ${campeon ? `campeón ${campeon}, subcampeón ${equipo(e.subcampeon).nombre}. ` : ""}` +
+    if (desc) desc.content = `${COPA.nombre} ${nombreAnio(anio)}: ${campeon ? `campeón ${campeon}, subcampeón ${equipo(e.subcampeon).nombre}. ` : ""}` +
       "Final, tablas de grupos, todos los partidos, goleadores, asistidores y planteles.";
     // Dirección "oficial" de esta edición, para que Google no la tome como copia de otra
     let canonica = document.querySelector('link[rel="canonical"]');
@@ -1247,8 +1261,8 @@
       el.hidden = !hay;
       if (!hay) return;
       el.dataset.anio = v.anterior;
-      el.querySelector("span").textContent = v.anterior;
-      el.title = `Volver a ${v.anterior}, el último año que viste`;
+      el.querySelector("span").textContent = nombreAnio(v.anterior);
+      el.title = `Volver a ${nombreAnio(v.anterior)}, el último año que viste`;
     });
   }
   ultimoAnioEls.forEach(el => el.addEventListener("click", () => seleccionar(el.dataset.anio, true)));
@@ -1261,7 +1275,7 @@
     cerrarAnios();
     if (guardarEnHistorial) history.pushState(null, "", enlace(`edicion=${anio}`));
     actualizarTitulo(anio);
-    edicionEl.innerHTML = `<p class="vacio">Cargando ${anio}…</p>`;
+    edicionEl.innerHTML = `<p class="vacio">Cargando ${nombreAnio(anio)}…</p>`;
     cargarEdicion(anio).then(mostrar).catch(e => { edicionEl.innerHTML = `<p class="vacio">${esc(e.message)}</p>`; });
   }
 
@@ -1271,9 +1285,9 @@
     const hasta = COPA.nombres[i + 1]?.[0] ?? Infinity;
     const eds = LIB.indice.filter(e => e.anio >= desde && e.anio < hasta);
     if (!eds.length) return "";
-    const rango = eds.length > 1 ? `${eds[0].anio}–${eds[eds.length - 1].anio}` : eds[0].anio;
+    const rango = eds.length > 1 ? `${nombreAnio(eds[0].anio)} a ${nombreAnio(eds[eds.length - 1].anio)}`.replace(/^(\d+) a (\d+)$/, "$1–$2") : nombreAnio(eds[0].anio);
     return `<div class="nombre-copa"><h3>${esc(nombre)} <small>${rango}</small></h3><div class="anios">` +
-      eds.map(e => `<a href="${enlaceHtml(`edicion=${e.anio}`)}" data-anio="${e.anio}" title="${esc(equipo(e.campeon).nombre)}">${e.anio}</a>`).join("") +
+      eds.map(e => `<a href="${enlaceHtml(`edicion=${e.anio}`)}" data-anio="${e.anio}" title="${esc(equipo(e.campeon).nombre)}">${nombreAnio(e.anio)}</a>`).join("") +
       `</div></div>`;
   }).join("");
   navEl.addEventListener("click", e => {

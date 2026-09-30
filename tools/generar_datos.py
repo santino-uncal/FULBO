@@ -8,6 +8,7 @@ Cómo combina las fuentes (en las dos copas):
   - 2005–2024: RSSSF es la base (lista completa de partidos) y cada partido se completa
     con el detalle de ESPN (goles con minuto y asistencia, formaciones, árbitro, público).
   - 2025 en adelante: solo ESPN.
+La Champions League sale toda de ESPN (solo las temporadas de "ediciones" en copas.py).
 El Mundial de Clubes y la Copa Intercontinental toman de Wikipedia lo que ESPN no tiene (la Intercontinental
 1960-2004 y el Mundial 2000); lo demás sale de ESPN.
 Los clubes son uno solo para todas las copas (data/equipos.js). La Libertadores queda en data/ y cada una de
@@ -37,7 +38,7 @@ DATA = RAIZ / "data"
 CACHE = RAIZ / "tools" / "cache"
 
 ORDEN_FASES = ["Fase previa", "Primera fase previa", "Segunda fase previa", "Tercera fase previa",
-               "Primera fase", "Fase de grupos", "Segunda fase", "Tercera fase", "Playoffs de octavos",
+               "Primera fase", "Fase de grupos", "Fase de liga", "Segunda fase", "Tercera fase", "Playoffs de octavos",
                "Primera ronda", "Copa África-Asia-Pacífico", "Segunda ronda", "Derbi de las Américas", "Copa Challenger",
                "Octavos de final",
                "Cuartos de final", "Semifinales", "Quinto puesto", "Tercer puesto", "Final"]
@@ -385,7 +386,8 @@ def main():
         rs.update({(clave, a): leer_rsssf.leer(a, clave) for a in anios_rsssf(clave)})
         rs.update({(clave, a): leer_wikipedia.leer(a, clave) for a in leer_wikipedia.anios(clave)})
         es.update({(clave, a): r for a, r in repartir_por_temporada(
-            {a: leer_espn.leer(a, clave) for a in anios_espn(clave)}, "rsssf" in COPAS[clave]).items()})
+            {a: leer_espn.leer(a, clave) for a in anios_espn(clave)}, "rsssf" in COPAS[clave]).items()
+            if a in COPAS[clave].get("ediciones", [a])})   # la Champions: solo las temporadas elegidas
     sin_pais = asignar_clubes_rsssf(rs, cat)
 
     # ESPN -> club: votos por emparejamiento de partidos
@@ -399,9 +401,12 @@ def main():
     for k, (pares, usados) in pares_por_anio.items():
         emparejar_por_club(rs[k], es[k], pares, usados, mapa)
     # Clubes de ESPN que nunca aparecieron en RSSSF (ediciones nuevas)
+    # (solo los que juegan en alguna edición: el calendario de ESPN trae también los de temporadas que no se cargan)
     info_espn = {}
     for k in es:
         info_espn.update(es[k]["equipos"])
+    juegan = {p[lado] for k in es for p in es[k]["partidos"] for lado in ("local_espn", "visitante_espn")}
+    info_espn = {eid: t for eid, t in info_espn.items() if eid in juegan}
     for eid, t in info_espn.items():
         if t["nombre"].startswith("TBD"):  # partido futuro con rival todavía no definido
             mapa[eid] = cat.id_de("A definir", None)

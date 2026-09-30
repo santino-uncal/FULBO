@@ -98,7 +98,7 @@ def main():
     CACHE = COPAS[clave]["cache_espn"]
     BASE = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{COPAS[clave]['espn']}"
     desde = COPAS[clave].get("espn_desde", PRIMER_ANIO)
-    anios = [int(a) for a in args] or list(range(desde, time.localtime().tm_year + 1))
+    anios = [int(a) for a in args] or COPAS[clave].get("espn_anios") or list(range(desde, time.localtime().tm_year + 1))
     for a in anios:
         temporada(a)
 

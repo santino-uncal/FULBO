@@ -57,6 +57,15 @@ FASES_INT = [
     (r"playoff", "Copa Challenger"),
     (r"^final", "Final"),
 ]
+# Champions League (desde 2024/25): una fase de liga de 36 equipos (una sola tabla), playoffs y eliminación directa
+FASES_UCL = [
+    (r"league", "Fase de liga"),
+    (r"knockout-round-playoffs|playoff", "Playoffs de octavos"),
+    (r"round-of-16", "Octavos de final"),
+    (r"quarter", "Cuartos de final"),
+    (r"semi", "Semifinales"),
+    (r"^final", "Final"),
+]
 
 
 def fecha_local(iso):
@@ -71,7 +80,8 @@ def nombre_fase(evento, copa="libertadores", grupos=None):
     nota = evento["competitions"][0].get("altGameNote") or ""
     if copa == "sudamericana":
         slug = re.sub(r"^copa-sudamericana-+", "", slug)
-    tabla = {"sudamericana": FASES_SUD, "mundial": FASES_MUN, "intercontinental": FASES_INT}.get(copa, FASES)
+    tabla = {"sudamericana": FASES_SUD, "mundial": FASES_MUN, "intercontinental": FASES_INT,
+             "champions": FASES_UCL}.get(copa, FASES)
     for patron, nombre in tabla:
         if nombre == "Copa África-Asia-Pacífico" and re.search(patron, slug) and evento["date"][5:7] == "12":
             return "Derbi de las Américas"

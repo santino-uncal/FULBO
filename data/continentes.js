@@ -22,7 +22,7 @@ window.CONTINENTES = {
   europa: {
     nombre: "Europa", confederacion: "UEFA", color: "#3f7fd9",
     internacionales: [
-      { nombre: "Champions League", desde: 1955, nota: "hasta 1992, Copa de Campeones de Europa" },
+      { nombre: "Champions League", copa: "champions", desde: 1955, nota: "por ahora, las temporadas 2024/25 y 2025/26" },
       { nombre: "Europa League", desde: 1971, nota: "hasta 2009, Copa UEFA" },
       { nombre: "Conference League", desde: 2021 },
       { nombre: "Supercopa de Europa", desde: 1972 },
@@ -31,6 +31,7 @@ window.CONTINENTES = {
       ["ENG", "Premier League"], ["ESP", "LaLiga"], ["ITA", "Serie A"], ["GER", "Bundesliga"], ["FRA", "Ligue 1"],
       ["POR", "Primeira Liga"], ["NED", "Eredivisie"], ["SCO", "Premiership"],
     ],
-    paises: ["ESP", "ITA", "ENG", "SCO", "GER", "NED", "POR", "FRA", "AUT", "GRE", "ROU", "SWE", "YUG"],
+    paises: ["ESP", "ITA", "ENG", "SCO", "GER", "NED", "POR", "FRA", "AUT", "GRE", "ROU", "SWE", "YUG",
+      "MCO", "NOR", "BEL", "CRO", "DEN", "AZE", "TUR", "KAZ", "CYP", "UKR", "CZE", "SVK", "SUI"],
   },
 };

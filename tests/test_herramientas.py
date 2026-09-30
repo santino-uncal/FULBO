@@ -46,7 +46,7 @@ class Copas(unittest.TestCase):
 
     def test_copa_desconocida_corta(self):
         with self.assertRaises(SystemExit):
-            copa_de_argumentos(["--copa", "champions"])
+            copa_de_argumentos(["--copa", "premier"])
 
     def test_prefijo_js(self):
         self.assertEqual(prefijo_js("mundial"), "window.MUN = window.MUN || {};\n")
