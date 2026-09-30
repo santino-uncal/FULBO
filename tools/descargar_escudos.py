@@ -36,13 +36,24 @@ ESCUDOS_A_MANO = {
     "al-wahda": "tsdb:137836", "shabab-al-ahli": "tsdb:137828", "seongnam-ilhwa": "tsdb:138114",
     "hekari-united": "tsdb:139102", "waitakere-united": "tsdb:139101", "hienghene-sport": "tsdb:137649",
     "as-pirae": "tsdb:144956",
+    # Champions League
+    "1-kaiserslautern": "tsdb:133663", "hertha-bsc": "tsdb:133658", "heerenveen": "tsdb:133759", "willem-ii": "tsdb:133827",
+    "kispest-honved": "tsdb:134070", "fram": "tsdb:140780", "ia": "tsdb:137972", "hamrun-spartans": "tsdb:138133",
+    "artmedia-petrzalka": "tsdb:146306",
 }
 PAISES = {"ARG": "Argentina", "BRA": "Brazil", "URU": "Uruguay", "PAR": "Paraguay", "CHI": "Chile",
           "COL": "Colombia", "PER": "Peru", "ECU": "Ecuador", "BOL": "Bolivia", "VEN": "Venezuela", "MEX": "Mexico",
           # clubes del Mundial de Clubes y la Intercontinental que no están en ESPN
           "ESP": "Spain", "ITA": "Italy", "ENG": "England", "SCO": "Scotland", "GER": "Germany", "NED": "Netherlands",
           "POR": "Portugal", "ROU": "Romania", "SWE": "Sweden", "GRE": "Greece", "YUG": "Serbia", "KSA": "Saudi Arabia",
-          "AUS": "Australia"}
+          "AUS": "Australia",
+          # clubes de la Champions League
+          "FRA": "France", "AUT": "Austria", "BEL": "Belgium", "CRO": "Croatia", "DEN": "Denmark", "TUR": "Turkey",
+          "CYP": "Cyprus", "UKR": "Ukraine", "CZE": "Czech Republic", "SVK": "Slovakia", "SUI": "Switzerland",
+          "NOR": "Norway", "FIN": "Finland", "IRL": "Ireland", "ISL": "Iceland", "LTU": "Lithuania", "LUX": "Luxembourg",
+          "LVA": "Latvia", "MLT": "Malta", "NIR": "Northern Ireland", "POL": "Poland", "HUN": "Hungary", "BUL": "Bulgaria",
+          "ALB": "Albania", "SRB": "Serbia", "SVN": "Slovenia", "MDA": "Moldova", "BLR": "Belarus", "ISR": "Israel",
+          "RUS": "Russia", "KAZ": "Kazakhstan", "AZE": "Azerbaijan"}
 
 
 def leer_equipos():

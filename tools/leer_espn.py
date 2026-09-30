@@ -7,6 +7,7 @@ No se usa solo: lo llama tools/generar_datos.py. Para revisar una temporada:
 import datetime
 import json
 import re
+import unicodedata
 
 from copas import COPAS, copa_de_argumentos
 
@@ -57,10 +58,14 @@ FASES_INT = [
     (r"playoff", "Copa Challenger"),
     (r"^final", "Final"),
 ]
-# Champions League (desde 2024/25): una fase de liga de 36 equipos (una sola tabla), playoffs y eliminación directa
+# Champions League: desde 2024/25, una fase de liga de 36 equipos (una sola tabla), playoffs y eliminación directa.
+# En 2001/02 y 2002/03 hubo dos fases de grupos ("2001-second-phase"). Las rondas clasificatorias no se cargan
 FASES_UCL = [
+    (r"qualif|preliminary|^play-?off-round$|^playoffs$", "Fase previa"),   # el playoff de agosto (2009-2023) es clasificatorio
+    (r"second-phase", "Segunda fase de grupos"),
     (r"league", "Fase de liga"),
-    (r"knockout-round-playoffs|playoff", "Playoffs de octavos"),
+    (r"group", "Fase de grupos"),
+    (r"knockout-round-playoffs", "Playoffs de octavos"),
     (r"round-of-16", "Octavos de final"),
     (r"quarter", "Cuartos de final"),
     (r"semi", "Semifinales"),
@@ -86,10 +91,10 @@ def nombre_fase(evento, copa="libertadores", grupos=None):
         if nombre == "Copa África-Asia-Pacífico" and re.search(patron, slug) and evento["date"][5:7] == "12":
             return "Derbi de las Américas"
         if re.search(patron, slug):
-            if nombre == "Fase de grupos":
+            if nombre in ("Fase de grupos", "Segunda fase de grupos"):
                 m = re.search(r"Group\s+(\w+)", nota)
                 letra = m.group(1) if m else (grupos or {}).get(evento["competitions"][0]["competitors"][0]["team"]["id"])
-                return f"Fase de grupos — Grupo {letra}" if letra else nombre
+                return f"{nombre} — Grupo {letra}" if letra else nombre
             if nombre == "Fase previa" and slug in PREVIAS:
                 return PREVIAS[slug]
             return nombre
@@ -120,6 +125,8 @@ def leer(anio, copa="libertadores"):
                                 "color": t.get("color"), "color2": t.get("alternateColor"),
                                 "escudo": t.get("logo")}
         estado = e["status"]["type"]
+        if copa == "champions" and nombre_fase(e, copa, grupos) == "Fase previa":
+            continue   # la Champions se carga desde la fase de grupos (las rondas clasificatorias quedan afuera)
         p = {
             "espn": e["id"], "fase": nombre_fase(e, copa, grupos), "temporada_espn": (e.get("season") or {}).get("year"), "fecha": fecha_local(e["date"]), "hora_utc": e["date"],
             "local_espn": lados["home"]["team"]["id"], "visitante_espn": lados["away"]["team"]["id"],
@@ -141,6 +148,32 @@ def leer(anio, copa="libertadores"):
             completar(p, json.loads(detalle.read_text(encoding="utf-8")))
         partidos.append(p)
     return {"anio": anio, "partidos": partidos, "equipos": equipos}
+
+
+def apellido(nombre):
+    """'Péguy Luyindula' -> 'luyindula' (para reconocer al mismo jugador escrito de dos formas)."""
+    t = unicodedata.normalize("NFD", nombre or "").encode("ascii", "ignore").decode().lower().split()
+    return t[-1] if t else ""
+
+
+def sin_goles_repetidos(goles, p):
+    """En algunos partidos viejos (2003-2010) ESPN tiene cada gol dos veces, a veces con el nombre escrito distinto
+    ('Derlei Derlei' y 'Vanderlei Fernandes Da Silva Derlei') o un minuto corrido. Solo se tocan los equipos con
+    más goles que los del resultado: se sacan los repetidos (mismo apellido, mismo minuto ±1) y, si igual sobran,
+    se sacan todos los de ese equipo (no se sabe cuáles son los buenos)."""
+    for lado, total in (("local", p.get("gl")), ("visitante", p.get("gv"))):
+        del_lado = [g for g in goles if g["lado"] == lado]
+        if total is None or len(del_lado) <= total:
+            continue
+        quedan = []
+        for g in del_lado:
+            if not any(apellido(g["jugador"]) == apellido(q["jugador"]) and g["min"] is not None and q["min"] is not None
+                       and abs(g["min"] - q["min"]) <= 1 for q in quedan):
+                quedan.append(g)
+        if len(quedan) > total:
+            quedan = []
+        goles = [g for g in goles if g["lado"] != lado or any(g is q for q in quedan)]
+    return goles
 
 
 def completar(p, d):
@@ -170,7 +203,7 @@ def completar(p, d):
             "tipo": "ec" if tipo == "own-goal" else "pen" if tipo.startswith("penalty") else None,
             "lado": "local" if k.get("team", {}).get("id") == p["local_espn"] else "visitante",
         })
-    p["goles"] = goles
+    p["goles"] = sin_goles_repetidos(goles, p)
     # Tanda de penales: cada remate en el orden en que se pateó. Por ronda (shotNumber); dentro de la ronda,
     # primero el equipo que abrió la tanda (el del primer remate según la numeración de eventos de ESPN)
     tanda = []

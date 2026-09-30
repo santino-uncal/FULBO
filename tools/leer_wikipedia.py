@@ -237,18 +237,36 @@ def fase_de(titulo, copa):
     return "Final" if copa == "intercontinental" or "final" in t else None
 
 
+def fase_etapa(etapa, titulos):
+    """Fase de un partido de la Champions según la página (etapa) y los títulos de sección de esa página."""
+    if etapa in ("Fase de grupos", "Segunda fase de grupos"):
+        letra = next((m.group(1).upper() for t in reversed(titulos) for m in [re.match(r"group\s+(\w+)$", t, re.I)] if m), None)
+        return f"{etapa} — Grupo {letra}" if letra else None
+    if etapa == "Eliminatorias":   # cuartos, semifinales y final
+        return next((f for f in (fase_de(t, "champions") for t in reversed(titulos)) if f), None)
+    return etapa
+
+
 def leer(anio, copa="intercontinental"):
     texto = limpiar((COPAS[copa]["cache_wikipedia"] / f"{anio}.txt").read_text(encoding="utf-8"))
     # Títulos de sección con su posición, para saber en qué fase está cada partido
     secciones = [(m.start(), m.group(2).strip()) for m in re.finditer(r"^(={2,4})\s*(.*?)\s*\1\s*$", texto, re.M)]
     cajas = [m.start() for m in re.finditer(r"\{\{\s*football ?box", texto, re.I)]
+    # La Champions: cada página del archivo es una fase ("@@ETAPA Fase de grupos@@", ver descargar_wikipedia.py)
+    etapas = [(m.start(), m.group(1)) for m in re.finditer(r"^@@ETAPA (.*?)@@$", texto, re.M)]
     partidos, raros = [], []
     for n, inicio in enumerate(cajas):
         fin = plantilla(texto, inicio)
         par = parametros(texto[inicio + 2:fin - 2])
         titulos = [t for pos, t in secciones if pos < inicio and not re.match(r"^(details|match|summary)$", t, re.I)]
         titulo = titulos[-1] if titulos else ""
-        fase = fase_de(titulo, copa) or next((f for f in (fase_de(t, copa) for t in reversed(titulos)) if f), None)
+        etapa = next((e for pos, e in reversed(etapas) if pos < inicio), None)
+        if etapa:
+            titulos = [t for pos, t in secciones if pos < inicio and pos > max(x for x, _ in etapas if x < inicio)
+                       and not re.match(r"^(details|match|summary)$", t, re.I)]
+            fase = fase_etapa(etapa, titulos)
+        else:
+            fase = fase_de(titulo, copa) or next((f for f in (fase_de(t, copa) for t in reversed(titulos)) if f), None)
         if not fase:
             raros.append(f"sin fase: {titulo}")
             continue
@@ -260,6 +278,13 @@ def leer(anio, copa="intercontinental"):
              "gl": gl, "gv": gv, "notas": None,
              "paises": {local: pais_de(par.get("team1", "")), visitante: pais_de(par.get("team2", ""))},
              "goles": leer_goles(par.get("goals1", ""), "local") + leer_goles(par.get("goals2", ""), "visitante")}
+        if re.search(r"awarded", par.get("scorenote", "") + par.get("score", ""), re.I):
+            # Resultado dado en los escritorios (Leeds-Stuttgart 1992): los goles de la cancha no cuentan
+            en_cancha = sum(g["lado"] == "local" for g in p["goles"]), sum(g["lado"] == "visitante" for g in p["goles"])
+            p["notas"] = f"resultado dado por la UEFA (en la cancha terminó {en_cancha[0]}–{en_cancha[1]})"
+            p["goles"] = []
+        if re.search(r"play-?off", par.get("id", ""), re.I) and copa == "champions":
+            p["notas"] = "partido desempate"
         if copa == "intercontinental":
             p["llave"] = 1
             if re.search(r"play-?off|replay", titulo, re.I):
@@ -290,7 +315,7 @@ def leer(anio, copa="intercontinental"):
         if any(forms):
             p["formaciones"] = {lado: f for lado, f in zip(("local", "visitante"), forms) if f}
         total = (gl or 0) + (gv or 0)
-        if len(p["goles"]) != total:
+        if len(p["goles"]) != total and not p["notas"]:
             raros.append(f"{local} {gl}-{gv} {visitante}: {len(p['goles'])} goles con autor")
         partidos.append(p)
     return {"anio": anio, "partidos": partidos, "goleadores": [], "ciudades": {}, "raros": raros}

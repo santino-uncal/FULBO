@@ -38,7 +38,7 @@ DATA = RAIZ / "data"
 CACHE = RAIZ / "tools" / "cache"
 
 ORDEN_FASES = ["Fase previa", "Primera fase previa", "Segunda fase previa", "Tercera fase previa",
-               "Primera fase", "Fase de grupos", "Fase de liga", "Segunda fase", "Tercera fase", "Playoffs de octavos",
+               "Dieciseisavos de final", "Primera fase", "Fase de grupos", "Fase de liga", "Segunda fase de grupos", "Segunda fase", "Tercera fase", "Playoffs de octavos",
                "Primera ronda", "Copa África-Asia-Pacífico", "Segunda ronda", "Derbi de las Américas", "Copa Challenger",
                "Octavos de final",
                "Cuartos de final", "Semifinales", "Quinto puesto", "Tercer puesto", "Final"]
@@ -508,6 +508,8 @@ def main():
                 if not pe["jugado"]:
                     # (un partido viejo sin resultado no se jugó: en el Mundial 2020 Auckland City se bajó por la pandemia)
                     viejo = "rsssf" not in COPAS[clave] and pe["fecha"] < datetime.date.today().isoformat()
+                    if viejo and clave == "champions":
+                        continue   # en la Champions es un partido postergado: ESPN tiene también el reprogramado
                     base["notas"] = "no se jugó" if viejo else "a jugarse"
                 x = partido_final(base, mapa[pe["local_espn"]], mapa[pe["visitante_espn"]],
                                   goles_espn(pe), pe["espn"])
@@ -535,6 +537,14 @@ def main():
             fases.setdefault(p.pop("fase"), []).append(p)
         orden = sorted(fases, key=lambda f: (next((i for i, n in enumerate(ORDEN_FASES) if f.startswith(n)), 50),
                                              min(p.get("fecha") or "9999" for p in fases[f]), f))
+        if clave == "champions":
+            # La Champions cambió mucho de formato (en 1991-1993 los octavos se jugaban antes de los grupos): las
+            # etapas van por fecha (cada grupo con su etapa) y la final al último
+            inicio = collections.defaultdict(lambda: "9999")
+            for f in fases:
+                etapa = f.split(" — ")[0]
+                inicio[etapa] = min(inicio[etapa], min(p.get("fecha") or "9999" for p in fases[f]))
+            orden = sorted(fases, key=lambda f: (f.startswith("Final"), inicio[f.split(" — ")[0]], f))
         for i, p in enumerate(p for f in orden for p in fases[f]):
             p["id"] = f"{a}-{i + 1:03d}"
         # Campeón: ganador de la final (o ajuste manual)

@@ -85,8 +85,12 @@ def temporada(anio):
         archivo = carpeta / f"{e['id']}.json"
         if not terminado or (archivo.exists() and not falta_tanda(e, archivo)):
             continue
-        archivo.write_text(json.dumps(recortar(pedir(f"{BASE}/summary?event={e['id']}")), ensure_ascii=False),
-                           encoding="utf-8")
+        try:
+            detalle = pedir(f"{BASE}/summary?event={e['id']}")
+        except Exception as x:   # ESPN falla cada tanto: ese partido se vuelve a pedir la próxima vez
+            print(f"  {anio}: no se pudo bajar el partido {e['id']} ({x})", flush=True)
+            continue
+        archivo.write_text(json.dumps(recortar(detalle), ensure_ascii=False), encoding="utf-8")
         nuevos += 1
         time.sleep(0.4)
     print(f"{anio}: {len(eventos)} partidos en el calendario, {nuevos} detalles nuevos", flush=True)

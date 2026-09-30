@@ -1,7 +1,7 @@
 # Historia de la Copa Libertadores, la Sudamericana, la Intercontinental, el Mundial de Clubes y la Champions League
 
 Todas las ediciones de la Libertadores desde 1960, de la Sudamericana desde 2002, de la Copa Intercontinental
-desde 1960 y del Mundial de Clubes desde 2000, y las temporadas 2024/25 y 2025/26 de la Champions League: resultados, goleadores, asistidores, planteles y escudos.
+desde 1960 y del Mundial de Clubes desde 2000, y de la Champions League desde 1991/92 (la primera con fase de grupos): resultados, goleadores, asistidores, planteles y escudos.
 
 ## Cómo verlo
 
@@ -40,7 +40,7 @@ desde 1960 y del Mundial de Clubes desde 2000, y las temporadas 2024/25 y 2025/2
 | `data/estadisticas.js` | Estadísticas históricas (goleadores de siempre, por edición y por instancia, títulos, goleadas…). Se carga al tocar "Estadísticas históricas" (`?estadisticas`). | **Generado** (`tools/generar_estadisticas.py`). |
 | `data/ediciones/<año>.js` | Una edición: fases, partidos, goles, formaciones, planteles. | **Generado**. |
 | `data/sudamericana/…` | Lo mismo para la Sudamericana (`indice.js`, `historial.js`, `entrenadores.js`, `estadisticas.js`, `ediciones/<año>.js`). | **Generado**. |
-| `data/champions/…` | La Champions League (solo 2024/25 y 2025/26). Cada edición lleva el año en que empieza la temporada (`ediciones/2024.js` es la 2024/25; en la página, `?copa=champions&edicion=2024`). | **Generado**. |
+| `data/champions/…` | La Champions League desde 1991/92. Cada edición lleva el año en que empieza la temporada (`ediciones/2024.js` es la 2024/25; en la página, `?copa=champions&edicion=2024`). | **Generado**. |
 | `data/intercontinental/…`, `data/mundial/…` | Lo mismo para la Copa Intercontinental y el Mundial de Clubes. Los entrenadores de la Intercontinental salen de las formaciones de Wikipedia; el Mundial todavía no tiene. | **Generado**. |
 | `assets/escudos/<club>.png` | Escudos. | Se bajan con `tools/descargar_escudos.py`. |
 | `assets/banderas/<país>.png` | Banderas (código de la FIFA: `ARG`, `ENG`…). | Se bajan con `tools/descargar_banderas.py`. |
@@ -68,7 +68,11 @@ La **Copa Intercontinental** y el **Mundial de Clubes** tienen otras fuentes:
 | Intercontinental de la FIFA | 2024 en adelante | **ESPN**. |
 | Mundial de Clubes | 2000 | **Wikipedia** (sin formaciones). |
 | Mundial de Clubes | 2005 en adelante | **ESPN** (incluye el de 32 equipos de 2025). |
-| Champions League | 2024/25 y 2025/26 | **ESPN** (desde la fase de liga; sin las fases previas). Qué temporadas se cargan lo dice `ediciones` en `tools/copas.py`. |
+| Champions League | 1991/92–2000/01 | **Wikipedia** (en inglés): una página por fase (primera y segunda ronda, grupos, eliminatorias y final), con goles, formaciones, árbitro y público. |
+| Champions League | 2001/02 en adelante | **ESPN**. |
+
+En la Champions no se cargan las rondas clasificatorias (desde 1994/95 la competición empieza en la fase de grupos).
+Qué temporadas se cargan lo dice `ediciones` en `tools/copas.py`.
 
 Los textos de Wikipedia tienen licencia CC BY-SA. Los clubes de otros continentes llevan su país y su nombre en
 castellano en `tools/equipos_ajustes.json` (`pais_espn` y `nombres`), y los estadios en `tools/estadios.json`.
@@ -96,7 +100,8 @@ python tools/descargar_wikipedia.py --copa intercontinental   # Intercontinental
 python tools/descargar_wikipedia.py --copa mundial            # Mundial 2000 (una sola vez)
 python tools/descargar_espn.py --copa intercontinental
 python tools/descargar_espn.py --copa mundial
-python tools/descargar_espn.py --copa champions      # baja los años de "espn_anios" en tools/copas.py
+python tools/descargar_espn.py --copa champions      # baja los años de "espn_anios" en tools/copas.py (la 1ra vez, horas)
+python tools/descargar_wikipedia.py --copa champions  # Champions 1991/92-2000/01 (una sola vez)
 python tools/descargar_banderas.py  # banderas de los países nuevos
 ```
 

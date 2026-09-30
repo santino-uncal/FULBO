@@ -20,7 +20,8 @@ ISO = {"ARG": "ar", "BOL": "bo", "BRA": "br", "CHI": "cl", "COL": "co", "ECU": "
        "CHN": "cn", "IRN": "ir", "AUS": "au", "NZL": "nz", "TAH": "pf", "NCL": "nc", "PNG": "pg",
        # clubes de la Champions League
        "MCO": "mc", "NOR": "no", "BEL": "be", "CRO": "hr", "DEN": "dk", "AZE": "az", "TUR": "tr", "KAZ": "kz",
-       "CYP": "cy", "UKR": "ua", "CZE": "cz", "SVK": "sk", "SUI": "ch"}
+       "CYP": "cy", "UKR": "ua", "CZE": "cz", "SVK": "sk", "SUI": "ch",
+       "FIN": "fi", "IRL": "ie", "ISL": "is", "LTU": "lt", "LUX": "lu", "LVA": "lv", "MLT": "mt", "NIR": "gb-nir", "POL": "pl", "HUN": "hu", "BUL": "bg", "ALB": "al", "SRB": "rs", "SVN": "si", "MDA": "md", "BLR": "by", "ISR": "il", "RUS": "ru"}
 OTRAS = {"YUG": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Flag_of_Yugoslavia_%281946-1992%29.svg/"
                 "40px-Flag_of_Yugoslavia_%281946-1992%29.svg.png"}
 UA = "FULBO-historia/1.0 (https://santino-uncal.github.io/FULBO/)"

@@ -1,10 +1,12 @@
 """Descarga de Wikipedia (en inglés) el texto de las ediciones que ESPN no tiene: la Copa Intercontinental
-1960-2004 y el Mundial de Clubes 2000.
+1960-2004, el Mundial de Clubes 2000 y la Champions League 1991/92-2000/01.
 
 Uso:  python tools/descargar_wikipedia.py --copa intercontinental
       python tools/descargar_wikipedia.py --copa mundial
+      python tools/descargar_wikipedia.py --copa champions
 Guarda el código de cada página (wikitexto) en tools/cache/wikipedia-<copa>/<año>.txt y no vuelve a bajar
-las que ya existen. Los textos de Wikipedia se pueden copiar citando la fuente (licencia CC BY-SA).
+las que ya existen. En la Champions cada temporada son varias páginas (una por fase): se guardan juntas en el
+mismo archivo, cada una precedida por un renglón "@@ETAPA <fase>@@" que lee tools/leer_wikipedia.py. Los textos de Wikipedia se pueden copiar citando la fuente (licencia CC BY-SA).
 """
 import time
 import urllib.parse
@@ -28,9 +30,15 @@ def main():
         archivo = cache / f"{anio}.txt"
         if archivo.exists():
             continue
-        req = urllib.request.Request(BASE + urllib.parse.quote(titulo), headers={"User-Agent": UA})
-        with urllib.request.urlopen(req, timeout=30) as r:
-            archivo.write_bytes(r.read())
+        paginas = titulo if isinstance(titulo, list) else [(titulo, None)]
+        partes = []
+        for t, etapa in paginas:
+            req = urllib.request.Request(BASE + urllib.parse.quote(t), headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                texto = r.read().decode("utf-8")
+            partes.append((f"@@ETAPA {etapa}@@\n" if etapa else "") + texto)
+            time.sleep(1)
+        archivo.write_text("\n".join(partes), encoding="utf-8")
         print(f"  ✓ {anio}")
         time.sleep(1)
 
