@@ -562,7 +562,13 @@
     "bohemians-prague": "Bohemians Praga",
     "dinamo-tbilisi": "Dinamo Tiflis",
     "dnipro-dnipropetrovsk": "Dnipró",
-    "legia-warsaw": "Legia Varsovia"
+    "legia-warsaw": "Legia Varsovia",
+    "freiburg": "Friburgo",
+    "go-ahead-eagles": "Go Ahead Eagles",
+    "elfsborg": "Elfsborg",
+    "rfs": "RFS",
+    "brann": "Brann",
+    "utrecht": "Utrecht"
   },
   "pais_club": {
     "independiente-petrolero": "BOL",
@@ -604,7 +610,13 @@
     "banik-ostrava": "CZE",
     "cervena-hviezda-bratislava": "SVK",
     "spartak-trnava": "SVK",
-    "derry-city": "IRL"
+    "derry-city": "IRL",
+    "freiburg": "GER",
+    "go-ahead-eagles": "NED",
+    "elfsborg": "SWE",
+    "rfs": "LVA",
+    "brann": "NOR",
+    "utrecht": "NED"
   },
   "pais_espn": {
     "6097": "PAR",
@@ -926,7 +938,13 @@
     "488": "wisla-krakow",
     "2533": "zenit",
     "1963": "cska-moscow",
-    "1941": "spartak-moscow"
+    "1941": "spartak-moscow",
+    "126": "freiburg",
+    "3706": "go-ahead-eagles",
+    "529": "elfsborg",
+    "12030": "rfs",
+    "620": "brann",
+    "153": "utrecht"
   },
   "resultados": {
     "734789": {

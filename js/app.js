@@ -1,5 +1,6 @@
 /* Lógica de la página. Los datos viven en data/ (Libertadores: window.LIB), data/sudamericana/ (window.SUD),
-   data/intercontinental/ (window.INT) y data/mundial/ (window.MUN).
+   data/intercontinental/ (window.INT), data/mundial/ (window.MUN),
+   data/champions/ (window.UCL) y data/europa/ (window.UEL).
    Sin copa en la dirección, la página es la portada: los mapas de Sudamérica y Europa (data/mapa.js y data/continentes.js).
    Versión funcional provisoria: el diseño se define después. */
 (function () {
@@ -26,6 +27,9 @@
     champions: { nombre: "Champions League", grupo: "uefa", desde: 1955, lema: "La Orejona", datos: "data/champions/", ns: "UCL",
       ejemplo: 1998, espn: 2011, temporada: true,
       nombres: [[1955, "Copa de Campeones de Europa"], [1992, "UEFA Champions League"], [2024, "UEFA Champions League (fase de liga)"]] },
+    europa: { nombre: "Europa League", grupo: "uefa", desde: 2024, lema: "La Copa UEFA", datos: "data/europa/", ns: "UEL",
+      ejemplo: 2024, espn: 2024, temporada: true, parcial: true,
+      nombres: [[2024, "UEFA Europa League (fase de liga)"]] },
   };
   const PARAMS = new URLSearchParams(location.search);
   const pedida = PARAMS.get("copa");

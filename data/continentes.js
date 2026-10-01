@@ -23,7 +23,7 @@ window.CONTINENTES = {
     nombre: "Europa", confederacion: "UEFA", color: "#3f7fd9",
     internacionales: [
       { nombre: "Champions League", copa: "champions", desde: 1955, trofeo: "assets/img/copa-champions.webp", nota: "hasta 1992, Copa de Campeones de Europa" },
-      { nombre: "Europa League", desde: 1971, nota: "hasta 2009, Copa UEFA" },
+      { nombre: "Europa League", copa: "europa", desde: 1971, trofeo: "assets/img/copa-europa.webp", nota: "hasta 2009, Copa UEFA; por ahora, las temporadas 2024/25 y 2025/26" },
       { nombre: "Conference League", desde: 2021 },
       { nombre: "Supercopa de Europa", desde: 1972 },
     ],

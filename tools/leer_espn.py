@@ -58,7 +58,7 @@ FASES_INT = [
     (r"playoff", "Copa Challenger"),
     (r"^final", "Final"),
 ]
-# Champions League: desde 2024/25, una fase de liga de 36 equipos (una sola tabla), playoffs y eliminación directa.
+# Champions League (y Europa League, con las mismas fases): desde 2024/25, una fase de liga de 36 equipos (una sola tabla), playoffs y eliminación directa.
 # En 2001/02 y 2002/03 hubo dos fases de grupos ("2001-second-phase"). Las rondas clasificatorias no se cargan
 FASES_UCL = [
     (r"qualif|preliminary|^play-?off-round$|^playoffs$", "Fase previa"),   # el playoff de agosto (2009-2023) es clasificatorio
@@ -86,7 +86,7 @@ def nombre_fase(evento, copa="libertadores", grupos=None):
     if copa == "sudamericana":
         slug = re.sub(r"^copa-sudamericana-+", "", slug)
     tabla = {"sudamericana": FASES_SUD, "mundial": FASES_MUN, "intercontinental": FASES_INT,
-             "champions": FASES_UCL}.get(copa, FASES)
+             "champions": FASES_UCL, "europa": FASES_UCL}.get(copa, FASES)
     for patron, nombre in tabla:
         if nombre == "Copa África-Asia-Pacífico" and re.search(patron, slug) and evento["date"][5:7] == "12":
             return "Derbi de las Américas"
@@ -125,8 +125,8 @@ def leer(anio, copa="libertadores"):
                                 "color": t.get("color"), "color2": t.get("alternateColor"),
                                 "escudo": t.get("logo")}
         estado = e["status"]["type"]
-        if copa == "champions" and nombre_fase(e, copa, grupos) == "Fase previa":
-            continue   # la Champions se carga desde la fase de grupos (las rondas clasificatorias quedan afuera)
+        if copa in ("champions", "europa") and nombre_fase(e, copa, grupos) == "Fase previa":
+            continue   # las copas europeas se cargan desde la fase de grupos (las rondas clasificatorias quedan afuera)
         p = {
             "espn": e["id"], "fase": nombre_fase(e, copa, grupos), "temporada_espn": (e.get("season") or {}).get("year"), "fecha": fecha_local(e["date"]), "hora_utc": e["date"],
             "local_espn": lados["home"]["team"]["id"], "visitante_espn": lados["away"]["team"]["id"],

@@ -1,7 +1,7 @@
-# Historia de la Copa Libertadores, la Sudamericana, la Intercontinental, el Mundial de Clubes y la Champions League
+# Historia de la Copa Libertadores, la Sudamericana, la Intercontinental, el Mundial de Clubes, la Champions League y la Europa League
 
 Todas las ediciones de la Libertadores desde 1960, de la Sudamericana desde 2002, de la Copa Intercontinental
-desde 1960 y del Mundial de Clubes desde 2000, y de la Champions League (Copa de Campeones de Europa hasta 1992) desde 1955/56: resultados, goleadores, asistidores, planteles y escudos.
+desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de Campeones de Europa hasta 1992) desde 1955/56 y de la Europa League (por ahora, 2024/25 y 2025/26): resultados, goleadores, asistidores, planteles y escudos.
 
 ## Cómo verlo
 
@@ -41,6 +41,7 @@ desde 1960 y del Mundial de Clubes desde 2000, y de la Champions League (Copa de
 | `data/ediciones/<año>.js` | Una edición: fases, partidos, goles, formaciones, planteles. | **Generado**. |
 | `data/sudamericana/…` | Lo mismo para la Sudamericana (`indice.js`, `historial.js`, `entrenadores.js`, `estadisticas.js`, `ediciones/<año>.js`). | **Generado**. |
 | `data/champions/…` | La Champions League desde 1955/56. Cada edición lleva el año en que empieza la temporada (`ediciones/2024.js` es la 2024/25; en la página, `?copa=champions&edicion=2024`). | **Generado**. |
+| `data/europa/…` | La Europa League, igual que la Champions (por ahora, 2024/25 y 2025/26; `?copa=europa`). | **Generado**. |
 | `data/intercontinental/…`, `data/mundial/…` | Lo mismo para la Copa Intercontinental y el Mundial de Clubes. Los entrenadores de la Intercontinental salen de las formaciones de Wikipedia; el Mundial todavía no tiene. | **Generado**. |
 | `assets/escudos/<club>.png` | Escudos. | Se bajan con `tools/descargar_escudos.py`. |
 | `assets/banderas/<país>.png` | Banderas (código de la FIFA: `ARG`, `ENG`…). | Se bajan con `tools/descargar_banderas.py`. |
@@ -71,8 +72,9 @@ La **Copa Intercontinental** y el **Mundial de Clubes** tienen otras fuentes:
 | Champions League | 1955/56–1990/91 | **Wikipedia** (en inglés): la página de cada temporada y la de la final, con goles, estadio, árbitro y público (formaciones, solo de las finales). |
 | Champions League | 1991/92–2000/01 | **Wikipedia** (en inglés): una página por fase (primera y segunda ronda, grupos, eliminatorias y final), con goles, formaciones, árbitro y público. |
 | Champions League | 2001/02 en adelante | **ESPN**. |
+| Europa League | 2024/25 y 2025/26 | **ESPN**. |
 
-En la Champions no se cargan las rondas clasificatorias (desde 1994/95 la competición empieza en la fase de grupos).
+En la Champions y la Europa League no se cargan las rondas clasificatorias (desde 1994/95 la competición empieza en la fase de grupos).
 Qué temporadas se cargan lo dice `ediciones` en `tools/copas.py`.
 
 Los textos de Wikipedia tienen licencia CC BY-SA. Los clubes de otros continentes llevan su país y su nombre en
@@ -103,6 +105,7 @@ python tools/descargar_espn.py --copa intercontinental
 python tools/descargar_espn.py --copa mundial
 python tools/descargar_espn.py --copa champions      # baja los años de "espn_anios" en tools/copas.py (la 1ra vez, horas)
 python tools/descargar_wikipedia.py --copa champions  # Champions 1955/56-2000/01 (una sola vez)
+python tools/descargar_espn.py --copa europa         # Europa League (años de "espn_anios")
 python tools/descargar_banderas.py  # banderas de los países nuevos
 ```
 
@@ -148,6 +151,8 @@ Trofeos de la cabecera (`assets/img/`), de Wikimedia Commons:
   CC BY 4.0 (recortada del fondo y achicada).
 - Mundial de Clubes (en el museo de Anfield): [Daniel from Glasgow](https://commons.wikimedia.org/wiki/File:Anfield_Stadium_Tour_(51930554120).jpg),
   CC BY 2.0 (recortada del fondo y achicada).
+- Europa League: [Damine178](https://commons.wikimedia.org/wiki/File:Europa_league_trophy.jpg),
+  CC BY-SA 4.0 (recortada del fondo y achicada).
 - Champions League: [dom fellowes](https://commons.wikimedia.org/wiki/File:Champions_League_Trophy_(52736201132).jpg),
   CC BY 2.0 (recortada del fondo y achicada).
 

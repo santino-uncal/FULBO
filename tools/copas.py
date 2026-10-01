@@ -1,7 +1,7 @@
 """Las copas que tiene la página y dónde vive cada cosa de cada una.
 
 Lo usan todos los scripts de tools/. Para elegir la copa, los scripts aceptan --copa sudamericana
-(o mundial, intercontinental o champions; sin nada, es la Libertadores).
+(o mundial, intercontinental, champions o europa; sin nada, es la Libertadores).
 Las copas que no tienen "rsssf" toman de Wikipedia las ediciones viejas (las que ESPN no tiene).
 """
 import sys
@@ -105,6 +105,20 @@ COPAS = {
         "ns": "UCL",
         "entrenadores_partidos": RAIZ / "tools" / "entrenadores_partidos_champions.json",
         "planteles_tm": RAIZ / "tools" / "planteles_tm_champions.json",
+    },
+    # La Europa League (Copa UEFA hasta 2009, ESPN): por ahora solo las últimas temporadas. Como en la Champions, cada
+    # edición se nombra por el año en que empieza la temporada y no se cargan las rondas clasificatorias.
+    "europa": {
+        "nombre": "Europa League",
+        "desde": 2024,
+        "espn": "uefa.europa",
+        "espn_anios": [2024, 2025, 2026],
+        "ediciones": [2024, 2025],
+        "cache_espn": CACHE / "espn-europa",
+        "data": RAIZ / "data" / "europa",
+        "ns": "UEL",
+        "entrenadores_partidos": RAIZ / "tools" / "entrenadores_partidos_europa.json",
+        "planteles_tm": RAIZ / "tools" / "planteles_tm_europa.json",
     },
 }
 

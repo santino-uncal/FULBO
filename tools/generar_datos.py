@@ -508,8 +508,8 @@ def main():
                 if not pe["jugado"]:
                     # (un partido viejo sin resultado no se jugó: en el Mundial 2020 Auckland City se bajó por la pandemia)
                     viejo = "rsssf" not in COPAS[clave] and pe["fecha"] < datetime.date.today().isoformat()
-                    if viejo and clave == "champions":
-                        continue   # en la Champions es un partido postergado: ESPN tiene también el reprogramado
+                    if viejo and clave in ("champions", "europa"):
+                        continue   # en las copas europeas es un partido postergado: ESPN tiene también el reprogramado
                     base["notas"] = "no se jugó" if viejo else "a jugarse"
                 x = partido_final(base, mapa[pe["local_espn"]], mapa[pe["visitante_espn"]],
                                   goles_espn(pe), pe["espn"])
@@ -537,7 +537,7 @@ def main():
             fases.setdefault(p.pop("fase"), []).append(p)
         orden = sorted(fases, key=lambda f: (next((i for i, n in enumerate(ORDEN_FASES) if f.startswith(n)), 50),
                                              min(p.get("fecha") or "9999" for p in fases[f]), f))
-        if clave == "champions":
+        if clave in ("champions", "europa"):
             # La Champions cambió mucho de formato (en 1991-1993 los octavos se jugaban antes de los grupos): las
             # etapas van por fecha (cada grupo con su etapa) y la final al último
             inicio = collections.defaultdict(lambda: "9999")
