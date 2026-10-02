@@ -109,6 +109,7 @@ python tools/descargar_wikipedia.py --copa champions  # Champions 1955/56-2000/0
 python tools/descargar_espn.py --copa europa         # Copa UEFA y Europa League desde 2001/02 (la 1ra vez, horas)
 python tools/descargar_wikipedia.py --copa europa    # Copa UEFA 1971/72-2000/01 (una sola vez)
 python tools/descargar_banderas.py  # banderas de los países nuevos
+python tools/actualizar_europa.py   # temporada en curso de la Champions y la Europa League (bajar, armar, probar)
 ```
 
 Para la temporada en curso alcanza con `python tools/descargar_espn.py 2026` (y `--copa sudamericana 2026`)
