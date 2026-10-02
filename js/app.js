@@ -29,6 +29,8 @@
       nombres: [[1955, "Copa de Campeones de Europa"], [1992, "UEFA Champions League"], [2024, "UEFA Champions League (fase de liga)"]] },
     europa: { nombre: "Europa League", grupo: "uefa", desde: 1971, lema: "La Copa UEFA", datos: "data/europa/", ns: "UEL",
       ejemplo: 1985, espn: 2014, temporada: true,
+      // El nombre de la copa en el título de cada edición (hasta 2008/09 era la Copa UEFA)
+      titulos: [[1971, "Copa UEFA"], [2009, "Europa League"]],
       nombres: [[1971, "Copa UEFA"], [2009, "UEFA Europa League"], [2024, "UEFA Europa League (fase de liga)"]] },
   };
   const PARAMS = new URLSearchParams(location.search);
@@ -51,6 +53,8 @@
     MCO: "Mónaco", NOR: "Noruega", BEL: "Bélgica", CRO: "Croacia", DEN: "Dinamarca", AZE: "Azerbaiyán", TUR: "Turquía",
     KAZ: "Kazajistán", CYP: "Chipre", UKR: "Ucrania", CZE: "República Checa", SVK: "Eslovaquia", SUI: "Suiza",
     FIN: "Finlandia", IRL: "Irlanda", ISL: "Islandia", LTU: "Lituania", LUX: "Luxemburgo", LVA: "Letonia", MLT: "Malta", NIR: "Irlanda del Norte", POL: "Polonia", HUN: "Hungría", BUL: "Bulgaria", ALB: "Albania", SRB: "Serbia", SVN: "Eslovenia", MDA: "Moldavia", BLR: "Bielorrusia", ISR: "Israel", RUS: "Rusia", GEO: "Georgia", ARM: "Armenia", BIH: "Bosnia y Herzegovina", MKD: "Macedonia del Norte" };
+  // Nombre de la copa en una edición: el de esa época si cambió (Copa UEFA / Europa League), o el de siempre
+  const nombreEn = anio => (COPA.titulos || []).filter(([desde]) => +anio >= desde).at(-1)?.[1] || COPA.nombre;
   // Cómo se muestra una edición: el año, o la temporada en las copas europeas (2024 -> "2024/25")
   const nombreAnio = (a, copa = COPA) => copa.temporada && a != null && /^\d{4}$/.test(a) ? `${a}/${String(+a + 1).slice(-2)}` : String(a ?? "");
   const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -1234,9 +1238,9 @@
   function actualizarTitulo(anio) {
     const e = LIB.indice.find(x => x.anio == anio) || {};
     const campeon = e.campeon ? equipo(e.campeon).nombre : null;
-    document.title = `${COPA.nombre} ${nombreAnio(anio)}${campeon ? " — Campeón " + campeon : ""}`;
+    document.title = `${nombreEn(anio)} ${nombreAnio(anio)}${campeon ? " — Campeón " + campeon : ""}`;
     const desc = document.querySelector('meta[name="description"]');
-    if (desc) desc.content = `${COPA.nombre} ${nombreAnio(anio)}: ${campeon ? `campeón ${campeon}, subcampeón ${equipo(e.subcampeon).nombre}. ` : ""}` +
+    if (desc) desc.content = `${nombreEn(anio)} ${nombreAnio(anio)}: ${campeon ? `campeón ${campeon}, subcampeón ${equipo(e.subcampeon).nombre}. ` : ""}` +
       "Final, tablas de grupos, todos los partidos, goleadores, asistidores y planteles.";
     // Dirección "oficial" de esta edición, para que Google no la tome como copia de otra
     let canonica = document.querySelector('link[rel="canonical"]');
