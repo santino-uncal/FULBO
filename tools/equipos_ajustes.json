@@ -832,7 +832,17 @@
     "como": "Como",
     "crystal-palace": "Crystal Palace",
     "sunderland": "Sunderland",
-    "torreense": "Torreense"
+    "torreense": "Torreense",
+    "cukaricki-belgrade": "Čukarički",
+    "dnipro-1": "Dnipro-1",
+    "ki-klaksvik": "KÍ Klaksvík",
+    "kf-shkendija": "Shkëndija",
+    "noah": "Noah",
+    "slovacko": "Slovácko",
+    "1-heidenheim-1846": "Heidenheim",
+    "drita-gjilan": "Drita",
+    "vaduz": "Vaduz",
+    "ns-mura": "Mura"
   },
   "pais_club": {
     "independiente-petrolero": "BOL",
@@ -1143,7 +1153,9 @@
     "561": "CRO",
     "6948": "SRB",
     "6175": "BUL",
-    "2952": "BUL"
+    "2952": "BUL",
+    "21633": "UKR",
+    "576": "WAL"
   },
   "espn": {
     "6149": "universitario-de-sucre",
@@ -1285,7 +1297,9 @@
     "529": "elfsborg",
     "12030": "rfs",
     "620": "brann",
-    "153": "utrecht"
+    "153": "utrecht",
+    "11551": "lausanne-sports",
+    "21633": "dnipro-1"
   },
   "resultados": {
     "734789": {

@@ -24,7 +24,7 @@ window.CONTINENTES = {
     internacionales: [
       { nombre: "Champions League", copa: "champions", desde: 1955, trofeo: "assets/img/copa-champions.webp", nota: "hasta 1992, Copa de Campeones de Europa" },
       { nombre: "Europa League", copa: "europa", desde: 1971, trofeo: "assets/img/copa-europa.webp", nota: "hasta 2009, Copa UEFA" },
-      { nombre: "Conference League", copa: "conference", desde: 2021, trofeo: "assets/img/copa-conference.webp", nota: "por ahora, la temporada 2026/27" },
+      { nombre: "Conference League", copa: "conference", desde: 2021, trofeo: "assets/img/copa-conference.webp", nota: "hasta 2024, Europa Conference League" },
       { nombre: "Supercopa de Europa", desde: 1972 },
     ],
     nacionales: [
@@ -33,6 +33,6 @@ window.CONTINENTES = {
     ],
     paises: ["ESP", "ITA", "ENG", "SCO", "GER", "NED", "POR", "FRA", "AUT", "GRE", "ROU", "SWE", "YUG",
       "MCO", "NOR", "BEL", "CRO", "DEN", "AZE", "TUR", "KAZ", "CYP", "UKR", "CZE", "SVK", "SUI",
-      "FIN", "IRL", "ISL", "LTU", "LUX", "LVA", "MLT", "NIR", "POL", "HUN", "BUL", "ALB", "SRB", "SVN", "MDA", "BLR", "ISR", "RUS", "GEO", "ARM", "BIH", "MKD", "AND", "GIB"],
+      "FIN", "IRL", "ISL", "LTU", "LUX", "LVA", "MLT", "NIR", "POL", "HUN", "BUL", "ALB", "SRB", "SVN", "MDA", "BLR", "ISR", "RUS", "GEO", "ARM", "BIH", "MKD", "AND", "GIB", "WAL", "EST", "KOS", "FRO", "LIE"],
   },
 };

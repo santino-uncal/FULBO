@@ -32,9 +32,8 @@
       // El nombre de la copa en el título de cada edición (hasta 2008/09 era la Copa UEFA)
       titulos: [[1971, "Copa UEFA"], [2009, "Europa League"]],
       nombres: [[1971, "Copa UEFA"], [2009, "UEFA Europa League"], [2024, "UEFA Europa League (fase de liga)"]] },
-    // Por ahora solo la temporada en curso (2026/27): parcial, así no cuenta títulos
     conference: { nombre: "Conference League", grupo: "uefa", desde: 2021, lema: "La Tercera Copa de Europa", datos: "data/conference/", ns: "UECL",
-      ejemplo: 2026, espn: 2021, temporada: true, parcial: true,
+      ejemplo: 2022, espn: 2021, temporada: true,
       nombres: [[2021, "UEFA Europa Conference League"], [2024, "UEFA Conference League (fase de liga)"]] },
   };
   const PARAMS = new URLSearchParams(location.search);
@@ -56,7 +55,8 @@
     // Clubes de la Champions League
     MCO: "Mónaco", NOR: "Noruega", BEL: "Bélgica", CRO: "Croacia", DEN: "Dinamarca", AZE: "Azerbaiyán", TUR: "Turquía",
     KAZ: "Kazajistán", CYP: "Chipre", UKR: "Ucrania", CZE: "República Checa", SVK: "Eslovaquia", SUI: "Suiza",
-    FIN: "Finlandia", IRL: "Irlanda", ISL: "Islandia", LTU: "Lituania", LUX: "Luxemburgo", LVA: "Letonia", MLT: "Malta", NIR: "Irlanda del Norte", POL: "Polonia", HUN: "Hungría", BUL: "Bulgaria", ALB: "Albania", SRB: "Serbia", SVN: "Eslovenia", MDA: "Moldavia", BLR: "Bielorrusia", ISR: "Israel", RUS: "Rusia", GEO: "Georgia", ARM: "Armenia", BIH: "Bosnia y Herzegovina", MKD: "Macedonia del Norte", AND: "Andorra", GIB: "Gibraltar" };
+    FIN: "Finlandia", IRL: "Irlanda", ISL: "Islandia", LTU: "Lituania", LUX: "Luxemburgo", LVA: "Letonia", MLT: "Malta", NIR: "Irlanda del Norte", POL: "Polonia", HUN: "Hungría", BUL: "Bulgaria", ALB: "Albania", SRB: "Serbia", SVN: "Eslovenia", MDA: "Moldavia", BLR: "Bielorrusia", ISR: "Israel", RUS: "Rusia", GEO: "Georgia", ARM: "Armenia", BIH: "Bosnia y Herzegovina", MKD: "Macedonia del Norte", AND: "Andorra", GIB: "Gibraltar",
+    WAL: "Gales", EST: "Estonia", KOS: "Kosovo", FRO: "Islas Feroe", LIE: "Liechtenstein" };
   // Nombre de la copa en una edición: el de esa época si cambió (Copa UEFA / Europa League), o el de siempre
   const nombreEn = anio => (COPA.titulos || []).filter(([desde]) => +anio >= desde).at(-1)?.[1] || COPA.nombre;
   // Cómo se muestra una edición: el año, o la temporada en las copas europeas (2024 -> "2024/25")

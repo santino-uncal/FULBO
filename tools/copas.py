@@ -143,15 +143,15 @@ COPAS = {
         "entrenadores_partidos": RAIZ / "tools" / "entrenadores_partidos_europa.json",
         "planteles_tm": RAIZ / "tools" / "planteles_tm_europa.json",
     },
-    # La Conference League (desde 2021/22). Por ahora solo la temporada en curso, de ESPN ("uefa.europa.conf"), sin
-    # las rondas clasificatorias, como la Champions y la Europa League.
+    # La Conference League (desde 2021/22): toda de ESPN ("uefa.europa.conf"), sin las rondas clasificatorias, como la
+    # Champions y la Europa League.
     "conference": {
         "nombre": "Conference League",
         "desde": 2021,
         "espn": "uefa.europa.conf",
         "espn_saltear": r"qualif|preliminary|^play-?off-round$|^playoffs$",
-        "espn_anios": [2026, 2027],
-        "ediciones": [2026],
+        "espn_anios": list(range(2021, 2028)),
+        "ediciones": list(range(2021, 2027)),
         "cache_espn": CACHE / "espn-conference",
         "data": RAIZ / "data" / "conference",
         "ns": "UECL",
