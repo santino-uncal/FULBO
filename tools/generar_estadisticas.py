@@ -19,7 +19,7 @@ INSTANCIAS = ["Octavos de final", "Cuartos de final", "Semifinales", "Final"]
 
 PROMEDIO_MIN_PARTIDOS = 20   # para el ranking de promedio de gol
 # En el Mundial y la Intercontinental se juegan pocos partidos por edición: con 20 no entraría nadie
-PROMEDIO_MIN_POR_COPA = {"mundial": 6, "intercontinental": 3, "champions": 10, "europa": 6}
+PROMEDIO_MIN_POR_COPA = {"mundial": 6, "intercontinental": 3, "champions": 10, "europa": 6, "conference": 6}
 
 
 def instancia(nombre_fase, clave="libertadores"):

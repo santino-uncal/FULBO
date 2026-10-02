@@ -1,7 +1,7 @@
 """Las copas que tiene la página y dónde vive cada cosa de cada una.
 
 Lo usan todos los scripts de tools/. Para elegir la copa, los scripts aceptan --copa sudamericana
-(o mundial, intercontinental, champions o europa; sin nada, es la Libertadores).
+(o mundial, intercontinental, champions, europa o conference; sin nada, es la Libertadores).
 Las copas que no tienen "rsssf" toman de Wikipedia las ediciones viejas (las que ESPN no tiene).
 """
 import sys
@@ -142,6 +142,21 @@ COPAS = {
         "ns": "UEL",
         "entrenadores_partidos": RAIZ / "tools" / "entrenadores_partidos_europa.json",
         "planteles_tm": RAIZ / "tools" / "planteles_tm_europa.json",
+    },
+    # La Conference League (desde 2021/22). Por ahora solo la temporada en curso, de ESPN ("uefa.europa.conf"), sin
+    # las rondas clasificatorias, como la Champions y la Europa League.
+    "conference": {
+        "nombre": "Conference League",
+        "desde": 2021,
+        "espn": "uefa.europa.conf",
+        "espn_saltear": r"qualif|preliminary|^play-?off-round$|^playoffs$",
+        "espn_anios": [2026, 2027],
+        "ediciones": [2026],
+        "cache_espn": CACHE / "espn-conference",
+        "data": RAIZ / "data" / "conference",
+        "ns": "UECL",
+        "entrenadores_partidos": RAIZ / "tools" / "entrenadores_partidos_conference.json",
+        "planteles_tm": RAIZ / "tools" / "planteles_tm_conference.json",
     },
 }
 

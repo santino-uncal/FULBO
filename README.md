@@ -1,7 +1,7 @@
-# Historia de la Copa Libertadores, la Sudamericana, la Intercontinental, el Mundial de Clubes, la Champions League y la Europa League
+# Historia de la Copa Libertadores, la Sudamericana, la Intercontinental, el Mundial de Clubes, la Champions League, la Europa League y la Conference League
 
 Todas las ediciones de la Libertadores desde 1960, de la Sudamericana desde 2002, de la Copa Intercontinental
-desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de Campeones de Europa hasta 1992) desde 1955/56 y de la Europa League (Copa UEFA hasta 2009) desde 1971/72: resultados, goleadores, asistidores, planteles y escudos.
+desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de Campeones de Europa hasta 1992) desde 1955/56 de la Europa League (Copa UEFA hasta 2009) desde 1971/72 y la temporada en curso (2026/27) de la Conference League: resultados, goleadores, asistidores, planteles y escudos.
 
 ## Cómo verlo
 
@@ -42,6 +42,7 @@ desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de C
 | `data/sudamericana/…` | Lo mismo para la Sudamericana (`indice.js`, `historial.js`, `entrenadores.js`, `estadisticas.js`, `ediciones/<año>.js`). | **Generado**. |
 | `data/champions/…` | La Champions League desde 1955/56. Cada edición lleva el año en que empieza la temporada (`ediciones/2024.js` es la 2024/25; en la página, `?copa=champions&edicion=2024`). | **Generado**. |
 | `data/europa/…` | La Europa League (Copa UEFA hasta 2009) desde 1971/72, igual que la Champions (`?copa=europa`). | **Generado**. |
+| `data/conference/…` | La Conference League: por ahora solo la temporada 2026/27 (`?copa=conference`). | **Generado**. |
 | `data/intercontinental/…`, `data/mundial/…` | Lo mismo para la Copa Intercontinental y el Mundial de Clubes. Los entrenadores de la Intercontinental salen de las formaciones de Wikipedia; el Mundial todavía no tiene. | **Generado**. |
 | `assets/escudos/<club>.png` | Escudos. | Se bajan con `tools/descargar_escudos.py`. |
 | `assets/banderas/<país>.png` | Banderas (código de la FIFA: `ARG`, `ENG`…). | Se bajan con `tools/descargar_banderas.py`. |
@@ -74,8 +75,9 @@ La **Copa Intercontinental** y el **Mundial de Clubes** tienen otras fuentes:
 | Champions League | 2001/02 en adelante | **ESPN**. |
 | Copa UEFA | 1971/72–2000/01 | **Wikipedia** (en inglés): la página de cada temporada (desde 1999/2000, una por ronda) y la de la final, con goles, estadio, árbitro y público (formaciones, solo de las finales). |
 | Copa UEFA / Europa League | 2001/02 en adelante | **ESPN** (la Copa UEFA, hasta 2008/09, es otra "liga" de ESPN: `espn_ligas` en `tools/copas.py`). Las fases de grupos 2004/05–2008/09, que ESPN tiene sin detalle, se completan con Wikipedia. |
+| Conference League | 2026/27 | **ESPN** ("uefa.europa.conf"). Las temporadas 2021/22–2025/26 todavía no están cargadas. |
 
-En la Champions y la Europa League no se cargan las rondas clasificatorias (desde 1994/95 la competición empieza en la fase de grupos).
+En la Champions, la Europa League y la Conference League no se cargan las rondas clasificatorias (desde 1994/95 la competición empieza en la fase de grupos).
 Qué temporadas se cargan lo dice `ediciones` en `tools/copas.py`.
 
 Los textos de Wikipedia tienen licencia CC BY-SA. Los clubes de otros continentes llevan su país y su nombre en
@@ -108,13 +110,14 @@ python tools/descargar_espn.py --copa champions      # baja los años de "espn_a
 python tools/descargar_wikipedia.py --copa champions  # Champions 1955/56-2000/01 (una sola vez)
 python tools/descargar_espn.py --copa europa         # Copa UEFA y Europa League desde 2001/02 (la 1ra vez, horas)
 python tools/descargar_wikipedia.py --copa europa    # Copa UEFA 1971/72-2000/01 (una sola vez)
+python tools/descargar_espn.py --copa conference 2026 2027   # Conference League 2026/27
 python tools/descargar_banderas.py  # banderas de los países nuevos
-python tools/actualizar_europa.py   # temporada en curso de la Champions y la Europa League (bajar, armar, probar)
+python tools/actualizar_europa.py   # temporada en curso de la Champions, la Europa League y la Conference (bajar, armar, probar)
 ```
 
 Para la temporada en curso alcanza con `python tools/descargar_espn.py 2026` (y `--copa sudamericana 2026`)
 y después `generar_datos.py`. En la Champions y la Europa League la temporada toca dos años: para la 2026/27,
-`--copa champions 2026 2027` y `--copa europa 2026 2027`. Cuando empiece una temporada nueva, sumarla a `ediciones`
+`--copa champions 2026 2027`, `--copa europa 2026 2027` y `--copa conference 2026 2027`. Cuando empiece una temporada nueva, sumarla a `ediciones`
 (y el año siguiente a `espn_anios`) en `tools/copas.py`.
 
 ### Corregir clubes
@@ -164,6 +167,8 @@ Trofeos de la cabecera (`assets/img/`), de Wikimedia Commons:
   CC BY 2.0 (recortada del fondo y achicada).
 - Europa League: [Damine178](https://commons.wikimedia.org/wiki/File:Europa_league_trophy.jpg),
   CC BY-SA 4.0 (recortada del fondo y achicada).
+- Conference League (dibujo): [MacMoreno](https://commons.wikimedia.org/wiki/File:Trofeo_UEFA_Europa_Conference_League.svg),
+  CC BY 4.0 (achicada).
 - Champions League: [dom fellowes](https://commons.wikimedia.org/wiki/File:Champions_League_Trophy_(52736201132).jpg),
   CC BY 2.0 (recortada del fondo y achicada).
 

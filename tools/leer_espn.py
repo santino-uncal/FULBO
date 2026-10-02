@@ -115,7 +115,7 @@ def nombre_fase(evento, copa="libertadores", grupos=None):
     if copa == "europa":
         slug = slug_uel(slug, evento.get("season", {}).get("year"))
     tabla = {"sudamericana": FASES_SUD, "mundial": FASES_MUN, "intercontinental": FASES_INT,
-             "champions": FASES_UCL, "europa": FASES_UEL}.get(copa, FASES)
+             "champions": FASES_UCL, "europa": FASES_UEL, "conference": FASES_UCL}.get(copa, FASES)
     for patron, nombre in tabla:
         if nombre == "Copa África-Asia-Pacífico" and re.search(patron, slug) and evento["date"][5:7] == "12":
             return "Derbi de las Américas"
@@ -154,7 +154,7 @@ def leer(anio, copa="libertadores"):
                                 "color": t.get("color"), "color2": t.get("alternateColor"),
                                 "escudo": t.get("logo")}
         estado = e["status"]["type"]
-        if copa in ("champions", "europa") and nombre_fase(e, copa, grupos) == "Fase previa":
+        if copa in ("champions", "europa", "conference") and nombre_fase(e, copa, grupos) == "Fase previa":
             continue   # las copas europeas se cargan desde la fase de grupos (las rondas clasificatorias quedan afuera)
         p = {
             "espn": e["id"], "fase": nombre_fase(e, copa, grupos), "temporada_espn": (e.get("season") or {}).get("year"), "fecha": fecha_local(e["date"]), "hora_utc": e["date"],

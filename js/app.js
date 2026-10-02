@@ -1,6 +1,6 @@
 /* Lógica de la página. Los datos viven en data/ (Libertadores: window.LIB), data/sudamericana/ (window.SUD),
    data/intercontinental/ (window.INT), data/mundial/ (window.MUN),
-   data/champions/ (window.UCL) y data/europa/ (window.UEL).
+   data/champions/ (window.UCL), data/europa/ (window.UEL) y data/conference/ (window.UECL).
    Sin copa en la dirección, la página es la portada: los mapas de Sudamérica y Europa (data/mapa.js y data/continentes.js).
    Versión funcional provisoria: el diseño se define después. */
 (function () {
@@ -32,6 +32,10 @@
       // El nombre de la copa en el título de cada edición (hasta 2008/09 era la Copa UEFA)
       titulos: [[1971, "Copa UEFA"], [2009, "Europa League"]],
       nombres: [[1971, "Copa UEFA"], [2009, "UEFA Europa League"], [2024, "UEFA Europa League (fase de liga)"]] },
+    // Por ahora solo la temporada en curso (2026/27): parcial, así no cuenta títulos
+    conference: { nombre: "Conference League", grupo: "uefa", desde: 2021, lema: "La Tercera Copa de Europa", datos: "data/conference/", ns: "UECL",
+      ejemplo: 2026, espn: 2021, temporada: true, parcial: true,
+      nombres: [[2021, "UEFA Europa Conference League"], [2024, "UEFA Conference League (fase de liga)"]] },
   };
   const PARAMS = new URLSearchParams(location.search);
   const pedida = PARAMS.get("copa");
@@ -52,7 +56,7 @@
     // Clubes de la Champions League
     MCO: "Mónaco", NOR: "Noruega", BEL: "Bélgica", CRO: "Croacia", DEN: "Dinamarca", AZE: "Azerbaiyán", TUR: "Turquía",
     KAZ: "Kazajistán", CYP: "Chipre", UKR: "Ucrania", CZE: "República Checa", SVK: "Eslovaquia", SUI: "Suiza",
-    FIN: "Finlandia", IRL: "Irlanda", ISL: "Islandia", LTU: "Lituania", LUX: "Luxemburgo", LVA: "Letonia", MLT: "Malta", NIR: "Irlanda del Norte", POL: "Polonia", HUN: "Hungría", BUL: "Bulgaria", ALB: "Albania", SRB: "Serbia", SVN: "Eslovenia", MDA: "Moldavia", BLR: "Bielorrusia", ISR: "Israel", RUS: "Rusia", GEO: "Georgia", ARM: "Armenia", BIH: "Bosnia y Herzegovina", MKD: "Macedonia del Norte" };
+    FIN: "Finlandia", IRL: "Irlanda", ISL: "Islandia", LTU: "Lituania", LUX: "Luxemburgo", LVA: "Letonia", MLT: "Malta", NIR: "Irlanda del Norte", POL: "Polonia", HUN: "Hungría", BUL: "Bulgaria", ALB: "Albania", SRB: "Serbia", SVN: "Eslovenia", MDA: "Moldavia", BLR: "Bielorrusia", ISR: "Israel", RUS: "Rusia", GEO: "Georgia", ARM: "Armenia", BIH: "Bosnia y Herzegovina", MKD: "Macedonia del Norte", AND: "Andorra", GIB: "Gibraltar" };
   // Nombre de la copa en una edición: el de esa época si cambió (Copa UEFA / Europa League), o el de siempre
   const nombreEn = anio => (COPA.titulos || []).filter(([desde]) => +anio >= desde).at(-1)?.[1] || COPA.nombre;
   // Cómo se muestra una edición: el año, o la temporada en las copas europeas (2024 -> "2024/25")
@@ -1050,9 +1054,13 @@
     const dato = (valor, texto, extra = "") => `<div class="dato"><strong>${valor}</strong><span>${texto}</span>${extra}</div>`;
     const totPartidos = st.golesEdicion.reduce((s, e) => s + e.partidos, 0);
     const totGoles = st.golesEdicion.reduce((s, e) => s + e.goles, 0);
+    if (!totPartidos) {   // una copa recién cargada, sin partidos jugados todavía
+      edicionEl.innerHTML = `<h2>📊 Estadísticas históricas</h2><p class="vacio">Todavía no hay partidos jugados para armar las estadísticas.</p>`;
+      return;
+    }
     const maxTit = st.clubesTitulos[0], pais = st.paisesTitulos[0];
-    const paisesEmpatados = st.paisesTitulos.filter(p => p.titulos === pais.titulos).map(p => PAISES[p.pais] || p.pais);
-    const clubesEmpatados = st.clubesTitulos.filter(c => c.titulos.length === maxTit.titulos.length);
+    const paisesEmpatados = st.paisesTitulos.filter(p => p.titulos === pais?.titulos).map(p => PAISES[p.pais] || p.pais);
+    const clubesEmpatados = st.clubesTitulos.filter(c => c.titulos.length === maxTit?.titulos.length);
     const secciones = [["est-goleadores", "Goleadores"], ["est-edicion", "Goleador de cada edición"],
       ["est-promedio", "Promedio de gol"], ["est-matamata", "Mata-mata"], ["est-titulos", "Títulos"],
       ["est-estadios", "Estadios de las finales"], ["est-entrenadores", "Entrenadores"], ["est-clubes", "Clubes"],
@@ -1067,11 +1075,11 @@
         ${dato(st.golesEdicion.length, "ediciones", `<small>${nombreAnio(st.golesEdicion[0].anio)} a ${nombreAnio(st.golesEdicion.at(-1).anio)}</small>`)}
         ${dato(totPartidos.toLocaleString("es-AR"), "partidos jugados")}
         ${dato(totGoles.toLocaleString("es-AR"), "goles", `<small>${(totGoles / totPartidos).toFixed(2).replace(".", ",")} por partido</small>`)}
-        ${clubesEmpatados.length === 1
+        ${!maxTit?.titulos.length ? "" : clubesEmpatados.length === 1
           ? dato(`🏆 ${maxTit.titulos.length}`, `títulos de ${esc(equipo(maxTit.id).nombre)}`, "<small>el club más ganador</small>")
           : dato(`🏆 ${maxTit.titulos.length}`, "títulos: el récord, compartido", `<small>${clubesEmpatados.map(c => esc(equipo(c.id).nombre)).join(", ")}</small>`)}
-        ${dato(pais.titulos, `títulos de ${paisesEmpatados.join(" y ")}`, `<small>${paisesEmpatados.length > 1 ? "los países más ganadores" : "el país más ganador"}</small>`)}
-        ${dato(st.goleadores[0].n, `goles de ${esc(st.goleadores[0].nombre)}`, "<small>el máximo goleador</small>")}
+        ${!pais?.titulos ? "" : dato(pais.titulos, `títulos de ${paisesEmpatados.join(" y ")}`, `<small>${paisesEmpatados.length > 1 ? "los países más ganadores" : "el país más ganador"}</small>`)}
+        ${!st.goleadores.length ? "" : dato(st.goleadores[0].n, `goles de ${esc(st.goleadores[0].nombre)}`, "<small>el máximo goleador</small>")}
       </div>
       <nav class="ir-secciones" aria-label="Secciones">${secciones.map(([id, t]) =>
         `<button class="ir-seccion" type="button" data-seccion="${id}">${t}</button>`).join("")}</nav>`;

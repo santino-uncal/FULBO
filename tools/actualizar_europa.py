@@ -1,4 +1,4 @@
-"""Actualiza la temporada en curso de la Champions League y la Europa League: baja de ESPN los dos años que toca
+"""Actualiza la temporada en curso de la Champions League, la Europa League y la Conference League: baja de ESPN los dos años que toca
 la temporada (la última de "ediciones" en copas.py: la 2026/27 son 2026 y 2027), arma los datos y corre las pruebas.
 
 Uso:  python tools/actualizar_europa.py
@@ -19,7 +19,7 @@ def correr(*args):
 
 
 def main():
-    for clave in ("champions", "europa"):
+    for clave in ("champions", "europa", "conference"):
         anio = max(COPAS[clave]["ediciones"])
         correr("tools/descargar_espn.py", "--copa", clave, str(anio), str(anio + 1))
     correr("tools/generar_datos.py")

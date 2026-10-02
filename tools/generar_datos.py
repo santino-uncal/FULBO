@@ -462,8 +462,8 @@ def main():
         info_espn.update(es[k]["equipos"])
     juegan = {p[lado] for k in es for p in es[k]["partidos"] for lado in ("local_espn", "visitante_espn")}
     info_espn = {eid: t for eid, t in info_espn.items() if eid in juegan}
-    # los clubes de ESPN que solo juegan la Copa UEFA / Europa League, con su país (ficha de ESPN o estadio)
-    otras = {p[lado] for k in es if k[0] != "europa" for p in es[k]["partidos"] for lado in ("local_espn", "visitante_espn")}
+    # los clubes de ESPN que solo juegan la Copa UEFA / Europa League / Conference League, con su país (ficha de ESPN o estadio)
+    otras = {p[lado] for k in es if k[0] not in ("europa", "conference") for p in es[k]["partidos"] for lado in ("local_espn", "visitante_espn")}
     solo_europa = {eid for eid in info_espn if eid not in otras}
     paises_auto = paises_espn(es, solo_europa)
     for eid, t in info_espn.items():
@@ -578,7 +578,7 @@ def main():
                 if not pe["jugado"]:
                     # (un partido viejo sin resultado no se jugó: en el Mundial 2020 Auckland City se bajó por la pandemia)
                     viejo = "rsssf" not in COPAS[clave] and pe["fecha"] < datetime.date.today().isoformat()
-                    if viejo and clave in ("champions", "europa"):
+                    if viejo and clave in ("champions", "europa", "conference"):
                         continue   # en las copas europeas es un partido postergado: ESPN tiene también el reprogramado
                     base["notas"] = "no se jugó" if viejo else "a jugarse"
                 x = partido_final(base, mapa[pe["local_espn"]], mapa[pe["visitante_espn"]],
@@ -607,7 +607,7 @@ def main():
             fases.setdefault(p.pop("fase"), []).append(p)
         orden = sorted(fases, key=lambda f: (next((i for i, n in enumerate(ORDEN_FASES) if f.startswith(n)), 50),
                                              min(p.get("fecha") or "9999" for p in fases[f]), f))
-        if clave in ("champions", "europa"):
+        if clave in ("champions", "europa", "conference"):
             # La Champions cambió mucho de formato (en 1991-1993 los octavos se jugaban antes de los grupos): las
             # etapas van por fecha (cada grupo con su etapa) y la final al último
             inicio = collections.defaultdict(lambda: "9999")
