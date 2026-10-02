@@ -757,7 +757,7 @@
     "anzhi-makhachkala": "Anzhi Majachkalá",
     "bnei-sachnin": "Bnei Sakhnin",
     "chernomorets": "Chernomorets Novorossiysk",
-    "cmc-publikum": "Publikum Celje",
+    "cmc-publikum": "Celje",
     "cementarnica-55": "Cementarnica 55",
     "fk-metalurgs": "Metalurgs Liepāja",
     "fk-suduva": "Sūduva",
@@ -824,7 +824,15 @@
     "orgryte": "Örgryte",
     "vitkovice": "Vítkovice",
     "vllaznia": "Vllaznia",
-    "zalgiris": "Žalgiris"
+    "zalgiris": "Žalgiris",
+    "afc-bournemouth": "Bournemouth",
+    "ararat-armenia": "Ararat-Armenia",
+    "jagiellonia-bialystok": "Jagiellonia Białystok",
+    "sabah-fk": "Sabah",
+    "como": "Como",
+    "crystal-palace": "Crystal Palace",
+    "sunderland": "Sunderland",
+    "torreense": "Torreense"
   },
   "pais_club": {
     "independiente-petrolero": "BOL",
@@ -943,7 +951,9 @@
     "ruzomberok": "SVK",
     "viktoria-zizkov": "CZE",
     "lokomotiv-sofia": "BUL",
-    "lokomotiv-plovdiv": "BUL"
+    "lokomotiv-plovdiv": "BUL",
+    "como": "ITA",
+    "sabah-fk": "AZE"
   },
   "pais_espn": {
     "6097": "PAR",
@@ -1510,7 +1520,8 @@
     "zeljeznicar-bih": "zeljeznicar",
     "terek-grozny": "akhmat-grozny",
     "az-67": "az-alkmaar",
-    "artmedia-bratislava": "artmedia-petrzalka"
+    "artmedia-bratislava": "artmedia-petrzalka",
+    "nk-celje": "cmc-publikum"
   },
   "campeones_europa": {
     "_nota": "Campeón y subcampeón forzados de la Copa UEFA: finales de ida y vuelta empatadas en el global y ganadas por gol de visitante (1976/77 Juventus, 1979/80 Eintracht Fráncfort, 1991/92 Ajax).",

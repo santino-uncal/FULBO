@@ -112,7 +112,9 @@ python tools/descargar_banderas.py  # banderas de los países nuevos
 ```
 
 Para la temporada en curso alcanza con `python tools/descargar_espn.py 2026` (y `--copa sudamericana 2026`)
-y después `generar_datos.py`.
+y después `generar_datos.py`. En la Champions y la Europa League la temporada toca dos años: para la 2026/27,
+`--copa champions 2026 2027` y `--copa europa 2026 2027`. Cuando empiece una temporada nueva, sumarla a `ediciones`
+(y el año siguiente a `espn_anios`) en `tools/copas.py`.
 
 ### Corregir clubes
 
