@@ -58,7 +58,7 @@ FASES_INT = [
     (r"playoff", "Copa Challenger"),
     (r"^final", "Final"),
 ]
-# Champions League (y Europa League, con las mismas fases): desde 2024/25, una fase de liga de 36 equipos (una sola tabla), playoffs y eliminación directa.
+# Champions League: desde 2024/25, una fase de liga de 36 equipos (una sola tabla), playoffs y eliminación directa.
 # En 2001/02 y 2002/03 hubo dos fases de grupos ("2001-second-phase"). Las rondas clasificatorias no se cargan
 FASES_UCL = [
     (r"qualif|preliminary|^play-?off-round$|^playoffs$", "Fase previa"),   # el playoff de agosto (2009-2023) es clasificatorio
@@ -71,6 +71,33 @@ FASES_UCL = [
     (r"semi", "Semifinales"),
     (r"^final", "Final"),
 ]
+
+# Copa UEFA y Europa League: ESPN usó nombres distintos según la época (y "uefa.uefa" y "uefa.europa" se contradicen:
+# "second-round" es la segunda ronda de 48 equipos en 2001-2003 y los dieciseisavos desde 2009), así que el slug se
+# traduce primero según la temporada (ver slug_uel) y después pasa por esta tabla
+FASES_UEL = [
+    (r"qualif|preliminary|^play-?off-round$|^playoffs$", "Fase previa"),
+    (r"^grupos$|group", "Fase de grupos"),
+    (r"league", "Fase de liga"),
+    (r"knockout-round-playoffs", "Playoffs de octavos"),
+    (r"^primera$", "Primera ronda"),
+    (r"^segunda$", "Segunda ronda"),
+    (r"^dieciseisavos$|round-of-32", "Dieciseisavos de final"),
+    (r"^octavos$|round-of-16", "Octavos de final"),
+    (r"quarter", "Cuartos de final"),
+    (r"semi", "Semifinales"),
+    (r"^final", "Final"),
+]
+
+
+def slug_uel(slug, temporada):
+    """'2004-second-round' (grupos de la Copa UEFA 2004-2008) / '2009-first-round' (grupos de la Europa League) ->
+    'grupos'; first/second/third/fourth-round -> la ronda según la temporada."""
+    if re.match(r"^\d{4}-.*round$", slug):
+        return "grupos"
+    vieja = (temporada or 0) < 2009   # la Copa UEFA
+    return {"first-round": "primera", "second-round": "segunda" if vieja else "dieciseisavos",
+            "third-round": "dieciseisavos" if vieja else "octavos", "fourth-round": "octavos"}.get(slug, slug)
 
 
 def fecha_local(iso):
@@ -85,8 +112,10 @@ def nombre_fase(evento, copa="libertadores", grupos=None):
     nota = evento["competitions"][0].get("altGameNote") or ""
     if copa == "sudamericana":
         slug = re.sub(r"^copa-sudamericana-+", "", slug)
+    if copa == "europa":
+        slug = slug_uel(slug, evento.get("season", {}).get("year"))
     tabla = {"sudamericana": FASES_SUD, "mundial": FASES_MUN, "intercontinental": FASES_INT,
-             "champions": FASES_UCL, "europa": FASES_UCL}.get(copa, FASES)
+             "champions": FASES_UCL, "europa": FASES_UEL}.get(copa, FASES)
     for patron, nombre in tabla:
         if nombre == "Copa África-Asia-Pacífico" and re.search(patron, slug) and evento["date"][5:7] == "12":
             return "Derbi de las Américas"
@@ -136,6 +165,7 @@ def leer(anio, copa="libertadores"):
             "jugado": bool(estado.get("completed")),
             "estadio": (comp.get("venue") or {}).get("fullName"),
             "ciudad": ((comp.get("venue") or {}).get("address") or {}).get("city"),
+            "pais_estadio": ((comp.get("venue") or {}).get("address") or {}).get("country"),
             "notas": None, "goles": [],
         }
         if lados["home"].get("shootoutScore") is not None:

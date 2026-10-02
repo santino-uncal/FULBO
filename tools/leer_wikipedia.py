@@ -14,7 +14,18 @@ from copas import COPAS, copa_de_argumentos
 MESES = {m: i for i, m in enumerate(["january", "february", "march", "april", "may", "june", "july", "august",
                                      "september", "october", "november", "december"], 1)}
 # Códigos de país de Wikipedia que se escriben distinto en la página (Alemania Federal = Alemania)
-PAISES = {"FRG": "GER", "SPA": "ESP", "DDR": "GDR", "CSK": "TCH", "ROM": "ROU", "USS": "URS", "SWI": "SUI"}
+PAISES = {"FRG": "GER", "SPA": "ESP", "DDR": "GDR", "CSK": "TCH", "ROM": "ROU", "USS": "URS", "SWI": "SUI",
+          "SLO": "SVN", "LAT": "LVA", "LIT": "LTU", "DNK": "DEN", "GRC": "GRE", "IRE": "IRL", "DEU": "GER", "SCG": "FRY"}
+# A veces la bandera lleva el nombre del país en vez del código ({{fbaicon|West Germany}})
+NOMBRES_PAIS = {"west germany": "GER", "germany": "GER", "east germany": "GDR", "soviet union": "URS", "ussr": "URS",
+                "czechoslovakia": "TCH", "czech republic": "CZE", "yugoslavia": "YUG", "fr yugoslavia": "FRY",
+                "socialist federal republic of yugoslavia": "YUG", "spain": "ESP", "belgium": "BEL", "scotland": "SCO",
+                "netherlands": "NED", "italy": "ITA", "sweden": "SWE", "portugal": "POR", "romania": "ROU",
+                "france": "FRA", "switzerland": "SUI", "austria": "AUT", "greece": "GRE", "england": "ENG",
+                "hungary": "HUN", "bulgaria": "BUL", "iceland": "ISL", "denmark": "DEN", "turkey": "TUR",
+                "russia": "RUS", "poland": "POL", "ireland": "IRL", "republic of ireland": "IRL", "finland": "FIN",
+                "wales": "WAL", "norway": "NOR", "northern ireland": "NIR", "malta": "MLT", "luxembourg": "LUX",
+                "cyprus": "CYP", "ukraine": "UKR", "slovenia": "SVN", "slovakia": "SVK", "albania": "ALB"}
 # Posiciones de Wikipedia -> las que usa la página (las mismas siglas que ESPN)
 POSICIONES = {"GK": "G", "CB": "CD", "DF": "D", "FB": "D", "MF": "M", "HB": "M", "WH": "M", "FW": "F", "CF": "F",
               "ST": "F", "SS": "F", "RW": "RF", "OR": "RF", "LW": "LF", "OL": "LF", "IR": "AM-R", "IL": "AM-L",
@@ -27,7 +38,7 @@ def limpiar(texto):
     texto = re.sub(r"<!--.*?-->", "", texto, flags=re.S)
     texto = re.sub(r"<ref[^>/]*/>", "", texto)
     texto = re.sub(r"<ref[^>]*>.*?</ref>", "", texto, flags=re.S)
-    return texto
+    return texto.replace("&ndash;", "–").replace("&nbsp;", " ")
 
 
 def plantilla(texto, inicio):
@@ -95,8 +106,13 @@ def texto_plano(t):
 
 
 def pais_de(t):
-    m = re.search(r"\{\{\s*(?:flagicon|fbaicon|flag|fb)\s*\|\s*([A-Z]{3})", t, re.I)
-    return PAISES.get(m.group(1).upper(), m.group(1).upper()) if m else None
+    m = re.search(r"\{\{\s*(?:flagicon|fbaicon|flag|fb)\s*\|\s*([^|}]+)", t, re.I)
+    if not m:
+        return None
+    arg = m.group(1).strip()
+    if arg.lower() in NOMBRES_PAIS:
+        return NOMBRES_PAIS[arg.lower()]
+    return PAISES.get(arg[:3].upper(), arg[:3].upper()) if re.match(r"[A-Za-z]{3}", arg) else None
 
 
 def fecha_de(t):
@@ -123,6 +139,8 @@ def leer_goles(texto, lado):
     """'*[[Michel Platini|Platini]] {{goal|63|pen.}} <br> [[Laudrup]] {{goal|82}}' -> goles con minuto y tipo.
     {{goal|2||8}} son dos goles (minutos 2 y 8): los parámetros van de a pares, minuto y aclaración."""
     goles = []
+    # el gol de oro (Liverpool-Alavés 2001) y el de plata se escriben con su propia plantilla
+    texto = re.sub(r"\{\{\s*(?:golden|silver) goal\s*\|", "{{goal|", texto, flags=re.I)
     for renglon in re.split(r"<br\s*/?>|\n", texto):
         if "{{goal" not in renglon.lower():
             continue
@@ -249,22 +267,27 @@ def fase_etapa(etapa, titulos):
 
 def ronda_champions(titulo):
     t = titulo.lower().strip()
-    for patron, nombre in ((r"^preliminary", "Ronda preliminar"), (r"^first round", "Primera ronda"),
-                           (r"^second round", "Segunda ronda"), (r"^quarter", "Cuartos de final"),
+    for patron, nombre in ((r"^preliminary", "Ronda preliminar"), (r"qualifying", "Ronda clasificatoria"),
+                           (r"^first round", "Primera ronda"), (r"^second round", "Segunda ronda"),
+                           (r"^third round", "Tercera ronda"), (r"^fourth round", "Cuarta ronda"), (r"^quarter", "Cuartos de final"),
                            (r"^semi", "Semifinales"), (r"^final$", "Final")):
         if re.search(patron, t):
             return nombre
     return None
 
 
-def rondas_por_cantidad(partidos):
-    """Champions hasta 1990/91: la "primera ronda" y la "segunda ronda" se llaman según cuántos equipos las jugaron
-    (32 equipos: dieciseisavos de final; 16: octavos). Y si hay una página de la final, la final de la página de la
-    temporada sobra (es el mismo partido)."""
-    for ronda in ("Primera ronda", "Segunda ronda"):
+def rondas_por_cantidad(partidos, por_partidos=False):
+    """Champions hasta 1990/91 y Copa UEFA: las rondas se llaman según cuántos equipos las jugaron (64 equipos:
+    treintaidosavos de final; 32: dieciseisavos; 16: octavos; las de 96 y 48 equipos de la Copa UEFA 1999-2001 quedan
+    como "primera ronda" y "segunda ronda"). Y si hay una página de la final, la final de la página de la temporada
+    sobra (es el mismo partido)."""
+    for ronda in ("Primera ronda", "Segunda ronda", "Tercera ronda", "Cuarta ronda"):
         equipos = {x for p in partidos if p["fase"] == ronda for x in (p["local"], p["visitante"])}
         if equipos:
-            nombre = "Dieciseisavos de final" if len(equipos) > 16 else "Octavos de final" if len(equipos) > 8 else ronda
+            n = len(equipos)
+            if por_partidos:   # Copa UEFA: el mismo club a veces está escrito distinto en la ida y la vuelta
+                n = min(n, sum(p["fase"] == ronda and p["notas"] != "partido desempate" for p in partidos))
+            nombre = "Octavos de final" if 8 < n <= 16 else "Dieciseisavos de final" if 16 < n <= 32 else                 "Treintaidosavos de final" if 56 <= n <= 64 else ronda
             for p in partidos:
                 if p["fase"] == ronda:
                     p["fase"] = nombre
@@ -307,14 +330,21 @@ def leer(anio, copa="intercontinental"):
              "gl": gl, "gv": gv, "notas": None,
              "paises": {local: pais_de(par.get("team1", "")), visitante: pais_de(par.get("team2", ""))},
              "goles": leer_goles(par.get("goals1", ""), "local") + leer_goles(par.get("goals2", ""), "visitante")}
-        if re.search(r"awarded", par.get("scorenote", "") + par.get("score", ""), re.I):
+        # Formaciones y aclaraciones: entre este partido y el siguiente (o la sección siguiente)
+        hasta = min([c for c in cajas if c > inicio] + [pos for pos, _ in secciones if pos > fin] + [len(texto)])
+        goles_cancha = len(p["goles"]) != (gl or 0) + (gv or 0)
+        if copa == "europa" and re.search(r"abandoned[^.]*replayed", texto[fin:hasta], re.I):
+            continue   # suspendido y vuelto a jugar (Inter-Dukla 1986, por la niebla): vale el otro
+        # Resultado dado en los escritorios: lo dice el partido o, en la Copa UEFA, el texto de abajo ("UEFA awarded…")
+        if re.search(r"awarded", par.get("scorenote", "") + par.get("score", ""), re.I) or (
+                copa == "europa" and goles_cancha and re.search(r"awarded|by default|forfeit", texto[fin:hasta], re.I)):
             # Resultado dado en los escritorios (Leeds-Stuttgart 1992): los goles de la cancha no cuentan
             en_cancha = sum(g["lado"] == "local" for g in p["goles"]), sum(g["lado"] == "visitante" for g in p["goles"])
             p["notas"] = f"resultado dado por la UEFA (en la cancha terminó {en_cancha[0]}–{en_cancha[1]})"
             p["goles"] = []
         if etapa == "Final":
             p["_pagina_final"] = True
-        if copa == "champions" and (re.search(r"play-?off", par.get("id", ""), re.I) or
+        if copa in ("champions", "europa") and (re.search(r"play-?off", par.get("id", ""), re.I) or
                                     re.search(r"play-?off|replay|decider", titulo, re.I)):
             p["notas"] = "partido desempate"
         if copa == "intercontinental":
@@ -339,10 +369,8 @@ def leer(anio, copa="intercontinental"):
             p["arbitro"] = arbitro
         if par.get("penaltyscore"):
             p["pen_l"], p["pen_v"] = resultado(par["penaltyscore"])
-        if "a.e.t" in par.get("score", "").lower() or "aet" in par.get("aet", "").lower():
+        if "a.e.t" in par.get("score", "").lower() or "aet" in par.get("aet", "").lower() or                 re.search(r"golden goal|silver goal", par.get("goals1", "") + par.get("goals2", ""), re.I):
             p["alargue"] = True
-        # Formaciones: entre este partido y el siguiente (o la sección siguiente)
-        hasta = min([c for c in cajas if c > inicio] + [pos for pos, _ in secciones if pos > fin] + [len(texto)])
         forms = leer_formaciones(texto[fin:hasta])
         if any(forms):
             p["formaciones"] = {lado: f for lado, f in zip(("local", "visitante"), forms) if f}
@@ -350,8 +378,10 @@ def leer(anio, copa="intercontinental"):
         if len(p["goles"]) != total and not p["notas"]:
             raros.append(f"{local} {gl}-{gv} {visitante}: {len(p['goles'])} goles con autor")
         partidos.append(p)
-    if copa == "champions":
-        rondas_por_cantidad(partidos)
+    if copa == "europa":   # la Copa UEFA se carga sin las rondas clasificatorias (1995-2001)
+        partidos = [p for p in partidos if p["fase"] not in ("Ronda preliminar", "Ronda clasificatoria")]
+    if copa in ("champions", "europa"):
+        rondas_por_cantidad(partidos, copa == "europa")
         for p in partidos:
             if p["gl"] is None:
                 p["notas"] = p["notas"] or "no se jugó"   # retiros y prohibiciones (Linfield-Vorwärts 1961…)

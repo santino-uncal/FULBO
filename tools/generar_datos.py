@@ -38,7 +38,7 @@ DATA = RAIZ / "data"
 CACHE = RAIZ / "tools" / "cache"
 
 ORDEN_FASES = ["Fase previa", "Primera fase previa", "Segunda fase previa", "Tercera fase previa",
-               "Dieciseisavos de final", "Primera fase", "Fase de grupos", "Fase de liga", "Segunda fase de grupos", "Segunda fase", "Tercera fase", "Playoffs de octavos",
+               "Treintaidosavos de final", "Dieciseisavos de final", "Primera fase", "Fase de grupos", "Fase de liga", "Segunda fase de grupos", "Segunda fase", "Tercera fase", "Playoffs de octavos",
                "Primera ronda", "Copa África-Asia-Pacífico", "Segunda ronda", "Derbi de las Américas", "Copa Challenger",
                "Octavos de final",
                "Cuartos de final", "Semifinales", "Quinto puesto", "Tercer puesto", "Final"]
@@ -377,6 +377,61 @@ def armar_planteles(partidos):
 
 
 # ---------------------------------------------------------------- principal
+# País de los clubes europeos de ESPN: el prefijo de su ficha ("esp.real_zaragoza") o el país de su estadio
+PREFIJOS_ESPN = {"eng": "ENG", "ger": "GER", "esp": "ESP", "fra": "FRA", "ita": "ITA", "ned": "NED", "por": "POR",
+                 "gre": "GRE", "sco": "SCO", "bel": "BEL", "tur": "TUR", "rus": "RUS", "den": "DEN", "aut": "AUT",
+                 "sui": "SUI", "nor": "NOR", "rom": "ROU", "ukr": "UKR", "swe": "SWE", "fin": "FIN", "pol": "POL",
+                 "wal": "WAL", "irl": "IRL", "cze": "CZE", "cyp": "CYP", "svk": "SVK", "svn": "SVN", "cro": "CRO",
+                 "bul": "BUL", "aze": "AZE", "blr": "BLR", "hun": "HUN", "isr": "ISR", "ltu": "LTU"}
+PAISES_INGLES = dict(leer_wikipedia.NOMBRES_PAIS, **{
+    "türkiye": "TUR", "turkiye": "TUR", "czechia": "CZE", "bosnia and herzegovina": "BIH", "bosnia-herzegovina": "BIH",
+    "north macedonia": "MKD", "macedonia": "MKD", "moldova": "MDA", "belarus": "BLR", "georgia": "GEO",
+    "armenia": "ARM", "azerbaijan": "AZE", "kazakhstan": "KAZ", "israel": "ISR", "serbia": "SRB", "croatia": "CRO",
+    "montenegro": "MNE", "kosovo": "KOS", "estonia": "EST", "latvia": "LVA", "lithuania": "LTU",
+    "faroe islands": "FRO", "gibraltar": "GIB", "andorra": "AND", "san marino": "SMR", "liechtenstein": "LIE",
+    "united kingdom": None, "germany": "GER"})
+# Países de antes que abarcan a los de hoy (Spartak Moscú es URS en Wikipedia y RUS en ESPN)
+PAISES_VIEJOS = {"URS": {"RUS", "UKR", "BLR", "GEO", "ARM", "AZE", "MDA", "LTU", "LVA", "EST", "KAZ"},
+                 "TCH": {"CZE", "SVK"}, "YUG": {"SRB", "CRO", "SVN", "BIH", "MKD", "MNE", "FRY", "KOS"},
+                 "FRY": {"SRB", "MNE"}, "GDR": {"GER"}}
+
+
+def paises_espn(es, eids):
+    fichas = json.loads((CACHE / "espn_equipos.json").read_text(encoding="utf-8"))         if (CACHE / "espn_equipos.json").exists() else {}
+    estadios = collections.defaultdict(collections.Counter)
+    for k in es:
+        for p in es[k]["partidos"]:
+            if p.get("pais_estadio") and not p["fase"].startswith("Final"):
+                estadios[p["local_espn"]][p["pais_estadio"].lower()] += 1
+    res = {}
+    for eid in eids:
+        pais = PREFIJOS_ESPN.get(fichas.get(eid, "").split(".")[0])
+        if not pais and estadios[eid]:
+            pais = PAISES_INGLES.get(estadios[eid].most_common(1)[0][0])
+        if pais:
+            res[eid] = pais
+    return res
+
+
+def club_europeo(cat, nombre, pais):
+    """El club del catálogo que corresponde a un club europeo de ESPN: el mismo nombre (normalizado) en un país
+    compatible, o si no hay, uno solo del mismo país cuyo nombre contenga al otro ('Zaragoza' / 'Real Zaragoza')."""
+    def compatible(i):
+        p = cat.ajustes.get("pais_club", {}).get(i) or cat.clubes[i]["pais"]
+        return pais is None or p is None or p == pais or pais in PAISES_VIEJOS.get(p, ()) or             cat.clubes[i]["pais"] == pais or pais in PAISES_VIEJOS.get(cat.clubes[i]["pais"], ())
+    norm = E.normalizar(nombre)
+    exacto = [i for i in cat.clubes if compatible(i) and any(E.normalizar(n) == norm for n in cat.nombres[i])]
+    if len(exacto) == 1 or (exacto and pais is None):
+        return max(exacto, key=lambda i: sum(cat.nombres[i].values()))
+    if not pais or exacto:
+        return None
+    palabras = set(norm.split())
+    parecidos = [i for i in cat.clubes if compatible(i) and cat.clubes[i]["pais"] is not None and any(
+        (set(E.normalizar(n).split()) <= palabras or palabras <= set(E.normalizar(n).split())) and E.normalizar(n)
+        for n in cat.nombres[i])]
+    return parecidos[0] if len(parecidos) == 1 else None
+
+
 def main():
     cat = E.Catalogo()
     ajustes = E.cargar_ajustes()
@@ -397,7 +452,7 @@ def main():
         if k in rs:
             pares_por_anio[k] = emparejar(rs[k], es[k], votos)
     mapa = {eid: v.most_common(1)[0][0] for eid, v in votos.items()}
-    mapa.update(ajustes.get("espn", {}))
+    mapa.update({eid: ajustes.get("unir", {}).get(i, i) for eid, i in ajustes.get("espn", {}).items()})
     for k, (pares, usados) in pares_por_anio.items():
         emparejar_por_club(rs[k], es[k], pares, usados, mapa)
     # Clubes de ESPN que nunca aparecieron en RSSSF (ediciones nuevas)
@@ -407,9 +462,23 @@ def main():
         info_espn.update(es[k]["equipos"])
     juegan = {p[lado] for k in es for p in es[k]["partidos"] for lado in ("local_espn", "visitante_espn")}
     info_espn = {eid: t for eid, t in info_espn.items() if eid in juegan}
+    # los clubes de ESPN que solo juegan la Copa UEFA / Europa League, con su país (ficha de ESPN o estadio)
+    otras = {p[lado] for k in es if k[0] != "europa" for p in es[k]["partidos"] for lado in ("local_espn", "visitante_espn")}
+    solo_europa = {eid for eid in info_espn if eid not in otras}
+    paises_auto = paises_espn(es, solo_europa)
     for eid, t in info_espn.items():
         if t["nombre"].startswith("TBD"):  # partido futuro con rival todavía no definido
             mapa[eid] = cat.id_de("A definir", None)
+            continue
+        if eid not in mapa and eid in solo_europa:
+            # Copa UEFA / Europa League: ESPN no se cruza con Wikipedia (no hay temporadas en común), así que se busca
+            # el club por nombre y país (ver club_europeo)
+            pais = ajustes.get("pais_espn", {}).get(eid) or paises_auto.get(eid)
+            mapa[eid] = club_europeo(cat, t["nombre"], pais) or cat.id_de(t["nombre"], pais)
+            if mapa[eid].endswith("-xx") and mapa[eid][:-3] in cat.clubes:   # sin país, chocó con un club del mismo nombre: es ese
+                cat.clubes.pop(mapa[eid], None)
+                mapa[eid] = mapa[eid][:-3]
+            cat.asegurar(mapa[eid], t["nombre"], pais)["espn"].add(eid)
             continue
         if eid not in mapa:
             # buscar un club con el mismo nombre; si no hay, es un club nuevo
@@ -492,7 +561,8 @@ def main():
                     base = dict(pe)
                     base["formaciones_final"] = pe.get("formaciones")
                     base["tanda_final"] = tanda_espn(pe)
-                    base["notas"] = "solo en ESPN"
+                    if clave != "europa":   # (en la Copa UEFA 2004-2008 Wikipedia trae solo la fase de grupos)
+                        base["notas"] = "solo en ESPN"
                     x = partido_final(base, mapa[pe["local_espn"]], mapa[pe["visitante_espn"]],
                                       goles_espn(pe), pe["espn"])
                     x["fase"] = pe["fase"]

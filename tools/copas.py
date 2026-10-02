@@ -31,6 +31,18 @@ def paginas_champions(a):
     return paginas + [(f"{a + 1} {'European Cup' if a <= 1991 else 'UEFA Champions League'} final", "Final")]
 
 
+def paginas_uefa(a):
+    """Las páginas de Wikipedia de la Copa UEFA 1971/72-2000/01: la de la temporada (cada ronda es una sección) y la de
+    la final (con las formaciones). Desde 1999/2000 cada ronda tiene su propia página."""
+    temporada = f"{a}–{str(a + 1)[2:] if a != 1999 else '2000'}"
+    base = f"{temporada} UEFA Cup"
+    final = f"{a + 1} UEFA Cup final"
+    if a >= 1999:
+        return [(f"{base} first round", "Primera ronda"), (f"{base} second round", "Segunda ronda"),
+                (f"{base} final phase", "Eliminatorias"), (final, "Final")]
+    return [(base, "Eliminatorias"), (final, "Final")]
+
+
 COPAS = {
     "libertadores": {
         "nombre": "Copa Libertadores",
@@ -106,14 +118,25 @@ COPAS = {
         "entrenadores_partidos": RAIZ / "tools" / "entrenadores_partidos_champions.json",
         "planteles_tm": RAIZ / "tools" / "planteles_tm_champions.json",
     },
-    # La Europa League (Copa UEFA hasta 2009, ESPN): por ahora solo las últimas temporadas. Como en la Champions, cada
-    # edición se nombra por el año en que empieza la temporada y no se cargan las rondas clasificatorias.
+    # La Copa UEFA (1971/72) y la Europa League (desde 2009/10). Como en la Champions, cada edición se nombra por el año
+    # en que empieza la temporada y no se cargan las rondas clasificatorias. 1971/72-2000/01 sale de Wikipedia
+    # (paginas_uefa); desde 2001/02, de ESPN, que tiene la Copa UEFA ("uefa.uefa", hasta 2008/09) y la Europa League
+    # ("uefa.europa") como dos ligas distintas: en 2009 se juntan los dos calendarios (espn_ligas).
     "europa": {
         "nombre": "Europa League",
-        "desde": 2024,
+        "desde": 1971,
+        # (y lo que ESPN no tiene completo: las fases de grupos 2004/05-2008/09, sin el detalle de los partidos, y
+        # algunos partidos de la primera ronda; lo demás de esas temporadas sale de ESPN)
+        "wikipedia": {**{a: paginas_uefa(a) for a in range(1971, 2001)},
+                      **{a: ([(f"{a}–{str(a + 1)[2:]} UEFA Cup first round", "Primera ronda")] if a in (2002, 2004, 2006) else []) +
+                         ([(f"{a}–{str(a + 1)[2:]} UEFA Cup group stage", "Fase de grupos")] if a >= 2004 else [])
+                         for a in (2002, *range(2004, 2009))}},
+        "cache_wikipedia": CACHE / "wikipedia-europa",
         "espn": "uefa.europa",
-        "espn_anios": [2024, 2025, 2026],
-        "ediciones": [2024, 2025],
+        "espn_ligas": {"uefa.uefa": range(2001, 2010), "uefa.europa": range(2009, 2027)},
+        "espn_saltear": r"qualif|preliminary|^play-?off-round$|^playoffs$",   # sin el detalle de las clasificatorias
+        "espn_anios": list(range(2001, 2027)),
+        "ediciones": list(range(1971, 2026)),
         "cache_espn": CACHE / "espn-europa",
         "data": RAIZ / "data" / "europa",
         "ns": "UEL",

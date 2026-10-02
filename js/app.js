@@ -27,9 +27,9 @@
     champions: { nombre: "Champions League", grupo: "uefa", desde: 1955, lema: "La Orejona", datos: "data/champions/", ns: "UCL",
       ejemplo: 1998, espn: 2011, temporada: true,
       nombres: [[1955, "Copa de Campeones de Europa"], [1992, "UEFA Champions League"], [2024, "UEFA Champions League (fase de liga)"]] },
-    europa: { nombre: "Europa League", grupo: "uefa", desde: 2024, lema: "La Copa UEFA", datos: "data/europa/", ns: "UEL",
-      ejemplo: 2024, espn: 2024, temporada: true, parcial: true,
-      nombres: [[2024, "UEFA Europa League (fase de liga)"]] },
+    europa: { nombre: "Europa League", grupo: "uefa", desde: 1971, lema: "La Copa UEFA", datos: "data/europa/", ns: "UEL",
+      ejemplo: 1985, espn: 2014, temporada: true,
+      nombres: [[1971, "Copa UEFA"], [2009, "UEFA Europa League"], [2024, "UEFA Europa League (fase de liga)"]] },
   };
   const PARAMS = new URLSearchParams(location.search);
   const pedida = PARAMS.get("copa");
@@ -661,7 +661,7 @@
     // Título de cada ronda: el nombre de su fase, o uno genérico si varias rondas comparten fase (2002)
     // (si en una misma ronda hay llaves de fases distintas, van todas: Intercontinental de la FIFA, "Derbi de las Américas / Copa África-Asia-Pacífico")
     const nombres = niveles.map(nivel => [...new Set(nivel.filter(Boolean).map(x => x.ll.fase))].join(" / "));
-    const generico = { 16: "Dieciseisavos de final", 8: "Octavos de final", 4: "Cuartos de final", 2: "Semifinales", 1: "Final" };
+    const generico = { 32: "Treintaidosavos de final", 16: "Dieciseisavos de final", 8: "Octavos de final", 4: "Cuartos de final", 2: "Semifinales", 1: "Final" };
     const columnas = niveles.map((nivel, n) => {
       const repetido = nombres.filter(x => x === nombres[n]).length > 1;
       const nombre = repetido ? generico[nivel.length] || nombres[n] : nombres[n];
@@ -864,6 +864,9 @@
     "Copa Challenger": 8, "Derbi de las Américas": 7, "Copa África-Asia-Pacífico": 7,
     // Champions League: la segunda fase de grupos (1999-2003) eran los 16 mejores; la primera ronda de 1991-1993, 32
     "Segunda fase de grupos": 6, "Dieciseisavos de final": 3, "Fase de liga": 4, "Ronda preliminar": 2,
+    // Copa UEFA: la primera ronda de 64 equipos (1971-1999); la primera (96 y 80 equipos) y la segunda (48) de 1999-2009
+    "Treintaidosavos de final": 2,
+    ...(CLAVE_COPA === "europa" ? { "Segunda ronda": 2, "Primera ronda": 1 } : {}),
     ...(CLAVE_COPA === "sudamericana" ? { "Segunda fase": 3, "Primera fase": 2 } : {}) };
   // Mejor o peor instancia a la que llegó, con todos los años en que le pasó
   function participacion(eds, cual) {

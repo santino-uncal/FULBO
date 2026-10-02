@@ -3,6 +3,7 @@
 Uso:  python tools/descargar_espn.py            (todas las temporadas)
       python tools/descargar_espn.py 2025 2026  (solo esas)
       python tools/descargar_espn.py --copa sudamericana [años]
+      python tools/descargar_espn.py --copa europa fichas   (solo el país de los clubes, ver fichas_de_equipos)
 
 Guarda en tools/cache/espn/<año>/ (la Sudamericana, en tools/cache/espn-sudamericana/<año>/):
   calendario.json     — la lista de partidos de la temporada
@@ -12,6 +13,7 @@ Los partidos ya descargados y terminados no se vuelven a pedir (salvo los que se
 y se bajaron antes de que se guardara la tanda).
 """
 import json
+import re
 import time
 import urllib.request
 
@@ -28,7 +30,7 @@ def pedir(url, intentos=4):
             with urllib.request.urlopen(req, timeout=30) as r:
                 return json.load(r)
         except Exception as e:  # corte de red o límite de pedidos: esperar y reintentar
-            if i == intentos - 1:
+            if i == intentos - 1 or getattr(e, "code", None) == 404:   # (si no existe, no tiene sentido insistir)
                 raise
             time.sleep(5 * (i + 1))
 
@@ -66,10 +68,21 @@ def falta_tanda(evento, archivo):
     return "shootout" not in json.loads(archivo.read_text(encoding="utf-8"))
 
 
-def temporada(anio):
+def temporada(anio, ligas=None, saltear=None):
+    """ligas: las "ligas" de ESPN que tocan ese año (la Europa League era "uefa.uefa" hasta 2008/09): sus calendarios
+    se juntan en uno solo. saltear: fases (slug de ESPN) de las que no se baja el detalle (las clasificatorias)."""
     carpeta = CACHE / str(anio)
     carpeta.mkdir(parents=True, exist_ok=True)
-    cal = pedir(f"{BASE}/scoreboard?dates={anio}&limit=1000")
+    liga_de = {}
+    cal = None
+    for liga in ligas or [BASE]:
+        c = pedir(f"{liga}/scoreboard?dates={anio}&limit=1000")
+        for e in c.get("events", []):
+            liga_de[e["id"]] = liga
+        if cal is None:
+            cal = c
+        else:
+            cal["events"] = cal.get("events", []) + c.get("events", [])
     (carpeta / "calendario.json").write_text(json.dumps(cal, ensure_ascii=False), encoding="utf-8")
     eventos = cal.get("events", [])
     sin_grupo = [e for e in eventos if "group" in (e.get("season") or {}).get("slug", "")
@@ -85,8 +98,10 @@ def temporada(anio):
         archivo = carpeta / f"{e['id']}.json"
         if not terminado or (archivo.exists() and not falta_tanda(e, archivo)):
             continue
+        if saltear and re.search(saltear, (e.get("season") or {}).get("slug", "")):
+            continue
         try:
-            detalle = pedir(f"{BASE}/summary?event={e['id']}")
+            detalle = pedir(f"{liga_de[e['id']]}/summary?event={e['id']}")
         except Exception as x:   # ESPN falla cada tanto: ese partido se vuelve a pedir la próxima vez
             print(f"  {anio}: no se pudo bajar el partido {e['id']} ({x})", flush=True)
             continue
@@ -96,15 +111,43 @@ def temporada(anio):
     print(f"{anio}: {len(eventos)} partidos en el calendario, {nuevos} detalles nuevos", flush=True)
 
 
+def fichas_de_equipos():
+    """El país de cada club de ESPN sale de su ficha: el slug empieza con el país ('esp.real_zaragoza').
+    Se guarda en tools/cache/espn_equipos.json ({id: slug}, para todas las copas) y lo usa generar_datos.py
+    para los clubes que solo aparecen en ESPN."""
+    archivo = CACHE.parent / "espn_equipos.json"
+    fichas = json.loads(archivo.read_text(encoding="utf-8")) if archivo.exists() else {}
+    ids = set()
+    for cal in CACHE.glob("*/calendario.json"):
+        for e in json.loads(cal.read_text(encoding="utf-8")).get("events", []):
+            ids.update(c["team"]["id"] for c in e["competitions"][0]["competitors"])
+    faltan = sorted(ids - set(fichas))
+    for i, eid in enumerate(faltan):
+        try:
+            fichas[eid] = pedir(f"{BASE}/teams/{eid}")["team"].get("slug") or ""
+        except Exception:
+            continue
+        if i % 50 == 49:
+            archivo.write_text(json.dumps(fichas, indent=0, sort_keys=True), encoding="utf-8")
+    archivo.write_text(json.dumps(fichas, indent=0, sort_keys=True), encoding="utf-8")
+    print(f"fichas de clubes: {len(faltan)} nuevas", flush=True)
+
+
 def main():
     global CACHE, BASE
     clave, args = copa_de_argumentos()
     CACHE = COPAS[clave]["cache_espn"]
     BASE = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{COPAS[clave]['espn']}"
     desde = COPAS[clave].get("espn_desde", PRIMER_ANIO)
-    anios = [int(a) for a in args] or COPAS[clave].get("espn_anios") or list(range(desde, time.localtime().tm_year + 1))
+    anios = [int(a) for a in args if a.isdigit()] or COPAS[clave].get("espn_anios") or list(range(desde, time.localtime().tm_year + 1))
+    raiz = "https://site.api.espn.com/apis/site/v2/sports/soccer/"
+    ligas = COPAS[clave].get("espn_ligas")   # {liga: años}
+    if args == ["fichas"]:   # solo las fichas de los clubes (el país)
+        anios = []
     for a in anios:
-        temporada(a)
+        temporada(a, [raiz + l for l, anios_liga in ligas.items() if a in anios_liga] if ligas else None,
+                  COPAS[clave].get("espn_saltear"))
+    fichas_de_equipos()
 
 
 if __name__ == "__main__":

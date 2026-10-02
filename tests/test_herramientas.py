@@ -150,6 +150,24 @@ class LeerWikipedia(unittest.TestCase):
         self.assertEqual(leer_wikipedia.fase_de("Match for third place", "mundial"), "Tercer puesto")
         self.assertEqual(leer_wikipedia.fase_de("Match details", "intercontinental"), "Final")
 
+    def test_pais_con_nombre_completo(self):
+        # {{fbaicon|West Germany}}: antes se tomaban las tres primeras letras ("WES") y el club quedaba duplicado
+        self.assertEqual(leer_wikipedia.pais_de("{{fbaicon|West Germany}}"), "GER")
+        self.assertEqual(leer_wikipedia.pais_de("{{fbaicon|Soviet Union}}"), "URS")
+        self.assertEqual(leer_wikipedia.pais_de("{{fbaicon|LAT}}"), "LVA")
+
+    def test_gol_de_oro_y_guion_html(self):
+        goles = leer_wikipedia.leer_goles("*[[Delfí Geli|Geli]] {{golden goal|116|o.g.}}", "local")
+        self.assertEqual([(g["jugador"], g["min"], g["tipo"]) for g in goles], [("Geli", 116, "ec")])
+        self.assertEqual(leer_wikipedia.resultado(leer_wikipedia.limpiar("1&ndash;2")), (1, 2))
+
+    def test_rondas_de_la_copa_uefa_por_cantidad_de_partidos(self):
+        # 64 partidos de ida y vuelta (aunque un club figure con dos nombres) son los treintaidosavos
+        partidos = [{"fase": "Primera ronda", "local": f"L{i}", "visitante": f"V{i}", "notas": None} for i in range(32)]
+        partidos += [{"fase": "Primera ronda", "local": f"V{i}x", "visitante": f"L{i}", "notas": None} for i in range(32)]
+        leer_wikipedia.rondas_por_cantidad(partidos, por_partidos=True)
+        self.assertEqual({p["fase"] for p in partidos}, {"Treintaidosavos de final"})
+
 
 class LeerEspn(unittest.TestCase):
     def test_minuto(self):
@@ -161,6 +179,19 @@ class LeerEspn(unittest.TestCase):
         # 01:30 en UTC es 21:30 del día anterior en Sudamérica
         self.assertEqual(leer_espn.fecha_local("2020-03-05T01:30Z"), "2020-03-04")
         self.assertEqual(leer_espn.fecha_local("2020-03-05T20:00Z"), "2020-03-05")
+
+    def test_fases_de_la_copa_uefa_segun_la_temporada(self):
+        def fase(slug, anio):
+            return leer_espn.nombre_fase({"season": {"slug": slug, "year": anio},
+                                          "competitions": [{"altGameNote": "", "competitors": [{"team": {"id": "1"}}]}],
+                                          "date": "2005-01-01"}, "europa")
+        self.assertEqual(fase("second-round", 2002), "Segunda ronda")          # Copa UEFA: 48 equipos
+        self.assertEqual(fase("second-round", 2012), "Dieciseisavos de final")  # Europa League
+        self.assertEqual(fase("third-round", 2006), "Dieciseisavos de final")
+        self.assertEqual(fase("third-round", 2012), "Octavos de final")
+        self.assertEqual(fase("2006-second-round", 2006), "Fase de grupos")
+        self.assertEqual(fase("play-off-round", 2013), "Fase previa")
+        self.assertEqual(fase("knockout-round-playoffs", 2022), "Playoffs de octavos")
 
 
 def partido(local, visitante, gl, gv, **extra):

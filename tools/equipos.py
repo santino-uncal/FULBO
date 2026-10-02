@@ -150,6 +150,8 @@ class Catalogo:
             if id_ in self.clubes and self.clubes[id_]["pais"] != pais:
                 id_ = f"{base}-{(pais or 'xx').lower()}"
             self.indice[clave] = id_
+        # "unir": dos ids que son el mismo club (Slavia Prague de Checoslovaquia y de Chequia, Espanyol y Español…)
+        id_ = self.ajustes.get("unir", {}).get(id_, id_)
         club = self.clubes.setdefault(id_, {"pais": pais, "ciudad": None, "espn": set()})
         if pais and not club["pais"]:
             club["pais"] = pais
@@ -162,6 +164,7 @@ class Catalogo:
 
     def asegurar(self, id_, nombre, pais=None):
         """El club con ese id (lo crea si todavía no existe: un club que se conoce por un ajuste a mano)."""
+        id_ = self.ajustes.get("unir", {}).get(id_, id_)
         if id_ not in self.clubes:
             self.clubes[id_] = {"pais": pais, "ciudad": None, "espn": set()}
             self.nombres[id_][nombre] += 1

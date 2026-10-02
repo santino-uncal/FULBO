@@ -1,7 +1,7 @@
 # Historia de la Copa Libertadores, la Sudamericana, la Intercontinental, el Mundial de Clubes, la Champions League y la Europa League
 
 Todas las ediciones de la Libertadores desde 1960, de la Sudamericana desde 2002, de la Copa Intercontinental
-desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de Campeones de Europa hasta 1992) desde 1955/56 y de la Europa League (por ahora, 2024/25 y 2025/26): resultados, goleadores, asistidores, planteles y escudos.
+desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de Campeones de Europa hasta 1992) desde 1955/56 y de la Europa League (Copa UEFA hasta 2009) desde 1971/72: resultados, goleadores, asistidores, planteles y escudos.
 
 ## Cómo verlo
 
@@ -41,7 +41,7 @@ desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de C
 | `data/ediciones/<año>.js` | Una edición: fases, partidos, goles, formaciones, planteles. | **Generado**. |
 | `data/sudamericana/…` | Lo mismo para la Sudamericana (`indice.js`, `historial.js`, `entrenadores.js`, `estadisticas.js`, `ediciones/<año>.js`). | **Generado**. |
 | `data/champions/…` | La Champions League desde 1955/56. Cada edición lleva el año en que empieza la temporada (`ediciones/2024.js` es la 2024/25; en la página, `?copa=champions&edicion=2024`). | **Generado**. |
-| `data/europa/…` | La Europa League, igual que la Champions (por ahora, 2024/25 y 2025/26; `?copa=europa`). | **Generado**. |
+| `data/europa/…` | La Europa League (Copa UEFA hasta 2009) desde 1971/72, igual que la Champions (`?copa=europa`). | **Generado**. |
 | `data/intercontinental/…`, `data/mundial/…` | Lo mismo para la Copa Intercontinental y el Mundial de Clubes. Los entrenadores de la Intercontinental salen de las formaciones de Wikipedia; el Mundial todavía no tiene. | **Generado**. |
 | `assets/escudos/<club>.png` | Escudos. | Se bajan con `tools/descargar_escudos.py`. |
 | `assets/banderas/<país>.png` | Banderas (código de la FIFA: `ARG`, `ENG`…). | Se bajan con `tools/descargar_banderas.py`. |
@@ -72,7 +72,8 @@ La **Copa Intercontinental** y el **Mundial de Clubes** tienen otras fuentes:
 | Champions League | 1955/56–1990/91 | **Wikipedia** (en inglés): la página de cada temporada y la de la final, con goles, estadio, árbitro y público (formaciones, solo de las finales). |
 | Champions League | 1991/92–2000/01 | **Wikipedia** (en inglés): una página por fase (primera y segunda ronda, grupos, eliminatorias y final), con goles, formaciones, árbitro y público. |
 | Champions League | 2001/02 en adelante | **ESPN**. |
-| Europa League | 2024/25 y 2025/26 | **ESPN**. |
+| Copa UEFA | 1971/72–2000/01 | **Wikipedia** (en inglés): la página de cada temporada (desde 1999/2000, una por ronda) y la de la final, con goles, estadio, árbitro y público (formaciones, solo de las finales). |
+| Copa UEFA / Europa League | 2001/02 en adelante | **ESPN** (la Copa UEFA, hasta 2008/09, es otra "liga" de ESPN: `espn_ligas` en `tools/copas.py`). Las fases de grupos 2004/05–2008/09, que ESPN tiene sin detalle, se completan con Wikipedia. |
 
 En la Champions y la Europa League no se cargan las rondas clasificatorias (desde 1994/95 la competición empieza en la fase de grupos).
 Qué temporadas se cargan lo dice `ediciones` en `tools/copas.py`.
@@ -105,7 +106,8 @@ python tools/descargar_espn.py --copa intercontinental
 python tools/descargar_espn.py --copa mundial
 python tools/descargar_espn.py --copa champions      # baja los años de "espn_anios" en tools/copas.py (la 1ra vez, horas)
 python tools/descargar_wikipedia.py --copa champions  # Champions 1955/56-2000/01 (una sola vez)
-python tools/descargar_espn.py --copa europa         # Europa League (años de "espn_anios")
+python tools/descargar_espn.py --copa europa         # Copa UEFA y Europa League desde 2001/02 (la 1ra vez, horas)
+python tools/descargar_wikipedia.py --copa europa    # Copa UEFA 1971/72-2000/01 (una sola vez)
 python tools/descargar_banderas.py  # banderas de los países nuevos
 ```
 
@@ -123,6 +125,12 @@ y después `generar_datos.py`.
   `campeones_sudamericana`: lo mismo para la Sudamericana (2007 se definió por gol de visitante y la final de 2016 no se jugó).
 - `pais_espn`: el país de un club que solo aparece en ESPN (los del Mundial de Clubes).
 - `espn`: unir un club de ESPN a uno nuestro (ESPN tiene al Al Ahly con dos números, por ejemplo).
+- `unir`: juntar dos ids que son el mismo club (`"slavia-prague-cze": "slavia-praga"`: Wikipedia pone a los clubes
+  checos con Checoslovaquia hasta 1993 y con Chequia después, y quedan dos). `pais_club`: el país de hoy de un club.
+- `campeones_europa`: campeones de la Copa UEFA definidos por gol de visitante en finales de ida y vuelta.
+
+Los clubes europeos que solo aparecen en ESPN toman el país de su ficha de ESPN (`tools/cache/espn_equipos.json`,
+lo baja `descargar_espn.py`) o del país de su estadio, y se buscan entre los clubes de Wikipedia por nombre y país.
 
 Después de tocarlo, volver a correr `generar_datos.py`.
 
