@@ -32,6 +32,50 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2010: dos torneos de 20 equipos a una rueda, sin playoffs. El Torneo Clausura 2010 (enero-mayo; campeón Argentinos)
+    # cerraba la temporada 2009-10: su "tabla anual" es la de la temporada (el Apertura 2009 y el Clausura 2010). Bajaron
+    # los dos últimos de los promedios (2007-08, 2008-09 y 2009-10) y los dos de arriba jugaron la Promoción contra
+    # equipos de la B Nacional (ESPN la llama "final"): Gimnasia se salvó con Atlético de Rafaela y Rosario Central perdió
+    # con All Boys. Los cupos de la Sudamericana 2010, fijos
+    "2010-clausura": {"nombre": "Torneo Clausura 2010", "anio": 2010, "slug": "clausura-2010",
+                      "patron": r"^torneo-clausura-2010(---final)?$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True, "temporada": "2009-10", "nombre_anual": "Temporada y copas",
+                      "nombre_playoffs": "Promoción", "playoffs": [(r"---final$", "Promoción")],
+                      "ida_y_vuelta": True, "ventaja": ["gimnasia-y-esgrima", "rosario-central"],
+                      "cuadro": {"bloques": [("Promoción: los equipos de Primera contra los de la B Nacional",
+                                              [["Promoción"]])],
+                                 "nota": "Con el global igualado se quedaba en Primera el equipo de Primera. Gimnasia "
+                                         "se salvó; Rosario Central perdió y bajó, y subió All Boys."},
+                      "anual": [("arg.1", r"^torneo-apertura-2009$", 2009)],
+                      "anual_texto": "La tabla de la temporada 2009-10: suma el Torneo Apertura 2009 y el Torneo Clausura 2010.",
+                      "promedios": {"2007-08": [("arg.1", r"^torneo-apertura-2007$", 2007),
+                                                ("arg.1", r"^torneo-apertura-2007$", 2008),
+                                                ("arg.1", r"^torneo-clausura-2008$", 2008)],
+                                    "2008-09": [("arg.1", r"^torneo-apertura-2008$", 2008),
+                                                ("arg.1", r"^torneo-clausura-2009$", 2009)]},
+                      "descensos": "promedios", "descienden": 2, "promocion": 2,
+                      "cupos": {"anio": 2010, "fijos": True,
+                                "sudamericana": [("Tabla de la temporada 2009-10", "banfield"),
+                                                 ("Tabla de la temporada 2009-10", "argentinos-juniors"),
+                                                 ("Tabla de la temporada 2009-10", "estudiantes-de-la-plata"),
+                                                 ("Tabla de la temporada 2009-10", "newell-s-old-boys"),
+                                                 ("Tabla de la temporada 2009-10", "independiente"),
+                                                 ("Tabla de la temporada 2009-10", "velez-sarsfield")]}},
+    # El Torneo Apertura 2010 (agosto-diciembre; campeón Estudiantes) abría la temporada 2010-11. La tabla del año 2010
+    # (el Clausura y el Apertura) daba lugares en la Libertadores 2011. Los cupos, fijos
+    "2010-apertura": {"nombre": "Torneo Apertura 2010", "anio": 2010, "slug": "apertura-2010",
+                      "patron": r"^torneo-apertura-2010$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True,
+                      "anual": [("arg.1", r"^torneo-clausura-2010$")],
+                      "anual_texto": "La tabla del año 2010: suma el Torneo Clausura 2010 y el Torneo Apertura 2010.",
+                      "sin_descensos": "En el Torneo Apertura 2010 no hubo descensos: se definieron al terminar la "
+                                       "temporada 2010-11, con el Torneo Clausura 2011.",
+                      "cupos": {"anio": 2011, "fijos": True,
+                                "libertadores": [("Campeón del Torneo Clausura 2010", "argentinos-juniors"),
+                                                 ("Campeón del Torneo Apertura 2010", "estudiantes-de-la-plata"),
+                                                 ("Tabla del año 2010", "velez-sarsfield"),
+                                                 ("Tabla del año 2010", "godoy-cruz"),
+                                                 ("Campeón de la Copa Sudamericana 2010", "independiente")]}},
     # 2011: dos torneos de 20 equipos a una rueda, sin playoffs. El Torneo Clausura 2011 (febrero-junio; campeón Vélez)
     # cerraba la temporada 2010-11: su "tabla anual" es la de la temporada (el Apertura 2010 y el Clausura 2011). Bajaron
     # los dos últimos de los promedios (2008-09, 2009-10 y 2010-11); Huracán y Gimnasia empataron en el lugar de la
