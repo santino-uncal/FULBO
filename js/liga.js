@@ -151,8 +151,13 @@
       const pendientes = deLaLiga.filter(x => !x.club).length;
       const resto = tablaAnual().map(f => f.id).filter(id => !campeones.includes(id) && !extras.includes(id) && ![d.anual, d.prom, d.prom2].includes(id));
       const porTabla = c.libertadores - campeones.length - pendientes;
-      return { ...c, pendientes, porTabla, libertadores: new Set([...campeones, ...extras, ...resto.slice(0, porTabla)]),
-        sudamericana: new Set(resto.slice(porTabla, porTabla + c.sudamericana)) };
+      const libertadores = new Set([...campeones, ...extras, ...resto.slice(0, porTabla)]);
+      // lugares de la Sudamericana ganados por un torneo (2021: el subcampeón de la Copa Diego Maradona), si no van ya
+      // a la Libertadores: le restan lugares a la tabla
+      const sudTitulos = (c.sudamericana_titulos || []).map(x => x.club).filter(id => id && !libertadores.has(id));
+      const restoSud = resto.slice(porTabla).filter(id => !sudTitulos.includes(id));
+      return { ...c, pendientes, porTabla, libertadores,
+        sudamericana: new Set([...sudTitulos, ...restoSud.slice(0, c.sudamericana - sudTitulos.length)]) };
     }
     function cuposHTML(cu) {
       const titulo = x => `<li><span class="cupo-titulo">${esc(x.titulo)}</span>${x.club ? nombreClub(x.club) : `<span class="vacio">a definir</span>`}${x.extra
@@ -160,7 +165,9 @@
       return `<div class="cupos"><h4>Copa Libertadores ${cu.anio}</h4>
         <ul class="cupos-campeones">${cu.campeones.map(titulo).join("")}
           <li><span class="cupo-titulo">Tabla anual</span><span>los ${cu.porTabla} mejores que no sean campeones</span></li></ul>
-        <h4>Copa Sudamericana ${cu.anio}</h4><p>Los ${cu.sudamericana.size} siguientes de la tabla anual.</p>
+        <h4>Copa Sudamericana ${cu.anio}</h4>${(cu.sudamericana_titulos || []).length
+          ? `<ul class="cupos-campeones">${cu.sudamericana_titulos.map(titulo).join("")}</ul>` : ""}
+        <p>${(cu.sudamericana_titulos || []).length ? "Y los" : "Los"} ${cu.sudamericana.size - (cu.sudamericana_titulos || []).filter(x => x.club).length} siguientes de la tabla anual.</p>
         <p class="vacio">Si un campeón ya entra por la tabla anual (o gana dos títulos), su lugar pasa al siguiente de la tabla.
           Los que descienden no juegan copas.</p></div>`;
     }
@@ -191,6 +198,7 @@
         ${cu ? `<p class="leyenda"><span><i class="libertadores"></i>Copa Libertadores ${cu.anio}${hoy}</span>
           <span><i class="sudamericana"></i>Copa Sudamericana ${cu.anio}${hoy}</span><span>🏆 Campeón del año</span></p>` : ""}
         ${T.descensos || T.descensos_anulados ? avisoDescenso() : ""}
+        ${T.sin_descensos ? `<p class="nota-edicion">${esc(T.sin_descensos)}</p>` : ""}
         ${T.desempate ? `<h3>Desempate por el descenso</h3><p class="vacio">${esc(club(T.desempate.local).nombre)} y
           ${esc(club(T.desempate.visitante).nombre)} terminaron empatados en puntos en la tabla anual, en el lugar del descenso:
           lo definieron en un partido, en cancha neutral. Bajó el que perdió.</p>${partidoHTML(T.desempate)}` : ""}`;

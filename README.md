@@ -13,8 +13,8 @@ desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de C
   La Sudamericana es la misma página con `copa=sudamericana` adelante: `?copa=sudamericana`, `?copa=sudamericana&edicion=2014`,
   `?copa=sudamericana&equipo=lanus`, `?copa=sudamericana&estadisticas`. Lo mismo con `copa=recopa`, `copa=intercontinental` y `copa=mundial`
   (`?copa=mundial&edicion=2012`). En la cabecera, tocando el nombre de otra copa se cambia de copa.
-  La **Liga Profesional argentina** está en `liga.html` (desde 2022: la Copa de la Liga y la Liga Profesional de 2022,
-  2023 y 2024, y los torneos Apertura y Clausura de 2025 y 2026, que se eligen arriba: `liga.html?torneo=2024-liga`): la tabla de las dos zonas,
+  La **Liga Profesional argentina** está en `liga.html` (desde 2021: la Copa de la Liga y la Liga Profesional de 2021,
+  2022, 2023 y 2024, y los torneos Apertura y Clausura de 2025 y 2026, que se eligen arriba: `liga.html?torneo=2024-liga`): la tabla de las dos zonas,
   todas las fechas con resultados y goles, los goleadores, los playoffs (con su cuadro), la tabla anual y los promedios del descenso
   (`liga.html?vista=fechas&fecha=5`, `?vista=anual`, `?vista=promedios`).
   `sitemap.xml` (lo arma `tools/generar_datos.py`) y `robots.txt` le indican a Google qué páginas indexar.
@@ -191,7 +191,13 @@ las copas 2024 controlados contra canchallena.lanacion.com.ar y ESPN.
 (`"descensos": "promedios"`: Aldosivi y Patronato; Patronato igual jugó la Libertadores 2023 como campeón de la Copa
 Argentina). Los promedios contaban 2019-20 (temporadas con nombre propio: en `promedios`, cada fuente puede llevar su
 año), 2021 y 2022. La Copa de la Superliga 2020, de la que solo se jugó una fecha, no está en ESPN: sus 12 resultados
-van en `PARTIDOS_A_MANO` (de Wikipedia). El promedio se muestra con tres decimales sin redondear, como la AFA. Para sumar un torneo, agregarlo a `TORNEOS` en el script;
+van en `PARTIDOS_A_MANO` (de Wikipedia). El promedio se muestra con tres decimales sin redondear, como la AFA.
+
+**2021**: la Copa de la Liga (zonas de 13, campeón Colón) y la Liga Profesional (una tabla de 26, campeón River). Sin
+descensos (suspendidos por la pandemia: `sin_descensos`). A la Sudamericana 2022 fue también el subcampeón de la Copa
+Diego Maradona 2020-21, Banfield (`sudamericana_titulos`: un lugar que se gana por un torneo y le resta uno a la tabla).
+La final de la Copa Argentina en ESPN a veces se llama "copa-argentina---final" (por eso el patrón `(^|-)final$`).
+Los clasificados a las copas 2022 coinciden con la lista de Infobae. Para sumar un torneo, agregarlo a `TORNEOS` en el script;
 los clubes que no jugaron copas (y no están en `data/equipos.js`) van en `CLUBES_NUEVOS`, y su escudo se baja solo.
 
 ### Corregir clubes

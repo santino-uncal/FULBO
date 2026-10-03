@@ -32,6 +32,24 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2021: la Copa de la Liga (febrero-junio, dos zonas de 13, desde cuartos; campeón Colón) y la Liga Profesional
+    # (julio-diciembre, una sola tabla de 26, 25 fechas; campeón River). Sin descensos (la AFA los suspendió en 2020 y
+    # 2021 por la pandemia: "sin_descensos"). La tabla anual (Copa y Liga) daba los cupos para las copas 2022
+    "2021-copa": {"nombre": "Copa de la Liga 2021", "anio": 2021, "liga": "arg.copa_lpf", "slug": "copa", "patron": r"",
+                  "fechas": 13, "pasan": 4},
+    "2021-liga": {"nombre": "Liga Profesional 2021", "anio": 2021, "slug": "liga", "patron": r"liga-profesional",
+                  "zonas": "unica", "fechas": 25, "pasan": 0, "campeon_tabla": True,
+                  "anual": [("arg.copa_lpf", r"^group-stage$")],
+                  "anual_texto": "Suma la fase de zonas de la Copa de la Liga 2021 y la Liga Profesional 2021.",
+                  "sin_descensos": "En 2021 no hubo descensos: la AFA los suspendió en 2020 y 2021 por la pandemia.",
+                  # a la Sudamericana 2022 fue también el subcampeón de la Copa Diego Maradona 2020-21 (Banfield): uno
+                  # de los 6 lugares; los otros 5, de la tabla anual
+                  "cupos": {"anio": 2022, "libertadores": 6, "sudamericana": 6,
+                            "sudamericana_titulos": [("Subcampeón de la Copa Diego Maradona", "arg.1",
+                                                      r"copa-diego-armando-maradona---fase-campeon-final", "perdedor")],
+                            "campeones": [("Copa de la Liga 2021", "arg.copa_lpf", r"^final$"),
+                                          ("Liga Profesional 2021", None, None),
+                                          ("Copa Argentina 2021", "arg.copa", r"(^|-)final$")]}},
     # 2022: la Copa de la Liga (febrero-mayo, dos zonas de 14, desde cuartos) y la Liga Profesional (junio-octubre, una
     # sola tabla de 28); Boca ganó las dos. Descendieron los dos últimos de los promedios (Aldosivi y Patronato; no había
     # descenso por tabla anual: "descensos": "promedios"). Los promedios contaban 2019-20 (la Superliga y la única fecha
@@ -52,7 +70,7 @@ TORNEOS = {
                   "cupos": {"anio": 2023, "libertadores": 6, "sudamericana": 6,
                             "campeones": [("Copa de la Liga 2022", "arg.copa_lpf", r"^final$"),
                                           ("Liga Profesional 2022", None, None),
-                                          ("Copa Argentina 2022", "arg.copa", r"^final$")]}},
+                                          ("Copa Argentina 2022", "arg.copa", r"(^|-)final$")]}},
     # 2023: al revés que en 2024, primero la Liga Profesional (enero-julio, una sola tabla de 28, campeón River) y
     # después la Copa de la Liga (octubre-diciembre, dos zonas de 14, desde cuartos de final; campeón Rosario Central).
     # La tabla anual sumó la Liga y la fase de zonas de la Copa; los promedios, 2021, 2022 y 2023. Descendieron Arsenal
@@ -71,7 +89,7 @@ TORNEOS = {
                             # "tabla": el campeón es el primero de la tabla de ese torneo
                             "campeones": [("Liga Profesional 2023", "arg.1", r"liga-profesional", "tabla"),
                                           ("Copa de la Liga 2023", "arg.copa_lpf", r"^final$"),
-                                          ("Copa Argentina 2023", "arg.copa", r"^final$")]}},
+                                          ("Copa Argentina 2023", "arg.copa", r"(^|-)final$")]}},
     # 2024: la Copa de la Liga (enero-mayo, dos zonas de 14 y desde cuartos de final; en ESPN es otra liga,
     # "arg.copa_lpf") y la Liga Profesional (mayo-diciembre, todos contra todos a una rueda, sin playoffs: el campeón
     # es el primero de la tabla). La tabla anual sumó la fase de zonas de la Copa de la Liga y la Liga entera.
@@ -91,7 +109,7 @@ TORNEOS = {
                   "cupos": {"anio": 2025, "libertadores": 6, "sudamericana": 6,
                             "campeones": [("Copa de la Liga 2024", "arg.copa_lpf", r"^final$"),
                                           ("Liga Profesional 2024", None, None),   # (el primero de la tabla: lo calcula la página)
-                                          ("Copa Argentina 2024", "arg.copa", r"^final$"),
+                                          ("Copa Argentina 2024", "arg.copa", r"(^|-)final$"),
                                           ("Copa Sudamericana 2024", "conmebol.sudamericana", r"(^|-)final$", "extra")]}},
     # 2025: igual que 2026 (dos torneos con zonas, tabla anual, promedios y cupos). Los promedios de 2025 son
     # 2023 (Copa de la Liga y Liga Profesional), 2024 y 2025. Descendieron Godoy Cruz (tabla anual) y San Martín de
@@ -108,7 +126,7 @@ TORNEOS = {
                       "cupos": {"anio": 2026, "libertadores": 6, "sudamericana": 6,
                                 "campeones": [("Torneo Apertura 2025", "arg.1", r"^apertura---final$"),
                                               ("Torneo Clausura 2025", "arg.1", r"^clausura---final$"),
-                                              ("Copa Argentina 2025", "arg.copa", r"^final$"),
+                                              ("Copa Argentina 2025", "arg.copa", r"(^|-)final$"),
                                               ("Copa Sudamericana 2025", "conmebol.sudamericana", r"(^|-)final$", "extra")]}},
     # Las zonas del Apertura 2026 fueron las mismas que las del Clausura (la tabla de ESPN ya muestra solo las del
     # Clausura): "zonas_de" usa las de ese torneo. armar() controla que cada club tenga 2 partidos interzonales
@@ -134,7 +152,7 @@ TORNEOS = {
                       "cupos": {"anio": 2027, "libertadores": 6, "sudamericana": 6,
                                 "campeones": [("Torneo Apertura 2026", "arg.1", r"^apertura---final$"),
                                               ("Torneo Clausura 2026", "arg.1", r"^clausura---final$"),
-                                              ("Copa Argentina 2026", "arg.copa", r"^final$")]}},
+                                              ("Copa Argentina 2026", "arg.copa", r"(^|-)final$")]}},
 }
 # Partidos que ESPN no tiene, cargados a mano: {(liga, año): [(id ESPN local, id ESPN visitante, goles, goles)]}.
 # La Copa de la Superliga 2020: solo se jugó la primera fecha (marzo de 2020; Defensa-Estudiantes, en diciembre) antes de
@@ -248,14 +266,16 @@ def sumar(anio, fuentes):
     return t
 
 
-def campeon(liga, anio, patron, club):
+def campeon(liga, anio, patron, club, perdedor=False):
     """El ganador de una final de ESPN (también si se definió por penales), o None si todavía no se jugó.
-    club: la función que convierte el equipo de ESPN en nuestro id (y suma el club a la lista)."""
+    club: la función que convierte el equipo de ESPN en nuestro id (y suma el club a la lista).
+    perdedor: el que perdió la final (el subcampeón)."""
     for e in calendario(liga, anio).get("events", []):
         if re.search(patron, (e.get("season") or {}).get("slug", "")) and e["status"]["type"].get("completed"):
-            ganador = [c for c in e["competitions"][0]["competitors"] if c.get("winner")]
-            if ganador:
-                return club(ganador[0]["team"])
+            lados = e["competitions"][0]["competitors"]
+            elegido = [c for c in lados if bool(c.get("winner")) != perdedor]
+            if any(c.get("winner") for c in lados) and elegido:
+                return club(elegido[0]["team"])
     return None
 
 
@@ -481,7 +501,7 @@ def armar(clave):
     datos["descensos"] = cfg.get("descensos", False)
     if desempates:
         datos["desempate"] = limpio(desempates[0])
-    for k in ("campeon_tabla", "anual_texto", "descensos_anulados"):
+    for k in ("campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos"):
         if cfg.get(k):
             datos[k] = cfg[k]
     if cfg.get("titulo_anual"):
@@ -502,6 +522,10 @@ def armar(clave):
         cupos["campeones"] = [{"titulo": titulo, "club": quien(liga, patron, modo[0] if modo else None),
                                **({"extra": True} if modo and modo[0] == "extra" else {})}
                               for titulo, liga, patron, *modo in cfg["cupos"]["campeones"]]
+        # lugares de la Sudamericana que se ganan por un torneo (2021: el subcampeón de la Copa Diego Maradona): le
+        # restan lugares a la tabla anual
+        cupos["sudamericana_titulos"] = [{"titulo": titulo, "club": campeon(liga, cfg["anio"], patron, club, perdedor=modo == "perdedor")}
+                                         for titulo, liga, patron, modo in cfg["cupos"].get("sudamericana_titulos", [])]
         datos["cupos"] = cupos
     DATOS.mkdir(parents=True, exist_ok=True)
     # si no cambió nada desde la última vez, queda la hora de antes (así un torneo terminado no cambia cada noche)
