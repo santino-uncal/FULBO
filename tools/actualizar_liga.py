@@ -32,6 +32,25 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2018: la Superliga 2017-18 (septiembre de 2017 - mayo de 2018, una sola tabla de 28; campeón Boca). Bajaron los
+    # cuatro últimos de los promedios, que contaban cuatro temporadas: 2015, 2016 (el torneo corto, sin la final),
+    # 2016-17 y 2017-18 (la liga pasaba de 28 a 26). Cupos 2019: los campeones de la Superliga y de la Copa Argentina
+    # 2018 y los 4 mejores de la tabla a la Libertadores; River, aparte, como campeón de la Libertadores 2018. La
+    # Superliga 2018-19, que empezó en agosto de 2018, está en 2019
+    "2018-superliga-17-18": {"nombre": "Superliga 2017-18", "anio": 2018, "anios": [2017, 2018], "slug": "superliga-17-18",
+                             "patron": r"superliga-argentina-2017-18", "zonas": "unica", "fechas": 27, "pasan": 0,
+                             "campeon_tabla": True, "temporada": "2017-18",
+                             "anual_texto": "La tabla de la Superliga 2017-18 entera (no había tabla anual: la temporada era un "
+                                            "solo torneo).",
+                             "promedios": {"2015": [("arg.1", r"^campeonato-de-1ra-division-2015$", 2015)],
+                                           "2016": [("arg.1", r"^campeonato-de-1ra-division-2016$", 2016)],
+                                           "2016-17": [("arg.1", r"campeonato-de-1ra-division-20162017", 2016),
+                                                       ("arg.1", r"campeonato-de-1ra-division-20162017", 2017)]},
+                             "descensos": "promedios", "descienden": 4,
+                             "cupos": {"anio": 2019, "libertadores": 6, "sudamericana": 6,
+                                       "campeones": [("Superliga 2017-18", None, None),
+                                                     ("Copa Argentina 2018", "arg.copa", r"(^|-)final$"),
+                                                     ("Copa Libertadores 2018", "conmebol.libertadores", r"^finals$", "extra")]}},
     # 2019 (y lo que se jugó de esas temporadas en 2018 y 2020): la Superliga 2018-19 (agosto de 2018 - abril de 2019,
     # una sola tabla de 26; campeón Racing), la Copa de la Superliga 2019 (abril-junio, eliminación directa a ida y
     # vuelta; campeón Tigre) y la Superliga 2019-20 (julio de 2019 - marzo de 2020, una sola tabla de 24; campeón Boca).
@@ -251,6 +270,9 @@ PENALES_A_MANO = {"540170": (3, 4), "540167": (3, 2), "540166": (5, 4)}
 # Goles que ESPN no tiene: {id del partido de ESPN: [gol, ...]}. Aldosivi 2-1 Huracán (Superliga 2018-19): el gol en
 # contra de Saúl Salcedo, a los 17 del segundo tiempo (La Voz de San Justo)
 GOLES_A_MANO = {"521397": [{"jugador": "Saúl Salcedo", "min": 62, "tipo": "ec", "equipo": "local"}]}
+# Partidos que ESPN pone en la fase regular pero no la son (no suman en la tabla anual ni en los promedios): del
+# torneo 2016, la final (Lanús-San Lorenzo) y el desempate por un lugar en las copas (Godoy Cruz-Estudiantes)
+NO_SUMAN = {"448823", "448810"}
 # Puntos descontados por sanciones: {(año, id de ESPN): puntos}. Por ahora, ninguno
 DESCUENTOS = {}
 PLAYOFFS = [("round-of-16", "Octavos de final"), ("quarter", "Cuartos de final"), ("semi", "Semifinales"),
@@ -264,6 +286,9 @@ CLUBES_NUEVOS = {
     "10158": ("sarmiento", "Sarmiento"),
     "19685": ("estudiantes-rio-cuarto", "Estudiantes de Río Cuarto"),
     "17814": ("san-martin-tucuman", "San Martín de Tucumán"),
+    "6": ("chacarita-juniors", "Chacarita Juniors"),
+    "2636": ("olimpo", "Olimpo"),
+    "10162": ("temperley", "Temperley"),
 }
 
 # Nombres que en la liga se confunden (en data/equipos.js están como en las copas)
@@ -339,7 +364,7 @@ def sumar(anio, fuentes):
         else:
             eventos = calendario(liga, a).get("events", [])
         for e in eventos:
-            if not re.search(patron, (e.get("season") or {}).get("slug", "")) or not e["status"]["type"].get("completed"):
+            if not re.search(patron, (e.get("season") or {}).get("slug", "")) or not e["status"]["type"].get("completed")                     or e.get("id") in NO_SUMAN:
                 continue
             c = e["competitions"][0]["competitors"]
             for a, b in ((c[0], c[1]), (c[1], c[0])):
