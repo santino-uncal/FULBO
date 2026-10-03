@@ -105,7 +105,7 @@
           a ${/Complementación/.test(et.nombre) ? "la final de la Complementación" : siguiente}</span></p>`;
     }).join("") + (T.sin_descensos ? `<p class="nota-edicion">${esc(T.sin_descensos)}</p>` : "");
     const vistaTabla = () => T.etapas ? vistaEtapas() : `<div class="grupos">${Object.keys(T.zonas).map(z => tablaHTML(z)).join("")}</div>
-      <p class="leyenda">${T.pasan ? `<span><i class="pasa"></i>Clasifican a ${RONDA[T.pasan] || "los playoffs"} (los ${T.pasan} primeros de cada zona)</span>` : ""}
+      <p class="leyenda">${T.texto_pasan ? `<span><i class="pasa"></i>${esc(T.texto_pasan)}</span>` : T.pasan ? `<span><i class="pasa"></i>Clasifican a ${RONDA[T.pasan] || "los playoffs"} (los ${T.pasan} primeros de cada zona)</span>` : ""}
         ${T.campeon_tabla ? `<span><i class="campeon"></i>Campeón: el primero de la tabla (no hay playoffs)</span>` : ""}</p>
       <p class="vacio">Orden: puntos, diferencia de gol y goles a favor.${Object.keys(T.zonas).length > 1
         ? " Los partidos contra la otra zona (interzonales) suman en la zona de cada club." : ""}</p>`;
@@ -156,7 +156,7 @@
       return `<p class="nota-edicion">${esc(T.descensos_anulados)} Con el reglamento, hubiesen descendido ${esc(club(d.anual).nombre)}
         (tabla anual) y ${esc(club(d.prom).nombre)} (promedios).</p>`;
     })() : `<p class="leyenda"><span><i class="desciende"></i>${enJuego() ? "Descendería si el año terminara hoy" : "Desciende"}
-      (${T.descensos === "promedios" ? `los ${{ 2: "dos", 3: "tres", 4: "cuatro" }[T.descienden || 2]} últimos de los promedios` : "uno por la tabla anual y otro por los promedios"})</span></p>`;
+      (${T.descensos === "promedios" ? (T.descienden === 1 ? "el último de los promedios" : `los ${{ 2: "dos", 3: "tres", 4: "cuatro" }[T.descienden || 2]} últimos de los promedios`) : "uno por la tabla anual y otro por los promedios"})</span></p>`;
     // ---- Cupos para las copas del año que viene (T.cupos): a la Libertadores, los campeones del año y los mejores de
     // la tabla anual hasta completar los lugares; a la Sudamericana, los siguientes. Un campeón que ya entra por la
     // tabla libera su lugar para el siguiente, y los que descienden no juegan copas. Los títulos que todavía no se

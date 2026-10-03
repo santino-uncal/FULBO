@@ -32,6 +32,26 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2016: el Campeonato 2016 (febrero-mayo, de transición: dos zonas de 15, 14 partidos en la zona y 2 interzonales
+    # contra el rival clásico; campeón Lanús, que le ganó la final a San Lorenzo). Los segundos de cada zona jugaron por
+    # el tercer puesto. ESPN tiene esos dos partidos en la fase regular: van por su id ("playoffs_ids"); las zonas, del
+    # grupo de cada partido ("grupos"). Bajó uno solo, el último de los promedios (2013-14, 2014, 2015 y 2016):
+    # Argentinos. Cupos 2017 con la tabla general (las dos zonas juntas): a la Libertadores, el campeón, el de la Copa
+    # Argentina 2016 (River) y los 4 mejores; a la Sudamericana, los 6 siguientes
+    "2016-primera": {"nombre": "Campeonato 2016", "anio": 2016, "slug": "primera-2016",
+                     "patron": r"^campeonato-de-1ra-division-2016$", "zonas": "grupos", "fechas": 16, "pasan": 1,
+                     "texto_pasan": "El primero de cada zona juega la final",
+                     "playoffs_ids": {"448810": "Final", "448823": "Por el tercer puesto"},
+                     "cuadro": {"bloques": [("Final", [["Final"]]),
+                                            ("Por el tercer puesto (entre los segundos de cada zona)", [["Por el tercer puesto"]])]},
+                     "anual_texto": "La tabla general del Campeonato 2016: las dos zonas juntas (no había tabla anual).",
+                     "promedios": {"2013-14": [("arg.1", r"^torneo-inicial-2013$", 2013), ("arg.1", r"^torneo-final-2014$", 2014)],
+                                   "2014": [("arg.1", r"^torneo-de-primera-division-2014$", 2014)],
+                                   "2015": [("arg.1", r"^campeonato-de-1ra-division-2015$", 2015)]},
+                     "descensos": "promedios", "descienden": 1,
+                     "cupos": {"anio": 2017, "libertadores": 6, "sudamericana": 6,
+                               "campeones": [("Campeonato 2016", "arg.1", r"^campeonato-de-1ra-division-2016$", "final"),
+                                             ("Copa Argentina 2016", "arg.copa", r"(^|-)final$")]}},
     # 2017: el Campeonato 2016-17 (septiembre de 2016 - junio de 2017, una sola tabla de 30; campeón Boca). Bajaron los
     # cuatro últimos de los promedios (2014, que es el Torneo de Transición, 2015, 2016 y 2016-17). Cupos 2018: a la
     # Libertadores, el campeón, el lugar de la Copa Argentina 2017 (la ganó River, que ya entraba por la tabla: el
@@ -295,6 +315,10 @@ GOLES_A_MANO = {"521397": [{"jugador": "Saúl Salcedo", "min": 62, "tipo": "ec",
 # Partidos que ESPN pone en la fase regular pero no la son (no suman en la tabla anual ni en los promedios): del
 # torneo 2016, la final (Lanús-San Lorenzo) y el desempate por un lugar en las copas (Godoy Cruz-Estudiantes)
 NO_SUMAN = {"448823", "448810"}
+# Partidos que no se jugaron y la AFA dio por terminados con un resultado (ESPN los tiene como postergados): {id del
+# partido de ESPN: (goles del local, del visitante)}. Colón-Atlético de Rafaela, Inicial 2013: Colón no se presentó y se
+# le dio ganado 1-0 a Rafaela (Diario de Cuyo); cuenta para los promedios de 2016
+RESULTADOS_A_MANO = {"382317": (0, 1)}
 # Puntos descontados por sanciones: {(año, id de ESPN): puntos}. Por ahora, ninguno
 DESCUENTOS = {}
 PLAYOFFS = [("round-of-16", "Octavos de final"), ("quarter", "Cuartos de final"), ("semi", "Semifinales"),
@@ -387,6 +411,10 @@ def sumar(anio, fuentes):
         else:
             eventos = calendario(liga, a).get("events", [])
         for e in eventos:
+            if e.get("id") in RESULTADOS_A_MANO:
+                lados = sorted(e["competitions"][0]["competitors"], key=lambda c: c["homeAway"] != "home")
+                e = {**e, "status": {"type": {"completed": True}}, "competitions": [{"competitors": [
+                    {**c, "score": g} for c, g in zip(lados, RESULTADOS_A_MANO[e["id"]])]}]}
             if not re.search(patron, (e.get("season") or {}).get("slug", "")) or not e["status"]["type"].get("completed")                     or e.get("id") in NO_SUMAN:
                 continue
             c = e["competitions"][0]["competitors"]
@@ -525,16 +553,33 @@ def armar(clave):
     unica = cfg.get("zonas") == "unica"   # todos contra todos: una sola tabla (la Liga 2024)
     etapas = cfg.get("etapas")   # torneos por etapas (la Copa Maradona 2020): las zonas salen del grupo de cada partido
     eventos = [e for a in cfg.get("anios", [cfg["anio"]])
-               for e in bajar(a, cfg["slug"], con_zonas="zonas_de" not in cfg and not unica and not etapas and not cfg.get("copa"),
+               for e in bajar(a, cfg["slug"], con_zonas="zonas_de" not in cfg and not unica and not etapas and not cfg.get("copa")
+                              and cfg.get("zonas") != "grupos",
                               liga=cfg.get("liga", "arg.1"), patron=cfg.get("patron"))]
     carpeta = CACHE / str(cfg["anio"])
-    if cfg.get("playoffs"):   # finales con nombre propio
+    if cfg.get("playoffs_ids"):   # partidos que ESPN mete en la fase regular (2016: la final y el del tercer puesto)
+        es_playoff = lambda e: cfg["playoffs_ids"].get(e["id"])
+    elif cfg.get("playoffs"):   # finales con nombre propio
         es_playoff = lambda e: next((n for s, n in cfg["playoffs"] if re.search(s, e["season"]["slug"])), None)
     else:
         es_playoff = lambda e: next((n for s, n in PLAYOFFS if re.search(rf"(^|-){s}", e["season"]["slug"])), None)
     etapa_de = lambda e: next((i for i, (_, s, *_) in enumerate(etapas) if re.search(s, e["season"]["slug"])), None)
     if etapas or cfg.get("copa"):   # (sin fase regular, no hay zonas)
         zonas_espn = {}
+    elif cfg.get("zonas") == "grupos":
+        # la zona de cada club sale del grupo que ESPN le pone a cada partido (2016: "... - GROUP 1"): la de la mayoría
+        # de sus partidos (los interzonales van en el grupo de uno de los dos)
+        cuenta = {}
+        for e in eventos:
+            g = ((e["competitions"][0].get("group") or {}).get("name") or "").split()[-1:]
+            for c in e["competitions"][0]["competitors"]:
+                if g and not es_playoff(e):
+                    cuenta.setdefault(c["team"]["id"], {}).setdefault(g[0], 0)
+                    cuenta[c["team"]["id"]][g[0]] += 1
+        zonas_espn = {}
+        for eid, gs in sorted(cuenta.items()):
+            zonas_espn.setdefault(max(gs, key=gs.get), []).append(eid)
+        zonas_espn = dict(sorted(zonas_espn.items()))
     elif unica:
         zonas_espn = {"": sorted({c["team"]["id"] for e in eventos for c in e["competitions"][0]["competitors"]})}
     else:
@@ -647,7 +692,9 @@ def armar(clave):
         "zonas": zonas,
         "fechas": [{"numero": n, "partidos": [limpio(p) for p in sorted(fechas[n], key=lambda p: p["hora_utc"])]}
                    for n in sorted(fechas)],
-        "playoffs": [{"nombre": n, "partidos": [limpio(p) for p in playoffs[n]]} for _, n in cfg.get("playoffs", PLAYOFFS) if n in playoffs],
+        "playoffs": [{"nombre": n, "partidos": [limpio(p) for p in playoffs[n]]}
+                     for n in (list(cfg["playoffs_ids"].values()) if cfg.get("playoffs_ids") else [n for _, n in cfg.get("playoffs", PLAYOFFS)])
+                     if n in playoffs],
         "clubes": clubes,
     }
     # tabla anual (lo jugado antes en el año) y promedios (las temporadas anteriores), solo de los clubes del torneo
@@ -681,8 +728,8 @@ def armar(clave):
                                     "fechas": sorted({p["fecha_n"] for p in ps})})
     if desempates:
         datos["desempate"] = limpio(desempates[0])
-    for k in ("temporada", "descienden", "ida_y_vuelta", "gol_visitante", "cuadro_desde", "campeon_tabla", "anual_texto",
-              "descensos_anulados", "sin_descensos", "nota", "cuadro"):
+    for k in ("temporada", "descienden", "texto_pasan", "ida_y_vuelta", "gol_visitante", "cuadro_desde", "campeon_tabla",
+              "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro"):
         if cfg.get(k):
             datos[k] = cfg[k]
     if cfg.get("titulo_anual"):
@@ -695,6 +742,9 @@ def armar(clave):
         def quien(liga, patron, modo):
             if not liga:
                 return lider(regular)
+            if modo == "final":   # el ganador de la final de este torneo
+                return next((p["local"] if (p["gl"], p.get("pen_l", 0)) > (p["gv"], p.get("pen_v", 0)) else p["visitante"]
+                             for p in playoffs.get("Final", []) if p["gl"] is not None), None)
             if modo == "tabla":
                 s = sumar(cfg["anio"], [(liga, patron)])
                 eid = max(s, key=lambda i: (s[i][0], s[i][5] - s[i][6], s[i][5]))
