@@ -32,6 +32,27 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2020: el único torneo fue la Copa Diego Maradona (octubre de 2020 - marzo de 2021; en ESPN, dentro de "arg.1" de
+    # 2020 y de 2021). Por etapas: la primera fase (6 zonas de 4, ida y vuelta; pasaban los 2 primeros) y la segunda,
+    # partida en la Fase Campeón (2 zonas de 6 con los clasificados; los ganadores jugaron la final) y la Fase
+    # Complementación (2 zonas de 6 con el resto). Además, la final de la Complementación y un repechaje por un lugar en
+    # la Sudamericana 2021. Sin descensos (suspendidos por la pandemia). La Copa de la Superliga 2020 (una sola fecha,
+    # se canceló) no se carga
+    "2020-maradona": {"nombre": "Copa Diego Maradona 2020", "anio": 2020, "anios": [2020, 2021], "slug": "maradona",
+                      "patron": r"copa-diego-armando-maradona",
+                      # etapas: (nombre, patrón de la fase en ESPN, cuántos pasan por zona, primera fecha, cuántas
+                      # fechas). La Fase Campeón y la Complementación se jugaron en las mismas fechas (7 a 11)
+                      "etapas": [("Primera fase", r"group-stage$", 2, 1, 6), ("Fase Campeón", r"fase-campeon$", 1, 7, 5),
+                                 ("Fase Complementación", r"fase-complementacion$", 1, 7, 5)],
+                      "playoffs": [(r"fase-complementacion-final$", "Final de la Fase Complementación"),
+                                   (r"fase-campeon-final$", "Final"),
+                                   (r"copa-sudamericana-playoff$", "Repechaje por la Copa Sudamericana")],
+                      "fechas": 11, "pasan": 0,
+                      "nota": "En 2020 hubo un solo torneo, la Copa Diego Maradona, que empezó en octubre por la pandemia. En la "
+                              "primera fase pasaban los dos primeros de cada zona a la Fase Campeón (los ganadores de sus dos "
+                              "zonas jugaron la final); el resto jugó la Fase Complementación. Los ganadores de las dos finales "
+                              "(si no estaban ya clasificados) jugaron un repechaje por un lugar en la Sudamericana 2021.",
+                      "sin_descensos": "En 2020 no hubo descensos: la AFA los suspendió por la pandemia."},
     # 2021: la Copa de la Liga (febrero-junio, dos zonas de 13, desde cuartos; campeón Colón) y la Liga Profesional
     # (julio-diciembre, una sola tabla de 26, 25 fechas; campeón River). Sin descensos (la AFA los suspendió en 2020 y
     # 2021 por la pandemia: "sin_descensos"). La tabla anual (Copa y Liga) daba los cupos para las copas 2022
@@ -221,6 +242,8 @@ def bajar(anio, slug, con_zonas=True, liga="arg.1", patron=None):
         if len(z) == 2 and all(len(v) >= 10 for v in z.values()):
             zonas.write_text(json.dumps(z), encoding="utf-8")
     print(f"{anio} {slug}: {len(eventos)} partidos en el calendario, {nuevos} detalles nuevos", flush=True)
+    for e in eventos:
+        e["_carpeta"] = str(carpeta)
     return eventos
 
 
@@ -384,11 +407,19 @@ def catalogo():
 def armar(clave):
     cfg = TORNEOS[clave]
     unica = cfg.get("zonas") == "unica"   # todos contra todos: una sola tabla (la Liga 2024)
-    eventos = bajar(cfg["anio"], cfg["slug"], con_zonas="zonas_de" not in cfg and not unica,
-                    liga=cfg.get("liga", "arg.1"), patron=cfg.get("patron"))
+    etapas = cfg.get("etapas")   # torneos por etapas (la Copa Maradona 2020): las zonas salen del grupo de cada partido
+    eventos = [e for a in cfg.get("anios", [cfg["anio"]])
+               for e in bajar(a, cfg["slug"], con_zonas="zonas_de" not in cfg and not unica and not etapas,
+                              liga=cfg.get("liga", "arg.1"), patron=cfg.get("patron"))]
     carpeta = CACHE / str(cfg["anio"])
-    es_playoff = lambda e: next((n for s, n in PLAYOFFS if re.search(rf"(^|-){s}", e["season"]["slug"])), None)
-    if unica:
+    if cfg.get("playoffs"):   # finales con nombre propio
+        es_playoff = lambda e: next((n for s, n in cfg["playoffs"] if re.search(s, e["season"]["slug"])), None)
+    else:
+        es_playoff = lambda e: next((n for s, n in PLAYOFFS if re.search(rf"(^|-){s}", e["season"]["slug"])), None)
+    etapa_de = lambda e: next((i for i, (_, s, *_) in enumerate(etapas) if re.search(s, e["season"]["slug"])), None)
+    if etapas:
+        zonas_espn = {}
+    elif unica:
         zonas_espn = {"": sorted({c["team"]["id"] for e in eventos for c in e["competitions"][0]["competitors"]})}
     else:
         zonas_espn = json.loads((carpeta / f"zonas-{cfg.get('zonas_de', cfg['slug'])}.json").read_text(encoding="utf-8"))
@@ -397,7 +428,7 @@ def armar(clave):
     interzonales = {}
     for e in eventos:
         ids = [c["team"]["id"] for c in e["competitions"][0]["competitors"]]
-        if not es_playoff(e) and zona_de.get(ids[0]) != zona_de.get(ids[1]):
+        if not etapas and not es_playoff(e) and zona_de.get(ids[0]) != zona_de.get(ids[1]):
             for i in ids:
                 interzonales[i] = interzonales.get(i, 0) + 1
     raros = {i: n for i, n in interzonales.items() if n > 2}
@@ -456,7 +487,7 @@ def armar(clave):
             p["alargue"] = True
         if lados["home"].get("shootoutScore") is not None:
             p["pen_l"], p["pen_v"] = int(lados["home"]["shootoutScore"]), int(lados["away"]["shootoutScore"])
-        detalle = carpeta / f"{e['id']}.json"
+        detalle = Path(e.get("_carpeta", carpeta)) / f"{e['id']}.json"
         if detalle.exists():
             completar(p, json.loads(detalle.read_text(encoding="utf-8")))
         p["goles"] = [{**{k: v for k, v in g.items() if v is not None and k not in ("lado", "aid")}, "equipo": g["lado"]}
@@ -468,13 +499,24 @@ def armar(clave):
         elif fase:
             playoffs.setdefault(fase, []).append(p)
         else:
+            if etapas:
+                p["etapa"] = etapa_de(e)
+                g = ((comp.get("group") or {}).get("name") or "").replace("Group ", "")
+                p["zona"] = g[0] if re.fullmatch(r"[A-Z]\d", g) else g   # "A1" (zona A de la Fase Campeón) -> "A"
             regular.append(p)
 
-    repartir_fechas(regular, cfg["fechas"])
+    if etapas:   # las fechas, por etapa, numeradas desde la primera fecha de cada una
+        for i, (_, _, _, primera, cuantas) in enumerate(etapas):
+            de_etapa = [p for p in regular if p["etapa"] == i]
+            repartir_fechas(de_etapa, cuantas)
+            for p in de_etapa:
+                p["fecha_n"] += primera - 1
+    else:
+        repartir_fechas(regular, cfg["fechas"])
     fechas = {}
     for p in regular:
         fechas.setdefault(p["fecha_n"], []).append(p)
-    limpio = lambda p: {k: v for k, v in p.items() if k not in ("hora_utc", "local_espn", "fecha_n", "a_confirmar")
+    limpio = lambda p: {k: v for k, v in p.items() if k not in ("hora_utc", "local_espn", "fecha_n", "a_confirmar", "etapa", "zona")
                         and v is not None and v is not False and v != []}
     zonas = {}
     for letra, ids in zonas_espn.items():
@@ -485,7 +527,7 @@ def armar(clave):
         "zonas": zonas,
         "fechas": [{"numero": n, "partidos": [limpio(p) for p in sorted(fechas[n], key=lambda p: p["hora_utc"])]}
                    for n in sorted(fechas)],
-        "playoffs": [{"nombre": n, "partidos": [limpio(p) for p in playoffs[n]]} for _, n in PLAYOFFS if n in playoffs],
+        "playoffs": [{"nombre": n, "partidos": [limpio(p) for p in playoffs[n]]} for _, n in cfg.get("playoffs", PLAYOFFS) if n in playoffs],
         "clubes": clubes,
     }
     # tabla anual (lo jugado antes en el año) y promedios (las temporadas anteriores), solo de los clubes del torneo
@@ -499,9 +541,20 @@ def armar(clave):
             s = sumar(anio, fuentes)
             datos["promedios"][anio] = {cid: s[eid][:2] for cid, eid in espn_de.items() if eid in s}
     datos["descensos"] = cfg.get("descensos", False)
+    if etapas:
+        datos["etapas"] = []
+        for i, (nombre, _, pasan, _, _) in enumerate(etapas):
+            ps = [p for p in regular if p["etapa"] == i]
+            zonas_etapa = {}
+            for p in sorted(ps, key=lambda p: p["hora_utc"]):
+                for c in (p["local"], p["visitante"]):
+                    if c not in zonas_etapa.setdefault(p["zona"], []):
+                        zonas_etapa[p["zona"]].append(c)
+            datos["etapas"].append({"nombre": nombre, "pasan": pasan, "zonas": dict(sorted(zonas_etapa.items())),
+                                    "fechas": sorted({p["fecha_n"] for p in ps})})
     if desempates:
         datos["desempate"] = limpio(desempates[0])
-    for k in ("campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos"):
+    for k in ("campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota"):
         if cfg.get(k):
             datos[k] = cfg[k]
     if cfg.get("titulo_anual"):

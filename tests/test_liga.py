@@ -48,8 +48,12 @@ class DatosLiga(unittest.TestCase):
         for t in indice:
             with self.subTest(torneo=t["clave"]):
                 d = cargar(DATOS / f"{t['clave']}.js")
-                ids = {i for zona in d["zonas"].values() for i in zona}
-                self.assertEqual(len(ids), sum(len(z) for z in d["zonas"].values()), "un club en dos zonas")
+                # (en los torneos por etapas, como la Copa Maradona 2020, las zonas son las de cada etapa)
+                for zonas in [d["zonas"]] + [et["zonas"] for et in d.get("etapas", [])]:
+                    en_zonas = [i for zona in zonas.values() for i in zona]
+                    self.assertEqual(len(en_zonas), len(set(en_zonas)), "un club en dos zonas")
+                ids = {i for zonas in [d["zonas"]] + [et["zonas"] for et in d.get("etapas", [])]
+                       for zona in zonas.values() for i in zona}
                 for f in d["fechas"]:
                     clubes = [c for p in f["partidos"] for c in (p["local"], p["visitante"])]
                     self.assertEqual(len(clubes), len(set(clubes)), f"fecha {f['numero']}: un club juega dos veces")

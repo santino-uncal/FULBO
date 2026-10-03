@@ -53,9 +53,10 @@
 
 
     // ---- Tabla de posiciones de cada zona (los partidos interzonales cuentan para la zona de cada club) ----
-    function tabla(ids) {
+    // partidos: los que cuentan (en los torneos por etapas, los de esa etapa)
+    function tabla(ids, partidos = todos) {
       const t = Object.fromEntries(ids.map(id => [id, { id, pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, ultimos: [] }]));
-      todos.filter(jugado).sort((a, b) => (a.fecha || "").localeCompare(b.fecha || "")).forEach(p => {
+      partidos.filter(jugado).sort((a, b) => (a.fecha || "").localeCompare(b.fecha || "")).forEach(p => {
         [[p.local, p.gl, p.gv], [p.visitante, p.gv, p.gl]].forEach(([id, a, b]) => {
           const f = t[id];
           if (!f) return;
@@ -68,13 +69,13 @@
       return Object.values(t).map(f => ({ ...f, pts: f.g * 3 + f.e, dif: f.gf - f.gc }))
         .sort((a, b) => b.pts - a.pts || b.dif - a.dif || b.gf - a.gf || club(a.id).nombre.localeCompare(club(b.id).nombre));
     }
-    function tablaHTML(z) {
-      const filas = tabla(T.zonas[z]);
+    function tablaHTML(z, zonas = T.zonas, pasan = T.pasan, partidos = todos) {
+      const filas = tabla(zonas[z], partidos);
       const cuerpo = filas.map((f, i) => {
         const dif = f.dif > 0 ? `+${f.dif}` : f.dif;
         const ultimos = f.ultimos.slice(-5).reverse().map(u => `<span class="res res-${u.r}" title="${esc(u.texto)}"
           aria-label="${{ V: "Victoria", E: "Empate", D: "Derrota" }[u.r]}">${{ V: "✓", E: "–", D: "✕" }[u.r]}</span>`).join("");
-        return `<tr><td class="pos ${i < T.pasan ? "pasa" : f.id === campeon ? "campeon" : ""}">${i + 1}</td><td class="eq">${nombreClub(f.id)}</td>
+        return `<tr><td class="pos ${i < pasan ? "pasa" : f.id === campeon ? "campeon" : ""}">${i + 1}</td><td class="eq">${nombreClub(f.id)}</td>
           <td class="pts">${f.pts}</td><td>${f.pj}</td><td class="gol">${f.gf}:${f.gc}</td>
           <td class="dif">${dif}</td><td class="opc">${f.g}</td><td class="opc">${f.e}</td><td class="opc">${f.p}</td>
           <td class="ultimas" title="El más reciente a la izquierda">${ultimos}</td></tr>`;
@@ -84,7 +85,16 @@
           <th class="opc">G</th><th class="opc">E</th><th class="opc">P</th><th class="ultimas">Últimas</th></tr></thead>
         <tbody>${cuerpo}</tbody></table></div>`;
     }
-    const vistaTabla = () => `<div class="grupos">${Object.keys(T.zonas).map(tablaHTML).join("")}</div>
+    // Torneos por etapas (la Copa Maradona 2020): las zonas de cada etapa, con los partidos de sus fechas
+    const vistaEtapas = () => `${T.nota ? `<p class="nota-edicion">${esc(T.nota)}</p>` : ""}` + T.etapas.map((et, n) => {
+      const partidos = todos.filter(p => et.fechas.includes(p.n) && Object.values(et.zonas).some(ids => ids.includes(p.local)));
+      const siguiente = n === 0 ? "la Fase Campeón" : "la final";
+      return `<h3>${esc(et.nombre)} <small class="vacio">(fechas ${et.fechas[0]} a ${et.fechas.at(-1)})</small></h3>
+        <div class="grupos">${Object.keys(et.zonas).map(z => tablaHTML(z, et.zonas, et.pasan, partidos)).join("")}</div>
+        <p class="leyenda"><span><i class="pasa"></i>${et.pasan > 1 ? `Los ${et.pasan} primeros de cada zona pasan` : "El primero de cada zona pasa"}
+          a ${/Complementación/.test(et.nombre) ? "la final de la Complementación" : siguiente}</span></p>`;
+    }).join("") + (T.sin_descensos ? `<p class="nota-edicion">${esc(T.sin_descensos)}</p>` : "");
+    const vistaTabla = () => T.etapas ? vistaEtapas() : `<div class="grupos">${Object.keys(T.zonas).map(z => tablaHTML(z)).join("")}</div>
       <p class="leyenda">${T.pasan ? `<span><i class="pasa"></i>Clasifican a ${RONDA[T.pasan] || "los playoffs"} (los ${T.pasan} primeros de cada zona)</span>` : ""}
         ${T.campeon_tabla ? `<span><i class="campeon"></i>Campeón: el primero de la tabla (no hay playoffs)</span>` : ""}</p>
       <p class="vacio">Orden: puntos, diferencia de gol y goles a favor.${Object.keys(T.zonas).length > 1
@@ -258,7 +268,7 @@
       return `<div class="orden-partidos elegir-fecha">Fecha: ${botones}</div>
         <div class="titulo-fecha">
           <button class="flecha-anio" type="button" data-fecha="${f.numero - 1}" ${f.numero > 1 ? "" : "disabled"} aria-label="Fecha anterior">◀</button>
-          <h3>Fecha ${f.numero} <small>${rango} · ${jugados === f.partidos.length ? "terminada" : `${jugados} de ${f.partidos.length} partidos jugados`}</small></h3>
+          <h3>Fecha ${f.numero}${T.etapas ? ` · ${esc(T.etapas.filter(et => et.fechas.includes(f.numero)).map(et => et.nombre).join(" y "))}` : ""} <small>${rango} · ${jugados === f.partidos.length ? "terminada" : `${jugados} de ${f.partidos.length} partidos jugados`}</small></h3>
           <button class="flecha-anio" type="button" data-fecha="${f.numero + 1}" ${f.numero < T.fechas.length ? "" : "disabled"} aria-label="Fecha siguiente">▶</button>
         </div>${cuerpo}`;
     }
@@ -310,7 +320,7 @@
     // ---- Playoffs: el cuadro y los partidos; si todavía no empezaron, cómo serían los cruces si la fase regular
     // terminara hoy ----
     function vistaPlayoffs() {
-      if (T.playoffs.length) return `${cuadroHTML()}<p class="vacio">El ganador de cada partido, resaltado; entre paréntesis, los penales.</p>` +
+      if (T.playoffs.length) return (T.etapas ? "" : `${cuadroHTML()}<p class="vacio">El ganador de cada partido, resaltado; entre paréntesis, los penales.</p>`) +
         T.playoffs.map(r => `<h3>${esc(r.nombre)}</h3>${r.partidos.map(p => partidoHTML(p)).join("")}`).join("");
       const [za, zb] = Object.keys(T.zonas);
       const a = tabla(T.zonas[za]), b = tabla(T.zonas[zb]);
@@ -356,7 +366,7 @@
       }
       const html = { tabla: vistaTabla, fechas: vistaFechas, playoffs: vistaPlayoffs, anual: vistaAnual, promedios: vistaPromedios,
         goleadores: vistaGoleadores }[vista]();
-      ligaEl.innerHTML = `<div class="pestanas" role="tablist">${VISTAS.filter(([v]) => (v !== "promedios" || T.promedios) && (v !== "anual" || T.anual) && (v !== "playoffs" || T.pasan)).map(([v, n]) =>
+      ligaEl.innerHTML = `<div class="pestanas" role="tablist">${VISTAS.filter(([v]) => (v !== "promedios" || T.promedios) && (v !== "anual" || T.anual) && (v !== "playoffs" || T.pasan || T.playoffs.length)).map(([v, n]) =>
         `<button class="pestana" type="button" role="tab" data-vista="${v}" aria-selected="${v === vista}">${n}</button>`).join("")}</div>${html}`;
     }
     ligaEl.addEventListener("click", e => {
