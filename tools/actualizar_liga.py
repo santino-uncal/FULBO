@@ -32,6 +32,54 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2009: dos torneos de 20 equipos a una rueda, sin playoffs. El Torneo Clausura 2009 (febrero-julio; campeón Vélez)
+    # cerraba la temporada 2008-09: su "tabla anual" es la de la temporada (el Apertura 2008 y el Clausura 2009). Bajaron
+    # los dos últimos de los promedios (2006-07, 2007-08 y 2008-09) y los dos de arriba jugaron la Promoción contra
+    # equipos de la B Nacional y se salvaron: Rosario Central con Belgrano, y Gimnasia con Atlético de Rafaela (empataron
+    # el global; se quedó el de Primera). Los cupos de la Sudamericana 2009 (Boca y River, invitados), fijos
+    "2009-clausura": {"nombre": "Torneo Clausura 2009", "anio": 2009, "slug": "clausura-2009",
+                      "patron": r"^torneo-clausura-2009(---promocion)?$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True, "temporada": "2008-09", "nombre_anual": "Temporada y copas",
+                      "nombre_playoffs": "Promoción", "playoffs": [(r"---promocion$", "Promoción")],
+                      "ida_y_vuelta": True, "ventaja": ["gimnasia-y-esgrima", "rosario-central"],
+                      "cuadro": {"bloques": [("Promoción: los equipos de Primera contra los de la B Nacional",
+                                              [["Promoción"]])],
+                                 "nota": "Con el global igualado se quedaba en Primera el equipo de Primera: así se "
+                                         "salvó Gimnasia. Rosario Central también se quedó; Belgrano y Atlético de "
+                                         "Rafaela siguieron en la B Nacional."},
+                      "anual": [("arg.1", r"^torneo-apertura-2008$", 2008)],
+                      "anual_texto": "La tabla de la temporada 2008-09: suma el Torneo Apertura 2008 (sin el triangular "
+                                     "final) y el Torneo Clausura 2009.",
+                      "promedios": {"2006-07": [("arg.1", r"^torneo-apertura-2006$", 2006),
+                                                ("arg.1", r"^torneo-apertura-2006$", 2007),
+                                                ("arg.1", r"^torneo-clausura-2007$", 2007)],
+                                    "2007-08": [("arg.1", r"^torneo-apertura-2007$", 2007),
+                                                ("arg.1", r"^torneo-apertura-2007$", 2008),
+                                                ("arg.1", r"^torneo-clausura-2008$", 2008)]},
+                      "descensos": "promedios", "descienden": 2, "promocion": 2,
+                      "cupos": {"anio": 2009, "fijos": True,
+                                "sudamericana": [("Tabla de la temporada 2008-09", "lanus"),
+                                                 ("Tabla de la temporada 2008-09", "velez-sarsfield"),
+                                                 ("Tabla de la temporada 2008-09", "san-lorenzo"),
+                                                 ("Tabla de la temporada 2008-09", "tigre"),
+                                                 ("Invitado por la Conmebol", "boca-juniors"),
+                                                 ("Invitado por la Conmebol", "river-plate")]}},
+    # El Torneo Apertura 2009 (agosto-diciembre; campeón Banfield) abría la temporada 2009-10. La tabla del año 2009 (el
+    # Clausura y el Apertura) daba lugares en la Libertadores 2010. Los cupos, fijos
+    "2009-apertura": {"nombre": "Torneo Apertura 2009", "anio": 2009, "slug": "apertura-2009",
+                      "patron": r"^torneo-apertura-2009$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True,
+                      "anual": [("arg.1", r"^torneo-clausura-2009$")],
+                      "anual_texto": "La tabla del año 2009: suma el Torneo Clausura 2009 y el Torneo Apertura 2009.",
+                      "sin_descensos": "En el Torneo Apertura 2009 no hubo descensos: se definieron al terminar la "
+                                       "temporada 2009-10, con el Torneo Clausura 2010.",
+                      "cupos": {"anio": 2010, "fijos": True,
+                                "libertadores": [("Campeón de la Copa Libertadores 2009 (lugar aparte)", "estudiantes-de-la-plata"),
+                                                 ("Campeón del Torneo Clausura 2009", "velez-sarsfield"),
+                                                 ("Campeón del Torneo Apertura 2009", "banfield"),
+                                                 ("Tabla del año 2009", "lanus"),
+                                                 ("Tabla del año 2009", "colon"),
+                                                 ("Tabla del año 2009", "newell-s-old-boys")]}},
     # 2010: dos torneos de 20 equipos a una rueda, sin playoffs. El Torneo Clausura 2010 (enero-mayo; campeón Argentinos)
     # cerraba la temporada 2009-10: su "tabla anual" es la de la temporada (el Apertura 2009 y el Clausura 2010). Bajaron
     # los dos últimos de los promedios (2007-08, 2008-09 y 2009-10) y los dos de arriba jugaron la Promoción contra
@@ -651,6 +699,8 @@ CLUBES_NUEVOS = {
     "236": ("nueva-chicago", "Nueva Chicago"),
     "11958": ("crucero-del-norte", "Crucero del Norte"),
     "9786": ("all-boys", "All Boys"),
+    "8713": ("san-martin-tucuman", "San Martín de Tucumán"),   # (el mismo club; ESPN le cambió el id)
+    "5263": ("gimnasia-jujuy", "Gimnasia y Esgrima (Jujuy)"),
 }
 
 # Nombres que en la liga se confunden (en data/equipos.js están como en las copas)
