@@ -32,6 +32,27 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2024: la Copa de la Liga (enero-mayo, dos zonas de 14 y desde cuartos de final; en ESPN es otra liga,
+    # "arg.copa_lpf") y la Liga Profesional (mayo-diciembre, todos contra todos a una rueda, sin playoffs: el campeón
+    # es el primero de la tabla). La tabla anual sumó la fase de zonas de la Copa de la Liga y la Liga entera.
+    # Descensos: no hubo (la AFA los anuló en diciembre de 2024). Racing fue a la Libertadores 2025 por ganar la
+    # Sudamericana 2024: un lugar aparte
+    "2024-copa": {"nombre": "Copa de la Liga 2024", "anio": 2024, "liga": "arg.copa_lpf", "slug": "copa", "patron": r"",
+                  "fechas": 14, "pasan": 4},
+    "2024-liga": {"nombre": "Liga Profesional 2024", "anio": 2024, "slug": "liga", "patron": r"liga-profesional",
+                  "zonas": "unica", "fechas": 27, "pasan": 0, "campeon_tabla": True,
+                  "anual": [("arg.copa_lpf", r"^group-stage$")],
+                  "anual_texto": "Suma la fase de zonas de la Copa de la Liga 2024 y la Liga Profesional 2024.",
+                  "promedios": {2022: [("arg.copa_lpf", r"^group-stage$"), ("arg.1", r"liga-profesional")],
+                                2023: [("arg.copa_lpf", r"^group-stage$"), ("arg.1", r"liga-profesional")]},
+                  "descensos": False,
+                  "descensos_anulados": "En 2024 no hubo descensos: la AFA los anuló en diciembre, cuando decidió que en 2025 la "
+                                        "Liga tuviera 30 equipos.",
+                  "cupos": {"anio": 2025, "libertadores": 6, "sudamericana": 6,
+                            "campeones": [("Copa de la Liga 2024", "arg.copa_lpf", r"^final$"),
+                                          ("Liga Profesional 2024", None, None),   # (el primero de la tabla: lo calcula la página)
+                                          ("Copa Argentina 2024", "arg.copa", r"^final$"),
+                                          ("Copa Sudamericana 2024", "conmebol.sudamericana", r"(^|-)final$", "extra")]}},
     # 2025: igual que 2026 (dos torneos con zonas, tabla anual, promedios y cupos). Los promedios de 2025 son
     # 2023 (Copa de la Liga y Liga Profesional), 2024 y 2025. Descendieron Godoy Cruz (tabla anual) y San Martín de
     # San Juan (promedios). Lanús fue a la Libertadores 2026 por ganar la Sudamericana 2025: un lugar aparte ("extra")
@@ -97,20 +118,28 @@ def hora_argentina(iso):
     return datetime.datetime.strptime(iso[:16], "%Y-%m-%dT%H:%M") - datetime.timedelta(hours=3)
 
 
-def bajar(anio, slug, con_zonas=True):
-    """El calendario del año, el detalle de los partidos terminados del torneo y las zonas."""
+def archivo_calendario(liga, anio):
+    return CACHE / str(anio) / ("calendario.json" if liga == "arg.1" else f"calendario-{liga}.json")
+
+
+def bajar(anio, slug, con_zonas=True, liga="arg.1", patron=None):
+    """El calendario del año, el detalle de los partidos terminados del torneo y las zonas.
+    liga: la de ESPN ("arg.1"; la Copa de la Liga es "arg.copa_lpf"). patron: qué fases del calendario son de este
+    torneo (sin nada, las que tienen el slug: "torneo-apertura", "apertura---final"…)."""
+    base = f"{ESPN.rsplit('/', 1)[0]}/{liga}"
     carpeta = CACHE / str(anio)
     carpeta.mkdir(parents=True, exist_ok=True)
-    cal = pedir(f"{ESPN}/scoreboard?dates={anio}&limit=1000")
-    (carpeta / "calendario.json").write_text(json.dumps(cal, ensure_ascii=False), encoding="utf-8")
-    eventos = [e for e in cal.get("events", []) if slug in (e.get("season") or {}).get("slug", "")]
+    cal = pedir(f"{base}/scoreboard?dates={anio}&limit=1000")
+    archivo_calendario(liga, anio).write_text(json.dumps(cal, ensure_ascii=False), encoding="utf-8")
+    patron = re.escape(slug) if patron is None else patron
+    eventos = [e for e in cal.get("events", []) if re.search(patron, (e.get("season") or {}).get("slug", ""))]
     nuevos = 0
     for e in eventos:
         archivo = carpeta / f"{e['id']}.json"
         if not e["status"]["type"].get("completed") or archivo.exists():
             continue
         try:
-            archivo.write_text(json.dumps(recortar(pedir(f"{ESPN}/summary?event={e['id']}")), ensure_ascii=False),
+            archivo.write_text(json.dumps(recortar(pedir(f"{base}/summary?event={e['id']}")), ensure_ascii=False),
                                encoding="utf-8")
             nuevos += 1
             time.sleep(0.4)
@@ -120,7 +149,7 @@ def bajar(anio, slug, con_zonas=True):
     # vez (en los playoffs la tabla puede cambiar de forma)
     zonas = carpeta / f"zonas-{slug}.json"
     if con_zonas and not zonas.exists():
-        tabla = pedir(f"{ESPN.replace('/site/v2/', '/v2/')}/standings?season={anio}")
+        tabla = pedir(f"{base.replace('/site/v2/', '/v2/')}/standings?season={anio}")
         z = {g["name"].split()[-1]: [x["team"]["id"] for x in g["standings"]["entries"]] for g in tabla.get("children", [])}
         if len(z) == 2 and all(len(v) >= 10 for v in z.values()):
             zonas.write_text(json.dumps(z), encoding="utf-8")
@@ -131,7 +160,7 @@ def bajar(anio, slug, con_zonas=True):
 def calendario(liga, anio):
     """El calendario de un año de una liga de ESPN ("arg.1", "arg.copa_lpf"). Los años terminados se bajan una
     sola vez; el año del torneo en curso ya lo bajó bajar()."""
-    archivo = CACHE / str(anio) / ("calendario.json" if liga == "arg.1" else f"calendario-{liga}.json")
+    archivo = archivo_calendario(liga, anio)
     if not archivo.exists() or (anio >= datetime.date.today().year and liga != "arg.1"):
         archivo.parent.mkdir(parents=True, exist_ok=True)
         cal = pedir(f"{ESPN.rsplit('/', 1)[0]}/{liga}/scoreboard?dates={anio}&limit=1000")
@@ -196,9 +225,72 @@ def repartir_fechas(partidos, cantidad):
             n = len(fechas) - 1
         fechas[n] |= par
         p["fecha_n"] = n + 1
+    if len(fechas) > cantidad:
+        reparar(partidos, len(fechas), cantidad)
+        fechas = sorted({p["fecha_n"] for p in partidos})
     if len(fechas) != cantidad:
         print(f"  ojo: salieron {len(fechas)} fechas (se esperaban {cantidad})", flush=True)
     return partidos
+
+
+def reparar(partidos, hay, cantidad):
+    """Cuando sobran fechas (postergados que se cruzan: en diciembre de 2024 a Racing le faltaba la fecha 24 y a
+    River la 25, y Racing-River no entraba en ninguna), se vuelven a armar entre todas las fechas del final que
+    quedaron incompletas, con los partidos sueltos: cada club juega una vez por fecha y cada partido se queda, si se
+    puede, en la fecha que ya tenía (o en la más cercana). Se prueba primero el partido con menos fechas posibles."""
+    por_fecha = len({c for p in partidos for c in (p["local"], p["visitante"])}) // 2
+    tamanio = lambda n: sum(p["fecha_n"] == n for p in partidos)
+    sobran = sorted(range(1, hay + 1), key=lambda n: (tamanio(n), -n))[:hay - cantidad]
+    quedan = [n for n in range(1, hay + 1) if n not in sobran]
+    incompletas = [n for n in quedan if tamanio(n) < por_fecha]
+    if not incompletas:
+        return
+    ventana = [n for n in quedan if n >= min(incompletas)]
+    juego = [p for p in partidos if p["fecha_n"] in ventana or p["fecha_n"] in sobran]
+    original = {id(p): p["fecha_n"] for p in juego}
+    usados = {n: set() for n in ventana}
+
+    def posibles(p):
+        return [n for n in ventana if p["local"] not in usados[n] and p["visitante"] not in usados[n]]
+
+    def armar(faltan):
+        if not faltan:
+            return True
+        p = min(faltan, key=lambda q: len(posibles(q)))
+        resto = [q for q in faltan if q is not p]
+        # primero la fecha que ya tenía; si no, la más cercana
+        for n in sorted(posibles(p), key=lambda n: (n != original[id(p)], abs(n - min(original[id(p)], max(ventana))))):
+            usados[n] |= {p["local"], p["visitante"]}
+            p["fecha_n"] = n
+            if armar(resto):
+                return True
+            usados[n] -= {p["local"], p["visitante"]}
+        return False
+
+    if not armar(juego):
+        for p in juego:
+            p["fecha_n"] = original[id(p)]
+        print("  no se pudieron reacomodar los partidos postergados", flush=True)
+        return
+    # se renumeran las fechas (sin huecos)
+    orden = {n: i + 1 for i, n in enumerate(sorted({p["fecha_n"] for p in partidos}))}
+    for p in partidos:
+        p["fecha_n"] = orden[p["fecha_n"]]
+
+
+def lider(partidos):
+    """El primero de la tabla (puntos, diferencia de gol, goles a favor) si ya se jugaron todos los partidos; si no,
+    None. Para los torneos sin playoffs (la Liga 2024)."""
+    if not partidos or any(p["gl"] is None for p in partidos):
+        return None
+    t = {}
+    for p in partidos:
+        for c, a, b in ((p["local"], p["gl"], p["gv"]), (p["visitante"], p["gv"], p["gl"])):
+            f = t.setdefault(c, [0, 0, 0])
+            f[0] += 3 if a > b else 1 if a == b else 0
+            f[1] += a - b
+            f[2] += a
+    return max(t, key=lambda c: t[c])
 
 
 def slug_club(nombre):
@@ -215,15 +307,21 @@ def catalogo():
 
 def armar(clave):
     cfg = TORNEOS[clave]
-    eventos = bajar(cfg["anio"], cfg["slug"], con_zonas="zonas_de" not in cfg)
+    unica = cfg.get("zonas") == "unica"   # todos contra todos: una sola tabla (la Liga 2024)
+    eventos = bajar(cfg["anio"], cfg["slug"], con_zonas="zonas_de" not in cfg and not unica,
+                    liga=cfg.get("liga", "arg.1"), patron=cfg.get("patron"))
     carpeta = CACHE / str(cfg["anio"])
-    zonas_espn = json.loads((carpeta / f"zonas-{cfg.get('zonas_de', cfg['slug'])}.json").read_text(encoding="utf-8"))
+    es_playoff = lambda e: next((n for s, n in PLAYOFFS if re.search(rf"(^|-){s}", e["season"]["slug"])), None)
+    if unica:
+        zonas_espn = {"": sorted({c["team"]["id"] for e in eventos for c in e["competitions"][0]["competitors"]})}
+    else:
+        zonas_espn = json.loads((carpeta / f"zonas-{cfg.get('zonas_de', cfg['slug'])}.json").read_text(encoding="utf-8"))
     # control: con las zonas bien puestas, cada club juega 2 partidos contra la otra zona en la fase regular
     zona_de = {i: z for z, ids in zonas_espn.items() for i in ids}
     interzonales = {}
     for e in eventos:
         ids = [c["team"]["id"] for c in e["competitions"][0]["competitors"]]
-        if e["season"]["slug"].startswith("torneo-") and zona_de.get(ids[0]) != zona_de.get(ids[1]):
+        if not es_playoff(e) and zona_de.get(ids[0]) != zona_de.get(ids[1]):
             for i in ids:
                 interzonales[i] = interzonales.get(i, 0) + 1
     raros = {i: n for i, n in interzonales.items() if n > 2}
@@ -288,8 +386,7 @@ def armar(clave):
         p["goles"] = [{**{k: v for k, v in g.items() if v is not None and k not in ("lado", "aid")}, "equipo": g["lado"]}
                       for g in p["goles"]]
         p.pop("formaciones", None)
-        slug = e["season"]["slug"]
-        fase = next((n for s, n in PLAYOFFS if re.search(rf"---{s}", slug)), None)
+        fase = es_playoff(e)
         if fase:
             playoffs.setdefault(fase, []).append(p)
         else:
@@ -324,12 +421,17 @@ def armar(clave):
             s = sumar(anio, fuentes)
             datos["promedios"][anio] = {cid: s[eid][:2] for cid, eid in espn_de.items() if eid in s}
     datos["descensos"] = cfg.get("descensos", False)
+    for k in ("campeon_tabla", "anual_texto", "descensos_anulados"):
+        if cfg.get(k):
+            datos[k] = cfg[k]
     if cfg.get("titulo_anual"):
         datos["titulo_anual"] = cfg["titulo_anual"]
     if cfg.get("cupos"):
         cupos = dict(cfg["cupos"])
         # extra: un lugar que no es de la liga (el campeón de la Sudamericana va a la Libertadores por la Conmebol)
-        cupos["campeones"] = [{"titulo": titulo, "club": campeon(liga, cfg["anio"], patron, club), **({"extra": True} if extra else {})}
+        # (sin liga: el campeón es el primero de la tabla de este torneo, cuando se jugó todo)
+        cupos["campeones"] = [{"titulo": titulo, "club": campeon(liga, cfg["anio"], patron, club) if liga else lider(regular),
+                               **({"extra": True} if extra else {})}
                               for titulo, liga, patron, *extra in cfg["cupos"]["campeones"]]
         datos["cupos"] = cupos
     DATOS.mkdir(parents=True, exist_ok=True)
@@ -345,6 +447,7 @@ def armar(clave):
           f"window.LIGA[{json.dumps(clave)}] = {json.dumps(datos, ensure_ascii=False, separators=(',', ':'))};\n")
     (DATOS / f"{clave}.js").write_text(js, encoding="utf-8")
     jugados = sum(p["gl"] is not None for p in regular)
+    clubes_regular = {c for p in regular for c in (p["local"], p["visitante"])}
     print(f"{cfg['nombre']}: {len(fechas)} fechas, {jugados} de {len(regular)} partidos jugados; "
           f"playoffs: {sum(len(v) for v in playoffs.values())} partidos", flush=True)
     for n in sorted(fechas):
@@ -353,7 +456,7 @@ def armar(clave):
             for c in (p["local"], p["visitante"]):
                 cuenta[c] = cuenta.get(c, 0) + 1
         repetidos = [c for c, k in cuenta.items() if k > 1]
-        if len(fechas[n]) != 15 or repetidos:
+        if len(fechas[n]) != len(clubes_regular) // 2 or repetidos:
             print(f"  fecha {n}: {len(fechas[n])} partidos{'; repetidos: ' + ', '.join(repetidos) if repetidos else ''}")
     return datos
 
@@ -366,12 +469,15 @@ def escribir_indice():
 
 
 def terminado(clave):
-    """Si el torneo ya tiene campeón (la final jugada en los datos), no hace falta volver a bajarlo cada noche."""
+    """Si el torneo ya tiene campeón (la final jugada en los datos, o, en los torneos sin playoffs, todos los partidos
+    jugados), no hace falta volver a bajarlo cada noche."""
     archivo = DATOS / f"{clave}.js"
     if not archivo.exists():
         return False
     t = archivo.read_text(encoding="utf-8")
     d = json.JSONDecoder().raw_decode(t[t.index("] = ") + 4:])[0]
+    if d.get("campeon_tabla"):
+        return all("gl" in p for f in d["fechas"] for p in f["partidos"])
     return any(r["nombre"] == "Final" and all("gl" in p for p in r["partidos"]) for r in d["playoffs"])
 
 

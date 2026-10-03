@@ -13,8 +13,8 @@ desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de C
   La Sudamericana es la misma página con `copa=sudamericana` adelante: `?copa=sudamericana`, `?copa=sudamericana&edicion=2014`,
   `?copa=sudamericana&equipo=lanus`, `?copa=sudamericana&estadisticas`. Lo mismo con `copa=recopa`, `copa=intercontinental` y `copa=mundial`
   (`?copa=mundial&edicion=2012`). En la cabecera, tocando el nombre de otra copa se cambia de copa.
-  La **Liga Profesional argentina** está en `liga.html` (por ahora, los torneos Apertura y Clausura de 2025 y 2026, que se
-  eligen arriba: `liga.html?torneo=2025-apertura`): la tabla de las dos zonas,
+  La **Liga Profesional argentina** está en `liga.html` (desde 2024: la Copa de la Liga y la Liga Profesional 2024, y los
+  torneos Apertura y Clausura de 2025 y 2026, que se eligen arriba: `liga.html?torneo=2024-liga`): la tabla de las dos zonas,
   todas las fechas con resultados y goles, los goleadores, los playoffs, la tabla anual y los promedios del descenso
   (`liga.html?vista=fechas&fecha=5`, `?vista=anual`, `?vista=promedios`).
   `sitemap.xml` (lo arma `tools/generar_datos.py`) y `robots.txt` le indican a Google qué páginas indexar.
@@ -150,7 +150,9 @@ y después `generar_datos.py`. En la Champions y la Europa League la temporada t
 
 `tools/actualizar_liga.py` baja todo de ESPN. ESPN no dice a qué fecha pertenece cada partido: se deduce
 recorriendo los partidos en orden (empieza una fecha nueva cuando aparece un club que ya jugó en la que está en curso)
-y mandando los postergados a la fecha en la que les falta jugar a los dos clubes (`repartir_fechas`). Las zonas salen
+y mandando los postergados a la fecha en la que les falta jugar a los dos clubes (`repartir_fechas`). Si igual
+sobra una fecha (postergados que se cruzan, como en diciembre de 2024), las fechas incompletas del final se vuelven a
+armar con los partidos sueltos, dejando cada partido en su fecha cuando se puede (`reparar`). Las zonas salen
 de la tabla de ESPN, que solo muestra las del torneo en curso: el Apertura 2026 usa las del Clausura, que fueron las
 mismas (`zonas_de`; el script avisa si algún club tiene más de 2 partidos contra la otra zona). Si no cambió ningún
 dato, el archivo del torneo no se toca (un torneo terminado no cambia cada noche).
@@ -171,7 +173,13 @@ la página los marca en la tabla anual. Un campeón "extra" (el de la Sudamerica
 Conmebol: Lanús en 2025) no ocupa un lugar de la liga. 2025 tuvo las mismas reglas (promedios 2023-2025) y, además, el
 título de "Campeón de Liga" que la AFA le dio en noviembre de 2025 a Rosario Central por ganar la tabla anual
 (`titulo_anual`). Controlado contra lo que pasó: descendieron San Martín de San Juan (promedios) y Godoy Cruz (tabla
-anual), y los clasificados a las copas 2026 coinciden con la lista de ESPN. Para sumar un torneo, agregarlo a `TORNEOS` en el script;
+anual), y los clasificados a las copas 2026 coinciden con la lista de ESPN.
+
+**2024** tuvo otro formato: la Copa de la Liga (en ESPN, otra liga: "arg.copa_lpf"; dos zonas de 14, desde cuartos de
+final) y la Liga Profesional (una sola tabla, 27 fechas, sin playoffs: el campeón es el primero, `campeon_tabla`). La
+tabla anual sumó la fase de zonas de la Copa y la Liga entera. No hubo descensos (los anuló la AFA): la página dice
+quiénes hubiesen bajado con el reglamento (`descensos_anulados`). Los clasificados a las copas 2025 coinciden con la
+lista de ESPN (Racing fue a la Libertadores aparte, por ganar la Sudamericana 2024). Para sumar un torneo, agregarlo a `TORNEOS` en el script;
 los clubes que no jugaron copas (y no están en `data/equipos.js`) van en `CLUBES_NUEVOS`, y su escudo se baja solo.
 
 ### Corregir clubes

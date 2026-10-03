@@ -6,6 +6,7 @@
   const PARAMS = new URLSearchParams(location.search);
   const INDICE = window.LIGA_INDICE || [];
   const CLAVE = INDICE.some(t => t.clave === PARAMS.get("torneo")) ? PARAMS.get("torneo") : INDICE.at(-1)?.clave;
+  const RONDA = { 8: "los octavos de final", 4: "los cuartos de final", 2: "las semifinales" };
   const VISTAS = [["tabla", "Tabla"], ["fechas", "Fechas"], ["playoffs", "Playoffs"], ["anual", "Tabla anual"],
     ["promedios", "Promedios"], ["goleadores", "Goleadores"]];
   const ligaEl = document.getElementById("liga");
@@ -38,7 +39,9 @@
       ? ` aria-current="page"` : ""}>${esc(t.nombre.replace(/^Torneo /, ""))}</a>`).join("");
     // El campeón: el ganador de la final (en los 90 minutos, en el alargue o por penales)
     const final = T.playoffs.find(r => r.nombre === "Final")?.partidos[0];
-    const campeon = final && final.gl != null ? (final.gl > final.gv || final.gl === final.gv && final.pen_l > final.pen_v ? final.local : final.visitante) : null;
+    const todoJugado = T.fechas.every(f => f.partidos.every(p => p.gl != null || p.estado));
+    const campeon = final && final.gl != null ? (final.gl > final.gv || final.gl === final.gv && final.pen_l > final.pen_v ? final.local : final.visitante)
+      : T.campeon_tabla && todoJugado ? tabla(Object.values(T.zonas).flat())[0].id : null;
     const [dia, hora] = T.actualizado.split(" ");
     document.getElementById("actualizado").textContent = campeon ? "Torneo terminado"
       : `Actualizado el ${fechaLarga(dia)} a las ${hora} · se actualiza todos los días`;
@@ -71,19 +74,21 @@
         const dif = f.dif > 0 ? `+${f.dif}` : f.dif;
         const ultimos = f.ultimos.slice(-5).reverse().map(u => `<span class="res res-${u.r}" title="${esc(u.texto)}"
           aria-label="${{ V: "Victoria", E: "Empate", D: "Derrota" }[u.r]}">${{ V: "✓", E: "–", D: "✕" }[u.r]}</span>`).join("");
-        return `<tr><td class="pos ${i < T.pasan ? "pasa" : ""}">${i + 1}</td><td class="eq">${nombreClub(f.id)}</td>
+        return `<tr><td class="pos ${i < T.pasan ? "pasa" : f.id === campeon ? "campeon" : ""}">${i + 1}</td><td class="eq">${nombreClub(f.id)}</td>
           <td class="pts">${f.pts}</td><td>${f.pj}</td><td class="gol">${f.gf}:${f.gc}</td>
           <td class="dif">${dif}</td><td class="opc">${f.g}</td><td class="opc">${f.e}</td><td class="opc">${f.p}</td>
           <td class="ultimas" title="El más reciente a la izquierda">${ultimos}</td></tr>`;
       }).join("");
-      return `<div class="grupo"><h4>Zona ${esc(z)}</h4><table>
+      return `<div class="grupo"><h4>${z ? `Zona ${esc(z)}` : "Tabla de posiciones"}</h4><table>
         <thead><tr><th>#</th><th class="eq">Equipo</th><th>Pts</th><th>J</th><th class="gol">Gol</th><th>+/-</th>
           <th class="opc">G</th><th class="opc">E</th><th class="opc">P</th><th class="ultimas">Últimas</th></tr></thead>
         <tbody>${cuerpo}</tbody></table></div>`;
     }
     const vistaTabla = () => `<div class="grupos">${Object.keys(T.zonas).map(tablaHTML).join("")}</div>
-      <p class="leyenda"><span><i class="pasa"></i>Clasifican a los octavos de final (los ${T.pasan} primeros de cada zona)</span></p>
-      <p class="vacio">Orden: puntos, diferencia de gol y goles a favor. Los partidos contra la otra zona (interzonales) suman en la zona de cada club.</p>`;
+      <p class="leyenda">${T.pasan ? `<span><i class="pasa"></i>Clasifican a ${RONDA[T.pasan] || "los playoffs"} (los ${T.pasan} primeros de cada zona)</span>` : ""}
+        ${T.campeon_tabla ? `<span><i class="campeon"></i>Campeón: el primero de la tabla (no hay playoffs)</span>` : ""}</p>
+      <p class="vacio">Orden: puntos, diferencia de gol y goles a favor.${Object.keys(T.zonas).length > 1
+        ? " Los partidos contra la otra zona (interzonales) suman en la zona de cada club." : ""}</p>`;
 
     // ---- Tabla anual: lo jugado antes en el año (T.anual: el Apertura, [pts, pj, g, e, p, gf, gc]) más este torneo ----
     const ids = Object.values(T.zonas).flat();
@@ -109,13 +114,17 @@
       }).sort((a, b) => b.prom - a.prom || club(a.id).nombre.localeCompare(club(b.id).nombre));
     }
     // Descienden el último de la tabla anual y el peor promedio; si es el mismo club, el anteúltimo de la tabla anual
-    function descensos() {
-      if (!T.descensos) return { anual: null, prom: null };
+    function descensos(aunqueAnulados) {
+      if (!T.descensos && !(aunqueAnulados && T.descensos_anulados)) return { anual: null, prom: null };
       const anual = tablaAnual(), prom = promedios().at(-1).id;
       return { prom, anual: anual.at(-1).id === prom ? anual.at(-2).id : anual.at(-1).id };
     }
     const enJuego = () => T.fechas.some(f => f.partidos.some(p => !jugado(p) && !p.estado));
-    const avisoDescenso = () => `<p class="leyenda"><span><i class="desciende"></i>${enJuego() ? "Descendería si el año terminara hoy" : "Desciende"}
+    const avisoDescenso = () => T.descensos_anulados ? (() => {
+      const d = descensos(true);
+      return `<p class="nota-edicion">${esc(T.descensos_anulados)} Con el reglamento, hubiesen descendido ${esc(club(d.anual).nombre)}
+        (tabla anual) y ${esc(club(d.prom).nombre)} (promedios).</p>`;
+    })() : `<p class="leyenda"><span><i class="desciende"></i>${enJuego() ? "Descendería si el año terminara hoy" : "Desciende"}
       (uno por la tabla anual y otro por los promedios)</span></p>`;
     // ---- Cupos para las copas del año que viene (T.cupos): a la Libertadores, los campeones del año y los mejores de
     // la tabla anual hasta completar los lugares; a la Sudamericana, los siguientes. Un campeón que ya entra por la
@@ -163,7 +172,7 @@
           <td class="opc">${f.g}</td><td class="opc">${f.e}</td><td class="opc">${f.p}</td></tr>`;
       }).join("");
       const hoy = enJuego() ? " si el año terminara hoy" : "";
-      return `<p class="vacio">Suma la fase de zonas del Torneo Apertura y del Torneo Clausura ${T.anio} (los playoffs no cuentan).</p>
+      return `<p class="vacio">${esc(T.anual_texto || `Suma la fase de zonas del Torneo Apertura y del Torneo Clausura ${T.anio}.`)} Los playoffs no cuentan.</p>
         ${tituloAnual ? `<p class="campeon-torneo">🏆 ${esc(tituloAnual)}: ${nombreClub(anual[0].id)}
           <small class="vacio">(título que la AFA le dio al primero de la tabla anual)</small></p>` : ""}
         ${cu ? cuposHTML(cu) : ""}
@@ -171,7 +180,7 @@
           <th class="opc">G</th><th class="opc">E</th><th class="opc">P</th></tr></thead><tbody>${cuerpo}</tbody></table></div>
         ${cu ? `<p class="leyenda"><span><i class="libertadores"></i>Copa Libertadores ${cu.anio}${hoy}</span>
           <span><i class="sudamericana"></i>Copa Sudamericana ${cu.anio}${hoy}</span><span>🏆 Campeón del año</span></p>` : ""}
-        ${T.descensos ? avisoDescenso() : ""}`;
+        ${T.descensos || T.descensos_anulados ? avisoDescenso() : ""}`;
     }
     function vistaPromedios() {
       const d = descensos();
@@ -183,7 +192,7 @@
         (la de ${T.anio} es la tabla anual). Los que subieron hace poco dividen solo por los partidos que jugaron en Primera.</p>
         <div class="grupo tabla-larga"><table><thead><tr><th>#</th><th class="eq">Equipo</th>${[...aniosProm, T.anio].map(a => `<th class="opc">${a}</th>`).join("")}
           <th>Pts</th><th>J</th><th>Prom.</th></tr></thead><tbody>${cuerpo}</tbody></table></div>
-        ${T.descensos ? avisoDescenso() : ""}`;
+        ${T.descensos || T.descensos_anulados ? avisoDescenso() : ""}`;
     }
 
     // ---- Un partido ----
@@ -239,12 +248,12 @@
       const [za, zb] = Object.keys(T.zonas);
       const a = tabla(T.zonas[za]), b = tabla(T.zonas[zb]);
       const cruces = [];
-      // 1º de una zona contra el 8º de la otra, 2º contra 7º, 3º contra 6º y 4º contra 5º
+      // 1º de una zona contra el último que pasa de la otra (con 8: 1º-8º, 2º-7º, 3º-6º y 4º-5º)
       for (let i = 0; i < T.pasan / 2; i++) cruces.push([a[i], b[T.pasan - 1 - i], za, zb, i], [b[i], a[T.pasan - 1 - i], zb, za, i]);
       const fila = ([x, y, zx, zy, i]) => `<li class="cruce"><span class="local">${esc(club(x.id).nombre)}${escudo(x.id)} <small>${i + 1}º ${zx}</small></span>
         <span class="resultado">vs</span><span><small>${T.pasan - i}º ${zy}</small> ${nombreClub(y.id)}</span></li>`;
       return `<p class="nota-edicion">Los playoffs empiezan cuando termine la fase regular (fecha ${T.fechas.length}). Son a un solo partido,
-        en la cancha del mejor ubicado: octavos, cuartos, semifinales y final. <strong>Si la fase regular terminara hoy</strong>, los octavos serían:</p>
+        en la cancha del mejor ubicado. <strong>Si la fase regular terminara hoy</strong>, ${RONDA[T.pasan] || "los cruces"} serían:</p>
         <ul class="cruces">${cruces.filter((_, k) => k % 2 === 0).concat(cruces.filter((_, k) => k % 2 === 1)).map(fila).join("")}</ul>`;
     }
 
@@ -280,7 +289,7 @@
       }
       const html = { tabla: vistaTabla, fechas: vistaFechas, playoffs: vistaPlayoffs, anual: vistaAnual, promedios: vistaPromedios,
         goleadores: vistaGoleadores }[vista]();
-      ligaEl.innerHTML = `<div class="pestanas" role="tablist">${VISTAS.filter(([v]) => (v !== "promedios" || T.promedios) && (v !== "anual" || T.anual)).map(([v, n]) =>
+      ligaEl.innerHTML = `<div class="pestanas" role="tablist">${VISTAS.filter(([v]) => (v !== "promedios" || T.promedios) && (v !== "anual" || T.anual) && (v !== "playoffs" || T.pasan)).map(([v, n]) =>
         `<button class="pestana" type="button" role="tab" data-vista="${v}" aria-selected="${v === vista}">${n}</button>`).join("")}</div>${html}`;
     }
     ligaEl.addEventListener("click", e => {
