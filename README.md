@@ -14,7 +14,8 @@ desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de C
   `?copa=sudamericana&equipo=lanus`, `?copa=sudamericana&estadisticas`. Lo mismo con `copa=recopa`, `copa=intercontinental` y `copa=mundial`
   (`?copa=mundial&edicion=2012`). En la cabecera, tocando el nombre de otra copa se cambia de copa.
   La **Liga Profesional argentina** está en `liga.html` (desde 2020: la Copa Diego Maradona 2020, la Copa de la Liga y la
-  Liga Profesional de 2021, 2022, 2023 y 2024, y los torneos Apertura y Clausura de 2025 y 2026, que se eligen arriba: `liga.html?torneo=2024-liga`): la tabla de las dos zonas,
+  Liga Profesional de 2021, 2022, 2023 y 2024, y los torneos Apertura y Clausura de 2025 y 2026, que se eligen arriba: primero el año y después el torneo de ese año.
+  `liga.html?anio=2024` abre el último torneo de ese año (el que tiene la tabla anual); `liga.html?torneo=2024-copa`, uno en particular): la tabla de las dos zonas,
   todas las fechas con resultados y goles, los goleadores, los playoffs (con su cuadro), la tabla anual y los promedios del descenso
   (`liga.html?vista=fechas&fecha=5`, `?vista=anual`, `?vista=promedios`).
   `sitemap.xml` (lo arma `tools/generar_datos.py`) y `robots.txt` le indican a Google qué páginas indexar.

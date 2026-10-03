@@ -5,7 +5,12 @@
 (function () {
   const PARAMS = new URLSearchParams(location.search);
   const INDICE = window.LIGA_INDICE || [];
-  const CLAVE = INDICE.some(t => t.clave === PARAMS.get("torneo")) ? PARAMS.get("torneo") : INDICE.at(-1)?.clave;
+  // El año de cada torneo sale de su clave ("2025-apertura"). Con ?anio=2025 se abre el último torneo de ese año
+  // (el que cierra el año: tiene la tabla anual); sin nada, el último cargado
+  const anioDe = t => t.clave.slice(0, 4);
+  const delAnio = INDICE.filter(t => anioDe(t) === PARAMS.get("anio"));
+  const CLAVE = INDICE.some(t => t.clave === PARAMS.get("torneo")) ? PARAMS.get("torneo")
+    : delAnio.length ? delAnio.at(-1).clave : INDICE.at(-1)?.clave;
   const RONDA = { 8: "los octavos de final", 4: "los cuartos de final", 2: "las semifinales" };
   const VISTAS = [["tabla", "Tabla"], ["fechas", "Fechas"], ["playoffs", "Playoffs"], ["anual", "Tabla anual"],
     ["promedios", "Promedios"], ["goleadores", "Goleadores"]];
@@ -35,8 +40,13 @@
     document.title = `${T.nombre} — Liga Profesional Argentina`;
     document.getElementById("titulo-torneo").textContent = T.nombre;
     // Los torneos cargados, para pasar de uno a otro (el que se está viendo, resaltado)
-    document.getElementById("torneos").innerHTML = INDICE.map(t => `<a href="?torneo=${t.clave}"${t.clave === CLAVE
-      ? ` aria-current="page"` : ""}>${esc(t.nombre.replace(/^Torneo /, ""))}</a>`).join("");
+    // Primero los años y, abajo, los torneos del año que se está viendo (sin el año en el nombre: "Apertura", "Clausura")
+    const anio = CLAVE.slice(0, 4);
+    const anios = [...new Set(INDICE.map(anioDe))];
+    document.getElementById("torneos").innerHTML =
+      `<div class="torneos-anios">${anios.map(a => `<a href="?anio=${a}"${a === anio ? ` aria-current="page"` : ""}>${a}</a>`).join("")}</div>
+      <div class="torneos-del-anio">${INDICE.filter(t => anioDe(t) === anio).map(t => `<a href="?torneo=${t.clave}"${t.clave === CLAVE
+        ? ` aria-current="page"` : ""}>${esc(t.nombre.replace(/^Torneo /, "").replace(/ \d{4}$/, ""))}</a>`).join("")}</div>`;
     // El campeón: el ganador de la final (en los 90 minutos, en el alargue o por penales)
     const final = T.playoffs.find(r => r.nombre === "Final")?.partidos[0];
     const todoJugado = T.fechas.every(f => f.partidos.every(p => p.gl != null || p.estado));
