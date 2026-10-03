@@ -32,6 +32,60 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2008: dos torneos de 20 equipos a una rueda. El Torneo Clausura 2008 (febrero-junio; campeón River) cerraba la
+    # temporada 2007-08: su "tabla anual" es la de la temporada (el Apertura 2007 y el Clausura 2008). Bajaron los dos
+    # últimos de los promedios (2005-06, 2006-07 y 2007-08) y los dos de arriba jugaron la Promoción contra equipos de la
+    # B Nacional y se salvaron: Racing con Belgrano y Gimnasia de Jujuy con Unión. Los cupos de la Sudamericana 2008
+    # (Boca y River, invitados), fijos
+    "2008-clausura": {"nombre": "Torneo Clausura 2008", "anio": 2008, "slug": "clausura-2008",
+                      "patron": r"^torneo-clausura-2008(---promocion)?$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True, "temporada": "2007-08", "nombre_anual": "Temporada y copas",
+                      "nombre_playoffs": "Promoción", "playoffs": [(r"---promocion$", "Promoción")],
+                      "ida_y_vuelta": True, "ventaja": ["racing-club", "gimnasia-jujuy"],
+                      "cuadro": {"bloques": [("Promoción: los equipos de Primera contra los de la B Nacional",
+                                              [["Promoción"]])],
+                                 "nota": "Con el global igualado se quedaba en Primera el equipo de Primera. Los dos se "
+                                         "salvaron: Belgrano y Unión siguieron en la B Nacional."},
+                      "anual": [("arg.1", r"^torneo-apertura-2007$", 2007), ("arg.1", r"^torneo-apertura-2007$", 2008)],
+                      "anual_texto": "La tabla de la temporada 2007-08: suma el Torneo Apertura 2007 y el Torneo Clausura 2008.",
+                      "promedios": {"2005-06": [("arg.1", r"^torneo-apertura-2005$", 2005),
+                                                ("arg.1", r"^torneo-apertura-2005$", 2006),
+                                                ("arg.1", r"^torneo-clausura-2006$", 2006)],
+                                    "2006-07": [("arg.1", r"^torneo-apertura-2006$", 2006),
+                                                ("arg.1", r"^torneo-apertura-2006$", 2007),
+                                                ("arg.1", r"^torneo-clausura-2007$", 2007)]},
+                      "descensos": "promedios", "descienden": 2, "promocion": 2,
+                      "cupos": {"anio": 2008, "fijos": True,
+                                "sudamericana": [("Campeón de la Copa Sudamericana 2007 (lugar aparte)", "arsenal-de-sarandi"),
+                                                 ("Tabla de la temporada 2007-08", "estudiantes-de-la-plata"),
+                                                 ("Tabla de la temporada 2007-08", "san-lorenzo"),
+                                                 ("Tabla de la temporada 2007-08", "argentinos-juniors"),
+                                                 ("Tabla de la temporada 2007-08", "independiente"),
+                                                 ("Invitado por la Conmebol", "boca-juniors"),
+                                                 ("Invitado por la Conmebol", "river-plate")]}},
+    # El Torneo Apertura 2008 (agosto-diciembre) abría la temporada 2008-09. Boca, San Lorenzo y Tigre terminaron
+    # empatados arriba y jugaron un triangular ("triangular"; ganó Boca, por diferencia de gol). Los cupos de la
+    # Libertadores 2009 (por el promedio del Apertura 2007, el Clausura 2008 y el Apertura 2008), fijos
+    "2008-apertura": {"nombre": "Torneo Apertura 2008", "anio": 2008, "slug": "apertura-2008",
+                      "patron": r"^torneo-apertura-2008(---triangular)?$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True, "triangular": True, "nombre_playoffs": "Triangular final",
+                      "playoffs": [(r"---triangular$", "Triangular final")],
+                      "texto_triangular": "Boca, San Lorenzo y Tigre terminaron empatados en el primer puesto, con 39 "
+                                          "puntos, y jugaron un triangular a un partido, todos contra todos. Cada uno "
+                                          "ganó un partido: Boca salió campeón por diferencia de gol.",
+                      "anual": [("arg.1", r"^torneo-clausura-2008$")],
+                      "anual_texto": "La tabla del año 2008: suma el Torneo Clausura 2008 y el Torneo Apertura 2008 (sin "
+                                     "el triangular).",
+                      "sin_descensos": "En el Torneo Apertura 2008 no hubo descensos: se definieron al terminar la "
+                                       "temporada 2008-09, con el Torneo Clausura 2009.",
+                      "cupos": {"anio": 2009, "fijos": True,
+                                "libertadores": [("Campeón del Torneo Apertura 2007", "lanus"),
+                                                 ("Campeón del Torneo Clausura 2008", "river-plate"),
+                                                 ("Campeón del Torneo Apertura 2008", "boca-juniors"),
+                                                 ("Promedio del Apertura 2007, el Clausura 2008 y el Apertura 2008",
+                                                  "san-lorenzo"),
+                                                 ("Promedio del Apertura 2007, el Clausura 2008 y el Apertura 2008",
+                                                  "estudiantes-de-la-plata")]}},
     # 2009: dos torneos de 20 equipos a una rueda, sin playoffs. El Torneo Clausura 2009 (febrero-julio; campeón Vélez)
     # cerraba la temporada 2008-09: su "tabla anual" es la de la temporada (el Apertura 2008 y el Clausura 2009). Bajaron
     # los dos últimos de los promedios (2006-07, 2007-08 y 2008-09) y los dos de arriba jugaron la Promoción contra
@@ -1105,7 +1159,7 @@ def armar(clave):
                                     "fechas": sorted({p["fecha_n"] for p in ps})})
     if desempates:
         datos["desempate"] = limpio(desempates[0])
-    for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "promocion", "ventaja", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
+    for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "promocion", "ventaja", "triangular", "texto_triangular", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
               "campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro"):
         if cfg.get(k):
             datos[k] = cfg[k]

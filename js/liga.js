@@ -50,7 +50,11 @@
     // El campeón: el ganador de la final (en los 90 minutos, en el alargue o por penales)
     const final = T.playoffs.find(r => r.nombre === "Final")?.partidos[0];
     const todoJugado = T.fechas.every(f => f.partidos.every(p => p.gl != null || p.estado));
+    // un triangular final entre los empatados arriba (T.triangular: el Apertura 2008): el primero de esos tres partidos
+    const tri = T.triangular ? T.playoffs[0]?.partidos || [] : null;
+    const clubesTri = tri && [...new Set(tri.flatMap(p => [p.local, p.visitante]))];
     const campeon = final && final.gl != null ? (final.gl > final.gv || final.gl === final.gv && final.pen_l > final.pen_v ? final.local : final.visitante)
+      : tri && tri.length && tri.every(jugado) ? tabla(clubesTri, tri)[0].id
       : T.campeon_tabla && todoJugado ? tabla(Object.values(T.zonas).flat())[0].id : null;
     const [dia, hora] = T.actualizado.split(" ");
     document.getElementById("actualizado").textContent = campeon ? "Torneo terminado"
@@ -73,7 +77,7 @@
           f.pj++; f.gf += a; f.gc += b;
           const r = a > b ? "V" : a < b ? "D" : "E";
           f[{ V: "g", E: "e", D: "p" }[r]]++;
-          f.ultimos.push({ r, texto: `Fecha ${p.n}: ${club(p.local).nombre} ${p.gl}–${p.gv} ${club(p.visitante).nombre}` });
+          f.ultimos.push({ r, texto: `${p.n != null ? `Fecha ${p.n}: ` : ""}${club(p.local).nombre} ${p.gl}–${p.gv} ${club(p.visitante).nombre}` });
         });
       });
       return Object.values(t).map(f => ({ ...f, pts: f.g * 3 + f.e, dif: f.gf - f.gc }))
@@ -400,6 +404,8 @@
     // ---- Playoffs: el cuadro y los partidos; si todavía no empezaron, cómo serían los cruces si la fase regular
     // terminara hoy ----
     function vistaPlayoffs() {
+      if (tri) return `${tablaHTML("", { "": clubesTri }, 0, tri)}<p class="vacio">${esc(T.texto_triangular || "")}</p>` +
+        T.playoffs.map(r => `<h3>Partidos</h3>${r.partidos.map(p => partidoHTML(p)).join("")}`).join("");
       if (T.playoffs.length) return (!T.fechas.length && T.nota ? `<p class="nota-edicion">${esc(T.nota)}</p>` : "") +
         (T.etapas && !T.cuadro ? "" : `${cuadroHTML()}<p class="vacio">${T.ida_y_vuelta
           ? "El que pasó cada serie, resaltado, con el global de los dos partidos (pasando el mouse, la ida y la vuelta)"
