@@ -13,7 +13,7 @@ desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de C
   La Sudamericana es la misma página con `copa=sudamericana` adelante: `?copa=sudamericana`, `?copa=sudamericana&edicion=2014`,
   `?copa=sudamericana&equipo=lanus`, `?copa=sudamericana&estadisticas`. Lo mismo con `copa=recopa`, `copa=intercontinental` y `copa=mundial`
   (`?copa=mundial&edicion=2012`). En la cabecera, tocando el nombre de otra copa se cambia de copa.
-  La **Liga Profesional argentina** está en `liga.html` (desde 2020: la Copa Diego Maradona 2020, la Copa de la Liga y la
+  La **Liga Profesional argentina** está en `liga.html` (desde 2019: la Superliga 2018-19, la Copa de la Superliga 2019 y la Superliga 2019-20, la Copa Diego Maradona 2020, la Copa de la Liga y la
   Liga Profesional de 2021, 2022, 2023 y 2024, y los torneos Apertura y Clausura de 2025 y 2026, que se eligen arriba: primero el año y después el torneo de ese año.
   `liga.html?anio=2024` abre el último torneo de ese año (el que tiene la tabla anual); `liga.html?torneo=2024-copa`, uno en particular): la tabla de las dos zonas,
   todas las fechas con resultados y goles, los goleadores, los playoffs (con su cuadro), la tabla anual y los promedios del descenso
@@ -206,7 +206,21 @@ fechas): la primera fase (6 zonas de 4), la Fase Campeón y la Fase Complementac
 mismas fechas). Las finales tienen nombres propios (`playoffs`: la final, la de la Complementación y el repechaje por la
 Sudamericana). Como no son una eliminación directa común, el cuadro va armado a mano y en dos partes (`cuadro`):
 la final del torneo, sola (con el campeón), y el camino al lugar en la Sudamericana (la final de la Complementación y el
-repechaje, al que fueron su ganador y el subcampeón). Sin descensos ni tabla anual. Para sumar un torneo, agregarlo a `TORNEOS` en el script;
+repechaje, al que fueron su ganador y el subcampeón). Sin descensos ni tabla anual.
+
+**2019** (las temporadas cruzaban los años: `anios`): la Superliga 2018-19 (una tabla de 26, campeón Racing), la Copa de
+la Superliga 2019 (campeón Tigre) y la Superliga 2019-20 (una tabla de 24, campeón Boca). Las Superligas no tenían tabla
+anual: la pestaña "Copas y descenso" usa la tabla del torneo, y los promedios nombran la temporada (`temporada`:
+"2018-19"). En 2018-19 bajaron los cuatro últimos de los promedios (`descienden`: 4) y los cupos 2020 salieron de la
+tabla, los campeones (Superliga, Copa de la Superliga, Copa Argentina) y un lugar en la Sudamericana para el mejor de
+la Copa de la Superliga que no tenía lugar (Argentinos: un `sudamericana_titulos` puesto a mano). Un club que bajó y
+volvió cuenta en los promedios solo desde que volvió (Aldosivi). La Copa de la Superliga (`copa`: sin fase regular; en
+ESPN, "arg.copa_de_la_superliga") fue eliminación directa a ida y vuelta (`ida_y_vuelta`, `gol_visitante`: el cuadro
+muestra el global de cada serie) y el cuadro arranca en octavos (`cuadro_desde`). Tres definiciones por penales y un
+gol en contra que ESPN no tiene van en `PENALES_A_MANO` y `GOLES_A_MANO`. En 2019-20 no hubo descensos; los cupos
+2021 no se cargaron. Todo controlado contra Wikipedia.
+
+Para sumar un torneo, agregarlo a `TORNEOS` en el script;
 los clubes que no jugaron copas (y no están en `data/equipos.js`) van en `CLUBES_NUEVOS`, y su escudo se baja solo.
 
 ### Corregir clubes

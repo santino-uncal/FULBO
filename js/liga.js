@@ -113,7 +113,7 @@
     // ---- Tabla anual: lo jugado antes en el año (T.anual: el Apertura, [pts, pj, g, e, p, gf, gc]) más este torneo ----
     const ids = Object.values(T.zonas).flat();
     function tablaAnual() {
-      const ahora = Object.fromEntries(Object.values(T.zonas).flatMap(tabla).map(f => [f.id, f]));
+      const ahora = Object.fromEntries(Object.values(T.zonas).flatMap(z => tabla(z)).map(f => [f.id, f]));
       return ids.map(id => {
         const [pts, pj, g, e, p, gf, gc] = (T.anual || {})[id] || [0, 0, 0, 0, 0, 0, 0];
         const f = ahora[id];
@@ -134,12 +134,13 @@
       }).sort((a, b) => b.prom - a.prom || club(a.id).nombre.localeCompare(club(b.id).nombre));
     }
     // Descienden el último de la tabla anual y el peor promedio; si es el mismo club, el anteúltimo de la tabla anual
+    // (todos: los que bajan; porProm: los que bajan por los promedios)
     function descensos(aunqueAnulados) {
-      if (!T.descensos && !(aunqueAnulados && T.descensos_anulados)) return { anual: null, prom: null };
-      // 2022: bajaban los dos últimos de los promedios (no había descenso por tabla anual)
+      if (!T.descensos && !(aunqueAnulados && T.descensos_anulados)) return { anual: null, prom: null, todos: [], porProm: [] };
+      // 2022: bajaban los dos últimos de los promedios (no había descenso por tabla anual); 2018-19, los cuatro últimos
       if (T.descensos === "promedios") {
-        const p = promedios();
-        return { prom: p.at(-1).id, prom2: p.at(-2).id, anual: null };
+        const porProm = promedios().slice(-(T.descienden || 2)).map(f => f.id);
+        return { porProm, todos: porProm, anual: null };
       }
       const anual = tablaAnual(), prom = promedios().at(-1).id;
       let porAnual = anual.at(-1).id === prom ? anual.at(-2).id : anual.at(-1).id;
@@ -147,7 +148,7 @@
       const des = T.desempate;
       if (des && des.gl != null && [des.local, des.visitante].includes(porAnual))
         porAnual = ganador(des) === des.local ? des.visitante : des.local;
-      return { prom, anual: porAnual };
+      return { prom, anual: porAnual, todos: [porAnual, prom], porProm: [prom] };
     }
     const enJuego = () => T.fechas.some(f => f.partidos.some(p => !jugado(p) && !p.estado));
     const avisoDescenso = () => T.descensos_anulados ? (() => {
@@ -155,7 +156,7 @@
       return `<p class="nota-edicion">${esc(T.descensos_anulados)} Con el reglamento, hubiesen descendido ${esc(club(d.anual).nombre)}
         (tabla anual) y ${esc(club(d.prom).nombre)} (promedios).</p>`;
     })() : `<p class="leyenda"><span><i class="desciende"></i>${enJuego() ? "Descendería si el año terminara hoy" : "Desciende"}
-      (${T.descensos === "promedios" ? "los dos últimos de los promedios" : "uno por la tabla anual y otro por los promedios"})</span></p>`;
+      (${T.descensos === "promedios" ? `los ${{ 2: "dos", 3: "tres", 4: "cuatro" }[T.descienden || 2]} últimos de los promedios` : "uno por la tabla anual y otro por los promedios"})</span></p>`;
     // ---- Cupos para las copas del año que viene (T.cupos): a la Libertadores, los campeones del año y los mejores de
     // la tabla anual hasta completar los lugares; a la Sudamericana, los siguientes. Un campeón que ya entra por la
     // tabla libera su lugar para el siguiente, y los que descienden no juegan copas. Los títulos que todavía no se
@@ -169,7 +170,7 @@
       const campeones = [...new Set(deLaLiga.map(x => x.club).filter(Boolean))];
       const extras = c.campeones.filter(x => x.extra && x.club).map(x => x.club);
       const pendientes = deLaLiga.filter(x => !x.club).length;
-      const resto = tablaAnual().map(f => f.id).filter(id => !campeones.includes(id) && !extras.includes(id) && ![d.anual, d.prom, d.prom2].includes(id));
+      const resto = tablaAnual().map(f => f.id).filter(id => !campeones.includes(id) && !extras.includes(id) && !d.todos.includes(id));
       const porTabla = c.libertadores - campeones.length - pendientes;
       const libertadores = new Set([...campeones, ...extras, ...resto.slice(0, porTabla)]);
       // lugares de la Sudamericana ganados por un torneo (2021: el subcampeón de la Copa Diego Maradona), si no van ya
@@ -184,11 +185,11 @@
         ? ` <span class="vacio">(lugar aparte, no es de la liga)</span>` : ""}</li>`;
       return `<div class="cupos"><h4>Copa Libertadores ${cu.anio}</h4>
         <ul class="cupos-campeones">${cu.campeones.map(titulo).join("")}
-          <li><span class="cupo-titulo">Tabla anual</span><span>los ${cu.porTabla} mejores que no sean campeones</span></li></ul>
+          <li><span class="cupo-titulo">${T.anual ? "Tabla anual" : "Tabla"}</span><span>los ${cu.porTabla} mejores que no sean campeones</span></li></ul>
         <h4>Copa Sudamericana ${cu.anio}</h4>${(cu.sudamericana_titulos || []).length
           ? `<ul class="cupos-campeones">${cu.sudamericana_titulos.map(titulo).join("")}</ul>` : ""}
-        <p>${(cu.sudamericana_titulos || []).length ? "Y los" : "Los"} ${cu.sudamericana.size - (cu.sudamericana_titulos || []).filter(x => x.club).length} siguientes de la tabla anual.</p>
-        <p class="vacio">Si un campeón ya entra por la tabla anual (o gana dos títulos), su lugar pasa al siguiente de la tabla.
+        <p>${(cu.sudamericana_titulos || []).length ? "Y los" : "Los"} ${cu.sudamericana.size - (cu.sudamericana_titulos || []).filter(x => x.club).length} siguientes de la tabla${T.anual ? " anual" : ""}.</p>
+        <p class="vacio">Si un campeón ya entra por la tabla${T.anual ? " anual" : ""} (o gana dos títulos), su lugar pasa al siguiente de la tabla.
           Los que descienden no juegan copas.</p></div>`;
     }
     function vistaAnual() {
@@ -201,7 +202,7 @@
         .concat(tituloAnual && id === anual[0].id ? [tituloAnual] : []);
       const cuerpo = anual.map((f, i) => {
         const dif = f.dif > 0 ? `+${f.dif}` : f.dif;
-        const marca = [d.anual, d.prom, d.prom2].includes(f.id) ? "desciende" : cu?.libertadores.has(f.id) ? "libertadores"
+        const marca = d.todos.includes(f.id) ? "desciende" : cu?.libertadores.has(f.id) ? "libertadores"
           : cu?.sudamericana.has(f.id) ? "sudamericana" : "";
         const titulos = campeonDe(f.id).map(x => ` <span class="campeon-de" title="${esc(x.replace("de la Torneo", "del Torneo"))}">🏆</span>`).join("");
         return `<tr><td class="pos ${marca}">${i + 1}</td><td class="eq">${nombreClub(f.id)}${titulos}</td>
@@ -209,7 +210,7 @@
           <td class="opc">${f.g}</td><td class="opc">${f.e}</td><td class="opc">${f.p}</td></tr>`;
       }).join("");
       const hoy = enJuego() ? " si el año terminara hoy" : "";
-      return `<p class="vacio">${esc(T.anual_texto || `Suma la fase de zonas del Torneo Apertura y del Torneo Clausura ${T.anio}.`)} Los playoffs no cuentan.</p>
+      return `<p class="vacio">${esc(T.anual_texto || `Suma la fase de zonas del Torneo Apertura y del Torneo Clausura ${T.anio}.`)}${T.anual ? " Los playoffs no cuentan." : ""}</p>
         ${tituloAnual ? `<p class="campeon-torneo">🏆 ${esc(tituloAnual)}: ${nombreClub(anual[0].id)}
           <small class="vacio">(título que la AFA le dio al primero de la tabla anual)</small></p>` : ""}
         ${cu ? cuposHTML(cu) : ""}
@@ -226,14 +227,16 @@
     function vistaPromedios() {
       const d = descensos();
       const temporada = t => t ? t[0] : "–";
-      const cuerpo = promedios().map((f, i) => `<tr><td class="pos ${[d.prom, d.prom2].includes(f.id) ? "desciende" : ""}">${i + 1}</td>
+      const cuerpo = promedios().map((f, i) => `<tr><td class="pos ${d.porProm.includes(f.id) ? "desciende" : ""}">${i + 1}</td>
         <td class="eq">${nombreClub(f.id)}</td>${f.temporadas.map(t => `<td class="opc" title="${t ? `${t[1]} partidos` : "No jugó en Primera"}">${temporada(t)}</td>`).join("")}
         <td>${f.pts}</td><td>${f.pj}</td><td class="pts">${(Math.floor(f.prom * 1000 + 1e-9) / 1000).toFixed(3).replace(".", ",")}</td></tr>`).join("");
-      return `<p class="vacio">Los puntos de las temporadas ${[...aniosProm, T.anio].join(", ")} divididos por los partidos jugados
-        (la de ${T.anio} es la tabla anual). Los que subieron hace poco dividen solo por los partidos que jugaron en Primera. El promedio va con tres decimales, sin redondear (como lo publica la AFA).</p>
-        <div class="grupo tabla-larga"><table><thead><tr><th>#</th><th class="eq">Equipo</th>${[...aniosProm, T.anio].map(a => `<th class="opc">${a}</th>`).join("")}
+      const actual = T.temporada || T.anio;
+      return `<p class="vacio">Los puntos de las temporadas ${[...aniosProm, actual].join(", ")} divididos por los partidos jugados
+        (la de ${actual} es ${T.temporada ? "este torneo" : "la tabla anual"}). Los que subieron hace poco dividen solo por los partidos que jugaron en Primera. El promedio va con tres decimales, sin redondear (como lo publica la AFA).</p>
+        <div class="grupo tabla-larga"><table><thead><tr><th>#</th><th class="eq">Equipo</th>${[...aniosProm, actual].map(a => `<th class="opc">${a}</th>`).join("")}
           <th>Pts</th><th>J</th><th>Prom.</th></tr></thead><tbody>${cuerpo}</tbody></table></div>
-        ${T.descensos || T.descensos_anulados ? avisoDescenso() : ""}`;
+        ${T.descensos || T.descensos_anulados ? avisoDescenso() : ""}
+        ${T.sin_descensos && !T.anual && !T.cupos ? `<p class="nota-edicion">${esc(T.sin_descensos)}</p>` : ""}`;
     }
 
     // ---- Un partido ----
@@ -260,7 +263,7 @@
     }
 
     // ---- Fechas: una a la vez, con flechas. Arranca en la que se está jugando (la primera con partidos sin jugar) ----
-    const fechaActual = () => (T.fechas.find(f => f.partidos.some(p => !jugado(p) && !p.estado)) || T.fechas.at(-1)).numero;
+    const fechaActual = () => (T.fechas.find(f => f.partidos.some(p => !jugado(p) && !p.estado)) || T.fechas.at(-1))?.numero;
     let fechaVista = +PARAMS.get("fecha") || fechaActual();
     function vistaFechas() {
       const f = T.fechas.find(x => x.numero === fechaVista) || T.fechas[0];
@@ -286,7 +289,7 @@
     // ---- Cuadro de los playoffs (todos a un partido). Se arma desde la última ronda que tiene partidos hacia atrás:
     // arriba de cada partido, el de la ronda anterior de su primer equipo, y abajo el del segundo. Las rondas que
     // todavía no se jugaron quedan con casillas vacías ("a definir") ----
-    const ganador = p => p.gl == null ? null : p.gl > p.gv || p.gl === p.gv && p.pen_l > p.pen_v ? p.local
+    const ganador = p => p.gana !== undefined ? p.gana : p.gl == null ? null : p.gl > p.gv || p.gl === p.gv && p.pen_l > p.pen_v ? p.local
       : p.gl < p.gv || p.pen_v > p.pen_l ? p.visitante : null;
     function cuadroHTML() {
       // Un cuadro armado a mano (T.cuadro: la Copa Maradona 2020), en partes ("bloques"), cada una con sus columnas
@@ -299,7 +302,10 @@
             ${dibujarCuadro(columnas.map(rondas => rondas.map(partido)), columnas.map(rondas => rondas.join(" / ")))}`;
         }).join("");
       }
-      const rondas = T.playoffs;
+      // (desde la ronda en que el cuadro es parejo: en la Copa de la Superliga 2019, octavos; la primera ronda no,
+      // porque 6 entraron directo en octavos)
+      const desde = T.playoffs.findIndex(r => r.nombre === T.cuadro_desde);
+      const rondas = T.playoffs.slice(Math.max(0, desde)).map(r => ({ ...r, partidos: series(r.partidos) }));
       const ultima = rondas.at(-1);
       const niveles = [[...ultima.partidos].sort((a, b) => (a.fecha || "").localeCompare(b.fecha || ""))];
       for (let r = rondas.length - 2; r >= 0; r--) {
@@ -321,6 +327,27 @@
       }
       return dibujarCuadro(niveles, nombres);
     }
+    // Series de ida y vuelta (T.ida_y_vuelta): los dos partidos de cada cruce, juntos, con el global. Si queda igual,
+    // pasa el que hizo más goles de visitante (T.gol_visitante) y, si no, el que ganó los penales de la vuelta
+    function series(partidos) {
+      if (!T.ida_y_vuelta) return partidos;
+      const grupos = {};
+      [...partidos].sort((a, b) => (a.fecha || "").localeCompare(b.fecha || ""))
+        .forEach(p => (grupos[[p.local, p.visitante].sort().join("|")] ||= []).push(p));
+      return Object.values(grupos).map(ps => {
+        if (ps.length < 2) return ps[0];
+        const [ida, vuelta] = ps;
+        const s = { local: ida.local, visitante: ida.visitante, fecha: vuelta.fecha, serie: [ida, vuelta] };
+        if (!jugado(ida) || !jugado(vuelta)) return { ...s, gana: null };
+        s.gl = ida.gl + vuelta.gv; s.gv = ida.gv + vuelta.gl;
+        if (vuelta.pen_l != null) { s.pen_l = vuelta.pen_v; s.pen_v = vuelta.pen_l; }
+        // goles de visitante: el local de la ida los hizo en la vuelta, y al revés
+        const fuera = T.gol_visitante ? vuelta.gv - ida.gv : 0;
+        s.gana = s.gl !== s.gv ? (s.gl > s.gv ? s.local : s.visitante) : fuera ? (fuera > 0 ? s.local : s.visitante)
+          : s.pen_l != null ? (s.pen_l > s.pen_v ? s.local : s.visitante) : null;
+        return s;
+      });
+    }
     // niveles: los partidos de cada columna; nombres: el título de cada columna; titulos: el de cada partido (opcional)
     function dibujarCuadro(niveles, nombres, titulos = []) {
       const llave = p => {
@@ -329,7 +356,8 @@
         const gana = ganador(p);
         const fila = (id, g, pen) => `<div class="ll-eq${id === gana ? " gana" : ""}" title="${esc(club(id).nombre)}">
           <span class="ll-nombre">${nombreClub(id)}</span><span class="ll-total">${g ?? "–"}${pen != null ? ` <small>(${pen})</small>` : ""}</span></div>`;
-        const detalle = [p.fecha && fechaLarga(p.fecha), p.estadio, p.alargue && "con alargue"].filter(Boolean).join(" · ");
+        const detalle = p.serie ? p.serie.map((q, i) => `${i ? "Vuelta" : "Ida"}: ${club(q.local).nombre} ${q.gl ?? ""}–${q.gv ?? ""} ${club(q.visitante).nombre}`).join(" · ")
+          : [p.fecha && fechaLarga(p.fecha), p.estadio, p.alargue && "con alargue"].filter(Boolean).join(" · ");
         return `<div class="llave" title="${esc(detalle)}">${fila(p.local, p.gl, p.pen_l)}${fila(p.visitante, p.gv, p.pen_v)}</div>`;
       };
       const columnas = niveles.map((nivel, n) => {
@@ -347,7 +375,10 @@
     // ---- Playoffs: el cuadro y los partidos; si todavía no empezaron, cómo serían los cruces si la fase regular
     // terminara hoy ----
     function vistaPlayoffs() {
-      if (T.playoffs.length) return (T.etapas && !T.cuadro ? "" : `${cuadroHTML()}<p class="vacio">El ganador de cada partido, resaltado;
+      if (T.playoffs.length) return (!T.fechas.length && T.nota ? `<p class="nota-edicion">${esc(T.nota)}</p>` : "") +
+        (T.etapas && !T.cuadro ? "" : `${cuadroHTML()}<p class="vacio">${T.ida_y_vuelta
+          ? "El que pasó cada serie, resaltado, con el global de los dos partidos (pasando el mouse, la ida y la vuelta)"
+          : "El ganador de cada partido, resaltado"};
         entre paréntesis, los penales.${T.cuadro?.nota ? " " + esc(T.cuadro.nota) : ""}</p>`) +
         T.playoffs.map(r => `<h3>${esc(r.nombre)}</h3>${r.partidos.map(p => partidoHTML(p)).join("")}`).join("");
       const [za, zb] = Object.keys(T.zonas);
@@ -384,18 +415,24 @@
     }
 
     // ---- Pestañas ----
-    let vista = VISTAS.some(([v]) => v === PARAMS.get("vista")) ? PARAMS.get("vista") : "tabla";
+    // las pestañas que tiene este torneo (sin fase regular, la Copa de la Superliga 2019: el cuadro y los goleadores;
+    // con cupos pero sin tabla anual, las Superligas: la de la tabla anual es la de las copas y el descenso)
+    const hay = v => (v !== "tabla" && v !== "fechas" || T.fechas.length) && (v !== "promedios" || T.promedios)
+      && (v !== "anual" || T.anual || T.cupos) && (v !== "playoffs" || T.pasan || T.playoffs.length);
+    const nombreVista = (v, n) => v === "anual" && !T.anual ? "Copas y descenso" : v === "playoffs" && !T.fechas.length ? "Cuadro y partidos" : n;
+    const inicial = T.fechas.length ? "tabla" : "playoffs";
+    let vista = VISTAS.some(([v]) => v === PARAMS.get("vista") && hay(v)) ? PARAMS.get("vista") : inicial;
     function dibujar(guardar) {
       if (guardar) {
         const q = new URLSearchParams({ torneo: CLAVE });
-        if (vista !== "tabla") q.set("vista", vista);
+        if (vista !== inicial) q.set("vista", vista);
         if (vista === "fechas") q.set("fecha", fechaVista);
         history.pushState({ vista, fechaVista }, "", `?${q}`);
       }
       const html = { tabla: vistaTabla, fechas: vistaFechas, playoffs: vistaPlayoffs, anual: vistaAnual, promedios: vistaPromedios,
         goleadores: vistaGoleadores }[vista]();
-      ligaEl.innerHTML = `<div class="pestanas" role="tablist">${VISTAS.filter(([v]) => (v !== "promedios" || T.promedios) && (v !== "anual" || T.anual) && (v !== "playoffs" || T.pasan || T.playoffs.length)).map(([v, n]) =>
-        `<button class="pestana" type="button" role="tab" data-vista="${v}" aria-selected="${v === vista}">${n}</button>`).join("")}</div>${html}`;
+      ligaEl.innerHTML = `<div class="pestanas" role="tablist">${VISTAS.filter(([v]) => hay(v)).map(([v, n]) =>
+        `<button class="pestana" type="button" role="tab" data-vista="${v}" aria-selected="${v === vista}">${nombreVista(v, n)}</button>`).join("")}</div>${html}`;
     }
     ligaEl.addEventListener("click", e => {
       const b = e.target.closest("button");
@@ -407,7 +444,7 @@
     });
     window.addEventListener("popstate", e => {
       const q = new URLSearchParams(location.search);
-      vista = q.get("vista") || "tabla";
+      vista = q.get("vista") || inicial;
       fechaVista = +q.get("fecha") || fechaActual();
       dibujar();
     });

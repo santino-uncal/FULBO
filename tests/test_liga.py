@@ -77,5 +77,23 @@ class DatosLiga(unittest.TestCase):
                     self.assertTrue(c["escudo"] and (RAIZ / c["escudo"]).exists(), f"falta el escudo de {cid}")
 
 
+class Temporada2019(unittest.TestCase):
+    def test_superliga_y_copa(self):
+        sl = cargar(DATOS / "2019-superliga-18-19.js")
+        self.assertEqual(len(sl["fechas"]), 25)
+        self.assertEqual(sl["descienden"], 4)
+        campeones = {c["titulo"]: c["club"] for c in sl["cupos"]["campeones"]}
+        self.assertEqual(campeones["Copa de la Superliga 2019"], "tigre")
+        self.assertEqual(campeones["Copa Argentina 2019"], "river-plate")
+        copa = cargar(DATOS / "2019-copa-superliga.js")
+        self.assertEqual(copa["fechas"], [])
+        self.assertEqual([r["nombre"] for r in copa["playoffs"]],
+                         ["Primera ronda", "Octavos de final", "Cuartos de final", "Semifinales", "Final"])
+        self.assertEqual([len(r["partidos"]) for r in copa["playoffs"]], [20, 16, 8, 4, 1])
+        # las vueltas definidas por penales que ESPN no tiene (Huracán-San Lorenzo, Talleres-San Martín SJ, Godoy Cruz-Patronato)
+        self.assertEqual(sum("pen_l" in p for p in copa["playoffs"][0]["partidos"]), 3)
+        self.assertEqual(len(cargar(DATOS / "2019-superliga-19-20.js")["fechas"]), 23)
+
+
 if __name__ == "__main__":
     unittest.main()

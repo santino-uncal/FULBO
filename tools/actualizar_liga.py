@@ -32,6 +32,58 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2019 (y lo que se jugó de esas temporadas en 2018 y 2020): la Superliga 2018-19 (agosto de 2018 - abril de 2019,
+    # una sola tabla de 26; campeón Racing), la Copa de la Superliga 2019 (abril-junio, eliminación directa a ida y
+    # vuelta; campeón Tigre) y la Superliga 2019-20 (julio de 2019 - marzo de 2020, una sola tabla de 24; campeón Boca).
+    # "temporada": cómo se llama la temporada en los promedios (en vez del año)
+    # Superliga 2018-19: descendieron los cuatro últimos de los promedios (2016-17, 2017-18 y 2018-19; la liga pasaba
+    # de 26 a 24). No había tabla anual: los cupos para las copas 2020 salían de la tabla de la Superliga, más los
+    # campeones de la Copa de la Superliga y de la Copa Argentina (Tigre fue a la Libertadores aunque descendió)
+    "2019-superliga-18-19": {"nombre": "Superliga 2018-19", "anio": 2019, "anios": [2018, 2019], "slug": "superliga-18-19",
+                             "patron": r"superliga-argentina-2018-19", "zonas": "unica", "fechas": 25, "pasan": 0,
+                             "campeon_tabla": True, "temporada": "2018-19",
+                             "anual_texto": "La tabla de la Superliga 2018-19 entera (no había tabla anual: la temporada era un "
+                                            "solo torneo; la Copa de la Superliga no sumaba).",
+                             "promedios": {"2016-17": [("arg.1", r"campeonato-de-1ra-division-20162017", 2016),
+                                                       ("arg.1", r"campeonato-de-1ra-division-20162017", 2017)],
+                                           "2017-18": [("arg.1", r"superliga-argentina-2017-18", 2017),
+                                                       ("arg.1", r"superliga-argentina-2017-18", 2018)]},
+                             "descensos": "promedios", "descienden": 4,
+                             "cupos": {"anio": 2020, "libertadores": 6, "sudamericana": 6,
+                                       # la Copa de la Superliga daba un lugar en la Sudamericana al mejor ubicado
+                                       # en ella que no tuviera lugar: Argentinos (semifinalista; el otro, Atlético
+                                       # Tucumán, ya iba a la Libertadores)
+                                       "sudamericana_titulos": [("Mejor ubicado en la Copa de la Superliga 2019",
+                                                                 "argentinos-juniors")],
+                                       "campeones": [("Superliga 2018-19", None, None),
+                                                     ("Copa de la Superliga 2019", "arg.copa_de_la_superliga", r"^final$"),
+                                                     ("Copa Argentina 2019", "arg.copa", r"(^|-)final$")]}},
+    # Copa de la Superliga 2019: sin fase regular ("copa"). Los 20 de abajo de la Superliga (7º a 26º) jugaron la
+    # primera ronda y los 6 primeros entraron en octavos; todo a ida y vuelta (con gol de visitante y penales) menos la
+    # final, en Córdoba. El cuadro arranca en octavos ("cuadro_desde")
+    "2019-copa-superliga": {"nombre": "Copa de la Superliga 2019", "anio": 2019, "liga": "arg.copa_de_la_superliga",
+                            "slug": "copa-superliga", "patron": r"", "copa": True, "fechas": 0, "pasan": 0,
+                            "playoffs": [(r"^first-round$", "Primera ronda"), (r"^round-of-16$", "Octavos de final"),
+                                         (r"^quarterfinals$", "Cuartos de final"), (r"^semifinals$", "Semifinales"),
+                                         (r"^final$", "Final")],
+                            "ida_y_vuelta": True, "gol_visitante": True, "cuadro_desde": "Octavos de final",
+                            "nota": "La Copa de la Superliga se jugó después de la Superliga 2018-19, por eliminación directa. "
+                                    "Los equipos del 7º al 26º puesto de la Superliga jugaron la primera ronda; los 6 primeros "
+                                    "entraron directo en octavos. Todas las series fueron a ida y vuelta (si quedaban iguales en "
+                                    "el global, pasaba el que había hecho más goles de visitante y, si seguían iguales, se "
+                                    "definían por penales), menos la final, a un partido en Córdoba. El campeón fue a la "
+                                    "Copa Libertadores 2020."},
+    # Superliga 2019-20: los descensos se anularon (la Copa de la Superliga 2020 se canceló por la pandemia). Los
+    # cupos para las copas 2021 se definieron junto con la Copa Diego Maradona: no se cargan
+    "2019-superliga-19-20": {"nombre": "Superliga 2019-20", "anio": 2019, "anios": [2019, 2020], "slug": "superliga-19-20",
+                             "patron": r"superliga-argentina-2019-20", "zonas": "unica", "fechas": 23, "pasan": 0,
+                             "campeon_tabla": True, "temporada": "2019-20",
+                             "promedios": {"2017-18": [("arg.1", r"superliga-argentina-2017-18", 2017),
+                                                       ("arg.1", r"superliga-argentina-2017-18", 2018)],
+                                           "2018-19": [("arg.1", r"superliga-argentina-2018-19", 2018),
+                                                       ("arg.1", r"superliga-argentina-2018-19", 2019)]},
+                             "sin_descensos": "En la temporada 2019-20 no hubo descensos: la Copa de la Superliga 2020 se "
+                                              "canceló por la pandemia después de una fecha y la AFA anuló los descensos."},
     # 2020: el único torneo fue la Copa Diego Maradona (octubre de 2020 - marzo de 2021; en ESPN, dentro de "arg.1" de
     # 2020 y de 2021). Por etapas: la primera fase (6 zonas de 4, ida y vuelta; pasaban los 2 primeros) y la segunda,
     # partida en la Fase Campeón (2 zonas de 6 con los clasificados; los ganadores jugaron la final) y la Fase
@@ -193,6 +245,12 @@ PARTIDOS_A_MANO = {
                                    ("20", "2635", 1, 1), ("11989", "14", 1, 2), ("16", "9785", 0, 1), ("10", "19", 0, 3),
                                    ("9739", "15", 3, 4), ("12", "3", 0, 1), ("17", "7", 1, 3), ("8950", "8", 2, 1)],
 }
+# Definiciones por penales que ESPN no tiene: {id del partido de ESPN: (penales del local, del visitante)}. Copa de la
+# Superliga 2019, vueltas de la primera ronda (Wikipedia, Ámbito)
+PENALES_A_MANO = {"540170": (3, 4), "540167": (3, 2), "540166": (5, 4)}
+# Goles que ESPN no tiene: {id del partido de ESPN: [gol, ...]}. Aldosivi 2-1 Huracán (Superliga 2018-19): el gol en
+# contra de Saúl Salcedo, a los 17 del segundo tiempo (La Voz de San Justo)
+GOLES_A_MANO = {"521397": [{"jugador": "Saúl Salcedo", "min": 62, "tipo": "ec", "equipo": "local"}]}
 # Puntos descontados por sanciones: {(año, id de ESPN): puntos}. Por ahora, ninguno
 DESCUENTOS = {}
 PLAYOFFS = [("round-of-16", "Octavos de final"), ("quarter", "Cuartos de final"), ("semi", "Semifinales"),
@@ -205,6 +263,7 @@ CLUBES_NUEVOS = {
     "9739": ("aldosivi", "Aldosivi"),
     "10158": ("sarmiento", "Sarmiento"),
     "19685": ("estudiantes-rio-cuarto", "Estudiantes de Río Cuarto"),
+    "17814": ("san-martin-tucuman", "San Martín de Tucumán"),
 }
 
 # Nombres que en la liga se confunden (en data/equipos.js están como en las copas)
@@ -418,7 +477,7 @@ def armar(clave):
     unica = cfg.get("zonas") == "unica"   # todos contra todos: una sola tabla (la Liga 2024)
     etapas = cfg.get("etapas")   # torneos por etapas (la Copa Maradona 2020): las zonas salen del grupo de cada partido
     eventos = [e for a in cfg.get("anios", [cfg["anio"]])
-               for e in bajar(a, cfg["slug"], con_zonas="zonas_de" not in cfg and not unica and not etapas,
+               for e in bajar(a, cfg["slug"], con_zonas="zonas_de" not in cfg and not unica and not etapas and not cfg.get("copa"),
                               liga=cfg.get("liga", "arg.1"), patron=cfg.get("patron"))]
     carpeta = CACHE / str(cfg["anio"])
     if cfg.get("playoffs"):   # finales con nombre propio
@@ -426,7 +485,7 @@ def armar(clave):
     else:
         es_playoff = lambda e: next((n for s, n in PLAYOFFS if re.search(rf"(^|-){s}", e["season"]["slug"])), None)
     etapa_de = lambda e: next((i for i, (_, s, *_) in enumerate(etapas) if re.search(s, e["season"]["slug"])), None)
-    if etapas:
+    if etapas or cfg.get("copa"):   # (sin fase regular, no hay zonas)
         zonas_espn = {}
     elif unica:
         zonas_espn = {"": sorted({c["team"]["id"] for e in eventos for c in e["competitions"][0]["competitors"]})}
@@ -496,12 +555,16 @@ def armar(clave):
             p["alargue"] = True
         if lados["home"].get("shootoutScore") is not None:
             p["pen_l"], p["pen_v"] = int(lados["home"]["shootoutScore"]), int(lados["away"]["shootoutScore"])
+        if e["id"] in PENALES_A_MANO:
+            p["pen_l"], p["pen_v"] = PENALES_A_MANO[e["id"]]
         detalle = Path(e.get("_carpeta", carpeta)) / f"{e['id']}.json"
         if detalle.exists():
             completar(p, json.loads(detalle.read_text(encoding="utf-8")))
         p["goles"] = [{**{k: v for k, v in g.items() if v is not None and k not in ("lado", "aid")}, "equipo": g["lado"]}
                       for g in p["goles"]]
         p.pop("formaciones", None)
+        if e["id"] in GOLES_A_MANO:
+            p["goles"] = sorted(p["goles"] + GOLES_A_MANO[e["id"]], key=lambda g: g.get("min") or 0)
         fase = es_playoff(e)
         if cfg.get("desempate") and re.search(cfg["desempate"], e["season"]["slug"]):
             desempates.append(p)
@@ -520,7 +583,7 @@ def armar(clave):
             repartir_fechas(de_etapa, cuantas)
             for p in de_etapa:
                 p["fecha_n"] += primera - 1
-    else:
+    elif regular:
         repartir_fechas(regular, cfg["fechas"])
     fechas = {}
     for p in regular:
@@ -549,6 +612,13 @@ def armar(clave):
         for anio, fuentes in cfg["promedios"].items():
             s = sumar(anio, fuentes)
             datos["promedios"][anio] = {cid: s[eid][:2] for cid, eid in espn_de.items() if eid in s}
+        # un club que bajó y volvió a subir cuenta solo desde que volvió (Aldosivi 2018-19: no se le cuenta 2016-17):
+        # se le borran las temporadas anteriores a una en la que no estuvo en Primera
+        temporadas = list(datos["promedios"])
+        for i, anio in enumerate(temporadas):
+            for cid in list(datos["promedios"][anio]):
+                if any(cid not in datos["promedios"][otra] for otra in temporadas[i + 1:]):
+                    del datos["promedios"][anio][cid]
     datos["descensos"] = cfg.get("descensos", False)
     if etapas:
         datos["etapas"] = []
@@ -563,7 +633,8 @@ def armar(clave):
                                     "fechas": sorted({p["fecha_n"] for p in ps})})
     if desempates:
         datos["desempate"] = limpio(desempates[0])
-    for k in ("campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro"):
+    for k in ("temporada", "descienden", "ida_y_vuelta", "gol_visitante", "cuadro_desde", "campeon_tabla", "anual_texto",
+              "descensos_anulados", "sin_descensos", "nota", "cuadro"):
         if cfg.get(k):
             datos[k] = cfg[k]
     if cfg.get("titulo_anual"):
@@ -586,8 +657,10 @@ def armar(clave):
                               for titulo, liga, patron, *modo in cfg["cupos"]["campeones"]]
         # lugares de la Sudamericana que se ganan por un torneo (2021: el subcampeón de la Copa Diego Maradona): le
         # restan lugares a la tabla anual
-        cupos["sudamericana_titulos"] = [{"titulo": titulo, "club": campeon(liga, cfg["anio"], patron, club, perdedor=modo == "perdedor")}
-                                         for titulo, liga, patron, modo in cfg["cupos"].get("sudamericana_titulos", [])]
+        # (con solo el título y el club: un lugar puesto a mano, como el del mejor de la Copa de la Superliga 2019)
+        cupos["sudamericana_titulos"] = [{"titulo": x[0], "club": x[1] if len(x) == 2 else
+                                          campeon(x[1], cfg["anio"], x[2], club, perdedor=x[3] == "perdedor")}
+                                         for x in cfg["cupos"].get("sudamericana_titulos", [])]
         datos["cupos"] = cupos
     DATOS.mkdir(parents=True, exist_ok=True)
     # si no cambió nada desde la última vez, queda la hora de antes (así un torneo terminado no cambia cada noche)
