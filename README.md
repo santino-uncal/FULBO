@@ -155,7 +155,13 @@ la Copa de la Liga, que en ESPN es otra liga, "arg.copa_lpf", y la Liga 2024; lo
 sus partidos en Primera). Descienden el último de la tabla anual y el peor promedio; si es el mismo club, el anteúltimo
 de la tabla anual. El script guarda lo ya jugado (el Apertura y las temporadas anteriores, `anual` y `promedios` en
 `TORNEOS`) y la página le suma el torneo en curso. Los puntos descontados por sanciones van en `DESCUENTOS`.
-Los números se controlaron contra futbolargentino.com y aquehorajuegan.com (octubre de 2026). Para sumar un torneo, agregarlo a `TORNEOS` en el script;
+Los números se controlaron contra futbolargentino.com y aquehorajuegan.com (octubre de 2026).
+
+**Cupos para las copas** (`cupos` en `TORNEOS`, reglamento de la AFA de marzo de 2026): a la Libertadores 2027 van los
+campeones del Apertura, del Clausura y de la Copa Argentina 2026 y los mejores de la tabla anual hasta completar 6; a la
+Sudamericana, los 6 siguientes. Si un campeón ya entra por la tabla (o gana dos títulos), su lugar pasa al siguiente;
+los que descienden no juegan copas. Los campeones salen solos de la final en ESPN (la Copa Argentina es "arg.copa");
+la página los marca en la tabla anual. Para sumar un torneo, agregarlo a `TORNEOS` en el script;
 los clubes que no jugaron copas (y no están en `data/equipos.js`) van en `CLUBES_NUEVOS`, y su escudo se baja solo.
 
 ### Corregir clubes

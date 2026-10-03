@@ -43,7 +43,15 @@ TORNEOS = {
                                     2025: [("arg.1", r"^torneo-(apertura|clausura)$")]},
                       # Descienden el último de la tabla anual y el peor promedio (si es el mismo club, el
                       # anteúltimo de la tabla anual)
-                      "descensos": True},
+                      "descensos": True,
+                      # Cupos para las copas del año que viene (reglamento de la AFA, marzo de 2026): a la Libertadores
+                      # van los tres campeones del año y los mejores de la tabla anual hasta completar 6; a la
+                      # Sudamericana, los 6 siguientes. Si un campeón ya entra por la tabla, su lugar pasa al
+                      # siguiente; los que descienden no juegan copas. Los campeones salen de la final de ESPN
+                      "cupos": {"anio": 2027, "libertadores": 6, "sudamericana": 6,
+                                "campeones": [("Torneo Apertura 2026", "arg.1", r"^apertura---final$"),
+                                              ("Torneo Clausura 2026", "arg.1", r"^clausura---final$"),
+                                              ("Copa Argentina 2026", "arg.copa", r"^final$")]}},
 }
 # Puntos descontados por sanciones: {(año, id de ESPN): puntos}. Por ahora, ninguno
 DESCUENTOS = {}
@@ -130,6 +138,17 @@ def sumar(anio, fuentes):
         if a == anio and eid in t:
             t[eid][0] -= pts
     return t
+
+
+def campeon(liga, anio, patron, club):
+    """El ganador de una final de ESPN (también si se definió por penales), o None si todavía no se jugó.
+    club: la función que convierte el equipo de ESPN en nuestro id (y suma el club a la lista)."""
+    for e in calendario(liga, anio).get("events", []):
+        if re.search(patron, (e.get("season") or {}).get("slug", "")) and e["status"]["type"].get("completed"):
+            ganador = [c for c in e["competitions"][0]["competitors"] if c.get("winner")]
+            if ganador:
+                return club(ganador[0]["team"])
+    return None
 
 
 def repartir_fechas(partidos, cantidad):
@@ -294,6 +313,11 @@ def armar(clave):
             s = sumar(anio, fuentes)
             datos["promedios"][anio] = {cid: s[eid][:2] for cid, eid in espn_de.items() if eid in s}
     datos["descensos"] = cfg.get("descensos", False)
+    if cfg.get("cupos"):
+        cupos = dict(cfg["cupos"])
+        cupos["campeones"] = [{"titulo": titulo, "club": campeon(liga, cfg["anio"], patron, club)}
+                              for titulo, liga, patron in cfg["cupos"]["campeones"]]
+        datos["cupos"] = cupos
     DATOS.mkdir(parents=True, exist_ok=True)
     js = ("/* Generado por tools/actualizar_liga.py — no editar a mano */\n"
           "window.LIGA = window.LIGA || {};\n"

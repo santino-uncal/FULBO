@@ -104,17 +104,50 @@
     const enJuego = () => T.fechas.some(f => f.partidos.some(p => !jugado(p) && !p.estado));
     const avisoDescenso = () => `<p class="leyenda"><span><i class="desciende"></i>${enJuego() ? "Descendería si el año terminara hoy" : "Desciende"}
       (uno por la tabla anual y otro por los promedios)</span></p>`;
+    // ---- Cupos para las copas del año que viene (T.cupos): a la Libertadores, los campeones del año y los mejores de
+    // la tabla anual hasta completar los lugares; a la Sudamericana, los siguientes. Un campeón que ya entra por la
+    // tabla libera su lugar para el siguiente, y los que descienden no juegan copas. Los títulos que todavía no se
+    // definieron se guardan (su campeón puede ser cualquiera) ----
+    function cupos() {
+      const c = T.cupos;
+      if (!c) return null;
+      const d = descensos();
+      const campeones = [...new Set(c.campeones.map(x => x.club).filter(Boolean))];
+      const pendientes = c.campeones.filter(x => !x.club).length;
+      const resto = tablaAnual().map(f => f.id).filter(id => !campeones.includes(id) && id !== d.anual && id !== d.prom);
+      const porTabla = c.libertadores - campeones.length - pendientes;
+      return { ...c, pendientes, porTabla, libertadores: new Set([...campeones, ...resto.slice(0, porTabla)]),
+        sudamericana: new Set(resto.slice(porTabla, porTabla + c.sudamericana)) };
+    }
+    function cuposHTML(cu) {
+      const titulo = x => `<li><span class="cupo-titulo">${esc(x.titulo)}</span>${x.club ? nombreClub(x.club) : `<span class="vacio">a definir</span>`}</li>`;
+      return `<div class="cupos"><h4>Copa Libertadores ${cu.anio}</h4>
+        <ul class="cupos-campeones">${cu.campeones.map(titulo).join("")}
+          <li><span class="cupo-titulo">Tabla anual</span><span>los ${cu.porTabla} mejores que no sean campeones</span></li></ul>
+        <h4>Copa Sudamericana ${cu.anio}</h4><p>Los ${cu.sudamericana.size} siguientes de la tabla anual.</p>
+        <p class="vacio">Si un campeón ya entra por la tabla anual (o gana dos títulos), su lugar pasa al siguiente de la tabla.
+          Los que descienden no juegan copas.</p></div>`;
+    }
     function vistaAnual() {
       const d = descensos();
+      const cu = cupos();
+      const campeonDe = id => (T.cupos?.campeones || []).filter(x => x.club === id).map(x => x.titulo);
       const cuerpo = tablaAnual().map((f, i) => {
         const dif = f.dif > 0 ? `+${f.dif}` : f.dif;
-        return `<tr><td class="pos ${f.id === d.anual ? "desciende" : ""}">${i + 1}</td><td class="eq">${nombreClub(f.id)}</td>
+        const marca = f.id === d.anual || f.id === d.prom ? "desciende" : cu?.libertadores.has(f.id) ? "libertadores"
+          : cu?.sudamericana.has(f.id) ? "sudamericana" : "";
+        const titulos = campeonDe(f.id).map(x => ` <span class="campeon-de" title="Campeón del ${esc(x)}">🏆</span>`).join("");
+        return `<tr><td class="pos ${marca}">${i + 1}</td><td class="eq">${nombreClub(f.id)}${titulos}</td>
           <td class="pts">${f.pts}</td><td>${f.pj}</td><td class="gol">${f.gf}:${f.gc}</td><td class="dif">${dif}</td>
           <td class="opc">${f.g}</td><td class="opc">${f.e}</td><td class="opc">${f.p}</td></tr>`;
       }).join("");
+      const hoy = enJuego() ? " si el año terminara hoy" : "";
       return `<p class="vacio">Suma la fase de zonas del Torneo Apertura y del Torneo Clausura ${T.anio} (los playoffs no cuentan).</p>
+        ${cu ? cuposHTML(cu) : ""}
         <div class="grupo tabla-larga"><table><thead><tr><th>#</th><th class="eq">Equipo</th><th>Pts</th><th>J</th><th class="gol">Gol</th><th>+/-</th>
           <th class="opc">G</th><th class="opc">E</th><th class="opc">P</th></tr></thead><tbody>${cuerpo}</tbody></table></div>
+        ${cu ? `<p class="leyenda"><span><i class="libertadores"></i>Copa Libertadores ${cu.anio}${hoy}</span>
+          <span><i class="sudamericana"></i>Copa Sudamericana ${cu.anio}${hoy}</span><span>🏆 Campeón del año</span></p>` : ""}
         ${T.descensos ? avisoDescenso() : ""}`;
     }
     function vistaPromedios() {

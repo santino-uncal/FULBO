@@ -449,6 +449,14 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .goleadores, .tabla-larga { max-width: 760px; }
 .grupo td.pos.desciende { background: var(--res-d); color: #fff; }
 .leyenda i.desciende { background: var(--res-d); }
+.grupo td.pos.libertadores, .leyenda i.libertadores { background: var(--directo); color: #fff; }
+.cupos { max-width: 760px; padding: 10px 16px; margin: 12px 0 16px; background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio); }
+.cupos h4 { margin: 8px 0 6px; color: var(--acento); }
+.cupos p { margin: 4px 0; }
+.cupos-campeones { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+.cupos-campeones li { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
+.cupo-titulo { min-width: 11em; color: var(--texto-suave); font-size: .9rem; }
+.campeon-de { font-size: .85em; }
 .grupo .eq.club-goleador { font-weight: 400; color: var(--texto-suave); }
 .ligas a { color: inherit; text-decoration: none; display: contents; }
 .ligas li:has(a) { border-color: var(--acento); }
