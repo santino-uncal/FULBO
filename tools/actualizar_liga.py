@@ -32,6 +32,51 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2013: dos torneos de 20 equipos a una rueda, sin playoffs. El Torneo Final 2013 (febrero-junio; campeón Newell's)
+    # cerraba la temporada 2012-13: su "tabla anual" es la de la temporada (el Inicial 2012 y el Final 2013). Bajaron los
+    # tres últimos de los promedios (2010-11, 2011-12 y 2012-13). Después, la Superfinal: el campeón del Inicial 2012
+    # (Vélez) contra el del Final 2013 (Newell's); ESPN no la tiene, va a mano (Wikipedia). Los cupos de la Sudamericana
+    # 2013, fijos
+    "2013-final": {"nombre": "Torneo Final 2013", "anio": 2013, "slug": "final-2013",
+                   "patron": r"^torneo-final-2013$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                   "campeon_tabla": True, "temporada": "2012-13", "nombre_anual": "Temporada y copas",
+                   "nombre_playoffs": "Superfinal", "playoffs": [(r"^$^", "Superfinal 2012-13")],
+                   "playoffs_a_mano": {"Superfinal 2012-13": [
+                       {"hora_utc": "2013-06-29T21:00Z", "fecha": "2013-06-29", "hora": "18:00",
+                        "local": "velez-sarsfield", "visitante": "newell-s-old-boys", "gl": 1, "gv": 0,
+                        "estadio": "Estadio Malvinas Argentinas (Mendoza)",
+                        "goles": [{"jugador": "Lucas Pratto", "min": 8, "equipo": "local"}]}]},
+                   "cuadro": {"bloques": [("Superfinal 2012-13: el campeón del Inicial 2012 contra el del Final 2013",
+                                           [["Superfinal 2012-13"]])]},
+                   "anual": [("arg.1", r"^torneo-inicial-2012$", 2012), ("arg.1", r"^torneo-inicial-2012$", 2013)],
+                   "anual_texto": "La tabla de la temporada 2012-13: suma el Torneo Inicial 2012 y el Torneo Final 2013.",
+                   "promedios": {"2010-11": [("arg.1", r"^torneo-apertura-2010$", 2010),
+                                             ("arg.1", r"^torneo-clausura-2011$", 2011)],
+                                 "2011-12": [("arg.1", r"^torneo-apertura-2011$", 2011),
+                                             ("arg.1", r"^torneo-clausura-2012$", 2012)]},
+                   "descensos": "promedios", "descienden": 3,
+                   "cupos": {"anio": 2013, "fijos": True,
+                             "sudamericana": [("Campeón de la temporada 2012-13 (Superfinal)", "velez-sarsfield"),
+                                              ("Tabla de la temporada 2012-13", "lanus"),
+                                              ("Tabla de la temporada 2012-13", "river-plate"),
+                                              ("Tabla de la temporada 2012-13", "racing-club"),
+                                              ("Tabla de la temporada 2012-13", "belgrano"),
+                                              ("Tabla de la temporada 2012-13", "san-lorenzo")]}},
+    # El Torneo Inicial 2013 (agosto-diciembre; campeón San Lorenzo) abría la temporada 2013-14: los descensos se
+    # definieron al terminarla, con el Torneo Final 2014. Los cupos de la Libertadores 2014, fijos
+    "2013-inicial": {"nombre": "Torneo Inicial 2013", "anio": 2013, "slug": "inicial-2013",
+                     "patron": r"^torneo-inicial-2013$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                     "campeon_tabla": True,
+                     "anual_texto": "La tabla del Torneo Inicial 2013, la primera mitad de la temporada 2013-14 (la "
+                                    "tabla de la temporada completa está en el Torneo Final 2014).",
+                     "sin_descensos": "En el Torneo Inicial 2013 no hubo descensos: se definieron al terminar la "
+                                      "temporada 2013-14, con el Torneo Final 2014.",
+                     "cupos": {"anio": 2014, "fijos": True,
+                               "libertadores": [("Campeón de la temporada 2012-13 (Superfinal)", "velez-sarsfield"),
+                                                ("Campeón del Torneo Final 2013", "newell-s-old-boys"),
+                                                ("Campeón del Torneo Inicial 2013", "san-lorenzo"),
+                                                ("Campeón de la Copa Argentina 2012-13", "arsenal-de-sarandi"),
+                                                ("Campeón de la Copa Sudamericana 2013", "lanus")]}},
     # 2014: dos torneos de 20 equipos a una rueda, sin playoffs. El Torneo Final 2014 (febrero-mayo; campeón River)
     # cerraba la temporada 2013-14: su "tabla anual" es la de la temporada (el Inicial 2013 y el Final 2014). Bajaron
     # los tres últimos de los promedios (2011-12, 2012-13 y 2013-14); Colón y Atlético de Rafaela empataron en el
@@ -418,9 +463,10 @@ GOLES_A_MANO = {"521397": [{"jugador": "Saúl Salcedo", "min": 62, "tipo": "ec",
 # torneo 2016, la final (Lanús-San Lorenzo) y el desempate por un lugar en las copas (Godoy Cruz-Estudiantes)
 NO_SUMAN = {"448823", "448810"}
 # Partidos que no se jugaron y la AFA dio por terminados con un resultado (ESPN los tiene como postergados): {id del
-# partido de ESPN: (goles del local, del visitante)}. Colón-Atlético de Rafaela, Inicial 2013: Colón no se presentó y se
+# partido de ESPN: (goles del local, del visitante, nota que se muestra en el partido)}. Colón-Atlético de Rafaela, Inicial 2013: Colón no se presentó y se
 # le dio ganado 1-0 a Rafaela (Diario de Cuyo); cuenta para los promedios de 2016
-RESULTADOS_A_MANO = {"382317": (0, 1)}
+RESULTADOS_A_MANO = {"382317": (0, 1, "No se jugó: Colón no se presentó y la AFA le dio el partido ganado 1-0 a "
+                                       "Atlético de Rafaela")}
 # Puntos descontados por sanciones: {(año, id de ESPN): puntos}. Se restan en la tabla anual (o de la temporada) de ese
 # año, no en la del torneo. Colón, temporada 2013-14: 6 puntos que le quitó la FIFA por una deuda con el Atlante
 # (Infobae); cuenta para los promedios y lo mandó al desempate con Rafaela
@@ -755,6 +801,10 @@ def armar(clave):
             p["alargue"] = True
         if lados["home"].get("shootoutScore") is not None:
             p["pen_l"], p["pen_v"] = int(lados["home"]["shootoutScore"]), int(lados["away"]["shootoutScore"])
+        if e["id"] in RESULTADOS_A_MANO:
+            p["gl"], p["gv"], p["nota"] = RESULTADOS_A_MANO[e["id"]]
+            p.pop("estado", None)
+            p["hora"] = None   # (no se jugó)
         if e["id"] in PENALES_A_MANO:
             p["pen_l"], p["pen_v"] = PENALES_A_MANO[e["id"]]
         detalle = Path(e.get("_carpeta", carpeta)) / f"{e['id']}.json"
@@ -776,6 +826,9 @@ def armar(clave):
                 g = ((comp.get("group") or {}).get("name") or "").replace("Group ", "")
                 p["zona"] = g[0] if re.fullmatch(r"[A-Z]\d", g) else g   # "A1" (zona A de la Fase Campeón) -> "A"
             regular.append(p)
+
+    for fase, ps in cfg.get("playoffs_a_mano", {}).items():   # partidos que ESPN no tiene (la Superfinal 2013)
+        playoffs.setdefault(fase, []).extend(dict(p) for p in ps)
 
     if etapas:   # las fechas, por etapa, numeradas desde la primera fecha de cada una
         for i, (_, _, _, primera, cuantas) in enumerate(etapas):

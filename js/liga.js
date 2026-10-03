@@ -231,8 +231,8 @@
         ${cu ? cuposHTML(cu) : ""}
         <div class="grupo tabla-larga"><table><thead><tr><th>#</th><th class="eq">Equipo</th><th>Pts</th><th>J</th><th class="gol">Gol</th><th>+/-</th>
           <th class="opc">G</th><th class="opc">E</th><th class="opc">P</th></tr></thead><tbody>${cuerpo}</tbody></table></div>
-        ${cu ? `<p class="leyenda"><span><i class="libertadores"></i>Copa Libertadores ${cu.anio}${hoy}</span>
-          <span><i class="sudamericana"></i>Copa Sudamericana ${cu.anio}${hoy}</span><span>🏆 Campeón del año</span></p>` : ""}
+        ${cu ? `<p class="leyenda">${cu.libertadores.size ? `<span><i class="libertadores"></i>Copa Libertadores ${cu.anio}${hoy}</span>` : ""}
+          ${cu.sudamericana.size ? `<span><i class="sudamericana"></i>Copa Sudamericana ${cu.anio}${hoy}</span>` : ""}<span>🏆 Campeón del año</span></p>` : ""}
         ${T.descensos || T.descensos_anulados ? avisoDescenso() : ""}
         ${T.sin_descensos ? `<p class="nota-edicion">${esc(T.sin_descensos)}</p>` : ""}
         ${T.desempate ? `<h3>Desempate${T.desempate_texto ? "" : " por el descenso"}</h3><p class="vacio">${T.desempate_texto ? esc(T.desempate_texto)
@@ -260,7 +260,7 @@
       const res = jugado(p) ? `${p.gl} – ${p.gv}` : p.estado ? esc(p.estado) : p.hora ? `${p.hora} h` : "vs";
       const interzonal = p.n != null && zonaDe[p.local] && zonaDe[p.visitante] && zonaDe[p.local] !== zonaDe[p.visitante];
       const meta = [conDia && (p.fecha ? fechaLarga(p.fecha) : "Día a confirmar"), jugado(p) && p.hora && `${p.hora} h`, p.estadio, p.arbitro && `Árbitro: ${p.arbitro}`,
-        p.publico && `${p.publico.toLocaleString("es-AR")} espectadores`, p.alargue && "Con alargue"].filter(Boolean).map(esc).join(" · ");
+        p.publico && `${p.publico.toLocaleString("es-AR")} espectadores`, p.alargue && "Con alargue", p.nota].filter(Boolean).map(esc).join(" · ");
       const gol = g => {
         const min = g.min != null ? `${g.min}${g.extra ? "+" + g.extra : ""}' ` : "";
         const texto = `${min}${esc(g.jugador || "?")}${g.tipo === "pen" ? " (penal)" : g.tipo === "ec" ? " (en contra)" : ""}`;
