@@ -289,6 +289,13 @@
     const ganador = p => p.gl == null ? null : p.gl > p.gv || p.gl === p.gv && p.pen_l > p.pen_v ? p.local
       : p.gl < p.gv || p.pen_v > p.pen_l ? p.visitante : null;
     function cuadroHTML() {
+      // Un cuadro armado a mano (T.cuadro: la Copa Maradona 2020): cada columna, con los partidos de esas rondas
+      if (T.cuadro) {
+        const partido = n => T.playoffs.find(r => r.nombre === n)?.partidos[0] || null;
+        const niveles = T.cuadro.columnas.map(([, rondas]) => rondas.map(n => ({ p: partido(n), titulo: n })));
+        return dibujarCuadro(niveles.map(nv => nv.map(x => x.p)), T.cuadro.columnas.map(([t]) => t),
+          niveles.map(nv => nv.map(x => nv.length > 1 ? x.titulo : null)));
+      }
       const rondas = T.playoffs;
       const ultima = rondas.at(-1);
       const niveles = [[...ultima.partidos].sort((a, b) => (a.fecha || "").localeCompare(b.fecha || ""))];
@@ -309,6 +316,10 @@
         niveles.push(Array(niveles.at(-1).length / 2).fill(null));
         nombres.push(NOMBRES[niveles.at(-1).length] || "");
       }
+      return dibujarCuadro(niveles, nombres);
+    }
+    // niveles: los partidos de cada columna; nombres: el título de cada columna; titulos: el de cada partido (opcional)
+    function dibujarCuadro(niveles, nombres, titulos = []) {
       const llave = p => {
         if (!p) return `<div class="llave llave-vacia"><div class="ll-eq"><span class="ll-nombre vacio">A definir</span></div>
           <div class="ll-eq"><span class="ll-nombre vacio">A definir</span></div></div>`;
@@ -319,7 +330,8 @@
         return `<div class="llave" title="${esc(detalle)}">${fila(p.local, p.gl, p.pen_l)}${fila(p.visitante, p.gv, p.pen_v)}</div>`;
       };
       const columnas = niveles.map((nivel, n) => {
-        const casillas = nivel.map(p => `<div class="casilla">${llave(p)}</div>`);
+        const casillas = nivel.map((p, i) => `<div class="casilla">${titulos[n]?.[i]
+          ? `<div class="llave-con-titulo"><div class="llave-titulo">${esc(titulos[n][i])}</div>${llave(p)}</div>` : llave(p)}</div>`);
         const cuerpo = n === niveles.length - 1 ? casillas.join("")
           : casillas.reduce((h, c, i) => i % 2 ? h + c + "</div>" : h + `<div class="par">` + c, "");
         return `<div class="ronda"><div class="ronda-titulo">${esc(nombres[n])}</div><div class="ronda-cuerpo">${cuerpo}</div></div>`;
@@ -330,7 +342,8 @@
     // ---- Playoffs: el cuadro y los partidos; si todavía no empezaron, cómo serían los cruces si la fase regular
     // terminara hoy ----
     function vistaPlayoffs() {
-      if (T.playoffs.length) return (T.etapas ? "" : `${cuadroHTML()}<p class="vacio">El ganador de cada partido, resaltado; entre paréntesis, los penales.</p>`) +
+      if (T.playoffs.length) return (T.etapas && !T.cuadro ? "" : `${cuadroHTML()}<p class="vacio">El ganador de cada partido, resaltado;
+        entre paréntesis, los penales.${T.cuadro?.nota ? " " + esc(T.cuadro.nota) : ""}</p>`) +
         T.playoffs.map(r => `<h3>${esc(r.nombre)}</h3>${r.partidos.map(p => partidoHTML(p)).join("")}`).join("");
       const [za, zb] = Object.keys(T.zonas);
       const a = tabla(T.zonas[za]), b = tabla(T.zonas[zb]);

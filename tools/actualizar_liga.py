@@ -48,6 +48,12 @@ TORNEOS = {
                                    (r"fase-campeon-final$", "Final"),
                                    (r"copa-sudamericana-playoff$", "Repechaje por la Copa Sudamericana")],
                       "fechas": 11, "pasan": 0,
+                      # el cuadro no es una eliminación directa común: las dos finales y, después, el repechaje (al que
+                      # fueron el subcampeón y el ganador de la Complementación)
+                      "cuadro": {"columnas": [("Finales", ["Final", "Final de la Fase Complementación"]),
+                                              ("Repechaje por la Sudamericana", ["Repechaje por la Copa Sudamericana"])],
+                                 "nota": "Al repechaje por un lugar en la Copa Sudamericana 2021 fueron el subcampeón (el que "
+                                         "perdió la final) y el ganador de la final de la Fase Complementación."},
                       "nota": "En 2020 hubo un solo torneo, la Copa Diego Maradona, que empezó en octubre por la pandemia. En la "
                               "primera fase pasaban los dos primeros de cada zona a la Fase Campeón (los ganadores de sus dos "
                               "zonas jugaron la final); el resto jugó la Fase Complementación. Los ganadores de las dos finales "
@@ -554,7 +560,7 @@ def armar(clave):
                                     "fechas": sorted({p["fecha_n"] for p in ps})})
     if desempates:
         datos["desempate"] = limpio(desempates[0])
-    for k in ("campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota"):
+    for k in ("campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro"):
         if cfg.get(k):
             datos[k] = cfg[k]
     if cfg.get("titulo_anual"):
