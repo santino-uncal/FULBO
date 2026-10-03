@@ -32,6 +32,65 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2014: dos torneos de 20 equipos a una rueda, sin playoffs. El Torneo Final 2014 (febrero-mayo; campeón River)
+    # cerraba la temporada 2013-14: su "tabla anual" es la de la temporada (el Inicial 2013 y el Final 2014). Bajaron
+    # los tres últimos de los promedios (2011-12, 2012-13 y 2013-14); Colón y Atlético de Rafaela empataron en el
+    # lugar del descenso y jugaron un desempate ("desempate"; ganó Rafaela). Después, la Copa Campeonato 2013-14: el
+    # campeón del Inicial (San Lorenzo) contra el del Final (River). Los cupos de la Sudamericana 2014, fijos
+    "2014-final": {"nombre": "Torneo Final 2014", "anio": 2014, "slug": "final-2014",
+                   "patron": r"^torneo-final-2014($|---)", "zonas": "unica", "fechas": 19, "pasan": 0,
+                   "campeon_tabla": True, "temporada": "2013-14", "nombre_anual": "Temporada y copas",
+                   "nombre_playoffs": "Copa Campeonato",
+                   "playoffs": [(r"---final$", "Copa Campeonato 2013-14")], "desempate": r"---promocion$",
+                   "desempate_texto": "Colón y Atlético de Rafaela terminaron empatados en los promedios, en el último "
+                                      "lugar del descenso: lo definieron en un partido, en cancha de Colón. Bajó el que "
+                                      "perdió.",
+                   "cuadro": {"bloques": [("Copa Campeonato 2013-14: el campeón del Inicial 2013 contra el del Final 2014",
+                                           [["Copa Campeonato 2013-14"]])]},
+                   "anual": [("arg.1", r"^torneo-inicial-2013$", 2013)],
+                   "anual_texto": "La tabla de la temporada 2013-14: suma el Torneo Inicial 2013 y el Torneo Final 2014.",
+                   "promedios": {"2011-12": [("arg.1", r"^torneo-apertura-2011$", 2011),
+                                             ("arg.1", r"^torneo-clausura-2012$", 2012)],
+                                 "2012-13": [("arg.1", r"^torneo-inicial-2012$", 2012),
+                                             ("arg.1", r"^torneo-inicial-2012$", 2013),
+                                             ("arg.1", r"^torneo-final-2013$", 2013)]},
+                   "descensos": "promedios", "descienden": 3,
+                   "cupos": {"anio": 2014, "fijos": True,
+                             "sudamericana": [("Campeón de la Copa Sudamericana 2013 (lugar aparte)", "lanus"),
+                                              ("Campeón de la Copa Campeonato 2013-14", "river-plate"),
+                                              ("Tabla de la temporada 2013-14", "boca-juniors"),
+                                              ("Tabla de la temporada 2013-14", "estudiantes-de-la-plata"),
+                                              ("Tabla de la temporada 2013-14", "gimnasia-y-esgrima"),
+                                              ("Tabla de la temporada 2013-14", "godoy-cruz"),
+                                              ("Tabla de la temporada 2013-14", "rosario-central")]}},
+    # El Torneo de Transición 2014 (agosto-diciembre; campeón Racing): sin descensos (en 2015 la liga pasó a 30). La
+    # tabla anual 2014 (el Final y el Transición) daba cupos de las copas 2015. Boca y Vélez empataron arriba de todo en
+    # la tabla de la temporada 2013-14, que daba un lugar en la Libertadores 2015, y jugaron un desempate en enero de 2015
+    # (en ESPN, con este torneo, en el calendario de 2015). Los cupos, fijos
+    "2014-transicion": {"nombre": "Torneo de Transición 2014", "anio": 2014, "anios": [2014, 2015],
+                        "slug": "transicion-2014", "patron": r"^torneo-de-primera-division-2014(-playoff)?$",
+                        "zonas": "unica", "fechas": 19, "pasan": 0, "campeon_tabla": True, "desempate": r"-playoff$",
+                        "desempate_texto": "Boca y Vélez terminaron empatados en el primer puesto de la tabla de la "
+                                           "temporada 2013-14 (el Inicial 2013 y el Final 2014, 61 puntos cada uno), que "
+                                           "daba un lugar en la Copa Libertadores 2015: lo definieron en un partido en Mar "
+                                           "del Plata, en enero de 2015.",
+                        "anual": [("arg.1", r"^torneo-final-2014$")],
+                        "anual_texto": "Suma el Torneo Final 2014 y el Torneo de Transición 2014.",
+                        "sin_descensos": "En el Torneo de Transición 2014 no hubo descensos: en 2015 la liga pasó a tener "
+                                         "30 equipos.",
+                        "cupos": {"anio": 2015, "fijos": True,
+                                  "libertadores": [("Campeón de la Copa Libertadores 2014 (lugar aparte)", "san-lorenzo"),
+                                                   ("Campeón del Torneo Final 2014", "river-plate"),
+                                                   ("Campeón del Torneo de Transición 2014", "racing-club"),
+                                                   ("Campeón de la Copa Argentina 2014", "huracan"),
+                                                   ("Tabla anual 2014", "estudiantes-de-la-plata"),
+                                                   ("Mejor de la temporada 2013-14 (desempate con Vélez)", "boca-juniors")],
+                                  "sudamericana": [("Campeón de la Copa Sudamericana 2014 (lugar aparte)", "river-plate"),
+                                                   ("Campeón de la Supercopa Argentina 2014", "huracan"),
+                                                   ("Tabla anual 2014", "lanus"), ("Tabla anual 2014", "independiente"),
+                                                   ("Tabla anual 2014", "tigre"),
+                                                   ("Tabla anual 2014", "arsenal-de-sarandi"),
+                                                   ("Tabla anual 2014", "belgrano")]}},
     # 2015: el Campeonato 2015 (febrero-noviembre, una sola tabla de 30, 30 fechas con la de clásicos; campeón Boca).
     # Después, dos liguillas ("playoffs"): la Pre-Libertadores (del 4º al 7º: semifinales a un partido y final a ida y
     # vuelta; ganó Racing) y la Pre-Sudamericana (primera ronda a un partido y una segunda a ida y vuelta, con los dos
@@ -350,7 +409,11 @@ PARTIDOS_A_MANO = {
 PENALES_A_MANO = {"540170": (3, 4), "540167": (3, 2), "540166": (5, 4)}
 # Goles que ESPN no tiene: {id del partido de ESPN: [gol, ...]}. Aldosivi 2-1 Huracán (Superliga 2018-19): el gol en
 # contra de Saúl Salcedo, a los 17 del segundo tiempo (La Voz de San Justo)
-GOLES_A_MANO = {"521397": [{"jugador": "Saúl Salcedo", "min": 62, "tipo": "ec", "equipo": "local"}]}
+# Banfield 2-3 Defensa y Justicia (Transición 2014): los tres de Defensa (ESPN Deportes, la crónica del partido)
+GOLES_A_MANO = {"521397": [{"jugador": "Saúl Salcedo", "min": 62, "tipo": "ec", "equipo": "local"}],
+                "399497": [{"jugador": "Emiliano Tellechea", "min": 14, "equipo": "visitante"},
+                           {"jugador": "Brian Fernández", "min": 67, "equipo": "visitante"},
+                           {"jugador": "Gaspar Servio", "min": 83, "tipo": "ec", "equipo": "visitante"}]}
 # Partidos que ESPN pone en la fase regular pero no la son (no suman en la tabla anual ni en los promedios): del
 # torneo 2016, la final (Lanús-San Lorenzo) y el desempate por un lugar en las copas (Godoy Cruz-Estudiantes)
 NO_SUMAN = {"448823", "448810"}
@@ -358,8 +421,10 @@ NO_SUMAN = {"448823", "448810"}
 # partido de ESPN: (goles del local, del visitante)}. Colón-Atlético de Rafaela, Inicial 2013: Colón no se presentó y se
 # le dio ganado 1-0 a Rafaela (Diario de Cuyo); cuenta para los promedios de 2016
 RESULTADOS_A_MANO = {"382317": (0, 1)}
-# Puntos descontados por sanciones: {(año, id de ESPN): puntos}. Por ahora, ninguno
-DESCUENTOS = {}
+# Puntos descontados por sanciones: {(año, id de ESPN): puntos}. Se restan en la tabla anual (o de la temporada) de ese
+# año, no en la del torneo. Colón, temporada 2013-14: 6 puntos que le quitó la FIFA por una deuda con el Atlante
+# (Infobae); cuenta para los promedios y lo mandó al desempate con Rafaela
+DESCUENTOS = {(2014, "7"): 6}
 PLAYOFFS = [("round-of-16", "Octavos de final"), ("quarter", "Cuartos de final"), ("semi", "Semifinales"),
             ("final", "Final")]
 # Clubes que no están en data/equipos.js (no jugaron copas internacionales): id y nombre. Los demás se toman de ahí
@@ -377,6 +442,7 @@ CLUBES_NUEVOS = {
     "9747": ("atletico-rafaela", "Atlético de Rafaela"),
     "236": ("nueva-chicago", "Nueva Chicago"),
     "11958": ("crucero-del-norte", "Crucero del Norte"),
+    "9786": ("all-boys", "All Boys"),
 }
 
 # Nombres que en la liga se confunden (en data/equipos.js están como en las copas)
@@ -769,7 +835,7 @@ def armar(clave):
                                     "fechas": sorted({p["fecha_n"] for p in ps})})
     if desempates:
         datos["desempate"] = limpio(desempates[0])
-    for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
+    for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
               "campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro"):
         if cfg.get(k):
             datos[k] = cfg[k]
@@ -777,7 +843,8 @@ def armar(clave):
         datos["titulo_anual"] = cfg["titulo_anual"]
     if cfg.get("cupos", {}).get("fijos"):   # (2015: la lista tal cual)
         datos["cupos"] = {"anio": cfg["cupos"]["anio"], "fijos": True, "campeones": [],
-                          **{k: [{"titulo": ti, "club": c} for ti, c in cfg["cupos"][k]] for k in ("libertadores", "sudamericana")}}
+                          **{k: [{"titulo": ti, "club": c} for ti, c in cfg["cupos"][k]]
+                             for k in ("libertadores", "sudamericana") if k in cfg["cupos"]}}
     elif cfg.get("cupos"):
         cupos = dict(cfg["cupos"])
         # extra: un lugar que no es de la liga (el campeón de la Sudamericana va a la Libertadores por la Conmebol);

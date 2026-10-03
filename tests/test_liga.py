@@ -67,7 +67,8 @@ class DatosLiga(unittest.TestCase):
                 for cid, f in d.get("anual", {}).items():
                     self.assertIn(cid, ids)
                     pts, pj, g, e, p = f[:5]
-                    self.assertEqual((pj, pts), (g + e + p, 3 * g + e), cid)
+                    self.assertEqual(pj, g + e + p, cid)
+                    self.assertTrue(3 * g + e - 6 <= pts <= 3 * g + e, cid)   # (con un descuento por sanción, menos)
                 for anio, tabla in d.get("promedios", {}).items():
                     for cid, (pts, pj) in tabla.items():
                         self.assertIn(cid, ids)

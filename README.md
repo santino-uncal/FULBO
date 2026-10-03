@@ -13,7 +13,7 @@ desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de C
   La Sudamericana es la misma página con `copa=sudamericana` adelante: `?copa=sudamericana`, `?copa=sudamericana&edicion=2014`,
   `?copa=sudamericana&equipo=lanus`, `?copa=sudamericana&estadisticas`. Lo mismo con `copa=recopa`, `copa=intercontinental` y `copa=mundial`
   (`?copa=mundial&edicion=2012`). En la cabecera, tocando el nombre de otra copa se cambia de copa.
-  La **Liga Profesional argentina** está en `liga.html` (desde 2015: el Campeonato 2015, el Campeonato 2016, el Campeonato 2016-17, la Superliga 2017-18, la Superliga 2018-19, la Copa de la Superliga 2019 y la Superliga 2019-20, la Copa Diego Maradona 2020, la Copa de la Liga y la
+  La **Liga Profesional argentina** está en `liga.html` (desde 2014: el Torneo Final y el de Transición 2014, el Campeonato 2015, el Campeonato 2016, el Campeonato 2016-17, la Superliga 2017-18, la Superliga 2018-19, la Copa de la Superliga 2019 y la Superliga 2019-20, la Copa Diego Maradona 2020, la Copa de la Liga y la
   Liga Profesional de 2021, 2022, 2023 y 2024, y los torneos Apertura y Clausura de 2025 y 2026, que se eligen arriba: primero el año y después el torneo de ese año.
   `liga.html?anio=2024` abre el último torneo de ese año (el que tiene la tabla anual); `liga.html?torneo=2024-copa`, uno en particular): la tabla de las dos zonas,
   todas las fechas con resultados y goles, los goleadores, los playoffs (con su cuadro), la tabla anual y los promedios del descenso
@@ -244,6 +244,15 @@ siguen la regla de los otros años (River como campeón de la Libertadores, el s
 ganó Boca, Huracán como mejor argentino en la Sudamericana, las liguillas): van fijos, como los publicó la AFA
 (`cupos.fijos`). Bajaron los dos últimos de los promedios (2012-13, 2013-14, 2014 y 2015): Nueva Chicago y Crucero
 del Norte. Controlado contra Wikipedia.
+
+**2014**: dos torneos de 20 a una rueda. El Torneo Final 2014 (campeón River) cerraba la temporada 2013-14: su pestaña
+"Temporada y copas" (`nombre_anual`) es la tabla de la temporada (el Inicial 2013 y el Final 2014). Bajaron los tres
+últimos de los promedios; Colón, con 6 puntos menos por una sanción de la FIFA (`DESCUENTOS`: se restan en la tabla de
+la temporada, no en la del torneo), empató con Rafaela y perdió el desempate (`desempate` y `desempate_texto`). La
+pestaña "Copa Campeonato" tiene la final entre los campeones del Inicial y del Final. El Torneo de Transición 2014
+(campeón Racing) no tuvo descensos; su tabla anual suma el Final y el Transición, y muestra el desempate Boca-Vélez
+(enero de 2015) por el lugar en la Libertadores del mejor de la temporada 2013-14. Los cupos de los dos, fijos. Tres
+goles de Defensa y Justicia que ESPN no tiene, en `GOLES_A_MANO`. Controlado contra Wikipedia.
 
 Para sumar un torneo, agregarlo a `TORNEOS` en el script;
 los clubes que no jugaron copas (y no están en `data/equipos.js`) van en `CLUBES_NUEVOS`, y su escudo se baja solo.

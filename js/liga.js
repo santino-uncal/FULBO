@@ -112,6 +112,12 @@
 
     // ---- Tabla anual: lo jugado antes en el año (T.anual: el Apertura, [pts, pj, g, e, p, gf, gc]) más este torneo ----
     const ids = Object.values(T.zonas).flat();
+    // con el mismo puntaje, un partido desempate entre los dos (T.desempate) pone primero al que lo ganó
+    const porDesempate = (a, b) => {
+      const d = T.desempate, g = d && ganador(d), par = d ? [d.local, d.visitante] : [];
+      if (!g || !par.includes(a.id) || !par.includes(b.id)) return 0;
+      return a.id === g ? -1 : 1;
+    };
     function tablaAnual() {
       const ahora = Object.fromEntries(Object.values(T.zonas).flatMap(z => tabla(z)).map(f => [f.id, f]));
       return ids.map(id => {
@@ -119,7 +125,7 @@
         const f = ahora[id];
         return { id, pts: pts + f.pts, pj: pj + f.pj, g: g + f.g, e: e + f.e, p: p + f.p, gf: gf + f.gf, gc: gc + f.gc };
       }).map(f => ({ ...f, dif: f.gf - f.gc }))
-        .sort((a, b) => b.pts - a.pts || b.dif - a.dif || b.gf - a.gf || club(a.id).nombre.localeCompare(club(b.id).nombre));
+        .sort((a, b) => b.pts - a.pts || porDesempate(a, b) || b.dif - a.dif || b.gf - a.gf || club(a.id).nombre.localeCompare(club(b.id).nombre));
     }
     // ---- Promedios: puntos dividido partidos de las temporadas anteriores (T.promedios: {año: {club: [pts, pj]}})
     // más la del año (la tabla anual). Los recién ascendidos dividen solo por los partidos que jugaron en Primera ----
@@ -139,7 +145,10 @@
       if (!T.descensos && !(aunqueAnulados && T.descensos_anulados)) return { anual: null, prom: null, todos: [], porProm: [] };
       // 2022: bajaban los dos últimos de los promedios (no había descenso por tabla anual); 2018-19, los cuatro últimos
       if (T.descensos === "promedios") {
-        const porProm = promedios().slice(-(T.descienden || 2)).map(f => f.id);
+        let porProm = promedios().slice(-(T.descienden || 2)).map(f => f.id);
+        // empate en el lugar del descenso definido en un partido (2014: Colón-Rafaela): baja el que perdió
+        const des = T.desempate, gana = des && ganador(des);
+        if (gana && porProm.includes(gana)) porProm = porProm.map(id => id === gana ? (gana === des.local ? des.visitante : des.local) : id);
         return { porProm, todos: porProm, anual: null };
       }
       const anual = tablaAnual(), prom = promedios().at(-1).id;
@@ -165,8 +174,8 @@
       const c = T.cupos;
       if (!c) return null;
       // cupos fijos (2015: el reparto no seguía la regla), tal cual: [{titulo, club}]
-      if (c.fijos) return { ...c, listas: { libertadores: c.libertadores, sudamericana: c.sudamericana },
-        libertadores: new Set(c.libertadores.map(x => x.club)), sudamericana: new Set(c.sudamericana.map(x => x.club)) };
+      if (c.fijos) return { ...c, listas: { libertadores: c.libertadores || [], sudamericana: c.sudamericana || [] },
+        libertadores: new Set((c.libertadores || []).map(x => x.club)), sudamericana: new Set((c.sudamericana || []).map(x => x.club)) };
       const d = descensos();
       // los campeones "extra" (la Sudamericana) van a la Libertadores por la Conmebol: no ocupan un lugar de la liga
       const deLaLiga = c.campeones.filter(x => !x.extra);
@@ -184,7 +193,7 @@
         sudamericana: new Set([...sudTitulos, ...restoSud.slice(0, c.sudamericana - sudTitulos.length)]) };
     }
     function cuposHTML(cu) {
-      if (cu.fijos) return `<div class="cupos">${[["libertadores", "Copa Libertadores"], ["sudamericana", "Copa Sudamericana"]].map(([k, n]) =>
+      if (cu.fijos) return `<div class="cupos">${[["libertadores", "Copa Libertadores"], ["sudamericana", "Copa Sudamericana"]].filter(([k]) => cu.listas[k].length).map(([k, n]) =>
         `<h4>${n} ${cu.anio}</h4><ul class="cupos-campeones">${cu.listas[k].map(x =>
           `<li><span class="cupo-titulo">${esc(x.titulo)}</span>${nombreClub(x.club)}</li>`).join("")}</ul>`).join("")}</div>`;
       const titulo = x => `<li><span class="cupo-titulo">${esc(x.titulo)}</span>${x.club ? nombreClub(x.club) : `<span class="vacio">a definir</span>`}${x.extra
@@ -226,9 +235,9 @@
           <span><i class="sudamericana"></i>Copa Sudamericana ${cu.anio}${hoy}</span><span>🏆 Campeón del año</span></p>` : ""}
         ${T.descensos || T.descensos_anulados ? avisoDescenso() : ""}
         ${T.sin_descensos ? `<p class="nota-edicion">${esc(T.sin_descensos)}</p>` : ""}
-        ${T.desempate ? `<h3>Desempate por el descenso</h3><p class="vacio">${esc(club(T.desempate.local).nombre)} y
-          ${esc(club(T.desempate.visitante).nombre)} terminaron empatados en puntos en la tabla anual, en el lugar del descenso:
-          lo definieron en un partido, en cancha neutral. Bajó el que perdió.</p>${partidoHTML(T.desempate)}` : ""}`;
+        ${T.desempate ? `<h3>Desempate${T.desempate_texto ? "" : " por el descenso"}</h3><p class="vacio">${T.desempate_texto ? esc(T.desempate_texto)
+          : `${esc(club(T.desempate.local).nombre)} y ${esc(club(T.desempate.visitante).nombre)} terminaron empatados en puntos en la tabla anual,
+          en el lugar del descenso: lo definieron en un partido, en cancha neutral. Bajó el que perdió.`}</p>${partidoHTML(T.desempate)}` : ""}`;
     }
     function vistaPromedios() {
       const d = descensos();
@@ -427,7 +436,7 @@
     // con cupos pero sin tabla anual, las Superligas: la de la tabla anual es la de las copas y el descenso)
     const hay = v => (v !== "tabla" && v !== "fechas" || T.fechas.length) && (v !== "promedios" || T.promedios)
       && (v !== "anual" || T.anual || T.cupos) && (v !== "playoffs" || T.pasan || T.playoffs.length);
-    const nombreVista = (v, n) => v === "anual" && !T.anual ? "Copas y descenso" : v === "playoffs" && !T.fechas.length ? "Cuadro y partidos"
+    const nombreVista = (v, n) => v === "anual" && T.nombre_anual ? T.nombre_anual : v === "anual" && !T.anual ? "Copas y descenso" : v === "playoffs" && !T.fechas.length ? "Cuadro y partidos"
       : v === "playoffs" && T.nombre_playoffs ? T.nombre_playoffs : n;
     const inicial = T.fechas.length ? "tabla" : "playoffs";
     let vista = VISTAS.some(([v]) => v === PARAMS.get("vista") && hay(v)) ? PARAMS.get("vista") : inicial;
