@@ -116,6 +116,11 @@
     // Descienden el último de la tabla anual y el peor promedio; si es el mismo club, el anteúltimo de la tabla anual
     function descensos(aunqueAnulados) {
       if (!T.descensos && !(aunqueAnulados && T.descensos_anulados)) return { anual: null, prom: null };
+      // 2022: bajaban los dos últimos de los promedios (no había descenso por tabla anual)
+      if (T.descensos === "promedios") {
+        const p = promedios();
+        return { prom: p.at(-1).id, prom2: p.at(-2).id, anual: null };
+      }
       const anual = tablaAnual(), prom = promedios().at(-1).id;
       let porAnual = anual.at(-1).id === prom ? anual.at(-2).id : anual.at(-1).id;
       // empate en puntos por ese lugar: lo definió un partido desempate (2023: Gimnasia-Colón), baja el que perdió
@@ -130,7 +135,7 @@
       return `<p class="nota-edicion">${esc(T.descensos_anulados)} Con el reglamento, hubiesen descendido ${esc(club(d.anual).nombre)}
         (tabla anual) y ${esc(club(d.prom).nombre)} (promedios).</p>`;
     })() : `<p class="leyenda"><span><i class="desciende"></i>${enJuego() ? "Descendería si el año terminara hoy" : "Desciende"}
-      (uno por la tabla anual y otro por los promedios)</span></p>`;
+      (${T.descensos === "promedios" ? "los dos últimos de los promedios" : "uno por la tabla anual y otro por los promedios"})</span></p>`;
     // ---- Cupos para las copas del año que viene (T.cupos): a la Libertadores, los campeones del año y los mejores de
     // la tabla anual hasta completar los lugares; a la Sudamericana, los siguientes. Un campeón que ya entra por la
     // tabla libera su lugar para el siguiente, y los que descienden no juegan copas. Los títulos que todavía no se
@@ -144,7 +149,7 @@
       const campeones = [...new Set(deLaLiga.map(x => x.club).filter(Boolean))];
       const extras = c.campeones.filter(x => x.extra && x.club).map(x => x.club);
       const pendientes = deLaLiga.filter(x => !x.club).length;
-      const resto = tablaAnual().map(f => f.id).filter(id => !campeones.includes(id) && !extras.includes(id) && id !== d.anual && id !== d.prom);
+      const resto = tablaAnual().map(f => f.id).filter(id => !campeones.includes(id) && !extras.includes(id) && ![d.anual, d.prom, d.prom2].includes(id));
       const porTabla = c.libertadores - campeones.length - pendientes;
       return { ...c, pendientes, porTabla, libertadores: new Set([...campeones, ...extras, ...resto.slice(0, porTabla)]),
         sudamericana: new Set(resto.slice(porTabla, porTabla + c.sudamericana)) };
@@ -169,7 +174,7 @@
         .concat(tituloAnual && id === anual[0].id ? [tituloAnual] : []);
       const cuerpo = anual.map((f, i) => {
         const dif = f.dif > 0 ? `+${f.dif}` : f.dif;
-        const marca = f.id === d.anual || f.id === d.prom ? "desciende" : cu?.libertadores.has(f.id) ? "libertadores"
+        const marca = [d.anual, d.prom, d.prom2].includes(f.id) ? "desciende" : cu?.libertadores.has(f.id) ? "libertadores"
           : cu?.sudamericana.has(f.id) ? "sudamericana" : "";
         const titulos = campeonDe(f.id).map(x => ` <span class="campeon-de" title="${esc(x.replace("de la Torneo", "del Torneo"))}">🏆</span>`).join("");
         return `<tr><td class="pos ${marca}">${i + 1}</td><td class="eq">${nombreClub(f.id)}${titulos}</td>
@@ -193,11 +198,11 @@
     function vistaPromedios() {
       const d = descensos();
       const temporada = t => t ? t[0] : "–";
-      const cuerpo = promedios().map((f, i) => `<tr><td class="pos ${f.id === d.prom ? "desciende" : ""}">${i + 1}</td>
+      const cuerpo = promedios().map((f, i) => `<tr><td class="pos ${[d.prom, d.prom2].includes(f.id) ? "desciende" : ""}">${i + 1}</td>
         <td class="eq">${nombreClub(f.id)}</td>${f.temporadas.map(t => `<td class="opc" title="${t ? `${t[1]} partidos` : "No jugó en Primera"}">${temporada(t)}</td>`).join("")}
-        <td>${f.pts}</td><td>${f.pj}</td><td class="pts">${f.prom.toFixed(3).replace(".", ",")}</td></tr>`).join("");
+        <td>${f.pts}</td><td>${f.pj}</td><td class="pts">${(Math.floor(f.prom * 1000 + 1e-9) / 1000).toFixed(3).replace(".", ",")}</td></tr>`).join("");
       return `<p class="vacio">Los puntos de las temporadas ${[...aniosProm, T.anio].join(", ")} divididos por los partidos jugados
-        (la de ${T.anio} es la tabla anual). Los que subieron hace poco dividen solo por los partidos que jugaron en Primera.</p>
+        (la de ${T.anio} es la tabla anual). Los que subieron hace poco dividen solo por los partidos que jugaron en Primera. El promedio va con tres decimales, sin redondear (como lo publica la AFA).</p>
         <div class="grupo tabla-larga"><table><thead><tr><th>#</th><th class="eq">Equipo</th>${[...aniosProm, T.anio].map(a => `<th class="opc">${a}</th>`).join("")}
           <th>Pts</th><th>J</th><th>Prom.</th></tr></thead><tbody>${cuerpo}</tbody></table></div>
         ${T.descensos || T.descensos_anulados ? avisoDescenso() : ""}`;

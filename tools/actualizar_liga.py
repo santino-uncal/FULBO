@@ -32,6 +32,27 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2022: la Copa de la Liga (febrero-mayo, dos zonas de 14, desde cuartos) y la Liga Profesional (junio-octubre, una
+    # sola tabla de 28); Boca ganó las dos. Descendieron los dos últimos de los promedios (Aldosivi y Patronato; no había
+    # descenso por tabla anual: "descensos": "promedios"). Los promedios contaban 2019-20 (la Superliga y la única fecha
+    # que se jugó de la Copa de la Superliga 2020, que ESPN no tiene: va en PARTIDOS_A_MANO), 2021 y 2022. La tabla anual
+    # (Copa y Liga) daba los cupos; Patronato fue a la Libertadores 2023 como campeón de la Copa Argentina aunque descendió
+    # (los campeones juegan igual: solo se saltean los descendidos en los lugares de la tabla)
+    "2022-copa": {"nombre": "Copa de la Liga 2022", "anio": 2022, "liga": "arg.copa_lpf", "slug": "copa", "patron": r"",
+                  "fechas": 14, "pasan": 4},
+    "2022-liga": {"nombre": "Liga Profesional 2022", "anio": 2022, "slug": "liga", "patron": r"liga-profesional",
+                  "zonas": "unica", "fechas": 27, "pasan": 0, "campeon_tabla": True,
+                  "anual": [("arg.copa_lpf", r"^group-stage$")],
+                  "anual_texto": "Suma la fase de zonas de la Copa de la Liga 2022 y la Liga Profesional 2022.",
+                  "promedios": {"2019-20": [("arg.1", r"superliga-argentina-2019-20", 2019),
+                                            ("arg.1", r"superliga-argentina-2019-20", 2020),
+                                            ("arg.copa_superliga", r"", 2020)],
+                                2021: [("arg.copa_lpf", r"^group-stage$"), ("arg.1", r"liga-profesional")]},
+                  "descensos": "promedios",
+                  "cupos": {"anio": 2023, "libertadores": 6, "sudamericana": 6,
+                            "campeones": [("Copa de la Liga 2022", "arg.copa_lpf", r"^final$"),
+                                          ("Liga Profesional 2022", None, None),
+                                          ("Copa Argentina 2022", "arg.copa", r"^final$")]}},
     # 2023: al revés que en 2024, primero la Liga Profesional (enero-julio, una sola tabla de 28, campeón River) y
     # después la Copa de la Liga (octubre-diciembre, dos zonas de 14, desde cuartos de final; campeón Rosario Central).
     # La tabla anual sumó la Liga y la fase de zonas de la Copa; los promedios, 2021, 2022 y 2023. Descendieron Arsenal
@@ -115,6 +136,15 @@ TORNEOS = {
                                               ("Torneo Clausura 2026", "arg.1", r"^clausura---final$"),
                                               ("Copa Argentina 2026", "arg.copa", r"^final$")]}},
 }
+# Partidos que ESPN no tiene, cargados a mano: {(liga, año): [(id ESPN local, id ESPN visitante, goles, goles)]}.
+# La Copa de la Superliga 2020: solo se jugó la primera fecha (marzo de 2020; Defensa-Estudiantes, en diciembre) antes de
+# que se cancelara por la pandemia; cuenta para los promedios de 2022. River-Atlético Tucumán no se jugó: se le dio
+# ganado 1-0 a Atlético Tucumán. Fuente: Wikipedia, "Copa de la Superliga 2020"
+PARTIDOS_A_MANO = {
+    ("arg.copa_superliga", 2020): [("9", "235", 0, 0), ("10374", "18", 1, 3), ("11", "21", 1, 0), ("6756", "5", 1, 4),
+                                   ("20", "2635", 1, 1), ("11989", "14", 1, 2), ("16", "9785", 0, 1), ("10", "19", 0, 3),
+                                   ("9739", "15", 3, 4), ("12", "3", 0, 1), ("17", "7", 1, 3), ("8950", "8", 2, 1)],
+}
 # Puntos descontados por sanciones: {(año, id de ESPN): puntos}. Por ahora, ninguno
 DESCUENTOS = {}
 PLAYOFFS = [("round-of-16", "Octavos de final"), ("quarter", "Cuartos de final"), ("semi", "Semifinales"),
@@ -189,10 +219,17 @@ def calendario(liga, anio):
 
 def sumar(anio, fuentes):
     """Puntos, partidos y goles de cada club (id de ESPN) en los partidos terminados de esas fases:
-    {id: [pts, pj, g, e, p, gf, gc]}. fuentes: [(liga, patrón del slug de la fase)]."""
+    {id: [pts, pj, g, e, p, gf, gc]}. fuentes: [(liga, patrón del slug de la fase[, año])] (el año, si la fase es
+    de otro: la temporada 2019-20 toca 2019 y 2020). Los partidos de PARTIDOS_A_MANO se suman en vez de bajarlos."""
     t = {}
-    for liga, patron in fuentes:
-        for e in calendario(liga, anio).get("events", []):
+    for liga, patron, *otro in fuentes:
+        a = otro[0] if otro else anio
+        if (liga, a) in PARTIDOS_A_MANO:
+            eventos = [{"season": {"slug": ""}, "status": {"type": {"completed": True}}, "competitions": [{"competitors": [
+                {"team": {"id": l}, "score": gl}, {"team": {"id": v}, "score": gv}]}]} for l, v, gl, gv in PARTIDOS_A_MANO[(liga, a)]]
+        else:
+            eventos = calendario(liga, a).get("events", [])
+        for e in eventos:
             if not re.search(patron, (e.get("season") or {}).get("slug", "")) or not e["status"]["type"].get("completed"):
                 continue
             c = e["competitions"][0]["competitors"]
