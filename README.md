@@ -14,7 +14,8 @@ desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de C
   `?copa=sudamericana&equipo=lanus`, `?copa=sudamericana&estadisticas`. Lo mismo con `copa=recopa`, `copa=intercontinental` y `copa=mundial`
   (`?copa=mundial&edicion=2012`). En la cabecera, tocando el nombre de otra copa se cambia de copa.
   La **Liga Profesional argentina** está en `liga.html` (por ahora, el Torneo Clausura 2026): la tabla de las dos zonas,
-  todas las fechas con resultados y goles, los goleadores y los playoffs (`liga.html?vista=fechas&fecha=5`).
+  todas las fechas con resultados y goles, los goleadores, los playoffs, la tabla anual y los promedios del descenso
+  (`liga.html?vista=fechas&fecha=5`, `?vista=anual`, `?vista=promedios`).
   `sitemap.xml` (lo arma `tools/generar_datos.py`) y `robots.txt` le indican a Google qué páginas indexar.
 
 - **Rápido:** doble clic en `index.html`.
@@ -146,7 +147,15 @@ y después `generar_datos.py`. En la Champions y la Europa League la temporada t
 
 `tools/actualizar_liga.py` baja todo de ESPN. ESPN no dice a qué fecha pertenece cada partido: se deduce agrupando
 los partidos por días seguidos y mandando los postergados a la fecha en la que les falta jugar a los dos clubes
-(`repartir_fechas`). Las zonas salen de la tabla de ESPN. Para sumar un torneo, agregarlo a `TORNEOS` en el script;
+(`repartir_fechas`). Las zonas salen de la tabla de ESPN.
+
+**Tabla anual y promedios** (reglamento 2026): la tabla anual suma la fase de zonas del Apertura y del Clausura (sin
+playoffs); los promedios, los puntos de 2024, 2025 y 2026 divididos por los partidos jugados (2024: la fase de zonas de
+la Copa de la Liga, que en ESPN es otra liga, "arg.copa_lpf", y la Liga 2024; los recién ascendidos dividen solo por
+sus partidos en Primera). Descienden el último de la tabla anual y el peor promedio; si es el mismo club, el anteúltimo
+de la tabla anual. El script guarda lo ya jugado (el Apertura y las temporadas anteriores, `anual` y `promedios` en
+`TORNEOS`) y la página le suma el torneo en curso. Los puntos descontados por sanciones van en `DESCUENTOS`.
+Los números se controlaron contra futbolargentino.com y aquehorajuegan.com (octubre de 2026). Para sumar un torneo, agregarlo a `TORNEOS` en el script;
 los clubes que no jugaron copas (y no están en `data/equipos.js`) van en `CLUBES_NUEVOS`, y su escudo se baja solo.
 
 ### Corregir clubes

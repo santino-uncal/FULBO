@@ -32,8 +32,21 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
     "2026-clausura": {"nombre": "Torneo Clausura 2026", "anio": 2026, "slug": "clausura", "fechas": 16,
-                      "pasan": 8},   # los 8 primeros de cada zona juegan los octavos de final
+                      "pasan": 8,   # los 8 primeros de cada zona juegan los octavos de final
+                      # La tabla anual suma la fase de zonas del Apertura y del Clausura (sin playoffs): acá, lo que
+                      # se jugó antes de este torneo en el año. La página le suma este torneo
+                      "anual": [("arg.1", r"^torneo-apertura$")],
+                      # Los promedios: puntos dividido partidos de las tres últimas temporadas (fases regulares;
+                      # los recién ascendidos, solo los partidos que jugaron en Primera). Acá, las temporadas
+                      # anteriores; la del año es la tabla anual
+                      "promedios": {2024: [("arg.copa_lpf", r"^group-stage$"), ("arg.1", r"liga-profesional")],
+                                    2025: [("arg.1", r"^torneo-(apertura|clausura)$")]},
+                      # Descienden el último de la tabla anual y el peor promedio (si es el mismo club, el
+                      # anteúltimo de la tabla anual)
+                      "descensos": True},
 }
+# Puntos descontados por sanciones: {(año, id de ESPN): puntos}. Por ahora, ninguno
+DESCUENTOS = {}
 PLAYOFFS = [("round-of-16", "Octavos de final"), ("quarter", "Cuartos de final"), ("semi", "Semifinales"),
             ("final", "Final")]
 # Clubes que no están en data/equipos.js (no jugaron copas internacionales): id y nombre. Los demás se toman de ahí
@@ -82,6 +95,41 @@ def bajar(anio, slug):
             zonas.write_text(json.dumps(z), encoding="utf-8")
     print(f"{anio} {slug}: {len(eventos)} partidos en el calendario, {nuevos} detalles nuevos", flush=True)
     return eventos
+
+
+def calendario(liga, anio):
+    """El calendario de un año de una liga de ESPN ("arg.1", "arg.copa_lpf"). Los años terminados se bajan una
+    sola vez; el año del torneo en curso ya lo bajó bajar()."""
+    archivo = CACHE / str(anio) / ("calendario.json" if liga == "arg.1" else f"calendario-{liga}.json")
+    if not archivo.exists() or (anio >= datetime.date.today().year and liga != "arg.1"):
+        archivo.parent.mkdir(parents=True, exist_ok=True)
+        cal = pedir(f"{ESPN.rsplit('/', 1)[0]}/{liga}/scoreboard?dates={anio}&limit=1000")
+        archivo.write_text(json.dumps(cal, ensure_ascii=False), encoding="utf-8")
+    return json.loads(archivo.read_text(encoding="utf-8"))
+
+
+def sumar(anio, fuentes):
+    """Puntos, partidos y goles de cada club (id de ESPN) en los partidos terminados de esas fases:
+    {id: [pts, pj, g, e, p, gf, gc]}. fuentes: [(liga, patrón del slug de la fase)]."""
+    t = {}
+    for liga, patron in fuentes:
+        for e in calendario(liga, anio).get("events", []):
+            if not re.search(patron, (e.get("season") or {}).get("slug", "")) or not e["status"]["type"].get("completed"):
+                continue
+            c = e["competitions"][0]["competitors"]
+            for a, b in ((c[0], c[1]), (c[1], c[0])):
+                ga, gb = int(a["score"]), int(b["score"])
+                f = t.setdefault(a["team"]["id"], [0] * 7)
+                r = 2 if ga > gb else 3 if ga == gb else 4
+                f[0] += {2: 3, 3: 1, 4: 0}[r]
+                f[1] += 1
+                f[r] += 1
+                f[5] += ga
+                f[6] += gb
+    for (a, eid), pts in DESCUENTOS.items():
+        if a == anio and eid in t:
+            t[eid][0] -= pts
+    return t
 
 
 def repartir_fechas(partidos, cantidad):
@@ -235,6 +283,17 @@ def armar(clave):
         "playoffs": [{"nombre": n, "partidos": [limpio(p) for p in playoffs[n]]} for _, n in PLAYOFFS if n in playoffs],
         "clubes": clubes,
     }
+    # tabla anual (lo jugado antes en el año) y promedios (las temporadas anteriores), solo de los clubes del torneo
+    espn_de = {cid: eid for z in zonas_espn for eid, cid in zip(zonas_espn[z], zonas[z])}   # {id nuestro: id de ESPN}
+    if cfg.get("anual"):
+        previo = sumar(cfg["anio"], cfg["anual"])
+        datos["anual"] = {cid: previo[eid] for cid, eid in espn_de.items() if eid in previo}
+    if cfg.get("promedios"):
+        datos["promedios"] = {}
+        for anio, fuentes in cfg["promedios"].items():
+            s = sumar(anio, fuentes)
+            datos["promedios"][anio] = {cid: s[eid][:2] for cid, eid in espn_de.items() if eid in s}
+    datos["descensos"] = cfg.get("descensos", False)
     DATOS.mkdir(parents=True, exist_ok=True)
     js = ("/* Generado por tools/actualizar_liga.py — no editar a mano */\n"
           "window.LIGA = window.LIGA || {};\n"

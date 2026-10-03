@@ -6,7 +6,8 @@
   const PARAMS = new URLSearchParams(location.search);
   const INDICE = window.LIGA_INDICE || [];
   const CLAVE = INDICE.some(t => t.clave === PARAMS.get("torneo")) ? PARAMS.get("torneo") : INDICE.at(-1)?.clave;
-  const VISTAS = [["tabla", "Tabla"], ["fechas", "Fechas"], ["playoffs", "Playoffs"], ["goleadores", "Goleadores"]];
+  const VISTAS = [["tabla", "Tabla"], ["fechas", "Fechas"], ["playoffs", "Playoffs"], ["anual", "Tabla anual"],
+    ["promedios", "Promedios"], ["goleadores", "Goleadores"]];
   const ligaEl = document.getElementById("liga");
   const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const DIAS = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
@@ -70,6 +71,64 @@
     const vistaTabla = () => `<div class="grupos">${Object.keys(T.zonas).map(tablaHTML).join("")}</div>
       <p class="leyenda"><span><i class="pasa"></i>Clasifican a los octavos de final (los ${T.pasan} primeros de cada zona)</span></p>
       <p class="vacio">Orden: puntos, diferencia de gol y goles a favor. Los partidos contra la otra zona (interzonales) suman en la zona de cada club.</p>`;
+
+    // ---- Tabla anual: lo jugado antes en el año (T.anual: el Apertura, [pts, pj, g, e, p, gf, gc]) más este torneo ----
+    const ids = Object.values(T.zonas).flat();
+    function tablaAnual() {
+      const ahora = Object.fromEntries(Object.values(T.zonas).flatMap(tabla).map(f => [f.id, f]));
+      return ids.map(id => {
+        const [pts, pj, g, e, p, gf, gc] = (T.anual || {})[id] || [0, 0, 0, 0, 0, 0, 0];
+        const f = ahora[id];
+        return { id, pts: pts + f.pts, pj: pj + f.pj, g: g + f.g, e: e + f.e, p: p + f.p, gf: gf + f.gf, gc: gc + f.gc };
+      }).map(f => ({ ...f, dif: f.gf - f.gc }))
+        .sort((a, b) => b.pts - a.pts || b.dif - a.dif || b.gf - a.gf || club(a.id).nombre.localeCompare(club(b.id).nombre));
+    }
+    // ---- Promedios: puntos dividido partidos de las temporadas anteriores (T.promedios: {año: {club: [pts, pj]}})
+    // más la del año (la tabla anual). Los recién ascendidos dividen solo por los partidos que jugaron en Primera ----
+    const aniosProm = Object.keys(T.promedios || {}).sort();
+    function promedios() {
+      const anual = Object.fromEntries(tablaAnual().map(f => [f.id, f]));
+      return ids.map(id => {
+        const temporadas = [...aniosProm.map(a => T.promedios[a][id] || null), [anual[id].pts, anual[id].pj]];
+        const pts = temporadas.reduce((n, t) => n + (t ? t[0] : 0), 0);
+        const pj = temporadas.reduce((n, t) => n + (t ? t[1] : 0), 0);
+        return { id, temporadas, pts, pj, prom: pj ? pts / pj : 0 };
+      }).sort((a, b) => b.prom - a.prom || club(a.id).nombre.localeCompare(club(b.id).nombre));
+    }
+    // Descienden el último de la tabla anual y el peor promedio; si es el mismo club, el anteúltimo de la tabla anual
+    function descensos() {
+      if (!T.descensos) return { anual: null, prom: null };
+      const anual = tablaAnual(), prom = promedios().at(-1).id;
+      return { prom, anual: anual.at(-1).id === prom ? anual.at(-2).id : anual.at(-1).id };
+    }
+    const enJuego = () => T.fechas.some(f => f.partidos.some(p => !jugado(p) && !p.estado));
+    const avisoDescenso = () => `<p class="leyenda"><span><i class="desciende"></i>${enJuego() ? "Descendería si el año terminara hoy" : "Desciende"}
+      (uno por la tabla anual y otro por los promedios)</span></p>`;
+    function vistaAnual() {
+      const d = descensos();
+      const cuerpo = tablaAnual().map((f, i) => {
+        const dif = f.dif > 0 ? `+${f.dif}` : f.dif;
+        return `<tr><td class="pos ${f.id === d.anual ? "desciende" : ""}">${i + 1}</td><td class="eq">${nombreClub(f.id)}</td>
+          <td class="pts">${f.pts}</td><td>${f.pj}</td><td class="gol">${f.gf}:${f.gc}</td><td class="dif">${dif}</td>
+          <td class="opc">${f.g}</td><td class="opc">${f.e}</td><td class="opc">${f.p}</td></tr>`;
+      }).join("");
+      return `<p class="vacio">Suma la fase de zonas del Torneo Apertura y del Torneo Clausura ${T.anio} (los playoffs no cuentan).</p>
+        <div class="grupo tabla-larga"><table><thead><tr><th>#</th><th class="eq">Equipo</th><th>Pts</th><th>J</th><th class="gol">Gol</th><th>+/-</th>
+          <th class="opc">G</th><th class="opc">E</th><th class="opc">P</th></tr></thead><tbody>${cuerpo}</tbody></table></div>
+        ${T.descensos ? avisoDescenso() : ""}`;
+    }
+    function vistaPromedios() {
+      const d = descensos();
+      const temporada = t => t ? t[0] : "–";
+      const cuerpo = promedios().map((f, i) => `<tr><td class="pos ${f.id === d.prom ? "desciende" : ""}">${i + 1}</td>
+        <td class="eq">${nombreClub(f.id)}</td>${f.temporadas.map(t => `<td class="opc" title="${t ? `${t[1]} partidos` : "No jugó en Primera"}">${temporada(t)}</td>`).join("")}
+        <td>${f.pts}</td><td>${f.pj}</td><td class="pts">${f.prom.toFixed(3).replace(".", ",")}</td></tr>`).join("");
+      return `<p class="vacio">Los puntos de las temporadas ${[...aniosProm, T.anio].join(", ")} divididos por los partidos jugados
+        (la de ${T.anio} es la tabla anual). Los que subieron hace poco dividen solo por los partidos que jugaron en Primera.</p>
+        <div class="grupo tabla-larga"><table><thead><tr><th>#</th><th class="eq">Equipo</th>${[...aniosProm, T.anio].map(a => `<th class="opc">${a}</th>`).join("")}
+          <th>Pts</th><th>J</th><th>Prom.</th></tr></thead><tbody>${cuerpo}</tbody></table></div>
+        ${T.descensos ? avisoDescenso() : ""}`;
+    }
 
     // ---- Un partido ----
     // conDia: poner el día en cada partido (en las fechas no hace falta: van agrupados por día)
@@ -163,8 +222,9 @@
         if (vista === "fechas") q.set("fecha", fechaVista);
         history.pushState({ vista, fechaVista }, "", `?${q}`);
       }
-      const html = { tabla: vistaTabla, fechas: vistaFechas, playoffs: vistaPlayoffs, goleadores: vistaGoleadores }[vista]();
-      ligaEl.innerHTML = `<div class="pestanas" role="tablist">${VISTAS.map(([v, n]) =>
+      const html = { tabla: vistaTabla, fechas: vistaFechas, playoffs: vistaPlayoffs, anual: vistaAnual, promedios: vistaPromedios,
+        goleadores: vistaGoleadores }[vista]();
+      ligaEl.innerHTML = `<div class="pestanas" role="tablist">${VISTAS.filter(([v]) => (v !== "promedios" || T.promedios) && (v !== "anual" || T.anual)).map(([v, n]) =>
         `<button class="pestana" type="button" role="tab" data-vista="${v}" aria-selected="${v === vista}">${n}</button>`).join("")}</div>${html}`;
     }
     ligaEl.addEventListener("click", e => {

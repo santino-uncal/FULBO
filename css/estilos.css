@@ -446,7 +446,9 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .cruce .local { text-align: right; }
 .cruce small { color: var(--texto-suave); font-size: .75rem; }
 .cruce .resultado { color: var(--texto-suave); }
-.goleadores { max-width: 640px; }
+.goleadores, .tabla-larga { max-width: 760px; }
+.grupo td.pos.desciende { background: var(--res-d); color: #fff; }
+.leyenda i.desciende { background: var(--res-d); }
 .grupo .eq.club-goleador { font-weight: 400; color: var(--texto-suave); }
 .ligas a { color: inherit; text-decoration: none; display: contents; }
 .ligas li:has(a) { border-color: var(--acento); }

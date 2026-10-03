@@ -59,6 +59,15 @@ class DatosLiga(unittest.TestCase):
                     if "gl" in p and p.get("goles"):   # los goles cuadran con el resultado
                         self.assertEqual(sum(g["equipo"] == "local" for g in p["goles"]), p["gl"], p)
                         self.assertEqual(sum(g["equipo"] == "visitante" for g in p["goles"]), p["gv"], p)
+                # tabla anual y promedios: [puntos, partidos] con sentido, y solo de clubes del torneo
+                for cid, f in d.get("anual", {}).items():
+                    self.assertIn(cid, ids)
+                    pts, pj, g, e, p = f[:5]
+                    self.assertEqual((pj, pts), (g + e + p, 3 * g + e), cid)
+                for anio, tabla in d.get("promedios", {}).items():
+                    for cid, (pts, pj) in tabla.items():
+                        self.assertIn(cid, ids)
+                        self.assertTrue(0 < pj and 0 <= pts <= 3 * pj, (anio, cid))
                 for cid, c in d["clubes"].items():
                     self.assertTrue(c["nombre"], cid)
                     self.assertTrue(c["escudo"] and (RAIZ / c["escudo"]).exists(), f"falta el escudo de {cid}")
