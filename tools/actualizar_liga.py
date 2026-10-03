@@ -32,6 +32,79 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2011: dos torneos de 20 equipos a una rueda, sin playoffs. El Torneo Clausura 2011 (febrero-junio; campeón Vélez)
+    # cerraba la temporada 2010-11: su "tabla anual" es la de la temporada (el Apertura 2010 y el Clausura 2011). Bajaron
+    # los dos últimos de los promedios (2008-09, 2009-10 y 2010-11); Huracán y Gimnasia empataron en el lugar de la
+    # Promoción y jugaron un desempate (ESPN lo llama "promocion"; ganó Gimnasia). Los dos de arriba jugaron la
+    # Promoción contra equipos de la B Nacional y perdieron (River con Belgrano, Gimnasia con San Martín de San Juan): ESPN
+    # no tiene esos partidos, van a mano (Wikipedia; los goles, de Goal, Página/12 y Diario de Cuyo). Los cupos de la
+    # Sudamericana 2011, fijos
+    "2011-clausura": {"nombre": "Torneo Clausura 2011", "anio": 2011, "slug": "clausura-2011",
+                      "patron": r"^torneo-clausura-2011(---promocion)?$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True, "temporada": "2010-11", "nombre_anual": "Temporada y copas",
+                      "desempate": r"---promocion$",
+                      "desempate_texto": "Huracán y Gimnasia (La Plata) terminaron empatados en los promedios, en el "
+                                         "lugar de la Promoción: lo definieron en un partido, en la cancha de Boca. "
+                                         "Huracán, que perdió, bajó directo; Gimnasia jugó la Promoción.",
+                      "nombre_playoffs": "Promoción", "playoffs": [(r"^$^", "Promoción")],
+                      "playoffs_a_mano": {"Promoción": [
+                          {"hora_utc": "2011-06-23T00:00Z", "fecha": "2011-06-22", "hora": "21:00", "local": "4",
+                           "visitante": "16", "gl": 2, "gv": 0, "estadio": "Gigante de Alberdi", "arbitro": "Néstor Pitana",
+                           "goles": [{"jugador": "César Mansanelli", "min": 25, "tipo": "pen", "equipo": "local"},
+                                     {"jugador": "César Pereyra", "min": 49, "equipo": "local"}]},
+                          {"hora_utc": "2011-06-26T18:00Z", "fecha": "2011-06-26", "hora": "15:00", "local": "16",
+                           "visitante": "4", "gl": 1, "gv": 1, "estadio": "Monumental", "arbitro": "Sergio Pezzotta",
+                           "goles": [{"jugador": "Mariano Pavone", "min": 5, "equipo": "local"},
+                                     {"jugador": "Guillermo Farré", "min": 61, "equipo": "visitante"}]},
+                          {"hora_utc": "2011-06-26T22:10Z", "fecha": "2011-06-26", "hora": "19:10", "local": "7845",
+                           "visitante": "9", "gl": 1, "gv": 0, "estadio": "Ingeniero Hilario Sánchez",
+                           "goles": [{"jugador": "Roberval", "min": 34, "equipo": "local"}]},
+                          {"hora_utc": "2011-06-30T18:00Z", "fecha": "2011-06-30", "hora": "15:00", "local": "9",
+                           "visitante": "7845", "gl": 1, "gv": 1, "estadio": "Juan Carmelo Zerillo",
+                           "arbitro": "Héctor Baldassi",
+                           "goles": [{"jugador": "Sebastián Penco", "min": 2, "equipo": "visitante"},
+                                     {"jugador": "Vizcarra", "min": 69, "equipo": "local"}]}]},
+                      "ida_y_vuelta": True,
+                      "cuadro": {"bloques": [("Promoción: los equipos de Primera contra los de la B Nacional",
+                                              [["Promoción"]])],
+                                 "nota": "Con el global igualado se quedaba en Primera el equipo de Primera. River y "
+                                         "Gimnasia perdieron y bajaron; Belgrano y San Martín de San Juan subieron."},
+                      "anual": [("arg.1", r"^torneo-apertura-2010$", 2010)],
+                      "anual_texto": "La tabla de la temporada 2010-11: suma el Torneo Apertura 2010 y el Torneo Clausura 2011.",
+                      "promedios": {"2008-09": [("arg.1", r"^torneo-apertura-2008$", 2008),
+                                                ("arg.1", r"^torneo-clausura-2009$", 2009)],
+                                    "2009-10": [("arg.1", r"^torneo-apertura-2009$", 2009),
+                                                ("arg.1", r"^torneo-clausura-2010$", 2010)]},
+                      "descensos": "promedios", "descienden": 2, "promocion": 2,
+                      "cupos": {"anio": 2011, "fijos": True,
+                                "sudamericana": [("Campeón de la Copa Sudamericana 2010 (lugar aparte)", "independiente"),
+                                                 ("Tabla de la temporada 2010-11", "velez-sarsfield"),
+                                                 ("Tabla de la temporada 2010-11", "estudiantes-de-la-plata"),
+                                                 ("Tabla de la temporada 2010-11", "godoy-cruz"),
+                                                 ("Tabla de la temporada 2010-11", "lanus"),
+                                                 ("Tabla de la temporada 2010-11", "arsenal-de-sarandi"),
+                                                 ("Tabla de la temporada 2010-11", "argentinos-juniors")]}},
+    # El Torneo Apertura 2011 (agosto-diciembre; campeón Boca) abría la temporada 2011-12. La tabla del año 2011 (el
+    # Clausura y el Apertura) daba lugares en la Libertadores 2012 y en la Sudamericana 2012. Los cupos, fijos
+    "2011-apertura": {"nombre": "Torneo Apertura 2011", "anio": 2011, "slug": "apertura-2011",
+                      "patron": r"^torneo-apertura-2011$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True,
+                      "anual": [("arg.1", r"^torneo-clausura-2011$")],
+                      "anual_texto": "La tabla del año 2011: suma el Torneo Clausura 2011 y el Torneo Apertura 2011.",
+                      "sin_descensos": "En el Torneo Apertura 2011 no hubo descensos: se definieron al terminar la "
+                                       "temporada 2011-12, con el Torneo Clausura 2012.",
+                      "cupos": {"anio": 2012, "fijos": True,
+                                "libertadores": [("Campeón del Torneo Clausura 2011", "velez-sarsfield"),
+                                                 ("Campeón del Torneo Apertura 2011", "boca-juniors"),
+                                                 ("Tabla del año 2011", "lanus"),
+                                                 ("Tabla del año 2011", "godoy-cruz"),
+                                                 ("Mejor argentino en la Copa Sudamericana 2011", "arsenal-de-sarandi")],
+                                "sudamericana": [("Tabla del año 2011", "independiente"),
+                                                 ("Tabla del año 2011", "racing-club"),
+                                                 ("Tabla del año 2011", "tigre"),
+                                                 ("Tabla del año 2011", "argentinos-juniors"),
+                                                 ("Tabla del año 2011", "colon"),
+                                                 ("Campeón de la Copa Argentina 2011-12 (se jugó en 2012)", "boca-juniors")]}},
     # 2012: dos torneos de 20 equipos a una rueda, sin playoffs. El Torneo Clausura 2012 (febrero-junio; campeón Arsenal)
     # cerraba la temporada 2011-12: su "tabla anual" es la de la temporada (el Apertura 2011 y el Clausura 2012). Bajaron
     # los dos últimos de los promedios (2009-10, 2010-11 y 2011-12) y los dos de arriba jugaron la Promoción contra
@@ -875,7 +948,10 @@ def armar(clave):
             regular.append(p)
 
     for fase, ps in cfg.get("playoffs_a_mano", {}).items():   # partidos que ESPN no tiene (la Superfinal 2013)
-        playoffs.setdefault(fase, []).extend(dict(p) for p in ps)
+        for p in ps:   # (los clubes, con nuestro id o con el de ESPN, si no jugaron el torneo: la Promoción 2011)
+            p = {**p, **{lado: club({"id": p[lado], "displayName": p[lado]}) for lado in ("local", "visitante")
+                         if p[lado].isdigit()}}
+            playoffs.setdefault(fase, []).append(p)
 
     if etapas:   # las fechas, por etapa, numeradas desde la primera fecha de cada una
         for i, (_, _, _, primera, cuantas) in enumerate(etapas):

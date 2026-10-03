@@ -145,13 +145,14 @@
       if (!T.descensos && !(aunqueAnulados && T.descensos_anulados)) return { anual: null, prom: null, todos: [], porProm: [] };
       // 2022: bajaban los dos últimos de los promedios (no había descenso por tabla anual); 2018-19, los cuatro últimos
       if (T.descensos === "promedios") {
-        const orden = promedios();
-        let porProm = orden.slice(-(T.descienden || 2)).map(f => f.id);
-        // 2012: los dos de arriba de los que bajaban jugaban la Promoción contra equipos de la B Nacional (T.promocion)
-        const promo = T.promocion ? orden.slice(-((T.descienden || 2) + T.promocion), -(T.descienden || 2)).map(f => f.id) : [];
-        // empate en el lugar del descenso definido en un partido (2014: Colón-Rafaela): baja el que perdió
-        const des = T.desempate, gana = des && ganador(des);
-        if (gana && porProm.includes(gana)) porProm = porProm.map(id => id === gana ? (gana === des.local ? des.visitante : des.local) : id);
+        const n = T.descienden || 2, ids = promedios().map(f => f.id);
+        // empate en el lugar del descenso definido en un partido (2014: Colón-Rafaela; 2011: Huracán-Gimnasia, por la
+        // Promoción): el que ganó queda arriba del que perdió
+        const des = T.desempate, gana = des && ganador(des), pierde = gana && (gana === des.local ? des.visitante : des.local);
+        if (gana && ids.indexOf(gana) > ids.indexOf(pierde)) [ids[ids.indexOf(gana)], ids[ids.indexOf(pierde)]] = [pierde, gana];
+        const porProm = ids.slice(-n);
+        // 2011 y 2012: los dos de arriba de los que bajaban jugaban la Promoción contra equipos de la B Nacional (T.promocion)
+        const promo = T.promocion ? ids.slice(-(n + T.promocion), -n) : [];
         return { porProm, todos: porProm, anual: null, promo };
       }
       const anual = tablaAnual(), prom = promedios().at(-1).id;
