@@ -125,15 +125,19 @@
       const c = T.cupos;
       if (!c) return null;
       const d = descensos();
-      const campeones = [...new Set(c.campeones.map(x => x.club).filter(Boolean))];
-      const pendientes = c.campeones.filter(x => !x.club).length;
-      const resto = tablaAnual().map(f => f.id).filter(id => !campeones.includes(id) && id !== d.anual && id !== d.prom);
+      // los campeones "extra" (la Sudamericana) van a la Libertadores por la Conmebol: no ocupan un lugar de la liga
+      const deLaLiga = c.campeones.filter(x => !x.extra);
+      const campeones = [...new Set(deLaLiga.map(x => x.club).filter(Boolean))];
+      const extras = c.campeones.filter(x => x.extra && x.club).map(x => x.club);
+      const pendientes = deLaLiga.filter(x => !x.club).length;
+      const resto = tablaAnual().map(f => f.id).filter(id => !campeones.includes(id) && !extras.includes(id) && id !== d.anual && id !== d.prom);
       const porTabla = c.libertadores - campeones.length - pendientes;
-      return { ...c, pendientes, porTabla, libertadores: new Set([...campeones, ...resto.slice(0, porTabla)]),
+      return { ...c, pendientes, porTabla, libertadores: new Set([...campeones, ...extras, ...resto.slice(0, porTabla)]),
         sudamericana: new Set(resto.slice(porTabla, porTabla + c.sudamericana)) };
     }
     function cuposHTML(cu) {
-      const titulo = x => `<li><span class="cupo-titulo">${esc(x.titulo)}</span>${x.club ? nombreClub(x.club) : `<span class="vacio">a definir</span>`}</li>`;
+      const titulo = x => `<li><span class="cupo-titulo">${esc(x.titulo)}</span>${x.club ? nombreClub(x.club) : `<span class="vacio">a definir</span>`}${x.extra
+        ? ` <span class="vacio">(lugar aparte, no es de la liga)</span>` : ""}</li>`;
       return `<div class="cupos"><h4>Copa Libertadores ${cu.anio}</h4>
         <ul class="cupos-campeones">${cu.campeones.map(titulo).join("")}
           <li><span class="cupo-titulo">Tabla anual</span><span>los ${cu.porTabla} mejores que no sean campeones</span></li></ul>
@@ -144,18 +148,24 @@
     function vistaAnual() {
       const d = descensos();
       const cu = cupos();
-      const campeonDe = id => (T.cupos?.campeones || []).filter(x => x.club === id).map(x => x.titulo);
-      const cuerpo = tablaAnual().map((f, i) => {
+      const anual = tablaAnual();
+      // el título del primero de la tabla anual (2025: "Campeón de Liga", lo dio la AFA), cuando terminó el año
+      const tituloAnual = T.titulo_anual && !enJuego() ? T.titulo_anual : null;
+      const campeonDe = id => (T.cupos?.campeones || []).filter(x => x.club === id).map(x => `Campeón de la ${x.titulo}`)
+        .concat(tituloAnual && id === anual[0].id ? [tituloAnual] : []);
+      const cuerpo = anual.map((f, i) => {
         const dif = f.dif > 0 ? `+${f.dif}` : f.dif;
         const marca = f.id === d.anual || f.id === d.prom ? "desciende" : cu?.libertadores.has(f.id) ? "libertadores"
           : cu?.sudamericana.has(f.id) ? "sudamericana" : "";
-        const titulos = campeonDe(f.id).map(x => ` <span class="campeon-de" title="Campeón del ${esc(x)}">🏆</span>`).join("");
+        const titulos = campeonDe(f.id).map(x => ` <span class="campeon-de" title="${esc(x.replace("de la Torneo", "del Torneo"))}">🏆</span>`).join("");
         return `<tr><td class="pos ${marca}">${i + 1}</td><td class="eq">${nombreClub(f.id)}${titulos}</td>
           <td class="pts">${f.pts}</td><td>${f.pj}</td><td class="gol">${f.gf}:${f.gc}</td><td class="dif">${dif}</td>
           <td class="opc">${f.g}</td><td class="opc">${f.e}</td><td class="opc">${f.p}</td></tr>`;
       }).join("");
       const hoy = enJuego() ? " si el año terminara hoy" : "";
       return `<p class="vacio">Suma la fase de zonas del Torneo Apertura y del Torneo Clausura ${T.anio} (los playoffs no cuentan).</p>
+        ${tituloAnual ? `<p class="campeon-torneo">🏆 ${esc(tituloAnual)}: ${nombreClub(anual[0].id)}
+          <small class="vacio">(título que la AFA le dio al primero de la tabla anual)</small></p>` : ""}
         ${cu ? cuposHTML(cu) : ""}
         <div class="grupo tabla-larga"><table><thead><tr><th>#</th><th class="eq">Equipo</th><th>Pts</th><th>J</th><th class="gol">Gol</th><th>+/-</th>
           <th class="opc">G</th><th class="opc">E</th><th class="opc">P</th></tr></thead><tbody>${cuerpo}</tbody></table></div>

@@ -13,8 +13,8 @@ desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de C
   La Sudamericana es la misma página con `copa=sudamericana` adelante: `?copa=sudamericana`, `?copa=sudamericana&edicion=2014`,
   `?copa=sudamericana&equipo=lanus`, `?copa=sudamericana&estadisticas`. Lo mismo con `copa=recopa`, `copa=intercontinental` y `copa=mundial`
   (`?copa=mundial&edicion=2012`). En la cabecera, tocando el nombre de otra copa se cambia de copa.
-  La **Liga Profesional argentina** está en `liga.html` (por ahora, los torneos Apertura y Clausura 2026, que se eligen
-  arriba: `liga.html?torneo=2026-apertura`): la tabla de las dos zonas,
+  La **Liga Profesional argentina** está en `liga.html` (por ahora, los torneos Apertura y Clausura de 2025 y 2026, que se
+  eligen arriba: `liga.html?torneo=2025-apertura`): la tabla de las dos zonas,
   todas las fechas con resultados y goles, los goleadores, los playoffs, la tabla anual y los promedios del descenso
   (`liga.html?vista=fechas&fecha=5`, `?vista=anual`, `?vista=promedios`).
   `sitemap.xml` (lo arma `tools/generar_datos.py`) y `robots.txt` le indican a Google qué páginas indexar.
@@ -135,7 +135,9 @@ python tools/descargar_espn.py --copa conference     # Conference League desde 2
 python tools/descargar_wikipedia.py --copa supercopa  # Supercopa de Europa 1972-2004 y 2013 (una sola vez)
 python tools/descargar_espn.py --copa supercopa       # Supercopa de Europa desde 2005
 python tools/descargar_banderas.py  # banderas de los países nuevos
-python tools/actualizar_liga.py     # liga argentina: baja de ESPN ("arg.1") los partidos del torneo en curso y arma data/ligas/argentina/ (tarea programada, todas las noches)
+python tools/actualizar_liga.py     # liga argentina: baja de ESPN ("arg.1") los torneos que no terminaron y arma data/ligas/argentina/ (tarea programada, todas las noches)
+python tools/actualizar_liga.py todos            # todos los torneos, también los terminados (después de cambiar el script)
+python tools/actualizar_liga.py 2025-clausura    # solo ese torneo
 python tools/actualizar_europa.py   # temporada en curso de la Champions, la Europa League y la Conference, y la Supercopa del año (bajar, armar, probar)
 ```
 
@@ -165,7 +167,11 @@ Los números se controlaron contra futbolargentino.com y aquehorajuegan.com (oct
 campeones del Apertura, del Clausura y de la Copa Argentina 2026 y los mejores de la tabla anual hasta completar 6; a la
 Sudamericana, los 6 siguientes. Si un campeón ya entra por la tabla (o gana dos títulos), su lugar pasa al siguiente;
 los que descienden no juegan copas. Los campeones salen solos de la final en ESPN (la Copa Argentina es "arg.copa");
-la página los marca en la tabla anual. Para sumar un torneo, agregarlo a `TORNEOS` en el script;
+la página los marca en la tabla anual. Un campeón "extra" (el de la Sudamericana, que va a la Libertadores por la
+Conmebol: Lanús en 2025) no ocupa un lugar de la liga. 2025 tuvo las mismas reglas (promedios 2023-2025) y, además, el
+título de "Campeón de Liga" que la AFA le dio en noviembre de 2025 a Rosario Central por ganar la tabla anual
+(`titulo_anual`). Controlado contra lo que pasó: descendieron San Martín de San Juan (promedios) y Godoy Cruz (tabla
+anual), y los clasificados a las copas 2026 coinciden con la lista de ESPN. Para sumar un torneo, agregarlo a `TORNEOS` en el script;
 los clubes que no jugaron copas (y no están en `data/equipos.js`) van en `CLUBES_NUEVOS`, y su escudo se baja solo.
 
 ### Corregir clubes

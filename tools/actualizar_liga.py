@@ -1,7 +1,8 @@
 """Baja de ESPN un torneo de la liga argentina (por ahora, el Clausura 2026) y arma data/ligas/argentina/<torneo>.js.
 
-Uso:  py tools/actualizar_liga.py                 (los torneos de TORNEOS)
+Uso:  py tools/actualizar_liga.py                 (los torneos de TORNEOS que no terminaron)
       py tools/actualizar_liga.py 2026-clausura   (solo ese)
+      py tools/actualizar_liga.py todos           (todos, también los terminados)
 
 La tabla de posiciones no se guarda: la calcula la página con los resultados. Por eso alcanza con correr este
 script una vez por día (lo hace la tarea programada) para que la tabla quede al día.
@@ -31,6 +32,23 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2025: igual que 2026 (dos torneos con zonas, tabla anual, promedios y cupos). Los promedios de 2025 son
+    # 2023 (Copa de la Liga y Liga Profesional), 2024 y 2025. Descendieron Godoy Cruz (tabla anual) y San Martín de
+    # San Juan (promedios). Lanús fue a la Libertadores 2026 por ganar la Sudamericana 2025: un lugar aparte ("extra")
+    "2025-apertura": {"nombre": "Torneo Apertura 2025", "anio": 2025, "slug": "apertura", "fechas": 16, "pasan": 8,
+                      "zonas_de": "clausura"},
+    "2025-clausura": {"nombre": "Torneo Clausura 2025", "anio": 2025, "slug": "clausura", "fechas": 16, "pasan": 8,
+                      "anual": [("arg.1", r"^torneo-apertura$")],
+                      "promedios": {2023: [("arg.copa_lpf", r"^group-stage$"), ("arg.1", r"liga-profesional")],
+                                    2024: [("arg.copa_lpf", r"^group-stage$"), ("arg.1", r"liga-profesional")]},
+                      "descensos": True,
+                      # en noviembre de 2025 la AFA le dio un título al primero de la tabla anual
+                      "titulo_anual": "Campeón de Liga 2025",
+                      "cupos": {"anio": 2026, "libertadores": 6, "sudamericana": 6,
+                                "campeones": [("Torneo Apertura 2025", "arg.1", r"^apertura---final$"),
+                                              ("Torneo Clausura 2025", "arg.1", r"^clausura---final$"),
+                                              ("Copa Argentina 2025", "arg.copa", r"^final$"),
+                                              ("Copa Sudamericana 2025", "conmebol.sudamericana", r"(^|-)final$", "extra")]}},
     # Las zonas del Apertura 2026 fueron las mismas que las del Clausura (la tabla de ESPN ya muestra solo las del
     # Clausura): "zonas_de" usa las de ese torneo. armar() controla que cada club tenga 2 partidos interzonales
     "2026-apertura": {"nombre": "Torneo Apertura 2026", "anio": 2026, "slug": "apertura", "fechas": 16, "pasan": 8,
@@ -65,6 +83,7 @@ PLAYOFFS = [("round-of-16", "Octavos de final"), ("quarter", "Cuartos de final")
 CLUBES_NUEVOS = {
     "2975": ("instituto", "Instituto"),
     "11972": ("gimnasia-mendoza", "Gimnasia (Mendoza)"),
+    "7845": ("san-martin-san-juan", "San Martín de San Juan"),
     "9739": ("aldosivi", "Aldosivi"),
     "10158": ("sarmiento", "Sarmiento"),
     "19685": ("estudiantes-rio-cuarto", "Estudiantes de Río Cuarto"),
@@ -305,10 +324,13 @@ def armar(clave):
             s = sumar(anio, fuentes)
             datos["promedios"][anio] = {cid: s[eid][:2] for cid, eid in espn_de.items() if eid in s}
     datos["descensos"] = cfg.get("descensos", False)
+    if cfg.get("titulo_anual"):
+        datos["titulo_anual"] = cfg["titulo_anual"]
     if cfg.get("cupos"):
         cupos = dict(cfg["cupos"])
-        cupos["campeones"] = [{"titulo": titulo, "club": campeon(liga, cfg["anio"], patron, club)}
-                              for titulo, liga, patron in cfg["cupos"]["campeones"]]
+        # extra: un lugar que no es de la liga (el campeón de la Sudamericana va a la Libertadores por la Conmebol)
+        cupos["campeones"] = [{"titulo": titulo, "club": campeon(liga, cfg["anio"], patron, club), **({"extra": True} if extra else {})}
+                              for titulo, liga, patron, *extra in cfg["cupos"]["campeones"]]
         datos["cupos"] = cupos
     DATOS.mkdir(parents=True, exist_ok=True)
     # si no cambió nada desde la última vez, queda la hora de antes (así un torneo terminado no cambia cada noche)
@@ -322,10 +344,6 @@ def armar(clave):
           "window.LIGA = window.LIGA || {};\n"
           f"window.LIGA[{json.dumps(clave)}] = {json.dumps(datos, ensure_ascii=False, separators=(',', ':'))};\n")
     (DATOS / f"{clave}.js").write_text(js, encoding="utf-8")
-    # el índice de torneos de la liga (para la lista de la página)
-    indice = [{"clave": c, "nombre": t["nombre"]} for c, t in TORNEOS.items() if (DATOS / f"{c}.js").exists()]
-    (DATOS / "indice.js").write_text("/* Generado por tools/actualizar_liga.py — no editar a mano */\n"
-                                     f"window.LIGA_INDICE = {json.dumps(indice, ensure_ascii=False)};\n", encoding="utf-8")
     jugados = sum(p["gl"] is not None for p in regular)
     print(f"{cfg['nombre']}: {len(fechas)} fechas, {jugados} de {len(regular)} partidos jugados; "
           f"playoffs: {sum(len(v) for v in playoffs.values())} partidos", flush=True)
@@ -340,10 +358,32 @@ def armar(clave):
     return datos
 
 
+def escribir_indice():
+    """El índice de torneos de la liga (para la lista de la página), en orden."""
+    indice = [{"clave": c, "nombre": t["nombre"]} for c, t in TORNEOS.items() if (DATOS / f"{c}.js").exists()]
+    (DATOS / "indice.js").write_text("/* Generado por tools/actualizar_liga.py — no editar a mano */\n"
+                                     f"window.LIGA_INDICE = {json.dumps(indice, ensure_ascii=False)};\n", encoding="utf-8")
+
+
+def terminado(clave):
+    """Si el torneo ya tiene campeón (la final jugada en los datos), no hace falta volver a bajarlo cada noche."""
+    archivo = DATOS / f"{clave}.js"
+    if not archivo.exists():
+        return False
+    t = archivo.read_text(encoding="utf-8")
+    d = json.JSONDecoder().raw_decode(t[t.index("] = ") + 4:])[0]
+    return any(r["nombre"] == "Final" and all("gl" in p for p in r["partidos"]) for r in d["playoffs"])
+
+
 def main():
+    """Sin nada, los torneos que no terminaron; con nombres (o "todos"), esos."""
+    pedidos = [a for a in sys.argv[1:] if a in TORNEOS]
+    if not pedidos:
+        pedidos = list(TORNEOS) if "todos" in sys.argv else [c for c in TORNEOS if not terminado(c)]
     # (los torneos que usan las zonas de otro van después: ese otro baja las zonas)
-    for clave in sorted([a for a in sys.argv[1:] if a in TORNEOS] or list(TORNEOS), key=lambda c: "zonas_de" in TORNEOS[c]):
+    for clave in sorted(pedidos, key=lambda c: "zonas_de" in TORNEOS[c]):
         armar(clave)
+    escribir_indice()
 
 
 if __name__ == "__main__":
