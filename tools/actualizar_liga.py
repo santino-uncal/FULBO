@@ -32,6 +32,51 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2012: dos torneos de 20 equipos a una rueda, sin playoffs. El Torneo Clausura 2012 (febrero-junio; campeón Arsenal)
+    # cerraba la temporada 2011-12: su "tabla anual" es la de la temporada (el Apertura 2011 y el Clausura 2012). Bajaron
+    # los dos últimos de los promedios (2009-10, 2010-11 y 2011-12) y los dos de arriba jugaron la Promoción contra
+    # equipos de la B Nacional ("promocion"): a ida y vuelta; con el global igualado se quedaba el de Primera ("ventaja",
+    # San Martín de San Juan). Los cupos de la Sudamericana 2012 (por la tabla del año 2011), fijos
+    "2012-clausura": {"nombre": "Torneo Clausura 2012", "anio": 2012, "slug": "clausura-2012",
+                      "patron": r"^torneo-clausura-2012(---promocion)?$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True, "temporada": "2011-12", "nombre_anual": "Temporada y copas",
+                      "nombre_playoffs": "Promoción", "playoffs": [(r"---promocion$", "Promoción")],
+                      "ida_y_vuelta": True, "ventaja": ["san-lorenzo", "san-martin-san-juan"],
+                      "cuadro": {"bloques": [("Promoción: los equipos de Primera contra los de la B Nacional",
+                                              [["Promoción"]])],
+                                 "nota": "Con el global igualado se quedaba en Primera el equipo de Primera (ventaja "
+                                         "deportiva): así se salvó San Martín de San Juan. Rosario Central e Instituto "
+                                         "siguieron en la B Nacional."},
+                      "anual": [("arg.1", r"^torneo-apertura-2011$", 2011)],
+                      "anual_texto": "La tabla de la temporada 2011-12: suma el Torneo Apertura 2011 y el Torneo Clausura 2012.",
+                      "promedios": {"2009-10": [("arg.1", r"^torneo-apertura-2009$", 2009),
+                                                ("arg.1", r"^torneo-clausura-2010$", 2010)],
+                                    "2010-11": [("arg.1", r"^torneo-apertura-2010$", 2010),
+                                                ("arg.1", r"^torneo-clausura-2011$", 2011)]},
+                      "descensos": "promedios", "descienden": 2, "promocion": 2,
+                      "cupos": {"anio": 2012, "fijos": True,
+                                "sudamericana": [("Campeón de la Copa Argentina 2011-12", "boca-juniors"),
+                                                 ("Tabla del año 2011 (Clausura 2011 y Apertura 2011)", "independiente"),
+                                                 ("Tabla del año 2011 (Clausura 2011 y Apertura 2011)", "racing-club"),
+                                                 ("Tabla del año 2011 (Clausura 2011 y Apertura 2011)", "tigre"),
+                                                 ("Tabla del año 2011 (Clausura 2011 y Apertura 2011)", "argentinos-juniors"),
+                                                 ("Tabla del año 2011 (Clausura 2011 y Apertura 2011)", "colon")]}},
+    # El Torneo Inicial 2012 (agosto-diciembre; campeón Vélez; dos partidos postergados, en febrero de 2013) abría la
+    # temporada 2012-13. La tabla del año 2012 (el Clausura y el Inicial) daba lugares en la Libertadores 2013. Los
+    # cupos, fijos
+    "2012-inicial": {"nombre": "Torneo Inicial 2012", "anio": 2012, "anios": [2012, 2013], "slug": "inicial-2012",
+                     "patron": r"^torneo-inicial-2012$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                     "campeon_tabla": True,
+                     "anual": [("arg.1", r"^torneo-clausura-2012$")],
+                     "anual_texto": "La tabla del año 2012: suma el Torneo Clausura 2012 y el Torneo Inicial 2012.",
+                     "sin_descensos": "En el Torneo Inicial 2012 no hubo descensos: se definieron al terminar la "
+                                      "temporada 2012-13, con el Torneo Final 2013.",
+                     "cupos": {"anio": 2013, "fijos": True,
+                               "libertadores": [("Campeón del Torneo Clausura 2012", "arsenal-de-sarandi"),
+                                                ("Campeón del Torneo Inicial 2012", "velez-sarsfield"),
+                                                ("Tabla del año 2012", "newell-s-old-boys"),
+                                                ("Tabla del año 2012", "boca-juniors"),
+                                                ("Mejor argentino en la Copa Sudamericana 2012 (fue finalista)", "tigre")]}},
     # 2013: dos torneos de 20 equipos a una rueda, sin playoffs. El Torneo Final 2013 (febrero-junio; campeón Newell's)
     # cerraba la temporada 2012-13: su "tabla anual" es la de la temporada (el Inicial 2012 y el Final 2013). Bajaron los
     # tres últimos de los promedios (2010-11, 2011-12 y 2012-13). Después, la Superfinal: el campeón del Inicial 2012
@@ -734,7 +779,9 @@ def armar(clave):
             zonas_espn.setdefault(max(gs, key=gs.get), []).append(eid)
         zonas_espn = dict(sorted(zonas_espn.items()))
     elif unica:
-        zonas_espn = {"": sorted({c["team"]["id"] for e in eventos for c in e["competitions"][0]["competitors"]})}
+        # (sin los playoffs: en la Promoción 2012 jugaron equipos de la B Nacional)
+        zonas_espn = {"": sorted({c["team"]["id"] for e in eventos if not es_playoff(e)
+                                  for c in e["competitions"][0]["competitors"]})}
     else:
         zonas_espn = json.loads((carpeta / f"zonas-{cfg.get('zonas_de', cfg['slug'])}.json").read_text(encoding="utf-8"))
     # control: con las zonas bien puestas, cada club juega 2 partidos contra la otra zona en la fase regular
@@ -888,7 +935,7 @@ def armar(clave):
                                     "fechas": sorted({p["fecha_n"] for p in ps})})
     if desempates:
         datos["desempate"] = limpio(desempates[0])
-    for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
+    for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "promocion", "ventaja", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
               "campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro"):
         if cfg.get(k):
             datos[k] = cfg[k]

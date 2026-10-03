@@ -459,6 +459,7 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .goleadores, .tabla-larga { max-width: 760px; }
 .grupo td.pos.desciende { background: var(--res-d); color: #fff; }
 .leyenda i.desciende { background: var(--res-d); }
+.grupo td.pos.promocion, .leyenda i.promocion { background: #f59e0b; color: #fff; }
 .grupo td.pos.libertadores, .leyenda i.libertadores { background: var(--directo); color: #fff; }
 .cupos { max-width: 760px; padding: 10px 16px; margin: 12px 0 16px; background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio); }
 .cupos h4 { margin: 8px 0 6px; color: var(--acento); }
