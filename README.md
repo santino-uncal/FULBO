@@ -13,8 +13,8 @@ desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de C
   La Sudamericana es la misma página con `copa=sudamericana` adelante: `?copa=sudamericana`, `?copa=sudamericana&edicion=2014`,
   `?copa=sudamericana&equipo=lanus`, `?copa=sudamericana&estadisticas`. Lo mismo con `copa=recopa`, `copa=intercontinental` y `copa=mundial`
   (`?copa=mundial&edicion=2012`). En la cabecera, tocando el nombre de otra copa se cambia de copa.
-  La **Liga Profesional argentina** está en `liga.html` (desde 2024: la Copa de la Liga y la Liga Profesional 2024, y los
-  torneos Apertura y Clausura de 2025 y 2026, que se eligen arriba: `liga.html?torneo=2024-liga`): la tabla de las dos zonas,
+  La **Liga Profesional argentina** está en `liga.html` (desde 2023: la Liga Profesional y la Copa de la Liga de 2023 y
+  2024, y los torneos Apertura y Clausura de 2025 y 2026, que se eligen arriba: `liga.html?torneo=2024-liga`): la tabla de las dos zonas,
   todas las fechas con resultados y goles, los goleadores, los playoffs (con su cuadro), la tabla anual y los promedios del descenso
   (`liga.html?vista=fechas&fecha=5`, `?vista=anual`, `?vista=promedios`).
   `sitemap.xml` (lo arma `tools/generar_datos.py`) y `robots.txt` le indican a Google qué páginas indexar.
@@ -179,7 +179,13 @@ anual), y los clasificados a las copas 2026 coinciden con la lista de ESPN.
 final) y la Liga Profesional (una sola tabla, 27 fechas, sin playoffs: el campeón es el primero, `campeon_tabla`). La
 tabla anual sumó la fase de zonas de la Copa y la Liga entera. No hubo descensos (los anuló la AFA): la página dice
 quiénes hubiesen bajado con el reglamento (`descensos_anulados`). Los clasificados a las copas 2025 coinciden con la
-lista de ESPN (Racing fue a la Libertadores aparte, por ganar la Sudamericana 2024). Para sumar un torneo, agregarlo a `TORNEOS` en el script;
+lista de ESPN (Racing fue a la Libertadores aparte, por ganar la Sudamericana 2024).
+
+**2023**, al revés: primero la Liga Profesional (una sola tabla) y después la Copa de la Liga (zonas y playoffs). El
+campeón de la Liga, para los cupos, sale de su tabla (`"tabla"` en `campeones`). Descendieron Arsenal (promedios) y
+Colón, que empató en puntos con Gimnasia en la tabla anual y perdió el partido desempate (`desempate`: ESPN lo tiene en
+la Copa de la Liga como "relegation"; la página lo muestra en la tabla anual). Promedios, tabla anual y clasificados a
+las copas 2024 controlados contra canchallena.lanacion.com.ar y ESPN. Para sumar un torneo, agregarlo a `TORNEOS` en el script;
 los clubes que no jugaron copas (y no están en `data/equipos.js`) van en `CLUBES_NUEVOS`, y su escudo se baja solo.
 
 ### Corregir clubes

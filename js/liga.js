@@ -117,7 +117,12 @@
     function descensos(aunqueAnulados) {
       if (!T.descensos && !(aunqueAnulados && T.descensos_anulados)) return { anual: null, prom: null };
       const anual = tablaAnual(), prom = promedios().at(-1).id;
-      return { prom, anual: anual.at(-1).id === prom ? anual.at(-2).id : anual.at(-1).id };
+      let porAnual = anual.at(-1).id === prom ? anual.at(-2).id : anual.at(-1).id;
+      // empate en puntos por ese lugar: lo definió un partido desempate (2023: Gimnasia-Colón), baja el que perdió
+      const des = T.desempate;
+      if (des && des.gl != null && [des.local, des.visitante].includes(porAnual))
+        porAnual = ganador(des) === des.local ? des.visitante : des.local;
+      return { prom, anual: porAnual };
     }
     const enJuego = () => T.fechas.some(f => f.partidos.some(p => !jugado(p) && !p.estado));
     const avisoDescenso = () => T.descensos_anulados ? (() => {
@@ -180,7 +185,10 @@
           <th class="opc">G</th><th class="opc">E</th><th class="opc">P</th></tr></thead><tbody>${cuerpo}</tbody></table></div>
         ${cu ? `<p class="leyenda"><span><i class="libertadores"></i>Copa Libertadores ${cu.anio}${hoy}</span>
           <span><i class="sudamericana"></i>Copa Sudamericana ${cu.anio}${hoy}</span><span>🏆 Campeón del año</span></p>` : ""}
-        ${T.descensos || T.descensos_anulados ? avisoDescenso() : ""}`;
+        ${T.descensos || T.descensos_anulados ? avisoDescenso() : ""}
+        ${T.desempate ? `<h3>Desempate por el descenso</h3><p class="vacio">${esc(club(T.desempate.local).nombre)} y
+          ${esc(club(T.desempate.visitante).nombre)} terminaron empatados en puntos en la tabla anual, en el lugar del descenso:
+          lo definieron en un partido, en cancha neutral. Bajó el que perdió.</p>${partidoHTML(T.desempate)}` : ""}`;
     }
     function vistaPromedios() {
       const d = descensos();

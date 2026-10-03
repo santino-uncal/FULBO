@@ -32,6 +32,25 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2023: al revés que en 2024, primero la Liga Profesional (enero-julio, una sola tabla de 28, campeón River) y
+    # después la Copa de la Liga (octubre-diciembre, dos zonas de 14, desde cuartos de final; campeón Rosario Central).
+    # La tabla anual sumó la Liga y la fase de zonas de la Copa; los promedios, 2021, 2022 y 2023. Descendieron Arsenal
+    # (último en las dos tablas: por promedios) y Colón, que empató en puntos con Gimnasia en el anteúltimo lugar de la
+    # tabla anual y perdió el desempate ("desempate": el partido; el que pierde es el que baja)
+    "2023-liga": {"nombre": "Liga Profesional 2023", "anio": 2023, "slug": "liga", "patron": r"liga-profesional",
+                  "zonas": "unica", "fechas": 27, "pasan": 0, "campeon_tabla": True},
+    "2023-copa": {"nombre": "Copa de la Liga 2023", "anio": 2023, "liga": "arg.copa_lpf", "slug": "copa", "patron": r"",
+                  "fechas": 14, "pasan": 4, "desempate": r"^relegation$",
+                  "anual": [("arg.1", r"liga-profesional")],
+                  "anual_texto": "Suma la Liga Profesional 2023 y la fase de zonas de la Copa de la Liga 2023.",
+                  "promedios": {2021: [("arg.copa_lpf", r"^group-stage$"), ("arg.1", r"liga-profesional")],
+                                2022: [("arg.copa_lpf", r"^group-stage$"), ("arg.1", r"liga-profesional")]},
+                  "descensos": True,
+                  "cupos": {"anio": 2024, "libertadores": 6, "sudamericana": 6,
+                            # "tabla": el campeón es el primero de la tabla de ese torneo
+                            "campeones": [("Liga Profesional 2023", "arg.1", r"liga-profesional", "tabla"),
+                                          ("Copa de la Liga 2023", "arg.copa_lpf", r"^final$"),
+                                          ("Copa Argentina 2023", "arg.copa", r"^final$")]}},
     # 2024: la Copa de la Liga (enero-mayo, dos zonas de 14 y desde cuartos de final; en ESPN es otra liga,
     # "arg.copa_lpf") y la Liga Profesional (mayo-diciembre, todos contra todos a una rueda, sin playoffs: el campeón
     # es el primero de la tabla). La tabla anual sumó la fase de zonas de la Copa de la Liga y la Liga entera.
@@ -354,7 +373,7 @@ def armar(clave):
                            "colores": eq.get(cid, {}).get("colores") or (["#" + t["color"]] if t.get("color") else None)}
         return cid
 
-    regular, playoffs = [], {}
+    regular, playoffs, desempates = [], {}, []
     for e in sorted(eventos, key=lambda e: e["date"]):
         comp = e["competitions"][0]
         lados = {c["homeAway"]: c for c in comp["competitors"]}
@@ -387,7 +406,9 @@ def armar(clave):
                       for g in p["goles"]]
         p.pop("formaciones", None)
         fase = es_playoff(e)
-        if fase:
+        if cfg.get("desempate") and re.search(cfg["desempate"], e["season"]["slug"]):
+            desempates.append(p)
+        elif fase:
             playoffs.setdefault(fase, []).append(p)
         else:
             regular.append(p)
@@ -421,6 +442,8 @@ def armar(clave):
             s = sumar(anio, fuentes)
             datos["promedios"][anio] = {cid: s[eid][:2] for cid, eid in espn_de.items() if eid in s}
     datos["descensos"] = cfg.get("descensos", False)
+    if desempates:
+        datos["desempate"] = limpio(desempates[0])
     for k in ("campeon_tabla", "anual_texto", "descensos_anulados"):
         if cfg.get(k):
             datos[k] = cfg[k]
@@ -428,11 +451,20 @@ def armar(clave):
         datos["titulo_anual"] = cfg["titulo_anual"]
     if cfg.get("cupos"):
         cupos = dict(cfg["cupos"])
-        # extra: un lugar que no es de la liga (el campeón de la Sudamericana va a la Libertadores por la Conmebol)
-        # (sin liga: el campeón es el primero de la tabla de este torneo, cuando se jugó todo)
-        cupos["campeones"] = [{"titulo": titulo, "club": campeon(liga, cfg["anio"], patron, club) if liga else lider(regular),
-                               **({"extra": True} if extra else {})}
-                              for titulo, liga, patron, *extra in cfg["cupos"]["campeones"]]
+        # extra: un lugar que no es de la liga (el campeón de la Sudamericana va a la Libertadores por la Conmebol);
+        # "tabla": el campeón es el primero de la tabla de ese torneo (la Liga 2023, que se jugó antes en el año);
+        # sin liga: el primero de la tabla de este torneo, cuando se jugó todo
+        def quien(liga, patron, modo):
+            if not liga:
+                return lider(regular)
+            if modo == "tabla":
+                s = sumar(cfg["anio"], [(liga, patron)])
+                eid = max(s, key=lambda i: (s[i][0], s[i][5] - s[i][6], s[i][5]))
+                return club({"id": eid, "displayName": eid})
+            return campeon(liga, cfg["anio"], patron, club)
+        cupos["campeones"] = [{"titulo": titulo, "club": quien(liga, patron, modo[0] if modo else None),
+                               **({"extra": True} if modo and modo[0] == "extra" else {})}
+                              for titulo, liga, patron, *modo in cfg["cupos"]["campeones"]]
         datos["cupos"] = cupos
     DATOS.mkdir(parents=True, exist_ok=True)
     # si no cambió nada desde la última vez, queda la hora de antes (así un torneo terminado no cambia cada noche)
