@@ -77,7 +77,18 @@ La **Copa Intercontinental** y el **Mundial de Clubes** tienen otras fuentes:
 | Copa UEFA / Europa League | 2001/02 en adelante | **ESPN** (la Copa UEFA, hasta 2008/09, es otra "liga" de ESPN: `espn_ligas` en `tools/copas.py`). Las fases de grupos 2004/05–2008/09, que ESPN tiene sin detalle, se completan con Wikipedia. |
 | Conference League | 2021/22 en adelante | **ESPN** ("uefa.europa.conf"). |
 
-En la Champions, la Europa League y la Conference League no se cargan las rondas clasificatorias (desde 1994/95 la competición empieza en la fase de grupos).
+**Rondas clasificatorias** (Champions, Europa League y Conference League, desde 1992/93): se ven en cada edición, en la
+pestaña "Fase previa", y en la historia de cada club, pero no cuentan en las estadísticas históricas (como en los
+registros de la UEFA: ver `es_previa_uefa` en `tools/copas.py`). Las rondas se llaman "Ronda preliminar", "Primera /
+Segunda / Tercera fase previa" y "Playoff de clasificación".
+- 1992/93–2000/01: Wikipedia (una página por temporada; en la Copa UEFA 1994–1998, una sección de la página de la temporada).
+- 2001/02–2019/20: ESPN (hasta 2019 dentro de cada copa) **completado con Wikipedia** (`pagina_previas` en
+  `tools/copas.py`): ESPN tiene rondas enteras sin cargar, muchos partidos sin goleadores y algunos resultados y
+  equipos mal. Wikipedia no es una fuente más sino un complemento (`completar_previas` en `generar_datos.py`):
+  cada partido se busca en ESPN por fecha y equipos, le da el nombre de la ronda, los goles y el país de los clubes,
+  y agrega los que faltan. Así no cambia ningún club de los que ya estaban.
+- 2020/21 en adelante: ESPN, que tiene las clasificatorias en otra "liga" ("uefa.champions_qual", "uefa.europa_qual",
+  "uefa.europa.conf_qual": `espn_ligas`), completas.
 Qué temporadas se cargan lo dice `ediciones` en `tools/copas.py`.
 
 Los textos de Wikipedia tienen licencia CC BY-SA. Los clubes de otros continentes llevan su país y su nombre en
@@ -107,9 +118,9 @@ python tools/descargar_wikipedia.py --copa mundial            # Mundial 2000 (un
 python tools/descargar_espn.py --copa intercontinental
 python tools/descargar_espn.py --copa mundial
 python tools/descargar_espn.py --copa champions      # baja los años de "espn_anios" en tools/copas.py (la 1ra vez, horas)
-python tools/descargar_wikipedia.py --copa champions  # Champions 1955/56-2000/01 (una sola vez)
+python tools/descargar_wikipedia.py --copa champions  # Champions 1955/56-2000/01 y las previas hasta 2019/20 (una sola vez)
 python tools/descargar_espn.py --copa europa         # Copa UEFA y Europa League desde 2001/02 (la 1ra vez, horas)
-python tools/descargar_wikipedia.py --copa europa    # Copa UEFA 1971/72-2000/01 (una sola vez)
+python tools/descargar_wikipedia.py --copa europa    # Copa UEFA 1971/72-2000/01 y las previas hasta 2019/20 (una sola vez)
 python tools/descargar_espn.py --copa conference     # Conference League desde 2021/22
 python tools/descargar_banderas.py  # banderas de los países nuevos
 python tools/actualizar_europa.py   # temporada en curso de la Champions, la Europa League y la Conference (bajar, armar, probar)

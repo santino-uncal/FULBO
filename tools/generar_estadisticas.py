@@ -10,8 +10,8 @@ import json
 import re
 from collections import defaultdict
 
-from copas import COPAS, copa_de_argumentos, prefijo_js
-from generar_historial import DATA, leer_ediciones
+from copas import COPAS, copa_de_argumentos, es_previa_uefa, prefijo_js
+from generar_historial import DATA, ficha_vacia, leer_ediciones, sumar as sumar_partido
 
 # Instancias de mata-mata (las "Semifinales — Grupo N" de los años 60-80 eran grupos, no cuentan)
 INSTANCIAS = ["Octavos de final", "Cuartos de final", "Semifinales", "Final"]
@@ -206,6 +206,8 @@ def partido_corto(p, anio, fase):
 
 def main(copa="libertadores"):   # (no se llama clave: adentro hay otras claves)
     eds = leer_ediciones(copa)
+    # (las copas europeas, sin las rondas clasificatorias: ver es_previa_uefa)
+    eds = {a: {**ed, "fases": [f for f in ed["fases"] if not es_previa_uefa(copa, f["nombre"], a)]} for a, ed in eds.items()}
     equipos_js = (DATA / "equipos.js").read_text(encoding="utf-8")
     equipos = json.loads(equipos_js[equipos_js.index(".equipos = ") + 11:].rstrip().rstrip(";"))
 
@@ -280,6 +282,19 @@ def main(copa="libertadores"):   # (no se llama clave: adentro hay otras claves)
     historial = json.loads(hist_js[hist_js.index(".historial = ") + 13:].rstrip().rstrip(";"))
     clubes_partidos = sorted(({"id": id_, "ediciones": len(h["ediciones"]), **h["total"]}
                               for id_, h in historial.items()), key=lambda c: (-c["pj"], -c["g"]))[:25]
+    if COPAS[copa]["ns"] in ("UCL", "UEL", "UECL"):
+        # (el historial de cada club tiene también las rondas clasificatorias: acá se cuentan sin ellas, como lo demás)
+        por_club = defaultdict(lambda: {"ediciones": set(), **ficha_vacia()})
+        for anio, ed in eds.items():
+            for fase in ed["fases"]:
+                for p in fase["partidos"]:
+                    for id_, a, b in ((p["local"], p.get("gl"), p.get("gv")), (p["visitante"], p.get("gv"), p.get("gl"))):
+                        if id_ and id_ != "a-definir":
+                            por_club[id_]["ediciones"].add(anio)
+                            if a is not None and b is not None:
+                                sumar_partido(por_club[id_], a, b)
+        clubes_partidos = sorted(({"id": id_, **c, "ediciones": len(c["ediciones"])} for id_, c in por_club.items()),
+                                 key=lambda c: (-c["pj"], -c["g"]))[:25]
 
     goleadas = sorted(partidos, key=lambda p: (-abs(p["gl"] - p["gv"]), -(p["gl"] + p["gv"]), p["anio"]))[:15]
     mas_goles = sorted(partidos, key=lambda p: (-(p["gl"] + p["gv"]), p["anio"]))[:15]

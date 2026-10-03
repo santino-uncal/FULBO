@@ -33,6 +33,6 @@ window.CONTINENTES = {
     ],
     paises: ["ESP", "ITA", "ENG", "SCO", "GER", "NED", "POR", "FRA", "AUT", "GRE", "ROU", "SWE", "YUG",
       "MCO", "NOR", "BEL", "CRO", "DEN", "AZE", "TUR", "KAZ", "CYP", "UKR", "CZE", "SVK", "SUI",
-      "FIN", "IRL", "ISL", "LTU", "LUX", "LVA", "MLT", "NIR", "POL", "HUN", "BUL", "ALB", "SRB", "SVN", "MDA", "BLR", "ISR", "RUS", "GEO", "ARM", "BIH", "MKD", "AND", "GIB", "WAL", "EST", "KOS", "FRO", "LIE"],
+      "FIN", "IRL", "ISL", "LTU", "LUX", "LVA", "MLT", "NIR", "POL", "HUN", "BUL", "ALB", "SRB", "SVN", "MDA", "BLR", "ISR", "RUS", "GEO", "ARM", "BIH", "MKD", "AND", "GIB", "WAL", "EST", "KOS", "FRO", "LIE", "MNE", "SMR"],
   },
 };

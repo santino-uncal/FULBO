@@ -14,7 +14,7 @@ import generar_estadisticas as GE  # noqa: E402
 import leer_espn  # noqa: E402
 import leer_rsssf  # noqa: E402
 import leer_wikipedia  # noqa: E402
-from copas import COPAS, copa_de_argumentos, prefijo_js  # noqa: E402
+from copas import COPAS, copa_de_argumentos, es_previa_uefa, prefijo_js  # noqa: E402
 
 
 class NombresDeClubes(unittest.TestCase):
@@ -190,12 +190,47 @@ class LeerEspn(unittest.TestCase):
         self.assertEqual(fase("third-round", 2006), "Dieciseisavos de final")
         self.assertEqual(fase("third-round", 2012), "Octavos de final")
         self.assertEqual(fase("2006-second-round", 2006), "Fase de grupos")
-        self.assertEqual(fase("play-off-round", 2013), "Fase previa")
+        self.assertEqual(fase("play-off-round", 2013), "Playoff de clasificación")
+        self.assertEqual(fase("first-qualifying-round", 2012), "Primera fase previa")
+        self.assertEqual(fase("qualifying-round", 2005), "Fase previa")   # (todas juntas: las separa generar_datos)
         self.assertEqual(fase("knockout-round-playoffs", 2022), "Playoffs de octavos")
+
+    def test_rondas_clasificatorias_en_la_liga_aparte(self):
+        # Desde 2020 las previas son otra liga de ESPN ("uefa.champions_qual"), con nombres que en la copa son otra cosa
+        def fase(slug, liga):
+            return leer_espn.nombre_fase({"season": {"slug": slug, "year": 2024}, "_liga": liga,
+                                          "competitions": [{"altGameNote": "", "competitors": [{"team": {"id": "1"}}]}],
+                                          "date": "2024-07-10"}, "europa")
+        self.assertEqual(fase("first-round", "uefa.europa_qual"), "Primera fase previa")
+        self.assertEqual(fase("playoff-round", "uefa.europa_qual"), "Playoff de clasificación")
+        self.assertEqual(fase("round-of-16", "uefa.europa"), "Octavos de final")
 
 
 def partido(local, visitante, gl, gv, **extra):
     return {"local": local, "visitante": visitante, "gl": gl, "gv": gv, **extra}
+
+
+class RondasPrevias(unittest.TestCase):
+    def test_que_es_una_previa(self):
+        self.assertTrue(es_previa_uefa("champions", "Tercera fase previa", 2010))
+        self.assertTrue(es_previa_uefa("europa", "Ronda preliminar", 1995))
+        # la "ronda preliminar" de la Copa de Campeones vieja era la primera ronda de la copa
+        self.assertFalse(es_previa_uefa("champions", "Ronda preliminar", 1960))
+        self.assertFalse(es_previa_uefa("libertadores", "Fase previa", 2010))
+
+    def test_separar_previas_por_fecha(self):
+        # La Copa UEFA en ESPN: dos rondas juntas; cada llave va a la ronda de su partido de ida
+        ps = [partido("a", "b", 1, 0, fecha="2005-07-14", fase="Fase previa"),
+              partido("b", "a", 0, 0, fecha="2005-07-28", fase="Fase previa"),
+              partido("c", "a", 2, 0, fecha="2005-08-11", fase="Fase previa"),
+              partido("a", "c", 1, 1, fecha="2005-08-25", fase="Fase previa")]
+        GD.separar_previas(ps)
+        self.assertEqual([p["fase"] for p in ps], ["Primera fase previa"] * 2 + ["Segunda fase previa"] * 2)
+
+    def test_ronda_de_wikipedia(self):
+        self.assertEqual(leer_wikipedia.ronda_champions("Second qualifying round"), "Segunda fase previa")
+        self.assertEqual(leer_wikipedia.ronda_champions("Play-off round"), "Playoff de clasificación")
+        self.assertIsNone(leer_wikipedia.ronda_champions("Semi-final round"))   # (dentro de la ronda preliminar)
 
 
 class GanadorDeLlave(unittest.TestCase):

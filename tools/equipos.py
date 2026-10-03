@@ -25,8 +25,13 @@ ABREVIATURAS = {"univ": "universidad", "uni": "universidad", "atl": "atletico", 
 RELLENO = r"\b(fc|sc|ca|club|ac|ec|cf|cr|se|fbpa|de futbol|futbol club|esporte clube|sport club)\b"
 
 
+# Letras que no son una letra con tilde y se perdían ("Wisła Płock" quedaba "wis-a-p-ock")
+LETRAS = str.maketrans({"ł": "l", "Ł": "L", "ø": "o", "Ø": "O", "đ": "d", "Đ": "D", "ð": "d", "Ð": "D", "þ": "th",
+                        "Þ": "Th", "æ": "ae", "Æ": "Ae", "œ": "oe", "ß": "ss", "ı": "i"})
+
+
 def sin_tildes(t):
-    return "".join(c for c in unicodedata.normalize("NFD", t) if unicodedata.category(c) != "Mn")
+    return "".join(c for c in unicodedata.normalize("NFD", t.translate(LETRAS)) if unicodedata.category(c) != "Mn")
 
 
 def normalizar(nombre):

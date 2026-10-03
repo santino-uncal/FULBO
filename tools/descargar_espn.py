@@ -79,6 +79,7 @@ def temporada(anio, ligas=None, saltear=None):
         c = pedir(f"{liga}/scoreboard?dates={anio}&limit=1000")
         for e in c.get("events", []):
             liga_de[e["id"]] = liga
+            e["_liga"] = liga.rsplit("/", 1)[-1]   # (las clasificatorias europeas desde 2020 son otra liga: ver leer_espn.previa_uefa)
         if cal is None:
             cal = c
         else:

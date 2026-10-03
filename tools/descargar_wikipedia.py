@@ -29,6 +29,17 @@ def bajar(titulo, saltos=3):
     return bajar(m.group(1), saltos - 1) if m and saltos else texto
 
 
+def con_subpaginas(texto):
+    """Las clasificatorias de la Europa League 2009-2017 tienen los partidos en otras páginas, que se nombran desde la
+    principal ("… qualifying (first and second round matches)"): se bajan y se ponen a continuación."""
+    # ("{{#lst:Página|Q1}}" y "{{Main|1=Página#Matches}}": la misma página dos veces)
+    subs = re.findall(r"(\d{4}–\d{2} UEFA [^|=\[\]{}#\n]*?\([^()\n]*matches\))", texto)
+    for sub in dict.fromkeys(subs):
+        texto += "\n" + bajar(sub)
+        time.sleep(1)
+    return texto
+
+
 def main():
     clave, _ = copa_de_argumentos()
     copa = COPAS[clave]
@@ -43,7 +54,7 @@ def main():
         paginas = titulo if isinstance(titulo, list) else [(titulo, None)]
         partes = []
         for t, etapa in paginas:
-            texto = bajar(t)
+            texto = con_subpaginas(bajar(t))
             partes.append((f"@@ETAPA {etapa}@@\n" if etapa else "") + texto)
             time.sleep(1)
         archivo.write_text("\n".join(partes), encoding="utf-8")

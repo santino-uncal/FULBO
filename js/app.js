@@ -56,11 +56,14 @@
     MCO: "Mónaco", NOR: "Noruega", BEL: "Bélgica", CRO: "Croacia", DEN: "Dinamarca", AZE: "Azerbaiyán", TUR: "Turquía",
     KAZ: "Kazajistán", CYP: "Chipre", UKR: "Ucrania", CZE: "República Checa", SVK: "Eslovaquia", SUI: "Suiza",
     FIN: "Finlandia", IRL: "Irlanda", ISL: "Islandia", LTU: "Lituania", LUX: "Luxemburgo", LVA: "Letonia", MLT: "Malta", NIR: "Irlanda del Norte", POL: "Polonia", HUN: "Hungría", BUL: "Bulgaria", ALB: "Albania", SRB: "Serbia", SVN: "Eslovenia", MDA: "Moldavia", BLR: "Bielorrusia", ISR: "Israel", RUS: "Rusia", GEO: "Georgia", ARM: "Armenia", BIH: "Bosnia y Herzegovina", MKD: "Macedonia del Norte", AND: "Andorra", GIB: "Gibraltar",
-    WAL: "Gales", EST: "Estonia", KOS: "Kosovo", FRO: "Islas Feroe", LIE: "Liechtenstein" };
+    WAL: "Gales", EST: "Estonia", KOS: "Kosovo", FRO: "Islas Feroe", LIE: "Liechtenstein", MNE: "Montenegro", SMR: "San Marino" };
   // Nombre de la copa en una edición: el de esa época si cambió (Copa UEFA / Europa League), o el de siempre
   const nombreEn = anio => (COPA.titulos || []).filter(([desde]) => +anio >= desde).at(-1)?.[1] || COPA.nombre;
   // Cómo se muestra una edición: el año, o la temporada en las copas europeas (2024 -> "2024/25")
   const nombreAnio = (a, copa = COPA) => copa.temporada && a != null && /^\d{4}$/.test(a) ? `${a}/${String(+a + 1).slice(-2)}` : String(a ?? "");
+  // Las rondas clasificatorias de las copas europeas, desde 1992/93 (ver es_previa_uefa en tools/copas.py)
+  const PREVIAS_UEFA = ["Ronda preliminar", "Fase previa", "Primera fase previa", "Segunda fase previa", "Tercera fase previa", "Playoff de clasificación"];
+  const esPreviaUEFA = (fase, anio) => COPA.grupo === "uefa" && +anio >= 1992 && PREVIAS_UEFA.includes(fase.replace(/ — .*$/, ""));
   const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   // "la Copa Libertadores" / "el Mundial de Clubes", con la preposición pegada: "de la Copa…" / "del Mundial…", "a la" / "al"
   const conArticulo = (copa, prep = "") => copa.el
@@ -557,10 +560,33 @@
   }
 
   // El cuadro de la última etapa de grupos va en una pestaña al lado, "Fase eliminatoria"
+  function pestanasHTML(pestanas) {
+    return `<div class="pestanas" role="tablist">${pestanas.map(([nombre, , activa]) =>
+        `<button class="pestana" type="button" role="tab" aria-selected="${!!activa}">${esc(nombre)}</button>`).join("")}</div>` +
+      pestanas.map(([, html, activa]) => `<div class="panel"${activa ? "" : " hidden"}>${html}</div>`).join("");
+  }
+
+  // Nombre de la pestaña de lo que se juega antes de los grupos. En las copas europeas puede ser más de una cosa:
+  // "Fase previa y primera ronda" (Copa UEFA 2004-2008)
+  function nombrePrevia(ed, hasta) {
+    if (CLAVE_COPA === "libertadores") return "Fase previa";
+    if (COPA.grupo !== "uefa") return ed.fases[0].nombre.replace(/ — .*$/, "");
+    const partes = [...new Set(ed.fases.slice(0, hasta).map(f => esPreviaUEFA(f.nombre, ed.anio) ? "fase previa"
+      // (la Champions 1991-1993: la primera y la segunda ronda, de 32 y 16 equipos, antes de los grupos)
+      : CLAVE_COPA === "champions" ? { "Dieciseisavos de final": "primera ronda", "Octavos de final": "segunda ronda" }[f.nombre] || f.nombre.toLowerCase()
+      : f.nombre.replace(/ — .*$/, "").toLowerCase()))];
+    const texto = partes.length > 1 ? partes.slice(0, -1).join(", ") + " y " + partes.at(-1) : partes[0] || "";
+    return texto.charAt(0).toUpperCase() + texto.slice(1);
+  }
+
   function gruposHTML(ed, cuadro, previa) {
     const conGrupos = etapasDeGrupos(ed);
     // La Sudamericana hasta 2020 fue toda por eliminación directa: en vez de tablas, el cuadro completo
-    if (!conGrupos.length && CLAVE_COPA !== "libertadores") return cuadro ? `<h3>Cuadro</h3>${cuadro}` : "";
+    // (en las copas europeas, con la fase previa en otra pestaña)
+    if (!conGrupos.length && CLAVE_COPA !== "libertadores") {
+      if (!cuadro) return "";
+      return previa ? pestanasHTML([["Fase previa", previa], ["Cuadro", cuadro, true]]) : `<h3>Cuadro</h3>${cuadro}`;
+    }
     const etapas = conGrupos.length ? conGrupos : etapasDeLlaves(ed);
     return etapas.map((etapa, i) => {
       const leyenda = [
@@ -573,11 +599,9 @@
         <p class="leyenda">${leyenda}</p>`;
       // En la última etapa de grupos van las pestañas: fase previa, grupos y fase eliminatoria
       const pestanas = i !== etapas.length - 1 ? [] :
-        [previa && [CLAVE_COPA === "libertadores" ? "Fase previa" : CLAVE_COPA === "champions" ? "Primera y segunda ronda" : ed.fases[0].nombre.replace(/ — .*$/, ""), previa], [etapa.nombre, grupos, true], cuadro && ["Fase eliminatoria", cuadro]].filter(Boolean);
+        [previa && [nombrePrevia(ed, ed.fases.findIndex(f => / — Grupo |^Fase de liga$/.test(f.nombre))), previa], [etapa.nombre, grupos, true], cuadro && ["Fase eliminatoria", cuadro]].filter(Boolean);
       if (pestanas.length < 2) return `<h3>${esc(etapa.nombre)}</h3>${grupos}`;
-      return `<div class="pestanas" role="tablist">${pestanas.map(([nombre, , activa]) =>
-          `<button class="pestana" type="button" role="tab" aria-selected="${!!activa}">${esc(nombre)}</button>`).join("")}</div>` +
-        pestanas.map(([, html, activa]) => `<div class="panel"${activa ? "" : " hidden"}>${html}</div>`).join("");
+      return pestanasHTML(pestanas);
     }).join("");
   }
 
@@ -610,7 +634,9 @@
   function cuadroHTML(ed) {
     const esGrupo = f => / — Grupo |^Fase de liga$/.test(f.nombre);
     const ultimoGrupo = ed.fases.reduce((u, f, i) => esGrupo(f) ? i : u, -1);
-    const llaves = juntarLlaves(ed, ultimoGrupo + 1, ed.fases.length);
+    // (las rondas clasificatorias de las copas europeas van aparte, en el cuadro de la fase previa)
+    const previas = ed.fases.findIndex(f => !esPreviaUEFA(f.nombre, ed.anio));
+    const llaves = juntarLlaves(ed, Math.max(ultimoGrupo + 1, previas < 0 ? ed.fases.length : previas), ed.fases.length);
     const final = llaves.find(l => l.fase.startsWith("Final"));
     if (!final) return "";
     return dibujarCuadro(llaves, [{ ll: final, gana: ed.campeon }], 2);
@@ -619,13 +645,16 @@
   // ---- Cuadro de la fase previa (todas las fases antes de la fase de grupos) ----
   // No es un cuadro "puro": en cada ronda entran equipos nuevos, así que esas casillas quedan vacías
   function cuadroPreviaHTML(ed) {
-    const primerGrupo = ed.fases.findIndex(f => / — Grupo |^Fase de liga$/.test(f.nombre));
+    let primerGrupo = ed.fases.findIndex(f => / — Grupo |^Fase de liga$/.test(f.nombre));
+    // Sin grupos (Copa UEFA hasta 2003): hasta la primera ronda que no es clasificatoria
+    if (primerGrupo < 0) primerGrupo = ed.fases.findIndex(f => !esPreviaUEFA(f.nombre, ed.anio));
     if (primerGrupo <= 0) return "";
     const llaves = juntarLlaves(ed, 0, primerGrupo, true);
     // Si un equipo juega más de una llave en la misma fase no es eliminación directa (p. ej. la previa 1998-2003)
     const vistos = new Set();
+    // (salvo la ronda preliminar de la Champions 2018-2023: un minitorneo de cuatro, donde el ganador juega dos veces)
     for (const ll of llaves) for (const id of ll.equipos) {
-      if (vistos.has(ll.fase + id)) return "";
+      if (vistos.has(ll.fase + id) && !(ll.fase === "Ronda preliminar" && esPreviaUEFA(ll.fase, ed.anio))) return "";
       vistos.add(ll.fase + id);
     }
     // Ganador de cada llave de la última ronda: el que sigue jugando después (en la fase de grupos)
@@ -672,7 +701,10 @@
     const generico = { 32: "Treintaidosavos de final", 16: "Dieciseisavos de final", 8: "Octavos de final", 4: "Cuartos de final", 2: "Semifinales", 1: "Final" };
     const columnas = niveles.map((nivel, n) => {
       const repetido = nombres.filter(x => x === nombres[n]).length > 1;
-      const nombre = repetido ? generico[nivel.length] || nombres[n] : nombres[n];
+      // (la ronda preliminar de la Champions 2018-2023 es un minitorneo: semifinales y final)
+      const vez = nombres.slice(0, n).filter(x => x === nombres[n]).length;
+      const nombre = repetido && nombres[n] === "Ronda preliminar" ? `Ronda preliminar (${vez ? "final" : "semifinales"})`
+        : repetido ? generico[nivel.length] || nombres[n] : nombres[n];
       // Sin llave antes (equipos que entran directo en esta ronda): sin línea hacia atrás
       const antes = niveles[n - 1];
       const casillas = nivel.map((x, i) => {
@@ -879,7 +911,8 @@
   // Mejor o peor instancia a la que llegó, con todos los años en que le pasó
   function participacion(eds, cual) {
     // (en la Champions 1991-1993 los grupos se jugaban después de los octavos: eran los cuartos y las semifinales)
-    const nivel = x => CLAVE_COPA === "champions" && x.anio <= 1993 && x.fase === "Fase de grupos" ? 7.5 : NIVEL_FASE[x.fase] ?? 0;
+    // (las rondas clasificatorias de las copas europeas, por debajo de todo: 0,1 a 0,6)
+    const nivel = x => esPreviaUEFA(x.fase, x.anio) ? (PREVIAS_UEFA.indexOf(x.fase) + 1) / 10 : CLAVE_COPA === "champions" && x.anio <= 1993 && x.fase === "Fase de grupos" ? 7.5 : NIVEL_FASE[x.fase] ?? 0;
     // La edición en juego (sin campeón todavía) no cuenta para la peor: el equipo puede seguir avanzando
     const terminadas = eds.filter(x => LIB.indice.find(e => e.anio === x.anio)?.campeon);
     if (cual === "peor" && terminadas.length) eds = terminadas;
@@ -1069,7 +1102,7 @@
       .filter(([id]) => id !== "est-entrenadores" || st.dtPartidos?.length);   // sin datos de Transfermarkt no hay entrenadores
 
     let html = `<h2>📊 Estadísticas históricas</h2>
-      <p class="vacio">Todas las ediciones desde ${nombreAnio(COPA.desde)}. En las ediciones viejas las fuentes a veces traen solo el apellido
+      <p class="vacio">Todas las ediciones desde ${nombreAnio(COPA.desde)}${COPA.grupo === "uefa" ? " (sin las rondas clasificatorias, como en los registros de la UEFA)" : ""}. En las ediciones viejas las fuentes a veces traen solo el apellido
         del jugador, así que puede haber algún goleador partido en dos o dos jugadores con el mismo apellido juntos.</p>
       <div class="datos">
         ${dato(st.golesEdicion.length, "ediciones", `<small>${nombreAnio(st.golesEdicion[0].anio)} a ${nombreAnio(st.golesEdicion.at(-1).anio)}</small>`)}

@@ -90,6 +90,21 @@ FASES_UEL = [
 ]
 
 
+def previa_uefa(slug, qual):
+    """Las rondas clasificatorias de las copas europeas. Hasta 2019 ESPN las tiene en la misma "liga" que la copa
+    ('qualifying-second-round', 'first-qualifying-round', 'play-off-round'…); desde 2020, en una liga aparte
+    ("uefa.champions_qual"…: qual, ver "_liga" en descargar_espn.py), donde se llaman 'first-round', 'playoff-round'…
+    Devuelve None si no es una ronda clasificatoria."""
+    if not qual and not re.search(r"qualif|preliminary|^play-?off-round$|^playoffs$", slug):
+        return None
+    for patron, nombre in ((r"preliminary", "Ronda preliminar"), (r"first", "Primera fase previa"),
+                           (r"second", "Segunda fase previa"), (r"third", "Tercera fase previa"),
+                           (r"play-?off", "Playoff de clasificación")):
+        if re.search(patron, slug):
+            return nombre
+    return "Fase previa"   # la Copa UEFA 2001-2010: todas las rondas son 'qualifying-round' (las separa generar_datos.py)
+
+
 def slug_uel(slug, temporada):
     """'2004-second-round' (grupos de la Copa UEFA 2004-2008) / '2009-first-round' (grupos de la Europa League) ->
     'grupos'; first/second/third/fourth-round -> la ronda según la temporada."""
@@ -110,6 +125,10 @@ def nombre_fase(evento, copa="libertadores", grupos=None):
     """grupos: {id de ESPN del club: letra}, para las temporadas en que el partido no dice el grupo (Mundial 2025)."""
     slug = evento.get("season", {}).get("slug", "")
     nota = evento["competitions"][0].get("altGameNote") or ""
+    if copa in ("champions", "europa", "conference"):
+        previa = previa_uefa(slug, (evento.get("_liga") or "").endswith("_qual"))
+        if previa:
+            return previa
     if copa == "sudamericana":
         slug = re.sub(r"^copa-sudamericana-+", "", slug)
     if copa == "europa":
@@ -154,8 +173,6 @@ def leer(anio, copa="libertadores"):
                                 "color": t.get("color"), "color2": t.get("alternateColor"),
                                 "escudo": t.get("logo")}
         estado = e["status"]["type"]
-        if copa in ("champions", "europa", "conference") and nombre_fase(e, copa, grupos) == "Fase previa":
-            continue   # las copas europeas se cargan desde la fase de grupos (las rondas clasificatorias quedan afuera)
         p = {
             "espn": e["id"], "fase": nombre_fase(e, copa, grupos), "temporada_espn": (e.get("season") or {}).get("year"), "fecha": fecha_local(e["date"]), "hora_utc": e["date"],
             "local_espn": lados["home"]["team"]["id"], "visitante_espn": lados["away"]["team"]["id"],

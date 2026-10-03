@@ -267,7 +267,11 @@ def fase_etapa(etapa, titulos):
 
 def ronda_champions(titulo):
     t = titulo.lower().strip()
-    for patron, nombre in ((r"^preliminary", "Ronda preliminar"), (r"qualifying", "Ronda clasificatoria"),
+    if re.match(r"^(semi-?final|final) round$", t):
+        return None   # la ronda preliminar de 2018-2020 (cuatro equipos: semifinales y final) es una sola ronda
+    for patron, nombre in ((r"^preliminary", "Ronda preliminar"), (r"^first qualifying", "Primera fase previa"),
+                           (r"^second qualifying", "Segunda fase previa"), (r"^third qualifying", "Tercera fase previa"),
+                           (r"qualifying", "Fase previa"), (r"^play-?off round", "Playoff de clasificación"),
                            (r"^first round", "Primera ronda"), (r"^second round", "Segunda ronda"),
                            (r"^third round", "Tercera ronda"), (r"^fourth round", "Cuarta ronda"), (r"^quarter", "Cuartos de final"),
                            (r"^semi", "Semifinales"), (r"^final$", "Final")):
@@ -301,7 +305,8 @@ def leer(anio, copa="intercontinental"):
     texto = limpiar((COPAS[copa]["cache_wikipedia"] / f"{anio}.txt").read_text(encoding="utf-8"))
     # Títulos de sección con su posición, para saber en qué fase está cada partido
     secciones = [(m.start(), m.group(2).strip()) for m in re.finditer(r"^(={2,4})\s*(.*?)\s*\1\s*$", texto, re.M)]
-    cajas = [m.start() for m in re.finditer(r"\{\{\s*football ?box", texto, re.I)]
+    # ("{{Football box…}}" o, en las páginas más nuevas, "{{#invoke:Football box|main…}}")
+    cajas = [m.start() for m in re.finditer(r"\{\{\s*(?:#invoke:\s*)?football ?box", texto, re.I)]
     # La Champions: cada página del archivo es una fase ("@@ETAPA Fase de grupos@@", ver descargar_wikipedia.py)
     etapas = [(m.start(), m.group(1)) for m in re.finditer(r"^@@ETAPA (.*?)@@$", texto, re.M)]
     partidos, raros = [], []
@@ -378,8 +383,6 @@ def leer(anio, copa="intercontinental"):
         if len(p["goles"]) != total and not p["notas"]:
             raros.append(f"{local} {gl}-{gv} {visitante}: {len(p['goles'])} goles con autor")
         partidos.append(p)
-    if copa == "europa":   # la Copa UEFA se carga sin las rondas clasificatorias (1995-2001)
-        partidos = [p for p in partidos if p["fase"] not in ("Ronda preliminar", "Ronda clasificatoria")]
     if copa in ("champions", "europa"):
         rondas_por_cantidad(partidos, copa == "europa")
         for p in partidos:

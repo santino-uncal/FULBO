@@ -31,13 +31,14 @@ import generar_historial  # noqa: E402
 import descargar_planteles  # noqa: E402
 import leer_rsssf  # noqa: E402
 import leer_wikipedia  # noqa: E402
-from copas import COPAS, prefijo_js  # noqa: E402
+from copas import COPAS, PREVIAS_UEFA, prefijo_js  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parent.parent
 DATA = RAIZ / "data"
 CACHE = RAIZ / "tools" / "cache"
 
-ORDEN_FASES = ["Fase previa", "Primera fase previa", "Segunda fase previa", "Tercera fase previa",
+ORDEN_FASES = ["Ronda preliminar", "Fase previa", "Primera fase previa", "Segunda fase previa", "Tercera fase previa",
+               "Playoff de clasificación",
                "Treintaidosavos de final", "Dieciseisavos de final", "Primera fase", "Fase de grupos", "Fase de liga", "Segunda fase de grupos", "Segunda fase", "Tercera fase", "Playoffs de octavos",
                "Primera ronda", "Copa África-Asia-Pacífico", "Segunda ronda", "Derbi de las Américas", "Copa Challenger",
                "Octavos de final",
@@ -291,6 +292,113 @@ def base_club(id_):
     return re.sub(r"-(arg|bra|uru|par|chi|col|per|ecu|bol|ven|mex)$", "", id_)
 
 
+def completar_previas(partidos, wiki, cat):
+    """Las rondas clasificatorias 2001/02-2019/20: ESPN es la base y Wikipedia completa (ver pagina_previas en
+    copas.py). Primero cada partido de Wikipedia se busca entre los de ESPN de esa fecha (±2 días) por el nombre de
+    los equipos: los dos, o uno y el mismo resultado. Si está, le da el nombre de la ronda, los goleadores si ESPN no
+    los tiene completos y el país a los clubes que no lo tienen (si el resultado no coincide, manda Wikipedia: ESPN
+    tiene mal varios de 2009); y de paso se aprende cómo escribe Wikipedia a cada club de ESPN. Después se agregan
+    los que ESPN no tiene, con los clubes aprendidos (o buscados por nombre y país). Los de ESPN que quedan sin
+    pareja se sacan (Wikipedia tiene todos: son los mismos con otro resultado o fecha). Devuelve cuántos se agregaron."""
+    def parecido(id_, nombre):
+        n = set(E.normalizar(nombre).split())
+        return bool(n) and any(n <= set(E.normalizar(m).split()) or set(E.normalizar(m).split()) <= n
+                               for m in cat.nombres.get(id_, {}) if E.normalizar(m))
+
+    def exacto(nombre, pais):   # un club de la edición que se llama exactamente así
+        n = E.normalizar(nombre)
+        cand = [i for i in en_edicion if any(E.normalizar(m) == n for m in cat.nombres.get(i, {})) and
+                (not pais or not cat.clubes.get(i, {}).get("pais") or cat.clubes[i]["pais"] == pais)]
+        return cand[0] if len(cand) == 1 else None
+
+    en_edicion = {x for p in partidos for x in (p["local"], p["visitante"])}
+    usados, aprendidos, pendientes, un_equipo = set(), {}, [], []
+    for w in wiki:
+        mejor, puntos = None, 0
+        for p in partidos:
+            if id(p) in usados or p["fase"] not in PREVIAS_UEFA or not p.get("fecha") or not w.get("fecha")                     or dias(p["fecha"], w["fecha"]) > 2:
+                continue
+            for inv in (False, True):   # (ESPN a veces da vuelta local y visitante)
+                igual = (p.get("gl"), p.get("gv")) == ((w["gv"], w["gl"]) if inv else (w["gl"], w["gv"]))
+                lw, vw = (w["visitante"], w["local"]) if inv else (w["local"], w["visitante"])
+                n = parecido(p["local"], lw) + parecido(p["visitante"], vw)
+                if (n == 2 or (n == 1 and igual)) and 2 * n + igual > puntos:
+                    mejor, puntos = (p, inv, igual), 2 * n + igual
+        if not mejor:
+            pendientes.append(w)
+            continue
+        p, inv, igual = mejor
+        usados.add(id(p))
+        p["fase"] = w["fase"]
+        goles = goles_rsssf(w)
+        if inv:
+            for g in goles:
+                g["equipo"] = "visitante" if g["equipo"] == "local" else "local"
+        if not igual and w["gl"] is not None:   # (manda Wikipedia)
+            p["gl"], p["gv"] = (w["gv"], w["gl"]) if inv else (w["gl"], w["gv"])
+            if w.get("pen_l") is not None:
+                p["pen_l"], p["pen_v"] = (w["pen_v"], w["pen_l"]) if inv else (w["pen_l"], w["pen_v"])
+            p["goles"] = goles
+        total = (p.get("gl") or 0) + (p.get("gv") or 0)
+        if len(p.get("goles") or []) != total and len(goles) == total:
+            p["goles"] = goles
+        for k in ("estadio", "ciudad", "arbitro", "publico"):
+            if w.get(k) and not p.get(k):
+                p[k] = w[k]
+        for nombre, id_ in ((w["local"], p["visitante"] if inv else p["local"]),
+                            (w["visitante"], p["local"] if inv else p["visitante"])):
+            if not parecido(id_, nombre):   # emparejado por un solo equipo: ESPN tiene mal el otro
+                un_equipo.append((p, "visitante" if (nombre == w["local"]) == inv else "local", nombre, w["paises"].get(nombre)))
+                continue
+            aprendidos[nombre] = id_
+            if w["paises"].get(nombre) and not cat.clubes[id_]["pais"]:
+                cat.clubes[id_]["pais"] = w["paises"][nombre]
+    # El equipo que ESPN tiene mal (manda Wikipedia: "Copenhague 0-0 Leverkusen" era Estrella Roja)
+    # (solo si el de Wikipedia es un club que juega esa edición: si no, son el mismo club escrito distinto, "ÍA" y Akranes)
+    for p, lado, nombre, pais in un_equipo:
+        otro = aprendidos.get(nombre) or exacto(nombre, pais)
+        if otro:
+            p[lado] = otro
+            continue
+        aprendidos.setdefault(nombre, p[lado])   # (el mismo club, escrito distinto: sirve para el partido que falta)
+        if pais and not cat.clubes[p[lado]]["pais"]:
+            cat.clubes[p[lado]]["pais"] = pais
+    # Los que ESPN no tiene
+    for w in pendientes:
+        # (por nombre exacto: con nombres parecidos, "Spartak Yerevan" y "Zvartnots Yerevan" terminaban en el FC Yerevan)
+        ids = [aprendidos.get(n) or exacto(n, w["paises"].get(n)) or cat.id_de(n, w["paises"].get(n))
+               for n in (w["local"], w["visitante"])]
+        x = partido_final({**w, "formaciones_final": w.get("formaciones")}, ids[0], ids[1], goles_rsssf(w))
+        x["fase"] = w["fase"]
+        partidos.append(x)
+        usados.add(id(x))
+    partidos[:] = [p for p in partidos if p["fase"] not in PREVIAS_UEFA or id(p) in usados]
+    return len(pendientes)
+
+
+def separar_previas(partidos):
+    """La Copa UEFA 2001/02-2010/11 en ESPN: todas las rondas clasificatorias vienen juntas ("Fase previa"). Se separan
+    por fecha: cada llave va a la ronda de su partido de ida (las idas de una ronda caen en la misma semana; entre una
+    ronda y la siguiente pasan dos). Con cuatro rondas, la última es el playoff."""
+    llaves = collections.defaultdict(list)
+    for p in partidos:
+        if p["fase"] == "Fase previa" and p.get("fecha"):
+            llaves[frozenset((p["local"], p["visitante"]))].append(p)
+    ida = {k: min(p["fecha"] for p in ps) for k, ps in llaves.items()}
+    ronda, n, antes = {}, 0, None
+    for f in sorted(set(ida.values())):
+        if antes and (datetime.date.fromisoformat(f) - datetime.date.fromisoformat(antes)).days > 5:
+            n += 1
+        ronda[f], antes = n, f
+    nombres = ["Primera fase previa", "Segunda fase previa", "Tercera fase previa"]
+    nombres = nombres[:n] + ["Playoff de clasificación"] if n == 3 else nombres
+    if not 1 <= n < len(nombres):
+        return   # una sola ronda (queda "Fase previa") o fechas raras
+    for k, ps in llaves.items():
+        for p in ps:
+            p["fase"] = nombres[ronda[ida[k]]]
+
+
 def corregir_homonimos(partidos):
     """A veces un partido de grupos queda con el homónimo equivocado (Nacional URU / PAR, River ARG / URU).
     Se nota porque el grupo queda con un equipo de más, o con un partido de un club contra sí mismo."""
@@ -443,31 +551,47 @@ def main():
         es.update({(clave, a): r for a, r in repartir_por_temporada(
             {a: leer_espn.leer(a, clave) for a in anios_espn(clave)}, "rsssf" in COPAS[clave]).items()
             if a in COPAS[clave].get("ediciones", [a])})   # la Champions: solo las temporadas elegidas
+    # Las rondas clasificatorias de Wikipedia 2001-2019 no son una fuente más: completan las de ESPN (completar_previas)
+    previas_wiki = {}
+    for k in list(rs):
+        if k[0] in ("champions", "europa") and k[1] >= 2001:
+            previas_wiki[k] = [p for p in rs[k]["partidos"] if p["fase"] in PREVIAS_UEFA]
+            rs[k]["partidos"] = [p for p in rs[k]["partidos"] if p["fase"] not in PREVIAS_UEFA]
+            if not rs[k]["partidos"]:
+                del rs[k]
     sin_pais = asignar_clubes_rsssf(rs, cat)
 
     # ESPN -> club: votos por emparejamiento de partidos
     votos = collections.defaultdict(collections.Counter)
     pares_por_anio = {}
+    # (las rondas clasificatorias de ESPN no se emparejan con las fases de Wikipedia: un 1-0 de una previa con un club
+    # en común se confundía con un partido de la primera ronda)
+    es_emp = {k: {**r, "partidos": [p for p in r["partidos"] if p["fase"] not in PREVIAS_UEFA or k[0] not in
+                                    ("champions", "europa", "conference")]} for k, r in es.items()}
     for k in es:
         if k in rs:
-            pares_por_anio[k] = emparejar(rs[k], es[k], votos)
+            pares_por_anio[k] = emparejar(rs[k], es_emp[k], votos)
     mapa = {eid: v.most_common(1)[0][0] for eid, v in votos.items()}
     mapa.update({eid: ajustes.get("unir", {}).get(i, i) for eid, i in ajustes.get("espn", {}).items()})
     for k, (pares, usados) in pares_por_anio.items():
-        emparejar_por_club(rs[k], es[k], pares, usados, mapa)
+        emparejar_por_club(rs[k], es_emp[k], pares, usados, mapa)
     # Clubes de ESPN que nunca aparecieron en RSSSF (ediciones nuevas)
     # (solo los que juegan en alguna edición: el calendario de ESPN trae también los de temporadas que no se cargan)
     info_espn = {}
     for k in es:
         info_espn.update(es[k]["equipos"])
-    juegan = {p[lado] for k in es for p in es[k]["partidos"] for lado in ("local_espn", "visitante_espn")}
+    # (y en partidos jugados o por jugarse: los partidos viejos sin jugar traen rivales "a definir" como "Levski Sofia/Dundalk")
+    hoy = datetime.date.today().isoformat()
+    juegan = {p[lado] for k in es for p in es[k]["partidos"] if p["jugado"] or p["fecha"] >= hoy
+              for lado in ("local_espn", "visitante_espn")}
     info_espn = {eid: t for eid, t in info_espn.items() if eid in juegan}
-    # los clubes de ESPN que solo juegan la Copa UEFA / Europa League / Conference League, con su país (ficha de ESPN o estadio)
-    otras = {p[lado] for k in es if k[0] not in ("europa", "conference") for p in es[k]["partidos"] for lado in ("local_espn", "visitante_espn")}
+    # los clubes de ESPN que solo juegan copas europeas (Champions, Copa UEFA / Europa League, Conference League), con su país (ficha de ESPN o estadio)
+    otras = {p[lado] for k in es if k[0] not in ("champions", "europa", "conference") for p in es[k]["partidos"] for lado in ("local_espn", "visitante_espn")}
     solo_europa = {eid for eid in info_espn if eid not in otras}
     paises_auto = paises_espn(es, solo_europa)
     for eid, t in info_espn.items():
-        if t["nombre"].startswith("TBD"):  # partido futuro con rival todavía no definido
+        # partido futuro con rival todavía no definido (o un equipo de relleno de ESPN: "Bulgaria No. 3")
+        if t["nombre"].startswith("TBD") or re.search(r"\bNo\. ?\d", t["nombre"]):
             mapa[eid] = cat.id_de("A definir", None)
             continue
         if eid not in mapa and eid in solo_europa:
@@ -488,7 +612,7 @@ def main():
                 cat.id_de(t["nombre"], ajustes.get("pais_espn", {}).get(eid))
         cat.asegurar(mapa[eid], t["nombre"], ajustes.get("pais_espn", {}).get(eid))["espn"].add(eid)
     for k, (pares, usados) in pares_por_anio.items():
-        emparejar_flexible(rs[k], es[k], pares, usados, mapa)
+        emparejar_flexible(rs[k], es_emp[k], pares, usados, mapa)
 
     ediciones, indice, control = {}, {clave: [] for clave in COPAS}, []
     for ek in sorted(set(rs) | set(es), key=lambda x: (list(COPAS).index(x[0]), x[1])):
@@ -590,7 +714,12 @@ def main():
         for p in partidos:
             if p.get("espn") in ajustes.get("resultados", {}):
                 p.update(ajustes["resultados"][p["espn"]])
+        wiki_previas = completar_previas(partidos, previas_wiki[ek], cat) if ek in previas_wiki else 0
+        if ek in previas_wiki:
+            print(f"  {clave} {a}: previas de Wikipedia {len(previas_wiki[ek])}, agregadas {wiki_previas}", flush=True)
         corregir_homonimos(partidos)
+        if clave == "europa" and ek not in previas_wiki:   # (con Wikipedia, cada ronda ya tiene su nombre)
+            separar_previas(partidos)
         # Partidos de grupos que quedaron sin grupo: se ubican por el grupo de sus dos equipos
         grupo_de = {}
         for p in partidos:
@@ -631,7 +760,7 @@ def main():
         todos = [p for f in orden for p in fases[f]]
         nota = ajustes.get("notas_ediciones", {}).get(f"{clave} {a}")   # aclaración a mano (final no jugada…)
         ed = {"anio": a, "campeon": campeon, "subcampeon": sub, **({"nota": nota} if nota else {}),
-              "fuentes": ([("RSSSF" if "rsssf" in COPAS[clave] else "Wikipedia")] if ek in rs else []) +
+              "fuentes": ([("RSSSF" if "rsssf" in COPAS[clave] else "Wikipedia")] if ek in rs or ek in previas_wiki else []) +
                          (["ESPN"] if ek in es else []),
               "fases": [{"nombre": f, "partidos": fases[f]} for f in orden],
               "planteles": armar_planteles(todos)}
