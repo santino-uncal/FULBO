@@ -13,7 +13,7 @@ desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de C
   La Sudamericana es la misma página con `copa=sudamericana` adelante: `?copa=sudamericana`, `?copa=sudamericana&edicion=2014`,
   `?copa=sudamericana&equipo=lanus`, `?copa=sudamericana&estadisticas`. Lo mismo con `copa=recopa`, `copa=intercontinental` y `copa=mundial`
   (`?copa=mundial&edicion=2012`). En la cabecera, tocando el nombre de otra copa se cambia de copa.
-  La **Liga Profesional argentina** está en `liga.html` (desde 2018: la Superliga 2017-18, la Superliga 2018-19, la Copa de la Superliga 2019 y la Superliga 2019-20, la Copa Diego Maradona 2020, la Copa de la Liga y la
+  La **Liga Profesional argentina** está en `liga.html` (desde 2017: el Campeonato 2016-17, la Superliga 2017-18, la Superliga 2018-19, la Copa de la Superliga 2019 y la Superliga 2019-20, la Copa Diego Maradona 2020, la Copa de la Liga y la
   Liga Profesional de 2021, 2022, 2023 y 2024, y los torneos Apertura y Clausura de 2025 y 2026, que se eligen arriba: primero el año y después el torneo de ese año.
   `liga.html?anio=2024` abre el último torneo de ese año (el que tiene la tabla anual); `liga.html?torneo=2024-copa`, uno en particular): la tabla de las dos zonas,
   todas las fechas con resultados y goles, los goleadores, los playoffs (con su cuadro), la tabla anual y los promedios del descenso
@@ -224,6 +224,12 @@ gol en contra que ESPN no tiene van en `PENALES_A_MANO` y `GOLES_A_MANO`. En 201
 últimos de los promedios, que contaban cuatro temporadas (2015, 2016, 2016-17 y 2017-18). Del torneo 2016, ESPN mete
 en la fase regular la final y un desempate: no suman (`NO_SUMAN`). River fue a la Libertadores 2019 aparte, como
 campeón de la Libertadores 2018 (en ESPN, la final se llama "finals"). Controlado contra Wikipedia.
+
+**2017**: solo el Campeonato 2016-17 (una tabla de 30, 30 fechas con la de clásicos; campeón Boca). Bajaron los
+cuatro últimos de los promedios (2014, que es el Torneo de Transición, 2015, 2016 y 2016-17). River ganó la Copa
+Argentina 2017 pero ya entraba por la tabla: el lugar fue para el subcampeón, Atlético Tucumán (en `campeones`, el
+modo "perdedor"; `nota` lo explica en la página). Independiente fue aparte como campeón de la Sudamericana 2017.
+Controlado contra Wikipedia.
 
 Para sumar un torneo, agregarlo a `TORNEOS` en el script;
 los clubes que no jugaron copas (y no están en `data/equipos.js`) van en `CLUBES_NUEVOS`, y su escudo se baja solo.

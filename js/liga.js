@@ -190,7 +190,7 @@
           ? `<ul class="cupos-campeones">${cu.sudamericana_titulos.map(titulo).join("")}</ul>` : ""}
         <p>${(cu.sudamericana_titulos || []).length ? "Y los" : "Los"} ${cu.sudamericana.size - (cu.sudamericana_titulos || []).filter(x => x.club).length} siguientes de la tabla${T.anual ? " anual" : ""}.</p>
         <p class="vacio">Si un campeón ya entra por la tabla${T.anual ? " anual" : ""} (o gana dos títulos), su lugar pasa al siguiente de la tabla.
-          Los que descienden no juegan copas.</p></div>`;
+          Los que descienden no juegan copas.</p>${cu.nota ? `<p class="vacio">${esc(cu.nota)}</p>` : ""}</div>`;
     }
     function vistaAnual() {
       const d = descensos();
@@ -198,7 +198,7 @@
       const anual = tablaAnual();
       // el título del primero de la tabla anual (2025: "Campeón de Liga", lo dio la AFA), cuando terminó el año
       const tituloAnual = T.titulo_anual && !enJuego() ? T.titulo_anual : null;
-      const campeonDe = id => (T.cupos?.campeones || []).filter(x => x.club === id).map(x => `Campeón de la ${x.titulo}`)
+      const campeonDe = id => (T.cupos?.campeones || []).filter(x => x.club === id && !/^Subcampeón/.test(x.titulo)).map(x => `Campeón de la ${x.titulo}`)
         .concat(tituloAnual && id === anual[0].id ? [tituloAnual] : []);
       const cuerpo = anual.map((f, i) => {
         const dif = f.dif > 0 ? `+${f.dif}` : f.dif;

@@ -32,6 +32,28 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2017: el Campeonato 2016-17 (septiembre de 2016 - junio de 2017, una sola tabla de 30; campeón Boca). Bajaron los
+    # cuatro últimos de los promedios (2014, que es el Torneo de Transición, 2015, 2016 y 2016-17). Cupos 2018: a la
+    # Libertadores, el campeón, el lugar de la Copa Argentina 2017 (la ganó River, que ya entraba por la tabla: el
+    # reglamento se lo pasaba al subcampeón, Atlético Tucumán) y los 4 mejores de la tabla; Independiente, aparte, como
+    # campeón de la Sudamericana 2017. Se juega en 2016 y 2017 en ESPN
+    "2017-primera-16-17": {"nombre": "Campeonato 2016-17", "anio": 2017, "anios": [2016, 2017], "slug": "primera-16-17",
+                           "patron": r"campeonato-de-1ra-division-20162017", "zonas": "unica", "fechas": 30, "pasan": 0,
+                           "campeon_tabla": True, "temporada": "2016-17",
+                           "anual_texto": "La tabla del Campeonato 2016-17 entero (no había tabla anual: la temporada era un "
+                                          "solo torneo).",
+                           "promedios": {"2014": [("arg.1", r"^torneo-de-primera-division-2014$", 2014)],
+                                         "2015": [("arg.1", r"^campeonato-de-1ra-division-2015$", 2015)],
+                                         "2016": [("arg.1", r"^campeonato-de-1ra-division-2016$", 2016)]},
+                           "descensos": "promedios", "descienden": 4,
+                           "cupos": {"anio": 2018, "libertadores": 6, "sudamericana": 6,
+                                     "nota": "River ganó la Copa Argentina 2017, pero como ya entraba a la Libertadores por la "
+                                             "tabla, su lugar fue para el subcampeón, Atlético Tucumán.",
+                                     "campeones": [("Campeonato 2016-17", None, None),
+                                                   ("Subcampeón de la Copa Argentina 2017", "arg.copa", r"(^|-)final$",
+                                                    "perdedor"),
+                                                   ("Copa Sudamericana 2017", "conmebol.sudamericana", r"(^|-)final$",
+                                                    "extra")]}},
     # 2018: la Superliga 2017-18 (septiembre de 2017 - mayo de 2018, una sola tabla de 28; campeón Boca). Bajaron los
     # cuatro últimos de los promedios, que contaban cuatro temporadas: 2015, 2016 (el torneo corto, sin la final),
     # 2016-17 y 2017-18 (la liga pasaba de 28 a 26). Cupos 2019: los campeones de la Superliga y de la Copa Argentina
@@ -289,6 +311,7 @@ CLUBES_NUEVOS = {
     "6": ("chacarita-juniors", "Chacarita Juniors"),
     "2636": ("olimpo", "Olimpo"),
     "10162": ("temperley", "Temperley"),
+    "9747": ("atletico-rafaela", "Atlético de Rafaela"),
 }
 
 # Nombres que en la liga se confunden (en data/equipos.js están como en las copas)
@@ -676,7 +699,8 @@ def armar(clave):
                 s = sumar(cfg["anio"], [(liga, patron)])
                 eid = max(s, key=lambda i: (s[i][0], s[i][5] - s[i][6], s[i][5]))
                 return club({"id": eid, "displayName": eid})
-            return campeon(liga, cfg["anio"], patron, club)
+            # "perdedor": el lugar fue para el subcampeón (2017: River ganó la Copa Argentina pero ya entraba por la tabla)
+            return campeon(liga, cfg["anio"], patron, club, perdedor=modo == "perdedor")
         cupos["campeones"] = [{"titulo": titulo, "club": quien(liga, patron, modo[0] if modo else None),
                                **({"extra": True} if modo and modo[0] == "extra" else {})}
                               for titulo, liga, patron, *modo in cfg["cupos"]["campeones"]]
