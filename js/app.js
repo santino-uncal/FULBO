@@ -1,6 +1,6 @@
 /* Lógica de la página. Los datos viven en data/ (Libertadores: window.LIB), data/sudamericana/ (window.SUD), data/recopa/ (window.REC),
    data/intercontinental/ (window.INT), data/mundial/ (window.MUN),
-   data/champions/ (window.UCL), data/europa/ (window.UEL) y data/conference/ (window.UECL).
+   data/champions/ (window.UCL), data/europa/ (window.UEL), data/conference/ (window.UECL) y data/supercopa/ (window.USC).
    Sin copa en la dirección, la página es la portada: los mapas de Sudamérica y Europa (data/mapa.js y data/continentes.js).
    Versión funcional provisoria: el diseño se define después. */
 (function () {
@@ -9,7 +9,8 @@
   // el: se dice "el Mundial de Clubes" (las demás son "la Copa…"); ejemplo: el año de ejemplo del buscador de años;
   // espn: desde qué año hay asistencias (las trae ESPN); tm: tiene entrenadores y planteles completos de Transfermarkt;
   // neutral: los partidos son en cancha neutral (no sirven para saber el estadio de cada club);
-  // dt: tiene entrenadores sacados de las formaciones de Wikipedia (la Intercontinental hasta 2004)
+  // dt: tiene entrenadores sacados de las formaciones de Wikipedia (la Intercontinental hasta 2004);
+  // notaEst: aclaración en las estadísticas históricas (qué ediciones no cuentan)
   const COPAS = {
     libertadores: { nombre: "Copa Libertadores", grupo: "conmebol", desde: 1960, lema: "La Gloria Eterna", datos: "data/", ns: "LIB", ejemplo: 1986, espn: 2005, tm: true,
       // Nombres oficiales que tuvo el torneo, desde el año en que se empezó a usar cada uno (panel de años)
@@ -40,6 +41,10 @@
     conference: { nombre: "Conference League", grupo: "uefa", desde: 2021, lema: "La Tercera Copa de Europa", datos: "data/conference/", ns: "UECL",
       ejemplo: 2022, espn: 2021, temporada: true,
       nombres: [[2021, "UEFA Europa Conference League"], [2024, "UEFA Conference League (fase de liga)"]] },
+    // La Supercopa de Europa: solo la final (el año es el del partido, no una temporada). La de 1972 no es oficial
+    supercopa: { nombre: "Supercopa de Europa", grupo: "uefa", desde: 1972, lema: "El Duelo de Campeones", datos: "data/supercopa/", ns: "USC",
+      ejemplo: 1989, espn: 2015, neutral: true, dt: true,
+      nombres: [[1972, "Supercopa de Europa"], [1995, "Supercopa de la UEFA"]], notaEst: " (la de 1972 no cuenta: no es oficial)" },
   };
   const PARAMS = new URLSearchParams(location.search);
   const pedida = PARAMS.get("copa");
@@ -1107,7 +1112,7 @@
       .filter(([id]) => id !== "est-entrenadores" || st.dtPartidos?.length);   // sin datos de Transfermarkt no hay entrenadores
 
     let html = `<h2>📊 Estadísticas históricas</h2>
-      <p class="vacio">Todas las ediciones desde ${nombreAnio(COPA.desde)}${COPA.grupo === "uefa" ? " (sin las rondas clasificatorias, como en los registros de la UEFA)" : ""}. En las ediciones viejas las fuentes a veces traen solo el apellido
+      <p class="vacio">Todas las ediciones desde ${nombreAnio(COPA.desde)}${COPA.temporada ? " (sin las rondas clasificatorias, como en los registros de la UEFA)" : COPA.notaEst || ""}. En las ediciones viejas las fuentes a veces traen solo el apellido
         del jugador, así que puede haber algún goleador partido en dos o dos jugadores con el mismo apellido juntos.</p>
       <div class="datos">
         ${dato(st.golesEdicion.length, "ediciones", `<small>${nombreAnio(st.golesEdicion[0].anio)} a ${nombreAnio(st.golesEdicion.at(-1).anio)}</small>`)}

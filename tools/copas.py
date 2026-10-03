@@ -1,7 +1,7 @@
 """Las copas que tiene la página y dónde vive cada cosa de cada una.
 
 Lo usan todos los scripts de tools/. Para elegir la copa, los scripts aceptan --copa sudamericana
-(o recopa, mundial, intercontinental, champions, europa o conference; sin nada, es la Libertadores).
+(o recopa, mundial, intercontinental, champions, europa, conference o supercopa; sin nada, es la Libertadores).
 Las copas que no tienen "rsssf" toman de Wikipedia las ediciones viejas (las que ESPN no tiene).
 """
 import sys
@@ -146,6 +146,26 @@ COPAS = {
         "ns": "REC",
         "entrenadores_partidos": RAIZ / "tools" / "entrenadores_partidos_recopa.json",
         "planteles_tm": RAIZ / "tools" / "planteles_tm_recopa.json",
+    },
+    # La Supercopa de Europa (desde 1972): el campeón de la Copa de Campeones / Champions contra el de la Recopa de
+    # Europa (hasta 1999) o el de la Copa UEFA / Europa League (desde 2000). Cada edición es el año en que se juega
+    # (no una temporada). No se jugó en 1974, 1981 y 1985; la de 1972 no la reconoce la UEFA. Hasta 2004 sale de
+    # Wikipedia (una página por año); desde 2005, de ESPN ("uefa.super_cup"). La de 2013 sale de las dos:
+    # ESPN no trae los goles ni las formaciones.
+    "supercopa": {
+        "nombre": "Supercopa de Europa",
+        "desde": 1972,
+        "wikipedia": {a: f"{a} {'European' if a <= 1994 else 'UEFA'} Super Cup"
+                      for a in [*range(1972, 2005), 2013] if a not in (1974, 1981, 1985)},
+        "cache_wikipedia": CACHE / "wikipedia-supercopa",
+        "espn": "uefa.super_cup",
+        "espn_desde": 2005,
+        "cache_espn": CACHE / "espn-supercopa",
+        "data": RAIZ / "data" / "supercopa",
+        "ns": "USC",
+        "no_oficiales": [1972],   # se ve en la página, pero no cuenta en las estadísticas históricas
+        "entrenadores_partidos": RAIZ / "tools" / "entrenadores_partidos_supercopa.json",
+        "planteles_tm": RAIZ / "tools" / "planteles_tm_supercopa.json",
     },
     # La Copa de Campeones de Europa (1955/56) y la Champions League (desde 1992/93). Cada edición se nombra por el año en que
     # empieza la temporada (la 2024/25 es 2024, como la etiqueta ESPN). 1955/56-2000/01 sale de Wikipedia (una página

@@ -255,7 +255,7 @@ def fase_de(titulo, copa):
         return "Semifinales"
     if "quarter" in t:
         return "Cuartos de final"
-    return "Final" if copa in ("intercontinental", "recopa") or "final" in t else None
+    return "Final" if copa in ("intercontinental", "recopa", "supercopa") or "final" in t else None
 
 
 def fase_etapa(etapa, titulos):
@@ -355,7 +355,7 @@ def leer(anio, copa="intercontinental"):
         if copa in ("champions", "europa") and (re.search(r"play-?off", par.get("id", ""), re.I) or
                                     re.search(r"play-?off|replay|decider", titulo, re.I)):
             p["notas"] = "partido desempate"
-        if copa in ("intercontinental", "recopa"):
+        if copa in ("intercontinental", "recopa", "supercopa"):
             p["llave"] = 1
             if re.search(r"play-?off|replay", titulo, re.I):
                 p["notas"] = "partido desempate"

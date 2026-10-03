@@ -1396,7 +1396,9 @@
     "_nota": "Texto que se muestra debajo del campeón de una edición ('copa año').",
     "sudamericana 2016": "La final contra Atlético Nacional no se jugó: el 28 de noviembre de 2016 el avión que llevaba al plantel de Chapecoense a Medellín se estrelló y murieron 71 personas. A pedido de Atlético Nacional, la Conmebol le dio el título a Chapecoense.",
     "sudamericana 2007": "La final terminó 4-4 en el global: Arsenal fue campeón por los goles de visitante.",
-    "recopa 1991": "No se jugó: Olimpia había ganado la Copa Libertadores y la Supercopa de 1990, así que la Conmebol le dio la Recopa sin jugar. Es la única vez en la historia de la copa."
+    "recopa 1991": "No se jugó: Olimpia había ganado la Copa Libertadores y la Supercopa de 1990, así que la Conmebol le dio la Recopa sin jugar. Es la única vez en la historia de la copa.",
+    "supercopa 1972": "Ajax le ganó la serie al Rangers 6-3 en el global, pero no es oficial: la UEFA no la organizó porque el Rangers estaba suspendido por los incidentes de la final de la Recopa de 1972. No cuenta como título.",
+    "supercopa 1980": "La serie terminó 2-2 en el global: Valencia fue campeón por el gol de visitante."
   },
   "campeones_sudamericana": {
     "_nota": "Campeón y subcampeón forzados de la Copa Sudamericana. 2007: global 4-4, Arsenal campeón por gol de visitante. 2016: la final no se jugó (accidente aéreo de Chapecoense); la Conmebol le dio el título a Chapecoense a pedido de Atlético Nacional.",
@@ -1671,7 +1673,9 @@
     "modrica-maxima": "modrica",
     "nsi": "nsi-runavik",
     "sant-julia": "ue-sant-julia",
-    "tvmk": "tvmk-tallinn"
+    "tvmk": "tvmk-tallinn",
+    "kv-mechelen": "mechelen",
+    "sv-werder-bremen": "werder-bremen"
   },
   "campeones_europa": {
     "_nota": "Campeón y subcampeón forzados de la Copa UEFA: finales de ida y vuelta empatadas en el global y ganadas por gol de visitante (1976/77 Juventus, 1979/80 Eintracht Fráncfort, 1991/92 Ajax).",
@@ -1693,6 +1697,17 @@
     "1991": [
       "olimpia",
       null
+    ]
+  },
+  "campeones_supercopa": {
+    "_nota": "Campeón y subcampeón forzados de la Supercopa de Europa. 1972: Ajax ganó la serie, pero la UEFA no la reconoce (el Rangers estaba suspendido): no cuenta como título. 1980: global 2-2, Valencia campeón por el gol de visitante.",
+    "1972": [
+      null,
+      null
+    ],
+    "1980": [
+      "valencia-esp",
+      "nottingham-forest"
     ]
   }
 }

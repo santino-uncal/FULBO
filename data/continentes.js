@@ -25,7 +25,7 @@ window.CONTINENTES = {
       { nombre: "Champions League", copa: "champions", desde: 1955, trofeo: "assets/img/copa-champions.webp", nota: "hasta 1992, Copa de Campeones de Europa" },
       { nombre: "Europa League", copa: "europa", desde: 1971, trofeo: "assets/img/copa-europa.webp", nota: "hasta 2009, Copa UEFA" },
       { nombre: "Conference League", copa: "conference", desde: 2021, trofeo: "assets/img/copa-conference.webp", nota: "hasta 2024, Europa Conference League" },
-      { nombre: "Supercopa de Europa", desde: 1972 },
+      { nombre: "Supercopa de Europa", copa: "supercopa", desde: 1972, trofeo: "assets/img/copa-supercopa.webp" },
     ],
     nacionales: [
       ["ENG", "Premier League"], ["ESP", "LaLiga"], ["ITA", "Serie A"], ["GER", "Bundesliga"], ["FRA", "Ligue 1"],

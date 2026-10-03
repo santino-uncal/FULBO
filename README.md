@@ -1,7 +1,7 @@
-# Historia de la Copa Libertadores, la Sudamericana, la Recopa, la Intercontinental, el Mundial de Clubes, la Champions League, la Europa League y la Conference League
+# Historia de la Copa Libertadores, la Sudamericana, la Recopa, la Intercontinental, el Mundial de Clubes, la Champions League, la Europa League, la Conference League y la Supercopa de Europa
 
 Todas las ediciones de la Libertadores desde 1960, de la Sudamericana desde 2002, de la Recopa Sudamericana desde 1989, de la Copa Intercontinental
-desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de Campeones de Europa hasta 1992) desde 1955/56 de la Europa League (Copa UEFA hasta 2009) desde 1971/72 y de la Conference League desde 2021/22: resultados, goleadores, asistidores, planteles y escudos.
+desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de Campeones de Europa hasta 1992) desde 1955/56 de la Europa League (Copa UEFA hasta 2009) desde 1971/72 de la Conference League desde 2021/22 y de la Supercopa de Europa desde 1972: resultados, goleadores, asistidores, planteles y escudos.
 
 ## Cómo verlo
 
@@ -44,6 +44,7 @@ desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de C
 | `data/europa/…` | La Europa League (Copa UEFA hasta 2009) desde 1971/72, igual que la Champions (`?copa=europa`). | **Generado**. |
 | `data/conference/…` | La Conference League desde 2021/22, igual que la Champions (`?copa=conference`). | **Generado**. |
 | `data/recopa/…` | La Recopa Sudamericana desde 1989 (`?copa=recopa`): solo la final. Hasta 2014 sale de Wikipedia y desde 2015 de ESPN; los entrenadores, de las formaciones de Wikipedia y, lo que falta, de la historia de cada club en Transfermarkt. | **Generado**. |
+| `data/supercopa/…` | La Supercopa de Europa desde 1972 (`?copa=supercopa`): solo la final, cada edición con el año en que se jugó. Hasta 2004 (y 2013) sale de Wikipedia y el resto de ESPN. La de 1972 se ve pero no cuenta en las estadísticas (no es oficial). | **Generado**. |
 | `data/intercontinental/…`, `data/mundial/…` | Lo mismo para la Copa Intercontinental y el Mundial de Clubes. Los entrenadores de la Intercontinental salen de las formaciones de Wikipedia; el Mundial todavía no tiene. | **Generado**. |
 | `assets/escudos/<club>.png` | Escudos. | Se bajan con `tools/descargar_escudos.py`. |
 | `assets/banderas/<país>.png` | Banderas (código de la FIFA: `ARG`, `ENG`…). | Se bajan con `tools/descargar_banderas.py`. |
@@ -125,8 +126,10 @@ python tools/descargar_wikipedia.py --copa champions  # Champions 1955/56-2000/0
 python tools/descargar_espn.py --copa europa         # Copa UEFA y Europa League desde 2001/02 (la 1ra vez, horas)
 python tools/descargar_wikipedia.py --copa europa    # Copa UEFA 1971/72-2000/01 y las previas hasta 2019/20 (una sola vez)
 python tools/descargar_espn.py --copa conference     # Conference League desde 2021/22
+python tools/descargar_wikipedia.py --copa supercopa  # Supercopa de Europa 1972-2004 y 2013 (una sola vez)
+python tools/descargar_espn.py --copa supercopa       # Supercopa de Europa desde 2005
 python tools/descargar_banderas.py  # banderas de los países nuevos
-python tools/actualizar_europa.py   # temporada en curso de la Champions, la Europa League y la Conference (bajar, armar, probar)
+python tools/actualizar_europa.py   # temporada en curso de la Champions, la Europa League y la Conference, y la Supercopa del año (bajar, armar, probar)
 ```
 
 Para la temporada en curso alcanza con `python tools/descargar_espn.py 2026` (y `--copa sudamericana 2026`)
@@ -185,6 +188,8 @@ Trofeos de la cabecera (`assets/img/`), de Wikimedia Commons:
   CC BY-SA 4.0 (recortada del fondo y achicada).
 - Conference League (dibujo): [MacMoreno](https://commons.wikimedia.org/wiki/File:Trofeo_UEFA_Europa_Conference_League.svg),
   CC BY 4.0 (achicada).
+- Supercopa de Europa (en el museo del Barcelona): [Rafael Curtinaz Severo](https://commons.wikimedia.org/wiki/File:Trof%C3%A9u_da_UEFA_Super_Cup.jpg),
+  CC BY 2.0 (recortada del fondo y achicada).
 - Champions League: [dom fellowes](https://commons.wikimedia.org/wiki/File:Champions_League_Trophy_(52736201132).jpg),
   CC BY 2.0 (recortada del fondo y achicada).
 

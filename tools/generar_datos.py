@@ -586,7 +586,7 @@ def main():
               for lado in ("local_espn", "visitante_espn")}
     info_espn = {eid: t for eid, t in info_espn.items() if eid in juegan}
     # los clubes de ESPN que solo juegan copas europeas (Champions, Copa UEFA / Europa League, Conference League), con su país (ficha de ESPN o estadio)
-    otras = {p[lado] for k in es if k[0] not in ("champions", "europa", "conference") for p in es[k]["partidos"] for lado in ("local_espn", "visitante_espn")}
+    otras = {p[lado] for k in es if k[0] not in ("champions", "europa", "conference", "supercopa") for p in es[k]["partidos"] for lado in ("local_espn", "visitante_espn")}
     solo_europa = {eid for eid in info_espn if eid not in otras}
     paises_auto = paises_espn(es, solo_europa)
     for eid, t in info_espn.items():
