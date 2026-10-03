@@ -1,4 +1,4 @@
-/* Lógica de la página. Los datos viven en data/ (Libertadores: window.LIB), data/sudamericana/ (window.SUD),
+/* Lógica de la página. Los datos viven en data/ (Libertadores: window.LIB), data/sudamericana/ (window.SUD), data/recopa/ (window.REC),
    data/intercontinental/ (window.INT), data/mundial/ (window.MUN),
    data/champions/ (window.UCL), data/europa/ (window.UEL) y data/conference/ (window.UECL).
    Sin copa en la dirección, la página es la portada: los mapas de Sudamérica y Europa (data/mapa.js y data/continentes.js).
@@ -16,6 +16,11 @@
       nombres: [[1960, "Copa Campeones de América"], [1965, "Copa Libertadores de América"], [2017, "Copa Conmebol Libertadores"]] },
     sudamericana: { nombre: "Copa Sudamericana", grupo: "conmebol", desde: 2002, lema: "La Gran Conquista", datos: "data/sudamericana/", ns: "SUD", ejemplo: 2014, espn: 2005, tm: true,
       nombres: [[2002, "Copa Sudamericana"], [2017, "Copa Conmebol Sudamericana"]] },
+    // La Recopa: solo la final, entre el campeón de la Libertadores y el de la Supercopa (1989-1998) o el de la Sudamericana
+    // (desde 2003). Hasta 2004 se jugó varias veces en cancha neutral (Japón, Estados Unidos)
+    recopa: { nombre: "Recopa Sudamericana", grupo: "conmebol", desde: 1989, lema: "Campeón contra Campeón", datos: "data/recopa/", ns: "REC",
+      ejemplo: 2008, espn: 2015, neutral: true, dt: true,
+      nombres: [[1989, "Recopa Sudamericana"], [2017, "Conmebol Recopa"]] },
     intercontinental: { nombre: "Copa Intercontinental", grupo: "fifa", desde: 1960, lema: "Campeones del Mundo", datos: "data/intercontinental/", ns: "INT",
       ejemplo: 1986, espn: 2024, neutral: true, dt: true,
       nombres: [[1960, "Copa Intercontinental"], [1980, "Copa Toyota"], [2024, "Copa Intercontinental de la FIFA"]] },

@@ -15,7 +15,7 @@ from descargar_planteles import con_formaciones  # noqa: E402
 from generar_historial import leer_ediciones  # noqa: E402
 
 # Ediciones cuyo campeón no jugó la final (la Sudamericana 2016 se le dio al Chapecoense tras el accidente)
-CAMPEON_SIN_FINAL = {("sudamericana", 2016)}
+CAMPEON_SIN_FINAL = {("sudamericana", 2016), ("recopa", 1991)}   # (la Recopa 1991 se le dio a Olimpia sin jugar)
 # Partidos ganados en los escritorios: los goles son los de la cancha y el resultado, el que se dio por reglamento
 GANADOS_EN_MESA = {("libertadores", 1966, "alianza-lima", "universitario"),
                    ("libertadores", 2017, "lanus", "chapecoense"),        # Chapecoense incluyó a un jugador suspendido

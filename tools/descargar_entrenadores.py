@@ -156,10 +156,38 @@ def ids_tm(clave):
     return ids, dudosos
 
 
-def main(clave="libertadores"):
+def cargar_nombres():
     global E_NOMBRES
     js = (DATA / "equipos.js").read_text(encoding="utf-8")
     E_NOMBRES = {k: v["nombre"] for k, v in json.loads(js[js.index(".equipos = ") + 11:].rstrip().rstrip(";")).items()}
+
+
+# Transfermarkt tiene a algunos ayudantes como técnicos titulares en las mismas fechas que el técnico de verdad
+DT_A_MANO = {("san-lorenzo", "2015"): "Edgardo Bauza", ("fluminense", "2024"): "Fernando Diniz"}
+
+
+def dt_conmebol():
+    """Para las copas sin participantes en Transfermarkt (la Recopa): una función (club, 'aaaa-mm-dd') -> quién lo
+    dirigía ese día, con los clubes que ya se conocen por la Libertadores y la Sudamericana (sale de lo guardado en
+    tools/cache/transfermarkt; un club nuevo se baja)."""
+    cargar_nombres()
+    ids, _ = ids_tm("sudamericana")
+    historiales = {}
+
+    def dt(club, dia):
+        if club not in ids or not dia:
+            return None
+        if club not in historiales:
+            historiales[club] = historial_dt(ids[club])
+        d = datetime.date.fromisoformat(dia)
+        if (club, dia[:4]) in DT_A_MANO:
+            return DT_A_MANO[club, dia[:4]]
+        return quien_dirigio(historiales[club], d)
+    return dt
+
+
+def main(clave="libertadores"):
+    cargar_nombres()
     eds = leer_ediciones(clave)
     ids, dudosos = ids_tm(clave)
     print(f"{len(ids)} clubes emparejados con Transfermarkt")

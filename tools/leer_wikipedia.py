@@ -119,6 +119,9 @@ def fecha_de(t):
     m = re.search(r"\{\{\s*start date[^}]*?\|\s*(\d{4})\s*\|\s*(\d{1,2})\s*\|\s*(\d{1,2})", t, re.I)
     if m:
         return f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
+    m = re.search(r"\b(\d{4})-(\d{2})-(\d{2})\b", t)   # (también viene escrita así: 1993-09-29)
+    if m:
+        return "-".join(m.groups())
     m = re.search(r"(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})", t) or re.search(r"([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})", t)
     if not m:
         return None
@@ -161,7 +164,7 @@ def leer_goles(texto, lado):
 
 
 def resultado(t):
-    m = re.search(r"(\d+)\s*[–\-]\s*(\d+)", texto_plano(t) if "[[" in t else t)
+    m = re.search(r"(\d+)\s*[–\-−]\s*(\d+)", texto_plano(t) if "[[" in t else t)
     return (int(m.group(1)), int(m.group(2))) if m else (None, None)
 
 
@@ -252,7 +255,7 @@ def fase_de(titulo, copa):
         return "Semifinales"
     if "quarter" in t:
         return "Cuartos de final"
-    return "Final" if copa == "intercontinental" or "final" in t else None
+    return "Final" if copa in ("intercontinental", "recopa") or "final" in t else None
 
 
 def fase_etapa(etapa, titulos):
@@ -352,7 +355,7 @@ def leer(anio, copa="intercontinental"):
         if copa in ("champions", "europa") and (re.search(r"play-?off", par.get("id", ""), re.I) or
                                     re.search(r"play-?off|replay|decider", titulo, re.I)):
             p["notas"] = "partido desempate"
-        if copa == "intercontinental":
+        if copa in ("intercontinental", "recopa"):
             p["llave"] = 1
             if re.search(r"play-?off|replay", titulo, re.I):
                 p["notas"] = "partido desempate"

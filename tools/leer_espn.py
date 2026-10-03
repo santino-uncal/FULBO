@@ -129,6 +129,8 @@ def nombre_fase(evento, copa="libertadores", grupos=None):
         previa = previa_uefa(slug, (evento.get("_liga") or "").endswith("_qual"))
         if previa:
             return previa
+    if copa == "recopa":
+        return "Final"   # la Recopa es solo la final (ESPN la llama "2026-conmebol-recopa")
     if copa == "sudamericana":
         slug = re.sub(r"^copa-sudamericana-+", "", slug)
     if copa == "europa":

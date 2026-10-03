@@ -10,7 +10,7 @@ window.CONTINENTES = {
     internacionales: [
       { nombre: "Copa Libertadores", copa: "libertadores", desde: 1960, trofeo: "assets/img/copa-libertadores.webp" },
       { nombre: "Copa Sudamericana", copa: "sudamericana", desde: 2002, trofeo: "assets/img/copa-sudamericana.webp" },
-      { nombre: "Recopa Sudamericana", desde: 1989 },
+      { nombre: "Recopa Sudamericana", copa: "recopa", desde: 1989, trofeo: "assets/img/copa-recopa.webp" },
     ],
     nacionales: [
       ["ARG", "Liga Profesional"], ["BRA", "Brasileirão"], ["URU", "Primera División"], ["PAR", "Primera División"],

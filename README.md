@@ -1,6 +1,6 @@
-# Historia de la Copa Libertadores, la Sudamericana, la Intercontinental, el Mundial de Clubes, la Champions League, la Europa League y la Conference League
+# Historia de la Copa Libertadores, la Sudamericana, la Recopa, la Intercontinental, el Mundial de Clubes, la Champions League, la Europa League y la Conference League
 
-Todas las ediciones de la Libertadores desde 1960, de la Sudamericana desde 2002, de la Copa Intercontinental
+Todas las ediciones de la Libertadores desde 1960, de la Sudamericana desde 2002, de la Recopa Sudamericana desde 1989, de la Copa Intercontinental
 desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de Campeones de Europa hasta 1992) desde 1955/56 de la Europa League (Copa UEFA hasta 2009) desde 1971/72 y de la Conference League desde 2021/22: resultados, goleadores, asistidores, planteles y escudos.
 
 ## Cómo verlo
@@ -11,7 +11,7 @@ desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de C
   Mundial de Clubes e Intercontinental.
   La Libertadores es `?copa=libertadores`; cada edición tiene su link: `?edicion=1986`, y cada club el suyo: `?equipo=river-plate`.
   La Sudamericana es la misma página con `copa=sudamericana` adelante: `?copa=sudamericana`, `?copa=sudamericana&edicion=2014`,
-  `?copa=sudamericana&equipo=lanus`, `?copa=sudamericana&estadisticas`. Lo mismo con `copa=intercontinental` y `copa=mundial`
+  `?copa=sudamericana&equipo=lanus`, `?copa=sudamericana&estadisticas`. Lo mismo con `copa=recopa`, `copa=intercontinental` y `copa=mundial`
   (`?copa=mundial&edicion=2012`). En la cabecera, tocando el nombre de otra copa se cambia de copa.
   `sitemap.xml` (lo arma `tools/generar_datos.py`) y `robots.txt` le indican a Google qué páginas indexar.
 
@@ -43,6 +43,7 @@ desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de C
 | `data/champions/…` | La Champions League desde 1955/56. Cada edición lleva el año en que empieza la temporada (`ediciones/2024.js` es la 2024/25; en la página, `?copa=champions&edicion=2024`). | **Generado**. |
 | `data/europa/…` | La Europa League (Copa UEFA hasta 2009) desde 1971/72, igual que la Champions (`?copa=europa`). | **Generado**. |
 | `data/conference/…` | La Conference League desde 2021/22, igual que la Champions (`?copa=conference`). | **Generado**. |
+| `data/recopa/…` | La Recopa Sudamericana desde 1989 (`?copa=recopa`): solo la final. Hasta 2014 sale de Wikipedia y desde 2015 de ESPN; los entrenadores, de las formaciones de Wikipedia y, lo que falta, de la historia de cada club en Transfermarkt. | **Generado**. |
 | `data/intercontinental/…`, `data/mundial/…` | Lo mismo para la Copa Intercontinental y el Mundial de Clubes. Los entrenadores de la Intercontinental salen de las formaciones de Wikipedia; el Mundial todavía no tiene. | **Generado**. |
 | `assets/escudos/<club>.png` | Escudos. | Se bajan con `tools/descargar_escudos.py`. |
 | `assets/banderas/<país>.png` | Banderas (código de la FIFA: `ARG`, `ENG`…). | Se bajan con `tools/descargar_banderas.py`. |
@@ -99,7 +100,7 @@ permiten copiarlos citando a los autores.
 
 ## Actualizar los datos
 
-Cada script de descarga trabaja con la Libertadores; con `--copa sudamericana` (o `intercontinental`, o `mundial`),
+Cada script de descarga trabaja con la Libertadores; con `--copa sudamericana` (o `recopa`, `intercontinental`, `mundial`…),
 con esa copa. `generar_datos.py` arma todas las copas juntas (los clubes son los mismos).
 
 ```bash
@@ -113,6 +114,8 @@ python tools/descargar_entrenadores.py  # entrenadores de cada equipo (Transferm
 python tools/descargar_entrenadores.py --copa sudamericana
 python tools/descargar_planteles.py     # planteles de Transfermarkt
 python tools/descargar_planteles.py --copa sudamericana
+python tools/descargar_wikipedia.py --copa recopa   # Recopa 1989-2014 (una sola vez)
+python tools/descargar_espn.py --copa recopa        # Recopa desde 2015 (cada febrero, la del año)
 python tools/descargar_wikipedia.py --copa intercontinental   # Intercontinental 1960-2004 (una sola vez)
 python tools/descargar_wikipedia.py --copa mundial            # Mundial 2000 (una sola vez)
 python tools/descargar_espn.py --copa intercontinental
@@ -172,6 +175,8 @@ Trofeos de la cabecera (`assets/img/`), de Wikimedia Commons:
 - Copa Libertadores: [Mathiaseditorxd](https://commons.wikimedia.org/wiki/File:328-3287452_copa-libertadores-primer-trofeo-hd-png-download.png), CC BY-SA 4.0.
 - Copa Sudamericana: [ChapeTerror](https://commons.wikimedia.org/wiki/File:Ta%C3%A7a_da_Copa_Sul-Americana_de_2016.jpg), CC BY-SA 4.0
   (recortada del fondo y achicada).
+- Recopa Sudamericana (en el museo de Palmeiras): [Roberto Sabino](https://commons.wikimedia.org/wiki/File:Recopa_Sudamericana_-_2022_(53799976602).jpg),
+  CC BY 2.0 (recortada del fondo y achicada).
 - Copa Intercontinental (la de Boca, exhibida en La Plata): [BugWarp](https://commons.wikimedia.org/wiki/File:Intercontinental_de_Boca_exhibida_en_el_Dardo_Rocha_01.jpg),
   CC BY 4.0 (recortada del fondo y achicada).
 - Mundial de Clubes (en el museo de Anfield): [Daniel from Glasgow](https://commons.wikimedia.org/wiki/File:Anfield_Stadium_Tour_(51930554120).jpg),

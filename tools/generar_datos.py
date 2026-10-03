@@ -884,20 +884,26 @@ def ajustar_finales(ediciones):
 
 
 def entrenadores_de_formaciones(ediciones):
-    """En las copas sin Transfermarkt (Mundial e Intercontinental), el entrenador de cada club sale de las formaciones
-    de Wikipedia, que dicen quién dirigió cada partido. Escribe data/<copa>/entrenadores.js y el archivo de
-    entrenadores por partido que usan las estadísticas (solo si hay algún dato)."""
+    """En las copas sin Transfermarkt (Mundial, Intercontinental y Recopa), el entrenador de cada club sale de las
+    formaciones de Wikipedia, que dicen quién dirigió cada partido. En la Recopa, lo que Wikipedia no trae (y todo
+    desde 2015, que sale de ESPN) se completa con la historia de entrenadores de Transfermarkt de cada club (ver
+    descargar_entrenadores.dt_conmebol). Escribe data/<copa>/entrenadores.js y el archivo de entrenadores por
+    partido que usan las estadísticas (solo si hay algún dato)."""
     for clave in COPAS:
         if "tm" in COPAS[clave]:
-            continue   # las copas de la Conmebol los bajan de Transfermarkt (descargar_entrenadores.py)
+            continue   # la Libertadores y la Sudamericana los bajan de Transfermarkt (descargar_entrenadores.py)
+        dt_tm = None
+        if clave == "recopa":
+            import descargar_entrenadores
+            dt_tm = descargar_entrenadores.dt_conmebol()
         por_club, por_partido = {}, {}
         for (c, anio), ed in sorted(ediciones.items()):
             if c != clave:
                 continue
             for f in ed["fases"]:
                 for p in f["partidos"]:
-                    for lado, form in (p.get("formaciones") or {}).items():
-                        dt = form.get("dt")
+                    for lado in ("local", "visitante"):
+                        dt = ((p.get("formaciones") or {}).get(lado) or {}).get("dt") or (dt_tm and dt_tm(p[lado], p.get("fecha")))
                         if not dt:
                             continue
                         lista = por_club.setdefault(str(anio), {}).setdefault(p[lado], [])

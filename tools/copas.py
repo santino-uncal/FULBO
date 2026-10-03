@@ -1,7 +1,7 @@
 """Las copas que tiene la página y dónde vive cada cosa de cada una.
 
 Lo usan todos los scripts de tools/. Para elegir la copa, los scripts aceptan --copa sudamericana
-(o mundial, intercontinental, champions, europa o conference; sin nada, es la Libertadores).
+(o recopa, mundial, intercontinental, champions, europa o conference; sin nada, es la Libertadores).
 Las copas que no tienen "rsssf" toman de Wikipedia las ediciones viejas (las que ESPN no tiene).
 """
 import sys
@@ -130,6 +130,22 @@ COPAS = {
         "ns": "INT",
         "entrenadores_partidos": RAIZ / "tools" / "entrenadores_partidos_intercontinental.json",
         "planteles_tm": RAIZ / "tools" / "planteles_tm_intercontinental.json",
+    },
+    # La Recopa Sudamericana (desde 1989): el campeón de la Libertadores contra el de la Supercopa (1989-1998) o el de la
+    # Sudamericana (desde 2003). No se jugó en 1999-2002. Hasta 2014 sale de Wikipedia (una página por año);
+    # desde 2015, de ESPN ("conmebol.recopa").
+    "recopa": {
+        "nombre": "Recopa Sudamericana",
+        "desde": 1989,
+        "wikipedia": {a: f"{a} Recopa Sudamericana" for a in [*range(1989, 1999), *range(2003, 2015)]},
+        "cache_wikipedia": CACHE / "wikipedia-recopa",
+        "espn": "conmebol.recopa",
+        "espn_desde": 2015,
+        "cache_espn": CACHE / "espn-recopa",
+        "data": RAIZ / "data" / "recopa",
+        "ns": "REC",
+        "entrenadores_partidos": RAIZ / "tools" / "entrenadores_partidos_recopa.json",
+        "planteles_tm": RAIZ / "tools" / "planteles_tm_recopa.json",
     },
     # La Copa de Campeones de Europa (1955/56) y la Champions League (desde 1992/93). Cada edición se nombra por el año en que
     # empieza la temporada (la 2024/25 es 2024, como la etiqueta ESPN). 1955/56-2000/01 sale de Wikipedia (una página

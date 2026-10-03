@@ -79,7 +79,15 @@
   },
   "pais_por_edicion": {
     "1980|Uni. Católica": "ECU",
-    "2023|Cerro Porteño": "PAR"
+    "2023|Cerro Porteño": "PAR",
+    "recopa 1996|Grêmio": "BRA",
+    "recopa 1996|Independiente": "ARG",
+    "recopa 1997|River Plate": "ARG",
+    "recopa 1997|Vélez Sársfield": "ARG",
+    "recopa 2003|Olimpia": "PAR",
+    "recopa 2003|San Lorenzo": "ARG",
+    "recopa 2004|Boca Juniors": "ARG",
+    "recopa 2004|Cienciano": "PER"
   },
   "alias": {
     "Alianza|PER": "alianza-lima",
@@ -1387,7 +1395,8 @@
   "notas_ediciones": {
     "_nota": "Texto que se muestra debajo del campeón de una edición ('copa año').",
     "sudamericana 2016": "La final contra Atlético Nacional no se jugó: el 28 de noviembre de 2016 el avión que llevaba al plantel de Chapecoense a Medellín se estrelló y murieron 71 personas. A pedido de Atlético Nacional, la Conmebol le dio el título a Chapecoense.",
-    "sudamericana 2007": "La final terminó 4-4 en el global: Arsenal fue campeón por los goles de visitante."
+    "sudamericana 2007": "La final terminó 4-4 en el global: Arsenal fue campeón por los goles de visitante.",
+    "recopa 1991": "No se jugó: Olimpia había ganado la Copa Libertadores y la Supercopa de 1990, así que la Conmebol le dio la Recopa sin jugar. Es la única vez en la historia de la copa."
   },
   "campeones_sudamericana": {
     "_nota": "Campeón y subcampeón forzados de la Copa Sudamericana. 2007: global 4-4, Arsenal campeón por gol de visitante. 2016: la final no se jugó (accidente aéreo de Chapecoense); la Conmebol le dio el título a Chapecoense a pedido de Atlético Nacional.",
@@ -1677,6 +1686,13 @@
     "1991": [
       "ajax",
       "torino"
+    ]
+  },
+  "campeones_recopa": {
+    "_nota": "Campeón forzado de la Recopa Sudamericana. 1991: no se jugó; Olimpia ganó la Libertadores y la Supercopa de 1990 y la Conmebol le dio el título.",
+    "1991": [
+      "olimpia",
+      null
     ]
   }
 }
