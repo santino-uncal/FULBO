@@ -242,9 +242,55 @@
         </div>${cuerpo}`;
     }
 
-    // ---- Playoffs: si todavía no empezaron, cómo serían los cruces si la fase regular terminara hoy ----
+    // ---- Cuadro de los playoffs (todos a un partido). Se arma desde la última ronda que tiene partidos hacia atrás:
+    // arriba de cada partido, el de la ronda anterior de su primer equipo, y abajo el del segundo. Las rondas que
+    // todavía no se jugaron quedan con casillas vacías ("a definir") ----
+    const ganador = p => p.gl == null ? null : p.gl > p.gv || p.gl === p.gv && p.pen_l > p.pen_v ? p.local
+      : p.gl < p.gv || p.pen_v > p.pen_l ? p.visitante : null;
+    function cuadroHTML() {
+      const rondas = T.playoffs;
+      const ultima = rondas.at(-1);
+      const niveles = [[...ultima.partidos].sort((a, b) => (a.fecha || "").localeCompare(b.fecha || ""))];
+      for (let r = rondas.length - 2; r >= 0; r--) {
+        const antes = rondas[r].partidos, usados = new Set();
+        const nivel = niveles[0].flatMap(p => (p ? [p.local, p.visitante] : [null, null]).map(id => {
+          const q = id && antes.find(q => !usados.has(q) && (q.local === id || q.visitante === id));
+          if (q) usados.add(q);
+          return q || null;
+        }));
+        // (los que no se pudieron ubicar, en los huecos)
+        const sueltos = antes.filter(q => !usados.has(q));
+        niveles.unshift(nivel.map(q => q || sueltos.shift() || null));
+      }
+      const NOMBRES = { 8: "Octavos de final", 4: "Cuartos de final", 2: "Semifinales", 1: "Final" };
+      const nombres = rondas.map(r => r.nombre);
+      while (niveles.at(-1).length > 1) {   // las rondas que faltan
+        niveles.push(Array(niveles.at(-1).length / 2).fill(null));
+        nombres.push(NOMBRES[niveles.at(-1).length] || "");
+      }
+      const llave = p => {
+        if (!p) return `<div class="llave llave-vacia"><div class="ll-eq"><span class="ll-nombre vacio">A definir</span></div>
+          <div class="ll-eq"><span class="ll-nombre vacio">A definir</span></div></div>`;
+        const gana = ganador(p);
+        const fila = (id, g, pen) => `<div class="ll-eq${id === gana ? " gana" : ""}" title="${esc(club(id).nombre)}">
+          <span class="ll-nombre">${nombreClub(id)}</span><span class="ll-total">${g ?? "–"}${pen != null ? ` <small>(${pen})</small>` : ""}</span></div>`;
+        const detalle = [p.fecha && fechaLarga(p.fecha), p.estadio, p.alargue && "con alargue"].filter(Boolean).join(" · ");
+        return `<div class="llave" title="${esc(detalle)}">${fila(p.local, p.gl, p.pen_l)}${fila(p.visitante, p.gv, p.pen_v)}</div>`;
+      };
+      const columnas = niveles.map((nivel, n) => {
+        const casillas = nivel.map(p => `<div class="casilla">${llave(p)}</div>`);
+        const cuerpo = n === niveles.length - 1 ? casillas.join("")
+          : casillas.reduce((h, c, i) => i % 2 ? h + c + "</div>" : h + `<div class="par">` + c, "");
+        return `<div class="ronda"><div class="ronda-titulo">${esc(nombres[n])}</div><div class="ronda-cuerpo">${cuerpo}</div></div>`;
+      });
+      return `<div class="cuadro-scroll"><div class="cuadro">${columnas.join("")}</div></div>`;
+    }
+
+    // ---- Playoffs: el cuadro y los partidos; si todavía no empezaron, cómo serían los cruces si la fase regular
+    // terminara hoy ----
     function vistaPlayoffs() {
-      if (T.playoffs.length) return T.playoffs.map(r => `<h3>${esc(r.nombre)}</h3>${r.partidos.map(p => partidoHTML(p)).join("")}`).join("");
+      if (T.playoffs.length) return `${cuadroHTML()}<p class="vacio">El ganador de cada partido, resaltado; entre paréntesis, los penales.</p>` +
+        T.playoffs.map(r => `<h3>${esc(r.nombre)}</h3>${r.partidos.map(p => partidoHTML(p)).join("")}`).join("");
       const [za, zb] = Object.keys(T.zonas);
       const a = tabla(T.zonas[za]), b = tabla(T.zonas[zb]);
       const cruces = [];

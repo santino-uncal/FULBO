@@ -474,3 +474,4 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
   .cruce { padding: 8px; gap: 6px; font-size: .9rem; }
   .cruce small { display: block; }
 }
+.llave-vacia { opacity: .55; border-style: dashed; }   /* cuadro de la liga: partido todavía no definido */
