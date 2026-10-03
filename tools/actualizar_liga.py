@@ -722,7 +722,9 @@ PENALES_A_MANO = {"540170": (3, 4), "540167": (3, 2), "540166": (5, 4)}
 GOLES_A_MANO = {"521397": [{"jugador": "Saúl Salcedo", "min": 62, "tipo": "ec", "equipo": "local"}],
                 "399497": [{"jugador": "Emiliano Tellechea", "min": 14, "equipo": "visitante"},
                            {"jugador": "Brian Fernández", "min": 67, "equipo": "visitante"},
-                           {"jugador": "Gaspar Servio", "min": 83, "tipo": "ec", "equipo": "visitante"}]}
+                           {"jugador": "Gaspar Servio", "min": 83, "tipo": "ec", "equipo": "visitante"}],
+                # Newell's 3-0 Racing (Apertura 2008): el segundo, de Hernán Bernardello (Página/12)
+                "246119": [{"jugador": "Hernán Bernardello", "min": 87, "equipo": "local"}]}
 # Partidos que ESPN pone en la fase regular pero no la son (no suman en la tabla anual ni en los promedios): del
 # torneo 2016, la final (Lanús-San Lorenzo) y el desempate por un lugar en las copas (Godoy Cruz-Estudiantes)
 NO_SUMAN = {"448823", "448810"}
