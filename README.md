@@ -13,7 +13,8 @@ desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de C
   La Sudamericana es la misma página con `copa=sudamericana` adelante: `?copa=sudamericana`, `?copa=sudamericana&edicion=2014`,
   `?copa=sudamericana&equipo=lanus`, `?copa=sudamericana&estadisticas`. Lo mismo con `copa=recopa`, `copa=intercontinental` y `copa=mundial`
   (`?copa=mundial&edicion=2012`). En la cabecera, tocando el nombre de otra copa se cambia de copa.
-  La **Liga Profesional argentina** está en `liga.html` (por ahora, el Torneo Clausura 2026): la tabla de las dos zonas,
+  La **Liga Profesional argentina** está en `liga.html` (por ahora, los torneos Apertura y Clausura 2026, que se eligen
+  arriba: `liga.html?torneo=2026-apertura`): la tabla de las dos zonas,
   todas las fechas con resultados y goles, los goleadores, los playoffs, la tabla anual y los promedios del descenso
   (`liga.html?vista=fechas&fecha=5`, `?vista=anual`, `?vista=promedios`).
   `sitemap.xml` (lo arma `tools/generar_datos.py`) y `robots.txt` le indican a Google qué páginas indexar.
@@ -145,9 +146,12 @@ y después `generar_datos.py`. En la Champions y la Europa League la temporada t
 
 ### Liga argentina
 
-`tools/actualizar_liga.py` baja todo de ESPN. ESPN no dice a qué fecha pertenece cada partido: se deduce agrupando
-los partidos por días seguidos y mandando los postergados a la fecha en la que les falta jugar a los dos clubes
-(`repartir_fechas`). Las zonas salen de la tabla de ESPN.
+`tools/actualizar_liga.py` baja todo de ESPN. ESPN no dice a qué fecha pertenece cada partido: se deduce
+recorriendo los partidos en orden (empieza una fecha nueva cuando aparece un club que ya jugó en la que está en curso)
+y mandando los postergados a la fecha en la que les falta jugar a los dos clubes (`repartir_fechas`). Las zonas salen
+de la tabla de ESPN, que solo muestra las del torneo en curso: el Apertura 2026 usa las del Clausura, que fueron las
+mismas (`zonas_de`; el script avisa si algún club tiene más de 2 partidos contra la otra zona). Si no cambió ningún
+dato, el archivo del torneo no se toca (un torneo terminado no cambia cada noche).
 
 **Tabla anual y promedios** (reglamento 2026): la tabla anual suma la fase de zonas del Apertura y del Clausura (sin
 playoffs); los promedios, los puntos de 2024, 2025 y 2026 divididos por los partidos jugados (2024: la fase de zonas de

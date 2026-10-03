@@ -433,6 +433,13 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 }
 
 /* ---- Liga argentina (liga.html) ---- */
+.torneos { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px; margin: 6px 0 10px; }
+.torneos a { padding: 6px 14px; border-radius: 999px; border: 1px solid var(--borde); background: var(--panel);
+  color: var(--texto); text-decoration: none; font-weight: 600; font-size: .9rem; }
+.torneos a:hover { border-color: var(--acento); }
+.torneos a[aria-current="page"] { background: var(--acento); border-color: var(--acento); color: var(--fondo); }
+.campeon-torneo { margin: 0 0 8px; font-weight: 700; font-size: 1.1rem; }
+.campeon-torneo[hidden] { display: none; }
 .titulo-fecha { display: flex; align-items: center; gap: 10px; margin: 8px 0; }
 .titulo-fecha h3 { flex: 1; margin: 0; border: 0; text-align: center; }
 .titulo-fecha h3 small { display: block; font-size: .8rem; font-weight: 400; color: var(--texto-suave); }

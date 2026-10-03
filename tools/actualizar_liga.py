@@ -31,6 +31,10 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # Las zonas del Apertura 2026 fueron las mismas que las del Clausura (la tabla de ESPN ya muestra solo las del
+    # Clausura): "zonas_de" usa las de ese torneo. armar() controla que cada club tenga 2 partidos interzonales
+    "2026-apertura": {"nombre": "Torneo Apertura 2026", "anio": 2026, "slug": "apertura", "fechas": 16, "pasan": 8,
+                      "zonas_de": "clausura"},
     "2026-clausura": {"nombre": "Torneo Clausura 2026", "anio": 2026, "slug": "clausura", "fechas": 16,
                       "pasan": 8,   # los 8 primeros de cada zona juegan los octavos de final
                       # La tabla anual suma la fase de zonas del Apertura y del Clausura (sin playoffs): acá, lo que
@@ -74,7 +78,7 @@ def hora_argentina(iso):
     return datetime.datetime.strptime(iso[:16], "%Y-%m-%dT%H:%M") - datetime.timedelta(hours=3)
 
 
-def bajar(anio, slug):
+def bajar(anio, slug, con_zonas=True):
     """El calendario del año, el detalle de los partidos terminados del torneo y las zonas."""
     carpeta = CACHE / str(anio)
     carpeta.mkdir(parents=True, exist_ok=True)
@@ -96,7 +100,7 @@ def bajar(anio, slug):
     # Las zonas: la tabla de ESPN tiene dos grupos de 15 mientras se juega la fase regular. Se guardan la primera
     # vez (en los playoffs la tabla puede cambiar de forma)
     zonas = carpeta / f"zonas-{slug}.json"
-    if not zonas.exists():
+    if con_zonas and not zonas.exists():
         tabla = pedir(f"{ESPN.replace('/site/v2/', '/v2/')}/standings?season={anio}")
         z = {g["name"].split()[-1]: [x["team"]["id"] for x in g["standings"]["entries"]] for g in tabla.get("children", [])}
         if len(z) == 2 and all(len(v) >= 10 for v in z.values()):
@@ -152,54 +156,29 @@ def campeon(liga, anio, patron, club):
 
 
 def repartir_fechas(partidos, cantidad):
-    """Le pone a cada partido de la fase regular su número de fecha. ESPN no lo dice, así que:
-    1. Se ordenan por día y se cortan en tandas donde hay un día sin partidos.
-    2. Tandas vecinas sin clubes repetidos se juntan (una fecha que se jugó con un día libre en el medio).
-    3. Si quedan más tandas que fechas, las más chicas (partidos postergados sueltos) se pegan a la anterior.
-    4. Si en una tanda un club juega dos veces, uno de esos partidos es postergado: va a la fecha en la que a los
-       dos clubes les falta un partido.
+    """Le pone a cada partido de la fase regular su número de fecha (fecha_n). ESPN no lo dice, así que se recorren
+    los partidos en el orden en que se jugaron (o se van a jugar):
+    - Si los dos clubes deben un partido de una fecha ya cerrada, es un partido postergado: va a esa fecha.
+    - Si no, va a la fecha en curso, salvo que alguno de los dos ya haya jugado en ella (o que ya esté completa):
+      entonces empieza la fecha siguiente. Así se separan también las fechas pegadas (una que termina el lunes y
+      otra que empieza el martes).
     Los partidos sin jugar con día a confirmar ESPN los pone todos juntos un domingo: quedan bien igual."""
-    orden = sorted(partidos, key=lambda p: p["hora_utc"])
-    tandas = []
-    for p in orden:
-        dia = hora_argentina(p["hora_utc"]).date()
-        if tandas and (dia - tandas[-1]["ultimo"]).days <= 1:
-            tandas[-1]["partidos"].append(p)
+    por_fecha = max(1, len({c for p in partidos for c in (p["local"], p["visitante"])}) // 2)
+    fechas = []   # [{clubes}, ...]; la última es la que está en curso
+    for p in sorted(partidos, key=lambda p: p["hora_utc"]):
+        par = {p["local"], p["visitante"]}
+        debe = [n for n, clubes in enumerate(fechas[:-1]) if not par & clubes]
+        if debe:
+            n = debe[0]
+        elif not fechas or par & fechas[-1] or len(fechas[-1]) >= 2 * por_fecha:
+            fechas.append(set())
+            n = len(fechas) - 1
         else:
-            tandas.append({"partidos": [p]})
-        tandas[-1]["ultimo"] = dia
-    clubes = lambda t: {c for p in t for c in (p["local"], p["visitante"])}
-    juntas = []
-    for t in tandas:
-        if juntas and not clubes(juntas[-1]) & clubes(t["partidos"]):
-            juntas[-1] += t["partidos"]
-        else:
-            juntas.append(list(t["partidos"]))
-    while len(juntas) > cantidad:   # sobran tandas: la más chica (partidos postergados sueltos) va con la anterior
-        i = min(range(len(juntas)), key=lambda k: (len(juntas[k]), -k))   # (si empatan, la más tardía)
-        sueltos = juntas.pop(i)
-        juntas[max(i - 1, 0)].extend(sueltos)   # (si era la primera, va con la siguiente)
-    for n, t in enumerate(juntas, 1):
-        for p in t:
-            p["fecha_n"] = n
-    # partidos postergados: el club que juega dos veces en una fecha
-    total = max(len(juntas), cantidad)
-    for _ in range(3):
-        for n in range(1, total + 1):
-            en_fecha = [p for p in partidos if p["fecha_n"] == n]
-            cuenta = {}
-            for p in en_fecha:
-                for c in (p["local"], p["visitante"]):
-                    cuenta[c] = cuenta.get(c, 0) + 1
-            for p in sorted(en_fecha, key=lambda p: p["hora_utc"], reverse=True):
-                if cuenta[p["local"]] < 2 and cuenta[p["visitante"]] < 2:
-                    continue
-                jugadas = lambda c: {q["fecha_n"] for q in partidos if c in (q["local"], q["visitante"])}
-                libres = [f for f in range(1, total + 1) if f not in jugadas(p["local"]) | jugadas(p["visitante"])]
-                if libres:
-                    cuenta[p["local"]] -= 1
-                    cuenta[p["visitante"]] -= 1
-                    p["fecha_n"] = min(libres, key=lambda f: abs(f - n))
+            n = len(fechas) - 1
+        fechas[n] |= par
+        p["fecha_n"] = n + 1
+    if len(fechas) != cantidad:
+        print(f"  ojo: salieron {len(fechas)} fechas (se esperaban {cantidad})", flush=True)
     return partidos
 
 
@@ -217,9 +196,20 @@ def catalogo():
 
 def armar(clave):
     cfg = TORNEOS[clave]
-    eventos = bajar(cfg["anio"], cfg["slug"])
+    eventos = bajar(cfg["anio"], cfg["slug"], con_zonas="zonas_de" not in cfg)
     carpeta = CACHE / str(cfg["anio"])
-    zonas_espn = json.loads((carpeta / f"zonas-{cfg['slug']}.json").read_text(encoding="utf-8"))
+    zonas_espn = json.loads((carpeta / f"zonas-{cfg.get('zonas_de', cfg['slug'])}.json").read_text(encoding="utf-8"))
+    # control: con las zonas bien puestas, cada club juega 2 partidos contra la otra zona en la fase regular
+    zona_de = {i: z for z, ids in zonas_espn.items() for i in ids}
+    interzonales = {}
+    for e in eventos:
+        ids = [c["team"]["id"] for c in e["competitions"][0]["competitors"]]
+        if e["season"]["slug"].startswith("torneo-") and zona_de.get(ids[0]) != zona_de.get(ids[1]):
+            for i in ids:
+                interzonales[i] = interzonales.get(i, 0) + 1
+    raros = {i: n for i, n in interzonales.items() if n > 2}
+    if raros:
+        print(f"  ojo: clubes con más de 2 partidos contra la otra zona (¿zonas equivocadas?): {raros}", flush=True)
     espn_a_club, eq = catalogo()
     clubes = {}
 
@@ -269,6 +259,8 @@ def armar(clave):
         if estado.get("name") in ("STATUS_POSTPONED", "STATUS_CANCELED", "STATUS_SUSPENDED", "STATUS_ABANDONED"):
             p["estado"] = {"STATUS_POSTPONED": "Postergado", "STATUS_CANCELED": "Cancelado",
                            "STATUS_SUSPENDED": "Suspendido", "STATUS_ABANDONED": "Suspendido"}[estado["name"]]
+        if estado.get("name") == "STATUS_FINAL_AET":   # (los que se definieron por penales no dicen si hubo alargue)
+            p["alargue"] = True
         if lados["home"].get("shootoutScore") is not None:
             p["pen_l"], p["pen_v"] = int(lados["home"]["shootoutScore"]), int(lados["away"]["shootoutScore"])
         detalle = carpeta / f"{e['id']}.json"
@@ -319,6 +311,13 @@ def armar(clave):
                               for titulo, liga, patron in cfg["cupos"]["campeones"]]
         datos["cupos"] = cupos
     DATOS.mkdir(parents=True, exist_ok=True)
+    # si no cambió nada desde la última vez, queda la hora de antes (así un torneo terminado no cambia cada noche)
+    archivo = DATOS / f"{clave}.js"
+    if archivo.exists():
+        t = archivo.read_text(encoding="utf-8")
+        antes = json.JSONDecoder().raw_decode(t[t.index("] = ") + 4:])[0]
+        if {**antes, "actualizado": None} == {**json.loads(json.dumps(datos)), "actualizado": None}:
+            datos["actualizado"] = antes["actualizado"]
     js = ("/* Generado por tools/actualizar_liga.py — no editar a mano */\n"
           "window.LIGA = window.LIGA || {};\n"
           f"window.LIGA[{json.dumps(clave)}] = {json.dumps(datos, ensure_ascii=False, separators=(',', ':'))};\n")
@@ -342,7 +341,8 @@ def armar(clave):
 
 
 def main():
-    for clave in [a for a in sys.argv[1:] if a in TORNEOS] or list(TORNEOS):
+    # (los torneos que usan las zonas de otro van después: ese otro baja las zonas)
+    for clave in sorted([a for a in sys.argv[1:] if a in TORNEOS] or list(TORNEOS), key=lambda c: "zonas_de" in TORNEOS[c]):
         armar(clave)
 
 

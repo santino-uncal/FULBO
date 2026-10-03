@@ -33,8 +33,21 @@
 
     document.title = `${T.nombre} — Liga Profesional Argentina`;
     document.getElementById("titulo-torneo").textContent = T.nombre;
+    // Los torneos cargados, para pasar de uno a otro (el que se está viendo, resaltado)
+    document.getElementById("torneos").innerHTML = INDICE.map(t => `<a href="?torneo=${t.clave}"${t.clave === CLAVE
+      ? ` aria-current="page"` : ""}>${esc(t.nombre.replace(/^Torneo /, ""))}</a>`).join("");
+    // El campeón: el ganador de la final (en los 90 minutos, en el alargue o por penales)
+    const final = T.playoffs.find(r => r.nombre === "Final")?.partidos[0];
+    const campeon = final && final.gl != null ? (final.gl > final.gv || final.gl === final.gv && final.pen_l > final.pen_v ? final.local : final.visitante) : null;
     const [dia, hora] = T.actualizado.split(" ");
-    document.getElementById("actualizado").textContent = `Actualizado el ${fechaLarga(dia)} a las ${hora} · se actualiza todos los días`;
+    document.getElementById("actualizado").textContent = campeon ? "Torneo terminado"
+      : `Actualizado el ${fechaLarga(dia)} a las ${hora} · se actualiza todos los días`;
+    if (campeon) {
+      const c = document.getElementById("campeon-torneo");
+      c.hidden = false;
+      c.innerHTML = `🏆 Campeón: ${nombreClub(campeon)}`;
+    }
+
 
     // ---- Tabla de posiciones de cada zona (los partidos interzonales cuentan para la zona de cada club) ----
     function tabla(ids) {
@@ -167,9 +180,9 @@
     // conDia: poner el día en cada partido (en las fechas no hace falta: van agrupados por día)
     function partidoHTML(p, conDia = true) {
       const res = jugado(p) ? `${p.gl} – ${p.gv}` : p.estado ? esc(p.estado) : p.hora ? `${p.hora} h` : "vs";
-      const interzonal = zonaDe[p.local] && zonaDe[p.visitante] && zonaDe[p.local] !== zonaDe[p.visitante];
+      const interzonal = p.n != null && zonaDe[p.local] && zonaDe[p.visitante] && zonaDe[p.local] !== zonaDe[p.visitante];
       const meta = [conDia && (p.fecha ? fechaLarga(p.fecha) : "Día a confirmar"), jugado(p) && p.hora && `${p.hora} h`, p.estadio, p.arbitro && `Árbitro: ${p.arbitro}`,
-        p.publico && `${p.publico.toLocaleString("es-AR")} espectadores`].filter(Boolean).map(esc).join(" · ");
+        p.publico && `${p.publico.toLocaleString("es-AR")} espectadores`, p.alargue && "Con alargue"].filter(Boolean).map(esc).join(" · ");
       const gol = g => {
         const min = g.min != null ? `${g.min}${g.extra ? "+" + g.extra : ""}' ` : "";
         const texto = `${min}${esc(g.jugador || "?")}${g.tipo === "pen" ? " (penal)" : g.tipo === "ec" ? " (en contra)" : ""}`;
