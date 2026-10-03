@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Liga Profesional Argentina — Historia del fútbol de clubes</title>
+<meta name="description" content="Liga Profesional de Fútbol de Argentina: tabla de posiciones de las dos zonas, todas las fechas con resultados y goles, goleadores y playoffs. Se actualiza todos los días.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_AR">
+<meta property="og:site_name" content="Historia del fútbol de clubes">
+<meta property="og:title" content="Liga Profesional Argentina">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏆</text></svg>">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<header class="cabecera">
+  <nav class="pestanas-mundo" aria-label="Secciones">
+    <a data-seccion="continentes" href="index.html?continente=sudamerica" aria-current="page">🌍 Continentes</a>
+    <a data-seccion="mundial" href="index.html?copa=mundial">Mundial de Clubes</a>
+    <a data-seccion="intercontinental" href="index.html?copa=intercontinental">Copa Intercontinental</a>
+  </nav>
+  <p class="cabecera-eyebrow"><img class="bandera" src="assets/banderas/ARG.png" alt="">Liga Profesional de Fútbol · Argentina</p>
+  <h1 id="titulo-torneo">Liga Profesional</h1>
+  <p class="cabecera-sub" id="actualizado"></p>
+</header>
+
+<main>
+  <!-- La arma js/liga.js con los datos de data/ligas/argentina/ -->
+  <section class="edicion liga" id="liga">
+    <p class="vacio">Cargando…</p>
+  </section>
+</main>
+
+<!-- Orden de carga: datos → lógica -->
+<script src="data/ligas/argentina/indice.js"></script>
+<script src="js/liga.js"></script>
+</body>
+</html>

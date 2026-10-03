@@ -13,6 +13,8 @@ desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de C
   La Sudamericana es la misma página con `copa=sudamericana` adelante: `?copa=sudamericana`, `?copa=sudamericana&edicion=2014`,
   `?copa=sudamericana&equipo=lanus`, `?copa=sudamericana&estadisticas`. Lo mismo con `copa=recopa`, `copa=intercontinental` y `copa=mundial`
   (`?copa=mundial&edicion=2012`). En la cabecera, tocando el nombre de otra copa se cambia de copa.
+  La **Liga Profesional argentina** está en `liga.html` (por ahora, el Torneo Clausura 2026): la tabla de las dos zonas,
+  todas las fechas con resultados y goles, los goleadores y los playoffs (`liga.html?vista=fechas&fecha=5`).
   `sitemap.xml` (lo arma `tools/generar_datos.py`) y `robots.txt` le indican a Google qué páginas indexar.
 
 - **Rápido:** doble clic en `index.html`.
@@ -46,6 +48,8 @@ desde 1960 y del Mundial de Clubes desde 2000, de la Champions League (Copa de C
 | `data/recopa/…` | La Recopa Sudamericana desde 1989 (`?copa=recopa`): solo la final. Hasta 2014 sale de Wikipedia y desde 2015 de ESPN; los entrenadores, de las formaciones de Wikipedia y, lo que falta, de la historia de cada club en Transfermarkt. | **Generado**. |
 | `data/supercopa/…` | La Supercopa de Europa desde 1972 (`?copa=supercopa`): solo la final, cada edición con el año en que se jugó. Hasta 2004 (y 2013) sale de Wikipedia y el resto de ESPN. La de 1972 se ve pero no cuenta en las estadísticas (no es oficial). | **Generado**. |
 | `data/intercontinental/…`, `data/mundial/…` | Lo mismo para la Copa Intercontinental y el Mundial de Clubes. Los entrenadores de la Intercontinental salen de las formaciones de Wikipedia; el Mundial todavía no tiene. | **Generado**. |
+| `liga.html`, `js/liga.js` | La página de la liga argentina. La tabla de posiciones la calcula `liga.js` con los resultados. | Comportamiento de la liga. |
+| `data/ligas/argentina/<torneo>.js` | Un torneo de la liga (`2026-clausura.js`): zonas, fechas con sus partidos y goles, playoffs y clubes. `indice.js`: los torneos cargados. | **Generado** (`tools/actualizar_liga.py`). |
 | `assets/escudos/<club>.png` | Escudos. | Se bajan con `tools/descargar_escudos.py`. |
 | `assets/banderas/<país>.png` | Banderas (código de la FIFA: `ARG`, `ENG`…). | Se bajan con `tools/descargar_banderas.py`. |
 | `tools/` | Scripts de Python que descargan y arman los datos. `tools/copas.py` dice dónde vive cada cosa de cada copa. | Ver abajo. |
@@ -129,6 +133,7 @@ python tools/descargar_espn.py --copa conference     # Conference League desde 2
 python tools/descargar_wikipedia.py --copa supercopa  # Supercopa de Europa 1972-2004 y 2013 (una sola vez)
 python tools/descargar_espn.py --copa supercopa       # Supercopa de Europa desde 2005
 python tools/descargar_banderas.py  # banderas de los países nuevos
+python tools/actualizar_liga.py     # liga argentina: baja de ESPN ("arg.1") los partidos del torneo en curso y arma data/ligas/argentina/ (tarea programada, todas las noches)
 python tools/actualizar_europa.py   # temporada en curso de la Champions, la Europa League y la Conference, y la Supercopa del año (bajar, armar, probar)
 ```
 
@@ -136,6 +141,13 @@ Para la temporada en curso alcanza con `python tools/descargar_espn.py 2026` (y 
 y después `generar_datos.py`. En la Champions y la Europa League la temporada toca dos años: para la 2026/27,
 `--copa champions 2026 2027`, `--copa europa 2026 2027` y `--copa conference 2026 2027`. Cuando empiece una temporada nueva, sumarla a `ediciones`
 (y el año siguiente a `espn_anios`) en `tools/copas.py`.
+
+### Liga argentina
+
+`tools/actualizar_liga.py` baja todo de ESPN. ESPN no dice a qué fecha pertenece cada partido: se deduce agrupando
+los partidos por días seguidos y mandando los postergados a la fecha en la que les falta jugar a los dos clubes
+(`repartir_fechas`). Las zonas salen de la tabla de ESPN. Para sumar un torneo, agregarlo a `TORNEOS` en el script;
+los clubes que no jugaron copas (y no están en `data/equipos.js`) van en `CLUBES_NUEVOS`, y su escudo se baja solo.
 
 ### Corregir clubes
 

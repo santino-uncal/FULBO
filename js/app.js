@@ -183,9 +183,11 @@
         <div class="tarjetas-copas">${x.internacionales.map(tarjeta).join("")}</div>
         <h3>Sus clubes en el mundo</h3>
         <div class="mundo">${titulosMundiales(c, "MUN", "mundial")}${titulosMundiales(c, "INT", "intercontinental")}</div>
-        <h3>Ligas nacionales <span class="etiqueta">Próximamente</span></h3>
-        <ul class="ligas">${x.nacionales.map(([p, liga]) => `<li>${bandera(p)}<span>${esc(liga)}</span>
-          <small>${esc(PAISES[p] || p)}</small></li>`).join("")}</ul>`;
+        <h3>Ligas nacionales</h3>
+        <ul class="ligas">${x.nacionales.map(([p, liga, pagina]) => {
+          const dentro = `${bandera(p)}<span>${esc(liga)}</span><small>${pagina ? "Ver →" : `${esc(PAISES[p] || p)} · próximamente`}</small>`;
+          return `<li>${pagina ? `<a href="${pagina}">${dentro}</a>` : dentro}</li>`;
+        }).join("")}</ul>`;
     }
 
     function elegir(c, guardar) {

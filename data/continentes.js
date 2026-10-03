@@ -3,7 +3,8 @@
    - copa: la clave de la copa en la página (?copa=libertadores); si no tiene, la copa todavía no está cargada ("próximamente").
    - paises: los países de cada continente con el código que usa la página (el de la FIFA), para contar los títulos
      de sus clubes en el Mundial de Clubes y la Intercontinental.
-   - color: el del continente en su mapa. */
+   - color: el del continente en su mapa.
+   - nacionales: [país, nombre de la liga, página de la liga si ya está cargada]. */
 window.CONTINENTES = {
   sudamerica: {
     nombre: "Sudamérica", confederacion: "Conmebol", color: "#2e9e57",
@@ -13,7 +14,7 @@ window.CONTINENTES = {
       { nombre: "Recopa Sudamericana", copa: "recopa", desde: 1989, trofeo: "assets/img/copa-recopa.webp" },
     ],
     nacionales: [
-      ["ARG", "Liga Profesional"], ["BRA", "Brasileirão"], ["URU", "Primera División"], ["PAR", "Primera División"],
+      ["ARG", "Liga Profesional", "liga.html"], ["BRA", "Brasileirão"], ["URU", "Primera División"], ["PAR", "Primera División"],
       ["CHI", "Primera División"], ["COL", "Primera A"], ["PER", "Liga 1"], ["ECU", "LigaPro"],
       ["BOL", "División Profesional"], ["VEN", "Liga FUTVE"],
     ],
