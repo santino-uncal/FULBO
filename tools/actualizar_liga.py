@@ -48,16 +48,19 @@ TORNEOS = {
                                    (r"fase-campeon-final$", "Final"),
                                    (r"copa-sudamericana-playoff$", "Repechaje por la Copa Sudamericana")],
                       "fechas": 11, "pasan": 0,
-                      # el cuadro no es una eliminación directa común: las dos finales y, después, el repechaje (al que
-                      # fueron el subcampeón y el ganador de la Complementación)
-                      "cuadro": {"columnas": [("Finales", ["Final", "Final de la Fase Complementación"]),
-                                              ("Repechaje por la Sudamericana", ["Repechaje por la Copa Sudamericana"])],
-                                 "nota": "Al repechaje por un lugar en la Copa Sudamericana 2021 fueron el subcampeón (el que "
-                                         "perdió la final) y el ganador de la final de la Fase Complementación."},
+                      # el cuadro no es una eliminación directa común: va en dos partes ("bloques", cada uno con sus
+                      # columnas de rondas): la final del torneo, sola, y el camino al lugar en la Sudamericana (la final
+                      # de la Complementación y el repechaje, al que fueron su ganador y el subcampeón del torneo)
+                      "cuadro": {"bloques": [("Final del torneo", [["Final"]]),
+                                             ("Por un lugar en la Copa Sudamericana 2021",
+                                              [["Final de la Fase Complementación"], ["Repechaje por la Copa Sudamericana"]])],
+                                 "nota": "Al repechaje por un lugar en la Copa Sudamericana 2021 fueron el ganador de la final "
+                                         "de la Fase Complementación y el subcampeón del torneo (el que perdió la final)."},
                       "nota": "En 2020 hubo un solo torneo, la Copa Diego Maradona, que empezó en octubre por la pandemia. En la "
                               "primera fase pasaban los dos primeros de cada zona a la Fase Campeón (los ganadores de sus dos "
-                              "zonas jugaron la final); el resto jugó la Fase Complementación. Los ganadores de las dos finales "
-                              "(si no estaban ya clasificados) jugaron un repechaje por un lugar en la Sudamericana 2021.",
+                              "zonas jugaron la final); el resto jugó la Fase Complementación. Los ganadores de sus dos zonas jugaron otra "
+                              "final y el que la ganó "
+                              "jugó un repechaje por un lugar en la Sudamericana 2021 contra el subcampeón del torneo.",
                       "sin_descensos": "En 2020 no hubo descensos: la AFA los suspendió por la pandemia."},
     # 2021: la Copa de la Liga (febrero-junio, dos zonas de 13, desde cuartos; campeón Colón) y la Liga Profesional
     # (julio-diciembre, una sola tabla de 26, 25 fechas; campeón River). Sin descensos (la AFA los suspendió en 2020 y

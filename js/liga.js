@@ -289,12 +289,15 @@
     const ganador = p => p.gl == null ? null : p.gl > p.gv || p.gl === p.gv && p.pen_l > p.pen_v ? p.local
       : p.gl < p.gv || p.pen_v > p.pen_l ? p.visitante : null;
     function cuadroHTML() {
-      // Un cuadro armado a mano (T.cuadro: la Copa Maradona 2020): cada columna, con los partidos de esas rondas
+      // Un cuadro armado a mano (T.cuadro: la Copa Maradona 2020), en partes ("bloques"), cada una con sus columnas
+      // de rondas. El campeón, marcado en la parte de la final
       if (T.cuadro) {
         const partido = n => T.playoffs.find(r => r.nombre === n)?.partidos[0] || null;
-        const niveles = T.cuadro.columnas.map(([, rondas]) => rondas.map(n => ({ p: partido(n), titulo: n })));
-        return dibujarCuadro(niveles.map(nv => nv.map(x => x.p)), T.cuadro.columnas.map(([t]) => t),
-          niveles.map(nv => nv.map(x => nv.length > 1 ? x.titulo : null)));
+        return T.cuadro.bloques.map(([titulo, columnas]) => {
+          const final = columnas.flat().includes("Final");
+          return `<h4 class="bloque-cuadro">${esc(titulo)}${final && campeon ? ` <span class="campeon-bloque">🏆 Campeón: ${nombreClub(campeon)}</span>` : ""}</h4>
+            ${dibujarCuadro(columnas.map(rondas => rondas.map(partido)), columnas.map(rondas => rondas.join(" / ")))}`;
+        }).join("");
       }
       const rondas = T.playoffs;
       const ultima = rondas.at(-1);
@@ -332,7 +335,9 @@
       const columnas = niveles.map((nivel, n) => {
         const casillas = nivel.map((p, i) => `<div class="casilla">${titulos[n]?.[i]
           ? `<div class="llave-con-titulo"><div class="llave-titulo">${esc(titulos[n][i])}</div>${llave(p)}</div>` : llave(p)}</div>`);
+        // (de a pares, con el corchete hacia la ronda siguiente; uno solo va derecho, con una línea)
         const cuerpo = n === niveles.length - 1 ? casillas.join("")
+          : nivel.length === 1 ? `<div class="par vacio">${casillas[0]}</div>`
           : casillas.reduce((h, c, i) => i % 2 ? h + c + "</div>" : h + `<div class="par">` + c, "");
         return `<div class="ronda"><div class="ronda-titulo">${esc(nombres[n])}</div><div class="ronda-cuerpo">${cuerpo}</div></div>`;
       });

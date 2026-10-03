@@ -480,3 +480,5 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .llave-vacia { opacity: .55; border-style: dashed; }   /* cuadro de la liga: partido todavía no definido */
 .llave-con-titulo { width: 100%; }
 .llave-titulo { font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--texto-suave); margin-bottom: 4px; }
+.bloque-cuadro { margin: 18px 0 6px; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; }
+.campeon-bloque { font-weight: 700; color: var(--acento); }

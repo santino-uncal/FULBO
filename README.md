@@ -204,8 +204,9 @@ Los clasificados a las copas 2022 coinciden con la lista de Infobae.
 ESPN, `anios`). Va por etapas (`etapas`: cada una con sus zonas, que salen del grupo de cada partido en ESPN, y sus
 fechas): la primera fase (6 zonas de 4), la Fase Campeón y la Fase Complementación (2 zonas de 6 cada una, en las
 mismas fechas). Las finales tienen nombres propios (`playoffs`: la final, la de la Complementación y el repechaje por la
-Sudamericana). Como no son una eliminación directa común, el cuadro va armado a mano (`cuadro`: las dos finales y,
-después, el repechaje, al que fueron el subcampeón y el ganador de la Complementación). Sin descensos ni tabla anual. Para sumar un torneo, agregarlo a `TORNEOS` en el script;
+Sudamericana). Como no son una eliminación directa común, el cuadro va armado a mano y en dos partes (`cuadro`):
+la final del torneo, sola (con el campeón), y el camino al lugar en la Sudamericana (la final de la Complementación y el
+repechaje, al que fueron su ganador y el subcampeón). Sin descensos ni tabla anual. Para sumar un torneo, agregarlo a `TORNEOS` en el script;
 los clubes que no jugaron copas (y no están en `data/equipos.js`) van en `CLUBES_NUEVOS`, y su escudo se baja solo.
 
 ### Corregir clubes
