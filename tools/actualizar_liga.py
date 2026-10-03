@@ -32,6 +32,45 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2015: el Campeonato 2015 (febrero-noviembre, una sola tabla de 30, 30 fechas con la de clásicos; campeón Boca).
+    # Después, dos liguillas ("playoffs"): la Pre-Libertadores (del 4º al 7º: semifinales a un partido y final a ida y
+    # vuelta; ganó Racing) y la Pre-Sudamericana (primera ronda a un partido y una segunda a ida y vuelta, con los dos
+    # que perdieron la semifinal de la Pre-Libertadores). Los cupos 2016 no siguen la regla de los otros años (el campeón
+    # de la Sudamericana argentino mejor ubicado, la liguilla...): van fijos ("fijos"), como los publicó la AFA. Bajaron
+    # los dos últimos de los promedios (2012-13, 2013-14, 2014 y 2015): Nueva Chicago y Crucero del Norte
+    "2015-primera": {"nombre": "Campeonato 2015", "anio": 2015, "slug": "primera-2015",
+                     "patron": r"^campeonato-de-1ra-division-2015$|^pre-", "zonas": "unica", "fechas": 30, "pasan": 0,
+                     "campeon_tabla": True, "nombre_playoffs": "Liguillas",
+                     "playoffs": [(r"^pre-libertadores-semifinals$", "Pre-Libertadores: semifinales"),
+                                  (r"^pre-libertadores-final$", "Pre-Libertadores: final"),
+                                  (r"^pre-sudamericana-semifinals$", "Pre-Sudamericana: primera ronda"),
+                                  (r"^pre-sudamericana-finals$", "Pre-Sudamericana: segunda ronda")],
+                     "ida_y_vuelta": True,
+                     "cuadro": {"bloques": [("Liguilla Pre-Libertadores (del 4º al 7º de la tabla)",
+                                             [["Pre-Libertadores: semifinales"], ["Pre-Libertadores: final"]])],
+                                "nota": "El ganador fue a la Copa Libertadores 2016; los otros tres, a la liguilla "
+                                        "Pre-Sudamericana (los que perdieron las semifinales, directo a la segunda ronda; "
+                                        "Independiente, a la Sudamericana 2016). En la Pre-Sudamericana, los 4 ganadores de "
+                                        "la segunda ronda fueron a la Sudamericana 2016: sus partidos, abajo."},
+                     "anual_texto": "La tabla del Campeonato 2015 (no había tabla anual: la temporada era un solo torneo; "
+                                    "las liguillas no suman).",
+                     "promedios": {"2012-13": [("arg.1", r"^torneo-inicial-2012$", 2012), ("arg.1", r"^torneo-inicial-2012$", 2013),
+                                               ("arg.1", r"^torneo-final-2013$", 2013)],
+                                   "2013-14": [("arg.1", r"^torneo-inicial-2013$", 2013), ("arg.1", r"^torneo-final-2014$", 2014)],
+                                   "2014": [("arg.1", r"^torneo-de-primera-division-2014$", 2014)]},
+                     "descensos": "promedios", "descienden": 2,
+                     "cupos": {"anio": 2016, "fijos": True,
+                               "libertadores": [("Campeón de la Copa Libertadores 2015 (lugar aparte)", "river-plate"),
+                                                ("Campeón del Campeonato 2015 (y de la Copa Argentina)", "boca-juniors"),
+                                                ("Subcampeón del Campeonato 2015", "san-lorenzo"),
+                                                ("Subcampeón de la Copa Argentina 2015 (la ganó Boca)", "rosario-central"),
+                                                ("Ganador de la liguilla Pre-Libertadores", "racing-club"),
+                                                ("Mejor argentino en la Copa Sudamericana 2015 (fue finalista)", "huracan")],
+                               "sudamericana": [("Finalista de la liguilla Pre-Libertadores", "independiente"),
+                                                ("Liguilla Pre-Sudamericana", "belgrano"),
+                                                ("Liguilla Pre-Sudamericana", "estudiantes-de-la-plata"),
+                                                ("Liguilla Pre-Sudamericana", "lanus"),
+                                                ("Liguilla Pre-Sudamericana", "banfield")]}},
     # 2016: el Campeonato 2016 (febrero-mayo, de transición: dos zonas de 15, 14 partidos en la zona y 2 interzonales
     # contra el rival clásico; campeón Lanús, que le ganó la final a San Lorenzo). Los segundos de cada zona jugaron por
     # el tercer puesto. ESPN tiene esos dos partidos en la fase regular: van por su id ("playoffs_ids"); las zonas, del
@@ -336,6 +375,8 @@ CLUBES_NUEVOS = {
     "2636": ("olimpo", "Olimpo"),
     "10162": ("temperley", "Temperley"),
     "9747": ("atletico-rafaela", "Atlético de Rafaela"),
+    "236": ("nueva-chicago", "Nueva Chicago"),
+    "11958": ("crucero-del-norte", "Crucero del Norte"),
 }
 
 # Nombres que en la liga se confunden (en data/equipos.js están como en las copas)
@@ -728,13 +769,16 @@ def armar(clave):
                                     "fechas": sorted({p["fecha_n"] for p in ps})})
     if desempates:
         datos["desempate"] = limpio(desempates[0])
-    for k in ("temporada", "descienden", "texto_pasan", "ida_y_vuelta", "gol_visitante", "cuadro_desde", "campeon_tabla",
-              "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro"):
+    for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
+              "campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro"):
         if cfg.get(k):
             datos[k] = cfg[k]
     if cfg.get("titulo_anual"):
         datos["titulo_anual"] = cfg["titulo_anual"]
-    if cfg.get("cupos"):
+    if cfg.get("cupos", {}).get("fijos"):   # (2015: la lista tal cual)
+        datos["cupos"] = {"anio": cfg["cupos"]["anio"], "fijos": True, "campeones": [],
+                          **{k: [{"titulo": ti, "club": c} for ti, c in cfg["cupos"][k]] for k in ("libertadores", "sudamericana")}}
+    elif cfg.get("cupos"):
         cupos = dict(cfg["cupos"])
         # extra: un lugar que no es de la liga (el campeón de la Sudamericana va a la Libertadores por la Conmebol);
         # "tabla": el campeón es el primero de la tabla de ese torneo (la Liga 2023, que se jugó antes en el año);

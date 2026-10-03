@@ -164,6 +164,9 @@
     function cupos() {
       const c = T.cupos;
       if (!c) return null;
+      // cupos fijos (2015: el reparto no seguía la regla), tal cual: [{titulo, club}]
+      if (c.fijos) return { ...c, listas: { libertadores: c.libertadores, sudamericana: c.sudamericana },
+        libertadores: new Set(c.libertadores.map(x => x.club)), sudamericana: new Set(c.sudamericana.map(x => x.club)) };
       const d = descensos();
       // los campeones "extra" (la Sudamericana) van a la Libertadores por la Conmebol: no ocupan un lugar de la liga
       const deLaLiga = c.campeones.filter(x => !x.extra);
@@ -181,6 +184,9 @@
         sudamericana: new Set([...sudTitulos, ...restoSud.slice(0, c.sudamericana - sudTitulos.length)]) };
     }
     function cuposHTML(cu) {
+      if (cu.fijos) return `<div class="cupos">${[["libertadores", "Copa Libertadores"], ["sudamericana", "Copa Sudamericana"]].map(([k, n]) =>
+        `<h4>${n} ${cu.anio}</h4><ul class="cupos-campeones">${cu.listas[k].map(x =>
+          `<li><span class="cupo-titulo">${esc(x.titulo)}</span>${nombreClub(x.club)}</li>`).join("")}</ul>`).join("")}</div>`;
       const titulo = x => `<li><span class="cupo-titulo">${esc(x.titulo)}</span>${x.club ? nombreClub(x.club) : `<span class="vacio">a definir</span>`}${x.extra
         ? ` <span class="vacio">(lugar aparte, no es de la liga)</span>` : ""}</li>`;
       return `<div class="cupos"><h4>Copa Libertadores ${cu.anio}</h4>
@@ -295,11 +301,13 @@
       // Un cuadro armado a mano (T.cuadro: la Copa Maradona 2020), en partes ("bloques"), cada una con sus columnas
       // de rondas. El campeón, marcado en la parte de la final
       if (T.cuadro) {
-        const partido = n => T.playoffs.find(r => r.nombre === n)?.partidos[0] || null;
+        // (cada columna, con los cruces de sus rondas: las series de ida y vuelta, juntas)
+        const cruces = n => series(T.playoffs.find(r => r.nombre === n)?.partidos || []);
         return T.cuadro.bloques.map(([titulo, columnas]) => {
           const final = columnas.flat().includes("Final");
           return `<h4 class="bloque-cuadro">${esc(titulo)}${final && campeon ? ` <span class="campeon-bloque">🏆 Campeón: ${nombreClub(campeon)}</span>` : ""}</h4>
-            ${dibujarCuadro(columnas.map(rondas => rondas.map(partido)), columnas.map(rondas => rondas.join(" / ")))}`;
+            ${dibujarCuadro(columnas.map(rondas => { const ps = rondas.flatMap(cruces); return ps.length ? ps : [null]; }),
+              columnas.map(rondas => rondas.join(" / ")))}`;
         }).join("");
       }
       // (desde la ronda en que el cuadro es parejo: en la Copa de la Superliga 2019, octavos; la primera ronda no,
@@ -419,7 +427,8 @@
     // con cupos pero sin tabla anual, las Superligas: la de la tabla anual es la de las copas y el descenso)
     const hay = v => (v !== "tabla" && v !== "fechas" || T.fechas.length) && (v !== "promedios" || T.promedios)
       && (v !== "anual" || T.anual || T.cupos) && (v !== "playoffs" || T.pasan || T.playoffs.length);
-    const nombreVista = (v, n) => v === "anual" && !T.anual ? "Copas y descenso" : v === "playoffs" && !T.fechas.length ? "Cuadro y partidos" : n;
+    const nombreVista = (v, n) => v === "anual" && !T.anual ? "Copas y descenso" : v === "playoffs" && !T.fechas.length ? "Cuadro y partidos"
+      : v === "playoffs" && T.nombre_playoffs ? T.nombre_playoffs : n;
     const inicial = T.fechas.length ? "tabla" : "playoffs";
     let vista = VISTAS.some(([v]) => v === PARAMS.get("vista") && hay(v)) ? PARAMS.get("vista") : inicial;
     function dibujar(guardar) {
