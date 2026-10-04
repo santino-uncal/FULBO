@@ -33,6 +33,115 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1988: el Campeonato 1987-88 (agosto de 1987 a junio de 1988; campeón Newell's), a dos ruedas (38 fechas), con 2
+    # puntos por partido ganado; va con el año en que terminó ("1988-temporada"). ESPN no lo tiene: va a mano
+    # (tools/a_mano; RSSSF, sin goles ni estadios). A Instituto le descontaron 2 puntos y perdió en el escritorio el
+    # partido con San Lorenzo. Promedios de 1985-86 (36 fechas) y 1986-87 (Wikipedia). Bajó Banfield (el peor promedio)
+    # y, empatados en el promedio, Unión y Racing de Córdoba jugaron un desempate: bajó Unión. El segundo lugar en la
+    # Libertadores 1988 lo jugaron en una Liguilla Pre-Libertadores (RSSSF, sin goles; estadios de Wikipedia; ganó San
+    # Lorenzo); los demás jugaron la Liguilla Clasificación, que daba un lugar en la Pre-Libertadores siguiente (Platense)
+    "1988-temporada": {"nombre": "Campeonato 1987-88", "anio": 1988, "liga": "a_mano", "slug": "1988-temporada",
+                       "zonas": "unica", "fechas": 38, "pasan": 0, "puntos_victoria": 2,
+                       "campeon_tabla": True, "temporada": "1987-88",
+                       "anual_texto": "La tabla del Campeonato 1987-88 (las 38 fechas). Cada partido ganado valía 2 puntos.",
+                       "goleadores_nota": "RSSSF no tiene los goles del campeonato ni de las liguillas. El goleador del "
+                                          "campeonato fue José Luis Rodríguez (Deportivo Español), con 18 goles.",
+                       "descuentos": {"instituto": 2},
+                       "descuentos_texto": "A Instituto se le descontaron 2 puntos.",
+                       "nombre_playoffs": "Liguillas",
+                       "playoffs": [(r"^$^", n) for n in (
+                           "Pre-Libertadores: cuartos de final", "Pre-Libertadores: semifinales", "Pre-Libertadores: final",
+                           "Clasificación: octavos de final", "Clasificación: cuartos de final", "Clasificación: semifinales",
+                           "Clasificación: final", "Clasificación: desempate")],
+                       # (pasa: el que pasó con el global igualado)
+                       "playoffs_a_mano": {
+                           "Pre-Libertadores: cuartos de final": [
+                               {"hora_utc": "1988-06-08T19:00Z", "fecha": "1988-06-08", "local": "argentinos-juniors", "visitante": "racing-club", "gl": 1, "gv": 1, "estadio": "Cancha de Ferro Carril Oeste"},
+                               {"hora_utc": "1988-06-08T19:00Z", "fecha": "1988-06-08", "local": "dma", "visitante": "san-lorenzo", "gl": 1, "gv": 1, "estadio": "Cancha de Huracán (Corrientes)"},
+                               {"hora_utc": "1988-06-08T19:00Z", "fecha": "1988-06-08", "local": "rosario-central", "visitante": "river-plate", "gl": 0, "gv": 0, "estadio": "El Gigante de Arroyito"},
+                               {"hora_utc": "1988-06-08T19:00Z", "fecha": "1988-06-08", "local": "velez-sarsfield", "visitante": "gimnasia-y-esgrima", "gl": 3, "gv": 0, "estadio": "José Amalfitani"},
+                               {"hora_utc": "1988-06-11T19:00Z", "fecha": "1988-06-11", "local": "racing-club", "visitante": "argentinos-juniors", "gl": 3, "gv": 1, "estadio": "El Cilindro"},
+                               {"hora_utc": "1988-06-12T19:00Z", "fecha": "1988-06-12", "local": "gimnasia-y-esgrima", "visitante": "velez-sarsfield", "gl": 1, "gv": 1, "estadio": "Del Bosque"},
+                               {"hora_utc": "1988-06-12T19:00Z", "fecha": "1988-06-12", "local": "river-plate", "visitante": "rosario-central", "gl": 1, "gv": 0, "estadio": "Monumental"},
+                               {"hora_utc": "1988-06-12T19:00Z", "fecha": "1988-06-12", "local": "san-lorenzo", "visitante": "dma", "gl": 1, "gv": 1, "estadio": "Cancha de Huracán", "pasa": "san-lorenzo", "nota": "Global 2-2: pasó San Lorenzo, el subcampeón, por ser de Primera (Mandiyú era el campeón del Nacional B)"},
+                           ],
+                           "Pre-Libertadores: semifinales": [
+                               {"hora_utc": "1988-06-15T19:00Z", "fecha": "1988-06-15", "local": "river-plate", "visitante": "racing-club", "gl": 3, "gv": 3, "estadio": "Monumental"},
+                               {"hora_utc": "1988-06-15T19:00Z", "fecha": "1988-06-15", "local": "velez-sarsfield", "visitante": "san-lorenzo", "gl": 0, "gv": 1, "estadio": "José Amalfitani"},
+                               {"hora_utc": "1988-06-19T19:00Z", "fecha": "1988-06-19", "local": "san-lorenzo", "visitante": "velez-sarsfield", "gl": 0, "gv": 0, "estadio": "Cancha de Ferro Carril Oeste"},
+                               {"hora_utc": "1988-06-20T19:00Z", "fecha": "1988-06-20", "local": "racing-club", "visitante": "river-plate", "gl": 1, "gv": 0, "estadio": "El Cilindro"},
+                           ],
+                           "Pre-Libertadores: final": [
+                               {"hora_utc": "1988-06-23T19:00Z", "fecha": "1988-06-23", "local": "racing-club", "visitante": "san-lorenzo", "gl": 0, "gv": 2, "estadio": "El Cilindro"},
+                               {"hora_utc": "1988-06-26T19:00Z", "fecha": "1988-06-26", "local": "san-lorenzo", "visitante": "racing-club", "gl": 0, "gv": 1, "estadio": "Cancha de Vélez Sarsfield"},
+                           ],
+                           "Clasificación: octavos de final": [
+                               {"hora_utc": "1988-06-12T19:00Z", "fecha": "1988-06-12", "local": "boca-juniors", "visitante": "instituto", "gl": 4, "gv": 2, "estadio": "La Bombonera"},
+                               {"hora_utc": "1988-06-12T19:00Z", "fecha": "1988-06-12", "local": "deportivo-armenio", "visitante": "ferro-carril-oeste", "gl": 0, "gv": 0, "estadio": "Cancha de Platense"},
+                               {"hora_utc": "1988-06-12T19:00Z", "fecha": "1988-06-12", "local": "independiente", "visitante": "estudiantes-de-la-plata", "gl": 1, "gv": 2, "estadio": "La Doble Visera"},
+                               {"hora_utc": "1988-06-12T19:00Z", "fecha": "1988-06-12", "local": "racing-cordoba", "visitante": "platense", "gl": 1, "gv": 1, "estadio": "Miguel Sancho"},
+                               {"hora_utc": "1988-06-12T19:00Z", "fecha": "1988-06-12", "local": "talleres", "visitante": "deportivo-espanol", "gl": 1, "gv": 0, "estadio": "Estadio Córdoba"},
+                               {"hora_utc": "1988-06-15T19:00Z", "fecha": "1988-06-15", "local": "deportivo-espanol", "visitante": "talleres", "gl": 2, "gv": 0, "estadio": "Cancha de Huracán"},
+                               {"hora_utc": "1988-06-15T19:00Z", "fecha": "1988-06-15", "local": "estudiantes-de-la-plata", "visitante": "independiente", "gl": 1, "gv": 2, "estadio": "Jorge Luis Hirschi", "pasa": "independiente", "nota": "Global 3-3: pasó Independiente por haber terminado mejor en el campeonato (11.º; Estudiantes, 16.º)"},
+                               {"hora_utc": "1988-06-15T19:00Z", "fecha": "1988-06-15", "local": "ferro-carril-oeste", "visitante": "deportivo-armenio", "gl": 1, "gv": 1, "estadio": "Arquitecto Ricardo Etcheverri", "pasa": "deportivo-armenio", "nota": "Global 1-1: pasó Deportivo Armenio por haber terminado mejor en el campeonato (13.º; Ferro, 14.º)"},
+                               {"hora_utc": "1988-06-15T19:00Z", "fecha": "1988-06-15", "local": "instituto", "visitante": "boca-juniors", "gl": 2, "gv": 3, "estadio": "Estadio Córdoba"},
+                               {"hora_utc": "1988-06-15T19:00Z", "fecha": "1988-06-15", "local": "platense", "visitante": "racing-cordoba", "gl": 2, "gv": 0, "estadio": "Ciudad de Vicente López"},
+                           ],
+                           "Clasificación: cuartos de final": [
+                               {"hora_utc": "1988-06-19T19:00Z", "fecha": "1988-06-19", "local": "boca-juniors", "visitante": "independiente", "gl": 2, "gv": 0, "estadio": "La Bombonera"},
+                               {"hora_utc": "1988-06-19T19:00Z", "fecha": "1988-06-19", "local": "platense", "visitante": "deportivo-armenio", "gl": 1, "gv": 1, "estadio": "Ciudad de Vicente López"},
+                               {"hora_utc": "1988-06-22T19:00Z", "fecha": "1988-06-22", "local": "independiente", "visitante": "boca-juniors", "gl": 2, "gv": 3, "estadio": "La Doble Visera"},
+                               {"hora_utc": "1988-06-22T19:00Z", "fecha": "1988-06-22", "local": "deportivo-armenio", "visitante": "platense", "gl": 0, "gv": 0, "estadio": "Cancha de Platense", "pasa": "platense", "nota": "Global 1-1: pasó Platense por haber terminado mejor en el campeonato (10.º; Deportivo Armenio, 13.º)"},
+                           ],
+                           "Clasificación: semifinales": [
+                               {"hora_utc": "1988-06-26T19:00Z", "fecha": "1988-06-26", "local": "deportivo-espanol", "visitante": "boca-juniors", "gl": 0, "gv": 4, "estadio": "España"},
+                               {"hora_utc": "1988-06-29T19:00Z", "fecha": "1988-06-29", "local": "boca-juniors", "visitante": "deportivo-espanol", "gl": 1, "gv": 1, "estadio": "La Bombonera"},
+                           ],
+                           "Clasificación: final": [
+                               {"hora_utc": "1988-07-03T19:00Z", "fecha": "1988-07-03", "local": "boca-juniors", "visitante": "platense", "gl": 0, "gv": 0, "estadio": "La Bombonera"},
+                               {"hora_utc": "1988-07-07T19:00Z", "fecha": "1988-07-07", "local": "platense", "visitante": "boca-juniors", "gl": 1, "gv": 1, "estadio": "Estadio Ciudad de Vicente López"},
+                           ],
+                           "Clasificación: desempate": [
+                               {"hora_utc": "1988-07-10T19:00Z", "fecha": "1988-07-10", "local": "boca-juniors", "visitante": "platense", "gl": 1, "gv": 2, "estadio": "Cancha de Ferro Carril Oeste"},
+                           ],
+                       },
+                       "ida_y_vuelta": True,
+                       "cuadro": {"bloques": [("Liguilla Pre-Libertadores: por el segundo lugar en la Libertadores 1988. La "
+                                               "jugaron los que siguieron a Newell's en la tabla (del 2.º al 8.º) y "
+                                               "Deportivo Mandiyú (campeón del Nacional B)",
+                                               [["Pre-Libertadores: cuartos de final"], ["Pre-Libertadores: semifinales"],
+                                                ["Pre-Libertadores: final"]]),
+                                              ("Liguilla Clasificación: los demás (menos los que bajaron), por un lugar en "
+                                               "la Liguilla Pre-Libertadores siguiente",
+                                               [["Clasificación: octavos de final"], ["Clasificación: cuartos de final"],
+                                                ["Clasificación: semifinales"], ["Clasificación: final"],
+                                                ["Clasificación: desempate"]])],
+                                  "nota": "Con el global igualado pasaba el que había hecho más diferencia de gol y, si "
+                                          "no, el que había terminado mejor en el campeonato. De los partidos hay solo el "
+                                          "resultado."},
+                       # (con 2 puntos por partido ganado; 1985-86, de 36 fechas)
+                       "promedios": {"1985-86": {"newell-s-old-boys": [46, 36], "river-plate": [56, 36], "san-lorenzo": [40, 36],
+                                                 "boca-juniors": [41, 36], "deportivo-espanol": [46, 36], "independiente": [36, 36],
+                                                 "ferro-carril-oeste": [40, 36], "gimnasia-y-esgrima": [36, 36],
+                                                 "velez-sarsfield": [34, 36], "argentinos-juniors": [44, 36], "instituto": [35, 36],
+                                                 "talleres": [37, 36], "estudiantes-de-la-plata": [27, 36], "platense": [27, 36],
+                                                 "racing-cordoba": [26, 36], "union": [31, 36]},
+                                     "1986-87": {"newell-s-old-boys": [48, 38], "river-plate": [39, 38], "racing-club": [44, 38],
+                                                 "san-lorenzo": [44, 38], "rosario-central": [49, 38], "boca-juniors": [46, 38],
+                                                 "deportivo-espanol": [36, 38], "independiente": [47, 38],
+                                                 "ferro-carril-oeste": [44, 38], "gimnasia-y-esgrima": [37, 38],
+                                                 "velez-sarsfield": [41, 38], "argentinos-juniors": [28, 38], "instituto": [41, 38],
+                                                 "talleres": [38, 38], "estudiantes-de-la-plata": [37, 38], "platense": [27, 38],
+                                                 "racing-cordoba": [33, 38], "union": [31, 38]}},
+                       "descensos": "promedios", "descienden": 2,
+                       "desempate_a_mano": {"fecha": "1988-06-08", "local": "union", "visitante": "racing-cordoba",
+                                            "gl": 1, "gv": 1, "alargue": True, "pen_l": 4, "pen_v": 5, "estadio": "La Bombonera"},
+                       "desempate_texto": "Unión y Racing de Córdoba terminaron empatados en los promedios, arriba de "
+                                          "Banfield (que bajó por ser el último): lo definieron en un partido, en cancha de "
+                                          "Boca, y bajó Unión (perdió por penales).",
+                       "cupos": {"anio": 1988, "fijos": True,
+                                 "libertadores": [("Campeón del Campeonato 1987-88", "newell-s-old-boys"),
+                                                  ("Ganador de la Liguilla Pre-Libertadores", "san-lorenzo")]}},
     # 1989: el Campeonato 1988-89 (septiembre de 1988 a mayo de 1989; campeón Independiente), a dos ruedas (38 fechas),
     # con una regla propia: 3 puntos por partido ganado, 1 por el empate y, después de cada empate, penales que le daban
     # un punto más al ganador ("punto_penales"); va con el año en que terminó ("1989-temporada"). ESPN no lo tiene: va
