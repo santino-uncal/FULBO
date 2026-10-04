@@ -32,6 +32,57 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2007: dos torneos de 20 equipos a una rueda, sin playoffs. El Torneo Clausura 2007 (febrero-junio; campeón San
+    # Lorenzo) cerraba la temporada 2006-07: su "tabla anual" es la de la temporada (el Apertura 2006 y el Clausura 2007).
+    # Bajaron los dos últimos de los promedios (2004-05, 2005-06 y 2006-07) y los dos de arriba jugaron la Promoción
+    # contra equipos de la B Nacional y perdieron: Godoy Cruz con Huracán y Nueva Chicago con Tigre (la vuelta se
+    # suspendió al final por incidentes; quedó el resultado). Con la temporada quedaron definidos los cupos de la
+    # Sudamericana 2007 (Boca y River, invitados) y de la Libertadores 2008, fijos
+    "2007-clausura": {"nombre": "Torneo Clausura 2007", "anio": 2007, "slug": "clausura-2007",
+                      "patron": r"^torneo-clausura-2007(---promocion)?$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True, "temporada": "2006-07", "nombre_anual": "Temporada y copas",
+                      "nombre_playoffs": "Promoción", "playoffs": [(r"---promocion$", "Promoción")],
+                      "ida_y_vuelta": True, "ventaja": ["godoy-cruz", "nueva-chicago"],
+                      "cuadro": {"bloques": [("Promoción: los equipos de Primera contra los de la B Nacional",
+                                              [["Promoción"]])],
+                                 "nota": "Con el global igualado se quedaba en Primera el equipo de Primera. Los dos "
+                                         "perdieron y bajaron: subieron Huracán y Tigre. La vuelta en Mataderos se "
+                                         "suspendió al final por incidentes y quedó el resultado."},
+                      "anual": [("arg.1", r"^torneo-apertura-2006$", 2006), ("arg.1", r"^torneo-apertura-2006$", 2007)],
+                      "anual_texto": "La tabla de la temporada 2006-07: suma el Torneo Apertura 2006 (sin la final por "
+                                     "el desempate) y el Torneo Clausura 2007.",
+                      "promedios": {"2004-05": [("arg.1", r"^torneo-apertura-2004$", 2004),
+                                                ("arg.1", r"^torneo-apertura-2004$", 2005),
+                                                ("arg.1", r"^torneo-clausura-2005$", 2005)],
+                                    "2005-06": [("arg.1", r"^torneo-apertura-2005$", 2005),
+                                                ("arg.1", r"^torneo-apertura-2005$", 2006),
+                                                ("arg.1", r"^torneo-clausura-2006$", 2006)]},
+                      "descensos": "promedios", "descienden": 2, "promocion": 2,
+                      "cupos": {"anio": 2008, "anio_sudamericana": 2007, "fijos": True,
+                                "libertadores": [("Campeón de la Copa Libertadores 2007 (lugar aparte)",
+                                                  "boca-juniors"),
+                                                 ("Campeón del Torneo Apertura 2006", "estudiantes-de-la-plata"),
+                                                 ("Campeón del Torneo Clausura 2007", "san-lorenzo"),
+                                                 ("Tabla de la temporada 2006-07", "river-plate"),
+                                                 ("Tabla de la temporada 2006-07", "arsenal-de-sarandi"),
+                                                 ("Tabla de la temporada 2006-07", "lanus")],
+                                "sudamericana": [("Tabla de la temporada 2006-07", "estudiantes-de-la-plata"),
+                                                 ("Tabla de la temporada 2006-07", "san-lorenzo"),
+                                                 ("Tabla de la temporada 2006-07", "arsenal-de-sarandi"),
+                                                 ("Tabla de la temporada 2006-07", "lanus"),
+                                                 ("Invitado por la Conmebol", "boca-juniors"),
+                                                 ("Invitado por la Conmebol", "river-plate")]}},
+    # El Torneo Apertura 2007 (agosto-diciembre; campeón Lanús) abría la temporada 2007-08. Sin cupos propios: los de
+    # la Libertadores 2009 salieron del promedio de tres torneos (ver el Apertura 2008)
+    "2007-apertura": {"nombre": "Torneo Apertura 2007", "anio": 2007, "anios": [2007, 2008], "slug": "apertura-2007",
+                      "patron": r"^torneo-apertura-2007$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True,
+                      "anual": [("arg.1", r"^torneo-clausura-2007$")],
+                      "anual_texto": "La tabla del año 2007: suma el Torneo Clausura 2007 y el Torneo Apertura 2007. No "
+                                     "daba lugares en las copas: los de la Libertadores 2009 salieron del promedio del "
+                                     "Apertura 2007, el Clausura 2008 y el Apertura 2008.",
+                      "sin_descensos": "En el Torneo Apertura 2007 no hubo descensos: se definieron al terminar la "
+                                       "temporada 2007-08, con el Torneo Clausura 2008."},
     # 2008: dos torneos de 20 equipos a una rueda. El Torneo Clausura 2008 (febrero-junio; campeón River) cerraba la
     # temporada 2007-08: su "tabla anual" es la de la temporada (el Apertura 2007 y el Clausura 2008). Bajaron los dos
     # últimos de los promedios (2005-06, 2006-07 y 2007-08) y los dos de arriba jugaron la Promoción contra equipos de la
@@ -732,7 +783,11 @@ NO_SUMAN = {"448823", "448810"}
 # partido de ESPN: (goles del local, del visitante, nota que se muestra en el partido)}. Colón-Atlético de Rafaela, Inicial 2013: Colón no se presentó y se
 # le dio ganado 1-0 a Rafaela (Diario de Cuyo); cuenta para los promedios de 2016
 RESULTADOS_A_MANO = {"382317": (0, 1, "No se jugó: Colón no se presentó y la AFA le dio el partido ganado 1-0 a "
-                                       "Atlético de Rafaela")}
+                                       "Atlético de Rafaela"),
+                     # Almagro 3-2 Boca, Clausura 2005: se suspendió a los 18 del segundo tiempo por incidentes y la AFA
+                     # les dio el partido perdido a los dos (a Boca 3-2, a Almagro 0-2); cuenta para los promedios de 2007.
+                     # Acá queda 3-2 (Almagro no está en ningún promedio cargado)
+                     "186468": (3, 2, "Suspendido por incidentes: la AFA les dio el partido perdido a los dos")}
 # Puntos descontados por sanciones: {(año, id de ESPN): puntos}. Se restan en la tabla anual (o de la temporada) de ese
 # año, no en la del torneo. Colón, temporada 2013-14: 6 puntos que le quitó la FIFA por una deuda con el Atlante
 # (Infobae); cuenta para los promedios y lo mandó al desempate con Rafaela
@@ -1168,7 +1223,10 @@ def armar(clave):
     if cfg.get("titulo_anual"):
         datos["titulo_anual"] = cfg["titulo_anual"]
     if cfg.get("cupos", {}).get("fijos"):   # (2015: la lista tal cual)
+        # (anio_sudamericana: si la Sudamericana es de otro año que la Libertadores; 2007: la Sudamericana 2007 y la
+        # Libertadores 2008)
         datos["cupos"] = {"anio": cfg["cupos"]["anio"], "fijos": True, "campeones": [],
+                          **{k: cfg["cupos"][k] for k in ("anio_sudamericana",) if k in cfg["cupos"]},
                           **{k: [{"titulo": ti, "club": c} for ti, c in cfg["cupos"][k]]
                              for k in ("libertadores", "sudamericana") if k in cfg["cupos"]}}
     elif cfg.get("cupos"):

@@ -203,7 +203,7 @@
     }
     function cuposHTML(cu) {
       if (cu.fijos) return `<div class="cupos">${[["libertadores", "Copa Libertadores"], ["sudamericana", "Copa Sudamericana"]].filter(([k]) => cu.listas[k].length).map(([k, n]) =>
-        `<h4>${n} ${cu.anio}</h4><ul class="cupos-campeones">${cu.listas[k].map(x =>
+        `<h4>${n} ${cu["anio_" + k] || cu.anio}</h4><ul class="cupos-campeones">${cu.listas[k].map(x =>
           `<li><span class="cupo-titulo">${esc(x.titulo)}</span>${nombreClub(x.club)}</li>`).join("")}</ul>`).join("")}</div>`;
       const titulo = x => `<li><span class="cupo-titulo">${esc(x.titulo)}</span>${x.club ? nombreClub(x.club) : `<span class="vacio">a definir</span>`}${x.extra
         ? ` <span class="vacio">(lugar aparte, no es de la liga)</span>` : ""}</li>`;
@@ -241,7 +241,7 @@
         <div class="grupo tabla-larga"><table><thead><tr><th>#</th><th class="eq">Equipo</th><th>Pts</th><th>J</th><th class="gol">Gol</th><th>+/-</th>
           <th class="opc">G</th><th class="opc">E</th><th class="opc">P</th></tr></thead><tbody>${cuerpo}</tbody></table></div>
         ${cu ? `<p class="leyenda">${cu.libertadores.size ? `<span><i class="libertadores"></i>Copa Libertadores ${cu.anio}${hoy}</span>` : ""}
-          ${cu.sudamericana.size ? `<span><i class="sudamericana"></i>Copa Sudamericana ${cu.anio}${hoy}</span>` : ""}<span>🏆 Campeón del año</span></p>` : ""}
+          ${cu.sudamericana.size ? `<span><i class="sudamericana"></i>Copa Sudamericana ${cu.anio_sudamericana || cu.anio}${hoy}</span>` : ""}<span>🏆 Campeón del año</span></p>` : ""}
         ${T.descensos || T.descensos_anulados ? avisoDescenso() : ""}
         ${T.sin_descensos ? `<p class="nota-edicion">${esc(T.sin_descensos)}</p>` : ""}
         ${T.desempate ? `<h3>Desempate${T.desempate_texto ? "" : " por el descenso"}</h3><p class="vacio">${T.desempate_texto ? esc(T.desempate_texto)
