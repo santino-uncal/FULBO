@@ -33,9 +33,76 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1997: dos torneos de 20 equipos a una rueda; ESPN no los tiene: van a mano, como 1998 a 2002 (tools/a_mano;
+    # RSSSF, sin goles, y Wikipedia, que del Clausura casi no tiene estadios ni días). El Torneo Clausura 1997
+    # (febrero-agosto, con un mes parado por una huelga de futbolistas; campeón River) cerraba la temporada 1996-97: su
+    # "tabla anual" es la de la temporada, con la tabla del Apertura 1996 (RSSSF). Para los promedios, cada partido
+    # ganado valía todavía 2 puntos ("promedios_victoria"; 1994-95 y 1995-96, de las tablas de RSSSF: la de Wikipedia
+    # tiene errores). Bajaron directo los dos últimos (Banfield y Huracán Corrientes). River ganó los dos torneos; el
+    # segundo lugar en la Libertadores 1998 lo jugaron en diciembre los subcampeones (Colón-Independiente, en Lanús). A
+    # la Copa Conmebol 1997, Lanús (el campeón) y el mejor de la temporada que no iba a otra copa (Wikipedia)
+    "1997-clausura": {"nombre": "Torneo Clausura 1997", "anio": 1997, "liga": "a_mano", "slug": "1997-clausura",
+                      "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True, "temporada": "1996-97", "nombre_anual": "Temporada y copas",
+                      "goleadores_nota": "RSSSF no tiene los goles de este torneo. Según Wikipedia, el goleador fue Sergio "
+                                         "Martínez (Boca), con 15 goles.",
+                      "promedios_victoria": 2,
+                      "desempate_a_mano": {"fecha": "1997-12-03", "local": "colon", "visitante": "independiente",
+                                           "gl": 1, "gv": 0, "estadio": "Ciudad de Lanús",
+                                           "goles": [{"jugador": "Marcelo Saralegui", "equipo": "local"}]},
+                      "desempate_texto": "Independiente (subcampeón del Apertura 1996) y Colón (subcampeón del Clausura "
+                                         "1997) jugaron un partido, en diciembre y en cancha neutral, por el segundo lugar "
+                                         "de la Argentina en la Copa Libertadores 1998 (el primero era de River, campeón "
+                                         "de los dos torneos).",
+                      # la tabla del Apertura 1996 (RSSSF): [pts, pj, g, e, p, gf, gc]
+                      "anual": {"river-plate": [46, 19, 15, 1, 3, 52, 22], "independiente": [37, 19, 11, 4, 4, 34, 22],
+                                "lanus": [37, 19, 10, 7, 2, 23, 12], "racing-club": [32, 19, 9, 5, 5, 31, 24],
+                                "rosario-central": [31, 19, 8, 7, 4, 35, 28], "gimnasia-y-esgrima": [27, 19, 7, 6, 6, 21, 20],
+                                "san-lorenzo": [27, 19, 8, 3, 8, 24, 24], "colon": [26, 19, 6, 8, 5, 26, 24],
+                                "newell-s-old-boys": [26, 19, 7, 5, 7, 24, 26], "boca-juniors": [25, 19, 7, 4, 8, 36, 33],
+                                "estudiantes-de-la-plata": [25, 19, 7, 4, 8, 27, 28], "gimnasia-jujuy": [25, 19, 6, 7, 6, 18, 19],
+                                "velez-sarsfield": [23, 19, 6, 5, 8, 29, 33], "ferro-carril-oeste": [22, 19, 5, 7, 7, 32, 34],
+                                "platense": [21, 19, 5, 6, 8, 25, 30], "union": [20, 19, 5, 5, 9, 24, 27],
+                                "huracan-corrientes": [19, 19, 4, 7, 8, 31, 40], "deportivo-espanol": [16, 19, 2, 10, 7, 18, 25],
+                                "huracan": [16, 19, 3, 7, 9, 21, 36], "banfield": [13, 19, 3, 4, 12, 14, 38]},
+                      "anual_texto": "La tabla de la temporada 1996-97: suma el Torneo Apertura 1996 (de RSSSF: no está "
+                                     "cargado partido por partido) y el Torneo Clausura 1997.",
+                      # (con 2 puntos por partido ganado)
+                      "promedios": {"1994-95": {"san-lorenzo": [56, 38], "river-plate": [49, 38], "velez-sarsfield": [52, 38],
+                                                "boca-juniors": [41, 38], "independiente": [37, 38],
+                                                "gimnasia-y-esgrima": [49, 38], "lanus": [39, 38], "racing-club": [39, 38],
+                                                "rosario-central": [39, 38], "huracan": [29, 38], "banfield": [36, 38],
+                                                "deportivo-espanol": [36, 38], "ferro-carril-oeste": [32, 38],
+                                                "platense": [35, 38], "newell-s-old-boys": [38, 38], "gimnasia-jujuy": [32, 38]},
+                                    "1995-96": {"velez-sarsfield": [57, 38], "lanus": [49, 38], "boca-juniors": [49, 38],
+                                                "racing-club": [46, 38], "huracan": [45, 38], "gimnasia-y-esgrima": [43, 38],
+                                                "estudiantes-de-la-plata": [44, 38], "rosario-central": [41, 38],
+                                                "river-plate": [37, 38], "gimnasia-jujuy": [35, 38], "san-lorenzo": [35, 38],
+                                                "colon": [35, 38], "platense": [33, 38], "independiente": [35, 38],
+                                                "ferro-carril-oeste": [34, 38], "deportivo-espanol": [33, 38],
+                                                "newell-s-old-boys": [33, 38], "banfield": [25, 38]}},
+                      "descensos": "promedios", "descienden": 2,
+                      "cupos": {"anio": 1998, "anio_sudamericana": 1997, "nombre_sudamericana": "Copa Conmebol", "fijos": True,
+                                "libertadores": [("Campeón del Torneo Apertura 1996 y del Torneo Clausura 1997",
+                                                  "river-plate"),
+                                                 ("Ganador del partido entre los subcampeones", "colon")],
+                                "sudamericana": [("Campeón de la Copa Conmebol 1996", "lanus"),
+                                                 ("Tabla de la temporada 1996-97", "colon")],
+                                "nota": "A la Supercopa 1997 fueron invitados River, Boca, Independiente, Racing, Vélez y "
+                                        "Estudiantes; por eso no podían jugar la Copa Conmebol."}},
+    # El Torneo Apertura 1997 (agosto-diciembre; campeón River) abría la temporada 1997-98
+    "1997-apertura": {"nombre": "Torneo Apertura 1997", "anio": 1997, "liga": "a_mano", "slug": "1997-apertura",
+                      "zonas": "unica", "fechas": 19, "pasan": 0, "campeon_tabla": True,
+                      "goleadores_nota": "RSSSF no tiene los goles de este torneo. Según Wikipedia, el goleador fue Rubén "
+                                         "da Silva (Rosario Central), con 15 goles.",
+                      "anual": [("a_mano", r"^1997-clausura$")],
+                      "anual_texto": "La tabla del año 1997: suma el Torneo Clausura 1997 y el Torneo Apertura 1997. No "
+                                     "daba lugares en las copas: salían de la temporada.",
+                      "sin_descensos": "En el Torneo Apertura 1997 no hubo descensos: se definieron al terminar la "
+                                       "temporada 1997-98, con el Torneo Clausura 1998."},
     # 1998: dos torneos de 20 equipos a una rueda; ESPN no los tiene: van a mano, como 1999 a 2002 (tools/a_mano;
     # RSSSF, sin goles, y Wikipedia). El Torneo Clausura 1998 (febrero-junio; campeón Vélez) cerraba la temporada
-    # 1997-98: su "tabla anual" es la de la temporada, con la tabla del Apertura 1997 (RSSSF y Wikipedia coinciden).
+    # 1997-98: su "tabla anual" es la de la temporada, con el Apertura 1997 (cargado a mano).
     # Bajaron directo los dos últimos de los promedios (Deportivo Español y Gimnasia y Tiro; los puntos de 1995-96 y
     # 1996-97, de Wikipedia; San Lorenzo 1996-97, 57, de las tablas de RSSSF: Wikipedia tiene 56 en un lado y 57 en
     # otro). A la Libertadores 1999 fueron los dos campeones; a la Copa Conmebol 1998, los dos mejores de la temporada
@@ -45,19 +112,8 @@ TORNEOS = {
                       "campeon_tabla": True, "temporada": "1997-98", "nombre_anual": "Temporada y copas",
                       "goleadores_nota": "RSSSF no tiene los goles de este torneo. Según Wikipedia, el goleador fue "
                                          "Roberto Sosa (Gimnasia), con 17 goles.",
-                      # la tabla del Apertura 1997 (RSSSF y Wikipedia): [pts, pj, g, e, p, gf, gc]
-                      "anual": {"river-plate": [45, 19, 14, 3, 2, 43, 17], "boca-juniors": [44, 19, 13, 5, 1, 35, 12],
-                                "rosario-central": [35, 19, 10, 5, 4, 35, 20], "velez-sarsfield": [32, 19, 8, 8, 3, 42, 23],
-                                "san-lorenzo": [32, 19, 9, 5, 5, 42, 32], "gimnasia-y-esgrima": [32, 19, 9, 5, 5, 33, 27],
-                                "independiente": [30, 19, 9, 3, 7, 29, 31], "argentinos-juniors": [29, 19, 9, 2, 8, 24, 25],
-                                "platense": [28, 19, 7, 7, 5, 25, 26], "estudiantes-de-la-plata": [26, 19, 7, 5, 7, 25, 24],
-                                "lanus": [25, 19, 7, 4, 8, 29, 30], "ferro-carril-oeste": [24, 19, 6, 6, 7, 33, 32],
-                                "racing-club": [21, 19, 5, 6, 8, 24, 28], "gimnasia-jujuy": [20, 19, 5, 5, 9, 25, 28],
-                                "colon": [20, 19, 5, 5, 9, 23, 33], "union": [20, 19, 5, 5, 9, 25, 43],
-                                "deportivo-espanol": [17, 19, 4, 5, 10, 26, 43], "newell-s-old-boys": [14, 19, 3, 5, 11, 22, 38],
-                                "huracan": [12, 19, 3, 3, 13, 20, 32], "gimnasia-y-tiro": [12, 19, 2, 6, 11, 14, 30]},
-                      "anual_texto": "La tabla de la temporada 1997-98: suma el Torneo Apertura 1997 (de RSSSF y Wikipedia: "
-                                     "no está cargado partido por partido) y el Torneo Clausura 1998.",
+                      "anual": [("a_mano", r"^1997-apertura$", 1997)],
+                      "anual_texto": "La tabla de la temporada 1997-98: suma el Torneo Apertura 1997 y el Torneo Clausura 1998.",
                       "promedios": {"1995-96": {"velez-sarsfield": [81, 38], "river-plate": [50, 38], "lanus": [69, 38],
                                                 "boca-juniors": [68, 38], "gimnasia-y-esgrima": [60, 38],
                                                 "independiente": [44, 38], "san-lorenzo": [49, 38], "racing-club": [64, 38],
@@ -1494,7 +1550,8 @@ CLUBES_NUEVOS = {
     "lan": ("los-andes", "Los Andes"),   # (no está en ESPN: 2000-01)
     "fco": ("ferro-carril-oeste", "Ferro Carril Oeste"),
     "des": ("deportivo-espanol", "Deportivo Español"),   # (no está en ESPN: 1997-98)
-    "gyt": ("gimnasia-y-tiro", "Gimnasia y Tiro (Salta)"),   # (no está en ESPN: 1997-98)   # (no tiene id de ESPN: 1999-00)
+    "gyt": ("gimnasia-y-tiro", "Gimnasia y Tiro (Salta)"),   # (no está en ESPN: 1997-98)
+    "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
 }
 
@@ -1613,10 +1670,15 @@ def sumar(anio, fuentes):
                 ga, gb = int(a["score"]), int(b["score"])
                 if e.get("id") in PIERDEN_LOS_DOS and a.get("homeAway") == "home":
                     ga, gb = PIERDEN_LOS_DOS[e["id"]]
-                if (e.get("_a_mano") or {}).get("para_local") and a.get("homeAway") == "home":   # (Colón-Unión 1999)
-                    ga, gb = e["_a_mano"]["para_local"]
+                # (partidos a mano con otro resultado para un equipo: Colón-Unión 1999; con un tercer valor, el
+                # resultado que cuenta: San Lorenzo-Huracán 1997, perdido 0-0 por los dos)
+                otro = (e.get("_a_mano") or {}).get("para_local" if a.get("homeAway") == "home" else "para_visitante")
+                if otro:
+                    ga, gb = otro[:2]
                 f = t.setdefault(a["team"]["id"], [0] * 7)
                 r = 2 if ga > gb else 3 if ga == gb else 4
+                if otro and len(otro) > 2:
+                    r = {"V": 2, "E": 3, "D": 4}[otro[2]]
                 f[0] += {2: 3, 3: 1, 4: 0}[r]
                 f[1] += 1
                 f[r] += 1
@@ -1868,7 +1930,7 @@ def armar(clave):
             m = e["_a_mano"]
             del p["espn"]
             p.update({"fecha": m["fecha"], "hora": m.get("hora"), "fecha_n": e["_fecha_n"], "nota": m.get("nota"),
-                      "para_local": m.get("para_local"),
+                      "para_local": m.get("para_local"), "para_visitante": m.get("para_visitante"),
                       "goles": [{**g, "jid": f"{p[g['equipo']]}:{g['jugador']}"} for g in m.get("goles", [])]})
         fase = es_playoff(e)
         if cfg.get("desempate") and re.search(cfg["desempate"], e["season"]["slug"]):
@@ -1959,7 +2021,7 @@ def armar(clave):
         datos["desempate"] = limpio(desempates[0])
     for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "goleadores_nota", "promocion", "ventaja", "triangular", "texto_triangular", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
               "campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro", "descuentos",
-              "descuentos_texto"):
+              "descuentos_texto", "promedios_victoria"):
         if cfg.get(k):
             datos[k] = cfg[k]
     if cfg.get("titulo_anual"):

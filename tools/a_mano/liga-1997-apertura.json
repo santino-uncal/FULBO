@@ -1,0 +1,2014 @@
+{
+ "nombre": "Torneo Apertura 1997",
+ "fuente": "Resultados: RSSSF (Javier Roimiser), sin goles. Estadio, día y hora: Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1997-08-22",
+     "hora": "21:10",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1997-08-23",
+     "hora": "21:10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1997-08-24",
+     "hora": "15:30",
+     "local": "deportivo-espanol",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1997-08-24",
+     "hora": "15:30",
+     "local": "rosario-central",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1997-08-24",
+     "hora": "15:30",
+     "local": "lanus",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1997-08-24",
+     "hora": "15:30",
+     "local": "boca-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1997-08-24",
+     "hora": "18:10",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1997-08-24",
+     "hora": "16:00",
+     "local": "gimnasia-y-tiro",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1997-08-24",
+     "hora": "15:30",
+     "local": "union",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1997-08-25",
+     "hora": "20:10",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-jujuy",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1997-08-29",
+     "hora": "21:10",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1997-08-31",
+     "hora": "15:30",
+     "local": "newell-s-old-boys",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1997-08-31",
+     "hora": "18:10",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1997-08-31",
+     "hora": "15:30",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1997-08-31",
+     "hora": "15:30",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1997-08-30",
+     "hora": "21:10",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1997-08-31",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1997-08-31",
+     "hora": "15:30",
+     "local": "colon",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1997-08-31",
+     "hora": "15:30",
+     "local": "argentinos-juniors",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-01",
+     "hora": "20:10",
+     "local": "gimnasia-jujuy",
+     "visitante": "deportivo-espanol",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "23 de agosto",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1997-09-12",
+     "hora": "21:10",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-12",
+     "hora": "21:30",
+     "local": "gimnasia-y-tiro",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-13",
+     "hora": "21:10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-13",
+     "hora": "20:00",
+     "local": "union",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-14",
+     "hora": "15:30",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-14",
+     "hora": "18:10",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-14",
+     "hora": "15:30",
+     "local": "rosario-central",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-14",
+     "hora": "15:30",
+     "local": "platense",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-14",
+     "hora": "15:30",
+     "local": "deportivo-espanol",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-14",
+     "hora": "15:30",
+     "local": "huracan",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1997-09-16",
+     "hora": "21:10",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-16",
+     "hora": "20:45",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-17",
+     "hora": "20:30",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-17",
+     "hora": "20:30",
+     "local": "san-lorenzo",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-17",
+     "hora": "20:30",
+     "local": "argentinos-juniors",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-17",
+     "hora": "20:30",
+     "local": "gimnasia-jujuy",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "23 de agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-17",
+     "hora": "16:00",
+     "local": "lanus",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-17",
+     "hora": "18:15",
+     "local": "colon",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-17",
+     "hora": "20:30",
+     "local": "newell-s-old-boys",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-18",
+     "hora": "21:10",
+     "local": "river-plate",
+     "visitante": "deportivo-espanol",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1997-09-19",
+     "hora": "21:10",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-20",
+     "hora": "21:10",
+     "local": "gimnasia-y-tiro",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-21",
+     "hora": "15:30",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-21",
+     "hora": "15:30",
+     "local": "racing-club",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-21",
+     "hora": "15:30",
+     "local": "union",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-21",
+     "hora": "15:30",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-21",
+     "hora": "15:30",
+     "local": "deportivo-espanol",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-21",
+     "hora": "15:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-21",
+     "hora": "18:10",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-22",
+     "hora": "20:10",
+     "local": "ferro-carril-oeste",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1997-09-26",
+     "hora": "21:10",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-27",
+     "hora": "21:10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-28",
+     "hora": "15:30",
+     "local": "independiente",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-28",
+     "hora": "15:30",
+     "local": "colon",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-28",
+     "hora": "15:30",
+     "local": "lanus",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-28",
+     "hora": "15:30",
+     "local": "rosario-central",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-28",
+     "hora": "15:30",
+     "local": "argentinos-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-28",
+     "hora": "15:30",
+     "local": "velez-sarsfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-28",
+     "hora": "18:10",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-28",
+     "hora": "16:30",
+     "local": "gimnasia-jujuy",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "23 de agosto",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1997-09-30",
+     "hora": "21:10",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1997-09-30",
+     "hora": "21:00",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-01",
+     "hora": "20:30",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-01",
+     "hora": "16:00",
+     "local": "deportivo-espanol",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-01",
+     "hora": "18:10",
+     "local": "velez-sarsfield",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-01",
+     "hora": "20:30",
+     "local": "union",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-01",
+     "hora": "20:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-01",
+     "hora": "21:00",
+     "local": "gimnasia-y-tiro",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-02",
+     "hora": "19:00",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-02",
+     "hora": "21:00",
+     "local": "huracan",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1997-10-03",
+     "hora": "21:10",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-04",
+     "hora": "21:10",
+     "local": "gimnasia-jujuy",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "23 de agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-05",
+     "hora": "18:10",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-05",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-05",
+     "hora": "15:30",
+     "local": "colon",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-05",
+     "hora": "15:30",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-05",
+     "hora": "15:30",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-05",
+     "hora": "15:30",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-05",
+     "hora": "15:30",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-06",
+     "hora": "20:10",
+     "local": "argentinos-juniors",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1997-10-17",
+     "hora": "21:10",
+     "local": "argentinos-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-18",
+     "hora": "21:10",
+     "local": "union",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-19",
+     "hora": "18:10",
+     "local": "boca-juniors",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-19",
+     "hora": "16:00",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-19",
+     "hora": "16:00",
+     "local": "racing-club",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-19",
+     "hora": "16:00",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-19",
+     "hora": "16:00",
+     "local": "huracan",
+     "visitante": "deportivo-espanol",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-19",
+     "hora": "16:00",
+     "local": "gimnasia-y-tiro",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-19",
+     "hora": "16:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-20",
+     "hora": "20:10",
+     "local": "platense",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1997-10-24",
+     "hora": "21:30",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-24",
+     "hora": "21:10",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-25",
+     "hora": "18:10",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-25",
+     "hora": "16:10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-25",
+     "hora": "16:00",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-25",
+     "hora": "15:30",
+     "local": "gimnasia-jujuy",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "23 de agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-25",
+     "hora": "16:00",
+     "local": "lanus",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-25",
+     "hora": "18:30",
+     "local": "colon",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-27",
+     "hora": "20:10",
+     "local": "deportivo-espanol",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-27",
+     "hora": "16:00",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1997-10-31",
+     "hora": "21:30",
+     "local": "gimnasia-y-tiro",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1997-10-31",
+     "hora": "21:10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-01",
+     "hora": "21:10",
+     "local": "boca-juniors",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-01",
+     "hora": "19:00",
+     "local": "union",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-02",
+     "hora": "16:00",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-02",
+     "hora": "16:00",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-02",
+     "hora": "16:00",
+     "local": "racing-club",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-02",
+     "hora": "16:00",
+     "local": "newell-s-old-boys",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-02",
+     "hora": "18:10",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-03",
+     "hora": "20:10",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1997-11-07",
+     "hora": "21:10",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-08",
+     "hora": "21:10",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "nota": "Se suspendió a los 21 del segundo tiempo por incidentes de la hinchada de Central y quedó el resultado"
+    },
+    {
+     "fecha": "1997-11-08",
+     "hora": "18:30",
+     "local": "colon",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-09",
+     "hora": "16:30",
+     "local": "gimnasia-jujuy",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "23 de agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-09",
+     "hora": "16:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-09",
+     "hora": "16:30",
+     "local": "river-plate",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-09",
+     "hora": "16:30",
+     "local": "ferro-carril-oeste",
+     "visitante": "union",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-09",
+     "hora": "16:30",
+     "local": "deportivo-espanol",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-09",
+     "hora": "18:10",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-10",
+     "hora": "20:10",
+     "local": "lanus",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1997-11-18",
+     "hora": "19:10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-jujuy",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-18",
+     "hora": "21:00",
+     "local": "argentinos-juniors",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-18",
+     "hora": "21:10",
+     "local": "gimnasia-y-tiro",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-18",
+     "hora": "21:00",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-18",
+     "hora": "21:00",
+     "local": "platense",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-19",
+     "hora": "18:15",
+     "local": "san-lorenzo",
+     "visitante": "colon",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-19",
+     "hora": "20:30",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-19",
+     "hora": "20:30",
+     "local": "newell-s-old-boys",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-19",
+     "hora": "20:30",
+     "local": "union",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-20",
+     "hora": "21:10",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1997-11-21",
+     "hora": "21:10",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-22",
+     "hora": "21:10",
+     "local": "gimnasia-jujuy",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "23 de agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-23",
+     "hora": "18:30",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-23",
+     "hora": "19:00",
+     "local": "colon",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-23",
+     "hora": "16:30",
+     "local": "deportivo-espanol",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-23",
+     "hora": "16:30",
+     "local": "huracan",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-23",
+     "hora": "16:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-23",
+     "hora": "16:30",
+     "local": "lanus",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-23",
+     "hora": "16:30",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "nota": "Terminó a los 23 del segundo tiempo porque a Newell's le quedaron menos de siete jugadores, y quedó el resultado"
+    },
+    {
+     "fecha": "1997-11-24",
+     "hora": "20:10",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1997-11-28",
+     "hora": "21:10",
+     "local": "independiente",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-29",
+     "hora": "21:10",
+     "local": "gimnasia-y-tiro",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-29",
+     "hora": "19:00",
+     "local": "union",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-30",
+     "hora": "16:30",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-30",
+     "hora": "16:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "nota": "Se suspendió a los 25 del segundo tiempo por incidentes y quedó el resultado"
+    },
+    {
+     "fecha": "1997-11-30",
+     "hora": "16:30",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-30",
+     "hora": "16:30",
+     "local": "newell-s-old-boys",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-30",
+     "hora": "16:30",
+     "local": "platense",
+     "visitante": "deportivo-espanol",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1997-11-30",
+     "hora": "18:30",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-01",
+     "hora": "20:10",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1997-12-05",
+     "hora": "21:10",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-05",
+     "hora": "22:00",
+     "local": "gimnasia-y-tiro",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-06",
+     "hora": "21:10",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-06",
+     "hora": "21:00",
+     "local": "colon",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [],
+     "nota": "Se suspendió a los 37 del segundo tiempo por falta de garantías y quedó el resultado"
+    },
+    {
+     "fecha": "1997-12-07",
+     "hora": "16:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-07",
+     "hora": "16:30",
+     "local": "racing-club",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-07",
+     "hora": "16:30",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-07",
+     "hora": "16:30",
+     "local": "huracan",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-07",
+     "hora": "16:30",
+     "local": "deportivo-espanol",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-07",
+     "hora": "18:30",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1997-12-09",
+     "hora": "21:10",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-09",
+     "hora": "19:10",
+     "local": "argentinos-juniors",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-10",
+     "hora": "18:15",
+     "local": "gimnasia-jujuy",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "23 de agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-10",
+     "hora": "20:30",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-10",
+     "hora": "20:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-10",
+     "hora": "20:30",
+     "local": "independiente",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-10",
+     "hora": "20:30",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-10",
+     "hora": "20:30",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-10",
+     "hora": "20:30",
+     "local": "union",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-11",
+     "hora": "21:10",
+     "local": "velez-sarsfield",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1997-12-13",
+     "hora": "21:10",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-14",
+     "hora": "18:45",
+     "local": "river-plate",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-14",
+     "hora": "18:45",
+     "local": "gimnasia-y-tiro",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-14",
+     "hora": "17:00",
+     "local": "deportivo-espanol",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 6,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-14",
+     "hora": "17:00",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-14",
+     "hora": "17:00",
+     "local": "lanus",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-14",
+     "hora": "17:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-14",
+     "hora": "19:00",
+     "local": "union",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-15",
+     "hora": "19:10",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-15",
+     "hora": "21:10",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1997-12-19",
+     "hora": "21:10",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-20",
+     "hora": "21:10",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-21",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "nota": "Se suspendió a los 22 minutos (0-0) por incidentes: la AFA les dio el partido perdido a los dos",
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ]
+    },
+    {
+     "fecha": "1997-12-21",
+     "hora": "18:45",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-21",
+     "hora": "18:45",
+     "local": "boca-juniors",
+     "visitante": "union",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-21",
+     "hora": "17:00",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-21",
+     "hora": "17:00",
+     "local": "gimnasia-jujuy",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "23 de agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-21",
+     "hora": "17:00",
+     "local": "colon",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-21",
+     "hora": "17:00",
+     "local": "platense",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1997-12-22",
+     "hora": "20:10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "deportivo-espanol",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

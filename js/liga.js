@@ -72,11 +72,12 @@
       const t = Object.fromEntries(ids.map(id => [id, { id, pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, ultimos: [] }]));
       partidos.filter(jugado).sort((a, b) => (a.fecha || "").localeCompare(b.fecha || "")).forEach(p => {
         // (p.para_local: un partido que la AFA les dio perdido a los dos, como Almagro-Boca 2005: al local, otro resultado)
-        [[p.local, ...(p.para_local || [p.gl, p.gv])], [p.visitante, p.gv, p.gl]].forEach(([id, a, b]) => {
+        // (p.para_visitante, y un tercer valor: el resultado que cuenta, como San Lorenzo-Huracán 1997, perdido 0-0 por los dos)
+        [[p.local, ...(p.para_local || [p.gl, p.gv])], [p.visitante, ...(p.para_visitante || [p.gv, p.gl])]].forEach(([id, a, b, cuenta]) => {
           const f = t[id];
           if (!f) return;
           f.pj++; f.gf += a; f.gc += b;
-          const r = a > b ? "V" : a < b ? "D" : "E";
+          const r = cuenta || (a > b ? "V" : a < b ? "D" : "E");
           f[{ V: "g", E: "e", D: "p" }[r]]++;
           f.ultimos.push({ r, texto: `${p.n != null ? `Fecha ${p.n}: ` : ""}${club(p.local).nombre} ${p.gl}–${p.gv} ${club(p.visitante).nombre}` });
         });
@@ -141,10 +142,12 @@
     function promedios() {
       const anual = Object.fromEntries(tablaAnual().map(f => [f.id, f]));
       return ids.map(id => {
-        const temporadas = [...aniosProm.map(a => T.promedios[a][id] || null), [anual[id].pts, anual[id].pj]];
-        const pts = temporadas.reduce((n, t) => n + (t ? t[0] : 0), 0);
+        // (T.promedios_victoria: 2, como hasta 1996-97, cuando los promedios contaban 2 puntos por partido ganado)
+        const pts = T.promedios_victoria ? T.promedios_victoria * anual[id].g + anual[id].e : anual[id].pts;
+        const temporadas = [...aniosProm.map(a => T.promedios[a][id] || null), [pts, anual[id].pj]];
+        const total = temporadas.reduce((n, t) => n + (t ? t[0] : 0), 0);
         const pj = temporadas.reduce((n, t) => n + (t ? t[1] : 0), 0);
-        return { id, temporadas, pts, pj, prom: pj ? pts / pj : 0 };
+        return { id, temporadas, pts: total, pj, prom: pj ? total / pj : 0 };
       }).sort((a, b) => b.prom - a.prom || club(a.id).nombre.localeCompare(club(b.id).nombre));
     }
     // Descienden el último de la tabla anual y el peor promedio; si es el mismo club, el anteúltimo de la tabla anual
@@ -261,7 +264,8 @@
         <td>${f.pts}</td><td>${f.pj}</td><td class="pts">${(Math.floor(f.prom * 1000 + 1e-9) / 1000).toFixed(3).replace(".", ",")}</td></tr>`).join("");
       const actual = T.temporada || T.anio;
       return `<p class="vacio">Los puntos de las temporadas ${[...aniosProm, actual].join(", ")} divididos por los partidos jugados
-        (la de ${actual} es ${T.temporada ? "este torneo" : "la tabla anual"}). Los que subieron hace poco dividen solo por los partidos que jugaron en Primera. El promedio va con tres decimales, sin redondear (como lo publica la AFA).</p>
+        (la de ${actual} es ${T.temporada ? "este torneo" : "la tabla anual"}).${T.promedios_victoria
+        ? ` Para los promedios, cada partido ganado valía ${T.promedios_victoria} puntos (en los torneos ya valía 3).` : ""} Los que subieron hace poco dividen solo por los partidos que jugaron en Primera. El promedio va con tres decimales, sin redondear (como lo publica la AFA).</p>
         <div class="grupo tabla-larga"><table><thead><tr><th>#</th><th class="eq">Equipo</th>${[...aniosProm, actual].map(a => `<th class="opc">${a}</th>`).join("")}
           <th>Pts</th><th>J</th><th>Prom.</th></tr></thead><tbody>${cuerpo}</tbody></table></div>
         ${T.descensos || T.descensos_anulados ? avisoDescenso() : ""}
