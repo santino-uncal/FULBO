@@ -1,0 +1,4182 @@
+{
+ "nombre": "Torneo Apertura 1995",
+ "fuente": "Resultados y goles (con minuto): RSSSF (Pablo Wally). Wikipedia no tiene estadios ni días: el día, de RSSSF, y la cancha solo cuando no era la del local. El mismo jugador, a veces con iniciales y a veces sin: se unificó con las iniciales",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1995-08-04",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Carrario",
+       "min": 8,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carrario",
+       "min": 88,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-05",
+     "local": "rosario-central",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-08-06",
+     "local": "huracan",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "N.A. Fernández",
+       "min": 4,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Conti",
+       "min": 39,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Raggio",
+       "min": 44,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M.A. Escudero",
+       "min": 58,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-06",
+     "local": "deportivo-espanol",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "H.N. Castillo",
+       "min": 7,
+       "equipo": "local"
+      },
+      {
+       "jugador": "F.D. Fernández",
+       "min": 63,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-06",
+     "local": "banfield",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Trotta",
+       "min": 69,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-06",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Khumalo",
+       "min": 33,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mazzoni",
+       "min": 48,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-06",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Cedrés",
+       "min": 50,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ortega",
+       "min": 77,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ruggeri",
+       "min": 84,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-07",
+     "local": "platense",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Simionato",
+       "min": 80,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-10-18",
+     "local": "gimnasia-jujuy",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Mac Allister",
+       "min": 52,
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Scotto",
+       "min": 42,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.A. Peralta",
+       "min": 65,
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1995-08-11",
+     "local": "independiente",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Mazzoni",
+       "min": 90,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Jara",
+       "min": 74,
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-12",
+     "local": "belgrano",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Estadio Córdoba",
+     "goles": [
+      {
+       "jugador": "Crespo",
+       "min": 63,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Crespo",
+       "min": 72,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-13",
+     "local": "newell-s-old-boys",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Loyola",
+       "min": 65,
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Dalla Líbera",
+       "min": 14,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-13",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "S.D. Martínez",
+       "min": 27,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scotto",
+       "min": 89,
+       "equipo": "local"
+      },
+      {
+       "jugador": "H.R. Guerra",
+       "min": 77,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-13",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Ortega Sánchez",
+       "min": 87,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-13",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Camps",
+       "min": 20,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-13",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Dopazo",
+       "min": 70,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Barella",
+       "min": 65,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-13",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1995-08-14",
+     "local": "lanus",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "A.M. López",
+       "min": 74,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sava",
+       "min": 49,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-30",
+     "local": "colon",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1995-08-18",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Tchami",
+       "min": 70,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-19",
+     "local": "rosario-central",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "R.E. Gordillo",
+       "min": 36,
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.J. Rossi",
+       "min": 67,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-20",
+     "local": "huracan",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Gauna",
+       "min": 7,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morant",
+       "min": 89,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-20",
+     "local": "gimnasia-jujuy",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Cuffaro Russo",
+       "min": 8,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-20",
+     "local": "racing-club",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Carrario",
+       "min": 57,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-20",
+     "local": "ferro-carril-oeste",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "S.G. Sánchez",
+       "min": 63,
+       "equipo": "local"
+      },
+      {
+       "jugador": "I.C. Gabrich",
+       "min": 58,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "G.A. Cáceres",
+       "min": 76,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-20",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Di Carlo",
+       "min": 9,
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.M. López",
+       "min": 77,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mazzoni",
+       "min": 15,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-20",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "C.R. Ayala",
+       "min": 3,
+       "equipo": "local"
+      },
+      {
+       "jugador": "O.A. Asad",
+       "min": 44,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-21",
+     "local": "deportivo-espanol",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1995-08-30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "J.L. Calderón",
+       "min": 11,
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. Rojas",
+       "min": 7,
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1995-08-25",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Mazzoni",
+       "min": 63,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coudet",
+       "min": 84,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-26",
+     "local": "colon",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Uliambre",
+       "min": 55,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saralegui",
+       "min": 59,
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.O. García",
+       "min": 90,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-27",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Tchami",
+       "min": 44,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vivas",
+       "min": 68,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mandrini",
+       "min": 18,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vargas",
+       "min": 82,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-27",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Ruffini",
+       "min": 71,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-27",
+     "local": "san-lorenzo",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Ruggeri",
+       "min": 85,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-27",
+     "local": "belgrano",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Instituto",
+     "goles": [
+      {
+       "jugador": "Spallina",
+       "min": 53,
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.L. Calderón",
+       "min": 82,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-27",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Trotta",
+       "min": 3,
+       "equipo": "local"
+      },
+      {
+       "jugador": "O.A. Asad",
+       "min": 23,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trotta",
+       "min": 67,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "R.O. Capria",
+       "min": 16,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fleita",
+       "min": 73,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-27",
+     "local": "banfield",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Kraff",
+       "min": 43,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gallardo",
+       "min": 46,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ortega",
+       "min": 58,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-27",
+     "local": "newell-s-old-boys",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Simionato",
+       "min": 50,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-08-28",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-jujuy",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Bennett",
+       "min": 11,
+       "equipo": "local"
+      },
+      {
+       "jugador": "V.H. Ferreyra",
+       "min": 67,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gancedo",
+       "min": 76,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gancedo",
+       "min": 78,
+       "equipo": "local",
+       "tipo": "pen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1995-09-01",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-09-02",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Zandoná",
+       "min": 84,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-03",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": [
+      {
+       "jugador": "Gamboa",
+       "min": 68,
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Fabbri",
+       "min": 59,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-03",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Morant",
+       "min": 88,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-03",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Mas",
+       "min": 13,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-03",
+     "local": "gimnasia-jujuy",
+     "visitante": "san-lorenzo",
+     "gl": 4,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "Trimarchi",
+       "min": 15,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Piaggio",
+       "min": 43,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trimarchi",
+       "min": 70,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Piaggio",
+       "min": 83,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Biaggio",
+       "min": 3,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Netto",
+       "min": 29,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Netto",
+       "min": 88,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-03",
+     "local": "deportivo-espanol",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1995-09-03",
+     "local": "racing-club",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "P.A. Paz",
+       "min": 58,
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-04",
+     "local": "platense",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Maisterra",
+       "min": 87,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-14",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Rosario Central",
+     "goles": [
+      {
+       "jugador": "Fagiani",
+       "min": 26,
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1995-09-08",
+     "local": "velez-sarsfield",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "M.H. Herrera",
+       "min": 85,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trotta",
+       "min": 89,
+       "equipo": "local"
+      },
+      {
+       "jugador": "H.N. Castillo",
+       "min": 38,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A. Benítez",
+       "min": 74,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "H.N. Castillo",
+       "min": 80,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-09",
+     "local": "rosario-central",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "R.F. Da Silva",
+       "min": 43,
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.J. López",
+       "min": 44,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pompei",
+       "min": 64,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M.A. Delgado",
+       "min": 87,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-10",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Caniggia",
+       "min": 24,
+       "equipo": "local"
+      },
+      {
+       "jugador": "I.C. Gabrich",
+       "min": 79,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-10",
+     "local": "belgrano",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Instituto",
+     "goles": [
+      {
+       "jugador": "Cuffaro Russo",
+       "min": 68,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gorostidi",
+       "min": 80,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gorostidi",
+       "min": 88,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-10",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-09-10",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Gancedo",
+       "min": 27,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "F.A. Batista",
+       "min": 64,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fuertes",
+       "min": 53,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Erbín",
+       "min": 56,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pena",
+       "min": 89,
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-10",
+     "local": "banfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "J.R. Cruz",
+       "min": 86,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "F.D. Fernández",
+       "min": 83,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-10",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 5,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Biaggio",
+       "min": 1,
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.F. González",
+       "min": 5,
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.F. González",
+       "min": 27,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silas",
+       "min": 75,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montserrat",
+       "min": 89,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-11",
+     "local": "colon",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Duré",
+       "min": 44,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Duré",
+       "min": 60,
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1995-09-22",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "Dalla Líbera",
+       "min": 32,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cangialosi",
+       "min": 88,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Netto",
+       "min": 18,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Biaggio",
+       "min": 55,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "E.F. González",
+       "min": 75,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-23",
+     "local": "gimnasia-jujuy",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "M.H. Lobo",
+       "min": 84,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-24",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-09-24",
+     "local": "huracan",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "P.D. Barrios",
+       "min": 35,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "H.R. Guerra",
+       "min": 64,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cattáneo",
+       "min": 38,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-24",
+     "local": "lanus",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "H.A. Morales",
+       "min": 80,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Toresani",
+       "min": 79,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-24",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "A.J. Berti",
+       "min": 7,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Dopazo",
+       "min": 17,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-24",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": [
+      {
+       "jugador": "M.A. Delgado",
+       "min": 25,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Almeyda",
+       "min": 55,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-24",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "J.L. Calderón",
+       "min": 35,
+       "equipo": "local"
+      },
+      {
+       "jugador": "P.A. Sánchez",
+       "min": 48,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Falaschi",
+       "min": 52,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-24",
+     "local": "ferro-carril-oeste",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-09-25",
+     "local": "deportivo-espanol",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Núñez",
+       "min": 62,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Agoglia",
+       "min": 79,
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.J. Rossi",
+       "min": 30,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Meske",
+       "min": 90,
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1995-09-29",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Netto",
+       "min": 16,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "N.G. Lorenzo",
+       "min": 62,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-09-30",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Trotta",
+       "min": 19,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "P.D. Barrios",
+       "min": 85,
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "C.J. Marini",
+       "min": 89,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-01",
+     "local": "rosario-central",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Pobersnik",
+       "min": 46,
+       "equipo": "local"
+      },
+      {
+       "jugador": "F.A. Verón",
+       "min": 50,
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "H.N. Castillo",
+       "min": 15,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-01",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Cagna",
+       "min": 15,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Burruchaga",
+       "min": 42,
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.J. López",
+       "min": 49,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M.A. Delgado",
+       "min": 90,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-01",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "G.O. Amato",
+       "min": 57,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silvani",
+       "min": 74,
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.S. Ferreira",
+       "min": 62,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J.L. Calderón",
+       "min": 66,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-01",
+     "local": "colon",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Risso",
+       "min": 75,
+       "equipo": "local"
+      },
+      {
+       "jugador": "M.A. Escudero",
+       "min": 41,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-01",
+     "local": "belgrano",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1995-10-01",
+     "local": "argentinos-juniors",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Peinado",
+       "min": 44,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ibazaga",
+       "min": 59,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Di Carlo",
+       "min": 78,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-02",
+     "local": "banfield",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Graff",
+       "min": 15,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alvarenga",
+       "min": 52,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Gorostidi",
+       "min": 18,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.F. González",
+       "min": 65,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-11",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Scotto",
+       "min": 37,
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1995-10-06",
+     "local": "ferro-carril-oeste",
+     "visitante": "belgrano",
+     "gl": 4,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "S.G. Sánchez",
+       "min": 12,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duré",
+       "min": 13,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sava",
+       "min": 36,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duré",
+       "min": 42,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Spallina",
+       "min": 21,
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Mercado",
+       "min": 89,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-06",
+     "local": "deportivo-espanol",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Francescoli",
+       "min": 18,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-07",
+     "local": "boca-juniors",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Scotto",
+       "min": 89,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-07",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Coria",
+       "min": 77,
+       "equipo": "local"
+      },
+      {
+       "jugador": "O.A. Asad",
+       "min": 10,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J.O. Flores",
+       "min": 44,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-08",
+     "local": "gimnasia-jujuy",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Piaggio",
+       "min": 23,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trimarchi",
+       "min": 39,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barrella",
+       "min": 48,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trimarchi",
+       "min": 65,
+       "equipo": "local"
+      },
+      {
+       "jugador": "P.A. Sánchez",
+       "min": 81,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Carbonari",
+       "min": 89,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-08",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Aquino",
+       "min": 29,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aquino",
+       "min": 67,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aquino",
+       "min": 74,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bennett",
+       "min": 22,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bennett",
+       "min": 86,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-08",
+     "local": "lanus",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "H.A. Morales",
+       "min": 59,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arbarello",
+       "min": 44,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rivadero",
+       "min": 45,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Arbarello",
+       "min": 78,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-08",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-10-09",
+     "local": "huracan",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "H.R. Guerra",
+       "min": 11,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pineda",
+       "min": 88,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "J.L. Calderón",
+       "min": 26,
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.L. Calderón",
+       "min": 89,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "R.O. Capria",
+       "min": 48,
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "C.J. López",
+       "min": 55,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.O. Capria",
+       "min": 64,
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1995-10-13",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 5,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Biaggio",
+       "min": 2,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Biaggio",
+       "min": 17,
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.F. González",
+       "min": 35,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Biaggio",
+       "min": 62,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ortega Sánchez",
+       "min": 88,
+       "equipo": "local"
+      },
+      {
+       "jugador": "M.A. Escudero",
+       "min": 22,
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "I.C. Gabrich",
+       "min": 76,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Arzeno",
+       "min": 66,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arzeno",
+       "min": 14,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J.C. Ramírez",
+       "min": 31,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-15",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Maradona",
+       "min": 70,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-15",
+     "local": "river-plate",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Francescoli",
+       "min": 86,
+       "equipo": "local",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-15",
+     "local": "belgrano",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Instituto",
+     "goles": [
+      {
+       "jugador": "Cattáneo",
+       "min": 32,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Loza",
+       "min": 44,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-15",
+     "local": "racing-club",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Huracán (BA)",
+     "goles": [
+      {
+       "jugador": "S.R. Castillo",
+       "min": 71,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-15",
+     "local": "colon",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Saralegui",
+       "min": 45,
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.V. González",
+       "min": 64,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saralegui",
+       "min": 89,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Muller",
+       "min": 90,
+       "equipo": "local"
+      },
+      {
+       "jugador": "G.O. Sanguinetti",
+       "min": 87,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-16",
+     "local": "banfield",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Fuertes",
+       "min": 9,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-16",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-10-16",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "O.A. Asad",
+       "min": 17,
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1995-10-20",
+     "local": "independiente",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Arzeno",
+       "min": 12,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saralegui",
+       "min": 35,
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Saralegui",
+       "min": 69,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-21",
+     "local": "gimnasia-jujuy",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Piaggio",
+       "min": 61,
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.J. López",
+       "min": 24,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pompei",
+       "min": 34,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-22",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-10-22",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Lagorio",
+       "min": 44,
+       "equipo": "local"
+      },
+      {
+       "jugador": "F.D. Fernández",
+       "min": 52,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bennett",
+       "min": 23,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-22",
+     "local": "platense",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Fuertes",
+       "min": 29,
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.E. Gordillo",
+       "min": 56,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-22",
+     "local": "lanus",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-10-22",
+     "local": "newell-s-old-boys",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "I.C. Gabrich",
+       "min": 60,
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.D. Mendoza",
+       "min": 61,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tosello",
+       "min": 25,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-22",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "C.J. Marini",
+       "min": 11,
+       "equipo": "local"
+      },
+      {
+       "jugador": "P.D. Barrios",
+       "min": 19,
+       "equipo": "local",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-22",
+     "local": "ferro-carril-oeste",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "C.M. Vidal",
+       "min": 29,
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.M. Vidal",
+       "min": 63,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mandrini",
+       "min": 74,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alvarenga",
+       "min": 38,
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "F.L. Alegre",
+       "min": 43,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "F.L. Alegre",
+       "min": 72,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-23",
+     "local": "deportivo-espanol",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Agoglia",
+       "min": 82,
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1995-10-27",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Gmo. Barrios Schelotto",
+       "min": 7,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Saccone",
+       "min": 88,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-28",
+     "local": "belgrano",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Estadio Córdoba",
+     "goles": [
+      {
+       "jugador": "S.D. Martínez",
+       "min": 32,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-29",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-jujuy",
+     "gl": 4,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "J.L. Calderón",
+       "min": 22,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Palermo",
+       "min": 44,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Palermo",
+       "min": 53,
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.L. Calderón",
+       "min": 75,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trimarchi",
+       "min": 88,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-29",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Pompei",
+       "min": 7,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barijho",
+       "min": 48,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-29",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "G.O. Amato",
+       "min": 7,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fuertes",
+       "min": 46,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-29",
+     "local": "banfield",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "A.M. López",
+       "min": 58,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A.M. López",
+       "min": 88,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-29",
+     "local": "deportivo-espanol",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Casartelli",
+       "min": 46,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-29",
+     "local": "rosario-central",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Ordóñez",
+       "min": 11,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carbonari",
+       "min": 66,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-29",
+     "local": "velez-sarsfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Posse",
+       "min": 4,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moriggi",
+       "min": 9,
+       "equipo": "local"
+      },
+      {
+       "jugador": "M.H. Herrera",
+       "min": 14,
+       "equipo": "local"
+      },
+      {
+       "jugador": "I.C. Gabrich",
+       "min": 88,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-10-30",
+     "local": "argentinos-juniors",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Bennett",
+       "min": 55,
+       "equipo": "local"
+      },
+      {
+       "jugador": "O.R. Acosta",
+       "min": 79,
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1995-11-03",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-11-04",
+     "local": "colon",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Netto",
+       "min": 50,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Arbarello",
+       "min": 70,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-05",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Scotto",
+       "min": 36,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-05",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Pineda",
+       "min": 52,
+       "equipo": "local"
+      },
+      {
+       "jugador": "H.R. Guerra",
+       "min": 58,
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.L. Calderón",
+       "min": 35,
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Palermo",
+       "min": 38,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "Brusco",
+       "min": 6,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Artime",
+       "min": 18,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Brusco",
+       "min": 76,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-05",
+     "local": "gimnasia-jujuy",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "M.H. Lobo",
+       "min": 5,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Piaggio",
+       "min": 31,
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.S. Galván",
+       "min": 13,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-05",
+     "local": "newell-s-old-boys",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Raggio",
+       "min": 63,
+       "equipo": "local"
+      },
+      {
+       "jugador": "F.L. Alegre",
+       "min": 38,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-05",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "G.A. López",
+       "min": 28,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "C.J. Bustos",
+       "min": 51,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-05",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "V.M. López",
+       "min": 62,
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.A. Gómez",
+       "min": 48,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "G.O. Amato",
+       "min": 89,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-06",
+     "local": "lanus",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Cravero",
+       "min": 5,
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.M. López",
+       "min": 81,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Simionato",
+       "min": 86,
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1995-11-10",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "R.O. Capria",
+       "min": 59,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Duré",
+       "min": 39,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-11",
+     "local": "gimnasia-jujuy",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Gorostidi",
+       "min": 69,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-12",
+     "local": "banfield",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Independiente",
+     "goles": [
+      {
+       "jugador": "Scotto",
+       "min": 25,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Caniggia",
+       "min": 73,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-12",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Ibazaga",
+       "min": 68,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-12",
+     "local": "san-lorenzo",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "' V.H. Ferreyra",
+       "min": 38,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zermattén",
+       "min": 44,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-12",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Carbonari",
+       "min": 27,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Palma",
+       "min": 63,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-12",
+     "local": "belgrano",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1995-11-12",
+     "local": "deportivo-espanol",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "H.R. Guerra",
+       "min": 63,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "C.J. Marini",
+       "min": 67,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "H.R. Guerra",
+       "min": 79,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pelletti",
+       "min": 84,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-12",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Trotta",
+       "min": 2,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "J.O. Flores",
+       "min": 50,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-13",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Palermo",
+       "min": 12,
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.L. Calderón",
+       "min": 40,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Fuertes",
+       "min": 14,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A.A. Morales",
+       "min": 59,
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1995-11-17",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-11-18",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Rosario Central",
+     "goles": [
+      {
+       "jugador": "Raggio",
+       "min": 42,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baldivieso",
+       "min": 44,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Iotov",
+       "min": 55,
+       "equipo": "local"
+      },
+      {
+       "jugador": "G.O. Amato",
+       "min": 38,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-18",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Lagorio",
+       "min": 34,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Yllana",
+       "min": 39,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alvarenga",
+       "min": 8,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-19",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-11-19",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "M.A. Delgado",
+       "min": 38,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.O. Capria",
+       "min": 54,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "C.J. López",
+       "min": 57,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-19",
+     "local": "colon",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Gambier",
+       "min": 43,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ibarra",
+       "min": 16,
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Pandolfi",
+       "min": 46,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-19",
+     "local": "argentinos-juniors",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Bennett",
+       "min": 65,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tosello",
+       "min": 37,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Artime",
+       "min": 65,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-19",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 4,
+     "goles": [
+      {
+       "jugador": "C.M. Vidal",
+       "min": 84,
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.S. Verón",
+       "min": 14,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A.D. Peralta",
+       "min": 36,
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Palermo",
+       "min": 38,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "S.S. Maciel",
+       "min": 71,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-19",
+     "local": "huracan",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "P.D. Barrios",
+       "min": 45,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "R.G. Flores",
+       "min": 90,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gorostidi",
+       "min": 71,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-20",
+     "local": "platense",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Erbín",
+       "min": 81,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pertot",
+       "min": 45,
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1995-11-24",
+     "local": "velez-sarsfield",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Bassedas",
+       "min": 34,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pellegrino",
+       "min": 59,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-25",
+     "local": "belgrano",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Estadio Córdoba",
+     "goles": [
+      {
+       "jugador": "M.A. Flores",
+       "min": 30,
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.F. González",
+       "min": 44,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Netto",
+       "min": 82,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-26",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-11-26",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "J.F. Reinoso",
+       "min": 17,
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.J. López",
+       "min": 26,
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.O. Capria",
+       "min": 37,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "M.A. Delgado",
+       "min": 62,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Raggio",
+       "min": 28,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-26",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "H.R. Guerra",
+       "min": 84,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-26",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "J.S. Verón",
+       "min": 38,
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.L. Calderón",
+       "min": 52,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Simionato",
+       "min": 34,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-26",
+     "local": "banfield",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Glaría",
+       "min": 81,
+       "equipo": "local"
+      },
+      {
+       "jugador": "H.I. Rodríguez",
+       "min": 82,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-26",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Carbonari",
+       "min": 14,
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.F. Da Silva",
+       "min": 74,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-26",
+     "local": "gimnasia-jujuy",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "Trimarchi",
+       "min": 35,
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.A. Batista",
+       "min": 55,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Gorostidi",
+       "min": 70,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trimarchi",
+       "min": 77,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "A.A. Morales",
+       "min": 27,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Romagnoli",
+       "min": 79,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A.A. Morales",
+       "min": 81,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-11-27",
+     "local": "deportivo-espanol",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "N.G. Lorenzo",
+       "min": 57,
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1995-12-01",
+     "local": "independiente",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "J.D. Martínez",
+       "min": 60,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-02",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "G.O. Sanguinetti",
+       "min": 22,
+       "equipo": "local"
+      },
+      {
+       "jugador": "G.D. Rivarola",
+       "min": 14,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-03",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 6,
+     "goles": [
+      {
+       "jugador": "Mac Allister",
+       "min": 30,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maradona",
+       "min": 44,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "S.D. Martínez",
+       "min": 78,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scotto",
+       "min": 88,
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.O. Capria",
+       "min": 4,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M.A. Delgado",
+       "min": 11,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "C.J. López",
+       "min": 12,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.O. Capria",
+       "min": 47,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.O. Capria",
+       "min": 60,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "C.J. López",
+       "min": 86,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-03",
+     "local": "colon",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Saralegui",
+       "min": 23,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Muller",
+       "min": 75,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-03",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Pandolfi",
+       "min": 24,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Posse",
+       "min": 87,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-03",
+     "local": "lanus",
+     "visitante": "deportivo-espanol",
+     "gl": 3,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "H.A. Morales",
+       "min": 30,
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.M. López",
+       "min": 81,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coyette",
+       "min": 87,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Odriozola",
+       "min": 67,
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Odriozola",
+       "min": 89,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-03",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Samso",
+       "min": 75,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Barrella",
+       "min": 26,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-03",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Dalla Líbera",
+       "min": 39,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Pelletti",
+       "min": 9,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "C.J. Marini",
+       "min": 72,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-03",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Rosario Central",
+     "goles": [
+      {
+       "jugador": "Raggio",
+       "min": 28,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Palermo",
+       "min": 23,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mazzucco",
+       "min": 63,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-04",
+     "local": "argentinos-juniors",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "J.R. Cruz",
+       "min": 41,
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1995-12-08",
+     "local": "river-plate",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "G.O. Amato",
+       "min": 22,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gallardo",
+       "min": 36,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Gallardo",
+       "min": 66,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gambier",
+       "min": 74,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Risso",
+       "min": 88,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-09",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": [
+      {
+       "jugador": "Práttola",
+       "min": 44,
+       "equipo": "local"
+      },
+      {
+       "jugador": "S.S. Maciel",
+       "min": 88,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fabbri",
+       "min": 33,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-10",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Maisterra",
+       "min": 19,
+       "equipo": "local"
+      },
+      {
+       "jugador": "F.D. Rodríguez",
+       "min": 36,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cagna",
+       "min": 43,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cagna",
+       "min": 79,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-10",
+     "local": "gimnasia-jujuy",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "A.M. López",
+       "min": 23,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A.M. López",
+       "min": 53,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-10",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "R.O. Capria",
+       "min": 20,
+       "equipo": "local"
+      },
+      {
+       "jugador": "De Vicente",
+       "min": 30,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-10",
+     "local": "banfield",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 5,
+     "goles": [
+      {
+       "jugador": "J.R. Arce",
+       "min": 57,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alvarenga",
+       "min": 71,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Biaggio",
+       "min": 17,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Biaggio",
+       "min": 24,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "E.F. González",
+       "min": 42,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Biaggio",
+       "min": 54,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Netto",
+       "min": 66,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-10",
+     "local": "deportivo-espanol",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Odriozola",
+       "min": 25,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "A. Benítez",
+       "min": 62,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Odriozola",
+       "min": 70,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "I.C. Gabrich",
+       "min": 2,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "I.C. Gabrich",
+       "min": 11,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "I.C. Gabrich",
+       "min": 47,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-10",
+     "local": "velez-sarsfield",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "J.O. Flores",
+       "min": 48,
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.O. Flores",
+       "min": 89,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-10",
+     "local": "rosario-central",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-12-11",
+     "local": "huracan",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "N.A. Fernández",
+       "min": 88,
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1995-12-15",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Biaggio",
+       "min": 21,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rivadero",
+       "min": 51,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Falaschi",
+       "min": 42,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Duarte",
+       "min": 43,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-16",
+     "local": "boca-juniors",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Maradona",
+       "min": 53,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "S.D. Martínez",
+       "min": 68,
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.S. Galván",
+       "min": 46,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Odriozola",
+       "min": 51,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-17",
+     "local": "colon",
+     "visitante": "racing-club",
+     "gl": 5,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Saralegui",
+       "min": 61,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Risso",
+       "min": 70,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saralegui",
+       "min": 74,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gambier",
+       "min": 78,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saralegui",
+       "min": 82,
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.J. López",
+       "min": 16,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-17",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Rosario Central",
+     "goles": []
+    },
+    {
+     "fecha": "1995-12-17",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "Trotta",
+       "min": 5,
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Camps",
+       "min": 61,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J.H. Basualdo",
+       "min": 81,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-17",
+     "local": "lanus",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Schurrer",
+       "min": 33,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-17",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "J.L. Calderón",
+       "min": 56,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Catán",
+       "min": 75,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J.L. Calderón",
+       "min": 78,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-17",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "R.A. Bernuncio",
+       "min": 34,
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. Quinteros",
+       "min": 38,
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.A. Bernuncio",
+       "min": 49,
+       "equipo": "local"
+      },
+      {
+       "jugador": "G.O. Amato",
+       "min": 88,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1995-12-17",
+     "local": "belgrano",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1995-12-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 4,
+     "goles": [
+      {
+       "jugador": "V.M. López",
+       "min": 69,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fuertes",
+       "min": 1,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Saraiba",
+       "min": 35,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mena",
+       "min": 40,
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Mena",
+       "min": 47,
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

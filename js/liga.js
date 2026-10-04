@@ -84,7 +84,8 @@
       });
       // (T.descuentos: puntos que se le restaron a un club en este torneo, como a Los Andes en el Clausura 2001)
       const menos = id => partidos === todos ? (T.descuentos || {})[id] || 0 : 0;
-      return Object.values(t).map(f => ({ ...f, pts: f.g * 3 + f.e - menos(f.id), dif: f.gf - f.gc }))
+      // (T.puntos_victoria: 2, como hasta el Clausura 1995; después, 3)
+      return Object.values(t).map(f => ({ ...f, pts: f.g * (T.puntos_victoria || 3) + f.e - menos(f.id), dif: f.gf - f.gc }))
         .sort((a, b) => b.pts - a.pts || b.dif - a.dif || b.gf - a.gf || club(a.id).nombre.localeCompare(club(b.id).nombre));
     }
     function tablaHTML(z, zonas = T.zonas, pasan = T.pasan, partidos = todos) {
@@ -116,7 +117,7 @@
       <p class="leyenda">${T.texto_pasan ? `<span><i class="pasa"></i>${esc(T.texto_pasan)}</span>` : T.pasan ? `<span><i class="pasa"></i>Clasifican a ${RONDA[T.pasan] || "los playoffs"} (los ${T.pasan} primeros de cada zona)</span>` : ""}
         ${T.campeon_tabla ? `<span><i class="campeon"></i>Campeón: el primero de la tabla (no hay playoffs)</span>` : ""}</p>
       ${T.descuentos_texto ? `<p class="nota-edicion">${esc(T.descuentos_texto)}</p>` : ""}
-      <p class="vacio">Orden: puntos, diferencia de gol y goles a favor.${Object.keys(T.zonas).length > 1
+      <p class="vacio">${T.puntos_victoria ? `Cada partido ganado valía ${T.puntos_victoria} puntos (los 3 puntos empezaron en el Torneo Apertura 1995). ` : ""}Orden: puntos, diferencia de gol y goles a favor.${Object.keys(T.zonas).length > 1
         ? " Los partidos contra la otra zona (interzonales) suman en la zona de cada club." : ""}</p>`;
 
     // ---- Tabla anual: lo jugado antes en el año (T.anual: el Apertura, [pts, pj, g, e, p, gf, gc]) más este torneo ----

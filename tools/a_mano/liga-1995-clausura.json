@@ -1,0 +1,1673 @@
+{
+ "nombre": "Torneo Clausura 1995",
+ "fuente": "Resultados: RSSSF (Pablo Ciullini), sin goles. Wikipedia no tiene estadios ni días: el día, de RSSSF (la fecha 11 se jugó el 5 y el 6 de mayo, sin decir qué partido cada día: van todos el 5), y la cancha solo cuando no era la del local",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1995-02-24",
+     "local": "banfield",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-02-25",
+     "local": "deportivo-mandiyu",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1995-02-26",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-02-26",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-02-26",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-02-26",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1995-02-26",
+     "local": "gimnasia-jujuy",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-02-26",
+     "local": "newell-s-old-boys",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-02-27",
+     "local": "deportivo-espanol",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-15",
+     "local": "belgrano",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1995-03-03",
+     "local": "argentinos-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-04",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-05",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-05",
+     "local": "huracan",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-05",
+     "local": "talleres",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-05",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-05",
+     "local": "velez-sarsfield",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "belgrano",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-05",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-06",
+     "local": "lanus",
+     "visitante": "gimnasia-jujuy",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1995-03-10",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-11",
+     "local": "belgrano",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-11",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-11",
+     "local": "gimnasia-jujuy",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-11",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-12",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-12",
+     "local": "banfield",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-12",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-12",
+     "local": "deportivo-mandiyu",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Liga Formoseña",
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-13",
+     "local": "deportivo-espanol",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1995-03-17",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-18",
+     "local": "talleres",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-19",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-19",
+     "local": "boca-juniors",
+     "visitante": "deportivo-espanol",
+     "gl": 4,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-19",
+     "local": "velez-sarsfield",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-19",
+     "local": "lanus",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-19",
+     "local": "rosario-central",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-19",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-19",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-20",
+     "local": "ferro-carril-oeste",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1995-03-24",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-25",
+     "local": "belgrano",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-26",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-26",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-26",
+     "local": "gimnasia-jujuy",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-26",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-26",
+     "local": "deportivo-mandiyu",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-26",
+     "local": "deportivo-espanol",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-26",
+     "local": "huracan",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-03-27",
+     "local": "banfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1995-03-31",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-01",
+     "local": "talleres",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-02",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-02",
+     "local": "rosario-central",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-02",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-02",
+     "local": "argentinos-juniors",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-02",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-02",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 4,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-02",
+     "local": "san-lorenzo",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-03",
+     "local": "lanus",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1995-04-07",
+     "local": "racing-club",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-08",
+     "local": "talleres",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-09",
+     "local": "banfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-09",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-09",
+     "local": "deportivo-mandiyu",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Municipal Formosa",
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-09",
+     "local": "platense",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-09",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-10",
+     "local": "deportivo-espanol",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-18",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-24",
+     "local": "gimnasia-jujuy",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1995-04-14",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-15",
+     "local": "belgrano",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-16",
+     "local": "independiente",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-16",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-16",
+     "local": "velez-sarsfield",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-16",
+     "local": "lanus",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-16",
+     "local": "rosario-central",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-16",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-16",
+     "local": "argentinos-juniors",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-17",
+     "local": "ferro-carril-oeste",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1995-04-21",
+     "local": "huracan",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 5,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-22",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-23",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-23",
+     "local": "gimnasia-jujuy",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-23",
+     "local": "banfield",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-23",
+     "local": "deportivo-mandiyu",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Municipal Formosa",
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-23",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-23",
+     "local": "talleres",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-23",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-24",
+     "local": "deportivo-espanol",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1995-04-28",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-29",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-30",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-30",
+     "local": "rosario-central",
+     "visitante": "talleres",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-30",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-30",
+     "local": "ferro-carril-oeste",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-30",
+     "local": "independiente",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-30",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-30",
+     "local": "belgrano",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1995-04-30",
+     "local": "river-plate",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1995-05-05",
+     "local": "racing-club",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-05",
+     "local": "banfield",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-05",
+     "local": "newell-s-old-boys",
+     "visitante": "belgrano",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-05",
+     "local": "deportivo-mandiyu",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-05",
+     "local": "deportivo-espanol",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-05",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-05",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-05",
+     "local": "talleres",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-05",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-05",
+     "local": "velez-sarsfield",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1995-05-09",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-09",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-09",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-09",
+     "local": "argentinos-juniors",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-09",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-09",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-09",
+     "local": "san-lorenzo",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-09",
+     "local": "belgrano",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-09",
+     "local": "river-plate",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-09",
+     "local": "gimnasia-jujuy",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1995-05-15",
+     "local": "boca-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-16",
+     "local": "deportivo-mandiyu",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-17",
+     "local": "racing-club",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-17",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-17",
+     "local": "deportivo-espanol",
+     "visitante": "belgrano",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-17",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-17",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-17",
+     "local": "talleres",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-17",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-17",
+     "local": "lanus",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1995-05-19",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-20",
+     "local": "rosario-central",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-21",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-21",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-21",
+     "local": "independiente",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-21",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-21",
+     "local": "belgrano",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-21",
+     "local": "river-plate",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-21",
+     "local": "gimnasia-jujuy",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-22",
+     "local": "banfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1995-05-26",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-27",
+     "local": "talleres",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-28",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-28",
+     "local": "deportivo-mandiyu",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-28",
+     "local": "deportivo-espanol",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-28",
+     "local": "huracan",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-28",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 5,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-28",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-28",
+     "local": "lanus",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-05-28",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1995-06-02",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-03",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-04",
+     "local": "argentinos-juniors",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-04",
+     "local": "ferro-carril-oeste",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-04",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-04",
+     "local": "belgrano",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-04",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-04",
+     "local": "gimnasia-jujuy",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-04",
+     "local": "banfield",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-04",
+     "local": "newell-s-old-boys",
+     "visitante": "deportivo-mandiyu",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1995-06-09",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-10",
+     "local": "talleres",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-11",
+     "local": "racing-club",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-11",
+     "local": "deportivo-espanol",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-11",
+     "local": "huracan",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-11",
+     "local": "boca-juniors",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-11",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-11",
+     "local": "rosario-central",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-11",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-12",
+     "local": "platense",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1995-06-16",
+     "local": "argentinos-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-17",
+     "local": "belgrano",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-18",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-18",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-18",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 4,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-18",
+     "local": "gimnasia-jujuy",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-18",
+     "local": "banfield",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-18",
+     "local": "newell-s-old-boys",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-18",
+     "local": "deportivo-mandiyu",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1995-06-23",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-jujuy",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-24",
+     "local": "talleres",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-25",
+     "local": "racing-club",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-25",
+     "local": "huracan",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-25",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-25",
+     "local": "lanus",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-25",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "goles": [],
+     "nota": "Se suspendió a los 44 del segundo tiempo y quedó el resultado"
+    },
+    {
+     "fecha": "1995-06-25",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-25",
+     "local": "argentinos-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1995-06-26",
+     "local": "platense",
+     "visitante": "deportivo-mandiyu",
+     "gl": 4,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

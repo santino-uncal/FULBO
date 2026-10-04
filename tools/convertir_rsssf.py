@@ -1,4 +1,4 @@
-# Conversor usado en la fase 25 para cargar a mano los torneos 1996-2002 (tools/a_mano/liga-*.json).
+# Conversor usado en la fase 25 para cargar a mano los torneos 1995-2002 (tools/a_mano/liga-*.json).
 # Lee el texto de una página de RSSSF (tablesa/argNN.html pasada a texto) y el wikitext de Wikipedia de cada torneo,
 # los cruza y avisa las diferencias. Los archivos de entrada se bajan aparte, en la misma carpeta que este script.
 # Al final de cada año se corrigieron a mano notas, nombres y errores de las fuentes (ver fases/fase_25.md).
@@ -21,14 +21,15 @@ def norm(s):
 CLUBES = [  # (patrón normalizado al principio del nombre, id)
     ("argentinos", "argentinos-juniors"), ("racing", "racing-club"), ("river", "river-plate"), ("boca", "boca-juniors"),
     ("sanlorenzo", "san-lorenzo"), ("velez", "velez-sarsfield"), ("independiente", "independiente"),
-    ("gimnasiaer", "ger"), ("gimnasias", "gimnasia-y-tiro"), ("gimnasiaytiro", "gimnasia-y-tiro"), ("gimnasiaj", "gimnasia-jujuy"), ("gimnasiayesgrimaj", "gimnasia-jujuy"),
+    ("gimnasiaer", "ger"), ("gimnasiayesgj", "gimnasia-jujuy"), ("gimnasias", "gimnasia-y-tiro"), ("gimnasiaytiro", "gimnasia-y-tiro"), ("gimnasiaj", "gimnasia-jujuy"), ("gimnasiayesgrimaj", "gimnasia-jujuy"),
     ("gimnasia", "gimnasia-y-esgrima"), ("ginmasia", "gimnasia-y-esgrima"), ("ferro", "ferro-carril-oeste"), ("estudiantes", "estudiantes-de-la-plata"),
     ("newell", "newell-s-old-boys"), ("rosario", "rosario-central"), ("colon", "colon"), ("union", "union"),
     ("lanus", "lanus"), ("banfield", "banfield"), ("chacarita", "chacarita-juniors"), ("nuevachicago", "nueva-chicago"),
     ("talleres", "talleres"), ("huracanta", "huracan-tres-arroyos"), ("huracanc", "huracan-corrientes"), ("talleres", "talleres"), ("huracan", "huracan"), ("belgrano", "belgrano"),
     ("olimpo", "olimpo"), ("arsenal", "arsenal-de-sarandi"),
     ("almagro", "almagro"), ("argj", "argentinos-juniors"), ("depespanol", "deportivo-espanol"),
-    ("deportivoespanol", "deportivo-espanol"), ("platense", "platense"), ("losandes", "los-andes"), ("quilmes", "quilmes"), ("instituto", "instituto")]
+    ("deportivoespanol", "deportivo-espanol"), ("platense", "platense"), ("losandes", "los-andes"), ("quilmes", "quilmes"), ("instituto", "instituto"),
+    ("depmandiyu", "deportivo-mandiyu"), ("deportivomandiyu", "deportivo-mandiyu"), ("mandiyu", "deportivo-mandiyu")]
 
 
 def club(nombre):
@@ -315,9 +316,9 @@ def armar(clave, rsssf, wiki, anio_de, nombre, fuente):
 
 
 if __name__ == "__main__":
-    d = armar("1996-clausura", ("arg96.txt", 550, 1049), "w_Torneo_Clausura_1996_(Argentina).txt", lambda m: 1996,
-              "Torneo Clausura 1996", "")
-    (AQUI / "c1996.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
-    d = armar("1996-apertura", ("arg97.txt", 10, 378), "w_Torneo_Apertura_1996_(Argentina).txt", lambda m: 1996,
-              "Torneo Apertura 1996", "")
-    (AQUI / "a1996.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+    d = armar("1995-clausura", ("arg95.txt", 467, 790), "w_Torneo_Clausura_1995_(Argentina).txt", lambda m: 1995,
+              "Torneo Clausura 1995", "")
+    (AQUI / "c1995.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+    d = armar("1995-apertura", ("arg96.txt", 10, 491), "w_Torneo_Apertura_1995_(Argentina).txt", lambda m: 1995,
+              "Torneo Apertura 1995", "")
+    (AQUI / "a1995.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")

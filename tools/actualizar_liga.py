@@ -33,10 +33,73 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1995: dos torneos de 20 equipos a una rueda; ESPN no los tiene: van a mano, como 1996 a 2002 (tools/a_mano;
+    # RSSSF, sin goles el Clausura y con los goles y sus minutos el Apertura; Wikipedia no tiene estadios ni días). El
+    # Torneo Clausura 1995 (febrero-junio; campeón San Lorenzo) cerraba la temporada 1994-95 y fue el último con 2
+    # puntos por partido ganado ("puntos_victoria"; también en sumar, por PUNTOS_VICTORIA): su "tabla anual" es la de
+    # la temporada, con la tabla del Apertura 1994 (RSSSF; Talleres, con los 2 puntos que le descontaron). Promedios de
+    # 1992-93 y 1993-94, de RSSSF. Bajaron los dos últimos (Deportivo Mandiyú y Talleres). A la Copa Conmebol 1995, los
+    # dos mejores de la temporada que no iban a otra copa (Wikipedia)
+    "1995-clausura": {"nombre": "Torneo Clausura 1995", "anio": 1995, "liga": "a_mano", "slug": "1995-clausura",
+                      "zonas": "unica", "fechas": 19, "pasan": 0, "puntos_victoria": 2,
+                      "campeon_tabla": True, "temporada": "1994-95", "nombre_anual": "Temporada y copas",
+                      "goleadores_nota": "RSSSF no tiene los goles de este torneo. El goleador fue José Oscar Flores "
+                                         "(Vélez), con 14 goles.",
+                      # la tabla del Apertura 1994 (RSSSF; con 2 puntos por partido ganado): [pts, pj, g, e, p, gf, gc]
+                      "anual": {"river-plate": [31, 19, 12, 7, 0, 31, 14], "san-lorenzo": [26, 19, 9, 8, 2, 30, 21],
+                                "velez-sarsfield": [24, 19, 9, 6, 4, 28, 16], "newell-s-old-boys": [23, 19, 7, 9, 3, 22, 14],
+                                "argentinos-juniors": [22, 19, 8, 6, 5, 24, 19], "belgrano": [21, 19, 7, 7, 5, 25, 18],
+                                "lanus": [21, 19, 7, 7, 5, 20, 24], "banfield": [20, 19, 7, 6, 6, 20, 15],
+                                "rosario-central": [20, 19, 7, 6, 6, 22, 20], "gimnasia-y-esgrima": [20, 19, 5, 10, 4, 20, 19],
+                                "independiente": [19, 19, 7, 5, 7, 29, 28], "racing-club": [19, 19, 6, 7, 6, 15, 18],
+                                "boca-juniors": [17, 19, 5, 7, 7, 29, 28], "huracan": [16, 19, 6, 4, 9, 22, 25],
+                                "platense": [16, 19, 5, 6, 8, 19, 24], "ferro-carril-oeste": [16, 19, 5, 6, 8, 21, 30],
+                                "gimnasia-jujuy": [15, 19, 6, 3, 10, 13, 24], "deportivo-espanol": [12, 19, 3, 6, 10, 16, 26],
+                                "deportivo-mandiyu": [11, 19, 1, 9, 9, 19, 31], "talleres": [9, 19, 2, 7, 10, 18, 29]},
+                      "anual_texto": "La tabla de la temporada 1994-95: suma el Torneo Apertura 1994 (de RSSSF: no está "
+                                     "cargado partido por partido; a Talleres le descontaron 2 puntos) y el Torneo "
+                                     "Clausura 1995. Cada partido ganado valía 2 puntos.",
+                      # (con 2 puntos por partido ganado)
+                      "promedios": {"1992-93": {"san-lorenzo": [45, 38], "river-plate": [46, 38], "velez-sarsfield": [48, 38],
+                                                "boca-juniors": [48, 38], "independiente": [41, 38],
+                                                "gimnasia-y-esgrima": [34, 38], "lanus": [37, 38], "racing-club": [36, 38],
+                                                "rosario-central": [39, 38], "huracan": [43, 38], "belgrano": [38, 38],
+                                                "deportivo-espanol": [41, 38], "ferro-carril-oeste": [38, 38],
+                                                "argentinos-juniors": [33, 38], "platense": [28, 38],
+                                                "newell-s-old-boys": [25, 38], "deportivo-mandiyu": [37, 38]},
+                                    "1993-94": {"san-lorenzo": [44, 38], "river-plate": [45, 38], "velez-sarsfield": [38, 38],
+                                                "boca-juniors": [42, 38], "independiente": [48, 38],
+                                                "gimnasia-y-esgrima": [37, 38], "lanus": [41, 38], "racing-club": [42, 38],
+                                                "rosario-central": [38, 38], "huracan": [43, 38], "banfield": [40, 38],
+                                                "belgrano": [35, 38], "deportivo-espanol": [32, 38],
+                                                "ferro-carril-oeste": [35, 38], "argentinos-juniors": [36, 38],
+                                                "platense": [38, 38], "newell-s-old-boys": [36, 38],
+                                                "deportivo-mandiyu": [30, 38]}},
+                      "descensos": "promedios", "descienden": 2,
+                      "cupos": {"anio": 1996, "anio_sudamericana": 1995, "nombre_sudamericana": "Copa Conmebol", "fijos": True,
+                                "libertadores": [("Campeón del Torneo Apertura 1994", "river-plate"),
+                                                 ("Campeón del Torneo Clausura 1995", "san-lorenzo")],
+                                "sudamericana": [("Tabla de la temporada 1994-95", "gimnasia-y-esgrima"),
+                                                 ("Tabla de la temporada 1994-95", "rosario-central")],
+                                "nota": "A la Supercopa 1995 fueron invitados Vélez, River, Boca, Racing, Independiente, "
+                                        "Estudiantes y Argentinos; por eso no podían jugar la Copa Conmebol. Rosario "
+                                        "Central quedó delante de Lanús (los dos con 39 puntos) por diferencia de gol."}},
+    # El Torneo Apertura 1995 (agosto-diciembre; campeón Vélez) abría la temporada 1995-96 y fue el primero con 3 puntos
+    # por partido ganado
+    "1995-apertura": {"nombre": "Torneo Apertura 1995", "anio": 1995, "liga": "a_mano", "slug": "1995-apertura",
+                      "zonas": "unica", "fechas": 19, "pasan": 0, "campeon_tabla": True,
+                      "goleadores_nota": "Los goles salen partido por partido de RSSSF; su lista de goleadores le da 8 "
+                                         "a Trimarchi (Gimnasia de Jujuy) y 8 a Saralegui (Colón).",
+                      "anual": [("a_mano", r"^1995-clausura$")],
+                      "anual_texto": "La tabla del año 1995: suma el Torneo Clausura 1995 (con 2 puntos por partido "
+                                     "ganado, como se jugó) y el Torneo Apertura 1995 (el primero con 3). No daba lugares "
+                                     "en las copas: salían de la temporada.",
+                      "sin_descensos": "En el Torneo Apertura 1995 no hubo descensos: se definieron al terminar la "
+                                       "temporada 1995-96, con el Torneo Clausura 1996."},
     # 1996: dos torneos de 20 equipos a una rueda; ESPN no los tiene: van a mano, como 1997 a 2002 (tools/a_mano;
     # RSSSF, con los goles y sus minutos del Clausura y de algunas fechas del Apertura; Wikipedia no tiene estadios ni
     # días). El Torneo Clausura 1996 (marzo-agosto; campeón Vélez) cerraba la temporada 1995-96: su "tabla anual" es la
-    # de la temporada, con la tabla del Apertura 1995 (RSSSF). Para los promedios, cada partido ganado valía 2 puntos
+    # de la temporada, con el Apertura 1995 (cargado a mano). Para los promedios, cada partido ganado valía 2 puntos
     # (1993-94 y 1994-95, de RSSSF; Racing 1993-94, 42: Wikipedia tiene 41 pero su promedio sale de 42). Bajaron directo
     # los dos últimos (Argentinos y Belgrano). Vélez ganó los dos torneos; el segundo lugar en la Libertadores 1997 lo
     # jugaron los subcampeones (Racing-Gimnasia, en cancha de River, con alargue). A la Copa Conmebol 1996, Rosario
@@ -51,19 +114,8 @@ TORNEOS = {
                       "desempate_texto": "Racing (subcampeón del Apertura 1995) y Gimnasia (subcampeón del Clausura 1996) "
                                          "jugaron un partido, en cancha neutral, por el segundo lugar de la Argentina en la "
                                          "Copa Libertadores 1997 (el primero era de Vélez, campeón de los dos torneos).",
-                      # la tabla del Apertura 1995 (RSSSF): [pts, pj, g, e, p, gf, gc]
-                      "anual": {"velez-sarsfield": [41, 19, 13, 2, 4, 29, 13], "racing-club": [35, 19, 10, 5, 4, 35, 24],
-                                "lanus": [35, 19, 10, 5, 4, 25, 16], "boca-juniors": [35, 19, 9, 8, 2, 23, 16],
-                                "san-lorenzo": [32, 19, 9, 5, 5, 35, 24], "huracan": [32, 19, 9, 5, 5, 25, 22],
-                                "river-plate": [29, 19, 7, 8, 4, 21, 20], "gimnasia-jujuy": [28, 19, 8, 4, 7, 28, 30],
-                                "estudiantes-de-la-plata": [25, 19, 6, 7, 6, 29, 23], "rosario-central": [24, 19, 5, 9, 5, 18, 20],
-                                "platense": [23, 19, 5, 8, 6, 25, 24], "newell-s-old-boys": [23, 19, 5, 8, 6, 26, 32],
-                                "colon": [21, 19, 5, 6, 8, 22, 20], "independiente": [21, 19, 4, 9, 6, 15, 18],
-                                "gimnasia-y-esgrima": [21, 19, 5, 6, 8, 14, 25], "argentinos-juniors": [19, 19, 5, 4, 10, 18, 22],
-                                "ferro-carril-oeste": [17, 19, 3, 8, 8, 21, 29], "deportivo-espanol": [17, 19, 3, 8, 8, 18, 26],
-                                "banfield": [14, 19, 2, 8, 9, 17, 29], "belgrano": [13, 19, 2, 7, 10, 12, 23]},
-                      "anual_texto": "La tabla de la temporada 1995-96: suma el Torneo Apertura 1995 (de RSSSF: no está "
-                                     "cargado partido por partido) y el Torneo Clausura 1996.",
+                      "anual": [("a_mano", r"^1995-apertura$", 1995)],
+                      "anual_texto": "La tabla de la temporada 1995-96: suma el Torneo Apertura 1995 y el Torneo Clausura 1996.",
                       # (con 2 puntos por partido ganado)
                       "promedios": {"1993-94": {"san-lorenzo": [44, 38], "river-plate": [45, 38], "velez-sarsfield": [38, 38],
                                                 "boca-juniors": [42, 38], "independiente": [48, 38],
@@ -1573,6 +1625,9 @@ PIERDEN_LOS_DOS = {"186468": (0, 2)}
 # Andes) están en la tabla del torneo ("descuentos" en
 # TORNEOS); acá, para la tabla que los suma (el año es el del torneo que muestra esa tabla: los del Apertura 1999, en
 # la temporada 1999-00 del Clausura 2000)
+# Puntos por partido ganado en los torneos que no daban 3 ({clave del torneo a mano: puntos}): el Clausura 1995 fue el
+# último con 2 (se suman así también en la tabla del año 1995)
+PUNTOS_VICTORIA = {"1995-clausura": 2}
 DESCUENTOS = {(2014, "7"): 6, (2004, "6", r"^torneo-apertura-2003$"): 3, (2000, "5", r"^2000-clausura$"): 3,
               (2000, "12", r"^2000-clausura$"): 3, (2001, "lan", r"^2001-clausura$"): 3,
               (1999, "7", r"^1999-clausura$"): 3, (2000, "18", r"^1999-apertura$"): 3,
@@ -1606,6 +1661,7 @@ CLUBES_NUEVOS = {
     "fco": ("ferro-carril-oeste", "Ferro Carril Oeste"),
     "des": ("deportivo-espanol", "Deportivo Español"),   # (no está en ESPN: 1997-98)
     "gyt": ("gimnasia-y-tiro", "Gimnasia y Tiro (Salta)"),   # (no está en ESPN: 1997-98)
+    "dma": ("deportivo-mandiyu", "Deportivo Mandiyú"),   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
 }
@@ -1734,7 +1790,7 @@ def sumar(anio, fuentes):
                 r = 2 if ga > gb else 3 if ga == gb else 4
                 if otro and len(otro) > 2:
                     r = {"V": 2, "E": 3, "D": 4}[otro[2]]
-                f[0] += {2: 3, 3: 1, 4: 0}[r]
+                f[0] += {2: PUNTOS_VICTORIA.get((e.get("season") or {}).get("slug"), 3), 3: 1, 4: 0}[r]
                 f[1] += 1
                 f[r] += 1
                 f[5] += ga
@@ -2076,7 +2132,7 @@ def armar(clave):
         datos["desempate"] = limpio(desempates[0])
     for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "goleadores_nota", "promocion", "ventaja", "triangular", "texto_triangular", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
               "campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro", "descuentos",
-              "descuentos_texto", "promedios_victoria"):
+              "descuentos_texto", "promedios_victoria", "puntos_victoria"):
         if cfg.get(k):
             datos[k] = cfg[k]
     if cfg.get("titulo_anual"):

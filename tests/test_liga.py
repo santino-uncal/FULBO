@@ -68,7 +68,8 @@ class DatosLiga(unittest.TestCase):
                     self.assertIn(cid, ids)
                     pts, pj, g, e, p = f[:5]
                     self.assertEqual(pj, g + e + p, cid)
-                    self.assertTrue(3 * g + e - 6 <= pts <= 3 * g + e, cid)   # (con un descuento por sanción, menos)
+                    # (con un descuento por sanción, menos; hasta el Clausura 1995, 2 puntos por partido ganado)
+                    self.assertTrue(2 * g + e - 6 <= pts <= 3 * g + e, cid)
                 for anio, tabla in d.get("promedios", {}).items():
                     for cid, (pts, pj) in tabla.items():
                         self.assertIn(cid, ids)
