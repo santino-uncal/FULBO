@@ -1,0 +1,902 @@
+{
+ "nombre": "Campeonato Nacional 1984",
+ "fuente": "Resultados: RSSSF (Pablo Ciullini); estadios de Wikipedia (la cancha de RSSSF cuando no era la del local); de la fase final, también los goles y los árbitros de Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1984-02-19",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-19",
+     "local": "ferro-general-pico",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "El Coloso del Barrio Talleres",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-19",
+     "local": "union-general-pinedo",
+     "visitante": "gimnasia-mendoza",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Juan Alberto García",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-20",
+     "local": "san-lorenzo",
+     "visitante": "temperley",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-19",
+     "local": "belgrano",
+     "visitante": "central-norte",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Club Atlético Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-19",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Newell's Old Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-19",
+     "local": "estudiantes-rio-cuarto",
+     "visitante": "atletico-uruguay",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Río Cuarto",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-20",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-19",
+     "local": "instituto",
+     "visitante": "altos-hornos-zapla",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-19",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-19",
+     "local": "chacarita-juniors",
+     "visitante": "atletico-tucuman",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Deportivo Español",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-20",
+     "local": "independiente",
+     "visitante": "kimberley",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-19",
+     "local": "argentinos-juniors",
+     "visitante": "union",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-19",
+     "local": "ledesma",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Trapiche Azucarero",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-19",
+     "local": "olimpo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Roberto Nicolás Carminatti",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-19",
+     "local": "union-san-vicente",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1984-02-24",
+     "local": "talleres",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-26",
+     "local": "ferro-general-pico",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Coloso del Barrio Talleres",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-26",
+     "local": "gimnasia-mendoza",
+     "visitante": "temperley",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Malvinas Argentinas",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-26",
+     "local": "union-general-pinedo",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Chaco For Ever",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-26",
+     "local": "rosario-central",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Newell's Old Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-26",
+     "local": "velez-sarsfield",
+     "visitante": "central-norte",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-26",
+     "local": "huracan",
+     "visitante": "estudiantes-rio-cuarto",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-26",
+     "local": "river-plate",
+     "visitante": "atletico-uruguay",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-26",
+     "local": "ferro-carril-oeste",
+     "visitante": "altos-hornos-zapla",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-26",
+     "local": "platense",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-24",
+     "local": "independiente",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-26",
+     "local": "kimberley",
+     "visitante": "atletico-tucuman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Mar del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-26",
+     "local": "ledesma",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Trapiche Azucarero",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-26",
+     "local": "racing-cordoba",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-26",
+     "local": "atlanta",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Club Atlético Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-26",
+     "local": "union-san-vicente",
+     "visitante": "olimpo",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1984-03-04",
+     "local": "boca-juniors",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-04",
+     "local": "newell-s-old-boys",
+     "visitante": "ferro-general-pico",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-04",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-mendoza",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-04",
+     "local": "temperley",
+     "visitante": "union-general-pinedo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Alfredo Beranger",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-04",
+     "local": "belgrano",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-04",
+     "local": "central-norte",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Doctor Luis Güemes",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-04",
+     "local": "atletico-uruguay",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Simón Luciano Plazaola",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-04",
+     "local": "estudiantes-rio-cuarto",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Río Cuarto",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-04",
+     "local": "altos-hornos-zapla",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Emilio Fabrizzi",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-04",
+     "local": "instituto",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-04",
+     "local": "atletico-tucuman",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Monumental José Fierro",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-04",
+     "local": "chacarita-juniors",
+     "visitante": "kimberley",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Cancha de Deportivo Español",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-26",
+     "local": "argentinos-juniors",
+     "visitante": "racing-cordoba",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1984-02-26",
+     "local": "union",
+     "visitante": "ledesma",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-04",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "union-san-vicente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-04",
+     "local": "olimpo",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Roberto Nicolás Carminatti",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1984-03-09",
+     "local": "newell-s-old-boys",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-11",
+     "local": "boca-juniors",
+     "visitante": "ferro-general-pico",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-11",
+     "local": "san-lorenzo",
+     "visitante": "union-general-pinedo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-11",
+     "local": "temperley",
+     "visitante": "gimnasia-mendoza",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Alfredo Beranger",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-11",
+     "local": "belgrano",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Club Atlético Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-11",
+     "local": "central-norte",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Doctor Luis Güemes",
+     "goles": [],
+     "nota": "Se suspendió a los 40 minutos del segundo tiempo y quedó el resultado"
+    },
+    {
+     "fecha": "1984-03-11",
+     "local": "atletico-uruguay",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 6,
+     "estadio": "Simón Luciano Plazaola",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-11",
+     "local": "estudiantes-rio-cuarto",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ciudad de Río Cuarto",
+     "goles": [],
+     "nota": "Se suspendió a los 42 minutos del segundo tiempo y quedó el resultado"
+    },
+    {
+     "fecha": "1984-03-11",
+     "local": "altos-hornos-zapla",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Emilio Fabrizzi",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-11",
+     "local": "instituto",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-11",
+     "local": "atletico-tucuman",
+     "visitante": "kimberley",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental José Fierro",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-11",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Deportivo Español",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-11",
+     "local": "argentinos-juniors",
+     "visitante": "ledesma",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-11",
+     "local": "union",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-11",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-11",
+     "local": "olimpo",
+     "visitante": "union-san-vicente",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Roberto Nicolás Carminatti",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1984-03-18",
+     "local": "ferro-general-pico",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Coloso del Barrio Talleres",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-18",
+     "local": "talleres",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-18",
+     "local": "gimnasia-mendoza",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Malvinas Argentinas",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-18",
+     "local": "union-general-pinedo",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Chaco For Ever",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-18",
+     "local": "rosario-central",
+     "visitante": "central-norte",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Newell's Old Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-18",
+     "local": "velez-sarsfield",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-18",
+     "local": "huracan",
+     "visitante": "atletico-uruguay",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-18",
+     "local": "river-plate",
+     "visitante": "estudiantes-rio-cuarto",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-18",
+     "local": "platense",
+     "visitante": "altos-hornos-zapla",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-18",
+     "local": "kimberley",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Mar del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-18",
+     "local": "independiente",
+     "visitante": "atletico-tucuman",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-17",
+     "local": "racing-cordoba",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-18",
+     "local": "ledesma",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Trapiche Azucarero",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-16",
+     "local": "union-san-vicente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-18",
+     "local": "atlanta",
+     "visitante": "olimpo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Club Atlético Atlanta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1984-03-25",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-25",
+     "local": "talleres",
+     "visitante": "ferro-general-pico",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-25",
+     "local": "gimnasia-mendoza",
+     "visitante": "union-general-pinedo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Malvinas Argentinas",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-25",
+     "local": "temperley",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-25",
+     "local": "central-norte",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Juventud Antoniana",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-25",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-25",
+     "local": "atletico-uruguay",
+     "visitante": "estudiantes-rio-cuarto",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Simón Luciano Plazaola",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-25",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-25",
+     "local": "altos-hornos-zapla",
+     "visitante": "instituto",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Emilio Fabrizzi",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-25",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-24",
+     "local": "kimberley",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Mar del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-25",
+     "local": "atletico-tucuman",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Monumental José Fierro",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-25",
+     "local": "racing-cordoba",
+     "visitante": "ledesma",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-25",
+     "local": "union",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-25",
+     "local": "atlanta",
+     "visitante": "union-san-vicente",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Club Atlético Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1984-03-25",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "olimpo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

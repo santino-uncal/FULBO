@@ -33,6 +33,97 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1984: el Campeonato Nacional 1984 (febrero a mayo; campeón Ferro): 32 equipos (los del Metropolitano y los del
+    # interior) en 8 zonas de 4 a dos ruedas ("zonas_a_mano"), con 2 puntos por partido ganado; los dos primeros de cada
+    # zona jugaban la fase final, a ida y vuelta. A Chacarita le descontaron 6 puntos. ESPN no lo tiene: va a mano
+    # (tools/a_mano; resultados de RSSSF, estadios de Wikipedia; de la fase final, también los goles y los árbitros de
+    # Wikipedia). No había descensos (salían del Metropolitano)
+    "1984-nacional": {"nombre": "Campeonato Nacional 1984", "anio": 1984, "liga": "a_mano", "slug": "1984-nacional",
+                      "zonas_a_mano": {"A": ["newell-s-old-boys", "talleres", "boca-juniors", "ferro-general-pico"],
+                                       "B": ["san-lorenzo", "gimnasia-mendoza", "union-general-pinedo", "temperley"],
+                                       "C": ["belgrano", "rosario-central", "velez-sarsfield", "central-norte"],
+                                       "D": ["river-plate", "huracan", "estudiantes-rio-cuarto", "atletico-uruguay"],
+                                       "E": ["ferro-carril-oeste", "instituto", "platense", "altos-hornos-zapla"],
+                                       "F": ["independiente", "atletico-tucuman", "chacarita-juniors", "kimberley"],
+                                       "G": ["argentinos-juniors", "racing-cordoba", "union", "ledesma"],
+                                       "H": ["estudiantes-de-la-plata", "olimpo", "atlanta", "union-san-vicente"]},
+                      "fechas": 6, "pasan": 2, "puntos_victoria": 2,
+                      "texto_pasan": "Pasan a la fase final (los dos primeros de cada zona)",
+                      "descuentos": {"chacarita-juniors": 6},
+                      "descuentos_texto": "A Chacarita se le descontaron 6 puntos (por incidentes en la final del Reducido de "
+                                          "la Primera B 1983).",
+                      "goleadores_nota": "Los goles son solo de la fase final (de Wikipedia, con los minutos): de la fase de "
+                                         "zonas no están. El goleador del torneo fue Pedro Pasculli (Argentinos), con 9 goles.",
+                      "nombre_playoffs": "Fase final",
+                      "playoffs": [(r"^$^", n) for n in ("Octavos de final", "Cuartos de final", "Semifinales", "Final")],
+                      "playoffs_a_mano": {
+                           "Octavos de final": [
+                               {"hora_utc": "1984-04-03T19:00Z", "fecha": "1984-04-03", "local": "4", "visitante": "9785", "gl": 2, "gv": 0, "estadio": "Estadio Córdoba", "arbitro": "Teodoro Nitti", "goles": [{"jugador": "Guerini", "equipo": "local", "min": 6}, {"jugador": "Mazo", "equipo": "local", "min": 21, "tipo": "pen"}]},
+                               {"hora_utc": "1984-04-04T19:00Z", "fecha": "1984-04-04", "local": "rco", "visitante": "san-lorenzo", "gl": 1, "gv": 1, "estadio": "Estadio Córdoba", "arbitro": "Juan Carlos Demaro", "goles": [{"jugador": "Oyola", "equipo": "local", "min": 55}, {"jugador": "Perazzo", "equipo": "visitante", "min": 13}]},
+                               {"hora_utc": "1984-04-04T19:00Z", "fecha": "1984-04-04", "local": "estudiantes-de-la-plata", "visitante": "talleres", "gl": 0, "gv": 1, "estadio": "Estadio Jorge Luis Hirschi", "arbitro": "Raúl Marsiglia", "goles": [{"jugador": "Hoyos", "equipo": "visitante", "min": 82, "tipo": "pen"}]},
+                               {"hora_utc": "1984-04-04T19:00Z", "fecha": "1984-04-04", "local": "rosario-central", "visitante": "independiente", "gl": 1, "gv": 1, "estadio": "Estadio Gigante de Arroyito", "arbitro": "Ricardo Calabria", "goles": [{"jugador": "Killer", "equipo": "local", "min": 87}, {"jugador": "Merlini", "equipo": "visitante", "min": 90}]},
+                               {"hora_utc": "1984-04-04T19:00Z", "fecha": "1984-04-04", "local": "2975", "visitante": "river-plate", "gl": 0, "gv": 0, "estadio": "Estadio Juan Domingo Perón", "arbitro": "Juan Carlos Loustau"},
+                               {"hora_utc": "1984-04-04T19:00Z", "fecha": "1984-04-04", "local": "ferro-carril-oeste", "visitante": "huracan", "gl": 1, "gv": 0, "estadio": "Estadio Ferro Carril Oeste", "arbitro": "Francisco Lamolina", "goles": [{"jugador": "Marchesini", "equipo": "local", "min": 73}]},
+                               {"hora_utc": "1984-04-04T19:00Z", "fecha": "1984-04-04", "local": "2636", "visitante": "newell-s-old-boys", "gl": 0, "gv": 0, "estadio": "Estadio Roberto Nicolás Carminatti", "arbitro": "Abel Gnecco"},
+                               {"hora_utc": "1984-04-05T19:00Z", "fecha": "1984-04-05", "local": "argentinos-juniors", "visitante": "11972", "gl": 3, "gv": 2, "estadio": "Cancha de Ferro Carril Oeste", "arbitro": "Mario Luis Gallina", "goles": [{"jugador": "Pasculli", "equipo": "local", "min": 19}, {"jugador": "Pasculli", "equipo": "local", "min": 40}, {"jugador": "Lemme", "equipo": "local", "min": 32}, {"jugador": "Funes", "equipo": "visitante", "min": 8, "tipo": "pen"}, {"jugador": "Zolorza", "equipo": "visitante", "min": 56}]},
+                               {"hora_utc": "1984-04-10T19:00Z", "fecha": "1984-04-10", "local": "talleres", "visitante": "estudiantes-de-la-plata", "gl": 1, "gv": 1, "estadio": "Estadio Córdoba", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Juárez", "equipo": "local", "min": 32}, {"jugador": "Vieta", "equipo": "visitante", "min": 35}]},
+                               {"hora_utc": "1984-04-11T19:00Z", "fecha": "1984-04-11", "local": "san-lorenzo", "visitante": "rco", "gl": 3, "gv": 1, "estadio": "Cancha de Atlanta", "arbitro": "Juan Antonio Bava", "goles": [{"jugador": "Perazzo", "equipo": "local", "min": 24}, {"jugador": "Navarro", "equipo": "local", "min": 32}, {"jugador": "Rinaldi", "equipo": "local", "min": 49}, {"jugador": "Gasparini", "equipo": "visitante", "min": 64}]},
+                               {"hora_utc": "1984-04-11T19:00Z", "fecha": "1984-04-11", "local": "11972", "visitante": "argentinos-juniors", "gl": 1, "gv": 2, "estadio": "Malvinas Argentinas", "arbitro": "Carlos Alfonso Espósito", "goles": [{"jugador": "O. Olguín", "equipo": "local", "min": 64}, {"jugador": "Pasculli", "equipo": "visitante", "min": 65}, {"jugador": "Pasculli", "equipo": "visitante", "min": 82}]},
+                               {"hora_utc": "1984-04-11T19:00Z", "fecha": "1984-04-11", "local": "independiente", "visitante": "rosario-central", "gl": 1, "gv": 0, "estadio": "Estadio La Doble Visera", "arbitro": "Juan Carlos Demaro", "goles": [{"jugador": "Trossero", "equipo": "local", "min": 79}]},
+                               {"hora_utc": "1984-04-11T19:00Z", "fecha": "1984-04-11", "local": "river-plate", "visitante": "2975", "gl": 2, "gv": 0, "estadio": "Estadio Monumental", "arbitro": "Jorge Eduardo Romero", "goles": [{"jugador": "Francescoli", "equipo": "local", "min": 87}, {"jugador": "Francescoli", "equipo": "local", "min": 89, "tipo": "pen"}]},
+                               {"hora_utc": "1984-04-11T19:00Z", "fecha": "1984-04-11", "local": "huracan", "visitante": "ferro-carril-oeste", "gl": 1, "gv": 0, "estadio": "Estadio Tomás Adolfo Ducó", "arbitro": "Julio Gumersindo Barraza", "alargue": True, "pen_l": 6, "pen_v": 7, "goles": [{"jugador": "Sánchez", "equipo": "local", "min": 22}]},
+                               {"hora_utc": "1984-04-11T19:00Z", "fecha": "1984-04-11", "local": "newell-s-old-boys", "visitante": "2636", "gl": 1, "gv": 1, "estadio": "Estadio Coloso del Parque", "arbitro": "Francisco Lamolina", "alargue": True, "pen_l": 7, "pen_v": 6, "goles": [{"jugador": "Martino", "equipo": "local", "min": 47}, {"jugador": "Palacio Corrales", "equipo": "visitante", "min": 40}]},
+                               {"hora_utc": "1984-04-07T19:00Z", "fecha": "1984-04-07", "local": "9785", "visitante": "4", "gl": 0, "gv": 0, "estadio": "Cancha de Central Córdoba (Santiago del Estero)", "arbitro": "Abel Gnecco", "nota": "Se suspendió a los 19 minutos del segundo tiempo (0-0); lo que faltaba se jugó el 14 de abril, en cancha de Central Córdoba (Santiago del Estero)"},
+                           ],
+                           "Cuartos de final": [
+                               {"hora_utc": "1984-04-18T19:00Z", "fecha": "1984-04-18", "local": "4", "visitante": "river-plate", "gl": 0, "gv": 4, "estadio": "Estadio Córdoba", "arbitro": "Ricardo Calabria", "goles": [{"jugador": "Teglia", "equipo": "visitante", "min": 4}, {"jugador": "Teglia", "equipo": "visitante", "min": 45}, {"jugador": "Bica", "equipo": "visitante", "min": 13}, {"jugador": "Alfaro", "equipo": "visitante", "min": 70}]},
+                               {"hora_utc": "1984-04-18T19:00Z", "fecha": "1984-04-18", "local": "argentinos-juniors", "visitante": "talleres", "gl": 2, "gv": 1, "estadio": "Cancha de Ferro Carril Oeste", "arbitro": "Abel Gnecco", "goles": [{"jugador": "Batista", "equipo": "local", "min": 37}, {"jugador": "Pasculli", "equipo": "local", "min": 76}, {"jugador": "Hoyos", "equipo": "visitante", "min": 81}]},
+                               {"hora_utc": "1984-04-18T19:00Z", "fecha": "1984-04-18", "local": "newell-s-old-boys", "visitante": "san-lorenzo", "gl": 2, "gv": 2, "estadio": "Estadio Coloso del Parque", "arbitro": "Teodoro Nitti", "goles": [{"jugador": "Ciraolo", "equipo": "local", "min": 10}, {"jugador": "Almirón", "equipo": "local", "min": 77}, {"jugador": "Higuaín", "equipo": "visitante", "min": 31}, {"jugador": "Perazzo", "equipo": "visitante", "min": 53}]},
+                               {"hora_utc": "1984-04-26T19:00Z", "fecha": "1984-04-26", "local": "ferro-carril-oeste", "visitante": "independiente", "gl": 1, "gv": 1, "estadio": "Estadio Ferro Carril Oeste", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Márcico", "equipo": "local", "min": 52}, {"jugador": "Sánchez", "equipo": "visitante", "min": 33}]},
+                               {"hora_utc": "1984-04-25T19:00Z", "fecha": "1984-04-25", "local": "river-plate", "visitante": "4", "gl": 0, "gv": 2, "estadio": "Estadio Monumental", "arbitro": "Carlos Alfonso Espósito", "goles": [{"jugador": "Scatolaro", "equipo": "visitante", "min": 39}, {"jugador": "Blasón", "equipo": "visitante", "min": 89, "tipo": "pen"}]},
+                               {"hora_utc": "1984-04-25T19:00Z", "fecha": "1984-04-25", "local": "talleres", "visitante": "argentinos-juniors", "gl": 4, "gv": 2, "estadio": "Estadio Córdoba", "arbitro": "Jorge Eduardo Romero", "goles": [{"jugador": "Hoyos", "equipo": "local", "min": 4}, {"jugador": "Tedini", "equipo": "local", "min": 33}, {"jugador": "Bevilacqua", "equipo": "local", "min": 51}, {"jugador": "Beccérica", "equipo": "local", "min": 84}, {"jugador": "Ereros", "equipo": "visitante", "min": 46}, {"jugador": "Videla", "equipo": "visitante", "min": 65}]},
+                               {"hora_utc": "1984-04-25T19:00Z", "fecha": "1984-04-25", "local": "san-lorenzo", "visitante": "newell-s-old-boys", "gl": 2, "gv": 1, "estadio": "Cancha de Atlanta", "arbitro": "Ricardo Calabria", "goles": [{"jugador": "Perazzo", "equipo": "local", "min": 44}, {"jugador": "Luna", "equipo": "local", "min": 71}, {"jugador": "Viglione", "equipo": "visitante", "min": 79}]},
+                               {"hora_utc": "1984-05-02T19:00Z", "fecha": "1984-05-02", "local": "independiente", "visitante": "ferro-carril-oeste", "gl": 0, "gv": 1, "estadio": "Estadio La Doble Visera", "arbitro": "Juan Antonio Bava", "alargue": True, "goles": [{"jugador": "Arregui", "equipo": "visitante", "min": 104}]},
+                           ],
+                           "Semifinales": [
+                               {"hora_utc": "1984-05-02T19:00Z", "fecha": "1984-05-02", "local": "san-lorenzo", "visitante": "river-plate", "gl": 1, "gv": 2, "estadio": "Cancha de Vélez Sarsfield", "arbitro": "Abel Gnecco", "goles": [{"jugador": "Quinteros", "equipo": "local", "min": 35}, {"jugador": "Francescoli", "equipo": "visitante", "min": 67}, {"jugador": "Alonso", "equipo": "visitante", "min": 82}]},
+                               {"hora_utc": "1984-05-09T19:00Z", "fecha": "1984-05-09", "local": "ferro-carril-oeste", "visitante": "talleres", "gl": 1, "gv": 0, "estadio": "Estadio Ferro Carril Oeste", "arbitro": "Carlos Alfonso Espósito", "goles": [{"jugador": "Noremberg", "equipo": "local", "min": 54}]},
+                               {"hora_utc": "1984-05-09T19:00Z", "fecha": "1984-05-09", "local": "river-plate", "visitante": "san-lorenzo", "gl": 2, "gv": 1, "estadio": "Estadio Monumental", "arbitro": "Jorge Eduardo Romero", "goles": [{"jugador": "Villalba", "equipo": "local", "min": 7}, {"jugador": "Alonso", "equipo": "local", "min": 25}, {"jugador": "Biaín", "equipo": "visitante", "min": 51}]},
+                               {"hora_utc": "1984-05-16T19:00Z", "fecha": "1984-05-16", "local": "talleres", "visitante": "ferro-carril-oeste", "gl": 1, "gv": 1, "estadio": "Estadio Córdoba", "arbitro": "Juan Carlos Loustau", "goles": [{"jugador": "Tedini", "equipo": "local", "min": 7}, {"jugador": "Noremberg", "equipo": "visitante", "min": 56}]},
+                           ],
+                           "Final": [
+                               {"hora_utc": "1984-05-24T19:00Z", "fecha": "1984-05-24", "local": "river-plate", "visitante": "ferro-carril-oeste", "gl": 0, "gv": 3, "estadio": "Estadio Monumental", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Cañete", "equipo": "visitante", "min": 3}, {"jugador": "Noremberg", "equipo": "visitante", "min": 20}, {"jugador": "Márcico", "equipo": "visitante", "min": 36, "tipo": "pen"}]},
+                               {"hora_utc": "1984-05-30T19:00Z", "fecha": "1984-05-30", "local": "ferro-carril-oeste", "visitante": "river-plate", "gl": 1, "gv": 0, "estadio": "Estadio Ferro Carril Oeste", "arbitro": "Teodoro Nitti", "nota": "Se suspendió a los 25 minutos del segundo tiempo y quedó el resultado", "goles": [{"jugador": "Cañete", "equipo": "local", "min": 2}]},
+                           ],
+                      },
+                      "ida_y_vuelta": True},
+    # El Campeonato Metropolitano 1984 (abril a diciembre; campeón Argentinos): 19 equipos a dos ruedas (38 fechas, en
+    # cada una quedaba uno libre), con 2 puntos por partido ganado. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin
+    # goles; estadios de Wikipedia). Los promedios eran por temporada (1982, 1983 y 1984; RSSSF): bajaron los dos peores,
+    # Rosario Central y Atlanta. A la Libertadores 1985 fueron los campeones del Nacional y del Metropolitano
+    "1984-metropolitano": {"nombre": "Campeonato Metropolitano 1984", "anio": 1984, "liga": "a_mano", "slug": "1984-metropolitano",
+                           "zonas": "unica", "fechas": 38, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                           "anual_texto": "La tabla del Campeonato Metropolitano 1984 (las 38 fechas; eran 19 equipos y en cada "
+                                          "fecha uno quedaba libre). Cada partido ganado valía 2 puntos.",
+                           "goleadores_nota": "RSSSF no tiene los goles de este torneo. El goleador fue Enzo Francescoli "
+                                              "(River), con 24 goles.",
+                           # (los puntos de cada temporada; se divide por las temporadas jugadas)
+                           "promedios_por_temporada": True,
+                           "promedios": {"1982": {"estudiantes-de-la-plata": [54, 1], "ferro-carril-oeste": [37, 1],
+                                                  "independiente": [52, 1], "velez-sarsfield": [42, 1], "newell-s-old-boys": [44, 1],
+                                                  "argentinos-juniors": [28, 1], "boca-juniors": [48, 1], "racing-cordoba": [39, 1],
+                                                  "river-plate": [34, 1], "instituto": [33, 1], "huracan": [41, 1], "talleres": [33, 1],
+                                                  "platense": [28, 1], "union": [27, 1], "rosario-central": [37, 1]},
+                                         "1983": {"estudiantes-de-la-plata": [38, 1], "ferro-carril-oeste": [46, 1],
+                                                  "independiente": [48, 1], "velez-sarsfield": [44, 1], "san-lorenzo": [47, 1],
+                                                  "newell-s-old-boys": [35, 1], "argentinos-juniors": [36, 1], "boca-juniors": [37, 1],
+                                                  "racing-cordoba": [27, 1], "river-plate": [29, 1], "instituto": [35, 1],
+                                                  "huracan": [32, 1], "talleres": [33, 1], "temperley": [33, 1], "platense": [34, 1],
+                                                  "union": [38, 1], "rosario-central": [30, 1]}},
+                           "descensos": "promedios", "descienden": 2,
+                           "cupos": {"anio": 1985, "fijos": True,
+                                     "libertadores": [("Campeón del Nacional 1984", "ferro-carril-oeste"),
+                                                      ("Campeón del Metropolitano 1984", "argentinos-juniors")]}},
     # 1985: el Campeonato Nacional 1985 (febrero a septiembre; campeón Argentinos), el último Nacional: 32 equipos (los
     # del Metropolitano y los del interior) en 8 zonas de 4 a dos ruedas ("zonas_a_mano"), con 2 puntos por partido
     # ganado; los dos primeros de cada zona pasaban a la rueda de ganadores y los otros dos a la de perdedores, adonde
@@ -2609,6 +2700,13 @@ CLUBES_NUEVOS = {
     "cno": ("central-norte", "Central Norte (Salta)"),
     "cde": ("circulo-deportivo", "Círculo Deportivo (Otamendi)"),
     "jal": ("juventud-alianza", "Juventud Alianza (San Juan)"),
+    "fgp": ("ferro-general-pico", "Ferro Carril Oeste (General Pico)"),   # (no están en ESPN: el Nacional 1984)
+    "ugp": ("union-general-pinedo", "Unión (General Pinedo)"),
+    "aur": ("atletico-uruguay", "Atlético Uruguay (Concepción del Uruguay)"),
+    "kim": ("kimberley", "Kimberley (Mar del Plata)"),
+    "led": ("ledesma", "Atlético Ledesma"),
+    "usv": ("union-san-vicente", "Unión San Vicente (Córdoba)"),
+    "atl": ("atlanta", "Atlanta"),   # (no está en ESPN: el Nacional y el Metropolitano 1984)
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)

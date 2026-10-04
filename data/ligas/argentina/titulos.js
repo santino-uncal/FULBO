@@ -1,7 +1,7 @@
 /* Los títulos de liga de cada club, para mostrar al lado del campeón qué número de título es (River en el Campeonato
    1989-90: el 23). Cuenta oficial de la AFA (Wikipedia, "List of Argentine Primera División champions"):
-   - antes: los títulos de cada club hasta el Metropolitano 1984 (amateurs y profesionales); ultimo_antes: el campeón
-     del Metropolitano 1984 (para contar los títulos seguidos: bicampeonatos, tricampeonatos).
+   - antes: los títulos de cada club hasta el Metropolitano 1983 (amateurs y profesionales); ultimo_antes: el campeón
+     del Metropolitano 1983 (para contar los títulos seguidos: bicampeonatos, tricampeonatos).
    - torneos: los títulos de cada torneo cargado, en orden. "club" es el campeón del torneo; ["club", "texto"] es otro
      título que se definió en ese torneo (la final de 1990-91, la Superfinal 2012-13, el "Campeón de Liga" 2025).
    - notas: los torneos cuyo campeón no suma un título de liga (y por qué).
@@ -9,9 +9,11 @@
 window.LIGA_TITULOS = {
   "antes": {"river-plate": 21, "boca-juniors": 21, "racing-club": 15, "independiente": 13, "san-lorenzo": 11,
             "huracan": 5, "estudiantes-de-la-plata": 4, "rosario-central": 3, "newell-s-old-boys": 1,
-            "argentinos-juniors": 1, "velez-sarsfield": 1},
-  "ultimo_antes": "argentinos-juniors",
+            "ferro-carril-oeste": 1, "velez-sarsfield": 1},
+  "ultimo_antes": "independiente",
   "torneos": {
+    "1984-nacional": ["ferro-carril-oeste"],
+    "1984-metropolitano": ["argentinos-juniors"],
     "1985-nacional": ["argentinos-juniors"],
     "1986-temporada": ["river-plate"],
     "1987-temporada": ["rosario-central"],
