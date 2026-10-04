@@ -1,4 +1,4 @@
-# Conversor usado en la fase 25 para cargar a mano los torneos 1992-2002 (tools/a_mano/liga-*.json).
+# Conversor usado en la fase 25 para cargar a mano los torneos 1991-2002 (tools/a_mano/liga-*.json).
 # Lee el texto de una página de RSSSF (tablesa/argNN.html pasada a texto) y el wikitext de Wikipedia de cada torneo,
 # los cruza y avisa las diferencias. Los archivos de entrada se bajan aparte, en la misma carpeta que este script.
 # Al final de cada año se corrigieron a mano notas, nombres y errores de las fuentes (ver fases/fase_25.md).
@@ -30,7 +30,7 @@ CLUBES = [  # (patrón normalizado al principio del nombre, id)
     ("almagro", "almagro"), ("argj", "argentinos-juniors"), ("depespanol", "deportivo-espanol"),
     ("deportivoespanol", "deportivo-espanol"), ("platense", "platense"), ("losandes", "los-andes"), ("quilmes", "quilmes"), ("instituto", "instituto"),
     ("depmandiyu", "deportivo-mandiyu"), ("deportivomandiyu", "deportivo-mandiyu"), ("mandiyu", "deportivo-mandiyu"), ("deportivomaniyu", "deportivo-mandiyu"),
-    ("sanmartin", "san-martin-tucuman")]
+    ("sanmartin", "san-martin-tucuman"), ("chaco", "chaco-for-ever")]
 
 
 def club(nombre):
@@ -63,6 +63,8 @@ def leer_rsssf(archivo, desde, hasta, anio_de):
         if m:
             ronda = int(m.group(2)) if m.group(2) else m.group(1)
         corchetes = re.findall(r"\[([^\]]*)\]", l)
+        # (1990-91: los goles del local y los del visitante en corchetes separados; el del visitante, más a la derecha)
+        columnas = [m.start() for m in re.finditer(r"\[[^\]]*\]", l.expandtabs(8))]
         resto = re.sub(r"\[[^\]]*\]", "", l).rstrip()
         m = re.match(r"^(\S.*?)\s+(\d+ ?- ?\d+|abd|awd)\s+(.+?)\s*$", resto)
         if m and ronda is not None:
@@ -72,7 +74,7 @@ def leer_rsssf(archivo, desde, hasta, anio_de):
                       "goleadores": None, "nota": None, "abd": r == "abd"}
             if r != "abd":   # (los suspendidos que se completaron después aparecen de nuevo con el resultado final)
                 partidos.append(actual)
-        for t in corchetes:
+        for t, col in zip(corchetes, columnas):
             t = t.strip()
             mf = re.fullmatch(r"(\w{3}) (\d+)(?:, ?\w+)?", t)
             if mf and mf.group(1) in MESES_EN:
@@ -88,6 +90,8 @@ def leer_rsssf(archivo, desde, hasta, anio_de):
                 if ma:
                     actual["gl"], actual["gv"] = int(ma.group(1)), int(ma.group(2))
                     actual["real"] = tuple(map(int, re.search(r"Abandoned (\d+)-(\d+)", t).groups()))
+            elif (col >= 20 or actual["goleadores"]) and not resto.strip():   # (los del visitante: a la derecha o abajo)
+                actual["goleadores"] = (actual["goleadores"] or "") + " - " + t
             else:
                 actual["goleadores"] = t
     return partidos
@@ -143,7 +147,7 @@ def goles_nombre_minuto(txt, lado):
 
 def goles(p):
     """Los goles de RSSSF: [{jugador, tipo, equipo}]"""
-    t = (p["goleadores"] or "").replace("o,g", "o.g")
+    t = re.sub(r"\s+o/g", " (og)", (p["goleadores"] or "").replace("o,g", "o.g")).strip()
     if not t:
         return []
     gl, gv = p.get("real", (p["gl"], p["gv"]))
@@ -207,7 +211,7 @@ def limpiar(c):
 
 def sacar_refn(c):
     """La nota {{refn|group=n.|texto}} (con plantillas adentro) y la celda sin ella"""
-    i = c.find("{{refn")
+    i = c.lower().find("{{refn")
     if i < 0:
         return c, None
     nivel, j = 0, i
@@ -222,7 +226,8 @@ def sacar_refn(c):
         j += 1
     nota = c[i + 2:j - 2]
     nota = re.sub(r"<ref[^>]*>.*?</ref>", "", nota, flags=re.S)
-    nota = re.sub(r"^refn\|group=[^|]*\|", "", nota)
+    nota = re.sub(r"^refn\|group=[^|]*\|", "", nota, flags=re.I)
+    nota = re.sub(r"^refn\|1=(.*?)\|group=[^|]*$", r"", nota, flags=re.I | re.S)   # (1991: {{Refn|1=texto|group="nota"}})
     nota = re.sub(r"\[\[(?:[^|\]]*\|)?([^\]]*)\]\]", r"\1", nota).strip()
     return c[:i] + c[j:], nota
 
@@ -317,9 +322,9 @@ def armar(clave, rsssf, wiki, anio_de, nombre, fuente):
 
 
 if __name__ == "__main__":
-    d = armar("1992-clausura", ("arg92.txt", 423, 712), "w_Torneo_Clausura_1992_(Argentina).txt", lambda m: 1992,
-              "Torneo Clausura 1992", "")
-    (AQUI / "c1992.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
-    d = armar("1992-apertura", ("arg93.txt", 43, 348), "w_Torneo_Apertura_1992_(Argentina).txt",
-              lambda m: 1992 if m >= 7 else 1993, "Torneo Apertura 1992", "")
-    (AQUI / "a1992.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+    # (Wikipedia no tiene los partidos del Clausura 1991: un archivo vacío)
+    d = armar("1991-clausura", ("arg91.txt", 563, 994), "w_vacio.txt", lambda m: 1991, "Torneo Clausura 1991", "")
+    (AQUI / "c1991.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+    d = armar("1991-apertura", ("arg92.txt", 41, 346), "w_Torneo_Apertura_1991_(Argentina).txt", lambda m: 1991,
+              "Torneo Apertura 1991", "")
+    (AQUI / "a1991.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")

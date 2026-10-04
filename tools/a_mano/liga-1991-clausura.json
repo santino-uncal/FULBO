@@ -1,0 +1,3407 @@
+{
+ "nombre": "Torneo Clausura 1991",
+ "fuente": "Resultados y goles (sin minutos): RSSSF (Pablo Ciullini). Wikipedia no tiene los partidos de este torneo: el día, de RSSSF, y la cancha solo cuando no era la del local. El mismo jugador escrito de dos formas: se unificó",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1991-02-22",
+     "local": "union",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Toresani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Toresani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.García",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-02-22",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Andrade",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-02-24",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Matosas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Czornomaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Capria",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-02-24",
+     "local": "platense",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Zamora",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pochettino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-02-24",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Coloccini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Latorre",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Latorre",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Batistuta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-02-24",
+     "local": "huracan",
+     "visitante": "deportivo-mandiyu",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Barrios",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Torres",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-02-24",
+     "local": "independiente",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Rudman",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Craviotto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Kenig",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-02-24",
+     "local": "chaco-for-ever",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "Niveyro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "F.García",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cañete",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Angelello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-02-24",
+     "local": "river-plate",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Medina Bello",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-02-24",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Cordero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cristofanelli",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1991-03-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Aredes",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-03",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Zalazar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zalazar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gareca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Merlo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-03",
+     "local": "deportivo-espanol",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Bevilacqua",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Peralta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bisconti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Úbeda",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-03",
+     "local": "lanus",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Cañete",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-03",
+     "local": "talleres",
+     "visitante": "chaco-for-ever",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Kenig",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.Vázquez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tilico",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-03",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-03-03",
+     "local": "deportivo-mandiyu",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [
+      {
+       "jugador": "Olarticoechea",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Torres",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-03",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Batistuta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Batistuta",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-03",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Franco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ruffini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ruffini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mogrovejo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-03",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1991-03-08",
+     "local": "union",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 4,
+     "goles": [
+      {
+       "jugador": "Latorre",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Latorre",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Batistuta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Batistuta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-10",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Capozucchi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-10",
+     "local": "argentinos-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Vidal González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Céliz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ballarino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-10",
+     "local": "huracan",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "J.López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zamora",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-10",
+     "local": "independiente",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Alfaro Moreno",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-10",
+     "local": "chaco-for-ever",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-03-10",
+     "local": "river-plate",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Berti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-10",
+     "local": "rosario-central",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Madelón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villagrán",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Iglesias",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Cordero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Amato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bevilacqua",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-10",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Gareca",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1991-03-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Mac Allister",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Capria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-17",
+     "local": "deportivo-espanol",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Parodi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cristofanelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-17",
+     "local": "lanus",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1991-03-17",
+     "local": "talleres",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "E.Vázquez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-17",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 5,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Borelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carranza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carranza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Da Silva",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-17",
+     "local": "deportivo-mandiyu",
+     "visitante": "chaco-for-ever",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "L.Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perdomo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-17",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-03-17",
+     "local": "newell-s-old-boys",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Berizzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D.Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-17",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Herrero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-17",
+     "local": "platense",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Spontón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Favaro",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1991-03-24",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Cagna",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cagna",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trapasso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trotta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Aredes",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-24",
+     "local": "huracan",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "De Felipe",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-24",
+     "local": "union",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "L.Rodríguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ferreyra",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-24",
+     "local": "independiente",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Ubaldi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-24",
+     "local": "chaco-for-ever",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-03-24",
+     "local": "river-plate",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Borrelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Borrelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barrios",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Barrios",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-24",
+     "local": "rosario-central",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Fleita",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-24",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "talleres",
+     "gl": 4,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "Mannarino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Piaggio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cordero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Amato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bonetto",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "E.Vázquez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Montenegro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-24",
+     "local": "ferro-carril-oeste",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-03-24",
+     "local": "velez-sarsfield",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "E.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bevilacqua",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Albornoz",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1991-03-31",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "deportivo-espanol",
+     "gl": 3,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Sáez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sáez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sáez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Albornoz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-31",
+     "local": "lanus",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1991-03-31",
+     "local": "talleres",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Kenig",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Kesmann",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-31",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "R.Paz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Paz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Amato",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-31",
+     "local": "deportivo-mandiyu",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [
+      {
+       "jugador": "Barrios",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-31",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Latorre",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-31",
+     "local": "newell-s-old-boys",
+     "visitante": "chaco-for-ever",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Boldrini",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-31",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Matosas",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-31",
+     "local": "platense",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Orellano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Toresani",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-03-31",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1991-04-04",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-04-04",
+     "local": "union",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Toresani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Toresani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "V.Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vidal González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-04",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 5,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Bianco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ubaldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Craviotto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alfaro Moreno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nannini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-04",
+     "local": "chaco-for-ever",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-04-04",
+     "local": "river-plate",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "H.Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berizzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-04",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Falaschi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Batistuta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-04",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Amato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Torres",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-04",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Selenzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-04",
+     "local": "velez-sarsfield",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Bassedas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "O.Acosta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.Vázquez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-04",
+     "local": "deportivo-espanol",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "Parodi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bevilacqua",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Iglesias",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Iglesias",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Villagrán",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1991-04-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Iglesias",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-14",
+     "local": "talleres",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Kenig",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bonetto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luongo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bevilacqua",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-14",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Ortega Sánchez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fleita",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-14",
+     "local": "deportivo-mandiyu",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1991-04-14",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Pico",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Soñora",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-14",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Pochettino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cozzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cozzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garfagnoli",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Se suspendió a los 41 del segundo tiempo y quedó el resultado"
+    },
+    {
+     "fecha": "1991-04-14",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Rinaldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zandoná",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rossi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Medina Bello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-14",
+     "local": "platense",
+     "visitante": "chaco-for-ever",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "D.Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cruz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-14",
+     "local": "argentinos-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Vidal González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Craviotto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-14",
+     "local": "huracan",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "H.Morales",
+       "equipo": "local"
+      },
+      {
+       "jugador": "V.Ramos",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1991-04-21",
+     "local": "union",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Cometto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trotta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-21",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Cúper o/g",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-21",
+     "local": "chaco-for-ever",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Quiñones",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-21",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-04-21",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Bisconti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gambier",
+       "equipo": "local"
+      },
+      {
+       "jugador": "L.Rodríguez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-21",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-04-21",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-04-21",
+     "local": "velez-sarsfield",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Bidevich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "L.Ramos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-21",
+     "local": "deportivo-espanol",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "J.L.Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Paz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "C.García",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-21",
+     "local": "lanus",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Fornero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rivadero",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1991-04-28",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Peinado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mac Allister",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-28",
+     "local": "racing-club",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Carranza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Angelello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-28",
+     "local": "deportivo-mandiyu",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [
+      {
+       "jugador": "Barrios",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-28",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Graciani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Batistuta",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-28",
+     "local": "newell-s-old-boys",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Berizzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pochettino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Boldrini",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-28",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "R.O.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ahmed",
+       "equipo": "local"
+      },
+      {
+       "jugador": "P.Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-28",
+     "local": "platense",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-04-28",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "P.Hernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Medina Bello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-28",
+     "local": "huracan",
+     "visitante": "chaco-for-ever",
+     "gl": 4,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "Borghi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saturno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saturno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "H.Morales",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Taffarel",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cruz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tilico",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-04-28",
+     "local": "union",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1991-05-05",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Alfaro Moreno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mac Allister",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-05",
+     "local": "chaco-for-ever",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Chilavert",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cruz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D.Fernández",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ingrao",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-05",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-05-05",
+     "local": "rosario-central",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Russo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Boggio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.Ortega",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-05-05",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Czornomaz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.O.García",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-05",
+     "local": "velez-sarsfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "E.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gareca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gareca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cozzoni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-05",
+     "local": "deportivo-espanol",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Graciani",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-05",
+     "local": "lanus",
+     "visitante": "deportivo-mandiyu",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-05-05",
+     "local": "talleres",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Ruiz Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.García",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1991-05-11",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Fleita",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-11",
+     "local": "deportivo-mandiyu",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [
+      {
+       "jugador": "Restelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "L.Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ruiz Díaz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-11",
+     "local": "boca-juniors",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Pico",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-11",
+     "local": "newell-s-old-boys",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-05-11",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "L.Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.O.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Czornomaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zandoná",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zalazar",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-11",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-05-11",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Mac Allister",
+       "equipo": "local"
+      },
+      {
+       "jugador": "P.Hernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cagna",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Galvagni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-11",
+     "local": "huracan",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Mohamed",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saturno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "H.Morales",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-11",
+     "local": "union",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Ingrao",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Da Silva",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-11",
+     "local": "independiente",
+     "visitante": "chaco-for-ever",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Villarreal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Taffarel",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1991-05-18",
+     "local": "chaco-for-ever",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-05-18",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Monzón o/g",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Leeb",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-18",
+     "local": "rosario-central",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-05-18",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Amato",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Biazotti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pobersnik",
+       "equipo": "local"
+      },
+      {
+       "jugador": "P.Hernández",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J.Ortega",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-18",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Zalazar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gareca",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-18",
+     "local": "deportivo-espanol",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Parodi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Galván",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-18",
+     "local": "lanus",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Villagrán",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-18",
+     "local": "talleres",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Ruiz Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Latorre",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Graciani",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-05-18",
+     "local": "racing-club",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "R.Paz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.García",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1991-06-02",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "deportivo-mandiyu",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Mendoza",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-02",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 6,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Batistuta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Batistuta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Batistuta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Latorre",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Latorre",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Graciani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ortega Sánchez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-02",
+     "local": "newell-s-old-boys",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Cozzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cozzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fornero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-02",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste}",
+     "goles": [
+      {
+       "jugador": "Czornomaz",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-02",
+     "local": "platense",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Orellano",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-02",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "E.González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "E.González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Acuña",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-02",
+     "local": "huracan",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Saturno",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-02",
+     "local": "union",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "V.Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Galvagni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-02",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Rudman",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bisconti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Uliambre",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-02",
+     "local": "chaco-for-ever",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "Cruz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silvani",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Claut",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Berti",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1991-06-12",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Sáez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-12",
+     "local": "rosario-central",
+     "visitante": "chaco-for-ever",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Santoro",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-12",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Mannarino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Odriozola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rudman",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-12",
+     "local": "ferro-carril-oeste",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Pobersnik",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Biazotti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-12",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Zalazar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saturno",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-12",
+     "local": "deportivo-espanol",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "J.L.Rodríguez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-12",
+     "local": "lanus",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "goles": [],
+     "nota": "Se suspendió al terminar el primer tiempo (0-0): le dieron el partido ganado 1-0 a Platense",
+     "sin_goles": true
+    },
+    {
+     "fecha": "1991-06-12",
+     "local": "talleres",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 4,
+     "goles": [
+      {
+       "jugador": "E.Vázquez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Kenig",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ruiz Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zandoná",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Céliz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Reggiardo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "L.Rodríguez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-12",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Ortega Sánchez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-12",
+     "local": "deportivo-mandiyu",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [
+      {
+       "jugador": "Mendoza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tapia",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Soñora",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1991-06-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1991-06-09",
+     "local": "newell-s-old-boys",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mendoza",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-09",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Ballarino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Czornomaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ortega Sánchez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-09",
+     "local": "platense",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Scotto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spontón",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-09",
+     "local": "argentinos-juniors",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1991-06-09",
+     "local": "huracan",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 4,
+     "goles": [
+      {
+       "jugador": "Albornoz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Albornoz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Albornoz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Parodi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-09",
+     "local": "union",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "V.Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gareca",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "E.González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-09",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Artime",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-09",
+     "local": "chaco-for-ever",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-06-09",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Da Silva",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1991-06-16",
+     "local": "rosario-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Gambier",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bisconti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Falaschi o/g",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Aredes",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-16",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-06-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "chaco-for-ever",
+     "gl": 4,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Pobersnik",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pobersnik",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pobersnik",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Biazotti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tilico",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cruz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-16",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "E.Gonzáelez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Artime",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-16",
+     "local": "deportivo-espanol",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Parodi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D.Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-16",
+     "local": "lanus",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1991-06-16",
+     "local": "talleres",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "Rivadero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "F.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pereyra",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Trapasso",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J.Ortega",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-16",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Spontón",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Capozucchi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-16",
+     "local": "deportivo-mandiyu",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [
+      {
+       "jugador": "Marrero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "L.Rodríguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Czornomaz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-16",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Hrabina",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1991-06-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-06-23",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": [
+      {
+       "jugador": "L.Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pico",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-23",
+     "local": "platense",
+     "visitante": "deportivo-mandiyu",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1991-06-23",
+     "local": "argentinos-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1991-06-23",
+     "local": "huracan",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Mohamed",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-23",
+     "local": "union",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Cabrol",
+       "equipo": "local"
+      },
+      {
+       "jugador": "V.Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Talarico",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-23",
+     "local": "independiente",
+     "visitante": "deportivo-espanol",
+     "gl": 3,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Garnero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garnero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Artime",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Parodi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-23",
+     "local": "chaco-for-ever",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Taffarel",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zalazar",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-23",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Silvani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pobersnik",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-23",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1991-06-30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Aredes",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mac Allister",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-30",
+     "local": "ferro-carril-oeste",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Biazotti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Galloni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-30",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "E.González",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-30",
+     "local": "deportivo-espanol",
+     "visitante": "chaco-for-ever",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Barrella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Taffarel",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-30",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Alonso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Craviotto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-30",
+     "local": "talleres",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Bonetto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ingrao",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-30",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "H.Morales",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Saturno",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-30",
+     "local": "deportivo-mandiyu",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [
+      {
+       "jugador": "L.Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mendoza",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-30",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Batistuta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Latorre",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pico",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1991-06-30",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Cozzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Czornomaz",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

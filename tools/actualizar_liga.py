@@ -33,10 +33,109 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1991: dos torneos de 20 equipos a una rueda, con 2 puntos por partido ganado; ESPN no los tiene: van a mano
+    # (tools/a_mano; RSSSF; Wikipedia no tiene los partidos del Clausura ni estadios ni días del Apertura). El Torneo
+    # Clausura 1991 (febrero-junio; campeón Boca, invicto) cerraba la temporada 1990-91, que era un solo campeonato: su
+    # campeón salió de una final entre los ganadores del Apertura 1990 (Newell's) y del Clausura (Boca), y ganó Newell's
+    # por penales. El segundo lugar en la Libertadores 1992 lo jugaron en una Liguilla Pre-Libertadores (RSSSF y
+    # Wikipedia; ganó San Lorenzo). Su "tabla anual" es la de la temporada, con la tabla del Apertura 1990 (RSSSF; Boca y
+    # San Lorenzo perdieron los dos el partido entre ellos). Promedios de 1988-89 y 1989-90, de RSSSF. Bajaron los dos
+    # últimos (Chaco For Ever y Lanús). Los goles del Clausura, de RSSSF (sin minutos)
+    "1991-clausura": {"nombre": "Torneo Clausura 1991", "anio": 1991, "liga": "a_mano", "slug": "1991-clausura",
+                      "zonas": "unica", "fechas": 19, "pasan": 0, "puntos_victoria": 2,
+                      "campeon_tabla": True, "temporada": "1990-91", "nombre_anual": "Temporada y copas",
+                      "goleadores_nota": "Goles de RSSSF, sin minutos; la lista suma los de la final por el campeonato y "
+                                         "los de la Liguilla.",
+                      "nombre_playoffs": "Final y Liguilla",
+                      "playoffs": [(r"^$^", n) for n in ("Final por el campeonato", "Cuartos de final", "Semifinales",
+                                                         "Final de la Liguilla")],
+                      "playoffs_a_mano": {
+                          "Final por el campeonato": [
+                              {"hora_utc": "1991-07-06T19:00Z", "fecha": "1991-07-06", "local": "newell-s-old-boys", "visitante": "boca-juniors", "gl": 1, "gv": 0, "estadio": "Gigante de Arroyito (Rosario Central)", "goles": [{"jugador": "Berizzo", "equipo": "local"}]},
+                              {"hora_utc": "1991-07-09T19:00Z", "fecha": "1991-07-09", "local": "boca-juniors", "visitante": "newell-s-old-boys", "gl": 1, "gv": 0, "estadio": "La Bombonera", "pen_l": 1, "pen_v": 3, "goles": [{"jugador": "Reinoso", "equipo": "local"}]},
+                          ],
+                          "Cuartos de final": [
+                              {"hora_utc": "1991-07-13T19:00Z", "fecha": "1991-07-13", "local": "river-plate", "visitante": "deportivo-mandiyu", "gl": 2, "gv": 0, "goles": [{"jugador": "Berti", "equipo": "local"}, {"jugador": "Castro", "equipo": "local"}]},
+                              {"hora_utc": "1991-07-13T19:00Z", "fecha": "1991-07-13", "local": "independiente", "visitante": "san-lorenzo", "gl": 1, "gv": 1, "goles": [{"jugador": "Artime", "equipo": "local"}, {"jugador": "Ferreyra", "equipo": "visitante"}]},
+                              {"hora_utc": "1991-07-14T19:00Z", "fecha": "1991-07-14", "local": "velez-sarsfield", "visitante": "racing-club", "gl": 3, "gv": 0, "goles": [{"jugador": "Acosta", "equipo": "local"}, {"jugador": "Acosta", "equipo": "local"}, {"jugador": "E.González", "equipo": "local"}]},
+                              {"hora_utc": "1991-07-14T19:00Z", "fecha": "1991-07-14", "local": "boca-juniors", "visitante": "argentinos-juniors", "gl": 0, "gv": 1, "goles": [{"jugador": "Fernández", "equipo": "visitante"}]},
+                              {"hora_utc": "1991-07-20T19:00Z", "fecha": "1991-07-20", "local": "argentinos-juniors", "visitante": "boca-juniors", "gl": 0, "gv": 2, "estadio": "Cancha de Vélez Sarsfield", "goles": [{"jugador": "Gaona", "equipo": "visitante"}, {"jugador": "Soñora", "equipo": "visitante"}]},
+                              {"hora_utc": "1991-07-21T19:00Z", "fecha": "1991-07-21", "local": "deportivo-mandiyu", "visitante": "river-plate", "gl": 0, "gv": 2, "estadio": "Cancha de Huracán Corrientes", "goles": [{"jugador": "Silvani", "equipo": "visitante"}, {"jugador": "Vega", "equipo": "visitante", "tipo": "ec"}]},
+                              {"hora_utc": "1991-07-21T19:00Z", "fecha": "1991-07-21", "local": "racing-club", "visitante": "velez-sarsfield", "gl": 5, "gv": 1, "alargue": True, "goles": [{"jugador": "Alfonso", "equipo": "local"}, {"jugador": "Paz", "equipo": "local"}, {"jugador": "Ortega Sánchez", "equipo": "local"}, {"jugador": "Fleita", "equipo": "local"}, {"jugador": "Borelli", "equipo": "local"}, {"jugador": "Acuña", "equipo": "visitante"}]},
+                              {"hora_utc": "1991-07-21T19:00Z", "fecha": "1991-07-21", "local": "san-lorenzo", "visitante": "independiente", "gl": 2, "gv": 1, "estadio": "Cancha de Vélez Sarsfield", "goles": [{"jugador": "Zandoná", "equipo": "local"}, {"jugador": "Bustos", "equipo": "local"}, {"jugador": "Artime", "equipo": "visitante"}]},
+                          ],
+                          "Semifinales": [
+                              {"hora_utc": "1991-07-28T19:00Z", "fecha": "1991-07-28", "local": "river-plate", "visitante": "san-lorenzo", "gl": 0, "gv": 0},
+                              {"hora_utc": "1991-07-28T19:00Z", "fecha": "1991-07-28", "local": "boca-juniors", "visitante": "racing-club", "gl": 1, "gv": 1, "goles": [{"jugador": "Gaona", "equipo": "local"}, {"jugador": "Ortega Sánchez", "equipo": "visitante"}]},
+                              {"hora_utc": "1991-08-04T19:00Z", "fecha": "1991-08-04", "local": "san-lorenzo", "visitante": "river-plate", "gl": 0, "gv": 0, "estadio": "Cancha de Huracán", "pen_l": 4, "pen_v": 1},
+                              {"hora_utc": "1991-08-04T19:00Z", "fecha": "1991-08-04", "local": "racing-club", "visitante": "boca-juniors", "gl": 0, "gv": 0, "pen_l": 2, "pen_v": 4},
+                          ],
+                          "Final de la Liguilla": [
+                              {"hora_utc": "1991-08-08T19:00Z", "fecha": "1991-08-08", "local": "san-lorenzo", "visitante": "boca-juniors", "gl": 1, "gv": 0, "estadio": "Cancha de Vélez Sarsfield", "goles": [{"jugador": "Carrizo", "equipo": "local"}]},
+                              {"hora_utc": "1991-08-11T19:00Z", "fecha": "1991-08-11", "local": "boca-juniors", "visitante": "san-lorenzo", "gl": 0, "gv": 1, "goles": [{"jugador": "Rossi", "equipo": "visitante"}]},
+                          ],
+                      },
+                      "ida_y_vuelta": True,
+                      "cuadro": {"bloques": [("Final por el campeonato 1990-91: Newell's (campeón del Apertura 1990) y "
+                                              "Boca (campeón del Clausura 1991)", [["Final por el campeonato"]]),
+                                             ("Liguilla Pre-Libertadores: por el segundo lugar en la Libertadores 1992",
+                                              [["Cuartos de final"], ["Semifinales"], ["Final de la Liguilla"]])],
+                                 "nota": "Newell's ganó la final por penales y fue el campeón de la temporada 1990-91. "
+                                         "A la Liguilla fueron el que perdió la final y los que siguieron en las tablas "
+                                         "del Apertura y del Clausura. De los partidos hay solo los goleadores, sin los "
+                                         "minutos."},
+                      # la tabla del Apertura 1990 (RSSSF; con 2 puntos por partido ganado): [pts, pj, g, e, p, gf, gc]
+                      # (Unión, 14 y 6 empates, de Wikipedia: RSSSF tiene 13 y 5, y así los empates no cierran;
+                      # Talleres, 8 perdidos: RSSSF tiene 9)
+                      "anual": {"newell-s-old-boys": [28, 19, 11, 6, 2, 30, 13], "river-plate": [26, 19, 11, 4, 4, 29, 13],
+                                "velez-sarsfield": [24, 19, 8, 8, 3, 27, 18], "argentinos-juniors": [23, 19, 9, 5, 5, 25, 17],
+                                "rosario-central": [23, 19, 9, 5, 5, 26, 21], "ferro-carril-oeste": [23, 19, 7, 9, 3, 19, 16],
+                                "estudiantes-de-la-plata": [20, 19, 6, 8, 5, 17, 17], "boca-juniors": [19, 19, 6, 7, 6, 18, 16],
+                                "huracan": [19, 19, 5, 9, 5, 20, 19], "independiente": [18, 19, 6, 6, 7, 21, 22],
+                                "san-lorenzo": [18, 19, 4, 10, 5, 15, 18], "talleres": [18, 19, 7, 4, 8, 23, 27],
+                                "racing-club": [17, 19, 2, 13, 4, 19, 21], "gimnasia-y-esgrima": [16, 19, 2, 12, 5, 15, 20],
+                                "platense": [16, 19, 5, 6, 8, 16, 22], "chaco-for-ever": [16, 19, 6, 4, 9, 19, 28],
+                                "deportivo-mandiyu": [15, 19, 4, 7, 8, 17, 21], "deportivo-espanol": [14, 19, 4, 6, 9, 18, 24],
+                                "union": [14, 19, 4, 6, 9, 21, 28], "lanus": [11, 19, 3, 5, 11, 11, 27]},
+                      "anual_texto": "La tabla de la temporada 1990-91: suma el Torneo Apertura 1990 (de RSSSF: no está "
+                                     "cargado partido por partido; Boca y San Lorenzo perdieron los dos el partido entre "
+                                     "ellos, suspendido por la muerte de un hincha) y el Torneo Clausura 1991. Cada partido "
+                                     "ganado valía 2 puntos. El campeón salió de la final entre los dos campeones.",
+                      # (con 2 puntos por partido ganado)
+                      "promedios": {"1988-89": {"boca-juniors": [49, 38], "river-plate": [45, 38], "independiente": [55, 38],
+                                                "san-lorenzo": [42, 38], "racing-club": [42, 38], "velez-sarsfield": [33, 38],
+                                                "newell-s-old-boys": [35, 38], "rosario-central": [36, 38],
+                                                "argentinos-juniors": [42, 38], "estudiantes-de-la-plata": [42, 38],
+                                                "talleres": [44, 38], "gimnasia-y-esgrima": [36, 38],
+                                                "ferro-carril-oeste": [30, 38], "deportivo-mandiyu": [33, 38],
+                                                "deportivo-espanol": [46, 38], "platense": [33, 38]},
+                                    "1989-90": {"boca-juniors": [43, 38], "river-plate": [53, 38], "independiente": [46, 38],
+                                                "san-lorenzo": [35, 38], "racing-club": [39, 38], "velez-sarsfield": [42, 38],
+                                                "newell-s-old-boys": [36, 38], "rosario-central": [43, 38],
+                                                "argentinos-juniors": [38, 38], "estudiantes-de-la-plata": [34, 38],
+                                                "talleres": [36, 38], "gimnasia-y-esgrima": [39, 38],
+                                                "ferro-carril-oeste": [39, 38], "deportivo-mandiyu": [36, 38],
+                                                "deportivo-espanol": [31, 38], "platense": [36, 38], "union": [36, 38],
+                                                "chaco-for-ever": [32, 38]}},
+                      "descensos": "promedios", "descienden": 2,
+                      "cupos": {"anio": 1992, "fijos": True,
+                                "libertadores": [("Campeón de la temporada 1990-91 (ganó la final)", "newell-s-old-boys"),
+                                                 ("Ganador de la Liguilla Pre-Libertadores", "san-lorenzo")],
+                                "nota": "La Copa Conmebol empezó en 1992: sus lugares salieron de la temporada 1991-92."}},
+    # El Torneo Apertura 1991 (agosto-diciembre; campeón River) abría la temporada 1991-92
+    "1991-apertura": {"nombre": "Torneo Apertura 1991", "anio": 1991, "liga": "a_mano", "slug": "1991-apertura",
+                      "zonas": "unica", "fechas": 19, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                      "goleadores_nota": "RSSSF no tiene los goles de este torneo. El goleador fue Ramón Díaz (River), "
+                                         "con 14 goles.",
+                      "anual": [("a_mano", r"^1991-clausura$")],
+                      "anual_texto": "La tabla del año 1991: suma el Torneo Clausura 1991 y el Torneo Apertura 1991 (con 2 "
+                                     "puntos por partido ganado). No daba lugares en las copas.",
+                      "sin_descensos": "En el Torneo Apertura 1991 no hubo descensos: se definieron al terminar la "
+                                       "temporada 1991-92, con el Torneo Clausura 1992."},
     # 1992: dos torneos de 20 equipos a una rueda, con 2 puntos por partido ganado; ESPN no los tiene: van a mano
     # (tools/a_mano; RSSSF, sin goles; Wikipedia no tiene estadios ni días). El Torneo Clausura 1992 (febrero-julio;
-    # campeón Newell's) cerraba la temporada 1991-92: su "tabla anual" es la de la temporada, con la tabla del Apertura
-    # 1991 (RSSSF). A Quilmes le descontaron 2 puntos (también en la tabla del año 1992, por DESCUENTOS). Promedios de
+    # campeón Newell's) cerraba la temporada 1991-92: su "tabla anual" es la de la temporada, con el Apertura 1991
+    # (cargado a mano). A Quilmes le descontaron 2 puntos (también en la tabla del año 1992, por DESCUENTOS). Promedios de
     # 1989-90 y 1990-91, de RSSSF. Bajaron los dos últimos (Unión y Quilmes). Los lugares en las copas salieron de la
     # Liguilla Pre-Libertadores (RSSSF): los dos campeones (River y Newell's) jugaron una final a tres partidos; ocho
     # equipos de la temporada jugaron un Octogonal, y el ganador (Vélez) jugó con el campeón que perdió la final (Newell's)
@@ -104,19 +203,9 @@ TORNEOS = {
                                               "contra el ganador del Octogonal", [["Por el segundo lugar en la Libertadores"]])],
                                  "nota": "La Liguilla Pre-Libertadores repartió los lugares de la Argentina en las copas. "
                                          "De los partidos hay solo los goleadores, sin los minutos."},
-                      # la tabla del Apertura 1991 (RSSSF; con 2 puntos por partido ganado): [pts, pj, g, e, p, gf, gc]
-                      "anual": {"river-plate": [31, 19, 14, 3, 2, 33, 11], "boca-juniors": [24, 19, 7, 10, 2, 22, 15],
-                                "san-lorenzo": [22, 19, 4, 14, 1, 20, 14], "velez-sarsfield": [21, 19, 8, 5, 6, 27, 18],
-                                "gimnasia-y-esgrima": [21, 19, 7, 7, 5, 16, 17], "deportivo-mandiyu": [20, 19, 7, 6, 6, 22, 20],
-                                "platense": [20, 19, 5, 10, 4, 16, 14], "talleres": [20, 19, 7, 6, 6, 19, 21],
-                                "argentinos-juniors": [19, 19, 4, 11, 4, 18, 18], "ferro-carril-oeste": [19, 19, 6, 7, 6, 16, 16],
-                                "independiente": [19, 19, 6, 7, 6, 20, 21], "huracan": [19, 19, 5, 9, 5, 18, 21],
-                                "racing-club": [18, 19, 4, 10, 5, 14, 14], "deportivo-espanol": [18, 19, 6, 6, 7, 23, 25],
-                                "belgrano": [17, 19, 3, 11, 5, 15, 17], "rosario-central": [17, 19, 4, 9, 6, 17, 21],
-                                "estudiantes-de-la-plata": [16, 19, 4, 8, 7, 14, 21], "newell-s-old-boys": [15, 19, 3, 9, 7, 14, 16],
-                                "union": [14, 19, 3, 8, 8, 13, 21], "quilmes": [10, 19, 1, 8, 10, 9, 25]},
-                      "anual_texto": "La tabla de la temporada 1991-92: suma el Torneo Apertura 1991 (de RSSSF: no está "
-                                     "cargado partido por partido) y el Torneo Clausura 1992. Cada partido ganado valía 2 "
+                      "anual": [("a_mano", r"^1991-apertura$", 1991)],
+                      "anual_texto": "La tabla de la temporada 1991-92: suma el Torneo Apertura 1991 y el Torneo "
+                                     "Clausura 1992. Cada partido ganado valía 2 "
                                      "puntos. Los lugares en las copas no salieron de esta tabla sino de la Liguilla "
                                      "Pre-Libertadores.",
                       # (con 2 puntos por partido ganado)
@@ -1848,7 +1937,7 @@ PIERDEN_LOS_DOS = {"186468": (0, 2)}
 # la temporada 1999-00 del Clausura 2000)
 # Puntos por partido ganado en los torneos que no daban 3 ({clave del torneo a mano: puntos}): hasta el Clausura 1995,
 # 2 (se suman así también en la tabla del año 1995)
-PUNTOS_VICTORIA = {"1992-clausura": 2, "1992-apertura": 2, "1993-clausura": 2, "1993-apertura": 2, "1994-clausura": 2, "1994-apertura": 2, "1995-clausura": 2}
+PUNTOS_VICTORIA = {"1991-clausura": 2, "1991-apertura": 2, "1992-clausura": 2, "1992-apertura": 2, "1993-clausura": 2, "1993-apertura": 2, "1994-clausura": 2, "1994-apertura": 2, "1995-clausura": 2}
 DESCUENTOS = {(2014, "7"): 6, (1992, "2741", r"^1992-clausura$"): 2, (1993, "16", r"^1992-apertura$"): 2,
               (1993, "8713", r"^1992-apertura$"): 2, (1993, "17", r"^1993-clausura$"): 2, (1995, "19", r"^1994-apertura$"): 2, (2004, "6", r"^torneo-apertura-2003$"): 3, (2000, "5", r"^2000-clausura$"): 3,
               (2000, "12", r"^2000-clausura$"): 3, (2001, "lan", r"^2001-clausura$"): 3,
@@ -1883,7 +1972,8 @@ CLUBES_NUEVOS = {
     "fco": ("ferro-carril-oeste", "Ferro Carril Oeste"),
     "des": ("deportivo-espanol", "Deportivo Español"),   # (no está en ESPN: 1997-98)
     "gyt": ("gimnasia-y-tiro", "Gimnasia y Tiro (Salta)"),   # (no está en ESPN: 1997-98)
-    "dma": ("deportivo-mandiyu", "Deportivo Mandiyú"),   # (no está en ESPN: 1994-95)
+    "dma": ("deportivo-mandiyu", "Deportivo Mandiyú"),
+    "cfe": ("chaco-for-ever", "Chaco For Ever"),   # (no está en ESPN: 1990-91)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
 }
@@ -2264,6 +2354,8 @@ def armar(clave):
             del p["espn"]
             p.update({"fecha": m["fecha"], "hora": m.get("hora"), "fecha_n": e["_fecha_n"], "nota": m.get("nota"),
                       "para_local": m.get("para_local"), "para_visitante": m.get("para_visitante"),
+                      # (sin_goles: un partido dado por ganado en el escritorio, sin goles de verdad: Lanús-Platense 1991)
+                      "sin_goles": m.get("sin_goles"),
                       "goles": [{**g, "jid": f"{p[g['equipo']]}:{g['jugador']}"} for g in m.get("goles", [])]})
         fase = es_playoff(e)
         if cfg.get("desempate") and re.search(cfg["desempate"], e["season"]["slug"]):
