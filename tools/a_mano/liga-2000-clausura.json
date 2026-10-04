@@ -1,0 +1,4427 @@
+{
+ "nombre": "Torneo Clausura 2000",
+ "fuente": "Resultados y goles: RSSSF (Javier Roimiser), solo con el apellido y sin minutos. Estadio, día y hora: Wikipedia. El mismo jugador con y sin la inicial, unificado con la inicial",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "2000-02-11",
+     "hora": "21:00",
+     "local": "belgrano",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "José Villarreal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Javier Villarreal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Álvarez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Betancourt",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Klimowicz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Klimowicz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-11",
+     "hora": "21:00",
+     "local": "racing-club",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Estévez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Estévez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cordone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Astudillo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-12",
+     "hora": "20:00",
+     "local": "rosario-central",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Rivarola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sandy",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-13",
+     "hora": "18:00",
+     "local": "instituto",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Jiménez",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "D. Álvarez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "D. Álvarez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-13",
+     "hora": "17:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Brown",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Schiavi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-13",
+     "hora": "18:00",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bermúdez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Barijho",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Arruabarrena",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-13",
+     "hora": "17:00",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "López",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-13",
+     "hora": "18:00",
+     "local": "colon",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Fuertes",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-13",
+     "hora": "17:00",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Risso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sánchez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-14",
+     "hora": "21:00",
+     "local": "ferro-carril-oeste",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Hernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Domizi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Prátola",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sartori",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "2000-02-18",
+     "hora": "21:00",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Ángel",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-18",
+     "hora": "21:00",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Kmet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Graf",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Graf",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-19",
+     "hora": "20:00",
+     "local": "union",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "López",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-20",
+     "hora": "18:00",
+     "local": "talleres",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Gigena",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-20",
+     "hora": "17:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Sanguinetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sánchez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-20",
+     "hora": "18:00",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Estévez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gmo. Barros Schelotto",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-20",
+     "hora": "17:00",
+     "local": "gimnasia-jujuy",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "23 de agosto",
+     "goles": [
+      {
+       "jugador": "Enría",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fuertes",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-20",
+     "hora": "17:00",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "D. Husain",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baratteri",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Bardaro",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-20",
+     "hora": "17:00",
+     "local": "argentinos-juniors",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Carnero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Medina",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-21",
+     "hora": "21:00",
+     "local": "newell-s-old-boys",
+     "visitante": "instituto",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Real",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Real",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Real",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Manso",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "2000-02-25",
+     "hora": "21:00",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "gl": 8,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Milito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D. Montenegro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D. Montenegro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D. Montenegro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marioni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marioni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A. Montenegro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Forlán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Schiavi",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-26",
+     "hora": "20:00",
+     "local": "belgrano",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Torres",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Medina",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Chilavert",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Camps",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Morigi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-27",
+     "hora": "18:00",
+     "local": "boca-juniors",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Moreno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vilallonga",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-27",
+     "hora": "17:00",
+     "local": "colon",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cardetti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cardetti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ángel",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "D. Álvarez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-27",
+     "hora": "17:00",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Pizzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fuentes",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-27",
+     "hora": "17:30",
+     "local": "instituto",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": [
+      {
+       "jugador": "Jiménez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tilger",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-27",
+     "hora": "17:00",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Messera",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-27",
+     "hora": "17:00",
+     "local": "ferro-carril-oeste",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Marzo",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Marzo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maidana",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-27",
+     "hora": "17:00",
+     "local": "chacarita-juniors",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Rivero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Peralta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-02-28",
+     "hora": "21:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-jujuy",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Piersimone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Piersimone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Piersimone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Farías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Farías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aguírrez",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "2000-03-03",
+     "hora": "21:00",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Hernández",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ascencio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-03",
+     "hora": "21:30",
+     "local": "union",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "2000-03-04",
+     "hora": "20:00",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "2000-03-05",
+     "hora": "17:00",
+     "local": "talleres",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Gigena",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Romeo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Romeo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-05",
+     "hora": "17:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Sava",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-05",
+     "hora": "17:00",
+     "local": "chacarita-juniors",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Samuel",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Moreno",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Moreno",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Moreno",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-05",
+     "hora": "17:00",
+     "local": "newell-s-old-boys",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Guiñazú",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Real",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mateo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Biaggio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castagno Suárez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-05",
+     "hora": "18:00",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Saviola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D. Álvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Brown",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Farías",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-05",
+     "hora": "17:00",
+     "local": "gimnasia-jujuy",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "23 de agosto",
+     "goles": [
+      {
+       "jugador": "Romano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Medina",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-06",
+     "hora": "21:00",
+     "local": "argentinos-juniors",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Klimowicz",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "2000-03-10",
+     "hora": "21:00",
+     "local": "independiente",
+     "visitante": "gimnasia-jujuy",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "A. Montenegro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marioni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marioni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Graf",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bisconti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-11",
+     "hora": "20:00",
+     "local": "belgrano",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Cardetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-12",
+     "hora": "16:30",
+     "local": "boca-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Moreno",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-12",
+     "hora": "16:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Farías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quintana",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Quintana",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Manso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-12",
+     "hora": "16:30",
+     "local": "colon",
+     "visitante": "union",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Fuertes",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Enría",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-12",
+     "hora": "16:30",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Cuberas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pizzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maceratesi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E. González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sava",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "San Esteban",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-12",
+     "hora": "16:30",
+     "local": "instituto",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Jiménez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sarría",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-12",
+     "hora": "18:00",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Franco",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-13",
+     "hora": "21:00",
+     "local": "ferro-carril-oeste",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Chaparro",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-12",
+     "hora": "16:30",
+     "local": "lanus",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Camps",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castromón",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 35 segundos (0-0) porque desde la tribuna de Lanús le tiraron una bomba de estruendo a Chilavert; se jugó completo el 19 de abril"
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "2000-03-17",
+     "hora": "21:00",
+     "local": "racing-club",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Cordone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Buján",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Amato",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-18",
+     "hora": "20:00",
+     "local": "velez-sarsfield",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "De la Vega",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Morigi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Camps",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Schiavi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Schiavi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sandoval",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-19",
+     "hora": "16:00",
+     "local": "gimnasia-jujuy",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "23 de agosto",
+     "goles": [
+      {
+       "jugador": "Bisconti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Da Silva",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-19",
+     "hora": "16:30",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "2000-03-19",
+     "hora": "16:30",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Riquelme",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Moreno",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marchant",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Groothuis",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-19",
+     "hora": "16:30",
+     "local": "talleres",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Silva",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roth",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Escobar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pizzi",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-19",
+     "hora": "16:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "colon",
+     "gl": 6,
+     "gv": 6,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Sava",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sava",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sava",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sava",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sánchez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "San Esteban",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Fuertes",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Fuertes",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fuertes",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Valencia",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cufré",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Morant",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-19",
+     "hora": "16:30",
+     "local": "newell-s-old-boys",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Carnero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-19",
+     "hora": "18:00",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Trotta",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Saviola",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-03-20",
+     "hora": "21:00",
+     "local": "union",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Sáenz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tilger",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Casartelli",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "2000-03-31",
+     "hora": "21:00",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Romeo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pusineri",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-01",
+     "hora": "20:00",
+     "local": "rosario-central",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Maceratesi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cordone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-02",
+     "hora": "15:00",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Cervera",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-02",
+     "hora": "15:30",
+     "local": "lanus",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Zubeldía",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ángel",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-02",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Romagnoli",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Sava",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-02",
+     "hora": "15:30",
+     "local": "independiente",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Marioni",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Quintana",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Manso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-02",
+     "hora": "16:00",
+     "local": "belgrano",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Lujambio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Torres",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Torres",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Paz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-02",
+     "hora": "15:30",
+     "local": "colon",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Marzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-02",
+     "hora": "17:00",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "2000-04-03",
+     "hora": "21:00",
+     "local": "instituto",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Juan Domingo Perón",
+     "goles": [
+      {
+       "jugador": "Jiménez",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Pagés",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ábalos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Boujón",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "2000-04-07",
+     "hora": "21:00",
+     "local": "racing-club",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Milito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fuertes",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Biaggio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-08",
+     "hora": "20:30",
+     "local": "gimnasia-jujuy",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "23 de agosto",
+     "goles": [
+      {
+       "jugador": "M. Lobo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D. Husain",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "D. Husain",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bassedas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-08",
+     "hora": "17:00",
+     "local": "talleres",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Pronetto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Farías",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-08",
+     "hora": "21:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Alonso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lujambio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lujambio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lujambio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-08",
+     "hora": "20:00",
+     "local": "union",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Domizi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tilger",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Basualdo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Forlán",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-09",
+     "hora": "15:30",
+     "local": "newell-s-old-boys",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Cejas",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Real",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bernardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Klimowicz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M. Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-09",
+     "hora": "15:30",
+     "local": "ferro-carril-oeste",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Jiménez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-09",
+     "hora": "17:00",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Riquelme",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-22",
+     "hora": "15:30",
+     "local": "river-plate",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Trotta",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Gancedo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Osorio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Schiavi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-22",
+     "hora": "15:30",
+     "local": "chacarita-juniors",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Schiavi",
+       "equipo": "local",
+       "tipo": "pen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "2000-04-11",
+     "hora": "19:00",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Forlán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Galván",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-11",
+     "hora": "21:00",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Denis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fuentes",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Crosa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "París",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gigena",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-11",
+     "hora": "21:00",
+     "local": "instituto",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": [
+      {
+       "jugador": "Amato",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-12",
+     "hora": "20:00",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Trotta",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Óbolo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cardetti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Trotta",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Saviola",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-12",
+     "hora": "20:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Agoglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Casartelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Peralta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lux",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-12",
+     "hora": "20:00",
+     "local": "belgrano",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    },
+    {
+     "fecha": "2000-04-12",
+     "hora": "20:00",
+     "local": "rosario-central",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Pizzi",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Pizzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pizzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Groothuis",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Hernández",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rocha",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-12",
+     "hora": "20:00",
+     "local": "lanus",
+     "visitante": "union",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Klimowicz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Betancourt",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vilallonga",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Vilallonga",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Vilallonga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Domizi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zapata",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-12",
+     "hora": "18:00",
+     "local": "colon",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Enría",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-22",
+     "hora": "15:30",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Romano",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se postergó a pedido de Boca, que jugaba la Copa Libertadores"
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "2000-04-14",
+     "hora": "21:00",
+     "local": "racing-club",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "2000-04-15",
+     "hora": "20:00",
+     "local": "talleres",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Marioni",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Marioni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cambiasso",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Forlán",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-16",
+     "hora": "15:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "San Esteban",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Sava",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M. Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-16",
+     "hora": "15:30",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Bernardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castromán",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-16",
+     "hora": "16:00",
+     "local": "instituto",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Marczuk",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Amato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-16",
+     "hora": "15:30",
+     "local": "chacarita-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Schiavi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carrario",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carreño",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Farías",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-16",
+     "hora": "16:00",
+     "local": "union",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Cabrol",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silvera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zagharián",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-16",
+     "hora": "17:00",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Erviti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-17",
+     "hora": "18:00",
+     "local": "river-plate",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Coudet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gancedo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-04-17",
+     "hora": "21:00",
+     "local": "ferro-carril-oeste",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Fuertes",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fuertes",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "2000-05-12",
+     "hora": "21:00",
+     "local": "velez-sarsfield",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Cabrol",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Silvera",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-13",
+     "hora": "20:00",
+     "local": "colon",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Fuertes",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Biaggio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Franco",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-14",
+     "hora": "15:30",
+     "local": "belgrano",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Gigante de Alberdi",
+     "goles": [
+      {
+       "jugador": "Lujambio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Torres",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Torres",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Schiavi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Capria",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-14",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Farías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Casartelli",
+       "equipo": "local",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-14",
+     "hora": "15:30",
+     "local": "rosario-central",
+     "visitante": "instituto",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Latorre",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Latorre",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alaniz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Jiménez",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Amato",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-14",
+     "hora": "15:30",
+     "local": "gimnasia-jujuy",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "23 de agosto",
+     "goles": [
+      {
+       "jugador": "Garnier",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cartes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coronel",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-14",
+     "hora": "15:30",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Marioni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cambiasso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Monserrat",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-14",
+     "hora": "15:30",
+     "local": "lanus",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "2000-05-14",
+     "hora": "17:00",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Guillermo B. Schelotto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cuevas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-15",
+     "hora": "21:00",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Osorio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Osorio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zagharián",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "2000-05-19",
+     "hora": "21:00",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Romeo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Romeo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Brown",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-20",
+     "hora": "20:00",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "París",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Manso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Yepes",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cardetti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Aimar",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cuevas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-21",
+     "hora": "15:30",
+     "local": "racing-club",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Vilallonga",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vilallonga",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Klimowicz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-21",
+     "hora": "15:30",
+     "local": "talleres",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    },
+    {
+     "fecha": "2000-05-21",
+     "hora": "15:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Alonso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Óbolo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-21",
+     "hora": "16:00",
+     "local": "union",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Tilger",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Prátola",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-21",
+     "hora": "15:30",
+     "local": "instituto",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Domingo Perón",
+     "goles": [
+      {
+       "jugador": "Jiménez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Jiménez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sarría",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fuertes",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Medero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-21",
+     "hora": "15:30",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "S. García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carrario",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marioni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "V. López",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-21",
+     "hora": "17:00",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Navas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barijho",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-22",
+     "hora": "21:00",
+     "local": "ferro-carril-oeste",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Chaparro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lujambio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lujambio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Torres",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Medina",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Solana",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "2000-05-26",
+     "hora": "21:00",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Cambiasso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Graf",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-28",
+     "hora": "15:30",
+     "local": "lanus",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Alesandria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Kmet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Klimowicz",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-28",
+     "hora": "15:30",
+     "local": "belgrano",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Luis Fernando",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Franco",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Romeo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-28",
+     "hora": "15:30",
+     "local": "colon",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Maceratesi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Moreno y Fabianesi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-28",
+     "hora": "15:30",
+     "local": "gimnasia-jujuy",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "23 de agosto",
+     "goles": [
+      {
+       "jugador": "Alonso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-28",
+     "hora": "15:30",
+     "local": "velez-sarsfield",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "2000-05-28",
+     "hora": "15:30",
+     "local": "argentinos-juniors",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Zagharián",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Osorio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Liendo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-28",
+     "hora": "17:00",
+     "local": "river-plate",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Zapata",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Jayo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cabrol",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-29",
+     "hora": "21:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Agoglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Jiménez",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-05-27",
+     "hora": "20:00",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Manso",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Se suspendió a los 16 minutos (0-0) porque los hinchas de Boca tiraron bombas de estruendo a la cancha; los 74 minutos que faltaban se jugaron el 3 de junio"
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "2000-06-10",
+     "hora": "20:00",
+     "local": "union",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Cabrol",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-11",
+     "hora": "15:30",
+     "local": "ferro-carril-oeste",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 7,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Klimowicz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Klimowicz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Coria",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Coria",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Álvarez",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Coyette",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "S. González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-11",
+     "hora": "15:30",
+     "local": "chacarita-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "S. García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Osorio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-11",
+     "hora": "15:30",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Cordone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chatruc",
+       "equipo": "local"
+      },
+      {
+       "jugador": "F. Domínguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castromán",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-11",
+     "hora": "15:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Ángel",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ángel",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Saviola",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Aimar",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-11",
+     "hora": "15:30",
+     "local": "boca-juniors",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Gmo. Barros Schelotto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Palermo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Palermo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fuertes",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Ricchetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-11",
+     "hora": "15:30",
+     "local": "rosario-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Farías",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-11",
+     "hora": "15:30",
+     "local": "instituto",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Buján",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Jiménez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-11",
+     "hora": "17:00",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Moreno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marioni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Forlán",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-12",
+     "hora": "21:00",
+     "local": "talleres",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Oliva",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maidana",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "2000-06-16",
+     "hora": "21:00",
+     "local": "independiente",
+     "visitante": "instituto",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "D. Montenegro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Graf",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cambiasso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sarría",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sarría",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-17",
+     "hora": "20:00",
+     "local": "gimnasia-jujuy",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "23 de agosto",
+     "goles": [
+      {
+       "jugador": "Comelles",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Peralta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chatruc",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-18",
+     "hora": "15:30",
+     "local": "velez-sarsfield",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Schiavi",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Dudar",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-18",
+     "hora": "15:30",
+     "local": "argentinos-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Insúa",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-18",
+     "hora": "15:30",
+     "local": "lanus",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Moreno",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-18",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "2000-06-18",
+     "hora": "15:30",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "2000-06-18",
+     "hora": "17:00",
+     "local": "river-plate",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Berizzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Placente",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-19",
+     "hora": "21:00",
+     "local": "belgrano",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Medina",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E. González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Canals",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-28",
+     "hora": "21:00",
+     "local": "union",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "M. Donnet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silvera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gmo. Barros Schelotto",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Gmo. Barros Schelotto",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Palermo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "La Paglia",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Traverso",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se postergó porque Boca jugaba la final de la Copa Libertadores"
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "2000-06-23",
+     "hora": "21:00",
+     "local": "san-lorenzo",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Tuzzio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Franco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Franco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zagharián",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sánchez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-24",
+     "hora": "15:30",
+     "local": "instituto",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": [
+      {
+       "jugador": "Jiménez",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Alessandria",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-24",
+     "hora": "15:30",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Chilavert",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-24",
+     "hora": "15:30",
+     "local": "colon",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Fuertes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castagno Suárez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-24",
+     "hora": "15:30",
+     "local": "talleres",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Pronetto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saldaña",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mateo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Quintana",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-24",
+     "hora": "15:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Messera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fernández",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Domizi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M. Donnet",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Silvera",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-24",
+     "hora": "20:00",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Marioni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "D. Montenegro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Graf",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-06-24",
+     "hora": "15:30",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Rosada",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Se suspendió por la lluvia a los 42 minutos (1-0); los 48 minutos que faltaban se jugaron el 5 de julio"
+    },
+    {
+     "fecha": "2000-06-24",
+     "hora": "16:00",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Ángel",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zapata",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió por la lluvia a los 13 minutos (0-0); los 77 minutos que faltaban se jugaron el 5 de julio"
+    },
+    {
+     "fecha": "2000-07-05",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Bermúdez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Se postergó por la lluvia del 24 de junio y se jugó el 5 de julio"
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "2000-06-30",
+     "hora": "21:00",
+     "local": "independiente",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Marioni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marioni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Biaggio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castagno Suárez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fuertes",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-01",
+     "hora": "20:00",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Gigena",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Manso",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-02",
+     "hora": "15:30",
+     "local": "river-plate",
+     "visitante": "chacarita-juniors",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Coudet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coudet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aimar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ángel",
+       "equipo": "local"
+      },
+      {
+       "jugador": "H. Díaz",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-02",
+     "hora": "15:30",
+     "local": "gimnasia-jujuy",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "23 de agosto",
+     "goles": []
+    },
+    {
+     "fecha": "2000-07-02",
+     "hora": "15:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Sava",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Messera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Palermo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-02",
+     "hora": "15:30",
+     "local": "lanus",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Klimowicz",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-02",
+     "hora": "15:30",
+     "local": "belgrano",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Amaya",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Artime",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Simone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-02",
+     "hora": "15:30",
+     "local": "union",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Silvera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silva",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gigena",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Roth",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-02",
+     "hora": "17:00",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Camps",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-03",
+     "hora": "21:00",
+     "local": "argentinos-juniors",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Zagharián",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Amato",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "2000-07-07",
+     "hora": "21:00",
+     "local": "instituto",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Sarría",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Camps",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Camps",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-08",
+     "hora": "16:00",
+     "local": "rosario-central",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "M. González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E. González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cámpora",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Kuhl",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-08",
+     "hora": "20:00",
+     "local": "racing-club",
+     "visitante": "union",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Estévez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Estévez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Estévez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bastía",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Principiano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-09",
+     "hora": "15:30",
+     "local": "colon",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Castagno Suárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fuertes",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Fuertes",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-09",
+     "hora": "15:30",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-jujuy",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Romagnoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Franco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tuzzio",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "M. Lobo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-09",
+     "hora": "15:30",
+     "local": "talleres",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Gigena",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gigena",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-09",
+     "hora": "15:30",
+     "local": "boca-juniors",
+     "visitante": "belgrano",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Arce",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arce",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Barijho",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barijho",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Amaya",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-09",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Krupoviesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D. Montenegro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-09",
+     "hora": "17:00",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Ángel",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ángel",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Aimar",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-10",
+     "hora": "21:00",
+     "local": "chacarita-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Cejas",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "2000-07-14",
+     "hora": "21:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Messera",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-15",
+     "hora": "15:30",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "J. Fernández",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-15",
+     "hora": "15:30",
+     "local": "argentinos-juniors",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Fuertes",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-15",
+     "hora": "15:30",
+     "local": "union",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Paz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Boujón",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "S. García",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ábalos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Capria",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-15",
+     "hora": "15:30",
+     "local": "talleres",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Maidana",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gigena",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Matellán",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Giménez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-15",
+     "hora": "15:30",
+     "local": "gimnasia-jujuy",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "23 de agosto",
+     "goles": [
+      {
+       "jugador": "M. Lobo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garnier",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Jiménez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Alaniz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-15",
+     "hora": "15:30",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Méndez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castromán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rivarola",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-15",
+     "hora": "15:30",
+     "local": "independiente",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "D. Montenegro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Forlán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Amaya",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-15",
+     "hora": "17:30",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Berizzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zapata",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Romeo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Santana",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2000-07-17",
+     "hora": "21:00",
+     "local": "newell-s-old-boys",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Cobelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Damiani",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

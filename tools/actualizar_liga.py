@@ -33,9 +33,98 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2000: dos torneos de 20 equipos a una rueda; ESPN no los tiene: van a mano, como 2001 y 2002 (tools/a_mano;
+    # RSSSF y Wikipedia). El Torneo Clausura 2000 (febrero-julio; campeón River) cerraba la temporada 1999-00: su "tabla
+    # anual" es la de la temporada, con la tabla del Apertura 1999 (RSSSF y Wikipedia coinciden; con los descuentos a San
+    # Lorenzo, Vélez, Instituto y Belgrano). A Boca y a Lanús les descontaron 3 puntos en el Clausura. Bajaron los dos
+    # últimos de los promedios (Gimnasia de Jujuy y Ferro; los puntos de 1997-98 y 1998-99, de RSSSF y Wikipedia) y los
+    # dos de arriba jugaron la primera Promoción: Belgrano se salvó con Quilmes e Instituto perdió con Almagro. Con la
+    # temporada quedaron los cupos de la Copa Mercosur 2000 y de la Libertadores 2001 (Wikipedia)
+    "2000-clausura": {"nombre": "Torneo Clausura 2000", "anio": 2000, "liga": "a_mano", "slug": "2000-clausura",
+                      "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True, "temporada": "1999-00", "nombre_anual": "Temporada y copas",
+                      "descuentos": {"boca-juniors": 3, "lanus": 3},
+                      "descuentos_texto": "A Boca (por incidentes en la fecha 13) y a Lanús (en la fecha 5) se les "
+                                          "descontaron 3 puntos al terminar el torneo.",
+                      "nombre_playoffs": "Promoción", "playoffs": [(r"^$^", "Promoción")],
+                      "playoffs_a_mano": {"Promoción": [
+                          {"hora_utc": "2000-07-20T20:00Z", "fecha": "2000-07-20", "local": "2", "visitante": "2975",
+                           "gl": 1, "gv": 0, "estadio": "Tres de Febrero (José Ingenieros)",
+                           "goles": [{"jugador": "Maciel", "equipo": "local"}]},
+                          {"hora_utc": "2000-07-20T21:00Z", "fecha": "2000-07-20", "local": "2741", "visitante": "belgrano",
+                           "gl": 3, "gv": 1, "estadio": "Centenario (Quilmes)",
+                           "goles": [{"jugador": "Giampietri", "equipo": "local"},
+                                     {"jugador": "Luis Fernando", "tipo": "ec", "equipo": "local"},
+                                     {"jugador": "Domínguez", "equipo": "local"}, {"jugador": "Medina", "equipo": "visitante"}]},
+                          {"hora_utc": "2000-07-23T20:00Z", "fecha": "2000-07-23", "local": "2975", "visitante": "2",
+                           "gl": 1, "gv": 1, "estadio": "Juan Domingo Perón (Córdoba)",
+                           "goles": [{"jugador": "Sarría", "equipo": "local"}, {"jugador": "Villalba", "equipo": "visitante"}]},
+                          {"hora_utc": "2000-07-23T21:00Z", "fecha": "2000-07-23", "local": "belgrano", "visitante": "2741",
+                           "gl": 3, "gv": 1, "estadio": "Chateau Carreras (Córdoba)",
+                           "goles": [{"jugador": "Artime", "equipo": "local"},
+                                     {"jugador": "Lemos", "tipo": "ec", "equipo": "local"},
+                                     {"jugador": "Sosa", "equipo": "local"}, {"jugador": "Milozzi", "equipo": "visitante"}]}]},
+                      "ida_y_vuelta": True, "ventaja": ["instituto", "belgrano"],
+                      "cuadro": {"bloques": [("Promoción: los equipos de Primera contra los de la B Nacional",
+                                              [["Promoción"]])],
+                                 "nota": "La primera Promoción. Con el global igualado se quedaba en Primera el equipo de "
+                                         "Primera: así se salvó Belgrano. Instituto perdió con Almagro y bajó a la B "
+                                         "Nacional; Almagro subió."},
+                      # la tabla del Apertura 1999 (RSSSF y Wikipedia): [pts, pj, g, e, p, gf, gc]
+                      "anual": {"river-plate": [44, 19, 13, 5, 1, 45, 21], "rosario-central": [43, 19, 14, 1, 4, 34, 18],
+                                "boca-juniors": [41, 19, 12, 5, 2, 36, 15], "san-lorenzo": [33, 19, 10, 6, 3, 30, 15],
+                                "talleres": [31, 19, 9, 4, 6, 38, 31], "racing-club": [30, 19, 7, 9, 3, 27, 22],
+                                "velez-sarsfield": [27, 19, 8, 6, 5, 28, 17], "chacarita-juniors": [25, 19, 6, 7, 6, 38, 33],
+                                "independiente": [25, 19, 6, 7, 6, 19, 21],
+                                "estudiantes-de-la-plata": [23, 19, 6, 5, 8, 29, 33], "lanus": [23, 19, 7, 2, 10, 23, 30],
+                                "gimnasia-y-esgrima": [21, 19, 4, 9, 6, 28, 28], "newell-s-old-boys": [21, 19, 5, 6, 8, 27, 27],
+                                "argentinos-juniors": [21, 19, 4, 9, 6, 20, 22], "union": [21, 19, 5, 6, 8, 24, 30],
+                                "instituto": [19, 19, 5, 7, 7, 23, 30], "colon": [19, 19, 5, 4, 10, 20, 28],
+                                "belgrano": [17, 19, 5, 5, 9, 25, 37], "gimnasia-jujuy": [9, 19, 2, 3, 14, 17, 43],
+                                "ferro-carril-oeste": [9, 19, 1, 6, 12, 14, 44]},
+                      "anual_texto": "La tabla de la temporada 1999-00: suma el Torneo Apertura 1999 (de RSSSF y Wikipedia: "
+                                     "no está cargado partido por partido; a San Lorenzo, Vélez, Instituto y Belgrano se "
+                                     "les descontaron 3 puntos) y el Torneo Clausura 2000.",
+                      "promedios": {"1997-98": {"boca-juniors": [73, 38], "river-plate": [74, 38], "san-lorenzo": [62, 38],
+                                                "velez-sarsfield": [78, 38], "gimnasia-y-esgrima": [69, 38],
+                                                "rosario-central": [57, 38], "independiente": [56, 38], "lanus": [65, 38],
+                                                "newell-s-old-boys": [42, 38], "argentinos-juniors": [57, 38],
+                                                "colon": [38, 38], "racing-club": [41, 38], "union": [33, 38],
+                                                "estudiantes-de-la-plata": [49, 38], "gimnasia-jujuy": [52, 38],
+                                                "ferro-carril-oeste": [49, 38]},
+                                    "1998-99": {"boca-juniors": [89, 38], "river-plate": [59, 38], "san-lorenzo": [61, 38],
+                                                "velez-sarsfield": [46, 38], "gimnasia-y-esgrima": [62, 38],
+                                                "rosario-central": [57, 38], "independiente": [51, 38], "lanus": [50, 38],
+                                                "talleres": [44, 38], "newell-s-old-boys": [52, 38],
+                                                "argentinos-juniors": [49, 38], "colon": [49, 38], "racing-club": [55, 38],
+                                                "union": [54, 38], "estudiantes-de-la-plata": [45, 38], "belgrano": [44, 38],
+                                                "gimnasia-jujuy": [47, 38], "ferro-carril-oeste": [35, 38]}},
+                      "descensos": "promedios", "descienden": 2, "promocion": 2,
+                      "cupos": {"anio": 2001, "anio_sudamericana": 2000, "nombre_sudamericana": "Copa Mercosur", "fijos": True,
+                                "libertadores": [("Campeón de la Copa Libertadores 2000", "boca-juniors"),
+                                                 ("Campeón del Torneo Apertura 1999 y del Torneo Clausura 2000",
+                                                  "river-plate"),
+                                                 ("Tabla de la temporada 1999-00", "san-lorenzo"),
+                                                 ("Tabla de la temporada 1999-00", "rosario-central"),
+                                                 ("Tabla de la temporada 1999-00", "velez-sarsfield")],
+                                "sudamericana": [("Tabla de la temporada 1999-00", "rosario-central"),
+                                                 ("Tabla de la temporada 1999-00", "velez-sarsfield"),
+                                                 ("Invitado por la Conmebol", "boca-juniors"),
+                                                 ("Invitado por la Conmebol", "independiente"),
+                                                 ("Invitado por la Conmebol", "river-plate"),
+                                                 ("Invitado por la Conmebol", "san-lorenzo")]}},
+    # El Torneo Apertura 2000 (julio-diciembre; campeón Boca) abría la temporada 2000-01
+    "2000-apertura": {"nombre": "Torneo Apertura 2000", "anio": 2000, "liga": "a_mano", "slug": "2000-apertura",
+                      "zonas": "unica", "fechas": 19, "pasan": 0, "campeon_tabla": True,
+                      "anual": [("a_mano", r"^2000-clausura$")],
+                      "anual_texto": "La tabla del año 2000: suma el Torneo Clausura 2000 (con los descuentos a Boca y a "
+                                     "Lanús) y el Torneo Apertura 2000. No daba lugares en las copas: salían de la tabla "
+                                     "de la temporada.",
+                      "sin_descensos": "En el Torneo Apertura 2000 no hubo descensos: se definieron al terminar la "
+                                       "temporada 2000-01, con el Torneo Clausura 2001."},
     # 2001: dos torneos de 20 equipos a una rueda; ESPN no los tiene: van a mano, como 2002 (tools/a_mano; RSSSF y
     # Wikipedia). El Torneo Clausura 2001 (febrero-junio; campeón San Lorenzo) cerraba la temporada 2000-01: su "tabla
-    # anual" es la de la temporada, con la tabla del Apertura 2000 (RSSSF y Wikipedia coinciden). A Los Andes le
+    # anual" es la de la temporada (con el Apertura 2000, cargado a mano). A Los Andes le
     # descontaron 3 puntos al terminar el torneo (Wikipedia). Bajaron los dos últimos de los promedios (Almagro y Los
     # Andes; los puntos de 1998-99 y 1999-00, de RSSSF; River 1998-99, 59, de la tabla de 1998-99 de RSSSF y de
     # Wikipedia) y los dos de arriba jugaron la Promoción y se salvaron: Argentinos con Instituto y Belgrano con Quilmes.
@@ -63,19 +152,8 @@ TORNEOS = {
                                               [["Promoción"]])],
                                  "nota": "Con el global igualado se quedaba en Primera el equipo de Primera: así se "
                                          "salvaron los dos. Instituto y Quilmes siguieron en la B Nacional."},
-                      # la tabla del Apertura 2000 (RSSSF y Wikipedia): [pts, pj, g, e, p, gf, gc]
-                      "anual": {"boca-juniors": [41, 19, 12, 5, 2, 35, 19], "river-plate": [37, 19, 10, 7, 2, 41, 24],
-                                "gimnasia-y-esgrima": [37, 19, 11, 4, 4, 36, 29], "talleres": [36, 19, 11, 3, 5, 31, 21],
-                                "san-lorenzo": [34, 19, 10, 4, 5, 33, 18], "velez-sarsfield": [29, 19, 7, 8, 4, 26, 20],
-                                "estudiantes-de-la-plata": [29, 19, 7, 8, 4, 22, 17], "huracan": [27, 19, 6, 9, 4, 26, 21],
-                                "chacarita-juniors": [27, 19, 8, 3, 8, 19, 24], "colon": [26, 19, 7, 5, 7, 29, 23],
-                                "union": [26, 19, 6, 8, 5, 23, 21], "rosario-central": [24, 19, 6, 6, 7, 28, 31],
-                                "newell-s-old-boys": [24, 19, 5, 9, 5, 18, 23], "independiente": [23, 19, 6, 5, 8, 24, 23],
-                                "lanus": [21, 19, 5, 6, 8, 24, 26], "belgrano": [17, 19, 3, 8, 8, 22, 31],
-                                "argentinos-juniors": [14, 19, 2, 8, 9, 18, 28], "almagro": [13, 19, 2, 7, 10, 18, 31],
-                                "los-andes": [12, 19, 3, 3, 13, 21, 46], "racing-club": [11, 19, 1, 8, 10, 12, 30]},
-                      "anual_texto": "La tabla de la temporada 2000-01: suma el Torneo Apertura 2000 (de RSSSF y Wikipedia: "
-                                     "no está cargado partido por partido) y el Torneo Clausura 2001.",
+                      "anual": [("a_mano", r"^2000-apertura$", 2000)],
+                      "anual_texto": "La tabla de la temporada 2000-01: suma el Torneo Apertura 2000 y el Torneo Clausura 2001.",
                       "promedios": {"1998-99": {"boca-juniors": [89, 38], "river-plate": [59, 38], "san-lorenzo": [61, 38],
                                                 "gimnasia-y-esgrima": [62, 38], "rosario-central": [57, 38],
                                                 "talleres": [44, 38], "velez-sarsfield": [46, 38],
@@ -108,8 +186,8 @@ TORNEOS = {
     "2001-apertura": {"nombre": "Torneo Apertura 2001", "anio": 2001, "liga": "a_mano", "slug": "2001-apertura",
                       "zonas": "unica", "fechas": 19, "pasan": 0, "campeon_tabla": True,
                       "anual": [("a_mano", r"^2001-clausura$")],
-                      "anual_texto": "La tabla del año 2001: suma el Torneo Clausura 2001 y el Torneo Apertura 2001 (sin "
-                                     "el descuento a Los Andes). No daba lugares en las copas: salían de la tabla de la "
+                      "anual_texto": "La tabla del año 2001: suma el Torneo Clausura 2001 (con el descuento a Los Andes) y "
+                                     "el Torneo Apertura 2001. No daba lugares en las copas: salían de la tabla de la "
                                      "temporada.",
                       "sin_descensos": "En el Torneo Apertura 2001 no hubo descensos: se definieron al terminar la "
                                        "temporada 2001-02, con el Torneo Clausura 2002."},
@@ -1269,7 +1347,10 @@ PIERDEN_LOS_DOS = {"186468": (0, 2)}
 # (Infobae); cuenta para los promedios y lo mandó al desempate con Rafaela
 # Con un tercer elemento, el patrón de una fase: se resta solo en las sumas que la incluyen (Chacarita, temporada 2003-04:
 # 3 puntos por los incidentes en el partido con Boca; se restan en la temporada, no en la tabla del año 2004)
-DESCUENTOS = {(2014, "7"): 6, (2004, "6", r"^torneo-apertura-2003$"): 3}
+# Los del Clausura 2000 (Boca y Lanús) y el Clausura 2001 (Los Andes) están en la tabla del torneo ("descuentos" en
+# TORNEOS); acá, para la tabla del año, que los suma
+DESCUENTOS = {(2014, "7"): 6, (2004, "6", r"^torneo-apertura-2003$"): 3, (2000, "5", r"^2000-clausura$"): 3,
+              (2000, "12", r"^2000-clausura$"): 3, (2001, "lan", r"^2001-clausura$"): 3}
 PLAYOFFS = [("round-of-16", "Octavos de final"), ("quarter", "Cuartos de final"), ("semi", "Semifinales"),
             ("final", "Final")]
 # Clubes que no están en data/equipos.js (no jugaron copas internacionales): id y nombre. Los demás se toman de ahí
@@ -1295,6 +1376,7 @@ CLUBES_NUEVOS = {
     "2": ("almagro", "Almagro"),
     "smm": ("san-martin-mendoza", "San Martín (Mendoza)"),   # (no está en ESPN: solo jugó la Promoción 2003)
     "lan": ("los-andes", "Los Andes"),   # (no está en ESPN: 2000-01)
+    "fco": ("ferro-carril-oeste", "Ferro Carril Oeste"),   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
 }
 
