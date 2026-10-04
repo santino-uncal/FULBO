@@ -1,0 +1,4284 @@
+{
+ "nombre": "Torneo Apertura 2002",
+ "fuente": "Resultados y goles: RSSSF (Javier Roimiser), solo con el apellido y sin minutos. Estadio, día y hora: Wikipedia. Newell's 3-0 Talleres (Clausura 2002), como RSSSF y la Wikipedia en inglés (la Wikipedia en castellano dice 2-0). Racing 1-4 Independiente (Apertura 2002): dos goles de Montenegro (El Gráfico). El mismo jugador con y sin la inicial, unificado con la inicial",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "2002-07-26",
+     "hora": "21:00",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-07-27",
+     "hora": "19:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Pavone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carignano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-07-27",
+     "hora": "21:10",
+     "local": "independiente",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Silvera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Eluchans",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-07-28",
+     "hora": "15:30",
+     "local": "river-plate",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "2002-07-28",
+     "hora": "15:00",
+     "local": "union",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "2002-07-28",
+     "hora": "15:30",
+     "local": "arsenal-de-sarandi",
+     "visitante": "olimpo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Piersimone",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-07-28",
+     "hora": "15:30",
+     "local": "talleres",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    },
+    {
+     "fecha": "2002-07-28",
+     "hora": "17:10",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Tomás A. Ducó",
+     "goles": [
+      {
+       "jugador": "Úbeda",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Úbeda",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Estévez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rivarola",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-07-28",
+     "hora": "19:30",
+     "local": "nueva-chicago",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "2002-07-30",
+     "hora": "20:00",
+     "local": "chacarita-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "2002-08-02",
+     "hora": "21:05",
+     "local": "racing-club",
+     "visitante": "arsenal-de-sarandi",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Bastía",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Piersimone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-03",
+     "hora": "16:10",
+     "local": "san-lorenzo",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Acosta",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-03",
+     "hora": "21:10",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Liendo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-04",
+     "hora": "15:30",
+     "local": "banfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "2002-08-04",
+     "hora": "15:30",
+     "local": "lanus",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 6,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "L. Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferrari",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ferrari",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M. Quinteros",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M. Quinteros",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Figueroa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-04",
+     "hora": "15:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Choy González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Domínguez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-04",
+     "hora": "15:30",
+     "local": "colon",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carignano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carignano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mignini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-04",
+     "hora": "17:10",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Álvarez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-04",
+     "hora": "19:30",
+     "local": "boca-juniors",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tévez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bracamonte",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-06",
+     "hora": "15:30",
+     "local": "olimpo",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Roberto N. Carminatti",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "2002-08-07",
+     "hora": "15:30",
+     "local": "banfield",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Battaglia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-09",
+     "hora": "21:05",
+     "local": "union",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Capria",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Pérezlindo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérezlindo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "G. Rodríguez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-10",
+     "hora": "19:00",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Tomás A. Ducó",
+     "goles": [
+      {
+       "jugador": "Dudar",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Nanni",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Gracián",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Husain",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-10",
+     "hora": "21:10",
+     "local": "independiente",
+     "visitante": "olimpo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Castagno Suárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Insúa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Domínguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Díaz",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-11",
+     "hora": "15:30",
+     "local": "arsenal-de-sarandi",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "S. González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ponzio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-11",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Romero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-11",
+     "hora": "15:30",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Goux",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Ferrari",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Mandra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barros Schelotto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Madrid",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Arce",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-11",
+     "hora": "15:30",
+     "local": "nueva-chicago",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Santana",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-11",
+     "hora": "17:30",
+     "local": "talleres",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Rimoldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Real",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-11",
+     "hora": "17:10",
+     "local": "river-plate",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "López",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "2002-08-16",
+     "hora": "21:05",
+     "local": "velez-sarsfield",
+     "visitante": "arsenal-de-sarandi",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Nanni",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-17",
+     "hora": "18:00",
+     "local": "lanus",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "2002-08-17",
+     "hora": "19:00",
+     "local": "colon",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Carignano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gigena",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Godoy",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Padra",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-17",
+     "hora": "21:10",
+     "local": "san-lorenzo",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Acosta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Frutos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bilos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-18",
+     "hora": "15:30",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Battaglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bracamonte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maggiolo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-18",
+     "hora": "15:30",
+     "local": "newell-s-old-boys",
+     "visitante": "talleres",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Rosales",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sacripanti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lagorio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quinteros",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-18",
+     "hora": "15:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Enría",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-18",
+     "hora": "15:30",
+     "local": "olimpo",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Roberto N. Carminatti",
+     "goles": [
+      {
+       "jugador": "Medina",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Abaurre",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-18",
+     "hora": "18:10",
+     "local": "chacarita-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Cela Ruggieri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Domínguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cuevas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-19",
+     "hora": "15:30",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Romero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ríos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Silvera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Montenegro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Montenegro",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "2002-08-23",
+     "hora": "21:05",
+     "local": "huracan",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás A. Ducó",
+     "goles": [
+      {
+       "jugador": "Romero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-24",
+     "hora": "19:00",
+     "local": "talleres",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Nanni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Valdemarín",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-24",
+     "hora": "21:00",
+     "local": "independiente",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Domínguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rosales",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-25",
+     "hora": "15:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 6,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Domínguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "L. González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fuertes",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fuertes",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Coudet",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Quatrocchi",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-25",
+     "hora": "15:30",
+     "local": "arsenal-de-sarandi",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Píccoli",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Grondona",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carignano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pereyra",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J. Delgado",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-25",
+     "hora": "15:30",
+     "local": "rosario-central",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Ferrari",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "De Bruno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Figueroa",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-25",
+     "hora": "15:30",
+     "local": "nueva-chicago",
+     "visitante": "olimpo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Santana",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tilger",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carrario",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-25",
+     "hora": "15:30",
+     "local": "union",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Capria",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Islas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Enría",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-25",
+     "hora": "17:10",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Tévez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tévez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chatruc",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Romagnoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-25",
+     "hora": "15:30",
+     "local": "banfield",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Cervera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Risso",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 8 minutos (0-0) por incidentes; los 82 minutos que faltaban se jugaron el 2 de octubre"
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "2002-08-31",
+     "hora": "19:00",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Saja",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Acosta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Frutos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zurita",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-08-31",
+     "hora": "21:10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Moreno y Fabianesi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-01",
+     "hora": "15:30",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Figueroa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Arriola",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-01",
+     "hora": "15:30",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Domínguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. P. Ortiz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Padra",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-01",
+     "hora": "15:30",
+     "local": "olimpo",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Roberto N. Carminatti",
+     "goles": [
+      {
+       "jugador": "Carrario",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A. González",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Silva",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Silva",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "N. Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-01",
+     "hora": "16:30",
+     "local": "chacarita-juniors",
+     "visitante": "arsenal-de-sarandi",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Morales",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-01",
+     "hora": "16:30",
+     "local": "colon",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "2002-09-01",
+     "hora": "17:10",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Nanni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silvera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Franco",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-01",
+     "hora": "19:30",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "L. Rodríguez",
+       "equipo": "local",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-16",
+     "hora": "16:00",
+     "local": "racing-club",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Milito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Milito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pavlovich",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Se jugó el 16 de octubre: el 30 de agosto se postergó porque la cancha de Racing no estaba habilitada"
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "2002-09-06",
+     "hora": "21:10",
+     "local": "independiente",
+     "visitante": "colon",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montenegro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silvera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silvera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silvera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ríos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rivas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Romagnoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-07",
+     "hora": "19:00",
+     "local": "union",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Silva Pro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rivarola",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-07",
+     "hora": "21:10",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Ferrari",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Valdemarín",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-08",
+     "hora": "15:30",
+     "local": "banfield",
+     "visitante": "olimpo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Bilos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sánchez",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Carrario",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tavio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-08",
+     "hora": "16:00",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Bracamonte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bracamonte",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-08",
+     "hora": "15:30",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Frutos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Risio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-08",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Maggiolo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Farías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zermattén",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-08",
+     "hora": "15:30",
+     "local": "talleres",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "R. Díaz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R. Díaz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Torales",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-08",
+     "hora": "15:30",
+     "local": "nueva-chicago",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Tilger",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Domínguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-08",
+     "hora": "18:10",
+     "local": "arsenal-de-sarandi",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "2002-09-13",
+     "hora": "21:10",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 6,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pena",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Insúa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Insúa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Insúa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Silvera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Silvera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Silvera",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-14",
+     "hora": "18:00",
+     "local": "newell-s-old-boys",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Pérezlindo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-14",
+     "hora": "19:00",
+     "local": "huracan",
+     "visitante": "arsenal-de-sarandi",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás A. Ducó",
+     "goles": [
+      {
+       "jugador": "Fleita",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fleita",
+       "equipo": "local"
+      },
+      {
+       "jugador": "P. González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "S. González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-14",
+     "hora": "21:10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-15",
+     "hora": "15:30",
+     "local": "racing-club",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Pavlovich",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-15",
+     "hora": "15:30",
+     "local": "velez-sarsfield",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Nanni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tilger",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-15",
+     "hora": "15:30",
+     "local": "colon",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Parodi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pereyra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-15",
+     "hora": "16:00",
+     "local": "river-plate",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Cavenaghi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quinteros",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-15",
+     "hora": "16:30",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Bustos Montoya",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-15",
+     "hora": "18:10",
+     "local": "olimpo",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Roberto N. Carminatti",
+     "goles": [
+      {
+       "jugador": "Delgado",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ibarra",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "2002-09-20",
+     "hora": "21:10",
+     "local": "rosario-central",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "2002-09-21",
+     "hora": "20:00",
+     "local": "lanus",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "2002-09-21",
+     "hora": "19:00",
+     "local": "banfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Moreno y Fabianesi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gordillo",
+       "equipo": "local",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-21",
+     "hora": "21:10",
+     "local": "union",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Valdemarín",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-22",
+     "hora": "11:00",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tévez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ibarra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bastía",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Pavlovich",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M. González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-22",
+     "hora": "15:30",
+     "local": "san-lorenzo",
+     "visitante": "olimpo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Saja",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Chatruc",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bustamante",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-22",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "arsenal-de-sarandi",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Farías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Piersimone",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Piersimone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-22",
+     "hora": "15:30",
+     "local": "nueva-chicago",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Tilger",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carignano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-22",
+     "hora": "16:00",
+     "local": "talleres",
+     "visitante": "huracan",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "La Paglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quinteros",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quinteros",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Real",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-22",
+     "hora": "17:10",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Pusineri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "L. González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "D'Alessandro",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "2002-09-27",
+     "hora": "21:10",
+     "local": "velez-sarsfield",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Valdemarín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Valdemarín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gracián",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-28",
+     "hora": "16:00",
+     "local": "colon",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Migliónico",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-28",
+     "hora": "21:00",
+     "local": "olimpo",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Roberto N. Carminatti",
+     "goles": [
+      {
+       "jugador": "Bustamante",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-28",
+     "hora": "21:10",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Bedoya",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-29",
+     "hora": "15:30",
+     "local": "chacarita-juniors",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Cela Ruggieri",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-29",
+     "hora": "15:30",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "D'Alessandro",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "D'Alessandro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Domínguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Demichelis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cavenaghi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Papa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Barros Schelotto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-29",
+     "hora": "15:30",
+     "local": "arsenal-de-sarandi",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "S. González",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "S. González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Piersimone",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-29",
+     "hora": "15:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Choy González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "San Esteban",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Turienzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maggiolo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-29",
+     "hora": "16:00",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Tomás A. Ducó",
+     "goles": [
+      {
+       "jugador": "Pusineri",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Silvera",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-09-29",
+     "hora": "18:10",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Sacripanti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tévez",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "2002-10-04",
+     "hora": "21:10",
+     "local": "independiente",
+     "visitante": "arsenal-de-sarandi",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Pusineri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Insúa",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Silvera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morales",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "S. González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-05",
+     "hora": "19:00",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Pino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pranich",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Comba",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-05",
+     "hora": "21:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "olimpo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Turienzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Novarese",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-05",
+     "hora": "21:10",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Morel Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Astudillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Manso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-06",
+     "hora": "15:30",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Bustos Montoya",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bustos Montoya",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M. González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-06",
+     "hora": "15:30",
+     "local": "banfield",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "2002-10-06",
+     "hora": "15:30",
+     "local": "talleres",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "La Paglia",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Devallis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Farías",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-06",
+     "hora": "16:00",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Tévez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barros Schelotto",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-06",
+     "hora": "18:10",
+     "local": "nueva-chicago",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Carreño",
+       "equipo": "local"
+      },
+      {
+       "jugador": "L. González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "L. González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "D'Alessandro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-07",
+     "hora": "21:10",
+     "local": "union",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "M. Zapata",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Romero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cela Ruggieri",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "2002-10-12",
+     "hora": "19:00",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Valdemarín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Valdemarín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pellegrino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chatruc",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Astudillo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Astudillo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-12",
+     "hora": "21:10",
+     "local": "talleres",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "La Paglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montenegro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Silvera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Silvera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gómez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-13",
+     "hora": "15:30",
+     "local": "arsenal-de-sarandi",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "S. González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Piersimone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Piersimone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Andrizzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Figueroa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-13",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "olimpo",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Farías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pompei",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pompei",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Donnet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quattrochi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pavone",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-13",
+     "hora": "15:30",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Milito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Choy González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-13",
+     "hora": "15:30",
+     "local": "newell-s-old-boys",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Domizi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ponzio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bustos Montoya",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bustos Montoya",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-13",
+     "hora": "15:30",
+     "local": "chacarita-juniors",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Torales",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-13",
+     "hora": "15:30",
+     "local": "huracan",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás A. Ducó",
+     "goles": [
+      {
+       "jugador": "Fleita",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Santana",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Couceiro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-13",
+     "hora": "16:00",
+     "local": "river-plate",
+     "visitante": "union",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Domínguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pereyra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cavenaghi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cavenaghi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Torres",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M. Zapata",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-13",
+     "hora": "18:10",
+     "local": "colon",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "J. Delgado",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "2002-10-18",
+     "hora": "21:10",
+     "local": "san-lorenzo",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Acosta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Astudillo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-19",
+     "hora": "19:00",
+     "local": "union",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Weisheim",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Raggio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lobos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-19",
+     "hora": "19:00",
+     "local": "lanus",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Bustos Montoya",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mannara",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-19",
+     "hora": "21:00",
+     "local": "rosario-central",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Mandra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mandra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bustos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bustos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-19",
+     "hora": "21:10",
+     "local": "olimpo",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Roberto N. Carminatti",
+     "goles": [
+      {
+       "jugador": "Milito",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Milito",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-20",
+     "hora": "15:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Salazar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Müller",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sacripanti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-20",
+     "hora": "16:00",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Aquino",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-20",
+     "hora": "15:30",
+     "local": "nueva-chicago",
+     "visitante": "arsenal-de-sarandi",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Ceballos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carreño",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Serrano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Piersimone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-20",
+     "hora": "15:30",
+     "local": "boca-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Barros Schelotto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ibarra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-20",
+     "hora": "18:10",
+     "local": "banfield",
+     "visitante": "river-plate",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Colautti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Colautti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Demichelis",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Moreno y Fabianesi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Jiménez",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Se suspendió a los 21 del segundo tiempo por incidentes y quedó el resultado"
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "2002-10-25",
+     "hora": "21:10",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Cubero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nanni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nanni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Choy González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-26",
+     "hora": "16:30",
+     "local": "huracan",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Tomás A. Ducó",
+     "goles": [
+      {
+       "jugador": "Lobos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Colautti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Colautti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cervera",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-26",
+     "hora": "18:00",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Gamboa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pena",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Gamboa",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-26",
+     "hora": "19:00",
+     "local": "talleres",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Devallis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Couceiro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-26",
+     "hora": "19:00",
+     "local": "colon",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Carignano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. Delgado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Risso",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Risso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-26",
+     "hora": "21:10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Farías",
+       "equipo": "local",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-27",
+     "hora": "15:30",
+     "local": "arsenal-de-sarandi",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Ruiz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Álvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Raggio",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-27",
+     "hora": "15:30",
+     "local": "newell-s-old-boys",
+     "visitante": "olimpo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Marino",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-27",
+     "hora": "16:00",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Fuertes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-10-27",
+     "hora": "18:10",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Silvera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montenegro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montenegro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Figueroa",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "2002-11-01",
+     "hora": "21:10",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Rosales",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-02",
+     "hora": "19:00",
+     "local": "union",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Silva Pro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bustos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bustos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-02",
+     "hora": "19:00",
+     "local": "olimpo",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Roberto N. Carminatti",
+     "goles": [
+      {
+       "jugador": "Carrario",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-02",
+     "hora": "21:10",
+     "local": "nueva-chicago",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Couceiro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Serrano",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Domínguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Silvera",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-03",
+     "hora": "15:30",
+     "local": "lanus",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Romero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-03",
+     "hora": "15:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Enría",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carignano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-03",
+     "hora": "15:30",
+     "local": "rosario-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "M. Quinteros",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aquino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Colotto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-03",
+     "hora": "16:00",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Schiavi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barros Schelotto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Kobistyj",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-03",
+     "hora": "16:30",
+     "local": "banfield",
+     "visitante": "arsenal-de-sarandi",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Colautti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "S. González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-03",
+     "hora": "18:10",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Fuertes",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "2002-11-09",
+     "hora": "16:00",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Tomás A. Ducó",
+     "goles": [
+      {
+       "jugador": "Astudillo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Astudillo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Astudillo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Michelini",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 34 del segundo tiempo por incidentes y quedó el resultado"
+    },
+    {
+     "fecha": "2002-11-09",
+     "hora": "18:30",
+     "local": "talleres",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Giménez",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Colautti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-09",
+     "hora": "19:00",
+     "local": "independiente",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Pusineri",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-09",
+     "hora": "21:10",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Mignini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pena",
+       "equipo": "local",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-10",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Pompei",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quatrocchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gelabert",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rosales",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rosales",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Domínguez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-10",
+     "hora": "15:30",
+     "local": "rosario-central",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Mandra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Figueroa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Figueroa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ceballos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Amaya",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-10",
+     "hora": "15:30",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Estévez",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "M. González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-10",
+     "hora": "15:30",
+     "local": "colon",
+     "visitante": "olimpo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Morant",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carignano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Blanco",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-10",
+     "hora": "16:00",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "García",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Mannara",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bustos Montoya",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-10",
+     "hora": "18:10",
+     "local": "arsenal-de-sarandi",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Delgado",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "2002-11-15",
+     "hora": "21:10",
+     "local": "racing-club",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Estévez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Milito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carignano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Carignano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-16",
+     "hora": "19:00",
+     "local": "union",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Weisheim",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Capria",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Capria",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Figueroa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Talamonti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-16",
+     "hora": "21:10",
+     "local": "san-lorenzo",
+     "visitante": "arsenal-de-sarandi",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Cordone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Andrizzi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Grondona",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-17",
+     "hora": "15:30",
+     "local": "lanus",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Alesandria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bustos Montoya",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-17",
+     "hora": "15:30",
+     "local": "boca-juniors",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-17",
+     "hora": "15:30",
+     "local": "olimpo",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Roberto N. Carminatti",
+     "goles": [
+      {
+       "jugador": "Domínguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tavio",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-17",
+     "hora": "15:30",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Nanni",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Domizi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-17",
+     "hora": "16:00",
+     "local": "banfield",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Jiménez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Insúa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-17",
+     "hora": "18:10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Turienzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Enría",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-16",
+     "hora": "19:00",
+     "local": "nueva-chicago",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Couceiro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tilger",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Se suspendió a los 3 del segundo tiempo (1-0) porque se cortó la luz; los 42 minutos que faltaban se jugaron el 26 de noviembre"
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "2002-11-22",
+     "hora": "21:10",
+     "local": "talleres",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Devaca",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Frutos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-23",
+     "hora": "17:00",
+     "local": "nueva-chicago",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Barbona",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aguírrez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Islas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-23",
+     "hora": "19:00",
+     "local": "arsenal-de-sarandi",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "S. González",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Andrizzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Iribarren",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Risso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-23",
+     "hora": "19:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Pavone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Valdemarín",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Centurión",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-23",
+     "hora": "21:10",
+     "local": "chacarita-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Milito",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bastía",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gamboa",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-24",
+     "hora": "11:00",
+     "local": "river-plate",
+     "visitante": "olimpo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Fuertes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cavenaghi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bustamante",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-24",
+     "hora": "16:30",
+     "local": "colon",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Parodi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Parodi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Migliónico",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ponzio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-24",
+     "hora": "16:30",
+     "local": "huracan",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "2002-11-24",
+     "hora": "16:30",
+     "local": "rosario-central",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Figueroa",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-24",
+     "hora": "18:10",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Pusineri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barros Schelotto",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "2002-11-29",
+     "hora": "21:00",
+     "local": "banfield",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Cervera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Colautti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-29",
+     "hora": "21:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "arsenal-de-sarandi",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Choy González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Choy González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Romero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Romero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-29",
+     "hora": "21:10",
+     "local": "newell-s-old-boys",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "2002-11-30",
+     "hora": "19:00",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Milito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aimar",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fuertes",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cavenaghi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cavenaghi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-30",
+     "hora": "20:00",
+     "local": "union",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Weisheim",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Weisheim",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Islas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Islas",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-30",
+     "hora": "21:10",
+     "local": "velez-sarsfield",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Centurión",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-11-30",
+     "hora": "21:30",
+     "local": "olimpo",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Roberto N. Carminatti",
+     "goles": [
+      {
+       "jugador": "Delorte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carrario",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-12-01",
+     "hora": "16:00",
+     "local": "lanus",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Carboni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Romero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quinteros",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bustos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-12-01",
+     "hora": "18:10",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cascini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rivarola",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-12-01",
+     "hora": "18:10",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Insúa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Silvera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pusineri",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

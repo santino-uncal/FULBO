@@ -27,14 +27,95 @@ from leer_espn import completar   # noqa: E402
 RAIZ = Path(__file__).resolve().parent.parent
 CACHE = RAIZ / "tools" / "cache" / "espn-liga-argentina"
 DATOS = RAIZ / "data" / "ligas" / "argentina"
+A_MANO = RAIZ / "tools" / "a_mano"   # torneos que ESPN no tiene, cargados a mano (ver eventos_a_mano)
 ESPN = "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1"
 ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=120&w=120"
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2002: dos torneos de 20 equipos a una rueda. ESPN no tiene ningún partido de 2002: van todos a mano, en
+    # tools/a_mano (resultados y goles de RSSSF, solo con el apellido y sin minutos; estadio, día y hora de Wikipedia).
+    # El Torneo Clausura 2002 (febrero-mayo; campeón River) cerraba la temporada 2001-02: su "tabla anual" es la de la
+    # temporada, con la tabla del Apertura 2001 (RSSSF). Bajaron los dos últimos de los promedios (Argentinos y
+    # Belgrano; los puntos de 1999-00 y 2000-01, de RSSSF) y los dos de arriba jugaron la Promoción contra equipos de la
+    # B Nacional y se salvaron: Lanús con Huracán de Tres Arroyos y Unión con Gimnasia de Concepción del Uruguay. Con la
+    # temporada quedaron definidos los cupos de la Sudamericana 2002 y de la Libertadores 2003 (Wikipedia)
+    "2002-clausura": {"nombre": "Torneo Clausura 2002", "anio": 2002, "liga": "a_mano", "slug": "2002-clausura",
+                      "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True, "temporada": "2001-02", "nombre_anual": "Temporada y copas",
+                      "nombre_playoffs": "Promoción", "playoffs": [(r"^$^", "Promoción")],
+                      "playoffs_a_mano": {"Promoción": [
+                          {"hora_utc": "2002-05-24T00:00Z", "fecha": "2002-05-23", "hora": "21:00", "local": "2974",
+                           "visitante": "lanus", "gl": 1, "gv": 2, "estadio": "Ciudad de Vicente López",
+                           "goles": [{"jugador": "García", "equipo": "local"}, {"jugador": "Romero", "equipo": "visitante"},
+                                     {"jugador": "López", "equipo": "visitante"}]},
+                          {"hora_utc": "2002-05-24T00:00Z", "fecha": "2002-05-23", "hora": "21:00", "local": "ger",
+                           "visitante": "union", "gl": 3, "gv": 1, "estadio": "Manuel y Ramón Núñez (Concepción del Uruguay)",
+                           "goles": [{"jugador": "Leguizamón", "equipo": "local"}, {"jugador": "Fontana", "equipo": "local"},
+                                     {"jugador": "Vendakis", "equipo": "local"},
+                                     {"jugador": "Nto. Fernández", "equipo": "visitante"}]},
+                          {"hora_utc": "2002-05-26T17:30Z", "fecha": "2002-05-26", "hora": "14:30", "local": "lanus",
+                           "visitante": "2974", "gl": 1, "gv": 1, "estadio": "Ciudad de Lanús",
+                           "goles": [{"jugador": "Hoyos", "equipo": "local"}, {"jugador": "García", "equipo": "visitante"}]},
+                          {"hora_utc": "2002-05-26T19:30Z", "fecha": "2002-05-26", "hora": "16:30", "local": "union",
+                           "visitante": "ger", "gl": 3, "gv": 0, "estadio": "15 de Abril",
+                           "goles": [{"jugador": "Pérezlindo", "equipo": "local"}, {"jugador": "Mazzoni", "equipo": "local"},
+                                     {"jugador": "Israilevich", "equipo": "local"}]}]},
+                      "ida_y_vuelta": True, "ventaja": ["lanus", "union"],
+                      "cuadro": {"bloques": [("Promoción: los equipos de Primera contra los de la B Nacional",
+                                              [["Promoción"]])],
+                                 "nota": "Con el global igualado se quedaba en Primera el equipo de Primera. Los dos se "
+                                         "salvaron: Huracán de Tres Arroyos y Gimnasia de Concepción del Uruguay "
+                                         "siguieron en la B Nacional."},
+                      # la tabla del Apertura 2001 (RSSSF): [pts, pj, g, e, p, gf, gc]
+                      "anual": {"racing-club": [42, 19, 12, 6, 1, 34, 17], "river-plate": [41, 19, 12, 5, 2, 51, 16],
+                                "boca-juniors": [33, 19, 9, 6, 4, 41, 27], "colon": [32, 19, 8, 8, 3, 24, 16],
+                                "san-lorenzo": [31, 19, 8, 7, 4, 28, 22], "estudiantes-de-la-plata": [27, 19, 7, 6, 6, 27, 28],
+                                "gimnasia-y-esgrima": [27, 19, 7, 6, 6, 30, 35], "chacarita-juniors": [26, 19, 6, 8, 5, 24, 22],
+                                "belgrano": [26, 19, 6, 8, 5, 17, 18], "independiente": [26, 19, 7, 5, 7, 26, 28],
+                                "argentinos-juniors": [25, 19, 7, 4, 8, 22, 27], "lanus": [25, 19, 7, 4, 8, 21, 28],
+                                "nueva-chicago": [24, 19, 7, 3, 9, 26, 33], "newell-s-old-boys": [23, 19, 6, 5, 8, 29, 28],
+                                "velez-sarsfield": [22, 19, 5, 7, 7, 27, 30], "rosario-central": [20, 19, 5, 5, 9, 18, 26],
+                                "union": [18, 19, 3, 9, 7, 23, 25], "banfield": [18, 19, 4, 6, 9, 16, 25],
+                                "huracan": [14, 19, 3, 5, 11, 22, 39], "talleres": [13, 19, 4, 1, 14, 18, 37]},
+                      "anual_texto": "La tabla de la temporada 2001-02: suma el Torneo Apertura 2001 (de RSSSF: no está "
+                                     "cargado partido por partido) y el Torneo Clausura 2002.",
+                      "promedios": {"1999-00": {"river-plate": [86, 38], "boca-juniors": [74, 38], "san-lorenzo": [69, 38],
+                                                "gimnasia-y-esgrima": [49, 38], "velez-sarsfield": [61, 38],
+                                                "colon": [55, 38], "racing-club": [45, 38], "newell-s-old-boys": [55, 38],
+                                                "estudiantes-de-la-plata": [39, 38], "talleres": [58, 38],
+                                                "chacarita-juniors": [45, 38], "rosario-central": [66, 38],
+                                                "independiente": [61, 38], "lanus": [48, 38], "union": [50, 38],
+                                                "argentinos-juniors": [39, 38], "belgrano": [39, 38]},
+                                    "2000-01": {"river-plate": [78, 38], "boca-juniors": [71, 38], "san-lorenzo": [81, 38],
+                                                "gimnasia-y-esgrima": [55, 38], "velez-sarsfield": [56, 38],
+                                                "colon": [49, 38], "racing-club": [40, 38], "newell-s-old-boys": [48, 38],
+                                                "estudiantes-de-la-plata": [56, 38], "talleres": [61, 38],
+                                                "huracan": [55, 38], "chacarita-juniors": [56, 38],
+                                                "rosario-central": [41, 38], "independiente": [42, 38], "lanus": [43, 38],
+                                                "union": [46, 38], "argentinos-juniors": [43, 38], "belgrano": [37, 38]}},
+                      "descensos": "promedios", "descienden": 2, "promocion": 2,
+                      "cupos": {"anio": 2003, "anio_sudamericana": 2002, "fijos": True,
+                                "libertadores": [("Campeón del Torneo Apertura 2001", "racing-club"),
+                                                 ("Campeón del Torneo Clausura 2002", "river-plate"),
+                                                 ("Tabla de la temporada 2001-02", "boca-juniors"),
+                                                 ("Tabla de la temporada 2001-02", "gimnasia-y-esgrima")],
+                                "sudamericana": [("Campeón de la Copa Mercosur 2001", "san-lorenzo"),
+                                                 ("Tabla de la temporada 2001-02", "racing-club"),
+                                                 ("Tabla de la temporada 2001-02", "gimnasia-y-esgrima"),
+                                                 ("Invitado por la Conmebol", "boca-juniors"),
+                                                 ("Invitado por la Conmebol", "river-plate")]}},
+    # El Torneo Apertura 2002 (julio-diciembre; campeón Independiente) abría la temporada 2002-03
+    "2002-apertura": {"nombre": "Torneo Apertura 2002", "anio": 2002, "liga": "a_mano", "slug": "2002-apertura",
+                      "zonas": "unica", "fechas": 19, "pasan": 0, "campeon_tabla": True,
+                      "anual": [("a_mano", r"^2002-clausura$")],
+                      "anual_texto": "La tabla del año 2002: suma el Torneo Clausura 2002 y el Torneo Apertura 2002. No "
+                                     "daba lugares en las copas: salían de la tabla de la temporada.",
+                      "sin_descensos": "En el Torneo Apertura 2002 no hubo descensos: se definieron al terminar la "
+                                       "temporada 2002-03, con el Torneo Clausura 2003."},
     # 2003: dos torneos de 20 equipos a una rueda. El Torneo Clausura 2003 (febrero-julio; campeón River) cerraba la
-    # temporada 2002-03. ESPN no tiene el Apertura 2002: su tabla (la "tabla anual" de este torneo es la de la temporada)
-    # y los puntos de 2000-01 y 2001-02 para los promedios salen de Wikipedia y de RSSSF. Bajaron los dos últimos de los
+    # temporada 2002-03: su "tabla anual" es la de la temporada, con el Apertura 2002 (cargado a mano). Los puntos de
+    # 2000-01 y 2001-02 para los promedios salen de Wikipedia y de RSSSF. Bajaron los dos últimos de los
     # promedios (Unión y Huracán) y los dos de arriba jugaron la Promoción contra equipos de la B Nacional y se salvaron:
     # Talleres con San Martín de Mendoza y Nueva Chicago con Argentinos. ESPN no tiene esos partidos, van a mano
     # (Wikipedia, RSSSF). Con la temporada quedaron definidos los cupos de la Sudamericana 2003 y de la Libertadores 2004
@@ -61,19 +142,8 @@ TORNEOS = {
                                  "nota": "Con el global igualado se quedaba en Primera el equipo de Primera. Los dos se "
                                          "salvaron: Argentinos y San Martín de Mendoza siguieron en la B Nacional. De "
                                          "estos partidos no se cargaron los goles (las fuentes no coinciden)."},
-                      # la tabla del Apertura 2002 (Wikipedia): [pts, pj, g, e, p, gf, gc]
-                      "anual": {"independiente": [43, 19, 13, 4, 2, 48, 19], "boca-juniors": [40, 19, 12, 4, 3, 32, 15],
-                                "river-plate": [36, 19, 11, 3, 5, 35, 23], "chacarita-juniors": [30, 19, 9, 3, 7, 19, 21],
-                                "velez-sarsfield": [28, 19, 8, 4, 7, 23, 19], "racing-club": [28, 19, 8, 4, 7, 28, 28],
-                                "colon": [28, 19, 7, 7, 5, 26, 26], "arsenal-de-sarandi": [27, 19, 7, 6, 6, 29, 25],
-                                "san-lorenzo": [27, 19, 7, 6, 6, 28, 25], "newell-s-old-boys": [27, 19, 7, 6, 6, 23, 22],
-                                "lanus": [26, 19, 6, 8, 5, 21, 24], "banfield": [25, 19, 6, 7, 6, 21, 17],
-                                "rosario-central": [25, 19, 7, 4, 8, 36, 34], "union": [23, 19, 6, 5, 8, 26, 28],
-                                "talleres": [23, 19, 5, 8, 6, 23, 27], "gimnasia-y-esgrima": [20, 19, 4, 8, 7, 18, 24],
-                                "olimpo": [20, 19, 5, 5, 9, 20, 30], "nueva-chicago": [15, 19, 3, 6, 10, 20, 29],
-                                "estudiantes-de-la-plata": [15, 19, 4, 3, 12, 21, 36], "huracan": [11, 19, 2, 5, 12, 17, 42]},
-                      "anual_texto": "La tabla de la temporada 2002-03: suma el Torneo Apertura 2002 (de Wikipedia: ESPN "
-                                     "no tiene sus partidos) y el Torneo Clausura 2003.",
+                      "anual": [("a_mano", r"^2002-apertura$", 2002)],
+                      "anual_texto": "La tabla de la temporada 2002-03: suma el Torneo Apertura 2002 y el Torneo Clausura 2003.",
                       "promedios": {"2000-01": {"river-plate": [78, 38], "boca-juniors": [71, 38], "san-lorenzo": [81, 38],
                                                 "velez-sarsfield": [56, 38], "gimnasia-y-esgrima": [55, 38],
                                                 "racing-club": [40, 38], "colon": [49, 38],
@@ -1155,10 +1225,35 @@ CLUBES_NUEVOS = {
     "2974": ("huracan-tres-arroyos", "Huracán de Tres Arroyos"),
     "2": ("almagro", "Almagro"),
     "smm": ("san-martin-mendoza", "San Martín (Mendoza)"),   # (no está en ESPN: solo jugó la Promoción 2003)
+    "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
 }
 
 # Nombres que en la liga se confunden (en data/equipos.js están como en las copas)
 NOMBRES = {"gimnasia-y-esgrima": "Gimnasia (La Plata)"}
+
+
+def eventos_a_mano(clave):
+    """Los partidos de un torneo que ESPN no tiene (2002), de tools/a_mano/liga-<clave>.json, con la forma de los de
+    ESPN (los clubes, con su id de ESPN), para que el resto funcione igual. Cada uno lleva su fecha (_fecha_n) y el
+    partido tal cual (_a_mano: día, hora, goles, nota)."""
+    archivo = A_MANO / f"liga-{clave}.json"
+    if not archivo.exists():
+        return []
+    espn_a_club, eq = catalogo()
+    id_espn = {**{c: e for e, c in espn_a_club.items()}, **{c: e for e, (c, _) in CLUBES_NUEVOS.items()}}
+    eventos = []
+    for f in json.loads(archivo.read_text(encoding="utf-8"))["fechas"]:
+        for i, p in enumerate(f["partidos"]):
+            hora = datetime.datetime.strptime(f"{p['fecha']} {p.get('hora') or '15:00'}", "%Y-%m-%d %H:%M")
+            eventos.append({
+                "id": f"{clave}-{f['numero']}-{i + 1}", "date": (hora + datetime.timedelta(hours=3)).strftime("%Y-%m-%dT%H:%MZ"),
+                "season": {"slug": clave}, "status": {"type": {"completed": True, "name": "STATUS_FULL_TIME"}},
+                "competitions": [{"competitors": [
+                    {"homeAway": lado, "team": {"id": id_espn[p[lado2]], "displayName": p[lado2]}, "score": p[g]}
+                    for lado, lado2, g in (("home", "local", "gl"), ("away", "visitante", "gv"))],
+                    "venue": {"fullName": p.get("estadio")}}],
+                "_fecha_n": f["numero"], "_a_mano": p})
+    return eventos
 
 
 def hora_argentina(iso):
@@ -1173,6 +1268,10 @@ def bajar(anio, slug, con_zonas=True, liga="arg.1", patron=None):
     """El calendario del año, el detalle de los partidos terminados del torneo y las zonas.
     liga: la de ESPN ("arg.1"; la Copa de la Liga es "arg.copa_lpf"). patron: qué fases del calendario son de este
     torneo (sin nada, las que tienen el slug: "torneo-apertura", "apertura---final"…)."""
+    if liga == "a_mano":   # (los partidos de tools/a_mano; slug: la clave del torneo)
+        eventos = eventos_a_mano(slug)
+        print(f"{anio} {slug}: {len(eventos)} partidos cargados a mano", flush=True)
+        return eventos
     base = f"{ESPN.rsplit('/', 1)[0]}/{liga}"
     carpeta = CACHE / str(anio)
     carpeta.mkdir(parents=True, exist_ok=True)
@@ -1208,7 +1307,10 @@ def bajar(anio, slug, con_zonas=True, liga="arg.1", patron=None):
 
 def calendario(liga, anio):
     """El calendario de un año de una liga de ESPN ("arg.1", "arg.copa_lpf"). Los años terminados se bajan una
-    sola vez; el año del torneo en curso ya lo bajó bajar()."""
+    sola vez; el año del torneo en curso ya lo bajó bajar(). Con "a_mano", los partidos cargados a mano de ese año."""
+    if liga == "a_mano":
+        return {"events": [e for a in sorted(A_MANO.glob(f"liga-{anio}-*.json"))
+                           for e in eventos_a_mano(a.stem.removeprefix("liga-"))]}
     archivo = archivo_calendario(liga, anio)
     if not archivo.exists() or (anio >= datetime.date.today().year and liga != "arg.1"):
         archivo.parent.mkdir(parents=True, exist_ok=True)
@@ -1490,6 +1592,11 @@ def armar(clave):
             p["goles"] = GOLES_CORREGIDOS[e["id"]]
         if e["id"] in GOLES_A_MANO:
             p["goles"] = sorted(p["goles"] + GOLES_A_MANO[e["id"]], key=lambda g: g.get("min") or 0)
+        if e.get("_a_mano"):   # (sin ESPN: la fecha ya se sabe; los goles, solo con el apellido: jid con el club)
+            m = e["_a_mano"]
+            del p["espn"]
+            p.update({"fecha": m["fecha"], "hora": m.get("hora"), "fecha_n": e["_fecha_n"], "nota": m.get("nota"),
+                      "goles": [{**g, "jid": f"{p[g['equipo']]}:{g['jugador']}"} for g in m.get("goles", [])]})
         fase = es_playoff(e)
         if cfg.get("desempate") and re.search(cfg["desempate"], e["season"]["slug"]):
             desempates.append(p)
@@ -1506,6 +1613,8 @@ def armar(clave):
         for p in ps:   # (los clubes, con nuestro id o con el de ESPN, si no jugaron el torneo: la Promoción 2011)
             p = {**p, **{lado: club({"id": p[lado], "displayName": p[lado]}) for lado in ("local", "visitante")
                          if p[lado].isdigit() or p[lado] in CLUBES_NUEVOS}}
+            if cfg.get("liga") == "a_mano":   # (goles solo con el apellido: jid con el club, como en la fase regular)
+                p["goles"] = [{**g, "jid": f"{p[g['equipo']]}:{g['jugador']}"} for g in p.get("goles", [])]
             playoffs.setdefault(fase, []).append(p)
 
     if etapas:   # las fechas, por etapa, numeradas desde la primera fecha de cada una
@@ -1514,7 +1623,7 @@ def armar(clave):
             repartir_fechas(de_etapa, cuantas)
             for p in de_etapa:
                 p["fecha_n"] += primera - 1
-    elif regular:
+    elif regular and cfg.get("liga") != "a_mano":
         repartir_fechas(regular, cfg["fechas"])
     fechas = {}
     for p in regular:
