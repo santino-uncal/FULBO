@@ -73,7 +73,9 @@ class DatosLiga(unittest.TestCase):
                 for anio, tabla in d.get("promedios", {}).items():
                     for cid, (pts, pj) in tabla.items():
                         self.assertIn(cid, ids)
-                        self.assertTrue(0 < pj and 0 <= pts <= 3 * pj, (anio, cid))
+                        # (hasta 1985-86, por temporada: [puntos, 1])
+                        maximo = 3 * 38 if d.get("promedios_por_temporada") else 3 * pj
+                        self.assertTrue(0 < pj and 0 <= pts <= maximo, (anio, cid))
                 for cid, c in d["clubes"].items():
                     self.assertTrue(c["nombre"], cid)
                     self.assertTrue(c["escudo"] and (RAIZ / c["escudo"]).exists(), f"falta el escudo de {cid}")

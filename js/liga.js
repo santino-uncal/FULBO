@@ -233,7 +233,8 @@
         // (T.promedios_victoria: 2, como hasta 1996-97, cuando los promedios contaban 2 puntos por partido ganado)
         // (sin el punto de los penales de 1988-89, y con los puntos descontados en el torneo)
         const pts = T.promedios_victoria ? T.promedios_victoria * anual[id].g + anual[id].e - ((T.descuentos || {})[id] || 0) : anual[id].pts;
-        const temporadas = [...aniosProm.map(a => T.promedios[a][id] || null), [pts, anual[id].pj]];
+        // (T.promedios_por_temporada: hasta 1985-86, los puntos de cada temporada divididos por las temporadas jugadas)
+        const temporadas = [...aniosProm.map(a => T.promedios[a][id] || null), [pts, T.promedios_por_temporada ? 1 : anual[id].pj]];
         const total = temporadas.reduce((n, t) => n + (t ? t[0] : 0), 0);
         const pj = temporadas.reduce((n, t) => n + (t ? t[1] : 0), 0);
         return { id, temporadas, pts: total, pj, prom: pj ? total / pj : 0 };
@@ -270,7 +271,7 @@
         (tabla anual) y ${esc(club(d.prom).nombre)} (promedios).</p>`;
     })() : `<p class="leyenda"><span><i class="desciende"></i>${enJuego() ? "Descendería si el año terminara hoy" : "Desciende"}
       (${T.descensos === "promedios" ? (T.descienden === 1 ? "el último de los promedios" : `los ${{ 2: "dos", 3: "tres", 4: "cuatro" }[T.descienden || 2]} últimos de los promedios`) : "uno por la tabla anual y otro por los promedios"})</span>${T.promocion
-      ? `<span><i class="promocion"></i>Promoción contra un equipo de la B Nacional (ver la pestaña ${esc(T.nombre_playoffs || "Playoffs")})</span>` : ""}</p>`;
+      ? `<span><i class="promocion"></i>${esc(T.texto_promocion || "Promoción contra un equipo de la B Nacional")} (ver la pestaña ${esc(T.nombre_playoffs || "Playoffs")})</span>` : ""}</p>`;
     // ---- Cupos para las copas del año que viene (T.cupos): a la Libertadores, los campeones del año y los mejores de
     // la tabla anual hasta completar los lugares; a la Sudamericana, los siguientes. Un campeón que ya entra por la
     // tabla libera su lugar para el siguiente, y los que descienden no juegan copas. Los títulos que todavía no se
@@ -349,14 +350,18 @@
       const d = descensos();
       const temporada = t => t ? t[0] : "–";
       const cuerpo = promedios().map((f, i) => `<tr><td class="pos ${d.porProm.includes(f.id) ? "desciende" : d.promo?.includes(f.id) ? "promocion" : ""}">${i + 1}</td>
-        <td class="eq">${nombreClub(f.id)}</td>${f.temporadas.map(t => `<td class="opc" title="${t ? `${t[1]} partidos` : "No jugó en Primera"}">${temporada(t)}</td>`).join("")}
-        <td>${f.pts}</td><td>${f.pj}</td><td class="pts">${(Math.floor(f.prom * 1000 + 1e-9) / 1000).toFixed(3).replace(".", ",")}</td></tr>`).join("");
+        <td class="eq">${nombreClub(f.id)}</td>${f.temporadas.map(t => `<td class="opc" title="${t ? (T.promedios_por_temporada ? "Puntos de la temporada" : `${t[1]} partidos`) : "No jugó en Primera"}">${temporada(t)}</td>`).join("")}
+        <td>${f.pts}</td><td>${f.pj}</td><td class="pts">${T.promedios_por_temporada ? f.prom.toFixed(2).replace(".", ",")
+          : (Math.floor(f.prom * 1000 + 1e-9) / 1000).toFixed(3).replace(".", ",")}</td></tr>`).join("");
       const actual = T.temporada || T.anio;
-      return `<p class="vacio">Los puntos de las temporadas ${[...aniosProm, actual].join(", ")} divididos por los partidos jugados
+      return `<p class="vacio">Los puntos de las temporadas ${[...aniosProm, actual].join(", ")} divididos por ${T.promedios_por_temporada
+        ? "la cantidad de temporadas que cada club jugó en Primera (no por los partidos: las temporadas no tuvieron todas los mismos partidos)" : "los partidos jugados"}
         (la de ${actual} es ${T.temporada ? "este torneo" : "la tabla anual"}).${T.promedios_victoria
-        ? ` Para los promedios, cada partido ganado valía ${T.promedios_victoria} puntos (en los torneos ya valía 3).` : ""} Los que subieron hace poco dividen solo por los partidos que jugaron en Primera. El promedio va con tres decimales, sin redondear (como lo publica la AFA).</p>
+        ? ` Para los promedios, cada partido ganado valía ${T.promedios_victoria} puntos (en los torneos ya valía 3).` : ""}${T.promedios_por_temporada
+        ? " Los que subieron hace poco dividen solo por las temporadas que jugaron en Primera."
+        : " Los que subieron hace poco dividen solo por los partidos que jugaron en Primera. El promedio va con tres decimales, sin redondear (como lo publica la AFA)."}</p>
         <div class="grupo tabla-larga"><table><thead><tr><th>#</th><th class="eq">Equipo</th>${[...aniosProm, actual].map(a => `<th class="opc">${a}</th>`).join("")}
-          <th>Pts</th><th>J</th><th>Prom.</th></tr></thead><tbody>${cuerpo}</tbody></table></div>
+          <th>Pts</th><th>${T.promedios_por_temporada ? `<span title="Temporadas">Temp.</span>` : "J"}</th><th>Prom.</th></tr></thead><tbody>${cuerpo}</tbody></table></div>
         ${T.descensos || T.descensos_anulados ? avisoDescenso() : ""}
         ${T.sin_descensos && !T.anual && !T.cupos ? `<p class="nota-edicion">${esc(T.sin_descensos)}</p>` : ""}`;
     }

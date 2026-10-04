@@ -33,6 +33,114 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1986: el Campeonato 1985-86 (julio de 1985 a abril de 1986; campeón River), el primero de agosto a mayo como en
+    # Europa: 19 equipos a dos ruedas (38 fechas, en cada una quedaba uno libre), con 2 puntos por partido ganado; va
+    # con el año en que terminó ("1986-temporada"). ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles ni
+    # estadios). Los promedios eran por temporada (los puntos de 1983, 1984 y 1985-86 divididos por las temporadas
+    # jugadas: "promedios_por_temporada"; RSSSF y Wikipedia). Bajó Chacarita (el peor promedio) y el anteúltimo, Huracán,
+    # jugó el Octogonal con siete de la Primera B: lo perdió con Deportivo Italiano y también bajó (RSSSF, sin goles).
+    # El segundo lugar en la Libertadores 1986 lo jugaron en una Liguilla Pre-Libertadores con cinco del campeonato,
+    # Vélez (subcampeón del Nacional 1985) y seis del Torneo del Interior (RSSSF, con los goles; estadios de Wikipedia;
+    # ganó Boca). Argentinos fue a la Libertadores como campeón de la de 1985
+    "1986-temporada": {"nombre": "Campeonato 1985-86", "anio": 1986, "liga": "a_mano", "slug": "1986-temporada",
+                       "zonas": "unica", "fechas": 38, "pasan": 0, "puntos_victoria": 2,
+                       "campeon_tabla": True, "temporada": "1985-86",
+                       "anual_texto": "La tabla del Campeonato 1985-86 (las 38 fechas; eran 19 equipos y en cada fecha uno "
+                                      "quedaba libre). Cada partido ganado valía 2 puntos.",
+                       "goleadores_nota": "RSSSF no tiene los goles del campeonato: la lista es solo de la Liguilla. El "
+                                          "goleador del campeonato fue Enzo Francescoli (River), con 25 goles.",
+                       "nombre_playoffs": "Liguilla y Octogonal",
+                       "playoffs": [(r"^$^", n) for n in (
+                           "Liguilla: octavos de final", "Liguilla: cuartos de final", "Liguilla: semifinales",
+                           "Liguilla: final", "Octogonal: cuartos de final", "Octogonal: semifinales", "Octogonal: final",
+                           "Octogonal: desempate")],
+                       "playoffs_a_mano": {
+                           "Liguilla: octavos de final": [
+                               {"hora_utc": "1986-04-27T19:00Z", "fecha": "1986-04-27", "local": "acc", "visitante": "boca-juniors", "gl": 1, "gv": 2, "goles": [{"jugador": "González", "equipo": "local"}, {"jugador": "Graciani", "equipo": "visitante"}, {"jugador": "Higuaín", "equipo": "visitante"}], "estadio": "El Coloso del Ruca Quimey"},
+                               {"hora_utc": "1986-04-27T19:00Z", "fecha": "1986-04-27", "local": "cfc", "visitante": "velez-sarsfield", "gl": 0, "gv": 3, "goles": [{"jugador": "Hernández", "equipo": "visitante"}, {"jugador": "Vanemerak", "equipo": "visitante"}, {"jugador": "Bianchi", "equipo": "visitante"}], "estadio": "Stewart Shipton"},
+                               {"hora_utc": "1986-04-27T19:00Z", "fecha": "1986-04-27", "local": "ferro-carril-oeste", "visitante": "gue", "gl": 2, "gv": 1, "goles": [{"jugador": "E.González", "equipo": "local"}, {"jugador": "E.González", "equipo": "local"}, {"jugador": "Paz", "equipo": "visitante"}], "estadio": "Arquitecto Ricardo Etcheverri"},
+                               {"hora_utc": "1986-04-27T19:00Z", "fecha": "1986-04-27", "local": "san-lorenzo", "visitante": "gaf", "gl": 4, "gv": 1, "goles": [{"jugador": "Perazzo", "equipo": "local"}, {"jugador": "Insúa", "equipo": "local"}, {"jugador": "Giovagnoli", "equipo": "local"}, {"jugador": "Ortega Sánchez", "equipo": "local"}, {"jugador": "Ferreyra", "equipo": "visitante"}], "estadio": "Cancha de Boca Juniors"},
+                               {"hora_utc": "1986-05-04T19:00Z", "fecha": "1986-05-04", "local": "boca-juniors", "visitante": "acc", "gl": 2, "gv": 1, "goles": [{"jugador": "Krasouski", "equipo": "local"}, {"jugador": "Stafuza", "equipo": "local"}, {"jugador": "E.Sánchez", "equipo": "visitante"}], "estadio": "La Bombonera"},
+                               {"hora_utc": "1986-05-04T19:00Z", "fecha": "1986-05-04", "local": "gaf", "visitante": "san-lorenzo", "gl": 0, "gv": 3, "goles": [{"jugador": "Ortega Sánchez", "equipo": "visitante"}, {"jugador": "Madelón", "equipo": "visitante"}, {"jugador": "Bica", "equipo": "visitante"}], "estadio": "Guaraní Antonio Franco"},
+                               {"hora_utc": "1986-05-04T19:00Z", "fecha": "1986-05-04", "local": "gue", "visitante": "ferro-carril-oeste", "gl": 1, "gv": 2, "goles": [{"jugador": "J.Pérez", "equipo": "local"}, {"jugador": "E.González", "equipo": "visitante"}, {"jugador": "Artime", "equipo": "visitante"}], "estadio": "Cancha de Mitre (Santiago del Estero)"},
+                               {"hora_utc": "1986-05-04T19:00Z", "fecha": "1986-05-04", "local": "velez-sarsfield", "visitante": "cfc", "gl": 2, "gv": 1, "goles": [{"jugador": "Gutierrez", "equipo": "local"}, {"jugador": "Hernández", "equipo": "local"}, {"jugador": "Uribio", "equipo": "visitante"}], "estadio": "José Amalfitani"},
+                           ],
+                           "Liguilla: cuartos de final": [
+                               {"hora_utc": "1986-05-11T19:00Z", "fecha": "1986-05-11", "local": "4", "visitante": "newell-s-old-boys", "gl": 1, "gv": 3, "goles": [{"jugador": "Scatolaro", "equipo": "local"}, {"jugador": "Llop", "equipo": "visitante"}, {"jugador": "Sen", "equipo": "visitante"}, {"jugador": "Cozzoni", "equipo": "visitante"}], "estadio": "Gigante de Alberdi"},
+                               {"hora_utc": "1986-05-11T19:00Z", "fecha": "1986-05-11", "local": "boca-juniors", "visitante": "2636", "gl": 1, "gv": 1, "goles": [{"jugador": "Passucci", "equipo": "local"}, {"jugador": "Schmidt", "equipo": "visitante"}], "estadio": "La Bombonera"},
+                               {"hora_utc": "1986-05-11T19:00Z", "fecha": "1986-05-11", "local": "deportivo-espanol", "visitante": "ferro-carril-oeste", "gl": 0, "gv": 0, "estadio": "España"},
+                               {"hora_utc": "1986-05-11T19:00Z", "fecha": "1986-05-11", "local": "velez-sarsfield", "visitante": "san-lorenzo", "gl": 1, "gv": 1, "goles": [{"jugador": "Hernández", "equipo": "local"}, {"jugador": "Alul", "equipo": "visitante"}], "estadio": "José Amalfitani"},
+                               {"hora_utc": "1986-05-18T19:00Z", "fecha": "1986-05-18", "local": "ferro-carril-oeste", "visitante": "deportivo-espanol", "gl": 4, "gv": 1, "goles": [{"jugador": "E.González", "equipo": "local"}, {"jugador": "E.González", "equipo": "local"}, {"jugador": "Artime", "equipo": "local"}, {"jugador": "Cuper", "equipo": "local"}, {"jugador": "Rodriguez", "equipo": "visitante"}], "alargue": True, "estadio": "Arquitecto Ricardo Etcheverri"},
+                               {"hora_utc": "1986-05-18T19:00Z", "fecha": "1986-05-18", "local": "newell-s-old-boys", "visitante": "4", "gl": 2, "gv": 1, "goles": [{"jugador": "Dezotti", "equipo": "local"}, {"jugador": "Cozzoni", "equipo": "local"}, {"jugador": "Celiz", "equipo": "visitante"}], "estadio": "El Coloso del Parque"},
+                               {"hora_utc": "1986-05-18T19:00Z", "fecha": "1986-05-18", "local": "2636", "visitante": "boca-juniors", "gl": 2, "gv": 3, "goles": [{"jugador": "Di Pietri", "equipo": "local"}, {"jugador": "Stach", "equipo": "local"}, {"jugador": "Torres", "equipo": "visitante"}, {"jugador": "Torres", "equipo": "visitante"}, {"jugador": "Rinaldi", "equipo": "visitante"}], "alargue": True, "estadio": "Roberto N. Carminatti"},
+                               {"hora_utc": "1986-05-18T19:00Z", "fecha": "1986-05-18", "local": "san-lorenzo", "visitante": "velez-sarsfield", "gl": 0, "gv": 0, "pen_l": 4, "pen_v": 3, "alargue": True, "estadio": "Cancha de Boca Juniors"},
+                           ],
+                           "Liguilla: semifinales": [
+                               {"hora_utc": "1986-05-25T19:00Z", "fecha": "1986-05-25", "local": "newell-s-old-boys", "visitante": "ferro-carril-oeste", "gl": 1, "gv": 0, "goles": [{"jugador": "Cozzoni", "equipo": "local"}], "estadio": "El Coloso del Parque"},
+                               {"hora_utc": "1986-05-25T19:00Z", "fecha": "1986-05-25", "local": "san-lorenzo", "visitante": "boca-juniors", "gl": 1, "gv": 2, "goles": [{"jugador": "Perazzo", "equipo": "local"}, {"jugador": "Graciani", "equipo": "visitante"}, {"jugador": "Passucci", "equipo": "visitante"}], "estadio": "Cancha de River Plate"},
+                               {"hora_utc": "1986-05-29T19:00Z", "fecha": "1986-05-29", "local": "ferro-carril-oeste", "visitante": "newell-s-old-boys", "gl": 1, "gv": 1, "goles": [{"jugador": "Fantaguzzi", "equipo": "local"}, {"jugador": "Dezotti", "equipo": "visitante"}], "estadio": "Arquitecto Ricardo Etcheverri"},
+                               {"hora_utc": "1986-06-01T19:00Z", "fecha": "1986-06-01", "local": "boca-juniors", "visitante": "san-lorenzo", "gl": 0, "gv": 0, "estadio": "La Bombonera"},
+                           ],
+                           "Liguilla: final": [
+                               {"hora_utc": "1986-06-08T19:00Z", "fecha": "1986-06-08", "local": "boca-juniors", "visitante": "newell-s-old-boys", "gl": 0, "gv": 2, "goles": [{"jugador": "Martino", "equipo": "visitante"}, {"jugador": "Martino", "equipo": "visitante"}], "estadio": "La Bombonera"},
+                               {"hora_utc": "1986-06-15T19:00Z", "fecha": "1986-06-15", "local": "newell-s-old-boys", "visitante": "boca-juniors", "gl": 1, "gv": 4, "goles": [{"jugador": "Sialle", "equipo": "local"}, {"jugador": "Graciani", "equipo": "visitante"}, {"jugador": "Graciani", "equipo": "visitante"}, {"jugador": "Torres", "equipo": "visitante"}, {"jugador": "Torres", "equipo": "visitante"}], "estadio": "El Coloso del Parque"},
+                           ],
+                           "Octogonal: cuartos de final": [
+                               {"hora_utc": "1986-06-04T19:00Z", "fecha": "1986-06-04", "local": "huracan", "visitante": "12", "gl": 2, "gv": 0, "estadio": "Cancha de Ferro Carril Oeste"},
+                               {"hora_utc": "1986-06-04T19:00Z", "fecha": "1986-06-04", "local": "lan", "visitante": "dar", "gl": 1, "gv": 0, "estadio": "Cancha de Independiente"},
+                               {"hora_utc": "1986-06-04T19:00Z", "fecha": "1986-06-04", "local": "235", "visitante": "8950", "gl": 2, "gv": 0, "estadio": "Cancha de Atlanta"},
+                               {"hora_utc": "1986-06-04T19:00Z", "fecha": "1986-06-04", "local": "dit", "visitante": "7767", "gl": 2, "gv": 0, "estadio": "Cancha de River Plate"},
+                               {"hora_utc": "1986-06-07T19:00Z", "fecha": "1986-06-07", "local": "12", "visitante": "huracan", "gl": 2, "gv": 3, "estadio": "Cancha de River Plate"},
+                               {"hora_utc": "1986-06-07T19:00Z", "fecha": "1986-06-07", "local": "dar", "visitante": "lan", "gl": 2, "gv": 2, "alargue": True, "estadio": "Cancha de Atlanta"},
+                               {"hora_utc": "1986-06-07T19:00Z", "fecha": "1986-06-07", "local": "8950", "visitante": "235", "gl": 2, "gv": 2, "estadio": "Cancha de Independiente"},
+                               {"hora_utc": "1986-06-07T19:00Z", "fecha": "1986-06-07", "local": "7767", "visitante": "dit", "gl": 1, "gv": 2, "estadio": "Cancha de Ferro Carril Oeste"},
+                           ],
+                           "Octogonal: semifinales": [
+                               {"hora_utc": "1986-06-11T19:00Z", "fecha": "1986-06-11", "local": "huracan", "visitante": "lan", "gl": 1, "gv": 0, "estadio": "Cancha de Vélez Sarsfield"},
+                               {"hora_utc": "1986-06-11T19:00Z", "fecha": "1986-06-11", "local": "dit", "visitante": "235", "gl": 1, "gv": 1, "estadio": "Cancha de Ferro Carril Oeste"},
+                               {"hora_utc": "1986-06-14T19:00Z", "fecha": "1986-06-14", "local": "lan", "visitante": "huracan", "gl": 1, "gv": 3, "estadio": "Cancha de Independiente"},
+                               {"hora_utc": "1986-06-14T19:00Z", "fecha": "1986-06-14", "local": "235", "visitante": "dit", "gl": 0, "gv": 0, "pen_l": 3, "pen_v": 4, "estadio": "Cancha de Vélez Sarsfield"},
+                           ],
+                           "Octogonal: final": [
+                               {"hora_utc": "1986-06-18T19:00Z", "fecha": "1986-06-18", "local": "dit", "visitante": "huracan", "gl": 1, "gv": 0, "estadio": "Cancha de Ferro Carril Oeste"},
+                               {"hora_utc": "1986-06-21T19:00Z", "fecha": "1986-06-21", "local": "huracan", "visitante": "dit", "gl": 2, "gv": 1, "estadio": "Cancha de Vélez Sarsfield"},
+                           ],
+                           "Octogonal: desempate": [
+                               {"hora_utc": "1986-06-24T19:00Z", "fecha": "1986-06-24", "local": "dit", "visitante": "huracan", "gl": 2, "gv": 2, "pen_l": 4, "pen_v": 2, "estadio": "Cancha de Vélez Sarsfield"},
+                           ],
+                       },
+                       "ida_y_vuelta": True,
+                       "cuadro": {"bloques": [("Liguilla Pre-Libertadores: por el segundo lugar en la Libertadores 1986. La "
+                                               "jugaron cinco del campeonato (del 2.º al 7.º, menos Argentinos, que ya iba "
+                                               "como campeón de la Libertadores 1985), Vélez (subcampeón del Nacional 1985) "
+                                               "y seis del Torneo del Interior",
+                                               [["Liguilla: octavos de final"], ["Liguilla: cuartos de final"],
+                                                ["Liguilla: semifinales"], ["Liguilla: final"]]),
+                                              ("Octogonal Reclasificatorio: Huracán (el anteúltimo de los promedios) y "
+                                               "siete de la Primera B, por un lugar en la Primera División",
+                                               [["Octogonal: cuartos de final"], ["Octogonal: semifinales"],
+                                                ["Octogonal: final"], ["Octogonal: desempate"]])],
+                                  "nota": "De la Liguilla hay solo los goleadores, sin los minutos; del Octogonal, solo el "
+                                          "resultado. Deportivo Italiano ganó el Octogonal: subió, y Huracán bajó."},
+                       # (los puntos de cada temporada; se divide por las temporadas jugadas)
+                       "promedios_por_temporada": True,
+                       "promedios": {"1983": {"ferro-carril-oeste": [46, 1], "argentinos-juniors": [36, 1], "river-plate": [29, 1],
+                                              "san-lorenzo": [47, 1], "velez-sarsfield": [44, 1], "newell-s-old-boys": [35, 1],
+                                              "independiente": [48, 1], "estudiantes-de-la-plata": [38, 1], "boca-juniors": [37, 1],
+                                              "talleres": [33, 1], "instituto": [35, 1], "union": [38, 1], "racing-cordoba": [27, 1],
+                                              "platense": [34, 1], "temperley": [33, 1], "huracan": [32, 1]},
+                                     "1984": {"ferro-carril-oeste": [50, 1], "argentinos-juniors": [51, 1], "river-plate": [43, 1],
+                                              "san-lorenzo": [37, 1], "velez-sarsfield": [42, 1], "newell-s-old-boys": [38, 1],
+                                              "independiente": [31, 1], "estudiantes-de-la-plata": [48, 1], "boca-juniors": [30, 1],
+                                              "talleres": [34, 1], "instituto": [33, 1], "union": [30, 1], "racing-cordoba": [43, 1],
+                                              "platense": [33, 1], "temperley": [31, 1], "huracan": [27, 1],
+                                              "chacarita-juniors": [34, 1]}},
+                       "descensos": "promedios", "descienden": 1, "promocion": 1,
+                       "texto_promocion": "Octogonal Reclasificatorio con siete de la Primera B: Huracán lo perdió y también bajó",
+                       "cupos": {"anio": 1986, "fijos": True,
+                                 "libertadores": [("Campeón del Campeonato 1985-86", "river-plate"),
+                                                  ("Ganador de la Liguilla Pre-Libertadores", "boca-juniors"),
+                                                  ("Campeón de la Libertadores 1985", "argentinos-juniors")]}},
     # 1987: el Campeonato 1986-87 (julio de 1986 a mayo de 1987; campeón Rosario Central), a dos ruedas (38 fechas), con
     # 2 puntos por partido ganado; va con el año en que terminó ("1987-temporada"). ESPN no lo tiene: va a mano
     # (tools/a_mano; RSSSF, sin goles ni estadios). River-Temperley se lo dieron ganado a Temperley (doping) y
@@ -2352,6 +2460,10 @@ CLUBES_NUEVOS = {
     "cfe": ("chaco-for-ever", "Chaco For Ever"),   # (no está en ESPN: 1990-91)
     "dar": ("deportivo-armenio", "Deportivo Armenio"),   # (no está en ESPN: 1988-89)
     "dit": ("deportivo-italiano", "Deportivo Italiano"),   # (no está en ESPN: 1986-87)
+    "acc": ("alianza-cutral-co", "Alianza (Cutral Có)"),   # (no está en ESPN: la Liguilla 1985-86)
+    "cfc": ("concepcion-fc", "Concepción FC (Tucumán)"),
+    "gue": ("guemes", "Güemes (Santiago del Estero)"),
+    "gaf": ("guarani-antonio-franco", "Guaraní Antonio Franco (Posadas)"),
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
@@ -2827,7 +2939,8 @@ def armar(clave):
         datos["desempate"] = limpio(desempates[0])
     for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "goleadores_nota", "promocion", "ventaja", "triangular", "texto_triangular", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
               "campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro", "descuentos",
-              "descuentos_texto", "promedios_victoria", "puntos_victoria", "punto_penales"):
+              "descuentos_texto", "promedios_victoria", "puntos_victoria", "punto_penales",
+              "promedios_por_temporada", "texto_promocion"):
         if cfg.get(k):
             datos[k] = cfg[k]
     if cfg.get("titulo_anual"):
