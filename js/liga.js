@@ -71,7 +71,8 @@
     function tabla(ids, partidos = todos) {
       const t = Object.fromEntries(ids.map(id => [id, { id, pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, ultimos: [] }]));
       partidos.filter(jugado).sort((a, b) => (a.fecha || "").localeCompare(b.fecha || "")).forEach(p => {
-        [[p.local, p.gl, p.gv], [p.visitante, p.gv, p.gl]].forEach(([id, a, b]) => {
+        // (p.para_local: un partido que la AFA les dio perdido a los dos, como Almagro-Boca 2005: al local, otro resultado)
+        [[p.local, ...(p.para_local || [p.gl, p.gv])], [p.visitante, p.gv, p.gl]].forEach(([id, a, b]) => {
           const f = t[id];
           if (!f) return;
           f.pj++; f.gf += a; f.gc += b;

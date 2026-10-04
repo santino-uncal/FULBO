@@ -32,6 +32,79 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2005: dos torneos de 20 equipos a una rueda. El Torneo Clausura 2005 (febrero-julio; campeón Vélez) cerraba la
+    # temporada 2004-05: su "tabla anual" es la de la temporada (el Apertura 2004 y el Clausura 2005). Bajaron los dos
+    # últimos de los promedios (2002-03, 2003-04 y 2004-05) y los dos de arriba jugaron la Promoción contra equipos de la
+    # B Nacional y se salvaron: Argentinos con Atlético de Rafaela e Instituto con Huracán. ESPN no tiene esos partidos,
+    # van a mano (Wikipedia, La Nueva, Infobae, Página/12). Con la temporada quedaron definidos los cupos de la
+    # Sudamericana 2005 y de la Libertadores 2006, fijos
+    "2005-clausura": {"nombre": "Torneo Clausura 2005", "anio": 2005, "slug": "clausura-2005",
+                      "patron": r"^torneo-clausura-2005$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True, "temporada": "2004-05", "nombre_anual": "Temporada y copas",
+                      "nombre_playoffs": "Promoción", "playoffs": [(r"^$^", "Promoción")],
+                      "playoffs_a_mano": {"Promoción": [
+                          {"hora_utc": "2005-07-06T23:00Z", "fecha": "2005-07-06", "local": "9747",
+                           "visitante": "argentinos-juniors", "gl": 2, "gv": 1, "estadio": "Monumental (Rafaela)",
+                           "arbitro": "Gabriel Favale",
+                           "goles": [{"jugador": "Sergio Marclay", "min": 57, "equipo": "local"},
+                                     {"jugador": "Federico García", "min": 76, "equipo": "local"},
+                                     {"jugador": "Leonardo Pisculichi", "min": 80, "tipo": "pen", "equipo": "visitante"}]},
+                          {"hora_utc": "2005-07-07T00:00Z", "local": "10", "visitante": "instituto", "gl": 1, "gv": 2,
+                           "estadio": "Tomás A. Ducó",
+                           "goles": [{"jugador": "Nahuel Fioretto", "equipo": "local"},
+                                     {"jugador": "Josemir Lujambio", "equipo": "visitante"},
+                                     {"jugador": "Santiago Raymonda", "equipo": "visitante"}]},
+                          {"hora_utc": "2005-07-10T20:00Z", "fecha": "2005-07-10", "local": "argentinos-juniors",
+                           "visitante": "9747", "gl": 3, "gv": 0, "estadio": "Diego Armando Maradona",
+                           "arbitro": "Sergio Pezzotta",
+                           "goles": [{"jugador": "Matías Córdoba", "min": 65, "equipo": "local"},
+                                     {"jugador": "Matías Córdoba", "min": 85, "equipo": "local"},
+                                     {"jugador": "Claudio Marini", "min": 89, "equipo": "local"}]},
+                          {"hora_utc": "2005-07-10T21:00Z", "fecha": "2005-07-10", "local": "instituto", "visitante": "10",
+                           "gl": 1, "gv": 0, "estadio": "Presidente Perón (Alta Córdoba)", "arbitro": "Rafael Furchi",
+                           "goles": [{"jugador": "Santiago Raymonda", "min": 30, "equipo": "local"}]}]},
+                      "ida_y_vuelta": True, "ventaja": ["argentinos-juniors", "instituto"],
+                      "cuadro": {"bloques": [("Promoción: los equipos de Primera contra los de la B Nacional",
+                                              [["Promoción"]])],
+                                 "nota": "Con el global igualado se quedaba en Primera el equipo de Primera. Los dos se "
+                                         "salvaron: Atlético de Rafaela y Huracán siguieron en la B Nacional. De la ida "
+                                         "Huracán-Instituto no se encontraron el día ni los minutos de los goles."},
+                      "anual": [("arg.1", r"^torneo-apertura-2004$", 2004)],
+                      "anual_texto": "La tabla de la temporada 2004-05: suma el Torneo Apertura 2004 y el Torneo Clausura 2005.",
+                      # (ESPN no tiene el Apertura 2002: los puntos de 2002-03, de la tabla de promedios de Wikipedia)
+                      "promedios": {"2002-03": {"river-plate": [79, 38], "boca-juniors": [79, 38],
+                                                "velez-sarsfield": [66, 38], "banfield": [48, 38], "san-lorenzo": [56, 38],
+                                                "rosario-central": [62, 38], "racing-club": [53, 38],
+                                                "newell-s-old-boys": [49, 38], "colon": [57, 38],
+                                                "arsenal-de-sarandi": [49, 38], "independiente": [61, 38],
+                                                "estudiantes-de-la-plata": [43, 38], "lanus": [51, 38],
+                                                "gimnasia-y-esgrima": [46, 38], "olimpo": [51, 38]},
+                                    "2003-04": [("arg.1", r"^torneo-apertura-2003$", 2003),
+                                                ("arg.1", r"^torneo-apertura-2003$", 2004),
+                                                ("arg.1", r"^torneo-clausura-2004$", 2004)]},
+                      "descensos": "promedios", "descienden": 2, "promocion": 2,
+                      "cupos": {"anio": 2006, "anio_sudamericana": 2005, "fijos": True,
+                                "libertadores": [("Campeón del Torneo Apertura 2004", "newell-s-old-boys"),
+                                                 ("Campeón del Torneo Clausura 2005", "velez-sarsfield"),
+                                                 ("Tabla de la temporada 2004-05", "estudiantes-de-la-plata"),
+                                                 ("Tabla de la temporada 2004-05", "rosario-central"),
+                                                 ("Tabla de la temporada 2004-05", "river-plate")],
+                                "sudamericana": [("Campeón de la Copa Sudamericana 2004 (e invitado)", "boca-juniors"),
+                                                 ("Tabla de la temporada 2004-05", "velez-sarsfield"),
+                                                 ("Tabla de la temporada 2004-05", "estudiantes-de-la-plata"),
+                                                 ("Tabla de la temporada 2004-05", "rosario-central"),
+                                                 ("Tabla de la temporada 2004-05", "newell-s-old-boys"),
+                                                 ("Tabla de la temporada 2004-05", "banfield"),
+                                                 ("Invitado por la Conmebol", "river-plate")]}},
+    # El Torneo Apertura 2005 (agosto-diciembre; campeón Boca) abría la temporada 2005-06
+    "2005-apertura": {"nombre": "Torneo Apertura 2005", "anio": 2005, "slug": "apertura-2005",
+                      "patron": r"^torneo-apertura-2005$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True,
+                      "anual": [("arg.1", r"^torneo-clausura-2005$")],
+                      "anual_texto": "La tabla del año 2005: suma el Torneo Clausura 2005 y el Torneo Apertura 2005. No "
+                                     "daba lugares en las copas: salían de la tabla de la temporada.",
+                      "sin_descensos": "En el Torneo Apertura 2005 no hubo descensos: se definieron al terminar la "
+                                       "temporada 2005-06, con el Torneo Clausura 2006."},
     # 2006: dos torneos de 20 equipos a una rueda. El Torneo Clausura 2006 (febrero-mayo; campeón Boca, que también
     # había ganado el Apertura 2005) cerraba la temporada 2005-06: su "tabla anual" es la de la temporada. Bajaron los
     # dos últimos de los promedios (2003-04, 2004-05 y 2005-06) y los dos de arriba jugaron la Promoción contra equipos
@@ -846,7 +919,11 @@ GOLES_A_MANO = {"521397": [{"jugador": "Saúl Salcedo", "min": 62, "tipo": "ec",
                 # Newell's 3-0 Racing (Apertura 2008): el segundo, de Hernán Bernardello (Página/12)
                 "246119": [{"jugador": "Hernán Bernardello", "min": 87, "equipo": "local"}],
                 # San Lorenzo 1-1 Instituto (Clausura 2006): el de San Lorenzo, de Leonardo Ulloa (La Nueva)
-                "194020": [{"jugador": "Leonardo Ulloa", "min": 53, "equipo": "local"}]}
+                "194020": [{"jugador": "Leonardo Ulloa", "min": 53, "equipo": "local"}],
+                # Argentinos 1-2 Quilmes (Apertura 2005): los dos de Quilmes, de penal, de Miguel Caneo en el segundo
+                # tiempo (La Nueva; sin los minutos)
+                "187644": [{"jugador": "Miguel Caneo", "tipo": "pen", "equipo": "visitante"},
+                           {"jugador": "Miguel Caneo", "tipo": "pen", "equipo": "visitante"}]}
 # Partidos que ESPN pone en la fase regular pero no la son (no suman en la tabla anual ni en los promedios): del
 # torneo 2016, la final (Lanús-San Lorenzo) y el desempate por un lugar en las copas (Godoy Cruz-Estudiantes)
 NO_SUMAN = {"448823", "448810"}
@@ -856,9 +933,11 @@ NO_SUMAN = {"448823", "448810"}
 RESULTADOS_A_MANO = {"382317": (0, 1, "No se jugó: Colón no se presentó y la AFA le dio el partido ganado 1-0 a "
                                        "Atlético de Rafaela"),
                      # Almagro 3-2 Boca, Clausura 2005: se suspendió a los 18 del segundo tiempo por incidentes y la AFA
-                     # les dio el partido perdido a los dos (a Boca 3-2, a Almagro 0-2); cuenta para los promedios de 2007.
-                     # Acá queda 3-2 (Almagro no está en ningún promedio cargado)
+                     # les dio el partido perdido a los dos (a Boca 3-2; a Almagro 0-2, ver PIERDEN_LOS_DOS)
                      "186468": (3, 2, "Suspendido por incidentes: la AFA les dio el partido perdido a los dos")}
+# Partidos que la AFA les dio perdidos a los dos: {id del partido de ESPN: (goles a favor, en contra) que se le cuentan
+# al local}; al visitante se le cuenta el resultado. Almagro-Boca, Clausura 2005: a Almagro, 0-2
+PIERDEN_LOS_DOS = {"186468": (0, 2)}
 # Puntos descontados por sanciones: {(año, id de ESPN): puntos}. Se restan en la tabla anual (o de la temporada) de ese
 # año, no en la del torneo. Colón, temporada 2013-14: 6 puntos que le quitó la FIFA por una deuda con el Atlante
 # (Infobae); cuenta para los promedios y lo mandó al desempate con Rafaela
@@ -884,6 +963,8 @@ CLUBES_NUEVOS = {
     "8713": ("san-martin-tucuman", "San Martín de Tucumán"),   # (el mismo club; ESPN le cambió el id)
     "5263": ("gimnasia-jujuy", "Gimnasia y Esgrima (Jujuy)"),
     "5262": ("tiro-federal", "Tiro Federal"),
+    "2974": ("huracan-tres-arroyos", "Huracán de Tres Arroyos"),
+    "2": ("almagro", "Almagro"),
 }
 
 # Nombres que en la liga se confunden (en data/equipos.js están como en las copas)
@@ -968,6 +1049,8 @@ def sumar(anio, fuentes):
             c = e["competitions"][0]["competitors"]
             for a, b in ((c[0], c[1]), (c[1], c[0])):
                 ga, gb = int(a["score"]), int(b["score"])
+                if e.get("id") in PIERDEN_LOS_DOS and a.get("homeAway") == "home":
+                    ga, gb = PIERDEN_LOS_DOS[e["id"]]
                 f = t.setdefault(a["team"]["id"], [0] * 7)
                 r = 2 if ga > gb else 3 if ga == gb else 4
                 f[0] += {2: 3, 3: 1, 4: 0}[r]
@@ -1202,6 +1285,8 @@ def armar(clave):
             p["gl"], p["gv"], p["nota"] = RESULTADOS_A_MANO[e["id"]]
             p.pop("estado", None)
             p["hora"] = None   # (no se jugó)
+        if e["id"] in PIERDEN_LOS_DOS:   # (en la tabla, al local se le cuenta otro resultado)
+            p["para_local"] = list(PIERDEN_LOS_DOS[e["id"]])
         if e["id"] in PENALES_A_MANO:
             p["pen_l"], p["pen_v"] = PENALES_A_MANO[e["id"]]
         detalle = Path(e.get("_carpeta", carpeta)) / f"{e['id']}.json"
@@ -1265,6 +1350,9 @@ def armar(clave):
     if cfg.get("promedios"):
         datos["promedios"] = {}
         for anio, fuentes in cfg["promedios"].items():
+            if isinstance(fuentes, dict):   # puntos puestos a mano ({club: [pts, pj]}; 2002-03, que ESPN no tiene)
+                datos["promedios"][anio] = {cid: v for cid, v in fuentes.items() if cid in espn_de}
+                continue
             s = sumar(anio, fuentes)
             datos["promedios"][anio] = {cid: s[eid][:2] for cid, eid in espn_de.items() if eid in s}
         # un club que bajó y volvió a subir cuenta solo desde que volvió (Aldosivi 2018-19: no se le cuenta 2016-17):
