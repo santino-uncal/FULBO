@@ -1,0 +1,2008 @@
+{
+ "nombre": "Torneo Clausura 1999",
+ "fuente": "Resultados: RSSSF (Javier Roimiser), sin goles. Estadio, día y hora: Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1999-03-05",
+     "hora": "21:00",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-06",
+     "hora": "20:00",
+     "local": "belgrano",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-07",
+     "hora": "18:30",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-07",
+     "hora": "17:00",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-07",
+     "hora": "17:00",
+     "local": "huracan",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-07",
+     "hora": "17:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-07",
+     "hora": "11:00",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-07",
+     "hora": "17:00",
+     "local": "gimnasia-jujuy",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-08",
+     "hora": "21:00",
+     "local": "colon",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-19",
+     "hora": "20:00",
+     "local": "racing-club",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "nota": "Se postergó por la quiebra de Racing"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1999-03-12",
+     "hora": "21:00",
+     "local": "independiente",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-13",
+     "hora": "20:00",
+     "local": "gimnasia-jujuy",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-14",
+     "hora": "18:30",
+     "local": "river-plate",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-14",
+     "hora": "17:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-14",
+     "hora": "17:00",
+     "local": "san-lorenzo",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-14",
+     "hora": "17:00",
+     "local": "talleres",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-14",
+     "hora": "17:00",
+     "local": "rosario-central",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-13",
+     "hora": "19:00",
+     "local": "union",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-14",
+     "hora": "17:00",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-15",
+     "hora": "21:00",
+     "local": "lanus",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1999-03-19",
+     "hora": "21:00",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-20",
+     "hora": "20:00",
+     "local": "newell-s-old-boys",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-20",
+     "hora": "20:00",
+     "local": "huracan",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-21",
+     "hora": "16:00",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-21",
+     "hora": "16:00",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-21",
+     "hora": "17:00",
+     "local": "colon",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-21",
+     "hora": "16:00",
+     "local": "platense",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-21",
+     "hora": "17:00",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-21",
+     "hora": "17:00",
+     "local": "belgrano",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-22",
+     "hora": "21:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "gimnasia-jujuy",
+     "gl": 7,
+     "gv": 5,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1999-03-26",
+     "hora": "22:00",
+     "local": "rosario-central",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-26",
+     "hora": "21:00",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-27",
+     "hora": "20:00",
+     "local": "talleres",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-27",
+     "hora": "20:00",
+     "local": "union",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-28",
+     "hora": "17:00",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-28",
+     "hora": "16:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-28",
+     "hora": "16:00",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-28",
+     "hora": "16:00",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-28",
+     "hora": "16:00",
+     "local": "ferro-carril-oeste",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-28",
+     "hora": "16:00",
+     "local": "gimnasia-jujuy",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "23 de Agosto",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1999-03-30",
+     "hora": "21:00",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-30",
+     "hora": "21:00",
+     "local": "racing-club",
+     "visitante": "union",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-30",
+     "hora": "21:00",
+     "local": "newell-s-old-boys",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-31",
+     "hora": "21:00",
+     "local": "river-plate",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-31",
+     "hora": "21:00",
+     "local": "colon",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-31",
+     "hora": "19:00",
+     "local": "platense",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1999-03-31",
+     "hora": "21:00",
+     "local": "belgrano",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-01",
+     "hora": "20:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-01",
+     "hora": "17:00",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-01",
+     "hora": "17:00",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Nueva España",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1999-04-02",
+     "hora": "21:00",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-03",
+     "hora": "20:00",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-04",
+     "hora": "16:00",
+     "local": "san-lorenzo",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-04",
+     "hora": "16:00",
+     "local": "boca-juniors",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-04",
+     "hora": "16:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-04",
+     "hora": "17:00",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-04",
+     "hora": "16:00",
+     "local": "lanus",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-04",
+     "hora": "16:00",
+     "local": "union",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-04",
+     "hora": "16:00",
+     "local": "gimnasia-jujuy",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-05",
+     "hora": "21:00",
+     "local": "talleres",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1999-04-09",
+     "hora": "21:00",
+     "local": "racing-club",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-10",
+     "hora": "20:00",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-11",
+     "hora": "17:00",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-11",
+     "hora": "16:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-11",
+     "hora": "16:00",
+     "local": "san-lorenzo",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-11",
+     "hora": "16:00",
+     "local": "belgrano",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-11",
+     "hora": "11:00",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-11",
+     "hora": "16:00",
+     "local": "velez-sarsfield",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-11",
+     "hora": "16:00",
+     "local": "colon",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [],
+     "nota": "Se suspendió a los 17 del segundo tiempo (0-0) porque desde la tribuna de Colón agredieron a un juez de línea: el Tribunal de Disciplina le dio el partido perdido 0-1 a Colón (y además le descontó 3 puntos) y empatado 0-0 a Unión",
+     "para_local": [
+      0,
+      1
+     ]
+    },
+    {
+     "fecha": "1999-04-12",
+     "hora": "21:00",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1999-04-16",
+     "hora": "21:00",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-17",
+     "hora": "20:00",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-18",
+     "hora": "15:30",
+     "local": "lanus",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-18",
+     "hora": "16:00",
+     "local": "talleres",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-18",
+     "hora": "17:00",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-18",
+     "hora": "15:30",
+     "local": "huracan",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-18",
+     "hora": "15:30",
+     "local": "union",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-18",
+     "hora": "15:30",
+     "local": "ferro-carril-oeste",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-18",
+     "hora": "15:30",
+     "local": "gimnasia-jujuy",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-19",
+     "hora": "21:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1999-04-23",
+     "hora": "21:00",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-24",
+     "hora": "20:00",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-24",
+     "hora": "20:00",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-25",
+     "hora": "15:30",
+     "local": "river-plate",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-25",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-25",
+     "hora": "17:00",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-25",
+     "hora": "15:30",
+     "local": "talleres",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-25",
+     "hora": "11:00",
+     "local": "argentinos-juniors",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-05",
+     "hora": "21:00",
+     "local": "colon",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-24",
+     "hora": "20:00",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "nota": "Se postergó porque Racing, en quiebra, no tenía autorización judicial para jugar"
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1999-04-27",
+     "hora": "21:00",
+     "local": "gimnasia-jujuy",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-28",
+     "hora": "18:00",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-28",
+     "hora": "21:00",
+     "local": "union",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-28",
+     "hora": "21:00",
+     "local": "lanus",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-28",
+     "hora": "21:00",
+     "local": "independiente",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-28",
+     "hora": "21:00",
+     "local": "rosario-central",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-28",
+     "hora": "20:00",
+     "local": "boca-juniors",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-28",
+     "hora": "21:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-28",
+     "hora": "21:00",
+     "local": "belgrano",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    },
+    {
+     "fecha": "1999-04-29",
+     "hora": "21:00",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1999-04-30",
+     "hora": "21:00",
+     "local": "san-lorenzo",
+     "visitante": "union",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-02",
+     "hora": "15:30",
+     "local": "river-plate",
+     "visitante": "gimnasia-jujuy",
+     "gl": 8,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-02",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-02",
+     "hora": "15:30",
+     "local": "talleres",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-02",
+     "hora": "15:30",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-02",
+     "hora": "17:00",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-02",
+     "hora": "15:30",
+     "local": "colon",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-02",
+     "hora": "14:30",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-03",
+     "hora": "21:00",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-09",
+     "hora": "20:00",
+     "local": "racing-club",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1999-05-07",
+     "hora": "21:00",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-08",
+     "hora": "21:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-08",
+     "hora": "20:00",
+     "local": "huracan",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-09",
+     "hora": "17:00",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-09",
+     "hora": "15:00",
+     "local": "gimnasia-jujuy",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-09",
+     "hora": "15:30",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-09",
+     "hora": "15:00",
+     "local": "union",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-09",
+     "hora": "15:30",
+     "local": "lanus",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-10",
+     "hora": "21:00",
+     "local": "belgrano",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-16",
+     "hora": "20:00",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1999-05-14",
+     "hora": "21:00",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-15",
+     "hora": "20:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-16",
+     "hora": "15:30",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-16",
+     "hora": "17:00",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-16",
+     "hora": "15:30",
+     "local": "talleres",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-16",
+     "hora": "15:30",
+     "local": "independiente",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-16",
+     "hora": "11:00",
+     "local": "argentinos-juniors",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-16",
+     "hora": "15:30",
+     "local": "colon",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-16",
+     "hora": "15:30",
+     "local": "platense",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-17",
+     "hora": "21:00",
+     "local": "rosario-central",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1999-05-21",
+     "hora": "21:00",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-22",
+     "hora": "19:00",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-21",
+     "hora": "21:00",
+     "local": "belgrano",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-23",
+     "hora": "15:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-23",
+     "hora": "17:00",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-23",
+     "hora": "15:30",
+     "local": "gimnasia-jujuy",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-23",
+     "hora": "15:30",
+     "local": "ferro-carril-oeste",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-22",
+     "hora": "20:00",
+     "local": "union",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-23",
+     "hora": "15:30",
+     "local": "lanus",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-24",
+     "hora": "21:00",
+     "local": "newell-s-old-boys",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1999-05-28",
+     "hora": "21:00",
+     "local": "velez-sarsfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-29",
+     "hora": "20:00",
+     "local": "colon",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-30",
+     "hora": "17:00",
+     "local": "river-plate",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-30",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-30",
+     "hora": "15:30",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-30",
+     "hora": "15:30",
+     "local": "talleres",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-29",
+     "hora": "20:00",
+     "local": "rosario-central",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-30",
+     "hora": "15:30",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-29",
+     "hora": "20:00",
+     "local": "lanus",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1999-05-30",
+     "hora": "15:30",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1999-06-01",
+     "hora": "21:00",
+     "local": "belgrano",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-01",
+     "hora": "15:00",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-01",
+     "hora": "21:00",
+     "local": "ferro-carril-oeste",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-02",
+     "hora": "18:00",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-02",
+     "hora": "20:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-02",
+     "hora": "20:00",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-02",
+     "hora": "20:00",
+     "local": "gimnasia-jujuy",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-02",
+     "hora": "20:00",
+     "local": "union",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-02",
+     "hora": "20:00",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-02",
+     "hora": "20:00",
+     "local": "platense",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1999-06-04",
+     "hora": "21:00",
+     "local": "san-lorenzo",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-05",
+     "hora": "20:00",
+     "local": "talleres",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-05",
+     "hora": "20:00",
+     "local": "lanus",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-06",
+     "hora": "15:30",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-06",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-06",
+     "hora": "15:30",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-06",
+     "hora": "17:00",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-06",
+     "hora": "15:30",
+     "local": "union",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-06",
+     "hora": "15:30",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-07",
+     "hora": "21:00",
+     "local": "argentinos-juniors",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Nueva España",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1999-06-11",
+     "hora": "21:00",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-12",
+     "hora": "19:00",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-12",
+     "hora": "20:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-12",
+     "hora": "20:00",
+     "local": "colon",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-13",
+     "hora": "11:00",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-13",
+     "hora": "11:00",
+     "local": "belgrano",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-13",
+     "hora": "11:00",
+     "local": "huracan",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-13",
+     "hora": "17:00",
+     "local": "boca-juniors",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-13",
+     "hora": "11:00",
+     "local": "gimnasia-jujuy",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-13",
+     "hora": "11:00",
+     "local": "ferro-carril-oeste",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1999-06-18",
+     "hora": "21:00",
+     "local": "rosario-central",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-18",
+     "hora": "21:00",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-18",
+     "hora": "20:00",
+     "local": "lanus",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-19",
+     "hora": "20:00",
+     "local": "union",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-20",
+     "hora": "17:00",
+     "local": "river-plate",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-20",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-20",
+     "hora": "17:00",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-20",
+     "hora": "15:30",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-20",
+     "hora": "15:30",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1999-06-21",
+     "hora": "21:00",
+     "local": "talleres",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chateau Carreras",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

@@ -208,7 +208,8 @@
     function cuposHTML(cu) {
       if (cu.fijos) return `<div class="cupos">${[["libertadores", "Copa Libertadores"], ["sudamericana", cu.nombre_sudamericana || "Copa Sudamericana"]].filter(([k]) => cu.listas[k].length).map(([k, n]) =>
         `<h4>${n} ${cu["anio_" + k] || cu.anio}</h4><ul class="cupos-campeones">${cu.listas[k].map(x =>
-          `<li><span class="cupo-titulo">${esc(x.titulo)}</span>${nombreClub(x.club)}</li>`).join("")}</ul>`).join("")}</div>`;
+          `<li><span class="cupo-titulo">${esc(x.titulo)}</span>${nombreClub(x.club)}</li>`).join("")}</ul>`).join("")}${cu.nota
+          ? `<p class="vacio">${esc(cu.nota)}</p>` : ""}</div>`;
       const titulo = x => `<li><span class="cupo-titulo">${esc(x.titulo)}</span>${x.club ? nombreClub(x.club) : `<span class="vacio">a definir</span>`}${x.extra
         ? ` <span class="vacio">(lugar aparte, no es de la liga)</span>` : ""}</li>`;
       return `<div class="cupos"><h4>Copa Libertadores ${cu.anio}</h4>

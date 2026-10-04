@@ -33,10 +33,85 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1999: dos torneos de 20 equipos a una rueda; ESPN no los tiene: van a mano, como 2000 a 2002 (tools/a_mano;
+    # RSSSF y Wikipedia; del Clausura, RSSSF no tiene los goles). El Torneo Clausura 1999 (marzo-junio; campeón Boca)
+    # cerraba la temporada 1998-99: su "tabla anual" es la de la temporada, con la tabla del Apertura 1998 (RSSSF y
+    # Wikipedia coinciden). A Colón le descontaron 3 puntos por los incidentes con Unión. Bajaron directo los dos
+    # últimos de los promedios (Platense y Huracán; los puntos de 1996-97 y 1997-98, de RSSSF y Wikipedia): todavía no
+    # había Promoción. Boca ganó los dos torneos; el segundo lugar en la Libertadores 2000 lo jugaron los subcampeones
+    # (River-Gimnasia, en cancha de Vélez). Los otros dos lugares salieron de una tabla del Apertura 1998, el Clausura
+    # 1999 y el Apertura 1999. A la Copa Conmebol 1999, los mejores de la temporada que no iban a otra copa (Wikipedia)
+    "1999-clausura": {"nombre": "Torneo Clausura 1999", "anio": 1999, "liga": "a_mano", "slug": "1999-clausura",
+                      "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True, "temporada": "1998-99", "nombre_anual": "Temporada y copas",
+                      "goleadores_nota": "RSSSF no tiene los goles de este torneo. Según Wikipedia, el goleador fue José "
+                                         "Luis Calderón (Independiente), con 17 goles.",
+                      "descuentos": {"colon": 3},
+                      "descuentos_texto": "A Colón se le descontaron 3 puntos (y se le dio perdido el partido) por los incidentes con Unión "
+                                          "(fecha 7).",
+                      "desempate_a_mano": {"fecha": "1999-06-24", "local": "gimnasia-y-esgrima", "visitante": "river-plate",
+                                           "gl": 2, "gv": 3, "estadio": "José Amalfitani (Vélez)"},
+                      "desempate_texto": "Gimnasia (subcampeón del Apertura 1998) y River (subcampeón del Clausura 1999) "
+                                         "jugaron un partido, en cancha neutral, por el segundo lugar de la Argentina en "
+                                         "la Copa Libertadores 2000 (el primero era de Boca, campeón de los dos torneos).",
+                      # la tabla del Apertura 1998 (RSSSF y Wikipedia): [pts, pj, g, e, p, gf, gc]
+                      "anual": {"boca-juniors": [45, 19, 13, 6, 0, 45, 18], "gimnasia-y-esgrima": [36, 19, 10, 6, 3, 31, 23],
+                                "racing-club": [33, 19, 9, 6, 4, 39, 29], "lanus": [30, 19, 8, 6, 5, 20, 20],
+                                "colon": [26, 19, 7, 5, 7, 28, 27], "san-lorenzo": [25, 19, 6, 7, 6, 40, 35],
+                                "argentinos-juniors": [25, 19, 5, 10, 4, 31, 27], "newell-s-old-boys": [25, 19, 6, 7, 6, 22, 21],
+                                "union": [25, 19, 6, 7, 6, 32, 34], "rosario-central": [25, 19, 6, 7, 6, 26, 28],
+                                "velez-sarsfield": [24, 19, 6, 6, 7, 26, 26], "estudiantes-de-la-plata": [24, 19, 6, 6, 7, 22, 23],
+                                "talleres": [24, 19, 7, 3, 9, 28, 33], "gimnasia-jujuy": [22, 19, 4, 10, 5, 31, 30],
+                                "river-plate": [22, 19, 5, 7, 7, 27, 27], "independiente": [22, 19, 4, 10, 5, 26, 26],
+                                "ferro-carril-oeste": [20, 19, 5, 5, 9, 24, 31], "huracan": [20, 19, 5, 5, 9, 29, 42],
+                                "belgrano": [19, 19, 4, 7, 8, 22, 31], "platense": [13, 19, 3, 4, 12, 21, 39]},
+                      "anual_texto": "La tabla de la temporada 1998-99: suma el Torneo Apertura 1998 (de RSSSF y Wikipedia: "
+                                     "no está cargado partido por partido) y el Torneo Clausura 1999.",
+                      "promedios": {"1996-97": {"river-plate": [87, 38], "boca-juniors": [50, 38], "gimnasia-y-esgrima": [50, 38],
+                                                "san-lorenzo": [57, 38], "velez-sarsfield": [55, 38], "independiente": [71, 38],
+                                                "lanus": [61, 38], "rosario-central": [49, 38], "newell-s-old-boys": [61, 38],
+                                                "racing-club": [59, 38], "colon": [61, 38], "estudiantes-de-la-plata": [44, 38],
+                                                "gimnasia-jujuy": [39, 38], "union": [44, 38], "ferro-carril-oeste": [46, 38],
+                                                "platense": [47, 38], "huracan": [38, 38]},
+                                    "1997-98": {"river-plate": [74, 38], "boca-juniors": [73, 38], "gimnasia-y-esgrima": [69, 38],
+                                                "san-lorenzo": [62, 38], "velez-sarsfield": [78, 38], "independiente": [56, 38],
+                                                "lanus": [65, 38], "rosario-central": [57, 38], "argentinos-juniors": [57, 38],
+                                                "newell-s-old-boys": [42, 38], "racing-club": [41, 38], "colon": [38, 38],
+                                                "estudiantes-de-la-plata": [49, 38], "gimnasia-jujuy": [52, 38],
+                                                "union": [33, 38], "ferro-carril-oeste": [49, 38], "platense": [49, 38],
+                                                "huracan": [27, 38]}},
+                      "descensos": "promedios", "descienden": 2,
+                      "cupos": {"anio": 2000, "anio_sudamericana": 1999, "nombre_sudamericana": "Copa Conmebol", "fijos": True,
+                                "libertadores": [("Campeón del Torneo Apertura 1998 y del Torneo Clausura 1999",
+                                                  "boca-juniors"),
+                                                 ("Ganador del partido entre los subcampeones", "river-plate"),
+                                                 ("Tabla del Apertura 1998, el Clausura 1999 y el Apertura 1999",
+                                                  "rosario-central"),
+                                                 ("Tabla del Apertura 1998, el Clausura 1999 y el Apertura 1999",
+                                                  "san-lorenzo")],
+                                "sudamericana": [("Tabla de la temporada 1998-99 (el lugar de Gimnasia, que no la quiso "
+                                                  "jugar)", "talleres"),
+                                                 ("Tabla de la temporada 1998-99", "rosario-central")],
+                                "nota": "A la Copa Mercosur 1999 fueron Boca, River, Independiente, Racing, San Lorenzo "
+                                        "y Vélez, invitados por la Conmebol. Los dos últimos lugares de la Libertadores "
+                                        "2000 se definieron en diciembre, con el Apertura 1999."}},
+    # El Torneo Apertura 1999 (agosto-diciembre; campeón River) abría la temporada 1999-00
+    "1999-apertura": {"nombre": "Torneo Apertura 1999", "anio": 1999, "liga": "a_mano", "slug": "1999-apertura",
+                      "zonas": "unica", "fechas": 19, "pasan": 0, "campeon_tabla": True,
+                      "descuentos": {"san-lorenzo": 3, "velez-sarsfield": 3, "instituto": 3, "belgrano": 3},
+                      "descuentos_texto": "Se les descontaron 3 puntos por incidentes a San Lorenzo (fecha 19), Vélez "
+                                          "(fecha 15), Instituto (fecha 11) y Belgrano (fecha 19).",
+                      "anual": [("a_mano", r"^1999-clausura$")],
+                      "anual_texto": "La tabla del año 1999: suma el Torneo Clausura 1999 y el Torneo Apertura 1999 (con "
+                                     "los descuentos). No daba lugares en las copas: con este torneo se cerró la tabla del "
+                                     "Apertura 1998, el Clausura 1999 y el Apertura 1999, que les dio a Rosario Central y a "
+                                     "San Lorenzo los dos últimos lugares de la Argentina en la Libertadores 2000.",
+                      "sin_descensos": "En el Torneo Apertura 1999 no hubo descensos: se definieron al terminar la "
+                                       "temporada 1999-00, con el Torneo Clausura 2000."},
     # 2000: dos torneos de 20 equipos a una rueda; ESPN no los tiene: van a mano, como 2001 y 2002 (tools/a_mano;
     # RSSSF y Wikipedia). El Torneo Clausura 2000 (febrero-julio; campeón River) cerraba la temporada 1999-00: su "tabla
-    # anual" es la de la temporada, con la tabla del Apertura 1999 (RSSSF y Wikipedia coinciden; con los descuentos a San
-    # Lorenzo, Vélez, Instituto y Belgrano). A Boca y a Lanús les descontaron 3 puntos en el Clausura. Bajaron los dos
+    # anual" es la de la temporada (con el Apertura 1999, cargado a mano, y sus descuentos a San Lorenzo, Vélez,
+    # Instituto y Belgrano). A Boca y a Lanús les descontaron 3 puntos en el Clausura. Bajaron los dos
     # últimos de los promedios (Gimnasia de Jujuy y Ferro; los puntos de 1997-98 y 1998-99, de RSSSF y Wikipedia) y los
     # dos de arriba jugaron la primera Promoción: Belgrano se salvó con Quilmes e Instituto perdió con Almagro. Con la
     # temporada quedaron los cupos de la Copa Mercosur 2000 y de la Libertadores 2001 (Wikipedia)
@@ -70,21 +145,9 @@ TORNEOS = {
                                  "nota": "La primera Promoción. Con el global igualado se quedaba en Primera el equipo de "
                                          "Primera: así se salvó Belgrano. Instituto perdió con Almagro y bajó a la B "
                                          "Nacional; Almagro subió."},
-                      # la tabla del Apertura 1999 (RSSSF y Wikipedia): [pts, pj, g, e, p, gf, gc]
-                      "anual": {"river-plate": [44, 19, 13, 5, 1, 45, 21], "rosario-central": [43, 19, 14, 1, 4, 34, 18],
-                                "boca-juniors": [41, 19, 12, 5, 2, 36, 15], "san-lorenzo": [33, 19, 10, 6, 3, 30, 15],
-                                "talleres": [31, 19, 9, 4, 6, 38, 31], "racing-club": [30, 19, 7, 9, 3, 27, 22],
-                                "velez-sarsfield": [27, 19, 8, 6, 5, 28, 17], "chacarita-juniors": [25, 19, 6, 7, 6, 38, 33],
-                                "independiente": [25, 19, 6, 7, 6, 19, 21],
-                                "estudiantes-de-la-plata": [23, 19, 6, 5, 8, 29, 33], "lanus": [23, 19, 7, 2, 10, 23, 30],
-                                "gimnasia-y-esgrima": [21, 19, 4, 9, 6, 28, 28], "newell-s-old-boys": [21, 19, 5, 6, 8, 27, 27],
-                                "argentinos-juniors": [21, 19, 4, 9, 6, 20, 22], "union": [21, 19, 5, 6, 8, 24, 30],
-                                "instituto": [19, 19, 5, 7, 7, 23, 30], "colon": [19, 19, 5, 4, 10, 20, 28],
-                                "belgrano": [17, 19, 5, 5, 9, 25, 37], "gimnasia-jujuy": [9, 19, 2, 3, 14, 17, 43],
-                                "ferro-carril-oeste": [9, 19, 1, 6, 12, 14, 44]},
-                      "anual_texto": "La tabla de la temporada 1999-00: suma el Torneo Apertura 1999 (de RSSSF y Wikipedia: "
-                                     "no está cargado partido por partido; a San Lorenzo, Vélez, Instituto y Belgrano se "
-                                     "les descontaron 3 puntos) y el Torneo Clausura 2000.",
+                      "anual": [("a_mano", r"^1999-apertura$", 1999)],
+                      "anual_texto": "La tabla de la temporada 1999-00: suma el Torneo Apertura 1999 (con los descuentos a San "
+                                     "Lorenzo, Vélez, Instituto y Belgrano) y el Torneo Clausura 2000.",
                       "promedios": {"1997-98": {"boca-juniors": [73, 38], "river-plate": [74, 38], "san-lorenzo": [62, 38],
                                                 "velez-sarsfield": [78, 38], "gimnasia-y-esgrima": [69, 38],
                                                 "rosario-central": [57, 38], "independiente": [56, 38], "lanus": [65, 38],
@@ -1347,10 +1410,15 @@ PIERDEN_LOS_DOS = {"186468": (0, 2)}
 # (Infobae); cuenta para los promedios y lo mandó al desempate con Rafaela
 # Con un tercer elemento, el patrón de una fase: se resta solo en las sumas que la incluyen (Chacarita, temporada 2003-04:
 # 3 puntos por los incidentes en el partido con Boca; se restan en la temporada, no en la tabla del año 2004)
-# Los del Clausura 2000 (Boca y Lanús) y el Clausura 2001 (Los Andes) están en la tabla del torneo ("descuentos" en
-# TORNEOS); acá, para la tabla del año, que los suma
+# Los de 1999 (Colón; San Lorenzo, Vélez, Instituto y Belgrano), el Clausura 2000 (Boca y Lanús) y el Clausura 2001 (Los
+# Andes) están en la tabla del torneo ("descuentos" en
+# TORNEOS); acá, para la tabla que los suma (el año es el del torneo que muestra esa tabla: los del Apertura 1999, en
+# la temporada 1999-00 del Clausura 2000)
 DESCUENTOS = {(2014, "7"): 6, (2004, "6", r"^torneo-apertura-2003$"): 3, (2000, "5", r"^2000-clausura$"): 3,
-              (2000, "12", r"^2000-clausura$"): 3, (2001, "lan", r"^2001-clausura$"): 3}
+              (2000, "12", r"^2000-clausura$"): 3, (2001, "lan", r"^2001-clausura$"): 3,
+              (1999, "7", r"^1999-clausura$"): 3, (2000, "18", r"^1999-apertura$"): 3,
+              (2000, "21", r"^1999-apertura$"): 3, (2000, "2975", r"^1999-apertura$"): 3,
+              (2000, "4", r"^1999-apertura$"): 3}
 PLAYOFFS = [("round-of-16", "Octavos de final"), ("quarter", "Cuartos de final"), ("semi", "Semifinales"),
             ("final", "Final")]
 # Clubes que no están en data/equipos.js (no jugaron copas internacionales): id y nombre. Los demás se toman de ahí
@@ -1495,6 +1563,8 @@ def sumar(anio, fuentes):
                 ga, gb = int(a["score"]), int(b["score"])
                 if e.get("id") in PIERDEN_LOS_DOS and a.get("homeAway") == "home":
                     ga, gb = PIERDEN_LOS_DOS[e["id"]]
+                if (e.get("_a_mano") or {}).get("para_local") and a.get("homeAway") == "home":   # (Colón-Unión 1999)
+                    ga, gb = e["_a_mano"]["para_local"]
                 f = t.setdefault(a["team"]["id"], [0] * 7)
                 r = 2 if ga > gb else 3 if ga == gb else 4
                 f[0] += {2: 3, 3: 1, 4: 0}[r]
@@ -1748,6 +1818,7 @@ def armar(clave):
             m = e["_a_mano"]
             del p["espn"]
             p.update({"fecha": m["fecha"], "hora": m.get("hora"), "fecha_n": e["_fecha_n"], "nota": m.get("nota"),
+                      "para_local": m.get("para_local"),
                       "goles": [{**g, "jid": f"{p[g['equipo']]}:{g['jugador']}"} for g in m.get("goles", [])]})
         fase = es_playoff(e)
         if cfg.get("desempate") and re.search(cfg["desempate"], e["season"]["slug"]):
@@ -1830,6 +1901,10 @@ def armar(clave):
                         zonas_etapa[p["zona"]].append(c)
             datos["etapas"].append({"nombre": nombre, "pasan": pasan, "zonas": dict(sorted(zonas_etapa.items())),
                                     "fechas": sorted({p["fecha_n"] for p in ps})})
+    if cfg.get("desempate_a_mano"):   # (un desempate que ESPN no tiene: River-Gimnasia 1999)
+        d = cfg["desempate_a_mano"]
+        desempates = [{**d, **{lado: club({"id": d[lado], "displayName": d[lado]}) for lado in ("local", "visitante")
+                                if d[lado].isdigit() or d[lado] in CLUBES_NUEVOS}}]
     if desempates:
         datos["desempate"] = limpio(desempates[0])
     for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "goleadores_nota", "promocion", "ventaja", "triangular", "texto_triangular", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
@@ -1843,7 +1918,7 @@ def armar(clave):
         # (anio_sudamericana: si la Sudamericana es de otro año que la Libertadores; 2007: la Sudamericana 2007 y la
         # Libertadores 2008)
         datos["cupos"] = {"anio": cfg["cupos"]["anio"], "fijos": True, "campeones": [],
-                          **{k: cfg["cupos"][k] for k in ("anio_sudamericana", "nombre_sudamericana") if k in cfg["cupos"]},
+                          **{k: cfg["cupos"][k] for k in ("anio_sudamericana", "nombre_sudamericana", "nota") if k in cfg["cupos"]},
                           **{k: [{"titulo": ti, "club": c} for ti, c in cfg["cupos"][k]]
                              for k in ("libertadores", "sudamericana") if k in cfg["cupos"]}}
     elif cfg.get("cupos"):
