@@ -434,13 +434,14 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 
 /* ---- Liga argentina (liga.html) ---- */
 .torneos { display: flex; flex-direction: column; align-items: center; gap: 8px; margin: 6px 0 10px; }
-.torneos-anios, .torneos-del-anio { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px; }
-.torneos-anios a { font-size: 1rem; padding: 6px 16px; }
-.torneos-del-anio { padding-top: 8px; border-top: 1px solid var(--borde); }
-.torneos a { padding: 6px 14px; border-radius: 999px; border: 1px solid var(--borde); background: var(--panel);
+.torneos-del-anio { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px; padding-top: 8px; border-top: 1px solid var(--borde); }
+/* el panel de años, debajo de ◀ 📅 ▶ (los años, a la izquierda como en la Libertadores) */
+.torneos .panel-anios { width: 100%; max-width: 720px; margin: 0; text-align: left; box-sizing: border-box; }
+.torneos .panel-anios[hidden] { display: none; }
+.torneos-del-anio a { padding: 6px 14px; border-radius: 999px; border: 1px solid var(--borde); background: var(--panel);
   color: var(--texto); text-decoration: none; font-weight: 600; font-size: .9rem; }
-.torneos a:hover { border-color: var(--acento); }
-.torneos a[aria-current="page"] { background: var(--acento); border-color: var(--acento); color: var(--fondo); }
+.torneos-del-anio a:hover { border-color: var(--acento); }
+.torneos-del-anio a[aria-current="page"] { background: var(--acento); border-color: var(--acento); color: var(--fondo); }
 .campeon-torneo { margin: 0 0 8px; font-weight: 700; font-size: 1.1rem; }
 .campeon-torneo[hidden] { display: none; }
 .titulo-fecha { display: flex; align-items: center; gap: 10px; margin: 8px 0; }

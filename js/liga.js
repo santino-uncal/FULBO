@@ -65,10 +65,68 @@
     // Primero los años y, abajo, los torneos del año que se está viendo (sin el año en el nombre: "Apertura", "Clausura")
     const anio = CLAVE.slice(0, 4);
     const anios = [...new Set(INDICE.map(anioDe))];
+    // Como en la Libertadores: ◀ 📅 año ▾ ▶ (año anterior / siguiente) y el panel para escribir el año, con los años
+    // agrupados por década
+    const i = anios.indexOf(anio);
+    const decadas = [...new Set(anios.map(a => a.slice(0, 3)))];
+    const nombreDecada = d => d === "199" ? "Años 90" : `Años ${d}0`;
     document.getElementById("torneos").innerHTML =
-      `<div class="torneos-anios">${anios.map(a => `<a href="?anio=${a}"${a === anio ? ` aria-current="page"` : ""}>${a}</a>`).join("")}</div>
+      `<div class="grupo-anios">
+        <button class="flecha-anio" type="button" data-ir-anio="${anios[i - 1] || ""}" ${i > 0 ? "" : "disabled"}
+          aria-label="Año anterior" title="Año anterior">◀</button>
+        <button class="boton-anios" id="boton-anios" type="button" aria-expanded="false" aria-controls="panel-anios">📅 ${anio} ▾</button>
+        <button class="flecha-anio" type="button" data-ir-anio="${anios[i + 1] || ""}" ${i < anios.length - 1 ? "" : "disabled"}
+          aria-label="Año siguiente" title="Año siguiente">▶</button>
+      </div>
+      <div class="panel-anios" id="panel-anios" hidden>
+        <div class="fila-buscar-anio">
+          <input id="buscar-anio" type="search" inputmode="numeric" maxlength="4" placeholder="Escribí un año (ej.: 1998)"
+            autocomplete="off" aria-label="Buscar año">
+        </div>
+        <nav class="ediciones" id="ediciones" aria-label="Años">${decadas.map(d => `<div class="nombre-copa"><h3>${nombreDecada(d)}</h3>
+          <div class="anios">${anios.filter(a => a.startsWith(d)).map(a => `<a href="?anio=${a}" data-anio="${a}"${a === anio
+            ? ` aria-current="page"` : ""} title="${esc(INDICE.filter(t => anioDe(t) === a).map(t => t.nombre).join(" · "))}">${a}</a>`).join("")}</div></div>`).join("")}</nav>
+        <p class="vacio" id="anio-vacio" hidden>No hay ningún torneo cargado de ese año.</p>
+      </div>
       <div class="torneos-del-anio">${INDICE.filter(t => anioDe(t) === anio).map(t => `<a href="?torneo=${t.clave}"${t.clave === CLAVE
         ? ` aria-current="page"` : ""}>${esc(t.nombre.replace(/^Torneo /, "").replace(/ \d{4}$/, ""))}</a>`).join("")}</div>`;
+    // Panel de años: se abre con el botón 📅; escribiendo se filtran los años y con Enter se abre el elegido
+    const botonAniosEl = document.getElementById("boton-anios");
+    const panelAniosEl = document.getElementById("panel-anios");
+    const buscarAnioEl = document.getElementById("buscar-anio");
+    const listaAniosEl = document.getElementById("ediciones");
+    const irAlAnio = a => { location.href = `?anio=${a}`; };
+    function filtrarAnios() {
+      const q = buscarAnioEl.value.replace(/\D/g, "");
+      const visibles = [...listaAniosEl.querySelectorAll("a[data-anio]")].filter(a => !(a.hidden = !a.dataset.anio.startsWith(q)));
+      listaAniosEl.querySelectorAll(".nombre-copa").forEach(g => { g.hidden = !g.querySelector("a[data-anio]:not([hidden])"); });
+      document.getElementById("anio-vacio").hidden = visibles.length > 0;
+      return visibles;
+    }
+    function abrirAnios() {
+      panelAniosEl.hidden = false;
+      botonAniosEl.setAttribute("aria-expanded", "true");
+      buscarAnioEl.focus();
+    }
+    function cerrarAnios() {
+      if (panelAniosEl.hidden) return;
+      panelAniosEl.hidden = true;
+      botonAniosEl.setAttribute("aria-expanded", "false");
+      buscarAnioEl.value = "";
+      filtrarAnios();
+    }
+    botonAniosEl.addEventListener("click", () => (panelAniosEl.hidden ? abrirAnios() : cerrarAnios()));
+    document.querySelectorAll("[data-ir-anio]").forEach(b => b.addEventListener("click", () => irAlAnio(b.dataset.irAnio)));
+    buscarAnioEl.addEventListener("input", filtrarAnios);
+    buscarAnioEl.addEventListener("keydown", e => {
+      if (e.key === "Escape") { cerrarAnios(); botonAniosEl.focus(); return; }
+      if (e.key !== "Enter") return;
+      const visibles = filtrarAnios();
+      const elegido = visibles.find(a => a.dataset.anio === buscarAnioEl.value.trim()) || (visibles.length === 1 ? visibles[0] : null);
+      if (elegido) irAlAnio(elegido.dataset.anio);
+    });
+    // Tocar afuera del panel lo cierra
+    document.addEventListener("click", e => { if (!e.target.closest("#panel-anios, #boton-anios")) cerrarAnios(); });
     // El campeón: el ganador de la final (en los 90 minutos, en el alargue o por penales)
     const final = T.playoffs.find(r => r.nombre === "Final")?.partidos[0];
     const todoJugado = T.fechas.every(f => f.partidos.every(p => p.gl != null || p.estado));
