@@ -1,0 +1,1676 @@
+{
+ "nombre": "Torneo Clausura 1993",
+ "fuente": "Resultados: RSSSF (Pablo Ciullini), sin goles. Wikipedia no tiene estadios ni días: el día, de RSSSF, y la cancha solo cuando no era la del local",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1993-02-20",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-02-21",
+     "local": "boca-juniors",
+     "visitante": "deportivo-mandiyu",
+     "gl": 4,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-02-21",
+     "local": "talleres",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1993-02-21",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-02-21",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1993-02-21",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1993-02-21",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-02-21",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-02-21",
+     "local": "deportivo-espanol",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1993-02-21",
+     "local": "san-martin-tucuman",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1993-02-27",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1993-02-28",
+     "local": "belgrano",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1993-02-28",
+     "local": "velez-sarsfield",
+     "visitante": "san-martin-tucuman",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-02-28",
+     "local": "huracan",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-02-28",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1993-02-28",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-02-28",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-02-28",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-02-28",
+     "local": "platense",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-02-28",
+     "local": "deportivo-mandiyu",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1993-03-02",
+     "local": "deportivo-espanol",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-03",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-03",
+     "local": "lanus",
+     "visitante": "deportivo-mandiyu",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-03",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-03",
+     "local": "san-martin-tucuman",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-03",
+     "local": "belgrano",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-04",
+     "local": "boca-juniors",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-04",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-04",
+     "local": "argentinos-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1993-03-07",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "goles": [],
+     "nota": "Terminó 1-1; después se le dieron los puntos a Vélez (1-0)"
+    },
+    {
+     "fecha": "1993-03-07",
+     "local": "huracan",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-07",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-07",
+     "local": "river-plate",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-07",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-07",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-07",
+     "local": "platense",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-07",
+     "local": "deportivo-mandiyu",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-07",
+     "local": "talleres",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-08",
+     "local": "racing-club",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1993-03-12",
+     "local": "boca-juniors",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-13",
+     "local": "san-martin-tucuman",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-14",
+     "local": "san-lorenzo",
+     "visitante": "talleres",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-14",
+     "local": "argentinos-juniors",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-14",
+     "local": "rosario-central",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 5,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-14",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-14",
+     "local": "deportivo-espanol",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-14",
+     "local": "belgrano",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-14",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1993-03-20",
+     "local": "river-plate",
+     "visitante": "belgrano",
+     "gl": 5,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-21",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-21",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-21",
+     "local": "newell-s-old-boys",
+     "visitante": "san-martin-tucuman",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-21",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-21",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-21",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-21",
+     "local": "deportivo-mandiyu",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-21",
+     "local": "talleres",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-21",
+     "local": "lanus",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1993-03-27",
+     "local": "deportivo-espanol",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-28",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 4,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-28",
+     "local": "argentinos-juniors",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-28",
+     "local": "rosario-central",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-28",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "deportivo-mandiyu",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-28",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-28",
+     "local": "san-martin-tucuman",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-28",
+     "local": "belgrano",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-28",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1993-03-28",
+     "local": "huracan",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1993-04-03",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-04",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-04",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-04",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-04",
+     "local": "racing-club",
+     "visitante": "san-martin-tucuman",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-04",
+     "local": "platense",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-04",
+     "local": "deportivo-mandiyu",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-04",
+     "local": "talleres",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-04",
+     "local": "lanus",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-04",
+     "local": "san-lorenzo",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1993-04-08",
+     "local": "boca-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-08",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-08",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-08",
+     "local": "independiente",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-08",
+     "local": "deportivo-espanol",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-08",
+     "local": "san-martin-tucuman",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-08",
+     "local": "belgrano",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-08",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-08",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-22",
+     "local": "huracan",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1993-04-11",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-11",
+     "local": "newell-s-old-boys",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-11",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-11",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-11",
+     "local": "platense",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-11",
+     "local": "deportivo-mandiyu",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-11",
+     "local": "talleres",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-11",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-11",
+     "local": "argentinos-juniors",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-12",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1993-04-16",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-18",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-18",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-18",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-18",
+     "local": "deportivo-espanol",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-18",
+     "local": "san-martin-tucuman",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-18",
+     "local": "belgrano",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-18",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-18",
+     "local": "river-plate",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1993-04-23",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-25",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-25",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-25",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-25",
+     "local": "deportivo-mandiyu",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-25",
+     "local": "talleres",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-25",
+     "local": "lanus",
+     "visitante": "san-martin-tucuman",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-25",
+     "local": "san-lorenzo",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-25",
+     "local": "argentinos-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1993-04-25",
+     "local": "rosario-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1993-05-02",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-02",
+     "local": "deportivo-espanol",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-02",
+     "local": "san-martin-tucuman",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-02",
+     "local": "belgrano",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-02",
+     "local": "velez-sarsfield",
+     "visitante": "talleres",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-02",
+     "local": "huracan",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-02",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-02",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-02",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-03",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1993-05-07",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-08",
+     "local": "lanus",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-09",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-09",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-09",
+     "local": "deportivo-mandiyu",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-09",
+     "local": "talleres",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-09",
+     "local": "san-lorenzo",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-09",
+     "local": "argentinos-juniors",
+     "visitante": "san-martin-tucuman",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-09",
+     "local": "rosario-central",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-09",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1993-05-14",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-16",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-16",
+     "local": "deportivo-espanol",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-16",
+     "local": "san-martin-tucuman",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-16",
+     "local": "belgrano",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-16",
+     "local": "huracan",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-16",
+     "local": "river-plate",
+     "visitante": "deportivo-mandiyu",
+     "gl": 4,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-16",
+     "local": "newell-s-old-boys",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-16",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1993-05-23",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-23",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-23",
+     "local": "deportivo-mandiyu",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-23",
+     "local": "talleres",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Córdoba",
+     "goles": [],
+     "nota": "Se suspendió a los 27 del segundo tiempo (2-2); después se le dieron los puntos a River (0-2)"
+    },
+    {
+     "fecha": "1993-05-23",
+     "local": "lanus",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-23",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-23",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-23",
+     "local": "rosario-central",
+     "visitante": "belgrano",
+     "gl": 5,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-martin-tucuman",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-05-23",
+     "local": "independiente",
+     "visitante": "deportivo-espanol",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1993-05-28",
+     "local": "deportivo-espanol",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-05",
+     "local": "san-martin-tucuman",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-05",
+     "local": "belgrano",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-05",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-05",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-05",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 4,
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-05",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-05",
+     "local": "newell-s-old-boys",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 0,
+     "goles": [],
+     "nota": "Terminó 0-1; después Talleres perdió los puntos (1-0)"
+    },
+    {
+     "fecha": "1993-06-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "deportivo-mandiyu",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-05",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1993-06-08",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-08",
+     "local": "deportivo-mandiyu",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-08",
+     "local": "talleres",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": [],
+     "nota": "Terminó 1-0; después Talleres perdió los puntos (0-1)"
+    },
+    {
+     "fecha": "1993-06-08",
+     "local": "lanus",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-08",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-08",
+     "local": "argentinos-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-08",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-08",
+     "local": "independiente",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-08",
+     "local": "deportivo-espanol",
+     "visitante": "san-martin-tucuman",
+     "gl": 3,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1993-08-01",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1993-06-11",
+     "local": "river-plate",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-12",
+     "local": "san-martin-tucuman",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-12",
+     "local": "belgrano",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-12",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-12",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-12",
+     "local": "ferro-carril-oeste",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-12",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-12",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-12",
+     "local": "racing-club",
+     "visitante": "talleres",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1993-06-12",
+     "local": "platense",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

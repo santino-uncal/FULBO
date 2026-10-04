@@ -1,4 +1,4 @@
-# Conversor usado en la fase 25 para cargar a mano los torneos 1994-2002 (tools/a_mano/liga-*.json).
+# Conversor usado en la fase 25 para cargar a mano los torneos 1993-2002 (tools/a_mano/liga-*.json).
 # Lee el texto de una página de RSSSF (tablesa/argNN.html pasada a texto) y el wikitext de Wikipedia de cada torneo,
 # los cruza y avisa las diferencias. Los archivos de entrada se bajan aparte, en la misma carpeta que este script.
 # Al final de cada año se corrigieron a mano notas, nombres y errores de las fuentes (ver fases/fase_25.md).
@@ -29,7 +29,8 @@ CLUBES = [  # (patrón normalizado al principio del nombre, id)
     ("olimpo", "olimpo"), ("arsenal", "arsenal-de-sarandi"),
     ("almagro", "almagro"), ("argj", "argentinos-juniors"), ("depespanol", "deportivo-espanol"),
     ("deportivoespanol", "deportivo-espanol"), ("platense", "platense"), ("losandes", "los-andes"), ("quilmes", "quilmes"), ("instituto", "instituto"),
-    ("depmandiyu", "deportivo-mandiyu"), ("deportivomandiyu", "deportivo-mandiyu"), ("mandiyu", "deportivo-mandiyu"), ("deportivomaniyu", "deportivo-mandiyu")]
+    ("depmandiyu", "deportivo-mandiyu"), ("deportivomandiyu", "deportivo-mandiyu"), ("mandiyu", "deportivo-mandiyu"), ("deportivomaniyu", "deportivo-mandiyu"),
+    ("sanmartin", "san-martin-tucuman")]
 
 
 def club(nombre):
@@ -316,9 +317,9 @@ def armar(clave, rsssf, wiki, anio_de, nombre, fuente):
 
 
 if __name__ == "__main__":
-    d = armar("1994-clausura", ("arg94.txt", 439, 745), "w_Torneo_Clausura_1994_(Argentina).txt", lambda m: 1994,
-              "Torneo Clausura 1994", "")
-    (AQUI / "c1994.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
-    d = armar("1994-apertura", ("arg95.txt", 39, 360), "w_Torneo_Apertura_1994_(Argentina).txt", lambda m: 1994,
-              "Torneo Apertura 1994", "")
-    (AQUI / "a1994.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+    d = armar("1993-clausura", ("arg93.txt", 458, 762), "w_Torneo_Clausura_1993_(Argentina).txt", lambda m: 1993,
+              "Torneo Clausura 1993", "")
+    (AQUI / "c1993.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+    d = armar("1993-apertura", ("arg94.txt", 39, 347), "w_Torneo_Apertura_1993_(Argentina).txt",
+              lambda m: 1993 if m >= 7 else 1994, "Torneo Apertura 1993", "")
+    (AQUI / "a1993.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
