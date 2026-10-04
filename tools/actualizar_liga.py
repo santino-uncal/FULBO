@@ -32,6 +32,86 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2003: dos torneos de 20 equipos a una rueda. El Torneo Clausura 2003 (febrero-julio; campeón River) cerraba la
+    # temporada 2002-03. ESPN no tiene el Apertura 2002: su tabla (la "tabla anual" de este torneo es la de la temporada)
+    # y los puntos de 2000-01 y 2001-02 para los promedios salen de Wikipedia y de RSSSF. Bajaron los dos últimos de los
+    # promedios (Unión y Huracán) y los dos de arriba jugaron la Promoción contra equipos de la B Nacional y se salvaron:
+    # Talleres con San Martín de Mendoza y Nueva Chicago con Argentinos. ESPN no tiene esos partidos, van a mano
+    # (Wikipedia, RSSSF). Con la temporada quedaron definidos los cupos de la Sudamericana 2003 y de la Libertadores 2004
+    "2003-clausura": {"nombre": "Torneo Clausura 2003", "anio": 2003, "slug": "clausura-2003",
+                      "patron": r"^torneo-clausura-2003$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True, "temporada": "2002-03", "nombre_anual": "Temporada y copas",
+                      # (ESPN no tiene los goles de casi ningún partido de este torneo)
+                      "goleadores_nota": "Según Wikipedia, los goleadores del torneo fueron Luciano Figueroa (Rosario "
+                                         "Central), con 17 goles; Roberto Nanni (Vélez), con 15, y Fernando Cavenaghi "
+                                         "(River), con 12.",
+                      "nombre_playoffs": "Promoción", "playoffs": [(r"^$^", "Promoción")],
+                      "playoffs_a_mano": {"Promoción": [
+                          {"hora_utc": "2003-07-09T20:00Z", "fecha": "2003-07-09", "local": "3", "visitante": "nueva-chicago",
+                           "gl": 0, "gv": 1, "estadio": "Nuevo Gasómetro"},
+                          {"hora_utc": "2003-07-09T21:00Z", "fecha": "2003-07-09", "local": "smm", "visitante": "talleres",
+                           "gl": 0, "gv": 1, "estadio": "Malvinas Argentinas (Mendoza)"},
+                          {"hora_utc": "2003-07-13T20:00Z", "fecha": "2003-07-13", "local": "nueva-chicago", "visitante": "3",
+                           "gl": 2, "gv": 0, "estadio": "Nuevo Gasómetro"},
+                          {"hora_utc": "2003-07-13T21:00Z", "fecha": "2003-07-13", "local": "talleres", "visitante": "smm",
+                           "gl": 1, "gv": 0, "estadio": "Chateau Carreras (Córdoba)"}]},
+                      "ida_y_vuelta": True, "ventaja": ["talleres", "nueva-chicago"],
+                      "cuadro": {"bloques": [("Promoción: los equipos de Primera contra los de la B Nacional",
+                                              [["Promoción"]])],
+                                 "nota": "Con el global igualado se quedaba en Primera el equipo de Primera. Los dos se "
+                                         "salvaron: Argentinos y San Martín de Mendoza siguieron en la B Nacional. De "
+                                         "estos partidos no se cargaron los goles (las fuentes no coinciden)."},
+                      # la tabla del Apertura 2002 (Wikipedia): [pts, pj, g, e, p, gf, gc]
+                      "anual": {"independiente": [43, 19, 13, 4, 2, 48, 19], "boca-juniors": [40, 19, 12, 4, 3, 32, 15],
+                                "river-plate": [36, 19, 11, 3, 5, 35, 23], "chacarita-juniors": [30, 19, 9, 3, 7, 19, 21],
+                                "velez-sarsfield": [28, 19, 8, 4, 7, 23, 19], "racing-club": [28, 19, 8, 4, 7, 28, 28],
+                                "colon": [28, 19, 7, 7, 5, 26, 26], "arsenal-de-sarandi": [27, 19, 7, 6, 6, 29, 25],
+                                "san-lorenzo": [27, 19, 7, 6, 6, 28, 25], "newell-s-old-boys": [27, 19, 7, 6, 6, 23, 22],
+                                "lanus": [26, 19, 6, 8, 5, 21, 24], "banfield": [25, 19, 6, 7, 6, 21, 17],
+                                "rosario-central": [25, 19, 7, 4, 8, 36, 34], "union": [23, 19, 6, 5, 8, 26, 28],
+                                "talleres": [23, 19, 5, 8, 6, 23, 27], "gimnasia-y-esgrima": [20, 19, 4, 8, 7, 18, 24],
+                                "olimpo": [20, 19, 5, 5, 9, 20, 30], "nueva-chicago": [15, 19, 3, 6, 10, 20, 29],
+                                "estudiantes-de-la-plata": [15, 19, 4, 3, 12, 21, 36], "huracan": [11, 19, 2, 5, 12, 17, 42]},
+                      "anual_texto": "La tabla de la temporada 2002-03: suma el Torneo Apertura 2002 (de Wikipedia: ESPN "
+                                     "no tiene sus partidos) y el Torneo Clausura 2003.",
+                      "promedios": {"2000-01": {"river-plate": [78, 38], "boca-juniors": [71, 38], "san-lorenzo": [81, 38],
+                                                "velez-sarsfield": [56, 38], "gimnasia-y-esgrima": [55, 38],
+                                                "racing-club": [40, 38], "colon": [49, 38],
+                                                "estudiantes-de-la-plata": [56, 38], "newell-s-old-boys": [48, 38],
+                                                "lanus": [43, 38], "chacarita-juniors": [56, 38], "independiente": [42, 38],
+                                                "rosario-central": [41, 38], "talleres": [61, 38], "union": [46, 38],
+                                                "huracan": [55, 38]},
+                                    "2001-02": {"river-plate": [84, 38], "boca-juniors": [68, 38], "san-lorenzo": [57, 38],
+                                                "velez-sarsfield": [48, 38], "gimnasia-y-esgrima": [64, 38],
+                                                "racing-club": [71, 38], "colon": [56, 38],
+                                                "estudiantes-de-la-plata": [54, 38], "newell-s-old-boys": [51, 38],
+                                                "lanus": [51, 38], "banfield": [48, 38], "chacarita-juniors": [47, 38],
+                                                "independiente": [41, 38], "rosario-central": [40, 38], "talleres": [30, 38],
+                                                "nueva-chicago": [48, 38], "union": [39, 38], "huracan": [44, 38]}},
+                      "descensos": "promedios", "descienden": 2, "promocion": 2,
+                      "cupos": {"anio": 2004, "anio_sudamericana": 2003, "fijos": True,
+                                "libertadores": [("Campeón de la Copa Libertadores 2003 (lugar aparte)", "boca-juniors"),
+                                                 ("Campeón del Torneo Apertura 2002", "independiente"),
+                                                 ("Campeón del Torneo Clausura 2003", "river-plate"),
+                                                 ("Tabla de la temporada 2002-03", "velez-sarsfield"),
+                                                 ("Tabla de la temporada 2002-03", "rosario-central")],
+                                "sudamericana": [("Campeón de la Copa Sudamericana 2002", "san-lorenzo"),
+                                                 ("Tabla de la temporada 2002-03", "velez-sarsfield"),
+                                                 ("Tabla de la temporada 2002-03", "rosario-central"),
+                                                 ("Tabla de la temporada 2002-03", "independiente"),
+                                                 ("Tabla de la temporada 2002-03", "colon"),
+                                                 ("Invitado por la Conmebol", "boca-juniors"),
+                                                 ("Invitado por la Conmebol", "river-plate")]}},
+    # El Torneo Apertura 2003 (agosto-diciembre; campeón Boca; dos partidos postergados, en 2004) abría la temporada
+    # 2003-04
+    "2003-apertura": {"nombre": "Torneo Apertura 2003", "anio": 2003, "anios": [2003, 2004], "slug": "apertura-2003",
+                      "patron": r"^torneo-apertura-2003$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True,
+                      "anual": [("arg.1", r"^torneo-clausura-2003$")],
+                      "anual_texto": "La tabla del año 2003: suma el Torneo Clausura 2003 y el Torneo Apertura 2003. No "
+                                     "daba lugares en las copas: salían de la tabla de la temporada.",
+                      "sin_descensos": "En el Torneo Apertura 2003 no hubo descensos: se definieron al terminar la "
+                                       "temporada 2003-04, con el Torneo Clausura 2004."},
     # 2004: dos torneos de 20 equipos a una rueda. El Torneo Clausura 2004 (febrero-junio; campeón River) cerraba la
     # temporada 2003-04: su "tabla anual" es la de la temporada (el Apertura 2003 y el Clausura 2004). Bajaron los dos
     # últimos de los promedios (2001-02, 2002-03 y 2003-04) y los dos de arriba jugaron la Promoción contra equipos de la
@@ -76,13 +156,14 @@ TORNEOS = {
                       "anual_texto": "La tabla de la temporada 2003-04: suma el Torneo Apertura 2003 y el Torneo Clausura 2004. "
                                      "A Chacarita se le descontaron 3 puntos por los incidentes en el partido con Boca.",
                       # (ESPN no tiene el Apertura 2001 ni el 2002: los puntos de esas temporadas, de la tabla de
-                      # promedios de Wikipedia)
+                      # promedios de Wikipedia; Racing y Estudiantes 2001-02, de RSSSF, porque la Wikipedia en inglés
+                      # tiene 68 y 51)
                       "promedios": {"2001-02": {"river-plate": [84, 38], "boca-juniors": [68, 38], "san-lorenzo": [57, 38],
-                                                "racing-club": [68, 38], "velez-sarsfield": [48, 38], "colon": [56, 38],
+                                                "racing-club": [71, 38], "velez-sarsfield": [48, 38], "colon": [56, 38],
                                                 "banfield": [48, 38], "newell-s-old-boys": [51, 38],
                                                 "gimnasia-y-esgrima": [64, 38], "independiente": [41, 38],
                                                 "rosario-central": [40, 38], "lanus": [51, 38],
-                                                "estudiantes-de-la-plata": [51, 38], "talleres": [30, 38],
+                                                "estudiantes-de-la-plata": [54, 38], "talleres": [30, 38],
                                                 "chacarita-juniors": [47, 38], "nueva-chicago": [48, 38]},
                                     "2002-03": {"river-plate": [79, 38], "boca-juniors": [79, 38], "san-lorenzo": [56, 38],
                                                 "racing-club": [53, 38], "velez-sarsfield": [66, 38], "colon": [57, 38],
@@ -1033,7 +1114,14 @@ RESULTADOS_A_MANO = {"382317": (0, 1, "No se jugó: Colón no se presentó y la 
                      # les dio el partido perdido a los dos (a Boca 3-2; a Almagro 0-2, ver PIERDEN_LOS_DOS)
                      "186468": (3, 2, "Suspendido por incidentes: la AFA les dio el partido perdido a los dos"),
                      # Estudiantes-Independiente, Clausura 2004: terminó 1-4 (ESPN dice 1-2)
-                     "140001": (1, 4, None)}
+                     "140001": (1, 4, None),
+                     # Clausura 2003 (RSSSF): Huracán 1-3 Lanús (ESPN lo tiene al revés, 3-1); Unión 1-3 Nueva Chicago se
+                     # suspendió al final y quedó el resultado; Huracán-Olimpo se suspendió a los 30 del segundo tiempo y
+                     # los 15 minutos que faltaban se jugaron en noviembre (ganó Olimpo 1-0)
+                     "98460": (1, 3, None),
+                     "98487": (1, 3, "Se suspendió a los 42 del segundo tiempo por incidentes y quedó el resultado"),
+                     "98549": (0, 1, "Se suspendió a los 30 del segundo tiempo por incidentes; los 15 minutos que "
+                                     "faltaban se jugaron el 11 de noviembre")}
 # Partidos que la AFA les dio perdidos a los dos: {id del partido de ESPN: (goles a favor, en contra) que se le cuentan
 # al local}; al visitante se le cuenta el resultado. Almagro-Boca, Clausura 2005: a Almagro, 0-2
 PIERDEN_LOS_DOS = {"186468": (0, 2)}
@@ -1066,6 +1154,7 @@ CLUBES_NUEVOS = {
     "5262": ("tiro-federal", "Tiro Federal"),
     "2974": ("huracan-tres-arroyos", "Huracán de Tres Arroyos"),
     "2": ("almagro", "Almagro"),
+    "smm": ("san-martin-mendoza", "San Martín (Mendoza)"),   # (no está en ESPN: solo jugó la Promoción 2003)
 }
 
 # Nombres que en la liga se confunden (en data/equipos.js están como en las copas)
@@ -1416,7 +1505,7 @@ def armar(clave):
     for fase, ps in cfg.get("playoffs_a_mano", {}).items():   # partidos que ESPN no tiene (la Superfinal 2013)
         for p in ps:   # (los clubes, con nuestro id o con el de ESPN, si no jugaron el torneo: la Promoción 2011)
             p = {**p, **{lado: club({"id": p[lado], "displayName": p[lado]}) for lado in ("local", "visitante")
-                         if p[lado].isdigit()}}
+                         if p[lado].isdigit() or p[lado] in CLUBES_NUEVOS}}
             playoffs.setdefault(fase, []).append(p)
 
     if etapas:   # las fechas, por etapa, numeradas desde la primera fecha de cada una
@@ -1448,7 +1537,9 @@ def armar(clave):
     }
     # tabla anual (lo jugado antes en el año) y promedios (las temporadas anteriores), solo de los clubes del torneo
     espn_de = {cid: eid for z in zonas_espn for eid, cid in zip(zonas_espn[z], zonas[z])}   # {id nuestro: id de ESPN}
-    if cfg.get("anual"):
+    if isinstance(cfg.get("anual"), dict):   # la tabla puesta a mano (el Apertura 2002, que ESPN no tiene)
+        datos["anual"] = {cid: v for cid, v in cfg["anual"].items() if cid in espn_de}
+    elif cfg.get("anual"):
         previo = sumar(cfg["anio"], cfg["anual"])
         datos["anual"] = {cid: previo[eid] for cid, eid in espn_de.items() if eid in previo}
     if cfg.get("promedios"):
@@ -1480,7 +1571,7 @@ def armar(clave):
                                     "fechas": sorted({p["fecha_n"] for p in ps})})
     if desempates:
         datos["desempate"] = limpio(desempates[0])
-    for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "promocion", "ventaja", "triangular", "texto_triangular", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
+    for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "goleadores_nota", "promocion", "ventaja", "triangular", "texto_triangular", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
               "campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro"):
         if cfg.get(k):
             datos[k] = cfg[k]

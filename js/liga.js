@@ -442,8 +442,13 @@
         return `<tr><td class="pos">${pos}</td><td class="eq">${esc(f.nombre)}</td><td class="eq club-goleador">${nombreClub(f.eq)}</td>
           <td class="pts">${f.goles}</td><td class="opc">${f.pen || ""}</td></tr>`;
       }).join("");
-      return filas.length ? `<div class="grupo goleadores"><table><thead><tr><th>#</th><th class="eq">Jugador</th><th class="eq">Club</th><th>Goles</th>
-        <th class="opc" title="De penal">Pen.</th></tr></thead><tbody>${cuerpo}</tbody></table></div>` : `<p class="vacio">Todavía no hay goles.</p>`;
+      // partidos jugados de los que ESPN no tiene todos los goles (el Clausura 2003): la lista queda incompleta
+      const faltan = todos.concat(T.playoffs.flatMap(r => r.partidos)).filter(p => jugado(p) && !p.estado
+        && (p.goles || []).length < p.gl + p.gv).length;
+      const aviso = faltan ? `<p class="nota-edicion">Faltan los goles de ${faltan} partido${faltan > 1 ? "s" : ""}: la lista está
+        incompleta.${T.goleadores_nota ? " " + esc(T.goleadores_nota) : ""}</p>` : "";
+      return aviso + (filas.length ? `<div class="grupo goleadores"><table><thead><tr><th>#</th><th class="eq">Jugador</th><th class="eq">Club</th><th>Goles</th>
+        <th class="opc" title="De penal">Pen.</th></tr></thead><tbody>${cuerpo}</tbody></table></div>` : faltan ? "" : `<p class="vacio">Todavía no hay goles.</p>`);
     }
 
     // ---- Pestañas ----
