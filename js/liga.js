@@ -36,21 +36,27 @@
     const todos = T.fechas.flatMap(f => f.partidos.map(p => ({ ...p, n: f.numero })));
     const zonaDe = {};
     // Los títulos de liga de este torneo, con el número de cada uno para su club (data/ligas/argentina/titulos.js): los
-    // de antes de 1990 más los de los torneos cargados hasta este
+    // de antes de 1990 más los de los torneos cargados hasta este. Y cuántos seguidos lleva el club (River en el
+    // Apertura 1997: 3, un tricampeonato), contando todos los títulos en orden
     const TIT = window.LIGA_TITULOS || {};
     const TITULOS = (() => {
       const cuenta = { ...TIT.antes };
+      let anterior = TIT.ultimo_antes, seguidos = 1;
       for (const t of INDICE) {
         const deEste = (TIT.torneos?.[t.clave] || []).map(e => {
           const [club, texto] = Array.isArray(e) ? e : [e, null];
           cuenta[club] = (cuenta[club] || 0) + 1;
-          return { club, texto, n: cuenta[club] };
+          seguidos = club === anterior ? seguidos + 1 : 1;
+          anterior = club;
+          return { club, texto, n: cuenta[club], seguidos };
         });
         if (t.clave === CLAVE) return deEste;
       }
       return [];
     })();
-    const numeroTitulo = x => ` <small class="veces-campeon">· título de liga n.º ${x.n}</small>`;
+    const RACHA = { 2: "bicampeonato", 3: "tricampeonato", 4: "tetracampeonato", 5: "pentacampeonato" };
+    const numeroTitulo = x => ` <small class="veces-campeon">· título de liga n.º ${x.n}${x.seguidos > 1
+      ? ` · <strong class="racha" title="${x.seguidos} títulos de liga seguidos">${RACHA[x.seguidos] || `${x.seguidos} títulos seguidos`}</strong>` : ""}</small>`;
     Object.entries(T.zonas).forEach(([z, ids]) => ids.forEach(id => { zonaDe[id] = z; }));
 
     document.title = `${T.nombre} — Liga Profesional Argentina`;
