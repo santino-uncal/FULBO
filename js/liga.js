@@ -153,7 +153,7 @@
     // ---- Tabla de posiciones de cada zona (los partidos interzonales cuentan para la zona de cada club) ----
     // partidos: los que cuentan (en los torneos por etapas, los de esa etapa)
     function tabla(ids, partidos = todos) {
-      const t = Object.fromEntries(ids.map(id => [id, { id, pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, ultimos: [] }]));
+      const t = Object.fromEntries(ids.map(id => [id, { id, pj: 0, g: 0, e: 0, p: 0, pg: 0, gf: 0, gc: 0, ultimos: [] }]));
       partidos.filter(jugado).sort((a, b) => (a.fecha || "").localeCompare(b.fecha || "")).forEach(p => {
         // (p.para_local: un partido que la AFA les dio perdido a los dos, como Almagro-Boca 2005: al local, otro resultado)
         // (p.para_visitante, y un tercer valor: el resultado que cuenta, como San Lorenzo-Huracán 1997, perdido 0-0 por los dos)
@@ -163,13 +163,16 @@
           f.pj++; f.gf += a; f.gc += b;
           const r = cuenta || (a > b ? "V" : a < b ? "D" : "E");
           f[{ V: "g", E: "e", D: "p" }[r]]++;
-          f.ultimos.push({ r, texto: `${p.n != null ? `Fecha ${p.n}: ` : ""}${club(p.local).nombre} ${p.gl}–${p.gv} ${club(p.visitante).nombre}` });
+          // (T.punto_penales: el Campeonato 1988-89, con penales después de cada empate y un punto más para el ganador)
+          const pen = T.punto_penales && r === "E" && p.pen_l != null && !p.para_local;
+          if (pen && (id === p.local ? p.pen_l > p.pen_v : p.pen_v > p.pen_l)) f.pg++;
+          f.ultimos.push({ r, texto: `${p.n != null ? `Fecha ${p.n}: ` : ""}${club(p.local).nombre} ${p.gl}–${p.gv} ${club(p.visitante).nombre}${pen ? ` (penales ${p.pen_l}–${p.pen_v})` : ""}` });
         });
       });
       // (T.descuentos: puntos que se le restaron a un club en este torneo, como a Los Andes en el Clausura 2001)
       const menos = id => partidos === todos ? (T.descuentos || {})[id] || 0 : 0;
       // (T.puntos_victoria: 2, como hasta el Clausura 1995; después, 3)
-      return Object.values(t).map(f => ({ ...f, pts: f.g * (T.puntos_victoria || 3) + f.e - menos(f.id), dif: f.gf - f.gc }))
+      return Object.values(t).map(f => ({ ...f, pts: f.g * (T.puntos_victoria || 3) + f.e + f.pg - menos(f.id), dif: f.gf - f.gc }))
         .sort((a, b) => b.pts - a.pts || b.dif - a.dif || b.gf - a.gf || club(a.id).nombre.localeCompare(club(b.id).nombre));
     }
     function tablaHTML(z, zonas = T.zonas, pasan = T.pasan, partidos = todos) {
@@ -180,12 +183,12 @@
           aria-label="${{ V: "Victoria", E: "Empate", D: "Derrota" }[u.r]}">${{ V: "✓", E: "–", D: "✕" }[u.r]}</span>`).join("");
         return `<tr><td class="pos ${i < pasan ? "pasa" : f.id === campeon ? "campeon" : ""}">${i + 1}</td><td class="eq">${nombreClub(f.id)}</td>
           <td class="pts">${f.pts}</td><td>${f.pj}</td><td class="gol">${f.gf}:${f.gc}</td>
-          <td class="dif">${dif}</td><td class="opc">${f.g}</td><td class="opc">${f.e}</td><td class="opc">${f.p}</td>
+          <td class="dif">${dif}</td><td class="opc">${f.g}</td><td class="opc">${f.e}</td><td class="opc">${f.p}</td>${T.punto_penales ? `<td class="opc">${f.pg}</td>` : ""}
           <td class="ultimas" title="El más reciente a la izquierda">${ultimos}</td></tr>`;
       }).join("");
       return `<div class="grupo"><h4>${z ? `Zona ${esc(z)}` : "Tabla de posiciones"}</h4><table>
         <thead><tr><th>#</th><th class="eq">Equipo</th><th>Pts</th><th>J</th><th class="gol">Gol</th><th>+/-</th>
-          <th class="opc">G</th><th class="opc">E</th><th class="opc">P</th><th class="ultimas">Últimas</th></tr></thead>
+          <th class="opc">G</th><th class="opc">E</th><th class="opc">P</th>${T.punto_penales ? `<th class="opc" title="Empates ganados por penales (cada uno, un punto más)">Pen.</th>` : ""}<th class="ultimas">Últimas</th></tr></thead>
         <tbody>${cuerpo}</tbody></table></div>`;
     }
     // Torneos por etapas (la Copa Maradona 2020): las zonas de cada etapa, con los partidos de sus fechas
@@ -201,7 +204,7 @@
       <p class="leyenda">${T.texto_pasan ? `<span><i class="pasa"></i>${esc(T.texto_pasan)}</span>` : T.pasan ? `<span><i class="pasa"></i>Clasifican a ${RONDA[T.pasan] || "los playoffs"} (los ${T.pasan} primeros de cada zona)</span>` : ""}
         ${T.campeon_tabla ? `<span><i class="campeon"></i>Campeón: el primero de la tabla (no hay playoffs)</span>` : ""}</p>
       ${T.descuentos_texto ? `<p class="nota-edicion">${esc(T.descuentos_texto)}</p>` : ""}
-      <p class="vacio">${T.puntos_victoria ? `Cada partido ganado valía ${T.puntos_victoria} puntos (los 3 puntos empezaron en el Torneo Apertura 1995). ` : ""}Orden: puntos, diferencia de gol y goles a favor.${Object.keys(T.zonas).length > 1
+      <p class="vacio">${T.puntos_victoria ? `Cada partido ganado valía ${T.puntos_victoria} puntos (los 3 puntos empezaron en el Torneo Apertura 1995). ` : ""}${T.punto_penales ? "Cada partido ganado valía 3 puntos y el empate 1; después de cada empate había penales, y el que los ganaba sumaba 1 punto más (Pen.: los empates ganados por penales). " : ""}Orden: puntos, diferencia de gol y goles a favor.${Object.keys(T.zonas).length > 1
         ? " Los partidos contra la otra zona (interzonales) suman en la zona de cada club." : ""}</p>`;
 
     // ---- Tabla anual: lo jugado antes en el año (T.anual: el Apertura, [pts, pj, g, e, p, gf, gc]) más este torneo ----
@@ -228,7 +231,8 @@
       const anual = Object.fromEntries(tablaAnual().map(f => [f.id, f]));
       return ids.map(id => {
         // (T.promedios_victoria: 2, como hasta 1996-97, cuando los promedios contaban 2 puntos por partido ganado)
-        const pts = T.promedios_victoria ? T.promedios_victoria * anual[id].g + anual[id].e : anual[id].pts;
+        // (sin el punto de los penales de 1988-89, y con los puntos descontados en el torneo)
+        const pts = T.promedios_victoria ? T.promedios_victoria * anual[id].g + anual[id].e - ((T.descuentos || {})[id] || 0) : anual[id].pts;
         const temporadas = [...aniosProm.map(a => T.promedios[a][id] || null), [pts, anual[id].pj]];
         const total = temporadas.reduce((n, t) => n + (t ? t[0] : 0), 0);
         const pj = temporadas.reduce((n, t) => n + (t ? t[1] : 0), 0);
@@ -466,6 +470,8 @@
         const fuera = T.gol_visitante ? vuelta.gv - ida.gv : 0;
         s.gana = s.gl !== s.gv ? (s.gl > s.gv ? s.local : s.visitante) : fuera ? (fuera > 0 ? s.local : s.visitante)
           : s.pen_l != null ? (s.pen_l > s.pen_v ? s.local : s.visitante)
+          // (vuelta.pasa: el que pasó con el global igualado, por haber terminado mejor; la Liguilla 1988-89)
+          : vuelta.pasa ? vuelta.pasa
           // (la Promoción 2012: con el global igualado se quedaba el de Primera, T.ventaja)
           : (T.ventaja || []).find(id => id === s.local || id === s.visitante) || null;
         return s;

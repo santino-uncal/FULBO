@@ -30,7 +30,8 @@ CLUBES = [  # (patrón normalizado al principio del nombre, id)
     ("almagro", "almagro"), ("argj", "argentinos-juniors"), ("depespanol", "deportivo-espanol"),
     ("deportivoespanol", "deportivo-espanol"), ("platense", "platense"), ("losandes", "los-andes"), ("quilmes", "quilmes"), ("instituto", "instituto"),
     ("depmandiyu", "deportivo-mandiyu"), ("deportivomandiyu", "deportivo-mandiyu"), ("mandiyu", "deportivo-mandiyu"), ("deportivomaniyu", "deportivo-mandiyu"),
-    ("sanmartin", "san-martin-tucuman"), ("chaco", "chaco-for-ever")]
+    ("sanmartin", "san-martin-tucuman"), ("chaco", "chaco-for-ever"), ("deparmenio", "deportivo-armenio"),
+    ("deportivoarmenio", "deportivo-armenio")]
 
 
 EXACTOS = {"racingc": "racing-cordoba", "racingcba": "racing-cordoba", "racingcordoba": "racing-cordoba"}

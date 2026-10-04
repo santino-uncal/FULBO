@@ -33,6 +33,145 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1989: el Campeonato 1988-89 (septiembre de 1988 a mayo de 1989; campeón Independiente), a dos ruedas (38 fechas),
+    # con una regla propia: 3 puntos por partido ganado, 1 por el empate y, después de cada empate, penales que le daban
+    # un punto más al ganador ("punto_penales"); va con el año en que terminó ("1989-temporada"). ESPN no lo tiene: va
+    # a mano (tools/a_mano; RSSSF, sin goles ni estadios; dos penales corregidos, ver "fuente"). A Racing, Newell's,
+    # Rosario Central y San Martín de Tucumán les descontaron 2 puntos; Newell's-Rosario lo perdieron los dos y
+    # Racing-Boca lo perdió Racing. Promedios de 1986-87 y 1987-88 (RSSSF): para los promedios, 2 puntos por partido
+    # ganado y sin el punto de los penales ("promedios_victoria", con los descuentos). Bajaron los dos peores promedios
+    # (San Martín de Tucumán y Deportivo Armenio). El segundo lugar en la Libertadores 1990 lo jugaron en una Liguilla
+    # Pre-Libertadores con doble eliminación (RSSSF, con los goles; estadios de Wikipedia; ganó River)
+    "1989-temporada": {"nombre": "Campeonato 1988-89", "anio": 1989, "liga": "a_mano", "slug": "1989-temporada",
+                       "zonas": "unica", "fechas": 38, "pasan": 0, "punto_penales": True,
+                       "campeon_tabla": True, "temporada": "1988-89",
+                       "anual_texto": "La tabla del Campeonato 1988-89 (las 38 fechas). Cada partido ganado valía 3 puntos "
+                                      "y el empate 1, más 1 para el que ganaba los penales después del empate.",
+                       "goleadores_nota": "RSSSF no tiene los goles del campeonato: la lista es solo de la Liguilla. Los "
+                                          "goleadores del campeonato fueron Oscar Dertycia (Argentinos) y Néstor Gorosito "
+                                          "(San Lorenzo), con 20 goles.",
+                       "descuentos": {"racing-club": 2, "newell-s-old-boys": 2, "rosario-central": 2, "san-martin-tucuman": 2},
+                       "descuentos_texto": "A Racing, a Newell's, a Rosario Central y a San Martín de Tucumán se les "
+                                           "descontaron 2 puntos.",
+                       "nombre_playoffs": "Liguilla Pre-Libertadores",
+                       "playoffs": [(r"^$^", n) for n in (
+                           "Octogonal: cuartos de final", "Octogonal: semifinales", "Octogonal: final",
+                           "Clasificación: primera fase", "Clasificación: segunda fase", "Clasificación: tercera fase",
+                           "Clasificación: cuarta fase", "Clasificación: quinta fase", "Clasificación: final",
+                           "Clasificación: desempate", "Final por la Libertadores 1990")],
+                       # (pasa: el que pasó con el global igualado, por haber terminado mejor en el campeonato)
+                       "playoffs_a_mano": {
+                           "Octogonal: cuartos de final": [
+                               {"hora_utc": "1989-06-03T19:00Z", "fecha": "1989-06-03", "local": "cfe", "visitante": "boca-juniors", "gl": 0, "gv": 1, "estadio": "Juan Alberto García", "goles": [{"jugador": "Stafuza", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-04T19:00Z", "fecha": "1989-06-04", "local": "argentinos-juniors", "visitante": "river-plate", "gl": 2, "gv": 0, "estadio": "José Amalfitani", "goles": [{"jugador": "Dertycia", "equipo": "local"}, {"jugador": "Ereros", "equipo": "local"}]},
+                               {"hora_utc": "1989-06-04T19:00Z", "fecha": "1989-06-04", "local": "platense", "visitante": "deportivo-espanol", "gl": 0, "gv": 0, "estadio": "Ciudad de Vicente López"},
+                               {"hora_utc": "1989-06-04T19:00Z", "fecha": "1989-06-04", "local": "talleres", "visitante": "san-lorenzo", "gl": 0, "gv": 2, "estadio": "La Boutique", "goles": [{"jugador": "Ahmed", "equipo": "visitante"}, {"jugador": "Ferreyra", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-07T19:00Z", "fecha": "1989-06-07", "local": "boca-juniors", "visitante": "cfe", "gl": 2, "gv": 1, "estadio": "La Bombonera", "goles": [{"jugador": "Latorre", "equipo": "local"}, {"jugador": "Latorre", "equipo": "local"}, {"jugador": "Fernández", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-07T19:00Z", "fecha": "1989-06-07", "local": "deportivo-espanol", "visitante": "platense", "gl": 1, "gv": 3, "estadio": "España", "goles": [{"jugador": "Correa", "equipo": "local"}, {"jugador": "De Vicente", "equipo": "visitante"}, {"jugador": "Espina", "equipo": "visitante"}, {"jugador": "Spontón", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-07T19:00Z", "fecha": "1989-06-07", "local": "river-plate", "visitante": "argentinos-juniors", "gl": 1, "gv": 0, "estadio": "Monumental", "goles": [{"jugador": "Centurión", "equipo": "local"}]},
+                               {"hora_utc": "1989-06-07T19:00Z", "fecha": "1989-06-07", "local": "san-lorenzo", "visitante": "talleres", "gl": 1, "gv": 1, "estadio": "Tomás Adolfo Ducó", "goles": [{"jugador": "Zacarías", "equipo": "local"}, {"jugador": "Cañete", "equipo": "visitante"}]},
+                           ],
+                           "Octogonal: semifinales": [
+                               {"hora_utc": "1989-06-11T19:00Z", "fecha": "1989-06-11", "local": "boca-juniors", "visitante": "platense", "gl": 1, "gv": 1, "estadio": "La Bombonera", "goles": [{"jugador": "Graciani", "equipo": "local"}, {"jugador": "Boldrini", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-11T19:00Z", "fecha": "1989-06-11", "local": "san-lorenzo", "visitante": "argentinos-juniors", "gl": 1, "gv": 0, "estadio": "Tomás Adolfo Ducó", "goles": [{"jugador": "Gorosito", "equipo": "local"}]},
+                               {"hora_utc": "1989-06-14T19:00Z", "fecha": "1989-06-14", "local": "argentinos-juniors", "visitante": "san-lorenzo", "gl": 1, "gv": 3, "estadio": "Arquitecto Ricardo Etcheverri", "goles": [{"jugador": "Cáceres", "equipo": "local"}, {"jugador": "Gorosito", "equipo": "visitante"}, {"jugador": "Acosta", "equipo": "visitante"}, {"jugador": "Acosta", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-14T19:00Z", "fecha": "1989-06-14", "local": "platense", "visitante": "boca-juniors", "gl": 1, "gv": 1, "estadio": "José Amalfitani", "goles": [{"jugador": "De Vicente", "equipo": "local"}, {"jugador": "Latorre", "equipo": "visitante"}], "pasa": "boca-juniors", "nota": "Global 2-2: pasó Boca por haber terminado mejor en el campeonato (2.º; Platense, 15.º)"},
+                           ],
+                           "Octogonal: final": [
+                               {"hora_utc": "1989-06-16T19:00Z", "fecha": "1989-06-16", "local": "boca-juniors", "visitante": "san-lorenzo", "gl": 1, "gv": 1, "estadio": "La Bombonera", "goles": [{"jugador": "Graciani", "equipo": "local"}, {"jugador": "Gorosito", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-22T19:00Z", "fecha": "1989-06-22", "local": "san-lorenzo", "visitante": "boca-juniors", "gl": 4, "gv": 0, "estadio": "Tomás Adolfo Ducó", "goles": [{"jugador": "Gorosito", "equipo": "local"}, {"jugador": "Acosta", "equipo": "local"}, {"jugador": "Acosta", "equipo": "local"}, {"jugador": "Siviski", "equipo": "local"}]},
+                           ],
+                           "Clasificación: primera fase": [
+                               {"hora_utc": "1989-06-03T19:00Z", "fecha": "1989-06-03", "local": "racing-cordoba", "visitante": "gimnasia-y-esgrima", "gl": 0, "gv": 0, "estadio": "Miguel Sancho"},
+                               {"hora_utc": "1989-06-04T19:00Z", "fecha": "1989-06-04", "local": "deportivo-mandiyu", "visitante": "velez-sarsfield", "gl": 1, "gv": 1, "estadio": "Huracán Corrientes", "goles": [{"jugador": "Blanchart", "equipo": "local"}, {"jugador": "Simeone", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-04T19:00Z", "fecha": "1989-06-04", "local": "estudiantes-de-la-plata", "visitante": "instituto", "gl": 0, "gv": 0, "estadio": "Jorge Luis Hirschi"},
+                               {"hora_utc": "1989-06-04T19:00Z", "fecha": "1989-06-04", "local": "racing-club", "visitante": "ferro-carril-oeste", "gl": 0, "gv": 1, "estadio": "El Cilindro", "goles": [{"jugador": "Agonil", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-11T19:00Z", "fecha": "1989-06-11", "local": "rosario-central", "visitante": "newell-s-old-boys", "gl": 1, "gv": 1, "estadio": "José Amalfitani", "goles": [{"jugador": "Escudero", "equipo": "local"}, {"jugador": "Martino", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-07T19:00Z", "fecha": "1989-06-07", "local": "ferro-carril-oeste", "visitante": "racing-club", "gl": 0, "gv": 0, "estadio": "Arquitecto Ricardo Etcheverri"},
+                               {"hora_utc": "1989-06-07T19:00Z", "fecha": "1989-06-07", "local": "gimnasia-y-esgrima", "visitante": "racing-cordoba", "gl": 2, "gv": 0, "estadio": "Del Bosque", "goles": [{"jugador": "Airez", "equipo": "local"}, {"jugador": "Güendulain", "equipo": "local"}]},
+                               {"hora_utc": "1989-06-07T19:00Z", "fecha": "1989-06-07", "local": "instituto", "visitante": "estudiantes-de-la-plata", "gl": 1, "gv": 0, "estadio": "Juan Domingo Perón", "goles": [{"jugador": "Giovagnoli", "equipo": "local"}]},
+                               {"hora_utc": "1989-06-07T19:00Z", "fecha": "1989-06-07", "local": "velez-sarsfield", "visitante": "deportivo-mandiyu", "gl": 0, "gv": 3, "estadio": "José Amalfitani", "goles": [{"jugador": "Blanchart", "equipo": "visitante"}, {"jugador": "Blanchart", "equipo": "visitante"}, {"jugador": "Leani", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-13T19:00Z", "fecha": "1989-06-13", "local": "newell-s-old-boys", "visitante": "rosario-central", "gl": 5, "gv": 3, "estadio": "Arquitecto Ricardo Etcheverri", "goles": [{"jugador": "Taffarel", "equipo": "local"}, {"jugador": "Taffarel", "equipo": "local"}, {"jugador": "Batistuta", "equipo": "local"}, {"jugador": "Batistuta", "equipo": "local"}, {"jugador": "Ramos", "equipo": "local"}, {"jugador": "Llop", "equipo": "visitante", "tipo": "ec"}, {"jugador": "Pizzi", "equipo": "visitante"}, {"jugador": "Bauza", "equipo": "visitante"}]},
+                           ],
+                           "Clasificación: segunda fase": [
+                               {"hora_utc": "1989-06-11T19:00Z", "fecha": "1989-06-11", "local": "cfe", "visitante": "river-plate", "gl": 1, "gv": 5, "estadio": "Juan Alberto García", "goles": [{"jugador": "Sosa", "equipo": "local"}, {"jugador": "Batista", "equipo": "visitante"}, {"jugador": "Bevilaqua", "equipo": "visitante"}, {"jugador": "Borrelli", "equipo": "visitante"}, {"jugador": "Borrelli", "equipo": "visitante"}, {"jugador": "Beltramo", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-11T19:00Z", "fecha": "1989-06-11", "local": "ferro-carril-oeste", "visitante": "gimnasia-y-esgrima", "gl": 1, "gv": 4, "estadio": "Arquitecto Ricardo Etcheverri", "goles": [{"jugador": "Marchesini", "equipo": "local"}, {"jugador": "Airez", "equipo": "visitante"}, {"jugador": "Airez", "equipo": "visitante"}, {"jugador": "Gambier", "equipo": "visitante"}, {"jugador": "Gambier", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-11T19:00Z", "fecha": "1989-06-11", "local": "talleres", "visitante": "instituto", "gl": 2, "gv": 1, "estadio": "La Boutique", "goles": [{"jugador": "Pochettino", "equipo": "local"}, {"jugador": "Commiso", "equipo": "local"}, {"jugador": "Giovagnoli", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-18T19:00Z", "fecha": "1989-06-18", "local": "deportivo-mandiyu", "visitante": "newell-s-old-boys", "gl": 2, "gv": 1, "estadio": "Huracán Corrientes", "goles": [{"jugador": "Attadía", "equipo": "local"}, {"jugador": "L.Ramos", "equipo": "local"}, {"jugador": "Batistuta", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-14T19:00Z", "fecha": "1989-06-14", "local": "gimnasia-y-esgrima", "visitante": "ferro-carril-oeste", "gl": 0, "gv": 1, "estadio": "Del Bosque", "goles": [{"jugador": "Marchesini", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-14T19:00Z", "fecha": "1989-06-14", "local": "instituto", "visitante": "talleres", "gl": 1, "gv": 3, "estadio": "Juan Domingo Perón", "goles": [{"jugador": "Cozzoni", "equipo": "local"}, {"jugador": "Cañete", "equipo": "visitante"}, {"jugador": "Cañete", "equipo": "visitante"}, {"jugador": "Pochettino", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-14T19:00Z", "fecha": "1989-06-14", "local": "river-plate", "visitante": "cfe", "gl": 1, "gv": 1, "estadio": "Monumental", "goles": [{"jugador": "Zamora", "equipo": "local"}, {"jugador": "Di Marco", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-21T19:00Z", "fecha": "1989-06-21", "local": "newell-s-old-boys", "visitante": "deportivo-mandiyu", "gl": 2, "gv": 1, "estadio": "El Coloso del Parque", "goles": [{"jugador": "V.Ramos", "equipo": "local"}, {"jugador": "V.Ramos", "equipo": "local"}, {"jugador": "Leani", "equipo": "visitante"}], "pasa": "newell-s-old-boys", "nota": "Global 3-3: pasó Newell's por haber terminado mejor en el campeonato (12.º; Mandiyú, 14.º)"},
+                           ],
+                           "Clasificación: tercera fase": [
+                               {"hora_utc": "1989-06-18T19:00Z", "fecha": "1989-06-18", "local": "deportivo-espanol", "visitante": "platense", "gl": 0, "gv": 0, "estadio": "España"},
+                               {"hora_utc": "1989-06-18T19:00Z", "fecha": "1989-06-18", "local": "gimnasia-y-esgrima", "visitante": "argentinos-juniors", "gl": 1, "gv": 1, "estadio": "Del Bosque", "goles": [{"jugador": "Airez", "equipo": "local"}, {"jugador": "Dertycia", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-25T19:00Z", "fecha": "1989-06-25", "local": "newell-s-old-boys", "visitante": "talleres", "gl": 0, "gv": 0, "estadio": "Coloso del Parque"},
+                               {"hora_utc": "1989-06-22T19:00Z", "fecha": "1989-06-22", "local": "argentinos-juniors", "visitante": "gimnasia-y-esgrima", "gl": 4, "gv": 1, "estadio": "Arquitecto Ricardo Etcheverri", "goles": [{"jugador": "Trapasso", "equipo": "local"}, {"jugador": "Rudman", "equipo": "local"}, {"jugador": "Castillo", "equipo": "local"}, {"jugador": "Castillo", "equipo": "local"}, {"jugador": "Güendulain", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-22T19:00Z", "fecha": "1989-06-22", "local": "platense", "visitante": "deportivo-espanol", "gl": 1, "gv": 4, "estadio": "Ciudad de Vicente López", "goles": [{"jugador": "Boldrini", "equipo": "local"}, {"jugador": "Gaona", "equipo": "visitante"}, {"jugador": "González", "equipo": "visitante"}, {"jugador": "González", "equipo": "visitante"}, {"jugador": "Ortega", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-06-28T19:00Z", "fecha": "1989-06-28", "local": "talleres", "visitante": "newell-s-old-boys", "gl": 0, "gv": 1, "estadio": "Miguel Sancho", "goles": [{"jugador": "Taffarel", "equipo": "visitante"}]},
+                           ],
+                           "Clasificación: cuarta fase": [
+                               {"hora_utc": "1989-07-02T19:00Z", "fecha": "1989-07-02", "local": "argentinos-juniors", "visitante": "river-plate", "gl": 0, "gv": 1, "estadio": "José Amalfitani", "goles": [{"jugador": "Centurión", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-07-02T19:00Z", "fecha": "1989-07-02", "local": "newell-s-old-boys", "visitante": "deportivo-espanol", "gl": 0, "gv": 1, "estadio": "Coloso del Parque", "goles": [{"jugador": "Caviglia", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-07-05T19:00Z", "fecha": "1989-07-05", "local": "deportivo-espanol", "visitante": "newell-s-old-boys", "gl": 0, "gv": 0, "estadio": "España"},
+                               {"hora_utc": "1989-07-05T19:00Z", "fecha": "1989-07-05", "local": "river-plate", "visitante": "argentinos-juniors", "gl": 4, "gv": 0, "estadio": "Monumental", "goles": [{"jugador": "Passarella", "equipo": "local"}, {"jugador": "Centurión", "equipo": "local"}, {"jugador": "Centurión", "equipo": "local"}, {"jugador": "Zamora", "equipo": "local"}]},
+                           ],
+                           "Clasificación: quinta fase": [
+                               {"hora_utc": "1989-07-12T19:00Z", "fecha": "1989-07-12", "local": "river-plate", "visitante": "deportivo-espanol", "gl": 1, "gv": 0, "estadio": "Monumental", "goles": [{"jugador": "Gordillo", "equipo": "local"}]},
+                               {"hora_utc": "1989-07-16T19:00Z", "fecha": "1989-07-16", "local": "deportivo-espanol", "visitante": "river-plate", "gl": 0, "gv": 1, "estadio": "José Amalfitani", "goles": [{"jugador": "Zamora", "equipo": "visitante"}]},
+                           ],
+                           "Clasificación: final": [
+                               {"hora_utc": "1989-07-19T19:00Z", "fecha": "1989-07-19", "local": "river-plate", "visitante": "boca-juniors", "gl": 0, "gv": 0, "estadio": "Monumental"},
+                               {"hora_utc": "1989-07-24T19:00Z", "fecha": "1989-07-24", "local": "boca-juniors", "visitante": "river-plate", "gl": 0, "gv": 0, "estadio": "La Bombonera"},
+                           ],
+                           "Clasificación: desempate": [
+                               {"hora_utc": "1989-07-27T19:00Z", "fecha": "1989-07-27", "local": "boca-juniors", "visitante": "river-plate", "gl": 1, "gv": 2, "estadio": "José Amalfitani", "goles": [{"jugador": "Marangoni", "equipo": "local"}, {"jugador": "Serrizuela", "equipo": "visitante"}, {"jugador": "Centurión", "equipo": "visitante"}]},
+                           ],
+                           "Final por la Libertadores 1990": [
+                               {"hora_utc": "1989-09-27T19:00Z", "fecha": "1989-09-27", "local": "san-lorenzo", "visitante": "river-plate", "gl": 0, "gv": 1, "estadio": "Tomás Adolfo Ducó", "goles": [{"jugador": "Batistuta", "equipo": "visitante"}]},
+                               {"hora_utc": "1989-10-31T19:00Z", "fecha": "1989-10-31", "local": "river-plate", "visitante": "san-lorenzo", "gl": 0, "gv": 0, "estadio": "Monumental"},
+                           ],
+                       },
+                       "ida_y_vuelta": True,
+                       "cuadro": {"bloques": [("Torneo Octogonal (la rueda de ganadores): los seis primeros, Chaco For "
+                                               "Ever (campeón del Nacional B) y Platense (ganador del Clasificación "
+                                               "1987-88). El que perdía pasaba al Clasificación",
+                                               [["Octogonal: cuartos de final"], ["Octogonal: semifinales"],
+                                                ["Octogonal: final"]]),
+                                              ("Torneo Clasificación (la rueda de perdedores): los otros doce del "
+                                               "campeonato y los que perdían en el Octogonal",
+                                               [["Clasificación: primera fase"], ["Clasificación: segunda fase"],
+                                                ["Clasificación: tercera fase"], ["Clasificación: cuarta fase"],
+                                                ["Clasificación: quinta fase"], ["Clasificación: final"],
+                                                ["Clasificación: desempate"]]),
+                                              ("Por el segundo lugar en la Libertadores 1990: el ganador del Octogonal "
+                                               "contra el del Clasificación", [["Final por la Libertadores 1990"]])],
+                                  "nota": "Con el global igualado pasaba el que había hecho más diferencia de gol y, si "
+                                          "no, el que había terminado mejor en el campeonato. De los partidos hay solo "
+                                          "los goleadores, sin los minutos."},
+                       "promedios_victoria": 2,
+                       # (con 2 puntos por partido ganado)
+                       "promedios": {"1986-87": {"independiente": [47, 38], "newell-s-old-boys": [48, 38], "san-lorenzo": [44, 38],
+                                                 "racing-club": [44, 38], "boca-juniors": [46, 38], "river-plate": [39, 38],
+                                                 "rosario-central": [49, 38], "deportivo-espanol": [36, 38],
+                                                 "gimnasia-y-esgrima": [37, 38], "velez-sarsfield": [41, 38],
+                                                 "estudiantes-de-la-plata": [37, 38], "argentinos-juniors": [28, 38],
+                                                 "talleres": [38, 38], "ferro-carril-oeste": [44, 38], "platense": [27, 38],
+                                                 "instituto": [41, 38], "racing-cordoba": [33, 38]},
+                                     "1987-88": {"independiente": [37, 38], "newell-s-old-boys": [55, 38], "san-lorenzo": [49, 38],
+                                                 "racing-club": [48, 38], "boca-juniors": [35, 38], "river-plate": [46, 38],
+                                                 "rosario-central": [40, 38], "deportivo-espanol": [40, 38],
+                                                 "gimnasia-y-esgrima": [43, 38], "velez-sarsfield": [41, 38],
+                                                 "estudiantes-de-la-plata": [32, 38], "argentinos-juniors": [40, 38],
+                                                 "talleres": [27, 38], "ferro-carril-oeste": [33, 38], "platense": [38, 38],
+                                                 "instituto": [33, 38], "racing-cordoba": [31, 38], "deportivo-armenio": [34, 38]}},
+                       "descensos": "promedios", "descienden": 2,
+                       "cupos": {"anio": 1990, "fijos": True,
+                                 "libertadores": [("Campeón del Campeonato 1988-89", "independiente"),
+                                                  ("Ganador de la Liguilla Pre-Libertadores", "river-plate")],
+                                 "nota": "Los dos lugares en la Libertadores 1989 salieron de la primera rueda (el Torneo "
+                                         "Apertura 1988-89): Racing y Boca, los dos primeros de esas 19 fechas."}},
     # 1990: el Campeonato 1989-90 (agosto de 1989 a mayo de 1990; campeón River) fue el último de una sola tabla, a
     # dos ruedas (38 fechas), con 2 puntos por partido ganado; va con el año en que terminó ("1990-temporada"). ESPN no
     # lo tiene: va a mano (tools/a_mano; RSSSF, sin goles; Wikipedia, solo las fechas 1 a 8, con día y estadio). A
@@ -2034,6 +2173,7 @@ CLUBES_NUEVOS = {
     "gyt": ("gimnasia-y-tiro", "Gimnasia y Tiro (Salta)"),   # (no está en ESPN: 1997-98)
     "dma": ("deportivo-mandiyu", "Deportivo Mandiyú"),
     "cfe": ("chaco-for-ever", "Chaco For Ever"),   # (no está en ESPN: 1990-91)
+    "dar": ("deportivo-armenio", "Deportivo Armenio"),   # (no está en ESPN: 1988-89)
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
@@ -2417,6 +2557,8 @@ def armar(clave):
                       "para_local": m.get("para_local"), "para_visitante": m.get("para_visitante"),
                       # (sin_goles: un partido dado por ganado en el escritorio, sin goles de verdad: Lanús-Platense 1991)
                       "sin_goles": m.get("sin_goles"),
+                      # (los penales después de cada empate: el Campeonato 1988-89)
+                      "pen_l": m.get("pen_l"), "pen_v": m.get("pen_v"),
                       "goles": [{**g, "jid": f"{p[g['equipo']]}:{g['jugador']}"} for g in m.get("goles", [])]})
         fase = es_playoff(e)
         if cfg.get("desempate") and re.search(cfg["desempate"], e["season"]["slug"]):
@@ -2507,7 +2649,7 @@ def armar(clave):
         datos["desempate"] = limpio(desempates[0])
     for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "goleadores_nota", "promocion", "ventaja", "triangular", "texto_triangular", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
               "campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro", "descuentos",
-              "descuentos_texto", "promedios_victoria", "puntos_victoria"):
+              "descuentos_texto", "promedios_victoria", "puntos_victoria", "punto_penales"):
         if cfg.get(k):
             datos[k] = cfg[k]
     if cfg.get("titulo_anual"):

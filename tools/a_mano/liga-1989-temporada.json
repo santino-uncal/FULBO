@@ -1,0 +1,3621 @@
+{
+ "nombre": "Campeonato 1988-89",
+ "fuente": "Resultados y penales: RSSSF (Pablo Ciullini), sin goles ni estadios (la cancha solo cuando no era la del local). Rosario Central-Instituto (fecha 12): RSSSF no tiene los penales; 5-3, de El Gráfico. Vélez-Mandiyú (fecha 35): RSSSF da los penales 3-2 para Vélez, pero sus propias tablas, las de Wikipedia y El Gráfico dan ganador a Mandiyú: van dados vuelta",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1988-09-11",
+     "local": "san-martin-tucuman",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-09-11",
+     "local": "ferro-carril-oeste",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 1
+    },
+    {
+     "fecha": "1988-09-11",
+     "local": "racing-cordoba",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-09-11",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1988-09-11",
+     "local": "boca-juniors",
+     "visitante": "deportivo-armenio",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-09-11",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1988-09-11",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-09-11",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-09-11",
+     "local": "rosario-central",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 4,
+     "goles": []
+    },
+    {
+     "fecha": "1988-09-11",
+     "local": "talleres",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 2
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1988-09-14",
+     "local": "racing-club",
+     "visitante": "racing-cordoba",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-09-18",
+     "local": "talleres",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-09-18",
+     "local": "deportivo-mandiyu",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 1
+    },
+    {
+     "fecha": "1988-09-18",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1988-09-18",
+     "local": "deportivo-espanol",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "goles": [],
+     "pen_l": 11,
+     "pen_v": 12
+    },
+    {
+     "fecha": "1988-09-18",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1988-09-18",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1988-09-18",
+     "local": "deportivo-armenio",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1988-09-18",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1988-09-18",
+     "local": "newell-s-old-boys",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 6,
+     "pen_v": 5
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1988-09-25",
+     "local": "san-martin-tucuman",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-09-25",
+     "local": "instituto",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 5
+    },
+    {
+     "fecha": "1988-09-25",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1988-09-25",
+     "local": "racing-cordoba",
+     "visitante": "deportivo-armenio",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1988-09-25",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1988-09-25",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1988-09-25",
+     "local": "platense",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1988-09-25",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 6
+    },
+    {
+     "fecha": "1988-09-25",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 5
+    },
+    {
+     "fecha": "1988-09-25",
+     "local": "rosario-central",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 1
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1988-10-01",
+     "local": "deportivo-espanol",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-01",
+     "local": "river-plate",
+     "visitante": "racing-cordoba",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-02",
+     "local": "rosario-central",
+     "visitante": "san-martin-tucuman",
+     "gl": 5,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-02",
+     "local": "talleres",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Córdoba",
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1988-10-02",
+     "local": "deportivo-mandiyu",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-02",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-02",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 6,
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-02",
+     "local": "deportivo-armenio",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Platense",
+     "goles": [],
+     "pen_l": 1,
+     "pen_v": 2
+    },
+    {
+     "fecha": "1988-10-02",
+     "local": "racing-club",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-02",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1988-10-16",
+     "local": "san-martin-tucuman",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1988-10-16",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1988-10-16",
+     "local": "instituto",
+     "visitante": "deportivo-armenio",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 1
+    },
+    {
+     "fecha": "1988-10-16",
+     "local": "racing-cordoba",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-16",
+     "local": "san-lorenzo",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-16",
+     "local": "boca-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-16",
+     "local": "platense",
+     "visitante": "deportivo-mandiyu",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-16",
+     "local": "independiente",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-16",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 4
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1988-10-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-martin-tucuman",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-23",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-23",
+     "local": "talleres",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-23",
+     "local": "deportivo-mandiyu",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-23",
+     "local": "argentinos-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [],
+     "pen_l": 1,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1988-10-23",
+     "local": "deportivo-espanol",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-23",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-23",
+     "local": "river-plate",
+     "visitante": "instituto",
+     "gl": 6,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-23",
+     "local": "deportivo-armenio",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-23",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1988-10-26",
+     "local": "racing-cordoba",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1988-10-30",
+     "local": "san-martin-tucuman",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-30",
+     "local": "instituto",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-30",
+     "local": "platense",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-31",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 2
+    },
+    {
+     "fecha": "1988-10-31",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "deportivo-armenio",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1988-10-31",
+     "local": "ferro-carril-oeste",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-31",
+     "local": "san-lorenzo",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 1
+    },
+    {
+     "fecha": "1988-10-31",
+     "local": "boca-juniors",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-10-31",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1988-11-03",
+     "local": "independiente",
+     "visitante": "san-martin-tucuman",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 2
+    },
+    {
+     "fecha": "1988-11-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1988-11-03",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-03",
+     "local": "talleres",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 5
+    },
+    {
+     "fecha": "1988-11-03",
+     "local": "deportivo-mandiyu",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-03",
+     "local": "argentinos-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-03",
+     "local": "deportivo-espanol",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-03",
+     "local": "velez-sarsfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-03",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 6
+    },
+    {
+     "fecha": "1988-11-03",
+     "local": "deportivo-armenio",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1988-11-06",
+     "local": "san-martin-tucuman",
+     "visitante": "deportivo-armenio",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 6
+    },
+    {
+     "fecha": "1988-11-06",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-06",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-06",
+     "local": "newell-s-old-boys",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 1
+    },
+    {
+     "fecha": "1988-11-06",
+     "local": "instituto",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-06",
+     "local": "ferro-carril-oeste",
+     "visitante": "deportivo-mandiyu",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 2
+    },
+    {
+     "fecha": "1988-11-06",
+     "local": "racing-cordoba",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 2
+    },
+    {
+     "fecha": "1988-11-06",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-06",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-06",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 2
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1988-11-12",
+     "local": "rosario-central",
+     "visitante": "racing-cordoba",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1988-11-12",
+     "local": "deportivo-mandiyu",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-13",
+     "local": "platense",
+     "visitante": "san-martin-tucuman",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-13",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-13",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1988-11-13",
+     "local": "talleres",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-13",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1988-11-13",
+     "local": "deportivo-espanol",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 2
+    },
+    {
+     "fecha": "1988-11-13",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-13",
+     "local": "river-plate",
+     "visitante": "deportivo-armenio",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1988-11-16",
+     "local": "san-martin-tucuman",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-16",
+     "local": "newell-s-old-boys",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-16",
+     "local": "instituto",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1988-11-16",
+     "local": "racing-cordoba",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-17",
+     "local": "ferro-carril-oeste",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-23",
+     "local": "deportivo-armenio",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Platense",
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1988-11-23",
+     "local": "racing-club",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 4,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-23",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1988-11-23",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "pen_l": 6,
+     "pen_v": 5
+    },
+    {
+     "fecha": "1988-11-23",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1988-11-20",
+     "local": "boca-juniors",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 6,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-20",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-20",
+     "local": "independiente",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-20",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-20",
+     "local": "rosario-central",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1988-11-20",
+     "local": "talleres",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-20",
+     "local": "deportivo-mandiyu",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1988-11-20",
+     "local": "argentinos-juniors",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [],
+     "pen_l": 20,
+     "pen_v": 19
+    },
+    {
+     "fecha": "1988-11-20",
+     "local": "deportivo-espanol",
+     "visitante": "deportivo-armenio",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-20",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1988-11-27",
+     "local": "san-martin-tucuman",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 1,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1988-11-27",
+     "local": "river-plate",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-27",
+     "local": "deportivo-armenio",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-27",
+     "local": "racing-club",
+     "visitante": "deportivo-mandiyu",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-27",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1988-11-27",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "nota": "Se suspendió a los 22 minutos (0-0): la AFA les dio el partido perdido a los dos",
+     "para_local": [
+      0,
+      1
+     ],
+     "para_visitante": [
+      0,
+      1
+     ]
+    },
+    {
+     "fecha": "1988-11-27",
+     "local": "instituto",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-27",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-27",
+     "local": "racing-cordoba",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-27",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 6
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1988-11-30",
+     "local": "san-lorenzo",
+     "visitante": "san-martin-tucuman",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-30",
+     "local": "boca-juniors",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-30",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 7,
+     "pen_v": 6
+    },
+    {
+     "fecha": "1988-11-30",
+     "local": "independiente",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1988-11-30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-30",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-30",
+     "local": "talleres",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-30",
+     "local": "deportivo-mandiyu",
+     "visitante": "deportivo-armenio",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1988-11-30",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1988-11-30",
+     "local": "deportivo-espanol",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 6
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1988-12-05",
+     "local": "deportivo-armenio",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-05",
+     "local": "instituto",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-05",
+     "local": "racing-cordoba",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-05",
+     "local": "san-martin-tucuman",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1988-12-06",
+     "local": "velez-sarsfield",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1988-12-06",
+     "local": "river-plate",
+     "visitante": "deportivo-mandiyu",
+     "gl": 4,
+     "gv": 4,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 2
+    },
+    {
+     "fecha": "1988-12-06",
+     "local": "racing-club",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1988-12-06",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-06",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1988-12-06",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 6
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1988-12-14",
+     "local": "racing-cordoba",
+     "visitante": "san-martin-tucuman",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-14",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-14",
+     "local": "boca-juniors",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 2
+    },
+    {
+     "fecha": "1988-12-14",
+     "local": "platense",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1988-12-14",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1988-12-14",
+     "local": "rosario-central",
+     "visitante": "deportivo-armenio",
+     "gl": 3,
+     "gv": 3,
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1988-12-14",
+     "local": "talleres",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-14",
+     "local": "deportivo-mandiyu",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1988-12-14",
+     "local": "argentinos-juniors",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 2
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1988-12-11",
+     "local": "san-martin-tucuman",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1988-12-11",
+     "local": "deportivo-espanol",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 5
+    },
+    {
+     "fecha": "1988-12-11",
+     "local": "velez-sarsfield",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-11",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-11",
+     "local": "deportivo-armenio",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-11",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-11",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 6
+    },
+    {
+     "fecha": "1988-12-11",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 5
+    },
+    {
+     "fecha": "1988-12-11",
+     "local": "instituto",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-11",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-cordoba",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1988-12-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-martin-tucuman",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 5
+    },
+    {
+     "fecha": "1988-12-18",
+     "local": "racing-cordoba",
+     "visitante": "instituto",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-18",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-18",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-18",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "pen_l": 6,
+     "pen_v": 5
+    },
+    {
+     "fecha": "1988-12-18",
+     "local": "independiente",
+     "visitante": "deportivo-armenio",
+     "gl": 5,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-18",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 6,
+     "pen_v": 5
+    },
+    {
+     "fecha": "1988-12-18",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-18",
+     "local": "talleres",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-18",
+     "local": "deportivo-mandiyu",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1988-12-22",
+     "local": "san-martin-tucuman",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-22",
+     "local": "argentinos-juniors",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-22",
+     "local": "deportivo-espanol",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1988-12-22",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1988-12-22",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-22",
+     "local": "deportivo-armenio",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-22",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "nota": "Se suspendió al terminar el primer tiempo (0-0): la AFA le dio el partido perdido a Racing (0-1)",
+     "para_local": [
+      0,
+      1
+     ],
+     "para_visitante": [
+      1,
+      0
+     ]
+    },
+    {
+     "fecha": "1988-12-22",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-22",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-cordoba",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1988-12-22",
+     "local": "instituto",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1989-01-28",
+     "local": "instituto",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1989-01-28",
+     "local": "newell-s-old-boys",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-01-28",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-cordoba",
+     "gl": 4,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-01-28",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1989-01-28",
+     "local": "deportivo-armenio",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1989-01-28",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-01-28",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1989-01-28",
+     "local": "deportivo-espanol",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-01-28",
+     "local": "argentinos-juniors",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1989-01-28",
+     "local": "deportivo-mandiyu",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1989-02-04",
+     "local": "racing-cordoba",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 1
+    },
+    {
+     "fecha": "1989-02-05",
+     "local": "san-martin-tucuman",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-05",
+     "local": "rosario-central",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-05",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-05",
+     "local": "independiente",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-05",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-05",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1989-02-05",
+     "local": "san-lorenzo",
+     "visitante": "deportivo-armenio",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 2
+    },
+    {
+     "fecha": "1989-02-05",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-05",
+     "local": "instituto",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 4
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1989-02-11",
+     "local": "talleres",
+     "visitante": "rosario-central",
+     "gl": 5,
+     "gv": 5,
+     "estadio": "Cancha de Córdoba",
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 1
+    },
+    {
+     "fecha": "1989-02-12",
+     "local": "newell-s-old-boys",
+     "visitante": "san-martin-tucuman",
+     "gl": 4,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-12",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "instituto",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-12",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 2
+    },
+    {
+     "fecha": "1989-02-12",
+     "local": "deportivo-armenio",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-12",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-12",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-12",
+     "local": "deportivo-espanol",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-12",
+     "local": "argentinos-juniors",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-12",
+     "local": "deportivo-mandiyu",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 1
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1989-02-19",
+     "local": "san-martin-tucuman",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 1,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1989-02-19",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 2
+    },
+    {
+     "fecha": "1989-02-19",
+     "local": "independiente",
+     "visitante": "deportivo-mandiyu",
+     "gl": 4,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-19",
+     "local": "platense",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-19",
+     "local": "boca-juniors",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-19",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-19",
+     "local": "racing-cordoba",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 5,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-19",
+     "local": "ferro-carril-oeste",
+     "visitante": "deportivo-armenio",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1989-02-19",
+     "local": "instituto",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-19",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1989-02-26",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-martin-tucuman",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-26",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-26",
+     "local": "deportivo-armenio",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-26",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-26",
+     "local": "velez-sarsfield",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 2
+    },
+    {
+     "fecha": "1989-02-26",
+     "local": "deportivo-espanol",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 4,
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-26",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-26",
+     "local": "deportivo-mandiyu",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1989-02-26",
+     "local": "talleres",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1989-02-26",
+     "local": "rosario-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 4,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1989-03-05",
+     "local": "san-martin-tucuman",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-05",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-05",
+     "local": "platense",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-05",
+     "local": "boca-juniors",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-05",
+     "local": "san-lorenzo",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-05",
+     "local": "racing-cordoba",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1989-03-05",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1989-03-05",
+     "local": "instituto",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 5
+    },
+    {
+     "fecha": "1989-03-05",
+     "local": "newell-s-old-boys",
+     "visitante": "deportivo-armenio",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 2
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1989-03-11",
+     "local": "rosario-central",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-12",
+     "local": "racing-club",
+     "visitante": "san-martin-tucuman",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1989-03-12",
+     "local": "deportivo-armenio",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Platense",
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1989-03-12",
+     "local": "river-plate",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-12",
+     "local": "velez-sarsfield",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-12",
+     "local": "deportivo-espanol",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-12",
+     "local": "argentinos-juniors",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1989-03-12",
+     "local": "deportivo-mandiyu",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-12",
+     "local": "talleres",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 4
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1989-03-18",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-19",
+     "local": "san-martin-tucuman",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-19",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 4,
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-19",
+     "local": "san-lorenzo",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-19",
+     "local": "racing-cordoba",
+     "visitante": "deportivo-mandiyu",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 1,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1989-03-19",
+     "local": "ferro-carril-oeste",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1989-03-19",
+     "local": "instituto",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 4,
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-19",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1989-03-19",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1989-03-19",
+     "local": "racing-club",
+     "visitante": "deportivo-armenio",
+     "gl": 2,
+     "gv": 2,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 5
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1989-03-25",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 1
+    },
+    {
+     "fecha": "1989-03-26",
+     "local": "deportivo-armenio",
+     "visitante": "san-martin-tucuman",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-26",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-26",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-26",
+     "local": "deportivo-espanol",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 5
+    },
+    {
+     "fecha": "1989-03-26",
+     "local": "argentinos-juniors",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-26",
+     "local": "deportivo-mandiyu",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 1
+    },
+    {
+     "fecha": "1989-03-26",
+     "local": "talleres",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-26",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1989-03-26",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1989-04-02",
+     "local": "san-martin-tucuman",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-02",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-02",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-02",
+     "local": "racing-cordoba",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-02",
+     "local": "ferro-carril-oeste",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-02",
+     "local": "instituto",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-02",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 2
+    },
+    {
+     "fecha": "1989-04-02",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-02",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1989-04-02",
+     "local": "deportivo-armenio",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 2
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1989-04-09",
+     "local": "talleres",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-09",
+     "local": "deportivo-mandiyu",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-10",
+     "local": "river-plate",
+     "visitante": "san-martin-tucuman",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-10",
+     "local": "velez-sarsfield",
+     "visitante": "deportivo-armenio",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 2
+    },
+    {
+     "fecha": "1989-04-10",
+     "local": "deportivo-espanol",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-10",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-10",
+     "local": "rosario-central",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-cordoba",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-10",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-10",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 6
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "partidos": [
+    {
+     "fecha": "1989-04-16",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 1
+    },
+    {
+     "fecha": "1989-04-16",
+     "local": "instituto",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1989-04-16",
+     "local": "newell-s-old-boys",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-16",
+     "local": "san-martin-tucuman",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "goles": [],
+     "nota": "Se suspendió a los 36 minutos del segundo tiempo y quedó el resultado"
+    },
+    {
+     "fecha": "1989-04-16",
+     "local": "racing-cordoba",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-17",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 1
+    },
+    {
+     "fecha": "1989-04-17",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-17",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-17",
+     "local": "deportivo-armenio",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-17",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "partidos": [
+    {
+     "fecha": "1989-04-23",
+     "local": "velez-sarsfield",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-23",
+     "local": "deportivo-espanol",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1989-04-23",
+     "local": "argentinos-juniors",
+     "visitante": "deportivo-armenio",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Deportivo Español",
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-23",
+     "local": "deportivo-mandiyu",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1989-04-23",
+     "local": "talleres",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-23",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "instituto",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-23",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-23",
+     "local": "platense",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1989-04-23",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "partidos": [
+    {
+     "fecha": "1989-04-30",
+     "local": "san-martin-tucuman",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-30",
+     "local": "racing-cordoba",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-30",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-30",
+     "local": "instituto",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-30",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1989-04-30",
+     "local": "racing-club",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-04-30",
+     "local": "deportivo-armenio",
+     "visitante": "deportivo-mandiyu",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Platense",
+     "goles": [],
+     "pen_l": 8,
+     "pen_v": 7
+    },
+    {
+     "fecha": "1989-04-30",
+     "local": "river-plate",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 2
+    },
+    {
+     "fecha": "1989-04-30",
+     "local": "velez-sarsfield",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 2,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 5
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "partidos": [
+    {
+     "fecha": "1989-05-06",
+     "local": "rosario-central",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1989-05-07",
+     "local": "deportivo-espanol",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-07",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1989-05-07",
+     "local": "deportivo-mandiyu",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 2
+    },
+    {
+     "fecha": "1989-05-07",
+     "local": "talleres",
+     "visitante": "deportivo-armenio",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 0,
+     "pen_v": 2
+    },
+    {
+     "fecha": "1989-05-07",
+     "local": "independiente",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-07",
+     "local": "platense",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-07",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-07",
+     "local": "san-lorenzo",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 35,
+   "partidos": [
+    {
+     "fecha": "1989-05-16",
+     "local": "san-martin-tucuman",
+     "visitante": "racing-cordoba",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 5,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1989-05-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 7,
+     "pen_v": 8
+    },
+    {
+     "fecha": "1989-05-16",
+     "local": "instituto",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-16",
+     "local": "newell-s-old-boys",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-16",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-16",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-16",
+     "local": "deportivo-armenio",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-16",
+     "local": "river-plate",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-16",
+     "local": "velez-sarsfield",
+     "visitante": "deportivo-mandiyu",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 3,
+     "nota": "Mandiyú ganó los penales (RSSSF los da 3-2 para Vélez, pero las tablas y El Gráfico dan ganador a Mandiyú)"
+    },
+    {
+     "fecha": "1989-05-16",
+     "local": "deportivo-espanol",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 36,
+   "partidos": [
+    {
+     "fecha": "1989-05-21",
+     "local": "argentinos-juniors",
+     "visitante": "san-martin-tucuman",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-21",
+     "local": "deportivo-mandiyu",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-21",
+     "local": "talleres",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 5
+    },
+    {
+     "fecha": "1989-05-21",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1989-05-21",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "deportivo-armenio",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-21",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 1
+    },
+    {
+     "fecha": "1989-05-21",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-21",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 6,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-21",
+     "local": "san-lorenzo",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-21",
+     "local": "racing-cordoba",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 37,
+   "partidos": [
+    {
+     "fecha": "1989-05-25",
+     "local": "san-martin-tucuman",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-25",
+     "local": "instituto",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 4,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-25",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-25",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 2,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1989-05-25",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-25",
+     "local": "deportivo-armenio",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-25",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-25",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-25",
+     "local": "deportivo-espanol",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-25",
+     "local": "argentinos-juniors",
+     "visitante": "deportivo-mandiyu",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "pen_l": 12,
+     "pen_v": 13
+    }
+   ]
+  },
+  {
+   "numero": 38,
+   "partidos": [
+    {
+     "fecha": "1989-05-28",
+     "local": "deportivo-mandiyu",
+     "visitante": "san-martin-tucuman",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-28",
+     "local": "talleres",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": [],
+     "pen_l": 10,
+     "pen_v": 9
+    },
+    {
+     "fecha": "1989-05-28",
+     "local": "rosario-central",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 1,
+     "pen_v": 4
+    },
+    {
+     "fecha": "1989-05-28",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 7,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-28",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-28",
+     "local": "platense",
+     "visitante": "deportivo-armenio",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 3,
+     "pen_v": 2
+    },
+    {
+     "fecha": "1989-05-28",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "pen_l": 4,
+     "pen_v": 3
+    },
+    {
+     "fecha": "1989-05-28",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-28",
+     "local": "racing-cordoba",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1989-05-28",
+     "local": "ferro-carril-oeste",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  }
+ ]
+}
