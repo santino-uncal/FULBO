@@ -33,10 +33,69 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1998: dos torneos de 20 equipos a una rueda; ESPN no los tiene: van a mano, como 1999 a 2002 (tools/a_mano;
+    # RSSSF, sin goles, y Wikipedia). El Torneo Clausura 1998 (febrero-junio; campeón Vélez) cerraba la temporada
+    # 1997-98: su "tabla anual" es la de la temporada, con la tabla del Apertura 1997 (RSSSF y Wikipedia coinciden).
+    # Bajaron directo los dos últimos de los promedios (Deportivo Español y Gimnasia y Tiro; los puntos de 1995-96 y
+    # 1996-97, de Wikipedia; San Lorenzo 1996-97, 57, de las tablas de RSSSF: Wikipedia tiene 56 en un lado y 57 en
+    # otro). A la Libertadores 1999 fueron los dos campeones; a la Copa Conmebol 1998, los dos mejores de la temporada
+    # que no iban a otra copa (Wikipedia)
+    "1998-clausura": {"nombre": "Torneo Clausura 1998", "anio": 1998, "liga": "a_mano", "slug": "1998-clausura",
+                      "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True, "temporada": "1997-98", "nombre_anual": "Temporada y copas",
+                      "goleadores_nota": "RSSSF no tiene los goles de este torneo. Según Wikipedia, el goleador fue "
+                                         "Roberto Sosa (Gimnasia), con 17 goles.",
+                      # la tabla del Apertura 1997 (RSSSF y Wikipedia): [pts, pj, g, e, p, gf, gc]
+                      "anual": {"river-plate": [45, 19, 14, 3, 2, 43, 17], "boca-juniors": [44, 19, 13, 5, 1, 35, 12],
+                                "rosario-central": [35, 19, 10, 5, 4, 35, 20], "velez-sarsfield": [32, 19, 8, 8, 3, 42, 23],
+                                "san-lorenzo": [32, 19, 9, 5, 5, 42, 32], "gimnasia-y-esgrima": [32, 19, 9, 5, 5, 33, 27],
+                                "independiente": [30, 19, 9, 3, 7, 29, 31], "argentinos-juniors": [29, 19, 9, 2, 8, 24, 25],
+                                "platense": [28, 19, 7, 7, 5, 25, 26], "estudiantes-de-la-plata": [26, 19, 7, 5, 7, 25, 24],
+                                "lanus": [25, 19, 7, 4, 8, 29, 30], "ferro-carril-oeste": [24, 19, 6, 6, 7, 33, 32],
+                                "racing-club": [21, 19, 5, 6, 8, 24, 28], "gimnasia-jujuy": [20, 19, 5, 5, 9, 25, 28],
+                                "colon": [20, 19, 5, 5, 9, 23, 33], "union": [20, 19, 5, 5, 9, 25, 43],
+                                "deportivo-espanol": [17, 19, 4, 5, 10, 26, 43], "newell-s-old-boys": [14, 19, 3, 5, 11, 22, 38],
+                                "huracan": [12, 19, 3, 3, 13, 20, 32], "gimnasia-y-tiro": [12, 19, 2, 6, 11, 14, 30]},
+                      "anual_texto": "La tabla de la temporada 1997-98: suma el Torneo Apertura 1997 (de RSSSF y Wikipedia: "
+                                     "no está cargado partido por partido) y el Torneo Clausura 1998.",
+                      "promedios": {"1995-96": {"velez-sarsfield": [81, 38], "river-plate": [50, 38], "lanus": [69, 38],
+                                                "boca-juniors": [68, 38], "gimnasia-y-esgrima": [60, 38],
+                                                "independiente": [44, 38], "san-lorenzo": [49, 38], "racing-club": [64, 38],
+                                                "rosario-central": [54, 38], "estudiantes-de-la-plata": [59, 38],
+                                                "colon": [47, 38], "newell-s-old-boys": [43, 38], "gimnasia-jujuy": [49, 38],
+                                                "platense": [44, 38], "ferro-carril-oeste": [43, 38], "huracan": [61, 38],
+                                                "deportivo-espanol": [40, 38]},
+                                    "1996-97": {"velez-sarsfield": [55, 38], "river-plate": [87, 38], "lanus": [61, 38],
+                                                "boca-juniors": [50, 38], "gimnasia-y-esgrima": [50, 38],
+                                                "independiente": [71, 38], "san-lorenzo": [57, 38], "racing-club": [59, 38],
+                                                "rosario-central": [49, 38], "estudiantes-de-la-plata": [44, 38],
+                                                "colon": [61, 38], "newell-s-old-boys": [61, 38], "gimnasia-jujuy": [39, 38],
+                                                "platense": [47, 38], "ferro-carril-oeste": [46, 38], "huracan": [38, 38],
+                                                "union": [44, 38], "deportivo-espanol": [35, 38]}},
+                      "descensos": "promedios", "descienden": 2,
+                      "cupos": {"anio": 1999, "anio_sudamericana": 1998, "nombre_sudamericana": "Copa Conmebol", "fijos": True,
+                                "libertadores": [("Campeón del Torneo Apertura 1997", "river-plate"),
+                                                 ("Campeón del Torneo Clausura 1998", "velez-sarsfield")],
+                                "sudamericana": [("Tabla de la temporada 1997-98", "gimnasia-y-esgrima"),
+                                                 ("Tabla de la temporada 1997-98", "rosario-central")],
+                                "nota": "A la Copa Mercosur 1998 fueron Boca, River, Independiente, Racing, San Lorenzo y "
+                                        "Vélez, invitados por la Conmebol (San Lorenzo, en el lugar de Lanús, que no quiso "
+                                        "jugarla). A la Copa Conmebol, los dos mejores de la temporada que no iban a otra "
+                                        "copa."}},
+    # El Torneo Apertura 1998 (agosto-diciembre; campeón Boca, invicto) abría la temporada 1998-99
+    "1998-apertura": {"nombre": "Torneo Apertura 1998", "anio": 1998, "liga": "a_mano", "slug": "1998-apertura",
+                      "zonas": "unica", "fechas": 19, "pasan": 0, "campeon_tabla": True,
+                      "goleadores_nota": "RSSSF no tiene los goles de este torneo. Según Wikipedia, el goleador fue Martín "
+                                         "Palermo (Boca), con 20 goles.",
+                      "anual": [("a_mano", r"^1998-clausura$")],
+                      "anual_texto": "La tabla del año 1998: suma el Torneo Clausura 1998 y el Torneo Apertura 1998. No "
+                                     "daba lugares en las copas: salían de la temporada.",
+                      "sin_descensos": "En el Torneo Apertura 1998 no hubo descensos: se definieron al terminar la "
+                                       "temporada 1998-99, con el Torneo Clausura 1999."},
     # 1999: dos torneos de 20 equipos a una rueda; ESPN no los tiene: van a mano, como 2000 a 2002 (tools/a_mano;
     # RSSSF y Wikipedia; del Clausura, RSSSF no tiene los goles). El Torneo Clausura 1999 (marzo-junio; campeón Boca)
-    # cerraba la temporada 1998-99: su "tabla anual" es la de la temporada, con la tabla del Apertura 1998 (RSSSF y
-    # Wikipedia coinciden). A Colón le descontaron 3 puntos por los incidentes con Unión. Bajaron directo los dos
+    # cerraba la temporada 1998-99: su "tabla anual" es la de la temporada (con el Apertura 1998, cargado
+    # a mano). A Colón le descontaron 3 puntos por los incidentes con Unión. Bajaron directo los dos
     # últimos de los promedios (Platense y Huracán; los puntos de 1996-97 y 1997-98, de RSSSF y Wikipedia): todavía no
     # había Promoción. Boca ganó los dos torneos; el segundo lugar en la Libertadores 2000 lo jugaron los subcampeones
     # (River-Gimnasia, en cancha de Vélez). Los otros dos lugares salieron de una tabla del Apertura 1998, el Clausura
@@ -54,19 +113,8 @@ TORNEOS = {
                       "desempate_texto": "Gimnasia (subcampeón del Apertura 1998) y River (subcampeón del Clausura 1999) "
                                          "jugaron un partido, en cancha neutral, por el segundo lugar de la Argentina en "
                                          "la Copa Libertadores 2000 (el primero era de Boca, campeón de los dos torneos).",
-                      # la tabla del Apertura 1998 (RSSSF y Wikipedia): [pts, pj, g, e, p, gf, gc]
-                      "anual": {"boca-juniors": [45, 19, 13, 6, 0, 45, 18], "gimnasia-y-esgrima": [36, 19, 10, 6, 3, 31, 23],
-                                "racing-club": [33, 19, 9, 6, 4, 39, 29], "lanus": [30, 19, 8, 6, 5, 20, 20],
-                                "colon": [26, 19, 7, 5, 7, 28, 27], "san-lorenzo": [25, 19, 6, 7, 6, 40, 35],
-                                "argentinos-juniors": [25, 19, 5, 10, 4, 31, 27], "newell-s-old-boys": [25, 19, 6, 7, 6, 22, 21],
-                                "union": [25, 19, 6, 7, 6, 32, 34], "rosario-central": [25, 19, 6, 7, 6, 26, 28],
-                                "velez-sarsfield": [24, 19, 6, 6, 7, 26, 26], "estudiantes-de-la-plata": [24, 19, 6, 6, 7, 22, 23],
-                                "talleres": [24, 19, 7, 3, 9, 28, 33], "gimnasia-jujuy": [22, 19, 4, 10, 5, 31, 30],
-                                "river-plate": [22, 19, 5, 7, 7, 27, 27], "independiente": [22, 19, 4, 10, 5, 26, 26],
-                                "ferro-carril-oeste": [20, 19, 5, 5, 9, 24, 31], "huracan": [20, 19, 5, 5, 9, 29, 42],
-                                "belgrano": [19, 19, 4, 7, 8, 22, 31], "platense": [13, 19, 3, 4, 12, 21, 39]},
-                      "anual_texto": "La tabla de la temporada 1998-99: suma el Torneo Apertura 1998 (de RSSSF y Wikipedia: "
-                                     "no está cargado partido por partido) y el Torneo Clausura 1999.",
+                      "anual": [("a_mano", r"^1998-apertura$", 1998)],
+                      "anual_texto": "La tabla de la temporada 1998-99: suma el Torneo Apertura 1998 y el Torneo Clausura 1999.",
                       "promedios": {"1996-97": {"river-plate": [87, 38], "boca-juniors": [50, 38], "gimnasia-y-esgrima": [50, 38],
                                                 "san-lorenzo": [57, 38], "velez-sarsfield": [55, 38], "independiente": [71, 38],
                                                 "lanus": [61, 38], "rosario-central": [49, 38], "newell-s-old-boys": [61, 38],
@@ -1444,7 +1492,9 @@ CLUBES_NUEVOS = {
     "2": ("almagro", "Almagro"),
     "smm": ("san-martin-mendoza", "San Martín (Mendoza)"),   # (no está en ESPN: solo jugó la Promoción 2003)
     "lan": ("los-andes", "Los Andes"),   # (no está en ESPN: 2000-01)
-    "fco": ("ferro-carril-oeste", "Ferro Carril Oeste"),   # (no tiene id de ESPN: 1999-00)
+    "fco": ("ferro-carril-oeste", "Ferro Carril Oeste"),
+    "des": ("deportivo-espanol", "Deportivo Español"),   # (no está en ESPN: 1997-98)
+    "gyt": ("gimnasia-y-tiro", "Gimnasia y Tiro (Salta)"),   # (no está en ESPN: 1997-98)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
 }
 

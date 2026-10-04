@@ -1,0 +1,2003 @@
+{
+ "nombre": "Torneo Clausura 1998",
+ "fuente": "Resultados: RSSSF (Javier Roimiser), sin goles. Estadio, día y hora: Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1998-02-17",
+     "hora": "20:00",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-17",
+     "hora": "21:10",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-17",
+     "hora": "19:00",
+     "local": "platense",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-17",
+     "hora": "20:00",
+     "local": "independiente",
+     "visitante": "deportivo-espanol",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-18",
+     "hora": "19:10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-18",
+     "hora": "21:00",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-18",
+     "hora": "21:00",
+     "local": "gimnasia-jujuy",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-18",
+     "hora": "21:00",
+     "local": "colon",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-19",
+     "hora": "18:10",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-19",
+     "hora": "20:10",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1998-02-20",
+     "hora": "21:10",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-21",
+     "hora": "21:10",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-21",
+     "hora": "20:00",
+     "local": "union",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "15 de Abril",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-21",
+     "hora": "21:00",
+     "local": "gimnasia-y-tiro",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-22",
+     "hora": "17:00",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-22",
+     "hora": "16:30",
+     "local": "deportivo-espanol",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-22",
+     "hora": "17:00",
+     "local": "ferro-carril-oeste",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-22",
+     "hora": "17:00",
+     "local": "lanus",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-22",
+     "hora": "19:10",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-18",
+     "hora": "17:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1998-02-24",
+     "hora": "20:00",
+     "local": "velez-sarsfield",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-24",
+     "hora": "21:10",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-24",
+     "hora": "20:00",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-25",
+     "hora": "18:10",
+     "local": "lanus",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-25",
+     "hora": "20:10",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-25",
+     "hora": "20:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-25",
+     "hora": "21:00",
+     "local": "gimnasia-jujuy",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-25",
+     "hora": "21:00",
+     "local": "colon",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-26",
+     "hora": "21:10",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-26",
+     "hora": "17:00",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1998-02-27",
+     "hora": "21:10",
+     "local": "union",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "15 de Abril",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-01",
+     "hora": "17:00",
+     "local": "gimnasia-y-tiro",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-01",
+     "hora": "19:10",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-01",
+     "hora": "17:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-01",
+     "hora": "17:00",
+     "local": "huracan",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-01",
+     "hora": "17:00",
+     "local": "deportivo-espanol",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-01",
+     "hora": "17:00",
+     "local": "rosario-central",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1998-02-28",
+     "hora": "20:30",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-01",
+     "hora": "17:00",
+     "local": "platense",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-02",
+     "hora": "21:10",
+     "local": "ferro-carril-oeste",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1998-03-06",
+     "hora": "21:10",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-07",
+     "hora": "20:00",
+     "local": "rosario-central",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-08",
+     "hora": "19:10",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-08",
+     "hora": "17:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-08",
+     "hora": "17:00",
+     "local": "independiente",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-07",
+     "hora": "21:10",
+     "local": "gimnasia-jujuy",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-08",
+     "hora": "17:00",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-08",
+     "hora": "17:00",
+     "local": "lanus",
+     "visitante": "deportivo-espanol",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-08",
+     "hora": "20:00",
+     "local": "colon",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-09",
+     "hora": "21:10",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1998-03-13",
+     "hora": "21:10",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-14",
+     "hora": "21:10",
+     "local": "union",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "15 de Abril",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-15",
+     "hora": "16:30",
+     "local": "gimnasia-y-tiro",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-15",
+     "hora": "16:30",
+     "local": "racing-club",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-15",
+     "hora": "16:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-15",
+     "hora": "16:30",
+     "local": "huracan",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-15",
+     "hora": "16:30",
+     "local": "ferro-carril-oeste",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-15",
+     "hora": "16:30",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-15",
+     "hora": "18:30",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-16",
+     "hora": "21:10",
+     "local": "deportivo-espanol",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Nueva España",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1998-03-20",
+     "hora": "21:10",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-21",
+     "hora": "21:10",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-22",
+     "hora": "16:30",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-22",
+     "hora": "16:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-22",
+     "hora": "16:30",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-22",
+     "hora": "16:30",
+     "local": "gimnasia-jujuy",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-22",
+     "hora": "16:30",
+     "local": "colon",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-22",
+     "hora": "16:30",
+     "local": "ferro-carril-oeste",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-22",
+     "hora": "18:30",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-23",
+     "hora": "21:10",
+     "local": "lanus",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1998-03-27",
+     "hora": "21:10",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-28",
+     "hora": "21:10",
+     "local": "racing-club",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-29",
+     "hora": "16:30",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-29",
+     "hora": "16:30",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-29",
+     "hora": "16:30",
+     "local": "union",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "15 de Abril",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-29",
+     "hora": "16:30",
+     "local": "gimnasia-y-tiro",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-29",
+     "hora": "16:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-29",
+     "hora": "16:30",
+     "local": "huracan",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-29",
+     "hora": "18:30",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1998-03-30",
+     "hora": "21:10",
+     "local": "deportivo-espanol",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Nueva España",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1998-04-03",
+     "hora": "21:10",
+     "local": "independiente",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-04",
+     "hora": "21:10",
+     "local": "rosario-central",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-04",
+     "hora": "16:00",
+     "local": "deportivo-espanol",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-05",
+     "hora": "16:00",
+     "local": "san-lorenzo",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-05",
+     "hora": "16:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-05",
+     "hora": "16:00",
+     "local": "gimnasia-jujuy",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-05",
+     "hora": "16:00",
+     "local": "colon",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-05",
+     "hora": "16:00",
+     "local": "lanus",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-05",
+     "hora": "18:10",
+     "local": "river-plate",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-06",
+     "hora": "21:10",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1998-04-10",
+     "hora": "21:10",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-11",
+     "hora": "16:00",
+     "local": "platense",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-11",
+     "hora": "16:00",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-11",
+     "hora": "16:00",
+     "local": "gimnasia-y-tiro",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-11",
+     "hora": "16:00",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-11",
+     "hora": "15:10",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-11",
+     "hora": "16:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-11",
+     "hora": "18:10",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-11",
+     "hora": "20:10",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-11",
+     "hora": "20:30",
+     "local": "union",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "15 de Abril",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1998-04-14",
+     "hora": "20:10",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-14",
+     "hora": "20:00",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-14",
+     "hora": "20:00",
+     "local": "deportivo-espanol",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-14",
+     "hora": "18:10",
+     "local": "gimnasia-jujuy",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-14",
+     "hora": "20:00",
+     "local": "rosario-central",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-14",
+     "hora": "20:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-14",
+     "hora": "20:00",
+     "local": "colon",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-15",
+     "hora": "20:10",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-16",
+     "hora": "19:10",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-16",
+     "hora": "18:00",
+     "local": "huracan",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1998-04-17",
+     "hora": "21:10",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-18",
+     "hora": "21:10",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-19",
+     "hora": "18:10",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-19",
+     "hora": "16:00",
+     "local": "velez-sarsfield",
+     "visitante": "colon",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-19",
+     "hora": "16:00",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-jujuy",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-19",
+     "hora": "16:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-19",
+     "hora": "16:00",
+     "local": "platense",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-19",
+     "hora": "16:00",
+     "local": "union",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "15 de Abril",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-19",
+     "hora": "16:00",
+     "local": "gimnasia-y-tiro",
+     "visitante": "deportivo-espanol",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-20",
+     "hora": "21:10",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1998-04-24",
+     "hora": "21:10",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-25",
+     "hora": "21:10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-26",
+     "hora": "15:30",
+     "local": "colon",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-26",
+     "hora": "15:30",
+     "local": "gimnasia-jujuy",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-26",
+     "hora": "15:30",
+     "local": "huracan",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-26",
+     "hora": "18:10",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-26",
+     "hora": "15:30",
+     "local": "rosario-central",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-26",
+     "hora": "15:30",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-26",
+     "hora": "15:30",
+     "local": "deportivo-espanol",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1998-04-27",
+     "hora": "21:10",
+     "local": "lanus",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1998-05-02",
+     "hora": "19:10",
+     "local": "union",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "15 de Abril",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-02",
+     "hora": "21:10",
+     "local": "boca-juniors",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-03",
+     "hora": "15:30",
+     "local": "velez-sarsfield",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-03",
+     "hora": "18:10",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-03",
+     "hora": "15:30",
+     "local": "gimnasia-y-tiro",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-03",
+     "hora": "15:30",
+     "local": "independiente",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-03",
+     "hora": "15:30",
+     "local": "argentinos-juniors",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-03",
+     "hora": "15:30",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-03",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-03",
+     "hora": "15:30",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1998-05-05",
+     "hora": "20:10",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-05",
+     "hora": "20:00",
+     "local": "ferro-carril-oeste",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-06",
+     "hora": "18:10",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-06",
+     "hora": "20:00",
+     "local": "lanus",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-06",
+     "hora": "20:00",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-06",
+     "hora": "20:00",
+     "local": "gimnasia-jujuy",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-06",
+     "hora": "20:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-06",
+     "hora": "20:00",
+     "local": "colon",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-07",
+     "hora": "19:10",
+     "local": "deportivo-espanol",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1998-06-03",
+     "hora": "15:30",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [],
+     "nota": "Se postergó porque River jugaba la Copa Libertadores"
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1998-05-08",
+     "hora": "21:10",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-09",
+     "hora": "21:10",
+     "local": "union",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "15 de Abril",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-10",
+     "hora": "18:10",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-10",
+     "hora": "15:30",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-10",
+     "hora": "15:30",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-10",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-10",
+     "hora": "15:30",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-10",
+     "hora": "15:30",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-10",
+     "hora": "15:30",
+     "local": "newell-s-old-boys",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-10",
+     "hora": "16:00",
+     "local": "gimnasia-jujuy",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1998-05-12",
+     "hora": "18:10",
+     "local": "deportivo-espanol",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Nueva España",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-12",
+     "hora": "20:10",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-12",
+     "hora": "20:00",
+     "local": "river-plate",
+     "visitante": "gimnasia-jujuy",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-12",
+     "hora": "20:00",
+     "local": "rosario-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-28",
+     "hora": "15:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-28",
+     "hora": "15:30",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-28",
+     "hora": "15:30",
+     "local": "gimnasia-y-tiro",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-28",
+     "hora": "15:30",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-28",
+     "hora": "15:30",
+     "local": "huracan",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1998-06-04",
+     "hora": "15:30",
+     "local": "colon",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [],
+     "nota": "Se postergó porque Colón jugaba la Copa Libertadores"
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1998-05-30",
+     "hora": "20:10",
+     "local": "colon",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-31",
+     "hora": "15:00",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-31",
+     "hora": "17:10",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-31",
+     "hora": "15:00",
+     "local": "san-lorenzo",
+     "visitante": "deportivo-espanol",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-31",
+     "hora": "15:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-31",
+     "hora": "15:00",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-31",
+     "hora": "15:00",
+     "local": "gimnasia-jujuy",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-31",
+     "hora": "15:00",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-31",
+     "hora": "15:00",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1998-05-31",
+     "hora": "15:00",
+     "local": "argentinos-juniors",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1998-06-05",
+     "hora": "21:10",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "1998-06-06",
+     "hora": "14:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1998-06-06",
+     "hora": "15:00",
+     "local": "river-plate",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1998-06-06",
+     "hora": "20:10",
+     "local": "union",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "15 de Abril",
+     "goles": []
+    },
+    {
+     "fecha": "1998-06-07",
+     "hora": "15:00",
+     "local": "rosario-central",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1998-06-07",
+     "hora": "15:00",
+     "local": "lanus",
+     "visitante": "colon",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1998-06-07",
+     "hora": "15:00",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1998-06-07",
+     "hora": "15:00",
+     "local": "gimnasia-y-tiro",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1998-06-07",
+     "hora": "11:00",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1998-06-08",
+     "hora": "21:10",
+     "local": "deportivo-espanol",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Nueva España",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}
