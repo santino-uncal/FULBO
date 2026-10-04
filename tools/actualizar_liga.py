@@ -32,6 +32,75 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2006: dos torneos de 20 equipos a una rueda. El Torneo Clausura 2006 (febrero-mayo; campeón Boca, que también
+    # había ganado el Apertura 2005) cerraba la temporada 2005-06: su "tabla anual" es la de la temporada. Bajaron los
+    # dos últimos de los promedios (2003-04, 2004-05 y 2005-06) y los dos de arriba jugaron la Promoción contra equipos
+    # de la B Nacional: Olimpo perdió con Belgrano y Argentinos se salvó con Huracán (empataron el global). ESPN no tiene
+    # esos partidos, van a mano (Wikipedia, Infobae, Vermouth Deportivo). Con la temporada quedaron definidos los cupos de
+    # la Sudamericana 2006 y de la Libertadores 2007, fijos
+    "2006-clausura": {"nombre": "Torneo Clausura 2006", "anio": 2006, "slug": "clausura-2006",
+                      "patron": r"^torneo-clausura-2006$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True, "temporada": "2005-06", "nombre_anual": "Temporada y copas",
+                      "nombre_playoffs": "Promoción", "playoffs": [(r"^$^", "Promoción")],
+                      "playoffs_a_mano": {"Promoción": [
+                          {"hora_utc": "2006-05-31T21:00Z", "fecha": "2006-05-31", "local": "4", "visitante": "olimpo",
+                           "gl": 2, "gv": 1, "estadio": "Chateau Carreras (Córdoba)"},
+                          {"hora_utc": "2006-05-31T22:00Z", "fecha": "2006-05-31", "local": "10",
+                           "visitante": "argentinos-juniors", "gl": 1, "gv": 1, "estadio": "Tomás A. Ducó",
+                           "arbitro": "Carlos Maglio",
+                           "goles": [{"jugador": "Cristian Ledesma", "min": 20, "equipo": "visitante"},
+                                     {"jugador": "Walter Coyette", "min": 22, "equipo": "local"}]},
+                          {"hora_utc": "2006-06-04T21:00Z", "fecha": "2006-06-04", "local": "olimpo", "visitante": "4",
+                           "gl": 1, "gv": 2, "estadio": "Roberto Carminatti (Bahía Blanca)", "arbitro": "Gabriel Favale",
+                           "goles": [{"jugador": "Alejandro Delorte", "min": 3, "equipo": "local"},
+                                     {"jugador": "Paolo Frangipane", "equipo": "visitante"},
+                                     {"jugador": "Matías Gigli", "min": 66, "equipo": "visitante"}]},
+                          {"hora_utc": "2006-06-04T22:00Z", "fecha": "2006-06-04", "local": "argentinos-juniors",
+                           "visitante": "10", "gl": 2, "gv": 2, "estadio": "Diego Armando Maradona",
+                           "arbitro": "Sergio Pezzotta",
+                           "goles": [{"jugador": "Leonel Núñez", "min": 3, "equipo": "local"},
+                                     {"jugador": "Héctor Álvarez", "min": 4, "equipo": "visitante"},
+                                     {"jugador": "Cristian Ledesma", "min": 40, "tipo": "pen", "equipo": "local"},
+                                     {"jugador": "Cristian Alfaro", "min": 43, "equipo": "visitante"}]}]},
+                      "ida_y_vuelta": True, "ventaja": ["argentinos-juniors", "olimpo"],
+                      "cuadro": {"bloques": [("Promoción: los equipos de Primera contra los de la B Nacional",
+                                              [["Promoción"]])],
+                                 "nota": "Con el global igualado se quedaba en Primera el equipo de Primera: así se "
+                                         "salvó Argentinos. Olimpo perdió y bajó; subió Belgrano. De la ida en Córdoba "
+                                         "no se cargaron los goles (Gigli y Frangipane para Belgrano)."},
+                      "anual": [("arg.1", r"^torneo-apertura-2005$", 2005)],
+                      "anual_texto": "La tabla de la temporada 2005-06: suma el Torneo Apertura 2005 y el Torneo Clausura 2006.",
+                      "promedios": {"2003-04": [("arg.1", r"^torneo-apertura-2003$", 2003),
+                                                ("arg.1", r"^torneo-apertura-2003$", 2004),
+                                                ("arg.1", r"^torneo-clausura-2004$", 2004)],
+                                    "2004-05": [("arg.1", r"^torneo-apertura-2004$", 2004),
+                                                ("arg.1", r"^torneo-clausura-2005$", 2005)]},
+                      "descensos": "promedios", "descienden": 2, "promocion": 2,
+                      "cupos": {"anio": 2007, "anio_sudamericana": 2006, "fijos": True,
+                                "libertadores": [("Campeón del Torneo Apertura 2005 y del Clausura 2006", "boca-juniors"),
+                                                 ("Tabla de la temporada 2005-06", "gimnasia-y-esgrima"),
+                                                 ("Tabla de la temporada 2005-06", "river-plate"),
+                                                 ("Tabla de la temporada 2005-06", "banfield"),
+                                                 ("Tabla de la temporada 2005-06", "velez-sarsfield")],
+                                "sudamericana": [("Campeón de la Copa Sudamericana 2005 (e invitado)", "boca-juniors"),
+                                                 ("Tabla de la temporada 2005-06", "gimnasia-y-esgrima"),
+                                                 ("Tabla de la temporada 2005-06", "banfield"),
+                                                 ("Tabla de la temporada 2005-06", "velez-sarsfield"),
+                                                 ("Tabla de la temporada 2005-06", "lanus"),
+                                                 ("Tabla de la temporada 2005-06", "san-lorenzo"),
+                                                 ("Invitado por la Conmebol", "river-plate")]}},
+    # El Torneo Apertura 2006 (agosto-diciembre; el último partido, Racing-San Lorenzo, recién en febrero de 2007) abría
+    # la temporada 2006-07. Estudiantes y Boca terminaron empatados arriba y jugaron una final (ganó Estudiantes)
+    "2006-apertura": {"nombre": "Torneo Apertura 2006", "anio": 2006, "anios": [2006, 2007], "slug": "apertura-2006",
+                      "patron": r"^torneo-apertura-2006(---final)?$", "zonas": "unica", "fechas": 19, "pasan": 2,
+                      "nombre_playoffs": "Final (desempate)", "playoffs": [(r"---final$", "Final")],
+                      "texto_pasan": "Empatados en el primer puesto (44 puntos): definieron el título en una final, "
+                                     "en cancha de Vélez",
+                      "anual": [("arg.1", r"^torneo-clausura-2006$")],
+                      "anual_texto": "La tabla del año 2006: suma el Torneo Clausura 2006 y el Torneo Apertura 2006 (sin la "
+                                     "final). No daba lugares en las copas: salían de la tabla de la temporada.",
+                      "sin_descensos": "En el Torneo Apertura 2006 no hubo descensos: se definieron al terminar la "
+                                       "temporada 2006-07, con el Torneo Clausura 2007."},
     # 2007: dos torneos de 20 equipos a una rueda, sin playoffs. El Torneo Clausura 2007 (febrero-junio; campeón San
     # Lorenzo) cerraba la temporada 2006-07: su "tabla anual" es la de la temporada (el Apertura 2006 y el Clausura 2007).
     # Bajaron los dos últimos de los promedios (2004-05, 2005-06 y 2006-07) y los dos de arriba jugaron la Promoción
@@ -775,7 +844,9 @@ GOLES_A_MANO = {"521397": [{"jugador": "Saúl Salcedo", "min": 62, "tipo": "ec",
                            {"jugador": "Brian Fernández", "min": 67, "equipo": "visitante"},
                            {"jugador": "Gaspar Servio", "min": 83, "tipo": "ec", "equipo": "visitante"}],
                 # Newell's 3-0 Racing (Apertura 2008): el segundo, de Hernán Bernardello (Página/12)
-                "246119": [{"jugador": "Hernán Bernardello", "min": 87, "equipo": "local"}]}
+                "246119": [{"jugador": "Hernán Bernardello", "min": 87, "equipo": "local"}],
+                # San Lorenzo 1-1 Instituto (Clausura 2006): el de San Lorenzo, de Leonardo Ulloa (La Nueva)
+                "194020": [{"jugador": "Leonardo Ulloa", "min": 53, "equipo": "local"}]}
 # Partidos que ESPN pone en la fase regular pero no la son (no suman en la tabla anual ni en los promedios): del
 # torneo 2016, la final (Lanús-San Lorenzo) y el desempate por un lugar en las copas (Godoy Cruz-Estudiantes)
 NO_SUMAN = {"448823", "448810"}
@@ -812,6 +883,7 @@ CLUBES_NUEVOS = {
     "9786": ("all-boys", "All Boys"),
     "8713": ("san-martin-tucuman", "San Martín de Tucumán"),   # (el mismo club; ESPN le cambió el id)
     "5263": ("gimnasia-jujuy", "Gimnasia y Esgrima (Jujuy)"),
+    "5262": ("tiro-federal", "Tiro Federal"),
 }
 
 # Nombres que en la liga se confunden (en data/equipos.js están como en las copas)
