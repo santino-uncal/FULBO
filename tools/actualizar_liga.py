@@ -33,6 +33,74 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1987: el Campeonato 1986-87 (julio de 1986 a mayo de 1987; campeón Rosario Central), a dos ruedas (38 fechas), con
+    # 2 puntos por partido ganado; va con el año en que terminó ("1987-temporada"). ESPN no lo tiene: va a mano
+    # (tools/a_mano; RSSSF, sin goles ni estadios). River-Temperley se lo dieron ganado a Temperley (doping) y
+    # Estudiantes-Ferro cuenta como empate (así está en las tablas finales; ver "fuente"). Promedios de 1984 y 1985-86
+    # (36 fechas cada uno; Wikipedia). Bajó Deportivo Italiano (el peor promedio) y, empatados en el promedio, Platense y
+    # Temperley jugaron un desempate: bajó Temperley. El segundo lugar en la Libertadores 1987 lo jugaron en una Liguilla
+    # Pre-Libertadores (RSSSF, sin goles; estadios de Wikipedia; ganó Independiente); River fue como campeón de la
+    # Libertadores 1986
+    "1987-temporada": {"nombre": "Campeonato 1986-87", "anio": 1987, "liga": "a_mano", "slug": "1987-temporada",
+                       "zonas": "unica", "fechas": 38, "pasan": 0, "puntos_victoria": 2,
+                       "campeon_tabla": True, "temporada": "1986-87",
+                       "anual_texto": "La tabla del Campeonato 1986-87 (las 38 fechas). Cada partido ganado valía 2 puntos.",
+                       "goleadores_nota": "RSSSF no tiene los goles del campeonato ni de la Liguilla. El goleador del "
+                                          "campeonato fue Omar Palma (Rosario Central), con 20 goles.",
+                       "nombre_playoffs": "Liguilla Pre-Libertadores",
+                       "playoffs": [(r"^$^", n) for n in ("Cuartos de final", "Semifinales", "Final de la Liguilla")],
+                       "playoffs_a_mano": {
+                           "Cuartos de final": [
+                               {"hora_utc": "1987-05-10T19:00Z", "fecha": "1987-05-10", "local": "235", "visitante": "independiente", "gl": 1, "gv": 0, "estadio": "Cancha de Huracán"},
+                               {"hora_utc": "1987-05-10T19:00Z", "fecha": "1987-05-10", "local": "4", "visitante": "newell-s-old-boys", "gl": 0, "gv": 0, "estadio": "Gigante de Alberdi"},
+                               {"hora_utc": "1987-05-10T19:00Z", "fecha": "1987-05-10", "local": "dar", "visitante": "boca-juniors", "gl": 2, "gv": 4, "estadio": "Cancha de Vélez Sarsfield"},
+                               {"hora_utc": "1987-05-10T19:00Z", "fecha": "1987-05-10", "local": "racing-club", "visitante": "ferro-carril-oeste", "gl": 0, "gv": 0, "estadio": "El Cilindro"},
+                               {"hora_utc": "1987-05-17T19:00Z", "fecha": "1987-05-17", "local": "boca-juniors", "visitante": "dar", "gl": 2, "gv": 2, "estadio": "La Bombonera"},
+                               {"hora_utc": "1987-05-17T19:00Z", "fecha": "1987-05-17", "local": "ferro-carril-oeste", "visitante": "racing-club", "gl": 2, "gv": 1, "estadio": "Arquitecto Ricardo Etcheverri", "alargue": True},
+                               {"hora_utc": "1987-05-17T19:00Z", "fecha": "1987-05-17", "local": "independiente", "visitante": "235", "gl": 2, "gv": 0, "estadio": "La Doble Visera"},
+                               {"hora_utc": "1987-05-17T19:00Z", "fecha": "1987-05-17", "local": "newell-s-old-boys", "visitante": "4", "gl": 2, "gv": 0, "estadio": "El Coloso del Parque"},
+                           ],
+                           "Semifinales": [
+                               {"hora_utc": "1987-05-24T19:00Z", "fecha": "1987-05-24", "local": "ferro-carril-oeste", "visitante": "independiente", "gl": 0, "gv": 1, "estadio": "Arquitecto Ricardo Etcheverri"},
+                               {"hora_utc": "1987-05-24T19:00Z", "fecha": "1987-05-24", "local": "newell-s-old-boys", "visitante": "boca-juniors", "gl": 0, "gv": 1, "estadio": "El Coloso del Parque"},
+                               {"hora_utc": "1987-05-31T19:00Z", "fecha": "1987-05-31", "local": "boca-juniors", "visitante": "newell-s-old-boys", "gl": 5, "gv": 2, "estadio": "La Bombonera"},
+                               {"hora_utc": "1987-05-31T19:00Z", "fecha": "1987-05-31", "local": "independiente", "visitante": "ferro-carril-oeste", "gl": 0, "gv": 0, "estadio": "La Doble Visera"},
+                           ],
+                           "Final de la Liguilla": [
+                               {"hora_utc": "1987-06-07T19:00Z", "fecha": "1987-06-07", "local": "independiente", "visitante": "boca-juniors", "gl": 2, "gv": 2, "estadio": "La Doble Visera"},
+                               {"hora_utc": "1987-06-14T19:00Z", "fecha": "1987-06-14", "local": "boca-juniors", "visitante": "independiente", "gl": 1, "gv": 2, "estadio": "La Bombonera"},
+                           ],
+                       },
+                       "ida_y_vuelta": True,
+                       "cuadro": {"bloques": [("Liguilla Pre-Libertadores: por el segundo lugar en la Libertadores 1987",
+                                               [["Cuartos de final"], ["Semifinales"], ["Final de la Liguilla"]])],
+                                  "nota": "La jugaron los que siguieron a Rosario Central en la tabla (del 2.º al 6.º) y "
+                                          "tres del Nacional B: Deportivo Armenio (el campeón), Banfield y Belgrano. De los "
+                                          "partidos hay solo el resultado."},
+                       # (con 2 puntos por partido ganado; 1984 y 1985-86, de 36 fechas)
+                       "promedios": {"1984": {"river-plate": [43, 36], "ferro-carril-oeste": [50, 36], "newell-s-old-boys": [38, 36],
+                                              "argentinos-juniors": [51, 36], "san-lorenzo": [37, 36], "boca-juniors": [30, 36],
+                                              "velez-sarsfield": [42, 36], "independiente": [31, 36],
+                                              "estudiantes-de-la-plata": [48, 36], "instituto": [33, 36], "talleres": [34, 36],
+                                              "racing-cordoba": [43, 36], "union": [30, 36], "platense": [33, 36],
+                                              "temperley": [31, 36]},
+                                     "1985-86": {"river-plate": [56, 36], "ferro-carril-oeste": [40, 36],
+                                                 "newell-s-old-boys": [46, 36], "argentinos-juniors": [44, 36],
+                                                 "san-lorenzo": [40, 36], "deportivo-espanol": [46, 36], "boca-juniors": [41, 36],
+                                                 "velez-sarsfield": [34, 36], "independiente": [36, 36],
+                                                 "estudiantes-de-la-plata": [27, 36], "instituto": [35, 36], "talleres": [37, 36],
+                                                 "gimnasia-y-esgrima": [36, 36], "racing-cordoba": [26, 36], "union": [31, 36],
+                                                 "platense": [27, 36], "temperley": [29, 36]}},
+                       "descensos": "promedios", "descienden": 2,
+                       "desempate_a_mano": {"fecha": "1987-05-06", "local": "platense", "visitante": "temperley",
+                                            "gl": 2, "gv": 0, "estadio": "Cancha de Huracán"},
+                       "desempate_texto": "Platense y Temperley terminaron empatados en los promedios, arriba de Deportivo "
+                                          "Italiano (que bajó por ser el último): lo definieron en un partido, en cancha de "
+                                          "Huracán, y bajó Temperley. RSSSF no tiene los goles.",
+                       "cupos": {"anio": 1987, "fijos": True,
+                                 "libertadores": [("Campeón del Campeonato 1986-87", "rosario-central"),
+                                                  ("Ganador de la Liguilla Pre-Libertadores", "independiente"),
+                                                  ("Campeón de la Libertadores 1986", "river-plate")]}},
     # 1988: el Campeonato 1987-88 (agosto de 1987 a junio de 1988; campeón Newell's), a dos ruedas (38 fechas), con 2
     # puntos por partido ganado; va con el año en que terminó ("1988-temporada"). ESPN no lo tiene: va a mano
     # (tools/a_mano; RSSSF, sin goles ni estadios). A Instituto le descontaron 2 puntos y perdió en el escritorio el
@@ -2283,6 +2351,7 @@ CLUBES_NUEVOS = {
     "dma": ("deportivo-mandiyu", "Deportivo Mandiyú"),
     "cfe": ("chaco-for-ever", "Chaco For Ever"),   # (no está en ESPN: 1990-91)
     "dar": ("deportivo-armenio", "Deportivo Armenio"),   # (no está en ESPN: 1988-89)
+    "dit": ("deportivo-italiano", "Deportivo Italiano"),   # (no está en ESPN: 1986-87)
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
