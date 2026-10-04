@@ -1,0 +1,2386 @@
+{
+ "nombre": "Torneo Apertura 1996",
+ "fuente": "Resultados: RSSSF (Javier Roimiser); goles con minuto solo de algunas fechas (Lanús 3-1 River, sin el de River: queda sin goles). Wikipedia no tiene estadios ni días: el día, de RSSSF, y la cancha solo cuando no era la del local",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1996-08-23",
+     "local": "lanus",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-08-24",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Rosario Central",
+     "goles": []
+    },
+    {
+     "fecha": "1996-08-25",
+     "local": "racing-club",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-08-25",
+     "local": "san-lorenzo",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-08-25",
+     "local": "huracan-corrientes",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 6,
+     "goles": []
+    },
+    {
+     "fecha": "1996-08-25",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1996-08-25",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1996-08-25",
+     "local": "gimnasia-jujuy",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-08-25",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-08-26",
+     "local": "colon",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1996-09-02",
+     "local": "banfield",
+     "visitante": "huracan-corrientes",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-03",
+     "local": "deportivo-espanol",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-03",
+     "local": "boca-juniors",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-03",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-04",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-04",
+     "local": "rosario-central",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-04",
+     "local": "independiente",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-04",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 4,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-04",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-04",
+     "local": "union",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1996-09-07",
+     "local": "huracan-corrientes",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-07",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-08",
+     "local": "colon",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-08",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-08",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Rosario Central",
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-08",
+     "local": "racing-club",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-08",
+     "local": "river-plate",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-08",
+     "local": "san-lorenzo",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-08",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-09",
+     "local": "ferro-carril-oeste",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1996-09-14",
+     "local": "union",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-15",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-15",
+     "local": "deportivo-espanol",
+     "visitante": "huracan-corrientes",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-15",
+     "local": "gimnasia-jujuy",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-15",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-15",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-15",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-15",
+     "local": "platense",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-15",
+     "local": "rosario-central",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-16",
+     "local": "banfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1996-09-20",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-21",
+     "local": "huracan-corrientes",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-22",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-22",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-22",
+     "local": "lanus",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-22",
+     "local": "newell-s-old-boys",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Rosario Central",
+     "goles": [],
+     "nota": "Terminó a los 36 del segundo tiempo porque a Banfield le quedaron 6 jugadores, y quedó el resultado"
+    },
+    {
+     "fecha": "1996-09-22",
+     "local": "river-plate",
+     "visitante": "deportivo-espanol",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-22",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-22",
+     "local": "velez-sarsfield",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-23",
+     "local": "colon",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1996-09-28",
+     "local": "banfield",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-28",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-29",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-29",
+     "local": "deportivo-espanol",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-29",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-29",
+     "local": "gimnasia-jujuy",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-29",
+     "local": "huracan",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-29",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-29",
+     "local": "union",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-09-30",
+     "local": "platense",
+     "visitante": "huracan-corrientes",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1996-10-11",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-12",
+     "local": "colon",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-13",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-13",
+     "local": "huracan-corrientes",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-13",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-13",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-13",
+     "local": "newell-s-old-boys",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Rosario Central",
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-13",
+     "local": "independiente",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-13",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-14",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1996-10-18",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-19",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-20",
+     "local": "deportivo-espanol",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-20",
+     "local": "gimnasia-jujuy",
+     "visitante": "huracan-corrientes",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-20",
+     "local": "colon",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-20",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 5,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-20",
+     "local": "banfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-20",
+     "local": "racing-club",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-20",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-21",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1996-10-25",
+     "local": "river-plate",
+     "visitante": "gimnasia-jujuy",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-26",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-27",
+     "local": "independiente",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-27",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-27",
+     "local": "san-lorenzo",
+     "visitante": "colon",
+     "gl": 4,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-27",
+     "local": "huracan-corrientes",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-27",
+     "local": "union",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-27",
+     "local": "ferro-carril-oeste",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-27",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-10-28",
+     "local": "newell-s-old-boys",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Rosario Central",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1996-11-01",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Escudero",
+       "min": 59,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-02",
+     "local": "racing-club",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Quiroz",
+       "min": 5,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-02",
+     "local": "colon",
+     "visitante": "huracan-corrientes",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Saralegui",
+       "min": 53,
+       "equipo": "local"
+      },
+      {
+       "jugador": "F. Fernandez",
+       "min": 21,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-03",
+     "local": "lanus",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Mena",
+       "min": 13,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Morales",
+       "min": 81,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coyette",
+       "min": 90,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gorosito",
+       "min": 87,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-03",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Facciutto",
+       "min": 21,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Genk",
+       "min": 8,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-03",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 4,
+     "goles": [
+      {
+       "jugador": "Godoy",
+       "min": 4,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Carlo",
+       "min": 33,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Carlo",
+       "min": 44,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Carlo",
+       "min": 45,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Herrera",
+       "min": 31,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Morigi",
+       "min": 37,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Morigi",
+       "min": 84,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bassedas",
+       "min": 89,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-03",
+     "local": "deportivo-espanol",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "P. Fernandez",
+       "min": 80,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gmo. Barros Schelotto",
+       "min": 12,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sosa",
+       "min": 55,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-03",
+     "local": "huracan",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Lettieri",
+       "min": 3,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lettieri",
+       "min": 57,
+       "equipo": "local"
+      },
+      {
+       "jugador": "N. Fernandez",
+       "min": 53,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-03",
+     "local": "gimnasia-jujuy",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Aarcon",
+       "min": 55,
+       "equipo": "local"
+      },
+      {
+       "jugador": "V. Lopez",
+       "min": 72,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bustos",
+       "min": 12,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Garcete",
+       "min": 65,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-03",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Guerraro",
+       "min": 86,
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1996-11-05",
+     "local": "river-plate",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Ortega",
+       "min": 9,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cruz",
+       "min": 53,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Escudero",
+       "min": 87,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-05",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 4,
+     "goles": [
+      {
+       "jugador": "Posse",
+       "min": 29,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Camps",
+       "min": 37,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Camps",
+       "min": 86,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cardozo",
+       "min": 52,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Loeschbor",
+       "min": 43,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Da Silva",
+       "min": 45,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Da Silva",
+       "min": 71,
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Maseratassi",
+       "min": 85,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-06",
+     "local": "huracan-corrientes",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "F. Fernandez",
+       "min": 9,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Enria",
+       "min": 44,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-06",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Piaggio",
+       "min": 18,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Goncalves",
+       "min": 71,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Varga",
+       "min": 73,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Palermo",
+       "min": 37,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ramos",
+       "min": 79,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-06",
+     "local": "union",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Magnin",
+       "min": 21,
+       "equipo": "local"
+      },
+      {
+       "jugador": "P. Fernandez",
+       "min": 6,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-06",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-jujuy",
+     "gl": 3,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Franco",
+       "min": 9,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gerk",
+       "min": 16,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Liando",
+       "min": 67,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garnier",
+       "min": 8,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-07",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 4,
+     "goles": [
+      {
+       "jugador": "Calderon",
+       "min": 81,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coria",
+       "min": 31,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Coria",
+       "min": 62,
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Coria",
+       "min": 82,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Di Carlo",
+       "min": 80,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-07",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Ruggeri",
+       "min": 12,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silas",
+       "min": 68,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maciel",
+       "min": 89,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-07",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Gmo. Barros Schelotto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "S. Rambert",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-07",
+     "local": "banfield",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "S. Sanchez",
+       "min": 72,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Romay",
+       "min": 41,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Romay",
+       "min": 90,
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1996-11-09",
+     "local": "san-lorenzo",
+     "visitante": "huracan-corrientes",
+     "gl": 4,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Silas",
+       "min": 28,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silas",
+       "min": 73,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ruggeri",
+       "min": 58,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Macial",
+       "min": 66,
+       "equipo": "local"
+      },
+      {
+       "jugador": "F. Fernandez",
+       "min": 38,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sosa",
+       "min": 87,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-09",
+     "local": "gimnasia-jujuy",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Batista",
+       "min": 87,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Morigi",
+       "min": 53,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 5,
+     "goles": [
+      {
+       "jugador": "Gerk",
+       "min": 15,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gerk",
+       "min": 66,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gimenez",
+       "min": 47,
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Gimenez",
+       "min": 52,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Dalla Libera",
+       "min": 61,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-10",
+     "local": "colon",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Castagno Suarez",
+       "min": 38,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bustos",
+       "min": 19,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-10",
+     "local": "lanus",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-11-10",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Coria",
+       "min": 15,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Carlo",
+       "min": 44,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Carlo",
+       "min": 89,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Guglielminpietro",
+       "min": 24,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-10",
+     "local": "boca-juniors",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Guerra",
+       "min": 40,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caceres",
+       "min": 64,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-10",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 6,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "I. Gonzalez",
+       "min": 22,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "I. Gonzalez",
+       "min": 29,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Fuertes",
+       "min": 31,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Capria",
+       "min": 56,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Capria",
+       "min": 65,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Galvan",
+       "min": 61,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barrios",
+       "min": 71,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-10",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Maseratessi",
+       "min": 14,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseratessi",
+       "min": 31,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Da Silva",
+       "min": 52,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calderon",
+       "min": 26,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-11",
+     "local": "deportivo-espanol",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1996-11-15",
+     "local": "independiente",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Rotchen",
+       "min": 74,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-16",
+     "local": "huracan-corrientes",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "Gaitan",
+       "min": 7,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sosa",
+       "min": 9,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Delgado",
+       "min": 35,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fuertes",
+       "min": 50,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "I. Gonzalez",
+       "min": 62,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-17",
+     "local": "banfield",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Lemma",
+       "min": 6,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arca",
+       "min": 29,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alvaranga",
+       "min": 34,
+       "equipo": "local"
+      },
+      {
+       "jugador": "S. Rambert",
+       "min": 87,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-17",
+     "local": "ferro-carril-oeste",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Ruggi",
+       "min": 74,
+       "equipo": "local"
+      },
+      {
+       "jugador": "A. Lopez",
+       "min": 8,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A. Lopez",
+       "min": 71,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-17",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Sosa",
+       "min": 73,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carbonari",
+       "min": 30,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cardetti",
+       "min": 62,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-17",
+     "local": "huracan",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "C. Garcia",
+       "min": 78,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-17",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 4,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Criz",
+       "min": 24,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Criz",
+       "min": 87,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Salas",
+       "min": 42,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Medina Bello",
+       "min": 85,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-17",
+     "local": "union",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Di Carlo",
+       "min": 75,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-17",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Cordoba",
+       "min": 23,
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Nigro",
+       "min": 39,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-18",
+     "local": "newell-s-old-boys",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "R. Rocha",
+       "min": 87,
+       "equipo": "local"
+      },
+      {
+       "jugador": "C. Castillo",
+       "min": 81,
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1996-11-22",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Abreu",
+       "min": 62,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Montenegro",
+       "min": 76,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bustos",
+       "min": 82,
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Nicotra",
+       "min": 85,
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Lanús",
+     "goles": [
+      {
+       "jugador": "Biazotti",
+       "min": 84,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-23",
+     "local": "colon",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "M. Risso",
+       "min": 60,
+       "equipo": "local"
+      },
+      {
+       "jugador": "M. Risso",
+       "min": 71,
+       "equipo": "local"
+      },
+      {
+       "jugador": "C. Cordona",
+       "min": 55,
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-23",
+     "local": "rosario-central",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1996-11-24",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 6,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Toresani",
+       "min": 15,
+       "equipo": "local"
+      },
+      {
+       "jugador": "S. Rambert",
+       "min": 40,
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Fabbri",
+       "min": 45,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cedres",
+       "min": 67,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Latorra",
+       "min": 71,
+       "equipo": "local"
+      },
+      {
+       "jugador": "Riquelme",
+       "min": 82,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-11-24",
+     "local": "racing-club",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-11-24",
+     "local": "lanus",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-11-24",
+     "local": "platense",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-11-24",
+     "local": "gimnasia-jujuy",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Morales Santos",
+       "min": 66,
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1996-12-20",
+     "local": "huracan-corrientes",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "goles": [],
+     "nota": "Se suspendió a los 26 minutos (1-1); lo que faltaba se jugó el 20 de diciembre"
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1996-11-26",
+     "local": "banfield",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-11-26",
+     "local": "deportivo-espanol",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-11-26",
+     "local": "huracan",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-11-27",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan-corrientes",
+     "gl": 5,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-11-27",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-11-27",
+     "local": "independiente",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-11-27",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Rosario Central",
+     "goles": []
+    },
+    {
+     "fecha": "1996-11-27",
+     "local": "velez-sarsfield",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-11-27",
+     "local": "union",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-04",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 3,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1996-11-29",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-11-30",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-01",
+     "local": "colon",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-01",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-01",
+     "local": "gimnasia-jujuy",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-01",
+     "local": "huracan-corrientes",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-01",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 4,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-01",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 5,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-01",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-02",
+     "local": "platense",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1996-12-06",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-07",
+     "local": "velez-sarsfield",
+     "visitante": "huracan-corrientes",
+     "gl": 0,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-08",
+     "local": "banfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 4,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-08",
+     "local": "union",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-08",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-08",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Rosario Central",
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-08",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-08",
+     "local": "huracan",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-08",
+     "local": "deportivo-espanol",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1996-12-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-17",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-17",
+     "local": "gimnasia-jujuy",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-18",
+     "local": "huracan-corrientes",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-18",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-18",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-18",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 4,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-18",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-18",
+     "local": "colon",
+     "visitante": "banfield",
+     "gl": 6,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-18",
+     "local": "lanus",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1996-12-20",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-21",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Rosario Central",
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-22",
+     "local": "banfield",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-22",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-22",
+     "local": "deportivo-espanol",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-22",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan-corrientes",
+     "gl": 6,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-22",
+     "local": "huracan",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-22",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-22",
+     "local": "union",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1996-12-23",
+     "local": "platense",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 3,
+     "goles": []
+    }
+   ]
+  }
+ ]
+}
