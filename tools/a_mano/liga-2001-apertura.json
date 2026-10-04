@@ -1,0 +1,4354 @@
+{
+ "nombre": "Torneo Apertura 2001",
+ "fuente": "Resultados y goles: RSSSF (Javier Roimiser), solo con el apellido y sin minutos. Estadio, día y hora: Wikipedia. El mismo jugador con y sin la inicial, unificado con la inicial",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "2001-08-17",
+     "hora": "21:00",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Arano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De Muner",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Insúa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-18",
+     "hora": "19:00",
+     "local": "rosario-central",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Vespa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pizzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bustos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-18",
+     "hora": "21:00",
+     "local": "nueva-chicago",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Franco",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "L. Rodríguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Benito",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-19",
+     "hora": "19:30",
+     "local": "talleres",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "La Paglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cardetti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cardetti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ayala",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-19",
+     "hora": "15:30",
+     "local": "boca-juniors",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Gaitán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Goux",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Martina",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Quintana",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-19",
+     "hora": "15:30",
+     "local": "banfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "M. Rodríguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M. Rodríguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M. Rodríguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pavlovich",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rosales",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-19",
+     "hora": "17:10",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Hidalgo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Forlán",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Forlán",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Forlán",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Silvera",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-19",
+     "hora": "15:30",
+     "local": "huracan",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás A. Ducó",
+     "goles": [
+      {
+       "jugador": "Canobbio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lobos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rivero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Müller",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-19",
+     "hora": "15:30",
+     "local": "union",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Mazzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sava",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Enría",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-19",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Maggiolo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Farías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aquino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "2001-08-24",
+     "hora": "21:00",
+     "local": "chacarita-juniors",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Moreno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Müller",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tilger",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ruiz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-25",
+     "hora": "15:30",
+     "local": "lanus",
+     "visitante": "talleres",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Klimowicz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Klimowicz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bustos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Díaz",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-25",
+     "hora": "19:00",
+     "local": "argentinos-juniors",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Insúa",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-26",
+     "hora": "17:10",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Cambiasso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moner",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Ortega",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cardetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morquio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-26",
+     "hora": "15:30",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Forlán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Loeschbor",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-26",
+     "hora": "15:30",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Crosa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dueña",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-26",
+     "hora": "15:30",
+     "local": "belgrano",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Desagastizábal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "López",
+       "equipo": "local",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-26",
+     "hora": "19:30",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Capria",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-26",
+     "hora": "15:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Sava",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sanguinetti",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-25",
+     "hora": "21:00",
+     "local": "colon",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Migliónico",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Graf",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Capurro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "O. Gómez",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 10 minutos (1-0) por una lesión grave de Gabriel Migliónico, de Colón; los 80 minutos que faltaban se jugaron el 12 de septiembre"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "2001-08-28",
+     "hora": "19:00",
+     "local": "rosario-central",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Chatruc",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-28",
+     "hora": "21:00",
+     "local": "nueva-chicago",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "2001-08-28",
+     "hora": "21:00",
+     "local": "velez-sarsfield",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Óbolo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-28",
+     "hora": "21:00",
+     "local": "independiente",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Dueña",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-28",
+     "hora": "21:00",
+     "local": "huracan",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Tomás A. Ducó",
+     "goles": [
+      {
+       "jugador": "Adippe",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Klimowicz",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Díaz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-29",
+     "hora": "15:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Müller",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Müller",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Müller",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-29",
+     "hora": "15:30",
+     "local": "banfield",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Cervera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bueno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Romagnoli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pusineri",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-29",
+     "hora": "20:10",
+     "local": "talleres",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Pena",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-29",
+     "hora": "17:30",
+     "local": "union",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "San Martín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cambiasso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-08-29",
+     "hora": "20:10",
+     "local": "boca-juniors",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "2001-08-31",
+     "hora": "21:00",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Milito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Milito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dueña",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-01",
+     "hora": "19:00",
+     "local": "lanus",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Daniele",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Klimowicz",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-01",
+     "hora": "21:00",
+     "local": "belgrano",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Forlán",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Montenegro",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-02",
+     "hora": "15:30",
+     "local": "chacarita-juniors",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Müller",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quinteros",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-02",
+     "hora": "15:30",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Cambiasso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cambiasso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D'Alessandro",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-02",
+     "hora": "15:30",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Monsalvo",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Insúa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cordone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moner",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-02",
+     "hora": "15:30",
+     "local": "rosario-central",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Rivarola",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-02",
+     "hora": "17:10",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Romagnoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Romagnoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "F. Domínguez",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-02",
+     "hora": "15:30",
+     "local": "colon",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Graf",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-02",
+     "hora": "19:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Sava",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pautasso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Colautti",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "2001-09-07",
+     "hora": "21:00",
+     "local": "velez-sarsfield",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "F. Domínguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "F. Domínguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morant",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castagno Suárez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-08",
+     "hora": "19:00",
+     "local": "huracan",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Tomás A. Ducó",
+     "goles": [
+      {
+       "jugador": "Pizzi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pizzi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M. González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-08",
+     "hora": "21:00",
+     "local": "talleres",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Torres",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Loeschbor",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-09",
+     "hora": "15:30",
+     "local": "boca-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Gaitán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Romero",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Gmo. Barros Schelotto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moreno",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-09",
+     "hora": "15:30",
+     "local": "banfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Bilos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sánchez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Messera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sava",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-09",
+     "hora": "15:30",
+     "local": "newell-s-old-boys",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Óbolo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-09",
+     "hora": "15:30",
+     "local": "union",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Donnet",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Alaniz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "García",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-09",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Maggiolo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bustos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pagés",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Domizi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-09",
+     "hora": "17:10",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "2001-09-09",
+     "hora": "19:30",
+     "local": "nueva-chicago",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Mandra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Jesús",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cambiasso",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "2001-09-14",
+     "hora": "21:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Sava",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Herner",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Enría",
+       "equipo": "local"
+      },
+      {
+       "jugador": "F. Domínguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fuentes",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-15",
+     "hora": "19:00",
+     "local": "talleres",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Cuba",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cuba",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roth",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moner",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Morquio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Padra",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-15",
+     "hora": "20:00",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Romeo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Romeo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "L. Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ponzio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-15",
+     "hora": "21:00",
+     "local": "colon",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Graf",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-16",
+     "hora": "15:30",
+     "local": "chacarita-juniors",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Moreno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quinteros",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-16",
+     "hora": "15:30",
+     "local": "lanus",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Klimowicz",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Herbella",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-16",
+     "hora": "15:30",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Farías",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Farías",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Farías",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Farías",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-16",
+     "hora": "15:30",
+     "local": "rosario-central",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Rivarola",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-16",
+     "hora": "17:10",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Cambiasso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gaitán",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-16",
+     "hora": "19:30",
+     "local": "racing-club",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "2001-09-21",
+     "hora": "21:00",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Guiñazú",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Forlán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vuoso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sava",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sava",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-22",
+     "hora": "19:00",
+     "local": "velez-sarsfield",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Husain",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Romero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rivero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-22",
+     "hora": "21:00",
+     "local": "belgrano",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Meta",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-23",
+     "hora": "15:30",
+     "local": "nueva-chicago",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Kmet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Yaqué",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Yaqué",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Insúa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-23",
+     "hora": "15:30",
+     "local": "boca-juniors",
+     "visitante": "lanus",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gaitán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gaitán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Riquelme",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Takahara",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Klimowicz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-23",
+     "hora": "15:30",
+     "local": "union",
+     "visitante": "talleres",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Tilger",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tilger",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tilger",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Basualdo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garay",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-23",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Maggiolo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-23",
+     "hora": "15:30",
+     "local": "newell-s-old-boys",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "M. Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morant",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Migliónico",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-23",
+     "hora": "17:00",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás A. Ducó",
+     "goles": [
+      {
+       "jugador": "Barros Schelotto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-23",
+     "hora": "19:30",
+     "local": "banfield",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Del Río",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cavenaghi",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "2001-09-28",
+     "hora": "21:00",
+     "local": "huracan",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás A. Ducó",
+     "goles": [
+      {
+       "jugador": "Morquio",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Morquio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Capria",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M. Zapata",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-29",
+     "hora": "16:30",
+     "local": "lanus",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Pagés",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-29",
+     "hora": "19:00",
+     "local": "colon",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Migliónico",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-29",
+     "hora": "21:00",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Moreno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Franco",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-29",
+     "hora": "20:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Sava",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sava",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Messera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Enría",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M. Rodríguez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-29",
+     "hora": "19:30",
+     "local": "rosario-central",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Mandra",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Kmet",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-30",
+     "hora": "15:30",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Cardetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Escudero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fuentes",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "D'Alessandro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Husain",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Buján",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-30",
+     "hora": "15:30",
+     "local": "talleres",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Maggiolo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-30",
+     "hora": "17:00",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Loeschbor",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Estévez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bedoya",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maceratesi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pusineri",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-09-30",
+     "hora": "19:30",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Pena",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barros Schelotto",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Barros Schelotto",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "2001-10-02",
+     "hora": "19:00",
+     "local": "nueva-chicago",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Mandra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mandra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Valli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Albornós",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-02",
+     "hora": "21:00",
+     "local": "san-lorenzo",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Acosta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morant",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-03",
+     "hora": "15:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Quatrocchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quatrocchi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-03",
+     "hora": "17:00",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "D'Alessandro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marchesini",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Cardetti",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Cardetti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cambiasso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-03",
+     "hora": "19:30",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Gaitán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Riquelme",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arias",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-03",
+     "hora": "20:00",
+     "local": "banfield",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Forestello",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Insúa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-03",
+     "hora": "20:00",
+     "local": "velez-sarsfield",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Nanni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Klimowicz",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-03",
+     "hora": "20:00",
+     "local": "newell-s-old-boys",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "M. Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carrario",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-03",
+     "hora": "20:00",
+     "local": "belgrano",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Licht",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-03",
+     "hora": "20:00",
+     "local": "union",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Estévez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bedoya",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "2001-10-19",
+     "hora": "21:00",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Nanni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Nanni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-20",
+     "hora": "21:00",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "D. Galván",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vuoso",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Forlán",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Forlán",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Montenegro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-20",
+     "hora": "19:00",
+     "local": "huracan",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Tomás A. Ducó",
+     "goles": [
+      {
+       "jugador": "Morquio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C. Gómez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Jesús",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Jesús",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-20",
+     "hora": "20:30",
+     "local": "union",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Israilevich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M. Zapata",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Osorio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Farías",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-21",
+     "hora": "15:30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Zurita",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-21",
+     "hora": "15:30",
+     "local": "chacarita-juniors",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Moreno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Óbolo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Brusco",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-21",
+     "hora": "15:30",
+     "local": "river-plate",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Cardetti",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "- Coudet",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-21",
+     "hora": "15:30",
+     "local": "rosario-central",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Arias",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-21",
+     "hora": "17:00",
+     "local": "racing-club",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Milito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maceratesi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Graf",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-21",
+     "hora": "19:30",
+     "local": "talleres",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Maidana",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "2001-10-26",
+     "hora": "21:00",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Forlán",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-27",
+     "hora": "19:00",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Morigi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "F. Domínguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Husain",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pizzi",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-27",
+     "hora": "20:00",
+     "local": "newell-s-old-boys",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Ponzio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M. Rodríguez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-27",
+     "hora": "21:00",
+     "local": "san-lorenzo",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Acosta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pusineri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pusineri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carrario",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Carrario",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ramos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-28",
+     "hora": "15:30",
+     "local": "nueva-chicago",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Mazzoni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Frutos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Frutos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-28",
+     "hora": "15:30",
+     "local": "banfield",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Lujambio",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Lujambio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maidana",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-28",
+     "hora": "15:30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quatrocchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Estévez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Estévez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chatruc",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-28",
+     "hora": "17:00",
+     "local": "colon",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Castillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Messera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Enría",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-28",
+     "hora": "17:00",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Calvo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cellay",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Godoy",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-10-28",
+     "hora": "19:30",
+     "local": "belgrano",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Ortega",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cardetti",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "2001-11-02",
+     "hora": "21:00",
+     "local": "huracan",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás A. Ducó",
+     "goles": [
+      {
+       "jugador": "Morquio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morquio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-03",
+     "hora": "19:00",
+     "local": "talleres",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Roth",
+       "equipo": "local"
+      },
+      {
+       "jugador": "La Paglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morigi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-03",
+     "hora": "21:00",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pernía",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-04",
+     "hora": "16:00",
+     "local": "chacarita-juniors",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Moreno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Unali",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-04",
+     "hora": "16:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Jesús",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Jesús",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-04",
+     "hora": "16:00",
+     "local": "lanus",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "2001-11-04",
+     "hora": "16:00",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Cordone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M. Rodríguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pavlovich",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-04",
+     "hora": "16:00",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Estévez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chatruc",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chatruc",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maceratesi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sanguinetti",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-04",
+     "hora": "17:00",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Cardetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-04",
+     "hora": "19:30",
+     "local": "union",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "San Martín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tilger",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carreño",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Giménez",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "2001-11-09",
+     "hora": "21:00",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "F. Domínguez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-10",
+     "hora": "19:00",
+     "local": "independiente",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Vuoso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pernía",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roth",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-10",
+     "hora": "20:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Carrario",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-10",
+     "hora": "21:00",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Hoyos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Klimowicz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-11",
+     "hora": "16:00",
+     "local": "nueva-chicago",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "C. Gómez",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "C. Gómez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Jesús",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Serrano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Herbella",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Chatruc",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maceratesi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Torres",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-11",
+     "hora": "16:00",
+     "local": "banfield",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Tilger",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-11",
+     "hora": "16:00",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Pavlovich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Encina",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-11",
+     "hora": "16:00",
+     "local": "belgrano",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Goux",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arce",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De Muner",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Yaqué",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-11",
+     "hora": "17:00",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Gaitán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Riquelme",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Riquelme",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Burdisso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Farías",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Farías",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-11",
+     "hora": "19:30",
+     "local": "colon",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Graf",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "2001-11-16",
+     "hora": "19:00",
+     "local": "union",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "F. Domínguez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-16",
+     "hora": "21:00",
+     "local": "argentinos-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": []
+    },
+    {
+     "fecha": "2001-11-18",
+     "hora": "17:00",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Cardetti",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Cardetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ortega",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coudet",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-18",
+     "hora": "17:00",
+     "local": "lanus",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "2001-11-18",
+     "hora": "17:00",
+     "local": "rosario-central",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "D. Quinteros",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Meta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-18",
+     "hora": "17:00",
+     "local": "talleres",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Manfredi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saldaña",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-18",
+     "hora": "17:00",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás A. Ducó",
+     "goles": [
+      {
+       "jugador": "Soto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Adippe",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Forlán",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-18",
+     "hora": "17:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "2001-11-18",
+     "hora": "17:00",
+     "local": "racing-club",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Estévez",
+       "equipo": "local",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-18",
+     "hora": "19:30",
+     "local": "nueva-chicago",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Kmet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Riquelme",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "2001-11-01",
+     "hora": "16:00",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Barros Schelotto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carreño",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Estévez",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ],
+     "nota": "Se adelantó porque Boca jugaba la Copa Intercontinental"
+    },
+    {
+     "fecha": "2001-11-23",
+     "hora": "21:00",
+     "local": "independiente",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Montenegro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Forlán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Frutos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ruiz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-24",
+     "hora": "21:00",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Nanni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fuentes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Farías",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fuentes",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-24",
+     "hora": "19:00",
+     "local": "belgrano",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Brusco",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-25",
+     "hora": "16:00",
+     "local": "banfield",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Lujambio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Del Río",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-25",
+     "hora": "16:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Messera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Enría",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coyette",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-25",
+     "hora": "16:00",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Pavlovich",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Pavlovich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pavlovich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rosales",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Buján",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Villa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-25",
+     "hora": "17:00",
+     "local": "chacarita-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Moreno",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Yepes",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cardetti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "D'Alessandro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "D'Alessandro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-25",
+     "hora": "18:00",
+     "local": "colon",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Graf",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pereyra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Yaqué",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pérez Castro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Insúa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-11-25",
+     "hora": "19:30",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Cornejo",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "2001-11-30",
+     "hora": "21:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Maggiolo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-01",
+     "hora": "19:00",
+     "local": "lanus",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Moreno",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Quinteros",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-01",
+     "hora": "19:00",
+     "local": "huracan",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "2001-12-01",
+     "hora": "21:00",
+     "local": "talleres",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Garay",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rivarola",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "L. Rodríguez",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Filomeno",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-02",
+     "hora": "16:00",
+     "local": "nueva-chicago",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Jesús",
+       "equipo": "local"
+      },
+      {
+       "jugador": "F. Domínguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Husain",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-02",
+     "hora": "16:00",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Mantilla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sava",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-02",
+     "hora": "16:00",
+     "local": "union",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "15 de abril",
+     "goles": []
+    },
+    {
+     "fecha": "2001-12-02",
+     "hora": "17:00",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Bedoya",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cambiasso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-02",
+     "hora": "18:00",
+     "local": "rosario-central",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Romagnoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-02",
+     "hora": "19:30",
+     "local": "boca-juniors",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Lucchetti",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "2001-12-07",
+     "hora": "21:00",
+     "local": "independiente",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Silvera",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-08",
+     "hora": "19:00",
+     "local": "belgrano",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": [
+      {
+       "jugador": "López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Frutos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-08",
+     "hora": "19:30",
+     "local": "colon",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Graf",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-08",
+     "hora": "21:00",
+     "local": "chacarita-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Yaqué",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-09",
+     "hora": "11:00",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Villa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-09",
+     "hora": "17:00",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Pavlovich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Farías",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Pompei",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-09",
+     "hora": "16:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Sava",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Díaz",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Pizzi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pizzi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-09",
+     "hora": "17:00",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "D'Alessandro",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Cambiasso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Álvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cardetti",
+       "equipo": "local",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-09",
+     "hora": "17:00",
+     "local": "banfield",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás A. Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "2001-12-09",
+     "hora": "19:30",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Fuentes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Husain",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barijho",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Barros Schelotto",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "2001-12-14",
+     "hora": "21:10",
+     "local": "banfield",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Lujambio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dudar",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-15",
+     "hora": "19:10",
+     "local": "rosario-central",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Pizzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-15",
+     "hora": "19:10",
+     "local": "huracan",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás A. Ducó",
+     "goles": [
+      {
+       "jugador": "Gigena",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-15",
+     "hora": "20:00",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Maggiolo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maggiolo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-15",
+     "hora": "21:30",
+     "local": "union",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "15 de abril",
+     "goles": [
+      {
+       "jugador": "Wernly",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rivarola",
+       "equipo": "visitante",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Bevaqcua",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-16",
+     "hora": "11:10",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Barijho",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Schiavi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Riquelme",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Riquelme",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barros Schelotto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vuoso",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Eluchans",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Forlán",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-16",
+     "hora": "17:00",
+     "local": "nueva-chicago",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Jesús",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C. Gómez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mandra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rosales",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Real",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-16",
+     "hora": "18:10",
+     "local": "talleres",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Monrroy",
+       "equipo": "local"
+      },
+      {
+       "jugador": "La Paglia",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "La Paglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garay",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sava",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-16",
+     "hora": "18:10",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Arquitecto Ricardo Etcheverri",
+     "goles": [
+      {
+       "jugador": "Yaqué",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ortega",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Yepes",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cavenaghi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-16",
+     "hora": "18:10",
+     "local": "racing-club",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Maceratesi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chatruc",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "2001-12-27",
+     "hora": "18:10",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Chirumbolo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Loeschbor",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2001-12-27",
+     "hora": "18:10",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Cardetti",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Cardetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cardetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pereyra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ortega",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Álvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De Bruno",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "2002-02-01",
+     "hora": "20:00",
+     "local": "chacarita-juniors",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "La Paglia",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ],
+     "nota": "Se postergó por la crisis de diciembre de 2001 y se jugó en febrero de 2002"
+    },
+    {
+     "fecha": "2002-02-02",
+     "hora": "19:00",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Nuevo Gasómetro",
+     "goles": [
+      {
+       "jugador": "Franco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Filomeno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maggiolo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Quatrocchi",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se postergó por la crisis de diciembre de 2001 y se jugó en febrero de 2002"
+    },
+    {
+     "fecha": "2002-02-03",
+     "hora": "17:30",
+     "local": "colon",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Brigadier Estanislao López",
+     "goles": [],
+     "nota": "Se postergó por la crisis de diciembre de 2001 y se jugó en febrero de 2002"
+    },
+    {
+     "fecha": "2002-02-03",
+     "hora": "18:00",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Enría",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Choy",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De Porras",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Morquio",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se postergó por la crisis de diciembre de 2001 y se jugó en febrero de 2002"
+    },
+    {
+     "fecha": "2002-02-03",
+     "hora": "18:00",
+     "local": "lanus",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Romero",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Se postergó por la crisis de diciembre de 2001 y se jugó en febrero de 2002"
+    },
+    {
+     "fecha": "2002-02-05",
+     "hora": "19:00",
+     "local": "independiente",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Lujambio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lujambio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bueno",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se postergó por la crisis de diciembre de 2001 y se jugó en febrero de 2002"
+    },
+    {
+     "fecha": "2002-02-05",
+     "hora": "21:10",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Crosa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M. Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gaitán",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Carreño",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se postergó por la crisis de diciembre de 2001 y se jugó en febrero de 2002"
+    },
+    {
+     "fecha": "2002-02-05",
+     "hora": "20:00",
+     "local": "belgrano",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chateau Carreras",
+     "goles": [
+      {
+       "jugador": "Óbolo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Jesús",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mandra",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se postergó por la crisis de diciembre de 2001 y se jugó en febrero de 2002"
+    }
+   ]
+  }
+ ]
+}
