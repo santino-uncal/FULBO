@@ -97,5 +97,28 @@ class Temporada2019(unittest.TestCase):
         self.assertEqual(len(cargar(DATOS / "2019-superliga-19-20.js")["fechas"]), 23)
 
 
+class Titulos(unittest.TestCase):
+    def test_todos_los_torneos_terminados(self):
+        # data/ligas/argentina/titulos.js: cada torneo cargado (menos los dos últimos, que pueden estar en juego) tiene
+        # su campeón o una nota que dice por qué no suma un título
+        texto = (DATOS / "titulos.js").read_text(encoding="utf-8")
+        tit = json.loads(texto.split(" = ", 1)[1].strip().rstrip(";"))
+        indice = [t["clave"] for t in cargar(DATOS / "indice.js")]
+        for clave in indice[:-2]:
+            with self.subTest(torneo=clave):
+                self.assertTrue(clave in tit["torneos"] or clave in tit["notas"], "falta su campeón en titulos.js")
+        for clave in tit["torneos"]:
+            self.assertIn(clave, indice)
+        # la cuenta de la AFA al terminar el Apertura 2026
+        cuenta = dict(tit["antes"])
+        for clave in indice:
+            for e in tit["torneos"].get(clave, []):
+                club = e[0] if isinstance(e, list) else e
+                cuenta[club] = cuenta.get(club, 0) + 1
+        self.assertEqual((cuenta["river-plate"], cuenta["boca-juniors"], cuenta["racing-club"], cuenta["independiente"],
+                          cuenta["san-lorenzo"], cuenta["velez-sarsfield"], cuenta["estudiantes-de-la-plata"],
+                          cuenta["newell-s-old-boys"], cuenta["rosario-central"]), (38, 35, 18, 16, 15, 11, 7, 6, 5))
+
+
 if __name__ == "__main__":
     unittest.main()

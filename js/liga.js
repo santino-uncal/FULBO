@@ -35,6 +35,22 @@
     const jugado = p => p.gl != null;
     const todos = T.fechas.flatMap(f => f.partidos.map(p => ({ ...p, n: f.numero })));
     const zonaDe = {};
+    // Los títulos de liga de este torneo, con el número de cada uno para su club (data/ligas/argentina/titulos.js): los
+    // de antes de 1990 más los de los torneos cargados hasta este
+    const TIT = window.LIGA_TITULOS || {};
+    const TITULOS = (() => {
+      const cuenta = { ...TIT.antes };
+      for (const t of INDICE) {
+        const deEste = (TIT.torneos?.[t.clave] || []).map(e => {
+          const [club, texto] = Array.isArray(e) ? e : [e, null];
+          cuenta[club] = (cuenta[club] || 0) + 1;
+          return { club, texto, n: cuenta[club] };
+        });
+        if (t.clave === CLAVE) return deEste;
+      }
+      return [];
+    })();
+    const numeroTitulo = x => ` <small class="veces-campeon">· título de liga n.º ${x.n}</small>`;
     Object.entries(T.zonas).forEach(([z, ids]) => ids.forEach(id => { zonaDe[id] = z; }));
 
     document.title = `${T.nombre} — Liga Profesional Argentina`;
@@ -62,7 +78,11 @@
     if (campeon) {
       const c = document.getElementById("campeon-torneo");
       c.hidden = false;
-      c.innerHTML = `🏆 Campeón: ${nombreClub(campeon)}`;
+      const propio = TITULOS.find(x => !x.texto && x.club === campeon);
+      const nota = TIT.notas?.[CLAVE];
+      c.innerHTML = `🏆 Campeón: ${nombreClub(campeon)}${propio ? numeroTitulo(propio) : nota ? ` <small class="veces-campeon">(${esc(nota)})</small>` : ""}`
+        // otro título que se definió en este torneo (la final de 1990-91, la Superfinal 2012-13)
+        + TITULOS.filter(x => x.texto).map(x => `<br>🏆 ${esc(x.texto)}: ${nombreClub(x.club)}${numeroTitulo(x)}`).join("");
     }
 
 
@@ -244,7 +264,7 @@
       }).join("");
       const hoy = enJuego() ? " si el año terminara hoy" : "";
       return `<p class="vacio">${esc(T.anual_texto || `Suma la fase de zonas del Torneo Apertura y del Torneo Clausura ${T.anio}.`)}${T.anual ? " Los playoffs no cuentan." : ""}</p>
-        ${tituloAnual ? `<p class="campeon-torneo">🏆 ${esc(tituloAnual)}: ${nombreClub(anual[0].id)}
+        ${tituloAnual ? `<p class="campeon-torneo">🏆 ${esc(tituloAnual)}: ${nombreClub(anual[0].id)}${(x => x ? numeroTitulo(x) : "")(TITULOS.find(x => x.texto && x.club === anual[0].id))}
           <small class="vacio">(título que la AFA le dio al primero de la tabla anual)</small></p>` : ""}
         ${cu ? cuposHTML(cu) : ""}
         <div class="grupo tabla-larga"><table><thead><tr><th>#</th><th class="eq">Equipo</th><th>Pts</th><th>J</th><th class="gol">Gol</th><th>+/-</th>
