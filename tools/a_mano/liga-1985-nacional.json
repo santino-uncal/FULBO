@@ -1,0 +1,900 @@
+{
+ "nombre": "Campeonato Nacional 1985",
+ "fuente": "Resultados: RSSSF (Osvaldo José Gorgazzi y Javier Roimiser); estadios y, de la doble eliminación, goles y árbitros, de Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1985-02-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-cordoba",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-17",
+     "local": "santamarina",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Municipal General San Martín",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-17",
+     "local": "altos-hornos-zapla",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Emilio Fabrizzi",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-17",
+     "local": "temperley",
+     "visitante": "estudiantes-rio-cuarto",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Alfredo Beranger",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-17",
+     "local": "huracan",
+     "visitante": "guarani-antonio-franco",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-17",
+     "local": "talleres",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Ciudad de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-17",
+     "local": "river-plate",
+     "visitante": "cipolletti",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-17",
+     "local": "union",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-17",
+     "local": "huracan-las-heras",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Malvinas Argentinas",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-17",
+     "local": "san-lorenzo",
+     "visitante": "circulo-deportivo",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Club Atlético Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-17",
+     "local": "argentinos-juniors",
+     "visitante": "central-norte",
+     "gl": 8,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-17",
+     "local": "chacarita-juniors",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Coliseo de Mitre y Puccini",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-17",
+     "local": "argentino-firmat",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Félix Oriola",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-17",
+     "local": "san-martin-tucuman",
+     "visitante": "juventud-alianza",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-17",
+     "local": "instituto",
+     "visitante": "deportivo-espanol",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-17",
+     "local": "juventud-antoniana",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Doctor Luis Güemes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1985-02-24",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "santamarina",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-24",
+     "local": "racing-cordoba",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Miguel Sancho",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-24",
+     "local": "estudiantes-rio-cuarto",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Río Cuarto",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-24",
+     "local": "temperley",
+     "visitante": "altos-hornos-zapla",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Alfredo Beranger",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-24",
+     "local": "guarani-antonio-franco",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Clemente Fernández de Oliveira",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-24",
+     "local": "huracan",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-24",
+     "local": "cipolletti",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Visera de Cemento",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-24",
+     "local": "river-plate",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-24",
+     "local": "circulo-deportivo",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "José María Minella",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-24",
+     "local": "san-lorenzo",
+     "visitante": "huracan-las-heras",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Club Atlético Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-24",
+     "local": "argentinos-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-24",
+     "local": "central-norte",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Doctor Luis Güemes",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-24",
+     "local": "juventud-alianza",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Juventud Alianza",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-24",
+     "local": "san-martin-tucuman",
+     "visitante": "argentino-firmat",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-24",
+     "local": "deportivo-espanol",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "España",
+     "goles": []
+    },
+    {
+     "fecha": "1985-02-24",
+     "local": "instituto",
+     "visitante": "juventud-antoniana",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1985-03-03",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-03",
+     "local": "santamarina",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Municipal General San Martín",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-03",
+     "local": "altos-hornos-zapla",
+     "visitante": "estudiantes-rio-cuarto",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Emilio Fabrizzi",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-03",
+     "local": "boca-juniors",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-03",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-03",
+     "local": "talleres",
+     "visitante": "guarani-antonio-franco",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ciudad de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-03",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Del Bosque",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-03",
+     "local": "union",
+     "visitante": "cipolletti",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-03",
+     "local": "huracan-las-heras",
+     "visitante": "circulo-deportivo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Malvinas Argentinas",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-03",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-03",
+     "local": "belgrano",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Club Atlético Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-03",
+     "local": "chacarita-juniors",
+     "visitante": "central-norte",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Coliseo de Mitre y Puccini",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-03",
+     "local": "argentino-firmat",
+     "visitante": "juventud-alianza",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Félix Oriola",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-03",
+     "local": "velez-sarsfield",
+     "visitante": "san-martin-tucuman",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-03",
+     "local": "ferro-carril-oeste",
+     "visitante": "instituto",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-03",
+     "local": "juventud-antoniana",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Fray Honorato Pistoia",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1985-03-06",
+     "local": "platense",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-06",
+     "local": "santamarina",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Municipal General San Martín",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-06",
+     "local": "altos-hornos-zapla",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Centro Siderúrgico",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-06",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-rio-cuarto",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-06",
+     "local": "independiente",
+     "visitante": "guarani-antonio-franco",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-06",
+     "local": "talleres",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-06",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "cipolletti",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-06",
+     "local": "union",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-06",
+     "local": "huracan-las-heras",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Malvinas Argentinas",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-06",
+     "local": "newell-s-old-boys",
+     "visitante": "circulo-deportivo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-06",
+     "local": "belgrano",
+     "visitante": "central-norte",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-06",
+     "local": "chacarita-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-06",
+     "local": "argentino-firmat",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Félix Oriola",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-06",
+     "local": "velez-sarsfield",
+     "visitante": "juventud-alianza",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-06",
+     "local": "ferro-carril-oeste",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-06",
+     "local": "juventud-antoniana",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Fray Honorato Pistoia",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1985-03-10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-10",
+     "local": "racing-cordoba",
+     "visitante": "santamarina",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Miguel Sancho",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-10",
+     "local": "estudiantes-rio-cuarto",
+     "visitante": "altos-hornos-zapla",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Río Cuarto",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-10",
+     "local": "temperley",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Alfredo Beranger",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-10",
+     "local": "guarani-antonio-franco",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Clemente Fernández de Oliveira",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-10",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-10",
+     "local": "cipolletti",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Visera de Cemento",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-10",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-10",
+     "local": "circulo-deportivo",
+     "visitante": "huracan-las-heras",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "José María Minella",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-10",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-10",
+     "local": "argentinos-juniors",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-10",
+     "local": "central-norte",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Doctor Luis Güemes",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-10",
+     "local": "juventud-alianza",
+     "visitante": "argentino-firmat",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Juventud Alianza",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-10",
+     "local": "san-martin-tucuman",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-10",
+     "local": "deportivo-espanol",
+     "visitante": "juventud-antoniana",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "España",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-10",
+     "local": "instituto",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1985-03-17",
+     "local": "platense",
+     "visitante": "santamarina",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-17",
+     "local": "racing-cordoba",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Miguel Sancho",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-17",
+     "local": "boca-juniors",
+     "visitante": "altos-hornos-zapla",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-17",
+     "local": "estudiantes-rio-cuarto",
+     "visitante": "temperley",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Ciudad de Río Cuarto",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-17",
+     "local": "guarani-antonio-franco",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Clemente Fernández de Oliveira",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-17",
+     "local": "independiente",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-17",
+     "local": "cipolletti",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Visera de Cemento",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-17",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-17",
+     "local": "circulo-deportivo",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "José María Minella",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-17",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan-las-heras",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-17",
+     "local": "belgrano",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Club Atlético Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-17",
+     "local": "central-norte",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Doctor Luis Güemes",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-17",
+     "local": "juventud-alianza",
+     "visitante": "san-martin-tucuman",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juventud Alianza",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-17",
+     "local": "velez-sarsfield",
+     "visitante": "argentino-firmat",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-17",
+     "local": "deportivo-espanol",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "España",
+     "goles": []
+    },
+    {
+     "fecha": "1985-03-17",
+     "local": "ferro-carril-oeste",
+     "visitante": "juventud-antoniana",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}
