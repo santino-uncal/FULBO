@@ -33,12 +33,85 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1990: el Campeonato 1989-90 (agosto de 1989 a mayo de 1990; campeón River) fue el último de una sola tabla, a
+    # dos ruedas (38 fechas), con 2 puntos por partido ganado; va con el año en que terminó ("1990-temporada"). ESPN no
+    # lo tiene: va a mano (tools/a_mano; RSSSF, sin goles; Wikipedia, solo las fechas 1 a 8, con día y estadio). A
+    # Talleres, Rosario Central y Newell's les descontaron 2 puntos, y Rosario-Newell's lo perdieron los dos. Promedios de
+    # 1987-88 y 1988-89 (RSSSF y Wikipedia; 1988-89 sin el punto extra de los penales). Bajó Instituto (el último) y,
+    # empatados en el promedio, Chaco For Ever y Racing de Córdoba jugaron un desempate: bajó Racing. El segundo lugar en
+    # la Libertadores 1991 lo jugaron en una Liguilla Pre-Libertadores (RSSSF y Wikipedia; ganó Boca)
+    "1990-temporada": {"nombre": "Campeonato 1989-90", "anio": 1990, "liga": "a_mano", "slug": "1990-temporada",
+                       "zonas": "unica", "fechas": 38, "pasan": 0, "puntos_victoria": 2,
+                       "campeon_tabla": True, "temporada": "1989-90",
+                       "anual_texto": "La tabla del Campeonato 1989-90 (las 38 fechas). Cada partido ganado valía 2 puntos.",
+                       "goleadores_nota": "RSSSF no tiene los goles del campeonato: la lista es solo de la Liguilla. El "
+                                          "goleador del campeonato fue Ariel Cozzoni (Newell's), con 23 goles.",
+                       "descuentos": {"talleres": 2, "rosario-central": 2, "newell-s-old-boys": 2},
+                       "descuentos_texto": "A Talleres, a Rosario Central y a Newell's se les descontaron 2 puntos.",
+                       "nombre_playoffs": "Liguilla Pre-Libertadores",
+                       "playoffs": [(r"^$^", n) for n in ("Semifinales", "Final de la Liguilla")],
+                       "playoffs_a_mano": {
+                           "Semifinales": [
+                               {"hora_utc": "1990-05-27T19:00Z", "fecha": "1990-05-27", "local": "boca-juniors", "visitante": "deportivo-espanol", "gl": 1, "gv": 0, "estadio": "La Bombonera", "goles": [{"jugador": "Abramovich", "equipo": "local"}]},
+                               {"hora_utc": "1990-05-27T19:00Z", "fecha": "1990-05-27", "local": "independiente", "visitante": "rosario-central", "gl": 1, "gv": 1, "estadio": "La Doble Visera", "goles": [{"jugador": "Alfaro Moreno", "equipo": "local"}, {"jugador": "Pizzi", "equipo": "visitante"}]},
+                               {"hora_utc": "1990-05-30T19:00Z", "fecha": "1990-05-30", "local": "rosario-central", "visitante": "independiente", "gl": 1, "gv": 3, "estadio": "Gigante de Arroyito", "alargue": True, "goles": [{"jugador": "Pizzi", "equipo": "local"}, {"jugador": "Alfaro Moreno", "equipo": "visitante"}, {"jugador": "Alfaro Moreno", "equipo": "visitante"}, {"jugador": "Villarreal", "equipo": "visitante"}]},
+                               {"hora_utc": "1990-05-31T19:00Z", "fecha": "1990-05-31", "local": "deportivo-espanol", "visitante": "boca-juniors", "gl": 1, "gv": 1, "estadio": "Cancha de Vélez Sarsfield", "goles": [{"jugador": "Parodi", "equipo": "local"}, {"jugador": "Graciani", "equipo": "visitante"}]},
+                           ],
+                           "Final de la Liguilla": [
+                               {"hora_utc": "1990-06-03T19:00Z", "fecha": "1990-06-03", "local": "boca-juniors", "visitante": "independiente", "gl": 1, "gv": 0, "goles": [{"jugador": "Pico", "equipo": "local"}]},
+                               {"hora_utc": "1990-06-06T19:00Z", "fecha": "1990-06-06", "local": "independiente", "visitante": "boca-juniors", "gl": 0, "gv": 1, "goles": [{"jugador": "Latorre", "equipo": "visitante"}]},
+                           ],
+                       },
+                       "ida_y_vuelta": True,
+                       "cuadro": {"bloques": [("Liguilla Pre-Libertadores: por el segundo lugar en la Libertadores 1991",
+                                               [["Semifinales"], ["Final de la Liguilla"]])],
+                                  "nota": "La jugaron Independiente (el mejor de la primera rueda), Boca y Rosario Central "
+                                          "(los que siguieron a River en la tabla) y Deportivo Español. De los partidos hay "
+                                          "solo los goleadores, sin los minutos."},
+                       # (con 2 puntos por partido ganado)
+                       "promedios": {"1987-88": {"river-plate": [46, 38], "independiente": [37, 38], "boca-juniors": [35, 38],
+                                                 "racing-club": [48, 38], "san-lorenzo": [49, 38],
+                                                 "newell-s-old-boys": [55, 38], "argentinos-juniors": [40, 38],
+                                                 "gimnasia-y-esgrima": [43, 38], "deportivo-espanol": [40, 38],
+                                                 "rosario-central": [40, 38], "velez-sarsfield": [41, 38],
+                                                 "estudiantes-de-la-plata": [32, 38], "platense": [38, 38], "talleres": [27, 38],
+                                                 "ferro-carril-oeste": [33, 38], "racing-cordoba": [31, 38], "instituto": [33, 38]},
+                                     "1988-89": {"river-plate": [45, 38], "independiente": [55, 38], "boca-juniors": [49, 38],
+                                                 "racing-club": [40, 38], "san-lorenzo": [42, 38],
+                                                 "newell-s-old-boys": [33, 38], "argentinos-juniors": [42, 38],
+                                                 "gimnasia-y-esgrima": [36, 38], "deportivo-espanol": [46, 38],
+                                                 "rosario-central": [34, 38], "velez-sarsfield": [33, 38],
+                                                 "estudiantes-de-la-plata": [42, 38], "platense": [33, 38], "talleres": [44, 38],
+                                                 "deportivo-mandiyu": [33, 38], "ferro-carril-oeste": [30, 38],
+                                                 "racing-cordoba": [33, 38], "instituto": [23, 38]}},
+                       "descensos": "promedios", "descienden": 2,
+                       "desempate_a_mano": {"fecha": "1990-05-25", "local": "chaco-for-ever", "visitante": "racing-cordoba",
+                                            "gl": 5, "gv": 0, "estadio": "La Bombonera",
+                                            "goles": [{"jugador": "Ortolá", "equipo": "local"},
+                                                      {"jugador": "Scatolaro", "equipo": "local"},
+                                                      {"jugador": "Scatolaro", "equipo": "local"},
+                                                      {"jugador": "Salaberry", "equipo": "local"}]},
+                       "desempate_texto": "Chaco For Ever y Racing de Córdoba terminaron empatados en los promedios, arriba "
+                                          "de Instituto (que bajó por ser el último): lo definieron en un partido, en cancha "
+                                          "de Boca, y bajó Racing. RSSSF tiene solo cuatro de los cinco goles de Chaco.",
+                       "cupos": {"anio": 1991, "fijos": True,
+                                 "libertadores": [("Campeón del Campeonato 1989-90", "river-plate"),
+                                                  ("Ganador de la Liguilla Pre-Libertadores", "boca-juniors")]}},
+    # El Torneo Apertura 1990 (agosto-diciembre; campeón Newell's) abría la temporada 1990-91, que se jugó en dos
+    # torneos con una final entre los campeones (ver el Clausura 1991). Boca y San Lorenzo perdieron los dos el
+    # partido entre ellos. Los goles, de RSSSF (sin minutos)
+    "1990-apertura": {"nombre": "Torneo Apertura 1990", "anio": 1990, "liga": "a_mano", "slug": "1990-apertura",
+                      "zonas": "unica", "fechas": 19, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                      "goleadores_nota": "Goles de RSSSF, sin minutos.",
+                      "sin_descensos": "En el Torneo Apertura 1990 no hubo descensos: se definieron al terminar la "
+                                       "temporada 1990-91, con el Torneo Clausura 1991. El campeón de la temporada salió de "
+                                       "una final entre Newell's y Boca, el campeón del Clausura."},
     # 1991: dos torneos de 20 equipos a una rueda, con 2 puntos por partido ganado; ESPN no los tiene: van a mano
     # (tools/a_mano; RSSSF; Wikipedia no tiene los partidos del Clausura ni estadios ni días del Apertura). El Torneo
     # Clausura 1991 (febrero-junio; campeón Boca, invicto) cerraba la temporada 1990-91, que era un solo campeonato: su
     # campeón salió de una final entre los ganadores del Apertura 1990 (Newell's) y del Clausura (Boca), y ganó Newell's
     # por penales. El segundo lugar en la Libertadores 1992 lo jugaron en una Liguilla Pre-Libertadores (RSSSF y
-    # Wikipedia; ganó San Lorenzo). Su "tabla anual" es la de la temporada, con la tabla del Apertura 1990 (RSSSF; Boca y
+    # Wikipedia; ganó San Lorenzo). Su "tabla anual" es la de la temporada, con el Apertura 1990 (cargado a mano; Boca y
     # San Lorenzo perdieron los dos el partido entre ellos). Promedios de 1988-89 y 1989-90, de RSSSF. Bajaron los dos
     # últimos (Chaco For Ever y Lanús). Los goles del Clausura, de RSSSF (sin minutos)
     "1991-clausura": {"nombre": "Torneo Clausura 1991", "anio": 1991, "liga": "a_mano", "slug": "1991-clausura",
@@ -84,21 +157,8 @@ TORNEOS = {
                                          "A la Liguilla fueron el que perdió la final y los que siguieron en las tablas "
                                          "del Apertura y del Clausura. De los partidos hay solo los goleadores, sin los "
                                          "minutos."},
-                      # la tabla del Apertura 1990 (RSSSF; con 2 puntos por partido ganado): [pts, pj, g, e, p, gf, gc]
-                      # (Unión, 14 y 6 empates, de Wikipedia: RSSSF tiene 13 y 5, y así los empates no cierran;
-                      # Talleres, 8 perdidos: RSSSF tiene 9)
-                      "anual": {"newell-s-old-boys": [28, 19, 11, 6, 2, 30, 13], "river-plate": [26, 19, 11, 4, 4, 29, 13],
-                                "velez-sarsfield": [24, 19, 8, 8, 3, 27, 18], "argentinos-juniors": [23, 19, 9, 5, 5, 25, 17],
-                                "rosario-central": [23, 19, 9, 5, 5, 26, 21], "ferro-carril-oeste": [23, 19, 7, 9, 3, 19, 16],
-                                "estudiantes-de-la-plata": [20, 19, 6, 8, 5, 17, 17], "boca-juniors": [19, 19, 6, 7, 6, 18, 16],
-                                "huracan": [19, 19, 5, 9, 5, 20, 19], "independiente": [18, 19, 6, 6, 7, 21, 22],
-                                "san-lorenzo": [18, 19, 4, 10, 5, 15, 18], "talleres": [18, 19, 7, 4, 8, 23, 27],
-                                "racing-club": [17, 19, 2, 13, 4, 19, 21], "gimnasia-y-esgrima": [16, 19, 2, 12, 5, 15, 20],
-                                "platense": [16, 19, 5, 6, 8, 16, 22], "chaco-for-ever": [16, 19, 6, 4, 9, 19, 28],
-                                "deportivo-mandiyu": [15, 19, 4, 7, 8, 17, 21], "deportivo-espanol": [14, 19, 4, 6, 9, 18, 24],
-                                "union": [14, 19, 4, 6, 9, 21, 28], "lanus": [11, 19, 3, 5, 11, 11, 27]},
-                      "anual_texto": "La tabla de la temporada 1990-91: suma el Torneo Apertura 1990 (de RSSSF: no está "
-                                     "cargado partido por partido; Boca y San Lorenzo perdieron los dos el partido entre "
+                      "anual": [("a_mano", r"^1990-apertura$", 1990)],
+                      "anual_texto": "La tabla de la temporada 1990-91: suma el Torneo Apertura 1990 (Boca y San Lorenzo perdieron los dos el partido entre "
                                      "ellos, suspendido por la muerte de un hincha) y el Torneo Clausura 1991. Cada partido "
                                      "ganado valía 2 puntos. El campeón salió de la final entre los dos campeones.",
                       # (con 2 puntos por partido ganado)
@@ -1937,7 +1997,7 @@ PIERDEN_LOS_DOS = {"186468": (0, 2)}
 # la temporada 1999-00 del Clausura 2000)
 # Puntos por partido ganado en los torneos que no daban 3 ({clave del torneo a mano: puntos}): hasta el Clausura 1995,
 # 2 (se suman así también en la tabla del año 1995)
-PUNTOS_VICTORIA = {"1991-clausura": 2, "1991-apertura": 2, "1992-clausura": 2, "1992-apertura": 2, "1993-clausura": 2, "1993-apertura": 2, "1994-clausura": 2, "1994-apertura": 2, "1995-clausura": 2}
+PUNTOS_VICTORIA = {"1990-temporada": 2, "1990-apertura": 2, "1991-clausura": 2, "1991-apertura": 2, "1992-clausura": 2, "1992-apertura": 2, "1993-clausura": 2, "1993-apertura": 2, "1994-clausura": 2, "1994-apertura": 2, "1995-clausura": 2}
 DESCUENTOS = {(2014, "7"): 6, (1992, "2741", r"^1992-clausura$"): 2, (1993, "16", r"^1992-apertura$"): 2,
               (1993, "8713", r"^1992-apertura$"): 2, (1993, "17", r"^1993-clausura$"): 2, (1995, "19", r"^1994-apertura$"): 2, (2004, "6", r"^torneo-apertura-2003$"): 3, (2000, "5", r"^2000-clausura$"): 3,
               (2000, "12", r"^2000-clausura$"): 3, (2001, "lan", r"^2001-clausura$"): 3,
@@ -1973,7 +2033,8 @@ CLUBES_NUEVOS = {
     "des": ("deportivo-espanol", "Deportivo Español"),   # (no está en ESPN: 1997-98)
     "gyt": ("gimnasia-y-tiro", "Gimnasia y Tiro (Salta)"),   # (no está en ESPN: 1997-98)
     "dma": ("deportivo-mandiyu", "Deportivo Mandiyú"),
-    "cfe": ("chaco-for-ever", "Chaco For Ever"),   # (no está en ESPN: 1990-91)   # (no está en ESPN: 1994-95)
+    "cfe": ("chaco-for-ever", "Chaco For Ever"),   # (no está en ESPN: 1990-91)
+    "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
 }

@@ -1,4 +1,4 @@
-# Conversor usado en la fase 25 para cargar a mano los torneos 1991-2002 (tools/a_mano/liga-*.json).
+# Conversor usado en la fase 25 para cargar a mano los torneos 1990-2002 (tools/a_mano/liga-*.json).
 # Lee el texto de una página de RSSSF (tablesa/argNN.html pasada a texto) y el wikitext de Wikipedia de cada torneo,
 # los cruza y avisa las diferencias. Los archivos de entrada se bajan aparte, en la misma carpeta que este script.
 # Al final de cada año se corrigieron a mano notas, nombres y errores de las fuentes (ver fases/fase_25.md).
@@ -33,8 +33,13 @@ CLUBES = [  # (patrón normalizado al principio del nombre, id)
     ("sanmartin", "san-martin-tucuman"), ("chaco", "chaco-for-ever")]
 
 
+EXACTOS = {"racingc": "racing-cordoba", "racingcba": "racing-cordoba", "racingcordoba": "racing-cordoba"}
+
+
 def club(nombre):
     n = norm(nombre)
+    if n in EXACTOS:   # (Racing de Córdoba: "Racing (C)"; con el prefijo se confundiría con Racing Club)
+        return EXACTOS[n]
     for p, c in CLUBES:
         if n.startswith(p) and not (p == "gimnasiayesgrimaj" and n.startswith("gimnasiayesgrimalp")):
             return c
@@ -200,6 +205,7 @@ def goles(p):
 
 
 def limpiar(c):
+    c = re.sub(r"\{\{bandera[^}]*\}\}", "", c).strip()   # (1989-90: la bandera de la provincia de cada club)
     c = re.sub(r"<ref[^>]*/>", "", c)
     c = re.sub(r"<ref[^>]*>.*?</ref>", "", c)
     if "|" in c and not c.startswith("[["):   # atributos: 'bgcolor=...|texto'
@@ -227,7 +233,7 @@ def sacar_refn(c):
     nota = c[i + 2:j - 2]
     nota = re.sub(r"<ref[^>]*>.*?</ref>", "", nota, flags=re.S)
     nota = re.sub(r"^refn\|group=[^|]*\|", "", nota, flags=re.I)
-    nota = re.sub(r"^refn\|1=(.*?)\|group=[^|]*$", r"", nota, flags=re.I | re.S)   # (1991: {{Refn|1=texto|group="nota"}})
+    nota = re.sub(r"^refn\|1=(.*?)\|group=[^|]*$", r"\1", nota, flags=re.I | re.S)   # (1991: {{Refn|1=texto|group="nota"}})
     nota = re.sub(r"\[\[(?:[^|\]]*\|)?([^\]]*)\]\]", r"\1", nota).strip()
     return c[:i] + c[j:], nota
 
@@ -237,13 +243,16 @@ def leer_wiki(archivo, anio_de):
     t = (AQUI / archivo).read_text(encoding="utf-8")
     rondas = {}
     # (6 o 7 columnas: con estadio, día y hora; 3: solo el resultado, 1996)
-    for m in re.finditer(r"!colspan=\"?([367])\"?[^|\n]*\|Fecha (\d+)[^\n]*\n(.*?)(?=\n!colspan|\n\|\})", t, re.S):
+    # (5: día, local, resultado, visitante y estadio, 1989-90; el ganador va en una celda de título, con "!")
+    for m in re.finditer(r"!colspan=\"?([3567])\"?[^|\n]*\|Fecha (\d+)[^\n]*\n(.*?)(?=\n!colspan|\n\|\})", t, re.S):
         n, columnas = int(m.group(2)), int(m.group(1))
         filas = m.group(3).split("\n|-")[1:]
         filas = [f for f in filas if not f.strip().startswith("!")]
         span = {}   # columna: [valor, filas que quedan]
         for f in filas:
-            celdas = [x[1:] for x in f.strip().split("\n") if x.startswith("|")]
+            celdas = [x[1:] for x in f.strip().split("\n") if x.startswith("|") or (columnas == 5 and x.startswith("!"))]
+            if not celdas:   # (una fila vacía: "|-" dos veces seguidas)
+                continue
             fila, k = [], 0
             for col in range(columnas):
                 if col in span and span[col][1] > 0:
@@ -258,6 +267,8 @@ def leer_wiki(archivo, anio_de):
                 if rs:
                     span[col] = [v, int(rs.group(1)) - 1]
                 fila.append((v, nota) if nota else v)
+            if columnas == 5:   # (al orden de las otras: local, resultado, visitante, estadio, día, hora)
+                fila = fila[1:5] + [fila[0], None]
             fila += [None] * (6 - len(fila))
             notas = [x[1] for x in fila if isinstance(x, tuple)]
             fila = [x[0] if isinstance(x, tuple) else x for x in fila]
@@ -266,7 +277,10 @@ def leer_wiki(archivo, anio_de):
                 continue
             gl, gv = map(int, mr.groups())
             md = re.match(r"(\d+) de (\w+)(?: de (\d{4}))?", fila[4] or "")
-            if md:
+            mn = re.fullmatch(r"(\d\d)-(\d\d)-(\d{4})", fila[4] or "")
+            if mn:
+                fecha = f"{mn.group(3)}-{mn.group(2)}-{mn.group(1)}"
+            elif md:
                 mes = MESES_ES[md.group(2)]
                 fecha = f"{md.group(3) or anio_de(mes)}-{mes:02d}-{int(md.group(1)):02d}"
             else:
@@ -322,9 +336,10 @@ def armar(clave, rsssf, wiki, anio_de, nombre, fuente):
 
 
 if __name__ == "__main__":
-    # (Wikipedia no tiene los partidos del Clausura 1991: un archivo vacío)
-    d = armar("1991-clausura", ("arg91.txt", 563, 994), "w_vacio.txt", lambda m: 1991, "Torneo Clausura 1991", "")
-    (AQUI / "c1991.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
-    d = armar("1991-apertura", ("arg92.txt", 41, 346), "w_Torneo_Apertura_1991_(Argentina).txt", lambda m: 1991,
-              "Torneo Apertura 1991", "")
-    (AQUI / "a1991.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+    # (arg90.txt y arg91.txt, con los días "[Jan 26, 1990 Fri]" pasados a "[Jan 26, Fri]")
+    d = armar("1990-temporada", ("arg90.txt", 47, 633), "w_1989-90.txt", lambda m: 1989 if m >= 7 else 1990,
+              "Campeonato 1989-90", "")
+    (AQUI / "t1990.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+    # (Wikipedia no tiene los partidos del Apertura 1990: un archivo vacío)
+    d = armar("1990-apertura", ("arg91.txt", 45, 487), "w_vacio.txt", lambda m: 1990, "Torneo Apertura 1990", "")
+    (AQUI / "a1990.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")

@@ -1,0 +1,3451 @@
+{
+ "nombre": "Torneo Apertura 1990",
+ "fuente": "Resultados y goles (sin minutos): RSSSF (Pablo Ciullini). Wikipedia no tiene los partidos de este torneo: el día, de RSSSF, y la cancha solo cuando no era la del local. El mismo jugador escrito de dos formas: se unificó",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1990-08-20",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Trotta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-08-20",
+     "local": "newell-s-old-boys",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Martino",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-08-20",
+     "local": "boca-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Abramovich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pico",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tapia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "P.Hernández",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mac Allister",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-08-20",
+     "local": "deportivo-mandiyu",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [
+      {
+       "jugador": "Torres",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Torres",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saturno",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mohamed",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-08-20",
+     "local": "racing-club",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Andrada",
+       "equipo": "local"
+      },
+      {
+       "jugador": "V.Ramos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "V.Ramos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-08-20",
+     "local": "talleres",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "E.Vázquez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Airez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-08-20",
+     "local": "deportivo-espanol",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Sassone o/g",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-08-20",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1990-09-19",
+     "local": "lanus",
+     "visitante": "chaco-for-ever",
+     "gl": 1,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "Villagrán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Freyre",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tilico",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chilavert",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-19",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Santoro",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1990-08-27",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Suescum",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-08-27",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1990-08-27",
+     "local": "rosario-central",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "R.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gambier",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-08-27",
+     "local": "chaco-for-ever",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Niveyro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Niveyro",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-08-27",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Ubaldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-08-27",
+     "local": "union",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "V.Ramos",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-08-27",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Latorre",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Graciani",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-08-27",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1990-08-27",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Scotto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montenegro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-11",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1990-09-02",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Bello",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scotto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-02",
+     "local": "san-lorenzo",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Videla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cabrera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rentera",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-02",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Berizzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saturno",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-02",
+     "local": "boca-juniors",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Graciani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Graciani",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-02",
+     "local": "deportivo-mandiyu",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [
+      {
+       "jugador": "Olarticoechea",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-02",
+     "local": "racing-club",
+     "visitante": "chaco-for-ever",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1990-09-02",
+     "local": "talleres",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Ruiz Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fernández",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-02",
+     "local": "lanus",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Cuffaro Russo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Trivisono",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-02",
+     "local": "deportivo-espanol",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Albornoz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Amato",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-02",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Zárate",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1990-09-09",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Lucca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Erbín",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Craviotto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-09",
+     "local": "ferro-carril-oeste",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1990-09-09",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "Cordero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ríos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Schurrer",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Villagrán",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-09",
+     "local": "rosario-central",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Trivisono",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D'Ascanio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Kenig",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-09",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-09",
+     "local": "chaco-for-ever",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Tavares",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Blasón",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-09",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Giusti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Abramovich",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Latorre",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-09",
+     "local": "union",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "V.Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zamora",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tafarell",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fullana",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-09",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1990-09-09",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Ortega",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ivanovich",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Scotto",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1990-09-16",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Ortega",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-16",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1990-09-16",
+     "local": "san-lorenzo",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Rinaldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Videla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Borghi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-16",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Ruffini",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-16",
+     "local": "boca-juniors",
+     "visitante": "chaco-for-ever",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1990-09-16",
+     "local": "deportivo-mandiyu",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [
+      {
+       "jugador": "L.Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "L.Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Astrada",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-16",
+     "local": "racing-club",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Falaschi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-16",
+     "local": "talleres",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Montenegro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.Vázquez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Odriozola",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-16",
+     "local": "lanus",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Suescum",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-16",
+     "local": "deportivo-espanol",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Batista",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1990-09-23",
+     "local": "deportivo-espanol",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Bevilaqua",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bello",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Capria",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-23",
+     "local": "velez-sarsfield",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Gareca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luca",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-23",
+     "local": "ferro-carril-oeste",
+     "visitante": "talleres",
+     "gl": 4,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "D.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Agonil",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Kenig",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-23",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Amato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lanzidei",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-23",
+     "local": "rosario-central",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Bisconti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "L.Ramos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-23",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Higuaín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Da Silva",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-23",
+     "local": "chaco-for-ever",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 5,
+     "goles": [
+      {
+       "jugador": "Baille",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pochettino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zamora",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Martino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ruffini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Boldrini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-23",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Artime",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zandoná",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-23",
+     "local": "union",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "V.Ramos",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-23",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Mohamed",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saturno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "P.Hernández",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1990-09-30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Aredes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saturno",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-30",
+     "local": "argentinos-juniors",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Vidal González",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-30",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Spontón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scotto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nannini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianco",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-30",
+     "local": "san-lorenzo",
+     "visitante": "chaco-for-ever",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Reggiardo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-30",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Da Silva",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-30",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "C.Rodriguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Uliambre",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bisconti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-30",
+     "local": "deportivo-mandiyu",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [
+      {
+       "jugador": "L.Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olarticoechea",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Torres",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-30",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1990-09-30",
+     "local": "talleres",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "E.Vázquez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-09-30",
+     "local": "lanus",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Albornoz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Galván",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1990-10-07",
+     "local": "union",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "C.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saturno",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mohamed",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mohamed",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-07",
+     "local": "chaco-for-ever",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Cravero",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-08",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "W.Luna",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-08",
+     "local": "deportivo-espanol",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Bevilaqua",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gasparini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Peralta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-08",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Ruggeri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ortega Sánchez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-08",
+     "local": "ferro-carril-oeste",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Pobersnik",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quiroga",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-08",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1990-10-08",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 4,
+     "goles": [
+      {
+       "jugador": "Bisconti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bisconti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bisconti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gamboa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zamora",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ruffini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Saez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-08",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 4,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "R.Castillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Medina Bello",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Medina Bello",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Da Silva",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-08",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Insúa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rentera",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1990-10-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Peinado",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-14",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Insúa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-14",
+     "local": "argentinos-juniors",
+     "visitante": "chaco-for-ever",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Vidal González",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-14",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Astrada",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-14",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1990-10-14",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Zamora",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-14",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Batistuta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cristofanelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-14",
+     "local": "deportivo-mandiyu",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [
+      {
+       "jugador": "E.González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-14",
+     "local": "racing-club",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Ortega Sánchez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zaccanti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Albornoz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bevilaqua",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-14",
+     "local": "talleres",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Campagna",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chazarreta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Monje",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1990-10-19",
+     "local": "ferro-carril-oeste",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Cristofanelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Boldrini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-20",
+     "local": "independiente",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Alfaro Moreno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alfaro Moreno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "V.Ramos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "V.Ramos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-21",
+     "local": "talleres",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Taverna",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Peinado",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Centurión",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-21",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 4,
+     "goles": [
+      {
+       "jugador": "Schurrer",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ortega Sánchez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ortega Sánchez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Giménez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Giménez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-21",
+     "local": "deportivo-espanol",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Enrique",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vallejos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-21",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Acuña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moya",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-21",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Cordero",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-21",
+     "local": "rosario-central",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Bisconti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bisconti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-21",
+     "local": "river-plate",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Da Silva",
+       "equipo": "local"
+      },
+      {
+       "jugador": "P.Hernández",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "P.Hernández",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-21",
+     "local": "chaco-for-ever",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Chilavert",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Falero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mohamed",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Saturno",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1990-10-26",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Gamboa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-28",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Centurión",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alfaro Moreno",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bianco",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-28",
+     "local": "union",
+     "visitante": "chaco-for-ever",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "D.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chilavert",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chilavert",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-28",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Da Silva",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-28",
+     "local": "argentinos-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mac Allister",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-28",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1990-10-28",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Rinaldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "G.González o/g",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-28",
+     "local": "boca-juniors",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Enrique",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-28",
+     "local": "racing-club",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "Homann",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Campagna",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Campagna",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ortiz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-10-30",
+     "local": "deportivo-mandiyu",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [
+      {
+       "jugador": "Barrios",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gurrieri",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1990-11-02",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Santoro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Uliambre",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-04",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Paz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Craviotto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-04",
+     "local": "talleres",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Montenegro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Taverna",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-04",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "Schurrer",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pico",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "C.Rodriguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "C.Rodriguez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-04",
+     "local": "deportivo-espanol",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Boldrini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Martino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-04",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "nota": "Se suspendió a los 40 minutos (0-0); lo que faltaba se jugó el 11 de diciembre"
+    },
+    {
+     "fecha": "1990-11-04",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Pobersnik",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Agonil",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scotto",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Scotto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-04",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 4,
+     "goles": [
+      {
+       "jugador": "Ortega",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ortega",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rentera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cáceres",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-04",
+     "local": "river-plate",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1990-11-04",
+     "local": "chaco-for-ever",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Alfaro Moreno",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1990-11-09",
+     "local": "union",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "V.Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rabuñal",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-11",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "chaco-for-ever",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Centurión",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-11",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Ruiz Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alfaro Moreno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Medina Bello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-11",
+     "local": "huracan",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Mohamed",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mannarino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-11",
+     "local": "argentinos-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1990-11-11",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 5,
+     "goles": [
+      {
+       "jugador": "Nannini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mancuso",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "E.González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-11",
+     "local": "san-lorenzo",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Rinaldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tedini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caviglia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-11",
+     "local": "newell-s-old-boys",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Pochettino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zamora",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ruffini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-11",
+     "local": "boca-juniors",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1990-11-11",
+     "local": "deportivo-mandiyu",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [
+      {
+       "jugador": "L.Ramos",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1990-11-18",
+     "local": "deportivo-mandiyu",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1990-11-18",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Soñora",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-18",
+     "local": "talleres",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1990-11-18",
+     "local": "lanus",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1990-11-18",
+     "local": "deportivo-espanol",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Enrique",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Iglesias",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Parodi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scotto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-18",
+     "local": "velez-sarsfield",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Acosta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ortega",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Delgado",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Quiroz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-18",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Hoyos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Llane",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-18",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Daniele",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-18",
+     "local": "river-plate",
+     "visitante": "chaco-for-ever",
+     "gl": 4,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Da Silva",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Da Silva",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Da Silva",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silvani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baille",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1990-11-23",
+     "local": "union",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "D.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "V.Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pobersnik",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "V.Molina",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Alegre",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-25",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Berti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Da Silva",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-25",
+     "local": "chaco-for-ever",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "Saldivia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Freyre",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Santoro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Santoro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Santoro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-25",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Ubaldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-25",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Mohamed",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "E.González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-25",
+     "local": "argentinos-juniors",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Cabrera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ortega",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-25",
+     "local": "platense",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Bertolini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-25",
+     "local": "san-lorenzo",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Castro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rinaldi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-25",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Ruffini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martino",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-25",
+     "local": "boca-juniors",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Batistuta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cesar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marrero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "L.Ramos",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1990-11-30",
+     "local": "deportivo-mandiyu",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [
+      {
+       "jugador": "Ruffini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-30",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Lamadrid",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fiorotto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-30",
+     "local": "talleres",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Nannini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Scotto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-30",
+     "local": "lanus",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Villagrán",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-30",
+     "local": "velez-sarsfield",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Acosta",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-30",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Alegre",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "chaco-for-ever",
+     "gl": 4,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Mayor",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mayor",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Guendulain",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Amato",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-11-30",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bisconti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Higuaín",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Medina Bello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-01",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1990-12-01",
+     "local": "deportivo-espanol",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Iglesias",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saturno",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1990-12-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Trotta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trotta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aredes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gambier",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-07",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Silvani",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-07",
+     "local": "chaco-for-ever",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Cariaga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-07",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 4,
+     "goles": [
+      {
+       "jugador": "Alfaro Moreno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lenguita",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ruiz Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zalazar",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mancuso",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "E.González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-07",
+     "local": "union",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "D.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mauri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bevilaqua",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-07",
+     "local": "argentinos-juniors",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "E.Vázquez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-07",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1990-12-07",
+     "local": "san-lorenzo",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Reggiardo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Torres",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-07",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Gamboa",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-09",
+     "local": "huracan",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1990-12-14",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Boldrini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Boldrini",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-14",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Ferreyra",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió al terminar el primer tiempo (0-1) por los incidentes en los que murió un hincha: la AFA les dio el partido perdido a los dos",
+     "para_local": [
+      0,
+      1
+     ],
+     "para_visitante": [
+      0,
+      1
+     ]
+    },
+    {
+     "fecha": "1990-12-14",
+     "local": "deportivo-mandiyu",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [
+      {
+       "jugador": "Torres",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nannini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Nannini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-14",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Paz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fabbri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vidal González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rentera",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-14",
+     "local": "talleres",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Taverna",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mohamed",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Saturno",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-14",
+     "local": "lanus",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1990-12-14",
+     "local": "deportivo-espanol",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Alfaro Moreno",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Alfaro Moreno",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-14",
+     "local": "velez-sarsfield",
+     "visitante": "chaco-for-ever",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Gareca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ortola",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cariaga",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-14",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "goles": [
+      {
+       "jugador": "Silvani",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Da Silva",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Medina Bello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-14",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Ríos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cuffaro Russo",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1990-12-21",
+     "local": "chaco-for-ever",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Bevilaqua",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Albornoz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-21",
+     "local": "argentinos-juniors",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Cabrera",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-22",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1990-12-22",
+     "local": "rosario-central",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "goles": [
+      {
+       "jugador": "Alegre",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-22",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "goles": [
+      {
+       "jugador": "Da Silva",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gareca",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "E.González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-22",
+     "local": "independiente",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Insúa",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-22",
+     "local": "union",
+     "visitante": "talleres",
+     "gl": 4,
+     "gv": 4,
+     "goles": [
+      {
+       "jugador": "V.Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "V.Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Toresani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rabuñal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Kenig",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Kenig",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Taverna",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "E.Vázquez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-22",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1990-12-22",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "goles": [
+      {
+       "jugador": "Scotto",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1990-12-22",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Zandoná",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ruffini",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
