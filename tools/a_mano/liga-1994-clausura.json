@@ -1,0 +1,1654 @@
+{
+ "nombre": "Torneo Clausura 1994",
+ "fuente": "Resultados: RSSSF (Pablo Ciullini), sin goles. Wikipedia no tiene estadios ni días: el día, de RSSSF, y la cancha solo cuando no era la del local",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1994-03-25",
+     "local": "gimnasia-y-tiro",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-03-25",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-03-27",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-03-27",
+     "local": "lanus",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-03-27",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-03-27",
+     "local": "newell-s-old-boys",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-03-27",
+     "local": "belgrano",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1994-03-27",
+     "local": "river-plate",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-03-27",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-03-27",
+     "local": "huracan",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1994-04-01",
+     "local": "deportivo-espanol",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-02",
+     "local": "argentinos-juniors",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Malvinas Argentinas",
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-03",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-03",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-03",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-03",
+     "local": "banfield",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-03",
+     "local": "deportivo-mandiyu",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-03",
+     "local": "platense",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-03",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-06",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1994-04-08",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-09",
+     "local": "belgrano",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-09",
+     "local": "gimnasia-y-tiro",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-12",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-12",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-12",
+     "local": "lanus",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-12",
+     "local": "ferro-carril-oeste",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-12",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-12",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1994-04-15",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-16",
+     "local": "deportivo-mandiyu",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-16",
+     "local": "argentinos-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Malvinas Argentinas",
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-17",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-17",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-17",
+     "local": "independiente",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-17",
+     "local": "banfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-17",
+     "local": "rosario-central",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-17",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-17",
+     "local": "deportivo-espanol",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1994-04-22",
+     "local": "racing-club",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-23",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-23",
+     "local": "gimnasia-y-tiro",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-24",
+     "local": "deportivo-espanol",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-24",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-24",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-24",
+     "local": "lanus",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-24",
+     "local": "ferro-carril-oeste",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-24",
+     "local": "belgrano",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-24",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1994-04-29",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-30",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-30",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-30",
+     "local": "huracan",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-30",
+     "local": "banfield",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-30",
+     "local": "argentinos-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Malvinas Argentinas",
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-30",
+     "local": "rosario-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-30",
+     "local": "deportivo-mandiyu",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1994-04-30",
+     "local": "platense",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1994-05-03",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-03",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-03",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-03",
+     "local": "gimnasia-y-tiro",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-04",
+     "local": "deportivo-espanol",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-04",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-04",
+     "local": "racing-club",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-05",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-05",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-05",
+     "local": "belgrano",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1994-05-06",
+     "local": "river-plate",
+     "visitante": "belgrano",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-07",
+     "local": "gimnasia-y-tiro",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 4,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-07",
+     "local": "argentinos-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Malvinas Argentinas",
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-08",
+     "local": "velez-sarsfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-08",
+     "local": "huracan",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-08",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-08",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-08",
+     "local": "banfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-08",
+     "local": "rosario-central",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-08",
+     "local": "deportivo-mandiyu",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1994-05-13",
+     "local": "boca-juniors",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-14",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-15",
+     "local": "platense",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-15",
+     "local": "deportivo-espanol",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-15",
+     "local": "san-lorenzo",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-15",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-15",
+     "local": "lanus",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-15",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-15",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-15",
+     "local": "belgrano",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1994-05-20",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-21",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Malvinas Argentinas",
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-22",
+     "local": "gimnasia-y-tiro",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-22",
+     "local": "velez-sarsfield",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-22",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-22",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-22",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-22",
+     "local": "banfield",
+     "visitante": "deportivo-espanol",
+     "gl": 5,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-22",
+     "local": "rosario-central",
+     "visitante": "deportivo-mandiyu",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-23",
+     "local": "belgrano",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1994-05-27",
+     "local": "lanus",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-29",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-29",
+     "local": "deportivo-mandiyu",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-29",
+     "local": "platense",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-29",
+     "local": "deportivo-espanol",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-29",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-29",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-29",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-29",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 3,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-05-29",
+     "local": "newell-s-old-boys",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1994-06-03",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-06-04",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-06-04",
+     "local": "argentinos-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Malvinas Argentinas",
+     "goles": []
+    },
+    {
+     "fecha": "1994-06-05",
+     "local": "belgrano",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1994-06-05",
+     "local": "gimnasia-y-tiro",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-06-05",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-06-05",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-06-05",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-06-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-06-05",
+     "local": "banfield",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1994-06-10",
+     "local": "boca-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-06-11",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1994-06-12",
+     "local": "rosario-central",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-06-12",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-06-12",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-06-12",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-06-12",
+     "local": "lanus",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-06-12",
+     "local": "ferro-carril-oeste",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-06-13",
+     "local": "deportivo-mandiyu",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1994-06-13",
+     "local": "deportivo-espanol",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1994-07-22",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-07-23",
+     "local": "belgrano",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1994-07-24",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-07-24",
+     "local": "newell-s-old-boys",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-07-24",
+     "local": "gimnasia-y-tiro",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-07-24",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-07-24",
+     "local": "velez-sarsfield",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-07-24",
+     "local": "huracan",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-07-24",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "deportivo-mandiyu",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-07-24",
+     "local": "banfield",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1994-07-29",
+     "local": "deportivo-espanol",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1994-07-30",
+     "local": "argentinos-juniors",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Malvinas Argentinas",
+     "goles": []
+    },
+    {
+     "fecha": "1994-07-31",
+     "local": "deportivo-mandiyu",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1994-07-31",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-07-31",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-07-31",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-01",
+     "local": "boca-juniors",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-01",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "belgrano",
+     "gl": 3,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-01",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-01",
+     "local": "lanus",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1994-08-05",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-06",
+     "local": "velez-sarsfield",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-07",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-07",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-07",
+     "local": "gimnasia-y-tiro",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-07",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-07",
+     "local": "huracan",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-07",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-07",
+     "local": "independiente",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-08",
+     "local": "belgrano",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1994-08-12",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-13",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Malvinas Argentinas",
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-15",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-15",
+     "local": "banfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-15",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-15",
+     "local": "deportivo-mandiyu",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-15",
+     "local": "platense",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 4,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-15",
+     "local": "deportivo-espanol",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-15",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-15",
+     "local": "racing-club",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1994-08-19",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-20",
+     "local": "belgrano",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-21",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-21",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-21",
+     "local": "newell-s-old-boys",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-21",
+     "local": "gimnasia-y-tiro",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-21",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-21",
+     "local": "velez-sarsfield",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-21",
+     "local": "huracan",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-21",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 5,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1994-08-26",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-27",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Malvinas Argentinas",
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-27",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 1,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-28",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-28",
+     "local": "banfield",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-28",
+     "local": "deportivo-mandiyu",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-28",
+     "local": "platense",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-28",
+     "local": "deportivo-espanol",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-28",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1994-08-28",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

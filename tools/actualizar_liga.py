@@ -33,11 +33,73 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1994: dos torneos de 20 equipos a una rueda, con 2 puntos por partido ganado ("puntos_victoria" y
+    # PUNTOS_VICTORIA); ESPN no los tiene: van a mano (tools/a_mano; RSSSF, sin goles; Wikipedia no tiene estadios ni
+    # días). El Torneo Clausura 1994 (marzo-agosto; campeón Independiente) cerraba la temporada 1993-94: su "tabla
+    # anual" es la de la temporada, con la tabla del Apertura 1993 (RSSSF). Promedios de 1991-92 y 1992-93, de RSSSF.
+    # Bajaron los dos últimos (Estudiantes y Gimnasia y Tiro). Vélez fue a la Libertadores 1995 como campeón de la de
+    # 1994. A la Copa Conmebol 1994, los tres mejores de la temporada que no iban a otra copa (Wikipedia)
+    "1994-clausura": {"nombre": "Torneo Clausura 1994", "anio": 1994, "liga": "a_mano", "slug": "1994-clausura",
+                      "zonas": "unica", "fechas": 19, "pasan": 0, "puntos_victoria": 2,
+                      "campeon_tabla": True, "temporada": "1993-94", "nombre_anual": "Temporada y copas",
+                      "goleadores_nota": "RSSSF no tiene los goles de este torneo. Los goleadores fueron Hernán Crespo "
+                                         "(River) y Marcelo Espina (Platense), con 11 goles.",
+                      # la tabla del Apertura 1993 (RSSSF; con 2 puntos por partido ganado): [pts, pj, g, e, p, gf, gc]
+                      "anual": {"river-plate": [24, 19, 9, 6, 4, 29, 17], "velez-sarsfield": [23, 19, 8, 7, 4, 19, 14],
+                                "racing-club": [23, 19, 8, 7, 4, 23, 20], "boca-juniors": [22, 19, 8, 6, 5, 25, 12],
+                                "independiente": [22, 19, 7, 8, 4, 27, 20], "lanus": [22, 19, 6, 10, 3, 23, 18],
+                                "gimnasia-y-esgrima": [21, 19, 6, 9, 4, 21, 15], "san-lorenzo": [21, 19, 8, 5, 6, 23, 20],
+                                "banfield": [20, 19, 6, 8, 5, 20, 17], "ferro-carril-oeste": [19, 19, 4, 11, 4, 17, 20],
+                                "argentinos-juniors": [18, 19, 4, 10, 5, 23, 20], "huracan": [18, 19, 5, 8, 6, 22, 23],
+                                "deportivo-mandiyu": [17, 19, 5, 7, 7, 25, 24], "platense": [17, 19, 4, 9, 6, 22, 24],
+                                "newell-s-old-boys": [17, 19, 4, 9, 6, 16, 22], "gimnasia-y-tiro": [16, 19, 5, 6, 8, 16, 25],
+                                "belgrano": [16, 19, 4, 8, 7, 18, 30], "rosario-central": [15, 19, 2, 11, 6, 15, 24],
+                                "deportivo-espanol": [15, 19, 3, 9, 7, 8, 20], "estudiantes-de-la-plata": [14, 19, 3, 8, 8, 16, 23]},
+                      "anual_texto": "La tabla de la temporada 1993-94: suma el Torneo Apertura 1993 (de RSSSF: no está "
+                                     "cargado partido por partido) y el Torneo Clausura 1994. Cada partido ganado valía 2 puntos.",
+                      # (con 2 puntos por partido ganado)
+                      "promedios": {"1991-92": {"river-plate": [55, 38], "boca-juniors": [50, 38], "velez-sarsfield": [48, 38],
+                                                "independiente": [36, 38], "huracan": [38, 38], "san-lorenzo": [34, 38],
+                                                "deportivo-espanol": [45, 38], "racing-club": [39, 38],
+                                                "gimnasia-y-esgrima": [41, 38], "rosario-central": [34, 38],
+                                                "ferro-carril-oeste": [37, 38], "belgrano": [35, 38], "platense": [42, 38],
+                                                "newell-s-old-boys": [44, 38], "argentinos-juniors": [35, 38],
+                                                "deportivo-mandiyu": [33, 38], "estudiantes-de-la-plata": [29, 38]},
+                                    "1992-93": {"river-plate": [46, 38], "boca-juniors": [48, 38], "velez-sarsfield": [48, 38],
+                                                "independiente": [41, 38], "huracan": [43, 38], "san-lorenzo": [45, 38],
+                                                "deportivo-espanol": [41, 38], "lanus": [37, 38], "racing-club": [36, 38],
+                                                "gimnasia-y-esgrima": [34, 38], "rosario-central": [39, 38],
+                                                "ferro-carril-oeste": [38, 38], "belgrano": [38, 38], "platense": [28, 38],
+                                                "newell-s-old-boys": [25, 38], "argentinos-juniors": [33, 38],
+                                                "deportivo-mandiyu": [37, 38], "estudiantes-de-la-plata": [38, 38]}},
+                      "descensos": "promedios", "descienden": 2,
+                      "cupos": {"anio": 1995, "anio_sudamericana": 1994, "nombre_sudamericana": "Copa Conmebol", "fijos": True,
+                                "libertadores": [("Campeón de la Copa Libertadores 1994 (lugar aparte)", "velez-sarsfield"),
+                                                 ("Campeón del Torneo Apertura 1993", "river-plate"),
+                                                 ("Campeón del Torneo Clausura 1994", "independiente")],
+                                "sudamericana": [("Tabla de la temporada 1993-94", "san-lorenzo"),
+                                                 ("Tabla de la temporada 1993-94", "huracan"),
+                                                 ("Tabla de la temporada 1993-94", "lanus")],
+                                "nota": "A la Supercopa 1994 fueron invitados Vélez, River, Boca, Racing, Independiente, "
+                                        "Estudiantes y Argentinos; por eso no podían jugar la Copa Conmebol."}},
+    # El Torneo Apertura 1994 (septiembre-diciembre; campeón River) abría la temporada 1994-95. A Talleres le
+    # descontaron 2 puntos (RSSSF y Wikipedia no dicen por qué); en la temporada 1994-95 del Clausura 1995, por DESCUENTOS
+    "1994-apertura": {"nombre": "Torneo Apertura 1994", "anio": 1994, "liga": "a_mano", "slug": "1994-apertura",
+                      "zonas": "unica", "fechas": 19, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                      "goleadores_nota": "RSSSF no tiene los goles de este torneo. El goleador fue Enzo Francescoli "
+                                         "(River), con 12 goles.",
+                      "descuentos": {"talleres": 2},
+                      "descuentos_texto": "A Talleres se le descontaron 2 puntos.",
+                      "anual": [("a_mano", r"^1994-clausura$")],
+                      "anual_texto": "La tabla del año 1994: suma el Torneo Clausura 1994 y el Torneo Apertura 1994 (con 2 "
+                                     "puntos por partido ganado). No daba lugares en las copas: salían de la temporada.",
+                      "sin_descensos": "En el Torneo Apertura 1994 no hubo descensos: se definieron al terminar la "
+                                       "temporada 1994-95, con el Torneo Clausura 1995."},
     # 1995: dos torneos de 20 equipos a una rueda; ESPN no los tiene: van a mano, como 1996 a 2002 (tools/a_mano;
     # RSSSF, sin goles el Clausura y con los goles y sus minutos el Apertura; Wikipedia no tiene estadios ni días). El
     # Torneo Clausura 1995 (febrero-junio; campeón San Lorenzo) cerraba la temporada 1994-95 y fue el último con 2
     # puntos por partido ganado ("puntos_victoria"; también en sumar, por PUNTOS_VICTORIA): su "tabla anual" es la de
-    # la temporada, con la tabla del Apertura 1994 (RSSSF; Talleres, con los 2 puntos que le descontaron). Promedios de
+    # la temporada, con el Apertura 1994 (cargado a mano; a Talleres, 2 puntos menos por DESCUENTOS). Promedios de
     # 1992-93 y 1993-94, de RSSSF. Bajaron los dos últimos (Deportivo Mandiyú y Talleres). A la Copa Conmebol 1995, los
     # dos mejores de la temporada que no iban a otra copa (Wikipedia)
     "1995-clausura": {"nombre": "Torneo Clausura 1995", "anio": 1995, "liga": "a_mano", "slug": "1995-clausura",
@@ -45,20 +107,9 @@ TORNEOS = {
                       "campeon_tabla": True, "temporada": "1994-95", "nombre_anual": "Temporada y copas",
                       "goleadores_nota": "RSSSF no tiene los goles de este torneo. El goleador fue José Oscar Flores "
                                          "(Vélez), con 14 goles.",
-                      # la tabla del Apertura 1994 (RSSSF; con 2 puntos por partido ganado): [pts, pj, g, e, p, gf, gc]
-                      "anual": {"river-plate": [31, 19, 12, 7, 0, 31, 14], "san-lorenzo": [26, 19, 9, 8, 2, 30, 21],
-                                "velez-sarsfield": [24, 19, 9, 6, 4, 28, 16], "newell-s-old-boys": [23, 19, 7, 9, 3, 22, 14],
-                                "argentinos-juniors": [22, 19, 8, 6, 5, 24, 19], "belgrano": [21, 19, 7, 7, 5, 25, 18],
-                                "lanus": [21, 19, 7, 7, 5, 20, 24], "banfield": [20, 19, 7, 6, 6, 20, 15],
-                                "rosario-central": [20, 19, 7, 6, 6, 22, 20], "gimnasia-y-esgrima": [20, 19, 5, 10, 4, 20, 19],
-                                "independiente": [19, 19, 7, 5, 7, 29, 28], "racing-club": [19, 19, 6, 7, 6, 15, 18],
-                                "boca-juniors": [17, 19, 5, 7, 7, 29, 28], "huracan": [16, 19, 6, 4, 9, 22, 25],
-                                "platense": [16, 19, 5, 6, 8, 19, 24], "ferro-carril-oeste": [16, 19, 5, 6, 8, 21, 30],
-                                "gimnasia-jujuy": [15, 19, 6, 3, 10, 13, 24], "deportivo-espanol": [12, 19, 3, 6, 10, 16, 26],
-                                "deportivo-mandiyu": [11, 19, 1, 9, 9, 19, 31], "talleres": [9, 19, 2, 7, 10, 18, 29]},
-                      "anual_texto": "La tabla de la temporada 1994-95: suma el Torneo Apertura 1994 (de RSSSF: no está "
-                                     "cargado partido por partido; a Talleres le descontaron 2 puntos) y el Torneo "
-                                     "Clausura 1995. Cada partido ganado valía 2 puntos.",
+                      "anual": [("a_mano", r"^1994-apertura$", 1994)],
+                      "anual_texto": "La tabla de la temporada 1994-95: suma el Torneo Apertura 1994 (a Talleres le "
+                                     "descontaron 2 puntos) y el Torneo Clausura 1995. Cada partido ganado valía 2 puntos.",
                       # (con 2 puntos por partido ganado)
                       "promedios": {"1992-93": {"san-lorenzo": [45, 38], "river-plate": [46, 38], "velez-sarsfield": [48, 38],
                                                 "boca-juniors": [48, 38], "independiente": [41, 38],
@@ -1625,10 +1676,10 @@ PIERDEN_LOS_DOS = {"186468": (0, 2)}
 # Andes) están en la tabla del torneo ("descuentos" en
 # TORNEOS); acá, para la tabla que los suma (el año es el del torneo que muestra esa tabla: los del Apertura 1999, en
 # la temporada 1999-00 del Clausura 2000)
-# Puntos por partido ganado en los torneos que no daban 3 ({clave del torneo a mano: puntos}): el Clausura 1995 fue el
-# último con 2 (se suman así también en la tabla del año 1995)
-PUNTOS_VICTORIA = {"1995-clausura": 2}
-DESCUENTOS = {(2014, "7"): 6, (2004, "6", r"^torneo-apertura-2003$"): 3, (2000, "5", r"^2000-clausura$"): 3,
+# Puntos por partido ganado en los torneos que no daban 3 ({clave del torneo a mano: puntos}): hasta el Clausura 1995,
+# 2 (se suman así también en la tabla del año 1995)
+PUNTOS_VICTORIA = {"1994-clausura": 2, "1994-apertura": 2, "1995-clausura": 2}
+DESCUENTOS = {(2014, "7"): 6, (1995, "19", r"^1994-apertura$"): 2, (2004, "6", r"^torneo-apertura-2003$"): 3, (2000, "5", r"^2000-clausura$"): 3,
               (2000, "12", r"^2000-clausura$"): 3, (2001, "lan", r"^2001-clausura$"): 3,
               (1999, "7", r"^1999-clausura$"): 3, (2000, "18", r"^1999-apertura$"): 3,
               (2000, "21", r"^1999-apertura$"): 3, (2000, "2975", r"^1999-apertura$"): 3,
