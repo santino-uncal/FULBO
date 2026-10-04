@@ -13,7 +13,7 @@
     : delAnio.length ? delAnio.at(-1).clave : INDICE.at(-1)?.clave;
   const RONDA = { 8: "los octavos de final", 4: "los cuartos de final", 2: "las semifinales" };
   const VISTAS = [["tabla", "Tabla"], ["fechas", "Fechas"], ["playoffs", "Playoffs"], ["anual", "Tabla anual"],
-    ["promedios", "Promedios"], ["goleadores", "Goleadores"]];
+    ["promedios", "Promedios"], ["goleadores", "Goleadores"], ["asistidores", "Asistidores"]];
   const ligaEl = document.getElementById("liga");
   const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const DIAS = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
@@ -546,11 +546,30 @@
         <th class="opc" title="De penal">Pen.</th></tr></thead><tbody>${cuerpo}</tbody></table></div>` : faltan ? "" : `<p class="vacio">Todavía no hay goles.</p>`);
     }
 
+    // ---- Asistidores: el que dio el pase de cada gol (ESPN lo tiene desde el Inicial 2013; viene solo el nombre, y el
+    // club es el del que hizo el gol) ----
+    const conAsistencia = todos.concat(T.playoffs.flatMap(r => r.partidos)).flatMap(p => (p.goles || [])
+      .filter(x => x.asistencia && x.tipo !== "ec").map(x => ({ nombre: x.asistencia, eq: x.equipo === "visitante" ? p.visitante : p.local })));
+    function vistaAsistidores() {
+      const a = {};
+      conAsistencia.forEach(x => { (a[`${x.eq}|${x.nombre}`] ||= { ...x, asist: 0 }).asist++; });
+      const filas = Object.values(a).sort((x, y) => y.asist - x.asist || x.nombre.localeCompare(y.nombre));
+      let pos = 0;
+      const cuerpo = filas.slice(0, 40).map((f, i) => {
+        if (!i || f.asist !== filas[i - 1].asist) pos = i + 1;
+        return `<tr><td class="pos">${pos}</td><td class="eq">${esc(f.nombre)}</td><td class="eq club-goleador">${nombreClub(f.eq)}</td>
+          <td class="pts">${f.asist}</td></tr>`;
+      }).join("");
+      return `<div class="grupo goleadores"><table><thead><tr><th>#</th><th class="eq">Jugador</th><th class="eq">Club</th>
+        <th title="Asistencias">Asist.</th></tr></thead><tbody>${cuerpo}</tbody></table></div>`;
+    }
+
     // ---- Pestañas ----
     // las pestañas que tiene este torneo (sin fase regular, la Copa de la Superliga 2019: el cuadro y los goleadores;
     // con cupos pero sin tabla anual, las Superligas: la de la tabla anual es la de las copas y el descenso)
     const hay = v => (v !== "tabla" && v !== "fechas" || T.fechas.length) && (v !== "promedios" || T.promedios)
-      && (v !== "anual" || T.anual || T.cupos) && (v !== "playoffs" || T.pasan || T.playoffs.length);
+      && (v !== "anual" || T.anual || T.cupos) && (v !== "playoffs" || T.pasan || T.playoffs.length)
+      && (v !== "asistidores" || conAsistencia.length);   // las asistencias, solo desde el Inicial 2013
     const nombreVista = (v, n) => v === "anual" && T.nombre_anual ? T.nombre_anual : v === "anual" && !T.anual ? "Copas y descenso" : v === "playoffs" && !T.fechas.length ? "Cuadro y partidos"
       : v === "playoffs" && T.nombre_playoffs ? T.nombre_playoffs : n;
     const inicial = T.fechas.length ? "tabla" : "playoffs";
@@ -563,7 +582,7 @@
         history.pushState({ vista, fechaVista }, "", `?${q}`);
       }
       const html = { tabla: vistaTabla, fechas: vistaFechas, playoffs: vistaPlayoffs, anual: vistaAnual, promedios: vistaPromedios,
-        goleadores: vistaGoleadores }[vista]();
+        goleadores: vistaGoleadores, asistidores: vistaAsistidores }[vista]();
       ligaEl.innerHTML = `<div class="pestanas" role="tablist">${VISTAS.filter(([v]) => hay(v)).map(([v, n]) =>
         `<button class="pestana" type="button" role="tab" data-vista="${v}" aria-selected="${v === vista}">${nombreVista(v, n)}</button>`).join("")}</div>${html}`;
     }
