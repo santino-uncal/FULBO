@@ -470,6 +470,8 @@ details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .cupo-titulo { min-width: 11em; color: var(--texto-suave); font-size: .9rem; }
 .campeon-de { font-size: .85em; }
 .grupo .eq.club-goleador { font-weight: 400; color: var(--texto-suave); }
+/* goleadores y asistidores: el jugador y el club se reparten el ancho (si no, el club queda aplastado y no se ve) */
+.goleadores .eq { width: 50%; }
 .ligas a { color: inherit; text-decoration: none; display: contents; }
 .ligas li:has(a) { border-color: var(--acento); }
 .ligas li:has(a):hover { background: var(--panel-2); }
