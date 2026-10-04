@@ -32,6 +32,88 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 2004: dos torneos de 20 equipos a una rueda. El Torneo Clausura 2004 (febrero-junio; campeón River) cerraba la
+    # temporada 2003-04: su "tabla anual" es la de la temporada (el Apertura 2003 y el Clausura 2004). Bajaron los dos
+    # últimos de los promedios (2001-02, 2002-03 y 2003-04) y los dos de arriba jugaron la Promoción contra equipos de la
+    # B Nacional y perdieron: Atlético de Rafaela con Huracán de Tres Arroyos (de local en Mar del Plata) y Talleres con
+    # Argentinos (de local en Mendoza). ESPN no tiene esos partidos, van a mano (Wikipedia, La Nueva, La Nación). Con la
+    # temporada quedaron definidos los cupos de la Sudamericana 2004 y de la Libertadores 2005, fijos
+    "2004-clausura": {"nombre": "Torneo Clausura 2004", "anio": 2004, "slug": "clausura-2004",
+                      "patron": r"^torneo-clausura-2004$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True, "temporada": "2003-04", "nombre_anual": "Temporada y copas",
+                      "nombre_playoffs": "Promoción", "playoffs": [(r"^$^", "Promoción")],
+                      "playoffs_a_mano": {"Promoción": [
+                          {"hora_utc": "2004-06-30T22:00Z", "fecha": "2004-06-30", "local": "2974",
+                           "visitante": "atletico-rafaela", "gl": 2, "gv": 1, "estadio": "José María Minella (Mar del Plata)",
+                           "arbitro": "Gustavo Bassi",
+                           "goles": [{"jugador": "Claudio García", "min": 23, "equipo": "local"},
+                                     {"jugador": "Fabián Césaro", "min": 51, "equipo": "visitante"},
+                                     {"jugador": "Ezequiel Miralles", "min": 57, "equipo": "local"}]},
+                          {"hora_utc": "2004-07-01T22:00Z", "fecha": "2004-07-01", "local": "3", "visitante": "talleres",
+                           "gl": 2, "gv": 1, "estadio": "Malvinas Argentinas (Mendoza)",
+                           "goles": [{"jugador": "Aldo Osorio", "min": 28, "equipo": "visitante"},
+                                     {"jugador": "Jorge Quinteros", "min": 45, "equipo": "local"},
+                                     {"jugador": "Jorge Quinteros", "min": 78, "equipo": "local"}]},
+                          {"hora_utc": "2004-07-04T19:00Z", "fecha": "2004-07-04", "local": "atletico-rafaela",
+                           "visitante": "2974", "gl": 2, "gv": 3, "estadio": "Monumental (Rafaela)", "arbitro": "Gabriel Favale",
+                           "goles": [{"jugador": "Gandín", "equipo": "local"},
+                                     {"jugador": "Emanuel Villa", "equipo": "local"},
+                                     {"jugador": "Cristian Galván", "equipo": "visitante"},
+                                     {"jugador": "Jorge Izquierdo", "min": 59, "equipo": "visitante"},
+                                     {"jugador": "Jorge Izquierdo", "min": 69, "equipo": "visitante"}]},
+                          {"hora_utc": "2004-07-04T20:00Z", "fecha": "2004-07-04", "hora": "17:00", "local": "talleres",
+                           "visitante": "3", "gl": 1, "gv": 2, "estadio": "Chateau Carreras (Córdoba)",
+                           "goles": [{"jugador": "Gustavo Oberman", "min": 1, "equipo": "visitante"},
+                                     {"jugador": "Luciano De Bruno", "min": 68, "tipo": "pen", "equipo": "local"},
+                                     {"jugador": "Jorge Quinteros", "min": 88, "tipo": "pen", "equipo": "visitante"}]}]},
+                      "ida_y_vuelta": True, "ventaja": ["atletico-rafaela", "talleres"],
+                      "cuadro": {"bloques": [("Promoción: los equipos de Primera contra los de la B Nacional",
+                                              [["Promoción"]])],
+                                 "nota": "Con el global igualado se quedaba en Primera el equipo de Primera. Los dos "
+                                         "perdieron y bajaron: subieron Huracán de Tres Arroyos y Argentinos. De la "
+                                         "vuelta en Rafaela no se encontraron los minutos de los goles del primer tiempo."},
+                      "anual": [("arg.1", r"^torneo-apertura-2003$", 2003), ("arg.1", r"^torneo-apertura-2003$", 2004)],
+                      "anual_texto": "La tabla de la temporada 2003-04: suma el Torneo Apertura 2003 y el Torneo Clausura 2004. "
+                                     "A Chacarita se le descontaron 3 puntos por los incidentes en el partido con Boca.",
+                      # (ESPN no tiene el Apertura 2001 ni el 2002: los puntos de esas temporadas, de la tabla de
+                      # promedios de Wikipedia)
+                      "promedios": {"2001-02": {"river-plate": [84, 38], "boca-juniors": [68, 38], "san-lorenzo": [57, 38],
+                                                "racing-club": [68, 38], "velez-sarsfield": [48, 38], "colon": [56, 38],
+                                                "banfield": [48, 38], "newell-s-old-boys": [51, 38],
+                                                "gimnasia-y-esgrima": [64, 38], "independiente": [41, 38],
+                                                "rosario-central": [40, 38], "lanus": [51, 38],
+                                                "estudiantes-de-la-plata": [51, 38], "talleres": [30, 38],
+                                                "chacarita-juniors": [47, 38], "nueva-chicago": [48, 38]},
+                                    "2002-03": {"river-plate": [79, 38], "boca-juniors": [79, 38], "san-lorenzo": [56, 38],
+                                                "racing-club": [53, 38], "velez-sarsfield": [66, 38], "colon": [57, 38],
+                                                "banfield": [48, 38], "arsenal-de-sarandi": [49, 38],
+                                                "newell-s-old-boys": [49, 38], "gimnasia-y-esgrima": [46, 38],
+                                                "independiente": [61, 38], "rosario-central": [62, 38], "lanus": [51, 38],
+                                                "estudiantes-de-la-plata": [43, 38], "olimpo": [51, 38],
+                                                "talleres": [44, 38], "chacarita-juniors": [41, 38],
+                                                "nueva-chicago": [41, 38]}},
+                      "descensos": "promedios", "descienden": 2, "promocion": 2,
+                      "cupos": {"anio": 2005, "anio_sudamericana": 2004, "fijos": True,
+                                "libertadores": [("Campeón del Torneo Apertura 2003", "boca-juniors"),
+                                                 ("Campeón del Torneo Clausura 2004", "river-plate"),
+                                                 ("Tabla de la temporada 2003-04", "banfield"),
+                                                 ("Tabla de la temporada 2003-04", "san-lorenzo"),
+                                                 ("Tabla de la temporada 2003-04", "quilmes")],
+                                "sudamericana": [("Tabla de la temporada 2003-04", "banfield"),
+                                                 ("Tabla de la temporada 2003-04", "san-lorenzo"),
+                                                 ("Tabla de la temporada 2003-04", "quilmes"),
+                                                 ("Tabla de la temporada 2003-04", "arsenal-de-sarandi"),
+                                                 ("Invitado por la Conmebol", "boca-juniors"),
+                                                 ("Invitado por la Conmebol", "river-plate")]}},
+    # El Torneo Apertura 2004 (agosto-diciembre; campeón Newell's) abría la temporada 2004-05
+    "2004-apertura": {"nombre": "Torneo Apertura 2004", "anio": 2004, "slug": "apertura-2004",
+                      "patron": r"^torneo-apertura-2004$", "zonas": "unica", "fechas": 19, "pasan": 0,
+                      "campeon_tabla": True,
+                      "anual": [("arg.1", r"^torneo-clausura-2004$")],
+                      "anual_texto": "La tabla del año 2004: suma el Torneo Clausura 2004 y el Torneo Apertura 2004. No "
+                                     "daba lugares en las copas: salían de la tabla de la temporada.",
+                      "sin_descensos": "En el Torneo Apertura 2004 no hubo descensos: se definieron al terminar la "
+                                       "temporada 2004-05, con el Torneo Clausura 2005."},
     # 2005: dos torneos de 20 equipos a una rueda. El Torneo Clausura 2005 (febrero-julio; campeón Vélez) cerraba la
     # temporada 2004-05: su "tabla anual" es la de la temporada (el Apertura 2004 y el Clausura 2005). Bajaron los dos
     # últimos de los promedios (2002-03, 2003-04 y 2004-05) y los dos de arriba jugaron la Promoción contra equipos de la
@@ -923,7 +1005,22 @@ GOLES_A_MANO = {"521397": [{"jugador": "Saúl Salcedo", "min": 62, "tipo": "ec",
                 # Argentinos 1-2 Quilmes (Apertura 2005): los dos de Quilmes, de penal, de Miguel Caneo en el segundo
                 # tiempo (La Nueva; sin los minutos)
                 "187644": [{"jugador": "Miguel Caneo", "tipo": "pen", "equipo": "visitante"},
-                           {"jugador": "Miguel Caneo", "tipo": "pen", "equipo": "visitante"}]}
+                           {"jugador": "Miguel Caneo", "tipo": "pen", "equipo": "visitante"}],
+                # Nueva Chicago 2-2 River (Clausura 2004): los dos de River (Estadísticas de River Plate)
+                "139847": [{"jugador": "Fernando Cavenaghi", "min": 25, "equipo": "visitante"},
+                           {"jugador": "José Sand", "min": 77, "equipo": "visitante"}]}
+# Goles que ESPN tiene mal o incompletos y se reemplazan todos: {id del partido de ESPN: [gol, ...]}.
+# Estudiantes 1-4 Independiente (Clausura 2004; ESPN dice 1-2: ver RESULTADOS_A_MANO) y Atlético de Rafaela 3-1 Rosario
+# Central (Clausura 2004; ESPN tiene dos goles de Rafaela, con otros nombres). Historia de Independiente, Wikipedia
+GOLES_CORREGIDOS = {"140001": [{"jugador": "Diego Colotto", "min": 49, "equipo": "local"},
+                               {"jugador": "Daniel Quinteros", "tipo": "pen", "equipo": "visitante"},
+                               {"jugador": "Cristian Giménez", "equipo": "visitante"},
+                               {"jugador": "Cristian Giménez", "equipo": "visitante"},
+                               {"jugador": "Hernán Losada", "equipo": "visitante"}],
+                    "147694": [{"jugador": "Gustavo Semino", "min": 38, "equipo": "local"},
+                               {"jugador": "Darío Gandín", "min": 43, "equipo": "local"},
+                               {"jugador": "Horacio Carbonari", "min": 62, "equipo": "visitante"},
+                               {"jugador": "Emanuel Villa", "min": 69, "equipo": "local"}]}
 # Partidos que ESPN pone en la fase regular pero no la son (no suman en la tabla anual ni en los promedios): del
 # torneo 2016, la final (Lanús-San Lorenzo) y el desempate por un lugar en las copas (Godoy Cruz-Estudiantes)
 NO_SUMAN = {"448823", "448810"}
@@ -934,14 +1031,18 @@ RESULTADOS_A_MANO = {"382317": (0, 1, "No se jugó: Colón no se presentó y la 
                                        "Atlético de Rafaela"),
                      # Almagro 3-2 Boca, Clausura 2005: se suspendió a los 18 del segundo tiempo por incidentes y la AFA
                      # les dio el partido perdido a los dos (a Boca 3-2; a Almagro 0-2, ver PIERDEN_LOS_DOS)
-                     "186468": (3, 2, "Suspendido por incidentes: la AFA les dio el partido perdido a los dos")}
+                     "186468": (3, 2, "Suspendido por incidentes: la AFA les dio el partido perdido a los dos"),
+                     # Estudiantes-Independiente, Clausura 2004: terminó 1-4 (ESPN dice 1-2)
+                     "140001": (1, 4, None)}
 # Partidos que la AFA les dio perdidos a los dos: {id del partido de ESPN: (goles a favor, en contra) que se le cuentan
 # al local}; al visitante se le cuenta el resultado. Almagro-Boca, Clausura 2005: a Almagro, 0-2
 PIERDEN_LOS_DOS = {"186468": (0, 2)}
 # Puntos descontados por sanciones: {(año, id de ESPN): puntos}. Se restan en la tabla anual (o de la temporada) de ese
 # año, no en la del torneo. Colón, temporada 2013-14: 6 puntos que le quitó la FIFA por una deuda con el Atlante
 # (Infobae); cuenta para los promedios y lo mandó al desempate con Rafaela
-DESCUENTOS = {(2014, "7"): 6}
+# Con un tercer elemento, el patrón de una fase: se resta solo en las sumas que la incluyen (Chacarita, temporada 2003-04:
+# 3 puntos por los incidentes en el partido con Boca; se restan en la temporada, no en la tabla del año 2004)
+DESCUENTOS = {(2014, "7"): 6, (2004, "6", r"^torneo-apertura-2003$"): 3}
 PLAYOFFS = [("round-of-16", "Octavos de final"), ("quarter", "Cuartos de final"), ("semi", "Semifinales"),
             ("final", "Final")]
 # Clubes que no están en data/equipos.js (no jugaron copas internacionales): id y nombre. Los demás se toman de ahí
@@ -1058,8 +1159,8 @@ def sumar(anio, fuentes):
                 f[r] += 1
                 f[5] += ga
                 f[6] += gb
-    for (a, eid), pts in DESCUENTOS.items():
-        if a == anio and eid in t:
+    for (a, eid, *fase), pts in DESCUENTOS.items():
+        if a == anio and eid in t and (not fase or any(f[1] == fase[0] for f in fuentes)):
             t[eid][0] -= pts
     return t
 
@@ -1284,7 +1385,8 @@ def armar(clave):
         if e["id"] in RESULTADOS_A_MANO:
             p["gl"], p["gv"], p["nota"] = RESULTADOS_A_MANO[e["id"]]
             p.pop("estado", None)
-            p["hora"] = None   # (no se jugó)
+            if p["nota"]:
+                p["hora"] = None   # (no se jugó)
         if e["id"] in PIERDEN_LOS_DOS:   # (en la tabla, al local se le cuenta otro resultado)
             p["para_local"] = list(PIERDEN_LOS_DOS[e["id"]])
         if e["id"] in PENALES_A_MANO:
@@ -1295,6 +1397,8 @@ def armar(clave):
         p["goles"] = [{**{k: v for k, v in g.items() if v is not None and k not in ("lado", "aid")}, "equipo": g["lado"]}
                       for g in p["goles"]]
         p.pop("formaciones", None)
+        if e["id"] in GOLES_CORREGIDOS:
+            p["goles"] = GOLES_CORREGIDOS[e["id"]]
         if e["id"] in GOLES_A_MANO:
             p["goles"] = sorted(p["goles"] + GOLES_A_MANO[e["id"]], key=lambda g: g.get("min") or 0)
         fase = es_playoff(e)
