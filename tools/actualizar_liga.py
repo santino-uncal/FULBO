@@ -33,6 +33,99 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1979: el Campeonato Metropolitano 1979 (marzo a agosto; campeón River): 20 equipos por etapas ("etapas"; en
+    # tools/a_mano, cada fecha dice su etapa y cada partido su zona): la primera fase, 2 zonas de 10 a dos ruedas (18
+    # fechas; pasaban los dos primeros a las semifinales: Vélez y Argentinos empataron el segundo puesto de la zona A y
+    # jugaron un desempate, "desempate_a_mano"), y el Torneo por el descenso (los dos últimos de cada zona, a dos ruedas;
+    # bajaban los tres últimos, "descensos": "etapa": Gimnasia, Chacarita y Atlanta). Con 2 puntos por partido ganado.
+    # Semifinales y final a ida y vuelta. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles; de la final, los
+    # goles y los árbitros de Wikipedia)
+    "1979-metropolitano": {"nombre": "Campeonato Metropolitano 1979", "anio": 1979, "liga": "a_mano", "slug": "1979-metropolitano",
+                           "etapas": [("Primera fase", r"primera-fase$", 2, 1, 18,
+                                       "Los dos primeros de cada zona pasan a las semifinales; los dos últimos juegan el "
+                                       "Torneo por el descenso"),
+                                      ("Torneo por el descenso", r"descenso$", 1, 19, 6,
+                                       "Se queda en Primera")],
+                           "fechas": 24, "pasan": 0, "puntos_victoria": 2,
+                           "nota": "Cada partido ganado valía 2 puntos. En la primera fase había 2 zonas de 10 a dos ruedas: "
+                                   "los dos primeros de cada zona pasaban a las semifinales, a ida y vuelta (el primero de una "
+                                   "zona con el segundo de la otra), y los dos últimos jugaban el Torneo por el descenso, en el "
+                                   "que bajaban tres de los cuatro.",
+                           "desempate_a_mano": {"fecha": "1979-07-22", "local": "velez-sarsfield", "visitante": "argentinos-juniors",
+                                                "gl": 4, "gv": 0, "estadio": "Cancha de Ferro Carril Oeste"},
+                           "desempate_texto": "Vélez y Argentinos terminaron empatados en puntos en el segundo puesto de la "
+                                              "zona A: lo definieron en un partido, en cancha de Ferro, y pasó Vélez a las "
+                                              "semifinales.",
+                           "descensos": "etapa", "descienden": 3,
+                           "goleadores_nota": "Los goles son solo de la final (de Wikipedia, con los minutos): del resto del "
+                                              "torneo no están. Los goleadores fueron Sergio Fortunato (Estudiantes) y Diego "
+                                              "Maradona (Argentinos), con 14 goles.",
+                           "nombre_playoffs": "Fase final",
+                           "playoffs": [(r"^$^", n) for n in ("Semifinales", "Final")],
+                           "playoffs_a_mano": {
+                           "Semifinales": [
+                               {"hora_utc": "1979-07-29T19:00Z", "fecha": "1979-07-29", "local": "river-plate", "visitante": "independiente", "gl": 4, "gv": 3, "estadio": "Estadio Monumental"},
+                               {"hora_utc": "1979-08-05T19:00Z", "fecha": "1979-08-05", "local": "independiente", "visitante": "river-plate", "gl": 1, "gv": 2, "estadio": "Estadio La Doble Visera"},
+                               {"hora_utc": "1979-07-29T19:00Z", "fecha": "1979-07-29", "local": "rosario-central", "visitante": "velez-sarsfield", "gl": 0, "gv": 1, "estadio": "Estadio Gigante de Arroyito"},
+                               {"hora_utc": "1979-08-05T19:00Z", "fecha": "1979-08-05", "local": "velez-sarsfield", "visitante": "rosario-central", "gl": 0, "gv": 0, "estadio": "Estadio José Amalfitani"},
+                           ],
+                           "Final": [
+                               {"hora_utc": "1979-08-12T19:00Z", "fecha": "1979-08-12", "local": "velez-sarsfield", "visitante": "river-plate", "gl": 0, "gv": 2, "estadio": "Estadio José Amalfitani", "arbitro": "Claudio Aquiles Busca", "goles": [{"jugador": "Galletti", "equipo": "visitante", "min": 52}, {"jugador": "González", "equipo": "visitante", "min": 65}]},
+                               {"hora_utc": "1979-08-19T19:00Z", "fecha": "1979-08-19", "local": "river-plate", "visitante": "velez-sarsfield", "gl": 5, "gv": 1, "estadio": "Estadio Monumental", "arbitro": "Teodoro Nitti", "goles": [{"jugador": "Alonso", "equipo": "local", "min": 13}, {"jugador": "Commisso", "equipo": "local", "min": 41}, {"jugador": "Luque", "equipo": "local", "min": 55}, {"jugador": "González", "equipo": "local", "min": 57}, {"jugador": "Jorge", "equipo": "visitante", "min": 87}, {"jugador": "González", "equipo": "local", "min": 89}]},
+                           ],
+                           },
+                           "ida_y_vuelta": True},
+    # El Campeonato Nacional 1979 (septiembre a diciembre; campeón River): 28 equipos (los del Metropolitano, menos los
+    # que bajaron, y los del interior) en 4 zonas de 7 a dos ruedas ("zonas_a_mano"); en cada fecha, el que quedaba libre
+    # jugaba un interzonal (la A con la C y la B con la D). Con 2 puntos por partido ganado; los dos primeros de cada zona
+    # jugaban la fase final, a ida y vuelta (con el global igualado, gol de visitante y después alargue y penales). ESPN
+    # no lo tiene: va a mano (tools/a_mano; resultados de RSSSF, días y estadios de Wikipedia; de la fase final, también
+    # los goles y los árbitros de Wikipedia). Como River ganó los dos torneos, el segundo lugar en la Libertadores 1980 lo
+    # jugaron los dos subcampeones, Vélez y Unión
+    "1979-nacional": {"nombre": "Campeonato Nacional 1979", "anio": 1979, "liga": "a_mano", "slug": "1979-nacional",
+                      "zonas_a_mano": {"A": ["velez-sarsfield", "union", "ferro-carril-oeste", "san-martin-tucuman", "independiente", "juventud-pringles", "ledesma"],
+                                       "B": ["talleres", "river-plate", "huracan", "newell-s-old-boys", "quilmes", "kimberley", "gimnasia-y-tiro"],
+                                       "C": ["racing-club", "atletico-tucuman", "argentinos-juniors", "colon", "all-boys", "independiente-rivadavia", "altos-hornos-zapla"],
+                                       "D": ["instituto", "rosario-central", "boca-juniors", "san-lorenzo", "estudiantes-de-la-plata", "chaco-for-ever", "cipolletti"]},
+                      "fechas": 14, "pasan": 2, "puntos_victoria": 2,
+                      "texto_pasan": "Pasan a la fase final (los dos primeros de cada zona). En cada fecha, el que quedaba "
+                                     "libre jugaba un interzonal (la zona A con la C y la B con la D)",
+                      "goleadores_nota": "Los goles son solo de la fase final (de Wikipedia, con los minutos): de la fase de "
+                                         "zonas no están. El goleador del torneo fue Diego Maradona (Argentinos), con 12 goles.",
+                      "nombre_playoffs": "Fase final",
+                      "playoffs": [(r"^$^", n) for n in ("Cuartos de final", "Semifinales", "Final")],
+                      "playoffs_a_mano": {
+                           "Cuartos de final": [
+                               {"hora_utc": "1979-12-05T19:00Z", "fecha": "1979-12-05", "local": "racing-club", "visitante": "rosario-central", "gl": 1, "gv": 3, "estadio": "Estadio El Cilindro", "arbitro": "Abel Gnecco", "goles": [{"jugador": "Barbas", "equipo": "local", "min": 90}, {"jugador": "Bauza", "equipo": "visitante", "min": 20}, {"jugador": "Bauza", "equipo": "visitante", "min": 40}, {"jugador": "Trama", "equipo": "visitante", "min": 50}]},
+                               {"hora_utc": "1979-12-09T19:00Z", "fecha": "1979-12-09", "local": "rosario-central", "visitante": "racing-club", "gl": 3, "gv": 0, "estadio": "Estadio Gigante de Arroyito", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Orte", "equipo": "local", "min": 22}, {"jugador": "Trama", "equipo": "local", "min": 61}, {"jugador": "Orte", "equipo": "local", "min": 85}]},
+                               {"hora_utc": "1979-12-05T19:00Z", "fecha": "1979-12-05", "local": "velez-sarsfield", "visitante": "river-plate", "gl": 1, "gv": 0, "estadio": "Estadio José Amalfitani", "arbitro": "Alberto Ducatelli", "goles": [{"jugador": "Larraquy", "equipo": "local", "min": 55}]},
+                               {"hora_utc": "1979-12-09T19:00Z", "fecha": "1979-12-09", "local": "river-plate", "visitante": "velez-sarsfield", "gl": 1, "gv": 0, "estadio": "Estadio Monumental", "arbitro": "Teodoro Nitti", "alargue": True, "pen_l": 4, "pen_v": 3, "goles": [{"jugador": "J. J. López", "equipo": "local", "min": 85}]},
+                               {"hora_utc": "1979-12-05T19:00Z", "fecha": "1979-12-05", "local": "union", "visitante": "talleres", "gl": 3, "gv": 0, "estadio": "Estadio Club Atlético Unión", "arbitro": "Jorge Eduardo Romero", "goles": [{"jugador": "Paz", "equipo": "local", "min": 22}, {"jugador": "Pitarch", "equipo": "local", "min": 49, "tipo": "pen"}, {"jugador": "Ribeca", "equipo": "local", "min": 75}]},
+                               {"hora_utc": "1979-12-09T19:00Z", "fecha": "1979-12-09", "local": "talleres", "visitante": "union", "gl": 2, "gv": 0, "estadio": "Estadio Córdoba", "arbitro": "Carlos Alfonso Espósito", "goles": [{"jugador": "Bravo", "equipo": "local", "min": 31}, {"jugador": "Bravo", "equipo": "local", "min": 39}]},
+                               {"hora_utc": "1979-12-05T19:00Z", "fecha": "1979-12-05", "local": "instituto", "visitante": "atletico-tucuman", "gl": 3, "gv": 2, "estadio": "Estadio Córdoba", "arbitro": "Claudio Aquiles Busca", "goles": [{"jugador": "Olmedo", "equipo": "local", "min": 15}, {"jugador": "Palavecino", "equipo": "local", "min": 64}, {"jugador": "Palavecino", "equipo": "local", "min": 90}, {"jugador": "Nicolás Gómez", "equipo": "visitante", "min": 7}, {"jugador": "Nicolás Gómez", "equipo": "visitante", "min": 21}]},
+                               {"hora_utc": "1979-12-09T19:00Z", "fecha": "1979-12-09", "local": "atletico-tucuman", "visitante": "instituto", "gl": 3, "gv": 0, "estadio": "Estadio Monumental José Fierro", "arbitro": "Jorge Eduardo Romero", "goles": [{"jugador": "Palomba", "equipo": "local", "min": 36}, {"jugador": "Néstor Gómez", "equipo": "local", "min": 73}, {"jugador": "Barrientos", "equipo": "local", "min": 74}]},
+                           ],
+                           "Semifinales": [
+                               {"hora_utc": "1979-12-12T19:00Z", "fecha": "1979-12-12", "local": "river-plate", "visitante": "rosario-central", "gl": 4, "gv": 0, "estadio": "Estadio Monumental", "arbitro": "Jorge Eduardo Romero", "goles": [{"jugador": "Carrasco", "equipo": "local", "min": 36}, {"jugador": "Passarella", "equipo": "local", "min": 52, "tipo": "pen"}, {"jugador": "Díaz", "equipo": "local", "min": 74}, {"jugador": "Carrasco", "equipo": "local", "min": 75}]},
+                               {"hora_utc": "1979-12-16T19:00Z", "fecha": "1979-12-16", "local": "rosario-central", "visitante": "river-plate", "gl": 1, "gv": 3, "estadio": "Estadio Gigante de Arroyito", "arbitro": "Claudio Aquiles Busca", "goles": [{"jugador": "Orte", "equipo": "local", "min": 47}, {"jugador": "Luque", "equipo": "visitante", "min": 22}, {"jugador": "Díaz", "equipo": "visitante", "min": 53}, {"jugador": "Saporiti", "equipo": "visitante", "min": 61}]},
+                               {"hora_utc": "1979-12-12T19:00Z", "fecha": "1979-12-12", "local": "atletico-tucuman", "visitante": "union", "gl": 0, "gv": 2, "estadio": "Estadio Monumental José Fierro", "arbitro": "Alberto Ducatelli", "goles": [{"jugador": "Alí", "equipo": "visitante", "min": 23}, {"jugador": "Pitarch", "equipo": "visitante", "min": 84}]},
+                               {"hora_utc": "1979-12-16T19:00Z", "fecha": "1979-12-16", "local": "union", "visitante": "atletico-tucuman", "gl": 2, "gv": 0, "estadio": "Estadio Club Atlético Unión", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Paz", "equipo": "local", "min": 19}, {"jugador": "Mazzoni", "equipo": "local", "min": 85}]},
+                           ],
+                           "Final": [
+                               {"hora_utc": "1979-12-19T19:00Z", "fecha": "1979-12-19", "local": "union", "visitante": "river-plate", "gl": 1, "gv": 1, "estadio": "Estadio Club Atlético Unión", "arbitro": "Teodoro Nitti", "goles": [{"jugador": "Mazzoni", "equipo": "local", "min": 78}, {"jugador": "Alonso", "equipo": "visitante", "min": 88}]},
+                               {"hora_utc": "1979-12-23T19:00Z", "fecha": "1979-12-23", "local": "river-plate", "visitante": "union", "gl": 0, "gv": 0, "estadio": "Estadio Monumental", "arbitro": "Jorge Eduardo Romero"},
+                           ],
+                      },
+                      "ida_y_vuelta": True, "gol_visitante": True,
+                      "sin_descensos": "En el Nacional no había descensos: se definían en el Metropolitano.",
+                      "anual_texto": "La tabla de la fase de zonas del Campeonato Nacional 1979 (los 28 equipos, con los "
+                                     "interzonales). Cada partido ganado valía 2 puntos.",
+                      "cupos": {"anio": 1980, "fijos": True,
+                                "libertadores": [("Campeón del Metropolitano y del Nacional 1979", "river-plate"),
+                                                 ("Ganador del desempate de los subcampeones", "velez-sarsfield")],
+                                "nota": "River ganó los dos torneos del año: el otro lugar lo jugaron los subcampeones, Vélez "
+                                        "(del Metropolitano) y Unión (del Nacional), a ida y vuelta: 0-0 en Santa Fe (27 de "
+                                        "diciembre) y 3-0 para Vélez en Liniers (30 de diciembre)."}},
     # 1980: el Campeonato Metropolitano 1980 (febrero a agosto; campeón River): 19 equipos a dos ruedas (38 fechas, en
     # cada una quedaba uno libre), con 2 puntos por partido ganado. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin
     # goles). Sin promedios: bajaban los tres últimos de la tabla ("descensos": "tabla"): Quilmes, All Boys y Tigre. A la
@@ -2993,6 +3086,7 @@ CLUBES_NUEVOS = {
     "mmo": ("mariano-moreno", "Mariano Moreno (Junín)"),
     "slm": ("san-lorenzo-mdp", "San Lorenzo (Mar del Plata)"),
     "hsr": ("huracan-san-rafael", "Huracán (San Rafael)"),   # (no está en ESPN: el Nacional 1981)
+    "jpr": ("juventud-pringles", "Juventud Pringles (San Luis)"),   # (no está en ESPN: el Nacional 1979)
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)

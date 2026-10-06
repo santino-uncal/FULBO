@@ -178,21 +178,27 @@
       // (T.descuentos: puntos que se le restaron a un club en este torneo, como a Los Andes en el Clausura 2001)
       const menos = id => partidos === todos ? (T.descuentos || {})[id] || 0 : 0;
       // (T.puntos_victoria: 2, como hasta el Clausura 1995; después, 3)
+      // (en los torneos por etapas, un desempate entre dos empatados en puntos de la misma zona, como Vélez-Argentinos en
+      // el Metropolitano 1979, pone primero al que lo ganó)
+      const d = T.etapas && T.desempate, gana = d && d.gl != null && (d.gl > d.gv || d.gl === d.gv && d.pen_l > d.pen_v ? d.local : d.visitante);
+      const porDesempate = (a, b) => gana && [d.local, d.visitante].includes(a.id) && [d.local, d.visitante].includes(b.id) ? (a.id === gana ? -1 : 1) : 0;
       return Object.values(t).map(f => ({ ...f, pts: f.g * (T.puntos_victoria || 3) + f.e + f.pg - menos(f.id), dif: f.gf - f.gc }))
-        .sort((a, b) => b.pts - a.pts || b.dif - a.dif || b.gf - a.gf || club(a.id).nombre.localeCompare(club(b.id).nombre));
+        .sort((a, b) => b.pts - a.pts || porDesempate(a, b) || b.dif - a.dif || b.gf - a.gf || club(a.id).nombre.localeCompare(club(b.id).nombre));
     }
-    function tablaHTML(z, zonas = T.zonas, pasan = T.pasan, partidos = todos) {
+    // (bajan: los últimos que descienden, marcados; el Torneo por el descenso del Metropolitano 1979)
+    function tablaHTML(z, zonas = T.zonas, pasan = T.pasan, partidos = todos, bajan = 0) {
       const filas = tabla(zonas[z], partidos);
       const cuerpo = filas.map((f, i) => {
         const dif = f.dif > 0 ? `+${f.dif}` : f.dif;
         const ultimos = f.ultimos.slice(-5).reverse().map(u => `<span class="res res-${u.r}" title="${esc(u.texto)}"
           aria-label="${{ V: "Victoria", E: "Empate", D: "Derrota" }[u.r]}">${{ V: "✓", E: "–", D: "✕" }[u.r]}</span>`).join("");
-        return `<tr><td class="pos ${i < pasan ? "pasa" : f.id === campeon ? "campeon" : ""}">${i + 1}</td><td class="eq">${nombreClub(f.id)}</td>
+        return `<tr><td class="pos ${i < pasan ? "pasa" : i >= filas.length - bajan ? "desciende" : f.id === campeon ? "campeon" : ""}">${i + 1}</td><td class="eq">${nombreClub(f.id)}</td>
           <td class="pts">${f.pts}</td><td>${f.pj}</td><td class="gol">${f.gf}:${f.gc}</td>
           <td class="dif">${dif}</td><td class="opc">${f.g}</td><td class="opc">${f.e}</td><td class="opc">${f.p}</td>${T.punto_penales ? `<td class="opc">${f.pg}</td>` : ""}
           <td class="ultimas" title="El más reciente a la izquierda">${ultimos}</td></tr>`;
       }).join("");
-      return `<div class="grupo"><h4>${z ? `Zona ${esc(z)}` : "Tabla de posiciones"}</h4><table>
+      // (una zona con nombre largo va tal cual: "Posiciones", la del Torneo por el descenso de 1979)
+      return `<div class="grupo"><h4>${z ? (z.length > 1 ? esc(z) : `Zona ${esc(z)}`) : "Tabla de posiciones"}</h4><table>
         <thead><tr><th>#</th><th class="eq">Equipo</th><th>Pts</th><th>J</th><th class="gol">Gol</th><th>+/-</th>
           <th class="opc">G</th><th class="opc">E</th><th class="opc">P</th>${T.punto_penales ? `<th class="opc" title="Empates ganados por penales (cada uno, un punto más)">Pen.</th>` : ""}<th class="ultimas">Últimas</th></tr></thead>
         <tbody>${cuerpo}</tbody></table></div>`;
@@ -202,11 +208,17 @@
     const vistaEtapas = () => `${T.nota ? `<p class="nota-edicion">${esc(T.nota)}</p>` : ""}` + T.etapas.map((et, n) => {
       const partidos = todos.filter(p => et.fechas.includes(p.n) && Object.values(et.zonas).some(ids => ids.includes(p.local)));
       const siguiente = n === 0 ? "la Fase Campeón" : "la final";
+      // (T.descensos "etapa": bajan los últimos de la última etapa, el Torneo por el descenso del Metropolitano 1979)
+      const bajan = T.descensos === "etapa" && n === T.etapas.length - 1 ? T.descienden || 1 : 0;
+      // (el desempate entre dos de la misma zona de esta etapa, abajo de sus tablas)
+      const des = T.desempate && Object.values(et.zonas).some(ids => ids.includes(T.desempate.local) && ids.includes(T.desempate.visitante));
       return `<h3>${esc(et.nombre)} <small class="vacio">(fechas ${et.fechas[0]} a ${et.fechas.at(-1)})</small></h3>
-        <div class="grupos">${Object.keys(et.zonas).map(z => tablaHTML(z, et.zonas, et.pasan, partidos)).join("")}</div>
+        <div class="grupos">${Object.keys(et.zonas).map(z => tablaHTML(z, et.zonas, et.pasan, partidos, bajan)).join("")}</div>
         <p class="leyenda"><span><i class="pasa"></i>${et.texto_pasan ? esc(et.texto_pasan)
           : `${et.pasan > 1 ? `Los ${et.pasan} primeros de cada zona pasan` : "El primero de cada zona pasa"}
-          a ${/Complementación/.test(et.nombre) ? "la final de la Complementación" : siguiente}`}</span></p>`;
+          a ${/Complementación/.test(et.nombre) ? "la final de la Complementación" : siguiente}`}</span>${bajan
+          ? `<span><i class="desciende"></i>Desciende${bajan > 1 ? `n (los ${{ 2: "dos", 3: "tres" }[bajan] || bajan} últimos)` : " (el último)"}</span>` : ""}</p>
+        ${des ? `<h3>Desempate</h3><p class="vacio">${esc(T.desempate_texto || "")}</p>${partidoHTML(T.desempate)}` : ""}`;
     }).join("") + (T.sin_descensos ? `<p class="nota-edicion">${esc(T.sin_descensos)}</p>` : "");
     const vistaTabla = () => T.etapas ? vistaEtapas() : `<div class="grupos">${Object.keys(T.zonas).map(z => tablaHTML(z)).join("")}</div>
       <p class="leyenda">${T.texto_pasan ? `<span><i class="pasa"></i>${esc(T.texto_pasan)}</span>` : T.pasan ? `<span><i class="pasa"></i>Clasifican a ${RONDA[T.pasan] || "los playoffs"} (los ${T.pasan} primeros de cada zona)</span>` : ""}
@@ -269,6 +281,12 @@
       if (T.descensos === "tabla") {
         const ids = tablaAnual().map(f => f.id).slice(-(T.descienden || 2));
         return { anual: null, prom: null, todos: ids, porProm: [] };
+      }
+      // 1979: bajaban los últimos de la última etapa (el Torneo por el descenso)
+      if (T.descensos === "etapa") {
+        const et = T.etapas.at(-1), ids = Object.values(et.zonas).flat();
+        const partidos = todos.filter(p => et.fechas.includes(p.n) && ids.includes(p.local));
+        return { anual: null, prom: null, todos: tabla(ids, partidos).map(f => f.id).slice(-(T.descienden || 1)), porProm: [] };
       }
       const anual = tablaAnual(), prom = promedios().at(-1).id;
       let porAnual = anual.at(-1).id === prom ? anual.at(-2).id : anual.at(-1).id;
