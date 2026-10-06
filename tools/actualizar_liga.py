@@ -33,6 +33,69 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1981: el Campeonato Metropolitano 1981 (febrero a agosto; campeón Boca): 18 equipos a dos ruedas (34 fechas), con
+    # 2 puntos por partido ganado. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles). Sin promedios: bajaban
+    # los dos últimos de la tabla ("descensos": "tabla"): San Lorenzo y Colón. Talleres-Argentinos (2-2) se lo dieron
+    # ganado a Argentinos por doping. A la Libertadores 1982 fueron los campeones del Metropolitano y del Nacional
+    "1981-metropolitano": {"nombre": "Campeonato Metropolitano 1981", "anio": 1981, "liga": "a_mano", "slug": "1981-metropolitano",
+                           "zonas": "unica", "fechas": 34, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                           "anual_texto": "La tabla del Campeonato Metropolitano 1981 (las 34 fechas). Cada partido ganado "
+                                          "valía 2 puntos.",
+                           "goleadores_nota": "RSSSF no tiene los goles de este torneo. El goleador fue Raúl Chaparro "
+                                              "(Instituto), con 20 goles.",
+                           "descensos": "tabla", "descienden": 2,
+                           "cupos": {"anio": 1982, "fijos": True,
+                                     "libertadores": [("Campeón del Metropolitano 1981", "boca-juniors"),
+                                                      ("Campeón del Nacional 1981", "river-plate")]}},
+    # El Campeonato Nacional 1981 (septiembre a diciembre; campeón River): 28 equipos (los del Metropolitano y los del
+    # interior) en 4 zonas de 7 a dos ruedas ("zonas_a_mano"); en cada fecha, el que quedaba libre jugaba un interzonal
+    # (la A con la C y la B con la D). Con 2 puntos por partido ganado; los dos primeros de cada zona jugaban la fase
+    # final, a ida y vuelta (con el global igualado, gol de visitante). A Racing de Córdoba le descontaron 4 puntos (2 por
+    # cada uno de los dos partidos que jugó estando suspendido). ESPN no lo tiene: va a mano (tools/a_mano; resultados de
+    # RSSSF, días y estadios de Wikipedia; de la fase final, también los goles y los árbitros de Wikipedia)
+    "1981-nacional": {"nombre": "Campeonato Nacional 1981", "anio": 1981, "liga": "a_mano", "slug": "1981-nacional",
+                      "zonas_a_mano": {"A": ["rosario-central", "gimnasia-jujuy", "argentinos-juniors", "huracan", "belgrano",
+                                             "gimnasia-mendoza", "racing-club"],
+                                       "B": ["ferro-carril-oeste", "river-plate", "loma-negra", "talleres",
+                                             "guarani-antonio-franco", "san-martin-tucuman", "sarmiento"],
+                                       "C": ["independiente", "velez-sarsfield", "racing-cordoba", "newell-s-old-boys",
+                                             "platense", "gimnasia-y-tiro", "huracan-san-rafael"],
+                                       "D": ["boca-juniors", "instituto", "estudiantes-de-la-plata", "san-lorenzo",
+                                             "atletico-tucuman", "union", "san-lorenzo-mdp"]},
+                      "fechas": 14, "pasan": 2, "puntos_victoria": 2,
+                      "texto_pasan": "Pasan a la fase final (los dos primeros de cada zona). En cada fecha, el que quedaba "
+                                     "libre jugaba un interzonal (la zona A con la C y la B con la D)",
+                      "descuentos": {"racing-cordoba": 4},
+                      "descuentos_texto": "A Racing de Córdoba se le descontaron 4 puntos: jugó dos partidos estando suspendido "
+                                          "(2 puntos menos por cada uno).",
+                      "goleadores_nota": "Los goles son solo de la fase final (de Wikipedia, con los minutos): de la fase de "
+                                         "zonas no están. El goleador del torneo fue Carlos Bianchi (Vélez), con 15 goles.",
+                      "nombre_playoffs": "Fase final",
+                      "playoffs": [(r"^$^", n) for n in ("Cuartos de final", "Semifinales", "Final")],
+                      "playoffs_a_mano": {
+                           "Cuartos de final": [
+                               {"hora_utc": "1981-12-02T19:00Z", "fecha": "1981-12-02", "local": "ferro-carril-oeste", "visitante": "gimnasia-jujuy", "gl": 1, "gv": 0, "estadio": "Estadio Ferro Carril Oeste", "arbitro": "Abel Gnecco", "goles": [{"jugador": "Crocco", "equipo": "local", "min": 5}]},
+                               {"hora_utc": "1981-12-06T19:00Z", "fecha": "1981-12-06", "local": "gimnasia-jujuy", "visitante": "ferro-carril-oeste", "gl": 0, "gv": 1, "estadio": "Estadio 23 de Agosto", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Arregui", "equipo": "visitante", "min": 77}]},
+                               {"hora_utc": "1981-12-02T19:00Z", "fecha": "1981-12-02", "local": "boca-juniors", "visitante": "velez-sarsfield", "gl": 2, "gv": 1, "estadio": "Estadio La Bombonera", "arbitro": "Carlos Alfonso Espósito", "goles": [{"jugador": "Ruggeri", "equipo": "local", "min": 87}, {"jugador": "Perotti", "equipo": "local", "min": 89}, {"jugador": "Bujedo", "equipo": "visitante", "min": 85}]},
+                               {"hora_utc": "1981-12-06T19:00Z", "fecha": "1981-12-06", "local": "velez-sarsfield", "visitante": "boca-juniors", "gl": 3, "gv": 1, "estadio": "Estadio José Amalfitani", "arbitro": "Teodoro Nitti", "goles": [{"jugador": "Bianchi", "equipo": "local", "min": 5}, {"jugador": "Roldán", "equipo": "local", "min": 37}, {"jugador": "Comas", "equipo": "local", "min": 53}, {"jugador": "Ruggeri", "equipo": "visitante", "min": 87}]},
+                               {"hora_utc": "1981-12-02T19:00Z", "fecha": "1981-12-02", "local": "rosario-central", "visitante": "river-plate", "gl": 1, "gv": 2, "estadio": "Estadio Gigante de Arroyito", "arbitro": "Jorge Eduardo Romero", "goles": [{"jugador": "Iglesias", "equipo": "local", "min": 58}, {"jugador": "Passarella", "equipo": "visitante", "min": 33}, {"jugador": "Vieta", "equipo": "visitante", "min": 90}]},
+                               {"hora_utc": "1981-12-06T19:00Z", "fecha": "1981-12-06", "local": "river-plate", "visitante": "rosario-central", "gl": 0, "gv": 0, "estadio": "Estadio Monumental", "arbitro": "Claudio Aquiles Busca"},
+                               {"hora_utc": "1981-12-02T19:00Z", "fecha": "1981-12-02", "local": "instituto", "visitante": "independiente", "gl": 1, "gv": 2, "estadio": "Estadio Córdoba", "arbitro": "Claudio Aquiles Busca", "goles": [{"jugador": "Mastrosimone", "equipo": "local", "min": 20}, {"jugador": "Alzamendi", "equipo": "visitante", "min": 6}, {"jugador": "Trossero", "equipo": "visitante", "min": 47, "tipo": "pen"}]},
+                               {"hora_utc": "1981-12-06T19:00Z", "fecha": "1981-12-06", "local": "independiente", "visitante": "instituto", "gl": 0, "gv": 0, "estadio": "Estadio La Doble Visera", "arbitro": "Jorge Eduardo Romero"},
+                           ],
+                           "Semifinales": [
+                               {"hora_utc": "1981-12-09T19:00Z", "fecha": "1981-12-09", "local": "velez-sarsfield", "visitante": "ferro-carril-oeste", "gl": 1, "gv": 2, "estadio": "Estadio José Amalfitani", "arbitro": "Claudio Aquiles Busca", "goles": [{"jugador": "Bianchi", "equipo": "local", "min": 63, "tipo": "pen"}, {"jugador": "Arregui", "equipo": "visitante", "min": 8}, {"jugador": "Cañete", "equipo": "visitante", "min": 87}]},
+                               {"hora_utc": "1981-12-13T19:00Z", "fecha": "1981-12-13", "local": "ferro-carril-oeste", "visitante": "velez-sarsfield", "gl": 1, "gv": 1, "estadio": "Estadio Ferro Carril Oeste", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Arregui", "equipo": "local", "min": 87}, {"jugador": "Bianchi", "equipo": "visitante", "min": 84}]},
+                               {"hora_utc": "1981-12-09T19:00Z", "fecha": "1981-12-09", "local": "independiente", "visitante": "river-plate", "gl": 1, "gv": 1, "estadio": "Estadio La Doble Visera", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Alzamendi", "equipo": "local", "min": 39}, {"jugador": "Passarella", "equipo": "visitante", "min": 26}]},
+                               {"hora_utc": "1981-12-13T19:00Z", "fecha": "1981-12-13", "local": "river-plate", "visitante": "independiente", "gl": 0, "gv": 0, "estadio": "Estadio Monumental", "arbitro": "Claudio Aquiles Busca"},
+                           ],
+                           "Final": [
+                               {"hora_utc": "1981-12-16T19:00Z", "fecha": "1981-12-16", "local": "river-plate", "visitante": "ferro-carril-oeste", "gl": 1, "gv": 0, "estadio": "Estadio Monumental", "arbitro": "Jorge Eduardo Romero", "goles": [{"jugador": "Olarticoechea", "equipo": "local", "min": 71}]},
+                               {"hora_utc": "1981-12-20T19:00Z", "fecha": "1981-12-20", "local": "ferro-carril-oeste", "visitante": "river-plate", "gl": 0, "gv": 1, "estadio": "Estadio Ferro Carril Oeste", "arbitro": "Teodoro Nitti", "goles": [{"jugador": "Kempes", "equipo": "visitante", "min": 58}]},
+                           ],
+                      },
+                      "ida_y_vuelta": True, "gol_visitante": True,
+                      "sin_descensos": "En el Nacional no había descensos: se definían en el Metropolitano."},
     # 1982: el Campeonato Nacional 1982 (febrero a junio; campeón Ferro): 32 equipos (los del Metropolitano y los del
     # interior) en 4 zonas de 8 a dos ruedas ("zonas_a_mano"), más dos fechas de interzonales (la 5 y la 13: la A con la C
     # y la B con la D), con 2 puntos por partido ganado; los dos primeros de cada zona jugaban la fase final, a ida y
@@ -2870,6 +2933,7 @@ CLUBES_NUEVOS = {
     "esg": ("estudiantes-santiago", "Estudiantes (Santiago del Estero)"),
     "mmo": ("mariano-moreno", "Mariano Moreno (Junín)"),
     "slm": ("san-lorenzo-mdp", "San Lorenzo (Mar del Plata)"),
+    "hsr": ("huracan-san-rafael", "Huracán (San Rafael)"),   # (no está en ESPN: el Nacional 1981)
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)

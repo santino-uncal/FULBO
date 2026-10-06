@@ -1,0 +1,1851 @@
+{
+ "nombre": "Campeonato Nacional 1981",
+ "fuente": "Resultados: RSSSF (Osvaldo José Gorgazzi); días y estadios de Wikipedia (la cancha de RSSSF cuando no era la del local); de la fase final, también los goles y los árbitros de Wikipedia. Coinciden en todos los resultados y las tablas de las zonas dan igual que las de Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1981-09-13",
+     "local": "gimnasia-jujuy",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-13",
+     "local": "huracan",
+     "visitante": "gimnasia-mendoza",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-13",
+     "local": "rosario-central",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-13",
+     "local": "loma-negra",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Racing de Olavarría",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-13",
+     "local": "sarmiento",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-13",
+     "local": "huracan-san-rafael",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de Pueblo Diamante",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-13",
+     "local": "platense",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-13",
+     "local": "racing-cordoba",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Miguel Sancho",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-13",
+     "local": "boca-juniors",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-13",
+     "local": "instituto",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-13",
+     "local": "san-lorenzo",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-13",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-14",
+     "local": "atletico-tucuman",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental José Fierro",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-15",
+     "local": "guarani-antonio-franco",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Clemente Fernández de Oliveira",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1981-09-20",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-20",
+     "local": "belgrano",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-20",
+     "local": "gimnasia-mendoza",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Independiente Rivadavia",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-20",
+     "local": "ferro-carril-oeste",
+     "visitante": "sarmiento",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-20",
+     "local": "river-plate",
+     "visitante": "san-martin-tucuman",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-20",
+     "local": "talleres",
+     "visitante": "guarani-antonio-franco",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Boutique de Barrio Jardín",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-20",
+     "local": "independiente",
+     "visitante": "huracan-san-rafael",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-20",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-20",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-20",
+     "local": "atletico-tucuman",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental José Fierro",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-20",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-20",
+     "local": "union",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-20",
+     "local": "gimnasia-jujuy",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de La Tablada",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-20",
+     "local": "loma-negra",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Racing de Olavarría",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1981-09-25",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-26",
+     "local": "guarani-antonio-franco",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Clemente Fernández de Oliveira",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-26",
+     "local": "san-martin-tucuman",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-26",
+     "local": "gimnasia-y-tiro",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-26",
+     "local": "racing-cordoba",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Miguel Sancho",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-26",
+     "local": "instituto",
+     "visitante": "atletico-tucuman",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-26",
+     "local": "san-lorenzo-mdp",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "José María Minella",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-27",
+     "local": "huracan",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-27",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-27",
+     "local": "rosario-central",
+     "visitante": "gimnasia-jujuy",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-27",
+     "local": "sarmiento",
+     "visitante": "loma-negra",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-27",
+     "local": "san-lorenzo",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-27",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-27",
+     "local": "huracan-san-rafael",
+     "visitante": "gimnasia-mendoza",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Pueblo Diamante",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1981-09-30",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-mendoza",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-30",
+     "local": "belgrano",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-30",
+     "local": "gimnasia-jujuy",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-30",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-martin-tucuman",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-30",
+     "local": "loma-negra",
+     "visitante": "guarani-antonio-franco",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Racing de Olavarría",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-30",
+     "local": "talleres",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-30",
+     "local": "huracan-san-rafael",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Pueblo Diamante",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-30",
+     "local": "independiente",
+     "visitante": "racing-cordoba",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-30",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-30",
+     "local": "atletico-tucuman",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Monumental José Fierro",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-30",
+     "local": "boca-juniors",
+     "visitante": "instituto",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-30",
+     "local": "union",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-30",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1981-09-30",
+     "local": "sarmiento",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Eva Perón",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1981-10-03",
+     "local": "racing-cordoba",
+     "visitante": "huracan-san-rafael",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Miguel Sancho",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-04",
+     "local": "gimnasia-mendoza",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Independiente Rivadavia",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-04",
+     "local": "huracan",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-04",
+     "local": "racing-club",
+     "visitante": "gimnasia-jujuy",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-04",
+     "local": "guarani-antonio-franco",
+     "visitante": "sarmiento",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Clemente Fernández de Oliveira",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-04",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-04",
+     "local": "san-martin-tucuman",
+     "visitante": "loma-negra",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-04",
+     "local": "gimnasia-y-tiro",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-04",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-04",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-04",
+     "local": "san-lorenzo-mdp",
+     "visitante": "atletico-tucuman",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José María Minella",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-04",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-04",
+     "local": "instituto",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-04",
+     "local": "platense",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1981-10-10",
+     "local": "guarani-antonio-franco",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Clemente Fernández de Oliveira",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-11",
+     "local": "belgrano",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-11",
+     "local": "gimnasia-jujuy",
+     "visitante": "gimnasia-mendoza",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-11",
+     "local": "rosario-central",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-11",
+     "local": "ferro-carril-oeste",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-11",
+     "local": "loma-negra",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Racing de Olavarría",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-11",
+     "local": "sarmiento",
+     "visitante": "san-martin-tucuman",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-11",
+     "local": "huracan-san-rafael",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Pueblo Diamante",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-11",
+     "local": "independiente",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-11",
+     "local": "platense",
+     "visitante": "racing-cordoba",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-11",
+     "local": "atletico-tucuman",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental José Fierro",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-11",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-11",
+     "local": "instituto",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": [],
+     "para_local": [
+      0,
+      1
+     ],
+     "para_visitante": [
+      1,
+      0
+     ],
+     "nota": "Se suspendió a los 44 minutos del segundo tiempo (0-0) por incidentes; la AFA le dio el partido ganado a San Lorenzo (1-0)."
+    },
+    {
+     "fecha": "1981-10-11",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1981-10-14",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-14",
+     "local": "gimnasia-mendoza",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Independiente Rivadavia",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-14",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-14",
+     "local": "river-plate",
+     "visitante": "sarmiento",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-14",
+     "local": "san-martin-tucuman",
+     "visitante": "guarani-antonio-franco",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Ciudadela",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-14",
+     "local": "talleres",
+     "visitante": "loma-negra",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-14",
+     "local": "gimnasia-y-tiro",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-14",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan-san-rafael",
+     "gl": 7,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-14",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-14",
+     "local": "san-lorenzo-mdp",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "José María Minella",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-14",
+     "local": "union",
+     "visitante": "atletico-tucuman",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-14",
+     "local": "racing-cordoba",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-14",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1981-10-18",
+     "local": "argentinos-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-18",
+     "local": "belgrano",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-18",
+     "local": "gimnasia-mendoza",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Independiente Rivadavia",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "loma-negra",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-18",
+     "local": "river-plate",
+     "visitante": "guarani-antonio-franco",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-18",
+     "local": "talleres",
+     "visitante": "sarmiento",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-18",
+     "local": "gimnasia-y-tiro",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-18",
+     "local": "newell-s-old-boys",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-18",
+     "local": "velez-sarsfield",
+     "visitante": "huracan-san-rafael",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-18",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-18",
+     "local": "san-lorenzo-mdp",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "José María Minella",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-18",
+     "local": "union",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-18",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-18",
+     "local": "san-martin-tucuman",
+     "visitante": "atletico-tucuman",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1981-10-25",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-25",
+     "local": "racing-club",
+     "visitante": "gimnasia-mendoza",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-25",
+     "local": "rosario-central",
+     "visitante": "belgrano",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-25",
+     "local": "guarani-antonio-franco",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Clemente Fernández de Oliveira",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-25",
+     "local": "san-martin-tucuman",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Ciudadela",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-25",
+     "local": "sarmiento",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-25",
+     "local": "huracan-san-rafael",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Pueblo Diamante",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-25",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-25",
+     "local": "racing-cordoba",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Miguel Sancho",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-25",
+     "local": "boca-juniors",
+     "visitante": "atletico-tucuman",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-25",
+     "local": "instituto",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-25",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-25",
+     "local": "gimnasia-y-tiro",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1981-10-25",
+     "local": "san-lorenzo-mdp",
+     "visitante": "loma-negra",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José María Minella",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1981-10-30",
+     "local": "belgrano",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-01",
+     "local": "argentinos-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-01",
+     "local": "gimnasia-jujuy",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-01",
+     "local": "ferro-carril-oeste",
+     "visitante": "guarani-antonio-franco",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-01",
+     "local": "loma-negra",
+     "visitante": "sarmiento",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Racing de Olavarría",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-01",
+     "local": "talleres",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-01",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-01",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-01",
+     "local": "velez-sarsfield",
+     "visitante": "racing-cordoba",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-01",
+     "local": "atletico-tucuman",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental José Fierro",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-01",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-01",
+     "local": "union",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-01",
+     "local": "gimnasia-mendoza",
+     "visitante": "huracan-san-rafael",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Independiente Rivadavia",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-01",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1981-11-08",
+     "local": "gimnasia-mendoza",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Independiente Rivadavia",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-08",
+     "local": "huracan",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-08",
+     "local": "racing-club",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-08",
+     "local": "guarani-antonio-franco",
+     "visitante": "loma-negra",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Clemente Fernández de Oliveira",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-08",
+     "local": "river-plate",
+     "visitante": "talleres",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-08",
+     "local": "san-martin-tucuman",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Ciudadela",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-08",
+     "local": "gimnasia-y-tiro",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-08",
+     "local": "platense",
+     "visitante": "huracan-san-rafael",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-08",
+     "local": "racing-cordoba",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-08",
+     "local": "instituto",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-08",
+     "local": "san-lorenzo-mdp",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José María Minella",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-08",
+     "local": "san-lorenzo",
+     "visitante": "atletico-tucuman",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-08",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "sarmiento",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-08",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1981-11-13",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 6,
+     "gv": 4,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-13",
+     "local": "independiente",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-15",
+     "local": "belgrano",
+     "visitante": "gimnasia-mendoza",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de Alberdi",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-15",
+     "local": "gimnasia-jujuy",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-15",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-15",
+     "local": "loma-negra",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Racing de Olavarría",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-15",
+     "local": "sarmiento",
+     "visitante": "guarani-antonio-franco",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-15",
+     "local": "huracan-san-rafael",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Pueblo Diamante",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-15",
+     "local": "velez-sarsfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-15",
+     "local": "atletico-tucuman",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental José Fierro",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-15",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-15",
+     "local": "union",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-15",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-15",
+     "local": "talleres",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1981-11-20",
+     "local": "san-martin-tucuman",
+     "visitante": "sarmiento",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "La Ciudadela",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-22",
+     "local": "argentinos-juniors",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-22",
+     "local": "gimnasia-mendoza",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Independiente Rivadavia",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-22",
+     "local": "racing-club",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-22",
+     "local": "river-plate",
+     "visitante": "loma-negra",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-22",
+     "local": "talleres",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-22",
+     "local": "gimnasia-y-tiro",
+     "visitante": "huracan-san-rafael",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-22",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-22",
+     "local": "racing-cordoba",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Instituto",
+     "goles": [],
+     "nota": "A Racing de Córdoba le descontaron 2 puntos por este partido (estaba suspendido)."
+    },
+    {
+     "fecha": "1981-11-22",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atletico-tucuman",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-22",
+     "local": "san-lorenzo-mdp",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "José María Minella",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-22",
+     "local": "san-lorenzo",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-22",
+     "local": "union",
+     "visitante": "guarani-antonio-franco",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-22",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1981-11-27",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-28",
+     "local": "guarani-antonio-franco",
+     "visitante": "san-martin-tucuman",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Clemente Fernández de Oliveira",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-29",
+     "local": "gimnasia-jujuy",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-29",
+     "local": "rosario-central",
+     "visitante": "gimnasia-mendoza",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-29",
+     "local": "loma-negra",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Racing de Olavarría",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-29",
+     "local": "sarmiento",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-29",
+     "local": "huracan-san-rafael",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Gigante de Pueblo Diamante",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-29",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-29",
+     "local": "platense",
+     "visitante": "gimnasia-y-tiro",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-29",
+     "local": "atletico-tucuman",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Monumental José Fierro",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-29",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-29",
+     "local": "instituto",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1981-11-29",
+     "local": "belgrano",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "nota": "A Racing de Córdoba le descontaron 2 puntos por este partido (estaba suspendido)."
+    },
+    {
+     "fecha": "1981-11-29",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

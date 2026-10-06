@@ -1,17 +1,19 @@
 /* Los títulos de liga de cada club, para mostrar al lado del campeón qué número de título es (River en el Campeonato
    1989-90: el 23). Cuenta oficial de la AFA (Wikipedia, "List of Argentine Primera División champions"):
-   - antes: los títulos de cada club hasta el Metropolitano 1981 (amateurs y profesionales); ultimo_antes: el campeón
-     del Metropolitano 1981 (para contar los títulos seguidos: bicampeonatos, tricampeonatos).
+   - antes: los títulos de cada club hasta el Nacional 1980 (amateurs y profesionales); ultimo_antes: el campeón
+     del Nacional 1980 (para contar los títulos seguidos: bicampeonatos, tricampeonatos).
    - torneos: los títulos de cada torneo cargado, en orden. "club" es el campeón del torneo; ["club", "texto"] es otro
      título que se definió en ese torneo (la final de 1990-91, la Superfinal 2012-13, el "Campeón de Liga" 2025).
    - notas: los torneos cuyo campeón no suma un título de liga (y por qué).
    Al terminar un torneo nuevo, agregar su campeón acá (la prueba de tests/test_liga.py avisa si falta). */
 window.LIGA_TITULOS = {
-  "antes": {"river-plate": 21, "boca-juniors": 21, "racing-club": 15, "independiente": 12, "san-lorenzo": 11,
+  "antes": {"river-plate": 20, "boca-juniors": 20, "racing-club": 15, "independiente": 12, "san-lorenzo": 11,
             "huracan": 5, "estudiantes-de-la-plata": 2, "rosario-central": 3, "newell-s-old-boys": 1,
             "velez-sarsfield": 1},
-  "ultimo_antes": "boca-juniors",
+  "ultimo_antes": "rosario-central",
   "torneos": {
+    "1981-metropolitano": ["boca-juniors"],
+    "1981-nacional": ["river-plate"],
     "1982-nacional": ["ferro-carril-oeste"],
     "1982-metropolitano": ["estudiantes-de-la-plata"],
     "1983-nacional": ["estudiantes-de-la-plata"],
