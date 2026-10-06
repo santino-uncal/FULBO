@@ -33,6 +33,65 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1980: el Campeonato Metropolitano 1980 (febrero a agosto; campeón River): 19 equipos a dos ruedas (38 fechas, en
+    # cada una quedaba uno libre), con 2 puntos por partido ganado. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin
+    # goles). Sin promedios: bajaban los tres últimos de la tabla ("descensos": "tabla"): Quilmes, All Boys y Tigre. A la
+    # Libertadores 1981 fueron los campeones del Metropolitano y del Nacional
+    "1980-metropolitano": {"nombre": "Campeonato Metropolitano 1980", "anio": 1980, "liga": "a_mano", "slug": "1980-metropolitano",
+                           "zonas": "unica", "fechas": 38, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                           "anual_texto": "La tabla del Campeonato Metropolitano 1980 (las 38 fechas; eran 19 equipos y en cada "
+                                          "fecha uno quedaba libre). Cada partido ganado valía 2 puntos.",
+                           "goleadores_nota": "RSSSF no tiene los goles de este torneo. El goleador fue Diego Maradona "
+                                              "(Argentinos), con 25 goles.",
+                           "descensos": "tabla", "descienden": 3,
+                           "cupos": {"anio": 1981, "fijos": True,
+                                     "libertadores": [("Campeón del Metropolitano 1980", "river-plate"),
+                                                      ("Campeón del Nacional 1980", "rosario-central")]}},
+    # El Campeonato Nacional 1980 (septiembre a diciembre; campeón Rosario Central): 28 equipos (los del Metropolitano y
+    # los del interior) en 4 zonas de 7 a dos ruedas ("zonas_a_mano"); en cada fecha, el que quedaba libre jugaba un
+    # interzonal (la A con la C y la B con la D). Con 2 puntos por partido ganado; los dos primeros de cada zona jugaban
+    # la fase final, a ida y vuelta (con el global igualado, gol de visitante). ESPN no lo tiene: va a mano (tools/a_mano;
+    # resultados de RSSSF, días y estadios de Wikipedia; de la fase final, también los goles y los árbitros de Wikipedia)
+    "1980-nacional": {"nombre": "Campeonato Nacional 1980", "anio": 1980, "liga": "a_mano", "slug": "1980-nacional",
+                      "zonas_a_mano": {"A": ["rosario-central", "racing-cordoba", "estudiantes-de-la-plata", "velez-sarsfield",
+                                             "gimnasia-jujuy", "racing-club", "atletico-tucuman"],
+                                       "B": ["argentinos-juniors", "union", "talleres", "huracan", "boca-juniors",
+                                             "san-martin-mendoza", "san-lorenzo-mdp"],
+                                       "C": ["newell-s-old-boys", "independiente", "ferro-carril-oeste", "atletico-concepcion",
+                                             "quilmes", "central-norte", "chaco-for-ever"],
+                                       "D": ["instituto", "river-plate", "platense", "san-lorenzo", "colon", "cipolletti",
+                                             "independiente-rivadavia"]},
+                      "fechas": 14, "pasan": 2, "puntos_victoria": 2,
+                      "texto_pasan": "Pasan a la fase final (los dos primeros de cada zona). En cada fecha, el que quedaba "
+                                     "libre jugaba un interzonal (la zona A con la C y la B con la D)",
+                      "goleadores_nota": "Los goles son solo de la fase final (de Wikipedia, con los minutos): de la fase de "
+                                         "zonas no están. El goleador del torneo fue Diego Maradona (Argentinos), con 18 goles.",
+                      "nombre_playoffs": "Fase final",
+                      "playoffs": [(r"^$^", n) for n in ("Cuartos de final", "Semifinales", "Final")],
+                      "playoffs_a_mano": {
+                           "Cuartos de final": [
+                               {"hora_utc": "1980-11-30T19:00Z", "fecha": "1980-11-30", "local": "instituto", "visitante": "independiente", "gl": 2, "gv": 1, "estadio": "Estadio Córdoba", "arbitro": "Jorge Eduardo Romero", "goles": [{"jugador": "Palavecino", "equipo": "local", "min": 51}, {"jugador": "R. Rodríguez", "equipo": "local", "min": 82}, {"jugador": "Alzamendi", "equipo": "visitante", "min": 83}]},
+                               {"hora_utc": "1980-12-03T19:00Z", "fecha": "1980-12-03", "local": "independiente", "visitante": "instituto", "gl": 5, "gv": 1, "estadio": "Estadio La Doble Visera", "arbitro": "Carlos Alfonso Espósito", "goles": [{"jugador": "Brailovsky", "equipo": "local", "min": 2}, {"jugador": "Alzamendi", "equipo": "local", "min": 13}, {"jugador": "Alzamendi", "equipo": "local", "min": 21}, {"jugador": "Mazo", "equipo": "local", "min": 28}, {"jugador": "Mazo", "equipo": "local", "min": 54}, {"jugador": "M. Rodríguez", "equipo": "visitante", "min": 87}]},
+                               {"hora_utc": "1980-11-30T19:00Z", "fecha": "1980-11-30", "local": "argentinos-juniors", "visitante": "racing-cordoba", "gl": 1, "gv": 1, "estadio": "Cancha de Vélez Sarsfield", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Magallanes", "equipo": "local", "min": 27}, {"jugador": "Coloccini", "equipo": "visitante", "min": 72}]},
+                               {"hora_utc": "1980-12-03T19:00Z", "fecha": "1980-12-03", "local": "racing-cordoba", "visitante": "argentinos-juniors", "gl": 3, "gv": 1, "estadio": "Estadio Córdoba", "arbitro": "Abel Gnecco", "goles": [{"jugador": "Ballejo", "equipo": "local", "min": 11}, {"jugador": "Gasparini", "equipo": "local", "min": 31}, {"jugador": "Ballejo", "equipo": "local", "min": 57}, {"jugador": "Vidal", "equipo": "visitante", "min": 18}]},
+                               {"hora_utc": "1980-11-30T19:00Z", "fecha": "1980-11-30", "local": "river-plate", "visitante": "newell-s-old-boys", "gl": 3, "gv": 2, "estadio": "Estadio Monumental", "arbitro": "Teodoro Nitti", "goles": [{"jugador": "Alonso", "equipo": "local", "min": 32}, {"jugador": "Gordon", "equipo": "local", "min": 55}, {"jugador": "Gordon", "equipo": "local", "min": 88}, {"jugador": "Santamaría", "equipo": "visitante", "min": 15, "tipo": "pen"}, {"jugador": "Yazalde", "equipo": "visitante", "min": 41}]},
+                               {"hora_utc": "1980-12-03T19:00Z", "fecha": "1980-12-03", "local": "newell-s-old-boys", "visitante": "river-plate", "gl": 6, "gv": 2, "estadio": "Estadio Coloso del Parque", "arbitro": "Alberto Ducatelli", "goles": [{"jugador": "Bulleri", "equipo": "local", "min": 22}, {"jugador": "Talavera", "equipo": "local", "min": 33}, {"jugador": "Santamaría", "equipo": "local", "min": 38}, {"jugador": "Yazalde", "equipo": "local", "min": 63}, {"jugador": "Pérez", "equipo": "local", "min": 66}, {"jugador": "Acosta", "equipo": "local", "min": 74}, {"jugador": "Gordon", "equipo": "visitante", "min": 1}, {"jugador": "Alonso", "equipo": "visitante", "min": 8}]},
+                               {"hora_utc": "1980-11-30T19:00Z", "fecha": "1980-11-30", "local": "rosario-central", "visitante": "union", "gl": 2, "gv": 0, "estadio": "Estadio Gigante de Arroyito", "arbitro": "Claudio Aquiles Busca", "goles": [{"jugador": "Bauza", "equipo": "local", "min": 80, "tipo": "pen"}, {"jugador": "Agonil", "equipo": "local", "min": 87}]},
+                               {"hora_utc": "1980-12-03T19:00Z", "fecha": "1980-12-03", "local": "union", "visitante": "rosario-central", "gl": 2, "gv": 1, "estadio": "Estadio Club Atlético Unión", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Alí", "equipo": "local", "min": 14}, {"jugador": "Mendoza", "equipo": "local", "min": 83}, {"jugador": "Bauza", "equipo": "visitante", "min": 45, "tipo": "pen"}]},
+                           ],
+                           "Semifinales": [
+                               {"hora_utc": "1980-12-07T19:00Z", "fecha": "1980-12-07", "local": "racing-cordoba", "visitante": "independiente", "gl": 4, "gv": 0, "estadio": "Estadio Córdoba", "arbitro": "Claudio Aquiles Busca", "goles": [{"jugador": "Amuchástegui", "equipo": "local", "min": 21}, {"jugador": "Amuchástegui", "equipo": "local", "min": 25}, {"jugador": "Ballejo", "equipo": "local", "min": 37}, {"jugador": "Aramayo", "equipo": "local", "min": 65}]},
+                               {"hora_utc": "1980-12-14T19:00Z", "fecha": "1980-12-14", "local": "independiente", "visitante": "racing-cordoba", "gl": 5, "gv": 3, "estadio": "Estadio La Doble Visera", "arbitro": "Alberto Ducatelli", "goles": [{"jugador": "Mazo", "equipo": "local", "min": 10, "tipo": "pen"}, {"jugador": "Alzamendi", "equipo": "local", "min": 36}, {"jugador": "Alzamendi", "equipo": "local", "min": 64}, {"jugador": "Alzamendi", "equipo": "local", "min": 67}, {"jugador": "Brailovsky", "equipo": "local", "min": 86}, {"jugador": "Ballejo", "equipo": "visitante", "min": 6}, {"jugador": "Ballejo", "equipo": "visitante", "min": 40}, {"jugador": "Ballejo", "equipo": "visitante", "min": 85}]},
+                               {"hora_utc": "1980-12-07T19:00Z", "fecha": "1980-12-07", "local": "rosario-central", "visitante": "newell-s-old-boys", "gl": 3, "gv": 0, "estadio": "Estadio Gigante de Arroyito", "arbitro": "Jorge Eduardo Romero", "goles": [{"jugador": "Ghielmetti", "equipo": "local", "min": 33}, {"jugador": "Gaitán", "equipo": "local", "min": 39}, {"jugador": "Marchetti", "equipo": "local", "min": 71}]},
+                               {"hora_utc": "1980-12-14T19:00Z", "fecha": "1980-12-14", "local": "newell-s-old-boys", "visitante": "rosario-central", "gl": 1, "gv": 0, "estadio": "Estadio Coloso del Parque", "arbitro": "Abel Gnecco", "goles": [{"jugador": "Santamaría", "equipo": "local", "min": 39}]},
+                           ],
+                           "Final": [
+                               {"hora_utc": "1980-12-17T19:00Z", "fecha": "1980-12-17", "local": "rosario-central", "visitante": "racing-cordoba", "gl": 5, "gv": 1, "estadio": "Estadio Gigante de Arroyito", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Bauza", "equipo": "local", "min": 7, "tipo": "pen"}, {"jugador": "Palma", "equipo": "local", "min": 42}, {"jugador": "Marchetti", "equipo": "local", "min": 65}, {"jugador": "Agonil", "equipo": "local", "min": 72}, {"jugador": "Trama", "equipo": "local", "min": 77}, {"jugador": "Oyola", "equipo": "visitante", "min": 55}]},
+                               {"hora_utc": "1980-12-21T19:00Z", "fecha": "1980-12-21", "local": "racing-cordoba", "visitante": "rosario-central", "gl": 2, "gv": 0, "estadio": "Estadio Córdoba", "arbitro": "Teodoro Nitti", "goles": [{"jugador": "Oyola", "equipo": "local", "min": 8}, {"jugador": "Gasparini", "equipo": "local", "min": 82}]},
+                           ],
+                      },
+                      "ida_y_vuelta": True, "gol_visitante": True,
+                      "sin_descensos": "En el Nacional no había descensos: se definían en el Metropolitano."},
     # 1981: el Campeonato Metropolitano 1981 (febrero a agosto; campeón Boca): 18 equipos a dos ruedas (34 fechas), con
     # 2 puntos por partido ganado. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles). Sin promedios: bajaban
     # los dos últimos de la tabla ("descensos": "tabla"): San Lorenzo y Colón. Talleres-Argentinos (2-2) se lo dieron

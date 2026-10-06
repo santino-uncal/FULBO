@@ -41,7 +41,8 @@
     const TIT = window.LIGA_TITULOS || {};
     const TITULOS = (() => {
       const cuenta = { ...TIT.antes };
-      let anterior = TIT.ultimo_antes, seguidos = 1;
+      // (seguidos_antes: cuántos títulos seguidos llevaba ese club: River, campeón del Metropolitano y del Nacional 1979)
+      let anterior = TIT.ultimo_antes, seguidos = TIT.seguidos_antes || 1;
       for (const t of INDICE) {
         const deEste = (TIT.torneos?.[t.clave] || []).map(e => {
           const [club, texto] = Array.isArray(e) ? e : [e, null];
