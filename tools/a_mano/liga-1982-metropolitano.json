@@ -1,0 +1,3277 @@
+{
+ "nombre": "Campeonato Metropolitano 1982",
+ "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi), sin goles (Wikipedia todavía no tiene los partidos de este torneo). Estadio: la cancha que dice RSSSF cuando no era la del local; si no, la del local (la que usó en el Nacional 1982, según Wikipedia). La tabla que sale de los partidos es igual a la de RSSSF y a la de Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1982-07-18",
+     "local": "river-plate",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1982-07-18",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-07-18",
+     "local": "quilmes",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1982-07-18",
+     "local": "union",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1982-07-18",
+     "local": "velez-sarsfield",
+     "visitante": "sarmiento",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1982-07-18",
+     "local": "talleres",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1982-07-18",
+     "local": "racing-cordoba",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1982-07-18",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1982-07-18",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1982-07-25",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-07-25",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-07-25",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1982-07-25",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-cordoba",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1982-07-25",
+     "local": "sarmiento",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-07-25",
+     "local": "instituto",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-07-25",
+     "local": "nueva-chicago",
+     "visitante": "union",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1982-07-25",
+     "local": "newell-s-old-boys",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1982-07-25",
+     "local": "argentinos-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1982-08-01",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-01",
+     "local": "quilmes",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-01",
+     "local": "union",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-01",
+     "local": "velez-sarsfield",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-01",
+     "local": "talleres",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-01",
+     "local": "racing-cordoba",
+     "visitante": "sarmiento",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-01",
+     "local": "huracan",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-01",
+     "local": "rosario-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-01",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1982-08-08",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-08",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-08",
+     "local": "ferro-carril-oeste",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-08",
+     "local": "sarmiento",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-08",
+     "local": "instituto",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-08",
+     "local": "nueva-chicago",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-08",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-08",
+     "local": "argentinos-juniors",
+     "visitante": "union",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-08",
+     "local": "river-plate",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1982-08-14",
+     "local": "quilmes",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-14",
+     "local": "union",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-14",
+     "local": "velez-sarsfield",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-14",
+     "local": "talleres",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-14",
+     "local": "racing-cordoba",
+     "visitante": "nueva-chicago",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-14",
+     "local": "huracan",
+     "visitante": "instituto",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-14",
+     "local": "rosario-central",
+     "visitante": "sarmiento",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-14",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-14",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1982-08-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-17",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-17",
+     "local": "sarmiento",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-17",
+     "local": "instituto",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-17",
+     "local": "nueva-chicago",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-17",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-17",
+     "local": "argentinos-juniors",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-17",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-17",
+     "local": "racing-club",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1982-08-21",
+     "local": "racing-cordoba",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-22",
+     "local": "union",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-22",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-22",
+     "local": "talleres",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-22",
+     "local": "huracan",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-22",
+     "local": "rosario-central",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-22",
+     "local": "platense",
+     "visitante": "instituto",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-22",
+     "local": "boca-juniors",
+     "visitante": "sarmiento",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-22",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1982-08-28",
+     "local": "instituto",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-29",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-29",
+     "local": "sarmiento",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-29",
+     "local": "nueva-chicago",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-29",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-29",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-29",
+     "local": "river-plate",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-29",
+     "local": "racing-club",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-08-29",
+     "local": "quilmes",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1982-09-04",
+     "local": "talleres",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-04",
+     "local": "racing-cordoba",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-05",
+     "local": "velez-sarsfield",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-05",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-05",
+     "local": "rosario-central",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-05",
+     "local": "platense",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-05",
+     "local": "boca-juniors",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-05",
+     "local": "independiente",
+     "visitante": "instituto",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-05",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "sarmiento",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1982-09-08",
+     "local": "sarmiento",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-08",
+     "local": "instituto",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-08",
+     "local": "nueva-chicago",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-08",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-08",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-08",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-08",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-08",
+     "local": "quilmes",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-08",
+     "local": "union",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1982-09-11",
+     "local": "talleres",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-11",
+     "local": "racing-cordoba",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-12",
+     "local": "huracan",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-12",
+     "local": "rosario-central",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-12",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-12",
+     "local": "boca-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-12",
+     "local": "independiente",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-12",
+     "local": "ferro-carril-oeste",
+     "visitante": "instituto",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1982-09-18",
+     "local": "instituto",
+     "visitante": "sarmiento",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-19",
+     "local": "nueva-chicago",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-19",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-19",
+     "local": "argentinos-juniors",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-19",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-19",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-19",
+     "local": "quilmes",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-19",
+     "local": "union",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-19",
+     "local": "velez-sarsfield",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1982-09-29",
+     "local": "racing-cordoba",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-29",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-29",
+     "local": "rosario-central",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-29",
+     "local": "platense",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-29",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-29",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-29",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-29",
+     "local": "ferro-carril-oeste",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-29",
+     "local": "sarmiento",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Eva Perón",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1982-09-25",
+     "local": "talleres",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-26",
+     "local": "nueva-chicago",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-26",
+     "local": "newell-s-old-boys",
+     "visitante": "sarmiento",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-26",
+     "local": "argentinos-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-26",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-26",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-26",
+     "local": "quilmes",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-26",
+     "local": "union",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1982-09-26",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1982-10-02",
+     "local": "instituto",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-03",
+     "local": "huracan",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-03",
+     "local": "rosario-central",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-03",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-03",
+     "local": "boca-juniors",
+     "visitante": "union",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-03",
+     "local": "independiente",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-03",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-03",
+     "local": "sarmiento",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Eva Perón",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1982-10-06",
+     "local": "newell-s-old-boys",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-06",
+     "local": "argentinos-juniors",
+     "visitante": "instituto",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-06",
+     "local": "river-plate",
+     "visitante": "sarmiento",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-06",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-06",
+     "local": "quilmes",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-06",
+     "local": "union",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-06",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-06",
+     "local": "talleres",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-06",
+     "local": "racing-cordoba",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1982-10-10",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-10",
+     "local": "platense",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-10",
+     "local": "boca-juniors",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-10",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "union",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-10",
+     "local": "ferro-carril-oeste",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-10",
+     "local": "sarmiento",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-10",
+     "local": "instituto",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-10",
+     "local": "nueva-chicago",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1982-10-16",
+     "local": "talleres",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-17",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-17",
+     "local": "river-plate",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-17",
+     "local": "racing-club",
+     "visitante": "instituto",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-17",
+     "local": "quilmes",
+     "visitante": "sarmiento",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-17",
+     "local": "union",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-17",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-17",
+     "local": "racing-cordoba",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-17",
+     "local": "huracan",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1982-10-23",
+     "local": "instituto",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-24",
+     "local": "platense",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-24",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-24",
+     "local": "independiente",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-24",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-24",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-24",
+     "local": "sarmiento",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-24",
+     "local": "nueva-chicago",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-24",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1982-10-30",
+     "local": "instituto",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-31",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-31",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-31",
+     "local": "nueva-chicago",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-31",
+     "local": "sarmiento",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-31",
+     "local": "ferro-carril-oeste",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-31",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-31",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-10-31",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1982-11-03",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-03",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-03",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-03",
+     "local": "racing-cordoba",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-03",
+     "local": "talleres",
+     "visitante": "sarmiento",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-03",
+     "local": "velez-sarsfield",
+     "visitante": "instituto",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-03",
+     "local": "union",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-03",
+     "local": "quilmes",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-03",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1982-11-07",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-07",
+     "local": "argentinos-juniors",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-07",
+     "local": "newell-s-old-boys",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-07",
+     "local": "nueva-chicago",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-07",
+     "local": "instituto",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-07",
+     "local": "sarmiento",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-07",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-07",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1982-11-10",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-10",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-10",
+     "local": "rosario-central",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-10",
+     "local": "huracan",
+     "visitante": "sarmiento",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-10",
+     "local": "racing-cordoba",
+     "visitante": "instituto",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-10",
+     "local": "talleres",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-10",
+     "local": "velez-sarsfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-10",
+     "local": "union",
+     "visitante": "argentinos-juniors",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-10",
+     "local": "quilmes",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1982-11-14",
+     "local": "racing-club",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-14",
+     "local": "river-plate",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-14",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-14",
+     "local": "newell-s-old-boys",
+     "visitante": "talleres",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-14",
+     "local": "nueva-chicago",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-14",
+     "local": "instituto",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-14",
+     "local": "sarmiento",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-14",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1982-11-19",
+     "local": "rosario-central",
+     "visitante": "instituto",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-21",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-21",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-21",
+     "local": "platense",
+     "visitante": "sarmiento",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-21",
+     "local": "huracan",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-21",
+     "local": "racing-cordoba",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-21",
+     "local": "talleres",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 5,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-21",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-21",
+     "local": "union",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1982-11-28",
+     "local": "quilmes",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-28",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-28",
+     "local": "river-plate",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-28",
+     "local": "argentinos-juniors",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-28",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-28",
+     "local": "nueva-chicago",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-28",
+     "local": "instituto",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-28",
+     "local": "sarmiento",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-11-28",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1982-12-05",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-05",
+     "local": "independiente",
+     "visitante": "sarmiento",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-05",
+     "local": "boca-juniors",
+     "visitante": "instituto",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-05",
+     "local": "platense",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-05",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-05",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-05",
+     "local": "racing-cordoba",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-05",
+     "local": "talleres",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-05",
+     "local": "velez-sarsfield",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1982-12-08",
+     "local": "union",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-08",
+     "local": "quilmes",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-08",
+     "local": "racing-club",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-08",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-08",
+     "local": "argentinos-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-08",
+     "local": "newell-s-old-boys",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-08",
+     "local": "nueva-chicago",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-08",
+     "local": "instituto",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-08",
+     "local": "sarmiento",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Eva Perón",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1982-12-12",
+     "local": "ferro-carril-oeste",
+     "visitante": "sarmiento",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-12",
+     "local": "independiente",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-12",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-12",
+     "local": "platense",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-12",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-12",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "nota": "Se suspendió a los 40 minutos del segundo tiempo y no se siguió jugando: quedó el resultado.",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-12",
+     "local": "racing-cordoba",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-12",
+     "local": "talleres",
+     "visitante": "union",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1982-12-17",
+     "local": "racing-club",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-18",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-19",
+     "local": "velez-sarsfield",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-19",
+     "local": "union",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-19",
+     "local": "quilmes",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-19",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-19",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-19",
+     "local": "nueva-chicago",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-19",
+     "local": "instituto",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "partidos": [
+    {
+     "fecha": "1982-12-22",
+     "local": "sarmiento",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-22",
+     "local": "ferro-carril-oeste",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-22",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-22",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-22",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-22",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-22",
+     "local": "rosario-central",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-22",
+     "local": "huracan",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-22",
+     "local": "racing-cordoba",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "partidos": [
+    {
+     "fecha": "1982-12-30",
+     "local": "talleres",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-30",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-30",
+     "local": "union",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-30",
+     "local": "quilmes",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-30",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-30",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-30",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-30",
+     "local": "newell-s-old-boys",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1982-12-30",
+     "local": "nueva-chicago",
+     "visitante": "sarmiento",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "partidos": [
+    {
+     "fecha": "1983-01-05",
+     "local": "instituto",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-05",
+     "local": "sarmiento",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-05",
+     "local": "ferro-carril-oeste",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-05",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-05",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-05",
+     "local": "boca-juniors",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-05",
+     "local": "platense",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-05",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-05",
+     "local": "huracan",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "partidos": [
+    {
+     "fecha": "1983-01-08",
+     "local": "racing-cordoba",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-08",
+     "local": "talleres",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-08",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-08",
+     "local": "union",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-08",
+     "local": "quilmes",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-08",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-08",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-08",
+     "local": "argentinos-juniors",
+     "visitante": "sarmiento",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-08",
+     "local": "newell-s-old-boys",
+     "visitante": "instituto",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 35,
+   "partidos": [
+    {
+     "fecha": "1983-01-14",
+     "local": "rosario-central",
+     "visitante": "racing-cordoba",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-15",
+     "local": "nueva-chicago",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-15",
+     "local": "instituto",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-15",
+     "local": "sarmiento",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-15",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-15",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-15",
+     "local": "independiente",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-15",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-15",
+     "local": "platense",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 36,
+   "partidos": [
+    {
+     "fecha": "1983-01-22",
+     "local": "huracan",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-22",
+     "local": "racing-cordoba",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-22",
+     "local": "talleres",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-22",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-22",
+     "local": "union",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-22",
+     "local": "quilmes",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-22",
+     "local": "racing-club",
+     "visitante": "sarmiento",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-22",
+     "local": "river-plate",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-25",
+     "local": "argentinos-juniors",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "nota": "Se suspendió en el entretiempo (0-0) el 22 de enero; el segundo tiempo se jugó el 25.",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 37,
+   "partidos": [
+    {
+     "fecha": "1983-01-29",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-29",
+     "local": "nueva-chicago",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-29",
+     "local": "instituto",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-29",
+     "local": "sarmiento",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-29",
+     "local": "ferro-carril-oeste",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-29",
+     "local": "independiente",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-29",
+     "local": "boca-juniors",
+     "visitante": "racing-cordoba",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-01-29",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1983-02-11",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "nota": "Se suspendió en el entretiempo (0-0) el 29 de enero; el segundo tiempo se jugó el 11 de febrero.",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 38,
+   "partidos": [
+    {
+     "fecha": "1983-02-04",
+     "local": "river-plate",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-02-04",
+     "local": "rosario-central",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1983-02-05",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-02-05",
+     "local": "union",
+     "visitante": "sarmiento",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1983-02-05",
+     "local": "quilmes",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1983-02-05",
+     "local": "racing-club",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1983-02-14",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1983-02-14",
+     "local": "talleres",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-02-14",
+     "local": "racing-cordoba",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Instituto",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

@@ -33,6 +33,72 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1982: el Campeonato Nacional 1982 (febrero a junio; campeón Ferro): 32 equipos (los del Metropolitano y los del
+    # interior) en 4 zonas de 8 a dos ruedas ("zonas_a_mano"), más dos fechas de interzonales (la 5 y la 13: la A con la C
+    # y la B con la D), con 2 puntos por partido ganado; los dos primeros de cada zona jugaban la fase final, a ida y
+    # vuelta. ESPN no lo tiene: va a mano (tools/a_mano; resultados de RSSSF, días y estadios de Wikipedia; de la fase
+    # final, también los goles y los árbitros de Wikipedia). No había descensos (salían del Metropolitano)
+    "1982-nacional": {"nombre": "Campeonato Nacional 1982", "anio": 1982, "liga": "a_mano", "slug": "1982-nacional",
+                      "zonas_a_mano": {"A": ["quilmes", "independiente-rivadavia", "newell-s-old-boys", "instituto",
+                                             "sarmiento", "river-plate", "gimnasia-jujuy", "nueva-chicago"],
+                                       "B": ["ferro-carril-oeste", "union", "independiente", "argentinos-juniors",
+                                             "atletico-concepcion", "san-lorenzo-mdp", "estudiantes-santiago", "union-san-vicente"],
+                                       "C": ["estudiantes-de-la-plata", "talleres", "rosario-central", "boca-juniors",
+                                             "gimnasia-mendoza", "central-norte", "huracan", "mariano-moreno"],
+                                       "D": ["racing-cordoba", "san-martin-tucuman", "velez-sarsfield", "racing-club",
+                                             "platense", "guarani-antonio-franco", "deportivo-roca", "renato-cesarini"]},
+                      "fechas": 16, "pasan": 2, "puntos_victoria": 2,
+                      "texto_pasan": "Pasan a la fase final (los dos primeros de cada zona). Las fechas 5 y 13 fueron de "
+                                     "interzonales (la zona A con la C y la B con la D)",
+                      "goleadores_nota": "Los goles son solo de la fase final (de Wikipedia, con los minutos): de la fase de "
+                                         "zonas no están. El goleador del torneo fue Miguel Ángel Juárez (Ferro), con 22 goles.",
+                      "nombre_playoffs": "Fase final",
+                      "playoffs": [(r"^$^", n) for n in ("Cuartos de final", "Semifinales", "Final")],
+                      "playoffs_a_mano": {
+                           "Cuartos de final": [
+                               {"hora_utc": "1982-05-23T19:00Z", "fecha": "1982-05-23", "local": "talleres", "visitante": "racing-cordoba", "gl": 1, "gv": 1, "estadio": "Estadio Córdoba", "arbitro": "Juan Carlos Loustau", "goles": [{"jugador": "Oviedo", "equipo": "local", "min": 66}, {"jugador": "Oyola", "equipo": "visitante", "min": 60}]},
+                               {"hora_utc": "1982-05-30T19:00Z", "fecha": "1982-05-30", "local": "racing-cordoba", "visitante": "talleres", "gl": 1, "gv": 3, "estadio": "Estadio Córdoba", "arbitro": "Claudio Aquiles Busca", "alargue": True, "goles": [{"jugador": "Noriega", "equipo": "local", "min": 64}, {"jugador": "Morete", "equipo": "visitante", "min": 8}, {"jugador": "González", "equipo": "visitante", "min": 109}, {"jugador": "González", "equipo": "visitante", "min": 120}]},
+                               {"hora_utc": "1982-05-23T19:00Z", "fecha": "1982-05-23", "local": "independiente-rivadavia", "visitante": "ferro-carril-oeste", "gl": 0, "gv": 1, "estadio": "Malvinas Argentinas", "arbitro": "Teodoro Nitti", "goles": [{"jugador": "Juárez", "equipo": "visitante", "min": 59}]},
+                               {"hora_utc": "1982-05-30T19:00Z", "fecha": "1982-05-30", "local": "ferro-carril-oeste", "visitante": "independiente-rivadavia", "gl": 0, "gv": 0, "estadio": "Estadio Ferro Carril Oeste", "arbitro": "Abel Gnecco"},
+                               {"hora_utc": "1982-05-23T19:00Z", "fecha": "1982-05-23", "local": "estudiantes-de-la-plata", "visitante": "san-martin-tucuman", "gl": 3, "gv": 1, "estadio": "Estadio Jorge Luis Hirschi", "arbitro": "Carlos Alfonso Espósito", "goles": [{"jugador": "Trama", "equipo": "local", "min": 51}, {"jugador": "Gottardi", "equipo": "local", "min": 62}, {"jugador": "Brown", "equipo": "local", "min": 74, "tipo": "pen"}, {"jugador": "Roldán", "equipo": "visitante", "min": 87, "tipo": "pen"}]},
+                               {"hora_utc": "1982-05-30T19:00Z", "fecha": "1982-05-30", "local": "san-martin-tucuman", "visitante": "estudiantes-de-la-plata", "gl": 2, "gv": 2, "estadio": "Estadio La Ciudadela", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Roldán", "equipo": "local", "min": 75, "tipo": "pen"}, {"jugador": "Ignacio", "equipo": "local", "min": 87}, {"jugador": "Gottardi", "equipo": "visitante", "min": 59}, {"jugador": "Gottardi", "equipo": "visitante", "min": 88}]},
+                               {"hora_utc": "1982-05-23T19:00Z", "fecha": "1982-05-23", "local": "union", "visitante": "quilmes", "gl": 1, "gv": 1, "estadio": "Estadio Club Atlético Unión", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Mendoza", "equipo": "local", "min": 51, "tipo": "pen"}, {"jugador": "Acevedo", "equipo": "visitante", "min": 37}]},
+                               {"hora_utc": "1982-05-30T19:00Z", "fecha": "1982-05-30", "local": "quilmes", "visitante": "union", "gl": 1, "gv": 1, "estadio": "Estadio Quilmes Atlético Club", "arbitro": "Jorge Eduardo Romero", "alargue": True, "pen_l": 4, "pen_v": 3, "goles": [{"jugador": "Converti", "equipo": "local", "min": 66}, {"jugador": "Centurión", "equipo": "visitante", "min": 55}]},
+                           ],
+                           "Semifinales": [
+                               {"hora_utc": "1982-06-06T19:00Z", "fecha": "1982-06-06", "local": "ferro-carril-oeste", "visitante": "talleres", "gl": 4, "gv": 0, "estadio": "Estadio Ferro Carril Oeste", "arbitro": "Carlos Alfonso Espósito", "goles": [{"jugador": "Cañete", "equipo": "local", "min": 10}, {"jugador": "Cúper", "equipo": "local", "min": 25}, {"jugador": "Juárez", "equipo": "local", "min": 67}, {"jugador": "Juárez", "equipo": "local", "min": 76}]},
+                               {"hora_utc": "1982-06-13T19:00Z", "fecha": "1982-06-13", "local": "talleres", "visitante": "ferro-carril-oeste", "gl": 4, "gv": 4, "estadio": "Estadio Córdoba", "arbitro": "Juan Carlos Loustau", "goles": [{"jugador": "Morete", "equipo": "local", "min": 7}, {"jugador": "Morete", "equipo": "local", "min": 26}, {"jugador": "J. J. López", "equipo": "local", "min": 54}, {"jugador": "Reinaldi", "equipo": "local", "min": 90}, {"jugador": "Juárez", "equipo": "visitante", "min": 12}, {"jugador": "Juárez", "equipo": "visitante", "min": 29}, {"jugador": "Juárez", "equipo": "visitante", "min": 36}, {"jugador": "Pavón", "equipo": "visitante", "min": 61, "tipo": "ec"}]},
+                               {"hora_utc": "1982-06-06T19:00Z", "fecha": "1982-06-06", "local": "quilmes", "visitante": "estudiantes-de-la-plata", "gl": 2, "gv": 0, "estadio": "Estadio Quilmes Atlético Club", "arbitro": "Teodoro Nitti", "goles": [{"jugador": "Acevedo", "equipo": "local", "min": 61}, {"jugador": "Acevedo", "equipo": "local", "min": 83}]},
+                               {"hora_utc": "1982-06-13T19:00Z", "fecha": "1982-06-13", "local": "estudiantes-de-la-plata", "visitante": "quilmes", "gl": 0, "gv": 1, "estadio": "Estadio Jorge Luis Hirschi", "arbitro": "Claudio Aquiles Busca", "goles": [{"jugador": "Milozzi", "equipo": "visitante", "min": 15, "tipo": "pen"}]},
+                           ],
+                           "Final": [
+                               {"hora_utc": "1982-06-20T19:00Z", "fecha": "1982-06-20", "local": "quilmes", "visitante": "ferro-carril-oeste", "gl": 0, "gv": 0, "estadio": "Estadio Quilmes Atlético Club", "arbitro": "Jorge Eduardo Romero"},
+                               {"hora_utc": "1982-06-27T19:00Z", "fecha": "1982-06-27", "local": "ferro-carril-oeste", "visitante": "quilmes", "gl": 2, "gv": 0, "estadio": "Estadio Ferro Carril Oeste", "arbitro": "Teodoro Nitti", "goles": [{"jugador": "Juárez", "equipo": "local", "min": 25}, {"jugador": "Rocchia", "equipo": "local", "min": 54}]},
+                           ],
+                      },
+                      "ida_y_vuelta": True,
+                      "sin_descensos": "En el Nacional no había descensos: se definían en el Metropolitano."},
+    # El Campeonato Metropolitano 1982 (julio de 1982 a febrero de 1983; campeón Estudiantes): 19 equipos a dos ruedas
+    # (38 fechas, en cada una quedaba uno libre), con 2 puntos por partido ganado. ESPN no lo tiene: va a mano
+    # (tools/a_mano; RSSSF, sin goles: Wikipedia todavía no tiene los partidos). Sin promedios: bajaban los dos últimos de
+    # la tabla ("descensos": "tabla"); Unión y Quilmes empataron en el anteúltimo lugar y jugaron un desempate (bajó
+    # Quilmes; Sarmiento, el último). A la Libertadores 1983 fueron los campeones del Nacional y del Metropolitano
+    "1982-metropolitano": {"nombre": "Campeonato Metropolitano 1982", "anio": 1982, "liga": "a_mano", "slug": "1982-metropolitano",
+                           "zonas": "unica", "fechas": 38, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                           "anual_texto": "La tabla del Campeonato Metropolitano 1982 (las 38 fechas; eran 19 equipos y en cada "
+                                          "fecha uno quedaba libre). Cada partido ganado valía 2 puntos.",
+                           "goleadores_nota": "RSSSF no tiene los goles de este torneo. El goleador fue Carlos Morete "
+                                              "(Independiente), con 20 goles.",
+                           "descensos": "tabla", "descienden": 2,
+                           "desempate_a_mano": {"fecha": "1983-02-20", "local": "union", "visitante": "quilmes", "gl": 1, "gv": 0,
+                                                "estadio": "Cancha de Sarmiento (Junín)", "arbitro": "Teodoro Nitti",
+                                                "goles": [{"jugador": "Capocetti", "equipo": "local", "min": 56, "tipo": "pen"}]},
+                           "desempate_texto": "Unión y Quilmes terminaron empatados en puntos en el anteúltimo lugar, arriba de "
+                                              "Sarmiento (que bajó por ser el último): lo definieron en un partido, en cancha de "
+                                              "Sarmiento, en Junín, y bajó Quilmes.",
+                           "cupos": {"anio": 1983, "fijos": True,
+                                     "libertadores": [("Campeón del Nacional 1982", "ferro-carril-oeste"),
+                                                      ("Campeón del Metropolitano 1982", "estudiantes-de-la-plata")]}},
     # 1983: el Campeonato Nacional 1983 (marzo a junio; campeón Estudiantes): 32 equipos (los del Metropolitano y los
     # del interior) por etapas ("etapas"; en tools/a_mano, cada fecha dice su etapa y cada partido su zona): la primera
     # fase, 8 zonas de 4 a dos ruedas (pasaban los tres primeros), y la segunda, 8 zonas de 3 a dos ruedas, en las que
@@ -2800,6 +2866,10 @@ CLUBES_NUEVOS = {
     "rce": ("renato-cesarini", "Renato Cesarini (Rosario)"),
     "asr": ("atletico-santa-rosa", "Atlético Santa Rosa (La Pampa)"),
     "aco": ("atletico-concepcion", "Atlético Concepción (Banda del Río Salí)"),
+    "dro": ("deportivo-roca", "Deportivo Roca (General Roca)"),   # (no están en ESPN: el Nacional 1982)
+    "esg": ("estudiantes-santiago", "Estudiantes (Santiago del Estero)"),
+    "mmo": ("mariano-moreno", "Mariano Moreno (Junín)"),
+    "slm": ("san-lorenzo-mdp", "San Lorenzo (Mar del Plata)"),
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)

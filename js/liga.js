@@ -263,6 +263,12 @@
         const promo = T.promocion ? ids.slice(-(n + T.promocion), -n) : [];
         return { porProm, todos: porProm, anual: null, promo };
       }
+      // hasta 1982: bajaban los últimos de la tabla, sin promedios (un empate en ese lugar, ya resuelto en la tabla por
+      // el desempate)
+      if (T.descensos === "tabla") {
+        const ids = tablaAnual().map(f => f.id).slice(-(T.descienden || 2));
+        return { anual: null, prom: null, todos: ids, porProm: [] };
+      }
       const anual = tablaAnual(), prom = promedios().at(-1).id;
       let porAnual = anual.at(-1).id === prom ? anual.at(-2).id : anual.at(-1).id;
       // empate en puntos por ese lugar: lo definió un partido desempate (2023: Gimnasia-Colón), baja el que perdió
@@ -277,7 +283,7 @@
       return `<p class="nota-edicion">${esc(T.descensos_anulados)} Con el reglamento, hubiesen descendido ${esc(club(d.anual).nombre)}
         (tabla anual) y ${esc(club(d.prom).nombre)} (promedios).</p>`;
     })() : `<p class="leyenda"><span><i class="desciende"></i>${enJuego() ? "Descendería si el año terminara hoy" : "Desciende"}
-      (${T.descensos === "promedios" ? (T.descienden === 1 ? "el último de los promedios" : `los ${{ 2: "dos", 3: "tres", 4: "cuatro" }[T.descienden || 2]} últimos de los promedios`) : "uno por la tabla anual y otro por los promedios"})</span>${T.promocion
+      (${T.descensos === "tabla" ? (T.descienden === 1 ? "el último de la tabla" : `los ${{ 2: "dos", 3: "tres" }[T.descienden || 2]} últimos de la tabla`) : T.descensos === "promedios" ? (T.descienden === 1 ? "el último de los promedios" : `los ${{ 2: "dos", 3: "tres", 4: "cuatro" }[T.descienden || 2]} últimos de los promedios`) : "uno por la tabla anual y otro por los promedios"})</span>${T.promocion
       ? `<span><i class="promocion"></i>${esc(T.texto_promocion || "Promoción contra un equipo de la B Nacional")} (ver la pestaña ${esc(T.nombre_playoffs || "Playoffs")})</span>` : ""}</p>`;
     // ---- Cupos para las copas del año que viene (T.cupos): a la Libertadores, los campeones del año y los mejores de
     // la tabla anual hasta completar los lugares; a la Sudamericana, los siguientes. Un campeón que ya entra por la
