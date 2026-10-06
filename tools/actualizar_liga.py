@@ -33,6 +33,38 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1973: el Campeonato Metropolitano 1973 (marzo a septiembre; campeón Huracán): 17 equipos a dos ruedas (34 fechas,
+    # en cada una quedaba uno libre), con 2 puntos por partido ganado. ESPN no lo tiene: va a mano (tools/a_mano;
+    # resultados de RSSSF, días y estadios de Wikipedia; sin goles). No hubo descensos. A la Libertadores 1974 fueron los
+    # campeones del Metropolitano y del Nacional
+    "1973-metropolitano": {"nombre": "Campeonato Metropolitano 1973", "anio": 1973, "liga": "a_mano", "slug": "1973-metropolitano",
+                           "zonas": "unica", "fechas": 34, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                           "anual_texto": "La tabla del Campeonato Metropolitano 1973 (las 34 fechas; eran 17 equipos y en cada "
+                                          "fecha uno quedaba libre). Cada partido ganado valía 2 puntos.",
+                           "goleadores_nota": "No están los goles de este torneo. Los goleadores fueron Hugo Curioni (Boca), "
+                                              "Oscar Más (River) e Ignacio Peña (Estudiantes), con 17 goles.",
+                           "sin_descensos": "No hubo descensos: la AFA los anuló.",
+                           "cupos": {"anio": 1974, "fijos": True,
+                                     "libertadores": [("Campeón del Metropolitano 1973", "huracan"),
+                                                      ("Campeón del Nacional 1973", "rosario-central")]}},
+    # El Campeonato Nacional 1973 (octubre a diciembre; campeón Rosario Central): 30 equipos por etapas ("etapas"; en
+    # tools/a_mano, cada fecha dice su etapa y cada partido su zona): la fase de zonas, 2 zonas de 15 a una rueda (15
+    # fechas; en cada una, el que quedaba libre jugaba un interzonal, sin zona en el archivo), y el cuadrangular final, los
+    # dos primeros de cada zona a una rueda en cancha neutral (el primero fue el campeón, "campeon_etapa"). Con 2 puntos por
+    # partido ganado. ESPN no lo tiene: va a mano (tools/a_mano; Wikipedia, controlada con RSSSF). No había descensos
+    "1973-nacional": {"nombre": "Campeonato Nacional 1973", "anio": 1973, "liga": "a_mano", "slug": "1973-nacional",
+                      "etapas": [("Fase de zonas", r"zonas$", 2, 1, 15,
+                                  "Los dos primeros de cada zona pasan al cuadrangular final. En cada fecha, el que quedaba "
+                                  "libre en su zona jugaba un interzonal, que suma en su zona"),
+                                 ("Cuadrangular final", r"cuadrangular$", 0, 16, 3, "Campeón: el primero")],
+                      "fechas": 18, "pasan": 0, "puntos_victoria": 2, "campeon_etapa": "Cuadrangular final",
+                      "nota": "Cada partido ganado valía 2 puntos. En la fase de zonas había 2 zonas de 15 a una rueda; los "
+                              "dos primeros de cada zona jugaban el cuadrangular final, a una rueda y en cancha neutral, y el "
+                              "primero fue el campeón.",
+                      "goleadores_nota": "Solo están los goles del partido en que Rosario Central salió campeón (San Lorenzo 1, "
+                                         "Rosario Central 1). El goleador del torneo fue Juan Gómez Voglino (Atlanta), con 18 "
+                                         "goles.",
+                      "sin_descensos": "En el Nacional no había descensos: se definían en el Metropolitano."},
     # 1974: el Campeonato Metropolitano 1974 (febrero a junio; campeón Newell's): 18 equipos por etapas ("etapas"; en
     # tools/a_mano, cada fecha dice su etapa y cada partido su zona): la primera fase, 2 zonas de 9 a dos ruedas (18
     # fechas; en cada una, el que quedaba libre jugaba un interzonal, sin zona en el archivo); Boca y Ferro empataron el

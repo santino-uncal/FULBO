@@ -1,0 +1,2429 @@
+{
+ "nombre": "Campeonato Nacional 1973",
+ "fuente": "Resultados, días y estadios de Wikipedia, controlados con RSSSF (Javier Roimiser): coinciden en todos. Las dos fuentes ponen en la fecha 4 un Atlético Tucumán 4-0 San Martín de Tucumán, pero ese día San Martín jugó con Juventud Antoniana y a Gimnasia de Jujuy, de la zona de Atlético, le falta ese partido: con Gimnasia, las tablas de los tres dan igual que las oficiales. Los goles, solo los del partido en que Rosario Central salió campeón (RSSSF)",
+ "fechas": [
+  {
+   "numero": 1,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1973-10-05",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-05",
+     "local": "san-martin-tucuman",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-05",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "juventud-antoniana",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-05",
+     "local": "cipolletti",
+     "visitante": "san-martin-mendoza",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Visera de Cemento",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-05",
+     "local": "all-boys",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Islas Malvinas",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-05",
+     "local": "independiente",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-05",
+     "local": "kimberley",
+     "visitante": "atletico-tucuman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-05",
+     "local": "rosario-central",
+     "visitante": "belgrano",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-05",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-05",
+     "local": "independiente-rivadavia",
+     "visitante": "sportivo-desamparados",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Bautista Gargantini",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-05",
+     "local": "gimnasia-jujuy",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "23 de Agosto",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-05",
+     "local": "chaco-for-ever",
+     "visitante": "colon",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Gigante de la Avenida",
+     "goles": []
+    },
+    {
+     "fecha": "1973-10-06",
+     "local": "chacarita-juniors",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-06",
+     "local": "instituto",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-08",
+     "local": "boca-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1973-10-09",
+     "local": "river-plate",
+     "visitante": "instituto",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-10",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-10",
+     "local": "velez-sarsfield",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-10",
+     "local": "san-lorenzo-mdp",
+     "visitante": "cipolletti",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-10",
+     "local": "juventud-antoniana",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Basílica Mayor",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-10",
+     "local": "san-martin-mendoza",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Libertador General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-10",
+     "local": "newell-s-old-boys",
+     "visitante": "san-martin-tucuman",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-10",
+     "local": "atlanta",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-10",
+     "local": "belgrano",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-10",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-jujuy",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-10",
+     "local": "atletico-tucuman",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental José Fierro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-10",
+     "local": "chaco-for-ever",
+     "visitante": "independiente-rivadavia",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de la Avenida",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-10",
+     "local": "sportivo-desamparados",
+     "visitante": "kimberley",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-16",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1973-10-13",
+     "local": "boca-juniors",
+     "visitante": "atletico-tucuman",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-14",
+     "local": "san-martin-tucuman",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-14",
+     "local": "instituto",
+     "visitante": "juventud-antoniana",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-14",
+     "local": "cipolletti",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Visera de Cemento",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-14",
+     "local": "all-boys",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Islas Malvinas",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-14",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-14",
+     "local": "colon",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-14",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-14",
+     "local": "kimberley",
+     "visitante": "chaco-for-ever",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-14",
+     "local": "huracan",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-14",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-14",
+     "local": "rosario-central",
+     "visitante": "sportivo-desamparados",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-14",
+     "local": "gimnasia-jujuy",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-14",
+     "local": "independiente-rivadavia",
+     "visitante": "san-martin-mendoza",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Bautista Gargantini",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1973-10-19",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-21",
+     "local": "racing-club",
+     "visitante": "instituto",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-21",
+     "local": "river-plate",
+     "visitante": "cipolletti",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-21",
+     "local": "san-lorenzo-mdp",
+     "visitante": "san-martin-mendoza",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-21",
+     "local": "newell-s-old-boys",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-21",
+     "local": "velez-sarsfield",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-21",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-21",
+     "local": "juventud-antoniana",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Basílica Mayor",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-21",
+     "local": "sportivo-desamparados",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-21",
+     "local": "chaco-for-ever",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de la Avenida",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-21",
+     "local": "independiente-rivadavia",
+     "visitante": "kimberley",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Bautista Gargantini",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-21",
+     "local": "argentinos-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-21",
+     "local": "belgrano",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-21",
+     "local": "atletico-tucuman",
+     "visitante": "gimnasia-jujuy",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Monumental José Fierro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-21",
+     "local": "chacarita-juniors",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1973-10-23",
+     "local": "all-boys",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-24",
+     "local": "colon",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-24",
+     "local": "san-martin-tucuman",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-24",
+     "local": "cipolletti",
+     "visitante": "juventud-antoniana",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "La Visera de Cemento",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-24",
+     "local": "instituto",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-24",
+     "local": "san-martin-mendoza",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Libertador General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-24",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "chacarita-juniors",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-24",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-24",
+     "local": "boca-juniors",
+     "visitante": "chaco-for-ever",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-24",
+     "local": "rosario-central",
+     "visitante": "independiente-rivadavia",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-24",
+     "local": "atlanta",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-24",
+     "local": "gimnasia-jujuy",
+     "visitante": "sportivo-desamparados",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "23 de Agosto",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-24",
+     "local": "belgrano",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-24",
+     "local": "atletico-tucuman",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental José Fierro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-24",
+     "local": "san-lorenzo-mdp",
+     "visitante": "kimberley",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "General San Martín",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1973-10-26",
+     "local": "chacarita-juniors",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-28",
+     "local": "racing-club",
+     "visitante": "cipolletti",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-28",
+     "local": "juventud-antoniana",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Basílica Mayor",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-28",
+     "local": "san-lorenzo",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-28",
+     "local": "river-plate",
+     "visitante": "san-martin-mendoza",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-28",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-28",
+     "local": "velez-sarsfield",
+     "visitante": "san-martin-tucuman",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-10-28",
+     "local": "atletico-tucuman",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental José Fierro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-28",
+     "local": "chaco-for-ever",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Gigante de la Avenida",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-28",
+     "local": "belgrano",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-28",
+     "local": "kimberley",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-28",
+     "local": "argentinos-juniors",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 5,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-28",
+     "local": "sportivo-desamparados",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-28",
+     "local": "independiente-rivadavia",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Bautista Gargantini",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-10-28",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1973-10-31",
+     "local": "boca-juniors",
+     "visitante": "kimberley",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-01",
+     "local": "colon",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-01",
+     "local": "instituto",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-01",
+     "local": "san-martin-mendoza",
+     "visitante": "juventud-antoniana",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Libertador General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-01",
+     "local": "san-lorenzo-mdp",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-01",
+     "local": "all-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Islas Malvinas",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-01",
+     "local": "cipolletti",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Visera de Cemento",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-01",
+     "local": "san-martin-tucuman",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-01",
+     "local": "huracan",
+     "visitante": "atletico-tucuman",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-01",
+     "local": "chaco-for-ever",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de la Avenida",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-01",
+     "local": "atlanta",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-01",
+     "local": "gimnasia-jujuy",
+     "visitante": "independiente-rivadavia",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-01",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-01",
+     "local": "ferro-carril-oeste",
+     "visitante": "sportivo-desamparados",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-01",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1973-11-03",
+     "local": "velez-sarsfield",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-04",
+     "local": "racing-club",
+     "visitante": "san-martin-mendoza",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-04",
+     "local": "juventud-antoniana",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Basílica Mayor",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-04",
+     "local": "san-lorenzo",
+     "visitante": "cipolletti",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-04",
+     "local": "chacarita-juniors",
+     "visitante": "san-martin-tucuman",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-04",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-04",
+     "local": "river-plate",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-04",
+     "local": "belgrano",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-04",
+     "local": "chaco-for-ever",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de la Avenida",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-04",
+     "local": "atletico-tucuman",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental José Fierro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-04",
+     "local": "sportivo-desamparados",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-04",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-04",
+     "local": "independiente-rivadavia",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Bautista Gargantini",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-04",
+     "local": "kimberley",
+     "visitante": "gimnasia-jujuy",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-04",
+     "local": "all-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1973-11-09",
+     "local": "argentinos-juniors",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-11",
+     "local": "newell-s-old-boys",
+     "visitante": "juventud-antoniana",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-11",
+     "local": "san-martin-tucuman",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-11",
+     "local": "san-lorenzo-mdp",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-11",
+     "local": "instituto",
+     "visitante": "all-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-11",
+     "local": "san-martin-mendoza",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Libertador General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-11",
+     "local": "colon",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-11",
+     "local": "cipolletti",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Visera de Cemento",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-11",
+     "local": "independiente",
+     "visitante": "kimberley",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-11",
+     "local": "gimnasia-jujuy",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-11",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente-rivadavia",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-11",
+     "local": "huracan",
+     "visitante": "chaco-for-ever",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-11",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "atletico-tucuman",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-11",
+     "local": "atlanta",
+     "visitante": "sportivo-desamparados",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-11",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1973-11-14",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-14",
+     "local": "juventud-antoniana",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Basílica Mayor",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-14",
+     "local": "san-lorenzo",
+     "visitante": "san-martin-mendoza",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-14",
+     "local": "san-martin-tucuman",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "cipolletti",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-14",
+     "local": "chacarita-juniors",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-14",
+     "local": "independiente-rivadavia",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Bautista Gargantini",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-14",
+     "local": "sportivo-desamparados",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-14",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-14",
+     "local": "atletico-tucuman",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Monumental José Fierro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-14",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-14",
+     "local": "chaco-for-ever",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de la Avenida",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-14",
+     "local": "kimberley",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-14",
+     "local": "belgrano",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "goles": []
+    },
+    {
+     "fecha": "1973-11-15",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1973-11-16",
+     "local": "atlanta",
+     "visitante": "independiente-rivadavia",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-18",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-18",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-18",
+     "local": "san-lorenzo-mdp",
+     "visitante": "san-lorenzo",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-18",
+     "local": "san-martin-mendoza",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Libertador General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-18",
+     "local": "colon",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-18",
+     "local": "cipolletti",
+     "visitante": "all-boys",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "La Visera de Cemento",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-18",
+     "local": "san-martin-tucuman",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-18",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-18",
+     "local": "huracan",
+     "visitante": "kimberley",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-18",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "chaco-for-ever",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-18",
+     "local": "argentinos-juniors",
+     "visitante": "sportivo-desamparados",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-18",
+     "local": "belgrano",
+     "visitante": "atletico-tucuman",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-18",
+     "local": "gimnasia-jujuy",
+     "visitante": "juventud-antoniana",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1973-11-23",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-25",
+     "local": "all-boys",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Islas Malvinas",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-25",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-martin-mendoza",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-25",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-25",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-25",
+     "local": "instituto",
+     "visitante": "cipolletti",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-25",
+     "local": "racing-club",
+     "visitante": "juventud-antoniana",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-11-25",
+     "local": "sportivo-desamparados",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-25",
+     "local": "independiente-rivadavia",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Bautista Gargantini",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-25",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-25",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-25",
+     "local": "gimnasia-jujuy",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "23 de Agosto",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-25",
+     "local": "chaco-for-ever",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Gigante de la Avenida",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-25",
+     "local": "kimberley",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "General San Martín",
+     "goles": [],
+     "para_local": [
+      0,
+      2
+     ],
+     "para_visitante": [
+      2,
+      0
+     ],
+     "nota": "Se suspendió con Atlanta ganando 2-1, y la AFA se lo dio ganado a Atlanta (2-0).",
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-11-25",
+     "local": "atletico-tucuman",
+     "visitante": "san-martin-tucuman",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Monumental José Fierro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1973-12-02",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-02",
+     "local": "newell-s-old-boys",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-02",
+     "local": "san-lorenzo-mdp",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-02",
+     "local": "san-martin-mendoza",
+     "visitante": "all-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Libertador General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-02",
+     "local": "colon",
+     "visitante": "instituto",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-02",
+     "local": "juventud-antoniana",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Basílica Mayor",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-02",
+     "local": "cipolletti",
+     "visitante": "san-martin-tucuman",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Visera de Cemento",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-02",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-02",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-02",
+     "local": "atletico-tucuman",
+     "visitante": "sportivo-desamparados",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental José Fierro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-02",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "kimberley",
+     "gl": 7,
+     "gv": 2,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-02",
+     "local": "argentinos-juniors",
+     "visitante": "independiente-rivadavia",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-02",
+     "local": "belgrano",
+     "visitante": "chaco-for-ever",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-02",
+     "local": "atlanta",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-02",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1973-12-07",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-09",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-09",
+     "local": "san-martin-tucuman",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-09",
+     "local": "instituto",
+     "visitante": "san-martin-mendoza",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-09",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-09",
+     "local": "chacarita-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-09",
+     "local": "all-boys",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Islas Malvinas",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-09",
+     "local": "san-lorenzo",
+     "visitante": "juventud-antoniana",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-09",
+     "local": "independiente-rivadavia",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Bautista Gargantini",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-09",
+     "local": "chaco-for-ever",
+     "visitante": "atletico-tucuman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de la Avenida",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-09",
+     "local": "kimberley",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-09",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-09",
+     "local": "boca-juniors",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-09",
+     "local": "gimnasia-jujuy",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "23 de Agosto",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-09",
+     "local": "cipolletti",
+     "visitante": "sportivo-desamparados",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Visera de Cemento",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1973-12-16",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-16",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-16",
+     "local": "newell-s-old-boys",
+     "visitante": "all-boys",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-16",
+     "local": "san-lorenzo-mdp",
+     "visitante": "instituto",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-16",
+     "local": "san-martin-mendoza",
+     "visitante": "san-martin-tucuman",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Libertador General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-16",
+     "local": "juventud-antoniana",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Basílica Mayor",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-16",
+     "local": "colon",
+     "visitante": "cipolletti",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1973-12-16",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-16",
+     "local": "atlanta",
+     "visitante": "gimnasia-jujuy",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-16",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-16",
+     "local": "argentinos-juniors",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-16",
+     "local": "belgrano",
+     "visitante": "kimberley",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-16",
+     "local": "atletico-tucuman",
+     "visitante": "independiente-rivadavia",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental José Fierro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-16",
+     "local": "sportivo-desamparados",
+     "visitante": "chaco-for-ever",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1973-12-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "etapa": "cuadrangular",
+   "partidos": [
+    {
+     "fecha": "1973-12-18",
+     "local": "atlanta",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1973-12-19",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "etapa": "cuadrangular",
+   "partidos": [
+    {
+     "fecha": "1973-12-22",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1973-12-23",
+     "local": "atlanta",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "etapa": "cuadrangular",
+   "partidos": [
+    {
+     "fecha": "1973-12-29",
+     "local": "river-plate",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1973-12-29",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Cabral",
+       "equipo": "visitante",
+       "min": 19
+      },
+      {
+       "jugador": "Scotta",
+       "equipo": "local",
+       "min": 83
+      }
+     ],
+     "zona": "Posiciones"
+    }
+   ]
+  }
+ ]
+}
