@@ -33,6 +33,53 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1971: el Campeonato Metropolitano 1971 (marzo a septiembre; campeón Independiente): 19 equipos a dos ruedas (38
+    # fechas, en cada una quedaba uno libre), con 2 puntos por partido ganado. ESPN no lo tiene: va a mano (tools/a_mano;
+    # RSSSF, con los goleadores, solo con el apellido y sin minutos). Sin promedios: bajaban los dos últimos de la tabla
+    # ("descensos": "tabla"): Los Andes y Platense. A la Libertadores 1972 fueron el campeón del Nacional (Rosario Central)
+    # e Independiente, que le ganó al subcampeón del Nacional (San Lorenzo) el partido por el segundo lugar
+    "1971-metropolitano": {"nombre": "Campeonato Metropolitano 1971", "anio": 1971, "liga": "a_mano", "slug": "1971-metropolitano",
+                           "zonas": "unica", "fechas": 38, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                           "anual_texto": "La tabla del Campeonato Metropolitano 1971 (las 38 fechas; eran 19 equipos y en cada "
+                                          "fecha uno quedaba libre). Cada partido ganado valía 2 puntos.",
+                           "goleadores_nota": "Los goles son de RSSSF, solo con el apellido (falta uno). El goleador fue Carlos "
+                                              "Bianchi (Vélez), con 36 goles.",
+                           "descensos": "tabla", "descienden": 2,
+                           "cupos": {"anio": 1972, "fijos": True,
+                                     "libertadores": [("Campeón del Nacional 1971", "rosario-central"),
+                                                      ("Ganador del partido entre el campeón del Metropolitano y el subcampeón "
+                                                       "del Nacional", "independiente")],
+                                     "nota": "Independiente, campeón del Metropolitano, le ganó a San Lorenzo, subcampeón del "
+                                             "Nacional, el partido por el segundo lugar: 1-0 en cancha de Boca (29 de "
+                                             "diciembre)."}},
+    # El Campeonato Nacional 1971 (octubre a diciembre; campeón Rosario Central): 28 equipos en 2 zonas de 14 a una rueda
+    # ("zonas_a_mano"), con una fecha de interzonales (la 11), con 2 puntos por partido ganado; a Huracán de Ingeniero White
+    # le descontaron 2 puntos. Los dos primeros de cada zona jugaban las semifinales (el primero de una zona con el segundo
+    # de la otra) y la final, a un partido en cancha neutral. ESPN no lo tiene: va a mano (tools/a_mano; resultados, días y
+    # estadios de Wikipedia, goles de RSSSF; de la fase final, los goles con los minutos y los árbitros de Wikipedia)
+    "1971-nacional": {"nombre": "Campeonato Nacional 1971", "anio": 1971, "liga": "a_mano", "slug": "1971-nacional",
+                      "zonas_a_mano": {"A": ["independiente", "newell-s-old-boys", "belgrano", "river-plate", "argentinos-juniors", "ferro-carril-oeste", "banfield", "kimberley", "san-martin-mendoza", "gimnasia-y-esgrima", "huracan", "juventud-antoniana", "don-orione", "huracan-comodoro-rivadavia"],
+                                       "B": ["rosario-central", "san-lorenzo", "boca-juniors", "gimnasia-mendoza", "atlanta", "velez-sarsfield", "estudiantes-de-la-plata", "racing-club", "chacarita-juniors", "colon", "san-martin-tucuman", "guarani-antonio-franco", "central-cordoba", "huracan-ingeniero-white"]},
+                      "fechas": 14, "pasan": 2, "puntos_victoria": 2,
+                      "texto_pasan": "Pasan a las semifinales (los dos primeros de cada zona). La fecha 11 fue de interzonales",
+                      "descuentos": {"huracan-ingeniero-white": 2},
+                      "descuentos_texto": "A Huracán de Ingeniero White se le descontaron 2 puntos.",
+                      "goleadores_nota": "Los goles de la fase de zonas son de RSSSF, solo con el apellido y sin minutos "
+                                         "(faltan tres); los de la fase final, de Wikipedia, con los minutos. Los goleadores "
+                                         "del torneo fueron José Luñiz (Juventud Antoniana) y Alfredo Obberti (Newell's), "
+                                         "con 10 goles.",
+                      "nombre_playoffs": "Fase final",
+                      "playoffs": [(r"^$^", n) for n in ("Semifinales", "Final")],
+                      "playoffs_a_mano": {
+                           "Semifinales": [
+                               {"hora_utc": "1971-12-18T19:00Z", "fecha": "1971-12-18", "local": "independiente", "visitante": "san-lorenzo", "gl": 2, "gv": 2, "estadio": "Estadio Monumental", "arbitro": "Humberto Orestes Dellacasa", "alargue": True, "pen_l": 6, "pen_v": 7, "goles": [{"jugador": "Semenewicz", "equipo": "local", "min": 9}, {"jugador": "Maglioni", "equipo": "local", "min": 37}, {"jugador": "Ayala", "equipo": "visitante", "min": 60}, {"jugador": "Fischer", "equipo": "visitante", "min": 90}]},
+                               {"hora_utc": "1971-12-19T19:00Z", "fecha": "1971-12-19", "local": "rosario-central", "visitante": "newell-s-old-boys", "gl": 1, "gv": 0, "estadio": "Estadio Monumental", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Poy", "equipo": "local", "min": 54}]},
+                           ],
+                           "Final": [
+                               {"hora_utc": "1971-12-22T19:00Z", "fecha": "1971-12-22", "local": "rosario-central", "visitante": "san-lorenzo", "gl": 2, "gv": 1, "estadio": "Estadio Coloso del Parque", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Gramajo", "equipo": "local", "min": 17}, {"jugador": "Colman", "equipo": "local", "min": 23}, {"jugador": "Scotta", "equipo": "visitante", "min": 5}]},
+                           ],
+                      },
+                      "sin_descensos": "En el Nacional no había descensos: se definían en el Metropolitano."},
     # 1972: el Campeonato Metropolitano 1972 (febrero a octubre; campeón San Lorenzo): 18 equipos a dos ruedas (34 fechas),
     # con 2 puntos por partido ganado; a Banfield le descontaron 21 puntos. Después, los seis últimos jugaron el Torneo
     # Reclasificatorio (a una rueda, en cancha neutral), cuyos puntos se sumaban a los del Metropolitano ("etapa_suma"):
@@ -3463,6 +3510,8 @@ CLUBES_NUEVOS = {
     "pco": ("puerto-comercial", "Puerto Comercial (Bahía Blanca)"),
     "sde": ("sportivo-desamparados", "Sportivo Desamparados (San Juan)"),
     "itr": ("independiente-trelew", "Independiente (Trelew)"),   # (no está en ESPN: 1972)
+    "dor": ("don-orione", "Don Orione (Barranqueras)"),   # (no están en ESPN: 1971)
+    "hiw": ("huracan-ingeniero-white", "Huracán (Ingeniero White)"),
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)

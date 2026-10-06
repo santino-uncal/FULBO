@@ -1,0 +1,7629 @@
+{
+ "nombre": "Campeonato Metropolitano 1971",
+ "fuente": "Resultados, días y goles: RSSSF (Pablo Ciullini), con los goleadores solo con el apellido y sin minutos (falta uno de Racing contra Colón, en la fecha 16). Estadio: la cancha que dice RSSSF cuando no era la del local; si no, la del local. La tabla que sale de los partidos es igual a la de RSSSF y Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1971-03-05",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Heredia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gómez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. Sánchez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "V. Sánchez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-07",
+     "local": "atlanta",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Drago",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Ripke",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-07",
+     "local": "velez-sarsfield",
+     "visitante": "los-andes",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Lapalma",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "E. Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Veira",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-07",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Bezerra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marcos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamelza",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Wolff",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-07",
+     "local": "chacarita-juniors",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Punturero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Recúpero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Curioni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Curioni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Madurga",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-07",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Laraignée",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cabral",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-07",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Gennoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pastoriza",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-07",
+     "local": "banfield",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "R. Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aguirre",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Riestra",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ribaudo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cicarello",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1971-03-10",
+     "local": "argentinos-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Aimonetti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Aimonetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Leonardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. Martínez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-10",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Gramajo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gramajo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Heredia",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ayala",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-10",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Madurga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. J.López",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marchetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-10",
+     "local": "huracan",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Dopacio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Brindisi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Brindisi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-10",
+     "local": "los-andes",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [
+      {
+       "jugador": "Bedogni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-10",
+     "local": "colon",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Ripke",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-11",
+     "local": "racing-club",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Cárdenas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Wolff",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marcos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "García Cambón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-11",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 11,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Scarpeccio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pastoriza",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pastoriza",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Balbuena",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Giachello",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Giachello",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Giachello",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Raimondo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gennoni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gennoni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maglioni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maglioni",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1971-03-12",
+     "local": "banfield",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1971-03-14",
+     "local": "velez-sarsfield",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mecca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "O. Gutiérrez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mastrángelo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Bedogni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rudzki",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ocaño",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ripke",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-14",
+     "local": "newell-s-old-boys",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Cabrero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cardacci",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-14",
+     "local": "chacarita-juniors",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Orife",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Orife",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-14",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Bulla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Adorno",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-14",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Pavoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gennoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Suñé",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-14",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Espósito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Russo",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Rosl",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Miranda",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A. González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cabral",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-14",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Aimonetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moreno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Leonardi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "V. Sánchez",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1971-03-19",
+     "local": "atlanta",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Pecoraro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Valencia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Valencia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Togneri",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-20",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Peña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fischer",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fischer",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "P. González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-21",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Meija",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. Moreno",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-21",
+     "local": "rosario-central",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Troilo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Landucci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Salomone",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vidal",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vidal",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-21",
+     "local": "platense",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Saporiti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. Martínez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R. Martínez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-21",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Rocchia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Squeo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luna",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giachello",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Giachello",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Balbuena",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-21",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Brindisi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. J.López",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Della Savia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-21",
+     "local": "los-andes",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [
+      {
+       "jugador": "Orife",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-21",
+     "local": "colon",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Obberti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marcos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bezerra",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1971-03-24",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "E. Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E. Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Malbernat",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aguilar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bentrón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-24",
+     "local": "newell-s-old-boys",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Marcos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zanabria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zanabria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-24",
+     "local": "chacarita-juniors",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Marcos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marcos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Orife",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-24",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Pastoriza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Leone",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Giribet",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-24",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Tojo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Veglio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Veglio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rocchia",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Fischer",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fischer",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamelza",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Wolff",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-24",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Aimonetti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-01",
+     "local": "river-plate",
+     "visitante": "los-andes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marchetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Laraignée",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Laraignée",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cardacci",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-14",
+     "local": "argentinos-juniors",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Eugui",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Eugui",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Eugui",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-14",
+     "local": "banfield",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Mateos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mateos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ibáñez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ponce",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1971-03-26",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Ponce",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aimonetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-28",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Landucci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onnis",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-28",
+     "local": "platense",
+     "visitante": "argentinos-juniors",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Cabral",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cabral",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cabral",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cabral",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cassano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cicarello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-28",
+     "local": "racing-club",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Cárdenas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Squeo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rocchia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mateos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-28",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Giribet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fischer",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Veglio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ayala",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ayala",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "P. González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-28",
+     "local": "los-andes",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "goles": [
+      {
+       "jugador": "Vignale",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-28",
+     "local": "colon",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Pulcini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Meola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onega",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Laraignée",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-28",
+     "local": "atlanta",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Cano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pecoraro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Recúpero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Punturero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "García Cambón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-03-28",
+     "local": "velez-sarsfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bentrón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silva",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1971-04-02",
+     "local": "chacarita-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "García Cambón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Frassoldati",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marcos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marcos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Punturero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bentrón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-04",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Bezerra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bezerra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bedogni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Togneri",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-04",
+     "local": "river-plate",
+     "visitante": "atlanta",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Laraignée",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. J.López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pignani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pignani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mastrángelo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mastrángelo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-04",
+     "local": "independiente",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Adorno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Balbuena",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-04",
+     "local": "san-lorenzo",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Heredia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cominelli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pandolfi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-04",
+     "local": "banfield",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1971-04-04",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Aimonetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aimonetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Squeo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lamelza",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-04",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Caputo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. Alvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ponce",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Madurga",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Curioni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-04",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Castiglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Leonardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cabral",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1971-04-07",
+     "local": "platense",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "A. González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villagra",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-07",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Savoy",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ovide",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Peña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nicolau",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onnis",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Onnis",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-07",
+     "local": "huracan",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Weber",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-07",
+     "local": "los-andes",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [
+      {
+       "jugador": "Cardacci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pellegrini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-07",
+     "local": "colon",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Trullet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Córdoba",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Meola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "P. González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ayala",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-07",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Mastrángelo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pastoriza",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Giachello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-07",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Benito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bentrón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. J.López",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Verde",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marcos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "García Cambón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-09",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Eugui",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Moreno",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1971-04-11",
+     "local": "chacarita-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1971-04-11",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dominichi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. J.López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bulla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pachamé",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-11",
+     "local": "san-lorenzo",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Heredia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García Ameijenda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gil",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-11",
+     "local": "banfield",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "R. Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Meola",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-11",
+     "local": "ferro-carril-oeste",
+     "visitante": "los-andes",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Aimonetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aimonetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Weber",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Manfredi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cirrincione",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-11",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Veira",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-11",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Zywica",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Wolff",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-11",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Villagra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bustos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Landucci",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-15",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Maglioni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Reguera",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1971-04-16",
+     "local": "huracan",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": [
+      {
+       "jugador": "Veira",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onnis",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-18",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Curioni",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-18",
+     "local": "racing-club",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Wolff",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Wolff",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamelza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cárdenas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A. Gómez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Landucci",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zavagno",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-18",
+     "local": "los-andes",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [
+      {
+       "jugador": "Cominelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caputo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-18",
+     "local": "colon",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1971-04-18",
+     "local": "atlanta",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Cano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gómez Voglino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mastrángelo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Amado",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-18",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Ayala",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-18",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Obberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bezerra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pignani",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Bertolotti",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1971-04-21",
+     "local": "river-plate",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Marcos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marcos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-21",
+     "local": "banfield",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Ibáñez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pellegrini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bentrón",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Reguera",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-21",
+     "local": "ferro-carril-oeste",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Gómez Voglino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-21",
+     "local": "argentinos-juniors",
+     "visitante": "colon",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Cicarello",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. Alvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ornad",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ribaudo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "O. Sosa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Meola",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zibecchi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Trullet",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-21",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "los-andes",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Onnis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onnis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zywica",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pandolfi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Manfredi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-21",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Carrascosa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Landucci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Landucci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Poy",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-21",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "A. González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A. González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quetglas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Wolff",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lamelza",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lamelza",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chagas",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-22",
+     "local": "independiente",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Pastoriza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Balbuena",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-22",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Heredia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Telch",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Veglio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rudzki",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1971-04-23",
+     "local": "huracan",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": [
+      {
+       "jugador": "Veira",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giribet",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-25",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Ovide",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Pianetti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Medina",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-25",
+     "local": "los-andes",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Eduardo Gallardón",
+     "goles": [
+      {
+       "jugador": "Vera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Landucci",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gramajo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gramajo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-25",
+     "local": "colon",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Sacconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Córdoba",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roselli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castiglia",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Montagnoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-25",
+     "local": "atlanta",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Valencia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gómez Voglino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caputo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Moreno",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-25",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Bentrón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Benito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aimonetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-25",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Pellegrini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-25",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Berta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marcos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chazarreta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-04-25",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1971-04-30",
+     "local": "san-lorenzo",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Orife",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-02",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Gennoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dominichi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-02",
+     "local": "banfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Mateos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barril",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-02",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Aimonetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moreno",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-02",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Caputo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bentrón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-02",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Pedraza",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-02",
+     "local": "rosario-central",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1971-05-02",
+     "local": "platense",
+     "visitante": "los-andes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Pandolfi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-02",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Pianetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Curioni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coch",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1971-05-05",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1971-05-05",
+     "local": "los-andes",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "goles": [
+      {
+       "jugador": "Cardacci",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-05",
+     "local": "colon",
+     "visitante": "platense",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Di Meola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Meola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Meola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bustos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zucarelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cabral",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-05",
+     "local": "atlanta",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Valencia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De la Iglesia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Landucci",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-05",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-05",
+     "local": "newell-s-old-boys",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Bezerra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Salomone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-05",
+     "local": "chacarita-juniors",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "García Cambón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García Cambón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pellegrini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-05",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Onega",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onega",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Della Savia",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-06",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Romeo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Verón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bedogni",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1971-05-07",
+     "local": "boca-juniors",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Suñé",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Curioni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ocaño",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marzolini",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Zucarelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-09",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Fischer",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scotta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maglioni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-09",
+     "local": "banfield",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Pellegrini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-09",
+     "local": "ferro-carril-oeste",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1971-05-09",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "O. Sosa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moreno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Solórzano",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Zanabria",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-09",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Leonardi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-09",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "A. Gómez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A. Gómez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Benito",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Benito",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-09",
+     "local": "platense",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Cabral",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-09",
+     "local": "racing-club",
+     "visitante": "los-andes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Alcibar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamelza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Manfredi",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1971-05-14",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-16",
+     "local": "los-andes",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [
+      {
+       "jugador": "Manfredi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Manfredi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Veira",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-16",
+     "local": "colon",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Chabay",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Di Meola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zucarelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alcibar",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lamelza",
+       "equipo": "visitante"
+      },
+      {
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-16",
+     "local": "atlanta",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Mastrángelo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coch",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pianetti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pianetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-16",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cottón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamberti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-16",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Bezerra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marcos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Santiago",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-16",
+     "local": "chacarita-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Eugui",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Eugui",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-16",
+     "local": "independiente",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Maglioni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maglioni",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-15",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Verón",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1971-05-21",
+     "local": "racing-club",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "García Sangenis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Juárez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gómez Voglino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-23",
+     "local": "banfield",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Scotta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-23",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Weber",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Magán",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sá",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Giachello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-23",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Moreno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onega",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-23",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Leonardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onnis",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-23",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Bóveda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Poy",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fanesi",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Zanabria",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-23",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Miranda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quetglas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quetglas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cabral",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cabral",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-23",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Bianchi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-23",
+     "local": "huracan",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Brindisi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ripke",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zucarelli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Di Meola",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1971-05-25",
+     "local": "colon",
+     "visitante": "los-andes",
+     "gl": 3,
+     "gv": 5,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Sabella",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Zucarelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ocaño",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Echenausse",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Echenausse",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bordatto",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pandolfi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Manfredi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-25",
+     "local": "atlanta",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Cano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Babington",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-25",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cárdenas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-25",
+     "local": "newell-s-old-boys",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Solórzano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cabral",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cabral",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zanotti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-25",
+     "local": "chacarita-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Marcos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Frassoldati",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Landucci",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-25",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1971-05-25",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Fischer",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fischer",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fischer",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scotta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García Ameijenda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Micó",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Domínguez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-27",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Pastoriza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moreno",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-01",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 6,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pagnanini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spadaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "O. Medina",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Potente",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Coch",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Curioni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Curioni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Peña",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1971-05-28",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Medina",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bezerra",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-30",
+     "local": "ferro-carril-oeste",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Micó",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vidal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vidal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Etcheverry",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Amado",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-30",
+     "local": "argentinos-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Chazarreta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chazarreta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Scotta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1971-05-30",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Landucci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Poy",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gramajo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dominichi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-30",
+     "local": "platense",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Fucceneco",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marcos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-30",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Lamelza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bedogni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-05-30",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1971-05-30",
+     "local": "los-andes",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "goles": [
+      {
+       "jugador": "Echenausse",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1971-06-04",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Zywica",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montivero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fischer",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fischer",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-06",
+     "local": "colon",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Ocaño",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-06",
+     "local": "los-andes",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Eduardo Gallardón",
+     "goles": [
+      {
+       "jugador": "Lamberti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bentrón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-06",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "R. Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "De Rienzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-06",
+     "local": "boca-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Savoy",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Madurga",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-06",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Onega",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-06",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1971-06-06",
+     "local": "argentinos-juniors",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1971-08-11",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Veira",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Veira",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1971-06-10",
+     "local": "ferro-carril-oeste",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Etcheverry",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Etcheverry",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-10",
+     "local": "banfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Cáceres",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montagnoli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Onnis",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 88 minutos y quedó el resultado."
+    },
+    {
+     "fecha": "1971-06-10",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "García Ameijenda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chazarreta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Heredia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fischer",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bóveda",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-10",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1971-06-10",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "J. J.López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onega",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarabini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rojas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rojas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-10",
+     "local": "chacarita-juniors",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Poncio",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-10",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Obberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silva",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cavoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-10",
+     "local": "velez-sarsfield",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Bentrón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Benito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zibecchi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zucarelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-29",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "los-andes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Verón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aguilar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aguilar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zanabria",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1971-06-12",
+     "local": "huracan",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": [
+      {
+       "jugador": "Avallay",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fucceneco",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-13",
+     "local": "atlanta",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Gómez Voglino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bentrón",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-13",
+     "local": "colon",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Zucarelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bustos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Etchecopar",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-13",
+     "local": "los-andes",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [
+      {
+       "jugador": "Manfredi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silva",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-13",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "R. Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Escalante",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onega",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Laraignée",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-13",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Savoy",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Balbuena",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bertolotti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-13",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "A. González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fischer",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-13",
+     "local": "rosario-central",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Colman",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cáceres",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-13",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Vidal",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R. Pérez",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1971-06-16",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "O. Sosa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "O. Sosa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gottfrit",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pedraza",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "J. Domínguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Colman",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-16",
+     "local": "banfield",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1971-06-16",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Fischer",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fischer",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scotta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Suñé",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-16",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Pastoriza",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-16",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Dominichi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-16",
+     "local": "chacarita-juniors",
+     "visitante": "los-andes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Fucceneco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Patti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Manfredi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-16",
+     "local": "newell-s-old-boys",
+     "visitante": "colon",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Zanabria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marcos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marcos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cavoli",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Togneri",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1971-06-18",
+     "local": "boca-juniors",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Potente",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rojas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pellegrini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-20",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Benito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-20",
+     "local": "atlanta",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Cano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silva",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-20",
+     "local": "colon",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Di Meola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García Cambón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-20",
+     "local": "los-andes",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Eduardo Gallardón",
+     "goles": [
+      {
+       "jugador": "Pandolfi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Onega",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Morete",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-20",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Giribet",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-20",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "García Ameijenda",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fischer",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chazarreta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-20",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1971-06-20",
+     "local": "rosario-central",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Landucci",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1971-06-25",
+     "local": "river-plate",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Laraignée",
+       "equipo": "local"
+      },
+      {
+       "jugador": "O. Pérez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-27",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 5,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Gottfrit",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montivero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pedraza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onnis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Poy",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Poy",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Carrascosa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Villagra",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Villagra",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-27",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Pekerman",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Eugui",
+       "equipo": "local"
+      },
+      {
+       "jugador": "O. Sosa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quetglas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-27",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Tarabini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-27",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "García Ameijenda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "P. González",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-27",
+     "local": "chacarita-juniors",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Bargas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García Cambón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gómez Voglino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-06-27",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Silva",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silva",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-11",
+     "local": "independiente",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Mircoli",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-11",
+     "local": "banfield",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Aguirre",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Wolff",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1971-08-06",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Cárdenas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. Pérez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-08",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Solórzano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pagnanini",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-08",
+     "local": "velez-sarsfield",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Wehbe",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-08",
+     "local": "atlanta",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Cano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Juárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morete",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-08",
+     "local": "colon",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Zucarelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maglioni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mircoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-08",
+     "local": "los-andes",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "goles": []
+    },
+    {
+     "fecha": "1971-08-08",
+     "local": "huracan",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Brindisi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giribet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cantero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pellegrini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-08",
+     "local": "boca-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1971-08-08",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Cierra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montivero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Montivero",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1971-08-13",
+     "local": "san-lorenzo",
+     "visitante": "colon",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Veglio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fischer",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fischer",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fischer",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trullet",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Trullet",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-15",
+     "local": "rosario-central",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Poy",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-15",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Castiglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Meléndez",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Peracca",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-15",
+     "local": "argentinos-juniors",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Moreno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cárdenas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-15",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Vidal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Laginestra",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Veira",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Brindisi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Doval",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Giribet",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-15",
+     "local": "banfield",
+     "visitante": "los-andes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1971-08-15",
+     "local": "independiente",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Pastoriza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pastoriza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mircoli",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-15",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Bianchi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bentrón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-15",
+     "local": "chacarita-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Neumann",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bedogni",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1971-08-17",
+     "local": "newell-s-old-boys",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Obberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Patti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Verde",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-17",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pastoriza",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maglioni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-17",
+     "local": "atlanta",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Gómez Voglino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fischer",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-17",
+     "local": "colon",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Di Meola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zucarelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zibecchi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-17",
+     "local": "los-andes",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "goles": [
+      {
+       "jugador": "Pandolfi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Manfredi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Echenausse",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Monteleone",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-17",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Brindisi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Veira",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-17",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Pianetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarabini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bustos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-19",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Cárdenas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cárdenas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. Martínez",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1971-08-21",
+     "local": "river-plate",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "J. Martínez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-22",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Crocci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ulrich",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-22",
+     "local": "rosario-central",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Poy",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamelza",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Benítez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-22",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Montivero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castiglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Veira",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Babington",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-22",
+     "local": "argentinos-juniors",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Luna",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-22",
+     "local": "ferro-carril-oeste",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "R. Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Micó",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Meola",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-22",
+     "local": "banfield",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Pellegrini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pecoraro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-22",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 6,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Scotta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Benito",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ríos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lamberti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-22",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1971-08-25",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Obberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zanabria",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-25",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1971-08-25",
+     "local": "velez-sarsfield",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Benito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pellegrini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-25",
+     "local": "atlanta",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Arregui",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-25",
+     "local": "colon",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Trullet",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-25",
+     "local": "los-andes",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [
+      {
+       "jugador": "Leonardi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-25",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Cárdenas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Benítez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamelza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cabral",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-26",
+     "local": "huracan",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": [
+      {
+       "jugador": "Babington",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D. Killer",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-01",
+     "local": "chacarita-juniors",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "García Cambón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García Cambón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. J.López",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "partidos": [
+    {
+     "fecha": "1971-08-27",
+     "local": "banfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1971-08-29",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Marzolini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Suñé",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-29",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Cabral",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Doval",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Babington",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-29",
+     "local": "rosario-central",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "A. Gómez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-29",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "colon",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Pedraza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pedraza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montivero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montivero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trullet",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Trullet",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mottura",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ripke",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-29",
+     "local": "argentinos-juniors",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Cano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-29",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "R. Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Benito",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Benito",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-08-29",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Fischer",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García Ameijenda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-15",
+     "local": "independiente",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Maglioni",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "partidos": [
+    {
+     "fecha": "1971-09-05",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "J. Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pastoriza",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-05",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Poncio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scotta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Scotta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-05",
+     "local": "newell-s-old-boys",
+     "visitante": "banfield",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Santamaría",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ledesma",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zanabria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Masalis",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silva",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cáceres",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-05",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Aguilar",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-05",
+     "local": "velez-sarsfield",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nieva",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-05",
+     "local": "atlanta",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Juárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gómez Voglino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pedraza",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-05",
+     "local": "colon",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Mottura",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-05",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Giribet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Brindisi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-06",
+     "local": "los-andes",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [
+      {
+       "jugador": "Manfredi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mustafá",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "partidos": [
+    {
+     "fecha": "1971-09-08",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Cárdenas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Squeo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Babington",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Giribet",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-08",
+     "local": "platense",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Cierra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cabral",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ulrich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ripke",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-08",
+     "local": "rosario-central",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Morales",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Poy",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-08",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Gallo",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Lamberti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lamberti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Benito",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-08",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1971-09-08",
+     "local": "ferro-carril-oeste",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Vidal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moreno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Micó",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Obberti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-08",
+     "local": "banfield",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1971-09-08",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "García Ameijenda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Laraignée",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-09",
+     "local": "boca-juniors",
+     "visitante": "los-andes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Madurga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Suñé",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferrero",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "partidos": [
+    {
+     "fecha": "1971-09-10",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Lamberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Benito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-12",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Balbuena",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-12",
+     "local": "river-plate",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Benítez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-12",
+     "local": "chacarita-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Fucceneco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Frassoldati",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. Pérez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-12",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Solórzano",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Bedogni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Verón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pedraza",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-12",
+     "local": "atlanta",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1971-09-12",
+     "local": "colon",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Zibecchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coch",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-12",
+     "local": "los-andes",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [
+      {
+       "jugador": "Monteleone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cárdenas",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 35,
+   "partidos": [
+    {
+     "fecha": "1971-09-17",
+     "local": "boca-juniors",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Potente",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Potente",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Potente",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ponce",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-19",
+     "local": "huracan",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Brindisi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cardacci",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cominelli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vilar",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-19",
+     "local": "racing-club",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Lamelza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rocchia",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-19",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Cabral",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cierra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-19",
+     "local": "rosario-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "J. González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Verón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-19",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Obberti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Silva",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Silva",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-19",
+     "local": "argentinos-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Ribaudo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nogués",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Falconieri",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-19",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "R. Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Salomone",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-19",
+     "local": "banfield",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Lanús",
+     "goles": [
+      {
+       "jugador": "Maglioni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Balbuena",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 36,
+   "partidos": [
+    {
+     "fecha": "1971-09-22",
+     "local": "san-lorenzo",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Haack",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Pellegrini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pellegrini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "O. Cáceres",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-22",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Balbuena",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Peláez",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Raimondo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-22",
+     "local": "river-plate",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caputo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "O. Sosa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Moreno",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-22",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Solórzano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Colman",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pascuttini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-22",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Verde",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-22",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Benito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Benito",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-22",
+     "local": "atlanta",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Cano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rocchia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-22",
+     "local": "colon",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Alcorcel",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zibecchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Meola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ramírez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-23",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Falconieri",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 37,
+   "partidos": [
+    {
+     "fecha": "1971-09-26",
+     "local": "los-andes",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Eduardo Gallardón",
+     "goles": [
+      {
+       "jugador": "Cardacci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cirrincione",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mottura",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mottura",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-26",
+     "local": "huracan",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Brindisi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gómez Voglino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cerqueiro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-26",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Squeo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-26",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Suñé",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Malbernat",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Ferrero",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-26",
+     "local": "platense",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Cabral",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scarpeccio",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-26",
+     "local": "rosario-central",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Colman",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Frassoldati",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-26",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Roselli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roselli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giustozzi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J. J.López",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-26",
+     "local": "argentinos-juniors",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Eugui",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Eugui",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pena",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Raimondo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-09-26",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "J. Domínguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Salomone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ayala",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "May",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 38,
+   "partidos": [
+    {
+     "fecha": "1971-10-01",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Bóveda",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-10-03",
+     "local": "banfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Talleres RE",
+     "goles": [
+      {
+       "jugador": "Cáceres",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moreno",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-10-03",
+     "local": "san-lorenzo",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Scotta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scotta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ayala",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caputo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-10-03",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Maglioni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pastoriza",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-10-03",
+     "local": "chacarita-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Nogués",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-10-03",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Santamaría",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-10-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Verón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Verón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bedogni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rocchia",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rocchia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-10-03",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Lamberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giribet",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1971-10-03",
+     "local": "atlanta",
+     "visitante": "los-andes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Cano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pecoraro",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
