@@ -33,6 +33,81 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1976: el Campeonato Metropolitano 1976 (febrero a agosto; campeón Boca): 22 equipos por etapas ("etapas"; en
+    # tools/a_mano, cada fecha o cada partido dice su etapa, y cada partido su zona): la primera fase, 2 zonas de 11 a dos
+    # ruedas (22 fechas; en cada una, el que quedaba libre jugaba un interzonal, sin zona en el archivo); los seis primeros
+    # de cada zona jugaban el Torneo Campeonato (a una rueda; el primero era el campeón, "campeon_etapa") y los otros, el
+    # Torneo por el descenso (a una rueda, en las mismas fechas; bajaba el último, "descensos": "etapa": San Telmo). Con 2
+    # puntos por partido ganado. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, con los goleadores, solo con el apellido
+    # y sin minutos)
+    "1976-metropolitano": {"nombre": "Campeonato Metropolitano 1976", "anio": 1976, "liga": "a_mano", "slug": "1976-metropolitano",
+                           "etapas": [("Primera fase", r"primera-fase$", 6, 1, 22,
+                                       "Los seis primeros de cada zona pasan al Torneo Campeonato; los otros, al Torneo por el "
+                                       "descenso. En cada fecha, el que quedaba libre en su zona jugaba un interzonal, que "
+                                       "suma en su zona"),
+                                      ("Torneo Campeonato", r"campeonato$", 0, 23, 11, "Campeón: el primero"),
+                                      ("Torneo por el descenso", r"descenso$", 0, 23, 9,
+                                       "A una rueda, en las mismas fechas que el Torneo Campeonato")],
+                           "fechas": 33, "pasan": 0, "puntos_victoria": 2, "campeon_etapa": "Torneo Campeonato",
+                           "nota": "Cada partido ganado valía 2 puntos. En la primera fase había 2 zonas de 11 a dos ruedas: "
+                                   "los seis primeros de cada zona jugaban el Torneo Campeonato, a una rueda, y el primero fue "
+                                   "el campeón; los otros diez, el Torneo por el descenso, también a una rueda, en el que bajaba "
+                                   "el último.",
+                           "descensos": "etapa", "descienden": 1,
+                           "goleadores_nota": "Los goles son de RSSSF, solo con el apellido. El goleador fue Mario Kempes "
+                                              "(Rosario Central), con 21 goles."},
+    # El Campeonato Nacional 1976 (septiembre a diciembre; campeón Boca): 34 equipos (los del Metropolitano, menos el que
+    # bajó, y los del interior) en 4 zonas ("zonas_a_mano"): la A y la B de 8, a dos ruedas, con dos fechas de
+    # interzonales entre ellas (la 3 y la 11), y la C y la D de 9, a dos ruedas (en cada fecha, el que quedaba libre jugaba
+    # un interzonal con el de la otra). Con 2 puntos por partido ganado; los dos primeros de cada zona jugaban la fase
+    # final, a un partido; antes, Boca-Quilmes y Talleres-Newell's desempataron el primer puesto de sus zonas. ESPN no lo
+    # tiene: va a mano (tools/a_mano; resultados y goles de RSSSF, días y estadios de Wikipedia; de la fase final, los
+    # goles con los minutos y los árbitros de Wikipedia). Como Boca ganó los dos torneos, el segundo lugar en la
+    # Libertadores 1977 lo jugaron los dos subcampeones, River y Huracán
+    "1976-nacional": {"nombre": "Campeonato Nacional 1976", "anio": 1976, "liga": "a_mano", "slug": "1976-nacional",
+                      "zonas_a_mano": {"A": ["boca-juniors", "quilmes", "independiente", "atletico-tucuman", "gimnasia-jujuy", "gimnasia-y-esgrima", "chacarita-juniors", "temperley"],
+                                       "B": ["river-plate", "banfield", "estudiantes-de-la-plata", "racing-club", "atlanta", "ledesma", "san-martin-tucuman", "san-telmo"],
+                                       "C": ["huracan", "union", "rosario-central", "san-martin-mendoza", "aldosivi", "velez-sarsfield", "platense", "sportivo-patria", "all-boys"],
+                                       "D": ["talleres", "newell-s-old-boys", "ferro-carril-oeste", "argentinos-juniors", "huracan-comodoro-rivadavia", "central-norte", "colon", "san-lorenzo", "san-lorenzo-mdp"]},
+                      "fechas": 18, "pasan": 2, "puntos_victoria": 2,
+                      "texto_pasan": "Pasan a la fase final (los dos primeros de cada zona). Las zonas A y B jugaron entre "
+                                     "ellas dos fechas de interzonales; en la C y la D, el que quedaba libre en cada fecha "
+                                     "jugaba un interzonal",
+                      "goleadores_nota": "Los goles de la fase de zonas son de RSSSF, solo con el apellido y sin minutos; los "
+                                         "de la fase final, de Wikipedia, con los minutos. Los goleadores del torneo fueron "
+                                         "Norberto Eresuma (San Lorenzo de Mar del Plata), Luis Ludueña (Talleres) y Víctor "
+                                         "Marchetti (Unión), con 12 goles.",
+                      "nombre_playoffs": "Fase final",
+                      "playoffs": [(r"^$^", n) for n in ("Desempates por el primer puesto", "Cuartos de final", "Semifinales", "Final")],
+                      "cuadro_desde": "Cuartos de final",
+                      "playoffs_a_mano": {
+                           "Desempates por el primer puesto": [
+                               {"hora_utc": "1976-12-14T19:00Z", "fecha": "1976-12-14", "local": "boca-juniors", "visitante": "quilmes", "gl": 2, "gv": 1, "estadio": "Estadio El Cilindro", "arbitro": "Teodoro Nitti", "goles": [{"jugador": "Alves", "equipo": "local", "min": 13}, {"jugador": "Ovide", "equipo": "local", "min": 39}, {"jugador": "Gramajo", "equipo": "visitante", "min": 20}]},
+                               {"hora_utc": "1976-12-14T19:00Z", "fecha": "1976-12-14", "local": "talleres", "visitante": "newell-s-old-boys", "gl": 3, "gv": 1, "estadio": "Estadio Boutique de Barrio Jardín", "arbitro": "Sergio García", "alargue": True, "goles": [{"jugador": "Alderete", "equipo": "local", "min": 39}, {"jugador": "Alderete", "equipo": "local", "min": 98}, {"jugador": "Cherini", "equipo": "local", "min": 105}, {"jugador": "Irigoyen", "equipo": "visitante", "min": 24}]},
+                           ],
+                           "Cuartos de final": [
+                               {"hora_utc": "1976-12-16T19:00Z", "fecha": "1976-12-16", "local": "boca-juniors", "visitante": "banfield", "gl": 2, "gv": 1, "estadio": "Estadio El Cilindro", "arbitro": "Alberto Ducatelli", "goles": [{"jugador": "Felman", "equipo": "local", "min": 3, "tipo": "pen"}, {"jugador": "Taverna", "equipo": "local", "min": 63}, {"jugador": "Sacconi", "equipo": "visitante", "min": 33}]},
+                               {"hora_utc": "1976-12-16T19:00Z", "fecha": "1976-12-16", "local": "huracan", "visitante": "newell-s-old-boys", "gl": 2, "gv": 0, "estadio": "Estadio La Bombonera", "arbitro": "Jorge Eduardo Romero", "goles": [{"jugador": "Saldaño", "equipo": "local", "min": 11}, {"jugador": "Houseman", "equipo": "local", "min": 75, "tipo": "pen"}]},
+                               {"hora_utc": "1976-12-16T19:00Z", "fecha": "1976-12-16", "local": "river-plate", "visitante": "quilmes", "gl": 2, "gv": 1, "estadio": "Estadio Tomás Adolfo Ducó", "arbitro": "Ángel Coerezza", "goles": [{"jugador": "Más", "equipo": "local", "min": 28}, {"jugador": "Más", "equipo": "local", "min": 36}, {"jugador": "Kaliszuk", "equipo": "visitante", "min": 44}]},
+                               {"hora_utc": "1976-12-16T19:00Z", "fecha": "1976-12-16", "local": "talleres", "visitante": "union", "gl": 4, "gv": 0, "estadio": "Estadio Juan Domingo Perón", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Regenhardt", "equipo": "local", "min": 3, "tipo": "ec"}, {"jugador": "Alderete", "equipo": "local", "min": 23}, {"jugador": "Bocanelli", "equipo": "local", "min": 63}, {"jugador": "Bravo", "equipo": "local", "min": 83}]},
+                           ],
+                           "Semifinales": [
+                               {"hora_utc": "1976-12-19T19:00Z", "fecha": "1976-12-19", "local": "boca-juniors", "visitante": "huracan", "gl": 1, "gv": 0, "estadio": "Estadio La Doble Visera", "arbitro": "Roberto Osvaldo Barreiro", "goles": [{"jugador": "Mastrángelo", "equipo": "local", "min": 11}]},
+                               {"hora_utc": "1976-12-19T19:00Z", "fecha": "1976-12-19", "local": "river-plate", "visitante": "talleres", "gl": 1, "gv": 0, "estadio": "Estadio La Bombonera", "arbitro": "Luis Pestarino", "goles": [{"jugador": "Passarella", "equipo": "local", "min": 17}]},
+                           ],
+                           "Final": [
+                               {"hora_utc": "1976-12-22T19:00Z", "fecha": "1976-12-22", "local": "boca-juniors", "visitante": "river-plate", "gl": 1, "gv": 0, "estadio": "Estadio El Cilindro", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Suñé", "equipo": "local", "min": 72}]},
+                           ],
+                      },
+                      "sin_descensos": "En el Nacional no había descensos: se definían en el Metropolitano.",
+                      "anual_texto": "La tabla de la fase de zonas del Campeonato Nacional 1976 (los 34 equipos, con los "
+                                     "interzonales). Cada partido ganado valía 2 puntos.",
+                      "cupos": {"anio": 1977, "fijos": True,
+                                "libertadores": [("Campeón del Metropolitano y del Nacional 1976", "boca-juniors"),
+                                                 ("Ganador del desempate de los subcampeones", "river-plate")],
+                                "nota": "Boca ganó los dos torneos del año: el otro lugar lo jugaron los subcampeones, Huracán "
+                                        "(del Metropolitano) y River (del Nacional), a un partido en cancha de Boca (29 de "
+                                        "diciembre): 4-1 para River."}},
     # 1977: el Campeonato Metropolitano 1977 (febrero a noviembre; campeón River): 23 equipos a dos ruedas (46 fechas, en
     # cada una quedaba uno libre), con 2 puntos por partido ganado. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, con
     # los goleadores, solo con el apellido y sin minutos). Sin promedios: bajaban los tres últimos de la tabla
@@ -3200,6 +3275,9 @@ CLUBES_NUEVOS = {
     "alv": ("alvarado", "Alvarado (Mar del Plata)"),
     "lsj": ("los-andes-san-juan", "Los Andes (San Juan)"),   # (no están en ESPN: el Nacional 1977)
     "sre": ("sarmiento-resistencia", "Sarmiento (Resistencia)"),
+    "ste": ("san-telmo", "San Telmo"),   # (no están en ESPN: 1976)
+    "hcr": ("huracan-comodoro-rivadavia", "Huracán (Comodoro Rivadavia)"),
+    "spa": ("sportivo-patria", "Sportivo Patria (Formosa)"),
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
@@ -3226,7 +3304,9 @@ def eventos_a_mano(clave):
             hora = datetime.datetime.strptime(f"{p['fecha']} {p.get('hora') or '15:00'}", "%Y-%m-%d %H:%M")
             eventos.append({
                 "id": f"{clave}-{f['numero']}-{i + 1}", "date": (hora + datetime.timedelta(hours=3)).strftime("%Y-%m-%dT%H:%MZ"),
-                "season": {"slug": f"{clave}-{f['etapa']}" if f.get("etapa") else clave},
+                # (un partido puede decir su propia etapa: en el Metropolitano 1976, el Torneo Campeonato y el del
+                # descenso se jugaban en las mismas fechas)
+                "season": {"slug": f"{clave}-{p.get('etapa') or f['etapa']}" if p.get("etapa") or f.get("etapa") else clave},
                 "status": {"type": {"completed": True, "name": "STATUS_FULL_TIME"}},
                 "competitions": [{"competitors": [
                     {"homeAway": lado, "team": {"id": id_espn[p[lado2]], "displayName": p[lado2]}, "score": p[g]}
@@ -3690,7 +3770,7 @@ def armar(clave):
     for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "goleadores_nota", "promocion", "ventaja", "triangular", "texto_triangular", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
               "campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro", "descuentos",
               "descuentos_texto", "promedios_victoria", "puntos_victoria", "punto_penales",
-              "promedios_por_temporada", "texto_promocion"):
+              "promedios_por_temporada", "texto_promocion", "campeon_etapa"):
         if cfg.get(k):
             datos[k] = cfg[k]
     if cfg.get("titulo_anual"):

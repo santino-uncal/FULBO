@@ -145,7 +145,11 @@
     const campeon = serieFinal ? serieFinal.gana || null
       : final && final.gl != null ? (final.gl > final.gv || final.gl === final.gv && final.pen_l > final.pen_v ? final.local : final.visitante)
       : tri && tri.length && tri.every(jugado) ? tabla(clubesTri, tri)[0].id
-      : T.campeon_tabla && todoJugado ? tabla(Object.values(T.zonas).flat())[0].id : null;
+      : T.campeon_tabla && todoJugado ? tabla(Object.values(T.zonas).flat())[0].id
+      // (T.campeon_etapa: el primero de la tabla de esa etapa, el Torneo Campeonato del Metropolitano 1976)
+      : T.campeon_etapa && todoJugado ? (et => tabla(Object.values(et.zonas).flat(),
+          todos.filter(p => et.fechas.includes(p.n) && Object.values(et.zonas).some(ids => ids.includes(p.local))))[0].id)(
+          T.etapas.find(et => et.nombre === T.campeon_etapa)) : null;
     const [dia, hora] = T.actualizado.split(" ");
     document.getElementById("actualizado").textContent = campeon ? "Torneo terminado"
       : `Actualizado el ${fechaLarga(dia)} a las ${hora} · se actualiza todos los días`;
@@ -218,7 +222,7 @@
       const des = T.desempate && Object.values(et.zonas).some(ids => ids.includes(T.desempate.local) && ids.includes(T.desempate.visitante));
       return `<h3>${esc(et.nombre)} <small class="vacio">(fechas ${et.fechas[0]} a ${et.fechas.at(-1)})</small></h3>
         <div class="grupos">${Object.keys(et.zonas).map(z => tablaHTML(z, et.zonas, et.pasan, partidos, bajan)).join("")}</div>
-        <p class="leyenda"><span><i class="pasa"></i>${et.texto_pasan ? esc(et.texto_pasan)
+        <p class="leyenda"><span><i class="${et.nombre === T.campeon_etapa ? "campeon" : "pasa"}"></i>${et.texto_pasan ? esc(et.texto_pasan)
           : `${et.pasan > 1 ? `Los ${et.pasan} primeros de cada zona pasan` : "El primero de cada zona pasa"}
           a ${/Complementación/.test(et.nombre) ? "la final de la Complementación" : siguiente}`}</span>${bajan
           ? `<span><i class="desciende"></i>Desciende${bajan > 1 ? `n (los ${{ 2: "dos", 3: "tres" }[bajan] || bajan} últimos)` : " (el último)"}</span>` : ""}</p>

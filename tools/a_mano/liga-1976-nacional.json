@@ -1,0 +1,6174 @@
+{
+ "nombre": "Campeonato Nacional 1976",
+ "fuente": "Resultados y goles: RSSSF (Pablo Ciullini), con los goleadores solo con el apellido y sin minutos; días y estadios de Wikipedia; de la fase final (y de los desempates), los goles con los minutos y los árbitros de Wikipedia. Coinciden en todos los resultados y las tablas de las zonas dan igual que las de RSSSF. En las fechas 17 y 18 de las zonas C y D, RSSSF pone otros días (12 y 14 de diciembre)",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1976-09-12",
+     "local": "boca-juniors",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Oviedo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-12",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Nicolau",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-12",
+     "local": "atletico-tucuman",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental José Fierro",
+     "goles": [
+      {
+       "jugador": "Villa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Espeche",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Espeche",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-12",
+     "local": "quilmes",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Milozzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Salinas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bordón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-12",
+     "local": "banfield",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1976-09-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Fortunato",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Roselli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-12",
+     "local": "ledesma",
+     "visitante": "san-martin-tucuman",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Trapiche Azucarero",
+     "goles": []
+    },
+    {
+     "fecha": "1976-09-12",
+     "local": "atlanta",
+     "visitante": "san-telmo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Coletti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Contreras",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-12",
+     "local": "san-martin-mendoza",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Libertador General San Martín",
+     "goles": [
+      {
+       "jugador": "Miori",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Miori",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Houseman",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Saldaña",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-12",
+     "local": "rosario-central",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Potente",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Potente",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trossero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-12",
+     "local": "velez-sarsfield",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-12",
+     "local": "platense",
+     "visitante": "sportivo-patria",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Club Atlético Tigre",
+     "goles": [
+      {
+       "jugador": "M. A.Juárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M. A.Juárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Orlando",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ulrich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Argarañaz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-12",
+     "local": "san-lorenzo",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Marangoni",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-12",
+     "local": "colon",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Zimmerman",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montes",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-12",
+     "local": "argentinos-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Palmaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C. Alvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C. Alvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "H. Arregui",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-12",
+     "local": "central-norte",
+     "visitante": "huracan-comodoro-rivadavia",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Gigante del Norte",
+     "goles": [
+      {
+       "jugador": "Giantomasi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Britapaja",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-12",
+     "local": "aldosivi",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Bello Meza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mústico",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M. Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Galay",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1976-09-19",
+     "local": "quilmes",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Ribolzi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-19",
+     "local": "chacarita-juniors",
+     "visitante": "atletico-tucuman",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1976-09-19",
+     "local": "gimnasia-jujuy",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1976-09-19",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "temperley",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Del Bosque",
+     "goles": []
+    },
+    {
+     "fecha": "1976-09-19",
+     "local": "river-plate",
+     "visitante": "san-telmo",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Passarella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Beltrán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Beltrán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luque",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cocco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pintos",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "P. González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pisapia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-19",
+     "local": "san-martin-tucuman",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "goles": [
+      {
+       "jugador": "Rivadero",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-19",
+     "local": "racing-club",
+     "visitante": "ledesma",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "R. Díaz",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-19",
+     "local": "banfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Cerqueiro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Reguera",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-19",
+     "local": "sportivo-patria",
+     "visitante": "aldosivi",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Liga Formoseña de Fútbol",
+     "goles": [
+      {
+       "jugador": "Vilasanti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zugasti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mústico",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sotelo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-19",
+     "local": "all-boys",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "All Boys",
+     "goles": [
+      {
+       "jugador": "O. Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Orlando",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pavón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-19",
+     "local": "union",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [
+      {
+       "jugador": "Marchetti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-19",
+     "local": "huracan",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1976-09-19",
+     "local": "san-lorenzo-mdp",
+     "visitante": "central-norte",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Larroquet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luñiz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-19",
+     "local": "huracan-comodoro-rivadavia",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Huracán de Comodoro Rivadavia",
+     "goles": [
+      {
+       "jugador": "J. López",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-19",
+     "local": "ferro-carril-oeste",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Eiras",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bon",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-19",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Giusti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Capurro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olivares",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-19",
+     "local": "san-martin-mendoza",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Libertador General San Martín",
+     "goles": [
+      {
+       "jugador": "Trama",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ocaño",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1976-09-24",
+     "local": "platense",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "M. A.Juárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M. A.Juárez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-26",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Mastrángelo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Passarella",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-26",
+     "local": "chacarita-juniors",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Astudillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Contreras",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-26",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Del Bosque",
+     "goles": [
+      {
+       "jugador": "Echauri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Milano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Milano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-26",
+     "local": "temperley",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Alfredo Beranger",
+     "goles": [
+      {
+       "jugador": "Pereyra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Orte",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cerqueiro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-26",
+     "local": "ledesma",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Trapiche Azucarero",
+     "goles": [
+      {
+       "jugador": "Farías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pacheco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tignanelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-26",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Glaria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arroyo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Astegiano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-26",
+     "local": "san-martin-tucuman",
+     "visitante": "atletico-tucuman",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Ciudadela",
+     "goles": [
+      {
+       "jugador": "Zavagno",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sosa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-26",
+     "local": "san-telmo",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Espósito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Paruzzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-26",
+     "local": "rosario-central",
+     "visitante": "san-martin-mendoza",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Potente",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-26",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saldaño",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Saldaño",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ardiles",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-26",
+     "local": "aldosivi",
+     "visitante": "all-boys",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Veira",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Insaurralde",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Zugasti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mústico",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-26",
+     "local": "talleres",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Boutique de Barrio Jardín",
+     "goles": [
+      {
+       "jugador": "Ludueña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moyano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "H. Sánchez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-26",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "O. Gutiérrez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "O. Gutiérrez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vidal",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-26",
+     "local": "colon",
+     "visitante": "huracan-comodoro-rivadavia",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Britapaja",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-26",
+     "local": "argentinos-juniors",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Ovelar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ovelar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Larroquet",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-26",
+     "local": "central-norte",
+     "visitante": "sportivo-patria",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante del Norte",
+     "goles": [
+      {
+       "jugador": "Promanzio",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1976-09-29",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Oviedo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Veglio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Felman",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Solía",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-29",
+     "local": "temperley",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Alfredo Beranger",
+     "goles": [
+      {
+       "jugador": "García Sangenis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Valecia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spadana",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "D'Andrea",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tignanelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-29",
+     "local": "independiente",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Bertoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bertoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mosca",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-29",
+     "local": "atletico-tucuman",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental José Fierro",
+     "goles": [
+      {
+       "jugador": "Sosa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Paruzzo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gramajo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-29",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Comisso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-29",
+     "local": "ledesma",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Trapiche Azucarero",
+     "goles": [
+      {
+       "jugador": "Rubiola",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-29",
+     "local": "atlanta",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Avallay",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Candau",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-29",
+     "local": "san-telmo",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Peremateu",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-29",
+     "local": "all-boys",
+     "visitante": "sportivo-patria",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "All Boys",
+     "goles": [
+      {
+       "jugador": "Bianco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Núñez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M. Gómez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R. González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-29",
+     "local": "union",
+     "visitante": "aldosivi",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [
+      {
+       "jugador": "Trossero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Valdivia",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-29",
+     "local": "huracan",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Sanabria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pavón",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ulrich",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-29",
+     "local": "san-martin-mendoza",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Independiente Rivadavia",
+     "goles": [
+      {
+       "jugador": "Tello",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maryllack",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trama",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Santillán",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Roldán",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Roldán",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-29",
+     "local": "central-norte",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": [
+      {
+       "jugador": "Luñiz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "B. Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. López",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-29",
+     "local": "san-lorenzo-mdp",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Eresuma",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Eresuma",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Miccio",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-29",
+     "local": "huracan-comodoro-rivadavia",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Huracán de Comodoro Rivadavia",
+     "goles": [
+      {
+       "jugador": "Zucarelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marangoni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-29",
+     "local": "ferro-carril-oeste",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "O. Gutiérrez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "O. Gutiérrez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rocchia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ludueña",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-09-29",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Pascuttini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Irigoyen",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1976-10-01",
+     "local": "river-plate",
+     "visitante": "san-martin-tucuman",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Passarella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Passarella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. Sánchez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-03",
+     "local": "atletico-tucuman",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental José Fierro",
+     "goles": [
+      {
+       "jugador": "Baigorria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mastrángelo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mastrángelo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-03",
+     "local": "quilmes",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Filardo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Raschia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gramajo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-03",
+     "local": "chacarita-juniors",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Grimoldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tamagni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "García Sangenis",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-03",
+     "local": "gimnasia-jujuy",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": [
+      {
+       "jugador": "Bareiro",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-03",
+     "local": "racing-club",
+     "visitante": "san-telmo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Fortunato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pisapia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-03",
+     "local": "banfield",
+     "visitante": "atlanta",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "P. Gómez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Orte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Orte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sacconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pitarch",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Antoniutti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ledesma",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Letanú",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cabezas",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-03",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Agüero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-03",
+     "local": "platense",
+     "visitante": "san-martin-mendoza",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Morelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Molina",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "O. Gómez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-03",
+     "local": "aldosivi",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Saldaño",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Saldaño",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Saldaño",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-03",
+     "local": "sportivo-patria",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Liga Formoseña de Fútbol",
+     "goles": [
+      {
+       "jugador": "R. Argarañaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marchetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-03",
+     "local": "newell-s-old-boys",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Montes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moyano",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-03",
+     "local": "talleres",
+     "visitante": "huracan-comodoro-rivadavia",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Boutique de Barrio Jardín",
+     "goles": [
+      {
+       "jugador": "Valencia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cherini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alí",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-03",
+     "local": "san-lorenzo",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Olguín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maletti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Laclau",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villarreal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olivares",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Eresuma",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Eresuma",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-03",
+     "local": "colon",
+     "visitante": "central-norte",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "A. Sánchez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vega",
+       "equipo": "local"
+      },
+      {
+       "jugador": "B. Rodríguez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-03",
+     "local": "argentinos-juniors",
+     "visitante": "all-boys",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Di Donato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C. Alvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ovelar",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1976-10-08",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-jujuy",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Mastrángelo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ribolzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ribolzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ribolzi",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "goles": [
+      {
+       "jugador": "Franco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coronel",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mansilla",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-10",
+     "local": "temperley",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Verón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Filardo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Reynoso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-10",
+     "local": "independiente",
+     "visitante": "atletico-tucuman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Bertoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sosa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-10",
+     "local": "ledesma",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Trapiche Azucarero",
+     "goles": [
+      {
+       "jugador": "Sabella",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J. J.López",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Passarella",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-10",
+     "local": "atlanta",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "All Boys",
+     "goles": [
+      {
+       "jugador": "Carballo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Frassoldati",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-10",
+     "local": "san-telmo",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Cloquel",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Corvo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Corvo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Orte",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-10",
+     "local": "san-martin-tucuman",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": [
+      {
+       "jugador": "Roselli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-10",
+     "local": "union",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1976-10-10",
+     "local": "huracan",
+     "visitante": "sportivo-patria",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Ardiles",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ardiles",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. López",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Leone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vilasanti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-10",
+     "local": "san-martin-mendoza",
+     "visitante": "aldosivi",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Libertador General San Martín",
+     "goles": [
+      {
+       "jugador": "Zugasti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-10",
+     "local": "rosario-central",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Benito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aimar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Palavecino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M. A.Juárez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-10",
+     "local": "argentinos-juniors",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Mazo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-10",
+     "local": "central-norte",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": [
+      {
+       "jugador": "B. Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olivares",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-10",
+     "local": "san-lorenzo-mdp",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Eresuma",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alderete",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bravo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ludueña",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-10",
+     "local": "huracan-comodoro-rivadavia",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Huracán de Comodoro Rivadavia",
+     "goles": [
+      {
+       "jugador": "Di Meola",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-10",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Oca",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "H. Arregui",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1976-10-17",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Rojas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bertoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Márquez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-17",
+     "local": "atletico-tucuman",
+     "visitante": "temperley",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Monumental José Fierro",
+     "goles": [
+      {
+       "jugador": "Sosa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "N. Gómez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pereyra",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "García Sangenis",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-17",
+     "local": "quilmes",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1976-10-17",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Mansilla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spadano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-17",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "J. J.López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Passarella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sabella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luque",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. C.Cárdenas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J. C.Cárdenas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-17",
+     "local": "banfield",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Schroh",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avanzi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-telmo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Letanú",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Letanú",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cloquel",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-17",
+     "local": "ledesma",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Trapiche Azucarero",
+     "goles": [
+      {
+       "jugador": "Coletti",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-17",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1976-10-17",
+     "local": "aldosivi",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Bello Meza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Agüero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-17",
+     "local": "sportivo-patria",
+     "visitante": "san-martin-mendoza",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Liga Formoseña de Fútbol",
+     "goles": [
+      {
+       "jugador": "R. González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Monárdez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tello",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Miori",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-17",
+     "local": "all-boys",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "All Boys",
+     "goles": [
+      {
+       "jugador": "Houseman",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Saldaño",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-17",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan-comodoro-rivadavia",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Zucarelli",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-17",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Montes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rocha",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Eresuma",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-17",
+     "local": "talleres",
+     "visitante": "central-norte",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Boutique de Barrio Jardín",
+     "goles": [
+      {
+       "jugador": "Ludueña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bocanelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bravo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "B. Rodríguez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-17",
+     "local": "san-lorenzo",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1976-10-17",
+     "local": "colon",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "A. Sánchez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aricó",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Casaccio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marchetti",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1976-10-20",
+     "local": "huracan",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Ardiles",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marchetti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Trossero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Casaccio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-20",
+     "local": "san-martin-mendoza",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Independiente Rivadavia",
+     "goles": [
+      {
+       "jugador": "Monárdez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-20",
+     "local": "rosario-central",
+     "visitante": "sportivo-patria",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "J. García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vilasanti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-20",
+     "local": "velez-sarsfield",
+     "visitante": "aldosivi",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A. Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Meglio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luna",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barreiro",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-20",
+     "local": "colon",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Aricó",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-20",
+     "local": "argentinos-juniors",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Ludueña",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-20",
+     "local": "central-norte",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": [
+      {
+       "jugador": "Confesor",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Confesor",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moyano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-20",
+     "local": "san-lorenzo-mdp",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Mascareño",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Galay",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. Domínguez",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Papandrea",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R. Domínguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Parisi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-20",
+     "local": "platense",
+     "visitante": "huracan-comodoro-rivadavia",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "M. A.Juárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pavón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Peralta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-24",
+     "local": "boca-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Tesare",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mastrángelo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mansilla",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-24",
+     "local": "gimnasia-jujuy",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "goles": [
+      {
+       "jugador": "Espeche",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Apariente",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-24",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "atletico-tucuman",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Del Bosque",
+     "goles": [
+      {
+       "jugador": "Villa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Villa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-24",
+     "local": "temperley",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Verón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bertoni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Trossero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-24",
+     "local": "atlanta",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Carrió",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. J.López",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-24",
+     "local": "san-telmo",
+     "visitante": "ledesma",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Juárez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rubiola",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-24",
+     "local": "san-martin-tucuman",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": [
+      {
+       "jugador": "J. Sánchez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Letanú",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-24",
+     "local": "racing-club",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Cordero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cordero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marangoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "P. Gómez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M. González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sacconi",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1976-10-24",
+     "local": "aldosivi",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Zugasti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pavón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-24",
+     "local": "sportivo-patria",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Liga Formoseña de Fútbol",
+     "goles": []
+    },
+    {
+     "fecha": "1976-10-24",
+     "local": "all-boys",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "All Boys",
+     "goles": [
+      {
+       "jugador": "Krabler",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Krabler",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Palavecino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-24",
+     "local": "union",
+     "visitante": "san-martin-mendoza",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [
+      {
+       "jugador": "Trossero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trossero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trossero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trossero",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-24",
+     "local": "huracan-comodoro-rivadavia",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Huracán de Comodoro Rivadavia",
+     "goles": [
+      {
+       "jugador": "Britapaja",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-24",
+     "local": "ferro-carril-oeste",
+     "visitante": "central-norte",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "O. Gutiérrez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Confesor",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-24",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Moyano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rocha",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rocha",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Irigoyen",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hallar",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ovelar",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-24",
+     "local": "talleres",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Boutique de Barrio Jardín",
+     "goles": [
+      {
+       "jugador": "Ludueña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bravo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-24",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Olguín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Houseman",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Leone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-31",
+     "local": "temperley",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Tesare",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Felman",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Felman",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Felman",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Benítez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-31",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Del Bosque",
+     "goles": [
+      {
+       "jugador": "Solía",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rojas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rojas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Astegiano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-31",
+     "local": "gimnasia-jujuy",
+     "visitante": "atletico-tucuman",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": [
+      {
+       "jugador": "Espeche",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-31",
+     "local": "chacarita-juniors",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Paruzzo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Paruzzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-31",
+     "local": "river-plate",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Comisso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M. González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M. González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Orte",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-31",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Del Curto",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Santecchia",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Letanú",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pagnanini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-31",
+     "local": "san-martin-tucuman",
+     "visitante": "ledesma",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": [
+      {
+       "jugador": "Giusti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-31",
+     "local": "san-telmo",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Ayala",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ramos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ramos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Carballo",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1976-10-31",
+     "local": "huracan",
+     "visitante": "san-martin-mendoza",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1976-10-31",
+     "local": "union",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": [
+      {
+       "jugador": "Marchetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Andreuchi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-31",
+     "local": "all-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1976-10-31",
+     "local": "sportivo-patria",
+     "visitante": "platense",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Liga Formoseña de Fútbol",
+     "goles": [
+      {
+       "jugador": "Romero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Romero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Romero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "O. Sánchez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C. Sánchez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-31",
+     "local": "talleres",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Boutique de Barrio Jardín",
+     "goles": [
+      {
+       "jugador": "Alderete",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bravo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Valencia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olguín",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Astudillo",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-31",
+     "local": "newell-s-old-boys",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Rocha",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A. Sánchez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-31",
+     "local": "ferro-carril-oeste",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Vidal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vidal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vidal",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-10-31",
+     "local": "huracan-comodoro-rivadavia",
+     "visitante": "central-norte",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Huracán de Comodoro Rivadavia",
+     "goles": []
+    },
+    {
+     "fecha": "1976-10-31",
+     "local": "san-lorenzo-mdp",
+     "visitante": "aldosivi",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Miccio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zabala",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-07",
+     "local": "boca-juniors",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Rando",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-07",
+     "local": "atletico-tucuman",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental José Fierro",
+     "goles": [
+      {
+       "jugador": "Villafañe",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Salinas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-07",
+     "local": "independiente",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Bertoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pavoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barreiro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-07",
+     "local": "temperley",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Alfredo Beranger",
+     "goles": [
+      {
+       "jugador": "Valencia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Donaires",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-07",
+     "local": "san-telmo",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Balbi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Balbi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luque",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Passarella",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Passarella",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Beltrán",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Comisso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-07",
+     "local": "atlanta",
+     "visitante": "san-martin-tucuman",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Candau",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Soria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Abdala",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-07",
+     "local": "ledesma",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Trapiche Azucarero",
+     "goles": [
+      {
+       "jugador": "Britez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marangoni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ruiz",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Cordero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Letanú",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gottardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M. González",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1976-11-07",
+     "local": "aldosivi",
+     "visitante": "sportivo-patria",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "O. Alvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zavala",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-07",
+     "local": "platense",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1976-11-07",
+     "local": "velez-sarsfield",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "A. Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A. Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trossero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mazzoni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-07",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1976-11-07",
+     "local": "central-norte",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": [
+      {
+       "jugador": "Confesor",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aquino",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Eresuma",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-07",
+     "local": "argentinos-juniors",
+     "visitante": "huracan-comodoro-rivadavia",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "C. Alvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C. Alvarez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-07",
+     "local": "colon",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "O. Gutiérrez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "H. Arregui",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-07",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Rocha",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rocha",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rocha",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-07",
+     "local": "talleres",
+     "visitante": "san-martin-mendoza",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Boutique de Barrio Jardín",
+     "goles": [
+      {
+       "jugador": "Valencia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ludueña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bravo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trama",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-14",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Mastrángelo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Felman",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-14",
+     "local": "atlanta",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Carballo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Astudillo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Montagnoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-14",
+     "local": "banfield",
+     "visitante": "temperley",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Sacconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "P. Gómez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-14",
+     "local": "gimnasia-jujuy",
+     "visitante": "ledesma",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": [
+      {
+       "jugador": "Spadano",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-14",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Astegiano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marangoni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-14",
+     "local": "quilmes",
+     "visitante": "san-telmo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Paruzzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Apariente",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-14",
+     "local": "atletico-tucuman",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental José Fierro",
+     "goles": [
+      {
+       "jugador": "Zavagno",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Se suspendió por incidentes a los 37 minutos del segundo tiempo, 1-0; el 25 de noviembre la AFA lo dio por terminado con ese resultado."
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1976-11-14",
+     "local": "san-martin-mendoza",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Independiente Rivadavia",
+     "goles": [
+      {
+       "jugador": "Trama",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Agonil",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Palavecino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Solari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-14",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Houseman",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cabrera",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-14",
+     "local": "union",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [
+      {
+       "jugador": "Trossero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mazzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marchetti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-14",
+     "local": "all-boys",
+     "visitante": "aldosivi",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "All Boys",
+     "goles": [
+      {
+       "jugador": "Nieto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nieto",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-14",
+     "local": "newell-s-old-boys",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Lucco",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ludueña",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-14",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "H. Arregui",
+       "equipo": "local"
+      },
+      {
+       "jugador": "H. Arregui",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A. Rodríguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A. Rodríguez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-14",
+     "local": "huracan-comodoro-rivadavia",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Huracán de Comodoro Rivadavia",
+     "goles": [
+      {
+       "jugador": "Giantomasi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Britapaja",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aricó",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-14",
+     "local": "san-lorenzo-mdp",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Eresuma",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Miccio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maradona",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maradona",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "C. Alvarez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "C. Alvarez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "C. Alvarez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-14",
+     "local": "sportivo-patria",
+     "visitante": "central-norte",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Liga Formoseña de Fútbol",
+     "goles": [
+      {
+       "jugador": "Vilasanti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ignacio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-21",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Del Bosque",
+     "goles": []
+    },
+    {
+     "fecha": "1976-11-21",
+     "local": "gimnasia-jujuy",
+     "visitante": "temperley",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "goles": [
+      {
+       "jugador": "Bareiro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bareiro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tignanelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García Sangenis",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-21",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Salinas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Astegiano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-21",
+     "local": "quilmes",
+     "visitante": "atletico-tucuman",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Filardo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "O. Gómez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. Díaz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-21",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1976-11-21",
+     "local": "banfield",
+     "visitante": "ledesma",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Cerqueiro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cerqueiro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lazbal",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-21",
+     "local": "racing-club",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Márquez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Márquez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cordero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Candau",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Candau",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-21",
+     "local": "san-martin-tucuman",
+     "visitante": "san-telmo",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Monumental José Fierro",
+     "goles": [
+      {
+       "jugador": "Comisso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calderón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pintos",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1976-11-21",
+     "local": "sportivo-patria",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Liga Formoseña de Fútbol",
+     "goles": [
+      {
+       "jugador": "O. Argarañaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C. Sánchez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scigliano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-21",
+     "local": "aldosivi",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Bello Meza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marchetti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Moreno",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Trossero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ortega",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-21",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Larrosa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Houseman",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-21",
+     "local": "velez-sarsfield",
+     "visitante": "san-martin-mendoza",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "O. Gómez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Miori",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Miori",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Trama",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Monárdez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-21",
+     "local": "argentinos-juniors",
+     "visitante": "central-norte",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Giordano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Donato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C. Alvarez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-21",
+     "local": "colon",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Mazo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aricó",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-21",
+     "local": "san-lorenzo",
+     "visitante": "huracan-comodoro-rivadavia",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "A. Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mendoza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marangoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rizzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giantomasi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-21",
+     "local": "talleres",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Boutique de Barrio Jardín",
+     "goles": [
+      {
+       "jugador": "Ludueña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Valencia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carlomagno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "O. Gutiérrez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-21",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Rocha",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moyano",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-01",
+     "local": "boca-juniors",
+     "visitante": "atletico-tucuman",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Vidal",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-01",
+     "local": "independiente",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Astegiano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Astegiano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rojas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Britez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Filardo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-01",
+     "local": "temperley",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Alfredo Beranger",
+     "goles": [
+      {
+       "jugador": "García Sangenis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Valencia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mansilla",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Astudillo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bordón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-01",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "gimnasia-jujuy",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "goles": [
+      {
+       "jugador": "Tutino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fornari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Bastiano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spadano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-01",
+     "local": "san-martin-tucuman",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental José Fierro",
+     "goles": [
+      {
+       "jugador": "Calderón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sabella",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Luque",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-01",
+     "local": "san-telmo",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Ayala",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Patti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cordero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cordero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Olarticoechea",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-01",
+     "local": "atlanta",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Franceschini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carrió",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-01",
+     "local": "ledesma",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Trapiche Azucarero",
+     "goles": [
+      {
+       "jugador": "Kohli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Letanú",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1976-11-24",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Benito",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-24",
+     "local": "san-martin-mendoza",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Libertador General San Martín",
+     "goles": [
+      {
+       "jugador": "O. Gómez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ulrich",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-24",
+     "local": "huracan",
+     "visitante": "aldosivi",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Cabrera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pelayes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Verón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ríos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mústico",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-24",
+     "local": "union",
+     "visitante": "sportivo-patria",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": [
+      {
+       "jugador": "Marchetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marchetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marchetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bottaniz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "G. Argarañaz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-24",
+     "local": "ferro-carril-oeste",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Rocchia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Robles",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-24",
+     "local": "huracan-comodoro-rivadavia",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Huracán de Comodoro Rivadavia",
+     "goles": [
+      {
+       "jugador": "Alí",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alderete",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-24",
+     "local": "san-lorenzo-mdp",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Galay",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mascareño",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A. Rodríguez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-24",
+     "local": "central-norte",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante del Norte",
+     "goles": [
+      {
+       "jugador": "Luñiz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Armani",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-11-24",
+     "local": "all-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "All Boys",
+     "goles": [
+      {
+       "jugador": "Peracca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Peracca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Peracca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nieto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fusani",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-03",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Vega",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bordón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Borgna",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tutino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Montagnoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-05",
+     "local": "gimnasia-jujuy",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1976-12-05",
+     "local": "quilmes",
+     "visitante": "temperley",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1976-12-05",
+     "local": "atletico-tucuman",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental José Fierro",
+     "goles": [
+      {
+       "jugador": "Alderete",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bertoni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Astegiano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-05",
+     "local": "river-plate",
+     "visitante": "ledesma",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Passarella",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-05",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "C. López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Milano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Letanú",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-05",
+     "local": "banfield",
+     "visitante": "san-telmo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Corvo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pitarch",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M. González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ayala",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-05",
+     "local": "racing-club",
+     "visitante": "san-martin-tucuman",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Cordero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Márquez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1976-12-01",
+     "local": "all-boys",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "All Boys",
+     "goles": [
+      {
+       "jugador": "O. Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moreno",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marchetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-01",
+     "local": "sportivo-patria",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Liga Formoseña de Fútbol",
+     "goles": [
+      {
+       "jugador": "G. Argarañaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "G. Argarañaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cabrera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cabrera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cabrera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cabrera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Larrosa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-01",
+     "local": "aldosivi",
+     "visitante": "san-martin-mendoza",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Altamirano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zugasti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ruiz",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Tello",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Miori",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Miori",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Trama",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-01",
+     "local": "platense",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Ulrich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ulrich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Killer",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rogel",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Benito",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-01",
+     "local": "colon",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1976-12-01",
+     "local": "san-lorenzo",
+     "visitante": "central-norte",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "A. Rodríguez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-01",
+     "local": "talleres",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Boutique de Barrio Jardín",
+     "goles": [
+      {
+       "jugador": "Ludueña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ludueña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alderete",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bravo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bravo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-01",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan-comodoro-rivadavia",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Berta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gallego",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moyano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sperandío",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Britapaja",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zucarelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-01",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Rocchia",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-08",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Ribolzi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-08",
+     "local": "temperley",
+     "visitante": "atletico-tucuman",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Alfredo Beranger",
+     "goles": [
+      {
+       "jugador": "Valencia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Donaires",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-08",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "goles": [
+      {
+       "jugador": "Borgna",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Filardo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-08",
+     "local": "gimnasia-jujuy",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1976-12-08",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Mas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-08",
+     "local": "san-martin-tucuman",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Monumental José Fierro",
+     "goles": [
+      {
+       "jugador": "Calderón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M. González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M. González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Orte",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cerqueiro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cerqueiro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-08",
+     "local": "san-telmo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Pisapia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Milano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gottardi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-08",
+     "local": "atlanta",
+     "visitante": "ledesma",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Carrió",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Augier",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bedogni",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1976-12-05",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Castro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-05",
+     "local": "rosario-central",
+     "visitante": "aldosivi",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Rogel",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D. Killer",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Palavecino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zugasti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sotelo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-05",
+     "local": "san-martin-mendoza",
+     "visitante": "sportivo-patria",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Libertador General San Martín",
+     "goles": [
+      {
+       "jugador": "Miori",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trama",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. Sánchez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-05",
+     "local": "huracan",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Saldaño",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saldaño",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morandini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-05",
+     "local": "huracan-comodoro-rivadavia",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Huracán de Comodoro Rivadavia",
+     "goles": [
+      {
+       "jugador": "Vidal",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vidal",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-05",
+     "local": "san-lorenzo-mdp",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Eresuma",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gallego",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Robles",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Giusti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-05",
+     "local": "central-norte",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": [
+      {
+       "jugador": "Cardozo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bravo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-05",
+     "local": "argentinos-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Giordano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olivares",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-05",
+     "local": "union",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [
+      {
+       "jugador": "Trossero",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-12",
+     "local": "chacarita-juniors",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Felman",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Taverna",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Taverna",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-12",
+     "local": "quilmes",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Filardo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-12",
+     "local": "atletico-tucuman",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental José Fierro",
+     "goles": [
+      {
+       "jugador": "Sosa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sosa",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-12",
+     "local": "independiente",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Bertoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Valencia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-12",
+     "local": "river-plate",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Luque",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-12",
+     "local": "ledesma",
+     "visitante": "san-telmo",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Trapiche Azucarero",
+     "goles": [
+      {
+       "jugador": "Rubiola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rubiola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bedogni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bedogni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Augier",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cloquel",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-martin-tucuman",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Gottardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Letanú",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-12",
+     "local": "banfield",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Orte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cárdenas",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Márquez",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1976-12-08",
+     "local": "union",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": [
+      {
+       "jugador": "Houseman",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-08",
+     "local": "all-boys",
+     "visitante": "san-martin-mendoza",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "All Boys",
+     "goles": [
+      {
+       "jugador": "Scigliano",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-08",
+     "local": "sportivo-patria",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Liga Formoseña de Fútbol",
+     "goles": [
+      {
+       "jugador": "Rojas",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-08",
+     "local": "aldosivi",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "General San Martín",
+     "goles": []
+    },
+    {
+     "fecha": "1976-12-08",
+     "local": "san-lorenzo",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1976-12-08",
+     "local": "talleres",
+     "visitante": "argentinos-juniors",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Boutique de Barrio Jardín",
+     "goles": [
+      {
+       "jugador": "Ludueña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bravo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Oviedo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cabrera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alderete",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-08",
+     "local": "newell-s-old-boys",
+     "visitante": "central-norte",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Montes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giusti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Robles",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moyano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luñiz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-08",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 10,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Rocchia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rocchia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Franco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "H. Arregui",
+       "equipo": "local"
+      },
+      {
+       "jugador": "H. Arregui",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Eiras",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vidal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vidal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Parisi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C. Arregui",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Eresuma",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Eresuma",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mascareño",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-08",
+     "local": "huracan-comodoro-rivadavia",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Huracán de Comodoro Rivadavia",
+     "goles": [
+      {
+       "jugador": "Zucarelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Britapaja",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Britapaja",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lanza",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1976-12-12",
+     "local": "platense",
+     "visitante": "aldosivi",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "O. Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zugasti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sotelo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-12",
+     "local": "velez-sarsfield",
+     "visitante": "sportivo-patria",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "A. Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A. Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Asad",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Farías",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vilasanti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-12",
+     "local": "rosario-central",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Aimar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Killer",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morandini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Picabea",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-12",
+     "local": "san-martin-mendoza",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Libertador General San Martín",
+     "goles": [
+      {
+       "jugador": "Marchetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-12",
+     "local": "san-lorenzo-mdp",
+     "visitante": "huracan-comodoro-rivadavia",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Eresuma",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Britapaja",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Britapaja",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-12",
+     "local": "central-norte",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": [
+      {
+       "jugador": "Parisi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-12",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Méndez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moyano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Montes",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-12",
+     "local": "colon",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Di Meola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cherini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1976-12-12",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Cabrera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Uzin",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
