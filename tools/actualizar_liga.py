@@ -33,6 +33,67 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1970: el Campeonato Metropolitano 1970 (marzo a julio; campeón Independiente): 21 equipos a una rueda (21 fechas, en
+    # cada una quedaba uno libre), con 2 puntos por partido ganado; con los mismos puntos desempataban los goles a favor
+    # y después los goles en contra ("desempate_goles": "gf"). Después, por etapas ("etapas"; en tools/a_mano, cada fecha
+    # dice su etapa): los doce primeros pasaban al Nacional; del 13.º al 16.º jugaban el Petit Torneo (los dos primeros
+    # pasaban al Nacional) y los cinco últimos, con los dos últimos del Petit, el Torneo Reclasificatorio (a dos ruedas;
+    # bajaban los dos últimos, Unión y Lanús, y el 4.º y el 5.º jugaban el Torneo de Promoción con dos de la Primera B:
+    # subió Ferro y bajó Quilmes); los que bajaron, en "descienden_etapa". ESPN no lo tiene: va a mano (tools/a_mano;
+    # RSSSF, sin goles)
+    "1970-metropolitano": {"nombre": "Campeonato Metropolitano 1970", "anio": 1970, "liga": "a_mano", "slug": "1970-metropolitano",
+                           "etapas": [("Campeonato Metropolitano", r"metropolitano$", 12, 1, 21,
+                                       "Campeón: el primero. Los doce primeros pasan al Nacional; del 13.º al 16.º juegan el "
+                                       "Petit Torneo, y los cinco últimos, el Torneo Reclasificatorio"),
+                                      ("Petit Torneo", r"petit$", 2, 22, 3,
+                                       "Los dos primeros pasan al Nacional; los otros dos, al Torneo Reclasificatorio"),
+                                      ("Torneo Reclasificatorio", r"reclasificatorio$", 3, 25, 14,
+                                       "Los tres primeros se quedan en Primera; el 4.º y el 5.º juegan el Torneo de Promoción"),
+                                      ("Torneo de Promoción", r"promocion$", 2, 39, 3,
+                                       "Los dos primeros juegan en Primera en 1971 (Ferro, de la Primera B, sube)")],
+                           "fechas": 41, "pasan": 0, "puntos_victoria": 2, "campeon_etapa": "Campeonato Metropolitano",
+                           "desempate_goles": "gf",
+                           "nota": "Cada partido ganado valía 2 puntos y, con los mismos puntos, desempataban los goles a favor "
+                                   "y después los goles en contra. Eran 21 equipos a una rueda. Los doce primeros jugaron el "
+                                   "Nacional; los otros, el Petit Torneo y el Torneo Reclasificatorio, y el 4.º y el 5.º del "
+                                   "Reclasificatorio, el Torneo de Promoción con Ferro y Almirante Brown, de la Primera B.",
+                           "descensos": "etapa",
+                           "descienden_etapa": {"Torneo Reclasificatorio": ["union", "lanus"], "Torneo de Promoción": ["quilmes"]},
+                           "goleadores_nota": "RSSSF no tiene los goles de este torneo. El goleador fue Oscar Más (River), con 16 "
+                                              "goles."},
+    # El Campeonato Nacional 1970 (septiembre a diciembre; campeón Boca): 20 equipos en 2 zonas de 10 a dos ruedas
+    # ("zonas_a_mano"), con dos fechas de interzonales (la 4 y la 14), con 2 puntos por partido ganado y el mismo
+    # desempate del Metropolitano; a Platense le descontaron 2 puntos. Los dos primeros de cada zona jugaban las
+    # semifinales y la final, a un partido en cancha neutral. ESPN no lo tiene: va a mano (tools/a_mano; Wikipedia,
+    # controlada con RSSSF; de la fase final, también los goles y los árbitros). A la Libertadores 1971 fueron el campeón
+    # y el subcampeón
+    "1970-nacional": {"nombre": "Campeonato Nacional 1970", "anio": 1970, "liga": "a_mano", "slug": "1970-nacional",
+                      "zonas_a_mano": {"A": ["chacarita-juniors", "gimnasia-y-esgrima", "river-plate", "san-lorenzo", "gimnasia-mendoza", "racing-club", "newell-s-old-boys", "talleres", "san-martin-tucuman", "platense"],
+                                       "B": ["rosario-central", "boca-juniors", "velez-sarsfield", "independiente", "estudiantes-de-la-plata", "banfield", "atlanta", "kimberley", "gimnasia-jujuy", "san-martin-san-juan"]},
+                      "fechas": 20, "pasan": 2, "puntos_victoria": 2, "desempate_goles": "gf",
+                      "texto_pasan": "Pasan a las semifinales (los dos primeros de cada zona). Las fechas 4 y 14 fueron de "
+                                     "interzonales",
+                      "descuentos": {"platense": 2},
+                      "descuentos_texto": "A Platense se le descontaron 2 puntos.",
+                      "goleadores_nota": "Los goles son solo de las semifinales y la final (de Wikipedia, con los minutos). El "
+                                         "goleador del torneo fue Carlos Bianchi (Vélez), con 18 goles.",
+                      "nombre_playoffs": "Fase final",
+                      "playoffs": [(r"^$^", n) for n in ("Semifinales", "Final")],
+                      "playoffs_a_mano": {
+                           "Semifinales": [
+                               {"hora_utc": "1970-12-19T19:00Z", "fecha": "1970-12-19", "local": "rosario-central", "visitante": "gimnasia-y-esgrima", "gl": 3, "gv": 0, "estadio": "Estadio Coloso del Parque", "arbitro": "Roberto Goicoechea", "goles": [{"jugador": "Landucci", "equipo": "local", "min": 52}, {"jugador": "Bustos", "equipo": "local", "min": 70}, {"jugador": "Poy", "equipo": "local", "min": 77}]},
+                               {"hora_utc": "1970-12-20T19:00Z", "fecha": "1970-12-20", "local": "chacarita-juniors", "visitante": "boca-juniors", "gl": 0, "gv": 2, "estadio": "Estadio El Cilindro", "arbitro": "Humberto Orestes Dellacasa", "goles": [{"jugador": "Coch", "equipo": "visitante", "min": 5}, {"jugador": "Coch", "equipo": "visitante", "min": 72}]},
+                           ],
+                           "Final": [
+                               {"hora_utc": "1970-12-23T19:00Z", "fecha": "1970-12-23", "local": "boca-juniors", "visitante": "rosario-central", "gl": 2, "gv": 1, "estadio": "Estadio Monumental", "arbitro": "Ángel Coerezza", "alargue": True, "goles": [{"jugador": "Rojas", "equipo": "local", "min": 80}, {"jugador": "Coch", "equipo": "local", "min": 108}, {"jugador": "Landucci", "equipo": "visitante", "min": 41}]},
+                           ],
+                      },
+                      "sin_descensos": "En el Nacional no había descensos: se definían en el Metropolitano.",
+                      "anual_texto": "La tabla de las dos zonas del Campeonato Nacional 1970 (los 20 equipos, con los "
+                                     "interzonales). Cada partido ganado valía 2 puntos.",
+                      "cupos": {"anio": 1971, "fijos": True,
+                                "libertadores": [("Campeón del Nacional 1970", "boca-juniors"),
+                                                 ("Subcampeón del Nacional 1970", "rosario-central")]}},
     # 1971: el Campeonato Metropolitano 1971 (marzo a septiembre; campeón Independiente): 19 equipos a dos ruedas (38
     # fechas, en cada una quedaba uno libre), con 2 puntos por partido ganado. ESPN no lo tiene: va a mano (tools/a_mano;
     # RSSSF, con los goleadores, solo con el apellido y sin minutos). Sin promedios: bajaban los dos últimos de la tabla
@@ -3512,6 +3573,7 @@ CLUBES_NUEVOS = {
     "itr": ("independiente-trelew", "Independiente (Trelew)"),   # (no está en ESPN: 1972)
     "dor": ("don-orione", "Don Orione (Barranqueras)"),   # (no están en ESPN: 1971)
     "hiw": ("huracan-ingeniero-white", "Huracán (Ingeniero White)"),
+    "abr": ("almirante-brown", "Almirante Brown"),   # (no está en ESPN: el Torneo de Promoción 1970)
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
@@ -4004,7 +4066,7 @@ def armar(clave):
     for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "goleadores_nota", "promocion", "ventaja", "triangular", "texto_triangular", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
               "campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro", "descuentos",
               "descuentos_texto", "promedios_victoria", "puntos_victoria", "punto_penales",
-              "promedios_por_temporada", "texto_promocion", "campeon_etapa", "pasan_triangular", "etapa_suma", "texto_suma"):
+              "promedios_por_temporada", "texto_promocion", "campeon_etapa", "pasan_triangular", "etapa_suma", "texto_suma", "desempate_goles", "descienden_etapa"):
         if cfg.get(k):
             datos[k] = cfg[k]
     if cfg.get("titulo_anual"):

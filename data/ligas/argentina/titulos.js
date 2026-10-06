@@ -1,18 +1,20 @@
 /* Los títulos de liga de cada club, para mostrar al lado del campeón qué número de título es (River en el Campeonato
    1989-90: el 23). Cuenta oficial de la AFA (Wikipedia, "List of Argentine Primera División champions"):
-   - antes: los títulos de cada club hasta el Nacional 1970 (amateurs y profesionales); ultimo_antes: el campeón
-     del Nacional 1970 (para contar los títulos seguidos: bicampeonatos, tricampeonatos), y seguidos_antes,
-     cuántos llevaba seguidos (Boca: solo ese, porque el Metropolitano 1970 lo ganó Independiente).
+   - antes: los títulos de cada club hasta el Nacional 1969 (amateurs y profesionales); ultimo_antes: el campeón
+     del Nacional 1969 (para contar los títulos seguidos: bicampeonatos, tricampeonatos), y seguidos_antes,
+     cuántos llevaba seguidos (Boca: solo ese, porque el Metropolitano 1969 lo ganó Chacarita).
    - torneos: los títulos de cada torneo cargado, en orden. "club" es el campeón del torneo; ["club", "texto"] es otro
      título que se definió en ese torneo (la final de 1990-91, la Superfinal 2012-13, el "Campeón de Liga" 2025).
    - notas: los torneos cuyo campeón no suma un título de liga (y por qué).
    Al terminar un torneo nuevo, agregar su campeón acá (la prueba de tests/test_liga.py avisa si falta). */
 window.LIGA_TITULOS = {
-  "antes": {"river-plate": 14, "boca-juniors": 18, "racing-club": 15, "independiente": 9, "san-lorenzo": 8,
+  "antes": {"river-plate": 14, "boca-juniors": 17, "racing-club": 15, "independiente": 8, "san-lorenzo": 8,
             "huracan": 4, "estudiantes-de-la-plata": 2,
             "velez-sarsfield": 1, "quilmes": 1},
   "ultimo_antes": "boca-juniors", "seguidos_antes": 1,
   "torneos": {
+    "1970-metropolitano": ["independiente"],
+    "1970-nacional": ["boca-juniors"],
     "1971-metropolitano": ["independiente"],
     "1971-nacional": ["rosario-central"],
     "1972-metropolitano": ["san-lorenzo"],

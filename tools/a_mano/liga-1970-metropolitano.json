@@ -1,0 +1,2892 @@
+{
+ "nombre": "Campeonato Metropolitano 1970",
+ "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi), sin goles. Estadio: la cancha que dice RSSSF cuando no era la del local; si no, la del local. Las tablas que salen de los partidos (con los goles a favor y después los goles en contra como desempate, como se usaba) son iguales a las de RSSSF y Wikipedia. Wikipedia pone Huracán 5-2 Los Andes (fecha 1); va el 5-3 de RSSSF, que es el que da los goles de Los Andes de la tabla oficial",
+ "fechas": [
+  {
+   "numero": 1,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-03-20",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-22",
+     "local": "banfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-22",
+     "local": "boca-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-22",
+     "local": "colon",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-22",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-22",
+     "local": "huracan",
+     "visitante": "los-andes",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-22",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-22",
+     "local": "lanus",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-22",
+     "local": "platense",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-22",
+     "local": "quilmes",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 5,
+     "estadio": "Quilmes Atlético Club",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-03-25",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-26",
+     "local": "argentinos-juniors",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-26",
+     "local": "atlanta",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-26",
+     "local": "chacarita-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Chacarita Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-26",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "colon",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-26",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-26",
+     "local": "los-andes",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Eduardo Gallardón",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-26",
+     "local": "river-plate",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Monumental",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-26",
+     "local": "rosario-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-26",
+     "local": "union",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-03-29",
+     "local": "atlanta",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-29",
+     "local": "chacarita-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Chacarita Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-29",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-29",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-29",
+     "local": "quilmes",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Quilmes Atlético Club",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-29",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-29",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Monumental",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-29",
+     "local": "union",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Club Atlético Unión",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-29",
+     "local": "velez-sarsfield",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-03-30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-04-03",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-05",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-05",
+     "local": "banfield",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-05",
+     "local": "boca-juniors",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-05",
+     "local": "colon",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-05",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-05",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-05",
+     "local": "independiente",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-05",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-05",
+     "local": "rosario-central",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-04-12",
+     "local": "atlanta",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-12",
+     "local": "colon",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-12",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "rosario-central",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-12",
+     "local": "lanus",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-12",
+     "local": "los-andes",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Eduardo Gallardón",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-12",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-12",
+     "local": "quilmes",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-12",
+     "local": "racing-club",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-12",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-12",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-04-19",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-19",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-19",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-19",
+     "local": "huracan",
+     "visitante": "newell-s-old-boys",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-19",
+     "local": "independiente",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-19",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-19",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-19",
+     "local": "union",
+     "visitante": "los-andes",
+     "gl": 5,
+     "gv": 4,
+     "estadio": "Club Atlético Unión",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-19",
+     "local": "velez-sarsfield",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-20",
+     "local": "banfield",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-04-24",
+     "local": "racing-club",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-26",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Don León Kolbowski",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-26",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-26",
+     "local": "colon",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-26",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-26",
+     "local": "los-andes",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Eduardo Gallardón",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-26",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-26",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-26",
+     "local": "san-lorenzo",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-04-26",
+     "local": "union",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-05-03",
+     "local": "banfield",
+     "visitante": "los-andes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-03",
+     "local": "colon",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-03",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-03",
+     "local": "lanus",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-03",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Platense",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-03",
+     "local": "quilmes",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-03",
+     "local": "rosario-central",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-03",
+     "local": "velez-sarsfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-04",
+     "local": "boca-juniors",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-05-08",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-10",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-10",
+     "local": "chacarita-juniors",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-10",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-10",
+     "local": "los-andes",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-10",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-10",
+     "local": "rosario-central",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-10",
+     "local": "san-lorenzo",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-10",
+     "local": "union",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-05-17",
+     "local": "atlanta",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-17",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-17",
+     "local": "lanus",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-17",
+     "local": "newell-s-old-boys",
+     "visitante": "los-andes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-17",
+     "local": "quilmes",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-17",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-17",
+     "local": "river-plate",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-17",
+     "local": "union",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-17",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-18",
+     "local": "huracan",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-05-22",
+     "local": "san-lorenzo",
+     "visitante": "los-andes",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-24",
+     "local": "argentinos-juniors",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-24",
+     "local": "banfield",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-24",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-24",
+     "local": "colon",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-24",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "union",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-24",
+     "local": "huracan",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-24",
+     "local": "independiente",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-24",
+     "local": "platense",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-24",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-05-28",
+     "local": "atlanta",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-28",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-28",
+     "local": "lanus",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-28",
+     "local": "los-andes",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Eduardo Gallardón",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-28",
+     "local": "newell-s-old-boys",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-28",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-28",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-28",
+     "local": "velez-sarsfield",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-04",
+     "local": "quilmes",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-16",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-05-31",
+     "local": "argentinos-juniors",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-31",
+     "local": "banfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-31",
+     "local": "chacarita-juniors",
+     "visitante": "los-andes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-31",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-31",
+     "local": "huracan",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-31",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-31",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Monumental",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-31",
+     "local": "rosario-central",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-05-31",
+     "local": "union",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-01",
+     "local": "quilmes",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-06-05",
+     "local": "chacarita-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-07",
+     "local": "atlanta",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-07",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-07",
+     "local": "colon",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-07",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-07",
+     "local": "los-andes",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Eduardo Gallardón",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-07",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-07",
+     "local": "platense",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Platense",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-07",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-07",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-06-14",
+     "local": "banfield",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-14",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-14",
+     "local": "colon",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "los-andes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-14",
+     "local": "huracan",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-14",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-14",
+     "local": "platense",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-14",
+     "local": "quilmes",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-14",
+     "local": "velez-sarsfield",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-15",
+     "local": "argentinos-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-06-19",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-21",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-21",
+     "local": "chacarita-juniors",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-21",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-21",
+     "local": "independiente",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-21",
+     "local": "los-andes",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-21",
+     "local": "newell-s-old-boys",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-21",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-21",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-21",
+     "local": "union",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-06-26",
+     "local": "banfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-28",
+     "local": "atlanta",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Don León Kolbowski",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-28",
+     "local": "chacarita-juniors",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-28",
+     "local": "lanus",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-28",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-28",
+     "local": "quilmes",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-28",
+     "local": "racing-club",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-28",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-28",
+     "local": "union",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-06-28",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-07-05",
+     "local": "argentinos-juniors",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-05",
+     "local": "banfield",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-05",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-05",
+     "local": "colon",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-05",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-05",
+     "local": "huracan",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-05",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-05",
+     "local": "los-andes",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes LP",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-05",
+     "local": "platense",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Platense",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-05",
+     "local": "rosario-central",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-07-10",
+     "local": "boca-juniors",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-12",
+     "local": "atlanta",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-12",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-12",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-12",
+     "local": "los-andes",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-12",
+     "local": "newell-s-old-boys",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-12",
+     "local": "quilmes",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-12",
+     "local": "racing-club",
+     "visitante": "chacarita-juniors",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-12",
+     "local": "san-lorenzo",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-12",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-07-19",
+     "local": "banfield",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-19",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-19",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-19",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-19",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-19",
+     "local": "river-plate",
+     "visitante": "los-andes",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Monumental",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-19",
+     "local": "rosario-central",
+     "visitante": "colon",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-19",
+     "local": "union",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-21",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-22",
+     "local": "lanus",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "etapa": "metropolitano",
+   "partidos": [
+    {
+     "fecha": "1970-07-24",
+     "local": "river-plate",
+     "visitante": "union",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Monumental",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-26",
+     "local": "colon",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-27",
+     "local": "atlanta",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Don León Kolbowski",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-27",
+     "local": "boca-juniors",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-27",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-27",
+     "local": "los-andes",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Eduardo Gallardón",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-27",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-27",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-27",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-07-27",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "etapa": "petit",
+   "partidos": [
+    {
+     "fecha": "1970-08-02",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-08-02",
+     "local": "quilmes",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "etapa": "petit",
+   "partidos": [
+    {
+     "fecha": "1970-08-09",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-08-09",
+     "local": "quilmes",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "etapa": "petit",
+   "partidos": [
+    {
+     "fecha": "1970-08-16",
+     "local": "chacarita-juniors",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-08-16",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1970-09-06",
+     "local": "huracan",
+     "visitante": "quilmes",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-09-06",
+     "local": "los-andes",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-09-06",
+     "local": "union",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1970-09-13",
+     "local": "colon",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-09-13",
+     "local": "lanus",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-09-13",
+     "local": "quilmes",
+     "visitante": "los-andes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1970-09-20",
+     "local": "argentinos-juniors",
+     "visitante": "colon",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-09-20",
+     "local": "los-andes",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-09-20",
+     "local": "union",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1970-09-27",
+     "local": "colon",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-09-27",
+     "local": "huracan",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-09-27",
+     "local": "quilmes",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1970-10-04",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-10-04",
+     "local": "lanus",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-10-04",
+     "local": "union",
+     "visitante": "los-andes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1970-10-11",
+     "local": "huracan",
+     "visitante": "lanus",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-10-11",
+     "local": "los-andes",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-10-11",
+     "local": "quilmes",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1970-10-18",
+     "local": "argentinos-juniors",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-10-18",
+     "local": "colon",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-10-18",
+     "local": "lanus",
+     "visitante": "los-andes",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Ciudad de Lanús",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1970-10-25",
+     "local": "colon",
+     "visitante": "los-andes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-10-25",
+     "local": "lanus",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-10-25",
+     "local": "quilmes",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1970-11-01",
+     "local": "argentinos-juniors",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-11-01",
+     "local": "los-andes",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-11-01",
+     "local": "union",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1970-11-08",
+     "local": "colon",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-11-08",
+     "local": "huracan",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-11-08",
+     "local": "quilmes",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 35,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1970-11-15",
+     "local": "argentinos-juniors",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-11-15",
+     "local": "lanus",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-11-15",
+     "local": "union",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Club Atlético Unión",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 36,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1970-11-22",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-11-22",
+     "local": "los-andes",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-11-22",
+     "local": "quilmes",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 37,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1970-11-29",
+     "local": "argentinos-juniors",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-11-29",
+     "local": "colon",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-11-29",
+     "local": "lanus",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 38,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1970-12-05",
+     "local": "huracan",
+     "visitante": "colon",
+     "gl": 9,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-12-05",
+     "local": "los-andes",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Eduardo Gallardón",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-12-05",
+     "local": "union",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 39,
+   "etapa": "promocion",
+   "partidos": [
+    {
+     "fecha": "1970-12-12",
+     "local": "almirante-brown",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-12-12",
+     "local": "colon",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Unión",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 40,
+   "etapa": "promocion",
+   "partidos": [
+    {
+     "fecha": "1970-12-15",
+     "local": "ferro-carril-oeste",
+     "visitante": "almirante-brown",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-12-15",
+     "local": "quilmes",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 41,
+   "etapa": "promocion",
+   "partidos": [
+    {
+     "fecha": "1970-12-19",
+     "local": "colon",
+     "visitante": "almirante-brown",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1970-12-19",
+     "local": "quilmes",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Huracán",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

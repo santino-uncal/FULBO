@@ -165,6 +165,11 @@
     }
 
 
+    // Con los mismos puntos: diferencia de gol y goles a favor; con T.desempate_goles "gf" (1970), goles a favor y después
+    // goles en contra
+    function porGoles(a, b) {
+      return T.desempate_goles === "gf" ? b.gf - a.gf || a.gc - b.gc : b.dif - a.dif || b.gf - a.gf;
+    }
     // ---- Tabla de posiciones de cada zona (los partidos interzonales cuentan para la zona de cada club) ----
     // partidos: los que cuentan (en los torneos por etapas, los de esa etapa)
     // (descontar: restar T.descuentos; en los torneos por etapas, en la primera, como a Banfield en el Nacional 1975)
@@ -193,7 +198,7 @@
       const d = T.etapas && T.desempate, gana = d && d.gl != null && (d.gl > d.gv || d.gl === d.gv && d.pen_l > d.pen_v ? d.local : d.visitante);
       const porDesempate = (a, b) => gana && [d.local, d.visitante].includes(a.id) && [d.local, d.visitante].includes(b.id) ? (a.id === gana ? -1 : 1) : 0;
       return Object.values(t).map(f => ({ ...f, pts: f.g * (T.puntos_victoria || 3) + f.e + f.pg - menos(f.id), dif: f.gf - f.gc }))
-        .sort((a, b) => b.pts - a.pts || porDesempate(a, b) || b.dif - a.dif || b.gf - a.gf || club(a.id).nombre.localeCompare(club(b.id).nombre));
+        .sort((a, b) => b.pts - a.pts || porDesempate(a, b) || porGoles(a, b) || club(a.id).nombre.localeCompare(club(b.id).nombre));
     }
     // (bajan: los últimos que descienden, marcados; el Torneo por el descenso del Metropolitano 1979)
     // (conCampeon: marcar al campeón; no en el Reducido por la Libertadores del Nacional 1974)
@@ -203,7 +208,7 @@
         const dif = f.dif > 0 ? `+${f.dif}` : f.dif;
         const ultimos = f.ultimos.slice(-5).reverse().map(u => `<span class="res res-${u.r}" title="${esc(u.texto)}"
           aria-label="${{ V: "Victoria", E: "Empate", D: "Derrota" }[u.r]}">${{ V: "✓", E: "–", D: "✕" }[u.r]}</span>`).join("");
-        return `<tr><td class="pos ${i < pasan ? "pasa" : i >= filas.length - bajan ? "desciende" : conCampeon && f.id === campeon ? "campeon" : ""}">${i + 1}</td><td class="eq">${nombreClub(f.id)}</td>
+        return `<tr><td class="pos ${i < pasan ? "pasa" : (Array.isArray(bajan) ? bajan.includes(f.id) : i >= filas.length - bajan) ? "desciende" : conCampeon && f.id === campeon ? "campeon" : ""}">${i + 1}</td><td class="eq">${nombreClub(f.id)}</td>
           <td class="pts">${f.pts}</td><td>${f.pj}</td><td class="gol">${f.gf}:${f.gc}</td>
           <td class="dif">${dif}</td><td class="opc">${f.g}</td><td class="opc">${f.e}</td><td class="opc">${f.p}</td>${T.punto_penales ? `<td class="opc">${f.pg}</td>` : ""}
           <td class="ultimas" title="El más reciente a la izquierda">${ultimos}</td></tr>`;
@@ -229,7 +234,8 @@
       const partidos = todos.filter(p => et.fechas.includes(p.n) && Object.values(et.zonas).some(ids => ids.includes(p.local)));
       const siguiente = n === 0 ? "la Fase Campeón" : "la final";
       // (T.descensos "etapa": bajan los últimos de la última etapa, el Torneo por el descenso del Metropolitano 1979)
-      const bajan = T.descensos === "etapa" && n === T.etapas.length - 1 && et.nombre !== T.etapa_suma ? T.descienden || 1 : 0;
+      // (T.descienden_etapa: los que bajaron en cada etapa, {etapa: [clubes]}; los torneos reclasificatorios de 1970)
+      const bajan = (T.descienden_etapa || {})[et.nombre] || (T.descensos === "etapa" && n === T.etapas.length - 1 && et.nombre !== T.etapa_suma && !T.descienden_etapa ? T.descienden || 1 : 0);
       // (el desempate entre dos de la misma zona de esta etapa, abajo de sus tablas)
       const des = T.desempate && Object.values(et.zonas).some(ids => ids.includes(T.desempate.local) && ids.includes(T.desempate.visitante));
       return `<h3>${esc(et.nombre)} <small class="vacio">(fechas ${et.fechas[0]} a ${et.fechas.at(-1)})</small></h3>
@@ -237,7 +243,7 @@
         <p class="leyenda"><span><i class="${et.nombre === T.campeon_etapa ? "campeon" : "pasa"}"></i>${et.texto_pasan ? esc(et.texto_pasan)
           : `${et.pasan > 1 ? `Los ${et.pasan} primeros de cada zona pasan` : "El primero de cada zona pasa"}
           a ${/Complementación/.test(et.nombre) ? "la final de la Complementación" : siguiente}`}</span>${bajan
-          ? `<span><i class="desciende"></i>Desciende${bajan > 1 ? `n (los ${{ 2: "dos", 3: "tres" }[bajan] || bajan} últimos)` : " (el último)"}</span>` : ""}</p>
+          ? `<span><i class="desciende"></i>${Array.isArray(bajan) ? `Desciende${bajan.length > 1 ? "n" : ""}` : `Desciende${bajan > 1 ? `n (los ${{ 2: "dos", 3: "tres" }[bajan] || bajan} últimos)` : " (el último)"}`}</span>` : ""}</p>
         ${n === 0 && T.descuentos_texto ? `<p class="nota-edicion">${esc(T.descuentos_texto)}</p>` : ""}
         ${des ? `<h3>Desempate</h3><p class="vacio">${esc(T.desempate_texto || "")}</p>${partidoHTML(T.desempate)}` : ""}
         ${et.nombre === T.etapa_suma ? (() => {
@@ -253,7 +259,7 @@
       <p class="leyenda">${T.texto_pasan ? `<span><i class="pasa"></i>${esc(T.texto_pasan)}</span>` : T.pasan ? `<span><i class="pasa"></i>Clasifican a ${RONDA[T.pasan] || "los playoffs"} (los ${T.pasan} primeros de cada zona)</span>` : ""}
         ${T.campeon_tabla ? `<span><i class="campeon"></i>Campeón: el primero de la tabla (no hay playoffs)</span>` : ""}</p>
       ${T.descuentos_texto ? `<p class="nota-edicion">${esc(T.descuentos_texto)}</p>` : ""}
-      <p class="vacio">${T.puntos_victoria ? `Cada partido ganado valía ${T.puntos_victoria} puntos (los 3 puntos empezaron en el Torneo Apertura 1995). ` : ""}${T.punto_penales ? "Cada partido ganado valía 3 puntos y el empate 1; después de cada empate había penales, y el que los ganaba sumaba 1 punto más (Pen.: los empates ganados por penales). " : ""}Orden: puntos, diferencia de gol y goles a favor.${Object.keys(T.zonas).length > 1
+      <p class="vacio">${T.puntos_victoria ? `Cada partido ganado valía ${T.puntos_victoria} puntos (los 3 puntos empezaron en el Torneo Apertura 1995). ` : ""}${T.punto_penales ? "Cada partido ganado valía 3 puntos y el empate 1; después de cada empate había penales, y el que los ganaba sumaba 1 punto más (Pen.: los empates ganados por penales). " : ""}Orden: ${T.desempate_goles === "gf" ? "puntos, goles a favor y goles en contra" : "puntos, diferencia de gol y goles a favor"}.${Object.keys(T.zonas).length > 1
         ? " Los partidos contra la otra zona (interzonales) suman en la zona de cada club." : ""}</p>`;
 
     // ---- Tabla anual: lo jugado antes en el año (T.anual: el Apertura, [pts, pj, g, e, p, gf, gc]) más este torneo ----
@@ -271,7 +277,7 @@
         const f = ahora[id];
         return { id, pts: pts + f.pts, pj: pj + f.pj, g: g + f.g, e: e + f.e, p: p + f.p, gf: gf + f.gf, gc: gc + f.gc };
       }).map(f => ({ ...f, dif: f.gf - f.gc }))
-        .sort((a, b) => b.pts - a.pts || porDesempate(a, b) || b.dif - a.dif || b.gf - a.gf || club(a.id).nombre.localeCompare(club(b.id).nombre));
+        .sort((a, b) => b.pts - a.pts || porDesempate(a, b) || porGoles(a, b) || club(a.id).nombre.localeCompare(club(b.id).nombre));
     }
     // ---- Promedios: puntos dividido partidos de las temporadas anteriores (T.promedios: {año: {club: [pts, pj]}})
     // más la del año (la tabla anual). Los recién ascendidos dividen solo por los partidos que jugaron en Primera ----
@@ -312,6 +318,7 @@
         return { anual: null, prom: null, todos: ids, porProm: [] };
       }
       // 1979: bajaban los últimos de la última etapa (el Torneo por el descenso)
+      if (T.descensos === "etapa" && T.descienden_etapa) return { anual: null, prom: null, porProm: [], todos: Object.values(T.descienden_etapa).flat() };
       if (T.descensos === "etapa" && T.etapa_suma) return { anual: null, prom: null, porProm: [],
         todos: sumaEtapas().map(f => f.id).slice(-(T.descienden || 1)) };
       if (T.descensos === "etapa") {
