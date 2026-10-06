@@ -147,7 +147,7 @@
       // (T.campeon_etapa: el primero de la tabla de esa etapa, el Torneo Campeonato del Metropolitano 1976; antes que el
       // triangular, que en el Nacional 1974 fue el Reducido por la Libertadores)
       : T.campeon_etapa ? (todoJugado ? (et => tabla(Object.values(et.zonas).flat(),
-          todos.filter(p => et.fechas.includes(p.n) && Object.values(et.zonas).some(ids => ids.includes(p.local))))[0].id)(
+          todos.filter(p => et.fechas.includes(p.n) && Object.values(et.zonas).some(ids => ids.includes(p.local))), et === T.etapas[0])[0].id)(
           T.etapas.find(et => et.nombre === T.campeon_etapa)) : null)
       : tri && tri.length && tri.every(jugado) ? tabla(clubesTri, tri)[0].id
       : T.campeon_tabla && todoJugado ? tabla(Object.values(T.zonas).flat())[0].id : null;
@@ -216,11 +216,20 @@
     }
     // Torneos por etapas (la Copa Maradona 2020, el Nacional 1983): las zonas de cada etapa, con los partidos de sus
     // fechas (los interzonales suman en la zona de cada club; et.texto_pasan: la leyenda propia de la etapa)
+    // (T.etapa_suma: una etapa cuyos puntos se suman a los de la primera para el descenso, como el Torneo
+    // Reclasificatorio del Metropolitano 1972: [{id, antes, ahora, pts}], de más a menos puntos)
+    const partidosEtapa = et => todos.filter(p => et.fechas.includes(p.n) && Object.values(et.zonas).some(ids => ids.includes(p.local)));
+    function sumaEtapas() {
+      const et = T.etapas.find(e => e.nombre === T.etapa_suma), ids = Object.values(et.zonas).flat();
+      const antes = Object.fromEntries(tabla(ids, partidosEtapa(T.etapas[0]), true).map(f => [f.id, f.pts]));
+      return tabla(ids, partidosEtapa(et)).map(f => ({ id: f.id, antes: antes[f.id], ahora: f.pts, pts: antes[f.id] + f.pts }))
+        .sort((a, b) => b.pts - a.pts || club(a.id).nombre.localeCompare(club(b.id).nombre));
+    }
     const vistaEtapas = () => `${T.nota ? `<p class="nota-edicion">${esc(T.nota)}</p>` : ""}` + T.etapas.map((et, n) => {
       const partidos = todos.filter(p => et.fechas.includes(p.n) && Object.values(et.zonas).some(ids => ids.includes(p.local)));
       const siguiente = n === 0 ? "la Fase Campeón" : "la final";
       // (T.descensos "etapa": bajan los últimos de la última etapa, el Torneo por el descenso del Metropolitano 1979)
-      const bajan = T.descensos === "etapa" && n === T.etapas.length - 1 ? T.descienden || 1 : 0;
+      const bajan = T.descensos === "etapa" && n === T.etapas.length - 1 && et.nombre !== T.etapa_suma ? T.descienden || 1 : 0;
       // (el desempate entre dos de la misma zona de esta etapa, abajo de sus tablas)
       const des = T.desempate && Object.values(et.zonas).some(ids => ids.includes(T.desempate.local) && ids.includes(T.desempate.visitante));
       return `<h3>${esc(et.nombre)} <small class="vacio">(fechas ${et.fechas[0]} a ${et.fechas.at(-1)})</small></h3>
@@ -230,7 +239,15 @@
           a ${/Complementación/.test(et.nombre) ? "la final de la Complementación" : siguiente}`}</span>${bajan
           ? `<span><i class="desciende"></i>Desciende${bajan > 1 ? `n (los ${{ 2: "dos", 3: "tres" }[bajan] || bajan} últimos)` : " (el último)"}</span>` : ""}</p>
         ${n === 0 && T.descuentos_texto ? `<p class="nota-edicion">${esc(T.descuentos_texto)}</p>` : ""}
-        ${des ? `<h3>Desempate</h3><p class="vacio">${esc(T.desempate_texto || "")}</p>${partidoHTML(T.desempate)}` : ""}`;
+        ${des ? `<h3>Desempate</h3><p class="vacio">${esc(T.desempate_texto || "")}</p>${partidoHTML(T.desempate)}` : ""}
+        ${et.nombre === T.etapa_suma ? (() => {
+          const filas = sumaEtapas(), nb = T.descienden || 1;
+          return `<h3>Suma para el descenso</h3><p class="vacio">${esc(T.texto_suma || "")}</p>
+            <div class="grupo"><table><thead><tr><th>#</th><th class="eq">Equipo</th><th>${esc(T.etapas[0].nombre)}</th>
+              <th>${esc(et.nombre)}</th><th>Pts</th></tr></thead><tbody>${filas.map((f, i) => `<tr><td class="pos ${i >= filas.length - nb ? "desciende" : ""}">${i + 1}</td>
+              <td class="eq">${nombreClub(f.id)}</td><td>${f.antes}</td><td>${f.ahora}</td><td class="pts">${f.pts}</td></tr>`).join("")}</tbody></table></div>
+            <p class="leyenda"><span><i class="desciende"></i>Descienden (los ${{ 2: "dos", 3: "tres" }[nb] || nb} últimos)</span></p>`;
+        })() : ""}`;
     }).join("") + (T.sin_descensos ? `<p class="nota-edicion">${esc(T.sin_descensos)}</p>` : "");
     const vistaTabla = () => T.etapas ? vistaEtapas() : `<div class="grupos">${Object.keys(T.zonas).map(z => tablaHTML(z)).join("")}</div>
       <p class="leyenda">${T.texto_pasan ? `<span><i class="pasa"></i>${esc(T.texto_pasan)}</span>` : T.pasan ? `<span><i class="pasa"></i>Clasifican a ${RONDA[T.pasan] || "los playoffs"} (los ${T.pasan} primeros de cada zona)</span>` : ""}
@@ -295,6 +312,8 @@
         return { anual: null, prom: null, todos: ids, porProm: [] };
       }
       // 1979: bajaban los últimos de la última etapa (el Torneo por el descenso)
+      if (T.descensos === "etapa" && T.etapa_suma) return { anual: null, prom: null, porProm: [],
+        todos: sumaEtapas().map(f => f.id).slice(-(T.descienden || 1)) };
       if (T.descensos === "etapa") {
         const et = T.etapas.at(-1), ids = Object.values(et.zonas).flat();
         const partidos = todos.filter(p => et.fechas.includes(p.n) && ids.includes(p.local));

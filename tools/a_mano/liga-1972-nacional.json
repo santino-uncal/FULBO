@@ -1,0 +1,1750 @@
+{
+ "nombre": "Campeonato Nacional 1972",
+ "fuente": "Resultados, días y estadios de Wikipedia, controlados con RSSSF (Osvaldo José Gorgazzi): coinciden en todos. De la semifinal y la final, también los goles y los árbitros de Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1972-10-13",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-10-15",
+     "local": "independiente",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-10-15",
+     "local": "san-lorenzo-mdp",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-10-15",
+     "local": "san-lorenzo",
+     "visitante": "bartolome-mitre",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-10-15",
+     "local": "san-martin-mendoza",
+     "visitante": "independiente-trelew",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Independiente Rivadavia",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-10-15",
+     "local": "san-martin-tucuman",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-10-15",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-mendoza",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-10-15",
+     "local": "banfield",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Club Atlético Banfield",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-10-15",
+     "local": "chacarita-juniors",
+     "visitante": "sportivo-desamparados",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-10-15",
+     "local": "colon",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-10-15",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-10-15",
+     "local": "newell-s-old-boys",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-10-15",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 5,
+     "gv": 4,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1972-10-20",
+     "local": "boca-juniors",
+     "visitante": "colon",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-10-22",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-10-22",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-martin-tucuman",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-10-22",
+     "local": "independiente-trelew",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Independiente de Trelew",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-10-22",
+     "local": "lanus",
+     "visitante": "san-martin-mendoza",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-10-22",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-10-22",
+     "local": "belgrano",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-10-22",
+     "local": "gimnasia-mendoza",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Bodega",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-10-22",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-10-22",
+     "local": "racing-club",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-10-22",
+     "local": "sportivo-desamparados",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-10-22",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1972-10-23",
+     "local": "bartolome-mitre",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 7,
+     "estadio": "Ernesto Cucchiaroni",
+     "goles": [],
+     "zona": "A"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1972-10-27",
+     "local": "banfield",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Club Atlético Banfield",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-10-28",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-10-28",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "sportivo-desamparados",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-10-28",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-10-29",
+     "local": "river-plate",
+     "visitante": "independiente-trelew",
+     "gl": 8,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-10-29",
+     "local": "san-lorenzo-mdp",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-10-29",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-10-29",
+     "local": "san-martin-mendoza",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Independiente Rivadavia",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-10-29",
+     "local": "san-martin-tucuman",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-10-29",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-10-29",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-mendoza",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-10-29",
+     "local": "ferro-carril-oeste",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-10-29",
+     "local": "bartolome-mitre",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ernesto Cucchiaroni",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1972-11-01",
+     "local": "atlanta",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-01",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-01",
+     "local": "independiente-trelew",
+     "visitante": "bartolome-mitre",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Independiente de Trelew",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-01",
+     "local": "lanus",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-01",
+     "local": "rosario-central",
+     "visitante": "san-martin-mendoza",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-01",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-01",
+     "local": "boca-juniors",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-01",
+     "local": "colon",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-01",
+     "local": "gimnasia-mendoza",
+     "visitante": "newell-s-old-boys",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "La Bodega",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-01",
+     "local": "huracan",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-01",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-01",
+     "local": "sportivo-desamparados",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-01",
+     "local": "belgrano",
+     "visitante": "san-martin-tucuman",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1972-11-03",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-04",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-mendoza",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-05",
+     "local": "bartolome-mitre",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ernesto Cucchiaroni",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-05",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-05",
+     "local": "river-plate",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-05",
+     "local": "san-lorenzo-mdp",
+     "visitante": "san-martin-tucuman",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-05",
+     "local": "san-martin-mendoza",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Independiente Rivadavia",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-05",
+     "local": "banfield",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Club Atlético Banfield",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-05",
+     "local": "belgrano",
+     "visitante": "sportivo-desamparados",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-05",
+     "local": "chacarita-juniors",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-05",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-05",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B",
+     "nota": "Se suspendió a los 87 minutos, con Huracán ganando 2-1, y la AFA se lo dio ganado a Huracán con ese resultado."
+    },
+    {
+     "fecha": "1972-11-05",
+     "local": "independiente-trelew",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Independiente de Trelew",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1972-11-08",
+     "local": "atlanta",
+     "visitante": "bartolome-mitre",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-08",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-08",
+     "local": "lanus",
+     "visitante": "independiente-trelew",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-08",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-08",
+     "local": "san-martin-tucuman",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-08",
+     "local": "velez-sarsfield",
+     "visitante": "san-martin-mendoza",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-08",
+     "local": "argentinos-juniors",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-08",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-08",
+     "local": "colon",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-08",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-08",
+     "local": "racing-club",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-08",
+     "local": "sportivo-desamparados",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Serpentario",
+     "goles": []
+    },
+    {
+     "fecha": "1972-11-09",
+     "local": "gimnasia-mendoza",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bodega",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1972-11-10",
+     "local": "independiente",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-12",
+     "local": "bartolome-mitre",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ernesto Cucchiaroni",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-12",
+     "local": "independiente-trelew",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Independiente de Trelew",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-12",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-12",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-12",
+     "local": "san-martin-mendoza",
+     "visitante": "san-martin-tucuman",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Independiente Rivadavia",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-12",
+     "local": "belgrano",
+     "visitante": "gimnasia-mendoza",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-12",
+     "local": "chacarita-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-12",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-12",
+     "local": "newell-s-old-boys",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-12",
+     "local": "sportivo-desamparados",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-12",
+     "local": "lanus",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Los Andes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1972-11-17",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-18",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "bartolome-mitre",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-19",
+     "local": "atlanta",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-19",
+     "local": "rosario-central",
+     "visitante": "independiente-trelew",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-19",
+     "local": "san-lorenzo-mdp",
+     "visitante": "san-martin-mendoza",
+     "gl": 4,
+     "gv": 5,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-19",
+     "local": "san-martin-tucuman",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-19",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-19",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-19",
+     "local": "colon",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-19",
+     "local": "gimnasia-mendoza",
+     "visitante": "sportivo-desamparados",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "La Bodega",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-19",
+     "local": "huracan",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-19",
+     "local": "banfield",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Club Atlético Banfield",
+     "goles": [],
+     "zona": "B",
+     "nota": "Se suspendió el 19 de noviembre a los 70 minutos, con Chacarita ganando 2-0; los 20 minutos que faltaban se jugaron el 22 (terminó 0-3)."
+    },
+    {
+     "fecha": "1972-11-19",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1972-11-24",
+     "local": "river-plate",
+     "visitante": "san-martin-tucuman",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-25",
+     "local": "newell-s-old-boys",
+     "visitante": "banfield",
+     "gl": 7,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-26",
+     "local": "bartolome-mitre",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ernesto Cucchiaroni",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-26",
+     "local": "independiente-trelew",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Independiente de Trelew",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-26",
+     "local": "lanus",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-26",
+     "local": "san-lorenzo",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-26",
+     "local": "san-martin-mendoza",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Independiente Rivadavia",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-26",
+     "local": "belgrano",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-26",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-26",
+     "local": "ferro-carril-oeste",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-26",
+     "local": "racing-club",
+     "visitante": "gimnasia-mendoza",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-26",
+     "local": "sportivo-desamparados",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-26",
+     "local": "atlanta",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1972-11-29",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-29",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-29",
+     "local": "rosario-central",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-29",
+     "local": "san-lorenzo-mdp",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-29",
+     "local": "san-martin-tucuman",
+     "visitante": "bartolome-mitre",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-29",
+     "local": "velez-sarsfield",
+     "visitante": "independiente-trelew",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-11-29",
+     "local": "argentinos-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-29",
+     "local": "banfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Club Atlético Banfield",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-29",
+     "local": "boca-juniors",
+     "visitante": "sportivo-desamparados",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-29",
+     "local": "chacarita-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-29",
+     "local": "colon",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-29",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-11-29",
+     "local": "san-martin-mendoza",
+     "visitante": "gimnasia-mendoza",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Bodega",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1972-12-01",
+     "local": "san-lorenzo",
+     "visitante": "san-martin-mendoza",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-12-03",
+     "local": "atlanta",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-12-03",
+     "local": "bartolome-mitre",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ernesto Cucchiaroni",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-12-03",
+     "local": "independiente-trelew",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Independiente de Trelew",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-12-03",
+     "local": "lanus",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-12-03",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 7,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-12-03",
+     "local": "belgrano",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-12-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-12-03",
+     "local": "ferro-carril-oeste",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-12-03",
+     "local": "gimnasia-mendoza",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Bodega",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-12-03",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-12-03",
+     "local": "sportivo-desamparados",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "27 de Septiembre",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-12-03",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1972-12-06",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-12-06",
+     "local": "independiente",
+     "visitante": "bartolome-mitre",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-12-06",
+     "local": "san-lorenzo-mdp",
+     "visitante": "independiente-trelew",
+     "gl": 8,
+     "gv": 3,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-12-06",
+     "local": "san-martin-mendoza",
+     "visitante": "river-plate",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Independiente Rivadavia",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-12-06",
+     "local": "san-martin-tucuman",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-12-06",
+     "local": "velez-sarsfield",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-12-06",
+     "local": "argentinos-juniors",
+     "visitante": "sportivo-desamparados",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-12-06",
+     "local": "banfield",
+     "visitante": "belgrano",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Club Atlético Banfield",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-12-06",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-mendoza",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-12-06",
+     "local": "chacarita-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-12-06",
+     "local": "colon",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-12-06",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-12-06",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1972-12-08",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-12-10",
+     "local": "atlanta",
+     "visitante": "san-martin-tucuman",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-12-10",
+     "local": "bartolome-mitre",
+     "visitante": "san-martin-mendoza",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ernesto Cucchiaroni",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-12-10",
+     "local": "independiente-trelew",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Independiente de Trelew",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-12-10",
+     "local": "lanus",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Banfield",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-12-10",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-12-10",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1972-12-10",
+     "local": "belgrano",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-12-10",
+     "local": "ferro-carril-oeste",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-12-10",
+     "local": "gimnasia-mendoza",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "La Bodega",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-12-10",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-12-10",
+     "local": "sportivo-desamparados",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "27 de Septiembre",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1972-12-10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

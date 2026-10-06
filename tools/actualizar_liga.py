@@ -33,6 +33,62 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1972: el Campeonato Metropolitano 1972 (febrero a octubre; campeón San Lorenzo): 18 equipos a dos ruedas (34 fechas),
+    # con 2 puntos por partido ganado; a Banfield le descontaron 21 puntos. Después, los seis últimos jugaron el Torneo
+    # Reclasificatorio (a una rueda, en cancha neutral), cuyos puntos se sumaban a los del Metropolitano ("etapa_suma"):
+    # bajaban los dos últimos de la suma, Lanús y Banfield. Va por etapas (en tools/a_mano, cada fecha dice su etapa).
+    # ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles). A la Libertadores 1973 fueron los campeones del
+    # Metropolitano y del Nacional (San Lorenzo, los dos) y River, subcampeón del Nacional
+    "1972-metropolitano": {"nombre": "Campeonato Metropolitano 1972", "anio": 1972, "liga": "a_mano", "slug": "1972-metropolitano",
+                           "etapas": [("Campeonato Metropolitano", r"metropolitano$", 0, 1, 34,
+                                       "Campeón: el primero. Los seis últimos jugaron el Torneo Reclasificatorio"),
+                                      ("Torneo Reclasificatorio", r"reclasificatorio$", 0, 35, 5,
+                                       "A una rueda, en cancha neutral")],
+                           "fechas": 39, "pasan": 0, "puntos_victoria": 2, "campeon_etapa": "Campeonato Metropolitano",
+                           "nota": "Cada partido ganado valía 2 puntos. Eran 18 equipos a dos ruedas; los seis últimos jugaron "
+                                   "después el Torneo Reclasificatorio, cuyos puntos se sumaban a los del Metropolitano: "
+                                   "bajaban los dos últimos de esa suma.",
+                           "descuentos": {"banfield": 21},
+                           "descuentos_texto": "A Banfield se le descontaron 21 puntos: lo suspendieron cuatro meses desde el 16 "
+                                               "de marzo, que eran 36 puntos, pero como solo sumó 21, se le perdonaron los otros "
+                                               "15.",
+                           "descensos": "etapa", "descienden": 2, "etapa_suma": "Torneo Reclasificatorio",
+                           "texto_suma": "Los puntos del Metropolitano (con el descuento a Banfield) más los del Torneo "
+                                         "Reclasificatorio.",
+                           "goleadores_nota": "RSSSF no tiene los goles de este torneo. El goleador fue Miguel Brindisi "
+                                              "(Huracán), con 21 goles."},
+    # El Campeonato Nacional 1972 (octubre a diciembre; campeón San Lorenzo): 26 equipos en 2 zonas de 13 a una rueda
+    # ("zonas_a_mano"; 13 fechas: en cada una, el que quedaba libre jugaba un interzonal), con 2 puntos por partido ganado.
+    # Pasaba el primero de cada zona, y el segundo solo si quedaba a tres puntos o menos (River sí, Colón no): River jugó
+    # la semifinal con Boca y San Lorenzo pasó directo a la final, a un partido en cancha neutral. ESPN no lo tiene: va a
+    # mano (tools/a_mano; Wikipedia, controlada con RSSSF; de la semifinal y la final, también los goles y los árbitros)
+    "1972-nacional": {"nombre": "Campeonato Nacional 1972", "anio": 1972, "liga": "a_mano", "slug": "1972-nacional",
+                      "zonas_a_mano": {"A": ["san-lorenzo", "river-plate", "velez-sarsfield", "san-martin-mendoza", "atlanta", "rosario-central", "independiente", "san-lorenzo-mdp", "lanus", "gimnasia-y-esgrima", "san-martin-tucuman", "bartolome-mitre", "independiente-trelew"],
+                                       "B": ["boca-juniors", "colon", "argentinos-juniors", "huracan", "racing-club", "belgrano", "banfield", "ferro-carril-oeste", "sportivo-desamparados", "chacarita-juniors", "gimnasia-mendoza", "estudiantes-de-la-plata", "newell-s-old-boys"]},
+                      "fechas": 13, "pasan": 1, "puntos_victoria": 2,
+                      "texto_pasan": "Pasa a la fase final el primero de cada zona, y el segundo solo si quedaba a tres puntos "
+                                     "o menos: pasó River (a uno de San Lorenzo), que jugó la semifinal con Boca, y San "
+                                     "Lorenzo fue directo a la final. En cada fecha, el que quedaba libre jugaba un interzonal",
+                      "goleadores_nota": "Los goles son solo de la semifinal y la final (de Wikipedia, con los minutos; RSSSF "
+                                         "pone el de Figueroa a los 102). El goleador del torneo fue Carlos Morete (River), "
+                                         "con 14 goles.",
+                      "nombre_playoffs": "Fase final",
+                      "playoffs": [(r"^$^", n) for n in ("Semifinales", "Final")],
+                      "cuadro_desde": "Final",
+                      "playoffs_a_mano": {
+                           "Semifinales": [
+                               {"hora_utc": "1972-12-13T19:00Z", "fecha": "1972-12-13", "local": "boca-juniors", "visitante": "river-plate", "gl": 2, "gv": 3, "estadio": "Estadio José Amalfitani", "arbitro": "Humberto Orestes Dellacasa", "goles": [{"jugador": "Rogel", "equipo": "local", "min": 30}, {"jugador": "Curioni", "equipo": "local", "min": 74}, {"jugador": "Mastrángelo", "equipo": "visitante", "min": 32}, {"jugador": "Mouzo", "equipo": "visitante", "min": 45, "tipo": "ec"}, {"jugador": "Morete", "equipo": "visitante", "min": 54}]},
+                           ],
+                           "Final": [
+                               {"hora_utc": "1972-12-17T19:00Z", "fecha": "1972-12-17", "local": "san-lorenzo", "visitante": "river-plate", "gl": 1, "gv": 0, "estadio": "Estadio José Amalfitani", "arbitro": "Roberto Goicoechea", "alargue": True, "goles": [{"jugador": "Figueroa", "equipo": "local", "min": 100}]},
+                           ],
+                      },
+                      "sin_descensos": "En el Nacional no había descensos: se definían en el Metropolitano.",
+                      "anual_texto": "La tabla de las dos zonas del Campeonato Nacional 1972 (los 26 equipos, con los "
+                                     "interzonales). Cada partido ganado valía 2 puntos.",
+                      "cupos": {"anio": 1973, "fijos": True,
+                                "libertadores": [("Campeón del Metropolitano y del Nacional 1972", "san-lorenzo"),
+                                                 ("Subcampeón del Nacional 1972", "river-plate")]}},
     # 1973: el Campeonato Metropolitano 1973 (marzo a septiembre; campeón Huracán): 17 equipos a dos ruedas (34 fechas,
     # en cada una quedaba uno libre), con 2 puntos por partido ganado. ESPN no lo tiene: va a mano (tools/a_mano;
     # resultados de RSSSF, días y estadios de Wikipedia; sin goles). No hubo descensos. A la Libertadores 1974 fueron los
@@ -3406,6 +3462,7 @@ CLUBES_NUEVOS = {
     "are": ("atletico-regina", "Atlético Regina (Villa Regina)"),   # (no están en ESPN: 1974)
     "pco": ("puerto-comercial", "Puerto Comercial (Bahía Blanca)"),
     "sde": ("sportivo-desamparados", "Sportivo Desamparados (San Juan)"),
+    "itr": ("independiente-trelew", "Independiente (Trelew)"),   # (no está en ESPN: 1972)
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
@@ -3898,7 +3955,7 @@ def armar(clave):
     for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "goleadores_nota", "promocion", "ventaja", "triangular", "texto_triangular", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
               "campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro", "descuentos",
               "descuentos_texto", "promedios_victoria", "puntos_victoria", "punto_penales",
-              "promedios_por_temporada", "texto_promocion", "campeon_etapa", "pasan_triangular"):
+              "promedios_por_temporada", "texto_promocion", "campeon_etapa", "pasan_triangular", "etapa_suma", "texto_suma"):
         if cfg.get(k):
             datos[k] = cfg[k]
     if cfg.get("titulo_anual"):
