@@ -33,6 +33,60 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1977: el Campeonato Metropolitano 1977 (febrero a noviembre; campeón River): 23 equipos a dos ruedas (46 fechas, en
+    # cada una quedaba uno libre), con 2 puntos por partido ganado. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, con
+    # los goleadores, solo con el apellido y sin minutos). Sin promedios: bajaban los tres últimos de la tabla
+    # ("descensos": "tabla"); Platense y Lanús empataron en el anteúltimo lugar de los que se salvaban y jugaron un
+    # desempate (0-0, penales para Platense: bajó Lanús, con Temperley y Ferro). A la Libertadores 1978 fueron los campeones
+    # del Metropolitano y del Nacional
+    "1977-metropolitano": {"nombre": "Campeonato Metropolitano 1977", "anio": 1977, "liga": "a_mano", "slug": "1977-metropolitano",
+                           "zonas": "unica", "fechas": 46, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                           "anual_texto": "La tabla del Campeonato Metropolitano 1977 (las 46 fechas; eran 23 equipos y en cada "
+                                          "fecha uno quedaba libre). Cada partido ganado valía 2 puntos.",
+                           "goleadores_nota": "Los goles son de RSSSF, solo con el apellido (faltan tres). El goleador fue "
+                                              "Carlos Álvarez (Argentinos), con 27 goles.",
+                           "descensos": "tabla", "descienden": 3,
+                           "desempate_a_mano": {"fecha": "1977-11-16", "local": "platense", "visitante": "lanus", "gl": 0, "gv": 0,
+                                                "pen_l": 8, "pen_v": 7, "estadio": "Cancha de San Lorenzo"},
+                           "desempate_texto": "Platense y Lanús terminaron empatados en puntos arriba de Temperley y Ferro, "
+                                              "en el último lugar del descenso: lo definieron en un partido, en cancha de San "
+                                              "Lorenzo (0-0 y penales para Platense), y bajó Lanús.",
+                           "cupos": {"anio": 1978, "fijos": True,
+                                     "libertadores": [("Campeón del Metropolitano 1977", "river-plate"),
+                                                      ("Campeón del Nacional 1977", "independiente")],
+                                     "nota": "Boca también jugó la Libertadores 1978, como campeón de la de 1977."}},
+    # El Campeonato Nacional 1977 (noviembre de 1977 a enero de 1978; campeón Independiente): 32 equipos (los del
+    # Metropolitano, menos los que bajaron, y los del interior) en 4 zonas de 8 a dos ruedas ("zonas_a_mano"), sin
+    # interzonales, con 2 puntos por partido ganado; el primero de cada zona jugaba las semifinales, a ida y vuelta (con el
+    # global igualado, gol de visitante y después alargue y penales). Independiente salió campeón por el gol de visitante.
+    # ESPN no lo tiene: va a mano (tools/a_mano; resultados y goles de RSSSF, días y estadios de Wikipedia; de la fase
+    # final, los goles con los minutos y los árbitros de Wikipedia)
+    "1977-nacional": {"nombre": "Campeonato Nacional 1977", "anio": 1977, "liga": "a_mano", "slug": "1977-nacional",
+                      "zonas_a_mano": {"A": ["newell-s-old-boys", "san-lorenzo", "independiente-rivadavia", "gimnasia-y-esgrima", "san-martin-tucuman", "estudiantes-buenos-aires", "banfield", "circulo-deportivo"],
+                                       "B": ["estudiantes-de-la-plata", "boca-juniors", "rosario-central", "los-andes-san-juan", "quilmes", "cipolletti", "chacarita-juniors", "central-norte"],
+                                       "C": ["talleres", "racing-club", "river-plate", "velez-sarsfield", "platense", "sarmiento-resistencia", "colon", "gimnasia-jujuy"],
+                                       "D": ["independiente", "belgrano", "huracan", "atlanta", "argentinos-juniors", "union", "ledesma", "all-boys"]},
+                      "fechas": 14, "pasan": 1, "puntos_victoria": 2,
+                      "texto_pasan": "Pasa a las semifinales (el primero de cada zona)",
+                      "goleadores_nota": "Los goles de la fase de zonas son de RSSSF, solo con el apellido y sin minutos; los "
+                                         "de la fase final, de Wikipedia, con los minutos. El goleador del torneo fue "
+                                         "Alfredo Letanú (Estudiantes), con 13 goles.",
+                      "nombre_playoffs": "Fase final",
+                      "playoffs": [(r"^$^", n) for n in ("Semifinales", "Final")],
+                      "playoffs_a_mano": {
+                           "Semifinales": [
+                               {"hora_utc": "1978-01-14T19:00Z", "fecha": "1978-01-14", "local": "talleres", "visitante": "newell-s-old-boys", "gl": 1, "gv": 1, "estadio": "Estadio Boutique de Barrio Jardín", "arbitro": "Roberto Osvaldo Barreiro", "goles": [{"jugador": "Cherini", "equipo": "local", "min": 69, "tipo": "pen"}, {"jugador": "Roux Larrosa", "equipo": "visitante", "min": 10}]},
+                               {"hora_utc": "1978-01-18T19:00Z", "fecha": "1978-01-18", "local": "newell-s-old-boys", "visitante": "talleres", "gl": 0, "gv": 1, "estadio": "Estadio Coloso del Parque", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Bravo", "equipo": "visitante", "min": 85}]},
+                               {"hora_utc": "1978-01-14T19:00Z", "fecha": "1978-01-14", "local": "estudiantes-de-la-plata", "visitante": "independiente", "gl": 1, "gv": 1, "estadio": "Estadio Jorge Luis Hirschi", "arbitro": "Ángel Coerezza", "goles": [{"jugador": "C. López", "equipo": "local", "min": 60}, {"jugador": "Outes", "equipo": "visitante", "min": 16}]},
+                               {"hora_utc": "1978-01-18T19:00Z", "fecha": "1978-01-18", "local": "independiente", "visitante": "estudiantes-de-la-plata", "gl": 3, "gv": 1, "estadio": "Estadio La Doble Visera", "arbitro": "Jorge Eduardo Romero", "alargue": True, "goles": [{"jugador": "O. Pérez", "equipo": "local", "min": 16}, {"jugador": "Trossero", "equipo": "local", "min": 92, "tipo": "pen"}, {"jugador": "Bochini", "equipo": "local", "min": 115}, {"jugador": "Onnis", "equipo": "visitante", "min": 71}]},
+                           ],
+                           "Final": [
+                               {"hora_utc": "1978-01-21T19:00Z", "fecha": "1978-01-21", "local": "independiente", "visitante": "talleres", "gl": 1, "gv": 1, "estadio": "Estadio La Doble Visera", "arbitro": "Ángel Coerezza", "goles": [{"jugador": "Trossero", "equipo": "local", "min": 58, "tipo": "pen"}, {"jugador": "Cherini", "equipo": "visitante", "min": 65, "tipo": "pen"}]},
+                               {"hora_utc": "1978-01-25T19:00Z", "fecha": "1978-01-25", "local": "talleres", "visitante": "independiente", "gl": 2, "gv": 2, "estadio": "Estadio Boutique de Barrio Jardín", "arbitro": "Roberto Osvaldo Barreiro", "goles": [{"jugador": "Cherini", "equipo": "local", "min": 60, "tipo": "pen"}, {"jugador": "Bocanelli", "equipo": "local", "min": 74}, {"jugador": "Outes", "equipo": "visitante", "min": 29}, {"jugador": "Bochini", "equipo": "visitante", "min": 83}]},
+                           ],
+                      },
+                      "ida_y_vuelta": True, "gol_visitante": True,
+                      "sin_descensos": "En el Nacional no había descensos: se definían en el Metropolitano."},
     # 1978: el Campeonato Metropolitano 1978 (marzo a octubre; campeón Quilmes): 21 equipos a dos ruedas (42 fechas, en
     # cada una quedaba uno libre), con 2 puntos por partido ganado. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin
     # goles). Sin promedios: bajaban los dos últimos de la tabla ("descensos": "tabla"): Banfield y Estudiantes de Buenos
@@ -3144,6 +3198,8 @@ CLUBES_NUEVOS = {
     "jpr": ("juventud-pringles", "Juventud Pringles (San Luis)"),   # (no está en ESPN: el Nacional 1979)
     "eba": ("estudiantes-buenos-aires", "Estudiantes (Buenos Aires)"),   # (no están en ESPN: 1978)
     "alv": ("alvarado", "Alvarado (Mar del Plata)"),
+    "lsj": ("los-andes-san-juan", "Los Andes (San Juan)"),   # (no están en ESPN: el Nacional 1977)
+    "sre": ("sarmiento-resistencia", "Sarmiento (Resistencia)"),
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
@@ -3536,7 +3592,9 @@ def armar(clave):
                       "sin_goles": m.get("sin_goles"),
                       # (los penales después de cada empate: el Campeonato 1988-89)
                       "pen_l": m.get("pen_l"), "pen_v": m.get("pen_v"),
-                      "goles": [{**g, "jid": f"{p[g['equipo']]}:{g['jugador']}"} for g in m.get("goles", [])]})
+                      # (un gol sin "jugador": no se sabe quién lo hizo; el Metropolitano 1977)
+                      "goles": [{**g, **({"jid": f"{p[g['equipo']]}:{g['jugador']}"} if g.get("jugador") else {})}
+                                for g in m.get("goles", [])]})
         fase = es_playoff(e)
         if cfg.get("desempate") and re.search(cfg["desempate"], e["season"]["slug"]):
             desempates.append(p)

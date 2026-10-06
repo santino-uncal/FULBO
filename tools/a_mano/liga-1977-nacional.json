@@ -1,0 +1,4948 @@
+{
+ "nombre": "Campeonato Nacional 1977",
+ "fuente": "Resultados y goles: RSSSF (Pablo Ciullini), con los goleadores solo con el apellido y sin minutos; días y estadios de Wikipedia; de la fase final, los goles (con los minutos) y los árbitros de Wikipedia. Coinciden en todos los resultados y las tablas de las zonas dan igual que las de Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1977-11-20",
+     "local": "circulo-deportivo",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "J. Fernández",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Aman",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-20",
+     "local": "banfield",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1977-11-20",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Del Bosque",
+     "goles": [
+      {
+       "jugador": "Fornari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Beltrán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marangoni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rizzi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-20",
+     "local": "san-martin-tucuman",
+     "visitante": "independiente-rivadavia",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": [
+      {
+       "jugador": "Avanzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Funes",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-20",
+     "local": "rosario-central",
+     "visitante": "cipolletti",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Palavecino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Agüero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Murillo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-20",
+     "local": "chacarita-juniors",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Salinas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Salinas",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-20",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Salguero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Letanú",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Letanú",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Onnis",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-20",
+     "local": "los-andes-san-juan",
+     "visitante": "central-norte",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "San Martín de San Juan",
+     "goles": [
+      {
+       "jugador": "Riggio",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "F. Sánchez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-20",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Raffaelli",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-20",
+     "local": "gimnasia-jujuy",
+     "visitante": "sarmiento-resistencia",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1977-11-20",
+     "local": "colon",
+     "visitante": "talleres",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Luñiz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luñiz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Meola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Meola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Valencia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-20",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "M. Juárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roldán",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Larraquy",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-20",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Houseman",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Houseman",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trossero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Trossero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Outes",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Outes",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-20",
+     "local": "all-boys",
+     "visitante": "ledesma",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "All Boys",
+     "goles": [
+      {
+       "jugador": "Coch",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morandini",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-20",
+     "local": "belgrano",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "goles": [
+      {
+       "jugador": "Sosa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Comisso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carranza",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-20",
+     "local": "argentinos-juniors",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1977-11-23",
+     "local": "san-martin-tucuman",
+     "visitante": "circulo-deportivo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "goles": [
+      {
+       "jugador": "Salomone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. Sánchez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-23",
+     "local": "independiente-rivadavia",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Independiente Rivadavia",
+     "goles": [
+      {
+       "jugador": "Cuper",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fornari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-23",
+     "local": "san-lorenzo",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Rizzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Torres",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cerqueiro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sacconi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-23",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Alfaro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rocha",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-23",
+     "local": "cipolletti",
+     "visitante": "central-norte",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Visera de Cemento",
+     "goles": [
+      {
+       "jugador": "Bucarey",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dorado",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "los-andes-san-juan",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Gottardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gottardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onnis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maryllack",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-23",
+     "local": "quilmes",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Fortunato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mouzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-23",
+     "local": "rosario-central",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Andreuchi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-23",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Orlando",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-23",
+     "local": "velez-sarsfield",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luñiz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-23",
+     "local": "talleres",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Boutique de Barrio Jardín",
+     "goles": [
+      {
+       "jugador": "Bravo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ludueña",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-23",
+     "local": "sarmiento-resistencia",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Aurirrojo",
+     "goles": [
+      {
+       "jugador": "Monzón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-23",
+     "local": "independiente",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Outes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trossero",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-23",
+     "local": "union",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": [
+      {
+       "jugador": "Telch",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carrizo",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Marasco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maradona",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-23",
+     "local": "ledesma",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Trapiche Azucarero",
+     "goles": []
+    },
+    {
+     "fecha": "1977-11-23",
+     "local": "huracan",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Saldaña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ardiles",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Britapaja",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1977-11-27",
+     "local": "circulo-deportivo",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Mascareño",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Toloza",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ugarte",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-27",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1977-11-27",
+     "local": "banfield",
+     "visitante": "independiente-rivadavia",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Cerqueiro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Monárdez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zolorza",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-27",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-martin-tucuman",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Del Bosque",
+     "goles": [
+      {
+       "jugador": "Mamberto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fornari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Beltrán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "O. Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. Sánchez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J. Sánchez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marangoni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-27",
+     "local": "chacarita-juniors",
+     "visitante": "cipolletti",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Astudillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Flores",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Juárez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-27",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "C. Alvarez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-27",
+     "local": "los-andes-san-juan",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Malvinas Argentinas",
+     "goles": [
+      {
+       "jugador": "Maryllack",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Méndez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-27",
+     "local": "central-norte",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Gigante del Norte",
+     "goles": [
+      {
+       "jugador": "Papalardo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Letanú",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Letanú",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Landaburo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-27",
+     "local": "racing-club",
+     "visitante": "sarmiento-resistencia",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "R. Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trama",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trama",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trama",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-27",
+     "local": "river-plate",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "J. J.López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Passarella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-27",
+     "local": "gimnasia-jujuy",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": [
+      {
+       "jugador": "Altamiranda",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-27",
+     "local": "colon",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Di Meola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aricó",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Orlando",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-27",
+     "local": "all-boys",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Nieto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Britapaja",
+       "equipo": "local"
+      },
+      {
+       "jugador": "O. Pérez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Magallanes",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bochini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-27",
+     "local": "belgrano",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": [
+      {
+       "jugador": "Sosa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gallardo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-27",
+     "local": "argentinos-juniors",
+     "visitante": "ledesma",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Premici",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maradona",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Britez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-27",
+     "local": "atlanta",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Franceschini",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1977-11-30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "circulo-deportivo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Del Bosque",
+     "goles": []
+    },
+    {
+     "fecha": "1977-11-30",
+     "local": "san-martin-tucuman",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "goles": [
+      {
+       "jugador": "Salomone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marangoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Laguna",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-30",
+     "local": "independiente-rivadavia",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Independiente Rivadavia",
+     "goles": [
+      {
+       "jugador": "Machuca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A. Molina",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alfaro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-30",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Villar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rizzi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-30",
+     "local": "cipolletti",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Visera de Cemento",
+     "goles": [
+      {
+       "jugador": "Gottardi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Letanú",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-30",
+     "local": "quilmes",
+     "visitante": "central-norte",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Fortunato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Paruzzo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-30",
+     "local": "rosario-central",
+     "visitante": "los-andes-san-juan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Garro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-30",
+     "local": "chacarita-juniors",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Ortiz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-30",
+     "local": "colon",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Zimmerman",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R. Díaz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-30",
+     "local": "platense",
+     "visitante": "gimnasia-jujuy",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Otaola",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Gonzalo",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Petti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferraro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-30",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Corbalán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-30",
+     "local": "talleres",
+     "visitante": "sarmiento-resistencia",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Boutique de Barrio Jardín",
+     "goles": [
+      {
+       "jugador": "Bocanelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bocanelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bravo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bravo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ansiporovich",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Monzón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-30",
+     "local": "independiente",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Larrosa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Magallanes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saggioratto",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Arroyo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-30",
+     "local": "ledesma",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Trapiche Azucarero",
+     "goles": []
+    },
+    {
+     "fecha": "1977-11-30",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Houseman",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Houseman",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. López",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fren",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-11-30",
+     "local": "all-boys",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "All Boys",
+     "goles": [
+      {
+       "jugador": "Britapaja",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. Rodríguez",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1977-12-04",
+     "local": "circulo-deportivo",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "General San Martín",
+     "goles": []
+    },
+    {
+     "fecha": "1977-12-04",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "independiente-rivadavia",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Gerez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Machuca",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Machuca",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A. Molina",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-04",
+     "local": "newell-s-old-boys",
+     "visitante": "san-martin-tucuman",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Yazalde",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Yazalde",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Yazalde",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gallego",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-04",
+     "local": "banfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Forgués",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Forgués",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-04",
+     "local": "boca-juniors",
+     "visitante": "cipolletti",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Zanabria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mouzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ortiz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pernía",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Flores",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-04",
+     "local": "los-andes-san-juan",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "San Martín de San Juan",
+     "goles": [
+      {
+       "jugador": "C. Rodríguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Salinas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-04",
+     "local": "central-norte",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Gigante del Norte",
+     "goles": [
+      {
+       "jugador": "Medina",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Jair",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Jair",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mancinelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-04",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Letanú",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-04",
+     "local": "racing-club",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Trama",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bocanelli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ludueña",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-04",
+     "local": "sarmiento-resistencia",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Aurirrojo",
+     "goles": [
+      {
+       "jugador": "Caballero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roldán",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Roldán",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Corbalán",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-04",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Marchetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marchetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marchetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. J.López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sabella",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-04",
+     "local": "gimnasia-jujuy",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "goles": [
+      {
+       "jugador": "Giles",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. Sánchez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-04",
+     "local": "belgrano",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": [
+      {
+       "jugador": "Sanseverino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bonet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Outes",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-04",
+     "local": "argentinos-juniors",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Maradona",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Britapaja",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-04",
+     "local": "atlanta",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Lobos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Franceschini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sanabria",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-04",
+     "local": "union",
+     "visitante": "ledesma",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [
+      {
+       "jugador": "Bottaniz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bottaniz",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1977-12-08",
+     "local": "banfield",
+     "visitante": "circulo-deportivo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Cerqueiro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferlich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M. González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zugasti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-08",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Del Bosque",
+     "goles": [
+      {
+       "jugador": "Beltrán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montagnoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alfaro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Yazalde",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-08",
+     "local": "san-martin-tucuman",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": [
+      {
+       "jugador": "J. Sánchez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Toloza",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-08",
+     "local": "independiente-rivadavia",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Independiente Rivadavia",
+     "goles": [
+      {
+       "jugador": "Monárdez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rizzi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rizzi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-08",
+     "local": "cipolletti",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Visera de Cemento",
+     "goles": [
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Juárez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-08",
+     "local": "rosario-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Palavecino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Letanú",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-08",
+     "local": "chacarita-juniors",
+     "visitante": "central-norte",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "C. Rodriguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pena",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Salinas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Salinas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Salinas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ischia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Medina",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Papalardo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-08",
+     "local": "boca-juniors",
+     "visitante": "los-andes-san-juan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "C. Alvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C. Alvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. Soto",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vega",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-08",
+     "local": "gimnasia-jujuy",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "goles": [
+      {
+       "jugador": "Avallay",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-08",
+     "local": "colon",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luñiz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vega",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coscia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-08",
+     "local": "platense",
+     "visitante": "sarmiento-resistencia",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Pinasco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Petti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Belloni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Niro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Monzón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-08",
+     "local": "velez-sarsfield",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Bravo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cherini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-08",
+     "local": "independiente",
+     "visitante": "ledesma",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Larrosa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Larrosa",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-08",
+     "local": "huracan",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Houseman",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Houseman",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bottaniz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-08",
+     "local": "all-boys",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "All Boys",
+     "goles": [
+      {
+       "jugador": "Coch",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pintos",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-08",
+     "local": "belgrano",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "goles": [
+      {
+       "jugador": "Bonet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sosa",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1977-12-11",
+     "local": "circulo-deportivo",
+     "visitante": "independiente-rivadavia",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Vera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vera",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-11",
+     "local": "san-lorenzo",
+     "visitante": "san-martin-tucuman",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Rizzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marangoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Salomone",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Salomone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-11",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "De Cicco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. Domínguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Echauri",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-11",
+     "local": "newell-s-old-boys",
+     "visitante": "banfield",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Alfaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alfaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Yazalde",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Yazalde",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lo Gatto",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Orte",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-11",
+     "local": "los-andes-san-juan",
+     "visitante": "cipolletti",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "San Martín de San Juan",
+     "goles": [
+      {
+       "jugador": "Garro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. Soto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. Soto",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-11",
+     "local": "central-norte",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante del Norte",
+     "goles": [
+      {
+       "jugador": "Medina",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mastrángelo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Salas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-11",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "chacarita-juniors",
+     "gl": 6,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Letanú",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Letanú",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onnis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gottardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Milano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Herrera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Candau",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Salinas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pena",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-11",
+     "local": "quilmes",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1977-12-11",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1977-12-11",
+     "local": "talleres",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Boutique de Barrio Jardín",
+     "goles": [
+      {
+       "jugador": "Ludueña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cherini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Juárez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-11",
+     "local": "sarmiento-resistencia",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Aurirrojo",
+     "goles": [
+      {
+       "jugador": "Villasanti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villasanti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luna",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-11",
+     "local": "river-plate",
+     "visitante": "gimnasia-jujuy",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Coscia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coscia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Passarella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Passarella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luque",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferraro",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-11",
+     "local": "argentinos-juniors",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Outes",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Larrosa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-11",
+     "local": "atlanta",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Curini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sosa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sosa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bonet",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-11",
+     "local": "union",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [
+      {
+       "jugador": "Casaccio",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-11",
+     "local": "ledesma",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Trapiche Azucarero",
+     "goles": [
+      {
+       "jugador": "Gallardo",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1977-12-14",
+     "local": "newell-s-old-boys",
+     "visitante": "circulo-deportivo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Alfaro",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-14",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Bravo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferlich",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-14",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Giuliano",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-14",
+     "local": "independiente-rivadavia",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Independiente Rivadavia",
+     "goles": [
+      {
+       "jugador": "A. Molina",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Salomone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-14",
+     "local": "cipolletti",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Visera de Cemento",
+     "goles": [
+      {
+       "jugador": "Murillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Eresuma",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Agüero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-14",
+     "local": "quilmes",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Raschia",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Salas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-14",
+     "local": "central-norte",
+     "visitante": "los-andes-san-juan",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": [
+      {
+       "jugador": "Armani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Armani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cardozo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tejeda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Medina",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quiroga",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-14",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Passarella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-14",
+     "local": "sarmiento-resistencia",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Aurirrojo",
+     "goles": [
+      {
+       "jugador": "Caballero",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-14",
+     "local": "talleres",
+     "visitante": "colon",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Boutique de Barrio Jardín",
+     "goles": [
+      {
+       "jugador": "Bravo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bravo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bocanelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bocanelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alderete",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aricó",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-14",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Mehemed",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Geoffroy",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C. Martínez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pinasco",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Juárez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Peremateu",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-14",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Outes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bochini",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-14",
+     "local": "ledesma",
+     "visitante": "all-boys",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Trapiche Azucarero",
+     "goles": [
+      {
+       "jugador": "Augier",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Augier",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Iman",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chazarreta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Medina",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-14",
+     "local": "union",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Club Atlético Unión",
+     "goles": [
+      {
+       "jugador": "Bottaniz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arroyo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sanseverino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sosa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-14",
+     "local": "atlanta",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Franceschini",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1977-12-17",
+     "local": "circulo-deportivo",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Zugasti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. Sánchez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-17",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente-rivadavia",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "goles": [
+      {
+       "jugador": "Montagnoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Funes",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-17",
+     "local": "banfield",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Orte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Orte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Simaldone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-17",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Gallego",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alfaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "H. Sánchez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "H. Sánchez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pafundi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J. Guillermo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-17",
+     "local": "central-norte",
+     "visitante": "cipolletti",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1977-12-17",
+     "local": "los-andes-san-juan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "San Martín de San Juan",
+     "goles": [
+      {
+       "jugador": "Quiroga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Letanú",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-17",
+     "local": "boca-juniors",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1977-12-17",
+     "local": "chacarita-juniors",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Astudillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Astudillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Abate",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Abate",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pena",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Mancinelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-17",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Avallay",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Belloni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Orlando",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-17",
+     "local": "colon",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Vega",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vega",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mariano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mehemed",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-17",
+     "local": "gimnasia-jujuy",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "23 de Agosto",
+     "goles": [
+      {
+       "jugador": "Bravo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bravo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bravo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-17",
+     "local": "river-plate",
+     "visitante": "sarmiento-resistencia",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Passarella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. J.López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-17",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Outes",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Larrosa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-17",
+     "local": "argentinos-juniors",
+     "visitante": "union",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Ovelar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maradona",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Donato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arroyo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-17",
+     "local": "belgrano",
+     "visitante": "ledesma",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "goles": [
+      {
+       "jugador": "Bonet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bonet",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-17",
+     "local": "all-boys",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Brandoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Peracca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coch",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coch",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Houseman",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Peracca",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Candedo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M. Rodríguez",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1977-12-21",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "circulo-deportivo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "J. Guillermo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-21",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Torres",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Capurro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-21",
+     "local": "independiente-rivadavia",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Independiente Rivadavia",
+     "goles": [
+      {
+       "jugador": "Machuca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C. Molina",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Monárdez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Brandli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "P. Gómez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-21",
+     "local": "san-martin-tucuman",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": [
+      {
+       "jugador": "Espeche",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coronel",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-21",
+     "local": "cipolletti",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Visera de Cemento",
+     "goles": [
+      {
+       "jugador": "Veira",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-21",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Palavecino",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-21",
+     "local": "quilmes",
+     "visitante": "los-andes-san-juan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Pellerano",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-21",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "central-norte",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Gottardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Landaburo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Santecchia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cejas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-21",
+     "local": "sarmiento-resistencia",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Aurirrojo",
+     "goles": [
+      {
+       "jugador": "J. Sánchez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villasanti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-21",
+     "local": "talleres",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Boutique de Barrio Jardín",
+     "goles": [
+      {
+       "jugador": "Valencia",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-21",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-jujuy",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Rotondi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mehemed",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aloi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-21",
+     "local": "platense",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Mastromauro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pinasco",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-21",
+     "local": "independiente",
+     "visitante": "all-boys",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Outes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Outes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Magallanes",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-21",
+     "local": "huracan",
+     "visitante": "belgrano",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Houseman",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Houseman",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saladaño",
+       "equipo": "local"
+      },
+      {
+       "jugador": "B. Rodríguez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-21",
+     "local": "ledesma",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Trapiche Azucarero",
+     "goles": [
+      {
+       "jugador": "Farías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ledesma",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferreyra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fren",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J. López",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-21",
+     "local": "union",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": [
+      {
+       "jugador": "Alí",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Torres",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1977-12-28",
+     "local": "circulo-deportivo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Di Bastiano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-28",
+     "local": "banfield",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Cerqueiro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avanzi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-28",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente-rivadavia",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Alfaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alfaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Yazalde",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cuper",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-28",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Ugarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ugarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sánz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-28",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "cipolletti",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Letanú",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Letanú",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Landaburo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Flores",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-28",
+     "local": "central-norte",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": [
+      {
+       "jugador": "Salinas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-28",
+     "local": "los-andes-san-juan",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "San Martín de San Juan",
+     "goles": []
+    },
+    {
+     "fecha": "1977-12-28",
+     "local": "boca-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "C. Alvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mastrángelo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. López",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-28",
+     "local": "racing-club",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1977-12-28",
+     "local": "gimnasia-jujuy",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "goles": [
+      {
+       "jugador": "Ferraro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Belloni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-28",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Alonso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E. Vázquez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "E. Vázquez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Geoffroy",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-28",
+     "local": "sarmiento-resistencia",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Aurirrojo",
+     "goles": [
+      {
+       "jugador": "Villasanti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bocanelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-28",
+     "local": "union",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Club Atlético Unión",
+     "goles": [
+      {
+       "jugador": "Bottaniz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Regenhardt",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Galván",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Magallanes",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Magallanes",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-28",
+     "local": "atlanta",
+     "visitante": "ledesma",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Carrió",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carrió",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carrió",
+       "equipo": "local"
+      },
+      {
+       "jugador": "F. Gutiérrez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gallardo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Farías",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chazarreta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-28",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Sanabria",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sanabria",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1977-12-28",
+     "local": "belgrano",
+     "visitante": "all-boys",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Gigante de Alberdi",
+     "goles": [
+      {
+       "jugador": "Beccerica",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García Sangenis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bonet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Laciar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R. Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zywica",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Brandoni",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1978-01-04",
+     "local": "san-lorenzo",
+     "visitante": "circulo-deportivo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Rizzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rizzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giuliano",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-04",
+     "local": "independiente-rivadavia",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Independiente Rivadavia",
+     "goles": [
+      {
+       "jugador": "Monárdez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villegas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Cicco",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-04",
+     "local": "san-martin-tucuman",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": [
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gallego",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-04",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "banfield",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Del Bosque",
+     "goles": [
+      {
+       "jugador": "Lazbal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lazbal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villarreal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Uzín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Echauri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Corvo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "D'Angelo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-04",
+     "local": "cipolletti",
+     "visitante": "boca-juniors",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "La Visera de Cemento",
+     "goles": [
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Veira",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Eresuma",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M. García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A. Alves",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zanabria",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-04",
+     "local": "chacarita-juniors",
+     "visitante": "los-andes-san-juan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Ferrero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cortés",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-04",
+     "local": "rosario-central",
+     "visitante": "central-norte",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Palavecino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Palavecino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Palavecino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Potente",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vidal",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-04",
+     "local": "quilmes",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Fortunato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gottardi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-04",
+     "local": "talleres",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Boutique de Barrio Jardín",
+     "goles": [
+      {
+       "jugador": "Bocanelli",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-04",
+     "local": "velez-sarsfield",
+     "visitante": "sarmiento-resistencia",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Aloi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Virgallito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villasanti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Monzón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-04",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Pitarch",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-04",
+     "local": "colon",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Baez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. Sánchez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bareiro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-04",
+     "local": "independiente",
+     "visitante": "belgrano",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Outes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Outes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Magallanes",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-04",
+     "local": "all-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "All Boys",
+     "goles": [
+      {
+       "jugador": "Premici",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-04",
+     "local": "huracan",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Cabrera",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-04",
+     "local": "ledesma",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Trapiche Azucarero",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1978-01-07",
+     "local": "circulo-deportivo",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [
+      {
+       "jugador": "Lo Gatto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-07",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Alfaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alfaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gallego",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Capurro",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-07",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Aguerópolis",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Marangoni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-07",
+     "local": "san-lorenzo",
+     "visitante": "independiente-rivadavia",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Giuliano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rizzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A. Molina",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Velázquez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-07",
+     "local": "quilmes",
+     "visitante": "cipolletti",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Márquez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Salinas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Eresuma",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Juárez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Letanú",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-07",
+     "local": "central-norte",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": [
+      {
+       "jugador": "Armani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cardozo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trezeguet",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-07",
+     "local": "los-andes-san-juan",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Serpentario",
+     "goles": [
+      {
+       "jugador": "J. Soto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quiroga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quiroga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A. Alves",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A. Alves",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-07",
+     "local": "racing-club",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Cordero",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-07",
+     "local": "river-plate",
+     "visitante": "colon",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Sepaquercia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sepaquercia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perfumo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coudannes",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-07",
+     "local": "sarmiento-resistencia",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Aurirrojo",
+     "goles": [
+      {
+       "jugador": "Monzón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Amarillo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-07",
+     "local": "talleres",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Boutique de Barrio Jardín",
+     "goles": [
+      {
+       "jugador": "Bocanelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Astudillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Geoffroy",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "E. Vázquez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-07",
+     "local": "ledesma",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Trapiche Azucarero",
+     "goles": [
+      {
+       "jugador": "Bacas",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-07",
+     "local": "union",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": [
+      {
+       "jugador": "Regenhardt",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sthelik",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sthelik",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pereyra",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-07",
+     "local": "atlanta",
+     "visitante": "all-boys",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Filipetto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Palka",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "J. Vázquez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-07",
+     "local": "argentinos-juniors",
+     "visitante": "belgrano",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Maradona",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maradona",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Premici",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Monserrat",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sosa",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1978-01-11",
+     "local": "independiente-rivadavia",
+     "visitante": "circulo-deportivo",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Independiente Rivadavia",
+     "goles": [
+      {
+       "jugador": "Velázquez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Machuca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Jaime",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Jaime",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Galay",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-11",
+     "local": "san-martin-tucuman",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "goles": []
+    },
+    {
+     "fecha": "1978-01-11",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "goles": [
+      {
+       "jugador": "Genin",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. Pérez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-11",
+     "local": "banfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1978-01-11",
+     "local": "cipolletti",
+     "visitante": "los-andes-san-juan",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "La Visera de Cemento",
+     "goles": [
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Juárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giardini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Quiroga",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Quiroga",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J. Soto",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Oros",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-11",
+     "local": "boca-juniors",
+     "visitante": "central-norte",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Sala",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-11",
+     "local": "chacarita-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Gurrieri",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Onnis",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Russo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Solari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-11",
+     "local": "rosario-central",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Jair",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Andreuchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Andreuchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Andreuchi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-11",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Aloi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "O. Gutiérrez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Herrera",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-11",
+     "local": "platense",
+     "visitante": "talleres",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Arrieta",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Juárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Amarillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Viscovich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zenarola",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-11",
+     "local": "colon",
+     "visitante": "sarmiento-resistencia",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [
+      {
+       "jugador": "Mántaras",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barrientos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Monzón",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Leroyer",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Villasanti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-11",
+     "local": "gimnasia-jujuy",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "23 de Agosto",
+     "goles": [
+      {
+       "jugador": "Comisso",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Comisso",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sepaquercia",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Coscia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-11",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Rigolino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ovelar",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J. López",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-11",
+     "local": "belgrano",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "goles": [
+      {
+       "jugador": "Bernio",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-11",
+     "local": "all-boys",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "All Boys",
+     "goles": [
+      {
+       "jugador": "Bentrón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. Gómez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Picabea",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ortega",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sthelik",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1978-01-11",
+     "local": "huracan",
+     "visitante": "ledesma",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Cabrera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cabrera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Farías",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bacas",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

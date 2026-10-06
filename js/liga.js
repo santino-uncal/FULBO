@@ -139,7 +139,11 @@
     // un triangular final entre los empatados arriba (T.triangular: el Apertura 2008): el primero de esos tres partidos
     const tri = T.triangular ? T.playoffs[0]?.partidos || [] : null;
     const clubesTri = tri && [...new Set(tri.flatMap(p => [p.local, p.visitante]))];
-    const campeon = final && final.gl != null ? (final.gl > final.gv || final.gl === final.gv && final.pen_l > final.pen_v ? final.local : final.visitante)
+    // (una final a ida y vuelta: el que ganó la serie, con el global y el gol de visitante; el Nacional 1977)
+    const serieFinal = T.ida_y_vuelta && T.playoffs.find(r => r.nombre === "Final")?.partidos.length === 2
+      ? series(T.playoffs.find(r => r.nombre === "Final").partidos)[0] : null;
+    const campeon = serieFinal ? serieFinal.gana || null
+      : final && final.gl != null ? (final.gl > final.gv || final.gl === final.gv && final.pen_l > final.pen_v ? final.local : final.visitante)
       : tri && tri.length && tri.every(jugado) ? tabla(clubesTri, tri)[0].id
       : T.campeon_tabla && todoJugado ? tabla(Object.values(T.zonas).flat())[0].id : null;
     const [dia, hora] = T.actualizado.split(" ");
