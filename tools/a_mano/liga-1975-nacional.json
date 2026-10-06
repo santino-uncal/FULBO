@@ -1,0 +1,2968 @@
+{
+ "nombre": "Campeonato Nacional 1975",
+ "fuente": "Resultados: RSSSF (Osvaldo José Gorgazzi); días y estadios de Wikipedia; los goles, solo los del partido en que River salió campeón (RSSSF). Coinciden en todos los resultados y las tablas dan igual que las de RSSSF y Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1975-09-19",
+     "local": "atlanta",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-21",
+     "local": "argentinos-juniors",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-21",
+     "local": "banfield",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-21",
+     "local": "bartolome-mitre",
+     "visitante": "jorge-newbery",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ernesto Cucchiaroni",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-21",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-21",
+     "local": "cipolletti",
+     "visitante": "aldosivi",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Visera de Cemento",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-21",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-21",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-21",
+     "local": "gimnasia-jujuy",
+     "visitante": "juventud-antoniana",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-21",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-21",
+     "local": "juventud-alianza",
+     "visitante": "gimnasia-mendoza",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Serpentario",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-21",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 5,
+     "gv": 4,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-21",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-21",
+     "local": "san-martin-tucuman",
+     "visitante": "atletico-tucuman",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-21",
+     "local": "talleres",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Boutique de Barrio Jardín",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-21",
+     "local": "union",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1975-09-24",
+     "local": "all-boys",
+     "visitante": "cipolletti",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "All Boys",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-24",
+     "local": "gimnasia-mendoza",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Independiente Rivadavia",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-24",
+     "local": "san-martin-tucuman",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-24",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-24",
+     "local": "aldosivi",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "General San Martín",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-24",
+     "local": "boca-juniors",
+     "visitante": "juventud-alianza",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-24",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Del Bosque",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-24",
+     "local": "san-lorenzo",
+     "visitante": "atletico-tucuman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-24",
+     "local": "belgrano",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Gigante de Alberdi",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-24",
+     "local": "gimnasia-jujuy",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-24",
+     "local": "rosario-central",
+     "visitante": "jorge-newbery",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-24",
+     "local": "union",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Club Atlético Unión",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-24",
+     "local": "atlanta",
+     "visitante": "juventud-antoniana",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-24",
+     "local": "bartolome-mitre",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Ernesto Cucchiaroni",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-24",
+     "local": "racing-club",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-24",
+     "local": "temperley",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Alfredo Beranger",
+     "zona": "D",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1975-09-28",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "cipolletti",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-28",
+     "local": "gimnasia-mendoza",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Independiente Rivadavia",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-28",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-28",
+     "local": "river-plate",
+     "visitante": "san-martin-tucuman",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-28",
+     "local": "aldosivi",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-28",
+     "local": "argentinos-juniors",
+     "visitante": "juventud-alianza",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-28",
+     "local": "atletico-tucuman",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Monumental José Fierro",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-28",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-28",
+     "local": "belgrano",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-28",
+     "local": "chacarita-juniors",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-28",
+     "local": "independiente",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-28",
+     "local": "jorge-newbery",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Eva Perón",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-28",
+     "local": "colon",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-28",
+     "local": "juventud-antoniana",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-28",
+     "local": "newell-s-old-boys",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-09-28",
+     "local": "temperley",
+     "visitante": "bartolome-mitre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Alfredo Beranger",
+     "zona": "D",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1975-10-01",
+     "local": "all-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "All Boys",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-01",
+     "local": "cipolletti",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Visera de Cemento",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-01",
+     "local": "san-martin-tucuman",
+     "visitante": "gimnasia-mendoza",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-01",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-01",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-01",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Del Bosque",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-01",
+     "local": "juventud-alianza",
+     "visitante": "atletico-tucuman",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Serpentario",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-01",
+     "local": "san-lorenzo",
+     "visitante": "aldosivi",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-01",
+     "local": "banfield",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-01",
+     "local": "gimnasia-jujuy",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-01",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-01",
+     "local": "union",
+     "visitante": "jorge-newbery",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-01",
+     "local": "atlanta",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-01",
+     "local": "bartolome-mitre",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Ernesto Cucchiaroni",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-01",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-01",
+     "local": "talleres",
+     "visitante": "juventud-antoniana",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Boutique de Barrio Jardín",
+     "zona": "D",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1975-10-03",
+     "local": "temperley",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-05",
+     "local": "gimnasia-mendoza",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Independiente Rivadavia",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-05",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-05",
+     "local": "river-plate",
+     "visitante": "cipolletti",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Monumental",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-05",
+     "local": "san-martin-tucuman",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-05",
+     "local": "aldosivi",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "General San Martín",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-05",
+     "local": "argentinos-juniors",
+     "visitante": "atletico-tucuman",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-05",
+     "local": "ferro-carril-oeste",
+     "visitante": "juventud-alianza",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Del Bosque",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-05",
+     "local": "belgrano",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-05",
+     "local": "chacarita-juniors",
+     "visitante": "jorge-newbery",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-05",
+     "local": "gimnasia-jujuy",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-05",
+     "local": "independiente",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-05",
+     "local": "bartolome-mitre",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ernesto Cucchiaroni",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-05",
+     "local": "colon",
+     "visitante": "juventud-antoniana",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-05",
+     "local": "newell-s-old-boys",
+     "visitante": "talleres",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "zona": "D",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1975-10-08",
+     "local": "all-boys",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "All Boys",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-08",
+     "local": "cipolletti",
+     "visitante": "gimnasia-mendoza",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Visera de Cemento",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-08",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-08",
+     "local": "velez-sarsfield",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-08",
+     "local": "atletico-tucuman",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Monumental José Fierro",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-08",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-08",
+     "local": "juventud-alianza",
+     "visitante": "aldosivi",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Serpentario",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-08",
+     "local": "san-lorenzo",
+     "visitante": "argentinos-juniors",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-08",
+     "local": "banfield",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-08",
+     "local": "jorge-newbery",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eva Perón",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-08",
+     "local": "rosario-central",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-08",
+     "local": "union",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-08",
+     "local": "atlanta",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-08",
+     "local": "juventud-antoniana",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante del Norte",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-08",
+     "local": "racing-club",
+     "visitante": "bartolome-mitre",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-08",
+     "local": "talleres",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Boutique de Barrio Jardín",
+     "zona": "D",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1975-10-10",
+     "local": "independiente",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-12",
+     "local": "gimnasia-mendoza",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Independiente Rivadavia",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-12",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-12",
+     "local": "san-martin-tucuman",
+     "visitante": "cipolletti",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-12",
+     "local": "velez-sarsfield",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-12",
+     "local": "aldosivi",
+     "visitante": "atletico-tucuman",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "General San Martín",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-12",
+     "local": "argentinos-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-12",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "juventud-alianza",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-12",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-12",
+     "local": "belgrano",
+     "visitante": "jorge-newbery",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-12",
+     "local": "gimnasia-jujuy",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-12",
+     "local": "rosario-central",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-12",
+     "local": "atlanta",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-12",
+     "local": "bartolome-mitre",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Ernesto Cucchiaroni",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-12",
+     "local": "colon",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-12",
+     "local": "temperley",
+     "visitante": "juventud-antoniana",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Alfredo Beranger",
+     "zona": "D",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1975-10-18",
+     "local": "banfield",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-19",
+     "local": "all-boys",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "José Amalfitani",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-19",
+     "local": "cipolletti",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Atlético Regina",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-19",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-martin-tucuman",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-19",
+     "local": "huracan",
+     "visitante": "gimnasia-mendoza",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-19",
+     "local": "atletico-tucuman",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental José Fierro",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-19",
+     "local": "boca-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-19",
+     "local": "ferro-carril-oeste",
+     "visitante": "aldosivi",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-19",
+     "local": "juventud-alianza",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "El Serpentario",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-19",
+     "local": "chacarita-juniors",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-19",
+     "local": "jorge-newbery",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Eva Perón",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-19",
+     "local": "union",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Club Atlético Unión",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-19",
+     "local": "juventud-antoniana",
+     "visitante": "bartolome-mitre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante del Norte",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-19",
+     "local": "newell-s-old-boys",
+     "visitante": "temperley",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-19",
+     "local": "racing-club",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-19",
+     "local": "talleres",
+     "visitante": "atlanta",
+     "gl": 7,
+     "gv": 3,
+     "estadio": "Boutique de Barrio Jardín",
+     "zona": "D",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1975-10-26",
+     "local": "aldosivi",
+     "visitante": "cipolletti",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-26",
+     "local": "all-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-26",
+     "local": "atletico-tucuman",
+     "visitante": "san-martin-tucuman",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Monumental José Fierro",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-26",
+     "local": "belgrano",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Alberdi",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-26",
+     "local": "chacarita-juniors",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-26",
+     "local": "colon",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-26",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-26",
+     "local": "gimnasia-mendoza",
+     "visitante": "juventud-alianza",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Independiente Rivadavia",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-26",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-26",
+     "local": "jorge-newbery",
+     "visitante": "bartolome-mitre",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-26",
+     "local": "juventud-antoniana",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-26",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-26",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-26",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-26",
+     "local": "temperley",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Alfredo Beranger",
+     "goles": []
+    },
+    {
+     "fecha": "1975-10-26",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1975-10-31",
+     "local": "river-plate",
+     "visitante": "gimnasia-mendoza",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-02",
+     "local": "cipolletti",
+     "visitante": "all-boys",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Atlético Regina",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-02",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-02",
+     "local": "huracan",
+     "visitante": "san-martin-tucuman",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-02",
+     "local": "argentinos-juniors",
+     "visitante": "aldosivi",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-02",
+     "local": "atletico-tucuman",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental José Fierro",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-02",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-02",
+     "local": "juventud-alianza",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "El Serpentario",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-02",
+     "local": "banfield",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-02",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-jujuy",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-02",
+     "local": "independiente",
+     "visitante": "belgrano",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-02",
+     "local": "jorge-newbery",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Eva Perón",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-02",
+     "local": "colon",
+     "visitante": "temperley",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-02",
+     "local": "juventud-antoniana",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-02",
+     "local": "newell-s-old-boys",
+     "visitante": "bartolome-mitre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-02",
+     "local": "talleres",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Boutique de Barrio Jardín",
+     "zona": "D",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1975-11-05",
+     "local": "all-boys",
+     "visitante": "gimnasia-mendoza",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "All Boys",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-05",
+     "local": "cipolletti",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Visera de Cemento",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-05",
+     "local": "san-martin-tucuman",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Ciudadela",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-05",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 6,
+     "estadio": "José Amalfitani",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-05",
+     "local": "boca-juniors",
+     "visitante": "atletico-tucuman",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "aldosivi",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Del Bosque",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-05",
+     "local": "juventud-alianza",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Serpentario",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-05",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-05",
+     "local": "banfield",
+     "visitante": "jorge-newbery",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-05",
+     "local": "gimnasia-jujuy",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-05",
+     "local": "rosario-central",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-05",
+     "local": "union",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-05",
+     "local": "atlanta",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-05",
+     "local": "bartolome-mitre",
+     "visitante": "temperley",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Ernesto Cucchiaroni",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-05",
+     "local": "racing-club",
+     "visitante": "juventud-antoniana",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-05",
+     "local": "talleres",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Boutique de Barrio Jardín",
+     "zona": "D",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1975-11-09",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "all-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-09",
+     "local": "gimnasia-mendoza",
+     "visitante": "san-martin-tucuman",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Independiente Rivadavia",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-09",
+     "local": "huracan",
+     "visitante": "cipolletti",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-09",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Monumental",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-09",
+     "local": "aldosivi",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "General San Martín",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-09",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-09",
+     "local": "atletico-tucuman",
+     "visitante": "juventud-alianza",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental José Fierro",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-09",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-09",
+     "local": "belgrano",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de Alberdi",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-09",
+     "local": "chacarita-juniors",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-09",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-09",
+     "local": "jorge-newbery",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Eva Perón",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-09",
+     "local": "colon",
+     "visitante": "bartolome-mitre",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-09",
+     "local": "juventud-antoniana",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Gigante del Norte",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-09",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-09",
+     "local": "temperley",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Alfredo Beranger",
+     "zona": "D",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1975-11-11",
+     "local": "boca-juniors",
+     "visitante": "aldosivi",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-12",
+     "local": "all-boys",
+     "visitante": "san-martin-tucuman",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "All Boys",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-12",
+     "local": "cipolletti",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "La Visera de Cemento",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-12",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-mendoza",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-12",
+     "local": "atletico-tucuman",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental José Fierro",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-12",
+     "local": "juventud-alianza",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Serpentario",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-12",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-12",
+     "local": "banfield",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-12",
+     "local": "jorge-newbery",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Eva Perón",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-12",
+     "local": "rosario-central",
+     "visitante": "belgrano",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-12",
+     "local": "union",
+     "visitante": "gimnasia-jujuy",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-12",
+     "local": "atlanta",
+     "visitante": "bartolome-mitre",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-12",
+     "local": "juventud-antoniana",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Gigante del Norte",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-12",
+     "local": "racing-club",
+     "visitante": "temperley",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-12",
+     "local": "talleres",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Boutique de Barrio Jardín",
+     "zona": "D",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1975-11-16",
+     "local": "gimnasia-mendoza",
+     "visitante": "cipolletti",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Independiente Rivadavia",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-16",
+     "local": "huracan",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-16",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-16",
+     "local": "san-martin-tucuman",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Ciudadela",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-16",
+     "local": "aldosivi",
+     "visitante": "juventud-alianza",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "General San Martín",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-16",
+     "local": "argentinos-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "atletico-tucuman",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-16",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Del Bosque",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-16",
+     "local": "belgrano",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-16",
+     "local": "chacarita-juniors",
+     "visitante": "union",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Chacarita Juniors",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-16",
+     "local": "gimnasia-jujuy",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "23 de Agosto",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-16",
+     "local": "independiente",
+     "visitante": "jorge-newbery",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-16",
+     "local": "bartolome-mitre",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Ernesto Cucchiaroni",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-16",
+     "local": "colon",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-16",
+     "local": "newell-s-old-boys",
+     "visitante": "juventud-antoniana",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-16",
+     "local": "temperley",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Alfredo Beranger",
+     "zona": "D",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1975-11-21",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Chacarita Juniors",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-23",
+     "local": "all-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "All Boys",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-23",
+     "local": "cipolletti",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Visera de Cemento",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-mendoza",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-23",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-23",
+     "local": "atletico-tucuman",
+     "visitante": "aldosivi",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Monumental José Fierro",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-23",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 5,
+     "estadio": "La Bombonera",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-23",
+     "local": "ferro-carril-oeste",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Ferro Carril Oeste",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-23",
+     "local": "juventud-alianza",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "El Serpentario",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-23",
+     "local": "banfield",
+     "visitante": "gimnasia-jujuy",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-23",
+     "local": "jorge-newbery",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Eva Perón",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-23",
+     "local": "union",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-23",
+     "local": "juventud-antoniana",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-23",
+     "local": "newell-s-old-boys",
+     "visitante": "colon",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-23",
+     "local": "racing-club",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-23",
+     "local": "talleres",
+     "visitante": "bartolome-mitre",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Boutique de Barrio Jardín",
+     "zona": "D",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1975-11-30",
+     "local": "gimnasia-mendoza",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Independiente Rivadavia",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-30",
+     "local": "river-plate",
+     "visitante": "all-boys",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Monumental",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-30",
+     "local": "san-martin-tucuman",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Ciudadela",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-30",
+     "local": "velez-sarsfield",
+     "visitante": "cipolletti",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "zona": "A",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-30",
+     "local": "aldosivi",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "General San Martín",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-30",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 6,
+     "gv": 3,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "atletico-tucuman",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Del Bosque",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-30",
+     "local": "san-lorenzo",
+     "visitante": "juventud-alianza",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "zona": "B",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-30",
+     "local": "belgrano",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-30",
+     "local": "gimnasia-jujuy",
+     "visitante": "jorge-newbery",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-30",
+     "local": "independiente",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-30",
+     "local": "rosario-central",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "zona": "C",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-30",
+     "local": "atlanta",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-30",
+     "local": "bartolome-mitre",
+     "visitante": "juventud-antoniana",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Ernesto Cucchiaroni",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-30",
+     "local": "colon",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "zona": "D",
+     "goles": []
+    },
+    {
+     "fecha": "1975-11-30",
+     "local": "temperley",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Alfredo Beranger",
+     "zona": "D",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "etapa": "octogonal",
+   "partidos": [
+    {
+     "fecha": "1975-12-03",
+     "local": "atletico-tucuman",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "La Ciudadela",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Del Bosque",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-03",
+     "local": "gimnasia-jujuy",
+     "visitante": "temperley",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Emilio Fabrizzi",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-03",
+     "local": "river-plate",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "etapa": "octogonal",
+   "partidos": [
+    {
+     "fecha": "1975-12-07",
+     "local": "gimnasia-jujuy",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Emilio Fabrizzi",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-07",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-07",
+     "local": "talleres",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-07",
+     "local": "temperley",
+     "visitante": "atletico-tucuman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "etapa": "octogonal",
+   "partidos": [
+    {
+     "fecha": "1975-12-10",
+     "local": "atletico-tucuman",
+     "visitante": "gimnasia-jujuy",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-10",
+     "local": "river-plate",
+     "visitante": "temperley",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-10",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "etapa": "octogonal",
+   "partidos": [
+    {
+     "fecha": "1975-12-14",
+     "local": "atletico-tucuman",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-14",
+     "local": "gimnasia-jujuy",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante del Norte",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-14",
+     "local": "san-lorenzo",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-14",
+     "local": "temperley",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "etapa": "octogonal",
+   "partidos": [
+    {
+     "fecha": "1975-12-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-17",
+     "local": "river-plate",
+     "visitante": "atletico-tucuman",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-17",
+     "local": "rosario-central",
+     "visitante": "gimnasia-jujuy",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-17",
+     "local": "talleres",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Gigante de Alberdi",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "etapa": "octogonal",
+   "partidos": [
+    {
+     "fecha": "1975-12-21",
+     "local": "atletico-tucuman",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-21",
+     "local": "gimnasia-jujuy",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-21",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-21",
+     "local": "temperley",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "etapa": "octogonal",
+   "partidos": [
+    {
+     "fecha": "1975-12-28",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "temperley",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-28",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "zona": "Posiciones",
+     "goles": [
+      {
+       "jugador": "Luque",
+       "equipo": "visitante",
+       "min": 17
+      },
+      {
+       "jugador": "Zavagno",
+       "equipo": "local",
+       "min": 32
+      },
+      {
+       "jugador": "Reinaldi",
+       "equipo": "visitante",
+       "min": 89
+      }
+     ]
+    },
+    {
+     "fecha": "1975-12-28",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-jujuy",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "zona": "Posiciones",
+     "goles": []
+    },
+    {
+     "fecha": "1975-12-28",
+     "local": "talleres",
+     "visitante": "atletico-tucuman",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Gigante de Alberdi",
+     "zona": "Posiciones",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

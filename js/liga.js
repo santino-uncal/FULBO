@@ -166,7 +166,8 @@
 
     // ---- Tabla de posiciones de cada zona (los partidos interzonales cuentan para la zona de cada club) ----
     // partidos: los que cuentan (en los torneos por etapas, los de esa etapa)
-    function tabla(ids, partidos = todos) {
+    // (descontar: restar T.descuentos; en los torneos por etapas, en la primera, como a Banfield en el Nacional 1975)
+    function tabla(ids, partidos = todos, descontar = partidos === todos) {
       const t = Object.fromEntries(ids.map(id => [id, { id, pj: 0, g: 0, e: 0, p: 0, pg: 0, gf: 0, gc: 0, ultimos: [] }]));
       partidos.filter(jugado).sort((a, b) => (a.fecha || "").localeCompare(b.fecha || "")).forEach(p => {
         // (p.para_local: un partido que la AFA les dio perdido a los dos, como Almagro-Boca 2005: al local, otro resultado)
@@ -184,7 +185,7 @@
         });
       });
       // (T.descuentos: puntos que se le restaron a un club en este torneo, como a Los Andes en el Clausura 2001)
-      const menos = id => partidos === todos ? (T.descuentos || {})[id] || 0 : 0;
+      const menos = id => descontar ? (T.descuentos || {})[id] || 0 : 0;
       // (T.puntos_victoria: 2, como hasta el Clausura 1995; después, 3)
       // (en los torneos por etapas, un desempate entre dos empatados en puntos de la misma zona, como Vélez-Argentinos en
       // el Metropolitano 1979, pone primero al que lo ganó)
@@ -194,8 +195,8 @@
         .sort((a, b) => b.pts - a.pts || porDesempate(a, b) || b.dif - a.dif || b.gf - a.gf || club(a.id).nombre.localeCompare(club(b.id).nombre));
     }
     // (bajan: los últimos que descienden, marcados; el Torneo por el descenso del Metropolitano 1979)
-    function tablaHTML(z, zonas = T.zonas, pasan = T.pasan, partidos = todos, bajan = 0) {
-      const filas = tabla(zonas[z], partidos);
+    function tablaHTML(z, zonas = T.zonas, pasan = T.pasan, partidos = todos, bajan = 0, descontar = partidos === todos) {
+      const filas = tabla(zonas[z], partidos, descontar);
       const cuerpo = filas.map((f, i) => {
         const dif = f.dif > 0 ? `+${f.dif}` : f.dif;
         const ultimos = f.ultimos.slice(-5).reverse().map(u => `<span class="res res-${u.r}" title="${esc(u.texto)}"
@@ -221,11 +222,12 @@
       // (el desempate entre dos de la misma zona de esta etapa, abajo de sus tablas)
       const des = T.desempate && Object.values(et.zonas).some(ids => ids.includes(T.desempate.local) && ids.includes(T.desempate.visitante));
       return `<h3>${esc(et.nombre)} <small class="vacio">(fechas ${et.fechas[0]} a ${et.fechas.at(-1)})</small></h3>
-        <div class="grupos">${Object.keys(et.zonas).map(z => tablaHTML(z, et.zonas, et.pasan, partidos, bajan)).join("")}</div>
+        <div class="grupos">${Object.keys(et.zonas).map(z => tablaHTML(z, et.zonas, et.pasan, partidos, bajan, n === 0)).join("")}</div>
         <p class="leyenda"><span><i class="${et.nombre === T.campeon_etapa ? "campeon" : "pasa"}"></i>${et.texto_pasan ? esc(et.texto_pasan)
           : `${et.pasan > 1 ? `Los ${et.pasan} primeros de cada zona pasan` : "El primero de cada zona pasa"}
           a ${/Complementación/.test(et.nombre) ? "la final de la Complementación" : siguiente}`}</span>${bajan
           ? `<span><i class="desciende"></i>Desciende${bajan > 1 ? `n (los ${{ 2: "dos", 3: "tres" }[bajan] || bajan} últimos)` : " (el último)"}</span>` : ""}</p>
+        ${n === 0 && T.descuentos_texto ? `<p class="nota-edicion">${esc(T.descuentos_texto)}</p>` : ""}
         ${des ? `<h3>Desempate</h3><p class="vacio">${esc(T.desempate_texto || "")}</p>${partidoHTML(T.desempate)}` : ""}`;
     }).join("") + (T.sin_descensos ? `<p class="nota-edicion">${esc(T.sin_descensos)}</p>` : "");
     const vistaTabla = () => T.etapas ? vistaEtapas() : `<div class="grupos">${Object.keys(T.zonas).map(z => tablaHTML(z)).join("")}</div>

@@ -33,6 +33,41 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1975: el Campeonato Metropolitano 1975 (febrero a agosto; campeón River): 20 equipos a dos ruedas (38 fechas), con
+    # 2 puntos por partido ganado. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles). No hubo descensos: la AFA
+    # los anuló por tercera temporada seguida. A la Libertadores 1976 fueron los campeones del Metropolitano y del Nacional
+    "1975-metropolitano": {"nombre": "Campeonato Metropolitano 1975", "anio": 1975, "liga": "a_mano", "slug": "1975-metropolitano",
+                           "zonas": "unica", "fechas": 38, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                           "anual_texto": "La tabla del Campeonato Metropolitano 1975 (las 38 fechas). Cada partido ganado "
+                                          "valía 2 puntos.",
+                           "goleadores_nota": "RSSSF no tiene los goles de este torneo. El goleador fue Héctor Scotta (San "
+                                              "Lorenzo), con 32 goles.",
+                           "sin_descensos": "No hubo descensos: la AFA los anuló por tercera temporada seguida.",
+                           "cupos": {"anio": 1976, "fijos": True,
+                                     "libertadores": [("Campeón del Metropolitano y del Nacional 1975", "river-plate"),
+                                                      ("Ganador del desempate de los subcampeones", "estudiantes-de-la-plata")],
+                                     "nota": "River ganó los dos torneos del año: el otro lugar lo jugaron los subcampeones, "
+                                             "Huracán (del Metropolitano) y Estudiantes (del Nacional), a un partido en cancha "
+                                             "de Racing (25 de enero de 1976): 3-2 para Estudiantes."}},
+    # El Campeonato Nacional 1975 (septiembre a diciembre; campeón River): 32 equipos por etapas ("etapas"; en tools/a_mano,
+    # cada fecha dice su etapa y cada partido su zona): la fase de zonas, 4 zonas de 8 a dos ruedas con dos fechas de
+    # interzonales (la 1 y la 9; sin zona en el archivo), y el torneo final, los dos primeros de cada zona a una rueda (el
+    # primero fue el campeón, "campeon_etapa"). Con 2 puntos por partido ganado; a Banfield le descontaron 2 puntos. ESPN no
+    # lo tiene: va a mano (tools/a_mano; resultados de RSSSF, días y estadios de Wikipedia). No había descensos
+    "1975-nacional": {"nombre": "Campeonato Nacional 1975", "anio": 1975, "liga": "a_mano", "slug": "1975-nacional",
+                      "etapas": [("Fase de zonas", r"zonas$", 2, 1, 16,
+                                  "Los dos primeros de cada zona pasan al torneo final. Las fechas 1 y 9 fueron de "
+                                  "interzonales, que suman en la zona de cada club"),
+                                 ("Torneo final", r"octogonal$", 0, 17, 7, "Campeón: el primero")],
+                      "fechas": 23, "pasan": 0, "puntos_victoria": 2, "campeon_etapa": "Torneo final",
+                      "nota": "Cada partido ganado valía 2 puntos. En la fase de zonas había 4 zonas de 8 a dos ruedas, con "
+                              "dos fechas de interzonales; los dos primeros de cada zona jugaban el torneo final, a una "
+                              "rueda, y el primero fue el campeón.",
+                      "descuentos": {"banfield": 2},
+                      "descuentos_texto": "A Banfield se le descontaron 2 puntos.",
+                      "goleadores_nota": "Solo están los goles del partido en que River salió campeón (Rosario Central 1, "
+                                         "River 2). El goleador del torneo fue Héctor Scotta (San Lorenzo), con 28 goles.",
+                      "sin_descensos": "En el Nacional no había descensos: se definían en el Metropolitano."},
     # 1976: el Campeonato Metropolitano 1976 (febrero a agosto; campeón Boca): 22 equipos por etapas ("etapas"; en
     # tools/a_mano, cada fecha o cada partido dice su etapa, y cada partido su zona): la primera fase, 2 zonas de 11 a dos
     # ruedas (22 fechas; en cada una, el que quedaba libre jugaba un interzonal, sin zona en el archivo); los seis primeros
@@ -3278,6 +3313,8 @@ CLUBES_NUEVOS = {
     "ste": ("san-telmo", "San Telmo"),   # (no están en ESPN: 1976)
     "hcr": ("huracan-comodoro-rivadavia", "Huracán (Comodoro Rivadavia)"),
     "spa": ("sportivo-patria", "Sportivo Patria (Formosa)"),
+    "bmi": ("bartolome-mitre", "Bartolomé Mitre (Posadas)"),   # (no están en ESPN: 1975)
+    "jne": ("jorge-newbery", "Jorge Newbery (Junín)"),
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
