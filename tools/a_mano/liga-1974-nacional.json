@@ -1,0 +1,3668 @@
+{
+ "nombre": "Campeonato Nacional 1974",
+ "fuente": "Resultados: RSSSF (Osvaldo José Gorgazzi); días y estadios de Wikipedia; los goles, solo los del partido en que San Lorenzo salió campeón (RSSSF). Coinciden en todos los resultados y las tablas dan igual que las de RSSSF y Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1974-07-21",
+     "local": "boca-juniors",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-07-21",
+     "local": "central-norte",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante del Norte",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-07-21",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "belgrano",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-07-21",
+     "local": "sportivo-desamparados",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-07-21",
+     "local": "argentinos-juniors",
+     "visitante": "altos-hornos-zapla",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-07-21",
+     "local": "colon",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-07-21",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan-san-rafael",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-07-21",
+     "local": "talleres",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-07-21",
+     "local": "aldosivi",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-07-21",
+     "local": "chacarita-juniors",
+     "visitante": "atletico-regina",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-07-21",
+     "local": "ferro-carril-oeste",
+     "visitante": "deportivo-mandiyu",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-07-21",
+     "local": "san-martin-tucuman",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-07-21",
+     "local": "chaco-for-ever",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de la Avenida",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-07-21",
+     "local": "huracan",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-07-21",
+     "local": "huracan-comodoro-rivadavia",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Huracán de Comodoro Rivadavia",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-07-21",
+     "local": "independiente",
+     "visitante": "atletico-tucuman",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-07-21",
+     "local": "jorge-newbery",
+     "visitante": "puerto-comercial",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Eva Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1974-07-21",
+     "local": "san-martin-mendoza",
+     "visitante": "godoy-cruz",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Libertador General San Martín",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1974-07-28",
+     "local": "all-boys",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-07-28",
+     "local": "banfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-07-28",
+     "local": "belgrano",
+     "visitante": "puerto-comercial",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-07-28",
+     "local": "rosario-central",
+     "visitante": "central-norte",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-07-28",
+     "local": "altos-hornos-zapla",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Emilio Fabrizzi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-07-28",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-07-28",
+     "local": "jorge-newbery",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Eva Perón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-07-28",
+     "local": "river-plate",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-07-28",
+     "local": "atletico-regina",
+     "visitante": "aldosivi",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Visera de Cemento",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-07-28",
+     "local": "deportivo-mandiyu",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Lipton Football Club",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-07-28",
+     "local": "racing-club",
+     "visitante": "godoy-cruz",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-07-28",
+     "local": "san-lorenzo",
+     "visitante": "san-martin-tucuman",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-07-28",
+     "local": "atlanta",
+     "visitante": "chaco-for-ever",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-07-28",
+     "local": "atletico-tucuman",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental José Fierro",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-07-28",
+     "local": "san-lorenzo-mdp",
+     "visitante": "huracan-comodoro-rivadavia",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-07-28",
+     "local": "san-martin-mendoza",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Libertador General San Martín",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-07-28",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1974-07-28",
+     "local": "sportivo-desamparados",
+     "visitante": "huracan-san-rafael",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Serpentario",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1974-08-03",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-08-03",
+     "local": "colon",
+     "visitante": "jorge-newbery",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-08-03",
+     "local": "huracan-san-rafael",
+     "visitante": "altos-hornos-zapla",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Pueblo Diamante",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-08-03",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-08-04",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-08-04",
+     "local": "central-norte",
+     "visitante": "sportivo-desamparados",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante del Norte",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-08-04",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-08-04",
+     "local": "puerto-comercial",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Olimpo de Bahía Blanca",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-08-04",
+     "local": "aldosivi",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-08-04",
+     "local": "chacarita-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-08-04",
+     "local": "godoy-cruz",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Bodega",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-08-04",
+     "local": "san-martin-tucuman",
+     "visitante": "atletico-regina",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-08-04",
+     "local": "chaco-for-ever",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Gigante de la Avenida",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-08-04",
+     "local": "huracan",
+     "visitante": "san-martin-mendoza",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-08-04",
+     "local": "huracan-comodoro-rivadavia",
+     "visitante": "atletico-tucuman",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Huracán de Comodoro Rivadavia",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-08-04",
+     "local": "velez-sarsfield",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-08-04",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1974-08-04",
+     "local": "talleres",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1974-08-11",
+     "local": "all-boys",
+     "visitante": "puerto-comercial",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "All Boys",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-08-11",
+     "local": "banfield",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-08-11",
+     "local": "rosario-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-08-11",
+     "local": "sportivo-desamparados",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-08-11",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-08-11",
+     "local": "jorge-newbery",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eva Perón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-08-11",
+     "local": "river-plate",
+     "visitante": "huracan-san-rafael",
+     "gl": 10,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-08-11",
+     "local": "talleres",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-08-11",
+     "local": "atletico-regina",
+     "visitante": "godoy-cruz",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Visera de Cemento",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-08-11",
+     "local": "deportivo-mandiyu",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Lipton Football Club",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-08-11",
+     "local": "ferro-carril-oeste",
+     "visitante": "aldosivi",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-08-11",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-08-11",
+     "local": "atletico-tucuman",
+     "visitante": "chaco-for-ever",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Monumental José Fierro",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-08-11",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-08-11",
+     "local": "san-lorenzo-mdp",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-08-11",
+     "local": "san-martin-mendoza",
+     "visitante": "huracan-comodoro-rivadavia",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Libertador General San Martín",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-08-11",
+     "local": "central-norte",
+     "visitante": "altos-hornos-zapla",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1974-08-11",
+     "local": "chacarita-juniors",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1974-08-18",
+     "local": "belgrano",
+     "visitante": "all-boys",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-08-18",
+     "local": "boca-juniors",
+     "visitante": "central-norte",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-08-18",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "sportivo-desamparados",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-08-18",
+     "local": "puerto-comercial",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Olimpo de Bahía Blanca",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-08-18",
+     "local": "altos-hornos-zapla",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Emilio Fabrizzi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-08-18",
+     "local": "argentinos-juniors",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-08-18",
+     "local": "huracan-san-rafael",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Gigante de Pueblo Diamante",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-08-18",
+     "local": "newell-s-old-boys",
+     "visitante": "jorge-newbery",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-08-18",
+     "local": "aldosivi",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-08-18",
+     "local": "godoy-cruz",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bodega",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-08-18",
+     "local": "racing-club",
+     "visitante": "atletico-regina",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-08-18",
+     "local": "san-martin-tucuman",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-08-18",
+     "local": "atlanta",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-08-18",
+     "local": "chaco-for-ever",
+     "visitante": "san-martin-mendoza",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de la Avenida",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-08-18",
+     "local": "huracan-comodoro-rivadavia",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Huracán de Comodoro Rivadavia",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-08-18",
+     "local": "velez-sarsfield",
+     "visitante": "atletico-tucuman",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-08-18",
+     "local": "colon",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1974-08-18",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1974-08-25",
+     "local": "all-boys",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "All Boys",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-08-25",
+     "local": "central-norte",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante del Norte",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-08-25",
+     "local": "rosario-central",
+     "visitante": "belgrano",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-08-25",
+     "local": "sportivo-desamparados",
+     "visitante": "puerto-comercial",
+     "gl": 7,
+     "gv": 2,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-08-25",
+     "local": "colon",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-08-25",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "altos-hornos-zapla",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-08-25",
+     "local": "jorge-newbery",
+     "visitante": "huracan-san-rafael",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Eva Perón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-08-25",
+     "local": "talleres",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Domingo Perón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-08-25",
+     "local": "atletico-regina",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Visera de Cemento",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-08-25",
+     "local": "chacarita-juniors",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-08-25",
+     "local": "deportivo-mandiyu",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Lipton Football Club",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-08-25",
+     "local": "ferro-carril-oeste",
+     "visitante": "godoy-cruz",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-08-25",
+     "local": "atletico-tucuman",
+     "visitante": "atlanta",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "Monumental José Fierro",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-08-25",
+     "local": "huracan",
+     "visitante": "huracan-comodoro-rivadavia",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-08-25",
+     "local": "independiente",
+     "visitante": "chaco-for-ever",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-08-25",
+     "local": "san-martin-mendoza",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Libertador General San Martín",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-08-25",
+     "local": "aldosivi",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": []
+    },
+    {
+     "fecha": "1974-08-25",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1974-09-01",
+     "local": "banfield",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-01",
+     "local": "belgrano",
+     "visitante": "sportivo-desamparados",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-01",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-01",
+     "local": "puerto-comercial",
+     "visitante": "central-norte",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Olimpo de Bahía Blanca",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-01",
+     "local": "altos-hornos-zapla",
+     "visitante": "jorge-newbery",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Emilio Fabrizzi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-01",
+     "local": "huracan-san-rafael",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Gigante de Pueblo Diamante",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-01",
+     "local": "newell-s-old-boys",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-01",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-01",
+     "local": "godoy-cruz",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Bodega",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-01",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-01",
+     "local": "san-lorenzo",
+     "visitante": "deportivo-mandiyu",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-01",
+     "local": "san-martin-tucuman",
+     "visitante": "aldosivi",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-01",
+     "local": "atlanta",
+     "visitante": "san-martin-mendoza",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-01",
+     "local": "chaco-for-ever",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de la Avenida",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-01",
+     "local": "san-lorenzo-mdp",
+     "visitante": "atletico-tucuman",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-01",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-01",
+     "local": "argentinos-juniors",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1974-09-01",
+     "local": "huracan-comodoro-rivadavia",
+     "visitante": "atletico-regina",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Huracán de Comodoro Rivadavia",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1974-09-06",
+     "local": "chacarita-juniors",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-08",
+     "local": "boca-juniors",
+     "visitante": "puerto-comercial",
+     "gl": 9,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-08",
+     "local": "central-norte",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante del Norte",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-08",
+     "local": "rosario-central",
+     "visitante": "all-boys",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-08",
+     "local": "sportivo-desamparados",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-08",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-08",
+     "local": "colon",
+     "visitante": "huracan-san-rafael",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-08",
+     "local": "jorge-newbery",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Eva Perón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-08",
+     "local": "talleres",
+     "visitante": "altos-hornos-zapla",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-08",
+     "local": "aldosivi",
+     "visitante": "godoy-cruz",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-08",
+     "local": "deportivo-mandiyu",
+     "visitante": "atletico-regina",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Lipton Football Club",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-08",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-08",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-08",
+     "local": "huracan-comodoro-rivadavia",
+     "visitante": "chaco-for-ever",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Huracán de Comodoro Rivadavia",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-08",
+     "local": "independiente",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-08",
+     "local": "san-martin-mendoza",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Libertador General San Martín",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-08",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1974-09-08",
+     "local": "san-martin-tucuman",
+     "visitante": "atletico-tucuman",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1974-09-13",
+     "local": "san-lorenzo",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-14",
+     "local": "racing-club",
+     "visitante": "aldosivi",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-14",
+     "local": "san-lorenzo-mdp",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-15",
+     "local": "all-boys",
+     "visitante": "sportivo-desamparados",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "All Boys",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-15",
+     "local": "banfield",
+     "visitante": "central-norte",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-15",
+     "local": "belgrano",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-15",
+     "local": "puerto-comercial",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Olimpo de Bahía Blanca",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-15",
+     "local": "altos-hornos-zapla",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Emilio Fabrizzi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-15",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "jorge-newbery",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-15",
+     "local": "huracan-san-rafael",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Pueblo Diamante",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-15",
+     "local": "river-plate",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-15",
+     "local": "atletico-regina",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Atlético Regina",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-15",
+     "local": "godoy-cruz",
+     "visitante": "san-martin-tucuman",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-15",
+     "local": "atlanta",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 7,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-15",
+     "local": "atletico-tucuman",
+     "visitante": "san-martin-mendoza",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental José Fierro",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-15",
+     "local": "velez-sarsfield",
+     "visitante": "huracan-comodoro-rivadavia",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-15",
+     "local": "chaco-for-ever",
+     "visitante": "deportivo-mandiyu",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de la Avenida",
+     "goles": []
+    },
+    {
+     "fecha": "1974-09-15",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1974-09-21",
+     "local": "river-plate",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-22",
+     "local": "all-boys",
+     "visitante": "central-norte",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "All Boys",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-22",
+     "local": "banfield",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-22",
+     "local": "belgrano",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-22",
+     "local": "rosario-central",
+     "visitante": "sportivo-desamparados",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-22",
+     "local": "altos-hornos-zapla",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Emilio Fabrizzi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-22",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-22",
+     "local": "huracan-san-rafael",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Pueblo Diamante",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-22",
+     "local": "atletico-regina",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Atlético Regina",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-22",
+     "local": "deportivo-mandiyu",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Lipton Football Club",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-22",
+     "local": "racing-club",
+     "visitante": "san-martin-tucuman",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-22",
+     "local": "san-lorenzo",
+     "visitante": "aldosivi",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-22",
+     "local": "atlanta",
+     "visitante": "huracan-comodoro-rivadavia",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-22",
+     "local": "atletico-tucuman",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental José Fierro",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-22",
+     "local": "san-lorenzo-mdp",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-22",
+     "local": "velez-sarsfield",
+     "visitante": "chaco-for-ever",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-22",
+     "local": "godoy-cruz",
+     "visitante": "san-martin-mendoza",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Serpentario",
+     "goles": []
+    },
+    {
+     "fecha": "1974-09-22",
+     "local": "puerto-comercial",
+     "visitante": "jorge-newbery",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Olimpo de Bahía Blanca",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1974-09-27",
+     "local": "huracan",
+     "visitante": "atletico-tucuman",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-27",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1974-09-29",
+     "local": "boca-juniors",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-29",
+     "local": "central-norte",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante del Norte",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-29",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-29",
+     "local": "puerto-comercial",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Olimpo de Bahía Blanca",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-09-29",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-29",
+     "local": "colon",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-29",
+     "local": "newell-s-old-boys",
+     "visitante": "altos-hornos-zapla",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-29",
+     "local": "talleres",
+     "visitante": "jorge-newbery",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-09-29",
+     "local": "aldosivi",
+     "visitante": "atletico-regina",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-29",
+     "local": "chacarita-juniors",
+     "visitante": "deportivo-mandiyu",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-29",
+     "local": "godoy-cruz",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-29",
+     "local": "san-martin-tucuman",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-09-29",
+     "local": "chaco-for-ever",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de la Avenida",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-29",
+     "local": "huracan-comodoro-rivadavia",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Huracán de Comodoro Rivadavia",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-29",
+     "local": "independiente",
+     "visitante": "san-martin-mendoza",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-09-29",
+     "local": "huracan-san-rafael",
+     "visitante": "sportivo-desamparados",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Gigante de Pueblo Diamante",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1974-10-06",
+     "local": "all-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "All Boys",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-10-06",
+     "local": "banfield",
+     "visitante": "puerto-comercial",
+     "gl": 13,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-10-06",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-10-06",
+     "local": "sportivo-desamparados",
+     "visitante": "central-norte",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-10-06",
+     "local": "altos-hornos-zapla",
+     "visitante": "huracan-san-rafael",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Emilio Fabrizzi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-10-06",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-10-06",
+     "local": "jorge-newbery",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Eva Perón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-10-06",
+     "local": "river-plate",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-10-06",
+     "local": "atletico-regina",
+     "visitante": "san-martin-tucuman",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Atlético Regina",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-10-06",
+     "local": "deportivo-mandiyu",
+     "visitante": "aldosivi",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Lipton Football Club",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-10-06",
+     "local": "ferro-carril-oeste",
+     "visitante": "chacarita-juniors",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-10-06",
+     "local": "san-lorenzo",
+     "visitante": "godoy-cruz",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-10-06",
+     "local": "atlanta",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-10-06",
+     "local": "atletico-tucuman",
+     "visitante": "huracan-comodoro-rivadavia",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Monumental José Fierro",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-10-06",
+     "local": "san-lorenzo-mdp",
+     "visitante": "chaco-for-ever",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-10-06",
+     "local": "san-martin-mendoza",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Libertador General San Martín",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-10-06",
+     "local": "belgrano",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "goles": []
+    },
+    {
+     "fecha": "1974-10-06",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1974-10-20",
+     "local": "belgrano",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-10-20",
+     "local": "boca-juniors",
+     "visitante": "sportivo-desamparados",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-10-20",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-10-20",
+     "local": "puerto-comercial",
+     "visitante": "all-boys",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Olimpo de Bahía Blanca",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-10-20",
+     "local": "argentinos-juniors",
+     "visitante": "jorge-newbery",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-10-20",
+     "local": "colon",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-10-20",
+     "local": "huracan-san-rafael",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Pueblo Diamante",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-10-20",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-10-20",
+     "local": "aldosivi",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "C",
+     "nota": "Se suspendió por incidentes a los 24 minutos del segundo tiempo, 0-2; el 31 de octubre la AFA lo dio por terminado con ese resultado."
+    },
+    {
+     "fecha": "1974-10-20",
+     "local": "godoy-cruz",
+     "visitante": "atletico-regina",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Bodega",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-10-20",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-10-20",
+     "local": "san-martin-tucuman",
+     "visitante": "deportivo-mandiyu",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Central Córdoba de Santiago del Estero",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-10-20",
+     "local": "chaco-for-ever",
+     "visitante": "atletico-tucuman",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de la Avenida",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-10-20",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-10-20",
+     "local": "huracan-comodoro-rivadavia",
+     "visitante": "san-martin-mendoza",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Huracán de Comodoro Rivadavia",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-10-20",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-10-20",
+     "local": "altos-hornos-zapla",
+     "visitante": "central-norte",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Emilio Fabrizzi",
+     "goles": []
+    },
+    {
+     "fecha": "1974-10-20",
+     "local": "atlanta",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1974-10-27",
+     "local": "all-boys",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "All Boys",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-10-27",
+     "local": "rosario-central",
+     "visitante": "puerto-comercial",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-10-27",
+     "local": "sportivo-desamparados",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-10-27",
+     "local": "central-norte",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Gigante del Norte",
+     "goles": [],
+     "zona": "A",
+     "nota": "Se suspendió por incidentes a los 39 minutos del segundo tiempo, 0-3; el 7 de noviembre la AFA lo dio por terminado con ese resultado."
+    },
+    {
+     "fecha": "1974-10-27",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan-san-rafael",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-10-27",
+     "local": "jorge-newbery",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Eva Perón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-10-27",
+     "local": "river-plate",
+     "visitante": "altos-hornos-zapla",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-10-27",
+     "local": "talleres",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-10-27",
+     "local": "atletico-regina",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Atlético Regina",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-10-27",
+     "local": "chacarita-juniors",
+     "visitante": "aldosivi",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-10-27",
+     "local": "deportivo-mandiyu",
+     "visitante": "godoy-cruz",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Lipton Football Club",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-10-27",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-martin-tucuman",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-10-27",
+     "local": "atletico-tucuman",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental José Fierro",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-10-27",
+     "local": "independiente",
+     "visitante": "huracan-comodoro-rivadavia",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-10-27",
+     "local": "san-lorenzo-mdp",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-10-27",
+     "local": "san-martin-mendoza",
+     "visitante": "chaco-for-ever",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Libertador General San Martín",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-10-27",
+     "local": "banfield",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1974-10-27",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1974-11-01",
+     "local": "velez-sarsfield",
+     "visitante": "san-martin-mendoza",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-11-03",
+     "local": "banfield",
+     "visitante": "all-boys",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-11-03",
+     "local": "belgrano",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-11-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "central-norte",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-11-03",
+     "local": "puerto-comercial",
+     "visitante": "sportivo-desamparados",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Olimpo de Bahía Blanca",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-11-03",
+     "local": "altos-hornos-zapla",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Emilio Fabrizzi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-11-03",
+     "local": "argentinos-juniors",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-11-03",
+     "local": "huracan-san-rafael",
+     "visitante": "jorge-newbery",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Pueblo Diamante",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-11-03",
+     "local": "newell-s-old-boys",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-11-03",
+     "local": "godoy-cruz",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Bodega",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-11-03",
+     "local": "racing-club",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-11-03",
+     "local": "san-lorenzo",
+     "visitante": "atletico-regina",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-11-03",
+     "local": "san-martin-tucuman",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Central Córdoba de Santiago del Estero",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-11-03",
+     "local": "atlanta",
+     "visitante": "atletico-tucuman",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-11-03",
+     "local": "chaco-for-ever",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de la Avenida",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-11-03",
+     "local": "huracan-comodoro-rivadavia",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Huracán de Comodoro Rivadavia",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-11-03",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1974-11-03",
+     "local": "san-lorenzo-mdp",
+     "visitante": "aldosivi",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "General San Martín",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1974-11-08",
+     "local": "huracan",
+     "visitante": "chaco-for-ever",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-11-09",
+     "local": "rosario-central",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-11-10",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-11-10",
+     "local": "central-norte",
+     "visitante": "puerto-comercial",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "23 de Agosto",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-11-10",
+     "local": "sportivo-desamparados",
+     "visitante": "belgrano",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-11-10",
+     "local": "colon",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-11-10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-11-10",
+     "local": "jorge-newbery",
+     "visitante": "altos-hornos-zapla",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eva Perón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-11-10",
+     "local": "talleres",
+     "visitante": "huracan-san-rafael",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-11-10",
+     "local": "aldosivi",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "General San Martín (Tandil)",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-11-10",
+     "local": "chacarita-juniors",
+     "visitante": "godoy-cruz",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-11-10",
+     "local": "deportivo-mandiyu",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Lipton Football Club",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-11-10",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-11-10",
+     "local": "atletico-tucuman",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental José Fierro",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-11-10",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-11-10",
+     "local": "san-martin-mendoza",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Libertador General San Martín",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-11-10",
+     "local": "all-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1974-11-10",
+     "local": "atletico-regina",
+     "visitante": "huracan-comodoro-rivadavia",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Atlético Regina",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1974-11-15",
+     "local": "all-boys",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-11-15",
+     "local": "belgrano",
+     "visitante": "central-norte",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-11-18",
+     "local": "banfield",
+     "visitante": "sportivo-desamparados",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-11-18",
+     "local": "puerto-comercial",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Olimpo de Bahía Blanca",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-11-18",
+     "local": "altos-hornos-zapla",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Emilio Fabrizzi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-11-18",
+     "local": "huracan-san-rafael",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Sportivo Pedal Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-11-18",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-11-18",
+     "local": "river-plate",
+     "visitante": "jorge-newbery",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-11-18",
+     "local": "atletico-regina",
+     "visitante": "deportivo-mandiyu",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Atlético Regina",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-11-18",
+     "local": "godoy-cruz",
+     "visitante": "aldosivi",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bodega",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-11-18",
+     "local": "racing-club",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-11-18",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-11-18",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-11-18",
+     "local": "chaco-for-ever",
+     "visitante": "huracan-comodoro-rivadavia",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de la Avenida",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-11-18",
+     "local": "san-lorenzo-mdp",
+     "visitante": "san-martin-mendoza",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "General San Martín",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-11-18",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-11-18",
+     "local": "atletico-tucuman",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental José Fierro",
+     "goles": []
+    },
+    {
+     "fecha": "1974-11-18",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Del Bosque",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "etapa": "zonas",
+   "partidos": [
+    {
+     "fecha": "1974-11-22",
+     "local": "independiente",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-11-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "puerto-comercial",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-11-24",
+     "local": "boca-juniors",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-11-24",
+     "local": "central-norte",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "23 de Agosto",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-11-24",
+     "local": "sportivo-desamparados",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Serpentario",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1974-11-24",
+     "local": "argentinos-juniors",
+     "visitante": "huracan-san-rafael",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-11-24",
+     "local": "colon",
+     "visitante": "altos-hornos-zapla",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-11-24",
+     "local": "jorge-newbery",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Eva Perón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-11-24",
+     "local": "talleres",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1974-11-24",
+     "local": "aldosivi",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "General San Martín (Tandil)",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-11-24",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-11-24",
+     "local": "ferro-carril-oeste",
+     "visitante": "atletico-regina",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-11-24",
+     "local": "san-martin-tucuman",
+     "visitante": "godoy-cruz",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Ciudadela",
+     "goles": [],
+     "zona": "C"
+    },
+    {
+     "fecha": "1974-11-24",
+     "local": "huracan",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-11-24",
+     "local": "huracan-comodoro-rivadavia",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Huracán de Comodoro Rivadavia",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-11-24",
+     "local": "san-martin-mendoza",
+     "visitante": "atletico-tucuman",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Libertador General San Martín",
+     "goles": [],
+     "zona": "D"
+    },
+    {
+     "fecha": "1974-11-24",
+     "local": "deportivo-mandiyu",
+     "visitante": "chaco-for-ever",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Lipton Football Club",
+     "goles": []
+    },
+    {
+     "fecha": "1974-11-24",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "etapa": "octogonal",
+   "partidos": [
+    {
+     "fecha": "1974-11-30",
+     "local": "rosario-central",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-11-30",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-01",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-01",
+     "local": "talleres",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "etapa": "octogonal",
+   "partidos": [
+    {
+     "fecha": "1974-12-04",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-04",
+     "local": "independiente",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-04",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-04",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "etapa": "octogonal",
+   "partidos": [
+    {
+     "fecha": "1974-12-08",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-08",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-08",
+     "local": "talleres",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-08",
+     "local": "velez-sarsfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "etapa": "octogonal",
+   "partidos": [
+    {
+     "fecha": "1974-12-12",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-12",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-12",
+     "local": "newell-s-old-boys",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-12",
+     "local": "san-lorenzo",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "etapa": "octogonal",
+   "partidos": [
+    {
+     "fecha": "1974-12-15",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-15",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-15",
+     "local": "talleres",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-15",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "etapa": "octogonal",
+   "partidos": [
+    {
+     "fecha": "1974-12-18",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-18",
+     "local": "rosario-central",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-18",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "etapa": "octogonal",
+   "partidos": [
+    {
+     "fecha": "1974-12-21",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-22",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Arregui",
+       "equipo": "local",
+       "min": 38
+      },
+      {
+       "jugador": "Scotta",
+       "equipo": "visitante",
+       "min": 50
+      },
+      {
+       "jugador": "Cocco",
+       "equipo": "visitante",
+       "min": 61
+      },
+      {
+       "jugador": "Ortiz",
+       "equipo": "visitante",
+       "min": 73
+      },
+      {
+       "jugador": "Vidal",
+       "equipo": "local",
+       "min": 86
+      }
+     ],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-22",
+     "local": "talleres",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1974-12-22",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  }
+ ]
+}

@@ -144,12 +144,13 @@
       ? series(T.playoffs.find(r => r.nombre === "Final").partidos)[0] : null;
     const campeon = serieFinal ? serieFinal.gana || null
       : final && final.gl != null ? (final.gl > final.gv || final.gl === final.gv && final.pen_l > final.pen_v ? final.local : final.visitante)
-      : tri && tri.length && tri.every(jugado) ? tabla(clubesTri, tri)[0].id
-      : T.campeon_tabla && todoJugado ? tabla(Object.values(T.zonas).flat())[0].id
-      // (T.campeon_etapa: el primero de la tabla de esa etapa, el Torneo Campeonato del Metropolitano 1976)
-      : T.campeon_etapa && todoJugado ? (et => tabla(Object.values(et.zonas).flat(),
+      // (T.campeon_etapa: el primero de la tabla de esa etapa, el Torneo Campeonato del Metropolitano 1976; antes que el
+      // triangular, que en el Nacional 1974 fue el Reducido por la Libertadores)
+      : T.campeon_etapa ? (todoJugado ? (et => tabla(Object.values(et.zonas).flat(),
           todos.filter(p => et.fechas.includes(p.n) && Object.values(et.zonas).some(ids => ids.includes(p.local))))[0].id)(
-          T.etapas.find(et => et.nombre === T.campeon_etapa)) : null;
+          T.etapas.find(et => et.nombre === T.campeon_etapa)) : null)
+      : tri && tri.length && tri.every(jugado) ? tabla(clubesTri, tri)[0].id
+      : T.campeon_tabla && todoJugado ? tabla(Object.values(T.zonas).flat())[0].id : null;
     const [dia, hora] = T.actualizado.split(" ");
     document.getElementById("actualizado").textContent = campeon ? "Torneo terminado"
       : `Actualizado el ${fechaLarga(dia)} a las ${hora} · se actualiza todos los días`;
@@ -195,13 +196,14 @@
         .sort((a, b) => b.pts - a.pts || porDesempate(a, b) || b.dif - a.dif || b.gf - a.gf || club(a.id).nombre.localeCompare(club(b.id).nombre));
     }
     // (bajan: los últimos que descienden, marcados; el Torneo por el descenso del Metropolitano 1979)
-    function tablaHTML(z, zonas = T.zonas, pasan = T.pasan, partidos = todos, bajan = 0, descontar = partidos === todos) {
+    // (conCampeon: marcar al campeón; no en el Reducido por la Libertadores del Nacional 1974)
+    function tablaHTML(z, zonas = T.zonas, pasan = T.pasan, partidos = todos, bajan = 0, descontar = partidos === todos, conCampeon = true) {
       const filas = tabla(zonas[z], partidos, descontar);
       const cuerpo = filas.map((f, i) => {
         const dif = f.dif > 0 ? `+${f.dif}` : f.dif;
         const ultimos = f.ultimos.slice(-5).reverse().map(u => `<span class="res res-${u.r}" title="${esc(u.texto)}"
           aria-label="${{ V: "Victoria", E: "Empate", D: "Derrota" }[u.r]}">${{ V: "✓", E: "–", D: "✕" }[u.r]}</span>`).join("");
-        return `<tr><td class="pos ${i < pasan ? "pasa" : i >= filas.length - bajan ? "desciende" : f.id === campeon ? "campeon" : ""}">${i + 1}</td><td class="eq">${nombreClub(f.id)}</td>
+        return `<tr><td class="pos ${i < pasan ? "pasa" : i >= filas.length - bajan ? "desciende" : conCampeon && f.id === campeon ? "campeon" : ""}">${i + 1}</td><td class="eq">${nombreClub(f.id)}</td>
           <td class="pts">${f.pts}</td><td>${f.pj}</td><td class="gol">${f.gf}:${f.gc}</td>
           <td class="dif">${dif}</td><td class="opc">${f.g}</td><td class="opc">${f.e}</td><td class="opc">${f.p}</td>${T.punto_penales ? `<td class="opc">${f.pg}</td>` : ""}
           <td class="ultimas" title="El más reciente a la izquierda">${ultimos}</td></tr>`;
@@ -553,7 +555,8 @@
     // ---- Playoffs: el cuadro y los partidos; si todavía no empezaron, cómo serían los cruces si la fase regular
     // terminara hoy ----
     function vistaPlayoffs() {
-      if (tri) return `${tablaHTML("", { "": clubesTri }, 0, tri)}<p class="vacio">${esc(T.texto_triangular || "")}</p>` +
+      // (T.pasan_triangular: los que pasaban, como los dos que fueron a la Libertadores en el Nacional 1974)
+      if (tri) return `${tablaHTML("", { "": clubesTri }, T.pasan_triangular || 0, tri, 0, false, !T.campeon_etapa)}<p class="vacio">${esc(T.texto_triangular || "")}</p>` +
         T.playoffs.map(r => `<h3>Partidos</h3>${r.partidos.map(p => partidoHTML(p)).join("")}`).join("");
       if (T.playoffs.length) return (!T.fechas.length && T.nota ? `<p class="nota-edicion">${esc(T.nota)}</p>` : "") +
         `${cuadroHTML()}<p class="vacio">${T.ida_y_vuelta

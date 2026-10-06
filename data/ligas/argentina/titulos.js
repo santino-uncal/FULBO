@@ -1,18 +1,20 @@
 /* Los títulos de liga de cada club, para mostrar al lado del campeón qué número de título es (River en el Campeonato
    1989-90: el 23). Cuenta oficial de la AFA (Wikipedia, "List of Argentine Primera División champions"):
-   - antes: los títulos de cada club hasta el Nacional 1974 (amateurs y profesionales); ultimo_antes: el campeón
-     del Nacional 1974 (para contar los títulos seguidos: bicampeonatos, tricampeonatos), y seguidos_antes,
-     cuántos llevaba seguidos (San Lorenzo: solo ese, porque el Metropolitano 1974 lo ganó Newell's).
+   - antes: los títulos de cada club hasta el Nacional 1973 (amateurs y profesionales); ultimo_antes: el campeón
+     del Nacional 1973 (para contar los títulos seguidos: bicampeonatos, tricampeonatos), y seguidos_antes,
+     cuántos llevaba seguidos (Rosario Central: solo ese, porque el Metropolitano 1973 lo ganó Huracán).
    - torneos: los títulos de cada torneo cargado, en orden. "club" es el campeón del torneo; ["club", "texto"] es otro
      título que se definió en ese torneo (la final de 1990-91, la Superfinal 2012-13, el "Campeón de Liga" 2025).
    - notas: los torneos cuyo campeón no suma un título de liga (y por qué).
    Al terminar un torneo nuevo, agregar su campeón acá (la prueba de tests/test_liga.py avisa si falta). */
 window.LIGA_TITULOS = {
-  "antes": {"river-plate": 14, "boca-juniors": 18, "racing-club": 15, "independiente": 10, "san-lorenzo": 11,
-            "huracan": 5, "estudiantes-de-la-plata": 2, "rosario-central": 2, "newell-s-old-boys": 1,
+  "antes": {"river-plate": 14, "boca-juniors": 18, "racing-club": 15, "independiente": 10, "san-lorenzo": 10,
+            "huracan": 5, "estudiantes-de-la-plata": 2, "rosario-central": 2,
             "velez-sarsfield": 1, "quilmes": 1},
-  "ultimo_antes": "san-lorenzo", "seguidos_antes": 1,
+  "ultimo_antes": "rosario-central", "seguidos_antes": 1,
   "torneos": {
+    "1974-metropolitano": ["newell-s-old-boys"],
+    "1974-nacional": ["san-lorenzo"],
     "1975-metropolitano": ["river-plate"],
     "1975-nacional": ["river-plate"],
     "1976-metropolitano": ["boca-juniors"],

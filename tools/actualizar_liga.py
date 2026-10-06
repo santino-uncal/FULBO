@@ -33,6 +33,62 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1974: el Campeonato Metropolitano 1974 (febrero a junio; campeón Newell's): 18 equipos por etapas ("etapas"; en
+    # tools/a_mano, cada fecha dice su etapa y cada partido su zona): la primera fase, 2 zonas de 9 a dos ruedas (18
+    # fechas; en cada una, el que quedaba libre jugaba un interzonal, sin zona en el archivo); Boca y Ferro empataron el
+    # segundo puesto de la zona B y jugaron un desempate ("desempate_a_mano"); y el cuadrangular final, los dos primeros
+    # de cada zona a una rueda en cancha neutral (el primero fue el campeón, "campeon_etapa"). Con 2 puntos por partido
+    # ganado. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles). No hubo descensos
+    "1974-metropolitano": {"nombre": "Campeonato Metropolitano 1974", "anio": 1974, "liga": "a_mano", "slug": "1974-metropolitano",
+                           "etapas": [("Primera fase", r"primera-fase$", 2, 1, 18,
+                                       "Los dos primeros de cada zona pasan al cuadrangular final. En cada fecha, el que "
+                                       "quedaba libre en su zona jugaba un interzonal, que suma en su zona"),
+                                      ("Cuadrangular final", r"cuadrangular$", 0, 19, 3, "Campeón: el primero")],
+                           "fechas": 21, "pasan": 0, "puntos_victoria": 2, "campeon_etapa": "Cuadrangular final",
+                           "nota": "Cada partido ganado valía 2 puntos. En la primera fase había 2 zonas de 9 a dos ruedas: "
+                                   "los dos primeros de cada zona jugaban el cuadrangular final, a una rueda y en cancha "
+                                   "neutral, y el primero fue el campeón.",
+                           "desempate_a_mano": {"fecha": "1974-05-22", "local": "ferro-carril-oeste", "visitante": "boca-juniors",
+                                                "gl": 0, "gv": 2, "estadio": "Cancha de Vélez Sarsfield"},
+                           "desempate_texto": "Boca y Ferro terminaron empatados en puntos en el segundo puesto de la zona B: "
+                                              "lo definieron en un partido, en cancha de Vélez, y pasó Boca al cuadrangular "
+                                              "final.",
+                           "goleadores_nota": "RSSSF no tiene los goles de este torneo (solo los de Rosario Central-Newell's, "
+                                              "el del título). El goleador fue Carlos Morete (River), con 18 goles.",
+                           "sin_descensos": "No hubo descensos: la AFA los anuló."},
+    # El Campeonato Nacional 1974 (julio a diciembre; campeón San Lorenzo): 36 equipos por etapas: la fase de zonas, 4
+    # zonas de 9 a dos ruedas (18 fechas; en cada una, el que quedaba libre jugaba un interzonal), y el octogonal final, los
+    # dos primeros de cada zona a una rueda (el primero fue el campeón). Con 2 puntos por partido ganado. Después, el
+    # Reducido por los dos lugares en la Libertadores 1975 (Newell's, San Lorenzo y Rosario Central, el subcampeón de los
+    # dos torneos), a una rueda: va como "triangular" (con "pasan_triangular", los dos que fueron). ESPN no lo tiene: va a
+    # mano (tools/a_mano; resultados de RSSSF, días y estadios de Wikipedia; del Reducido, los goles y los árbitros de
+    # Wikipedia). No había descensos
+    "1974-nacional": {"nombre": "Campeonato Nacional 1974", "anio": 1974, "liga": "a_mano", "slug": "1974-nacional",
+                      "etapas": [("Fase de zonas", r"zonas$", 2, 1, 18,
+                                  "Los dos primeros de cada zona pasan al octogonal final. En cada fecha, el que quedaba "
+                                  "libre en su zona jugaba un interzonal, que suma en su zona"),
+                                 ("Octogonal final", r"octogonal$", 0, 19, 7, "Campeón: el primero")],
+                      "fechas": 25, "pasan": 0, "puntos_victoria": 2, "campeon_etapa": "Octogonal final",
+                      "nota": "Cada partido ganado valía 2 puntos. En la fase de zonas había 4 zonas de 9 a dos ruedas; los "
+                              "dos primeros de cada zona jugaban el octogonal final, a una rueda, y el primero fue el "
+                              "campeón.",
+                      "goleadores_nota": "Solo están los goles del partido en que San Lorenzo salió campeón (Ferro 2, San "
+                                         "Lorenzo 3) y los del Reducido. El goleador del torneo fue Mario Kempes "
+                                         "(Rosario Central), con 25 goles.",
+                      "nombre_playoffs": "Reducido por la Libertadores",
+                      "playoffs": [(r"^$^", "Reducido por la Libertadores")],
+                      "triangular": True, "pasan_triangular": 2,
+                      "texto_triangular": "Los campeones del Metropolitano (Newell's) y del Nacional (San Lorenzo) y Rosario "
+                                          "Central, subcampeón de los dos, jugaron por los dos lugares en la Copa Libertadores "
+                                          "1975, a una rueda: fueron Rosario Central y Newell's.",
+                      "playoffs_a_mano": {
+                           "Reducido por la Libertadores": [
+                               {"hora_utc": "1974-12-26T19:00Z", "fecha": "1974-12-26", "local": "san-lorenzo", "visitante": "rosario-central", "gl": 0, "gv": 1, "estadio": "Estadio El Cilindro", "arbitro": "Roberto Osvaldo Barreiro", "goles": [{"jugador": "Zavagno", "equipo": "visitante", "min": 76}]},
+                               {"hora_utc": "1974-12-28T19:00Z", "fecha": "1974-12-28", "local": "newell-s-old-boys", "visitante": "san-lorenzo", "gl": 2, "gv": 0, "estadio": "Estadio Gigante de Arroyito", "arbitro": "Raúl Loureiro", "goles": [{"jugador": "Zanabria", "equipo": "local", "min": 28}, {"jugador": "Zanabria", "equipo": "local", "min": 64, "tipo": "pen"}]},
+                               {"hora_utc": "1974-12-30T19:00Z", "fecha": "1974-12-30", "local": "rosario-central", "visitante": "newell-s-old-boys", "gl": 2, "gv": 0, "estadio": "Estadio Gigante de Arroyito", "arbitro": "Luis Pestarino", "goles": [{"jugador": "Kempes", "equipo": "local", "min": 28}, {"jugador": "Cabral", "equipo": "local", "min": 80}]},
+                           ],
+                      },
+                      "sin_descensos": "En el Nacional no había descensos: se definían en el Metropolitano."},
     # 1975: el Campeonato Metropolitano 1975 (febrero a agosto; campeón River): 20 equipos a dos ruedas (38 fechas), con
     # 2 puntos por partido ganado. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles). No hubo descensos: la AFA
     # los anuló por tercera temporada seguida. A la Libertadores 1976 fueron los campeones del Metropolitano y del Nacional
@@ -3315,6 +3371,9 @@ CLUBES_NUEVOS = {
     "spa": ("sportivo-patria", "Sportivo Patria (Formosa)"),
     "bmi": ("bartolome-mitre", "Bartolomé Mitre (Posadas)"),   # (no están en ESPN: 1975)
     "jne": ("jorge-newbery", "Jorge Newbery (Junín)"),
+    "are": ("atletico-regina", "Atlético Regina (Villa Regina)"),   # (no están en ESPN: 1974)
+    "pco": ("puerto-comercial", "Puerto Comercial (Bahía Blanca)"),
+    "sde": ("sportivo-desamparados", "Sportivo Desamparados (San Juan)"),
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
@@ -3807,7 +3866,7 @@ def armar(clave):
     for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "goleadores_nota", "promocion", "ventaja", "triangular", "texto_triangular", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
               "campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro", "descuentos",
               "descuentos_texto", "promedios_victoria", "puntos_victoria", "punto_penales",
-              "promedios_por_temporada", "texto_promocion", "campeon_etapa"):
+              "promedios_por_temporada", "texto_promocion", "campeon_etapa", "pasan_triangular"):
         if cfg.get(k):
             datos[k] = cfg[k]
     if cfg.get("titulo_anual"):
