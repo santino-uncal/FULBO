@@ -58,6 +58,11 @@
     const numeroTitulo = x => ` <small class="veces-campeon">· título de liga n.º ${x.n}${x.seguidos > 1
       ? ` · <strong class="racha" title="${x.seguidos} títulos de liga seguidos">${RACHA[x.seguidos] || `${x.seguidos} títulos seguidos`}</strong>` : ""}</small>`;
     Object.entries(T.zonas).forEach(([z, ids]) => ids.forEach(id => { zonaDe[id] = z; }));
+    // {fecha: {club: zona}} en los torneos por etapas (dos etapas pueden ir en las mismas fechas: la Copa Maradona)
+    const zonaEtapa = {};
+    (T.etapas || []).forEach(et => et.fechas.forEach(n => {
+      Object.entries(et.zonas).forEach(([z, ids]) => ids.forEach(id => { (zonaEtapa[n] ||= {})[id] = z; }));
+    }));
 
     document.title = `${T.nombre} — Liga Profesional Argentina`;
     document.getElementById("titulo-torneo").textContent = T.nombre;
@@ -191,14 +196,16 @@
           <th class="opc">G</th><th class="opc">E</th><th class="opc">P</th>${T.punto_penales ? `<th class="opc" title="Empates ganados por penales (cada uno, un punto más)">Pen.</th>` : ""}<th class="ultimas">Últimas</th></tr></thead>
         <tbody>${cuerpo}</tbody></table></div>`;
     }
-    // Torneos por etapas (la Copa Maradona 2020): las zonas de cada etapa, con los partidos de sus fechas
+    // Torneos por etapas (la Copa Maradona 2020, el Nacional 1983): las zonas de cada etapa, con los partidos de sus
+    // fechas (los interzonales suman en la zona de cada club; et.texto_pasan: la leyenda propia de la etapa)
     const vistaEtapas = () => `${T.nota ? `<p class="nota-edicion">${esc(T.nota)}</p>` : ""}` + T.etapas.map((et, n) => {
       const partidos = todos.filter(p => et.fechas.includes(p.n) && Object.values(et.zonas).some(ids => ids.includes(p.local)));
       const siguiente = n === 0 ? "la Fase Campeón" : "la final";
       return `<h3>${esc(et.nombre)} <small class="vacio">(fechas ${et.fechas[0]} a ${et.fechas.at(-1)})</small></h3>
         <div class="grupos">${Object.keys(et.zonas).map(z => tablaHTML(z, et.zonas, et.pasan, partidos)).join("")}</div>
-        <p class="leyenda"><span><i class="pasa"></i>${et.pasan > 1 ? `Los ${et.pasan} primeros de cada zona pasan` : "El primero de cada zona pasa"}
-          a ${/Complementación/.test(et.nombre) ? "la final de la Complementación" : siguiente}</span></p>`;
+        <p class="leyenda"><span><i class="pasa"></i>${et.texto_pasan ? esc(et.texto_pasan)
+          : `${et.pasan > 1 ? `Los ${et.pasan} primeros de cada zona pasan` : "El primero de cada zona pasa"}
+          a ${/Complementación/.test(et.nombre) ? "la final de la Complementación" : siguiente}`}</span></p>`;
     }).join("") + (T.sin_descensos ? `<p class="nota-edicion">${esc(T.sin_descensos)}</p>` : "");
     const vistaTabla = () => T.etapas ? vistaEtapas() : `<div class="grupos">${Object.keys(T.zonas).map(z => tablaHTML(z)).join("")}</div>
       <p class="leyenda">${T.texto_pasan ? `<span><i class="pasa"></i>${esc(T.texto_pasan)}</span>` : T.pasan ? `<span><i class="pasa"></i>Clasifican a ${RONDA[T.pasan] || "los playoffs"} (los ${T.pasan} primeros de cada zona)</span>` : ""}
@@ -370,7 +377,9 @@
     // conDia: poner el día en cada partido (en las fechas no hace falta: van agrupados por día)
     function partidoHTML(p, conDia = true) {
       const res = jugado(p) ? `${p.gl} – ${p.gv}` : p.estado ? esc(p.estado) : p.hora ? `${p.hora} h` : "vs";
-      const interzonal = p.n != null && zonaDe[p.local] && zonaDe[p.visitante] && zonaDe[p.local] !== zonaDe[p.visitante];
+      // (en los torneos por etapas, las zonas de la etapa de esa fecha)
+      const zd = T.etapas ? zonaEtapa[p.n] || {} : zonaDe;
+      const interzonal = p.n != null && zd[p.local] && zd[p.visitante] && zd[p.local] !== zd[p.visitante];
       const meta = [conDia && (p.fecha ? fechaLarga(p.fecha) : "Día a confirmar"), jugado(p) && p.hora && `${p.hora} h`, p.estadio, p.arbitro && `Árbitro: ${p.arbitro}`,
         p.publico && `${p.publico.toLocaleString("es-AR")} espectadores`, p.alargue && "Con alargue", p.nota].filter(Boolean).map(esc).join(" · ");
       const gol = g => {
@@ -404,7 +413,7 @@
       [...f.partidos].sort((a, b) => (a.fecha || "9").localeCompare(b.fecha || "9") || (a.hora || "").localeCompare(b.hora || ""))
         .forEach(p => (porDia[p.fecha || ""] ||= []).push(p));
       const cuerpo = Object.entries(porDia).map(([d, ps]) =>
-        `<h4 class="fecha-grupo">${d ? fechaLarga(d).replace(/^./, c => c.toUpperCase()) : "Día y hora a confirmar"}</h4>${ps.map(p => partidoHTML(p, false)).join("")}`).join("");
+        `<h4 class="fecha-grupo">${d ? fechaLarga(d).replace(/^./, c => c.toUpperCase()) : "Día y hora a confirmar"}</h4>${ps.map(p => partidoHTML({ ...p, n: f.numero }, false)).join("")}`).join("");
       return `<div class="orden-partidos elegir-fecha">Fecha: ${botones}</div>
         <div class="titulo-fecha">
           <button class="flecha-anio" type="button" data-fecha="${f.numero - 1}" ${f.numero > 1 ? "" : "disabled"} aria-label="Fecha anterior">◀</button>
@@ -512,10 +521,10 @@
       if (tri) return `${tablaHTML("", { "": clubesTri }, 0, tri)}<p class="vacio">${esc(T.texto_triangular || "")}</p>` +
         T.playoffs.map(r => `<h3>Partidos</h3>${r.partidos.map(p => partidoHTML(p)).join("")}`).join("");
       if (T.playoffs.length) return (!T.fechas.length && T.nota ? `<p class="nota-edicion">${esc(T.nota)}</p>` : "") +
-        (T.etapas && !T.cuadro ? "" : `${cuadroHTML()}<p class="vacio">${T.ida_y_vuelta
+        `${cuadroHTML()}<p class="vacio">${T.ida_y_vuelta
           ? "El que pasó cada serie, resaltado, con el global de los dos partidos (pasando el mouse, la ida y la vuelta)"
           : "El ganador de cada partido, resaltado"};
-        entre paréntesis, los penales.${T.cuadro?.nota ? " " + esc(T.cuadro.nota) : ""}</p>`) +
+        entre paréntesis, los penales.${T.cuadro?.nota ? " " + esc(T.cuadro.nota) : ""}</p>` +
         T.playoffs.map(r => `<h3>${esc(r.nombre)}</h3>${r.partidos.map(p => partidoHTML(p)).join("")}`).join("");
       const [za, zb] = Object.keys(T.zonas);
       const a = tabla(T.zonas[za]), b = tabla(T.zonas[zb]);

@@ -33,6 +33,94 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1983: el Campeonato Nacional 1983 (marzo a junio; campeón Estudiantes): 32 equipos (los del Metropolitano y los
+    # del interior) por etapas ("etapas"; en tools/a_mano, cada fecha dice su etapa y cada partido su zona): la primera
+    # fase, 8 zonas de 4 a dos ruedas (pasaban los tres primeros), y la segunda, 8 zonas de 3 a dos ruedas, en las que
+    # el que quedaba libre en cada fecha jugaba un interzonal con uno de la zona de al lado (A con B, C con D...; sin
+    # zona en el archivo); pasaban los dos primeros. Con 2 puntos por partido ganado. Después, la fase final, a ida y
+    # vuelta. ESPN no lo tiene: va a mano (tools/a_mano; resultados de RSSSF, días y estadios de Wikipedia; de la fase
+    # final, también los goles y los árbitros de Wikipedia). No había descensos (salían del Metropolitano)
+    "1983-nacional": {"nombre": "Campeonato Nacional 1983", "anio": 1983, "liga": "a_mano", "slug": "1983-nacional",
+                      # etapas: (nombre, patrón de la fase, cuántos pasan por zona, primera fecha, cuántas fechas, texto)
+                      "etapas": [("Primera fase", r"primera-fase$", 3, 1, 6,
+                                  "Los tres primeros de cada zona pasan a la segunda fase"),
+                                 ("Segunda fase", r"segunda-fase$", 2, 7, 6,
+                                  "Los dos primeros de cada zona pasan a la fase final. El que quedaba libre en cada "
+                                  "fecha jugaba un partido interzonal (A con B, C con D, E con F y G con H), que suma en "
+                                  "su zona")],
+                      "fechas": 12, "pasan": 0, "puntos_victoria": 2,
+                      "nota": "Cada partido ganado valía 2 puntos. En la primera fase había 8 zonas de 4 y pasaban los tres "
+                              "primeros; en la segunda, 8 zonas de 3, y pasaban los dos primeros a la fase final, a ida y "
+                              "vuelta (con el global igualado, alargue y penales).",
+                      "goleadores_nota": "Los goles son solo de la fase final (de Wikipedia, con los minutos): de las fases de "
+                                         "zonas no están. El goleador del torneo fue Mario Husillos (Loma Negra), con 11 goles.",
+                      "nombre_playoffs": "Fase final",
+                      "playoffs": [(r"^$^", n) for n in ("Octavos de final", "Cuartos de final", "Semifinales", "Final")],
+                      "playoffs_a_mano": {
+                           "Octavos de final": [
+                               {"hora_utc": "1983-05-15T19:00Z", "fecha": "1983-05-15", "local": "union", "visitante": "independiente", "gl": 1, "gv": 0, "estadio": "Estadio Club Atlético Unión", "arbitro": "Julio Gumersindo Barraza", "goles": [{"jugador": "Zavagno", "equipo": "local", "min": 28}]},
+                               {"hora_utc": "1983-05-18T19:00Z", "fecha": "1983-05-18", "local": "independiente", "visitante": "union", "gl": 1, "gv": 0, "estadio": "Estadio La Doble Visera", "arbitro": "Raúl Marsiglia", "alargue": True, "pen_l": 6, "pen_v": 5, "goles": [{"jugador": "Burruchaga", "equipo": "local", "min": 62}]},
+                               {"hora_utc": "1983-05-15T19:00Z", "fecha": "1983-05-15", "local": "talleres", "visitante": "racing-cordoba", "gl": 2, "gv": 2, "estadio": "Estadio Córdoba", "arbitro": "Jorge Eduardo Romero", "goles": [{"jugador": "Oviedo", "equipo": "local", "min": 32, "tipo": "pen"}, {"jugador": "Bevilacqua", "equipo": "local", "min": 49}, {"jugador": "Gasparini", "equipo": "visitante", "min": 28}, {"jugador": "Amuchástegui", "equipo": "visitante", "min": 52}]},
+                               {"hora_utc": "1983-05-18T19:00Z", "fecha": "1983-05-18", "local": "racing-cordoba", "visitante": "talleres", "gl": 0, "gv": 0, "estadio": "Estadio Córdoba", "arbitro": "Teodoro Nitti", "alargue": True, "pen_l": 5, "pen_v": 3},
+                               {"hora_utc": "1983-05-16T19:00Z", "fecha": "1983-05-16", "local": "boca-juniors", "visitante": "argentinos-juniors", "gl": 1, "gv": 1, "estadio": "Estadio La Bombonera", "arbitro": "Claudio Aquiles Busca", "goles": [{"jugador": "Domínguez", "equipo": "local", "min": 31}, {"jugador": "Landucci", "equipo": "visitante", "min": 50}]},
+                               {"hora_utc": "1983-05-19T19:00Z", "fecha": "1983-05-19", "local": "argentinos-juniors", "visitante": "boca-juniors", "gl": 3, "gv": 2, "estadio": "Cancha de River Plate", "arbitro": "Juan Carlos Demaro", "alargue": True, "goles": [{"jugador": "Espíndola", "equipo": "local", "min": 81, "tipo": "pen"}, {"jugador": "Espíndola", "equipo": "local", "min": 87}, {"jugador": "Videla", "equipo": "local", "min": 107}, {"jugador": "Gareca", "equipo": "visitante", "min": 28}, {"jugador": "Domínguez", "equipo": "visitante", "min": 80}]},
+                               {"hora_utc": "1983-05-16T19:00Z", "fecha": "1983-05-16", "local": "river-plate", "visitante": "velez-sarsfield", "gl": 1, "gv": 0, "estadio": "Estadio Monumental", "arbitro": "Abel Gnecco", "goles": [{"jugador": "Chaparro", "equipo": "local", "min": 78}]},
+                               {"hora_utc": "1983-05-19T19:00Z", "fecha": "1983-05-19", "local": "velez-sarsfield", "visitante": "river-plate", "gl": 0, "gv": 0, "estadio": "Estadio José Amalfitani", "arbitro": "Juan Carlos Loustau"},
+                               {"hora_utc": "1983-05-16T19:00Z", "fecha": "1983-05-16", "local": "temperley", "visitante": "platense", "gl": 2, "gv": 1, "estadio": "Cancha de Banfield", "arbitro": "Jorge Vigliano", "goles": [{"jugador": "Scotta", "equipo": "local", "min": 15}, {"jugador": "Dabrowski", "equipo": "local", "min": 89}, {"jugador": "López Turitich", "equipo": "visitante", "min": 66}]},
+                               {"hora_utc": "1983-05-19T19:00Z", "fecha": "1983-05-19", "local": "platense", "visitante": "temperley", "gl": 0, "gv": 0, "estadio": "Estadio Ciudad de Vicente López", "arbitro": "Pedro Luis Feola"},
+                               {"hora_utc": "1983-05-14T19:00Z", "fecha": "1983-05-14", "local": "newell-s-old-boys", "visitante": "rosario-central", "gl": 0, "gv": 0, "estadio": "Estadio Coloso del Parque", "arbitro": "Teodoro Nitti"},
+                               {"hora_utc": "1983-05-19T19:00Z", "fecha": "1983-05-19", "local": "rosario-central", "visitante": "newell-s-old-boys", "gl": 2, "gv": 0, "estadio": "Estadio Gigante de Arroyito", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Campagna", "equipo": "local", "min": 71}, {"jugador": "Scalise", "equipo": "local", "min": 86}]},
+                               {"hora_utc": "1983-05-15T19:00Z", "fecha": "1983-05-15", "local": "loma-negra", "visitante": "racing-club", "gl": 2, "gv": 1, "estadio": "Cancha de Racing de Olavarría", "arbitro": "Ricardo Calabria", "goles": [{"jugador": "Husillos", "equipo": "local", "min": 75, "tipo": "pen"}, {"jugador": "Varales", "equipo": "local", "min": 89}, {"jugador": "Rizzi", "equipo": "visitante", "min": 72}]},
+                               {"hora_utc": "1983-05-19T19:00Z", "fecha": "1983-05-19", "local": "racing-club", "visitante": "loma-negra", "gl": 4, "gv": 0, "estadio": "Cancha de Huracán", "arbitro": "Jorge Eduardo Romero", "goles": [{"jugador": "Leroyer", "equipo": "local", "min": 1}, {"jugador": "Rizzi", "equipo": "local", "min": 33, "tipo": "pen"}, {"jugador": "Rizzi", "equipo": "local", "min": 51, "tipo": "pen"}, {"jugador": "Gizzi", "equipo": "local", "min": 66}]},
+                               {"hora_utc": "1983-05-16T19:00Z", "fecha": "1983-05-16", "local": "estudiantes-de-la-plata", "visitante": "ferro-carril-oeste", "gl": 1, "gv": 0, "estadio": "Estadio Jorge Luis Hirschi", "arbitro": "Alberto Florentino Clerc", "goles": [{"jugador": "Trobbiani", "equipo": "local", "min": 59}]},
+                               {"hora_utc": "1983-05-19T19:00Z", "fecha": "1983-05-19", "local": "ferro-carril-oeste", "visitante": "estudiantes-de-la-plata", "gl": 2, "gv": 2, "estadio": "Estadio Ferro Carril Oeste", "arbitro": "Francisco Lamolina", "goles": [{"jugador": "Arregui", "equipo": "local", "min": 11}, {"jugador": "Márcico", "equipo": "local", "min": 77}, {"jugador": "Sabella", "equipo": "visitante", "min": 58}, {"jugador": "Brown", "equipo": "visitante", "min": 83}]},
+                           ],
+                           "Cuartos de final": [
+                               {"hora_utc": "1983-05-21T19:00Z", "fecha": "1983-05-21", "local": "racing-cordoba", "visitante": "independiente", "gl": 1, "gv": 1, "estadio": "Estadio Córdoba", "arbitro": "Ricardo Calabria", "goles": [{"jugador": "Maldonado", "equipo": "local", "min": 35}, {"jugador": "Marangoni", "equipo": "visitante", "min": 87}]},
+                               {"hora_utc": "1983-05-25T19:00Z", "fecha": "1983-05-25", "local": "independiente", "visitante": "racing-cordoba", "gl": 1, "gv": 1, "estadio": "Estadio La Doble Visera", "arbitro": "Abel Gnecco", "alargue": True, "pen_l": 4, "pen_v": 2, "goles": [{"jugador": "Burruchaga", "equipo": "local", "min": 60, "tipo": "pen"}, {"jugador": "Gasparini", "equipo": "visitante", "min": 54, "tipo": "pen"}]},
+                               {"hora_utc": "1983-05-22T19:00Z", "fecha": "1983-05-22", "local": "river-plate", "visitante": "argentinos-juniors", "gl": 0, "gv": 0, "estadio": "Estadio Monumental", "arbitro": "Teodoro Nitti"},
+                               {"hora_utc": "1983-05-25T19:00Z", "fecha": "1983-05-25", "local": "argentinos-juniors", "visitante": "river-plate", "gl": 1, "gv": 0, "estadio": "Cancha de Vélez Sarsfield", "arbitro": "Jorge Eduardo Romero", "goles": [{"jugador": "Videla", "equipo": "local", "min": 79}]},
+                               {"hora_utc": "1983-05-22T19:00Z", "fecha": "1983-05-22", "local": "rosario-central", "visitante": "temperley", "gl": 0, "gv": 1, "estadio": "Estadio Gigante de Arroyito", "arbitro": "Abel Gnecco", "goles": [{"jugador": "Aldape", "equipo": "visitante", "min": 48}]},
+                               {"hora_utc": "1983-05-25T19:00Z", "fecha": "1983-05-25", "local": "temperley", "visitante": "rosario-central", "gl": 1, "gv": 1, "estadio": "Cancha de Banfield", "arbitro": "Juan Carlos Loustau", "goles": [{"jugador": "Finarolli", "equipo": "local", "min": 22}, {"jugador": "Iglesias", "equipo": "visitante", "min": 1}]},
+                               {"hora_utc": "1983-05-22T19:00Z", "fecha": "1983-05-22", "local": "estudiantes-de-la-plata", "visitante": "racing-club", "gl": 3, "gv": 1, "estadio": "Estadio Jorge Luis Hirschi", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Trama", "equipo": "local", "min": 1}, {"jugador": "Gottardi", "equipo": "local", "min": 26}, {"jugador": "Gottardi", "equipo": "local", "min": 43}, {"jugador": "Gizzi", "equipo": "visitante", "min": 65}]},
+                               {"hora_utc": "1983-05-25T19:00Z", "fecha": "1983-05-25", "local": "racing-club", "visitante": "estudiantes-de-la-plata", "gl": 2, "gv": 1, "estadio": "Cancha de Huracán", "arbitro": "Ricardo Calabria", "goles": [{"jugador": "Brown", "equipo": "local", "min": 47, "tipo": "ec"}, {"jugador": "Leiva", "equipo": "local", "min": 58}, {"jugador": "Gottardi", "equipo": "visitante", "min": 22}]},
+                           ],
+                           "Semifinales": [
+                               {"hora_utc": "1983-05-29T19:00Z", "fecha": "1983-05-29", "local": "argentinos-juniors", "visitante": "independiente", "gl": 2, "gv": 1, "estadio": "Cancha de Vélez Sarsfield", "arbitro": "Juan Carlos Loustau", "goles": [{"jugador": "Pasculli", "equipo": "local", "min": 10}, {"jugador": "Batista", "equipo": "local", "min": 57}, {"jugador": "Percudani", "equipo": "visitante", "min": 69}]},
+                               {"hora_utc": "1983-06-01T19:00Z", "fecha": "1983-06-01", "local": "independiente", "visitante": "argentinos-juniors", "gl": 2, "gv": 0, "estadio": "Estadio La Doble Visera", "arbitro": "Teodoro Nitti", "goles": [{"jugador": "Burruchaga", "equipo": "local", "min": 24}, {"jugador": "Morete", "equipo": "local", "min": 72}]},
+                               {"hora_utc": "1983-05-29T19:00Z", "fecha": "1983-05-29", "local": "estudiantes-de-la-plata", "visitante": "temperley", "gl": 1, "gv": 1, "estadio": "Estadio Jorge Luis Hirschi", "arbitro": "Jorge Eduardo Romero", "goles": [{"jugador": "Agüero", "equipo": "local", "min": 23}, {"jugador": "Aldape", "equipo": "visitante", "min": 52}]},
+                               {"hora_utc": "1983-06-01T19:00Z", "fecha": "1983-06-01", "local": "temperley", "visitante": "estudiantes-de-la-plata", "gl": 1, "gv": 3, "estadio": "Cancha de Banfield", "arbitro": "Abel Gnecco", "alargue": True, "goles": [{"jugador": "Dabrowski", "equipo": "local", "min": 81}, {"jugador": "Brown", "equipo": "visitante", "min": 53}, {"jugador": "Gottardi", "equipo": "visitante", "min": 97}, {"jugador": "Trobbiani", "equipo": "visitante", "min": 104}]},
+                           ],
+                           "Final": [
+                               {"hora_utc": "1983-06-04T19:00Z", "fecha": "1983-06-04", "local": "estudiantes-de-la-plata", "visitante": "independiente", "gl": 2, "gv": 0, "estadio": "Estadio Jorge Luis Hirschi", "arbitro": "Juan Carlos Loustau", "goles": [{"jugador": "Gottardi", "equipo": "local", "min": 35}, {"jugador": "Trama", "equipo": "local", "min": 83}]},
+                               {"hora_utc": "1983-06-10T19:00Z", "fecha": "1983-06-10", "local": "independiente", "visitante": "estudiantes-de-la-plata", "gl": 2, "gv": 1, "estadio": "Estadio La Doble Visera", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Giusti", "equipo": "local", "min": 14}, {"jugador": "Trossero", "equipo": "local", "min": 71}, {"jugador": "Trama", "equipo": "visitante", "min": 44}]},
+                           ],
+                      },
+                      "ida_y_vuelta": True,
+                      "sin_descensos": "En el Nacional no había descensos: se definían en el Metropolitano."},
+    # El Campeonato Metropolitano 1983 (junio a diciembre; campeón Independiente): 19 equipos a dos ruedas (38 fechas,
+    # en cada una quedaba uno libre), con 2 puntos por partido ganado. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF,
+    # sin goles; días y estadios de Wikipedia). Volvieron los promedios, por temporada (1982 y 1983; Wikipedia): bajaron
+    # los dos peores, Racing Club y Nueva Chicago. A la Libertadores 1984 fueron los campeones del Nacional y del
+    # Metropolitano
+    "1983-metropolitano": {"nombre": "Campeonato Metropolitano 1983", "anio": 1983, "liga": "a_mano", "slug": "1983-metropolitano",
+                           "zonas": "unica", "fechas": 38, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                           "anual_texto": "La tabla del Campeonato Metropolitano 1983 (las 38 fechas; eran 19 equipos y en cada "
+                                          "fecha uno quedaba libre). Cada partido ganado valía 2 puntos.",
+                           "goleadores_nota": "RSSSF no tiene los goles de este torneo. El goleador fue Víctor Ramos "
+                                              "(Newell's), con 30 goles.",
+                           # (los puntos de cada temporada; se divide por las temporadas jugadas)
+                           "promedios_por_temporada": True,
+                           "promedios": {"1982": {"independiente": [52, 1], "estudiantes-de-la-plata": [54, 1],
+                                                  "velez-sarsfield": [42, 1], "boca-juniors": [48, 1], "ferro-carril-oeste": [37, 1],
+                                                  "newell-s-old-boys": [44, 1], "huracan": [41, 1], "instituto": [33, 1],
+                                                  "rosario-central": [37, 1], "racing-cordoba": [39, 1], "talleres": [33, 1],
+                                                  "union": [27, 1], "argentinos-juniors": [28, 1], "river-plate": [34, 1],
+                                                  "platense": [28, 1], "nueva-chicago": [28, 1], "racing-club": [28, 1]}},
+                           "descensos": "promedios", "descienden": 2,
+                           "cupos": {"anio": 1984, "fijos": True,
+                                     "libertadores": [("Campeón del Nacional 1983", "estudiantes-de-la-plata"),
+                                                      ("Campeón del Metropolitano 1983", "independiente")]}},
     # 1984: el Campeonato Nacional 1984 (febrero a mayo; campeón Ferro): 32 equipos (los del Metropolitano y los del
     # interior) en 8 zonas de 4 a dos ruedas ("zonas_a_mano"), con 2 puntos por partido ganado; los dos primeros de cada
     # zona jugaban la fase final, a ida y vuelta. A Chacarita le descontaron 6 puntos. ESPN no lo tiene: va a mano
@@ -2707,6 +2795,11 @@ CLUBES_NUEVOS = {
     "led": ("ledesma", "Atlético Ledesma"),
     "usv": ("union-san-vicente", "Unión San Vicente (Córdoba)"),
     "atl": ("atlanta", "Atlanta"),   # (no está en ESPN: el Nacional y el Metropolitano 1984)
+    "lne": ("loma-negra", "Loma Negra (Olavarría)"),   # (no están en ESPN: el Nacional 1983)
+    "and": ("andino", "Andino (La Rioja)"),
+    "rce": ("renato-cesarini", "Renato Cesarini (Rosario)"),
+    "asr": ("atletico-santa-rosa", "Atlético Santa Rosa (La Pampa)"),
+    "aco": ("atletico-concepcion", "Atlético Concepción (Banda del Río Salí)"),
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
@@ -2719,7 +2812,9 @@ NOMBRES = {"gimnasia-y-esgrima": "Gimnasia (La Plata)"}
 def eventos_a_mano(clave):
     """Los partidos de un torneo que ESPN no tiene (2002), de tools/a_mano/liga-<clave>.json, con la forma de los de
     ESPN (los clubes, con su id de ESPN), para que el resto funcione igual. Cada uno lleva su fecha (_fecha_n) y el
-    partido tal cual (_a_mano: día, hora, goles, nota)."""
+    partido tal cual (_a_mano: día, hora, goles, nota). En los torneos por etapas (el Nacional 1983), cada fecha dice
+    su etapa (va al final del slug: "1983-nacional-primera-fase") y cada partido su zona (el grupo, como en ESPN; los
+    interzonales, sin zona)."""
     archivo = A_MANO / f"liga-{clave}.json"
     if not archivo.exists():
         return []
@@ -2731,11 +2826,13 @@ def eventos_a_mano(clave):
             hora = datetime.datetime.strptime(f"{p['fecha']} {p.get('hora') or '15:00'}", "%Y-%m-%d %H:%M")
             eventos.append({
                 "id": f"{clave}-{f['numero']}-{i + 1}", "date": (hora + datetime.timedelta(hours=3)).strftime("%Y-%m-%dT%H:%MZ"),
-                "season": {"slug": clave}, "status": {"type": {"completed": True, "name": "STATUS_FULL_TIME"}},
+                "season": {"slug": f"{clave}-{f['etapa']}" if f.get("etapa") else clave},
+                "status": {"type": {"completed": True, "name": "STATUS_FULL_TIME"}},
                 "competitions": [{"competitors": [
                     {"homeAway": lado, "team": {"id": id_espn[p[lado2]], "displayName": p[lado2]}, "score": p[g]}
                     for lado, lado2, g in (("home", "local", "gl"), ("away", "visitante", "gv"))],
-                    "venue": {"fullName": p.get("estadio")}}],
+                    "venue": {"fullName": p.get("estadio")},
+                    **({"group": {"name": f"Group {p['zona']}"}} if p.get("zona") else {})}],
                 "_fecha_n": f["numero"], "_a_mano": p})
     return eventos
 
@@ -3116,8 +3213,9 @@ def armar(clave):
                 p["goles"] = [{**g, "jid": f"{p[g['equipo']]}:{g['jugador']}"} for g in p.get("goles", [])]
             playoffs.setdefault(fase, []).append(p)
 
-    if etapas:   # las fechas, por etapa, numeradas desde la primera fecha de cada una
-        for i, (_, _, _, primera, cuantas) in enumerate(etapas):
+    # las fechas, por etapa, numeradas desde la primera fecha de cada una (a mano, ya vienen con su número)
+    if etapas and cfg.get("liga") != "a_mano":
+        for i, (_, _, _, primera, cuantas, *_) in enumerate(etapas):
             de_etapa = [p for p in regular if p["etapa"] == i]
             repartir_fechas(de_etapa, cuantas)
             for p in de_etapa:
@@ -3168,15 +3266,19 @@ def armar(clave):
     datos["descensos"] = cfg.get("descensos", False)
     if etapas:
         datos["etapas"] = []
-        for i, (nombre, _, pasan, _, _) in enumerate(etapas):
+        # (texto: lo que dice la leyenda de la tabla de esa etapa; el Nacional 1983)
+        for i, (nombre, _, pasan, _, _, *texto) in enumerate(etapas):
             ps = [p for p in regular if p["etapa"] == i]
             zonas_etapa = {}
             for p in sorted(ps, key=lambda p: p["hora_utc"]):
+                if not p["zona"]:   # (un interzonal: las zonas salen de los otros partidos)
+                    continue
                 for c in (p["local"], p["visitante"]):
                     if c not in zonas_etapa.setdefault(p["zona"], []):
                         zonas_etapa[p["zona"]].append(c)
             datos["etapas"].append({"nombre": nombre, "pasan": pasan, "zonas": dict(sorted(zonas_etapa.items())),
-                                    "fechas": sorted({p["fecha_n"] for p in ps})})
+                                    "fechas": sorted({p["fecha_n"] for p in ps}),
+                                    **({"texto_pasan": texto[0]} if texto else {})})
     if cfg.get("desempate_a_mano"):   # (un desempate que ESPN no tiene: River-Gimnasia 1999)
         d = cfg["desempate_a_mano"]
         desempates = [{**d, **{lado: club({"id": d[lado], "displayName": d[lado]}) for lado in ("local", "visitante")

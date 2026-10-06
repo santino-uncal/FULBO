@@ -1,0 +1,3283 @@
+{
+ "nombre": "Campeonato Metropolitano 1983",
+ "fuente": "Resultados: RSSSF (Osvaldo José Gorgazzi), sin goles; días y estadios de Wikipedia (la cancha de RSSSF cuando no era la del local). Coinciden en todos los resultados. San Lorenzo-Ferro terminó 2-1 (Ferro se quedó sin jugadores); la AFA se lo dio ganado a San Lorenzo y en las tablas finales cuenta 2-1. Platense-River: Wikipedia lo pone el 13 de julio y RSSSF el 14",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1983-06-11",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-12",
+     "local": "argentinos-juniors",
+     "visitante": "temperley",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-12",
+     "local": "huracan",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-12",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-12",
+     "local": "instituto",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-12",
+     "local": "racing-cordoba",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-12",
+     "local": "river-plate",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-12",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1983-06-18",
+     "local": "talleres",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-18",
+     "local": "union",
+     "visitante": "instituto",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-19",
+     "local": "boca-juniors",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-19",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-19",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-19",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-19",
+     "local": "temperley",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-19",
+     "local": "velez-sarsfield",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-20",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1983-06-25",
+     "local": "racing-cordoba",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-26",
+     "local": "argentinos-juniors",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-26",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-26",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-26",
+     "local": "instituto",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-26",
+     "local": "newell-s-old-boys",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-26",
+     "local": "nueva-chicago",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-26",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-26",
+     "local": "san-lorenzo",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1983-06-29",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-29",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-29",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-29",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-29",
+     "local": "rosario-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-29",
+     "local": "talleres",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-29",
+     "local": "union",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1983-06-29",
+     "local": "velez-sarsfield",
+     "visitante": "temperley",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-13",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ciudad de Vicente López",
+     "nota": "Postergado por una huelga de los jugadores de River.",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1983-07-02",
+     "local": "newell-s-old-boys",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-03",
+     "local": "argentinos-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-03",
+     "local": "independiente",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-03",
+     "local": "nueva-chicago",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-03",
+     "local": "racing-cordoba",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-03",
+     "local": "san-lorenzo",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-03",
+     "local": "temperley",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Alfredo Beranger",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-05",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "nota": "Postergado por una huelga de los jugadores de River.",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1983-08-31",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-31",
+     "local": "instituto",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-31",
+     "local": "rosario-central",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-31",
+     "local": "talleres",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-31",
+     "local": "union",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-01",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-01",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-01",
+     "local": "platense",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-01",
+     "local": "racing-club",
+     "visitante": "temperley",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1983-07-09",
+     "local": "racing-cordoba",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-10",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-10",
+     "local": "independiente",
+     "visitante": "instituto",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-10",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-10",
+     "local": "nueva-chicago",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-10",
+     "local": "river-plate",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-10",
+     "local": "temperley",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Alfredo Beranger",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-10",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1983-07-17",
+     "local": "boca-juniors",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-17",
+     "local": "ferro-carril-oeste",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-17",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-17",
+     "local": "instituto",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-17",
+     "local": "platense",
+     "visitante": "temperley",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-17",
+     "local": "racing-club",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-17",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-17",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-17",
+     "local": "union",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1983-07-23",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "nota": "Terminó a los 42 minutos del segundo tiempo: San Lorenzo se quedó con seis jugadores (le echaron a cinco). Quedó el resultado.",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-24",
+     "local": "argentinos-juniors",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-24",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-24",
+     "local": "independiente",
+     "visitante": "racing-cordoba",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-24",
+     "local": "nueva-chicago",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-24",
+     "local": "river-plate",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-24",
+     "local": "talleres",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-24",
+     "local": "temperley",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-24",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1983-07-27",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-27",
+     "local": "ferro-carril-oeste",
+     "visitante": "temperley",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-27",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-27",
+     "local": "instituto",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-27",
+     "local": "platense",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-27",
+     "local": "racing-cordoba",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-27",
+     "local": "rosario-central",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-27",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-27",
+     "local": "union",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1983-07-31",
+     "local": "argentinos-juniors",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-31",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-31",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-31",
+     "local": "nueva-chicago",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-31",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-31",
+     "local": "river-plate",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-31",
+     "local": "talleres",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-31",
+     "local": "temperley",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Alfredo Beranger",
+     "goles": []
+    },
+    {
+     "fecha": "1983-07-31",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1983-08-03",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-03",
+     "local": "ferro-carril-oeste",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-03",
+     "local": "huracan",
+     "visitante": "temperley",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-03",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-03",
+     "local": "instituto",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-03",
+     "local": "platense",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-03",
+     "local": "racing-cordoba",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-03",
+     "local": "san-lorenzo",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-03",
+     "local": "union",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1983-08-14",
+     "local": "argentinos-juniors",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-14",
+     "local": "nueva-chicago",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-14",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-14",
+     "local": "river-plate",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-14",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-14",
+     "local": "talleres",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-14",
+     "local": "temperley",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Alfredo Beranger",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-14",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1983-08-17",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-17",
+     "local": "ferro-carril-oeste",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-17",
+     "local": "huracan",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-17",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-17",
+     "local": "instituto",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-17",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-17",
+     "local": "racing-cordoba",
+     "visitante": "nueva-chicago",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-17",
+     "local": "san-lorenzo",
+     "visitante": "temperley",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-17",
+     "local": "union",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1983-08-28",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-28",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-28",
+     "local": "nueva-chicago",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-28",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-28",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-28",
+     "local": "rosario-central",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-28",
+     "local": "talleres",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-28",
+     "local": "temperley",
+     "visitante": "racing-cordoba",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Alfredo Beranger",
+     "goles": []
+    },
+    {
+     "fecha": "1983-08-29",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1983-09-03",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-03",
+     "local": "huracan",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-03",
+     "local": "independiente",
+     "visitante": "temperley",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-03",
+     "local": "instituto",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-03",
+     "local": "newell-s-old-boys",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-03",
+     "local": "racing-cordoba",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-03",
+     "local": "river-plate",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-03",
+     "local": "san-lorenzo",
+     "visitante": "talleres",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-03",
+     "local": "union",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1983-09-18",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-18",
+     "local": "boca-juniors",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-18",
+     "local": "nueva-chicago",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-18",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-18",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-18",
+     "local": "rosario-central",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-18",
+     "local": "talleres",
+     "visitante": "racing-cordoba",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-18",
+     "local": "temperley",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Alfredo Beranger",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-18",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1983-09-21",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-21",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-21",
+     "local": "independiente",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-21",
+     "local": "instituto",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-21",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-21",
+     "local": "racing-cordoba",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-21",
+     "local": "river-plate",
+     "visitante": "temperley",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-21",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-21",
+     "local": "union",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1983-09-25",
+     "local": "boca-juniors",
+     "visitante": "instituto",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-25",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-25",
+     "local": "nueva-chicago",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-25",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-25",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-25",
+     "local": "rosario-central",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-25",
+     "local": "talleres",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-25",
+     "local": "temperley",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Alfredo Beranger",
+     "goles": []
+    },
+    {
+     "fecha": "1983-09-25",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1983-10-02",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-02",
+     "local": "ferro-carril-oeste",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-02",
+     "local": "platense",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-02",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-02",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-02",
+     "local": "talleres",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-02",
+     "local": "temperley",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Alfredo Beranger",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-02",
+     "local": "union",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-02",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1983-10-09",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-09",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "talleres",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-09",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-09",
+     "local": "instituto",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-09",
+     "local": "nueva-chicago",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-09",
+     "local": "racing-cordoba",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-09",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-09",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "nota": "Terminó a los 3 minutos del segundo tiempo (2-1): Ferro se quedó con seis jugadores (le echaron a cinco). La AFA se lo dio ganado a San Lorenzo.",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-09",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "nota": "Se suspendió a los 42 minutos del segundo tiempo por incidentes (los hinchas de Rosario Central tiraron abajo el alambrado). La AFA dejó el resultado.",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1983-10-12",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-12",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-12",
+     "local": "huracan",
+     "visitante": "instituto",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-12",
+     "local": "platense",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-12",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-12",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-12",
+     "local": "talleres",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-12",
+     "local": "union",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-12",
+     "local": "velez-sarsfield",
+     "visitante": "nueva-chicago",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1983-10-16",
+     "local": "argentinos-juniors",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-16",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-16",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-16",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-16",
+     "local": "nueva-chicago",
+     "visitante": "talleres",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-16",
+     "local": "racing-cordoba",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-16",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-16",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-16",
+     "local": "temperley",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Alfredo Beranger",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1983-10-19",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-19",
+     "local": "ferro-carril-oeste",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-19",
+     "local": "huracan",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-19",
+     "local": "instituto",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-19",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-19",
+     "local": "racing-club",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-19",
+     "local": "rosario-central",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-19",
+     "local": "talleres",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-19",
+     "local": "union",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1983-10-23",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-23",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-23",
+     "local": "newell-s-old-boys",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-23",
+     "local": "nueva-chicago",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-23",
+     "local": "racing-cordoba",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-23",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-23",
+     "local": "temperley",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Alfredo Beranger",
+     "goles": []
+    },
+    {
+     "fecha": "1983-10-23",
+     "local": "velez-sarsfield",
+     "visitante": "talleres",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1983-11-10",
+     "local": "boca-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-10",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-10",
+     "local": "huracan",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-10",
+     "local": "instituto",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-10",
+     "local": "platense",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-10",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-10",
+     "local": "rosario-central",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-10",
+     "local": "san-lorenzo",
+     "visitante": "racing-cordoba",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-10",
+     "local": "union",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1983-11-01",
+     "local": "nueva-chicago",
+     "visitante": "boca-juniors",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-02",
+     "local": "argentinos-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-02",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-02",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-02",
+     "local": "newell-s-old-boys",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-02",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-02",
+     "local": "talleres",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-02",
+     "local": "temperley",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-02",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1983-11-06",
+     "local": "boca-juniors",
+     "visitante": "temperley",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-06",
+     "local": "ferro-carril-oeste",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-06",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-06",
+     "local": "instituto",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-06",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-06",
+     "local": "racing-cordoba",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-06",
+     "local": "rosario-central",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-06",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-06",
+     "local": "union",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1983-11-13",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-13",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "instituto",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-13",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-cordoba",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-13",
+     "local": "nueva-chicago",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-13",
+     "local": "racing-club",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-13",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-13",
+     "local": "talleres",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-13",
+     "local": "temperley",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Alfredo Beranger",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-13",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1983-11-16",
+     "local": "boca-juniors",
+     "visitante": "talleres",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-16",
+     "local": "huracan",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-16",
+     "local": "independiente",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-16",
+     "local": "instituto",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-16",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-16",
+     "local": "racing-cordoba",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-16",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-16",
+     "local": "union",
+     "visitante": "temperley",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "partidos": [
+    {
+     "fecha": "1983-11-20",
+     "local": "argentinos-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-20",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-cordoba",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-20",
+     "local": "nueva-chicago",
+     "visitante": "instituto",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-20",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-20",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-20",
+     "local": "rosario-central",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-20",
+     "local": "talleres",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-20",
+     "local": "temperley",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Alfredo Beranger",
+     "goles": []
+    },
+    {
+     "fecha": "1983-11-20",
+     "local": "velez-sarsfield",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "partidos": [
+    {
+     "fecha": "1983-12-01",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-01",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-01",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-01",
+     "local": "instituto",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-01",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-01",
+     "local": "racing-cordoba",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-01",
+     "local": "san-lorenzo",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-01",
+     "local": "union",
+     "visitante": "talleres",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-01",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "nota": "Se suspendió a los 30 minutos del segundo tiempo por agresiones a un juez de línea; se terminó de jugar el 13 de diciembre en la cancha de Atlanta.",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "partidos": [
+    {
+     "fecha": "1983-12-15",
+     "local": "argentinos-juniors",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-15",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-15",
+     "local": "nueva-chicago",
+     "visitante": "racing-cordoba",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-15",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-15",
+     "local": "racing-club",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-15",
+     "local": "rosario-central",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-15",
+     "local": "talleres",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-15",
+     "local": "temperley",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-15",
+     "local": "velez-sarsfield",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "partidos": [
+    {
+     "fecha": "1983-12-04",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-04",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-04",
+     "local": "independiente",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-04",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-04",
+     "local": "racing-cordoba",
+     "visitante": "temperley",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-04",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-04",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-04",
+     "local": "union",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-04",
+     "local": "instituto",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Domingo Perón",
+     "nota": "Se suspendió a los 43 minutos del segundo tiempo porque tiraron proyectiles a la cancha. La AFA dejó el resultado.",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 35,
+   "partidos": [
+    {
+     "fecha": "1983-12-07",
+     "local": "velez-sarsfield",
+     "visitante": "racing-cordoba",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-08",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-08",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-08",
+     "local": "nueva-chicago",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-08",
+     "local": "platense",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-08",
+     "local": "racing-club",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-08",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-08",
+     "local": "talleres",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-08",
+     "local": "temperley",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 36,
+   "partidos": [
+    {
+     "fecha": "1983-12-11",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-11",
+     "local": "huracan",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-11",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-11",
+     "local": "instituto",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-11",
+     "local": "newell-s-old-boys",
+     "visitante": "temperley",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-11",
+     "local": "racing-cordoba",
+     "visitante": "talleres",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-11",
+     "local": "river-plate",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-11",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-11",
+     "local": "union",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 37,
+   "partidos": [
+    {
+     "fecha": "1983-12-18",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-18",
+     "local": "nueva-chicago",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-18",
+     "local": "temperley",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Alfredo Beranger",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-18",
+     "local": "velez-sarsfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-18",
+     "local": "platense",
+     "visitante": "instituto",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Ciudad de Vicente López",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-18",
+     "local": "talleres",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-18",
+     "local": "racing-club",
+     "visitante": "racing-cordoba",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "El Cilindro",
+     "nota": "Se suspendió a los 41 minutos del segundo tiempo por incidentes. La AFA dejó el resultado.",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-18",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "nota": "Se suspendió a los 39 minutos del segundo tiempo porque los hinchas de Rosario Central tiraron proyectiles. La AFA dejó el resultado.",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 38,
+   "partidos": [
+    {
+     "fecha": "1983-12-22",
+     "local": "argentinos-juniors",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-22",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "temperley",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-22",
+     "local": "huracan",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-22",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-22",
+     "local": "instituto",
+     "visitante": "boca-juniors",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Juan Domingo Perón",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-22",
+     "local": "newell-s-old-boys",
+     "visitante": "talleres",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-22",
+     "local": "racing-cordoba",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Estadio Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-22",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1983-12-22",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}
