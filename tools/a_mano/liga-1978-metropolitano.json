@@ -1,0 +1,3997 @@
+{
+ "nombre": "Campeonato Metropolitano 1978",
+ "fuente": "Resultados y días: RSSSF (Pablo Ciullini), sin goles. Estadio: la cancha que dice RSSSF cuando no era la del local; si no, la del local. La tabla que sale de los partidos es igual a la de Wikipedia (en la de RSSSF, Huracán tiene 36 puntos, pero con sus 11 triunfos y 13 empates son 35). La lista de partidos de Wikipedia tiene días aproximados y cuatro resultados distintos (Colón-Atlanta, Newell's-San Lorenzo, Estudiantes-San Lorenzo y Boca-Unión) que no cuadran con su propia tabla: van los de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1978-03-03",
+     "local": "all-boys",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-05",
+     "local": "chacarita-juniors",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-05",
+     "local": "rosario-central",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Newell's Old Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-05",
+     "local": "san-lorenzo",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-05",
+     "local": "union",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-05",
+     "local": "racing-club",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-05",
+     "local": "river-plate",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-05",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-05",
+     "local": "atlanta",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1978-03-10",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-12",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-12",
+     "local": "velez-sarsfield",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-12",
+     "local": "colon",
+     "visitante": "river-plate",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-12",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-12",
+     "local": "huracan",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-12",
+     "local": "quilmes",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-12",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-12",
+     "local": "banfield",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1978-03-14",
+     "local": "all-boys",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-15",
+     "local": "rosario-central",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Newell's Old Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-15",
+     "local": "union",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-16",
+     "local": "san-lorenzo",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-16",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-16",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-16",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-16",
+     "local": "boca-juniors",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-16",
+     "local": "atlanta",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-16",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1978-03-19",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-19",
+     "local": "colon",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-19",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-20",
+     "local": "velez-sarsfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-20",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-20",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-20",
+     "local": "quilmes",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-20",
+     "local": "platense",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-20",
+     "local": "banfield",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-20",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1978-03-22",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-23",
+     "local": "all-boys",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Islas Malvinas",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-23",
+     "local": "union",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-23",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-23",
+     "local": "racing-club",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-23",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-23",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-23",
+     "local": "atlanta",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-23",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-23",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1978-03-25",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-26",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-26",
+     "local": "colon",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-26",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-26",
+     "local": "independiente",
+     "visitante": "atlanta",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-26",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-26",
+     "local": "quilmes",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-26",
+     "local": "banfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-26",
+     "local": "chacarita-juniors",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-03-26",
+     "local": "rosario-central",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Newell's Old Boys",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1978-03-31",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-02",
+     "local": "all-boys",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Islas Malvinas",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-02",
+     "local": "union",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-02",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-02",
+     "local": "racing-club",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-02",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-02",
+     "local": "boca-juniors",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-02",
+     "local": "atlanta",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-02",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-02",
+     "local": "velez-sarsfield",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1978-04-07",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-09",
+     "local": "colon",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-09",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-09",
+     "local": "independiente",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-09",
+     "local": "huracan",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-09",
+     "local": "quilmes",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-09",
+     "local": "banfield",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-09",
+     "local": "chacarita-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-09",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Newell's Old Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-09",
+     "local": "san-lorenzo",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1978-04-14",
+     "local": "river-plate",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-16",
+     "local": "union",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-16",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-16",
+     "local": "racing-club",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-16",
+     "local": "boca-juniors",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-16",
+     "local": "atlanta",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-16",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-16",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-16",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-16",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1978-04-21",
+     "local": "quilmes",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-23",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-23",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-23",
+     "local": "platense",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-23",
+     "local": "banfield",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-23",
+     "local": "chacarita-juniors",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-23",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Newell's Old Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-23",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-23",
+     "local": "all-boys",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Islas Malvinas",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1978-04-25",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-26",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-26",
+     "local": "racing-club",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-26",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-26",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-26",
+     "local": "atlanta",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-26",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-26",
+     "local": "newell-s-old-boys",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-26",
+     "local": "velez-sarsfield",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-26",
+     "local": "colon",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1978-04-28",
+     "local": "huracan",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-30",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-30",
+     "local": "quilmes",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-30",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-30",
+     "local": "banfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-30",
+     "local": "chacarita-juniors",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-30",
+     "local": "rosario-central",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Newell's Old Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-30",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-30",
+     "local": "all-boys",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1978-04-30",
+     "local": "union",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1978-05-05",
+     "local": "atlanta",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-07",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-07",
+     "local": "river-plate",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-07",
+     "local": "boca-juniors",
+     "visitante": "all-boys",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-07",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-07",
+     "local": "newell-s-old-boys",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-07",
+     "local": "velez-sarsfield",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-07",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-07",
+     "local": "colon",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1978-05-12",
+     "local": "chacarita-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-14",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-14",
+     "local": "quilmes",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-14",
+     "local": "platense",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-14",
+     "local": "banfield",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-14",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Newell's Old Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-14",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-14",
+     "local": "all-boys",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Islas Malvinas",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-14",
+     "local": "union",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-14",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1978-05-19",
+     "local": "independiente",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-21",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-21",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-21",
+     "local": "atlanta",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-21",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-21",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-21",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-21",
+     "local": "argentinos-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-21",
+     "local": "colon",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1978-05-21",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1978-06-30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-02",
+     "local": "quilmes",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-02",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-02",
+     "local": "banfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-02",
+     "local": "chacarita-juniors",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-02",
+     "local": "rosario-central",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Newell's Old Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-02",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-02",
+     "local": "all-boys",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Islas Malvinas",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-02",
+     "local": "union",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-02",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1978-07-07",
+     "local": "argentinos-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-09",
+     "local": "colon",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-10",
+     "local": "newell-s-old-boys",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-12",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-12",
+     "local": "atlanta",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-12",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-12",
+     "local": "velez-sarsfield",
+     "visitante": "all-boys",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-12",
+     "local": "independiente",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-12",
+     "local": "huracan",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1978-07-14",
+     "local": "banfield",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-16",
+     "local": "platense",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-16",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-16",
+     "local": "rosario-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Newell's Old Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-16",
+     "local": "san-lorenzo",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-16",
+     "local": "all-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Islas Malvinas",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-16",
+     "local": "union",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-16",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-16",
+     "local": "racing-club",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-16",
+     "local": "river-plate",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1978-07-21",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-23",
+     "local": "atlanta",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-23",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-23",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-23",
+     "local": "argentinos-juniors",
+     "visitante": "union",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-23",
+     "local": "colon",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-23",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-23",
+     "local": "huracan",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-23",
+     "local": "quilmes",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1978-07-28",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-30",
+     "local": "banfield",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-30",
+     "local": "chacarita-juniors",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-30",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Newell's Old Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-30",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-30",
+     "local": "all-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Islas Malvinas",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-30",
+     "local": "union",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-30",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-07-30",
+     "local": "river-plate",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1978-08-04",
+     "local": "quilmes",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-06",
+     "local": "argentinos-juniors",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-06",
+     "local": "colon",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-06",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-07",
+     "local": "platense",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "nota": "Se suspendió por la lluvia el 6 de agosto, a los 33 minutos (0-0); se volvió a jugar al día siguiente."
+    },
+    {
+     "fecha": "1978-08-07",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-07",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-07",
+     "local": "independiente",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-07",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1978-08-09",
+     "local": "banfield",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-09",
+     "local": "platense",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-09",
+     "local": "quilmes",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-09",
+     "local": "huracan",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-09",
+     "local": "independiente",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-09",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-09",
+     "local": "colon",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-09",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-09",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-09",
+     "local": "newell-s-old-boys",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1978-08-11",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-13",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-13",
+     "local": "atlanta",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-13",
+     "local": "boca-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-13",
+     "local": "river-plate",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-13",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-13",
+     "local": "union",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-13",
+     "local": "all-boys",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Islas Malvinas",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-13",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-13",
+     "local": "rosario-central",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Newell's Old Boys",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1978-08-17",
+     "local": "chacarita-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-17",
+     "local": "banfield",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-17",
+     "local": "platense",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-17",
+     "local": "quilmes",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-17",
+     "local": "huracan",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-17",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-17",
+     "local": "colon",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-17",
+     "local": "argentinos-juniors",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-17",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1978-08-19",
+     "local": "san-lorenzo",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-20",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-20",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-20",
+     "local": "atlanta",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-20",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-20",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-20",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-20",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-20",
+     "local": "union",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-20",
+     "local": "all-boys",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Islas Malvinas",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1978-08-25",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-27",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-27",
+     "local": "chacarita-juniors",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-27",
+     "local": "banfield",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-27",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-27",
+     "local": "quilmes",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-27",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-27",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-27",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-27",
+     "local": "colon",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1978-08-30",
+     "local": "velez-sarsfield",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-30",
+     "local": "newell-s-old-boys",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-30",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-30",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-30",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-30",
+     "local": "river-plate",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-30",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-30",
+     "local": "union",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1978-08-30",
+     "local": "all-boys",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1978-09-01",
+     "local": "independiente",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-03",
+     "local": "san-lorenzo",
+     "visitante": "all-boys",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-03",
+     "local": "rosario-central",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-03",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-03",
+     "local": "banfield",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-03",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-03",
+     "local": "quilmes",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-03",
+     "local": "huracan",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-03",
+     "local": "colon",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1978-09-08",
+     "local": "river-plate",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-10",
+     "local": "argentinos-juniors",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-10",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-10",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-10",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-10",
+     "local": "atlanta",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-10",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-10",
+     "local": "racing-club",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-10",
+     "local": "union",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1978-09-13",
+     "local": "rosario-central",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-14",
+     "local": "banfield",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-14",
+     "local": "all-boys",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-14",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-14",
+     "local": "chacarita-juniors",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-14",
+     "local": "platense",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-14",
+     "local": "quilmes",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-14",
+     "local": "huracan",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-14",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "partidos": [
+    {
+     "fecha": "1978-09-16",
+     "local": "boca-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-17",
+     "local": "colon",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-17",
+     "local": "newell-s-old-boys",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-18",
+     "local": "argentinos-juniors",
+     "visitante": "independiente",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-18",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-18",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-18",
+     "local": "atlanta",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-18",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-18",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-18",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "all-boys",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "partidos": [
+    {
+     "fecha": "1978-09-20",
+     "local": "union",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-20",
+     "local": "all-boys",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-20",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-20",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-20",
+     "local": "chacarita-juniors",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-20",
+     "local": "banfield",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-20",
+     "local": "platense",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-20",
+     "local": "quilmes",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-20",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-20",
+     "local": "independiente",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "partidos": [
+    {
+     "fecha": "1978-09-22",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-22",
+     "local": "racing-club",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-24",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-24",
+     "local": "colon",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-24",
+     "local": "newell-s-old-boys",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-25",
+     "local": "argentinos-juniors",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-25",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-25",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-25",
+     "local": "atlanta",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-25",
+     "local": "river-plate",
+     "visitante": "all-boys",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "partidos": [
+    {
+     "fecha": "1978-09-27",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-27",
+     "local": "union",
+     "visitante": "river-plate",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-27",
+     "local": "all-boys",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-27",
+     "local": "san-lorenzo",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-27",
+     "local": "rosario-central",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-27",
+     "local": "chacarita-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-27",
+     "local": "banfield",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-27",
+     "local": "platense",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-27",
+     "local": "quilmes",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-09-27",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 35,
+   "partidos": [
+    {
+     "fecha": "1978-09-29",
+     "local": "boca-juniors",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-01",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-01",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-01",
+     "local": "colon",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-01",
+     "local": "argentinos-juniors",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-01",
+     "local": "velez-sarsfield",
+     "visitante": "chacarita-juniors",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-01",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-01",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-01",
+     "local": "atlanta",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-01",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 36,
+   "partidos": [
+    {
+     "fecha": "1978-10-06",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-07",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-08",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-08",
+     "local": "union",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-08",
+     "local": "all-boys",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Islas Malvinas",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-08",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-08",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-08",
+     "local": "chacarita-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-08",
+     "local": "banfield",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-08",
+     "local": "quilmes",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 37,
+   "partidos": [
+    {
+     "fecha": "1978-10-10",
+     "local": "argentinos-juniors",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-11",
+     "local": "huracan",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-11",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-11",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-11",
+     "local": "colon",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-11",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-11",
+     "local": "newell-s-old-boys",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-11",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-11",
+     "local": "atlanta",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-11",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 38,
+   "partidos": [
+    {
+     "fecha": "1978-10-13",
+     "local": "racing-club",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-15",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-15",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-15",
+     "local": "union",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-15",
+     "local": "all-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Islas Malvinas",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-15",
+     "local": "rosario-central",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-15",
+     "local": "chacarita-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-15",
+     "local": "banfield",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-15",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-16",
+     "local": "san-lorenzo",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 39,
+   "partidos": [
+    {
+     "fecha": "1978-10-18",
+     "local": "quilmes",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-18",
+     "local": "huracan",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-18",
+     "local": "independiente",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-18",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-18",
+     "local": "colon",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-18",
+     "local": "argentinos-juniors",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de San Lorenzo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-18",
+     "local": "velez-sarsfield",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-18",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-18",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-18",
+     "local": "atlanta",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 40,
+   "partidos": [
+    {
+     "fecha": "1978-10-20",
+     "local": "river-plate",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-22",
+     "local": "boca-juniors",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-22",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-22",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-22",
+     "local": "union",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-22",
+     "local": "all-boys",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Islas Malvinas",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-22",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-22",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-22",
+     "local": "chacarita-juniors",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-22",
+     "local": "banfield",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 41,
+   "partidos": [
+    {
+     "fecha": "1978-10-24",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-25",
+     "local": "platense",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-25",
+     "local": "quilmes",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-25",
+     "local": "huracan",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-25",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-25",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "all-boys",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-25",
+     "local": "colon",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-25",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-25",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-25",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 42,
+   "partidos": [
+    {
+     "fecha": "1978-10-27",
+     "local": "all-boys",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-28",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-29",
+     "local": "atlanta",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-29",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-29",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-29",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-29",
+     "local": "union",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-29",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-29",
+     "local": "rosario-central",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1978-10-29",
+     "local": "chacarita-juniors",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

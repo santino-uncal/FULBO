@@ -33,6 +33,61 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1978: el Campeonato Metropolitano 1978 (marzo a octubre; campeón Quilmes): 21 equipos a dos ruedas (42 fechas, en
+    # cada una quedaba uno libre), con 2 puntos por partido ganado. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin
+    # goles). Sin promedios: bajaban los dos últimos de la tabla ("descensos": "tabla"): Banfield y Estudiantes de Buenos
+    # Aires. A la Libertadores 1979 fueron los campeones del Metropolitano y del Nacional
+    "1978-metropolitano": {"nombre": "Campeonato Metropolitano 1978", "anio": 1978, "liga": "a_mano", "slug": "1978-metropolitano",
+                           "zonas": "unica", "fechas": 42, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                           "anual_texto": "La tabla del Campeonato Metropolitano 1978 (las 42 fechas; eran 21 equipos y en cada "
+                                          "fecha uno quedaba libre). Cada partido ganado valía 2 puntos.",
+                           "goleadores_nota": "RSSSF no tiene los goles de este torneo. Los goleadores fueron Luis Andreuchi "
+                                              "(Quilmes) y Diego Maradona (Argentinos), con 21 goles.",
+                           "descensos": "tabla", "descienden": 2,
+                           "cupos": {"anio": 1979, "fijos": True,
+                                     "libertadores": [("Campeón del Metropolitano 1978", "quilmes"),
+                                                      ("Campeón del Nacional 1978", "independiente")]}},
+    # El Campeonato Nacional 1978 (noviembre de 1978 a enero de 1979; campeón Independiente): 32 equipos (los del
+    # Metropolitano, menos los que bajaron, más Ferro, el campeón de la Primera B, y los del interior) en 4 zonas de 8 a
+    # dos ruedas ("zonas_a_mano"), sin interzonales, con 2 puntos por partido ganado; los dos primeros de cada zona
+    # jugaban la fase final, a ida y vuelta (con el global igualado, gol de visitante y después alargue y penales). Tres
+    # partidos se dieron por ganados en el escritorio ("para_local"). ESPN no lo tiene: va a mano (tools/a_mano;
+    # resultados de RSSSF, días y estadios de Wikipedia; de la fase final, también los goles y los árbitros de Wikipedia)
+    "1978-nacional": {"nombre": "Campeonato Nacional 1978", "anio": 1978, "liga": "a_mano", "slug": "1978-nacional",
+                      "zonas_a_mano": {"A": ["talleres", "racing-club", "newell-s-old-boys", "ledesma", "ferro-carril-oeste", "estudiantes-de-la-plata", "all-boys", "juventud-antoniana"],
+                                       "B": ["union", "huracan", "atletico-tucuman", "boca-juniors", "patronato", "chacarita-juniors", "gimnasia-mendoza", "platense"],
+                                       "C": ["independiente", "velez-sarsfield", "gimnasia-y-esgrima", "racing-cordoba", "deportivo-roca", "rosario-central", "argentinos-juniors", "altos-hornos-zapla"],
+                                       "D": ["river-plate", "colon", "san-martin-mendoza", "atlanta", "san-martin-tucuman", "quilmes", "alvarado", "san-lorenzo"]},
+                      "fechas": 14, "pasan": 2, "puntos_victoria": 2,
+                      "texto_pasan": "Pasan a la fase final (los dos primeros de cada zona)",
+                      "goleadores_nota": "Los goles son solo de la fase final (de Wikipedia, con los minutos): de la fase de "
+                                         "zonas no están. El goleador del torneo fue José Rinaldi (Talleres), con 16 goles.",
+                      "nombre_playoffs": "Fase final",
+                      "playoffs": [(r"^$^", n) for n in ("Cuartos de final", "Semifinales", "Final")],
+                      "playoffs_a_mano": {
+                           "Cuartos de final": [
+                               {"hora_utc": "1978-12-23T19:00Z", "fecha": "1978-12-23", "local": "huracan", "visitante": "talleres", "gl": 2, "gv": 1, "estadio": "Estadio Tomás Adolfo Ducó", "arbitro": "Abel Gnecco", "goles": [{"jugador": "J. Sanabria", "equipo": "local", "min": 65}, {"jugador": "D. Sanabria", "equipo": "local", "min": 80}, {"jugador": "Cheves", "equipo": "visitante", "min": 55, "tipo": "ec"}]},
+                               {"hora_utc": "1978-12-27T19:00Z", "fecha": "1978-12-27", "local": "talleres", "visitante": "huracan", "gl": 3, "gv": 0, "estadio": "Estadio Córdoba", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Ludueña", "equipo": "local", "min": 46}, {"jugador": "Reinaldi", "equipo": "local", "min": 53}, {"jugador": "Reinaldi", "equipo": "local", "min": 68}]},
+                               {"hora_utc": "1978-12-23T19:00Z", "fecha": "1978-12-23", "local": "colon", "visitante": "independiente", "gl": 2, "gv": 2, "estadio": "Estadio Brigadier General Estanislao López", "arbitro": "Teodoro Nitti", "goles": [{"jugador": "Mazo", "equipo": "local", "min": 44}, {"jugador": "Di Meola", "equipo": "local", "min": 81}, {"jugador": "Barberón", "equipo": "visitante", "min": 73}, {"jugador": "Larrosa", "equipo": "visitante", "min": 80}]},
+                               {"hora_utc": "1978-12-27T19:00Z", "fecha": "1978-12-27", "local": "independiente", "visitante": "colon", "gl": 2, "gv": 0, "estadio": "Estadio La Doble Visera", "arbitro": "Claudio Aquiles Busca", "goles": [{"jugador": "Bochini", "equipo": "local", "min": 37}, {"jugador": "Alzamendi", "equipo": "local", "min": 79}]},
+                               {"hora_utc": "1978-12-23T19:00Z", "fecha": "1978-12-23", "local": "river-plate", "visitante": "velez-sarsfield", "gl": 2, "gv": 0, "estadio": "Estadio Monumental", "arbitro": "Miguel Francisco Comesaña", "goles": [{"jugador": "Ártico", "equipo": "local", "min": 17, "tipo": "ec"}, {"jugador": "Luque", "equipo": "local", "min": 77}]},
+                               {"hora_utc": "1978-12-27T19:00Z", "fecha": "1978-12-27", "local": "velez-sarsfield", "visitante": "river-plate", "gl": 2, "gv": 1, "estadio": "Estadio José Amalfitani", "arbitro": "Carlos Alfonso Espósito", "goles": [{"jugador": "Roldán", "equipo": "local", "min": 7, "tipo": "pen"}, {"jugador": "Jiménez", "equipo": "local", "min": 84}, {"jugador": "J. J. López", "equipo": "visitante", "min": 30}]},
+                               {"hora_utc": "1978-12-23T19:00Z", "fecha": "1978-12-23", "local": "racing-club", "visitante": "union", "gl": 1, "gv": 2, "estadio": "Estadio El Cilindro", "arbitro": "Roberto Osvaldo Barreiro", "goles": [{"jugador": "R. Díaz", "equipo": "local", "min": 50}, {"jugador": "Escobar", "equipo": "visitante", "min": 32, "tipo": "ec"}, {"jugador": "Ribeca", "equipo": "visitante", "min": 80}]},
+                               {"hora_utc": "1978-12-27T19:00Z", "fecha": "1978-12-27", "local": "union", "visitante": "racing-club", "gl": 1, "gv": 0, "estadio": "Estadio Club Atlético Unión", "arbitro": "Jorge Eduardo Romero", "goles": [{"jugador": "Pitarch", "equipo": "local", "min": 34}]},
+                           ],
+                           "Semifinales": [
+                               {"hora_utc": "1978-12-30T19:00Z", "fecha": "1978-12-30", "local": "independiente", "visitante": "talleres", "gl": 2, "gv": 1, "estadio": "Estadio La Doble Visera", "arbitro": "Miguel Francisco Comesaña", "goles": [{"jugador": "Bochini", "equipo": "local", "min": 35}, {"jugador": "Bochini", "equipo": "local", "min": 42}, {"jugador": "Cabrera", "equipo": "visitante", "min": 69}]},
+                               {"hora_utc": "1979-01-03T19:00Z", "fecha": "1979-01-03", "local": "talleres", "visitante": "independiente", "gl": 1, "gv": 2, "estadio": "Estadio Córdoba", "arbitro": "Abel Gnecco", "goles": [{"jugador": "Reinaldi", "equipo": "local", "min": 7}, {"jugador": "Trossero", "equipo": "visitante", "min": 18}, {"jugador": "Outes", "equipo": "visitante", "min": 68}]},
+                               {"hora_utc": "1978-12-30T19:00Z", "fecha": "1978-12-30", "local": "union", "visitante": "river-plate", "gl": 0, "gv": 1, "estadio": "Estadio Club Atlético Unión", "arbitro": "Alberto Ducatelli", "goles": [{"jugador": "Luque", "equipo": "visitante", "min": 67}]},
+                               {"hora_utc": "1979-01-03T19:00Z", "fecha": "1979-01-03", "local": "river-plate", "visitante": "union", "gl": 1, "gv": 1, "estadio": "Estadio Monumental", "arbitro": "Claudio Aquiles Busca", "goles": [{"jugador": "Alonso", "equipo": "local", "min": 67}, {"jugador": "Bottaniz", "equipo": "visitante", "min": 36, "tipo": "pen"}]},
+                           ],
+                           "Final": [
+                               {"hora_utc": "1979-01-07T19:00Z", "fecha": "1979-01-07", "local": "river-plate", "visitante": "independiente", "gl": 0, "gv": 0, "estadio": "Estadio Monumental", "arbitro": "Arturo Ithurralde"},
+                               {"hora_utc": "1979-01-10T19:00Z", "fecha": "1979-01-10", "local": "independiente", "visitante": "river-plate", "gl": 2, "gv": 0, "estadio": "Estadio La Doble Visera", "arbitro": "Jorge Eduardo Romero", "goles": [{"jugador": "Bochini", "equipo": "local", "min": 19}, {"jugador": "Bochini", "equipo": "local", "min": 56}]},
+                           ],
+                      },
+                      "ida_y_vuelta": True, "gol_visitante": True,
+                      "sin_descensos": "En el Nacional no había descensos: se definían en el Metropolitano."},
     # 1979: el Campeonato Metropolitano 1979 (marzo a agosto; campeón River): 20 equipos por etapas ("etapas"; en
     # tools/a_mano, cada fecha dice su etapa y cada partido su zona): la primera fase, 2 zonas de 10 a dos ruedas (18
     # fechas; pasaban los dos primeros a las semifinales: Vélez y Argentinos empataron el segundo puesto de la zona A y
@@ -3087,6 +3142,8 @@ CLUBES_NUEVOS = {
     "slm": ("san-lorenzo-mdp", "San Lorenzo (Mar del Plata)"),
     "hsr": ("huracan-san-rafael", "Huracán (San Rafael)"),   # (no está en ESPN: el Nacional 1981)
     "jpr": ("juventud-pringles", "Juventud Pringles (San Luis)"),   # (no está en ESPN: el Nacional 1979)
+    "eba": ("estudiantes-buenos-aires", "Estudiantes (Buenos Aires)"),   # (no están en ESPN: 1978)
+    "alv": ("alvarado", "Alvarado (Mar del Plata)"),
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
