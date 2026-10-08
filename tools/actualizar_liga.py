@@ -33,6 +33,20 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1955: el Campeonato de Primera División 1955 (abril a diciembre; campeón River): 16 equipos a dos ruedas (30 fechas),
+    # con 2 puntos por partido ganado. Bajaba el último de la tabla (no había promedios): Platense. Tres partidos de River
+    # se suspendieron: el de San Lorenzo de la fecha 12 se terminó de jugar otro día, y los de Estudiantes (fecha 25) y
+    # San Lorenzo (fecha 27) la AFA se los dio ganados con el resultado del momento. ESPN no lo tiene: va a mano
+    # (tools/a_mano; RSSSF, sin goles salvo los del Boca-River de la fecha 29). No había Libertadores todavía
+    "1955-primera": {"nombre": "Campeonato de Primera División 1955", "anio": 1955, "liga": "a_mano", "slug": "1955-primera",
+                     "zonas": "unica", "fechas": 30, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, el de RSSSF (que en este torneo coincide con la "
+                                    "diferencia de gol).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1955 (las 30 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del Boca 1-2 River de la fecha 29 (de RSSSF, con los minutos). "
+                                        "El goleador del torneo fue Oscar Massei (Rosario Central), con 21 goles.",
+                     "descensos": "tabla", "descienden": 1},
     # 1956: el Campeonato de Primera División 1956 (abril a diciembre; campeón River): 16 equipos a dos ruedas (30 fechas),
     # con 2 puntos por partido ganado. Bajaba el último de la tabla (no había promedios): Argentinos, Tigre y Chacarita
     # empataron con 22 y se desempató por los partidos entre ellos y contra los cinco primeros ("orden_a_mano", el de
