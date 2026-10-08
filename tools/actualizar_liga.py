@@ -33,6 +33,45 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1958: el Campeonato de Primera División 1958 (marzo a diciembre, parado durante el Mundial; campeón Racing): 16
+    # equipos a dos ruedas (30 fechas), con 2 puntos por partido ganado. El River-Huracán de la fecha 20 no se jugó: se lo
+    # dieron ganado a Huracán ("para_local", sin goles) y a River le descontaron 2 puntos. Boca y San Lorenzo empataron el
+    # segundo puesto y jugaron un desempate a ida y vuelta en abril de 1959 (en "playoffs"; quedó segundo Boca); los
+    # demás empatados en puntos, por los partidos contra el otro empatado y contra los tres primeros ("orden_a_mano", el
+    # de RSSSF). Bajaba el peor promedio de puntos por temporada de 1956 a 1958 ("promedios_por_temporada"; RSSSF): Tigre.
+    # ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles salvo los del Lanús-Racing de la fecha 28). No había
+    # Libertadores todavía
+    "1958-primera": {"nombre": "Campeonato de Primera División 1958", "anio": 1958, "liga": "a_mano", "slug": "1958-primera",
+                     "zonas": "unica", "fechas": 30, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_a_mano": ["boca-juniors", "san-lorenzo", "rosario-central", "river-plate", "central-cordoba-rosario",
+                                      "huracan", "argentinos-juniors", "lanus"],
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, los puntos sacados en los partidos contra el otro "
+                                    "empatado y contra los tres primeros de la tabla (así Rosario Central quedó delante de "
+                                    "River, Central Córdoba delante de Huracán y Argentinos delante de Lanús). Boca y San "
+                                    "Lorenzo, empatados en el segundo puesto, jugaron un desempate a ida y vuelta: ganó un "
+                                    "partido cada uno y quedó segundo Boca, por el cociente de goles de la tabla.",
+                     "descuentos": {"river-plate": 2},
+                     "descuentos_texto": "A River se le descontaron 2 puntos (y perdió el partido con Huracán, que no se "
+                                         "jugó).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1958 (las 30 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del Lanús 3-3 Racing de la fecha 28, el partido en el que Racing "
+                                        "salió campeón (de RSSSF, con los minutos). El goleador del torneo fue José "
+                                        "Sanfilippo (San Lorenzo), con 28 goles (29 con el desempate).",
+                     "nombre_playoffs": "Desempate",
+                     "playoffs": [(r"^$^", "Desempate por el segundo puesto")],
+                     "playoffs_a_mano": {
+                          "Desempate por el segundo puesto": [
+                              {"fecha": "1959-04-23", "local": "boca-juniors", "visitante": "san-lorenzo", "gl": 3, "gv": 4, "estadio": "Tomás Adolfo Ducó", "goles": []},
+                              {"fecha": "1959-04-26", "local": "san-lorenzo", "visitante": "boca-juniors", "gl": 1, "gv": 3, "estadio": "Tomás Adolfo Ducó", "goles": [],
+                               "nota": "Ganó un partido cada uno: quedó segundo Boca, por el cociente de goles de la tabla (70/48, contra 66/47 de San Lorenzo)."},
+                          ],
+                     },
+                     "ida_y_vuelta": True,
+                     "promedios_por_temporada": True,
+                     "promedios": {"1956": {"river-plate": [43, 1], "racing-club": [39, 1], "boca-juniors": [40, 1], "san-lorenzo": [29, 1], "velez-sarsfield": [37, 1], "independiente": [30, 1], "rosario-central": [30, 1], "lanus": [41, 1], "estudiantes-de-la-plata": [23, 1], "huracan": [23, 1], "argentinos-juniors": [22, 1], "newell-s-old-boys": [26, 1], "gimnasia-y-esgrima": [26, 1], "tigre": [22, 1]},
+                                   "1957": {"river-plate": [46, 1], "racing-club": [36, 1], "boca-juniors": [34, 1], "san-lorenzo": [38, 1], "velez-sarsfield": [34, 1], "independiente": [31, 1], "rosario-central": [27, 1], "atlanta": [24, 1], "lanus": [22, 1], "estudiantes-de-la-plata": [33, 1], "huracan": [33, 1], "argentinos-juniors": [28, 1], "newell-s-old-boys": [31, 1], "gimnasia-y-esgrima": [23, 1], "tigre": [23, 1]}},
+                     "descensos": "promedios", "descienden": 1},
     # 1959: el Campeonato de Primera División 1959 (mayo a noviembre; campeón San Lorenzo): 16 equipos a dos ruedas (30
     # fechas), con 2 puntos por partido ganado. Con los mismos puntos ordenaban los partidos contra el otro empatado y
     # contra los primeros ("orden_a_mano", el de RSSSF). Bajaba el peor promedio de puntos por temporada de 1957 a 1959
