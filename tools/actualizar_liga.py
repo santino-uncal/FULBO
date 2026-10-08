@@ -33,7 +33,80 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
-    # 1969: el Campeonato Metropolitano 1969 (febrero a julio; campeón Chacarita): 22 equipos por etapas ("etapas"; en
+    # 1968: el Campeonato Metropolitano 1968 (marzo a agosto; campeón San Lorenzo, invicto): 22 equipos por etapas
+    # ("etapas"; en tools/a_mano, cada fecha dice su etapa y cada partido su zona): la primera fase, 2 zonas de 11 a dos
+    # ruedas (22 fechas, con un interzonal por fecha), con 2 puntos por partido ganado y, con los mismos puntos, los goles
+    # a favor como desempate ("desempate_goles": "gf"). Los dos primeros de cada zona jugaban las semifinales y la final, a
+    # un partido en cancha neutral; del 3.º al 6.º pasaban al Nacional; el 7.º y el 8.º jugaban el Torneo Promocional (con
+    # cuatro del interior, mientras se jugaba el Nacional: no definía nada), y los tres últimos, el Torneo Reclasificatorio
+    # con cuatro de la Primera B (los seis primeros jugaban en Primera en 1969: bajaron Ferro y Tigre y subieron Unión y
+    # Morón, "descienden_etapa"). ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles; de la final, los goles y
+    # el árbitro de RSSSF)
+    "1968-metropolitano": {"nombre": "Campeonato Metropolitano 1968", "anio": 1968, "liga": "a_mano", "slug": "1968-metropolitano",
+                           "etapas": [("Primera fase", r"primera-fase$", 2, 1, 22,
+                                       "Los dos primeros de cada zona pasan a las semifinales; del 3.º al 6.º, al Nacional; el "
+                                       "7.º y el 8.º juegan el Torneo Promocional, y los tres últimos, el Torneo "
+                                       "Reclasificatorio. En cada fecha, el que quedaba libre en su zona jugaba un interzonal, "
+                                       "que suma en su zona"),
+                                      ("Torneo Reclasificatorio", r"reclasificatorio$", 6, 23, 18,
+                                       "Los seis primeros juegan en Primera en 1969 (Unión y Deportivo Morón, de la Primera B, "
+                                       "suben; Nueva Chicago y Almagro siguen en la B)"),
+                                      ("Torneo Promocional", r"promocional$", 1, 41, 14,
+                                       "Campeón del Torneo Promocional (lo jugaron, mientras se jugaba el Nacional, el 7.º y "
+                                       "el 8.º de cada zona con cuatro equipos del interior; no definía ascensos ni descensos)")],
+                           "fechas": 54, "pasan": 0, "puntos_victoria": 2, "desempate_goles": "gf",
+                           "nota": "Cada partido ganado valía 2 puntos y, con los mismos puntos, desempataban los goles a favor. "
+                                   "En la primera fase había 2 zonas de 11 a dos ruedas: los dos primeros de cada zona jugaban "
+                                   "las semifinales y la final, a un partido en cancha neutral; del 3.º al 6.º pasaban al "
+                                   "Nacional; el 7.º y el 8.º jugaban el Torneo Promocional, y los tres últimos, el Torneo "
+                                   "Reclasificatorio con cuatro de la Primera B, en el que bajaron Ferro y Tigre.",
+                           "descensos": "etapa",
+                           "descienden_etapa": {"Torneo Reclasificatorio": ["ferro-carril-oeste", "tigre"]},
+                           "goleadores_nota": "Los goles son solo de la final (de RSSSF, con los minutos): del resto del torneo "
+                                              "no están. Los goleadores fueron Alfredo Obberti (Los Andes) y Rodolfo Fischer "
+                                              "(San Lorenzo), con 13 goles.",
+                           "nombre_playoffs": "Fase final",
+                           "playoffs": [(r"^$^", n) for n in ("Semifinales", "Final")],
+                           "playoffs_a_mano": {
+                           "Semifinales": [
+                               {"hora_utc": "1968-07-31T19:00Z", "fecha": "1968-07-31", "local": "san-lorenzo", "visitante": "river-plate", "gl": 3, "gv": 1, "estadio": "Estadio El Cilindro"},
+                               {"hora_utc": "1968-08-01T19:00Z", "fecha": "1968-08-01", "local": "velez-sarsfield", "visitante": "estudiantes-de-la-plata", "gl": 0, "gv": 1, "estadio": "Estadio El Cilindro"},
+                           ],
+                           "Final": [
+                               {"hora_utc": "1968-08-04T19:00Z", "fecha": "1968-08-04", "local": "san-lorenzo", "visitante": "estudiantes-de-la-plata", "gl": 2, "gv": 1, "estadio": "Estadio Monumental", "arbitro": "Miguel Ángel Francisco Comesaña", "alargue": True, "goles": [{"jugador": "Verón", "equipo": "visitante", "min": 47}, {"jugador": "Veglio", "equipo": "local", "min": 67}, {"jugador": "Fischer", "equipo": "local", "min": 100}]},
+                           ],
+                           }},
+    # El Campeonato Nacional 1968 (septiembre a diciembre; campeón Vélez): 16 equipos (12 del Metropolitano y 4 del
+    # Torneo Regional) a una rueda, con 2 puntos por partido ganado. Vélez, River y Racing empataron el primer puesto y
+    # jugaron un triangular en cancha de San Lorenzo ("triangular"); Vélez y River empataron también ahí y fue campeón
+    # Vélez por tener más goles a favor (en el triangular y en la fase regular). ESPN no lo tiene: va a mano
+    # (tools/a_mano; Wikipedia, controlada con RSSSF; del triangular, los goles y los árbitros de Wikipedia)
+    "1968-nacional": {"nombre": "Campeonato Nacional 1968", "anio": 1968, "liga": "a_mano", "slug": "1968-nacional",
+                      "zonas": "unica", "fechas": 15, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                      "desempate_goles": "gf", "triangular": True, "nombre_playoffs": "Triangular final",
+                      "playoffs": [(r"^$^", "Triangular final")],
+                      "playoffs_a_mano": {
+                           "Triangular final": [
+                               {"hora_utc": "1968-12-19T19:00Z", "fecha": "1968-12-19", "local": "river-plate", "visitante": "racing-club", "gl": 2, "gv": 0, "estadio": "Estadio El Gasómetro", "arbitro": "Aurelio Domingo Bossolino", "goles": [{"jugador": "Dominichi", "equipo": "local", "min": 43}, {"jugador": "Más", "equipo": "local", "min": 68}]},
+                               {"hora_utc": "1968-12-22T19:00Z", "fecha": "1968-12-22", "local": "river-plate", "visitante": "velez-sarsfield", "gl": 1, "gv": 1, "estadio": "Estadio El Gasómetro", "arbitro": "Guillermo Nimo", "goles": [{"jugador": "Luna", "equipo": "visitante", "min": 11}, {"jugador": "Onega", "equipo": "local", "min": 35}]},
+                               {"hora_utc": "1968-12-29T19:00Z", "fecha": "1968-12-29", "local": "velez-sarsfield", "visitante": "racing-club", "gl": 4, "gv": 2, "estadio": "Estadio El Gasómetro", "arbitro": "Jorge Aníbal Álvarez", "goles": [{"jugador": "Moreyra", "equipo": "local", "min": 3}, {"jugador": "Maschio", "equipo": "visitante", "min": 23}, {"jugador": "Wehbe", "equipo": "local", "min": 55}, {"jugador": "Wehbe", "equipo": "local", "min": 81}, {"jugador": "Martinoli", "equipo": "visitante", "min": 88}, {"jugador": "Wehbe", "equipo": "local", "min": 89, "tipo": "pen"}]},
+                           ],
+                      },
+                      "texto_triangular": "Vélez, River y Racing terminaron empatados en el primer puesto, con 22 puntos, y "
+                                          "jugaron un triangular a un partido, todos contra todos, en cancha de San Lorenzo. "
+                                          "Vélez y River sumaron 3 puntos: Vélez salió campeón por tener más goles a favor "
+                                          "(también en la fase regular, 39 contra 35).",
+                      "anual_texto": "La tabla del Campeonato Nacional 1968 (15 fechas, a una rueda; sin el triangular). "
+                                     "Cada partido ganado valía 2 puntos.",
+                      "goleadores_nota": "Los goles son solo del triangular final (de Wikipedia, con los minutos). El "
+                                         "goleador del torneo fue Omar Wehbe (Vélez), con 13 goles.",
+                      "sin_descensos": "En el Nacional no había descensos: se definían en el Metropolitano.",
+                      "cupos": {"anio": 1969, "fijos": True,
+                                "libertadores": [("Campeón del Nacional 1968", "velez-sarsfield"),
+                                                 ("Subcampeón del Nacional 1968", "river-plate")],
+                                "nota": "Los dos se clasificaron a la Copa Libertadores 1969, pero no la jugaron: los clubes "
+                                        "argentinos renunciaron a esa edición."}},
+    # 1969:el Campeonato Metropolitano 1969 (febrero a julio; campeón Chacarita): 22 equipos por etapas ("etapas"; en
     # tools/a_mano, cada fecha dice su etapa y cada partido su zona): la primera fase, 2 zonas de 11 a dos ruedas (22
     # fechas; en cada una, el que quedaba libre en su zona jugaba un interzonal, sin zona en el archivo), con 2 puntos por
     # partido ganado y, con los mismos puntos, los goles a favor como desempate ("desempate_goles": "gf"). Los dos primeros

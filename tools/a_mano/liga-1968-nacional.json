@@ -1,0 +1,1161 @@
+{
+ "nombre": "Campeonato Nacional 1968",
+ "fuente": "Resultados, días y estadios de Wikipedia, controlados con RSSSF (Osvaldo José Gorgazzi): coinciden en todos. Del triangular de desempate, los goles y los árbitros de Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1968-09-06",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente-rivadavia",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-08",
+     "local": "belgrano",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-08",
+     "local": "los-andes",
+     "visitante": "huracan-ingeniero-white",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Los Andes",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-08",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-08",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-08",
+     "local": "san-martin-tucuman",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "La Ciudadela",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-09",
+     "local": "racing-club",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-11",
+     "local": "colon",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1968-09-13",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-15",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-15",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-15",
+     "local": "huracan-ingeniero-white",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Olimpo de Bahía Blanca",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-15",
+     "local": "independiente-rivadavia",
+     "visitante": "los-andes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Independiente Rivadavia",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-15",
+     "local": "lanus",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-15",
+     "local": "velez-sarsfield",
+     "visitante": "belgrano",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-16",
+     "local": "independiente",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1968-09-22",
+     "local": "belgrano",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-22",
+     "local": "colon",
+     "visitante": "huracan-ingeniero-white",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-22",
+     "local": "los-andes",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Los Andes",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-22",
+     "local": "racing-club",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-22",
+     "local": "river-plate",
+     "visitante": "independiente-rivadavia",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-22",
+     "local": "san-martin-tucuman",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-23",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1968-09-29",
+     "local": "boca-juniors",
+     "visitante": "belgrano",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-29",
+     "local": "huracan-ingeniero-white",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Olimpo de Bahía Blanca",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-29",
+     "local": "independiente",
+     "visitante": "los-andes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-29",
+     "local": "independiente-rivadavia",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Independiente Rivadavia",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-29",
+     "local": "lanus",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-29",
+     "local": "rosario-central",
+     "visitante": "san-martin-tucuman",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-29",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1968-09-30",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1968-10-06",
+     "local": "belgrano",
+     "visitante": "huracan-ingeniero-white",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Alberdi",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-06",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-06",
+     "local": "los-andes",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Los Andes",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-06",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-06",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-06",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-06",
+     "local": "san-martin-tucuman",
+     "visitante": "independiente-rivadavia",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-06",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1968-10-11",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-13",
+     "local": "colon",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-13",
+     "local": "huracan",
+     "visitante": "san-martin-tucuman",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-13",
+     "local": "huracan-ingeniero-white",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Olimpo de Bahía Blanca",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-13",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-13",
+     "local": "independiente-rivadavia",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Independiente Rivadavia",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-13",
+     "local": "rosario-central",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-13",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1968-10-18",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-20",
+     "local": "belgrano",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Alberdi",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-20",
+     "local": "huracan-ingeniero-white",
+     "visitante": "san-martin-tucuman",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Olimpo de Bahía Blanca",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-20",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-20",
+     "local": "san-lorenzo",
+     "visitante": "independiente-rivadavia",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-20",
+     "local": "velez-sarsfield",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-21",
+     "local": "los-andes",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-20",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1968-10-25",
+     "local": "independiente",
+     "visitante": "huracan-ingeniero-white",
+     "gl": 8,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-27",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-27",
+     "local": "colon",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-27",
+     "local": "huracan",
+     "visitante": "belgrano",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-27",
+     "local": "independiente-rivadavia",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Independiente Rivadavia",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-27",
+     "local": "san-martin-tucuman",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-27",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1968-10-28",
+     "local": "lanus",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Banfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1968-11-03",
+     "local": "belgrano",
+     "visitante": "san-martin-tucuman",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Gigante de Alberdi",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-03",
+     "local": "colon",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-03",
+     "local": "huracan-ingeniero-white",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Olimpo de Bahía Blanca",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-03",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-03",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-03",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-04",
+     "local": "independiente",
+     "visitante": "independiente-rivadavia",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-05",
+     "local": "los-andes",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Club Atlético Banfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1968-11-10",
+     "local": "boca-juniors",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "los-andes",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-10",
+     "local": "independiente-rivadavia",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Independiente Rivadavia",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-10",
+     "local": "lanus",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-10",
+     "local": "racing-club",
+     "visitante": "belgrano",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-10",
+     "local": "san-martin-tucuman",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Ciudadela",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-10",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-11",
+     "local": "san-lorenzo",
+     "visitante": "huracan-ingeniero-white",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1968-11-15",
+     "local": "racing-club",
+     "visitante": "san-martin-tucuman",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-17",
+     "local": "belgrano",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-17",
+     "local": "colon",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-17",
+     "local": "huracan-ingeniero-white",
+     "visitante": "independiente-rivadavia",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Olimpo de Bahía Blanca",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-17",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-17",
+     "local": "river-plate",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-17",
+     "local": "rosario-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-18",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1968-11-24",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-24",
+     "local": "huracan-ingeniero-white",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Olimpo de Bahía Blanca",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-24",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-24",
+     "local": "los-andes",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Los Andes",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-24",
+     "local": "rosario-central",
+     "visitante": "independiente-rivadavia",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-24",
+     "local": "san-lorenzo",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-25",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-martin-tucuman",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1968-11-28",
+     "local": "belgrano",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Gigante de Alberdi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1968-12-01",
+     "local": "colon",
+     "visitante": "belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-01",
+     "local": "huracan",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-01",
+     "local": "independiente-rivadavia",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Independiente Rivadavia",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-01",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-01",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-01",
+     "local": "san-martin-tucuman",
+     "visitante": "los-andes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Ciudadela",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-01",
+     "local": "velez-sarsfield",
+     "visitante": "huracan-ingeniero-white",
+     "gl": 11,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-02",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Banfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1968-12-06",
+     "local": "huracan",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-07",
+     "local": "huracan-ingeniero-white",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Olimpo de Bahía Blanca",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-08",
+     "local": "colon",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-08",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-08",
+     "local": "independiente-rivadavia",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Independiente Rivadavia",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-08",
+     "local": "los-andes",
+     "visitante": "belgrano",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Gigante de Alberdi",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-08",
+     "local": "river-plate",
+     "visitante": "san-martin-tucuman",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-09",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1968-12-12",
+     "local": "belgrano",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Talleres de Córdoba",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-13",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-13",
+     "local": "san-martin-tucuman",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "La Ciudadela",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-15",
+     "local": "boca-juniors",
+     "visitante": "huracan-ingeniero-white",
+     "gl": 8,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-15",
+     "local": "lanus",
+     "visitante": "independiente-rivadavia",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-15",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-15",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1968-12-16",
+     "local": "san-lorenzo",
+     "visitante": "los-andes",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

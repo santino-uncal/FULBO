@@ -1,0 +1,4200 @@
+{
+ "nombre": "Campeonato Metropolitano 1968",
+ "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi), sin goles (Wikipedia no tiene los resultados). Estadio: la cancha que dice RSSSF cuando no era la del local; si no, la del local. Las tablas que salen de los partidos (con los goles a favor como desempate, como se usaba) son iguales a las de RSSSF y Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-03-01",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-03",
+     "local": "atlanta",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-03",
+     "local": "platense",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-03",
+     "local": "huracan",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-03",
+     "local": "los-andes",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-03",
+     "local": "quilmes",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-03",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-03",
+     "local": "tigre",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-03",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1968-03-04",
+     "local": "racing-club",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-03-08",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-10",
+     "local": "banfield",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-10",
+     "local": "colon",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-10",
+     "local": "lanus",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-10",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-10",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-10",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-10",
+     "local": "independiente",
+     "visitante": "los-andes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-10",
+     "local": "velez-sarsfield",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-10",
+     "local": "atlanta",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1968-03-11",
+     "local": "river-plate",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-03-15",
+     "local": "quilmes",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1968-03-17",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-17",
+     "local": "ferro-carril-oeste",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-17",
+     "local": "platense",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-17",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-17",
+     "local": "chacarita-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-17",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-17",
+     "local": "los-andes",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-17",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-17",
+     "local": "tigre",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-18",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-03-22",
+     "local": "river-plate",
+     "visitante": "chacarita-juniors",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-24",
+     "local": "atlanta",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-24",
+     "local": "banfield",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-24",
+     "local": "colon",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-24",
+     "local": "newell-s-old-boys",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-24",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-24",
+     "local": "independiente",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-24",
+     "local": "quilmes",
+     "visitante": "los-andes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-24",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-24",
+     "local": "platense",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1968-03-25",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-03-29",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-31",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-31",
+     "local": "lanus",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-31",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-03-31",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-31",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-31",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-31",
+     "local": "rosario-central",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-31",
+     "local": "tigre",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-03-31",
+     "local": "los-andes",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": []
+    },
+    {
+     "fecha": "1968-04-01",
+     "local": "ferro-carril-oeste",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "A"
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-04-05",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-04-07",
+     "local": "atlanta",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-04-07",
+     "local": "colon",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-04-07",
+     "local": "newell-s-old-boys",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-04-07",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-04-07",
+     "local": "independiente",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-04-07",
+     "local": "quilmes",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-04-07",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-04-07",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1968-04-08",
+     "local": "los-andes",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-04-11",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "A"
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-04-13",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1968-04-14",
+     "local": "banfield",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-04-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-04-14",
+     "local": "ferro-carril-oeste",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-04-14",
+     "local": "lanus",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-04-14",
+     "local": "argentinos-juniors",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-04-14",
+     "local": "chacarita-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-04-14",
+     "local": "huracan",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-04-14",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-04-14",
+     "local": "tigre",
+     "visitante": "los-andes",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-04-15",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-04-19",
+     "local": "los-andes",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-04-21",
+     "local": "atlanta",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-04-21",
+     "local": "colon",
+     "visitante": "newell-s-old-boys",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-04-21",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-04-21",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-04-21",
+     "local": "quilmes",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-04-21",
+     "local": "rosario-central",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-04-21",
+     "local": "velez-sarsfield",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-04-22",
+     "local": "san-lorenzo",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-05-29",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-05-30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-04-26",
+     "local": "banfield",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-04-28",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-04-28",
+     "local": "lanus",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-04-28",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-04-28",
+     "local": "argentinos-juniors",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-04-28",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-04-28",
+     "local": "huracan",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-04-28",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-04-28",
+     "local": "tigre",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1968-04-29",
+     "local": "chacarita-juniors",
+     "visitante": "los-andes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-26",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-05-03",
+     "local": "san-lorenzo",
+     "visitante": "colon",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-05-05",
+     "local": "atlanta",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-05-05",
+     "local": "boca-juniors",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-05-05",
+     "local": "los-andes",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-05-05",
+     "local": "quilmes",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-05-05",
+     "local": "rosario-central",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-05-05",
+     "local": "tigre",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-05-05",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-05-05",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-05-06",
+     "local": "platense",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-06",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-05-10",
+     "local": "river-plate",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-05-12",
+     "local": "banfield",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-05-12",
+     "local": "colon",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-05-12",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-05-12",
+     "local": "newell-s-old-boys",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-05-12",
+     "local": "argentinos-juniors",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-05-12",
+     "local": "chacarita-juniors",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-05-12",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-05-12",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1968-05-13",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-07-17",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-05-19",
+     "local": "colon",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-05-19",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-05-19",
+     "local": "san-lorenzo",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-05-19",
+     "local": "argentinos-juniors",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-05-19",
+     "local": "chacarita-juniors",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-05-19",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "los-andes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-05-19",
+     "local": "independiente",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-05-19",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-05-19",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1968-05-20",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-05-21",
+     "local": "banfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-05-24",
+     "local": "quilmes",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-05-26",
+     "local": "boca-juniors",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-05-26",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-05-26",
+     "local": "ferro-carril-oeste",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-05-26",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-05-26",
+     "local": "racing-club",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-05-26",
+     "local": "los-andes",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-05-26",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-05-26",
+     "local": "tigre",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-05-26",
+     "local": "chacarita-juniors",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1968-05-27",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-05-31",
+     "local": "argentinos-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-02",
+     "local": "atlanta",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-02",
+     "local": "banfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-02",
+     "local": "colon",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-02",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-02",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-02",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "tigre",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-02",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-02",
+     "local": "velez-sarsfield",
+     "visitante": "los-andes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-02",
+     "local": "lanus",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1968-06-03",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-06-07",
+     "local": "racing-club",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-09",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-09",
+     "local": "ferro-carril-oeste",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-09",
+     "local": "lanus",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-09",
+     "local": "chacarita-juniors",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-09",
+     "local": "huracan",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 8,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-09",
+     "local": "los-andes",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-09",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-09",
+     "local": "tigre",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-09",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1968-06-10",
+     "local": "boca-juniors",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-06-14",
+     "local": "velez-sarsfield",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-16",
+     "local": "atlanta",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-16",
+     "local": "colon",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-16",
+     "local": "newell-s-old-boys",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A",
+     "para_local": [
+      2,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      2,
+      "V"
+     ],
+     "nota": "Terminó 2-0, pero la AFA se lo dio ganado a Lanús porque Newell's puso un jugador que no podía jugar."
+    },
+    {
+     "fecha": "1968-06-16",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-16",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-16",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-16",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-16",
+     "local": "quilmes",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-16",
+     "local": "banfield",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1968-06-17",
+     "local": "river-plate",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-06-21",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "platense",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-23",
+     "local": "banfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-23",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-23",
+     "local": "lanus",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-23",
+     "local": "racing-club",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-23",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-23",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-23",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-23",
+     "local": "rosario-central",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-23",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1968-07-03",
+     "local": "tigre",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-06-28",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-30",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-30",
+     "local": "colon",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-30",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-30",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-06-30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-30",
+     "local": "los-andes",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-30",
+     "local": "quilmes",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-30",
+     "local": "velez-sarsfield",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-06-30",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1968-07-09",
+     "local": "atlanta",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-07-05",
+     "local": "lanus",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-07-07",
+     "local": "banfield",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-07-07",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-07-07",
+     "local": "newell-s-old-boys",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-07-07",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-07-07",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-07-07",
+     "local": "huracan",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-07-07",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-07-07",
+     "local": "tigre",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-07-07",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 6,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1968-07-08",
+     "local": "chacarita-juniors",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-07-12",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-07-14",
+     "local": "atlanta",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-07-14",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-07-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-07-14",
+     "local": "platense",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-07-14",
+     "local": "los-andes",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-07-14",
+     "local": "quilmes",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-07-14",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-07-14",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-07-14",
+     "local": "colon",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    },
+    {
+     "fecha": "1968-07-15",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-07-19",
+     "local": "huracan",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-07-21",
+     "local": "banfield",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-07-21",
+     "local": "colon",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-07-21",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-07-21",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-07-21",
+     "local": "newell-s-old-boys",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-07-21",
+     "local": "argentinos-juniors",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-07-21",
+     "local": "chacarita-juniors",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-07-21",
+     "local": "river-plate",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-07-21",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1968-07-22",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1968-07-27",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1968-07-28",
+     "local": "atlanta",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-07-28",
+     "local": "boca-juniors",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-07-28",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-07-28",
+     "local": "platense",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-07-28",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 7,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1968-07-28",
+     "local": "los-andes",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-07-28",
+     "local": "quilmes",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-07-28",
+     "local": "rosario-central",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-07-28",
+     "local": "tigre",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1968-07-28",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1968-08-02",
+     "local": "atlanta",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-08-03",
+     "local": "deportivo-moron",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-08-03",
+     "local": "tigre",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-08-03",
+     "local": "union",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-08-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1968-08-09",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-08-10",
+     "local": "almagro",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Tres de Febrero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-08-10",
+     "local": "ferro-carril-oeste",
+     "visitante": "union",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-08-10",
+     "local": "tigre",
+     "visitante": "deportivo-moron",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-08-12",
+     "local": "quilmes",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1968-08-16",
+     "local": "atlanta",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-08-17",
+     "local": "deportivo-moron",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-08-17",
+     "local": "nueva-chicago",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "República de Mataderos",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-08-18",
+     "local": "union",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-08-19",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1968-08-23",
+     "local": "tigre",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-08-24",
+     "local": "ferro-carril-oeste",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-08-24",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "deportivo-moron",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-08-24",
+     "local": "platense",
+     "visitante": "union",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-08-24",
+     "local": "quilmes",
+     "visitante": "nueva-chicago",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1968-09-01",
+     "local": "almagro",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tres de Febrero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-01",
+     "local": "deportivo-moron",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-01",
+     "local": "nueva-chicago",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "República de Mataderos",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-01",
+     "local": "union",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-02",
+     "local": "atlanta",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1968-09-07",
+     "local": "atlanta",
+     "visitante": "deportivo-moron",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-07",
+     "local": "platense",
+     "visitante": "almagro",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-07",
+     "local": "quilmes",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-07",
+     "local": "tigre",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-08",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1968-09-14",
+     "local": "almagro",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tres de Febrero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-14",
+     "local": "deportivo-moron",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-14",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-14",
+     "local": "nueva-chicago",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "República de Mataderos",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-15",
+     "local": "union",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1968-09-21",
+     "local": "atlanta",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-21",
+     "local": "platense",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-21",
+     "local": "tigre",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-21",
+     "local": "union",
+     "visitante": "deportivo-moron",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-22",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "almagro",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1968-09-28",
+     "local": "almagro",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tres de Febrero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-28",
+     "local": "deportivo-moron",
+     "visitante": "platense",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-28",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-28",
+     "local": "nueva-chicago",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "República de Mataderos",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-28",
+     "local": "quilmes",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1968-10-12",
+     "local": "ferro-carril-oeste",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-12",
+     "local": "nueva-chicago",
+     "visitante": "deportivo-moron",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "República de Mataderos",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-12",
+     "local": "platense",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-12",
+     "local": "quilmes",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-13",
+     "local": "almagro",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Unión",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1968-10-19",
+     "local": "atlanta",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-19",
+     "local": "deportivo-moron",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-19",
+     "local": "nueva-chicago",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "República de Mataderos",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-20",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-20",
+     "local": "union",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1968-10-26",
+     "local": "almagro",
+     "visitante": "deportivo-moron",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Tres de Febrero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-26",
+     "local": "ferro-carril-oeste",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-26",
+     "local": "platense",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-26",
+     "local": "quilmes",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-27",
+     "local": "tigre",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 35,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1968-11-02",
+     "local": "atlanta",
+     "visitante": "tigre",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-02",
+     "local": "almagro",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tres de Febrero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-02",
+     "local": "deportivo-moron",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-02",
+     "local": "nueva-chicago",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "República de Mataderos",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-02",
+     "local": "union",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 36,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1968-11-09",
+     "local": "ferro-carril-oeste",
+     "visitante": "deportivo-moron",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-09",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-09",
+     "local": "platense",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-09",
+     "local": "quilmes",
+     "visitante": "almagro",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-09",
+     "local": "tigre",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 37,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1968-11-16",
+     "local": "almagro",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Tres de Febrero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-16",
+     "local": "deportivo-moron",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-16",
+     "local": "nueva-chicago",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "República de Mataderos",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-16",
+     "local": "union",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 38,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1968-11-23",
+     "local": "atlanta",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-23",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-23",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-23",
+     "local": "quilmes",
+     "visitante": "deportivo-moron",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-23",
+     "local": "tigre",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 39,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1968-11-30",
+     "local": "almagro",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tres de Febrero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-30",
+     "local": "deportivo-moron",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-30",
+     "local": "ferro-carril-oeste",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-30",
+     "local": "nueva-chicago",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "República de Mataderos",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-30",
+     "local": "quilmes",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 40,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1968-12-07",
+     "local": "atlanta",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-12-07",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-12-07",
+     "local": "platense",
+     "visitante": "deportivo-moron",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-12-07",
+     "local": "tigre",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-12-07",
+     "local": "union",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 41,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1968-08-26",
+     "local": "argentinos-juniors",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-08-30",
+     "local": "chacarita-juniors",
+     "visitante": "central-cordoba",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-01",
+     "local": "huracan-corrientes",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Huracán Corrientes",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-01",
+     "local": "san-martin-san-juan",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Hilario Sánchez",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 42,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1968-09-08",
+     "local": "banfield",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-08",
+     "local": "central-cordoba",
+     "visitante": "huracan-corrientes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Central Córdoba de Santiago del Estero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-08",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-08",
+     "local": "san-lorenzo-mdp",
+     "visitante": "san-martin-san-juan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Club Nación",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 43,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1968-09-15",
+     "local": "argentinos-juniors",
+     "visitante": "central-cordoba",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-15",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-15",
+     "local": "san-martin-san-juan",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Hilario Sánchez",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-15",
+     "local": "huracan-corrientes",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Lipton",
+     "goles": [],
+     "zona": "Posiciones",
+     "nota": "Se suspendió a los 43 minutos, 0-1; el 26 de septiembre la AFA lo dio por terminado con ese resultado."
+    }
+   ]
+  },
+  {
+   "numero": 44,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1968-09-22",
+     "local": "banfield",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-22",
+     "local": "san-lorenzo-mdp",
+     "visitante": "huracan-corrientes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Club Nación",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-22",
+     "local": "central-cordoba",
+     "visitante": "san-martin-san-juan",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Central Córdoba de Santiago del Estero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-22",
+     "local": "newell-s-old-boys",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 45,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1968-09-29",
+     "local": "argentinos-juniors",
+     "visitante": "huracan-corrientes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-29",
+     "local": "central-cordoba",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Central Córdoba de Santiago del Estero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-29",
+     "local": "chacarita-juniors",
+     "visitante": "san-martin-san-juan",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-09-29",
+     "local": "san-lorenzo-mdp",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Club Nación",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 46,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1968-10-06",
+     "local": "banfield",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-06",
+     "local": "san-martin-san-juan",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Hilario Sánchez",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-07",
+     "local": "chacarita-juniors",
+     "visitante": "huracan-corrientes",
+     "gl": 8,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-07",
+     "local": "newell-s-old-boys",
+     "visitante": "central-cordoba",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 47,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1968-10-12",
+     "local": "argentinos-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-13",
+     "local": "huracan-corrientes",
+     "visitante": "san-martin-san-juan",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Alvear",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-13",
+     "local": "san-lorenzo-mdp",
+     "visitante": "central-cordoba",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Club Nación",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-14",
+     "local": "newell-s-old-boys",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 48,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1968-10-20",
+     "local": "banfield",
+     "visitante": "san-martin-san-juan",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-20",
+     "local": "central-cordoba",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Central Córdoba de Santiago del Estero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-20",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan-corrientes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-20",
+     "local": "san-lorenzo-mdp",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Club Nación",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 49,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1968-10-27",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-27",
+     "local": "chacarita-juniors",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-27",
+     "local": "huracan-corrientes",
+     "visitante": "central-cordoba",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Alvear",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-10-27",
+     "local": "san-martin-san-juan",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Hilario Sánchez",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 50,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1968-11-02",
+     "local": "newell-s-old-boys",
+     "visitante": "san-martin-san-juan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-03",
+     "local": "banfield",
+     "visitante": "huracan-corrientes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-03",
+     "local": "central-cordoba",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Central Córdoba de Santiago del Estero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-03",
+     "local": "san-lorenzo-mdp",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Club Nación",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 51,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1968-11-08",
+     "local": "argentinos-juniors",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-10",
+     "local": "chacarita-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-10",
+     "local": "huracan-corrientes",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Alvear",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-10",
+     "local": "san-martin-san-juan",
+     "visitante": "central-cordoba",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Hilario Sánchez",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 52,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1968-11-16",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-17",
+     "local": "banfield",
+     "visitante": "central-cordoba",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-17",
+     "local": "huracan-corrientes",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Alvear",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-17",
+     "local": "san-martin-san-juan",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Hilario Sánchez",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 53,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1968-11-22",
+     "local": "central-cordoba",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Central Córdoba de Santiago del Estero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-24",
+     "local": "argentinos-juniors",
+     "visitante": "san-martin-san-juan",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-24",
+     "local": "huracan-corrientes",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Lipton",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-24",
+     "local": "san-lorenzo-mdp",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Club Nación",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 54,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1968-11-30",
+     "local": "banfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-11-30",
+     "local": "san-martin-san-juan",
+     "visitante": "huracan-corrientes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Hilario Sánchez",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-12-01",
+     "local": "central-cordoba",
+     "visitante": "san-lorenzo-mdp",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Central Córdoba de Santiago del Estero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1968-12-01",
+     "local": "chacarita-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  }
+ ]
+}
