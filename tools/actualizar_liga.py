@@ -33,6 +33,29 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1962: el Campeonato de Primera División 1962 (marzo a diciembre; campeón Boca): 15 equipos a dos ruedas (30 fechas,
+    # en cada una quedaba uno libre), con 2 puntos por partido ganado. Con los mismos puntos ordenaban los partidos contra
+    # el otro empatado y contra los tres primeros ("orden_a_mano", el de RSSSF). Bajaban los dos peores promedios de puntos
+    # por temporada de 1960 a 1962 ("promedios_por_temporada"; RSSSF y Wikipedia): Ferro y Quilmes. ESPN no lo tiene: va a
+    # mano (tools/a_mano; RSSSF, sin goles salvo los del Boca-Estudiantes de la última fecha). A la Libertadores 1963 fue el
+    # campeón
+    "1962-primera": {"nombre": "Campeonato de Primera División 1962", "anio": 1962, "liga": "a_mano", "slug": "1962-primera",
+                     "zonas": "unica", "fechas": 30, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_a_mano": ["rosario-central", "chacarita-juniors", "huracan", "atlanta", "san-lorenzo",
+                                      "ferro-carril-oeste"],
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, los puntos sacados en los partidos contra el otro "
+                                    "empatado y contra los tres primeros (así Rosario Central quedó delante de Chacarita, "
+                                    "Huracán delante de Atlanta y San Lorenzo delante de Ferro).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1962 (las 30 fechas; eran 15 equipos y en "
+                                    "cada fecha uno quedaba libre). Cada partido ganado valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del Boca-Estudiantes de la última fecha (de RSSSF, con los "
+                                        "minutos). El goleador fue Luis Artime (River), con 25 goles.",
+                     # (los puntos de cada temporada; se divide por las temporadas jugadas)
+                     "promedios_por_temporada": True,
+                     "promedios": {"1960": {"river-plate": [39, 1], "boca-juniors": [37, 1], "racing-club": [37, 1], "independiente": [41, 1], "san-lorenzo": [36, 1], "atlanta": [27, 1], "gimnasia-y-esgrima": [25, 1], "chacarita-juniors": [28, 1], "argentinos-juniors": [39, 1], "velez-sarsfield": [33, 1], "rosario-central": [29, 1], "huracan": [28, 1], "estudiantes-de-la-plata": [23, 1], "ferro-carril-oeste": [19, 1]},
+                                   "1961": {"river-plate": [38, 1], "boca-juniors": [35, 1], "racing-club": [47, 1], "independiente": [33, 1], "san-lorenzo": [40, 1], "atlanta": [37, 1], "gimnasia-y-esgrima": [28, 1], "chacarita-juniors": [31, 1], "argentinos-juniors": [24, 1], "velez-sarsfield": [31, 1], "rosario-central": [23, 1], "huracan": [25, 1], "estudiantes-de-la-plata": [22, 1], "ferro-carril-oeste": [21, 1]}},
+                     "descensos": "promedios", "descienden": 2,
+                     "cupos": {"anio": 1963, "fijos": True, "libertadores": [("Campeón de 1962", "boca-juniors")]}},
     # 1963: el Campeonato de Primera División 1963 (abril a noviembre; campeón Independiente): 14 equipos a dos ruedas (26
     # fechas), con 2 puntos por partido ganado. Con los mismos puntos ordenaban los partidos contra el otro empatado y
     # contra los primeros de la tabla ("orden_a_mano", el de RSSSF). Por los promedios bajaba Estudiantes, pero el descenso
