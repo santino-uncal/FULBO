@@ -33,6 +33,32 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1951: el Campeonato de Primera División 1951 (abril a diciembre; campeón Racing): 17 equipos a dos ruedas (34 fechas,
+    # en cada una quedaba uno libre), con 2 puntos por partido ganado. Banfield y Racing terminaron empatados arriba y
+    # definieron el título en una final a ida y vuelta en la cancha de San Lorenzo (en "playoffs"; ganó Racing). Bajaban
+    # los dos últimos de la tabla (no había promedios): Quilmes y Gimnasia. ESPN no lo tiene: va a mano (tools/a_mano;
+    # RSSSF, sin goles; de la final, el gol de RSSSF; la tabla, controlada con la de Wikipedia). No había Libertadores
+    "1951-primera": {"nombre": "Campeonato de Primera División 1951", "anio": 1951, "liga": "a_mano", "slug": "1951-primera",
+                     "zonas": "unica", "fechas": 34, "pasan": 2, "puntos_victoria": 2,
+                     "texto_pasan": "Empatados en el primer puesto (44 puntos): definieron el título en una final a ida y "
+                                    "vuelta, en la cancha de San Lorenzo",
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, el de Wikipedia (que en este torneo coincide con "
+                                    "la diferencia de gol).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1951 (las 34 fechas; eran 17 equipos y en "
+                                    "cada fecha quedaba uno libre), sin la final. Cada partido ganado valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo de la final (de RSSSF, con el minuto). El goleador del torneo fue "
+                                        "Santiago Vernazza (River), con 22 goles.",
+                     "nombre_playoffs": "Final (desempate)",
+                     "playoffs": [(r"^$^", "Final")],
+                     "playoffs_a_mano": {
+                          "Final": [
+                              {"fecha": "1951-12-01", "local": "racing-club", "visitante": "banfield", "gl": 0, "gv": 0, "estadio": "El Gasómetro", "goles": []},
+                              {"fecha": "1951-12-05", "local": "banfield", "visitante": "racing-club", "gl": 0, "gv": 1, "estadio": "El Gasómetro", "arbitro": "Cross",
+                               "goles": [{"jugador": "Boyé", "equipo": "visitante", "min": 46}]},
+                          ],
+                     },
+                     "ida_y_vuelta": True,
+                     "descensos": "tabla", "descienden": 2},
     # 1952: el Campeonato de Primera División 1952 (abril a noviembre; campeón River): 16 equipos a dos ruedas (30 fechas),
     # con 2 puntos por partido ganado. Bajaba el último de la tabla (no había promedios): Atlanta. El Newell's-River de la
     # última fecha se suspendió y la AFA se lo dio ganado a River con el 1-0 del momento. ESPN no lo tiene: va a mano

@@ -1,18 +1,19 @@
 /* Los títulos de liga de cada club, para mostrar al lado del campeón qué número de título es (River en el Campeonato
    1989-90: el 23). Cuenta oficial de la AFA (Wikipedia, "List of Argentine Primera División champions"):
-   - antes: los títulos de cada club hasta el Campeonato 1951 (amateurs y profesionales); ultimo_antes: el campeón
-     de 1951 (para contar los títulos seguidos: bicampeonatos, tricampeonatos), y seguidos_antes, cuántos llevaba
-     seguidos (Racing: 3, los de 1949, 1950 y 1951).
+   - antes: los títulos de cada club hasta el Campeonato 1950 (amateurs y profesionales); ultimo_antes: el campeón
+     de 1950 (para contar los títulos seguidos: bicampeonatos, tricampeonatos), y seguidos_antes, cuántos llevaba
+     seguidos (Racing: 2, los de 1949 y 1950).
    - torneos: los títulos de cada torneo cargado, en orden. "club" es el campeón del torneo; ["club", "texto"] es otro
      título que se definió en ese torneo (la final de 1990-91, la Superfinal 2012-13, el "Campeón de Liga" 2025).
    - notas: los torneos cuyo campeón no suma un título de liga (y por qué).
    Al terminar un torneo nuevo, agregar su campeón acá (la prueba de tests/test_liga.py avisa si falta). */
 window.LIGA_TITULOS = {
-  "antes": {"river-plate": 9, "boca-juniors": 12, "racing-club": 12, "independiente": 5, "san-lorenzo": 6,
+  "antes": {"river-plate": 9, "boca-juniors": 12, "racing-club": 11, "independiente": 5, "san-lorenzo": 6,
             "huracan": 4, "estudiantes-de-la-plata": 1,
             "quilmes": 1},
-  "ultimo_antes": "racing-club", "seguidos_antes": 3,
+  "ultimo_antes": "racing-club", "seguidos_antes": 2,
   "torneos": {
+    "1951-primera": ["racing-club"],
     "1952-primera": ["river-plate"],
     "1953-primera": ["river-plate"],
     "1954-primera": ["boca-juniors"],
