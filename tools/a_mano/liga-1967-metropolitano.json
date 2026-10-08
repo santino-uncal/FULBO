@@ -1,0 +1,4189 @@
+{
+ "nombre": "Campeonato Metropolitano 1967",
+ "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi), sin goles; los resultados, controlados con Wikipedia. Estadio: la cancha que dice RSSSF cuando no era la del local; si no, la del local. Las tablas que salen de los partidos (con los goles a favor como desempate, como se usaba) son iguales a las de RSSSF y Wikipedia. Wikipedia pone Lanús 5-2 Atlanta (fecha 16); va el 5-1 de RSSSF, que es el que da los goles de los dos de la tabla oficial. RSSSF no está seguro del día de la última fecha del Reclasificatorio (23 de diciembre) ni sabe el del Atlanta-Unión de la fecha 11",
+ "fechas": [
+  {
+   "numero": 1,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-03-03",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-05",
+     "local": "atlanta",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-05",
+     "local": "boca-juniors",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-05",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-05",
+     "local": "lanus",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-05",
+     "local": "deportivo-espanol",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 6,
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-05",
+     "local": "platense",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-05",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-05",
+     "local": "union",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-05",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-03-10",
+     "local": "independiente",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-12",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-12",
+     "local": "colon",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-12",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-12",
+     "local": "quilmes",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-12",
+     "local": "banfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-12",
+     "local": "chacarita-juniors",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-12",
+     "local": "ferro-carril-oeste",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-12",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-12",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-03-15",
+     "local": "union",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-17",
+     "local": "boca-juniors",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-19",
+     "local": "atlanta",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-19",
+     "local": "lanus",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-19",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-19",
+     "local": "velez-sarsfield",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-19",
+     "local": "deportivo-espanol",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-19",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-19",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-19",
+     "local": "san-lorenzo",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-19",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-03-22",
+     "local": "colon",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-24",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-26",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-26",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-26",
+     "local": "huracan",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-26",
+     "local": "quilmes",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-03-26",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-26",
+     "local": "independiente",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-26",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-26",
+     "local": "rosario-central",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-26",
+     "local": "lanus",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-03-30",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-03-31",
+     "local": "atlanta",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-02",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-02",
+     "local": "union",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-03",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-04",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-04",
+     "local": "velez-sarsfield",
+     "visitante": "colon",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-04",
+     "local": "platense",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-05",
+     "local": "deportivo-espanol",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1967-04-06",
+     "local": "banfield",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-04-09",
+     "local": "argentinos-juniors",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-09",
+     "local": "colon",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-09",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-09",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-09",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-09",
+     "local": "deportivo-espanol",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-09",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-09",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-09",
+     "local": "rosario-central",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-09",
+     "local": "atlanta",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1967-04-10",
+     "local": "river-plate",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-04-13",
+     "local": "racing-club",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-14",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-16",
+     "local": "boca-juniors",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-16",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-16",
+     "local": "quilmes",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-16",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-16",
+     "local": "banfield",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-16",
+     "local": "chacarita-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-16",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-16",
+     "local": "union",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-16",
+     "local": "platense",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-04-21",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-23",
+     "local": "atlanta",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-23",
+     "local": "colon",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-23",
+     "local": "huracan",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-23",
+     "local": "lanus",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-23",
+     "local": "deportivo-espanol",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-23",
+     "local": "ferro-carril-oeste",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-23",
+     "local": "independiente",
+     "visitante": "chacarita-juniors",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-23",
+     "local": "platense",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-23",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-23",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-04-28",
+     "local": "chacarita-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Platense",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-30",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-30",
+     "local": "newell-s-old-boys",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-30",
+     "local": "quilmes",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-30",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-30",
+     "local": "velez-sarsfield",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-04-30",
+     "local": "banfield",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-30",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-30",
+     "local": "san-lorenzo",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-04-30",
+     "local": "union",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-05-05",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-07",
+     "local": "atlanta",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-07",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-07",
+     "local": "lanus",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-07",
+     "local": "deportivo-espanol",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-07",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-07",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-07",
+     "local": "rosario-central",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-07",
+     "local": "union",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-07",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-05-12",
+     "local": "san-lorenzo",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-14",
+     "local": "argentinos-juniors",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-14",
+     "local": "colon",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-14",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-14",
+     "local": "quilmes",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-14",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-14",
+     "local": "banfield",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-14",
+     "local": "chacarita-juniors",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-14",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-14",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-14",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-05-19",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-21",
+     "local": "argentinos-juniors",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-21",
+     "local": "colon",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-21",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-21",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-21",
+     "local": "quilmes",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-21",
+     "local": "banfield",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-21",
+     "local": "chacarita-juniors",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-21",
+     "local": "river-plate",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-21",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-21",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-05-26",
+     "local": "racing-club",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-28",
+     "local": "atlanta",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-28",
+     "local": "boca-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-28",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-28",
+     "local": "velez-sarsfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-05-28",
+     "local": "deportivo-espanol",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-28",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-28",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-28",
+     "local": "rosario-central",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-28",
+     "local": "union",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-05-28",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-06-04",
+     "local": "argentinos-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-04",
+     "local": "colon",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-04",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-04",
+     "local": "huracan",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-04",
+     "local": "quilmes",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-04",
+     "local": "banfield",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-06-04",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-06-04",
+     "local": "ferro-carril-oeste",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-06-04",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-06-04",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1967-06-05",
+     "local": "river-plate",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-06-09",
+     "local": "velez-sarsfield",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-11",
+     "local": "atlanta",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-11",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-11",
+     "local": "newell-s-old-boys",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-11",
+     "local": "racing-club",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-11",
+     "local": "deportivo-espanol",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-06-11",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-06-11",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-06-11",
+     "local": "san-lorenzo",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-06-11",
+     "local": "union",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-06-11",
+     "local": "banfield",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-06-16",
+     "local": "chacarita-juniors",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-06-18",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-18",
+     "local": "colon",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-18",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-18",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-18",
+     "local": "lanus",
+     "visitante": "atlanta",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-06-18",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-06-18",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-06-18",
+     "local": "rosario-central",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-06-18",
+     "local": "quilmes",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-06-23",
+     "local": "boca-juniors",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-25",
+     "local": "newell-s-old-boys",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-25",
+     "local": "quilmes",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-25",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-25",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-06-25",
+     "local": "banfield",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-06-25",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-06-25",
+     "local": "platense",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-06-25",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-06-25",
+     "local": "union",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-06-25",
+     "local": "chacarita-juniors",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-06-30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-07-02",
+     "local": "atlanta",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-07-02",
+     "local": "colon",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-07-02",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-07-02",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-07-02",
+     "local": "deportivo-espanol",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-02",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-02",
+     "local": "independiente",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-02",
+     "local": "river-plate",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-02",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-02",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-07-07",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-08",
+     "local": "banfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-08",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-08",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-08",
+     "local": "union",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-08",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1967-07-09",
+     "local": "argentinos-juniors",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-07-09",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-07-09",
+     "local": "quilmes",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-07-09",
+     "local": "racing-club",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-07-09",
+     "local": "velez-sarsfield",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-07-14",
+     "local": "atlanta",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-07-16",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-07-16",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-07-16",
+     "local": "huracan",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-07-16",
+     "local": "lanus",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-07-16",
+     "local": "deportivo-espanol",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-16",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-16",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-16",
+     "local": "rosario-central",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-16",
+     "local": "colon",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-07-21",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-23",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-07-23",
+     "local": "colon",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-07-23",
+     "local": "newell-s-old-boys",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-07-23",
+     "local": "quilmes",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 7,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-07-23",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-07-23",
+     "local": "banfield",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-23",
+     "local": "chacarita-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-23",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-23",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-23",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1967-07-30",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-30",
+     "local": "union",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-07-31",
+     "local": "huracan",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-08-01",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-08-01",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-08-01",
+     "local": "platense",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1967-08-01",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1967-08-05",
+     "local": "atlanta",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-08-05",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-08-05",
+     "local": "lanus",
+     "visitante": "argentinos-juniors",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1967-08-05",
+     "local": "deportivo-espanol",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1967-08-13",
+     "local": "almagro",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Tres de Febrero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-08-13",
+     "local": "atlanta",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-08-13",
+     "local": "deportivo-espanol",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-08-13",
+     "local": "los-andes",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-08-13",
+     "local": "tigre",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1967-08-20",
+     "local": "argentinos-juniors",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-08-20",
+     "local": "chacarita-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-08-20",
+     "local": "defensores-de-belgrano",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Pasquale",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-08-20",
+     "local": "los-andes",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-08-20",
+     "local": "union",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1967-08-27",
+     "local": "deportivo-espanol",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-10",
+     "local": "almagro",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tres de Febrero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-10",
+     "local": "atlanta",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-10",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-10",
+     "local": "tigre",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1967-09-03",
+     "local": "almagro",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tres de Febrero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-03",
+     "local": "chacarita-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-03",
+     "local": "defensores-de-belgrano",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Pasquale",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-03",
+     "local": "los-andes",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-03",
+     "local": "union",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1967-09-16",
+     "local": "atlanta",
+     "visitante": "almagro",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-16",
+     "local": "chacarita-juniors",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-16",
+     "local": "deportivo-espanol",
+     "visitante": "los-andes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-16",
+     "local": "newell-s-old-boys",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-16",
+     "local": "tigre",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1967-09-23",
+     "local": "almagro",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tres de Febrero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-23",
+     "local": "atlanta",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-23",
+     "local": "defensores-de-belgrano",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Pasquale",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-23",
+     "local": "los-andes",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-23",
+     "local": "union",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1967-10-07",
+     "local": "argentinos-juniors",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-07",
+     "local": "chacarita-juniors",
+     "visitante": "los-andes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-07",
+     "local": "deportivo-espanol",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-07",
+     "local": "newell-s-old-boys",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-07",
+     "local": "tigre",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1967-10-14",
+     "local": "almagro",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Tres de Febrero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-14",
+     "local": "atlanta",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-14",
+     "local": "defensores-de-belgrano",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Pasquale",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-14",
+     "local": "deportivo-espanol",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-14",
+     "local": "los-andes",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1967-10-21",
+     "local": "argentinos-juniors",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-21",
+     "local": "chacarita-juniors",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-21",
+     "local": "newell-s-old-boys",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-21",
+     "local": "tigre",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-21",
+     "local": "union",
+     "visitante": "los-andes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1967-10-28",
+     "local": "argentinos-juniors",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-28",
+     "local": "chacarita-juniors",
+     "visitante": "deportivo-espanol",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-28",
+     "local": "defensores-de-belgrano",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Juan Pasquale",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-28",
+     "local": "newell-s-old-boys",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-28",
+     "local": "union",
+     "visitante": "almagro",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1967-11-04",
+     "local": "almagro",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Tres de Febrero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-04",
+     "local": "deportivo-espanol",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-04",
+     "local": "newell-s-old-boys",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-04",
+     "local": "tigre",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-04",
+     "local": "atlanta",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones",
+     "nota": "No se sabe el día exacto (en noviembre)."
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1967-11-11",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-11",
+     "local": "chacarita-juniors",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-11",
+     "local": "defensores-de-belgrano",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Pasquale",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-11",
+     "local": "los-andes",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-11",
+     "local": "union",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 35,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1967-11-18",
+     "local": "argentinos-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-18",
+     "local": "atlanta",
+     "visitante": "los-andes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-18",
+     "local": "deportivo-espanol",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-18",
+     "local": "newell-s-old-boys",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-18",
+     "local": "tigre",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 36,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1967-11-25",
+     "local": "almagro",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tres de Febrero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-25",
+     "local": "argentinos-juniors",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-25",
+     "local": "defensores-de-belgrano",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Pasquale",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-25",
+     "local": "los-andes",
+     "visitante": "deportivo-espanol",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-25",
+     "local": "union",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 37,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1967-12-02",
+     "local": "argentinos-juniors",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-02",
+     "local": "chacarita-juniors",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-02",
+     "local": "deportivo-espanol",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-02",
+     "local": "newell-s-old-boys",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-02",
+     "local": "tigre",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 38,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1967-12-09",
+     "local": "almagro",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tres de Febrero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-09",
+     "local": "atlanta",
+     "visitante": "deportivo-espanol",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-09",
+     "local": "defensores-de-belgrano",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Pasquale",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-09",
+     "local": "los-andes",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-09",
+     "local": "union",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 39,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1967-12-17",
+     "local": "argentinos-juniors",
+     "visitante": "los-andes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-17",
+     "local": "chacarita-juniors",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-17",
+     "local": "newell-s-old-boys",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-17",
+     "local": "tigre",
+     "visitante": "deportivo-espanol",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-17",
+     "local": "union",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Gimnasia y Esgrima",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 40,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1967-12-23",
+     "local": "almagro",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tres de Febrero",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-23",
+     "local": "atlanta",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-23",
+     "local": "defensores-de-belgrano",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Pasquale",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-23",
+     "local": "deportivo-espanol",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-23",
+     "local": "los-andes",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 41,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1967-09-10",
+     "local": "juventud-alianza",
+     "visitante": "sportivo-guzman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Parque de Mayo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-10",
+     "local": "olimpo",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Roberto Natalio Carminatti",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-10",
+     "local": "racing-cordoba",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Racing de Córdoba",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 42,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1967-09-17",
+     "local": "banfield",
+     "visitante": "racing-cordoba",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-17",
+     "local": "colon",
+     "visitante": "juventud-alianza",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-17",
+     "local": "huracan",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-17",
+     "local": "sportivo-guzman",
+     "visitante": "olimpo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Guzmán",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 43,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1967-09-24",
+     "local": "juventud-alianza",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Juventud Alianza",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-24",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "sportivo-guzman",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-24",
+     "local": "olimpo",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Roberto Natalio Carminatti",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-09-24",
+     "local": "racing-cordoba",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Belgrano",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 44,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1967-10-01",
+     "local": "banfield",
+     "visitante": "olimpo",
+     "gl": 8,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-01",
+     "local": "colon",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-01",
+     "local": "huracan",
+     "visitante": "juventud-alianza",
+     "gl": 8,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-01",
+     "local": "sportivo-guzman",
+     "visitante": "racing-cordoba",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Guzmán",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 45,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1967-10-08",
+     "local": "banfield",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-08",
+     "local": "huracan",
+     "visitante": "sportivo-guzman",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-08",
+     "local": "olimpo",
+     "visitante": "juventud-alianza",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Roberto Natalio Carminatti",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-08",
+     "local": "racing-cordoba",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 46,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1967-10-15",
+     "local": "juventud-alianza",
+     "visitante": "racing-cordoba",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Parque de Mayo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-15",
+     "local": "banfield",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-15",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "olimpo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-15",
+     "local": "sportivo-guzman",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Atlético Tucumán",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 47,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1967-10-22",
+     "local": "juventud-alianza",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juventud Alianza",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-22",
+     "local": "huracan",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-22",
+     "local": "olimpo",
+     "visitante": "racing-cordoba",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Roberto Natalio Carminatti",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-22",
+     "local": "sportivo-guzman",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Atlético Tucumán",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 48,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1967-10-29",
+     "local": "banfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-29",
+     "local": "colon",
+     "visitante": "racing-cordoba",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-29",
+     "local": "huracan",
+     "visitante": "olimpo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-10-29",
+     "local": "sportivo-guzman",
+     "visitante": "juventud-alianza",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 49,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1967-11-03",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-05",
+     "local": "juventud-alianza",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Parque de Mayo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-05",
+     "local": "olimpo",
+     "visitante": "sportivo-guzman",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Roberto Natalio Carminatti",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-05",
+     "local": "racing-cordoba",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Racing de Córdoba",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 50,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1967-11-12",
+     "local": "banfield",
+     "visitante": "juventud-alianza",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-12",
+     "local": "colon",
+     "visitante": "olimpo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-12",
+     "local": "huracan",
+     "visitante": "racing-cordoba",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-12",
+     "local": "sportivo-guzman",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de All Boys",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 51,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1967-11-17",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "colon",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-19",
+     "local": "juventud-alianza",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Juventud Alianza",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-19",
+     "local": "olimpo",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 6,
+     "estadio": "Roberto Natalio Carminatti",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-19",
+     "local": "racing-cordoba",
+     "visitante": "sportivo-guzman",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Racing de Córdoba",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 52,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1967-11-25",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-cordoba",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-26",
+     "local": "juventud-alianza",
+     "visitante": "olimpo",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Parque de Mayo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-26",
+     "local": "colon",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-11-26",
+     "local": "sportivo-guzman",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de All Boys",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 53,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1967-12-01",
+     "local": "huracan",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-03",
+     "local": "colon",
+     "visitante": "sportivo-guzman",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-03",
+     "local": "olimpo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Roberto Natalio Carminatti",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-03",
+     "local": "racing-cordoba",
+     "visitante": "juventud-alianza",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Racing de Córdoba",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 54,
+   "etapa": "promocional",
+   "partidos": [
+    {
+     "fecha": "1967-12-10",
+     "local": "banfield",
+     "visitante": "sportivo-guzman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-10",
+     "local": "colon",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "juventud-alianza",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1967-12-10",
+     "local": "racing-cordoba",
+     "visitante": "olimpo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Racing de Córdoba",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  }
+ ]
+}

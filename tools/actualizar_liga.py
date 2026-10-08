@@ -33,7 +33,62 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
-    # 1968: el Campeonato Metropolitano 1968 (marzo a agosto; campeón San Lorenzo, invicto): 22 equipos por etapas
+    # 1967: el Campeonato Metropolitano 1967 (marzo a agosto; campeón Estudiantes), el primero con este formato: 22
+    # equipos por etapas, como el de 1968 (primera fase de 2 zonas de 11 con un interzonal por fecha, semifinales y final
+    # a un partido en cancha neutral, Torneo Reclasificatorio con cuatro de la Primera B, en el que bajaron Unión y
+    # Deportivo Español y subieron Tigre y Los Andes, y Torneo Promocional con cuatro del interior). ESPN no lo tiene: va a
+    # mano (tools/a_mano; RSSSF, sin goles, controlado con Wikipedia; de la final, los goles y el árbitro de RSSSF)
+    "1967-metropolitano": {"nombre": "Campeonato Metropolitano 1967", "anio": 1967, "liga": "a_mano", "slug": "1967-metropolitano",
+                           "etapas": [("Primera fase", r"primera-fase$", 2, 1, 22,
+                                       "Los dos primeros de cada zona pasan a las semifinales; del 3.º al 6.º, al Nacional; el "
+                                       "7.º y el 8.º juegan el Torneo Promocional, y los tres últimos, el Torneo "
+                                       "Reclasificatorio. En cada fecha, el que quedaba libre en su zona jugaba un interzonal, "
+                                       "que suma en su zona"),
+                                      ("Torneo Reclasificatorio", r"reclasificatorio$", 6, 23, 18,
+                                       "Los seis primeros juegan en Primera en 1968 (Tigre y Los Andes, de la Primera B, "
+                                       "suben; Almagro y Defensores de Belgrano siguen en la B)"),
+                                      ("Torneo Promocional", r"promocional$", 1, 41, 14,
+                                       "Campeón del Torneo Promocional (lo jugaron, mientras se jugaba el Nacional, el 7.º y "
+                                       "el 8.º de cada zona con cuatro equipos del interior; no definía ascensos ni descensos)")],
+                           "fechas": 54, "pasan": 0, "puntos_victoria": 2, "desempate_goles": "gf",
+                           "nota": "Cada partido ganado valía 2 puntos y, con los mismos puntos, desempataban los goles a favor. "
+                                   "Fue el primer Metropolitano: en la primera fase había 2 zonas de 11 a dos ruedas; los dos "
+                                   "primeros de cada zona jugaban las semifinales y la final, a un partido en cancha neutral; "
+                                   "del 3.º al 6.º pasaban al Nacional; el 7.º y el 8.º jugaban el Torneo Promocional, y los "
+                                   "tres últimos, el Torneo Reclasificatorio con cuatro de la Primera B, en el que bajaron "
+                                   "Unión y Deportivo Español.",
+                           "descensos": "etapa",
+                           "descienden_etapa": {"Torneo Reclasificatorio": ["union", "deportivo-espanol"]},
+                           "goleadores_nota": "Los goles son solo de la final (de RSSSF, con los minutos): del resto del torneo "
+                                              "no están. El goleador fue Bernardo Acosta (Lanús), con 18 goles.",
+                           "nombre_playoffs": "Fase final",
+                           "playoffs": [(r"^$^", n) for n in ("Semifinales", "Final")],
+                           "playoffs_a_mano": {
+                           "Semifinales": [
+                               {"hora_utc": "1967-08-03T19:00Z", "fecha": "1967-08-03", "local": "estudiantes-de-la-plata", "visitante": "platense", "gl": 4, "gv": 3, "estadio": "Estadio La Bombonera"},
+                               {"hora_utc": "1967-08-04T19:00Z", "fecha": "1967-08-04", "local": "racing-club", "visitante": "independiente", "gl": 2, "gv": 0, "estadio": "Estadio El Cilindro"},
+                           ],
+                           "Final": [
+                               {"hora_utc": "1967-08-06T19:00Z", "fecha": "1967-08-06", "local": "estudiantes-de-la-plata", "visitante": "racing-club", "gl": 3, "gv": 0, "estadio": "Estadio El Gasómetro", "arbitro": "Guillermo Nimo", "goles": [{"jugador": "Madero", "equipo": "local", "min": 52}, {"jugador": "Verón", "equipo": "local", "min": 69}, {"jugador": "Ribaudo", "equipo": "local", "min": 72}]},
+                           ],
+                           }},
+    # El Campeonato Nacional 1967 (septiembre a diciembre; campeón Independiente): 16 equipos (12 del Metropolitano y 4
+    # del Torneo Regional) a una rueda, con 2 puntos por partido ganado. ESPN no lo tiene: va a mano (tools/a_mano;
+    # Wikipedia, controlada con RSSSF; del Independiente-Racing de la última fecha, los goles de RSSSF). A la Libertadores
+    # 1968 fueron el campeón y el subcampeón (y Racing, como campeón de la Libertadores 1967)
+    "1967-nacional": {"nombre": "Campeonato Nacional 1967", "anio": 1967, "liga": "a_mano", "slug": "1967-nacional",
+                      "zonas": "unica", "fechas": 15, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                      "desempate_goles": "gf",
+                      "anual_texto": "La tabla del Campeonato Nacional 1967 (15 fechas, a una rueda). Cada partido ganado "
+                                     "valía 2 puntos.",
+                      "goleadores_nota": "Los goles son solo del Independiente-Racing de la última fecha (de RSSSF, con los "
+                                         "minutos). El goleador del torneo fue Luis Artime (Independiente), con 11 goles.",
+                      "sin_descensos": "En el Nacional no había descensos: se definían en el Metropolitano.",
+                      "cupos": {"anio": 1968, "fijos": True,
+                                "libertadores": [("Campeón de la Copa Libertadores 1967 (lugar aparte)", "racing-club"),
+                                                 ("Campeón del Nacional 1967", "independiente"),
+                                                 ("Subcampeón del Nacional 1967", "estudiantes-de-la-plata")]}},
+    # 1968:el Campeonato Metropolitano 1968 (marzo a agosto; campeón San Lorenzo, invicto): 22 equipos por etapas
     # ("etapas"; en tools/a_mano, cada fecha dice su etapa y cada partido su zona): la primera fase, 2 zonas de 11 a dos
     # ruedas (22 fechas, con un interzonal por fecha), con 2 puntos por partido ganado y, con los mismos puntos, los goles
     # a favor como desempate ("desempate_goles": "gf"). Los dos primeros de cada zona jugaban las semifinales y la final, a
@@ -3723,6 +3778,8 @@ CLUBES_NUEVOS = {
     "hiw": ("huracan-ingeniero-white", "Huracán (Ingeniero White)"),
     "abr": ("almirante-brown", "Almirante Brown"),   # (no está en ESPN: el Torneo de Promoción 1970)
     "dmo": ("deportivo-moron", "Deportivo Morón"),   # (no está en ESPN: 1969)
+    "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
+    "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
