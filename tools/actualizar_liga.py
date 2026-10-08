@@ -33,6 +33,21 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1954: el Campeonato de Primera División 1954 (abril a noviembre; campeón Boca): 16 equipos a dos ruedas (30 fechas),
+    # con 2 puntos por partido ganado. Bajaba el último de la tabla (no había promedios): Banfield. En las fechas 24 y 26
+    # se suspendieron once partidos que se terminaron de jugar días después (cada uno con su nota). ESPN no lo tiene: va a
+    # mano (tools/a_mano; RSSSF, sin goles salvo el del Boca-Tigre de la fecha 29; RSSSF no trae la tabla, controlada con
+    # la de Wikipedia). No había Libertadores todavía
+    "1954-primera": {"nombre": "Campeonato de Primera División 1954", "anio": 1954, "liga": "a_mano", "slug": "1954-primera",
+                     "zonas": "unica", "fechas": 30, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, el de Wikipedia (que en este torneo coincide con "
+                                    "la diferencia de gol).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1954 (las 30 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del Boca 1-0 Tigre de la fecha 29, el partido en el que Boca salió "
+                                        "campeón (de RSSSF, con el minuto). Los goleadores del torneo fueron Ángel Berni (San "
+                                        "Lorenzo), José Borello (Boca) y Norberto Conde (Vélez), con 19 goles.",
+                     "descensos": "tabla", "descienden": 1},
     # 1955: el Campeonato de Primera División 1955 (abril a diciembre; campeón River): 16 equipos a dos ruedas (30 fechas),
     # con 2 puntos por partido ganado. Bajaba el último de la tabla (no había promedios): Platense. Tres partidos de River
     # se suspendieron: el de San Lorenzo de la fecha 12 se terminó de jugar otro día, y los de Estudiantes (fecha 25) y

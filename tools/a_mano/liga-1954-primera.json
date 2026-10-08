@@ -1,0 +1,2333 @@
+{
+ "nombre": "Campeonato de Primera División 1954",
+ "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi), sin goles salvo el del Boca-Tigre de la fecha 29. Estadio: la cancha que dice RSSSF cuando no era la del local; si no, la del local. RSSSF no trae la tabla: la que sale de los partidos es igual a la de Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1954-04-04",
+     "local": "banfield",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-04",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-04",
+     "local": "huracan",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-04",
+     "local": "independiente",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-04",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-04",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-04",
+     "local": "tigre",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-04",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1954-04-11",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-11",
+     "local": "chacarita-juniors",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-11",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-11",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-11",
+     "local": "lanus",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-11",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-11",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-11",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1954-04-18",
+     "local": "banfield",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-18",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-18",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-18",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-18",
+     "local": "san-lorenzo",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-18",
+     "local": "tigre",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-18",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    },
+    {
+     "fecha": "1954-04-28",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1954-05-02",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-02",
+     "local": "chacarita-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-02",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-02",
+     "local": "huracan",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-02",
+     "local": "lanus",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-02",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-02",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-02",
+     "local": "rosario-central",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1954-05-09",
+     "local": "banfield",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-09",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-09",
+     "local": "independiente",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-09",
+     "local": "newell-s-old-boys",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-09",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-09",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-09",
+     "local": "tigre",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-09",
+     "local": "velez-sarsfield",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1954-05-16",
+     "local": "boca-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-16",
+     "local": "huracan",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-16",
+     "local": "lanus",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-16",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-16",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-16",
+     "local": "rosario-central",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-16",
+     "local": "tigre",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1954-05-23",
+     "local": "banfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-23",
+     "local": "chacarita-juniors",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-23",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-23",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-23",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-23",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-23",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-23",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1954-05-30",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-30",
+     "local": "huracan",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-30",
+     "local": "lanus",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-30",
+     "local": "racing-club",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-30",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-30",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1954-05-30",
+     "local": "tigre",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1954-06-06",
+     "local": "banfield",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-06",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-06",
+     "local": "chacarita-juniors",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-06",
+     "local": "independiente",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-06",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-06",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-06",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-06",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1954-06-13",
+     "local": "ferro-carril-oeste",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-13",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-13",
+     "local": "huracan",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-13",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-13",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-13",
+     "local": "racing-club",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-13",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-13",
+     "local": "tigre",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1954-06-20",
+     "local": "banfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-20",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-20",
+     "local": "chacarita-juniors",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-20",
+     "local": "independiente",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-20",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-20",
+     "local": "rosario-central",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-20",
+     "local": "san-lorenzo",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-06-20",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1954-07-04",
+     "local": "ferro-carril-oeste",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-04",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-04",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-04",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-04",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-04",
+     "local": "newell-s-old-boys",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-04",
+     "local": "river-plate",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-04",
+     "local": "tigre",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1954-07-18",
+     "local": "banfield",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-18",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-18",
+     "local": "chacarita-juniors",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-18",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-18",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-18",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-18",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-18",
+     "local": "velez-sarsfield",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1954-07-25",
+     "local": "banfield",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-25",
+     "local": "ferro-carril-oeste",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-25",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-25",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-25",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-25",
+     "local": "newell-s-old-boys",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-25",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1954-07-25",
+     "local": "tigre",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1954-08-01",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-01",
+     "local": "chacarita-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-01",
+     "local": "lanus",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-01",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 6,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-01",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-01",
+     "local": "rosario-central",
+     "visitante": "tigre",
+     "gl": 9,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-01",
+     "local": "san-lorenzo",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-01",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1954-08-08",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-08",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-08",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-08",
+     "local": "lanus",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-08",
+     "local": "platense",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-08",
+     "local": "racing-club",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-08",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-08",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1954-08-15",
+     "local": "banfield",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-15",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-15",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-15",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-15",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-15",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-15",
+     "local": "tigre",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-15",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1954-08-22",
+     "local": "boca-juniors",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-22",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-22",
+     "local": "ferro-carril-oeste",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-22",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-22",
+     "local": "lanus",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-22",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-22",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-22",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1954-08-29",
+     "local": "banfield",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-29",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-29",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-29",
+     "local": "newell-s-old-boys",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-29",
+     "local": "platense",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-29",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-29",
+     "local": "tigre",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1954-08-29",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1954-09-05",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-05",
+     "local": "chacarita-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-05",
+     "local": "ferro-carril-oeste",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-05",
+     "local": "huracan",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-05",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-05",
+     "local": "racing-club",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-05",
+     "local": "river-plate",
+     "visitante": "tigre",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-05",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1954-09-12",
+     "local": "banfield",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-12",
+     "local": "chacarita-juniors",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-12",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-12",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-12",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-12",
+     "local": "platense",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-12",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-12",
+     "local": "velez-sarsfield",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1954-09-19",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-19",
+     "local": "ferro-carril-oeste",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-19",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-19",
+     "local": "lanus",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-19",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-19",
+     "local": "river-plate",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-19",
+     "local": "rosario-central",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-19",
+     "local": "tigre",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1954-09-26",
+     "local": "banfield",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-26",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-26",
+     "local": "chacarita-juniors",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-26",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-26",
+     "local": "newell-s-old-boys",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-26",
+     "local": "platense",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-26",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-09-26",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1954-10-03",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-03",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-03",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-03",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "nota": "Se suspendió a los 16 minutos, 1-0; lo que faltaba se jugó el 6 de octubre."
+    },
+    {
+     "fecha": "1954-10-03",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "nota": "Se suspendió a los 48 minutos, 1-1; lo que faltaba se jugó el 6 de octubre."
+    },
+    {
+     "fecha": "1954-10-03",
+     "local": "lanus",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "nota": "Se suspendió a los 11 minutos, 0-0; lo que faltaba se jugó el 6 de octubre."
+    },
+    {
+     "fecha": "1954-10-03",
+     "local": "river-plate",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [],
+     "nota": "Se suspendió a los 29 minutos, 2-0; lo que faltaba se jugó el 6 de octubre."
+    },
+    {
+     "fecha": "1954-10-03",
+     "local": "tigre",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "nota": "Se suspendió a los 28 minutos, 0-0; lo que faltaba se jugó el 6 de octubre."
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1954-10-10",
+     "local": "banfield",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-10",
+     "local": "boca-juniors",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-10",
+     "local": "chacarita-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-10",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-10",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-10",
+     "local": "rosario-central",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-10",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-10",
+     "local": "velez-sarsfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1954-10-16",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-16",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "nota": "Se suspendió a los 35 minutos, 0-0; lo que faltaba se jugó el 18 de octubre."
+    },
+    {
+     "fecha": "1954-10-16",
+     "local": "huracan",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [],
+     "nota": "Se suspendió a los 30 minutos, 0-0; lo que faltaba se jugó el 18 de octubre."
+    },
+    {
+     "fecha": "1954-10-16",
+     "local": "lanus",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "nota": "Se suspendió a los 45 minutos, 0-0; lo que faltaba se jugó el 18 de octubre."
+    },
+    {
+     "fecha": "1954-10-16",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "nota": "Se suspendió a los 41 minutos, 1-0; lo que faltaba se jugó el 18 de octubre."
+    },
+    {
+     "fecha": "1954-10-16",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [],
+     "nota": "Se suspendió a los 45 minutos, 0-0; lo que faltaba se jugó el 18 de octubre."
+    },
+    {
+     "fecha": "1954-10-16",
+     "local": "tigre",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": [],
+     "nota": "Se suspendió a los 31 minutos, 1-0; lo que faltaba se jugó el 18 de octubre."
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1954-10-24",
+     "local": "banfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-24",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-24",
+     "local": "chacarita-juniors",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-24",
+     "local": "platense",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-24",
+     "local": "racing-club",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-24",
+     "local": "rosario-central",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-24",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-24",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1954-10-31",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-31",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-31",
+     "local": "huracan",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-31",
+     "local": "independiente",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-31",
+     "local": "lanus",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-31",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-31",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1954-10-31",
+     "local": "tigre",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1954-11-06",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1954-11-11",
+     "local": "boca-juniors",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Baiocco",
+       "equipo": "local",
+       "min": 42
+      }
+     ]
+    },
+    {
+     "fecha": "1954-11-11",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1954-11-11",
+     "local": "lanus",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1954-11-11",
+     "local": "platense",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1954-11-11",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-11-11",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1954-11-11",
+     "local": "velez-sarsfield",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1954-11-14",
+     "local": "banfield",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1954-11-14",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1954-11-14",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 7,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1954-11-14",
+     "local": "huracan",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1954-11-14",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1954-11-14",
+     "local": "newell-s-old-boys",
+     "visitante": "chacarita-juniors",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1954-11-14",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1954-11-14",
+     "local": "tigre",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}
