@@ -167,8 +167,8 @@
 
     // Con los mismos puntos: diferencia de gol y goles a favor; con T.desempate_goles "gf" (1970), goles a favor y después
     // goles en contra
-    // (T.orden_a_mano: dos empatados en puntos que se ordenaron por un desempate a ida y vuelta, River y San Lorenzo en
-    // el Nacional 1969)
+    // (T.orden_a_mano: empatados en puntos que se ordenaron de otra forma, como River y San Lorenzo en el Nacional 1969,
+    // por un desempate a ida y vuelta, o los de 1966, por los partidos entre ellos; T.orden_texto lo explica)
     function porGoles(a, b) {
       const o = T.orden_a_mano || [];
       if (o.includes(a.id) && o.includes(b.id)) return o.indexOf(a.id) - o.indexOf(b.id);
@@ -263,7 +263,7 @@
       <p class="leyenda">${T.texto_pasan ? `<span><i class="pasa"></i>${esc(T.texto_pasan)}</span>` : T.pasan ? `<span><i class="pasa"></i>Clasifican a ${RONDA[T.pasan] || "los playoffs"} (los ${T.pasan} primeros de cada zona)</span>` : ""}
         ${T.campeon_tabla ? `<span><i class="campeon"></i>Campeón: el primero de la tabla (no hay playoffs)</span>` : ""}</p>
       ${T.descuentos_texto ? `<p class="nota-edicion">${esc(T.descuentos_texto)}</p>` : ""}
-      <p class="vacio">${T.puntos_victoria ? `Cada partido ganado valía ${T.puntos_victoria} puntos (los 3 puntos empezaron en el Torneo Apertura 1995). ` : ""}${T.punto_penales ? "Cada partido ganado valía 3 puntos y el empate 1; después de cada empate había penales, y el que los ganaba sumaba 1 punto más (Pen.: los empates ganados por penales). " : ""}Orden: ${T.desempate_goles === "gf" ? "puntos, goles a favor y goles en contra" : "puntos, diferencia de gol y goles a favor"}.${Object.keys(T.zonas).length > 1
+      <p class="vacio">${T.puntos_victoria ? `Cada partido ganado valía ${T.puntos_victoria} puntos (los 3 puntos empezaron en el Torneo Apertura 1995). ` : ""}${T.punto_penales ? "Cada partido ganado valía 3 puntos y el empate 1; después de cada empate había penales, y el que los ganaba sumaba 1 punto más (Pen.: los empates ganados por penales). " : ""}${T.orden_texto ? esc(T.orden_texto) : `Orden: ${T.desempate_goles === "gf" ? "puntos, goles a favor y goles en contra" : "puntos, diferencia de gol y goles a favor"}.`}${Object.keys(T.zonas).length > 1
         ? " Los partidos contra la otra zona (interzonales) suman en la zona de cada club." : ""}</p>`;
 
     // ---- Tabla anual: lo jugado antes en el año (T.anual: el Apertura, [pts, pj, g, e, p, gf, gc]) más este torneo ----

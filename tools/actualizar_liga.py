@@ -33,6 +33,26 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1966: el Campeonato de Primera División 1966 (marzo a diciembre; campeón Racing): 20 equipos a dos ruedas (38
+    # fechas), con 2 puntos por partido ganado. Con los mismos puntos ordenaban los partidos entre los empatados y contra
+    # los tres primeros, y después el cociente de goles: el orden de RSSSF va en "orden_a_mano". Los descensos se anularon
+    # en la fecha 37. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles). A la Libertadores 1967 fueron el campeón
+    # y el subcampeón
+    "1966-primera": {"nombre": "Campeonato de Primera División 1966", "anio": 1966, "liga": "a_mano", "slug": "1966-primera",
+                     "zonas": "unica", "fechas": 38, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_a_mano": ["san-lorenzo", "velez-sarsfield", "gimnasia-y-esgrima", "argentinos-juniors", "atlanta",
+                                      "newell-s-old-boys", "rosario-central", "banfield", "platense", "ferro-carril-oeste",
+                                      "colon"],
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, los puntos sacados en los partidos entre los "
+                                    "empatados y contra los tres primeros; si seguían igualados, el cociente de goles (goles "
+                                    "a favor dividido goles en contra), como Ferro y Colón.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1966 (las 38 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "RSSSF no tiene los goles de este torneo. El goleador fue Luis Artime (Independiente), "
+                                        "con 23 goles.",
+                     "sin_descensos": "No hubo descensos: la AFA los anuló en la fecha 37, cuando Colón era el último.",
+                     "cupos": {"anio": 1967, "fijos": True,
+                               "libertadores": [("Campeón de 1966", "racing-club"), ("Subcampeón de 1966", "river-plate")]}},
     # 1967: el Campeonato Metropolitano 1967 (marzo a agosto; campeón Estudiantes), el primero con este formato: 22
     # equipos por etapas, como el de 1968 (primera fase de 2 zonas de 11 con un interzonal por fecha, semifinales y final
     # a un partido en cancha neutral, Torneo Reclasificatorio con cuatro de la Primera B, en el que bajaron Unión y
@@ -4272,7 +4292,7 @@ def armar(clave):
     for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "goleadores_nota", "promocion", "ventaja", "triangular", "texto_triangular", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
               "campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro", "descuentos",
               "descuentos_texto", "promedios_victoria", "puntos_victoria", "punto_penales",
-              "promedios_por_temporada", "texto_promocion", "campeon_etapa", "pasan_triangular", "etapa_suma", "texto_suma", "desempate_goles", "descienden_etapa", "orden_a_mano"):
+              "promedios_por_temporada", "texto_promocion", "campeon_etapa", "pasan_triangular", "etapa_suma", "texto_suma", "desempate_goles", "descienden_etapa", "orden_a_mano", "orden_texto"):
         if cfg.get(k):
             datos[k] = cfg[k]
     if cfg.get("titulo_anual"):
