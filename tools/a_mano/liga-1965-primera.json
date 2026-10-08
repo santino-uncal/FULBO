@@ -1,0 +1,5990 @@
+{
+ "nombre": "Campeonato de Primera División 1965",
+ "fuente": "Resultados, días y goleadores (solo con el apellido y sin minutos): RSSSF (Pablo Ciullini y Osvaldo José Gorgazzi; Wikipedia no tiene los resultados). Estadio: la cancha que dice RSSSF cuando no era la del local; si no, la del local. La tabla que sale de los partidos es igual a la de RSSSF; el orden de los empatados en puntos es el de RSSSF (por los partidos entre ellos y contra los tres primeros). El Independiente-Racing del 13 de mayo (2-2, suspendido y nunca completado) no cuenta, como en RSSSF; Wikipedia lo cuenta como empate. De Huracán 1-4 Estudiantes, RSSSF tiene 3 de los 4 goles de Estudiantes",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1965-04-18",
+     "local": "newell-s-old-boys",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Central Córdoba",
+     "goles": [
+      {
+       "jugador": "Zucca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Raffo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-18",
+     "local": "lanus",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Restivo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-18",
+     "local": "racing-club",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Cáceres",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vidal",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Garabal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garabal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cubilla",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-18",
+     "local": "argentinos-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Ulrich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Albrecht",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-18",
+     "local": "huracan",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Loayza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Horster",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Clariá",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Zarich",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-18",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Pianetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-18",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Gennoni",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-18",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Borgogno",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Manfredi",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1965-04-25",
+     "local": "banfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Zárate",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Raffo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Verón",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Verón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-25",
+     "local": "rosario-central",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Juárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Borgogno",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-25",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "M.Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Rojas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-25",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Willington",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Loayza",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-25",
+     "local": "atlanta",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Zarich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ulrich",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ulrich",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Malleo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-25",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1965-04-25",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Matosas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lallana",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sarnari",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-25",
+     "local": "chacarita-juniors",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Biaggio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rambert",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferro",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-25",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Galeano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zucca",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "E.Rodríguez",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1965-04-28",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "A.C.Rojas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Rojas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mesiano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-28",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Flores",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-29",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Zárate",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-29",
+     "local": "newell-s-old-boys",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Cardoso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nardiello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-29",
+     "local": "lanus",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Parenti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-29",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Castillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferreyra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carotti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-29",
+     "local": "ferro-carril-oeste",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1965-04-29",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Ulrich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Willington",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Carone",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Curia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-04-29",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Zárate",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bernao",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1965-05-02",
+     "local": "banfield",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Villano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "San Lorenzo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-02",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Conigliaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Verón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Rojas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A.C.Rojas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-02",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Sasía",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Viberti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-02",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Bernao",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Benítez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Luraschi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-02",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Pastorini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-02",
+     "local": "atlanta",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Zarich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zarich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luna",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Canadel",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-02",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-02",
+     "local": "river-plate",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1965-05-02",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Nardiello",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Blanco",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Antonio",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1965-05-09",
+     "local": "chacarita-juniors",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Nardiello",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rambert",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Raffo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Villano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-09",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Pardo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lallana",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Delem",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cubilla",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-09",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Belén",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Albrecht",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Albrecht",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castiglia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-09",
+     "local": "lanus",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Silva",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luna",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-09",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Carone",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Curia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-09",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1965-05-09",
+     "local": "argentinos-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Malleo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Puppo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Manfredi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Manfredi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-09",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Zárate",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Verón",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Verón",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Conigliaro",
+       "equipo": "visitante"
+      },
+      {
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-09",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1965-05-12",
+     "local": "velez-sarsfield",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Recúpero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-12",
+     "local": "atlanta",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Punturero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Domínguez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-12",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Pardo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-12",
+     "local": "river-plate",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Lallana",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lallana",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Delem",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-13",
+     "local": "banfield",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Raffo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.C.Rojas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A.Rojas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pianetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-13",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Conigliaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luraschi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-13",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": null,
+     "gv": null,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "estado": "Suspendido",
+     "nota": "Se suspendió a los 23 minutos del segundo tiempo, 2-2 (Acevedo 2; Rulli y Cárdenas), por incidentes. La AFA dispuso que se jugaran los 22 minutos que faltaban, pero nunca se jugaron: no cuenta en la tabla."
+    },
+    {
+     "fecha": "1965-05-13",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Miranda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Miranda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Guzmán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Horster",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-13",
+     "local": "rosario-central",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Juárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bielli",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1965-05-16",
+     "local": "river-plate",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Cubilla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "N.López",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-16",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1965-05-16",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Zarich",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-16",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Belén",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-16",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Pando",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-16",
+     "local": "racing-club",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Rulli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Borgogno",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Ribaudo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tojo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-16",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Ulrich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Miranda",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gennoni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marchesse",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-16",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Zárate",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Facundo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pianetti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pianetti",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1965-05-22",
+     "local": "banfield",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Zárate",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Blázquez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-22",
+     "local": "boca-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "A.C.Rojas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Benítez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-22",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Marchesse",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tojo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-22",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1965-05-22",
+     "local": "rosario-central",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Sasía",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bielli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-22",
+     "local": "independiente",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Avallay",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-22",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Recúpero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pardo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-22",
+     "local": "atlanta",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1965-05-22",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Lallana",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lallana",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1965-05-25",
+     "local": "san-lorenzo",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Chaldú",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maidana",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-25",
+     "local": "river-plate",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cubilla",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-25",
+     "local": "chacarita-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Leeb",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Recúpero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-25",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Restivo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bernao",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bernao",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-25",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Belén",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-25",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "De Mario",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silva",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-25",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1965-05-25",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Tojo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tojo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ribaudo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-25",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Horster",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Horster",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1965-05-29",
+     "local": "banfield",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Luraschi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-29",
+     "local": "huracan",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Loayza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garabal",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-29",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Marzolini",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-29",
+     "local": "platense",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1965-05-29",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Conigliaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-29",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Cortés",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mesiano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Escalada",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-29",
+     "local": "independiente",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1965-05-29",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "A.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Artime",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Artime",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cubilla",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-05-29",
+     "local": "atlanta",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Albrecht",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Doval",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Doval",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1965-06-13",
+     "local": "atlanta",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Claría",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-13",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Doval",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Albrecht",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Willington",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Carone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-13",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De la Mata",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-13",
+     "local": "chacarita-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Manilo",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Iñigo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-13",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Restivo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Flores",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-13",
+     "local": "newell-s-old-boys",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Zucca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gennoni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-13",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "A.Rojas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-13",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Cuervo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Loayza",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "T.Gómez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-13",
+     "local": "ferro-carril-oeste",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Puppo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Puppo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ulrich",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1965-06-17",
+     "local": "banfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Garabal",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-17",
+     "local": "argentinos-juniors",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "R.Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.J.Rodríguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Basile",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Martinoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-17",
+     "local": "huracan",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Loayza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Horster",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-17",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Pianetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.C.Rojas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cardoso",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cardoso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-17",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Guzmán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Guagliardi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ciaccia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rambert",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-17",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Delem",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lallana",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-17",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1965-06-17",
+     "local": "velez-sarsfield",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Carone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Subiat",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luna",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1965-06-20",
+     "local": "velez-sarsfield",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Carone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Willington",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bayo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-20",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1965-06-20",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Rendo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Veira",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Doval",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-20",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cubilla",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-20",
+     "local": "chacarita-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Leeb",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-20",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Guagliardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Corbatta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-20",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Zucca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Hornes",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-20",
+     "local": "lanus",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "De Mario",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Pérez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-20",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "J.J.Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marcos",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1965-06-27",
+     "local": "banfield",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Chaldú",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vázquez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-27",
+     "local": "ferro-carril-oeste",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1965-06-27",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Malleo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cardoso",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zucca",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-27",
+     "local": "huracan",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Guagliardi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-27",
+     "local": "boca-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 7,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Pianetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.C.Rojas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.C.Rojas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Rojas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Rojas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rattín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nardiello",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Roldán",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-27",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Miranda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lallana",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sarnari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-27",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Santiago",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rendo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Doval",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-27",
+     "local": "rosario-central",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Sasía",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.Fernández",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J.Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-06-27",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Subiat",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1965-07-04",
+     "local": "independiente",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "M.Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arámbulo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Somma",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-07-04",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Carone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Palma",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-07-04",
+     "local": "atlanta",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Cheves",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "J.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Madero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-07-04",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Doval",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Doval",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-07-04",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Cubilla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ayres Moraes",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pianetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-07-04",
+     "local": "chacarita-juniors",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-07-04",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Restivo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Guagliardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Pérez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-07-04",
+     "local": "newell-s-old-boys",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1965-07-04",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Iglesias",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1965-07-09",
+     "local": "banfield",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Maidana",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bayo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "San Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "De Mario",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-07-09",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Mas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Onega",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-07-11",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1965-07-11",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Pastorini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pastorini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ribaudo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ribaudo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ciaccia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-07-11",
+     "local": "argentinos-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Biaggio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-07-11",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Doval",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-07-11",
+     "local": "platense",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Miranda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-07-11",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Santiago",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-07-11",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Cortés",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Savoy",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1965-07-18",
+     "local": "atlanta",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Sacchi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-07-18",
+     "local": "river-plate",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sarnari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Malleo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-07-18",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Guagliardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Restivo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-07-18",
+     "local": "newell-s-old-boys",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Vizzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zucca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De Mario",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-05",
+     "local": "chacarita-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Rabbito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Iñigo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pastorini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ribaudo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-05",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Santamaría",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-05",
+     "local": "banfield",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1965-09-05",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Carone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carone",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-20",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1965-09-12",
+     "local": "banfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1965-09-12",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Ciaccia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cabrero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-12",
+     "local": "chacarita-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1965-09-12",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Onega",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ribaudo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Leonardi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pastorini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-12",
+     "local": "san-lorenzo",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Doval",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ulrich",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-12",
+     "local": "atlanta",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Punturero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arias",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-12",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Menéndez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A.Rojas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-12",
+     "local": "rosario-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Juárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Flores",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Conigliaro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-17",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1965-09-19",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1965-09-19",
+     "local": "platense",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Garro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ruiz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Miranda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Canseco",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-19",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Menéndez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-19",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "O.Fernández",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Carone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-19",
+     "local": "argentinos-juniors",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "R.Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Domínguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zarich",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-19",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Marcos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pastorini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Páez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Di Gioia",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Veira",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-19",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Castillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.J.Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.J.Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Artime",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-19",
+     "local": "lanus",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Acosta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roldán",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-19",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Guagliardi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Guagliardi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "O.González",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1965-09-26",
+     "local": "banfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1965-09-26",
+     "local": "chacarita-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Confesor",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Confesor",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cardoso",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zucca",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-26",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-26",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Carotti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Doval",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-26",
+     "local": "atlanta",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Luna",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-26",
+     "local": "velez-sarsfield",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Willington",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Subiat",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Subiat",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-26",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Mori",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-26",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Borgogno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bielli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Menotti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A.Rojas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-09-26",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Conigliaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garro",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1965-10-03",
+     "local": "platense",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1965-10-03",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Menéndez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pianetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bilardo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-03",
+     "local": "huracan",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Borgogno",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Borgogno",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Manfredi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-03",
+     "local": "argentinos-juniors",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1965-10-03",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1965-10-03",
+     "local": "racing-club",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Castillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villegas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-03",
+     "local": "lanus",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Parenti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-03",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Ferrero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lallana",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-03",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Guagliardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Leeb",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1965-10-07",
+     "local": "atlanta",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Punturero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Parenti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-10",
+     "local": "banfield",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Raffo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-10",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-10",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Veira",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Casa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Albrecht",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Albrecht",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cardoso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-10",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Willington",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pastoriza",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-10",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "M.Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garabal",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pastorini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-10",
+     "local": "rosario-central",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1965-10-10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Verón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-10",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Gennoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gennoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Rojas",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1965-10-17",
+     "local": "boca-juniors",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Pianetti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-17",
+     "local": "huracan",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Miranda",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-17",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "R.Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ulrich",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-17",
+     "local": "ferro-carril-oeste",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Sasía",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bielli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-17",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Pentrelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.J.Rodríguez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-17",
+     "local": "lanus",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1965-10-17",
+     "local": "newell-s-old-boys",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Ferrero",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-17",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Guagliardi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-17",
+     "local": "chacarita-juniors",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Lallana",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1965-10-24",
+     "local": "banfield",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Raffo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Raffo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lallana",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-24",
+     "local": "san-lorenzo",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Juvatti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Leeb",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-24",
+     "local": "atlanta",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "J.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Griguol",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-24",
+     "local": "velez-sarsfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Curia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Curia",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-24",
+     "local": "independiente",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "M.Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Esclavo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Fernández",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-24",
+     "local": "rosario-central",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Giménez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martinoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-24",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Bilardo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ribaudo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-24",
+     "local": "platense",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "R.Pérez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ulrich",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-24",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "A.C.Rojas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1965-10-27",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Aguirre",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-31",
+     "local": "huracan",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Gómez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arrigó",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-31",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "A.Rojas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-31",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Topini",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Garro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-31",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Cárdenas",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-31",
+     "local": "lanus",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Manfredi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-31",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Restivo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-31",
+     "local": "chacarita-juniors",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Rambert",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-10-31",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Lallana",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1965-11-06",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Bedogni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Verón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-07",
+     "local": "banfield",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1965-11-07",
+     "local": "atlanta",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Vasallo",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-07",
+     "local": "velez-sarsfield",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Carone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Curia",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-07",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Savoy",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mircoli",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-07",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Cardoso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-07",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1965-11-07",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "González",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-07",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "T.Gómez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Loayza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ulrich",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1965-11-10",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Cardoso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cardoso",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-10",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Juvatti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Guagliardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bielli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-11",
+     "local": "argentinos-juniors",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Puppo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-11",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1965-11-11",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1965-11-11",
+     "local": "lanus",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Parenti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Guzmán",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Guzmán",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Garro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Yudica",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-11",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Lallana",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-11",
+     "local": "san-lorenzo",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1965-11-13",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Bilardo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bedogni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Verón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Restivo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-14",
+     "local": "banfield",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Zárate",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vázquez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Punturero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-14",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Carone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Willington",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Willington",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Albrecht",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Albrecht",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-14",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Mas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Onega",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-14",
+     "local": "rosario-central",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Manfredi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Borgogno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Borgogno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Leeb",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-14",
+     "local": "platense",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Oliveri",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-14",
+     "local": "boca-juniors",
+     "visitante": "lanus",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "A.C.Rojas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.C.Rojas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Rojas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Rojas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Menéndez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-14",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Pastoriza",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Martinoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-14",
+     "local": "argentinos-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Cominelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cominelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garabal",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Berón",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Berón",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1965-11-19",
+     "local": "chacarita-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Rambert",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Madero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Flores",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-21",
+     "local": "ferro-carril-oeste",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Berón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Raffo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-21",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "J.J.Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martinoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luraschi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-21",
+     "local": "lanus",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1965-11-21",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [
+      {
+       "jugador": "Ferrero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.C.Rojas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A.Rojas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-21",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Marchesse",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Guzmán",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-21",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Onega",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Borgogno",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-21",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Telch",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Veira",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-21",
+     "local": "atlanta",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Punturero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Griguol",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zarich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Willington",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1965-11-26",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [
+      {
+       "jugador": "Albrecht",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-26",
+     "local": "independiente",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Suárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M.Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Griguol",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-28",
+     "local": "banfield",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [
+      {
+       "jugador": "Raffo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Willington",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-28",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1965-11-28",
+     "local": "platense",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Guzmán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Guzmán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marchesse",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garro",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-28",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "A.Rojas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Rojas",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-28",
+     "local": "huracan",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Poncio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "local"
+      },
+      {
+       "jugador": "T.Gómez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zucca",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zucca",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-28",
+     "local": "argentinos-juniors",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Malleo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luraschi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Paz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Parenti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Parenti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "De Mario",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-11-28",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Pastorini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.J.Rodríguez",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "partidos": [
+    {
+     "fecha": "1965-12-02",
+     "local": "atlanta",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    },
+    {
+     "fecha": "1965-12-03",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1965-12-04",
+     "local": "racing-club",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Cárdenas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pentrelli",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-04",
+     "local": "lanus",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Iglesias",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-04",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Guagliardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cabaleiro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-04",
+     "local": "chacarita-juniors",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "A.C.Rojas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-04",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Onega",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-04",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Areán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Flores",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Verón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-04",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "M.Rodríguez",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "partidos": [
+    {
+     "fecha": "1965-12-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Luna",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-08",
+     "local": "banfield",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1965-12-08",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Newell's Old Boys",
+     "goles": [
+      {
+       "jugador": "Sasía",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Willington",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-08",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Guzmán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Schneider",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rendo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-08",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Pianetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Menéndez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Artime",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-08",
+     "local": "huracan",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": [
+      {
+       "jugador": "Cabaleiro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Viberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Leeb",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Nardiello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-08",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Ulrich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ulrich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luraschi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-08",
+     "local": "ferro-carril-oeste",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Garabal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferrero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Aguirre",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-08",
+     "local": "racing-club",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "J.J.Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.J.Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perfumo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cárdenas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De Mario",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "partidos": [
+    {
+     "fecha": "1965-12-10",
+     "local": "atlanta",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Don León Kolbowski",
+     "goles": [
+      {
+       "jugador": "Garro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marchesse",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-12",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1965-12-12",
+     "local": "lanus",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Parenti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-12",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Trebucq",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Fernández",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-12",
+     "local": "chacarita-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Cominelli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ocaño",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-12",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Lallana",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onega",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-12",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Casa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Rojas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-12",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [
+      {
+       "jugador": "Bilardo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-12",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "M.Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M.Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avallay",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Suárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giménez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sasía",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "partidos": [
+    {
+     "fecha": "1965-12-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Cheves",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Savoy",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "R.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ribaudo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rabbito",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-19",
+     "local": "rosario-central",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1965-12-19",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Gallo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-19",
+     "local": "boca-juniors",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [
+      {
+       "jugador": "Pianetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pianetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.C.Rojas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zárate",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-19",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Fischer",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fischer",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Doval",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Casa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gramari",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "T.Gómez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-19",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Mas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-19",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [
+      {
+       "jugador": "Pentrelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cárdenas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martinoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spedaletti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1965-12-19",
+     "local": "lanus",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

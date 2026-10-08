@@ -33,6 +33,27 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1965: el Campeonato de Primera División 1965 (abril a diciembre; campeón Boca): 18 equipos a dos ruedas (34 fechas),
+    # con 2 puntos por partido ganado. Con los mismos puntos ordenaban los partidos contra el otro empatado y contra los
+    # tres primeros ("orden_a_mano", el de RSSSF, que coincide con esa cuenta). El Independiente-Racing del 13 de mayo se
+    # suspendió 2-2 y nunca se completó: va sin resultado ("estado": "Suspendido") y no cuenta. Los descensos se anularon.
+    # ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, con los goleadores, solo con el apellido y sin minutos). A la
+    # Libertadores 1966 fueron el campeón y el subcampeón
+    "1965-primera": {"nombre": "Campeonato de Primera División 1965", "anio": 1965, "liga": "a_mano", "slug": "1965-primera",
+                     "zonas": "unica", "fechas": 34, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_a_mano": ["racing-club", "platense", "banfield", "san-lorenzo", "newell-s-old-boys",
+                                      "rosario-central", "lanus", "atlanta"],
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, los puntos sacados en los partidos contra el otro "
+                                    "empatado y contra los tres primeros. Independiente y Racing jugaron un partido menos: el "
+                                    "que jugaron entre ellos se suspendió y nunca se terminó.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1965 (las 34 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son de RSSSF, solo con el apellido y sin minutos (falta uno de "
+                                        "Estudiantes). El goleador fue Juan Carlos Carone (Vélez), con 19 goles.",
+                     "sin_descensos": "No hubo descensos: la AFA los anuló por tercer año seguido.",
+                     "cupos": {"anio": 1966, "fijos": True,
+                               "libertadores": [("Campeón de la Copa Libertadores 1965 (lugar aparte)", "independiente"),
+                                                ("Campeón de 1965", "boca-juniors"), ("Subcampeón de 1965", "river-plate")]}},
     # 1966: el Campeonato de Primera División 1966 (marzo a diciembre; campeón Racing): 20 equipos a dos ruedas (38
     # fechas), con 2 puntos por partido ganado. Con los mismos puntos ordenaban los partidos entre los empatados y contra
     # los tres primeros, y después el cociente de goles: el orden de RSSSF va en "orden_a_mano". Los descensos se anularon
@@ -3829,7 +3850,9 @@ def eventos_a_mano(clave):
                 # (un partido puede decir su propia etapa: en el Metropolitano 1976, el Torneo Campeonato y el del
                 # descenso se jugaban en las mismas fechas)
                 "season": {"slug": f"{clave}-{p.get('etapa') or f['etapa']}" if p.get("etapa") or f.get("etapa") else clave},
-                "status": {"type": {"completed": True, "name": "STATUS_FULL_TIME"}},
+                # (un partido que no se terminó, sin resultado y con "estado": Independiente-Racing 1965)
+                "status": {"type": {"completed": p["gl"] is not None, "name": "STATUS_FULL_TIME" if p["gl"] is not None
+                                    else "STATUS_SUSPENDED"}},
                 "competitions": [{"competitors": [
                     {"homeAway": lado, "team": {"id": id_espn[p[lado2]], "displayName": p[lado2]}, "score": p[g]}
                     for lado, lado2, g in (("home", "local", "gl"), ("away", "visitante", "gv"))],
@@ -4188,6 +4211,8 @@ def armar(clave):
         if e.get("_a_mano"):   # (sin ESPN: la fecha ya se sabe; los goles, solo con el apellido: jid con el club)
             m = e["_a_mano"]
             del p["espn"]
+            if m.get("estado"):
+                p["estado"] = m["estado"]
             p.update({"fecha": m["fecha"], "hora": m.get("hora"), "fecha_n": e["_fecha_n"], "nota": m.get("nota"),
                       "para_local": m.get("para_local"), "para_visitante": m.get("para_visitante"),
                       # (sin_goles: un partido dado por ganado en el escritorio, sin goles de verdad: Lanús-Platense 1991)
