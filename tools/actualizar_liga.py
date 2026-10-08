@@ -33,6 +33,25 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1964: el Campeonato de Primera División 1964 (abril a diciembre; campeón Boca): 16 equipos a dos ruedas (30 fechas),
+    # con 2 puntos por partido ganado. Con los mismos puntos ordenaban los partidos contra el otro empatado y contra los
+    # tres primeros ("orden_a_mano", el de RSSSF). Los descensos se anularon. ESPN no lo tiene: va a mano (tools/a_mano;
+    # RSSSF, sin goles salvo los del Boca-River de la fecha 29). A la Libertadores 1965 fue el campeón (e Independiente,
+    # como campeón de la Libertadores 1964)
+    "1964-primera": {"nombre": "Campeonato de Primera División 1964", "anio": 1964, "liga": "a_mano", "slug": "1964-primera",
+                     "zonas": "unica", "fechas": 30, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_a_mano": ["banfield", "racing-club", "huracan", "ferro-carril-oeste"],
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, los puntos sacados en los partidos contra el otro "
+                                    "empatado y contra los tres primeros (así Banfield quedó delante de Racing y Huracán "
+                                    "delante de Ferro).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1964 (las 30 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del Boca-River de la fecha 29 (de RSSSF, con los minutos). El "
+                                        "goleador fue Héctor Veira (San Lorenzo), con 17 goles.",
+                     "sin_descensos": "No hubo descensos: la AFA los anuló.",
+                     "cupos": {"anio": 1965, "fijos": True,
+                               "libertadores": [("Campeón de la Copa Libertadores 1964 (lugar aparte)", "independiente"),
+                                                ("Campeón de 1964", "boca-juniors")]}},
     # 1965: el Campeonato de Primera División 1965 (abril a diciembre; campeón Boca): 18 equipos a dos ruedas (34 fechas),
     # con 2 puntos por partido ganado. Con los mismos puntos ordenaban los partidos contra el otro empatado y contra los
     # tres primeros ("orden_a_mano", el de RSSSF, que coincide con esa cuenta). El Independiente-Racing del 13 de mayo se
