@@ -33,6 +33,24 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1963: el Campeonato de Primera División 1963 (abril a noviembre; campeón Independiente): 14 equipos a dos ruedas (26
+    # fechas), con 2 puntos por partido ganado. Con los mismos puntos ordenaban los partidos contra el otro empatado y
+    # contra los primeros de la tabla ("orden_a_mano", el de RSSSF). Por los promedios bajaba Estudiantes, pero el descenso
+    # se anuló. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles salvo los del Independiente 9-1 San Lorenzo de
+    # la última fecha). A la Libertadores 1964 fue el campeón
+    "1963-primera": {"nombre": "Campeonato de Primera División 1963", "anio": 1963, "liga": "a_mano", "slug": "1963-primera",
+                     "zonas": "unica", "fechas": 26, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_a_mano": ["racing-club", "boca-juniors", "san-lorenzo", "banfield", "rosario-central",
+                                      "argentinos-juniors"],
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, los puntos sacados en los partidos contra el otro "
+                                    "empatado y contra los primeros de la tabla (así Racing quedó delante de Boca, San Lorenzo "
+                                    "delante de Banfield y Rosario Central delante de Argentinos).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1963 (las 26 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del Independiente 9-1 San Lorenzo de la última fecha (de RSSSF, "
+                                        "con los minutos). El goleador fue Luis Artime (River), con 25 goles.",
+                     "sin_descensos": "No hubo descensos: por los promedios bajaba Estudiantes, pero la AFA anuló el descenso.",
+                     "cupos": {"anio": 1964, "fijos": True, "libertadores": [("Campeón de 1963", "independiente")]}},
     # 1964: el Campeonato de Primera División 1964 (abril a diciembre; campeón Boca): 16 equipos a dos ruedas (30 fechas),
     # con 2 puntos por partido ganado. Con los mismos puntos ordenaban los partidos contra el otro empatado y contra los
     # tres primeros ("orden_a_mano", el de RSSSF). Los descensos se anularon. ESPN no lo tiene: va a mano (tools/a_mano;
