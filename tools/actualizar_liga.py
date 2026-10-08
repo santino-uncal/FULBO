@@ -33,6 +33,29 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1961: el Campeonato de Primera División 1961 (abril a diciembre; campeón Racing): 16 equipos a dos ruedas (30
+    # fechas), con 2 puntos por partido ganado. Con los mismos puntos ordenaban los partidos contra el otro empatado y
+    # contra los tres primeros ("orden_a_mano", el de RSSSF). Bajaban los dos peores promedios de puntos por temporada de
+    # 1959 a 1961 ("promedios_por_temporada"; RSSSF y Wikipedia): Lanús y Los Andes. ESPN no lo tiene: va a mano
+    # (tools/a_mano; Wikipedia, controlada con RSSSF; del Racing-San Lorenzo de la fecha 27, los goles de RSSSF). A la
+    # Libertadores 1962 fue el campeón
+    "1961-primera": {"nombre": "Campeonato de Primera División 1961", "anio": 1961, "liga": "a_mano", "slug": "1961-primera",
+                     "zonas": "unica", "fechas": 30, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_a_mano": ["velez-sarsfield", "chacarita-juniors", "argentinos-juniors", "lanus", "los-andes",
+                                      "ferro-carril-oeste"],
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, los puntos sacados en los partidos contra el otro "
+                                    "empatado y contra los tres primeros (así Vélez quedó delante de Chacarita, Argentinos "
+                                    "delante de Lanús y Los Andes delante de Ferro).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1961 (las 30 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del Racing-San Lorenzo de la fecha 27, en el que Racing salió "
+                                        "campeón (de RSSSF, con los minutos).",
+                     # (los puntos de cada temporada; se divide por las temporadas jugadas)
+                     "promedios_por_temporada": True,
+                     "promedios": {"1959": {"racing-club": [38, 1], "san-lorenzo": [45, 1], "river-plate": [32, 1], "independiente": [33, 1], "boca-juniors": [30, 1], "atlanta": [32, 1], "velez-sarsfield": [26, 1], "argentinos-juniors": [25, 1], "huracan": [30, 1], "gimnasia-y-esgrima": [25, 1], "rosario-central": [23, 1], "estudiantes-de-la-plata": [28, 1], "ferro-carril-oeste": [33, 1], "lanus": [27, 1]},
+                                   "1960": {"racing-club": [37, 1], "san-lorenzo": [36, 1], "river-plate": [39, 1], "independiente": [41, 1], "boca-juniors": [37, 1], "atlanta": [27, 1], "velez-sarsfield": [33, 1], "chacarita-juniors": [28, 1], "argentinos-juniors": [39, 1], "huracan": [28, 1], "gimnasia-y-esgrima": [25, 1], "rosario-central": [29, 1], "estudiantes-de-la-plata": [23, 1], "ferro-carril-oeste": [19, 1], "lanus": [21, 1]}},
+                     "descensos": "promedios", "descienden": 2,
+                     "cupos": {"anio": 1962, "fijos": True, "libertadores": [("Campeón de 1961", "racing-club")]}},
     # 1962: el Campeonato de Primera División 1962 (marzo a diciembre; campeón Boca): 15 equipos a dos ruedas (30 fechas,
     # en cada una quedaba uno libre), con 2 puntos por partido ganado. Con los mismos puntos ordenaban los partidos contra
     # el otro empatado y contra los tres primeros ("orden_a_mano", el de RSSSF). Bajaban los dos peores promedios de puntos
