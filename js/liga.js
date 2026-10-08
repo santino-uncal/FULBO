@@ -167,7 +167,11 @@
 
     // Con los mismos puntos: diferencia de gol y goles a favor; con T.desempate_goles "gf" (1970), goles a favor y después
     // goles en contra
+    // (T.orden_a_mano: dos empatados en puntos que se ordenaron por un desempate a ida y vuelta, River y San Lorenzo en
+    // el Nacional 1969)
     function porGoles(a, b) {
+      const o = T.orden_a_mano || [];
+      if (o.includes(a.id) && o.includes(b.id)) return o.indexOf(a.id) - o.indexOf(b.id);
       return T.desempate_goles === "gf" ? b.gf - a.gf || a.gc - b.gc : b.dif - a.dif || b.gf - a.gf;
     }
     // ---- Tabla de posiciones de cada zona (los partidos interzonales cuentan para la zona de cada club) ----

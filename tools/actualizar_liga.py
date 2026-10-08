@@ -33,7 +33,82 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
-    # 1970: el Campeonato Metropolitano 1970 (marzo a julio; campeón Independiente): 21 equipos a una rueda (21 fechas, en
+    # 1969: el Campeonato Metropolitano 1969 (febrero a julio; campeón Chacarita): 22 equipos por etapas ("etapas"; en
+    # tools/a_mano, cada fecha dice su etapa y cada partido su zona): la primera fase, 2 zonas de 11 a dos ruedas (22
+    # fechas; en cada una, el que quedaba libre en su zona jugaba un interzonal, sin zona en el archivo), con 2 puntos por
+    # partido ganado y, con los mismos puntos, los goles a favor como desempate ("desempate_goles": "gf"). Los dos primeros
+    # de cada zona jugaban las semifinales y la final, a un partido en cancha neutral (Boca-River terminó 0-0 con alargue y
+    # pasó River por tener más goles a favor en la primera fase: "gana"). Del 3.º al 6.º pasaban al Nacional; el 7.º y el
+    # 8.º jugaban el Petit Torneo (por eliminación directa: el ganador, Unión, pasaba al Nacional), y los tres últimos, con
+    # los otros tres del Petit, el Torneo Reclasificatorio (a dos ruedas; los dos últimos jugaban una segunda etapa con dos
+    # de la Primera B: bajó Morón, "descienden_etapa"). ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles; de la
+    # final, los goles y el árbitro de RSSSF)
+    "1969-metropolitano": {"nombre": "Campeonato Metropolitano 1969", "anio": 1969, "liga": "a_mano", "slug": "1969-metropolitano",
+                           "etapas": [("Primera fase", r"primera-fase$", 2, 1, 22,
+                                       "Los dos primeros de cada zona pasan a las semifinales; del 3.º al 6.º, al Nacional; el "
+                                       "7.º y el 8.º juegan el Petit Torneo, y los tres últimos, el Torneo Reclasificatorio. En "
+                                       "cada fecha, el que quedaba libre en su zona jugaba un interzonal, que suma en su zona"),
+                                      ("Petit Torneo", r"petit$", 1, 23, 2,
+                                       "Se jugó por eliminación directa (semifinales y final): el ganador pasa al Nacional y los "
+                                       "otros tres juegan el Torneo Reclasificatorio"),
+                                      ("Torneo Reclasificatorio", r"reclasificatorio$", 7, 25, 18,
+                                       "Los siete primeros se quedan en Primera; los dos últimos juegan la segunda etapa con dos "
+                                       "de la Primera B"),
+                                      ("Segunda etapa del Reclasificatorio", r"segunda-etapa$", 1, 43, 3,
+                                       "Se queda en Primera (Ferro y San Telmo, de la Primera B, siguen en la B)")],
+                           "fechas": 45, "pasan": 0, "puntos_victoria": 2, "desempate_goles": "gf",
+                           "nota": "Cada partido ganado valía 2 puntos y, con los mismos puntos, desempataban los goles a favor. "
+                                   "En la primera fase había 2 zonas de 11 a dos ruedas: los dos primeros de cada zona jugaban "
+                                   "las semifinales y la final, a un partido en cancha neutral; del 3.º al 6.º pasaban al "
+                                   "Nacional, y los demás jugaban el Petit Torneo y el Torneo Reclasificatorio, en el que bajó "
+                                   "Deportivo Morón. Como no subió nadie, en 1970 fueron 21 equipos.",
+                           "descensos": "etapa",
+                           "descienden_etapa": {"Segunda etapa del Reclasificatorio": ["deportivo-moron"]},
+                           "goleadores_nota": "Los goles son solo de la final (de RSSSF, con los minutos): del resto del torneo "
+                                              "no están. El goleador fue Walter Machado da Silva (Racing), con 14 goles.",
+                           "nombre_playoffs": "Fase final",
+                           "playoffs": [(r"^$^", n) for n in ("Semifinales", "Final")],
+                           "playoffs_a_mano": {
+                           "Semifinales": [
+                               {"hora_utc": "1969-07-02T19:00Z", "fecha": "1969-07-02", "local": "chacarita-juniors", "visitante": "racing-club", "gl": 1, "gv": 0, "estadio": "Estadio La Bombonera"},
+                               {"hora_utc": "1969-07-03T19:00Z", "fecha": "1969-07-03", "local": "boca-juniors", "visitante": "river-plate", "gl": 0, "gv": 0, "estadio": "Estadio El Cilindro", "alargue": True, "gana": "river-plate", "nota": "Pasó River por haber hecho más goles en la primera fase (35; Boca, 34)"},
+                           ],
+                           "Final": [
+                               {"hora_utc": "1969-07-06T19:00Z", "fecha": "1969-07-06", "local": "chacarita-juniors", "visitante": "river-plate", "gl": 4, "gv": 1, "estadio": "Estadio El Cilindro", "arbitro": "Roberto Barreiro", "goles": [{"jugador": "Neumann", "equipo": "local", "min": 12}, {"jugador": "Trebucq", "equipo": "visitante", "min": 18}, {"jugador": "Neumann", "equipo": "local", "min": 37}, {"jugador": "Marcos", "equipo": "local", "min": 47}, {"jugador": "Frassoldati", "equipo": "local", "min": 56}]},
+                           ],
+                           }},
+    # El Campeonato Nacional 1969 (septiembre a diciembre; campeón Boca): 18 equipos (13 del Metropolitano y 5 del Torneo
+    # Regional) a una rueda, con 2 puntos por partido ganado; a Unión le descontaron 2 puntos. River y San Lorenzo
+    # empataron el segundo puesto, que daba un lugar en la Libertadores 1970: jugaron un desempate a ida y vuelta (en
+    # "playoffs"), y River va segundo en la tabla ("orden_a_mano"). ESPN no lo tiene: va a mano (tools/a_mano; Wikipedia,
+    # controlada con RSSSF; del River-Boca de la última fecha, los goles de RSSSF; del desempate, los goles y los árbitros
+    # de Wikipedia)
+    "1969-nacional": {"nombre": "Campeonato Nacional 1969", "anio": 1969, "liga": "a_mano", "slug": "1969-nacional",
+                      "zonas": "unica", "fechas": 17, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                      "desempate_goles": "gf", "orden_a_mano": ["river-plate", "san-lorenzo"],
+                      "descuentos": {"union": 2},
+                      "descuentos_texto": "A Unión se le descontaron 2 puntos. River y San Lorenzo terminaron empatados en "
+                                          "el segundo puesto: lo definieron en un desempate a ida y vuelta (ganó River).",
+                      "anual_texto": "La tabla del Campeonato Nacional 1969 (17 fechas, a una rueda). Cada partido ganado "
+                                     "valía 2 puntos.",
+                      "goleadores_nota": "Los goles son solo del River-Boca de la última fecha (de RSSSF) y del desempate "
+                                         "(de Wikipedia). Los goleadores del torneo fueron Carlos Bulla (Platense) y Rodolfo "
+                                         "Fischer (San Lorenzo), con 14 goles.",
+                      "nombre_playoffs": "Desempate",
+                      "playoffs": [(r"^$^", "Desempate por el segundo puesto")],
+                      "playoffs_a_mano": {
+                           "Desempate por el segundo puesto": [
+                               {"hora_utc": "1969-12-17T19:00Z", "fecha": "1969-12-17", "local": "san-lorenzo", "visitante": "river-plate", "gl": 0, "gv": 1, "estadio": "Estadio José Amalfitani", "arbitro": "Arturo Ithurralde", "goles": [{"jugador": "Marchetti", "equipo": "visitante", "min": 24}]},
+                               {"hora_utc": "1969-12-21T19:00Z", "fecha": "1969-12-21", "local": "river-plate", "visitante": "san-lorenzo", "gl": 3, "gv": 2, "estadio": "Estadio El Cilindro", "arbitro": "Oscar Antonio Veiró", "goles": [{"jugador": "P. González", "equipo": "visitante", "min": 10}, {"jugador": "Montivero", "equipo": "local", "min": 31}, {"jugador": "Más", "equipo": "local", "min": 44, "tipo": "pen"}, {"jugador": "Más", "equipo": "local", "min": 78}, {"jugador": "Rosl", "equipo": "visitante", "min": 82}]},
+                           ],
+                      },
+                      "ida_y_vuelta": True,
+                      "sin_descensos": "En el Nacional no había descensos: se definían en el Metropolitano.",
+                      "cupos": {"anio": 1970, "fijos": True,
+                                "libertadores": [("Campeón del Nacional 1969", "boca-juniors"),
+                                                 ("Subcampeón del Nacional 1969 (ganó el desempate con San Lorenzo)",
+                                                  "river-plate")]}},
+    # 1970:el Campeonato Metropolitano 1970 (marzo a julio; campeón Independiente): 21 equipos a una rueda (21 fechas, en
     # cada una quedaba uno libre), con 2 puntos por partido ganado; con los mismos puntos desempataban los goles a favor
     # y después los goles en contra ("desempate_goles": "gf"). Después, por etapas ("etapas"; en tools/a_mano, cada fecha
     # dice su etapa): los doce primeros pasaban al Nacional; del 13.º al 16.º jugaban el Petit Torneo (los dos primeros
@@ -3574,6 +3649,7 @@ CLUBES_NUEVOS = {
     "dor": ("don-orione", "Don Orione (Barranqueras)"),   # (no están en ESPN: 1971)
     "hiw": ("huracan-ingeniero-white", "Huracán (Ingeniero White)"),
     "abr": ("almirante-brown", "Almirante Brown"),   # (no está en ESPN: el Torneo de Promoción 1970)
+    "dmo": ("deportivo-moron", "Deportivo Morón"),   # (no está en ESPN: 1969)
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
     "hco": ("huracan-corrientes", "Huracán Corrientes"),   # (no está en ESPN: 1996-97)   # (no tiene id de ESPN: 1999-00)
     "ger": ("gimnasia-concepcion", "Gimnasia y Esgrima (Concepción del Uruguay)"),   # (no está en ESPN: Promoción 2002)
@@ -4066,7 +4142,7 @@ def armar(clave):
     for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "goleadores_nota", "promocion", "ventaja", "triangular", "texto_triangular", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
               "campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro", "descuentos",
               "descuentos_texto", "promedios_victoria", "puntos_victoria", "punto_penales",
-              "promedios_por_temporada", "texto_promocion", "campeon_etapa", "pasan_triangular", "etapa_suma", "texto_suma", "desempate_goles", "descienden_etapa"):
+              "promedios_por_temporada", "texto_promocion", "campeon_etapa", "pasan_triangular", "etapa_suma", "texto_suma", "desempate_goles", "descienden_etapa", "orden_a_mano"):
         if cfg.get(k):
             datos[k] = cfg[k]
     if cfg.get("titulo_anual"):

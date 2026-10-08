@@ -1,0 +1,3497 @@
+{
+ "nombre": "Campeonato Metropolitano 1969",
+ "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi), sin goles. Estadio: la cancha que dice RSSSF cuando no era la del local; si no, la del local. Las tablas que salen de los partidos (con los goles a favor como desempate, como se usaba) son iguales a las de RSSSF y Wikipedia. Wikipedia pone Newell's 3-0 Platense (fecha 9); va el 3-1 de RSSSF, que es el que da los goles de los dos de la tabla oficial",
+ "fechas": [
+  {
+   "numero": 1,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-02-21",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-02-23",
+     "local": "banfield",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-02-23",
+     "local": "boca-juniors",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-02-23",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-02-23",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-02-23",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-02-23",
+     "local": "deportivo-moron",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-02-23",
+     "local": "quilmes",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-02-23",
+     "local": "racing-club",
+     "visitante": "los-andes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-02-23",
+     "local": "platense",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1969-02-25",
+     "local": "union",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-02-28",
+     "local": "colon",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-02",
+     "local": "atlanta",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-02",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-02",
+     "local": "lanus",
+     "visitante": "chacarita-juniors",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-02",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-02",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "deportivo-moron",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-02",
+     "local": "huracan",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-02",
+     "local": "los-andes",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-02",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-02",
+     "local": "platense",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-02",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-03-07",
+     "local": "river-plate",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-09",
+     "local": "banfield",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-09",
+     "local": "chacarita-juniors",
+     "visitante": "colon",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-09",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-09",
+     "local": "rosario-central",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-09",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-09",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-09",
+     "local": "deportivo-moron",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-09",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-09",
+     "local": "union",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-09",
+     "local": "quilmes",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-03-06",
+     "local": "atlanta",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-06",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-06",
+     "local": "colon",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-06",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-06",
+     "local": "velez-sarsfield",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-16",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-16",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-16",
+     "local": "platense",
+     "visitante": "deportivo-moron",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-16",
+     "local": "quilmes",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-16",
+     "local": "banfield",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1969-03-18",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-03-21",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-23",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-23",
+     "local": "lanus",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-23",
+     "local": "rosario-central",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-23",
+     "local": "san-lorenzo",
+     "visitante": "atlanta",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-23",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-23",
+     "local": "deportivo-moron",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-23",
+     "local": "los-andes",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-23",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-23",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-23",
+     "local": "union",
+     "visitante": "colon",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "nota": "Se suspendió a los 6 minutos del segundo tiempo, 0-0, por incidentes; la AFA se lo dio ganado a Unión."
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-03-28",
+     "local": "quilmes",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-30",
+     "local": "atlanta",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-30",
+     "local": "banfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-30",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-30",
+     "local": "independiente",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-30",
+     "local": "velez-sarsfield",
+     "visitante": "colon",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-03-30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "los-andes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-30",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-30",
+     "local": "platense",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-30",
+     "local": "union",
+     "visitante": "deportivo-moron",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-03-30",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-04-03",
+     "local": "chacarita-juniors",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-03",
+     "local": "colon",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Unión",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-03",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-03",
+     "local": "lanus",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-03",
+     "local": "san-lorenzo",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-03",
+     "local": "argentinos-juniors",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-03",
+     "local": "los-andes",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-03",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-03",
+     "local": "racing-club",
+     "visitante": "union",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-03",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-03",
+     "local": "deportivo-moron",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-04-06",
+     "local": "atlanta",
+     "visitante": "colon",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-06",
+     "local": "banfield",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-06",
+     "local": "boca-juniors",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-06",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-06",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-06",
+     "local": "deportivo-moron",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-06",
+     "local": "platense",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-06",
+     "local": "quilmes",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-06",
+     "local": "union",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-06",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "nota": "Se suspendió el 6 de abril a los 7 minutos del segundo tiempo, 0-0; los 38 minutos que faltaban se jugaron el 16 de abril, en cancha de Quilmes."
+    },
+    {
+     "fecha": "1969-04-09",
+     "local": "huracan",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-04-11",
+     "local": "lanus",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-13",
+     "local": "chacarita-juniors",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-13",
+     "local": "colon",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Unión",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-13",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-13",
+     "local": "velez-sarsfield",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-13",
+     "local": "argentinos-juniors",
+     "visitante": "deportivo-moron",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-13",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Quilmes",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-13",
+     "local": "los-andes",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-13",
+     "local": "newell-s-old-boys",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-13",
+     "local": "river-plate",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-13",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-04-18",
+     "local": "deportivo-moron",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-20",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-20",
+     "local": "banfield",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-20",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-20",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-20",
+     "local": "rosario-central",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-20",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-20",
+     "local": "quilmes",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-20",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-20",
+     "local": "union",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-20",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-04-25",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-27",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-27",
+     "local": "colon",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Unión",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-27",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-27",
+     "local": "lanus",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-27",
+     "local": "velez-sarsfield",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-04-27",
+     "local": "huracan",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-27",
+     "local": "los-andes",
+     "visitante": "deportivo-moron",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-27",
+     "local": "newell-s-old-boys",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-27",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-04-27",
+     "local": "argentinos-juniors",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-04-30",
+     "local": "independiente",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-01",
+     "local": "colon",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Unión",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-01",
+     "local": "lanus",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-01",
+     "local": "huracan",
+     "visitante": "quilmes",
+     "gl": 6,
+     "gv": 3,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-01",
+     "local": "los-andes",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-01",
+     "local": "newell-s-old-boys",
+     "visitante": "deportivo-moron",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-01",
+     "local": "river-plate",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-01",
+     "local": "chacarita-juniors",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1969-05-07",
+     "local": "atlanta",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-07",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-28",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-05-04",
+     "local": "banfield",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-04",
+     "local": "chacarita-juniors",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-04",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-04",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-04",
+     "local": "san-lorenzo",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-04",
+     "local": "argentinos-juniors",
+     "visitante": "los-andes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Platense",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-04",
+     "local": "deportivo-moron",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-04",
+     "local": "quilmes",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-04",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-04",
+     "local": "union",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-04",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-05-09",
+     "local": "huracan",
+     "visitante": "deportivo-moron",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-11",
+     "local": "atlanta",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-11",
+     "local": "boca-juniors",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-11",
+     "local": "colon",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-11",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-11",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-11",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-11",
+     "local": "los-andes",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-11",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-11",
+     "local": "platense",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-11",
+     "local": "lanus",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-05-16",
+     "local": "river-plate",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-18",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-18",
+     "local": "lanus",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-18",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-18",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-18",
+     "local": "union",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-20",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-21",
+     "local": "chacarita-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-21",
+     "local": "deportivo-moron",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-21",
+     "local": "los-andes",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Eduardo Gallardón",
+     "goles": []
+    },
+    {
+     "fecha": "1969-06-18",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "B"
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-05-25",
+     "local": "atlanta",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Deportivo Morón",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-25",
+     "local": "banfield",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-25",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-25",
+     "local": "independiente",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-25",
+     "local": "velez-sarsfield",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-05-25",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-25",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-25",
+     "local": "newell-s-old-boys",
+     "visitante": "los-andes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-25",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-25",
+     "local": "quilmes",
+     "visitante": "deportivo-moron",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-05-25",
+     "local": "colon",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-06-01",
+     "local": "chacarita-juniors",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-01",
+     "local": "colon",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-01",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-01",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-01",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-01",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-01",
+     "local": "deportivo-moron",
+     "visitante": "union",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-01",
+     "local": "los-andes",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-01",
+     "local": "racing-club",
+     "visitante": "quilmes",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-01",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-01",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-06-04",
+     "local": "independiente",
+     "visitante": "colon",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-05",
+     "local": "atlanta",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-05",
+     "local": "banfield",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-05",
+     "local": "boca-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-05",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-05",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-05",
+     "local": "huracan",
+     "visitante": "los-andes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-05",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-05",
+     "local": "quilmes",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-05",
+     "local": "union",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-05",
+     "local": "velez-sarsfield",
+     "visitante": "deportivo-moron",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-06-08",
+     "local": "chacarita-juniors",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-08",
+     "local": "colon",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-08",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-08",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-08",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-08",
+     "local": "argentinos-juniors",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-08",
+     "local": "los-andes",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-08",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-08",
+     "local": "racing-club",
+     "visitante": "deportivo-moron",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-08",
+     "local": "river-plate",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-08",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-06-13",
+     "local": "atlanta",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Deportivo Morón",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-15",
+     "local": "banfield",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-15",
+     "local": "boca-juniors",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-15",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-15",
+     "local": "rosario-central",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-15",
+     "local": "deportivo-moron",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-15",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-15",
+     "local": "platense",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-15",
+     "local": "quilmes",
+     "visitante": "los-andes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-15",
+     "local": "union",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-15",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-06-20",
+     "local": "independiente",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-22",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-22",
+     "local": "colon",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-22",
+     "local": "lanus",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-22",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-22",
+     "local": "argentinos-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-22",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-22",
+     "local": "los-andes",
+     "visitante": "union",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-22",
+     "local": "newell-s-old-boys",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-22",
+     "local": "river-plate",
+     "visitante": "deportivo-moron",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-22",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "etapa": "primera-fase",
+   "partidos": [
+    {
+     "fecha": "1969-06-27",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-29",
+     "local": "banfield",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-29",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-29",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-29",
+     "local": "rosario-central",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-29",
+     "local": "san-lorenzo",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "zona": "A"
+    },
+    {
+     "fecha": "1969-06-29",
+     "local": "deportivo-moron",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-29",
+     "local": "quilmes",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-29",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-29",
+     "local": "union",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "B"
+    },
+    {
+     "fecha": "1969-06-29",
+     "local": "atlanta",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Don León Kolbowski",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "etapa": "petit",
+   "partidos": [
+    {
+     "fecha": "1969-07-01",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "union",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-07-02",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "etapa": "petit",
+   "partidos": [
+    {
+     "fecha": "1969-07-05",
+     "local": "union",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Club Atlético Unión",
+     "goles": [],
+     "zona": "Posiciones",
+     "alargue": true
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1969-08-10",
+     "local": "argentinos-juniors",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Platense",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-08-10",
+     "local": "banfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-08-10",
+     "local": "colon",
+     "visitante": "los-andes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-08-10",
+     "local": "newell-s-old-boys",
+     "visitante": "deportivo-moron",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1969-08-15",
+     "local": "deportivo-moron",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-08-17",
+     "local": "atlanta",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-08-17",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-08-17",
+     "local": "los-andes",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1969-08-22",
+     "local": "banfield",
+     "visitante": "los-andes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-08-23",
+     "local": "argentinos-juniors",
+     "visitante": "deportivo-moron",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-08-23",
+     "local": "colon",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-08-23",
+     "local": "rosario-central",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1969-08-29",
+     "local": "los-andes",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-08-30",
+     "local": "atlanta",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-08-30",
+     "local": "deportivo-moron",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-08-30",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1969-09-07",
+     "local": "argentinos-juniors",
+     "visitante": "colon",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-09-07",
+     "local": "banfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-09-07",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "los-andes",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-09-07",
+     "local": "rosario-central",
+     "visitante": "deportivo-moron",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1969-09-14",
+     "local": "colon",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-09-14",
+     "local": "deportivo-moron",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-09-14",
+     "local": "los-andes",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-09-14",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1969-09-20",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-09-21",
+     "local": "atlanta",
+     "visitante": "deportivo-moron",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-09-21",
+     "local": "banfield",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-09-21",
+     "local": "rosario-central",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1969-09-28",
+     "local": "argentinos-juniors",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-09-28",
+     "local": "colon",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-09-28",
+     "local": "deportivo-moron",
+     "visitante": "los-andes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-09-28",
+     "local": "newell-s-old-boys",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1969-10-05",
+     "local": "atlanta",
+     "visitante": "colon",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-10-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-10-05",
+     "local": "los-andes",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-10-05",
+     "local": "rosario-central",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1969-10-12",
+     "local": "atlanta",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-10-12",
+     "local": "deportivo-moron",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-10-12",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-10-12",
+     "local": "los-andes",
+     "visitante": "colon",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 35,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1969-10-19",
+     "local": "argentinos-juniors",
+     "visitante": "los-andes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-10-19",
+     "local": "banfield",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-10-19",
+     "local": "colon",
+     "visitante": "deportivo-moron",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-10-19",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 36,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1969-10-26",
+     "local": "atlanta",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-10-26",
+     "local": "deportivo-moron",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-10-26",
+     "local": "los-andes",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-10-26",
+     "local": "newell-s-old-boys",
+     "visitante": "colon",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 37,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1969-11-01",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-11-01",
+     "local": "rosario-central",
+     "visitante": "los-andes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-11-02",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-11-02",
+     "local": "banfield",
+     "visitante": "deportivo-moron",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 38,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1969-11-09",
+     "local": "colon",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-11-09",
+     "local": "deportivo-moron",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-11-09",
+     "local": "los-andes",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-11-09",
+     "local": "newell-s-old-boys",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 39,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1969-11-16",
+     "local": "atlanta",
+     "visitante": "los-andes",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-11-16",
+     "local": "banfield",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-11-16",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "deportivo-moron",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-11-16",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 40,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1969-11-23",
+     "local": "argentinos-juniors",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-11-23",
+     "local": "colon",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-11-23",
+     "local": "deportivo-moron",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Nuevo Francisco Urbano",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-11-23",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 41,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1969-11-30",
+     "local": "atlanta",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Don León Kolbowski",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-11-30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "colon",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-11-30",
+     "local": "los-andes",
+     "visitante": "deportivo-moron",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Eduardo Gallardón",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-11-30",
+     "local": "rosario-central",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 42,
+   "etapa": "reclasificatorio",
+   "partidos": [
+    {
+     "fecha": "1969-12-07",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-12-07",
+     "local": "banfield",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-12-07",
+     "local": "colon",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Brigadier General Estanislao López",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-12-07",
+     "local": "newell-s-old-boys",
+     "visitante": "los-andes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 43,
+   "etapa": "segunda-etapa",
+   "partidos": [
+    {
+     "fecha": "1969-12-13",
+     "local": "deportivo-moron",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-12-13",
+     "local": "san-telmo",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 44,
+   "etapa": "segunda-etapa",
+   "partidos": [
+    {
+     "fecha": "1969-12-18",
+     "local": "banfield",
+     "visitante": "deportivo-moron",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-12-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-telmo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  },
+  {
+   "numero": 45,
+   "etapa": "segunda-etapa",
+   "partidos": [
+    {
+     "fecha": "1969-12-22",
+     "local": "banfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "zona": "Posiciones"
+    },
+    {
+     "fecha": "1969-12-22",
+     "local": "deportivo-moron",
+     "visitante": "san-telmo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "zona": "Posiciones"
+    }
+   ]
+  }
+ ]
+}
