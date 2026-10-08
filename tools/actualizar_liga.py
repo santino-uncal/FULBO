@@ -33,6 +33,28 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1960: el Campeonato de Primera División 1960 (abril a noviembre; campeón Independiente): 16 equipos a dos ruedas
+    # (30 fechas), con 2 puntos por partido ganado. Con los mismos puntos ordenaban los partidos contra el otro empatado y
+    # contra los primeros ("orden_a_mano", el de RSSSF). Bajaba el peor promedio de puntos por temporada de 1958 a 1960
+    # ("promedios_por_temporada"; RSSSF y Wikipedia): Newell's. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles
+    # salvo el del Atlanta-Independiente de la última fecha). A la Libertadores 1961 fue el campeón
+    "1960-primera": {"nombre": "Campeonato de Primera División 1960", "anio": 1960, "liga": "a_mano", "slug": "1960-primera",
+                     "zonas": "unica", "fechas": 30, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_a_mano": ["river-plate", "argentinos-juniors", "racing-club", "boca-juniors", "chacarita-juniors",
+                                      "huracan"],
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, los puntos sacados en los partidos contra el otro "
+                                    "empatado y contra los primeros de la tabla (así River quedó segundo, delante de "
+                                    "Argentinos, Racing delante de Boca y Chacarita delante de Huracán).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1960 (las 30 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del Atlanta 1-0 Independiente de la última fecha (de RSSSF, con "
+                                        "el minuto).",
+                     # (los puntos de cada temporada; se divide por las temporadas jugadas)
+                     "promedios_por_temporada": True,
+                     "promedios": {"1958": {"san-lorenzo": [38, 1], "racing-club": [41, 1], "independiente": [33, 1], "river-plate": [35, 1], "boca-juniors": [38, 1], "atlanta": [36, 1], "velez-sarsfield": [34, 1], "argentinos-juniors": [25, 1], "rosario-central": [35, 1], "huracan": [27, 1], "estudiantes-de-la-plata": [31, 1], "gimnasia-y-esgrima": [24, 1], "lanus": [25, 1], "newell-s-old-boys": [17, 1]},
+                                   "1959": {"san-lorenzo": [45, 1], "racing-club": [38, 1], "independiente": [33, 1], "river-plate": [32, 1], "boca-juniors": [30, 1], "atlanta": [32, 1], "velez-sarsfield": [26, 1], "argentinos-juniors": [25, 1], "rosario-central": [23, 1], "huracan": [30, 1], "estudiantes-de-la-plata": [28, 1], "ferro-carril-oeste": [33, 1], "gimnasia-y-esgrima": [25, 1], "lanus": [27, 1], "newell-s-old-boys": [32, 1]}},
+                     "descensos": "promedios", "descienden": 1,
+                     "cupos": {"anio": 1961, "fijos": True, "libertadores": [("Campeón de 1960", "independiente")]}},
     # 1961: el Campeonato de Primera División 1961 (abril a diciembre; campeón Racing): 16 equipos a dos ruedas (30
     # fechas), con 2 puntos por partido ganado. Con los mismos puntos ordenaban los partidos contra el otro empatado y
     # contra los tres primeros ("orden_a_mano", el de RSSSF). Bajaban los dos peores promedios de puntos por temporada de
