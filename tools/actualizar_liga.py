@@ -33,6 +33,36 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1959: el Campeonato de Primera División 1959 (mayo a noviembre; campeón San Lorenzo): 16 equipos a dos ruedas (30
+    # fechas), con 2 puntos por partido ganado. Con los mismos puntos ordenaban los partidos contra el otro empatado y
+    # contra los primeros ("orden_a_mano", el de RSSSF). Bajaba el peor promedio de puntos por temporada de 1957 a 1959
+    # ("promedios_por_temporada"; RSSSF y Wikipedia): Gimnasia y Central Córdoba empataron con 24 y se desempató por los
+    # partidos entre ellos y contra los cinco primeros ("promedios_orden"): bajó Central Córdoba. El Newell's-Huracán de
+    # la fecha 29 se suspendió y se lo dieron ganado a Huracán ("para_local"). ESPN no lo tiene: va a mano (tools/a_mano;
+    # RSSSF, sin goles salvo los del Ferro-San Lorenzo de la fecha 26). A la primera Libertadores (1960) fue el campeón
+    "1959-primera": {"nombre": "Campeonato de Primera División 1959", "anio": 1959, "liga": "a_mano", "slug": "1959-primera",
+                     "zonas": "unica", "fechas": 30, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_a_mano": ["independiente", "ferro-carril-oeste", "river-plate", "atlanta", "newell-s-old-boys",
+                                      "huracan", "boca-juniors", "gimnasia-y-esgrima", "argentinos-juniors"],
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, los puntos sacados en los partidos contra el otro "
+                                    "empatado y contra los primeros de la tabla (así Independiente quedó tercero, delante de "
+                                    "Ferro; River, Atlanta y Newell's, en ese orden; Huracán delante de Boca y Gimnasia "
+                                    "delante de Argentinos).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1959 (las 30 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del Ferro 3-0 San Lorenzo de la fecha 26, el partido en el que "
+                                        "San Lorenzo salió campeón (de RSSSF, con los minutos).",
+                     "promedios_por_temporada": True,
+                     "promedios": {"1957": {"san-lorenzo": [38, 1], "racing-club": [36, 1], "river-plate": [46, 1], "boca-juniors": [34, 1], "independiente": [31, 1], "velez-sarsfield": [34, 1], "atlanta": [24, 1], "estudiantes-de-la-plata": [33, 1], "huracan": [33, 1], "rosario-central": [27, 1], "newell-s-old-boys": [31, 1], "argentinos-juniors": [28, 1], "lanus": [22, 1], "gimnasia-y-esgrima": [23, 1]},
+                                   "1958": {"san-lorenzo": [38, 1], "racing-club": [41, 1], "river-plate": [35, 1], "boca-juniors": [38, 1], "independiente": [33, 1], "velez-sarsfield": [34, 1], "atlanta": [36, 1], "estudiantes-de-la-plata": [31, 1], "huracan": [27, 1], "rosario-central": [35, 1], "newell-s-old-boys": [17, 1], "argentinos-juniors": [25, 1], "lanus": [25, 1], "gimnasia-y-esgrima": [24, 1], "central-cordoba-rosario": [27, 1]}},
+                     # (Gimnasia y Central Córdoba, con el mismo promedio: el desempate, por los partidos de la temporada
+                     # entre ellos y contra los cinco primeros de la tabla)
+                     "promedios_orden": ["gimnasia-y-esgrima", "central-cordoba-rosario"],
+                     "promedios_texto": "Gimnasia y Central Córdoba terminaron con el mismo promedio (24,00). Se desempató "
+                                        "con los puntos de la temporada en los partidos entre ellos y contra los cinco "
+                                        "primeros de la tabla: Gimnasia 9 y Central Córdoba 6, que bajó a la Primera B.",
+                     "descensos": "promedios", "descienden": 1,
+                     "cupos": {"anio": 1960, "fijos": True, "libertadores": [("Campeón de 1959", "san-lorenzo")]}},
     # 1960: el Campeonato de Primera División 1960 (abril a noviembre; campeón Independiente): 16 equipos a dos ruedas
     # (30 fechas), con 2 puntos por partido ganado. Con los mismos puntos ordenaban los partidos contra el otro empatado y
     # contra los primeros ("orden_a_mano", el de RSSSF). Bajaba el peor promedio de puntos por temporada de 1958 a 1960
@@ -3924,6 +3954,7 @@ CLUBES_NUEVOS = {
     "hiw": ("huracan-ingeniero-white", "Huracán (Ingeniero White)"),
     "abr": ("almirante-brown", "Almirante Brown"),   # (no está en ESPN: el Torneo de Promoción 1970)
     "dmo": ("deportivo-moron", "Deportivo Morón"),   # (no está en ESPN: 1969)
+    "ccr": ("central-cordoba-rosario", "Central Córdoba (Rosario)"),   # (no está en ESPN: 1959)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
@@ -4422,7 +4453,8 @@ def armar(clave):
     for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "goleadores_nota", "promocion", "ventaja", "triangular", "texto_triangular", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
               "campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro", "descuentos",
               "descuentos_texto", "promedios_victoria", "puntos_victoria", "punto_penales",
-              "promedios_por_temporada", "texto_promocion", "campeon_etapa", "pasan_triangular", "etapa_suma", "texto_suma", "desempate_goles", "descienden_etapa", "orden_a_mano", "orden_texto"):
+              "promedios_por_temporada", "texto_promocion", "campeon_etapa", "pasan_triangular", "etapa_suma", "texto_suma", "desempate_goles", "descienden_etapa", "orden_a_mano", "orden_texto",
+              "promedios_orden", "promedios_texto"):
         if cfg.get(k):
             datos[k] = cfg[k]
     if cfg.get("titulo_anual"):

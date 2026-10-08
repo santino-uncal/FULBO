@@ -286,6 +286,12 @@
     // ---- Promedios: puntos dividido partidos de las temporadas anteriores (T.promedios: {año: {club: [pts, pj]}})
     // más la del año (la tabla anual). Los recién ascendidos dividen solo por los partidos que jugaron en Primera ----
     const aniosProm = Object.keys(T.promedios || {}).sort();
+    // (T.promedios_orden: empatados en el promedio que se desempataron de otra forma, como Gimnasia y Central Córdoba en
+    // 1959; T.promedios_texto lo explica)
+    function ordenProm(a, b) {
+      const o = T.promedios_orden || [];
+      return o.includes(a) && o.includes(b) ? o.indexOf(a) - o.indexOf(b) : 0;
+    }
     function promedios() {
       const anual = Object.fromEntries(tablaAnual().map(f => [f.id, f]));
       return ids.map(id => {
@@ -297,7 +303,7 @@
         const total = temporadas.reduce((n, t) => n + (t ? t[0] : 0), 0);
         const pj = temporadas.reduce((n, t) => n + (t ? t[1] : 0), 0);
         return { id, temporadas, pts: total, pj, prom: pj ? total / pj : 0 };
-      }).sort((a, b) => b.prom - a.prom || club(a.id).nombre.localeCompare(club(b.id).nombre));
+      }).sort((a, b) => b.prom - a.prom || ordenProm(a.id, b.id) || club(a.id).nombre.localeCompare(club(b.id).nombre));
     }
     // Descienden el último de la tabla anual y el peor promedio; si es el mismo club, el anteúltimo de la tabla anual
     // (todos: los que bajan; porProm: los que bajan por los promedios)
@@ -436,6 +442,7 @@
         : " Los que subieron hace poco dividen solo por los partidos que jugaron en Primera. El promedio va con tres decimales, sin redondear (como lo publica la AFA)."}</p>
         <div class="grupo tabla-larga"><table><thead><tr><th>#</th><th class="eq">Equipo</th>${[...aniosProm, actual].map(a => `<th class="opc">${a}</th>`).join("")}
           <th>Pts</th><th>${T.promedios_por_temporada ? `<span title="Temporadas">Temp.</span>` : "J"}</th><th>Prom.</th></tr></thead><tbody>${cuerpo}</tbody></table></div>
+        ${T.promedios_texto ? `<p class="nota-edicion">${esc(T.promedios_texto)}</p>` : ""}
         ${T.descensos || T.descensos_anulados ? avisoDescenso() : ""}
         ${T.sin_descensos && !T.anual && !T.cupos ? `<p class="nota-edicion">${esc(T.sin_descensos)}</p>` : ""}`;
     }
