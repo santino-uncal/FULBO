@@ -33,6 +33,22 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1953: el Campeonato de Primera División 1953 (abril a noviembre; campeón River): 16 equipos a dos ruedas (30 fechas),
+    # con 2 puntos por partido ganado. Con los mismos puntos desempataba el cociente de goles (en este torneo da el mismo
+    # orden que la diferencia de gol). Bajaba el último de la tabla (no había promedios): Estudiantes. ESPN no lo tiene: va
+    # a mano (tools/a_mano; RSSSF, sin goles salvo los del River-Newell's de la fecha 30). No había Libertadores todavía
+    "1953-primera": {"nombre": "Campeonato de Primera División 1953", "anio": 1953, "liga": "a_mano", "slug": "1953-primera",
+                     "zonas": "unica", "fechas": 30, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, el cociente de goles (goles a favor divididos "
+                                    "por goles en contra) y después los goles a favor; en este torneo da el mismo orden que "
+                                    "la diferencia de gol. Así Vélez quedó segundo, delante de Racing, y Newell's se salvó "
+                                    "del descenso, que fue para Estudiantes.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1953 (las 30 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del River 2-1 Newell's de la fecha 30, el partido en el que River "
+                                        "salió campeón (de RSSSF, con los minutos). Los goleadores del torneo fueron Juan "
+                                        "Benavídez (San Lorenzo) y Juan José Pizzuti (Racing), con 22 goles.",
+                     "descensos": "tabla", "descienden": 1},
     # 1954: el Campeonato de Primera División 1954 (abril a noviembre; campeón Boca): 16 equipos a dos ruedas (30 fechas),
     # con 2 puntos por partido ganado. Bajaba el último de la tabla (no había promedios): Banfield. En las fechas 24 y 26
     # se suspendieron once partidos que se terminaron de jugar días después (cada uno con su nota). ESPN no lo tiene: va a
