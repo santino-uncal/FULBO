@@ -1,6 +1,6 @@
 {
  "nombre": "Campeonato de Primera División 1959",
- "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi), sin goles salvo los del Ferro-San Lorenzo de la fecha 26. Estadio: la cancha que dice RSSSF cuando no era la del local; si no, la del local. La tabla que sale de los partidos es igual a la de RSSSF y Wikipedia; el orden de los empatados en puntos es el de RSSSF (por los partidos entre ellos y contra los primeros), y el desempate del descenso entre Gimnasia y Central Córdoba, el de RSSSF y Wikipedia",
+ "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi), sin goles salvo los del Ferro-San Lorenzo de la fecha 26. Estadio: la cancha que dice RSSSF cuando no era la del local; si no, la del local. La tabla que sale de los partidos es igual a la de RSSSF y Wikipedia; el orden de los empatados en puntos es el de RSSSF (por los partidos entre ellos y contra los primeros), y el desempate del descenso entre Gimnasia y Central Córdoba, el de RSSSF y Wikipedia. Wikipedia (que trae solo las primeras fechas) tiene mal Vélez-River de la fecha 7 (1-1; fue 1-2) y Racing-Rosario Central de la fecha 8 (4-1; fue 4-0): con esos resultados no da su propia tabla",
  "fechas": [
   {
    "numero": 1,
