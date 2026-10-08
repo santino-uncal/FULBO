@@ -33,6 +33,45 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1950: el Campeonato de Primera División 1950 (abril a noviembre; campeón Racing): 18 equipos a dos ruedas (34 fechas),
+    # con 2 puntos por partido ganado. Bajaban el último (Rosario Central) y el anteúltimo: Huracán y Tigre empataron ese
+    # lugar y jugaron un desempate a ida y vuelta (bajó Tigre). Boca e Independiente empataron el segundo puesto y jugaron
+    # tres partidos; quedó segundo Boca por el cociente de goles de la tabla con los desempates. Los dos desempates van en
+    # "playoffs", partido por partido, y el orden de esos empatados en "orden_a_mano"; los demás empatados en puntos, como
+    # RSSSF (que coincide con la diferencia de gol). ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles salvo los
+    # del Banfield-Racing de la fecha 32). No había Libertadores todavía
+    "1950-primera": {"nombre": "Campeonato de Primera División 1950", "anio": 1950, "liga": "a_mano", "slug": "1950-primera",
+                     "zonas": "unica", "fechas": 34, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_a_mano": ["boca-juniors", "independiente", "huracan", "tigre"],
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, el de RSSSF (que coincide con la diferencia de "
+                                    "gol), salvo dos empates que se definieron en desempates: Boca e Independiente, por el "
+                                    "segundo puesto (tres partidos y, como seguían iguales, el cociente de goles de la tabla "
+                                    "con los desempates: quedó segundo Boca), y Huracán y Tigre, por el descenso (bajó Tigre).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1950 (las 34 fechas), sin los desempates. "
+                                    "Cada partido ganado valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del Banfield 3-0 Racing de la fecha 32 (de RSSSF, con los "
+                                        "minutos). El goleador del torneo fue Mario Papa (San Lorenzo), con 24 goles.",
+                     "nombre_playoffs": "Desempates",
+                     "playoffs": [(r"^$^", "Desempate por el segundo puesto"), (r"^$^", "Desempate por el descenso")],
+                     "playoffs_a_mano": {
+                          "Desempate por el segundo puesto": [
+                              {"fecha": "1950-12-03", "local": "boca-juniors", "visitante": "independiente", "gl": 2, "gv": 3, "estadio": "Monumental", "goles": []},
+                              {"fecha": "1950-12-08", "local": "independiente", "visitante": "boca-juniors", "gl": 2, "gv": 3, "estadio": "El Cilindro", "goles": []},
+                              {"fecha": "1950-12-10", "local": "boca-juniors", "visitante": "independiente", "gl": 3, "gv": 3, "estadio": "El Cilindro", "goles": [],
+                               "gana": "boca-juniors",
+                               "nota": "Ganó un partido cada uno y empataron el tercero: quedó segundo Boca, por el cociente de goles de la tabla con los desempates (1,24 contra 1,22)."},
+                          ],
+                          "Desempate por el descenso": [
+                              {"fecha": "1950-12-03", "local": "tigre", "visitante": "huracan", "gl": 1, "gv": 3, "estadio": "La Doble Visera", "goles": []},
+                              {"fecha": "1950-12-10", "local": "huracan", "visitante": "tigre", "gl": 5, "gv": 1, "estadio": "Monumental", "goles": [],
+                               "nota": "Huracán ganó los dos partidos y se quedó en Primera; Tigre bajó a la Primera B."},
+                          ],
+                     },
+                     # (dos desempates sueltos, no un cuadro: cada uno en su parte, partido por partido)
+                     "cuadro": {"bloques": [("Desempate por el segundo puesto", [["Desempate por el segundo puesto"]]),
+                                            ("Desempate por el descenso", [["Desempate por el descenso"]])],
+                                "nota": "De los desempates hay solo el resultado."},
+                     "descensos": "tabla", "descienden": 2},
     # 1951: el Campeonato de Primera División 1951 (abril a diciembre; campeón Racing): 17 equipos a dos ruedas (34 fechas,
     # en cada una quedaba uno libre), con 2 puntos por partido ganado. Banfield y Racing terminaron empatados arriba y
     # definieron el título en una final a ida y vuelta en la cancha de San Lorenzo (en "playoffs"; ganó Racing). Bajaban
