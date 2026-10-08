@@ -662,10 +662,11 @@
     // ---- Pestañas ----
     // las pestañas que tiene este torneo (sin fase regular, la Copa de la Superliga 2019: el cuadro y los goleadores;
     // con cupos pero sin tabla anual, las Superligas: la de la tabla anual es la de las copas y el descenso)
+    // (sin cupos y con descenso por la tabla, como en 1956, antes de la Libertadores: "Descenso")
     const hay = v => (v !== "tabla" && v !== "fechas" || T.fechas.length) && (v !== "promedios" || T.promedios)
-      && (v !== "anual" || T.anual || T.cupos) && (v !== "playoffs" || T.pasan || T.playoffs.length)
+      && (v !== "anual" || T.anual || T.cupos || T.descensos === "tabla") && (v !== "playoffs" || T.pasan || T.playoffs.length)
       && (v !== "asistidores" || conAsistencia.length);   // las asistencias, solo desde el Inicial 2013
-    const nombreVista = (v, n) => v === "anual" && T.nombre_anual ? T.nombre_anual : v === "anual" && !T.anual ? "Copas y descenso" : v === "playoffs" && !T.fechas.length ? "Cuadro y partidos"
+    const nombreVista = (v, n) => v === "anual" && T.nombre_anual ? T.nombre_anual : v === "anual" && !T.anual ? (T.cupos ? "Copas y descenso" : "Descenso") : v === "playoffs" && !T.fechas.length ? "Cuadro y partidos"
       : v === "playoffs" && T.nombre_playoffs ? T.nombre_playoffs : n;
     const inicial = T.fechas.length ? "tabla" : "playoffs";
     let vista = VISTAS.some(([v]) => v === PARAMS.get("vista") && hay(v)) ? PARAMS.get("vista") : inicial;

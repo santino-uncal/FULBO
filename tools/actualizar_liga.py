@@ -33,6 +33,24 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1956: el Campeonato de Primera División 1956 (abril a diciembre; campeón River): 16 equipos a dos ruedas (30 fechas),
+    # con 2 puntos por partido ganado. Bajaba el último de la tabla (no había promedios): Argentinos, Tigre y Chacarita
+    # empataron con 22 y se desempató por los partidos entre ellos y contra los cinco primeros ("orden_a_mano", el de
+    # RSSSF): bajó Chacarita. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles salvo los del River-Rosario
+    # Central de la fecha 29). No había Libertadores todavía
+    "1956-primera": {"nombre": "Campeonato de Primera División 1956", "anio": 1956, "liga": "a_mano", "slug": "1956-primera",
+                     "zonas": "unica", "fechas": 30, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_a_mano": ["argentinos-juniors", "tigre", "chacarita-juniors"],
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, como en RSSSF. Argentinos, Tigre y Chacarita "
+                                    "terminaron últimos con 22 puntos: el último puesto, el del descenso, se desempató con "
+                                    "los puntos de los partidos entre ellos y contra los cinco primeros de la tabla "
+                                    "(Argentinos 10, Tigre 10 y Chacarita 9, que bajó a la Primera B).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1956 (las 30 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del River 4-0 Rosario Central de la fecha 29, el partido en el que "
+                                        "River salió campeón (de RSSSF, con los minutos). Los goleadores del torneo fueron "
+                                        "Juan Alberto Castro (Rosario Central) y Ernesto Grillo (Independiente), con 17 goles.",
+                     "descensos": "tabla", "descienden": 1},
     # 1957: el Campeonato de Primera División 1957 (mayo a diciembre; campeón River, el tercero seguido): 16 equipos a
     # dos ruedas (30 fechas), con 2 puntos por partido ganado. Con los mismos puntos ordenaban los partidos contra el otro
     # empatado y contra los tres primeros, y después el cociente de goles ("orden_a_mano", el de RSSSF). Bajaba el peor

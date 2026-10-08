@@ -1,0 +1,2337 @@
+{
+ "nombre": "Campeonato de Primera División 1956",
+ "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi), sin goles salvo los del River-Rosario Central de la fecha 29. Estadio: la cancha que dice RSSSF cuando no era la del local; si no, la del local. La tabla que sale de los partidos es igual a la de RSSSF; el desempate del último puesto (Argentinos, Tigre y Chacarita), el de RSSSF. Wikipedia tiene mal Newell's-Independiente de la fecha 2 (2-1; fue 3-1) e Independiente-Argentinos de la fecha 21 (4-1; fue 4-2); su tabla es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1956-04-15",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-15",
+     "local": "chacarita-juniors",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-15",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-15",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-15",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-15",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-15",
+     "local": "san-lorenzo",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-15",
+     "local": "tigre",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1956-04-22",
+     "local": "argentinos-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-22",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-22",
+     "local": "lanus",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-22",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-22",
+     "local": "racing-club",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-22",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-22",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-22",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1956-04-28",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-28",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-28",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-28",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-28",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-28",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-28",
+     "local": "rosario-central",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1956-04-28",
+     "local": "tigre",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1956-05-06",
+     "local": "argentinos-juniors",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-06",
+     "local": "chacarita-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-06",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-06",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-06",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-06",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-06",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-06",
+     "local": "san-lorenzo",
+     "visitante": "tigre",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1956-05-13",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-13",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-13",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-13",
+     "local": "huracan",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-13",
+     "local": "independiente",
+     "visitante": "lanus",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-13",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-13",
+     "local": "tigre",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-13",
+     "local": "velez-sarsfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1956-05-20",
+     "local": "argentinos-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-20",
+     "local": "chacarita-juniors",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-20",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-20",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-20",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-20",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-20",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-20",
+     "local": "tigre",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1956-05-27",
+     "local": "boca-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 6,
+     "gv": 3,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-27",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-27",
+     "local": "ferro-carril-oeste",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-27",
+     "local": "huracan",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-27",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-27",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-27",
+     "local": "rosario-central",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1956-05-27",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1956-06-03",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 6,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-06-03",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1956-06-03",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1956-06-03",
+     "local": "lanus",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1956-06-03",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-06-03",
+     "local": "rosario-central",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1956-06-03",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-06-03",
+     "local": "tigre",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1956-06-09",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1956-06-17",
+     "local": "boca-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-06-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1956-06-17",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-06-17",
+     "local": "independiente",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-06-17",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1956-06-17",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1956-06-17",
+     "local": "velez-sarsfield",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1956-07-15",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-15",
+     "local": "chacarita-juniors",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-15",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-15",
+     "local": "lanus",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-15",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-15",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-15",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-15",
+     "local": "tigre",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1956-07-22",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-22",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-22",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-22",
+     "local": "huracan",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-22",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-22",
+     "local": "newell-s-old-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-22",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-22",
+     "local": "velez-sarsfield",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1956-07-29",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-29",
+     "local": "chacarita-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-29",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-29",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-29",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-29",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-29",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-07-29",
+     "local": "tigre",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1956-08-05",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-05",
+     "local": "ferro-carril-oeste",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-05",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-05",
+     "local": "newell-s-old-boys",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-05",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-05",
+     "local": "river-plate",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-05",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1956-08-12",
+     "local": "argentinos-juniors",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-12",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-12",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-12",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-12",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-12",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-12",
+     "local": "tigre",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1956-08-26",
+     "local": "ferro-carril-oeste",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-26",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-26",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-26",
+     "local": "lanus",
+     "visitante": "san-lorenzo",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-26",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-26",
+     "local": "racing-club",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-26",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1956-08-26",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1956-09-02",
+     "local": "argentinos-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-02",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-02",
+     "local": "huracan",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-02",
+     "local": "lanus",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-02",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-02",
+     "local": "racing-club",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-02",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-02",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1956-09-09",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-09",
+     "local": "chacarita-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-09",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-09",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-09",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-09",
+     "local": "independiente",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-09",
+     "local": "rosario-central",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-09",
+     "local": "tigre",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1956-09-16",
+     "local": "argentinos-juniors",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-16",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-16",
+     "local": "lanus",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-16",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-16",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-16",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-16",
+     "local": "san-lorenzo",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-16",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1956-09-23",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-23",
+     "local": "ferro-carril-oeste",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-23",
+     "local": "huracan",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-23",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-23",
+     "local": "rosario-central",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-23",
+     "local": "tigre",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-23",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1956-09-30",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-30",
+     "local": "chacarita-juniors",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-30",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-30",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-30",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-30",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1956-09-30",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1956-10-07",
+     "local": "boca-juniors",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-07",
+     "local": "ferro-carril-oeste",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-07",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-07",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-07",
+     "local": "river-plate",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-07",
+     "local": "rosario-central",
+     "visitante": "chacarita-juniors",
+     "gl": 9,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-07",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1956-10-12",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-14",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-14",
+     "local": "chacarita-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-14",
+     "local": "lanus",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-14",
+     "local": "newell-s-old-boys",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-14",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-14",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-14",
+     "local": "tigre",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1956-10-21",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-21",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-21",
+     "local": "ferro-carril-oeste",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-21",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-21",
+     "local": "independiente",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-21",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-21",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-21",
+     "local": "velez-sarsfield",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1956-10-28",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-28",
+     "local": "chacarita-juniors",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-28",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-28",
+     "local": "lanus",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-28",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-28",
+     "local": "rosario-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-28",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-10-28",
+     "local": "tigre",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1956-11-01",
+     "local": "boca-juniors",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-01",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-01",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-01",
+     "local": "huracan",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-01",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-01",
+     "local": "newell-s-old-boys",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-01",
+     "local": "river-plate",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-01",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1956-11-04",
+     "local": "argentinos-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-04",
+     "local": "chacarita-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-04",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-04",
+     "local": "lanus",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-04",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-04",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-04",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-04",
+     "local": "tigre",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1956-11-11",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-11",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-11",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-11",
+     "local": "huracan",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-11",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-11",
+     "local": "racing-club",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-11",
+     "local": "river-plate",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-11",
+     "local": "velez-sarsfield",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1956-11-17",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-18",
+     "local": "argentinos-juniors",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-18",
+     "local": "chacarita-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-18",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-18",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-18",
+     "local": "lanus",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-18",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-18",
+     "local": "tigre",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1956-11-25",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-25",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-25",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-25",
+     "local": "lanus",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-25",
+     "local": "newell-s-old-boys",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-25",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "El Cilindro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-11-25",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": [
+      {
+       "jugador": "Vairo",
+       "equipo": "local",
+       "min": 6
+      },
+      {
+       "jugador": "N. Rossi",
+       "equipo": "local",
+       "min": 22
+      },
+      {
+       "jugador": "Labruna",
+       "equipo": "local",
+       "min": 53
+      },
+      {
+       "jugador": "Sívori",
+       "equipo": "local",
+       "min": 61
+      }
+     ]
+    },
+    {
+     "fecha": "1956-11-25",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Amalfitani",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1956-12-01",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1956-12-02",
+     "local": "argentinos-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1956-12-02",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-12-02",
+     "local": "chacarita-juniors",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1956-12-02",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1956-12-02",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1956-12-02",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1956-12-02",
+     "local": "tigre",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}
