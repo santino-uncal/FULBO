@@ -33,6 +33,27 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1957: el Campeonato de Primera División 1957 (mayo a diciembre; campeón River, el tercero seguido): 16 equipos a
+    # dos ruedas (30 fechas), con 2 puntos por partido ganado. Con los mismos puntos ordenaban los partidos contra el otro
+    # empatado y contra los tres primeros, y después el cociente de goles ("orden_a_mano", el de RSSSF). Bajaba el peor
+    # promedio de puntos por temporada de 1956 y 1957 ("promedios_por_temporada"; RSSSF): Ferro. ESPN no lo tiene: va a
+    # mano (tools/a_mano; RSSSF, sin goles salvo los del River-Independiente de la fecha 27). No había Libertadores todavía
+    "1957-primera": {"nombre": "Campeonato de Primera División 1957", "anio": 1957, "liga": "a_mano", "slug": "1957-primera",
+                     "zonas": "unica", "fechas": 30, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_a_mano": ["boca-juniors", "velez-sarsfield", "estudiantes-de-la-plata", "huracan", "newell-s-old-boys",
+                                      "independiente", "tigre", "gimnasia-y-esgrima"],
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, los puntos sacados en los partidos contra el otro "
+                                    "empatado y contra los tres primeros de la tabla, y después el cociente de goles (así "
+                                    "Boca quedó cuarto, delante de Vélez; Estudiantes delante de Huracán, Newell's delante de "
+                                    "Independiente y Tigre delante de Gimnasia).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1957 (las 30 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del River 2-0 Independiente de la fecha 27, el partido en el que "
+                                        "River salió campeón (de RSSSF, con los minutos). El goleador del torneo fue "
+                                        "Roberto Zárate (River), con 22 goles.",
+                     "promedios_por_temporada": True,
+                     "promedios": {"1956": {"river-plate": [43, 1], "racing-club": [39, 1], "boca-juniors": [40, 1], "velez-sarsfield": [37, 1], "san-lorenzo": [29, 1], "lanus": [41, 1], "independiente": [30, 1], "newell-s-old-boys": [26, 1], "rosario-central": [30, 1], "huracan": [23, 1], "estudiantes-de-la-plata": [23, 1], "argentinos-juniors": [22, 1], "gimnasia-y-esgrima": [26, 1], "tigre": [22, 1], "ferro-carril-oeste": [27, 1]}},
+                     "descensos": "promedios", "descienden": 1},
     # 1958: el Campeonato de Primera División 1958 (marzo a diciembre, parado durante el Mundial; campeón Racing): 16
     # equipos a dos ruedas (30 fechas), con 2 puntos por partido ganado. El River-Huracán de la fecha 20 no se jugó: se lo
     # dieron ganado a Huracán ("para_local", sin goles) y a River le descontaron 2 puntos. Boca y San Lorenzo empataron el
