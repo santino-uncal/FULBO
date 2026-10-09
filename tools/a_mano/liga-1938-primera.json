@@ -1,0 +1,2677 @@
+{
+ "nombre": "Campeonato de Primera División 1938",
+ "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi), sin goles salvo los del Independiente-Lanús de la fecha 34. Estadio: la cancha que dice RSSSF cuando no era la del local; si no, la del local. RSSSF no trae la tabla: la que sale de los partidos es igual a la de Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1938-04-03",
+     "local": "almagro",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-03",
+     "local": "atlanta",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-03",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-03",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-03",
+     "local": "independiente",
+     "visitante": "tigre",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-03",
+     "local": "river-plate",
+     "visitante": "chacarita-juniors",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-03",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-03",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 7,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1938-04-10",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-10",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Gimnasia y Esgrima",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-10",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-10",
+     "local": "lanus",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-10",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 5,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-10",
+     "local": "tigre",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-10",
+     "local": "velez-sarsfield",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1938-04-24",
+     "local": "almagro",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-24",
+     "local": "atlanta",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-24",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-24",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-24",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-24",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-24",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-04-24",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1938-05-08",
+     "local": "boca-juniors",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-08",
+     "local": "chacarita-juniors",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-08",
+     "local": "independiente",
+     "visitante": "almagro",
+     "gl": 9,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-08",
+     "local": "lanus",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-08",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-08",
+     "local": "tigre",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-08",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 7,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-11",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 8,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1938-05-15",
+     "local": "almagro",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-15",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-15",
+     "local": "ferro-carril-oeste",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-15",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-15",
+     "local": "huracan",
+     "visitante": "chacarita-juniors",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-15",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-15",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-15",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1938-05-22",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-22",
+     "local": "chacarita-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-22",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-22",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-22",
+     "local": "lanus",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-22",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 5,
+     "gv": 5,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-22",
+     "local": "san-lorenzo",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-22",
+     "local": "tigre",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1938-05-29",
+     "local": "atlanta",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-29",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-29",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-29",
+     "local": "huracan",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-29",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-29",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Monumental",
+     "goles": [],
+     "nota": "El primer partido oficial en el Monumental."
+    },
+    {
+     "fecha": "1938-05-29",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1938-05-29",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1938-06-05",
+     "local": "almagro",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-05",
+     "local": "boca-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-05",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-05",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-05",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-05",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-05",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-05",
+     "local": "tigre",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1938-06-12",
+     "local": "chacarita-juniors",
+     "visitante": "platense",
+     "gl": 6,
+     "gv": 3,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-12",
+     "local": "ferro-carril-oeste",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-12",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-12",
+     "local": "huracan",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-12",
+     "local": "racing-club",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-12",
+     "local": "river-plate",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-12",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-12",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1938-06-19",
+     "local": "almagro",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-19",
+     "local": "atlanta",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-19",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "chacarita-juniors",
+     "gl": 7,
+     "gv": 4,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-19",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-19",
+     "local": "lanus",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-19",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-19",
+     "local": "san-lorenzo",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-19",
+     "local": "tigre",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1938-06-26",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-26",
+     "local": "chacarita-juniors",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-26",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-26",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-26",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-26",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-26",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "almagro",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1938-06-26",
+     "local": "velez-sarsfield",
+     "visitante": "tigre",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1938-07-03",
+     "local": "almagro",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-03",
+     "local": "atlanta",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-03",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-03",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-03",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-03",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-03",
+     "local": "tigre",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1938-07-17",
+     "local": "boca-juniors",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-17",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-17",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-17",
+     "local": "huracan",
+     "visitante": "almagro",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-17",
+     "local": "platense",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-17",
+     "local": "racing-club",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-17",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-17",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1938-07-31",
+     "local": "almagro",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-31",
+     "local": "atlanta",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-31",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-31",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-31",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-31",
+     "local": "river-plate",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-31",
+     "local": "san-lorenzo",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-07-31",
+     "local": "tigre",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1938-08-07",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-07",
+     "local": "chacarita-juniors",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "tigre",
+     "gl": 6,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-07",
+     "local": "huracan",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-07",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-07",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-07",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-07",
+     "local": "velez-sarsfield",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1938-08-14",
+     "local": "almagro",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-14",
+     "local": "atlanta",
+     "visitante": "chacarita-juniors",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-14",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 5,
+     "gv": 5,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-14",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-14",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-14",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-14",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-14",
+     "local": "tigre",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1938-08-21",
+     "local": "boca-juniors",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-21",
+     "local": "chacarita-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-21",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-21",
+     "local": "huracan",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-21",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-21",
+     "local": "racing-club",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-21",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-21",
+     "local": "platense",
+     "visitante": "almagro",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1938-08-28",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-28",
+     "local": "chacarita-juniors",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-28",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-28",
+     "local": "huracan",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-28",
+     "local": "lanus",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-28",
+     "local": "platense",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-28",
+     "local": "tigre",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1938-08-28",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1938-09-04",
+     "local": "almagro",
+     "visitante": "lanus",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-04",
+     "local": "atlanta",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-04",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-04",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-04",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-04",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-04",
+     "local": "san-lorenzo",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-04",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1938-09-11",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-11",
+     "local": "chacarita-juniors",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-11",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-11",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-11",
+     "local": "lanus",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-11",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-11",
+     "local": "tigre",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-11",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1938-09-18",
+     "local": "almagro",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-18",
+     "local": "atlanta",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-18",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-18",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-18",
+     "local": "racing-club",
+     "visitante": "chacarita-juniors",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-18",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-18",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1938-09-25",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-25",
+     "local": "chacarita-juniors",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-25",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-25",
+     "local": "independiente",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-25",
+     "local": "lanus",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-25",
+     "local": "platense",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-25",
+     "local": "san-lorenzo",
+     "visitante": "almagro",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-09-25",
+     "local": "tigre",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1938-10-02",
+     "local": "atlanta",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-02",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-02",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 7,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-02",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-02",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 8,
+     "gv": 2,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-02",
+     "local": "river-plate",
+     "visitante": "tigre",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-02",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-02",
+     "local": "velez-sarsfield",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1938-10-09",
+     "local": "almagro",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-09",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-09",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 8,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-09",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-09",
+     "local": "lanus",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-09",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-09",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-09",
+     "local": "tigre",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1938-10-16",
+     "local": "chacarita-juniors",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-16",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-16",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-16",
+     "local": "racing-club",
+     "visitante": "lanus",
+     "gl": 8,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-16",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 5,
+     "gv": 5,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-16",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-16",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1938-10-23",
+     "local": "almagro",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-23",
+     "local": "atlanta",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-23",
+     "local": "independiente",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-23",
+     "local": "lanus",
+     "visitante": "huracan",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-23",
+     "local": "platense",
+     "visitante": "chacarita-juniors",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-23",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-23",
+     "local": "tigre",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1938-10-30",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-30",
+     "local": "chacarita-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "almagro",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-30",
+     "local": "huracan",
+     "visitante": "tigre",
+     "gl": 9,
+     "gv": 3,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-30",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-30",
+     "local": "river-plate",
+     "visitante": "atlanta",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-30",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1938-10-30",
+     "local": "velez-sarsfield",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1938-11-06",
+     "local": "almagro",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-06",
+     "local": "atlanta",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-06",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-06",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-06",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-06",
+     "local": "lanus",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-06",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-06",
+     "local": "tigre",
+     "visitante": "velez-sarsfield",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1938-11-13",
+     "local": "boca-juniors",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-13",
+     "local": "chacarita-juniors",
+     "visitante": "tigre",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-13",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-13",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-13",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-13",
+     "local": "racing-club",
+     "visitante": "almagro",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-13",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "atlanta",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-13",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1938-11-20",
+     "local": "almagro",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-20",
+     "local": "atlanta",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-20",
+     "local": "ferro-carril-oeste",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-20",
+     "local": "independiente",
+     "visitante": "chacarita-juniors",
+     "gl": 9,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-20",
+     "local": "lanus",
+     "visitante": "platense",
+     "gl": 7,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-20",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-20",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-20",
+     "local": "tigre",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "partidos": [
+    {
+     "fecha": "1938-11-27",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-27",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 5,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-27",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-27",
+     "local": "huracan",
+     "visitante": "atlanta",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-27",
+     "local": "platense",
+     "visitante": "tigre",
+     "gl": 6,
+     "gv": 3,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-27",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 7,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-27",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1938-11-27",
+     "local": "velez-sarsfield",
+     "visitante": "almagro",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "partidos": [
+    {
+     "fecha": "1938-12-03",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-04",
+     "local": "almagro",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-04",
+     "local": "atlanta",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-04",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 5,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-04",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-04",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-04",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-04",
+     "local": "tigre",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "partidos": [
+    {
+     "fecha": "1938-12-10",
+     "local": "boca-juniors",
+     "visitante": "almagro",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-10",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-11",
+     "local": "chacarita-juniors",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-11",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-11",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-11",
+     "local": "lanus",
+     "visitante": "tigre",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-11",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-11",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "partidos": [
+    {
+     "fecha": "1938-12-18",
+     "local": "almagro",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-18",
+     "local": "atlanta",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-18",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 7,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-18",
+     "local": "independiente",
+     "visitante": "lanus",
+     "gl": 8,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Erico",
+       "equipo": "local",
+       "min": 21
+      },
+      {
+       "jugador": "De la Mata",
+       "equipo": "local",
+       "min": 24
+      },
+      {
+       "jugador": "Vilariño",
+       "equipo": "local",
+       "min": 27
+      },
+      {
+       "jugador": "Cravero",
+       "equipo": "visitante",
+       "min": 28
+      },
+      {
+       "jugador": "De la Mata",
+       "equipo": "local",
+       "min": 29
+      },
+      {
+       "jugador": "Erico",
+       "equipo": "local",
+       "min": 35
+      },
+      {
+       "jugador": "De la Mata",
+       "equipo": "local",
+       "min": 41
+      },
+      {
+       "jugador": "Sastre",
+       "equipo": "local",
+       "min": 51
+      },
+      {
+       "jugador": "De la Mata",
+       "equipo": "local",
+       "min": 58
+      },
+      {
+       "jugador": "Dosetti",
+       "equipo": "visitante",
+       "min": 87
+      }
+     ],
+     "nota": "Con este triunfo, en la última fecha, Independiente se aseguró el campeonato."
+    },
+    {
+     "fecha": "1938-12-18",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-18",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1938-12-18",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

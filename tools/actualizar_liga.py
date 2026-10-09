@@ -33,6 +33,24 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1938: el Campeonato de Primera División 1938 (abril a diciembre; campeón Independiente): 17 equipos a dos ruedas (34
+    # fechas, en cada una quedaba uno libre), con 2 puntos por partido ganado. Con los mismos puntos, el orden de Wikipedia:
+    # el cociente de goles (Boca delante de Gimnasia, "orden_a_mano"). Bajaban los dos últimos de la tabla (no había
+    # promedios): Almagro y Talleres (Remedios de Escalada). ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles
+    # salvo los del Independiente-Lanús de la fecha 34; RSSSF no trae la tabla, controlada con la de Wikipedia). No había
+    # Libertadores todavía
+    "1938-primera": {"nombre": "Campeonato de Primera División 1938", "anio": 1938, "liga": "a_mano", "slug": "1938-primera",
+                     "zonas": "unica", "fechas": 34, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_a_mano": ["boca-juniors", "gimnasia-y-esgrima", "estudiantes-de-la-plata"],
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, el de Wikipedia: el cociente de goles (goles a "
+                                    "favor divididos por goles en contra). Así Boca quedó delante de Gimnasia, aunque tenía "
+                                    "peor diferencia de gol.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1938 (las 34 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del Independiente 8-2 Lanús de la última fecha, el partido en el que "
+                                        "Independiente salió campeón (de RSSSF, con los minutos). El goleador del torneo fue "
+                                        "Arsenio Erico (Independiente), con 43 goles.",
+                     "descensos": "tabla", "descienden": 2},
     # 1939: el Campeonato de Primera División 1939 (marzo a diciembre; campeón Independiente, bicampeón): 18 equipos a dos
     # ruedas (34 fechas), con 2 puntos por partido ganado. Huracán ganó el desempate por la primera rueda (no daba un
     # título). River y Huracán empataron el segundo puesto: el desempate se jugó recién en 1941 (3-3 con alargue) y la
@@ -4386,6 +4404,7 @@ CLUBES_NUEVOS = {
     "dmo": ("deportivo-moron", "Deportivo Morón"),   # (no está en ESPN: 1969)
     "ccr": ("central-cordoba-rosario", "Central Córdoba (Rosario)"),   # (no está en ESPN: 1959)
     "aqu": ("argentino-de-quilmes", "Argentino de Quilmes"),   # (no está en ESPN: 1939)
+    "tre": ("talleres-remedios-de-escalada", "Talleres (Remedios de Escalada)"),   # (no está en ESPN: 1938)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
