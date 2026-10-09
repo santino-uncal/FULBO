@@ -1,0 +1,2328 @@
+{
+ "nombre": "Campeonato de Primera División 1943",
+ "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi), sin goles salvo los del Ferro-Boca de la fecha 30. Estadio: la cancha que dice RSSSF cuando no era la del local; si no, la del local. RSSSF no trae la tabla: la que sale de los partidos es igual a la de Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1943-04-18",
+     "local": "banfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1943-04-18",
+     "local": "chacarita-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1943-04-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-04-18",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1943-04-18",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1943-04-18",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1943-04-18",
+     "local": "rosario-central",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1943-04-18",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1943-04-25",
+     "local": "atlanta",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1943-04-25",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-04-25",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1943-04-25",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-04-25",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-04-25",
+     "local": "lanus",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1943-04-25",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1943-04-25",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1943-05-02",
+     "local": "banfield",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-02",
+     "local": "chacarita-juniors",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-02",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-02",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-02",
+     "local": "racing-club",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-02",
+     "local": "river-plate",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-02",
+     "local": "rosario-central",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-02",
+     "local": "san-lorenzo",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1943-05-09",
+     "local": "atlanta",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-09",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-09",
+     "local": "ferro-carril-oeste",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-09",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-09",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-09",
+     "local": "lanus",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-09",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-09",
+     "local": "platense",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1943-05-16",
+     "local": "banfield",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-16",
+     "local": "chacarita-juniors",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-16",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "gl": 7,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-16",
+     "local": "huracan",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-16",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-16",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-16",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-16",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1943-05-23",
+     "local": "atlanta",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-23",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-23",
+     "local": "ferro-carril-oeste",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-23",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-23",
+     "local": "lanus",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-23",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-23",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-23",
+     "local": "racing-club",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1943-05-30",
+     "local": "banfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-30",
+     "local": "chacarita-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-30",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-30",
+     "local": "independiente",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-30",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-30",
+     "local": "rosario-central",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1943-05-30",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1943-06-06",
+     "local": "atlanta",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-06",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-06",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-06",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-06",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-06",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-06",
+     "local": "racing-club",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-06",
+     "local": "rosario-central",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1943-06-13",
+     "local": "banfield",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-13",
+     "local": "chacarita-juniors",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-13",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-13",
+     "local": "huracan",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-13",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-13",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-13",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-13",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1943-06-20",
+     "local": "boca-juniors",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-20",
+     "local": "chacarita-juniors",
+     "visitante": "banfield",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-20",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-20",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-20",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-20",
+     "local": "platense",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-20",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-20",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1943-06-27",
+     "local": "atlanta",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-27",
+     "local": "banfield",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-27",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-27",
+     "local": "huracan",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-27",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-27",
+     "local": "newell-s-old-boys",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-27",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1943-06-27",
+     "local": "san-lorenzo",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1943-07-04",
+     "local": "chacarita-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1943-07-04",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-07-04",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1943-07-04",
+     "local": "lanus",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1943-07-04",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1943-07-04",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1943-07-04",
+     "local": "rosario-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1943-07-04",
+     "local": "san-lorenzo",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1943-07-25",
+     "local": "newell-s-old-boys",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-01",
+     "local": "atlanta",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-01",
+     "local": "banfield",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-01",
+     "local": "boca-juniors",
+     "visitante": "lanus",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-01",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-01",
+     "local": "huracan",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-01",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-01",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1943-08-08",
+     "local": "chacarita-juniors",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-08",
+     "local": "ferro-carril-oeste",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-08",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-08",
+     "local": "lanus",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-08",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-08",
+     "local": "river-plate",
+     "visitante": "banfield",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-08",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-08",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1943-08-15",
+     "local": "atlanta",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-15",
+     "local": "banfield",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-15",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-15",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-15",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-15",
+     "local": "independiente",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-15",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-15",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1943-08-22",
+     "local": "atlanta",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-22",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-22",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-22",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-22",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-22",
+     "local": "lanus",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-22",
+     "local": "newell-s-old-boys",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-22",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1943-08-29",
+     "local": "banfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-29",
+     "local": "chacarita-juniors",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-29",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-29",
+     "local": "ferro-carril-oeste",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-29",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-29",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-29",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1943-08-29",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1943-09-05",
+     "local": "atlanta",
+     "visitante": "san-lorenzo",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-05",
+     "local": "boca-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 10,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-05",
+     "local": "huracan",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-05",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-05",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-05",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-05",
+     "local": "platense",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1943-09-12",
+     "local": "rosario-central",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-19",
+     "local": "banfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-19",
+     "local": "chacarita-juniors",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-19",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-19",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-19",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-19",
+     "local": "river-plate",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-19",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 4,
+     "gv": 6,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1943-09-27",
+     "local": "atlanta",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-27",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-27",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-27",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "rosario-central",
+     "gl": 6,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-27",
+     "local": "independiente",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-27",
+     "local": "lanus",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-27",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1943-09-27",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1943-10-03",
+     "local": "banfield",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-03",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-03",
+     "local": "huracan",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-03",
+     "local": "independiente",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-03",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-03",
+     "local": "rosario-central",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-03",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1943-10-10",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 7,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-10",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-10",
+     "local": "ferro-carril-oeste",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-10",
+     "local": "lanus",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-10",
+     "local": "newell-s-old-boys",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-10",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-10",
+     "local": "racing-club",
+     "visitante": "rosario-central",
+     "gl": 5,
+     "gv": 4,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1943-10-17",
+     "local": "banfield",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-17",
+     "local": "chacarita-juniors",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "lanus",
+     "gl": 5,
+     "gv": 4,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-17",
+     "local": "huracan",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-17",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-17",
+     "local": "newell-s-old-boys",
+     "visitante": "atlanta",
+     "gl": 5,
+     "gv": 4,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-17",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-17",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1943-10-24",
+     "local": "atlanta",
+     "visitante": "banfield",
+     "gl": 7,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-24",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-24",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-24",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-24",
+     "local": "lanus",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-24",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-24",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-24",
+     "local": "rosario-central",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1943-10-31",
+     "local": "atlanta",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-31",
+     "local": "banfield",
+     "visitante": "chacarita-juniors",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-31",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-31",
+     "local": "huracan",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-31",
+     "local": "independiente",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-31",
+     "local": "newell-s-old-boys",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-31",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1943-10-31",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1943-11-07",
+     "local": "boca-juniors",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-07",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-07",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-07",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-07",
+     "local": "lanus",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-07",
+     "local": "platense",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-07",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-07",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1943-11-13",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-14",
+     "local": "atlanta",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-14",
+     "local": "banfield",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-14",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-14",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-14",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-14",
+     "local": "river-plate",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-17",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1943-11-20",
+     "local": "chacarita-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-21",
+     "local": "ferro-carril-oeste",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-21",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-21",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-21",
+     "local": "platense",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-21",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-21",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-21",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1943-11-28",
+     "local": "atlanta",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-28",
+     "local": "banfield",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 6,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-28",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-28",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-28",
+     "local": "huracan",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-28",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-28",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1943-11-28",
+     "local": "platense",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Platense",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1943-12-04",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1943-12-05",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1943-12-05",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Sarlanga",
+       "equipo": "visitante",
+       "min": 80
+      },
+      {
+       "jugador": "Sarlanga",
+       "equipo": "visitante",
+       "min": 87
+      }
+     ],
+     "nota": "Con este triunfo, en la última fecha, Boca se aseguró el campeonato."
+    },
+    {
+     "fecha": "1943-12-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1943-12-05",
+     "local": "lanus",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1943-12-05",
+     "local": "racing-club",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1943-12-05",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1943-12-05",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}
