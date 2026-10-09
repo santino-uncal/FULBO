@@ -33,6 +33,31 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1937: el Campeonato de Primera División 1937 (abril a diciembre; campeón River, tricampeón con la Copa Campeonato y
+    # la Copa de Oro de 1936): 18 equipos a dos ruedas (34 fechas), con 2 puntos por partido ganado. River y Boca empataron
+    # la primera rueda y la desempataron recién en febrero de 1939 (en "playoffs"; no daba un título). Por primera vez en el
+    # profesionalismo bajaban los dos últimos de la tabla (no había promedios): Argentinos Juniors y Quilmes. ESPN no lo
+    # tiene: va a mano (tools/a_mano; RSSSF, sin goles salvo los del Argentinos-River de la fecha 32; RSSSF no trae la
+    # tabla, controlada con la de Wikipedia). No había Libertadores todavía
+    "1937-primera": {"nombre": "Campeonato de Primera División 1937", "anio": 1937, "liga": "a_mano", "slug": "1937-primera",
+                     "zonas": "unica", "fechas": 34, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, el de Wikipedia (que en este torneo coincide con "
+                                    "la diferencia de gol).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1937 (las 34 fechas), sin el desempate. Cada "
+                                    "partido ganado valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del Argentinos 0-6 River de la fecha 32, el partido en el que River "
+                                        "salió campeón (de RSSSF, con los minutos). El goleador del torneo fue Arsenio Erico "
+                                        "(Independiente), con 47 goles.",
+                     "nombre_playoffs": "Desempate",
+                     "playoffs": [(r"^$^", "Desempate por la primera rueda")],
+                     "playoffs_a_mano": {
+                          "Desempate por la primera rueda": [
+                              {"fecha": "1939-02-11", "local": "river-plate", "visitante": "boca-juniors", "gl": 5, "gv": 3, "estadio": "El Gasómetro", "goles": [],
+                               "nota": "Recién en febrero de 1939. River y Boca habían empatado el primer puesto de la primera rueda: "
+                                       "la ganó River (no daba un título de liga)."},
+                          ],
+                     },
+                     "descensos": "tabla", "descienden": 2},
     # 1938: el Campeonato de Primera División 1938 (abril a diciembre; campeón Independiente): 17 equipos a dos ruedas (34
     # fechas, en cada una quedaba uno libre), con 2 puntos por partido ganado. Con los mismos puntos, el orden de Wikipedia:
     # el cociente de goles (Boca delante de Gimnasia, "orden_a_mano"). Bajaban los dos últimos de la tabla (no había
