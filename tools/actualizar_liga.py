@@ -33,6 +33,19 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1935: el Campeonato de Primera División 1935 (marzo a diciembre; campeón Boca, bicampeón): 18 equipos a dos ruedas
+    # (34 fechas), con 2 puntos por partido ganado; el primero después de la unificación de la liga profesional y la
+    # amateur en la AFA (1934). No había descensos (empezaron en 1937). ESPN no lo tiene: va a mano (tools/a_mano; RSSSF,
+    # sin goles salvo los del Boca-Tigre de la fecha 33; RSSSF no trae la tabla, controlada con la de Wikipedia). No había
+    # Libertadores
+    "1935-primera": {"nombre": "Campeonato de Primera División 1935", "anio": 1935, "liga": "a_mano", "slug": "1935-primera",
+                     "zonas": "unica", "fechas": 34, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, el de Wikipedia (que en este torneo coincide con "
+                                    "la diferencia de gol).",
+                     "goleadores_nota": "Los goles son solo del Boca 3-0 Tigre de la fecha 33, el partido en el que Boca salió "
+                                        "campeón (de RSSSF, con los minutos). El goleador del torneo fue Agustín Cosso "
+                                        "(Vélez), con 33 goles.",
+                     "sin_descensos": "No había descensos: empezaron en 1937."},
     # 1936: la temporada se dividió en dos torneos de 18 equipos a una rueda (17 fechas), con 2 puntos por partido ganado:
     # la Copa de Honor (abril a julio; campeón San Lorenzo) y la Copa Campeonato (agosto a diciembre, los desquites;
     # campeón River). Los dos campeones jugaron la Copa de Oro (ganó River). Desde 2013 la AFA cuenta los tres como

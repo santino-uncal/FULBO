@@ -1,0 +1,2947 @@
+{
+ "nombre": "Campeonato de Primera División 1935",
+ "fuente": "Resultados y días: RSSSF (Javier Roimiser), sin goles salvo los del Boca-Tigre de la fecha 33; RSSSF no trae el día de la fecha 27: va el 13 de octubre (entre la fecha 26, el 6, y la 28, el 20). Estadio: la cancha que dice RSSSF cuando no era la del local; si no, la del local. RSSSF no trae la tabla: la que sale de los partidos es igual a la de Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1935-03-17",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-03-17",
+     "local": "tigre",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-03-17",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-03-17",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 5,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1935-03-17",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1935-03-17",
+     "local": "huracan",
+     "visitante": "lanus",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1935-03-17",
+     "local": "chacarita-juniors",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-03-17",
+     "local": "ferro-carril-oeste",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1935-03-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1935-03-24",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-03-24",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1935-03-24",
+     "local": "lanus",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1935-03-24",
+     "local": "quilmes",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-03-31",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1935-03-31",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-03-31",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1935-03-31",
+     "local": "atlanta",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1935-03-31",
+     "local": "argentinos-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1935-04-07",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-07",
+     "local": "boca-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-07",
+     "local": "independiente",
+     "visitante": "atlanta",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-07",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-07",
+     "local": "tigre",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-07",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-07",
+     "local": "platense",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "lanus",
+     "gl": 9,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-07",
+     "local": "chacarita-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1935-04-14",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-14",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-14",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-14",
+     "local": "quilmes",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-14",
+     "local": "lanus",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-14",
+     "local": "atlanta",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-14",
+     "local": "river-plate",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-14",
+     "local": "huracan",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-14",
+     "local": "argentinos-juniors",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1935-04-21",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-21",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-21",
+     "local": "san-lorenzo",
+     "visitante": "atlanta",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-21",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-21",
+     "local": "velez-sarsfield",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-21",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-21",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-21",
+     "local": "tigre",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-21",
+     "local": "chacarita-juniors",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1935-04-28",
+     "local": "racing-club",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-28",
+     "local": "atlanta",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-28",
+     "local": "argentinos-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-28",
+     "local": "lanus",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-28",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-28",
+     "local": "quilmes",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-28",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-28",
+     "local": "ferro-carril-oeste",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1935-04-28",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1935-05-05",
+     "local": "independiente",
+     "visitante": "lanus",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-05",
+     "local": "tigre",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-05",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-05",
+     "local": "chacarita-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-05",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-05",
+     "local": "boca-juniors",
+     "visitante": "quilmes",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "atlanta",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-05",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-05",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1935-05-12",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-12",
+     "local": "atlanta",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-12",
+     "local": "quilmes",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-12",
+     "local": "huracan",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-12",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-12",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-12",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-12",
+     "local": "lanus",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1935-05-19",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-19",
+     "local": "chacarita-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-19",
+     "local": "tigre",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-19",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-19",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-19",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-19",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-19",
+     "local": "velez-sarsfield",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-19",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1935-05-26",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-26",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-26",
+     "local": "quilmes",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-26",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-26",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-26",
+     "local": "atlanta",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-26",
+     "local": "platense",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-26",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-26",
+     "local": "ferro-carril-oeste",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1935-05-30",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-05-30",
+     "local": "argentinos-juniors",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-02",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-02",
+     "local": "atlanta",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-02",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-02",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-02",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-02",
+     "local": "tigre",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-02",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1935-06-09",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-09",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-09",
+     "local": "platense",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-09",
+     "local": "chacarita-juniors",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-09",
+     "local": "quilmes",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-09",
+     "local": "lanus",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-09",
+     "local": "river-plate",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-09",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-09",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1935-06-16",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-16",
+     "local": "independiente",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-16",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-16",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-16",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-16",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-16",
+     "local": "atlanta",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-16",
+     "local": "river-plate",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-16",
+     "local": "boca-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1935-06-23",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-23",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-23",
+     "local": "quilmes",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-23",
+     "local": "tigre",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-23",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-23",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-23",
+     "local": "lanus",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-23",
+     "local": "huracan",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1935-06-30",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-30",
+     "local": "racing-club",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-30",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-30",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-30",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-30",
+     "local": "atlanta",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-30",
+     "local": "san-lorenzo",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1935-06-30",
+     "local": "velez-sarsfield",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1935-07-21",
+     "local": "independiente",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1935-07-21",
+     "local": "tigre",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-07-21",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-07-21",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-07-21",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1935-07-21",
+     "local": "ferro-carril-oeste",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1935-07-21",
+     "local": "huracan",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1935-07-21",
+     "local": "lanus",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1935-07-21",
+     "local": "quilmes",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1935-07-28",
+     "local": "atlanta",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1935-07-28",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-07-28",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-07-28",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-07-28",
+     "local": "quilmes",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-07-28",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1935-07-28",
+     "local": "velez-sarsfield",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1935-07-28",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1935-07-28",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1935-08-04",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-04",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-04",
+     "local": "atlanta",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-04",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-04",
+     "local": "quilmes",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-04",
+     "local": "argentinos-juniors",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-04",
+     "local": "san-lorenzo",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-04",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-04",
+     "local": "lanus",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1935-08-11",
+     "local": "huracan",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-11",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-11",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-11",
+     "local": "platense",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-11",
+     "local": "chacarita-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-11",
+     "local": "tigre",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-11",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-11",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-11",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1935-08-18",
+     "local": "huracan",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-18",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-18",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-18",
+     "local": "river-plate",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-18",
+     "local": "quilmes",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-18",
+     "local": "racing-club",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-18",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-18",
+     "local": "velez-sarsfield",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-18",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1935-08-25",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-25",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-25",
+     "local": "chacarita-juniors",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-25",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-25",
+     "local": "ferro-carril-oeste",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-25",
+     "local": "tigre",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-25",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-25",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1935-08-25",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1935-09-01",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-01",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-01",
+     "local": "huracan",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-01",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-01",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-01",
+     "local": "atlanta",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-01",
+     "local": "quilmes",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-01",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 5,
+     "gv": 4,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-01",
+     "local": "lanus",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1935-09-08",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-08",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-08",
+     "local": "platense",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-08",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-08",
+     "local": "tigre",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-08",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-08",
+     "local": "chacarita-juniors",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-08",
+     "local": "san-lorenzo",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-08",
+     "local": "boca-juniors",
+     "visitante": "atlanta",
+     "gl": 8,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1935-09-15",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-15",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-15",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "platense",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-15",
+     "local": "ferro-carril-oeste",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-15",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-15",
+     "local": "quilmes",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-15",
+     "local": "argentinos-juniors",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-15",
+     "local": "atlanta",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-15",
+     "local": "huracan",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1935-09-22",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-22",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-22",
+     "local": "tigre",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-22",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-22",
+     "local": "chacarita-juniors",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-22",
+     "local": "independiente",
+     "visitante": "quilmes",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-22",
+     "local": "velez-sarsfield",
+     "visitante": "atlanta",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-22",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-09-22",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1935-10-06",
+     "local": "quilmes",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-06",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-06",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-06",
+     "local": "lanus",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-06",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-06",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "tigre",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-06",
+     "local": "atlanta",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-06",
+     "local": "platense",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-06",
+     "local": "river-plate",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1935-10-13",
+     "local": "argentinos-juniors",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-13",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-13",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-13",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-13",
+     "local": "san-lorenzo",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-13",
+     "local": "boca-juniors",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-13",
+     "local": "tigre",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-13",
+     "local": "chacarita-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-13",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 6,
+     "gv": 4,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1935-10-20",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-20",
+     "local": "quilmes",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-20",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-20",
+     "local": "river-plate",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-20",
+     "local": "racing-club",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-20",
+     "local": "lanus",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-20",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-20",
+     "local": "chacarita-juniors",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-20",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1935-10-27",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-27",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-27",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-27",
+     "local": "velez-sarsfield",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-27",
+     "local": "atlanta",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-27",
+     "local": "argentinos-juniors",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-27",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-27",
+     "local": "tigre",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-10-27",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1935-11-10",
+     "local": "quilmes",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-11-10",
+     "local": "racing-club",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-11-10",
+     "local": "lanus",
+     "visitante": "atlanta",
+     "gl": 8,
+     "gv": 4,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1935-11-10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1935-11-24",
+     "local": "chacarita-juniors",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-11-24",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1935-11-24",
+     "local": "tigre",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 9,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1935-11-24",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 6,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-11-24",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "partidos": [
+    {
+     "fecha": "1935-12-01",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-01",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-01",
+     "local": "argentinos-juniors",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-01",
+     "local": "atlanta",
+     "visitante": "quilmes",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-01",
+     "local": "independiente",
+     "visitante": "chacarita-juniors",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-01",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-01",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-01",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "tigre",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-01",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "partidos": [
+    {
+     "fecha": "1935-12-08",
+     "local": "ferro-carril-oeste",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-08",
+     "local": "chacarita-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-08",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-08",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-08",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentinos-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-08",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-08",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 8,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-08",
+     "local": "tigre",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-08",
+     "local": "quilmes",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "partidos": [
+    {
+     "fecha": "1935-12-15",
+     "local": "san-lorenzo",
+     "visitante": "chacarita-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-15",
+     "local": "racing-club",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-15",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-17",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-18",
+     "local": "boca-juniors",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Cherro",
+       "equipo": "local",
+       "min": 35
+      },
+      {
+       "jugador": "Varallo",
+       "equipo": "local",
+       "min": 47
+      },
+      {
+       "jugador": "Benítez Cáceres",
+       "equipo": "local",
+       "min": 70
+      }
+     ],
+     "nota": "Con este triunfo, a una fecha del final, Boca se aseguró el campeonato."
+    },
+    {
+     "fecha": "1935-12-19",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 6,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-24",
+     "local": "argentinos-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 6,
+     "gv": 4,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-29",
+     "local": "atlanta",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-29",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "partidos": [
+    {
+     "fecha": "1935-12-21",
+     "local": "tigre",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-22",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-22",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-22",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-22",
+     "local": "platense",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-22",
+     "local": "lanus",
+     "visitante": "quilmes",
+     "gl": 9,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-22",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-22",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1935-12-22",
+     "local": "boca-juniors",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}
