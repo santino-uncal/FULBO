@@ -33,6 +33,21 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1945: el Campeonato de Primera División 1945 (abril a diciembre; campeón River): 16 equipos a dos ruedas (30 fechas),
+    # con 2 puntos por partido ganado. Bajaba el último de la tabla (no había promedios): Gimnasia. Tres partidos se
+    # suspendieron y se terminaron otro día (cada uno con su nota). ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin
+    # goles salvo los del River-Chacarita de la fecha 29; RSSSF no trae la tabla, controlada con la de Wikipedia). No había
+    # Libertadores todavía
+    "1945-primera": {"nombre": "Campeonato de Primera División 1945", "anio": 1945, "liga": "a_mano", "slug": "1945-primera",
+                     "zonas": "unica", "fechas": 30, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, el de Wikipedia (que en este torneo coincide con "
+                                    "la diferencia de gol).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1945 (las 30 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del River 2-0 Chacarita de la fecha 29, el partido en el que River "
+                                        "salió campeón (de RSSSF, con los minutos). El goleador del torneo fue Ángel Labruna "
+                                        "(River), con 25 goles.",
+                     "descensos": "tabla", "descienden": 1},
     # 1946: el Campeonato de Primera División 1946 (abril a diciembre; campeón San Lorenzo): 16 equipos a dos ruedas (30
     # fechas), con 2 puntos por partido ganado. Bajaba el último de la tabla (no había promedios): Ferro. Tres partidos se
     # suspendieron y se terminaron otro día (cada uno con su nota). ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin
