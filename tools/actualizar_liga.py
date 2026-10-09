@@ -33,6 +33,51 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1936: la temporada se dividió en dos torneos de 18 equipos a una rueda (17 fechas), con 2 puntos por partido ganado:
+    # la Copa de Honor (abril a julio; campeón San Lorenzo) y la Copa Campeonato (agosto a diciembre, los desquites;
+    # campeón River). Los dos campeones jugaron la Copa de Oro (ganó River). Desde 2013 la AFA cuenta los tres como
+    # títulos de liga. No había descensos (empezaron en 1937). En la Copa de Honor, a Talleres (Remedios de Escalada) lo
+    # suspendieron un mes y le dieron por perdidos 4 partidos ("para_local"/"para_visitante", sin goles), y el
+    # Independiente-Racing se suspendió y se lo dieron ganado a Independiente. ESPN no los tiene: van a mano (tools/a_mano;
+    # RSSSF, sin goles salvo los del Atlanta-San Lorenzo de la Copa de Honor y los de la Copa de Oro). No había Libertadores
+    "1936-honor": {"nombre": "Copa de Honor 1936", "anio": 1936, "liga": "a_mano", "slug": "1936-honor",
+                   "zonas": "unica", "fechas": 17, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                   "orden_texto": "Orden: puntos y, con los mismos puntos, el de RSSSF (que en este torneo coincide con la "
+                                  "diferencia de gol). La Copa de Honor fue la primera rueda de 1936; la segunda fue la Copa "
+                                  "Campeonato, y los dos campeones jugaron después la Copa de Oro. Los tres cuentan como "
+                                  "títulos de liga para la AFA (desde 2013).",
+                   "goleadores_nota": "Los goles son solo del Atlanta 2-3 San Lorenzo de la fecha 16, el partido en el que San "
+                                      "Lorenzo ganó la Copa de Honor (de RSSSF, con los minutos). El goleador fue Alberto "
+                                      "Zozaya (Estudiantes), con 16 goles.",
+                   "sin_descensos": "No había descensos: empezaron en 1937."},
+    "1936-campeonato": {"nombre": "Copa Campeonato 1936", "anio": 1936, "liga": "a_mano", "slug": "1936-campeonato",
+                        "zonas": "unica", "fechas": 17, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                        "orden_texto": "Orden: puntos y, con los mismos puntos, el de Wikipedia (que en este torneo coincide "
+                                       "con la diferencia de gol). La Copa Campeonato fue la segunda rueda de 1936 (los "
+                                       "desquites de la Copa de Honor).",
+                        "anual": [("a_mano", r"^1936-honor$")],
+                        "anual_texto": "La tabla del año 1936: suma la Copa de Honor y la Copa Campeonato (con 2 puntos por "
+                                       "partido ganado), sin la Copa de Oro.",
+                        "goleadores_nota": "De la Copa Campeonato no hay goles cargados (la lista es solo de la Copa de Oro). "
+                                           "El goleador fue Evaristo Barrera (Racing), con 19 goles.",
+                        "nombre_playoffs": "Copa de Oro",
+                        "playoffs": [(r"^$^", "Copa de Oro")],
+                        "playoffs_a_mano": {
+                            "Copa de Oro": [
+                                {"fecha": "1936-12-20", "local": "river-plate", "visitante": "san-lorenzo", "gl": 4, "gv": 2,
+                                 "estadio": "La Doble Visera",
+                                 "goles": [{"jugador": "Cesarini", "equipo": "local", "min": 39},
+                                           {"jugador": "Pantó", "equipo": "visitante", "min": 55},
+                                           {"jugador": "Chividini", "equipo": "local", "min": 73, "tipo": "ec"},
+                                           {"jugador": "Pedernera", "equipo": "local", "min": 76},
+                                           {"jugador": "Cavadini", "equipo": "visitante", "min": 81},
+                                           {"jugador": "Cesarini", "equipo": "local", "min": 86}],
+                                 "nota": "La Copa de Oro, entre los campeones de la Copa Campeonato (River) y de la Copa de "
+                                         "Honor (San Lorenzo): ganó River. El gol de San Lorenzo del minuto 81 fue de Cavadini "
+                                         "según RSSSF (de Canteli, según otras fuentes)."},
+                            ],
+                        },
+                        "sin_descensos": "No había descensos: empezaron en 1937."},
     # 1937: el Campeonato de Primera División 1937 (abril a diciembre; campeón River, tricampeón con la Copa Campeonato y
     # la Copa de Oro de 1936): 18 equipos a dos ruedas (34 fechas), con 2 puntos por partido ganado. River y Boca empataron
     # la primera rueda y la desempataron recién en febrero de 1939 (en "playoffs"; no daba un título). Por primera vez en el
@@ -4340,7 +4385,7 @@ PIERDEN_LOS_DOS = {"186468": (0, 2)}
 # la temporada 1999-00 del Clausura 2000)
 # Puntos por partido ganado en los torneos que no daban 3 ({clave del torneo a mano: puntos}): hasta el Clausura 1995,
 # 2 (se suman así también en la tabla del año 1995)
-PUNTOS_VICTORIA = {"1990-temporada": 2, "1990-apertura": 2, "1991-clausura": 2, "1991-apertura": 2, "1992-clausura": 2, "1992-apertura": 2, "1993-clausura": 2, "1993-apertura": 2, "1994-clausura": 2, "1994-apertura": 2, "1995-clausura": 2}
+PUNTOS_VICTORIA = {"1936-honor": 2, "1990-temporada": 2, "1990-apertura": 2, "1991-clausura": 2, "1991-apertura": 2, "1992-clausura": 2, "1992-apertura": 2, "1993-clausura": 2, "1993-apertura": 2, "1994-clausura": 2, "1994-apertura": 2, "1995-clausura": 2}
 DESCUENTOS = {(2014, "7"): 6, (1992, "2741", r"^1992-clausura$"): 2, (1993, "16", r"^1992-apertura$"): 2,
               (1993, "8713", r"^1992-apertura$"): 2, (1993, "17", r"^1993-clausura$"): 2, (1995, "19", r"^1994-apertura$"): 2, (2004, "6", r"^torneo-apertura-2003$"): 3, (2000, "5", r"^2000-clausura$"): 3,
               (2000, "12", r"^2000-clausura$"): 3, (2001, "lan", r"^2001-clausura$"): 3,
