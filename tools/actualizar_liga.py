@@ -33,6 +33,24 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1940: el Campeonato de Primera División 1940 (abril a diciembre; campeón Boca, el año en que se inauguró la
+    # Bombonera): 18 equipos a dos ruedas (34 fechas), con 2 puntos por partido ganado. Por sobornos, la AFA le dio por
+    # perdidos a Banfield sus 5 primeros partidos y a Chacarita los de las fechas 22 a 27 ("para_local"/"para_visitante",
+    # sin goles; cada uno con su nota); el Vélez-Ferro de la primera fecha también se dio por ganado. Bajaban los dos
+    # últimos de la tabla (no había promedios): Vélez y Chacarita. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin
+    # goles salvo los del Boca-Independiente de la fecha 32; los partidos, controlados uno por uno con Wikipedia). No había
+    # Libertadores todavía
+    "1940-primera": {"nombre": "Campeonato de Primera División 1940", "anio": 1940, "liga": "a_mano", "slug": "1940-primera",
+                     "zonas": "unica", "fechas": 34, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, el de Wikipedia (que en este torneo coincide con "
+                                    "la diferencia de gol). Por sobornos, la AFA le dio por perdidos a Banfield sus 5 primeros "
+                                    "partidos y a Chacarita los de las fechas 22 a 27.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1940 (las 34 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del Boca 5-2 Independiente de la fecha 32, el partido en el que Boca "
+                                        "salió campeón (de RSSSF, con los minutos). Los goleadores del torneo fueron Delfín "
+                                        "Benítez Cáceres (Racing) e Isidro Lángara (San Lorenzo), con 33 goles.",
+                     "descensos": "tabla", "descienden": 2},
     # 1941: el Campeonato de Primera División 1941 (marzo a noviembre; campeón River): 16 equipos a dos ruedas (30 fechas),
     # con 2 puntos por partido ganado. Por un soborno en la fecha 10, a Banfield la AFA lo sancionó por 60 días y le
     # descontó 2 puntos en cada uno de los 8 partidos de ese tiempo (16 en total; cada uno con su nota). Bajaba el último
