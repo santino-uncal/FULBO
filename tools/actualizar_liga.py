@@ -33,6 +33,43 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1939: el Campeonato de Primera División 1939 (marzo a diciembre; campeón Independiente, bicampeón): 18 equipos a dos
+    # ruedas (34 fechas), con 2 puntos por partido ganado. Huracán ganó el desempate por la primera rueda (no daba un
+    # título). River y Huracán empataron el segundo puesto: el desempate se jugó recién en 1941 (3-3 con alargue) y la
+    # revancha nunca se jugó, así que el segundo puesto quedó compartido. Los dos desempates van en "playoffs". El
+    # Boca-Ferro de la última fecha se suspendió y se lo dieron ganado a Boca ("para_local", sin contar el gol). Bajaba el
+    # último de la tabla (no había promedios): Argentino de Quilmes, sin ningún partido ganado. ESPN no lo tiene: va a mano
+    # (tools/a_mano; RSSSF, sin goles salvo los del Platense-Independiente de la fecha 32). No había Libertadores todavía
+    "1939-primera": {"nombre": "Campeonato de Primera División 1939", "anio": 1939, "liga": "a_mano", "slug": "1939-primera",
+                     "zonas": "unica", "fechas": 34, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, el de RSSSF (que en este torneo coincide con la "
+                                    "diferencia de gol). River y Huracán, empatados en el segundo puesto, jugaron un "
+                                    "desempate que terminó igualado y no se volvió a jugar: el segundo puesto quedó "
+                                    "compartido, la única vez en la historia de Primera.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1939 (las 34 fechas), sin los desempates. "
+                                    "Cada partido ganado valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del Platense 0-2 Independiente de la fecha 32, el partido en el que "
+                                        "Independiente salió campeón (de RSSSF, con los minutos). El goleador del torneo fue "
+                                        "Arsenio Erico (Independiente), con 40 goles según RSSSF (41 según Wikipedia).",
+                     "nombre_playoffs": "Desempates",
+                     "playoffs": [(r"^$^", "Desempate por la primera rueda"), (r"^$^", "Desempate por el segundo puesto")],
+                     "playoffs_a_mano": {
+                          "Desempate por la primera rueda": [
+                              {"fecha": "1939-12-10", "local": "huracan", "visitante": "independiente", "gl": 2, "gv": 1, "estadio": "El Gasómetro", "goles": [],
+                               "nota": "Para definir el ganador de la primera rueda (no daba un título de liga): ganó Huracán."},
+                          ],
+                          "Desempate por el segundo puesto": [
+                              {"fecha": "1941-11-09", "local": "river-plate", "visitante": "huracan", "gl": 3, "gv": 3, "estadio": "Cancha de Chacarita Juniors",
+                               "alargue": True, "goles": [],
+                               "nota": "Recién en 1941. Empataron 3-3, con alargue, y la revancha nunca se jugó: el segundo puesto "
+                                       "quedó compartido entre River y Huracán."},
+                          ],
+                     },
+                     # (dos desempates sueltos, no un cuadro: cada uno en su parte)
+                     "cuadro": {"bloques": [("Desempate por la primera rueda", [["Desempate por la primera rueda"]]),
+                                            ("Desempate por el segundo puesto", [["Desempate por el segundo puesto"]])],
+                                "nota": "De los desempates hay solo el resultado."},
+                     "descensos": "tabla", "descienden": 1},
     # 1940: el Campeonato de Primera División 1940 (abril a diciembre; campeón Boca, el año en que se inauguró la
     # Bombonera): 18 equipos a dos ruedas (34 fechas), con 2 puntos por partido ganado. Por sobornos, la AFA le dio por
     # perdidos a Banfield sus 5 primeros partidos y a Chacarita los de las fechas 22 a 27 ("para_local"/"para_visitante",
@@ -4348,6 +4385,7 @@ CLUBES_NUEVOS = {
     "abr": ("almirante-brown", "Almirante Brown"),   # (no está en ESPN: el Torneo de Promoción 1970)
     "dmo": ("deportivo-moron", "Deportivo Morón"),   # (no está en ESPN: 1969)
     "ccr": ("central-cordoba-rosario", "Central Córdoba (Rosario)"),   # (no está en ESPN: 1959)
+    "aqu": ("argentino-de-quilmes", "Argentino de Quilmes"),   # (no está en ESPN: 1939)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
