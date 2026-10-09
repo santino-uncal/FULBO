@@ -33,6 +33,20 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1942: el Campeonato de Primera División 1942 (abril a noviembre; campeón River, bicampeón): 16 equipos a dos ruedas
+    # (30 fechas), con 2 puntos por partido ganado. Bajaba el último de la tabla (no había promedios): Tigre. ESPN no lo
+    # tiene: va a mano (tools/a_mano; RSSSF, sin goles salvo los del Boca-River de la fecha 28; RSSSF no trae la tabla,
+    # controlada con la de Wikipedia). No había Libertadores todavía
+    "1942-primera": {"nombre": "Campeonato de Primera División 1942", "anio": 1942, "liga": "a_mano", "slug": "1942-primera",
+                     "zonas": "unica", "fechas": 30, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, el de Wikipedia (que en este torneo coincide con "
+                                    "la diferencia de gol).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1942 (las 30 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del Boca 2-2 River de la fecha 28, el partido en el que River salió "
+                                        "campeón (de RSSSF, con los minutos). El goleador del torneo fue Rinaldo Martino (San "
+                                        "Lorenzo), con 25 goles.",
+                     "descensos": "tabla", "descienden": 1},
     # 1943: el Campeonato de Primera División 1943 (abril a diciembre; campeón Boca): 16 equipos a dos ruedas (30 fechas),
     # con 2 puntos por partido ganado. Bajaba el último de la tabla (no había promedios): Gimnasia. ESPN no lo tiene: va a
     # mano (tools/a_mano; RSSSF, sin goles salvo los del Ferro-Boca de la fecha 30; RSSSF no trae la tabla, controlada con

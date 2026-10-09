@@ -1,18 +1,19 @@
 /* Los títulos de liga de cada club, para mostrar al lado del campeón qué número de título es (River en el Campeonato
    1989-90: el 23). Cuenta oficial de la AFA (Wikipedia, "List of Argentine Primera División champions"):
-   - antes: los títulos de cada club hasta el Campeonato 1942 (amateurs y profesionales); ultimo_antes: el campeón
-     de 1942 (para contar los títulos seguidos: bicampeonatos, tricampeonatos), y seguidos_antes, cuántos llevaba
-     seguidos (River: 2, los de 1941 y 1942).
+   - antes: los títulos de cada club hasta el Campeonato 1941 (amateurs y profesionales); ultimo_antes: el campeón
+     de 1941 (para contar los títulos seguidos: bicampeonatos, tricampeonatos), y seguidos_antes, cuántos llevaba
+     seguidos (River: solo ese, porque el de 1940 lo ganó Boca).
    - torneos: los títulos de cada torneo cargado, en orden. "club" es el campeón del torneo; ["club", "texto"] es otro
      título que se definió en ese torneo (la final de 1990-91, la Superfinal 2012-13, el "Campeón de Liga" 2025).
    - notas: los torneos cuyo campeón no suma un título de liga (y por qué).
    Al terminar un torneo nuevo, agregar su campeón acá (la prueba de tests/test_liga.py avisa si falta). */
 window.LIGA_TITULOS = {
-  "antes": {"river-plate": 7, "boca-juniors": 10, "racing-club": 9, "independiente": 4, "san-lorenzo": 5,
+  "antes": {"river-plate": 6, "boca-juniors": 10, "racing-club": 9, "independiente": 4, "san-lorenzo": 5,
             "huracan": 4, "estudiantes-de-la-plata": 1,
             "quilmes": 1},
-  "ultimo_antes": "river-plate", "seguidos_antes": 2,
+  "ultimo_antes": "river-plate", "seguidos_antes": 1,
   "torneos": {
+    "1942-primera": ["river-plate"],
     "1943-primera": ["boca-juniors"],
     "1944-primera": ["boca-juniors"],
     "1945-primera": ["river-plate"],
