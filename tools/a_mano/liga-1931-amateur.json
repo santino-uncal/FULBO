@@ -1,0 +1,1235 @@
+{
+ "nombre": "Campeonato de Primera División 1931 (amateur)",
+ "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi), sin goles salvo los de la final. Es el campeonato que se jugó desde junio, después de que los clubes grandes se fueran a la liga profesional (el que había empezado en mayo se abandonó); sin los partidos de San Isidro, que se fue en julio y se anularon. RSSSF no dice a qué fecha pertenece cada partido: se deduce por los días, y los no jugados van donde los dos tenían lugar (quedan 16 fechas, una más de las que hubo). RSSSF no trae las canchas: va la del local, salvo las que dice. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1931-06-28",
+     "local": "argentino-de-lomas",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de Argentino de Lomas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-06-28",
+     "local": "argentino-de-quilmes",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1931-06-28",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1931-06-28",
+     "local": "barracas-central",
+     "visitante": "san-fernando",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1931-06-28",
+     "local": "colegiales",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1931-06-28",
+     "local": "excursionistas",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-06-28",
+     "local": "sportivo-buenos-aires",
+     "visitante": "sportivo-palermo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1931-11-22",
+     "local": "defensores-de-belgrano",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1931-07-05",
+     "local": "almagro",
+     "visitante": "colegiales",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-05",
+     "local": "banfield",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-05",
+     "local": "defensores-de-belgrano",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-05",
+     "local": "estudiantil-porteno",
+     "visitante": "barracas-central",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-05",
+     "local": "nueva-chicago",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-05",
+     "local": "san-fernando",
+     "visitante": "argentino-de-lomas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-05",
+     "local": "sportivo-palermo",
+     "visitante": "excursionistas",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-02",
+     "local": "sportivo-barracas",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1931-07-12",
+     "local": "banfield",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-12",
+     "local": "colegiales",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-12",
+     "local": "excursionistas",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-12",
+     "local": "nueva-chicago",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-12",
+     "local": "san-fernando",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 6,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-12",
+     "local": "sportivo-buenos-aires",
+     "visitante": "argentino-de-lomas",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Argentino de Lomas no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1931-07-12",
+     "local": "sportivo-palermo",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-26",
+     "local": "estudiantil-porteno",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1931-07-19",
+     "local": "almagro",
+     "visitante": "estudiantil-porteno",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-19",
+     "local": "argentino-de-lomas",
+     "visitante": "excursionistas",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Lomas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-19",
+     "local": "argentino-de-quilmes",
+     "visitante": "barracas-central",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-19",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-19",
+     "local": "defensores-de-belgrano",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-19",
+     "local": "el-porvenir",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-19",
+     "local": "sportivo-barracas",
+     "visitante": "san-fernando",
+     "gl": 7,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-11-29",
+     "local": "sportivo-buenos-aires",
+     "visitante": "nueva-chicago",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1931-07-26",
+     "local": "argentino-de-quilmes",
+     "visitante": "argentino-de-lomas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-26",
+     "local": "banfield",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-26",
+     "local": "barracas-central",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-26",
+     "local": "colegiales",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-26",
+     "local": "sportivo-buenos-aires",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1931-07-26",
+     "local": "sportivo-palermo",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-02",
+     "local": "san-fernando",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-09",
+     "local": "excursionistas",
+     "visitante": "sportivo-barracas",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1931-08-02",
+     "local": "almagro",
+     "visitante": "excursionistas",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-02",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-02",
+     "local": "defensores-de-belgrano",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-02",
+     "local": "el-porvenir",
+     "visitante": "argentino-de-lomas",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-02",
+     "local": "nueva-chicago",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-09",
+     "local": "sportivo-buenos-aires",
+     "visitante": "san-fernando",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-16",
+     "local": "sportivo-barracas",
+     "visitante": "argentino-de-quilmes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-11-01",
+     "local": "estudiantil-porteno",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1931-08-09",
+     "local": "argentino-de-lomas",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Lomas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-09",
+     "local": "argentino-de-quilmes",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-09",
+     "local": "barracas-central",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-09",
+     "local": "colegiales",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-09",
+     "local": "sportivo-palermo",
+     "visitante": "banfield",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-16",
+     "local": "estudiantil-porteno",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-16",
+     "local": "san-fernando",
+     "visitante": "excursionistas",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-30",
+     "local": "el-porvenir",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1931-08-16",
+     "local": "almagro",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-16",
+     "local": "banfield",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-16",
+     "local": "defensores-de-belgrano",
+     "visitante": "argentino-de-lomas",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-16",
+     "local": "nueva-chicago",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-30",
+     "local": "argentino-de-quilmes",
+     "visitante": "san-fernando",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-30",
+     "local": "excursionistas",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-09-29",
+     "local": "sportivo-buenos-aires",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1931-12-16",
+     "local": "sportivo-barracas",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportivo Barracas no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1931-08-30",
+     "local": "argentino-de-lomas",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Lomas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-30",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1931-08-30",
+     "local": "barracas-central",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1931-09-13",
+     "local": "argentino-de-quilmes",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1931-09-13",
+     "local": "excursionistas",
+     "visitante": "colegiales",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-11",
+     "local": "el-porvenir",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-25",
+     "local": "defensores-de-belgrano",
+     "visitante": "sportivo-barracas",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1931-09-13",
+     "local": "argentino-de-lomas",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Lomas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-09-13",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1931-09-13",
+     "local": "el-porvenir",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1931-09-13",
+     "local": "barracas-central",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [],
+     "nota": "Se suspendió, 1-4; el 23 de diciembre se dio por terminado con ese resultado."
+    },
+    {
+     "fecha": "1931-09-29",
+     "local": "excursionistas",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-09-29",
+     "local": "san-fernando",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-04",
+     "local": "sportivo-palermo",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1931-09-29",
+     "local": "almagro",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1931-09-29",
+     "local": "sportivo-barracas",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-04",
+     "local": "argentino-de-quilmes",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-04",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-fernando",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-04",
+     "local": "banfield",
+     "visitante": "argentino-de-lomas",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-04",
+     "local": "excursionistas",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [],
+     "nota": "Se suspendió a los 75 minutos, 3-1; el 4 de noviembre se dio por terminado con ese resultado."
+    },
+    {
+     "fecha": "1931-10-18",
+     "local": "estudiantil-porteno",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-25",
+     "local": "colegiales",
+     "visitante": "sportivo-palermo",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1931-10-04",
+     "local": "barracas-central",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-04",
+     "local": "nueva-chicago",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-11",
+     "local": "almagro",
+     "visitante": "argentino-de-lomas",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-11",
+     "local": "banfield",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-11",
+     "local": "defensores-de-belgrano",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-18",
+     "local": "sportivo-barracas",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-18",
+     "local": "sportivo-palermo",
+     "visitante": "san-fernando",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1931-10-11",
+     "local": "colegiales",
+     "visitante": "sportivo-barracas",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-11",
+     "local": "san-fernando",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-11",
+     "local": "sportivo-palermo",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-18",
+     "local": "banfield",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-18",
+     "local": "el-porvenir",
+     "visitante": "argentino-de-quilmes",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1931-11-01",
+     "local": "sportivo-buenos-aires",
+     "visitante": "excursionistas",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1931-12-13",
+     "local": "estudiantil-porteno",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1931-10-18",
+     "local": "barracas-central",
+     "visitante": "argentino-de-lomas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-18",
+     "local": "nueva-chicago",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-18",
+     "local": "sportivo-buenos-aires",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1931-10-25",
+     "local": "san-fernando",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-11-01",
+     "local": "el-porvenir",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1931-11-01",
+     "local": "argentino-de-quilmes",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [],
+     "nota": "Se suspendió a los 30 minutos, 4-2; el 4 de noviembre se dio por terminado con ese resultado."
+    },
+    {
+     "fecha": "1931-11-22",
+     "local": "estudiantil-porteno",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1931-11-29",
+     "local": "almagro",
+     "visitante": "sportivo-barracas",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1931-10-25",
+     "local": "barracas-central",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1931-11-01",
+     "local": "argentino-de-lomas",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Lomas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-11-01",
+     "local": "nueva-chicago",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1931-11-22",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "excursionistas",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1931-11-22",
+     "local": "sportivo-buenos-aires",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1931-12-13",
+     "local": "san-fernando",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: San Fernando no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1931-12-20",
+     "local": "estudiantil-porteno",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Argentino de Quilmes no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1931-11-13",
+     "local": "colegiales",
+     "visitante": "argentino-de-lomas",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Argentino de Lomas no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1931-11-22",
+     "local": "banfield",
+     "visitante": "sportivo-barracas",
+     "gl": 4,
+     "gv": 5,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1931-11-29",
+     "local": "san-fernando",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 7,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1931-12-13",
+     "local": "excursionistas",
+     "visitante": "argentino-de-quilmes",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-12-16",
+     "local": "defensores-de-belgrano",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Defensores de Belgrano no se presentó y perdió el partido."
+    }
+   ]
+  }
+ ]
+}

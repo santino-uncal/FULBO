@@ -10,9 +10,10 @@
 window.LIGA_TITULOS = {
   "antes": {"river-plate": 1, "boca-juniors": 6, "racing-club": 9, "independiente": 2, "san-lorenzo": 3,
             "huracan": 4, "estudiantes-de-la-plata": 1,
-            "quilmes": 1, "estudiantil-porteno": 1},
+            "quilmes": 1},
   "ultimo_antes": "boca-juniors", "seguidos_antes": 1,
   "torneos": {
+    "1931-amateur": ["estudiantil-porteno"],
     "1931-laf": ["boca-juniors"],
     "1932-amateur": ["sportivo-barracas"],
     "1932-laf": ["river-plate"],

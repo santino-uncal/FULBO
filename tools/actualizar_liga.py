@@ -33,6 +33,40 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1931 (amateur): el campeonato de la Asociación Amateurs Argentina de Football (desde junio, Asociación Argentina de
+    # Football, Amateurs y Profesionales), el que se jugó desde junio, después de que los clubes grandes se fueran a la
+    # liga profesional (junio a diciembre; campeón Estudiantil Porteño): 16 equipos a una rueda, con 2 puntos por partido
+    # ganado. Almagro y Estudiantil Porteño empataron el primer puesto y jugaron una final (en "playoffs"; ganó
+    # Estudiantil Porteño). Sin los partidos de San Isidro, que se fue en julio (anulados). RSSSF no dice a qué fecha
+    # pertenece cada partido: se deduce por los días (16 fechas). Bajaba el último: San Fernando. ESPN no lo tiene: va a
+    # mano (tools/a_mano; RSSSF, sin goles salvo los de la final)
+    "1931-amateur": {"nombre": "Campeonato de Primera División 1931 (amateur)", "anio": 1931, "liga": "a_mano",
+                     "slug": "1931-amateur", "zonas": "unica", "fechas": 16, "pasan": 2, "puntos_victoria": 2,
+                     "texto_pasan": "Empatados en el primer puesto (26 puntos): definieron el título en una final, en la "
+                                    "cancha de Sportivo Barracas",
+                     "orden_texto": "Campeonato amateur: el de la asociación amateur, que de 1931 a 1934 se jugó al mismo "
+                                    "tiempo que el profesional de la Liga Argentina de Football; la AFA reconoce a los "
+                                    "campeones de los dos. Es el que se jugó desde junio, después de que los clubes grandes "
+                                    "se fueran a la liga profesional. Orden: puntos y, con los mismos puntos, el de RSSSF "
+                                    "(que coincide con la diferencia de gol). Las fechas son deducidas (RSSSF da solo los "
+                                    "días). Argentino de Lomas se llamaba Argentino de Banfield hasta septiembre.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1931 amateur (las 15 fechas), sin la "
+                                    "final. Cada partido ganado valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo de la final (de RSSSF, con los minutos). Según RSSSF, el goleador "
+                                        "del torneo fue Justo Ciancia (Almagro), con 14 goles.",
+                     "nombre_playoffs": "Final (desempate)",
+                     "playoffs": [(r"^$^", "Final")],
+                     "playoffs_a_mano": {
+                         "Final": [
+                             {"fecha": "1931-12-27", "local": "estudiantil-porteno", "visitante": "almagro", "gl": 3, "gv": 1,
+                              "estadio": "Cancha de Sportivo Barracas", "arbitro": "Cirilo Garigliano", "publico": 4000,
+                              "goles": [{"jugador": "Martínez", "equipo": "local", "min": 25},
+                                        {"jugador": "Fernández", "equipo": "visitante", "min": 42},
+                                        {"jugador": "Bissio", "equipo": "local", "min": 70},
+                                        {"jugador": "Martínez", "equipo": "local", "min": 84}]},
+                         ],
+                     },
+                     "descensos": "tabla", "descienden": 1},
     # 1931: el primer campeonato profesional, de la Liga Argentina de Football, que formaron ese año los clubes grandes al
     # irse de la asociación amateur (mayo de 1931 a enero de 1932; campeón Boca): 18 equipos a dos ruedas (34 fechas),
     # con 2 puntos por partido ganado; la AFA reconoce también al campeón amateur de ese año. Con árbitro y público
@@ -4669,7 +4703,9 @@ CLUBES_NUEVOS = {
     "rsc": ("ramsar", "Ramsar"),
     "sbs": ("sportivo-buenos-aires", "Sportivo Buenos Aires"),
     "pba": ("palermo-buenos-aires", "Palermo"),
-    "spa": ("sportivo-palermo", "Sportivo Palermo"),   # (no está en ESPN: el amateur 1932; escudo genérico)
+    "spa": ("sportivo-palermo", "Sportivo Palermo"),
+    "sfe": ("san-fernando", "San Fernando"),
+    "alo": ("argentino-de-lomas", "Argentino de Lomas"),   # (no están en ESPN: el amateur 1931; escudos genéricos)   # (no está en ESPN: el amateur 1932; escudo genérico)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),
