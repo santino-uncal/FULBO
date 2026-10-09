@@ -1,0 +1,6409 @@
+{
+ "nombre": "Campeonato de Primera División 1932 (amateur)",
+ "fuente": "Resultados, días y goles (sin minutos, salvo un partido): RSSSF (Pablo Ciullini). RSSSF no dice a qué fecha pertenece cada partido: se deduce por los días; los no jugados van en las fechas en que los dos tenían lugar (así quedan 36 fechas, dos más de las que hubo). RSSSF no trae las canchas: va la del local. La tabla que sale de los partidos es igual a la de RSSSF y a la de Wikipedia, salvo por un gol: los dos Sportivo Barracas-Estudiantil Porteño figuran 2-0 y 2-4 (con sus goles), pero las tablas le dan a Sportivo Barracas un gol menos a favor y a Estudiantil Porteño uno menos en contra",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1932-03-20",
+     "local": "barracas-central",
+     "visitante": "argentino-de-temperley",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamazou",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-03-20",
+     "local": "nueva-chicago",
+     "visitante": "excursionistas",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Tescione",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tescione",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Iglesias",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aguirre",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Scurzoni",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 57 minutos, y quedó el 3-2."
+    },
+    {
+     "fecha": "1932-03-20",
+     "local": "colegiales",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Meraldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Meraldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferrara",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Toscano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Panto",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Laurino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-03-20",
+     "local": "sportivo-buenos-aires",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Duarte",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-03-20",
+     "local": "liberal-argentino",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Sola",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rival",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-03-20",
+     "local": "banfield",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mourín",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mourín",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-03-20",
+     "local": "sportivo-palermo",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Santillán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avio",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-03-21",
+     "local": "defensores-de-belgrano",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1932-03-27",
+     "local": "el-porvenir",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rovito",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-03-27",
+     "local": "argentino-de-temperley",
+     "visitante": "colegiales",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Rivas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D'Abatte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zoroza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Meraldi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-03-27",
+     "local": "excursionistas",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Ferrando",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roger",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scurzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Timón",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Timón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-03-27",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Uria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Risso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-03-27",
+     "local": "all-boys",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Irurieta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berlanga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lupo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-03-27",
+     "local": "almagro",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Ciancio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ciancio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ciancio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rival",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ulibarri",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-03-27",
+     "local": "estudiantil-porteno",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-03-27",
+     "local": "sportivo-barracas",
+     "visitante": "argentino-de-quilmes",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Evaristo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ambrosetti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1932-04-03",
+     "local": "sportivo-barracas",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Fortunato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mourín",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-04-10",
+     "local": "sportivo-buenos-aires",
+     "visitante": "el-porvenir",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Timón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-04-10",
+     "local": "liberal-argentino",
+     "visitante": "argentino-de-temperley",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1932-04-10",
+     "local": "defensores-de-belgrano",
+     "visitante": "excursionistas",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Caldas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alvarez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lucente",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-04-10",
+     "local": "banfield",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pando",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-04-10",
+     "local": "sportivo-palermo",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Carri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-04-10",
+     "local": "argentino-de-quilmes",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olivetto",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ciancio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "F.Ramos",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-29",
+     "local": "barracas-central",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Penichet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Meraldi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Felipelli",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 60 minutos; lo que faltaba se jugó el 30 de agosto."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1932-04-24",
+     "local": "liberal-argentino",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Toscano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-04-24",
+     "local": "defensores-de-belgrano",
+     "visitante": "nueva-chicago",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Lupo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caldas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caldas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Figueroa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fascio",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-04-24",
+     "local": "banfield",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Zorrilla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-04-24",
+     "local": "sportivo-palermo",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Terrot",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pezzotti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rovito",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-04-24",
+     "local": "argentino-de-quilmes",
+     "visitante": "argentino-de-temperley",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avila",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Avila",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "D'Abbate",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-04-24",
+     "local": "sportivo-barracas",
+     "visitante": "excursionistas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "F.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ruger",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-04-24",
+     "local": "estudiantil-porteno",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Martinez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vesperoni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Panto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-04-24",
+     "local": "almagro",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1932-05-01",
+     "local": "colegiales",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Gaslini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barba",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-01",
+     "local": "sportivo-buenos-aires",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Luppo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Luppo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Figueroa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-01",
+     "local": "nueva-chicago",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferrari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-01",
+     "local": "barracas-central",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Picabea",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamazou",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-01",
+     "local": "argentino-de-temperley",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Vignolo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-01",
+     "local": "excursionistas",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Imbroglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scursoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ciancio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Piazzi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-01",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Uria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Locasso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berlanga",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-26",
+     "local": "liberal-argentino",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1932-05-05",
+     "local": "all-boys",
+     "visitante": "sportivo-barracas",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Acre",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-05",
+     "local": "almagro",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Correa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-05",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "argentino-de-quilmes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Starópoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Urso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Furlani",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-05",
+     "local": "nueva-chicago",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-05",
+     "local": "barracas-central",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Lamazou",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-05",
+     "local": "el-porvenir",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Merlo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Facio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Facio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lupo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Devescui",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-05",
+     "local": "argentino-de-temperley",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Zoroza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lucarelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zorrilla",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-12",
+     "local": "colegiales",
+     "visitante": "excursionistas",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Abrahan",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alvarez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Scurzoni",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1932-05-08",
+     "local": "banfield",
+     "visitante": "liberal-argentino",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1932-05-08",
+     "local": "sportivo-palermo",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Zumelzú",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Terrot",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Randone",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maroni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-08",
+     "local": "argentino-de-quilmes",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Bonelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maceda",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-08",
+     "local": "sportivo-barracas",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "F.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Evaristo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-08",
+     "local": "estudiantil-porteno",
+     "visitante": "barracas-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Boigues",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-08",
+     "local": "almagro",
+     "visitante": "el-porvenir",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Ciancio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olivetto",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-08",
+     "local": "all-boys",
+     "visitante": "argentino-de-temperley",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Irurieta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berlanga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berlanga",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-08",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "excursionistas",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Uria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scurzoni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Scurzoni",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1932-05-22",
+     "local": "defensores-de-belgrano",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Caldas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Figueroa",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-22",
+     "local": "liberal-argentino",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-22",
+     "local": "sportivo-buenos-aires",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garófalo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-22",
+     "local": "colegiales",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Meraldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Meraldi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-22",
+     "local": "nueva-chicago",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Oro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-22",
+     "local": "barracas-central",
+     "visitante": "all-boys",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Lamazou",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamazou",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Penichet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Picabea",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mauricio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-22",
+     "local": "el-porvenir",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Etcheverri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Etcheverri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Uria",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Uria",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-05-22",
+     "local": "argentino-de-temperley",
+     "visitante": "excursionistas",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Sacarello",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1932-06-05",
+     "local": "argentino-de-quilmes",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-05",
+     "local": "sportivo-barracas",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Fortunato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sarco",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-05",
+     "local": "estudiantil-porteno",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Ruffo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ruffo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D'Agostino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-05",
+     "local": "almagro",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Cambiasso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "de la Peña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "de la Peña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Larroca",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ramos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-05",
+     "local": "all-boys",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Funes",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Acre",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Benvenuto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-05",
+     "local": "excursionistas",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Scurzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamazou",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-05",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Uria",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Se suspendió a los 35 minutos, y quedó el 1-0."
+    },
+    {
+     "fecha": "1932-06-05",
+     "local": "argentino-de-temperley",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Zoroza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zoroza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zoroza",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1932-06-12",
+     "local": "barracas-central",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Secchi",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-12",
+     "local": "liberal-argentino",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Bettini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maggi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mauricio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-12",
+     "local": "sportivo-palermo",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Terrot",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-12",
+     "local": "sportivo-buenos-aires",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Burella",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-12",
+     "local": "defensores-de-belgrano",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Caldas",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-12",
+     "local": "banfield",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Lagomarsino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ruffo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ruffo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-12",
+     "local": "nueva-chicago",
+     "visitante": "argentino-de-temperley",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sasso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-07-24",
+     "local": "excursionistas",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Tescione",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lucente",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1932-06-19",
+     "local": "argentino-de-temperley",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Lucarelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De Jouge",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Martín",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-19",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [],
+     "nota": "Se suspendió a los 82 minutos, y quedó el 1-2."
+    },
+    {
+     "fecha": "1932-06-19",
+     "local": "estudiantil-porteno",
+     "visitante": "argentino-de-quilmes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1932-06-26",
+     "local": "sportivo-barracas",
+     "visitante": "almagro",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "F.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sarco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-26",
+     "local": "banfield",
+     "visitante": "excursionistas",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Zorrilla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zorrilla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Péndola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Péndola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lucente",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lucente",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-26",
+     "local": "colegiales",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Meraldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gilardón",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-07-31",
+     "local": "sportivo-palermo",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Avio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cerezo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-08-21",
+     "local": "all-boys",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Duarte",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1932-06-26",
+     "local": "argentino-de-quilmes",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maggi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-26",
+     "local": "sportivo-palermo",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "J.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Terrot",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nicastro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Uria",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-26",
+     "local": "defensores-de-belgrano",
+     "visitante": "argentino-de-temperley",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Facio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caldas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lupo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zoroza",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-26",
+     "local": "sportivo-buenos-aires",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Nicora",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-29",
+     "local": "excursionistas",
+     "visitante": "liberal-argentino",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Scurzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scurzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scurzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lucente",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mesuraco",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Monteleone",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Monteleone",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Monteleone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-29",
+     "local": "sportivo-barracas",
+     "visitante": "el-porvenir",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "F.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "F.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lenders",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-07-31",
+     "local": "banfield",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Castro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zorrilla",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-08-28",
+     "local": "colegiales",
+     "visitante": "almagro",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Martín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Paduano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pujolas",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1932-06-29",
+     "local": "sportivo-palermo",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "J.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arenas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Oro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-29",
+     "local": "all-boys",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Duarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Viglieti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mauricio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Péndola",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-06-29",
+     "local": "barracas-central",
+     "visitante": "nueva-chicago",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Lamazou",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamazou",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamazou",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Conci",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sasso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-07-24",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Méndez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Panto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marassi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-07-24",
+     "local": "colegiales",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Villegas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ramos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Benedetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-07-31",
+     "local": "estudiantil-porteno",
+     "visitante": "excursionistas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alvarez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-07-31",
+     "local": "argentino-de-quilmes",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Pugliesse",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Narizano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Narizano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Merlo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lenders",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-08-14",
+     "local": "liberal-argentino",
+     "visitante": "defensores-de-belgrano",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Bottini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Catelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mesuracco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mesuracco",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1932-07-24",
+     "local": "all-boys",
+     "visitante": "estudiantil-porteno",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Almitrano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Almitrano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Acre",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-07-24",
+     "local": "argentino-de-temperley",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Avio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-07-24",
+     "local": "el-porvenir",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Ríos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Agrelo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barba",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-07-24",
+     "local": "barracas-central",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Lamazou",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-07-24",
+     "local": "nueva-chicago",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-07-31",
+     "local": "almagro",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1932-08-21",
+     "local": "sportivo-barracas",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Marassi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-08-21",
+     "local": "argentino-de-quilmes",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Narizzano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pereyra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1932-07-31",
+     "local": "defensores-de-belgrano",
+     "visitante": "colegiales",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "M.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Power",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giménez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villegas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-07-31",
+     "local": "liberal-argentino",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Mesuracco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mesuracco",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-08-14",
+     "local": "argentino-de-temperley",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Bottero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-08-14",
+     "local": "el-porvenir",
+     "visitante": "estudiantil-porteno",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Merlo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Agrelo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lenders",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lenders",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Etcheverry",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pedevilla",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-08-14",
+     "local": "barracas-central",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Reta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marassi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-08-14",
+     "local": "nueva-chicago",
+     "visitante": "argentino-de-quilmes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Alvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-08-15",
+     "local": "excursionistas",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Alvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tescione",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-04",
+     "local": "banfield",
+     "visitante": "sportivo-palermo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Davico",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Davico",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barba",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luis",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Avio",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1932-08-14",
+     "local": "colegiales",
+     "visitante": "sportivo-palermo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Martín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villegas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-08-14",
+     "local": "sportivo-buenos-aires",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Péndola",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-08-21",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "argentino-de-temperley",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Panto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perducca",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-08-21",
+     "local": "almagro",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Oro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Piazzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamazou",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-08-21",
+     "local": "estudiantil-porteno",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Ceberio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Buccino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-08-28",
+     "local": "el-porvenir",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Etcheverry",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Etcheverry",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-08-28",
+     "local": "defensores-de-belgrano",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Caldas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caldas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-08-30",
+     "local": "liberal-argentino",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Catelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marassi",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1932-08-21",
+     "local": "sportivo-palermo",
+     "visitante": "liberal-argentino",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Mesuracco",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-08-21",
+     "local": "banfield",
+     "visitante": "defensores-de-belgrano",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Dasico",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zorrilla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zorrilla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zorrilla",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-08-28",
+     "local": "nueva-chicago",
+     "visitante": "all-boys",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barba",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stévez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stévez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-04",
+     "local": "sportivo-buenos-aires",
+     "visitante": "estudiantil-porteno",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Benedetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fusani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alarcón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bissio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vivaqua",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 51 minutos, porque los jugadores de Estudiantil Porteño se fueron de la cancha, y quedó el 4-2."
+    },
+    {
+     "fecha": "1932-09-04",
+     "local": "colegiales",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Giúdice",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-04",
+     "local": "barracas-central",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Sosa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamazou",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamazou",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-04",
+     "local": "sportivo-barracas",
+     "visitante": "argentino-de-temperley",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Sarco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-25",
+     "local": "almagro",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Oro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1932-09-11",
+     "local": "argentino-de-temperley",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Galán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamazou",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-11",
+     "local": "excursionistas",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Leone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Conci",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Alegre",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-11",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Pujolas",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Giúdice",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-11",
+     "local": "all-boys",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Vico",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Benedetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-11",
+     "local": "almagro",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Oro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Oro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moyano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-11",
+     "local": "sportivo-barracas",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Sarco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sarco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mendiburu",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zorrilla",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Davico",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-11",
+     "local": "argentino-de-quilmes",
+     "visitante": "sportivo-palermo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Pereyra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pereyra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ambrossetti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-11",
+     "local": "estudiantil-porteno",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Bucino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bucino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Power",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Caldas",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1932-09-18",
+     "local": "nueva-chicago",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Etcheverri",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Etcheverri",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Agrelo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-18",
+     "local": "colegiales",
+     "visitante": "argentino-de-temperley",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Meraldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Meraldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bonfigliolo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-18",
+     "local": "sportivo-buenos-aires",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Sandaza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alarcón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scurzoni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Leone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-18",
+     "local": "liberal-argentino",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Monteleone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Manfroni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Urea",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-18",
+     "local": "defensores-de-belgrano",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "R.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Armitrano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-18",
+     "local": "banfield",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Davico",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gilardinelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-18",
+     "local": "sportivo-palermo",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Zumelzú",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-18",
+     "local": "argentino-de-quilmes",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1932-09-25",
+     "local": "el-porvenir",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Etcheverri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-25",
+     "local": "argentino-de-temperley",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Perducca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perducca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arzeni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-25",
+     "local": "excursionistas",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Imbroglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Imbroglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Imbroglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Romano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-25",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Méndez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Péndola",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-25",
+     "local": "all-boys",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Luis",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Avio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cani",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-25",
+     "local": "estudiantil-porteno",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Bissio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bissio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-09-25",
+     "local": "colegiales",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamazou",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Penichet",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-29",
+     "local": "almagro",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Passini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ciancio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Noguera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Alegre",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1932-10-02",
+     "local": "sportivo-barracas",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Vázquez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vázquez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-02",
+     "local": "estudiantil-porteno",
+     "visitante": "almagro",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Umanski",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bissio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Passini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-02",
+     "local": "argentino-de-quilmes",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nappi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Olivetto",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Olivetto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-02",
+     "local": "liberal-argentino",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Saccone",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-02",
+     "local": "defensores-de-belgrano",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 5,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1932-10-02",
+     "local": "banfield",
+     "visitante": "argentino-de-temperley",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Barba",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Se suspendió a los 77 minutos, y quedó el 1-0."
+    },
+    {
+     "fecha": "1932-10-12",
+     "local": "excursionistas",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Lucente",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Avio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Avio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cani",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-19",
+     "local": "nueva-chicago",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giúdice",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Capuano",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1932-10-09",
+     "local": "nueva-chicago",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Barba",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Facio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-09",
+     "local": "barracas-central",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Lamazou",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-09",
+     "local": "el-porvenir",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "equipo": "local"
+      },
+      {
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-09",
+     "local": "argentino-de-temperley",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Perducca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-09",
+     "local": "excursionistas",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Aguirre",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Imbroglio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marassi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marassi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vázquez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-09",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Méndez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bissio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-09",
+     "local": "all-boys",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Irurieta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ballati",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 40 minutos, y quedó el 1-2."
+    },
+    {
+     "fecha": "1932-11-26",
+     "local": "sportivo-buenos-aires",
+     "visitante": "colegiales",
+     "gl": 3,
+     "gv": 5,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Silento",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fussoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Toscano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Toscano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Paduano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Giúdice",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Giúdice",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1932-10-16",
+     "local": "banfield",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Davico",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Paduano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-16",
+     "local": "defensores-de-belgrano",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "M.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fussani",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Alarcón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-16",
+     "local": "sportivo-palermo",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1932-10-16",
+     "local": "argentino-de-quilmes",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Nóbile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pereyra",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-16",
+     "local": "estudiantil-porteno",
+     "visitante": "argentino-de-temperley",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Bissio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bissio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perducca",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 60 minutos, y quedó el 2-1."
+    },
+    {
+     "fecha": "1932-10-16",
+     "local": "almagro",
+     "visitante": "excursionistas",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Passini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ciancio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bonifacio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aguirre",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Aguirre",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-16",
+     "local": "all-boys",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Paez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Paez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Armitrano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vesperoni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-16",
+     "local": "sportivo-barracas",
+     "visitante": "el-porvenir",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marassi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Helmo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Quintela",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1932-10-23",
+     "local": "liberal-argentino",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Arzeni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zorrilla",
+       "equipo": "visitante"
+      }
+     ],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "nota": "Se suspendió a los 42 minutos por la lluvia, 1-1. Después le dieron el partido ganado a Liberal Argentino."
+    },
+    {
+     "fecha": "1932-10-23",
+     "local": "colegiales",
+     "visitante": "argentino-de-quilmes",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1932-10-23",
+     "local": "nueva-chicago",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Alegre",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marassi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-23",
+     "local": "barracas-central",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Penichet",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-23",
+     "local": "el-porvenir",
+     "visitante": "almagro",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Hermo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ríos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ríos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Merlo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quintela",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-23",
+     "local": "argentino-de-temperley",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "D'Abatte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bernasconi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-23",
+     "local": "excursionistas",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Paganelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aguirre",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aguirre",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scurzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Panto",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Panto",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Panto",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Nappi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-29",
+     "local": "sportivo-palermo",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Cani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Terrot",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1932-10-29",
+     "local": "sportivo-barracas",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Reta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Reta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sarco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marassi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fraga",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 70 minutos, y quedó el 4-1."
+    },
+    {
+     "fecha": "1932-10-29",
+     "local": "all-boys",
+     "visitante": "barracas-central",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lamazou",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-29",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Quiroga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pando",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pando",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-29",
+     "local": "excursionistas",
+     "visitante": "argentino-de-temperley",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1932-10-30",
+     "local": "argentino-de-quilmes",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bottini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-10-30",
+     "local": "estudiantil-porteno",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1932-11-05",
+     "local": "almagro",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Caldas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-12-04",
+     "local": "nueva-chicago",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Noguera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Matías",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castro Huergo",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1932-11-01",
+     "local": "banfield",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Maseda",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pereyra",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-01",
+     "local": "defensores-de-belgrano",
+     "visitante": "sportivo-barracas",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pol",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Facio",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-01",
+     "local": "liberal-argentino",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Mesuracco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Monteleone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bissio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-01",
+     "local": "sportivo-buenos-aires",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Benedetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ciancio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-01",
+     "local": "colegiales",
+     "visitante": "all-boys",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Longobuco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pujolas",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Libonatti",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-01",
+     "local": "barracas-central",
+     "visitante": "excursionistas",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Lamazou",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alvarez",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 45 minutos, porque los jugadores de Excursionistas se fueron de la cancha, y quedó el 4-1."
+    },
+    {
+     "fecha": "1932-11-01",
+     "local": "nueva-chicago",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Pascale",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Uria",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-01",
+     "local": "el-porvenir",
+     "visitante": "argentino-de-temperley",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Agrelo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hermo",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1932-11-05",
+     "local": "all-boys",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Acri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-05",
+     "local": "sportivo-barracas",
+     "visitante": "sportivo-palermo",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Fortunato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sarco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marassi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marassi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nocetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cani",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-05",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Panto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Panto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Uria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Uria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Taraffi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fusani",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sandaza",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-05",
+     "local": "excursionistas",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1932-11-06",
+     "local": "el-porvenir",
+     "visitante": "barracas-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-06",
+     "local": "estudiantil-porteno",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 5,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bissio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barba",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Barba",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Barba",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Davies",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Davico",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-06",
+     "local": "argentino-de-temperley",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Souza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Macías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perduca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "La Barba",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Nogueira",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-01-08",
+     "local": "argentino-de-quilmes",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Argentino de Quilmes no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1932-11-11",
+     "local": "sportivo-buenos-aires",
+     "visitante": "argentino-de-temperley",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saudaza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Macías",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Murcinaro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-11",
+     "local": "argentino-de-quilmes",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Petrucelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-12",
+     "local": "sportivo-palermo",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "local"
+      }
+     ],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "nota": "Se suspendió a los 45 minutos, 2-0. Después le dieron el partido ganado a Almagro."
+    },
+    {
+     "fecha": "1932-11-12",
+     "local": "nueva-chicago",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Castillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamazou",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Penichet",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-12",
+     "local": "liberal-argentino",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Bottini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Monteleone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alvarez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-12",
+     "local": "colegiales",
+     "visitante": "el-porvenir",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Toscano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Toscano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Merlo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-12",
+     "local": "defensores-de-belgrano",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caldas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caldas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Panto",
+       "equipo": "visitante"
+      },
+      {
+       "equipo": "visitante"
+      },
+      {
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-12-08",
+     "local": "banfield",
+     "visitante": "all-boys",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Castro Huergo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castro Huergo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Davico",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Davico",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Acri",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1932-11-19",
+     "local": "almagro",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Fortunato",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-19",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "J.González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-19",
+     "local": "excursionistas",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Matta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-19",
+     "local": "argentino-de-temperley",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tartini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Facio",
+       "equipo": "visitante"
+      }
+     ],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "nota": "Terminó 2-1, pero después le dieron el partido ganado a Defensores de Belgrano."
+    },
+    {
+     "fecha": "1932-11-19",
+     "local": "sportivo-buenos-aires",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Cilento",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamazou",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lamazou",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-20",
+     "local": "all-boys",
+     "visitante": "argentino-de-quilmes",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Armitrano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marmorato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Acre",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nóbile",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Nóbile",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-20",
+     "local": "el-porvenir",
+     "visitante": "liberal-argentino",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Ríos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Agrelo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Merlo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-12-31",
+     "local": "nueva-chicago",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Noguera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ceberio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bucino",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1932-11-26",
+     "local": "sportivo-barracas",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Marassi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marassi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sarco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Panto",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castiglione",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-26",
+     "local": "defensores-de-belgrano",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Facio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-26",
+     "local": "liberal-argentino",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Mesuracco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arzeni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Burgos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-27",
+     "local": "estudiantil-porteno",
+     "visitante": "all-boys",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Bisio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bisio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pedevilla",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-11-27",
+     "local": "argentino-de-quilmes",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1932-11-27",
+     "local": "banfield",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Davico",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Davico",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castro Huergo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rovito",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-12-10",
+     "local": "almagro",
+     "visitante": "argentino-de-temperley",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Paludi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Paludi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bonifacio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D'Abate",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Conti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-01-08",
+     "local": "sportivo-buenos-aires",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportivo Palermo había perdido la afiliación y le dieron por perdidos los partidos que le faltaban."
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "partidos": [
+    {
+     "fecha": "1932-12-03",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Vesperoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De la Peña",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-12-03",
+     "local": "colegiales",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1932-12-03",
+     "local": "sportivo-buenos-aires",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Martín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De Jonge",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bottini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Monteleone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-12-04",
+     "local": "el-porvenir",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Hermo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ríos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 45 minutos, porque los jugadores de Argentino de Quilmes se fueron de la cancha, y quedó el 2-1."
+    },
+    {
+     "fecha": "1932-12-10",
+     "local": "sportivo-barracas",
+     "visitante": "barracas-central",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Marassi",
+       "equipo": "local",
+       "min": 11
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "local",
+       "min": 22
+      },
+      {
+       "jugador": "Lamazou",
+       "equipo": "visitante",
+       "min": 26,
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Sarco",
+       "equipo": "local",
+       "min": 65
+      },
+      {
+       "jugador": "Marassi",
+       "equipo": "local",
+       "min": 67
+      },
+      {
+       "jugador": "Fortunato",
+       "equipo": "local",
+       "min": 71
+      }
+     ],
+     "nota": "Con este triunfo, Sportivo Barracas se aseguró el campeonato."
+    },
+    {
+     "fecha": "1932-12-10",
+     "local": "all-boys",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Tilhet",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Acri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alvarez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Alvarez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Paganelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-01-08",
+     "local": "sportivo-palermo",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportivo Palermo había perdido la afiliación y le dieron por perdidos los partidos que le faltaban."
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "partidos": [
+    {
+     "fecha": "1932-12-08",
+     "local": "sportivo-buenos-aires",
+     "visitante": "nueva-chicago",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Benedetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sandaza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fussani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fussani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Noguera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Noguera",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-12-08",
+     "local": "colegiales",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Paduano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bottini",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "El 9 de octubre se había suspendido a los 38 minutos, 1-1, y se volvió a jugar."
+    },
+    {
+     "fecha": "1932-12-11",
+     "local": "estudiantil-porteno",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Mapelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vivacqua",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Artel",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Hermo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-12-18",
+     "local": "argentino-de-temperley",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportivo Barracas no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1932-12-31",
+     "local": "defensores-de-belgrano",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Banfield no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1933-01-07",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Nappi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Uria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Penichet",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-01-08",
+     "local": "sportivo-palermo",
+     "visitante": "excursionistas",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportivo Palermo había perdido la afiliación y le dieron por perdidos los partidos que le faltaban."
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "partidos": [
+    {
+     "fecha": "1932-12-10",
+     "local": "defensores-de-belgrano",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Pol",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mora",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-12-11",
+     "local": "argentino-de-quilmes",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Quadrio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quadrio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Noguera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-12-11",
+     "local": "banfield",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportivo Buenos Aires no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1932-12-25",
+     "local": "excursionistas",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Leoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1932-12-31",
+     "local": "barracas-central",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Almagro no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1932-12-31",
+     "local": "colegiales",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Meraldi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-01-08",
+     "local": "sportivo-palermo",
+     "visitante": "argentino-de-temperley",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportivo Palermo había perdido la afiliación y le dieron por perdidos los partidos que le faltaban."
+    },
+    {
+     "fecha": "1933-01-08",
+     "local": "el-porvenir",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: All Boys no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "partidos": [
+    {
+     "fecha": "1932-12-31",
+     "local": "sportivo-buenos-aires",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Argentino de Quilmes no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1933-01-07",
+     "local": "all-boys",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Acri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zanabria",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zanabria",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-01-07",
+     "local": "almagro",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giúdice",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Giúdice",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Martín",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-01-07",
+     "local": "liberal-argentino",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportivo Palermo había perdido la afiliación y le dieron por perdidos los partidos que le faltaban."
+    },
+    {
+     "fecha": "1933-01-07",
+     "local": "excursionistas",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: El Porvenir no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1933-01-08",
+     "local": "argentino-de-temperley",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Estudiantes (Buenos Aires) no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 35,
+   "partidos": [
+    {
+     "fecha": "1933-01-08",
+     "local": "barracas-central",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportivo Palermo había perdido la afiliación y le dieron por perdidos los partidos que le faltaban."
+    },
+    {
+     "fecha": "1933-01-08",
+     "local": "estudiantil-porteno",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Estudiantil Porteño no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1933-01-08",
+     "local": "sportivo-barracas",
+     "visitante": "liberal-argentino",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportivo Barracas no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 36,
+   "partidos": [
+    {
+     "fecha": "1933-01-08",
+     "local": "sportivo-palermo",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportivo Palermo había perdido la afiliación y le dieron por perdidos los partidos que le faltaban."
+    }
+   ]
+  }
+ ]
+}

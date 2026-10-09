@@ -33,6 +33,50 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1932 (amateur): el campeonato de la Asociación Argentina de Football (Amateurs y Profesionales), la liga amateur
+    # (marzo de 1932 a enero de 1933; campeón Sportivo Barracas): 17 equipos a dos ruedas, con 2 puntos por partido
+    # ganado. RSSSF no dice a qué fecha pertenece cada partido: se deduce por los días, y los no jugados van donde los dos
+    # tenían lugar (quedan 36 fechas). Sportivo Palermo perdió la afiliación y le dieron por perdidos los partidos que le
+    # faltaban; al final, varios equipos no se presentaron ("para_local"/"para_visitante", sin goles). Nueva Chicago y
+    # Sportivo Buenos Aires jugaron un desempate por el descenso (en "playoffs") que no se terminó: la asociación cambió
+    # las reglas y ninguno bajó. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, con los goles de cada partido, sin
+    # minutos)
+    "1932-amateur": {"nombre": "Campeonato de Primera División 1932 (amateur)", "anio": 1932, "liga": "a_mano",
+                     "slug": "1932-amateur", "zonas": "unica", "fechas": 36, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_texto": "Campeonato amateur: el de la Asociación Argentina de Football, que de 1931 a 1934 se "
+                                    "jugó al mismo tiempo que el profesional de la Liga Argentina de Football; la AFA "
+                                    "reconoce a los campeones de los dos. Orden: puntos y, con los mismos puntos, el de RSSSF "
+                                    "(que coincide con la diferencia de gol). Las fechas son deducidas (RSSSF da solo los "
+                                    "días). En la tabla, Sportivo Barracas y Estudiantil Porteño tienen un gol de diferencia "
+                                    "con la de RSSSF.",
+                     "goleadores_nota": "Los goles son de RSSSF (sin los minutos, salvo un partido; algunos nombres van "
+                                        "unificados). Faltan los de varios partidos, en los que RSSSF no los trae. RSSSF da "
+                                        "como goleadores a Juan Carlos Irurieta (All Boys), con 24, Prudencio Lamazou "
+                                        "(Barracas Central), con 22, y Mario Fortunato (Sportivo Barracas), con 21.",
+                     "nombre_playoffs": "Desempate por el descenso",
+                     "playoffs": [(r"^$^", "Desempate por el descenso")],
+                     "playoffs_a_mano": {
+                         "Desempate por el descenso": [
+                             {"fecha": "1933-01-29", "local": "nueva-chicago", "visitante": "sportivo-buenos-aires", "gl": 2, "gv": 2,
+                              "estadio": "Cancha de Sportivo Barracas",
+                              "goles": [{"jugador": "Castillo", "equipo": "local"}, {"jugador": "Mercado", "equipo": "local"},
+                                        {"jugador": "Benedetti", "equipo": "visitante"}, {"jugador": "López", "equipo": "visitante"}]},
+                             {"fecha": "1933-02-04", "local": "sportivo-buenos-aires", "visitante": "nueva-chicago", "gl": 1, "gv": 1,
+                              "estadio": "Cancha de Sportivo Barracas",
+                              "goles": [{"jugador": "Apolito", "equipo": "local"}, {"jugador": "Sanabria", "equipo": "visitante"}]},
+                             {"fecha": "1933-02-18", "local": "nueva-chicago", "visitante": "sportivo-buenos-aires", "gl": 2, "gv": 2,
+                              "estadio": "Cancha de Sportivo Barracas",
+                              "goles": [{"jugador": "Sanabria", "equipo": "local"}, {"jugador": "Sanabria", "equipo": "local"},
+                                        {"jugador": "Fussani", "equipo": "visitante"}, {"jugador": "Fussani", "equipo": "visitante"}],
+                              "nota": "Hacía falta un cuarto partido, pero no se jugó: la asociación cambió las reglas y "
+                                      "ninguno de los dos bajó."},
+                         ],
+                     },
+                     "cuadro": {"bloques": [("Desempate por el descenso", [["Desempate por el descenso"]])],
+                                "nota": "Los tres partidos terminaron empatados."},
+                     "sin_descensos": "No hubo descensos por la tabla: Sportivo Palermo, que había perdido la afiliación, "
+                                      "quedó afuera, y el desempate entre Nueva Chicago y Sportivo Buenos Aires no se terminó."},
     # 1932: dos campeonatos de Primera, como hasta 1934, y la AFA reconoce a los dos campeones. El profesional, de la Liga
     # Argentina de Football (marzo a noviembre; campeón River): 18 equipos a dos ruedas (34 fechas), con 2 puntos por
     # partido ganado. River e Independiente empataron el primer puesto y jugaron una final en la cancha de San Lorenzo (en
@@ -4607,6 +4651,7 @@ CLUBES_NUEVOS = {
     "rsc": ("ramsar", "Ramsar"),
     "sbs": ("sportivo-buenos-aires", "Sportivo Buenos Aires"),
     "pba": ("palermo-buenos-aires", "Palermo"),
+    "spa": ("sportivo-palermo", "Sportivo Palermo"),   # (no está en ESPN: el amateur 1932; escudo genérico)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),

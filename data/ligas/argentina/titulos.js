@@ -13,6 +13,7 @@ window.LIGA_TITULOS = {
             "quilmes": 1, "estudiantil-porteno": 1},
   "ultimo_antes": "boca-juniors", "seguidos_antes": 1,
   "torneos": {
+    "1932-amateur": ["sportivo-barracas"],
     "1932-laf": ["river-plate"],
     "1933-amateur": ["dock-sud"],
     "1933-laf": ["san-lorenzo"],
