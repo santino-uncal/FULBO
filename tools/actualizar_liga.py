@@ -33,6 +33,24 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1931: el primer campeonato profesional, de la Liga Argentina de Football, que formaron ese año los clubes grandes al
+    # irse de la asociación amateur (mayo de 1931 a enero de 1932; campeón Boca): 18 equipos a dos ruedas (34 fechas),
+    # con 2 puntos por partido ganado; la AFA reconoce también al campeón amateur de ese año. Con árbitro y público
+    # (entradas vendidas) de cada partido. Dos partidos suspendidos se dieron por ganados en el escritorio y uno lo perdió
+    # Platense por no presentarse a terminarlo, sin contar sus goles en la tabla ("para_local"), como en la tabla oficial
+    # que da RSSSF; otro se dio por terminado con el resultado del momento. No había descensos. ESPN no lo tiene: va a
+    # mano (tools/a_mano; RSSSF, sin goles salvo los del Boca-Talleres de la fecha 33)
+    "1931-laf": {"nombre": "Campeonato de Primera División 1931 (Liga Argentina de Football)", "anio": 1931, "liga": "a_mano",
+                 "slug": "1931-laf", "zonas": "unica", "fechas": 34, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                 "orden_texto": "El primer campeonato profesional: el de la Liga Argentina de Football, que formaron ese año "
+                                "los clubes grandes al irse de la asociación amateur; ese año hubo también un campeonato "
+                                "amateur, y la AFA reconoce a los dos campeones. Orden: puntos y, con los mismos puntos, el "
+                                "de RSSSF (que coincide con la diferencia de gol). La tabla es la oficial: sin los goles de "
+                                "los partidos dados por ganados en el escritorio.",
+                 "goleadores_nota": "Los goles son solo del Boca 4-2 Talleres de la fecha 33, el partido en el que Boca salió "
+                                    "campeón (de RSSSF, con los minutos). El goleador del torneo fue Alberto Zozaya "
+                                    "(Estudiantes), con 33 goles.",
+                 "sin_descensos": "No había descensos."},
     # 1932 (amateur): el campeonato de la Asociación Argentina de Football (Amateurs y Profesionales), la liga amateur
     # (marzo de 1932 a enero de 1933; campeón Sportivo Barracas): 17 equipos a dos ruedas, con 2 puntos por partido
     # ganado. RSSSF no dice a qué fecha pertenece cada partido: se deduce por los días, y los no jugados van donde los dos
@@ -5051,6 +5069,8 @@ def armar(clave):
                       "para_local": m.get("para_local"), "para_visitante": m.get("para_visitante"),
                       # (sin_goles: un partido dado por ganado en el escritorio, sin goles de verdad: Lanús-Platense 1991)
                       "sin_goles": m.get("sin_goles"),
+                      # (árbitro y público, si el archivo los trae: 1931)
+                      "arbitro": m.get("arbitro") or p.get("arbitro"), "publico": m.get("publico") or p.get("publico"),
                       # (los penales después de cada empate: el Campeonato 1988-89)
                       "pen_l": m.get("pen_l"), "pen_v": m.get("pen_v"),
                       # (un gol sin "jugador": no se sabe quién lo hizo; el Metropolitano 1977)
