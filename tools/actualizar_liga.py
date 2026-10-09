@@ -33,6 +33,51 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1949: el Campeonato de Primera División 1949 (abril a diciembre; campeón Racing): 18 equipos a dos ruedas (34 fechas),
+    # con 2 puntos por partido ganado. River y Platense empataron el segundo puesto y jugaron un desempate a ida y vuelta
+    # (los dos en la cancha de San Lorenzo; River ganó los dos). Bajaba el último: Huracán y Lanús empataron ese lugar y
+    # jugaron cuatro partidos (el tercero, 3-3, lo anuló el Tribunal de Penas; el cuarto, en febrero de 1950, se suspendió
+    # con Huracán 3-2 arriba y quedó ese resultado): bajó Lanús. Los dos desempates van en "playoffs", partido por partido,
+    # y el orden de esos empatados en "orden_a_mano"; los demás empatados en puntos, como RSSSF (que coincide con la
+    # diferencia de gol). Dos partidos se suspendieron y se terminaron otro día (con su nota). ESPN no lo tiene: va a mano
+    # (tools/a_mano; RSSSF, sin goles). No había Libertadores todavía
+    "1949-primera": {"nombre": "Campeonato de Primera División 1949", "anio": 1949, "liga": "a_mano", "slug": "1949-primera",
+                     "zonas": "unica", "fechas": 34, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_a_mano": ["river-plate", "platense", "huracan", "lanus"],
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, el de RSSSF (que coincide con la diferencia de "
+                                    "gol), salvo dos empates que se definieron en desempates: River y Platense, por el "
+                                    "segundo puesto (quedó segundo River), y Huracán y Lanús, por el descenso (bajó Lanús).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1949 (las 34 fechas), sin los desempates. "
+                                    "Cada partido ganado valía 2 puntos.",
+                     "goleadores_nota": "De este torneo no hay goles cargados. Los goleadores fueron Juan José Pizzuti "
+                                        "(Banfield) y Llamil Simes (Racing), con 26 goles.",
+                     "nombre_playoffs": "Desempates",
+                     "playoffs": [(r"^$^", "Desempate por el segundo puesto"), (r"^$^", "Desempate por el descenso")],
+                     "playoffs_a_mano": {
+                          "Desempate por el segundo puesto": [
+                              {"fecha": "1949-12-14", "local": "platense", "visitante": "river-plate", "gl": 1, "gv": 2, "estadio": "El Gasómetro", "goles": []},
+                              {"fecha": "1949-12-26", "local": "river-plate", "visitante": "platense", "gl": 4, "gv": 0, "estadio": "El Gasómetro", "goles": [],
+                               "nota": "River ganó los dos partidos y quedó segundo."},
+                          ],
+                          "Desempate por el descenso": [
+                              {"fecha": "1949-12-18", "local": "huracan", "visitante": "lanus", "gl": 1, "gv": 0, "estadio": "El Gasómetro", "goles": []},
+                              {"fecha": "1949-12-24", "local": "lanus", "visitante": "huracan", "gl": 4, "gv": 1, "estadio": "La Doble Visera", "goles": [],
+                               "nota": "Ganó un partido cada uno (la diferencia de gol no contaba): hubo que jugar un tercero."},
+                              {"fecha": "1950-01-08", "local": "huracan", "visitante": "lanus", "gl": 3, "gv": 3, "estadio": "El Gasómetro", "goles": [],
+                               "nota": "Ya en 1950. Partido anulado: con 3-3, sobre el final, el árbitro le anuló un gol a Huracán y los jugadores "
+                                       "de Huracán se fueron de la cancha; no se jugó el alargue. El Tribunal de Penas de la AFA, en vez "
+                                       "de darle el partido a Lanús, lo anuló y mandó jugarlo de nuevo."},
+                              {"fecha": "1950-02-16", "local": "lanus", "visitante": "huracan", "gl": 2, "gv": 3, "estadio": "Monumental", "goles": [],
+                               "nota": "Ya en 1950. Se suspendió a los 80 minutos, con Huracán 3-2 arriba: a Lanús le cobraron un penal en contra y "
+                                       "sus jugadores se fueron de la cancha. Quedó ese resultado: Huracán se quedó en Primera y Lanús "
+                                       "bajó a la Primera B, por primera vez en su historia."},
+                          ],
+                     },
+                     # (dos desempates sueltos, no un cuadro: cada uno en su parte, partido por partido)
+                     "cuadro": {"bloques": [("Desempate por el segundo puesto", [["Desempate por el segundo puesto"]]),
+                                            ("Desempate por el descenso", [["Desempate por el descenso"]])],
+                                "nota": "De los desempates hay solo el resultado."},
+                     "descensos": "tabla", "descienden": 1},
     # 1950: el Campeonato de Primera División 1950 (abril a noviembre; campeón Racing): 18 equipos a dos ruedas (34 fechas),
     # con 2 puntos por partido ganado. Bajaban el último (Rosario Central) y el anteúltimo: Huracán y Tigre empataron ese
     # lugar y jugaron un desempate a ida y vuelta (bajó Tigre). Boca e Independiente empataron el segundo puesto y jugaron

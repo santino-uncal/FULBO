@@ -1,0 +1,2932 @@
+{
+ "nombre": "Campeonato de Primera División 1949",
+ "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi), sin goles. Estadio: la cancha que dice RSSSF cuando no era la del local; si no, la del local. La tabla que sale de los partidos es igual a la de RSSSF y a la de Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1949-04-24",
+     "local": "atlanta",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1949-04-24",
+     "local": "banfield",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1949-04-24",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-04-24",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1949-04-24",
+     "local": "ferro-carril-oeste",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1949-04-24",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1949-04-24",
+     "local": "rosario-central",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1949-04-24",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1949-04-24",
+     "local": "tigre",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1949-05-07",
+     "local": "newell-s-old-boys",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-08",
+     "local": "boca-juniors",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-08",
+     "local": "chacarita-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-08",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-08",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-08",
+     "local": "lanus",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-08",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-08",
+     "local": "river-plate",
+     "visitante": "atlanta",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-08",
+     "local": "velez-sarsfield",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1949-05-15",
+     "local": "atlanta",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-15",
+     "local": "banfield",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-15",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-15",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-15",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-15",
+     "local": "platense",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-15",
+     "local": "rosario-central",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-15",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-15",
+     "local": "tigre",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1949-05-22",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-22",
+     "local": "chacarita-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-22",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-22",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-22",
+     "local": "lanus",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-22",
+     "local": "newell-s-old-boys",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-22",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-22",
+     "local": "san-lorenzo",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-22",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1949-05-29",
+     "local": "atlanta",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-29",
+     "local": "banfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-29",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-29",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-29",
+     "local": "huracan",
+     "visitante": "newell-s-old-boys",
+     "gl": 7,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-29",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-29",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-29",
+     "local": "rosario-central",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1949-05-29",
+     "local": "tigre",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1949-06-05",
+     "local": "boca-juniors",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-05",
+     "local": "chacarita-juniors",
+     "visitante": "banfield",
+     "gl": 7,
+     "gv": 3,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-05",
+     "local": "ferro-carril-oeste",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-05",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-05",
+     "local": "lanus",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-05",
+     "local": "newell-s-old-boys",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-05",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-05",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1949-06-12",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-12",
+     "local": "banfield",
+     "visitante": "lanus",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-12",
+     "local": "huracan",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-12",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-12",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-12",
+     "local": "rosario-central",
+     "visitante": "san-lorenzo",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-12",
+     "local": "tigre",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-12",
+     "local": "velez-sarsfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1949-06-20",
+     "local": "boca-juniors",
+     "visitante": "atlanta",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-20",
+     "local": "chacarita-juniors",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-20",
+     "local": "ferro-carril-oeste",
+     "visitante": "rosario-central",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-20",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-20",
+     "local": "independiente",
+     "visitante": "banfield",
+     "gl": 5,
+     "gv": 5,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-20",
+     "local": "lanus",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-20",
+     "local": "newell-s-old-boys",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-20",
+     "local": "platense",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-20",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1949-06-26",
+     "local": "atlanta",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-26",
+     "local": "banfield",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-26",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-26",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-26",
+     "local": "racing-club",
+     "visitante": "lanus",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-26",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-26",
+     "local": "rosario-central",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-26",
+     "local": "tigre",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1949-06-26",
+     "local": "velez-sarsfield",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1949-07-03",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-03",
+     "local": "chacarita-juniors",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-03",
+     "local": "ferro-carril-oeste",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-03",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-03",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-03",
+     "local": "lanus",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-03",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-03",
+     "local": "rosario-central",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-03",
+     "local": "san-lorenzo",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1949-07-17",
+     "local": "atlanta",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-17",
+     "local": "banfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-17",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-17",
+     "local": "newell-s-old-boys",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-17",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-17",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-17",
+     "local": "tigre",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-17",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1949-07-24",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-24",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-24",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-24",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-24",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-24",
+     "local": "lanus",
+     "visitante": "newell-s-old-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-24",
+     "local": "platense",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-24",
+     "local": "rosario-central",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-24",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1949-07-31",
+     "local": "atlanta",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-31",
+     "local": "banfield",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-31",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-31",
+     "local": "huracan",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-31",
+     "local": "newell-s-old-boys",
+     "visitante": "independiente",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-31",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-31",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-31",
+     "local": "tigre",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1949-07-31",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1949-08-07",
+     "local": "atlanta",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-07",
+     "local": "boca-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-07",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-07",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-07",
+     "local": "lanus",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-07",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-07",
+     "local": "rosario-central",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-07",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1949-08-14",
+     "local": "banfield",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-14",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-14",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-14",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-14",
+     "local": "newell-s-old-boys",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-14",
+     "local": "racing-club",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-14",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-14",
+     "local": "tigre",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-14",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1949-08-17",
+     "local": "atlanta",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-17",
+     "local": "banfield",
+     "visitante": "tigre",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-17",
+     "local": "boca-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-17",
+     "local": "ferro-carril-oeste",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-17",
+     "local": "independiente",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-17",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-17",
+     "local": "rosario-central",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-17",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1949-08-21",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-21",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-21",
+     "local": "huracan",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-21",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-21",
+     "local": "newell-s-old-boys",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-21",
+     "local": "racing-club",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-21",
+     "local": "river-plate",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-21",
+     "local": "tigre",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-21",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1949-08-28",
+     "local": "chacarita-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-28",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-28",
+     "local": "huracan",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-28",
+     "local": "lanus",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-28",
+     "local": "newell-s-old-boys",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-28",
+     "local": "racing-club",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-28",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-28",
+     "local": "velez-sarsfield",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-28",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "nota": "Se suspendió a los 58 minutos, 1-1; lo que faltaba se jugó el 14 de septiembre."
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1949-08-30",
+     "local": "atlanta",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-30",
+     "local": "banfield",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-30",
+     "local": "ferro-carril-oeste",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-30",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-30",
+     "local": "platense",
+     "visitante": "chacarita-juniors",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-30",
+     "local": "rosario-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-30",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1949-08-30",
+     "local": "tigre",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-01",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1949-09-04",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-04",
+     "local": "chacarita-juniors",
+     "visitante": "rosario-central",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-04",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-04",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-04",
+     "local": "lanus",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-04",
+     "local": "newell-s-old-boys",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-04",
+     "local": "racing-club",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-04",
+     "local": "river-plate",
+     "visitante": "banfield",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-04",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1949-09-11",
+     "local": "atlanta",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-11",
+     "local": "banfield",
+     "visitante": "newell-s-old-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-11",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-11",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-11",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-11",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-11",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-11",
+     "local": "rosario-central",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-11",
+     "local": "tigre",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1949-09-18",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-18",
+     "local": "chacarita-juniors",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-18",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-18",
+     "local": "independiente",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-18",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-18",
+     "local": "newell-s-old-boys",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-18",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-18",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-18",
+     "local": "velez-sarsfield",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1949-09-25",
+     "local": "atlanta",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-25",
+     "local": "banfield",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-25",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-25",
+     "local": "huracan",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-25",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-25",
+     "local": "racing-club",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-25",
+     "local": "rosario-central",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-25",
+     "local": "tigre",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1949-09-25",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1949-10-02",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-02",
+     "local": "chacarita-juniors",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-02",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-02",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-02",
+     "local": "independiente",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-02",
+     "local": "lanus",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-02",
+     "local": "newell-s-old-boys",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-02",
+     "local": "river-plate",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-02",
+     "local": "san-lorenzo",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1949-10-09",
+     "local": "atlanta",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-09",
+     "local": "banfield",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-09",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-09",
+     "local": "huracan",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-09",
+     "local": "racing-club",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-09",
+     "local": "river-plate",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-09",
+     "local": "rosario-central",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-09",
+     "local": "tigre",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-09",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1949-10-16",
+     "local": "boca-juniors",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-16",
+     "local": "chacarita-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-16",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-16",
+     "local": "independiente",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-16",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-16",
+     "local": "newell-s-old-boys",
+     "visitante": "tigre",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-16",
+     "local": "platense",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-16",
+     "local": "san-lorenzo",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1949-10-23",
+     "local": "atlanta",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-23",
+     "local": "banfield",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-23",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-23",
+     "local": "newell-s-old-boys",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-23",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-23",
+     "local": "river-plate",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-23",
+     "local": "tigre",
+     "visitante": "rosario-central",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-23",
+     "local": "velez-sarsfield",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1949-10-30",
+     "local": "chacarita-juniors",
+     "visitante": "newell-s-old-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-30",
+     "local": "ferro-carril-oeste",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-30",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-30",
+     "local": "lanus",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-30",
+     "local": "platense",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-30",
+     "local": "rosario-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-30",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1949-10-30",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": [],
+     "nota": "Se suspendió a los 79 minutos, 1-2; lo que faltaba se jugó el 23 de noviembre: con ese triunfo, Racing se aseguró el campeonato."
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1949-11-06",
+     "local": "atlanta",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-06",
+     "local": "banfield",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-06",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "chacarita-juniors",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-06",
+     "local": "huracan",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-06",
+     "local": "newell-s-old-boys",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-06",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-06",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-06",
+     "local": "tigre",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-06",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1949-11-13",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-13",
+     "local": "chacarita-juniors",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-13",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-13",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-13",
+     "local": "independiente",
+     "visitante": "newell-s-old-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-13",
+     "local": "lanus",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-13",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-13",
+     "local": "rosario-central",
+     "visitante": "banfield",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-13",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "partidos": [
+    {
+     "fecha": "1949-11-19",
+     "local": "newell-s-old-boys",
+     "visitante": "boca-juniors",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-19",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-20",
+     "local": "banfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-20",
+     "local": "chacarita-juniors",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-20",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-20",
+     "local": "huracan",
+     "visitante": "rosario-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-20",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-20",
+     "local": "tigre",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-20",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "partidos": [
+    {
+     "fecha": "1949-11-24",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-26",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-26",
+     "local": "independiente",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-26",
+     "local": "san-lorenzo",
+     "visitante": "newell-s-old-boys",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-27",
+     "local": "atlanta",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-27",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-27",
+     "local": "lanus",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-27",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1949-11-27",
+     "local": "rosario-central",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "partidos": [
+    {
+     "fecha": "1949-12-02",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1949-12-03",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1949-12-03",
+     "local": "newell-s-old-boys",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Coloso del Parque",
+     "goles": []
+    },
+    {
+     "fecha": "1949-12-04",
+     "local": "chacarita-juniors",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1949-12-04",
+     "local": "huracan",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Tomás Adolfo Ducó",
+     "goles": []
+    },
+    {
+     "fecha": "1949-12-04",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1949-12-04",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Monumental",
+     "goles": []
+    },
+    {
+     "fecha": "1949-12-04",
+     "local": "tigre",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "José Dellagiovanna",
+     "goles": []
+    },
+    {
+     "fecha": "1949-12-04",
+     "local": "velez-sarsfield",
+     "visitante": "rosario-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "partidos": [
+    {
+     "fecha": "1949-12-06",
+     "local": "san-lorenzo",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1949-12-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1949-12-07",
+     "local": "rosario-central",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Gigante de Arroyito",
+     "goles": []
+    },
+    {
+     "fecha": "1949-12-08",
+     "local": "atlanta",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1949-12-08",
+     "local": "banfield",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Florencio Sola",
+     "goles": []
+    },
+    {
+     "fecha": "1949-12-08",
+     "local": "boca-juniors",
+     "visitante": "lanus",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "La Bombonera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-12-08",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1949-12-08",
+     "local": "independiente",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1949-12-08",
+     "local": "platense",
+     "visitante": "newell-s-old-boys",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}
