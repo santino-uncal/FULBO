@@ -1,0 +1,4297 @@
+{
+ "nombre": "Campeonato de Primera División 1933 (amateur)",
+ "fuente": "Resultados, días y goles (sin minutos): RSSSF (Pablo Ciullini). RSSSF no dice a qué fecha pertenece cada partido: se deduce por los días (como con ESPN). RSSSF no trae las canchas: va la del local, salvo las que dice. La tabla que sale de los partidos es igual a la de RSSSF y a la de Wikipedia, salvo All Boys y Colegiales: su partido figura 2-1 (con sus goles), pero las tablas le dan a All Boys un gol más a favor y uno menos en contra (y al revés a Colegiales)",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1933-04-02",
+     "local": "colegiales",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Martín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vergara",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-02",
+     "local": "all-boys",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Sobrino",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-02",
+     "local": "argentino-de-temperley",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Galeano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tempone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-02",
+     "local": "dock-sud",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Dock Sud",
+     "goles": [
+      {
+       "jugador": "C.Pangrazzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cruz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Polinetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pardo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-02",
+     "local": "estudiantil-porteno",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "P.Ruffo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bissio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mattas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-02",
+     "local": "excursionistas",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Scursoni",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-02",
+     "local": "almagro",
+     "visitante": "argentino-de-quilmes",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Cani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "L.Sampayo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cacchiapoli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "H.Moreyra",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-02",
+     "local": "sportivo-barracas",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Marassi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quiroga",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-23",
+     "local": "sportivo-alsina",
+     "visitante": "palermo-buenos-aires",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Vila",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-07-30",
+     "local": "liberal-argentino",
+     "visitante": "acassuso",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Martegani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morganti",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1933-04-09",
+     "local": "colegiales",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Paduano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hernando",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maurín",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-09",
+     "local": "barracas-central",
+     "visitante": "almagro",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Otero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Otero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.Sampayo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-09",
+     "local": "argentino-de-quilmes",
+     "visitante": "estudiantil-porteno",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Pereyra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maceda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maceda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "F.Ruffo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "F.Ruffo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-09",
+     "local": "defensores-de-belgrano",
+     "visitante": "dock-sud",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "C.Lupo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-09",
+     "local": "sportivo-buenos-aires",
+     "visitante": "argentino-de-temperley",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "De Año",
+       "equipo": "local"
+      },
+      {
+       "jugador": "López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fussani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fussani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Benedetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sacarello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-09",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "liberal-argentino",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Mattano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mattano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mattano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quiroga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Manfroni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arana",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-09",
+     "local": "nueva-chicago",
+     "visitante": "palermo-buenos-aires",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Tempone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Noguera",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-09",
+     "local": "el-porvenir",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Aliberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ríos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vallerio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Scurzoni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-09",
+     "local": "banfield",
+     "visitante": "all-boys",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "J.Gatti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barber",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barber",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mattas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tenorio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-11-05",
+     "local": "acassuso",
+     "visitante": "sportivo-alsina",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Acassuso",
+     "goles": [
+      {
+       "jugador": "Rolón",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1933-04-16",
+     "local": "dock-sud",
+     "visitante": "nueva-chicago",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Dock Sud",
+     "goles": [
+      {
+       "jugador": "U.Pangrazzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garófalo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garófalo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cruz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berlanga",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-16",
+     "local": "excursionistas",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Aguirre",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perdomo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-16",
+     "local": "liberal-argentino",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Tibaldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vázquez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quadrio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-16",
+     "local": "estudiantil-porteno",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Ceberio",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-16",
+     "local": "argentino-de-temperley",
+     "visitante": "sportivo-alsina",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "J.Souza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Toró",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vila",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-23",
+     "local": "acassuso",
+     "visitante": "sportivo-barracas",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Acassuso",
+     "goles": [
+      {
+       "jugador": "Numa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Numa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Numa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cherro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-23",
+     "local": "banfield",
+     "visitante": "almagro",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1933-05-07",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "palermo-buenos-aires",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Vesperoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garbini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Debatte",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Loredo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-21",
+     "local": "defensores-de-belgrano",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Caldas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Belis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sassone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-09-03",
+     "local": "all-boys",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "D'Alessandro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giribaldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Timón",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "De Año",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1933-04-23",
+     "local": "colegiales",
+     "visitante": "argentino-de-temperley",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "C.Toscano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Felipelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barros",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-23",
+     "local": "el-porvenir",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Arzeni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-23",
+     "local": "estudiantil-porteno",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "P.Ruffo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Galarza",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "RSSSF lo da 1-2, pero sus goles y su tabla dan 2-1 para Estudiantil Porteño."
+    },
+    {
+     "fecha": "1933-04-23",
+     "local": "barracas-central",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-23",
+     "local": "sportivo-buenos-aires",
+     "visitante": "dock-sud",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "De Año",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garófalo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-23",
+     "local": "nueva-chicago",
+     "visitante": "excursionistas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Tempone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perdomo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-30",
+     "local": "palermo-buenos-aires",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Palermo",
+     "goles": [
+      {
+       "jugador": "Loredo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Loredo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marassi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-21",
+     "local": "banfield",
+     "visitante": "argentino-de-quilmes",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Echeverría",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Echeverría",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Larroca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Larroca",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-06-04",
+     "local": "almagro",
+     "visitante": "acassuso",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "De la Peña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De la Peña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De la Peña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Adet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Correa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gandulfo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ducrey",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-12",
+     "local": "sportivo-alsina",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Olivari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1933-04-30",
+     "local": "barracas-central",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Otero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vergara",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Larroca",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Larroca",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J.J.Gatti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-30",
+     "local": "liberal-argentino",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Mapelli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Facio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Facio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Galarza",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-30",
+     "local": "estudiantil-porteno",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Ceberio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "P.Ruffo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Parada",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-30",
+     "local": "all-boys",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "D'Alessandro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Etchegoyen",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arzeni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-30",
+     "local": "dock-sud",
+     "visitante": "sportivo-alsina",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Dock Sud",
+     "goles": [
+      {
+       "jugador": "Polinetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cortecci",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-30",
+     "local": "excursionistas",
+     "visitante": "acassuso",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Numa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-04-30",
+     "local": "argentino-de-temperley",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.Souza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quiroga",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 37 minutos, y quedó el 2-1."
+    },
+    {
+     "fecha": "1933-05-07",
+     "local": "el-porvenir",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Hermo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hermo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "L.Vazquez",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Oro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-30",
+     "local": "argentino-de-quilmes",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "N.Moreyra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olaizola",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-11-05",
+     "local": "palermo-buenos-aires",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportivo Buenos Aires no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1933-04-30",
+     "local": "almagro",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Oro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Oro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ramos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-07",
+     "local": "acassuso",
+     "visitante": "argentino-de-temperley",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Acassuso",
+     "goles": []
+    },
+    {
+     "fecha": "1933-05-07",
+     "local": "sportivo-alsina",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Baró",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-07",
+     "local": "colegiales",
+     "visitante": "dock-sud",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Paduano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "L.Toscano",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-07",
+     "local": "nueva-chicago",
+     "visitante": "all-boys",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Vargas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vargas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vargas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nogueira",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nogueira",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-07",
+     "local": "banfield",
+     "visitante": "liberal-argentino",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Larroca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Larroca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.J.Gatti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Monteleone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-07",
+     "local": "argentino-de-quilmes",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Romar",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-06",
+     "local": "sportivo-barracas",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Olaizola",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-08",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "García",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Luppo",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 87 minutos, y quedó el 0-2."
+    },
+    {
+     "fecha": "1933-10-15",
+     "local": "el-porvenir",
+     "visitante": "palermo-buenos-aires",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Etcheverry",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Etcheverry",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Agrelo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hermo",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1933-05-14",
+     "local": "argentino-de-quilmes",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Quadrio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Punciolo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Punciolo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-14",
+     "local": "barracas-central",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cocucci",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-14",
+     "local": "liberal-argentino",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1933-05-14",
+     "local": "almagro",
+     "visitante": "colegiales",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Cani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De la Peña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De la Peña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "L.Toscano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Martín",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Paduano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-14",
+     "local": "estudiantil-porteno",
+     "visitante": "sportivo-alsina",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Ceberio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-14",
+     "local": "all-boys",
+     "visitante": "acassuso",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Irurieta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Numa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-14",
+     "local": "dock-sud",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Dock Sud",
+     "goles": [
+      {
+       "jugador": "Garófalo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rúa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Luongo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Muttoni",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-14",
+     "local": "excursionistas",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Aguirre",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Paganelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Da Silva",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-14",
+     "local": "argentino-de-temperley",
+     "visitante": "palermo-buenos-aires",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Ravello",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "F.López",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-14",
+     "local": "banfield",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Mattas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Larroca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Paola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berlanga",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Galeano",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1933-05-21",
+     "local": "sportivo-barracas",
+     "visitante": "argentino-de-temperley",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "W.Souza",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ferro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-21",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "excursionistas",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Providente",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nappi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nappi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-21",
+     "local": "acassuso",
+     "visitante": "dock-sud",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Acassuso",
+     "goles": [
+      {
+       "jugador": "Ducrey",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garófalo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rúa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rúa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-21",
+     "local": "sportivo-alsina",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Raccioppi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zinno",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bernasconi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-21",
+     "local": "colegiales",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1933-05-21",
+     "local": "nueva-chicago",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Galeano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vargas",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-05-21",
+     "local": "el-porvenir",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Ríos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ríos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olivera",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ricci",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-06-04",
+     "local": "argentino-de-quilmes",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marsiglio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Parmetler",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alayón",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cilento",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 78 minutos, y quedó el 3-2."
+    },
+    {
+     "fecha": "1933-06-11",
+     "local": "defensores-de-belgrano",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1933-08-27",
+     "local": "barracas-central",
+     "visitante": "palermo-buenos-aires",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cocchi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Loredo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Legría",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1933-05-07",
+     "local": "sportivo-buenos-aires",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Martínez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-06-04",
+     "local": "banfield",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Bertetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mattas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zorrilla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Agrelo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-06-04",
+     "local": "barracas-central",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vergara",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rivero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rivero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-06-04",
+     "local": "liberal-argentino",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Perrupato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martegani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Silva",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A.Viglietti",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-06-04",
+     "local": "all-boys",
+     "visitante": "sportivo-barracas",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Irurieta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vázquez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vázquez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-06-04",
+     "local": "dock-sud",
+     "visitante": "palermo-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Dock Sud",
+     "goles": [
+      {
+       "jugador": "Garófalo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-06-04",
+     "local": "excursionistas",
+     "visitante": "argentino-de-temperley",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Paganelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.Souza",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J.Souza",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-06-11",
+     "local": "sportivo-alsina",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Vila",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Correa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-27",
+     "local": "defensores-de-belgrano",
+     "visitante": "acassuso",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "O.Lupo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "O.Lupo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Facio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Belis",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-09-10",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sparnocchia",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Paini",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1933-06-11",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "all-boys",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Nappi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Méndez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "D'Alessandro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-06-11",
+     "local": "acassuso",
+     "visitante": "estudiantil-porteno",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Acassuso",
+     "goles": [
+      {
+       "jugador": "Esteban",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Numa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Numa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ducrey",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-06-11",
+     "local": "palermo-buenos-aires",
+     "visitante": "excursionistas",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1933-06-11",
+     "local": "sportivo-barracas",
+     "visitante": "dock-sud",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Fortunato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garófalo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Garófalo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "U.Pangrazzi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-06-11",
+     "local": "nueva-chicago",
+     "visitante": "liberal-argentino",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Galeano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Galeano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vargas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rivero",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-06-11",
+     "local": "sportivo-buenos-aires",
+     "visitante": "barracas-central",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Hidalgo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Hidalgo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Otero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-06-11",
+     "local": "el-porvenir",
+     "visitante": "argentino-de-quilmes",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ríos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Etcheverry",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pardo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-13",
+     "local": "banfield",
+     "visitante": "sportivo-alsina",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Nine",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-13",
+     "local": "almagro",
+     "visitante": "argentino-de-temperley",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1933-08-13",
+     "local": "defensores-de-belgrano",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "O.Lupo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cúneo",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1933-07-30",
+     "local": "barracas-central",
+     "visitante": "sportivo-alsina",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Otero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vila",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-07-30",
+     "local": "dock-sud",
+     "visitante": "excursionistas",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Dock Sud",
+     "goles": [
+      {
+       "jugador": "Rúa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rúa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rúa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garófalo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Díaz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-07-30",
+     "local": "estudiantil-porteno",
+     "visitante": "palermo-buenos-aires",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Bissio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Buccino",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-07-30",
+     "local": "all-boys",
+     "visitante": "argentino-de-temperley",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1933-08-06",
+     "local": "sportivo-buenos-aires",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1933-08-13",
+     "local": "argentino-de-quilmes",
+     "visitante": "acassuso",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Caccioppoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Paini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Juárez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chani",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-09-10",
+     "local": "colegiales",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Iribarren",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Aliberti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Hermo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Agrelo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-01",
+     "local": "defensores-de-belgrano",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "O.Lupo",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Se suspendió a los 89 minutos, y quedó el 1-0."
+    },
+    {
+     "fecha": "1933-10-15",
+     "local": "nueva-chicago",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 8,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Vargas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vargas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vargas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vargas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nogueira",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nogueira",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sanabria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berlanga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Manfroni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-11-05",
+     "local": "almagro",
+     "visitante": "liberal-argentino",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "De la Peña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bonifacio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fossatti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Viglietti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Martegani",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1933-07-30",
+     "local": "defensores-de-belgrano",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1933-07-30",
+     "local": "almagro",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Correa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-06",
+     "local": "argentino-de-temperley",
+     "visitante": "dock-sud",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Souza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Muttoni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rúa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-06",
+     "local": "palermo-buenos-aires",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Palermo",
+     "goles": [
+      {
+       "jugador": "Pomar",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Baglietto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-06",
+     "local": "sportivo-alsina",
+     "visitante": "liberal-argentino",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Martegani",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-13",
+     "local": "el-porvenir",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Mazzolino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vargas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-20",
+     "local": "colegiales",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Paduano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barba",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mattas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-09-03",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "acassuso",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Garbini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chani",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-22",
+     "local": "excursionistas",
+     "visitante": "argentino-de-quilmes",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1933-11-05",
+     "local": "estudiantil-porteno",
+     "visitante": "barracas-central",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Barracas Central no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1933-08-06",
+     "local": "nueva-chicago",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Vargas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berlanga",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-13",
+     "local": "all-boys",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "U.Pangrazzi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-13",
+     "local": "barracas-central",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Cocucci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cocucci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cocucci",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-13",
+     "local": "liberal-argentino",
+     "visitante": "sportivo-barracas",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Fossati",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M.Maggi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ricci",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-13",
+     "local": "estudiantil-porteno",
+     "visitante": "excursionistas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Bissio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perdomo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-09-03",
+     "local": "palermo-buenos-aires",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Palermo",
+     "goles": [
+      {
+       "jugador": "Loredo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "L.Toscano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-09-03",
+     "local": "almagro",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1933-09-10",
+     "local": "acassuso",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Acassuso",
+     "goles": [
+      {
+       "jugador": "Arnaiz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Juárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Numa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Larroca",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 53 minutos, porque los jugadores de Banfield se fueron de la cancha, y quedó el 3-1."
+    },
+    {
+     "fecha": "1933-10-08",
+     "local": "sportivo-alsina",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vila y Libis",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-11-05",
+     "local": "argentino-de-temperley",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: El Porvenir no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1933-07-30",
+     "local": "argentino-de-quilmes",
+     "visitante": "colegiales",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "N.Moreyra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vázquez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Paini",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-06",
+     "local": "el-porvenir",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Ríos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ponziolo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ponziolo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cúneo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "O.Lupo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-20",
+     "local": "excursionistas",
+     "visitante": "all-boys",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Paganelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Graziano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Graziano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tenorio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Baglietto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-20",
+     "local": "acassuso",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Acassuso",
+     "goles": [
+      {
+       "jugador": "Bettinelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Santillán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-20",
+     "local": "argentino-de-temperley",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Ravello",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravello",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Riccinelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bettinotti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pedevilla",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-27",
+     "local": "almagro",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Garófalo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M.Cervetto",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-27",
+     "local": "banfield",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Mattas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Larroca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Matano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-09-03",
+     "local": "sportivo-barracas",
+     "visitante": "sportivo-alsina",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1933-09-10",
+     "local": "palermo-buenos-aires",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Palermo",
+     "goles": [
+      {
+       "jugador": "Ardizana",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.Maggi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Olivera",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-09-10",
+     "local": "nueva-chicago",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Vargas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vargas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cilento",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cilento",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 86 minutos, y quedó el 2-2."
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1933-08-06",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Vesperoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De la Peña",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "De la Peña",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bonifacio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-20",
+     "local": "sportivo-buenos-aires",
+     "visitante": "el-porvenir",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Ramos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baigorria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Timón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Timón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-20",
+     "local": "sportivo-alsina",
+     "visitante": "argentino-de-quilmes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Olivari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olivari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barbieri",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-27",
+     "local": "liberal-argentino",
+     "visitante": "argentino-de-temperley",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Monteleone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Segovia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olmedo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-27",
+     "local": "estudiantil-porteno",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Bissio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tenorio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tenorio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-01",
+     "local": "barracas-central",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Otero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scurzoni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Moyano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-15",
+     "local": "colegiales",
+     "visitante": "acassuso",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Paduano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Juárez",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 44 minutos, y quedó el 2-1."
+    },
+    {
+     "fecha": "1933-10-22",
+     "local": "palermo-buenos-aires",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Palermo",
+     "goles": [
+      {
+       "jugador": "Cocchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Belis",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "García",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-11-05",
+     "local": "dock-sud",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Dock Sud",
+     "goles": [
+      {
+       "jugador": "Zorrilla",
+       "equipo": "visitante",
+       "min": 14
+      },
+      {
+       "jugador": "Ramos",
+       "equipo": "local",
+       "min": 72
+      }
+     ],
+     "nota": "Con este empate, en la última fecha, Dock Sud se aseguró el campeonato."
+    },
+    {
+     "fecha": "1933-11-05",
+     "local": "sportivo-barracas",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "G.Mourín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "G.Mourín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berlanga",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vargas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sanabria",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1933-09-09",
+     "local": "sportivo-barracas",
+     "visitante": "barracas-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1933-09-10",
+     "local": "dock-sud",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Dock Sud",
+     "goles": [
+      {
+       "jugador": "Garófalo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Polinetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Muttoni",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Se suspendió a los 45 minutos, porque los jugadores de Estudiantil Porteño se fueron de la cancha, y quedó el 3-0."
+    },
+    {
+     "fecha": "1933-09-10",
+     "local": "excursionistas",
+     "visitante": "almagro",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Moyano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moyano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scurzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Oro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-09-10",
+     "local": "sportivo-alsina",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vila",
+       "equipo": "local"
+      },
+      {
+       "jugador": "O.Lupo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-01",
+     "local": "sportivo-buenos-aires",
+     "visitante": "acassuso",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Cilento",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Timón",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-01",
+     "local": "el-porvenir",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "E.Aliberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.Aliberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.Aliberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.Aliberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Etcheverry",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-01",
+     "local": "banfield",
+     "visitante": "palermo-buenos-aires",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1933-10-01",
+     "local": "argentino-de-quilmes",
+     "visitante": "argentino-de-temperley",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Rivera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravello",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Peña",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-08",
+     "local": "colegiales",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "L.Toscano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Galeano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Berlanga",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sanabria",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-22",
+     "local": "all-boys",
+     "visitante": "liberal-argentino",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Baglietto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garibaldi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fossatti",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1933-06-04",
+     "local": "estudiantil-porteno",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Bissio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nappi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Nappi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Nappi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J.Gargiulo",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-08-27",
+     "local": "sportivo-buenos-aires",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Zuppi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-01",
+     "local": "nueva-chicago",
+     "visitante": "sportivo-alsina",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Vargas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Galeano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sanabria",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-01",
+     "local": "liberal-argentino",
+     "visitante": "dock-sud",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "M.Maggi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olivera",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-08",
+     "local": "acassuso",
+     "visitante": "el-porvenir",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Acassuso",
+     "goles": [
+      {
+       "jugador": "Arnaiz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arnaiz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Esteban",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Numa",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-08",
+     "local": "sportivo-barracas",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "E.Mourín",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-08",
+     "local": "argentino-de-temperley",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravello",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-08",
+     "local": "palermo-buenos-aires",
+     "visitante": "argentino-de-quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Palermo",
+     "goles": [
+      {
+       "jugador": "Loredo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cocchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cocchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-11-05",
+     "local": "excursionistas",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Punciolo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Punciolo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-11-12",
+     "local": "all-boys",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1933-08-20",
+     "local": "nueva-chicago",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Defensores de Belgrano no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1933-08-27",
+     "local": "el-porvenir",
+     "visitante": "sportivo-alsina",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Olivari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-01",
+     "local": "almagro",
+     "visitante": "estudiantil-porteno",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Oro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Oro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Correa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De la Peña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-08",
+     "local": "excursionistas",
+     "visitante": "liberal-argentino",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Paganelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Paganelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Paganelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Viglietti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Martegani",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Martegani",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Olivera",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-12",
+     "local": "palermo-buenos-aires",
+     "visitante": "acassuso",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes BA",
+     "goles": [
+      {
+       "jugador": "Loredo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Loredo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Esteban",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-15",
+     "local": "sportivo-buenos-aires",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Cilento",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De Año",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-15",
+     "local": "argentino-de-quilmes",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Rúa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rúa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Polinetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-15",
+     "local": "barracas-central",
+     "visitante": "all-boys",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sícaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giribaldi",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 85 minutos, porque los jugadores de All Boys se fueron de la cancha, y quedó el 6-1."
+    },
+    {
+     "fecha": "1933-10-22",
+     "local": "argentino-de-temperley",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "J.Souza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Larroca",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zorrilla",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-11-05",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Paduano",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1933-08-20",
+     "local": "palermo-buenos-aires",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1933-10-12",
+     "local": "liberal-argentino",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Estudiantil Porteño no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1933-10-15",
+     "local": "defensores-de-belgrano",
+     "visitante": "argentino-de-temperley",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Belis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-15",
+     "local": "banfield",
+     "visitante": "excursionistas",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Larroca",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Se suspendió a los 62 minutos, porque los jugadores de Excursionistas se fueron de la cancha, y quedó el 1-0."
+    },
+    {
+     "fecha": "1933-10-22",
+     "local": "dock-sud",
+     "visitante": "barracas-central",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "Cancha de Dock Sud",
+     "goles": [
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rúa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rúa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rúa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.Pangrazzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garófalo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Corrales",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vergara",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-22",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Carvini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Timón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-22",
+     "local": "acassuso",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Acassuso",
+     "goles": [
+      {
+       "jugador": "Berlanga",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Berlanga",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 76 minutos, y quedó el 0-2."
+    },
+    {
+     "fecha": "1933-10-22",
+     "local": "sportivo-alsina",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barberis",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-10-22",
+     "local": "sportivo-barracas",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.Aliberti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ríos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1933-11-05",
+     "local": "all-boys",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

@@ -297,7 +297,7 @@
      "visitante": "estudiantil-porteno",
      "gl": 2,
      "gv": 0,
-     "estadio": "Cancha de Sportivo Dock Sud",
+     "estadio": "Cancha de Dock Sud",
      "goles": [
       {
        "jugador": "Tabar",
@@ -428,7 +428,7 @@
      "visitante": "sportivo-buenos-aires",
      "gl": 3,
      "gv": 0,
-     "estadio": "Cancha de Estudiantes BA",
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
      "goles": [
       {
        "jugador": "Hermida",
@@ -862,7 +862,7 @@
      "visitante": "banfield",
      "gl": 1,
      "gv": 0,
-     "estadio": "Cancha de Sportivo Dock Sud",
+     "estadio": "Cancha de Dock Sud",
      "goles": [
       {
        "jugador": "Paola",
@@ -991,7 +991,7 @@
      "visitante": "el-porvenir",
      "gl": 0,
      "gv": 1,
-     "estadio": "Cancha de Estudiantes BA",
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
      "goles": [
       {
        "jugador": "García",
@@ -1158,7 +1158,7 @@
      "visitante": "sportivo-barracas",
      "gl": 0,
      "gv": 0,
-     "estadio": "Cancha de Sportivo Acassuso",
+     "estadio": "Cancha de Acassuso",
      "goles": []
     },
     {
@@ -1347,7 +1347,7 @@
      "visitante": "almagro",
      "gl": 2,
      "gv": 1,
-     "estadio": "Cancha de Sportivo Dock Sud",
+     "estadio": "Cancha de Dock Sud",
      "goles": [
       {
        "jugador": "Garófalo",
@@ -1485,7 +1485,7 @@
      "visitante": "dock-sud",
      "gl": 0,
      "gv": 2,
-     "estadio": "Cancha de Estudiantes BA",
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
      "goles": [
       {
        "jugador": "Bottín",
@@ -1625,7 +1625,7 @@
      "visitante": "general-san-martin",
      "gl": 0,
      "gv": 0,
-     "estadio": "Cancha de Sportivo Acassuso",
+     "estadio": "Cancha de Acassuso",
      "goles": []
     },
     {
@@ -1737,7 +1737,7 @@
      "visitante": "estudiantil-porteno",
      "gl": 0,
      "gv": 3,
-     "estadio": "Cancha de Sportivo Acassuso",
+     "estadio": "Cancha de Acassuso",
      "goles": [
       {
        "jugador": "García",
@@ -1909,7 +1909,7 @@
      "visitante": "sportivo-buenos-aires",
      "gl": 3,
      "gv": 1,
-     "estadio": "Cancha de Sportivo Dock Sud",
+     "estadio": "Cancha de Dock Sud",
      "goles": [
       {
        "jugador": "Garófalo",
@@ -2027,7 +2027,7 @@
      "visitante": "all-boys",
      "gl": 4,
      "gv": 1,
-     "estadio": "Cancha de Estudiantes BA",
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
      "goles": [
       {
        "jugador": "Hermida",
@@ -2117,7 +2117,7 @@
      "visitante": "excursionistas",
      "gl": 2,
      "gv": 0,
-     "estadio": "Cancha de Sportivo Acassuso",
+     "estadio": "Cancha de Acassuso",
      "goles": [
       {
        "jugador": "Juárez",
@@ -2503,7 +2503,7 @@
      "visitante": "el-porvenir",
      "gl": 2,
      "gv": 1,
-     "estadio": "Cancha de Sportivo Dock Sud",
+     "estadio": "Cancha de Dock Sud",
      "goles": [
       {
        "jugador": "Pangrazzi",
@@ -2651,7 +2651,7 @@
      "visitante": "sportivo-alsina",
      "gl": 5,
      "gv": 0,
-     "estadio": "Cancha de Estudiantes BA",
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
      "goles": [
       {
        "jugador": "Garbini",
@@ -2703,7 +2703,7 @@
      "visitante": "barracas-central",
      "gl": 0,
      "gv": 2,
-     "estadio": "Cancha de Sportivo Acassuso",
+     "estadio": "Cancha de Acassuso",
      "goles": [
       {
        "jugador": "Ruschioni",
@@ -3108,7 +3108,7 @@
      "visitante": "liberal-argentino",
      "gl": 3,
      "gv": 0,
-     "estadio": "Cancha de Sportivo Dock Sud",
+     "estadio": "Cancha de Dock Sud",
      "goles": [
       {
        "jugador": "Pangrazzi",
@@ -3232,7 +3232,7 @@
      "visitante": "acassuso",
      "gl": 2,
      "gv": 2,
-     "estadio": "Cancha de Estudiantes BA",
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
      "goles": [
       {
        "jugador": "Niño",
@@ -3473,7 +3473,7 @@
      "visitante": "sportivo-buenos-aires",
      "gl": 4,
      "gv": 1,
-     "estadio": "Cancha de Sportivo Acassuso",
+     "estadio": "Cancha de Acassuso",
      "goles": [
       {
        "jugador": "Rabufetti",
@@ -3658,7 +3658,7 @@
      "visitante": "palermo-buenos-aires",
      "gl": 1,
      "gv": 0,
-     "estadio": "Cancha de Sportivo Dock Sud",
+     "estadio": "Cancha de Dock Sud",
      "goles": [
       {
        "jugador": "Garófalo",
@@ -3956,7 +3956,7 @@
      "visitante": "argentino-de-temperley",
      "gl": 2,
      "gv": 0,
-     "estadio": "Cancha de Estudiantes BA",
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
      "goles": [
       {
        "jugador": "Hermida",
@@ -4034,7 +4034,7 @@
      "visitante": "el-porvenir",
      "gl": 0,
      "gv": 0,
-     "estadio": "Cancha de Sportivo Acassuso",
+     "estadio": "Cancha de Acassuso",
      "goles": []
     },
     {
@@ -4175,7 +4175,7 @@
      "visitante": "argentino-de-quilmes",
      "gl": 2,
      "gv": 1,
-     "estadio": "Cancha de Sportivo Dock Sud",
+     "estadio": "Cancha de Dock Sud",
      "goles": [
       {
        "jugador": "Polinetti",
@@ -4413,7 +4413,7 @@
      "visitante": "colegiales",
      "gl": 2,
      "gv": 0,
-     "estadio": "Cancha de Estudiantes BA",
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
      "goles": [
       {
        "jugador": "Méndez",
@@ -4531,7 +4531,7 @@
      "visitante": "dock-sud",
      "gl": 0,
      "gv": 0,
-     "estadio": "Cancha de Sportivo Acassuso",
+     "estadio": "Cancha de Acassuso",
      "goles": []
     },
     {
@@ -4667,7 +4667,7 @@
      "visitante": "nueva-chicago",
      "gl": 2,
      "gv": 0,
-     "estadio": "Cancha de Sportivo Dock Sud",
+     "estadio": "Cancha de Dock Sud",
      "goles": [
       {
        "jugador": "Garófalo",
@@ -4925,7 +4925,7 @@
      "visitante": "estudiantil-porteno",
      "gl": 2,
      "gv": 1,
-     "estadio": "Cancha de Estudiantes BA",
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
      "goles": [
       {
        "jugador": "Hunglinger",
@@ -5084,7 +5084,7 @@
      "visitante": "all-boys",
      "gl": 4,
      "gv": 1,
-     "estadio": "Cancha de Sportivo Acassuso",
+     "estadio": "Cancha de Acassuso",
      "goles": [
       {
        "jugador": "Chani",
@@ -5254,7 +5254,7 @@
      "visitante": "argentino-de-temperley",
      "gl": 2,
      "gv": 0,
-     "estadio": "Cancha de Sportivo Dock Sud",
+     "estadio": "Cancha de Dock Sud",
      "goles": [
       {
        "jugador": "Garófalo",
@@ -5456,7 +5456,7 @@
      "visitante": "banfield",
      "gl": 1,
      "gv": 1,
-     "estadio": "Cancha de Estudiantes BA",
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
      "goles": [
       {
        "jugador": "Hunglinger",
@@ -5638,7 +5638,7 @@
      "visitante": "sportivo-alsina",
      "gl": 1,
      "gv": 0,
-     "estadio": "Cancha de Sportivo Acassuso",
+     "estadio": "Cancha de Acassuso",
      "goles": [
       {
        "jugador": "Arnaiz",
@@ -5803,7 +5803,7 @@
      "visitante": "colegiales",
      "gl": 4,
      "gv": 0,
-     "estadio": "Cancha de Sportivo Dock Sud",
+     "estadio": "Cancha de Dock Sud",
      "goles": [
       {
        "jugador": "Tabar",
@@ -5925,7 +5925,7 @@
      "visitante": "barracas-central",
      "gl": 6,
      "gv": 2,
-     "estadio": "Cancha de Estudiantes BA",
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
      "goles": [
       {
        "jugador": "Hermida",

@@ -33,6 +33,42 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1933 (amateur): el campeonato de la Asociación Argentina de Football (Amateurs y Profesionales), la liga amateur
+    # (abril a noviembre; campeón Dock Sud): 20 equipos a una rueda (19 fechas), con 2 puntos por partido ganado. RSSSF no
+    # dice a qué fecha pertenece cada partido: se deduce por los días. Cinco partidos no se jugaron y se dieron por
+    # perdidos al que no se presentó ("para_local"/"para_visitante", sin goles). ESPN no lo tiene: va a mano (tools/a_mano;
+    # RSSSF, con los goles de cada partido, sin minutos)
+    "1933-amateur": {"nombre": "Campeonato de Primera División 1933 (amateur)", "anio": 1933, "liga": "a_mano",
+                     "slug": "1933-amateur", "zonas": "unica", "fechas": 19, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_texto": "Campeonato amateur: el de la Asociación Argentina de Football, que de 1931 a 1934 se "
+                                    "jugó al mismo tiempo que el profesional de la Liga Argentina de Football; la AFA "
+                                    "reconoce a los campeones de los dos. Orden: puntos y, con los mismos puntos, el de RSSSF "
+                                    "(que coincide con la diferencia de gol). En la tabla, All Boys y Colegiales tienen un gol "
+                                    "de diferencia con la de RSSSF: su partido figura 2-1, pero la tabla de RSSSF lo cuenta "
+                                    "distinto.",
+                     "goleadores_nota": "Los goles son de RSSSF (sin los minutos; algunos nombres van unificados). Faltan los "
+                                        "de cinco partidos, en los que RSSSF no los trae completos.",
+                     "sin_descensos": "No hubo descensos."},
+    # 1933: como en 1934, dos campeonatos de Primera, y la AFA reconoce a los dos campeones. El profesional, de la Liga
+    # Argentina de Football (marzo a noviembre; campeón San Lorenzo): 18 equipos a dos ruedas (34 fechas), con 2 puntos
+    # por partido ganado. River y Gimnasia empataron en puntos y en diferencia de gol: va River delante, como en RSSSF y
+    # Wikipedia ("orden_a_mano"; el cociente de goles). No había descensos: para 1934 la Liga dejó afuera a Quilmes y a
+    # Tigre, e hizo jugar fusionados a Lanús con Talleres y a Atlanta con Argentinos. ESPN no lo tiene: va a mano
+    # (tools/a_mano; RSSSF, sin goles salvo el del Chacarita-San Lorenzo de la fecha 34). No había Libertadores
+    "1933-laf": {"nombre": "Campeonato de Primera División 1933 (Liga Argentina de Football)", "anio": 1933, "liga": "a_mano",
+                 "slug": "1933-laf", "zonas": "unica", "fechas": 34, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                 "orden_a_mano": ["river-plate", "gimnasia-y-esgrima"],
+                 "orden_texto": "Fue el campeonato profesional, de la Liga Argentina de Football; ese año hubo también uno "
+                                "amateur, el de la Asociación Argentina de Football, y la AFA reconoce a los dos campeones. "
+                                "Orden: puntos y, con los mismos puntos, la diferencia de gol; River y Gimnasia, con los "
+                                "mismos puntos y la misma diferencia de gol, en el orden de RSSSF y Wikipedia (por el cociente "
+                                "de goles).",
+                 "goleadores_nota": "El gol es solo el del Chacarita 0-1 San Lorenzo de la última fecha, el partido en el que "
+                                    "San Lorenzo salió campeón (de RSSSF, con el minuto). El goleador del torneo fue Francisco "
+                                    "Varallo (Boca), con 34 goles.",
+                 "sin_descensos": "No había descensos. Pero para 1934 la Liga dejó afuera a Quilmes y a Tigre, e hizo jugar "
+                                  "fusionados a Lanús con Talleres y a Atlanta con Argentinos (los seis últimos de esta tabla)."},
     # 1934 (amateur): el último campeonato de la Asociación Argentina de Football (Amateurs y Profesionales), la liga
     # amateur que siguió jugándose de 1931 a 1934 junto a la profesional (abril a octubre; campeón Estudiantil Porteño): 23
     # equipos a una rueda (23 fechas, uno libre en cada una), con 2 puntos por partido ganado. La AFA reconoce a su campeón
