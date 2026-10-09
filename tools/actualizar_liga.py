@@ -33,6 +33,20 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1944: el Campeonato de Primera División 1944 (abril a noviembre; campeón Boca): 16 equipos a dos ruedas (30 fechas),
+    # con 2 puntos por partido ganado. Bajaba el último de la tabla (no había promedios): Banfield. ESPN no lo tiene: va a
+    # mano (tools/a_mano; RSSSF, sin goles salvo los del Boca-Racing de la fecha 30; RSSSF no trae la tabla, controlada con
+    # la de Wikipedia). No había Libertadores todavía
+    "1944-primera": {"nombre": "Campeonato de Primera División 1944", "anio": 1944, "liga": "a_mano", "slug": "1944-primera",
+                     "zonas": "unica", "fechas": 30, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, el de Wikipedia (que en este torneo coincide con "
+                                    "la diferencia de gol).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1944 (las 30 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del Boca 3-0 Racing de la última fecha, el partido en el que Boca "
+                                        "salió campeón (de RSSSF, con los minutos). El goleador del torneo fue Atilio Mellone "
+                                        "(Huracán), con 26 goles.",
+                     "descensos": "tabla", "descienden": 1},
     # 1945: el Campeonato de Primera División 1945 (abril a diciembre; campeón River): 16 equipos a dos ruedas (30 fechas),
     # con 2 puntos por partido ganado. Bajaba el último de la tabla (no había promedios): Gimnasia. Tres partidos se
     # suspendieron y se terminaron otro día (cada uno con su nota). ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin
