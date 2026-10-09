@@ -33,6 +33,33 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1932: dos campeonatos de Primera, como hasta 1934, y la AFA reconoce a los dos campeones. El profesional, de la Liga
+    # Argentina de Football (marzo a noviembre; campeón River): 18 equipos a dos ruedas (34 fechas), con 2 puntos por
+    # partido ganado. River e Independiente empataron el primer puesto y jugaron una final en la cancha de San Lorenzo (en
+    # "playoffs"; ganó River). Seis partidos se suspendieron y la Liga se los dio ganados a uno ("para_local", sin contar
+    # los goles, como RSSSF); otros dos se terminaron otro día. No había descensos. ESPN no lo tiene: va a mano
+    # (tools/a_mano; RSSSF, sin goles salvo los de la final)
+    "1932-laf": {"nombre": "Campeonato de Primera División 1932 (Liga Argentina de Football)", "anio": 1932, "liga": "a_mano",
+                 "slug": "1932-laf", "zonas": "unica", "fechas": 34, "pasan": 2, "puntos_victoria": 2,
+                 "texto_pasan": "Empatados en el primer puesto (50 puntos): definieron el título en una final, en la cancha de "
+                                "San Lorenzo",
+                 "orden_texto": "Fue el campeonato profesional, de la Liga Argentina de Football; ese año hubo también uno "
+                                "amateur, el de la Asociación Argentina de Football, y la AFA reconoce a los dos campeones. "
+                                "Orden: puntos y, con los mismos puntos, el de RSSSF (que coincide con la diferencia de gol).",
+                 "goleadores_nota": "Los goles son solo de la final (de RSSSF, con los minutos). El goleador del torneo fue "
+                                    "Bernabé Ferreyra (River), con 43 goles según RSSSF (44 según Wikipedia).",
+                 "nombre_playoffs": "Final (desempate)",
+                 "playoffs": [(r"^$^", "Final")],
+                 "playoffs_a_mano": {
+                     "Final": [
+                         {"fecha": "1932-11-20", "local": "river-plate", "visitante": "independiente", "gl": 3, "gv": 0,
+                          "estadio": "El Gasómetro",
+                          "goles": [{"jugador": "Ferreyra", "equipo": "local", "min": 11},
+                                    {"jugador": "Peucelle", "equipo": "local", "min": 22},
+                                    {"jugador": "Zatelli", "equipo": "local", "min": 38}]},
+                     ],
+                 },
+                 "sin_descensos": "No había descensos."},
     # 1933 (amateur): el campeonato de la Asociación Argentina de Football (Amateurs y Profesionales), la liga amateur
     # (abril a noviembre; campeón Dock Sud): 20 equipos a una rueda (19 fechas), con 2 puntos por partido ganado. RSSSF no
     # dice a qué fecha pertenece cada partido: se deduce por los días. Cinco partidos no se jugaron y se dieron por

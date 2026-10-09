@@ -1,0 +1,2998 @@
+{
+ "nombre": "Campeonato de Primera División 1932 (Liga Argentina de Football)",
+ "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi), sin goles. Estadio: la cancha que dice RSSSF cuando no era la del local; si no, la del local. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1932-03-13",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 2,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-03-13",
+     "local": "atlanta",
+     "visitante": "boca-juniors",
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "gl": 2,
+     "gv": 5
+    },
+    {
+     "fecha": "1932-03-13",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "gl": 6,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-03-13",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 3,
+     "gv": 4
+    },
+    {
+     "fecha": "1932-03-13",
+     "local": "huracan",
+     "visitante": "independiente",
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-03-13",
+     "local": "lanus",
+     "visitante": "quilmes",
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "gl": 0,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-03-13",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "gl": 0,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-03-13",
+     "local": "river-plate",
+     "visitante": "chacarita-juniors",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 3,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-03-13",
+     "local": "tigre",
+     "visitante": "talleres-remedios-de-escalada",
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1932-03-20",
+     "local": "boca-juniors",
+     "visitante": "lanus",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-03-20",
+     "local": "chacarita-juniors",
+     "visitante": "racing-club",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 1,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-03-20",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "gl": 2,
+     "gv": 4
+    },
+    {
+     "fecha": "1932-03-20",
+     "local": "independiente",
+     "visitante": "atlanta",
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "gl": 3,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-03-20",
+     "local": "platense",
+     "visitante": "quilmes",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 1,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-03-20",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-03-20",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "argentinos-juniors",
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [],
+     "gl": 1,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-03-20",
+     "local": "tigre",
+     "visitante": "river-plate",
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "gl": 1,
+     "gv": 5
+    },
+    {
+     "fecha": "1932-03-20",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1932-03-26",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 1,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-03-26",
+     "local": "atlanta",
+     "visitante": "san-lorenzo",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 0,
+     "gv": 5
+    },
+    {
+     "fecha": "1932-03-26",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 0,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-03-26",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "talleres-remedios-de-escalada",
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "gl": 6,
+     "gv": 4
+    },
+    {
+     "fecha": "1932-03-26",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "gl": 3,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-03-26",
+     "local": "huracan",
+     "visitante": "chacarita-juniors",
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "gl": 3,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-03-26",
+     "local": "lanus",
+     "visitante": "platense",
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-03-26",
+     "local": "quilmes",
+     "visitante": "gimnasia-y-esgrima",
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-03-26",
+     "local": "racing-club",
+     "visitante": "tigre",
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "gl": 6,
+     "gv": 2
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1932-04-10",
+     "local": "argentinos-juniors",
+     "visitante": "racing-club",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 0,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-04-10",
+     "local": "chacarita-juniors",
+     "visitante": "atlanta",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 4,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-04-10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-04-10",
+     "local": "independiente",
+     "visitante": "lanus",
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-04-10",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 5,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-04-10",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-04-10",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "ferro-carril-oeste",
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [],
+     "gl": 0,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-04-10",
+     "local": "tigre",
+     "visitante": "huracan",
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "gl": 2,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-04-10",
+     "local": "velez-sarsfield",
+     "visitante": "quilmes",
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "gl": 3,
+     "gv": 0
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1932-04-17",
+     "local": "atlanta",
+     "visitante": "tigre",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 0,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-04-17",
+     "local": "boca-juniors",
+     "visitante": "chacarita-juniors",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 0,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-04-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "gl": 0,
+     "gv": 4
+    },
+    {
+     "fecha": "1932-04-17",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "gl": 2,
+     "gv": 4
+    },
+    {
+     "fecha": "1932-04-17",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "gl": 3,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-04-17",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-04-17",
+     "local": "lanus",
+     "visitante": "gimnasia-y-esgrima",
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "gl": 1,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-04-17",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 5,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-04-17",
+     "local": "quilmes",
+     "visitante": "talleres-remedios-de-escalada",
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "gl": 0,
+     "gv": 0
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1932-04-24",
+     "local": "argentinos-juniors",
+     "visitante": "atlanta",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-04-24",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 3,
+     "gv": 6
+    },
+    {
+     "fecha": "1932-04-24",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "gl": 4,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-04-24",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "gl": 3,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-04-24",
+     "local": "river-plate",
+     "visitante": "quilmes",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-04-24",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "gl": 2,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-04-24",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "platense",
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-04-24",
+     "local": "tigre",
+     "visitante": "boca-juniors",
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "gl": 3,
+     "gv": 4
+    },
+    {
+     "fecha": "1932-04-24",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "gl": 1,
+     "gv": 0
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1932-05-01",
+     "local": "atlanta",
+     "visitante": "estudiantes-de-la-plata",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 0,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-05-01",
+     "local": "boca-juniors",
+     "visitante": "argentinos-juniors",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 2,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-05-01",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "gl": 3,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-05-01",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "talleres-remedios-de-escalada",
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "gl": 2,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-05-01",
+     "local": "independiente",
+     "visitante": "tigre",
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-05-01",
+     "local": "lanus",
+     "visitante": "velez-sarsfield",
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "gl": 0,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-05-01",
+     "local": "platense",
+     "visitante": "river-plate",
+     "estadio": "Platense",
+     "goles": [],
+     "gl": 0,
+     "gv": 4
+    },
+    {
+     "fecha": "1932-05-01",
+     "local": "quilmes",
+     "visitante": "racing-club",
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "gl": 0,
+     "gv": 4
+    },
+    {
+     "fecha": "1932-05-01",
+     "local": "san-lorenzo",
+     "visitante": "chacarita-juniors",
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "gl": 0,
+     "gv": 1
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1932-05-05",
+     "local": "argentinos-juniors",
+     "visitante": "independiente",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 3,
+     "gv": 4
+    },
+    {
+     "fecha": "1932-05-05",
+     "local": "chacarita-juniors",
+     "visitante": "lanus",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-05-05",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "gl": 3,
+     "gv": 5
+    },
+    {
+     "fecha": "1932-05-05",
+     "local": "ferro-carril-oeste",
+     "visitante": "atlanta",
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "gl": 6,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-05-05",
+     "local": "huracan",
+     "visitante": "quilmes",
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "gl": 6,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-05-05",
+     "local": "racing-club",
+     "visitante": "platense",
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-05-05",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-05-05",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "velez-sarsfield",
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [],
+     "gl": 0,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-05-05",
+     "local": "tigre",
+     "visitante": "san-lorenzo",
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "gl": 1,
+     "gv": 2
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1932-05-09",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 3,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-05-09",
+     "local": "chacarita-juniors",
+     "visitante": "tigre",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 2,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-05-09",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-club",
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-05-09",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-05-09",
+     "local": "lanus",
+     "visitante": "talleres-remedios-de-escalada",
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-05-09",
+     "local": "platense",
+     "visitante": "huracan",
+     "estadio": "Platense",
+     "goles": [],
+     "gl": 3,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-05-09",
+     "local": "quilmes",
+     "visitante": "atlanta",
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "gl": 1,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-05-09",
+     "local": "san-lorenzo",
+     "visitante": "argentinos-juniors",
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "gl": 2,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-05-09",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1932-05-15",
+     "local": "argentinos-juniors",
+     "visitante": "chacarita-juniors",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 0,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-05-15",
+     "local": "atlanta",
+     "visitante": "platense",
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "gl": 0,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-05-15",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "gl": 4,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-05-15",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "gl": 2,
+     "gv": 4
+    },
+    {
+     "fecha": "1932-05-15",
+     "local": "huracan",
+     "visitante": "gimnasia-y-esgrima",
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-05-15",
+     "local": "lanus",
+     "visitante": "tigre",
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "gl": 2,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-05-15",
+     "local": "quilmes",
+     "visitante": "boca-juniors",
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "gl": 0,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-05-15",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-05-15",
+     "local": "river-plate",
+     "visitante": "talleres-remedios-de-escalada",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 3,
+     "gv": 0
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1932-05-22",
+     "local": "chacarita-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-05-22",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "atlanta",
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "gl": 6,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-05-22",
+     "local": "independiente",
+     "visitante": "quilmes",
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "gl": 4,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-05-22",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "estadio": "Platense",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-05-22",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 4,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-05-22",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 3,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-05-22",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "racing-club",
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [],
+     "gl": 0,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-05-22",
+     "local": "tigre",
+     "visitante": "argentinos-juniors",
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "gl": 3,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-05-22",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1932-05-29",
+     "local": "atlanta",
+     "visitante": "velez-sarsfield",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 0,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-05-29",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-05-29",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "tigre",
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "gl": 4,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-05-29",
+     "local": "ferro-carril-oeste",
+     "visitante": "chacarita-juniors",
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "gl": 3,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-05-29",
+     "local": "huracan",
+     "visitante": "talleres-remedios-de-escalada",
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "gl": 2,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-05-29",
+     "local": "lanus",
+     "visitante": "argentinos-juniors",
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "gl": 3,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-05-29",
+     "local": "platense",
+     "visitante": "independiente",
+     "estadio": "Platense",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-05-29",
+     "local": "quilmes",
+     "visitante": "san-lorenzo",
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "gl": 2,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-05-29",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "gl": 0,
+     "gv": 1
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1932-06-05",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 0,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-06-05",
+     "local": "chacarita-juniors",
+     "visitante": "quilmes",
+     "estadio": "Cancha de Platense",
+     "goles": [],
+     "gl": 6,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-06-05",
+     "local": "racing-club",
+     "visitante": "lanus",
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-06-05",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-06-05",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "atlanta",
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [],
+     "gl": 4,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-06-05",
+     "local": "tigre",
+     "visitante": "ferro-carril-oeste",
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "gl": 3,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-06-05",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "gl": 1,
+     "gv": 2,
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "nota": "Se suspendió a los 75 minutos, 1-2. La Liga se lo dio ganado a Vélez (sin contar los goles en la tabla)."
+    },
+    {
+     "fecha": "1932-06-05",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 1,
+     "gv": 1,
+     "nota": "Se suspendió a los 75 minutos, 1-1; los 15 minutos que faltaban se jugaron el 13 de julio."
+    },
+    {
+     "fecha": "1932-06-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "gl": 2,
+     "gv": 2,
+     "nota": "Se suspendió a los 67 minutos, 1-2; los 23 minutos que faltaban se jugaron el 13 de julio."
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1932-06-12",
+     "local": "atlanta",
+     "visitante": "river-plate",
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "gl": 0,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-06-12",
+     "local": "boca-juniors",
+     "visitante": "talleres-remedios-de-escalada",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 3,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-06-12",
+     "local": "ferro-carril-oeste",
+     "visitante": "argentinos-juniors",
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-06-12",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "gl": 0,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-06-12",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-06-12",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "gl": 0,
+     "gv": 4
+    },
+    {
+     "fecha": "1932-06-12",
+     "local": "platense",
+     "visitante": "chacarita-juniors",
+     "estadio": "Platense",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-06-12",
+     "local": "quilmes",
+     "visitante": "tigre",
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "gl": 4,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-06-12",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "gl": 0,
+     "gv": 1,
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "nota": "Se suspendió a los 72 minutos, 0-1. La Liga se lo dio ganado a Racing (sin contar los goles en la tabla)."
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1932-06-19",
+     "local": "argentinos-juniors",
+     "visitante": "quilmes",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-06-19",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-06-19",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "gl": 3,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-06-19",
+     "local": "huracan",
+     "visitante": "lanus",
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "gl": 3,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-06-19",
+     "local": "racing-club",
+     "visitante": "atlanta",
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-06-19",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-06-19",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "independiente",
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [],
+     "gl": 1,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-06-19",
+     "local": "tigre",
+     "visitante": "platense",
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "gl": 3,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-07-14",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "gl": 1,
+     "gv": 4
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1932-06-26",
+     "local": "atlanta",
+     "visitante": "huracan",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 0,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-06-26",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-06-26",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "tigre",
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [],
+     "gl": 2,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-06-26",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "gl": 5,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-06-26",
+     "local": "lanus",
+     "visitante": "ferro-carril-oeste",
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-06-26",
+     "local": "platense",
+     "visitante": "argentinos-juniors",
+     "estadio": "Platense",
+     "goles": [],
+     "gl": 1,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-06-26",
+     "local": "quilmes",
+     "visitante": "estudiantes-de-la-plata",
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-06-26",
+     "local": "san-lorenzo",
+     "visitante": "talleres-remedios-de-escalada",
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-06-26",
+     "local": "velez-sarsfield",
+     "visitante": "chacarita-juniors",
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "gl": 4,
+     "gv": 3
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1932-07-10",
+     "local": "argentinos-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 0,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-07-10",
+     "local": "atlanta",
+     "visitante": "lanus",
+     "estadio": "Cancha de Platense",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-07-10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "platense",
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "gl": 4,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-07-10",
+     "local": "ferro-carril-oeste",
+     "visitante": "quilmes",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-07-10",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "gl": 0,
+     "gv": 3,
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "nota": "Se suspendió a los 51 minutos, 0-3. La Liga se lo dio ganado a Boca (sin contar los goles en la tabla)."
+    },
+    {
+     "fecha": "1932-07-10",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "gl": 0,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-07-10",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 0,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-07-10",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "chacarita-juniors",
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-07-10",
+     "local": "tigre",
+     "visitante": "velez-sarsfield",
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "gl": 3,
+     "gv": 0
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1932-07-24",
+     "local": "boca-juniors",
+     "visitante": "atlanta",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 2,
+     "gv": 1,
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "nota": "Se suspendió a los 70 minutos, 2-1. La Liga se lo dio ganado a Boca (sin contar los goles en la tabla)."
+    },
+    {
+     "fecha": "1932-07-24",
+     "local": "chacarita-juniors",
+     "visitante": "river-plate",
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "gl": 2,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-07-24",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "gl": 2,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-07-24",
+     "local": "independiente",
+     "visitante": "huracan",
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "gl": 3,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-07-24",
+     "local": "platense",
+     "visitante": "ferro-carril-oeste",
+     "estadio": "Platense",
+     "goles": [],
+     "gl": 2,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-07-24",
+     "local": "quilmes",
+     "visitante": "lanus",
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-07-24",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-07-24",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "tigre",
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-07-24",
+     "local": "velez-sarsfield",
+     "visitante": "argentinos-juniors",
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1932-07-31",
+     "local": "argentinos-juniors",
+     "visitante": "talleres-remedios-de-escalada",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-07-31",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "gl": 0,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-07-31",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-07-31",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 4,
+     "gv": 4
+    },
+    {
+     "fecha": "1932-07-31",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-07-31",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "gl": 1,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-07-31",
+     "local": "quilmes",
+     "visitante": "platense",
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "gl": 5,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-07-31",
+     "local": "racing-club",
+     "visitante": "chacarita-juniors",
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "gl": 3,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-07-31",
+     "local": "river-plate",
+     "visitante": "tigre",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 3,
+     "gv": 0
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1932-08-07",
+     "local": "chacarita-juniors",
+     "visitante": "huracan",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 6,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-08-07",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "quilmes",
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "gl": 3,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-08-07",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-08-07",
+     "local": "platense",
+     "visitante": "lanus",
+     "estadio": "Platense",
+     "goles": [],
+     "gl": 3,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-08-07",
+     "local": "river-plate",
+     "visitante": "argentinos-juniors",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 5,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-08-07",
+     "local": "san-lorenzo",
+     "visitante": "atlanta",
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "gl": 6,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-08-07",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "estudiantes-de-la-plata",
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [],
+     "gl": 1,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-08-07",
+     "local": "tigre",
+     "visitante": "racing-club",
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "gl": 2,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-08-07",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "gl": 3,
+     "gv": 0
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1932-08-14",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 1,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-08-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "gl": 3,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-08-14",
+     "local": "ferro-carril-oeste",
+     "visitante": "talleres-remedios-de-escalada",
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-08-14",
+     "local": "lanus",
+     "visitante": "independiente",
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "gl": 0,
+     "gv": 0,
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "nota": "Se suspendió a los 82 minutos, 0-0. La Liga se lo dio ganado a Independiente (sin contar los goles en la tabla)."
+    },
+    {
+     "fecha": "1932-08-14",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "estadio": "Platense",
+     "goles": [],
+     "gl": 2,
+     "gv": 2,
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "nota": "Se suspendió a los 73 minutos, 2-2. La Liga se lo dio ganado a Platense (sin contar los goles en la tabla)."
+    },
+    {
+     "fecha": "1932-08-14",
+     "local": "quilmes",
+     "visitante": "velez-sarsfield",
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "gl": 0,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-08-14",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "gl": 1,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-08-15",
+     "local": "atlanta",
+     "visitante": "chacarita-juniors",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 1,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-08-15",
+     "local": "huracan",
+     "visitante": "tigre",
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "gl": 3,
+     "gv": 0
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1932-08-21",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 1,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-08-21",
+     "local": "chacarita-juniors",
+     "visitante": "boca-juniors",
+     "estadio": "Cancha de Platense",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-08-21",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "gl": 4,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-08-21",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-08-21",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 0,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-08-21",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "gl": 2,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-08-21",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "quilmes",
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-08-21",
+     "local": "tigre",
+     "visitante": "atlanta",
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "gl": 3,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-08-21",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1932-08-28",
+     "local": "atlanta",
+     "visitante": "argentinos-juniors",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 1,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-08-28",
+     "local": "boca-juniors",
+     "visitante": "tigre",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 5,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-08-28",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "gl": 0,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-08-28",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-08-28",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-08-28",
+     "local": "independiente",
+     "visitante": "chacarita-juniors",
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-08-28",
+     "local": "lanus",
+     "visitante": "san-lorenzo",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 0,
+     "gv": 4
+    },
+    {
+     "fecha": "1932-08-28",
+     "local": "platense",
+     "visitante": "talleres-remedios-de-escalada",
+     "estadio": "Platense",
+     "goles": [],
+     "gl": 5,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-08-28",
+     "local": "quilmes",
+     "visitante": "river-plate",
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1932-09-04",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 1,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-09-04",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 1,
+     "gv": 5
+    },
+    {
+     "fecha": "1932-09-04",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "estadio": "Cancha de Quilmes",
+     "goles": [],
+     "gl": 1,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-09-04",
+     "local": "huracan",
+     "visitante": "ferro-carril-oeste",
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-09-04",
+     "local": "racing-club",
+     "visitante": "quilmes",
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "gl": 1,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-09-04",
+     "local": "river-plate",
+     "visitante": "platense",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 1,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-09-04",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "gimnasia-y-esgrima",
+     "estadio": "Cancha de Platense",
+     "goles": [],
+     "gl": 1,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-09-04",
+     "local": "tigre",
+     "visitante": "independiente",
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [],
+     "gl": 2,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-09-04",
+     "local": "velez-sarsfield",
+     "visitante": "lanus",
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "gl": 3,
+     "gv": 1
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1932-09-11",
+     "local": "atlanta",
+     "visitante": "ferro-carril-oeste",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-09-11",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 0,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-09-11",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "gl": 4,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-09-11",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "gl": 1,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-09-11",
+     "local": "lanus",
+     "visitante": "chacarita-juniors",
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [],
+     "gl": 1,
+     "gv": 4
+    },
+    {
+     "fecha": "1932-09-11",
+     "local": "platense",
+     "visitante": "racing-club",
+     "estadio": "Platense",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-09-11",
+     "local": "quilmes",
+     "visitante": "huracan",
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "gl": 3,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-09-11",
+     "local": "san-lorenzo",
+     "visitante": "tigre",
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "gl": 8,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-09-11",
+     "local": "velez-sarsfield",
+     "visitante": "talleres-remedios-de-escalada",
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "gl": 3,
+     "gv": 2
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1932-09-18",
+     "local": "argentinos-juniors",
+     "visitante": "san-lorenzo",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 1,
+     "gv": 5
+    },
+    {
+     "fecha": "1932-09-18",
+     "local": "atlanta",
+     "visitante": "quilmes",
+     "estadio": "Cancha de Platense",
+     "goles": [],
+     "gl": 4,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-09-18",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-09-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-09-18",
+     "local": "huracan",
+     "visitante": "platense",
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-09-18",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-09-18",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 4,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-09-18",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "lanus",
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [],
+     "gl": 3,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-09-18",
+     "local": "tigre",
+     "visitante": "chacarita-juniors",
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "gl": 2,
+     "gv": 3
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1932-09-25",
+     "local": "boca-juniors",
+     "visitante": "quilmes",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 7,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-09-25",
+     "local": "chacarita-juniors",
+     "visitante": "argentinos-juniors",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 1,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-09-25",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "gl": 0,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-09-25",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-09-25",
+     "local": "platense",
+     "visitante": "atlanta",
+     "estadio": "Platense",
+     "goles": [],
+     "gl": 3,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-09-25",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "gl": 3,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-09-25",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "river-plate",
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [],
+     "gl": 0,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-09-25",
+     "local": "tigre",
+     "visitante": "lanus",
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "gl": 1,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-09-25",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "gl": 1,
+     "gv": 3
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1932-10-02",
+     "local": "argentinos-juniors",
+     "visitante": "tigre",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-10-02",
+     "local": "atlanta",
+     "visitante": "gimnasia-y-esgrima",
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "gl": 1,
+     "gv": 6
+    },
+    {
+     "fecha": "1932-10-02",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 6,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-10-02",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "chacarita-juniors",
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "gl": 5,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-10-02",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-10-02",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "gl": 4,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-10-02",
+     "local": "lanus",
+     "visitante": "river-plate",
+     "estadio": "Cancha de Platense",
+     "goles": [],
+     "gl": 0,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-10-02",
+     "local": "quilmes",
+     "visitante": "independiente",
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "gl": 3,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-10-02",
+     "local": "racing-club",
+     "visitante": "talleres-remedios-de-escalada",
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "gl": 3,
+     "gv": 2
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1932-10-09",
+     "local": "argentinos-juniors",
+     "visitante": "lanus",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 3,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-10-09",
+     "local": "chacarita-juniors",
+     "visitante": "ferro-carril-oeste",
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "gl": 2,
+     "gv": 4
+    },
+    {
+     "fecha": "1932-10-09",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "gl": 6,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-10-09",
+     "local": "independiente",
+     "visitante": "platense",
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "gl": 4,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-10-09",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 1,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-10-09",
+     "local": "san-lorenzo",
+     "visitante": "quilmes",
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "gl": 2,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-10-09",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "huracan",
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [],
+     "gl": 2,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-10-09",
+     "local": "tigre",
+     "visitante": "estudiantes-de-la-plata",
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-10-09",
+     "local": "velez-sarsfield",
+     "visitante": "atlanta",
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1932-10-16",
+     "local": "atlanta",
+     "visitante": "talleres-remedios-de-escalada",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 2,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-10-16",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 3,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-10-16",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentinos-juniors",
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "gl": 4,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-10-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "tigre",
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "gl": 3,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-10-16",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "gl": 2,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-10-16",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "gl": 1,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-10-16",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-10-16",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "estadio": "Platense",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-10-16",
+     "local": "quilmes",
+     "visitante": "chacarita-juniors",
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "gl": 3,
+     "gv": 1
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "partidos": [
+    {
+     "fecha": "1932-10-23",
+     "local": "argentinos-juniors",
+     "visitante": "ferro-carril-oeste",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-10-23",
+     "local": "chacarita-juniors",
+     "visitante": "platense",
+     "estadio": "Cancha de Ferro Carril Oeste",
+     "goles": [],
+     "gl": 4,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-10-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "lanus",
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-10-23",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "gl": 1,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-10-23",
+     "local": "river-plate",
+     "visitante": "atlanta",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 5,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-10-23",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "gl": 4,
+     "gv": 4
+    },
+    {
+     "fecha": "1932-10-23",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "boca-juniors",
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [],
+     "gl": 1,
+     "gv": 5
+    },
+    {
+     "fecha": "1932-10-23",
+     "local": "tigre",
+     "visitante": "quilmes",
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "gl": 1,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-10-23",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "gl": 0,
+     "gv": 0
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "partidos": [
+    {
+     "fecha": "1932-10-31",
+     "local": "atlanta",
+     "visitante": "racing-club",
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-10-31",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-10-31",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-de-la-plata",
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "gl": 1,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-10-31",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "chacarita-juniors",
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "gl": 4,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-10-31",
+     "local": "independiente",
+     "visitante": "talleres-remedios-de-escalada",
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-10-31",
+     "local": "lanus",
+     "visitante": "huracan",
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "gl": 4,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-10-31",
+     "local": "platense",
+     "visitante": "tigre",
+     "estadio": "Platense",
+     "goles": [],
+     "gl": 5,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-10-31",
+     "local": "quilmes",
+     "visitante": "argentinos-juniors",
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "gl": 3,
+     "gv": 3
+    },
+    {
+     "fecha": "1932-10-31",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "gl": 0,
+     "gv": 0
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "partidos": [
+    {
+     "fecha": "1932-11-06",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-11-06",
+     "local": "chacarita-juniors",
+     "visitante": "velez-sarsfield",
+     "estadio": "Cancha de Platense",
+     "goles": [],
+     "gl": 4,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-11-06",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "quilmes",
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "gl": 3,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-11-06",
+     "local": "ferro-carril-oeste",
+     "visitante": "lanus",
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "gl": 3,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-11-06",
+     "local": "huracan",
+     "visitante": "atlanta",
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "gl": 1,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-11-06",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "estadio": "Cancha de San Lorenzo de Almagro",
+     "goles": [],
+     "gl": 0,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-11-06",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 6,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-11-06",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "san-lorenzo",
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [],
+     "gl": 1,
+     "gv": 4
+    },
+    {
+     "fecha": "1932-11-06",
+     "local": "tigre",
+     "visitante": "gimnasia-y-esgrima",
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "gl": 0,
+     "gv": 5
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "partidos": [
+    {
+     "fecha": "1932-11-13",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "gl": 5,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-11-13",
+     "local": "chacarita-juniors",
+     "visitante": "talleres-remedios-de-escalada",
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "gl": 2,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-11-13",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "gl": 3,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-11-13",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "gl": 0,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-11-13",
+     "local": "lanus",
+     "visitante": "atlanta",
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-11-13",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "estadio": "Platense",
+     "goles": [],
+     "gl": 2,
+     "gv": 2
+    },
+    {
+     "fecha": "1932-11-13",
+     "local": "quilmes",
+     "visitante": "ferro-carril-oeste",
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "gl": 0,
+     "gv": 0
+    },
+    {
+     "fecha": "1932-11-13",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "gl": 1,
+     "gv": 1
+    },
+    {
+     "fecha": "1932-11-13",
+     "local": "velez-sarsfield",
+     "visitante": "tigre",
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [],
+     "gl": 1,
+     "gv": 0
+    }
+   ]
+  }
+ ]
+}
