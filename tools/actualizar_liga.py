@@ -33,6 +33,28 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1948: el Campeonato de Primera División 1948 (abril a diciembre; campeón Independiente): 16 equipos a dos ruedas (30
+    # fechas), con 2 puntos por partido ganado. Hubo una huelga de jugadores y en las últimas fechas los clubes jugaron con
+    # juveniles; por eso la AFA anuló los descensos. Racing no se presentó a los dos últimos partidos: se los dieron ganados
+    # a Banfield y San Lorenzo ("para_local"/"para_visitante", sin goles) y le descontaron 2 puntos por cada uno. Con los
+    # mismos puntos, el orden de RSSSF (el cociente de goles: Tigre delante de Lanús, "orden_a_mano"). ESPN no lo tiene: va
+    # a mano (tools/a_mano; RSSSF, sin goles salvo los del Gimnasia-Independiente de la fecha 29). No había Libertadores
+    "1948-primera": {"nombre": "Campeonato de Primera División 1948", "anio": 1948, "liga": "a_mano", "slug": "1948-primera",
+                     "zonas": "unica", "fechas": 30, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_a_mano": ["tigre", "lanus"],
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, el de RSSSF: el cociente de goles (goles a favor "
+                                    "divididos por goles en contra). Así Tigre quedó delante de Lanús, aunque tenía peor "
+                                    "diferencia de gol.",
+                     "descuentos": {"racing-club": 4},
+                     "descuentos_texto": "A Racing se le descontaron 4 puntos, 2 por cada uno de los dos últimos partidos, "
+                                         "a los que no se presentó (y que además perdió).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1948 (las 30 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del Gimnasia 1-4 Independiente de la fecha 29, el partido en el que "
+                                        "Independiente salió campeón (de RSSSF, con los minutos). El goleador del torneo fue "
+                                        "Benjamín Santos (Rosario Central), con 21 goles.",
+                     "sin_descensos": "No hubo descensos: hubo una huelga de jugadores (en las últimas fechas los clubes "
+                                      "jugaron con juveniles) y la AFA los anuló. Gimnasia, el último, se quedó en Primera."},
     # 1949: el Campeonato de Primera División 1949 (abril a diciembre; campeón Racing): 18 equipos a dos ruedas (34 fechas),
     # con 2 puntos por partido ganado. River y Platense empataron el segundo puesto y jugaron un desempate a ida y vuelta
     # (los dos en la cancha de San Lorenzo; River ganó los dos). Bajaba el último: Huracán y Lanús empataron ese lugar y
