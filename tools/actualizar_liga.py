@@ -33,6 +33,20 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1946: el Campeonato de Primera División 1946 (abril a diciembre; campeón San Lorenzo): 16 equipos a dos ruedas (30
+    # fechas), con 2 puntos por partido ganado. Bajaba el último de la tabla (no había promedios): Ferro. Tres partidos se
+    # suspendieron y se terminaron otro día (cada uno con su nota). ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin
+    # goles salvo los del Ferro-San Lorenzo de la fecha 30). No había Libertadores todavía
+    "1946-primera": {"nombre": "Campeonato de Primera División 1946", "anio": 1946, "liga": "a_mano", "slug": "1946-primera",
+                     "zonas": "unica", "fechas": 30, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, el de RSSSF (que en este torneo coincide con la "
+                                    "diferencia de gol).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1946 (las 30 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del Ferro 1-3 San Lorenzo de la fecha 30, el partido en el que San "
+                                        "Lorenzo salió campeón (de RSSSF, con los minutos). El goleador del torneo fue Mario "
+                                        "Boyé (Boca), con 24 goles.",
+                     "descensos": "tabla", "descienden": 1},
     # 1947: el Campeonato de Primera División 1947 (abril a noviembre; campeón River, con Di Stéfano): 16 equipos a dos
     # ruedas (30 fechas), con 2 puntos por partido ganado. Bajaba el último de la tabla (no había promedios): Atlanta. Cuatro
     # partidos se suspendieron sobre el final y quedó el resultado (cada uno con su nota). ESPN no lo tiene: va a mano
