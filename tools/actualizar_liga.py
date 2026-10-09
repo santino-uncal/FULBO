@@ -33,6 +33,26 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1934: hubo dos campeonatos de Primera, y la AFA reconoce a los dos campeones. El profesional, de la Liga Argentina
+    # de Football (marzo a diciembre; campeón Boca): 14 equipos a tres ruedas (39 fechas), con 2 puntos por partido
+    # ganado. Lanús y Talleres (Remedios de Escalada) jugaron fusionados ("Unión Talleres-Lanús", club propio, con los dos
+    # escudos juntos); Atlanta y Argentinos también, hasta la fecha 25, y después siguió Argentinos solo (va como
+    # Argentinos todo el año, como en la tabla de RSSSF). Dos partidos se suspendieron y se dieron por terminados (el
+    # Gimnasia-Estudiantes, ganado por Gimnasia en el escritorio: "para_local", con el gol que había hecho Estudiantes).
+    # No había descensos. El 3 de noviembre la Liga y la Asociación Argentina (amateur) se unieron en la AFA. ESPN no lo
+    # tiene: va a mano (tools/a_mano; RSSSF, sin goles salvo los del Boca-Platense de la fecha 38). No había Libertadores
+    "1934-laf": {"nombre": "Campeonato de Primera División 1934 (Liga Argentina de Football)", "anio": 1934, "liga": "a_mano",
+                 "slug": "1934-laf", "zonas": "unica", "fechas": 39, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                 "orden_texto": "Orden: puntos y, con los mismos puntos, el de RSSSF (que en este torneo coincide con la "
+                                "diferencia de gol). Fue el campeonato profesional, de la Liga Argentina de Football: 14 "
+                                "equipos a tres ruedas. Lanús y Talleres (Remedios de Escalada) jugaron fusionados, y "
+                                "Argentinos jugó fusionado con Atlanta hasta la fecha 25. Ese año hubo también un "
+                                "campeonato amateur, el de la Asociación Argentina de Football; la AFA reconoce a los dos "
+                                "campeones.",
+                 "goleadores_nota": "Los goles son solo del Boca 5-1 Platense de la fecha 38, el partido en el que Boca salió "
+                                    "campeón (de RSSSF, con los minutos). El goleador del torneo fue Evaristo Barrera "
+                                    "(Racing), con 34 goles.",
+                 "sin_descensos": "No había descensos."},
     # 1935: el Campeonato de Primera División 1935 (marzo a diciembre; campeón Boca, bicampeón): 18 equipos a dos ruedas
     # (34 fechas), con 2 puntos por partido ganado; el primero después de la unificación de la liga profesional y la
     # amateur en la AFA (1934). No había descensos (empezaron en 1937). ESPN no lo tiene: va a mano (tools/a_mano; RSSSF,
@@ -4488,6 +4508,7 @@ CLUBES_NUEVOS = {
     "ccr": ("central-cordoba-rosario", "Central Córdoba (Rosario)"),   # (no está en ESPN: 1959)
     "aqu": ("argentino-de-quilmes", "Argentino de Quilmes"),   # (no está en ESPN: 1939)
     "tre": ("talleres-remedios-de-escalada", "Talleres (Remedios de Escalada)"),   # (no está en ESPN: 1938)
+    "utl": ("union-talleres-lanus", "Unión Talleres-Lanús"),   # (no está en ESPN: 1934; escudo, los dos juntos)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)
