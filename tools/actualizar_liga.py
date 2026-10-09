@@ -33,6 +33,27 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1934 (amateur): el último campeonato de la Asociación Argentina de Football (Amateurs y Profesionales), la liga
+    # amateur que siguió jugándose de 1931 a 1934 junto a la profesional (abril a octubre; campeón Estudiantil Porteño): 23
+    # equipos a una rueda (23 fechas, uno libre en cada una), con 2 puntos por partido ganado. La AFA reconoce a su campeón
+    # (y al de la profesional). Cuatro partidos no se jugaron y se dieron por perdidos al que no se presentó, y a Ramsar le
+    # dieron por perdido un 1-1 con Estudiantes (sin contar los goles, como RSSSF; "para_local"/"para_visitante"). Al
+    # unirse las dos ligas en la AFA, estos equipos pasaron a la Segunda y la Tercera División. ESPN no lo tiene: va a mano
+    # (tools/a_mano; RSSSF, con los goles de cada partido, sin minutos)
+    "1934-amateur": {"nombre": "Campeonato de Primera División 1934 (amateur)", "anio": 1934, "liga": "a_mano",
+                     "slug": "1934-amateur", "zonas": "unica", "fechas": 23, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_texto": "Campeonato amateur: el de la Asociación Argentina de Football, que de 1931 a 1934 se "
+                                    "jugó al mismo tiempo que el profesional de la Liga Argentina de Football; la AFA "
+                                    "reconoce a los campeones de los dos. Orden: puntos y, con los mismos puntos, el de RSSSF "
+                                    "(que coincide con la diferencia de gol). Argentino de Temperley se llamó Temperley desde "
+                                    "1935, según RSSSF.",
+                     "goleadores_nota": "Los goles son de RSSSF (sin los minutos; RSSSF escribe algunos nombres de varias "
+                                        "formas, y acá van unificados). Faltan los del Nueva Chicago 1-2 Argentino de "
+                                        "Temperley (RSSSF trae dos de los tres). Wikipedia da como goleadores a Pedro Maseda (Argentino de Quilmes) y "
+                                        "Domingo Tarasconi (General San Martín), con 16 goles.",
+                     "sin_descensos": "No hubo descensos: al unirse las dos ligas en la AFA, en noviembre de 1934, estos "
+                                      "equipos pasaron a la Segunda y la Tercera División."},
     # 1934: hubo dos campeonatos de Primera, y la AFA reconoce a los dos campeones. El profesional, de la Liga Argentina
     # de Football (marzo a diciembre; campeón Boca): 14 equipos a tres ruedas (39 fechas), con 2 puntos por partido
     # ganado. Lanús y Talleres (Remedios de Escalada) jugaron fusionados ("Unión Talleres-Lanús", club propio, con los dos
@@ -4509,6 +4530,21 @@ CLUBES_NUEVOS = {
     "aqu": ("argentino-de-quilmes", "Argentino de Quilmes"),   # (no está en ESPN: 1939)
     "tre": ("talleres-remedios-de-escalada", "Talleres (Remedios de Escalada)"),   # (no está en ESPN: 1938)
     "utl": ("union-talleres-lanus", "Unión Talleres-Lanús"),   # (no está en ESPN: 1934; escudo, los dos juntos)
+    "epo": ("estudiantil-porteno", "Estudiantil Porteño"),
+    "dsu": ("dock-sud", "Dock Sud"),
+    "epv": ("el-porvenir", "El Porvenir"),
+    "gsm": ("general-san-martin", "General San Martín"),
+    "sal": ("sportivo-alsina", "Sportivo Alsina"),
+    "exc": ("excursionistas", "Excursionistas"),
+    "aca": ("acassuso", "Acassuso"),
+    "cmu": ("colegiales", "Colegiales"),
+    "gut": ("gutenberg", "Gutenberg"),
+    "sba": ("sportivo-barracas", "Sportivo Barracas"),
+    "lia": ("liberal-argentino", "Liberal Argentino"),
+    "rsc": ("ramsar", "Ramsar"),
+    "sbs": ("sportivo-buenos-aires", "Sportivo Buenos Aires"),
+    "pba": ("palermo-buenos-aires", "Palermo"),
+    "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),
     "rco": ("racing-cordoba", "Racing de Córdoba"),   # (no está en ESPN: 1989-90)   # (no está en ESPN: 1994-95)

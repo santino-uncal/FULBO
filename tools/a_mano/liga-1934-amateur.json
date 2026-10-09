@@ -1,0 +1,5968 @@
+{
+ "nombre": "Campeonato de Primera División 1934 (amateur)",
+ "fuente": "Resultados, días y goles (sin minutos, salvo un partido): RSSSF (Pablo Ciullini). RSSSF no trae las canchas: va la del local, salvo las dos que dice. La tabla que sale de los partidos es igual a la de RSSSF y a la de Wikipedia",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1934-04-15",
+     "local": "almagro",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1934-04-15",
+     "local": "barracas-central",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moyano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lapadula",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-15",
+     "local": "banfield",
+     "visitante": "ramsar",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Barba",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zorrilla",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-15",
+     "local": "excursionistas",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Scurzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Agrelo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-15",
+     "local": "estudiantil-porteno",
+     "visitante": "gutenberg",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Devincenzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Devincenzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alvarez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-15",
+     "local": "general-san-martin",
+     "visitante": "dock-sud",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de General San Martín",
+     "goles": [
+      {
+       "jugador": "Calzetta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lanzaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pangrazzi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-15",
+     "local": "liberal-argentino",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Maggi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "L.Toscano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-15",
+     "local": "all-boys",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1934-04-15",
+     "local": "palermo-buenos-aires",
+     "visitante": "argentino-de-temperley",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1934-04-15",
+     "local": "defensores-de-belgrano",
+     "visitante": "sportivo-alsina",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Gargiulo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-15",
+     "local": "argentino-de-quilmes",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Páez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1934-04-22",
+     "local": "defensores-de-belgrano",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "De la Iglesia",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Lupo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-22",
+     "local": "argentino-de-temperley",
+     "visitante": "sportivo-alsina",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": []
+    },
+    {
+     "fecha": "1934-04-22",
+     "local": "sportivo-barracas",
+     "visitante": "palermo-buenos-aires",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Gutiérrez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-22",
+     "local": "colegiales",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "C.Toscano",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-22",
+     "local": "general-san-martin",
+     "visitante": "liberal-argentino",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de General San Martín",
+     "goles": [
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olalla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ricci",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-22",
+     "local": "dock-sud",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Tabar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-22",
+     "local": "gutenberg",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Gutenberg",
+     "goles": [
+      {
+       "jugador": "Biocca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lofeudo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pons",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Graziano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-22",
+     "local": "el-porvenir",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Etcheverry",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hermo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mattas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-22",
+     "local": "ramsar",
+     "visitante": "barracas-central",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Ramsar",
+     "goles": [
+      {
+       "jugador": "Etulain",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Etulain",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-22",
+     "local": "sportivo-buenos-aires",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Timón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bonifacio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-22",
+     "local": "nueva-chicago",
+     "visitante": "acassuso",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportivo Acassuso no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1934-04-29",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes BA",
+     "goles": [
+      {
+       "jugador": "Hermida",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hermida",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vesperoni",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-29",
+     "local": "almagro",
+     "visitante": "ramsar",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Adet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Adet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bonifacio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Etulain",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-29",
+     "local": "barracas-central",
+     "visitante": "el-porvenir",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Ruesta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nóbile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sícaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sícaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Etcheverry",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-29",
+     "local": "banfield",
+     "visitante": "gutenberg",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Zorrilla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alvarez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-29",
+     "local": "excursionistas",
+     "visitante": "dock-sud",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Ballerio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Graziano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pangrazzi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pangrazzi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-29",
+     "local": "estudiantil-porteno",
+     "visitante": "liberal-argentino",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Bussino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Borjas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vázquez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maggi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-29",
+     "local": "all-boys",
+     "visitante": "general-san-martin",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Duarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 85 minutos, y quedó el 1-1."
+    },
+    {
+     "fecha": "1934-04-29",
+     "local": "palermo-buenos-aires",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Palermo",
+     "goles": [
+      {
+       "jugador": "Toscano",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 61 minutos, y quedó el 0-1."
+    },
+    {
+     "fecha": "1934-04-29",
+     "local": "sportivo-alsina",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Alvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zatelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gianoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-29",
+     "local": "argentino-de-quilmes",
+     "visitante": "argentino-de-temperley",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravello",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Flota",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-04-29",
+     "local": "acassuso",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Defensores de Belgrano no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1934-05-06",
+     "local": "defensores-de-belgrano",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lupo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-06",
+     "local": "argentino-de-temperley",
+     "visitante": "acassuso",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Ravello",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Belucci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Belucci",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-06",
+     "local": "sportivo-barracas",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Marassi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maurín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sparnocchia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-06",
+     "local": "colegiales",
+     "visitante": "sportivo-alsina",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Alfonso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.Toscano",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-06",
+     "local": "general-san-martin",
+     "visitante": "palermo-buenos-aires",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de General San Martín",
+     "goles": [
+      {
+       "jugador": "Olalla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calzetta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calzetta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calzetta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-06",
+     "local": "estudiantil-porteno",
+     "visitante": "all-boys",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bettinotti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bettinotti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Figueroa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Giúdice",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 74 minutos, y quedó el 3-2."
+    },
+    {
+     "fecha": "1934-05-06",
+     "local": "liberal-argentino",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sofiantini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avelino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-06",
+     "local": "dock-sud",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Paola",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ],
+     "nota": "Se suspendió a los 67 minutos, porque los jugadores de Banfield se fueron de la cancha, y quedó el 1-0."
+    },
+    {
+     "fecha": "1934-05-06",
+     "local": "gutenberg",
+     "visitante": "barracas-central",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Gutenberg",
+     "goles": [
+      {
+       "jugador": "Di Bastiano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Bastiano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Derito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lofeudo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nóbile",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cuchiarelli",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-06",
+     "local": "el-porvenir",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Agrelo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hermo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-06",
+     "local": "ramsar",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ramsar",
+     "goles": [
+      {
+       "jugador": "Etulain",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Méndez",
+       "equipo": "visitante"
+      }
+     ],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "nota": "Terminó 1-1, pero a Ramsar le dieron el partido por perdido."
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1934-05-13",
+     "local": "sportivo-buenos-aires",
+     "visitante": "ramsar",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Castellano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.C.Etulain",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A.Etulain",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A.Etulain",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-13",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes BA",
+     "goles": [
+      {
+       "jugador": "García",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-13",
+     "local": "almagro",
+     "visitante": "gutenberg",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Bonifacio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bonifacio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Adet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lofeudo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-13",
+     "local": "barracas-central",
+     "visitante": "dock-sud",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bottini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-13",
+     "local": "banfield",
+     "visitante": "liberal-argentino",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Zorrilla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Natale",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-13",
+     "local": "excursionistas",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Ballerio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Graziano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Coviello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-13",
+     "local": "palermo-buenos-aires",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Palermo",
+     "goles": [
+      {
+       "jugador": "Ricardi",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Ricardi",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-13",
+     "local": "sportivo-alsina",
+     "visitante": "general-san-martin",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Zatelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zatelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-13",
+     "local": "argentino-de-quilmes",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Donato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Montero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-13",
+     "local": "acassuso",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Acassuso",
+     "goles": []
+    },
+    {
+     "fecha": "1934-05-13",
+     "local": "nueva-chicago",
+     "visitante": "argentino-de-temperley",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1934-05-20",
+     "local": "argentino-de-temperley",
+     "visitante": "defensores-de-belgrano",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravello",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calabrese",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Souza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lupo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Minaglia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-20",
+     "local": "sportivo-barracas",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Hidalgo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-20",
+     "local": "colegiales",
+     "visitante": "acassuso",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Dimare",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tortosa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-20",
+     "local": "general-san-martin",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de General San Martín",
+     "goles": [
+      {
+       "jugador": "Calzetta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Páez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-20",
+     "local": "excursionistas",
+     "visitante": "palermo-buenos-aires",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Mucielo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ballerio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Graziano",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-20",
+     "local": "all-boys",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Figueroa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olmeda",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lucero",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-20",
+     "local": "liberal-argentino",
+     "visitante": "barracas-central",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Flores",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ricci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ruschione",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ruschione",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Nóbile",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-20",
+     "local": "dock-sud",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Garófalo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pangrazzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Adet",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-20",
+     "local": "gutenberg",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Gutenberg",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Garbini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-20",
+     "local": "el-porvenir",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Ríos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hermo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Etcheverry",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-05-27",
+     "local": "estudiantil-porteno",
+     "visitante": "sportivo-alsina",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Zatelli",
+       "equipo": "visitante",
+       "min": 14
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "local",
+       "min": 18
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "visitante",
+       "min": 20
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "local",
+       "min": 22
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "local",
+       "min": 72
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1934-06-10",
+     "local": "ramsar",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Ramsar",
+     "goles": [
+      {
+       "jugador": "Agrelo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-10",
+     "local": "sportivo-buenos-aires",
+     "visitante": "gutenberg",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Villegas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villegas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Derito",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-10",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes BA",
+     "goles": [
+      {
+       "jugador": "Bottín",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pangrazzi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-10",
+     "local": "almagro",
+     "visitante": "liberal-argentino",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "De la Peña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De la Peña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bonifacio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sofiantini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-10",
+     "local": "barracas-central",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Cocucci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ruiz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Avio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-10",
+     "local": "banfield",
+     "visitante": "palermo-buenos-aires",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Mattas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mattas",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-10",
+     "local": "sportivo-alsina",
+     "visitante": "excursionistas",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Zatelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Avelino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-10",
+     "local": "argentino-de-quilmes",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Leone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Borjas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-10",
+     "local": "acassuso",
+     "visitante": "general-san-martin",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Acassuso",
+     "goles": []
+    },
+    {
+     "fecha": "1934-06-10",
+     "local": "nueva-chicago",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Dematteo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Toscano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-10",
+     "local": "defensores-de-belgrano",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Lupo",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Se suspendió a los 60 minutos, porque los jugadores de Sportivo Barracas se fueron de la cancha, y quedó el 1-0."
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1934-06-17",
+     "local": "sportivo-barracas",
+     "visitante": "argentino-de-temperley",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1934-06-17",
+     "local": "colegiales",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "C.Toscano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.Toscano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ruano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-17",
+     "local": "general-san-martin",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de General San Martín",
+     "goles": [
+      {
+       "jugador": "Calzetta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calzetta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-17",
+     "local": "acassuso",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Acassuso",
+     "goles": [
+      {
+       "jugador": "García",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "García",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-17",
+     "local": "excursionistas",
+     "visitante": "argentino-de-quilmes",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Mucielo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Graziano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Graziano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ballerio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Páez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Páez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-17",
+     "local": "banfield",
+     "visitante": "sportivo-alsina",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Almeda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Almeda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zorrilla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zorrilla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lucero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-17",
+     "local": "palermo-buenos-aires",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Palermo",
+     "goles": [
+      {
+       "jugador": "Loredo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Grandio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nóbile",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cocucci",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-17",
+     "local": "all-boys",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Duarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trujillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bonifacio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-17",
+     "local": "liberal-argentino",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Pagani",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pagani",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Alarcón",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Garbini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Garbini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-17",
+     "local": "dock-sud",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Garófalo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garófalo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zuber",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Benedetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-17",
+     "local": "gutenberg",
+     "visitante": "ramsar",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Gutenberg",
+     "goles": [
+      {
+       "jugador": "Caffe",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Folco",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Díaz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1934-06-24",
+     "local": "ramsar",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Ramsar",
+     "goles": [
+      {
+       "jugador": "Pangrazzi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zuber",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Garófalo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-24",
+     "local": "sportivo-buenos-aires",
+     "visitante": "liberal-argentino",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Portela",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Portela",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Portela",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alayón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maggi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maggi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maggi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-24",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "all-boys",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes BA",
+     "goles": [
+      {
+       "jugador": "Hermida",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hunglinger",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hunglinger",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garbini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garrido",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-24",
+     "local": "almagro",
+     "visitante": "palermo-buenos-aires",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Balatti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Adet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Adet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bonifacio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tottene",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-24",
+     "local": "argentino-de-quilmes",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Ríos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calvo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mattas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mattas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Olmeda",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-24",
+     "local": "acassuso",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Acassuso",
+     "goles": [
+      {
+       "jugador": "Juárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tiberio",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-24",
+     "local": "nueva-chicago",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Buccino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-06-24",
+     "local": "argentino-de-temperley",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": []
+    },
+    {
+     "fecha": "1934-08-19",
+     "local": "barracas-central",
+     "visitante": "sportivo-alsina",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Racioppi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Racioppi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-19",
+     "local": "defensores-de-belgrano",
+     "visitante": "general-san-martin",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Lupo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lupo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-23",
+     "local": "el-porvenir",
+     "visitante": "gutenberg",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Hermo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Capiello",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De Martino",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1934-07-01",
+     "local": "colegiales",
+     "visitante": "sportivo-barracas",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Uriarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Uriarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alfonso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Guardón",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Cavanna",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-01",
+     "local": "general-san-martin",
+     "visitante": "argentino-de-temperley",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de General San Martín",
+     "goles": [
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calzetta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-01",
+     "local": "estudiantil-porteno",
+     "visitante": "defensores-de-belgrano",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Buccino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Buccino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Borjas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Punciolo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-01",
+     "local": "excursionistas",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Barabini",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Se suspendió a los 70 minutos, porque los jugadores de Nueva Chicago se fueron de la cancha, y quedó el 1-0."
+    },
+    {
+     "fecha": "1934-07-01",
+     "local": "banfield",
+     "visitante": "acassuso",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Almeda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Almeda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Almeda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Almeda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zorrilla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Durand",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-01",
+     "local": "barracas-central",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Caracciolo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cocucci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calvo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-01",
+     "local": "sportivo-alsina",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Baró",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bonifacio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-01",
+     "local": "palermo-buenos-aires",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Palermo",
+     "goles": [
+      {
+       "jugador": "Loredo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Grandío",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hunglinger",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Hunglinger",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vesperoni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-01",
+     "local": "all-boys",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Figueroa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trujillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Acri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villegas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Villegas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-01",
+     "local": "liberal-argentino",
+     "visitante": "ramsar",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Maggi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-01",
+     "local": "dock-sud",
+     "visitante": "el-porvenir",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Pangrazzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rieter",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Etcheverry",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1934-07-15",
+     "local": "gutenberg",
+     "visitante": "dock-sud",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Gutenberg",
+     "goles": [
+      {
+       "jugador": "Lamoneda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lofeudo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caffe",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fidel",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-15",
+     "local": "el-porvenir",
+     "visitante": "liberal-argentino",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Agrelo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Agrelo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hermo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hermo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Etcheverry",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Ricci",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-15",
+     "local": "ramsar",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ramsar",
+     "goles": [
+      {
+       "jugador": "Etulain",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trujillo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-15",
+     "local": "sportivo-buenos-aires",
+     "visitante": "palermo-buenos-aires",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Lapadula",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villegas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castellano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Loredo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Loredo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Roverano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Roverano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-15",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "sportivo-alsina",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes BA",
+     "goles": [
+      {
+       "jugador": "Garbini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garbini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dardis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hunglinger",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hunglinger",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-15",
+     "local": "almagro",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Oro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Donato",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-15",
+     "local": "acassuso",
+     "visitante": "barracas-central",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Acassuso",
+     "goles": [
+      {
+       "jugador": "Ruschioni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-15",
+     "local": "nueva-chicago",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Castillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Del Río",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mattas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mattas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lucero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Olmeda",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-15",
+     "local": "defensores-de-belgrano",
+     "visitante": "excursionistas",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Galarza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Galarza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ruano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gómez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-15",
+     "local": "argentino-de-temperley",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bettinotti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-15",
+     "local": "sportivo-barracas",
+     "visitante": "general-san-martin",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Cavanna",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1934-07-22",
+     "local": "colegiales",
+     "visitante": "general-san-martin",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Uriarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Toscano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-22",
+     "local": "estudiantil-porteno",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-22",
+     "local": "excursionistas",
+     "visitante": "argentino-de-temperley",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Dorio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barabini",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-22",
+     "local": "banfield",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Mattas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mattas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zorrilla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lupo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-22",
+     "local": "barracas-central",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Cocucci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cocucci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nóbile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Del Río",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-22",
+     "local": "almagro",
+     "visitante": "acassuso",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Ducrey",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Morganti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chani",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-22",
+     "local": "argentino-de-quilmes",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Calvo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Méndez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-22",
+     "local": "sportivo-alsina",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castellano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castellano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Toro",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-22",
+     "local": "palermo-buenos-aires",
+     "visitante": "ramsar",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Palermo",
+     "goles": [
+      {
+       "jugador": "Etulain",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-22",
+     "local": "all-boys",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Cappiello",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Hermo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-19",
+     "local": "liberal-argentino",
+     "visitante": "gutenberg",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Martegani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martegani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martegani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maggi",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1934-07-29",
+     "local": "dock-sud",
+     "visitante": "liberal-argentino",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Pangrazzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zuber",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zuber",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-29",
+     "local": "gutenberg",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: All Boys no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1934-07-29",
+     "local": "el-porvenir",
+     "visitante": "palermo-buenos-aires",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Hermo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aliberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aliberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aliberti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-29",
+     "local": "ramsar",
+     "visitante": "sportivo-alsina",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Ramsar",
+     "goles": [
+      {
+       "jugador": "Etulain",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Etulain",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-29",
+     "local": "sportivo-buenos-aires",
+     "visitante": "argentino-de-quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Castellano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gronus",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fussani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calvo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-29",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "acassuso",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes BA",
+     "goles": [
+      {
+       "jugador": "Niño",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Garbini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morganti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rabufetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-29",
+     "local": "nueva-chicago",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1934-07-29",
+     "local": "defensores-de-belgrano",
+     "visitante": "barracas-central",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Lupo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lupo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lupo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-29",
+     "local": "argentino-de-temperley",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Zorrilla",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zorrilla",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zorrilla",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-29",
+     "local": "sportivo-barracas",
+     "visitante": "excursionistas",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Vázquez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vázquez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gianoli",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-07-29",
+     "local": "colegiales",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Mapelli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "C.Toscano",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1934-08-05",
+     "local": "estudiantil-porteno",
+     "visitante": "general-san-martin",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-05",
+     "local": "excursionistas",
+     "visitante": "colegiales",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Graziano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Graziano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arellini",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-05",
+     "local": "sportivo-barracas",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1934-08-05",
+     "local": "barracas-central",
+     "visitante": "argentino-de-temperley",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mazza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-05",
+     "local": "defensores-de-belgrano",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Belis",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-05",
+     "local": "nueva-chicago",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Hermida",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-05",
+     "local": "acassuso",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Acassuso",
+     "goles": [
+      {
+       "jugador": "Rabufetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rabufetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rabufetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morganti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gramis",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-05",
+     "local": "argentino-de-quilmes",
+     "visitante": "ramsar",
+     "gl": 9,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Scialaba",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ruiz",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Calvo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calvo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Donato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caccióppoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamberti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ruiz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-05",
+     "local": "sportivo-alsina",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Baró",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zatelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zatelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zazzarino",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-05",
+     "local": "palermo-buenos-aires",
+     "visitante": "gutenberg",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Gutenberg no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1934-08-05",
+     "local": "all-boys",
+     "visitante": "dock-sud",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Acri",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1934-08-12",
+     "local": "liberal-argentino",
+     "visitante": "all-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Ricci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ricci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maggi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-12",
+     "local": "dock-sud",
+     "visitante": "palermo-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Garófalo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-12",
+     "local": "gutenberg",
+     "visitante": "sportivo-alsina",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Derito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lofeudo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-12",
+     "local": "el-porvenir",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Hermo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sovera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calvo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-12",
+     "local": "ramsar",
+     "visitante": "acassuso",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ramsar",
+     "goles": [
+      {
+       "jugador": "Lamberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ducrey",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-12",
+     "local": "sportivo-buenos-aires",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Del Río",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Aguilar Pinedo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-12",
+     "local": "defensores-de-belgrano",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Belis",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-12",
+     "local": "argentino-de-temperley",
+     "visitante": "almagro",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "D.Barba",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D.Barba",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravello",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bonifacio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bonifacio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-12",
+     "local": "sportivo-barracas",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Ocasis",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-12",
+     "local": "colegiales",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Montero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Toscano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mattas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mattas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-12",
+     "local": "general-san-martin",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de General San Martín",
+     "goles": [
+      {
+       "jugador": "Esteban",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ballerio",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1934-08-26",
+     "local": "excursionistas",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Marín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ballerio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Borjas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-26",
+     "local": "banfield",
+     "visitante": "general-san-martin",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Natale",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zorrilla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mattas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mattas",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-26",
+     "local": "barracas-central",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-26",
+     "local": "almagro",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Bonifacio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Oro",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-26",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "argentino-de-temperley",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes BA",
+     "goles": [
+      {
+       "jugador": "Hermida",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hunglinger",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-26",
+     "local": "sportivo-buenos-aires",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "De Año",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lupo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lupo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-26",
+     "local": "nueva-chicago",
+     "visitante": "ramsar",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Del Río",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Del Río",
+       "equipo": "local"
+      },
+      {
+       "jugador": "López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aguilar Pinedo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-26",
+     "local": "acassuso",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Acassuso",
+     "goles": []
+    },
+    {
+     "fecha": "1934-08-26",
+     "local": "argentino-de-quilmes",
+     "visitante": "gutenberg",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calvo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-26",
+     "local": "sportivo-alsina",
+     "visitante": "dock-sud",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Zatelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Racioppi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garófalo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-08-26",
+     "local": "palermo-buenos-aires",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Palermo",
+     "goles": [
+      {
+       "jugador": "Pardal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Loredo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maggi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Flores",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1934-09-02",
+     "local": "all-boys",
+     "visitante": "palermo-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Tuccioli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Suárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cocchi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-02",
+     "local": "liberal-argentino",
+     "visitante": "sportivo-alsina",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Martegani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ricci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Felices",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-02",
+     "local": "dock-sud",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Polinetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Paulak",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vázquez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-02",
+     "local": "gutenberg",
+     "visitante": "acassuso",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Gutenberg",
+     "goles": [
+      {
+       "jugador": "Loviliani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Derito",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-02",
+     "local": "el-porvenir",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Ríos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hermo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Agrelo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-02",
+     "local": "ramsar",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Ramsar",
+     "goles": [
+      {
+       "jugador": "Lupo",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 59 minutos, y quedó el 0-1."
+    },
+    {
+     "fecha": "1934-09-02",
+     "local": "sportivo-barracas",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Mourín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gianoli",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-02",
+     "local": "colegiales",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "C.Toscano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De la Peña",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-02",
+     "local": "general-san-martin",
+     "visitante": "barracas-central",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de General San Martín",
+     "goles": [
+      {
+       "jugador": "Aldana",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Suárez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calzetta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-23",
+     "local": "argentino-de-temperley",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "Souza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Somaini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravello",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pacenza",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Caliccio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-23",
+     "local": "estudiantil-porteno",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Poletto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Buccino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1934-09-16",
+     "local": "banfield",
+     "visitante": "excursionistas",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Bertetti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-16",
+     "local": "barracas-central",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1934-09-16",
+     "local": "almagro",
+     "visitante": "general-san-martin",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Benvenutti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Oro",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-16",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes BA",
+     "goles": [
+      {
+       "jugador": "Méndez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garbini",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-16",
+     "local": "sportivo-buenos-aires",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "A.Gramis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Gramis",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-16",
+     "local": "argentino-de-temperley",
+     "visitante": "ramsar",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "D.Barba",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D.Barba",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-16",
+     "local": "defensores-de-belgrano",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Beltrame",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Galarza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lupo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Etcheverry",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-16",
+     "local": "nueva-chicago",
+     "visitante": "gutenberg",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Del Río",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Del Río",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lofeudo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lofeudo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lodigini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-16",
+     "local": "acassuso",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Acassuso",
+     "goles": []
+    },
+    {
+     "fecha": "1934-09-16",
+     "local": "argentino-de-quilmes",
+     "visitante": "liberal-argentino",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ríos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ríos",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-16",
+     "local": "sportivo-alsina",
+     "visitante": "all-boys",
+     "gl": 7,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Baró",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zatelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Racioppi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rossi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rossi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Acri",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Trujillo",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1934-09-30",
+     "local": "palermo-buenos-aires",
+     "visitante": "sportivo-alsina",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Palermo",
+     "goles": [
+      {
+       "jugador": "Gutiérrez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-30",
+     "local": "all-boys",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Cuccioli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-30",
+     "local": "liberal-argentino",
+     "visitante": "acassuso",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Rabufetti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rabufetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-30",
+     "local": "dock-sud",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Garófalo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pangrazzi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-30",
+     "local": "gutenberg",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Gutenberg",
+     "goles": [
+      {
+       "jugador": "Lofeudo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lupo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lupo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Galarza",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-30",
+     "local": "el-porvenir",
+     "visitante": "argentino-de-temperley",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Gorognano",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Etcheverry",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hermo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-30",
+     "local": "sportivo-barracas",
+     "visitante": "ramsar",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Marassi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mourín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Borelli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Borelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-30",
+     "local": "colegiales",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Alonso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castellano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fussani",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-30",
+     "local": "general-san-martin",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de General San Martín",
+     "goles": [
+      {
+       "jugador": "Calzetta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alarcón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-30",
+     "local": "estudiantil-porteno",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Bettinotti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Buccino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De la Peña",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-09-30",
+     "local": "excursionistas",
+     "visitante": "barracas-central",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Ballerio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ballerio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ballerio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vilas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Graziano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1934-10-07",
+     "local": "banfield",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Olmeda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bertetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-07",
+     "local": "almagro",
+     "visitante": "excursionistas",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "De la Peña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De la Peña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De la Peña",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ballerio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vilas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-07",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes BA",
+     "goles": [
+      {
+       "jugador": "Hunglinger",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-07",
+     "local": "sportivo-buenos-aires",
+     "visitante": "general-san-martin",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "De Año",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Santillán",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-07",
+     "local": "ramsar",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Ramsar",
+     "goles": [
+      {
+       "jugador": "A.Etulain",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Etulain",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.Toscano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-07",
+     "local": "el-porvenir",
+     "visitante": "sportivo-barracas",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Hermo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hermo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Agrelo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-07",
+     "local": "argentino-de-temperley",
+     "visitante": "gutenberg",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "D.Barba",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D.Barba",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Barba",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Marco",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "González",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-07",
+     "local": "defensores-de-belgrano",
+     "visitante": "dock-sud",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Lupo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Polinetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-07",
+     "local": "nueva-chicago",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Aguilar Pinedo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Posse",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Menutti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-07",
+     "local": "acassuso",
+     "visitante": "all-boys",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Acassuso",
+     "goles": [
+      {
+       "jugador": "Chani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rabufetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rabufetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ducrey",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-07",
+     "local": "argentino-de-quilmes",
+     "visitante": "palermo-buenos-aires",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Calvo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calvo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Leone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gutiérrez",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1934-10-14",
+     "local": "sportivo-alsina",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Baró",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-14",
+     "local": "palermo-buenos-aires",
+     "visitante": "acassuso",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Palermo",
+     "goles": [
+      {
+       "jugador": "López",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Ducrey",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chani",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-14",
+     "local": "all-boys",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Pelaez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garrido",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trujillo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Castillo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Berlanga",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-14",
+     "local": "liberal-argentino",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Maggi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Belis",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Beltrame",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lupo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lupo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-14",
+     "local": "dock-sud",
+     "visitante": "argentino-de-temperley",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Garófalo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garófalo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-14",
+     "local": "gutenberg",
+     "visitante": "sportivo-barracas",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Cancha de Gutenberg",
+     "goles": [
+      {
+       "jugador": "Lofeudo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lofeudo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lofeudo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lofeudo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De Martino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De Martino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perdomo",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Se suspendió a los 60 minutos, porque los jugadores de Sportivo Barracas se fueron de la cancha, y quedó el 7-0."
+    },
+    {
+     "fecha": "1934-10-14",
+     "local": "colegiales",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Toscano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Agrelo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-14",
+     "local": "general-san-martin",
+     "visitante": "ramsar",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de General San Martín",
+     "goles": [
+      {
+       "jugador": "Santillán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olalla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-14",
+     "local": "estudiantil-porteno",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Mapelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "V.Gramis",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-14",
+     "local": "excursionistas",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Ballerio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vilas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Graziano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alarcón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-14",
+     "local": "banfield",
+     "visitante": "almagro",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Bertetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olmeda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olmeda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zanelli",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1934-10-21",
+     "local": "almagro",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Adet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Adet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cancela",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-21",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes BA",
+     "goles": [
+      {
+       "jugador": "Hunglinger",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olmeda",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-21",
+     "local": "sportivo-buenos-aires",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "A.Gramis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Benedetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ballerio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vilas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Patrón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-21",
+     "local": "ramsar",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Ramsar",
+     "goles": [
+      {
+       "jugador": "Bettinotti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Martínez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-21",
+     "local": "el-porvenir",
+     "visitante": "general-san-martin",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Escola",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-21",
+     "local": "gutenberg",
+     "visitante": "colegiales",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Gutenberg",
+     "goles": [
+      {
+       "jugador": "Biocca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lofeudo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lofeudo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-21",
+     "local": "sportivo-barracas",
+     "visitante": "dock-sud",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Massei",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marassi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Polinetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-21",
+     "local": "argentino-de-temperley",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Temperley",
+     "goles": [
+      {
+       "jugador": "D.Barba",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bartolomé",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-21",
+     "local": "defensores-de-belgrano",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Lupo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-21",
+     "local": "nueva-chicago",
+     "visitante": "palermo-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Aguilar Pinedo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Berlanga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Roverano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-21",
+     "local": "acassuso",
+     "visitante": "sportivo-alsina",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Acassuso",
+     "goles": [
+      {
+       "jugador": "Arnaiz",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1934-10-28",
+     "local": "argentino-de-quilmes",
+     "visitante": "acassuso",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Bonis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Leone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Leone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ducrey",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Morganti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rabufetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-28",
+     "local": "sportivo-alsina",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Alsina",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Baró",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-28",
+     "local": "palermo-buenos-aires",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Palermo",
+     "goles": [
+      {
+       "jugador": "Punciolo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lupo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-28",
+     "local": "all-boys",
+     "visitante": "argentino-de-temperley",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Peláez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Peláez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cuccioli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cuccioli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cuccioli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D.Barba",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Souza",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-28",
+     "local": "liberal-argentino",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Martegani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Martegani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ramillo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marassi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marassi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-28",
+     "local": "dock-sud",
+     "visitante": "colegiales",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Tabar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garófalo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garófalo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pangrazzi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-28",
+     "local": "general-san-martin",
+     "visitante": "gutenberg",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de General San Martín",
+     "goles": [
+      {
+       "jugador": "Santillán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calzetta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Biocca",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-28",
+     "local": "estudiantil-porteno",
+     "visitante": "el-porvenir",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mapelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Etcheverry",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Etcheverry",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-28",
+     "local": "excursionistas",
+     "visitante": "ramsar",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Ballerio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Etulain",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-28",
+     "local": "banfield",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Olmeda",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1934-10-28",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "barracas-central",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes BA",
+     "goles": [
+      {
+       "jugador": "Hermida",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Destéfano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alarcón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alarcón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garbini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cocucci",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "González",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 64 minutos, porque los jugadores de Barracas Central se fueron de la cancha, y quedó el 6-2."
+    }
+   ]
+  }
+ ]
+}
