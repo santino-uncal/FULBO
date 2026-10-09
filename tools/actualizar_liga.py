@@ -33,6 +33,21 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1947: el Campeonato de Primera División 1947 (abril a noviembre; campeón River, con Di Stéfano): 16 equipos a dos
+    # ruedas (30 fechas), con 2 puntos por partido ganado. Bajaba el último de la tabla (no había promedios): Atlanta. Cuatro
+    # partidos se suspendieron sobre el final y quedó el resultado (cada uno con su nota). ESPN no lo tiene: va a mano
+    # (tools/a_mano; RSSSF, sin goles salvo los del River-Rosario Central de la fecha 29; RSSSF no trae la tabla, controlada
+    # con la de Wikipedia). No había Libertadores todavía
+    "1947-primera": {"nombre": "Campeonato de Primera División 1947", "anio": 1947, "liga": "a_mano", "slug": "1947-primera",
+                     "zonas": "unica", "fechas": 30, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, el de Wikipedia (que en este torneo coincide con "
+                                    "la diferencia de gol).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1947 (las 30 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del River 4-0 Rosario Central de la fecha 29, el partido en el que "
+                                        "River salió campeón (de RSSSF, con los minutos). El goleador del torneo fue Alfredo "
+                                        "Di Stéfano (River), con 27 goles.",
+                     "descensos": "tabla", "descienden": 1},
     # 1948: el Campeonato de Primera División 1948 (abril a diciembre; campeón Independiente): 16 equipos a dos ruedas (30
     # fechas), con 2 puntos por partido ganado. Hubo una huelga de jugadores y en las últimas fechas los clubes jugaron con
     # juveniles; por eso la AFA anuló los descensos. Racing no se presentó a los dos últimos partidos: se los dieron ganados
