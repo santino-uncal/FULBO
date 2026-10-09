@@ -33,6 +33,25 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1941: el Campeonato de Primera División 1941 (marzo a noviembre; campeón River): 16 equipos a dos ruedas (30 fechas),
+    # con 2 puntos por partido ganado. Por un soborno en la fecha 10, a Banfield la AFA lo sancionó por 60 días y le
+    # descontó 2 puntos en cada uno de los 8 partidos de ese tiempo (16 en total; cada uno con su nota). Bajaba el último
+    # de la tabla (no había promedios): Rosario Central. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles salvo
+    # los del Estudiantes-River de la fecha 30). No había Libertadores todavía
+    "1941-primera": {"nombre": "Campeonato de Primera División 1941", "anio": 1941, "liga": "a_mano", "slug": "1941-primera",
+                     "zonas": "unica", "fechas": 30, "pasan": 0, "puntos_victoria": 2, "campeon_tabla": True,
+                     "orden_texto": "Orden: puntos y, con los mismos puntos, el de RSSSF (que en este torneo coincide con la "
+                                    "diferencia de gol).",
+                     "descuentos": {"banfield": 16},
+                     "descuentos_texto": "A Banfield se le descontaron 16 puntos: por un soborno en la fecha 10, la AFA lo "
+                                         "sancionó por 60 días, con 2 puntos menos por cada uno de los 8 partidos de ese "
+                                         "tiempo. Sin el descuento, hubiese terminado octavo.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1941 (las 30 fechas). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo del Estudiantes 1-3 River de la última fecha, el partido en el que "
+                                        "River salió campeón (de RSSSF, con los minutos). El goleador del torneo fue José "
+                                        "Canteli (Newell's), con 30 goles.",
+                     "descensos": "tabla", "descienden": 1},
     # 1942: el Campeonato de Primera División 1942 (abril a noviembre; campeón River, bicampeón): 16 equipos a dos ruedas
     # (30 fechas), con 2 puntos por partido ganado. Bajaba el último de la tabla (no había promedios): Tigre. ESPN no lo
     # tiene: va a mano (tools/a_mano; RSSSF, sin goles salvo los del Boca-River de la fecha 28; RSSSF no trae la tabla,
