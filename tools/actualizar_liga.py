@@ -33,6 +33,40 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1922: las dos ligas, amateurs las dos (la AFA reconoce a los dos campeones). La de la Asociación Argentina (abril de
+    # 1922 a enero de 1923; campeón Huracán): 17 equipos a una rueda, con 2 puntos por partido ganado. Un Del
+    # Plata-Progresista suspendido, 1-0, no se terminó porque Progresista no se presentó: en la tabla de RSSSF cuenta el
+    # 1-0 ("para_local"). Platense II va como Universal, y Sportivo del Norte, como Colegiales. ESPN no los tiene: van a
+    # mano (tools/a_mano; RSSSF, con los goles de algunos partidos)
+    "1922-aaf": {"nombre": "Campeonato de Primera División 1922 (amateur, Asociación Argentina de Football)", "anio": 1922,
+                 "liga": "a_mano", "slug": "1922-aaf", "zonas": "unica", "fechas": 24, "pasan": 0, "puntos_victoria": 2,
+                 "campeon_tabla": True,
+                 "orden_texto": "Campeonato amateur, de la Asociación Argentina de Football: de 1919 a 1926 hubo dos ligas, "
+                                "esta y la de la Asociación Amateurs, y la AFA reconoce a los campeones de las dos. Orden: "
+                                "puntos y, con los mismos puntos, la diferencia de gol (que coincide con el orden de RSSSF). "
+                                "Universal se llamaba Platense II; Colegiales, Sportivo del Norte; Dock Sud, Sportivo Dock Sud.",
+                 "anual_texto": "La tabla del Campeonato de Primera División 1922 de la Asociación Argentina (amateur). Cada "
+                                "partido ganado valía 2 puntos.",
+                 "goleadores_nota": "Los goles son solo de algunos partidos (de RSSSF, sin minutos). Según RSSSF, el goleador "
+                                    "del torneo fue José Gaslini (Alvear), con 13 goles.",
+                 "sin_descensos": "No hubo descensos."},
+    # La de la Asociación Amateurs (abril de 1922 a octubre de 1923; campeón Independiente): 21 equipos a dos ruedas (57
+    # fechas, contando las de los partidos atrasados), con 2 puntos por partido ganado. Tres suspendidos se los dieron
+    # ganados a uno, con los goles en la tabla. El San Lorenzo-River del 24 de diciembre se terminó en mayo de 1923; RSSSF
+    # no trae el resultado, pero en su tabla cuenta un 1-1. Manuel Seoane hizo 51 goles
+    "1922-amateurs": {"nombre": "Campeonato de Primera División 1922 (amateur, Asociación Amateurs)", "anio": 1922,
+                      "liga": "a_mano", "slug": "1922-amateurs", "zonas": "unica", "fechas": 57, "pasan": 0,
+                      "puntos_victoria": 2, "campeon_tabla": True,
+                      "orden_texto": "Campeonato amateur, de la Asociación Amateurs Argentina de Football: de 1919 a 1926 hubo "
+                                     "dos ligas, esta y la de la Asociación Argentina, y la AFA reconoce a los campeones de las "
+                                     "dos. Era a dos ruedas y terminó en octubre de 1923, con muchos partidos atrasados. Orden: "
+                                     "puntos y, con los mismos puntos, la diferencia de gol (que coincide con el orden de "
+                                     "RSSSF). Almagro se llamaba Sportivo Almagro.",
+                      "anual_texto": "La tabla del Campeonato de Primera División 1922 de la Asociación Amateurs. Cada "
+                                     "partido ganado valía 2 puntos.",
+                      "goleadores_nota": "Los goles son solo de algunos partidos (de RSSSF, sin minutos). Según RSSSF, el "
+                                         "goleador del torneo fue Manuel Seoane (Independiente), con 51 goles.",
+                      "sin_descensos": "No hubo descensos."},
     # 1923: las dos ligas, amateurs las dos (la AFA reconoce a los dos campeones). La de la Asociación Amateurs (julio de
     # 1923 a enero de 1924; campeón San Lorenzo): 21 equipos a una rueda, con 2 puntos por partido ganado. Los suspendidos
     # que la asociación le dio ganados a uno van con el resultado del momento y sin goles en la tabla ("para_local"), como

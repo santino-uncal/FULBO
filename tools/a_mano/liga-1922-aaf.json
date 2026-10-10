@@ -1,0 +1,1808 @@
+{
+ "nombre": "Campeonato de Primera División 1922 (amateur, Asociación Argentina de Football)",
+ "fuente": "Resultados, días y fechas: RSSSF (Pablo Ciullini, de La Nación y La Prensa), con los goles de algunos partidos (sin minutos; los que RSSSF no dice van sin autor). RSSSF no trae las canchas: va la del local, salvo las que dice. Los partidos suspendidos que se terminaron o se volvieron a jugar van una sola vez, con el resultado final. Platense II (después Retiro y Universal) va como Universal, y Sportivo del Norte, como Colegiales. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1922-04-23",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Bertagni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caldera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ginevra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Loizo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-04-23",
+     "local": "san-fernando",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1922-04-23",
+     "local": "boca-juniors",
+     "visitante": "dock-sud",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Bertolini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calomino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De los Santos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-04-23",
+     "local": "sportivo-barracas",
+     "visitante": "del-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1922-04-23",
+     "local": "nueva-chicago",
+     "visitante": "alvear",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1922-04-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1922-04-23",
+     "local": "porteno",
+     "visitante": "progresista",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1922-04-23",
+     "local": "universal",
+     "visitante": "boca-alumni",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Urquiza",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1922-04-30",
+     "local": "argentinos-juniors",
+     "visitante": "del-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1922-04-30",
+     "local": "sportivo-barracas",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Calomino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-04-30",
+     "local": "sportivo-palermo",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Lizarraga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-04-30",
+     "local": "el-porvenir",
+     "visitante": "universal",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1922-04-30",
+     "local": "alvear",
+     "visitante": "progresista",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1922-04-30",
+     "local": "nueva-chicago",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1922-04-30",
+     "local": "boca-alumni",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1922-04-30",
+     "local": "porteno",
+     "visitante": "san-fernando",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1922-05-07",
+     "local": "sportivo-palermo",
+     "visitante": "san-fernando",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1922-05-07",
+     "local": "boca-juniors",
+     "visitante": "del-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Calomino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bozzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Deibe",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-05-07",
+     "local": "el-porvenir",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1922-05-07",
+     "local": "sportivo-barracas",
+     "visitante": "alvear",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1922-05-07",
+     "local": "huracan",
+     "visitante": "dock-sud",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Onzari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caldera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Salvarredi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-05-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1922-05-07",
+     "local": "universal",
+     "visitante": "progresista",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Urquiza",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1922-05-14",
+     "local": "el-porvenir",
+     "visitante": "san-fernando",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Bustince",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-05-14",
+     "local": "alvear",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1922-05-14",
+     "local": "del-plata",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Del Plata",
+     "goles": [
+      {
+       "jugador": "Chiesa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Laguna",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-05-14",
+     "local": "porteno",
+     "visitante": "dock-sud",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1922-05-14",
+     "local": "sportivo-palermo",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Tazín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Clarke",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Clarke",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calomino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bozzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-05-14",
+     "local": "argentinos-juniors",
+     "visitante": "boca-alumni",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1922-05-14",
+     "local": "colegiales",
+     "visitante": "progresista",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de CA San Martín",
+     "goles": []
+    },
+    {
+     "fecha": "1922-05-14",
+     "local": "nueva-chicago",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportivo Barracas no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1922-05-21",
+     "local": "alvear",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1922-05-21",
+     "local": "universal",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Urquiza",
+     "goles": []
+    },
+    {
+     "fecha": "1922-05-21",
+     "local": "boca-juniors",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Elli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sacarello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-05-21",
+     "local": "colegiales",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Chiesa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-05-21",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "dock-sud",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1922-05-21",
+     "local": "progresista",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1922-05-21",
+     "local": "san-fernando",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1922-05-28",
+     "local": "dock-sud",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1922-05-28",
+     "local": "del-plata",
+     "visitante": "san-fernando",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1922-05-28",
+     "local": "sportivo-palermo",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1922-05-28",
+     "local": "universal",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Urquiza",
+     "goles": []
+    },
+    {
+     "fecha": "1922-05-28",
+     "local": "nueva-chicago",
+     "visitante": "boca-alumni",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1922-05-28",
+     "local": "progresista",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Progresista",
+     "goles": [
+      {
+       "jugador": "Cevasco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bozzo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bozzo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-05-28",
+     "local": "argentinos-juniors",
+     "visitante": "porteno",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1922-06-04",
+     "local": "sportivo-barracas",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-04",
+     "local": "huracan",
+     "visitante": "progresista",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vázquez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nóbile",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "C.Vázquez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gurrutchague",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-06-04",
+     "local": "san-fernando",
+     "visitante": "boca-alumni",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-04",
+     "local": "porteno",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-04",
+     "local": "boca-juniors",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calomino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rivero",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Villagra",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-06-04",
+     "local": "universal",
+     "visitante": "alvear",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-04",
+     "local": "el-porvenir",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-04",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "del-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1922-06-11",
+     "local": "sportivo-palermo",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-11",
+     "local": "del-plata",
+     "visitante": "boca-alumni",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-11",
+     "local": "dock-sud",
+     "visitante": "universal",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-11",
+     "local": "colegiales",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-11",
+     "local": "san-fernando",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de San Fernando",
+     "goles": [
+      {
+       "jugador": "Onzari",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-06-11",
+     "local": "argentinos-juniors",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-11",
+     "local": "alvear",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Alvear",
+     "goles": [
+      {
+       "jugador": "Médici",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Gaslini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ricci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-06-11",
+     "local": "progresista",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1922-06-18",
+     "local": "colegiales",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Rossi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Calomino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "De Césari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-06-18",
+     "local": "dock-sud",
+     "visitante": "boca-alumni",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-18",
+     "local": "alvear",
+     "visitante": "san-fernando",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-18",
+     "local": "el-porvenir",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Onzari",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Loizo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ginevra",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-06-18",
+     "local": "del-plata",
+     "visitante": "universal",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-18",
+     "local": "nueva-chicago",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-18",
+     "local": "sportivo-palermo",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-18",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1922-06-25",
+     "local": "del-plata",
+     "visitante": "dock-sud",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-25",
+     "local": "san-fernando",
+     "visitante": "progresista",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-25",
+     "local": "argentinos-juniors",
+     "visitante": "alvear",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-25",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Caldera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Salvarredi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Salvarredi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-06-25",
+     "local": "sportivo-barracas",
+     "visitante": "boca-alumni",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-25",
+     "local": "universal",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Urquiza",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-25",
+     "local": "nueva-chicago",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1922-06-25",
+     "local": "porteno",
+     "visitante": "el-porvenir",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1922-09-17",
+     "local": "universal",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Urquiza",
+     "goles": []
+    },
+    {
+     "fecha": "1922-09-17",
+     "local": "boca-alumni",
+     "visitante": "progresista",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1922-09-17",
+     "local": "argentinos-juniors",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1922-09-17",
+     "local": "porteno",
+     "visitante": "del-plata",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1922-09-24",
+     "local": "boca-juniors",
+     "visitante": "san-fernando",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Calomino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calomino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pereyra",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-09-24",
+     "local": "nueva-chicago",
+     "visitante": "del-plata",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1922-09-24",
+     "local": "sportivo-palermo",
+     "visitante": "sportivo-barracas",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1922-09-24",
+     "local": "colegiales",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1922-09-24",
+     "local": "progresista",
+     "visitante": "dock-sud",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1922-09-24",
+     "local": "porteno",
+     "visitante": "universal",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1922-09-24",
+     "local": "boca-alumni",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1922-10-01",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1922-10-08",
+     "local": "el-porvenir",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1922-10-08",
+     "local": "argentinos-juniors",
+     "visitante": "universal",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1922-10-08",
+     "local": "boca-alumni",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Boca Alumni",
+     "goles": [
+      {
+       "jugador": "Chiarante",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-10-08",
+     "local": "dock-sud",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1922-10-08",
+     "local": "porteno",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1922-10-08",
+     "local": "sportivo-palermo",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1922-10-15",
+     "local": "huracan",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Onzari",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-10-15",
+     "local": "boca-juniors",
+     "visitante": "universal",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Taggino",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-10-15",
+     "local": "alvear",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1922-10-15",
+     "local": "boca-alumni",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Boca Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1922-10-15",
+     "local": "del-plata",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1922-10-15",
+     "local": "progresista",
+     "visitante": "nueva-chicago",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1922-10-15",
+     "local": "san-fernando",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1922-10-15",
+     "local": "dock-sud",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1922-10-29",
+     "local": "colegiales",
+     "visitante": "del-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1922-10-29",
+     "local": "huracan",
+     "visitante": "universal",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Caldera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Laguna",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-10-29",
+     "local": "nueva-chicago",
+     "visitante": "san-fernando",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1922-10-29",
+     "local": "progresista",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1922-10-29",
+     "local": "dock-sud",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1922-10-29",
+     "local": "sportivo-barracas",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1922-10-29",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Bellomo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bozzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-10-29",
+     "local": "boca-alumni",
+     "visitante": "alvear",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Boca Alumni",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1922-11-01",
+     "local": "alvear",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1922-11-01",
+     "local": "progresista",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1922-11-01",
+     "local": "san-fernando",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1922-11-01",
+     "local": "universal",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Urquiza",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1922-11-05",
+     "local": "alvear",
+     "visitante": "del-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1922-11-05",
+     "local": "sportivo-barracas",
+     "visitante": "el-porvenir",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1922-11-05",
+     "local": "progresista",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1922-11-05",
+     "local": "boca-alumni",
+     "visitante": "porteno",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1922-11-05",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Rivas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rivas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gatti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pertini",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1922-11-19",
+     "local": "huracan",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Caldera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caldera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maglio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-11-19",
+     "local": "del-plata",
+     "visitante": "sportivo-palermo",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1922-11-19",
+     "local": "dock-sud",
+     "visitante": "san-fernando",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1922-11-19",
+     "local": "boca-juniors",
+     "visitante": "boca-alumni",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cotta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Jenda",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-11-19",
+     "local": "el-porvenir",
+     "visitante": "alvear",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1922-11-19",
+     "local": "colegiales",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportivo Barracas no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1922-11-26",
+     "local": "dock-sud",
+     "visitante": "alvear",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1922-11-26",
+     "local": "el-porvenir",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1922-11-26",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1922-12-03",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Nóbile",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1922-12-03",
+     "local": "colegiales",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1922-12-03",
+     "local": "san-fernando",
+     "visitante": "universal",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1922-12-08",
+     "local": "boca-alumni",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Boca Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1922-12-08",
+     "local": "huracan",
+     "visitante": "alvear",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gaslini",
+       "equipo": "visitante"
+      }
+     ],
+     "para_local": [
+      1,
+      1,
+      "V"
+     ],
+     "para_visitante": [
+      1,
+      1,
+      "D"
+     ],
+     "nota": "Se suspendió a los 74 minutos, 1-1, y no se terminó: los puntos fueron para Huracán (con los goles del partido en la tabla)."
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1922-12-10",
+     "local": "sportivo-barracas",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Hiller",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Laguna",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1923-01-14",
+     "local": "del-plata",
+     "visitante": "progresista",
+     "gl": 1,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      1,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      1,
+      "D"
+     ],
+     "nota": "Se suspendió a los 79 minutos, 1-0, el 8 de octubre. El 14 de enero de 1923, cuando se iban a jugar los minutos que faltaban, Progresista no se presentó y perdió el partido (en la tabla, como en la de RSSSF, cuenta el 1-0).",
+     "estadio": "Cancha de Del Plata"
+    }
+   ]
+  }
+ ]
+}
