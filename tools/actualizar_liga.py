@@ -33,6 +33,74 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1924: las dos ligas, la Asociación Argentina de Football y la Asociación Amateurs, amateurs las dos (la AFA reconoce
+    # a los dos campeones). La de la Asociación Argentina (abril a diciembre; campeón Boca, invicto): 22 equipos a una
+    # rueda, con 2 puntos por partido ganado; cinco partidos no se jugaron. Un suspendido se lo dieron ganado a Nueva
+    # Chicago, con los goles en la tabla. Platense II va como Universal; Urquiza, como General San Martín, y Sportivo del
+    # Norte, como Colegiales. La tabla de RSSSF no coincide del todo con sus resultados (goles de Sportivo Barracas y
+    # Progresista). ESPN no los tiene: van a mano (tools/a_mano; RSSSF, con los goles de algunos partidos)
+    "1924-aaf": {"nombre": "Campeonato de Primera División 1924 (amateur, Asociación Argentina de Football)", "anio": 1924,
+                 "liga": "a_mano", "slug": "1924-aaf", "zonas": "unica", "fechas": 27, "pasan": 0, "puntos_victoria": 2,
+                 "campeon_tabla": True,
+                 "orden_texto": "Campeonato amateur, de la Asociación Argentina de Football: de 1919 a 1926 hubo dos ligas, "
+                                "esta y la de la Asociación Amateurs, y la AFA reconoce a los campeones de las dos. Cinco "
+                                "partidos no se jugaron. Orden: puntos y, con los mismos puntos, la diferencia de gol (que "
+                                "coincide con el orden de RSSSF). En la tabla, Sportivo Barracas tiene un gol menos en contra "
+                                "y Progresista dos menos a favor que en la de RSSSF, que no coincide con sus propios "
+                                "resultados. Universal se llamaba Platense II; General San Martín, Urquiza; Colegiales, "
+                                "Sportivo del Norte; Argentino de Lomas, Argentino de Banfield; Dock Sud, Sportivo Dock Sud.",
+                 "anual_texto": "La tabla del Campeonato de Primera División 1924 de la Asociación Argentina (amateur). Cada "
+                                "partido ganado valía 2 puntos.",
+                 "goleadores_nota": "Los goles son solo de algunos partidos (de RSSSF, sin minutos). RSSSF no dice quién fue "
+                                    "el goleador del torneo.",
+                 "sin_descensos": "No hubo descensos."},
+    # La de la Asociación Amateurs (abril de 1924 a febrero de 1925; campeón San Lorenzo): 24 equipos a una rueda, con 2
+    # puntos por partido ganado; a Argentino del Sud le descontaron 2 puntos. Dos suspendidos se los dieron ganados a uno,
+    # con los goles en la tabla. Argentino del Sud, Quilmes y Ferro, empatados en el antepenúltimo puesto, jugaron un
+    # triangular por el descenso (en "playoffs", sin cuadro): perdió Quilmes, pero la asociación cambió las reglas y no
+    # bajó, como Estudiantes de Buenos Aires, el último. La tabla de RSSSF cuenta un gol más en un Atlanta-Ferro
+    "1924-amateurs": {"nombre": "Campeonato de Primera División 1924 (amateur, Asociación Amateurs)", "anio": 1924,
+                      "liga": "a_mano", "slug": "1924-amateurs", "zonas": "unica", "fechas": 27, "pasan": 0,
+                      "puntos_victoria": 2, "campeon_tabla": True,
+                      "descuentos": {"argentino-del-sud": 2},
+                      "descuentos_texto": "A Argentino del Sud se le descontaron 2 puntos.",
+                      "orden_texto": "Campeonato amateur, de la Asociación Amateurs Argentina de Football: de 1919 a 1926 hubo "
+                                     "dos ligas, esta y la de la Asociación Argentina, y la AFA reconoce a los campeones de las "
+                                     "dos. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide con el "
+                                     "orden de RSSSF). En la tabla, Atlanta tiene un gol menos a favor y Ferro uno menos en "
+                                     "contra que en la de RSSSF, que cuenta como 3-1 su partido de la fecha 6 (2-1). Almagro se "
+                                     "llamaba Sportivo Almagro.",
+                      "anual_texto": "La tabla del Campeonato de Primera División 1924 de la Asociación Amateurs, sin el "
+                                     "triangular por el descenso. Cada partido ganado valía 2 puntos.",
+                      "goleadores_nota": "Los goles son solo de algunos partidos (de RSSSF, sin minutos). RSSSF no dice quién "
+                                         "fue el goleador del torneo.",
+                      "nombre_playoffs": "Triangular por el descenso", "sin_cuadro": True,
+                      "playoffs": [(r"^$^", "Triangular por el descenso")],
+                      "playoffs_a_mano": {
+                          "Triangular por el descenso": [
+                              {"fecha": "1925-01-11", "local": "argentino-del-sud", "visitante": "quilmes", "gl": 2, "gv": 1,
+                               "estadio": "Cancha de Argentino del Sud"},
+                              {"fecha": "1925-01-18", "local": "quilmes", "visitante": "ferro-carril-oeste", "gl": 0, "gv": 0,
+                               "estadio": "Cancha de Estudiantes de Bernal"},
+                              {"fecha": "1925-01-25", "local": "ferro-carril-oeste", "visitante": "argentino-del-sud", "gl": 1,
+                               "gv": 1, "estadio": "Cancha de Liniers",
+                               "goles": [{"jugador": "J. Gaslini", "equipo": "local"},
+                                         {"jugador": "E. Brameri", "equipo": "visitante"}]},
+                              {"fecha": "1925-02-01", "local": "quilmes", "visitante": "argentino-del-sud", "gl": 1, "gv": 1,
+                               "estadio": "Quilmes Atlético Club",
+                               "goles": [{"jugador": "L. Sandoval", "equipo": "local"},
+                                         {"jugador": "J. Bao", "equipo": "visitante"}]},
+                              {"fecha": "1925-02-08", "local": "ferro-carril-oeste", "visitante": "quilmes", "gl": 2, "gv": 0,
+                               "estadio": "Cancha de Liniers"},
+                              {"fecha": "1925-02-15", "local": "argentino-del-sud", "visitante": "ferro-carril-oeste", "gl": 0,
+                               "gv": 0, "gana": "argentino-del-sud", "sin_goles": True,
+                               "nota": "No se jugó: Ferro no se presentó y perdió el partido."},
+                          ],
+                      },
+                      "sin_descensos": "No hubo descensos. Argentino del Sud, Quilmes y Ferro, empatados en puntos, jugaron "
+                                       "un triangular por el descenso (ver la pestaña Triangular por el descenso): Argentino "
+                                       "del Sud 6 puntos, Ferro 4 y Quilmes 2. Pero la asociación cambió las reglas y no bajó "
+                                       "Quilmes, ni Estudiantes de Buenos Aires, el último de la tabla."},
     # 1925: las dos ligas, la Asociación Argentina de Football y la Asociación Amateurs, amateurs las dos (la AFA reconoce
     # a los dos campeones). La de la Asociación Argentina (abril de 1925 a agosto de 1926; campeón Huracán): 23 equipos a
     # una rueda, con 2 puntos por partido ganado, pero Boca se fue de gira por Europa y jugó solo 7 partidos, y otros

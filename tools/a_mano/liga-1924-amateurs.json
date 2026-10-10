@@ -1,0 +1,4361 @@
+{
+ "nombre": "Campeonato de Primera División 1924 (amateur, Asociación Amateurs)",
+ "fuente": "Resultados, días y fechas: RSSSF (Pablo Ciullini, de La Nación y La Prensa), con los goles de algunos partidos (sin minutos; los que RSSSF no dice van sin autor). RSSSF no trae las canchas: va la del local, salvo las que dice. Los partidos suspendidos que se terminaron después van una sola vez, con el resultado final. La tabla que sale de los partidos (con el descuento a Argentino del Sud) es igual a la de RSSSF, salvo por un gol de Atlanta (uno menos a favor) y de Ferro (uno menos en contra): el Atlanta-Ferro de la fecha 6 figura 2-1, pero la tabla de RSSSF lo cuenta como 3-1",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1924-04-06",
+     "local": "quilmes",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Lattari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-06",
+     "local": "independiente",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Canavery",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-06",
+     "local": "tigre",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": [
+      {
+       "jugador": "Bonifacio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carrera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ochoa",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 84 minutos, 2-1; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1924-04-06",
+     "local": "estudiantil-porteno",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Antraygues",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-06",
+     "local": "almagro",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "M.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Izaguirre",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Evaristo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-06",
+     "local": "velez-sarsfield",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Caliche",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tazín",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-06",
+     "local": "defensores-de-belgrano",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-06",
+     "local": "sportivo-buenos-aires",
+     "visitante": "san-isidro",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Lucarelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lucarelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tomaselli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ibarguren",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ibarguren",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ibarguren",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-06",
+     "local": "lanus",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Martelotti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-06",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Bacchi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Caldera",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-06",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentino-del-sud",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Isurrieta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calandra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bellomo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rellano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Soro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-06",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Danieli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maglio",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1924-04-13",
+     "local": "san-lorenzo",
+     "visitante": "estudiantil-porteno",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Monti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carricaberry",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carricaberry",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maglio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maglio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Matozzi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-13",
+     "local": "banfield",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Pambrín",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-13",
+     "local": "barracas-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "S.Alvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Echeverría",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-13",
+     "local": "platense",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-13",
+     "local": "atlanta",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Médici",
+       "equipo": "local"
+      },
+      {
+       "jugador": "del Cerro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lupo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-13",
+     "local": "liberal-argentino",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Batilana",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-13",
+     "local": "sportivo-palermo",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": [
+      {
+       "jugador": "Clarke",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Clarke",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bourdieu",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bonifacio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bonifacio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-13",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Felices",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caldera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caldera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Curell",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-13",
+     "local": "san-isidro",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Novellino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zumelzú",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Obarrin",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-13",
+     "local": "argentino-del-sud",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Argentino del Sud",
+     "goles": [
+      {
+       "jugador": "Prinzo",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Barrera",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-13",
+     "local": "racing-club",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Rey",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ochoa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ochoa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lalauretta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dannaher",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1924-04-20",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Barceló",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-20",
+     "local": "sportivo-buenos-aires",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Péndola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lucarelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Monti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Valente",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-20",
+     "local": "almagro",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-20",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Alvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morgada",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-20",
+     "local": "estudiantil-porteno",
+     "visitante": "liberal-argentino",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-20",
+     "local": "lanus",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Raggi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-20",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Irurieta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Croce",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-20",
+     "local": "quilmes",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "nota": "Se suspendió a los 75 minutos, 1-1; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1924-04-20",
+     "local": "defensores-de-belgrano",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-20",
+     "local": "tigre",
+     "visitante": "argentino-del-sud",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": [
+      {
+       "jugador": "Bourdieu",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bourdieu",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-11-02",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1924-04-27",
+     "local": "barracas-central",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-27",
+     "local": "racing-club",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Lalaurette",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-27",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Monti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Danieli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maglio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Valente",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-27",
+     "local": "sportivo-palermo",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": [
+      {
+       "jugador": "Canaveri",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Canaveri",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-27",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Caldera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caldera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rimassa",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-27",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Gainzarain",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lattari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Casso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-27",
+     "local": "banfield",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-27",
+     "local": "san-isidro",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-27",
+     "local": "atlanta",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-27",
+     "local": "platense",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Pardal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cracco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferrari",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-27",
+     "local": "liberal-argentino",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-27",
+     "local": "argentino-del-sud",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino del Sud",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1924-05-04",
+     "local": "tigre",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": [
+      {
+       "jugador": "Bonifacio",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-04",
+     "local": "sportivo-buenos-aires",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Eiros",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rinazza",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Curell",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-04",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Duarte",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-04",
+     "local": "ferro-carril-oeste",
+     "visitante": "liberal-argentino",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Rivero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calvo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mancini",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-04",
+     "local": "quilmes",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Dannaher",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cemaschi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zumelzú",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Annunziata",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-04",
+     "local": "velez-sarsfield",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Tarulla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sobrino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Valente",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Valente",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maglio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-04",
+     "local": "almagro",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "C.Adet",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-04",
+     "local": "defensores-de-belgrano",
+     "visitante": "barracas-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Seijas",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-04",
+     "local": "estudiantil-porteno",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Gianella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vega",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Marcote",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-04",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-04",
+     "local": "lanus",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-04",
+     "local": "independiente",
+     "visitante": "argentino-del-sud",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Ravaschino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Brameri",
+       "equipo": "visitante"
+      }
+     ],
+     "para_local": [
+      1,
+      1,
+      "V"
+     ],
+     "para_visitante": [
+      1,
+      1,
+      "D"
+     ],
+     "nota": "Se suspendió a los 74 minutos, 1-1, y no se terminó: los puntos fueron para Independiente (con los goles del partido en la tabla)."
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1924-05-11",
+     "local": "banfield",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-11",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Valente",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Valente",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carricaberry]",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-11",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Spraggón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gondar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gondar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perinetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sobrino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Dellasala",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-11",
+     "local": "sportivo-palermo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-11",
+     "local": "san-isidro",
+     "visitante": "estudiantil-porteno",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-11",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Morgada",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bacchi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-11",
+     "local": "liberal-argentino",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Chiarella",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ravaschino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Orsi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-11",
+     "local": "barracas-central",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-11",
+     "local": "argentino-del-sud",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentino del Sud",
+     "goles": [
+      {
+       "jugador": "Soro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tomaselli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Péndola",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-11",
+     "local": "river-plate",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Fallatti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fallatti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gainzarain",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-11",
+     "local": "platense",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-11",
+     "local": "atlanta",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1924-05-18",
+     "local": "tigre",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-18",
+     "local": "quilmes",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Danielli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Valente",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-18",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Perducca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Orsi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Orsi",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Chiarella",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-18",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-18",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Fabro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villagra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rimassa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rimassa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-18",
+     "local": "defensores-de-belgrano",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-18",
+     "local": "lanus",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Raggi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-18",
+     "local": "sportivo-buenos-aires",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-18",
+     "local": "almagro",
+     "visitante": "argentino-del-sud",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Uriarte",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-18",
+     "local": "estudiantil-porteno",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-18",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1924-05-25",
+     "local": "san-lorenzo",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Carricaberry",
+       "equipo": "local"
+      },
+      {
+       "jugador": "L.Acosta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Danielli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Penoni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-25",
+     "local": "barracas-central",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-25",
+     "local": "sportivo-palermo",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-25",
+     "local": "argentino-del-sud",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentino del Sud",
+     "goles": [
+      {
+       "jugador": "Brameri",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-25",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Cracco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravaschino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-25",
+     "local": "san-isidro",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": [
+      {
+       "jugador": "Ibarguren",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saruppo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-25",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Licciardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Badino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-11-02",
+     "local": "atlanta",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1924-06-01",
+     "local": "independiente",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Lalín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravaschino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravaschino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravaschino",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-01",
+     "local": "estudiantil-porteno",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-01",
+     "local": "sportivo-buenos-aires",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-01",
+     "local": "defensores-de-belgrano",
+     "visitante": "argentino-del-sud",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Caldas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caldas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aguilar Pinedo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maggio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-01",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-01",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-01",
+     "local": "almagro",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "M.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Goicochea",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lattari",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lattari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-01",
+     "local": "tigre",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-01",
+     "local": "ferro-carril-oeste",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-01",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1924-06-08",
+     "local": "san-lorenzo",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Monti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-08",
+     "local": "platense",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-08",
+     "local": "san-isidro",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-08",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Felices",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morgada",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-08",
+     "local": "liberal-argentino",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-08",
+     "local": "barracas-central",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-08",
+     "local": "sportivo-palermo",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-08",
+     "local": "racing-club",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Seregui",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Seregui",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Seregui",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ochoa",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-08",
+     "local": "argentino-del-sud",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Argentino del Sud",
+     "goles": [
+      {
+       "jugador": "Quintaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Filiberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Brameri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calvo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-08",
+     "local": "river-plate",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gianella",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-08",
+     "local": "banfield",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": [],
+     "nota": "Se suspendió a los 87 minutos, 2-2; no se terminó y quedó ese resultado."
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1924-06-15",
+     "local": "tigre",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": [
+      {
+       "jugador": "Maglio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "independiente",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Orsi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zúñiga",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Irurieta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Iturrería",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "quilmes",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "ferro-carril-oeste",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "sportivo-buenos-aires",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "estudiantil-porteno",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Goin",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ochoa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Spraggón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "lanus",
+     "visitante": "argentino-del-sud",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Brameri",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Brameri",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Filiberti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "defensores-de-belgrano",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Botta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.García",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "almagro",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Vitale",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Borio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "velez-sarsfield",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1924-06-22",
+     "local": "san-isidro",
+     "visitante": "almagro",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-22",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-22",
+     "local": "banfield",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-22",
+     "local": "sportivo-palermo",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-22",
+     "local": "barracas-central",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-22",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Brisotti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Brisotti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-22",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Licciardi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-22",
+     "local": "atlanta",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-22",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-22",
+     "local": "liberal-argentino",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-22",
+     "local": "argentino-del-sud",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino del Sud",
+     "goles": [
+      {
+       "jugador": "Filiberti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Catelli",
+       "equipo": "visitante"
+      }
+     ],
+     "para_local": [
+      1,
+      1,
+      "D"
+     ],
+     "para_visitante": [
+      1,
+      1,
+      "V"
+     ],
+     "nota": "Se suspendió a los 70 minutos, 1-1, y no se terminó: los puntos fueron para Estudiantil Porteño (con los goles del partido en la tabla)."
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1924-06-29",
+     "local": "racing-club",
+     "visitante": "argentino-del-sud",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Spraggón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Seregui",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-29",
+     "local": "quilmes",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-29",
+     "local": "river-plate",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "G.González",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-29",
+     "local": "tigre",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-29",
+     "local": "sportivo-palermo",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-29",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-29",
+     "local": "liberal-argentino",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-29",
+     "local": "lanus",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Martelotti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Presta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caldas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Aguilar Pinedo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-29",
+     "local": "sportivo-buenos-aires",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-29",
+     "local": "almagro",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Ravaschino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bozzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-29",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-29",
+     "local": "san-isidro",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de San Isidro",
+     "goles": [
+      {
+       "jugador": "L.Acosta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "L.Acosta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Carricaberry",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Valente",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1924-07-06",
+     "local": "banfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zoroza",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Curell",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-07-06",
+     "local": "platense",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-06",
+     "local": "estudiantil-porteno",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-06",
+     "local": "velez-sarsfield",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-06",
+     "local": "independiente",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Orsi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lalín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sacarello",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-07-06",
+     "local": "barracas-central",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-06",
+     "local": "argentino-del-sud",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Brameri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Brameri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lynch",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fabbiano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Polimeni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-07-06",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-06",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-06",
+     "local": "defensores-de-belgrano",
+     "visitante": "ferro-carril-oeste",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1924-07-13",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-13",
+     "local": "san-isidro",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-13",
+     "local": "sportivo-palermo",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-13",
+     "local": "river-plate",
+     "visitante": "argentino-del-sud",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-13",
+     "local": "liberal-argentino",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-13",
+     "local": "quilmes",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-13",
+     "local": "almagro",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-13",
+     "local": "lanus",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-07-13",
+     "local": "tigre",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": [
+      {
+       "jugador": "López",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ravaschino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-07-13",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1924-07-20",
+     "local": "independiente",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Orsi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Orsi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiarella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiarella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cherro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-07-20",
+     "local": "argentino-del-sud",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Soro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Comaschi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Zumelzú",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-07-20",
+     "local": "barracas-central",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Seijas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Simmons",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gainzarain",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rey",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lattari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-07-20",
+     "local": "banfield",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Magrini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tassa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tassa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perinetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-07-20",
+     "local": "san-lorenzo",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-20",
+     "local": "atlanta",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Ramón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-07-20",
+     "local": "platense",
+     "visitante": "sportivo-palermo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-20",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Cazaubón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arroyo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Raggi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Raggi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Raggi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-07-20",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-20",
+     "local": "estudiantil-porteno",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-20",
+     "local": "defensores-de-belgrano",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-20",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "nota": "Se suspendió a los 55 minutos, 0-1; no se terminó y quedó ese resultado."
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1924-07-27",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Carricaberry",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "G.González",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "san-isidro",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Caldera",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caldera",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Orsi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ravaschino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "tigre",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "almagro",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "liberal-argentino",
+     "visitante": "argentino-del-sud",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "quilmes",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "sportivo-palermo",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "sportivo-buenos-aires",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1924-08-03",
+     "local": "san-lorenzo",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "De Souza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Monti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Polimeni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Bissio",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "banfield",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Tazza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Iribarren",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Licciardi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "independiente",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Orsi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Orsi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravaschino",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "barracas-central",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "argentino-del-sud",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Mouré",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bachi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bachi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Morgada",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "defensores-de-belgrano",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "atlanta",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "estudiantil-porteno",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "velez-sarsfield",
+     "visitante": "lanus",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Sobrino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sobrino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pan",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Urdangaray",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1924-08-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-17",
+     "local": "lanus",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Uriarte",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-17",
+     "local": "liberal-argentino",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-17",
+     "local": "san-isidro",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": [
+      {
+       "jugador": "Bissio Trevino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zoroza",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-17",
+     "local": "argentino-del-sud",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Bao",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Médici",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rolandi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-17",
+     "local": "banfield",
+     "visitante": "barracas-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-17",
+     "local": "sportivo-buenos-aires",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-17",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-17",
+     "local": "tigre",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-17",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-17",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Perinetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saldías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rey",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1924-08-24",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Zoroza",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "barracas-central",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Monti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "sportivo-palermo",
+     "visitante": "san-isidro",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "platense",
+     "visitante": "argentino-del-sud",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Cracco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Duarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bissio",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "river-plate",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "G.González",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "atlanta",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "ferro-carril-oeste",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "velez-sarsfield",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "quilmes",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Manna",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Manna",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sandoval",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Adamoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "independiente",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Canaveri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravaschino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Orsi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Orsi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Orsi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pérez",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Terminó a los 85 minutos."
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "almagro",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-16",
+     "local": "estudiantil-porteno",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1924-09-07",
+     "local": "san-isidro",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": [
+      {
+       "jugador": "Medone",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fallatti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "racing-club",
+     "visitante": "sportivo-palermo",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Seregui",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ronzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ronzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ronzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perinetti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Latorre Lelong",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravaschino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ravaschino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "banfield",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "liberal-argentino",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Felices",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rimassa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Morgada",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Morgada",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "defensores-de-belgrano",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "argentino-del-sud",
+     "visitante": "barracas-central",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Bao",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferrari",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Brameri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Passi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "tigre",
+     "visitante": "almagro",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "sportivo-buenos-aires",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "lanus",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Presta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Raggi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sacarello",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "san-lorenzo",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Maglio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Danielli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Del Corro",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Spaccarotella",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1924-09-14",
+     "local": "san-lorenzo",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Carricaberry",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maglio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Danielli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Picallo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tazza",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Magrini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vega",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-09-14",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "sportivo-palermo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Morgada",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Iturrería",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rimassa",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-09-14",
+     "local": "atlanta",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Seregui",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-09-14",
+     "local": "san-isidro",
+     "visitante": "liberal-argentino",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1924-09-14",
+     "local": "estudiantil-porteno",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Lalín",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ravaschino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Boigues",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-09-14",
+     "local": "ferro-carril-oeste",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1924-09-14",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-16",
+     "local": "sportivo-buenos-aires",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Guzmán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lucarelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tomaselli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Presta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Arias",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1924-09-21",
+     "local": "argentino-del-sud",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Sánchez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carricaberry",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Carricaberry",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-09-21",
+     "local": "racing-club",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Perinetti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-09-21",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Medone",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-09-21",
+     "local": "atlanta",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1924-09-21",
+     "local": "tigre",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1924-09-21",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1924-09-21",
+     "local": "quilmes",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1924-09-21",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1924-10-19",
+     "local": "defensores-de-belgrano",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1924-10-19",
+     "local": "almagro",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1924-10-19",
+     "local": "barracas-central",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1924-10-19",
+     "local": "lanus",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Presta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Presta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Santoro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Carreras",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-10-19",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1924-10-19",
+     "local": "liberal-argentino",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Spraggón",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ronzoni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-10-19",
+     "local": "river-plate",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Fallatti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Licciardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Licciardi",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Se suspendió a los 82 minutos, 3-0; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1924-10-19",
+     "local": "velez-sarsfield",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1924-10-19",
+     "local": "banfield",
+     "visitante": "argentino-del-sud",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Argentino del Sud no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1924-11-02",
+     "local": "sportivo-palermo",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Choperena",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rey",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fallatti",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1924-10-26",
+     "local": "independiente",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Lalín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Orsi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-10-26",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Maglio",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-10-26",
+     "local": "racing-club",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Ochoa",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-10-26",
+     "local": "atlanta",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Raggi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-10-26",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Morgada",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Iturrería",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-10-26",
+     "local": "platense",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [],
+     "nota": "Empezó el 14 de septiembre; se suspendió a los 20 minutos, 0-0, y los minutos que faltaban se jugaron el 26 de octubre."
+    },
+    {
+     "fecha": "1924-10-26",
+     "local": "liberal-argentino",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1924-10-26",
+     "local": "banfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1924-11-09",
+     "local": "defensores-de-belgrano",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Pasquale",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravaschino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-11-09",
+     "local": "racing-club",
+     "visitante": "barracas-central",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Carri",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Seregni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spraggón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perinetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carrón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-11-09",
+     "local": "sportivo-buenos-aires",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [],
+     "nota": "Empezó el 13 de julio; se suspendió en el primer minuto, 0-0, y los minutos que faltaban se jugaron el 9 de noviembre."
+    },
+    {
+     "fecha": "1924-11-09",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-09",
+     "local": "quilmes",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Dagliolo",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

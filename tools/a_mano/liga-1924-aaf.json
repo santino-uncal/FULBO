@@ -1,0 +1,3430 @@
+{
+ "nombre": "Campeonato de Primera División 1924 (amateur, Asociación Argentina de Football)",
+ "fuente": "Resultados, días y fechas: RSSSF (Pablo Ciullini, de La Nación y La Prensa), con los goles de algunos partidos (sin minutos; los que RSSSF no dice van sin autor). RSSSF no trae las canchas: va la del local, salvo las que dice. Los partidos suspendidos que se terminaron después van una sola vez, con el resultado final. No se jugaron cinco partidos (All Boys-Boca, Alvear-Huracán, Huracán-Porteño, Progresista-Boca y Huracán-Sportsman): no están. Platense II (después Retiro y Universal) va como Universal; Urquiza, como General San Martín, y Sportivo del Norte, como Colegiales. La tabla que sale de los partidos es igual a la de RSSSF, salvo por los goles de Sportivo Barracas (uno menos en contra) y Progresista (dos menos a favor): la tabla de RSSSF no coincide con sus propios resultados",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1924-04-13",
+     "local": "el-porvenir",
+     "visitante": "sportivo-barracas",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Seoane",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ronzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tubio",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-13",
+     "local": "argentinos-juniors",
+     "visitante": "porteno",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Vaccaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pierini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marchetti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-13",
+     "local": "temperley",
+     "visitante": "dock-sud",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Temperley",
+     "goles": [
+      {
+       "jugador": "Fernández",
+       "equipo": "local",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-13",
+     "local": "boca-juniors",
+     "visitante": "boca-alumni",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pertini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pertini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pozzo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-13",
+     "local": "san-fernando",
+     "visitante": "universal",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": [
+      {
+       "jugador": "Pérez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lebatto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-13",
+     "local": "general-san-martin",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de General San Martín",
+     "goles": [
+      {
+       "jugador": "Dándalo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bussolini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Otonello",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "C.Bonelli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "C.Bonelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-13",
+     "local": "del-plata",
+     "visitante": "palermo-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Del Plata",
+     "goles": [
+      {
+       "jugador": "V.Gallo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tomaselli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-13",
+     "local": "argentino-de-lomas",
+     "visitante": "sportsman",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": [
+      {
+       "jugador": "Lazzari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Soracco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gustavino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-13",
+     "local": "colegiales",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Passadore",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gigena",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-13",
+     "local": "huracan",
+     "visitante": "progresista",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Onzari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saldías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mac Leman",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-09-21",
+     "local": "alvear",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1924-04-20",
+     "local": "huracan",
+     "visitante": "argentino-de-quilmes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": [
+      {
+       "jugador": "Loizo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Estevarena",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-20",
+     "local": "porteno",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-20",
+     "local": "universal",
+     "visitante": "boca-alumni",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Universal",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-20",
+     "local": "alvear",
+     "visitante": "san-fernando",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-20",
+     "local": "progresista",
+     "visitante": "general-san-martin",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Progresista",
+     "goles": [
+      {
+       "jugador": "García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bálsola",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-20",
+     "local": "sportivo-barracas",
+     "visitante": "argentino-de-lomas",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-20",
+     "local": "sportsman",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-20",
+     "local": "dock-sud",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-20",
+     "local": "temperley",
+     "visitante": "del-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-20",
+     "local": "nueva-chicago",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 6,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Villagra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cerrotti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tarasconi 4(1p)",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pozzo",
+       "equipo": "visitante"
+      },
+      {
+       "equipo": "visitante"
+      },
+      {
+       "equipo": "visitante"
+      },
+      {
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-10-19",
+     "local": "palermo-buenos-aires",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1924-04-27",
+     "local": "el-porvenir",
+     "visitante": "boca-alumni",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Seoane",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Seoane",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ronzoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Siciliani",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Botacchi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-27",
+     "local": "san-fernando",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-27",
+     "local": "colegiales",
+     "visitante": "sportivo-barracas",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-27",
+     "local": "del-plata",
+     "visitante": "porteno",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-27",
+     "local": "argentinos-juniors",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1924-04-27",
+     "local": "general-san-martin",
+     "visitante": "temperley",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de General San Martín",
+     "goles": [
+      {
+       "jugador": "Piazzo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Piazzo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Salvetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-27",
+     "local": "progresista",
+     "visitante": "palermo-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Progresista",
+     "goles": [
+      {
+       "jugador": "Etcheverry",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rodríguez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-04-27",
+     "local": "argentino-de-lomas",
+     "visitante": "universal",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1924-10-19",
+     "local": "dock-sud",
+     "visitante": "sportsman",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1924-12-21",
+     "local": "boca-juniors",
+     "visitante": "alvear",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Garasini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garasini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carreras",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-12-28",
+     "local": "all-boys",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Roldán",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pratto",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1924-05-11",
+     "local": "sportivo-barracas",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-11",
+     "local": "del-plata",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-11",
+     "local": "temperley",
+     "visitante": "palermo-buenos-aires",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Temperley",
+     "goles": [
+      {
+       "jugador": "P.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "P.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perinetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nervi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stagnaro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-11",
+     "local": "general-san-martin",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de General San Martín",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-11",
+     "local": "nueva-chicago",
+     "visitante": "boca-alumni",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1924-09-21",
+     "local": "san-fernando",
+     "visitante": "argentino-de-lomas",
+     "gl": 5,
+     "gv": 4,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1924-10-26",
+     "local": "argentinos-juniors",
+     "visitante": "alvear",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1924-10-26",
+     "local": "universal",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Universal",
+     "goles": []
+    },
+    {
+     "fecha": "1924-12-14",
+     "local": "argentino-de-quilmes",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Antraygues",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cerrotti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-12-21",
+     "local": "el-porvenir",
+     "visitante": "progresista",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Brancaleone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Brancaleone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Brancaleone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tubio",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1924-05-18",
+     "local": "sportivo-barracas",
+     "visitante": "sportsman",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-18",
+     "local": "san-fernando",
+     "visitante": "del-plata",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-18",
+     "local": "palermo-buenos-aires",
+     "visitante": "alvear",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-18",
+     "local": "all-boys",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Llanos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Piazzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-18",
+     "local": "porteno",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": [
+      {
+       "jugador": "Loncan",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alfieri",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-18",
+     "local": "boca-alumni",
+     "visitante": "general-san-martin",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Boca Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-18",
+     "local": "universal",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Universal no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1924-10-19",
+     "local": "argentino-de-lomas",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": [],
+     "nota": "Se suspendió a los 60 minutos, 2-0; no se terminó y quedó ese resultado."
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1924-05-29",
+     "local": "boca-juniors",
+     "visitante": "argentino-de-lomas",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Calomino",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-29",
+     "local": "el-porvenir",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Aragón",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-29",
+     "local": "alvear",
+     "visitante": "boca-alumni",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-29",
+     "local": "nueva-chicago",
+     "visitante": "universal",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-29",
+     "local": "temperley",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Temperley",
+     "goles": [
+      {
+       "jugador": "Figueroa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Figueroa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "G.Martínez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-05-29",
+     "local": "all-boys",
+     "visitante": "palermo-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-29",
+     "local": "porteno",
+     "visitante": "progresista",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-29",
+     "local": "san-fernando",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-29",
+     "local": "argentino-de-quilmes",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-29",
+     "local": "sportsman",
+     "visitante": "del-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1924-05-29",
+     "local": "huracan",
+     "visitante": "general-san-martin",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Saldías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saldías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saldías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saldías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1924-06-01",
+     "local": "boca-juniors",
+     "visitante": "universal",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Garasini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calomino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pertini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lolato",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-01",
+     "local": "el-porvenir",
+     "visitante": "del-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Seoane",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ronzoni",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-01",
+     "local": "alvear",
+     "visitante": "argentino-de-lomas",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-01",
+     "local": "boca-alumni",
+     "visitante": "san-fernando",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-01",
+     "local": "general-san-martin",
+     "visitante": "palermo-buenos-aires",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de General San Martín",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-01",
+     "local": "sportivo-barracas",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-01",
+     "local": "argentino-de-quilmes",
+     "visitante": "progresista",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Veraza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Denda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Estevarena",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Peña",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Auzoberry",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-01",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Vergara",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Saldías",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J.Rodríguez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-01",
+     "local": "porteno",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-01",
+     "local": "dock-sud",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Piramidani",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rossi",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 82 minutos, 1-1; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1924-06-01",
+     "local": "sportsman",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1924-06-08",
+     "local": "huracan",
+     "visitante": "colegiales",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Alvear",
+     "goles": [
+      {
+       "jugador": "Saldías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garbagnatti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rossi",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-08",
+     "local": "dock-sud",
+     "visitante": "del-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Santos",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-08",
+     "local": "el-porvenir",
+     "visitante": "palermo-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Seoane",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Seoane",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Candal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carmona",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-08",
+     "local": "boca-alumni",
+     "visitante": "argentino-de-lomas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Boca Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-08",
+     "local": "porteno",
+     "visitante": "general-san-martin",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-08",
+     "local": "all-boys",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-08",
+     "local": "nueva-chicago",
+     "visitante": "sportivo-barracas",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-08",
+     "local": "sportsman",
+     "visitante": "san-fernando",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-08",
+     "local": "universal",
+     "visitante": "alvear",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Universal",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1924-06-15",
+     "local": "del-plata",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Del Plata",
+     "goles": [
+      {
+       "jugador": "Chiesa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.Vázquez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "temperley",
+     "visitante": "boca-alumni",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "boca-juniors",
+     "visitante": "sportivo-barracas",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pertini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cerrotti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "F.Cherro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "universal",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Universal",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "progresista",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Progresista",
+     "goles": [
+      {
+       "jugador": "López",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "san-fernando",
+     "visitante": "argentino-de-quilmes",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "dock-sud",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Nóbile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Hurglinger",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "palermo-buenos-aires",
+     "visitante": "porteno",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "alvear",
+     "visitante": "sportsman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1924-06-15",
+     "local": "general-san-martin",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de General San Martín",
+     "goles": []
+    },
+    {
+     "fecha": "1925-01-04",
+     "local": "argentino-de-lomas",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": [
+      {
+       "jugador": "Tubio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ronzoni",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1924-07-27",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Pertini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "temperley",
+     "visitante": "san-fernando",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "dock-sud",
+     "visitante": "argentino-de-lomas",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Messina",
+       "equipo": "local"
+      },
+      {
+       "jugador": "de los Santos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caliche",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Soracco",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "boca-alumni",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "sportivo-barracas",
+     "visitante": "alvear",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "argentino-de-quilmes",
+     "visitante": "del-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Ottonello",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fabiano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Blanco",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "all-boys",
+     "visitante": "progresista",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Crespo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vaghi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "palermo-buenos-aires",
+     "visitante": "universal",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "colegiales",
+     "visitante": "general-san-martin",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1924-07-27",
+     "local": "sportsman",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1924-08-03",
+     "local": "boca-juniors",
+     "visitante": "palermo-buenos-aires",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Pozzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garasini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garasini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Elli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stagnaro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Stagnaro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "huracan",
+     "visitante": "argentino-de-lomas",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Loizo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Costa Bertani",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "del-plata",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "nueva-chicago",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Locatti",
+       "equipo": "local",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "el-porvenir",
+     "visitante": "san-fernando",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "alvear",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Alvear",
+     "goles": [
+      {
+       "jugador": "Moro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Messina",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "porteno",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "progresista",
+     "visitante": "boca-alumni",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Progresista",
+     "goles": [
+      {
+       "jugador": "Soro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "argentino-de-quilmes",
+     "visitante": "sportsman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "colegiales",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-03",
+     "local": "universal",
+     "visitante": "general-san-martin",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Universal",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1924-08-10",
+     "local": "boca-juniors",
+     "visitante": "del-plata",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Garasini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garasini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cerrotti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cerrotti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pozzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pozzo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-10",
+     "local": "all-boys",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "E.Ramírez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.P.Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Locatti",
+       "equipo": "visitante",
+       "tipo": "pen"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-10",
+     "local": "alvear",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-10",
+     "local": "universal",
+     "visitante": "progresista",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Universal",
+     "goles": [
+      {
+       "jugador": "Picallo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-10",
+     "local": "boca-alumni",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Moro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-10",
+     "local": "san-fernando",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-10",
+     "local": "argentino-de-lomas",
+     "visitante": "palermo-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-10",
+     "local": "colegiales",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-10",
+     "local": "sportivo-barracas",
+     "visitante": "general-san-martin",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-10",
+     "local": "sportsman",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1924-08-17",
+     "local": "del-plata",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-17",
+     "local": "argentinos-juniors",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-17",
+     "local": "colegiales",
+     "visitante": "alvear",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-17",
+     "local": "dock-sud",
+     "visitante": "porteno",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "De los Santos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De los Santos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De los Santos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De los Santos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Evaristo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Evaristo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Venturini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-17",
+     "local": "argentino-de-quilmes",
+     "visitante": "universal",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-17",
+     "local": "sportsman",
+     "visitante": "boca-alumni",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-17",
+     "local": "palermo-buenos-aires",
+     "visitante": "san-fernando",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-17",
+     "local": "general-san-martin",
+     "visitante": "argentino-de-lomas",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de General San Martín",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-17",
+     "local": "el-porvenir",
+     "visitante": "temperley",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "P.Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1924-08-24",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Pozzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "temperley",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Temperley",
+     "goles": [
+      {
+       "jugador": "Perinetti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "all-boys",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": [
+      {
+       "jugador": "Llanos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Crespo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sacarello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "sportivo-barracas",
+     "visitante": "universal",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "nueva-chicago",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "boca-alumni",
+     "visitante": "palermo-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "sportsman",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "porteno",
+     "visitante": "argentino-de-lomas",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "san-fernando",
+     "visitante": "progresista",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": [
+      {
+       "jugador": "Vega",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lalaurette",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "alvear",
+     "visitante": "del-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-24",
+     "local": "general-san-martin",
+     "visitante": "dock-sud",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de General San Martín",
+     "goles": [
+      {
+       "jugador": "Catalano",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1924-08-31",
+     "local": "porteno",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Garasini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Garasini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Antraygues",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pertini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-31",
+     "local": "huracan",
+     "visitante": "dock-sud",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Chiessa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Licciardi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "de los Santos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-31",
+     "local": "all-boys",
+     "visitante": "alvear",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-31",
+     "local": "palermo-buenos-aires",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-31",
+     "local": "argentino-de-lomas",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-31",
+     "local": "argentino-de-quilmes",
+     "visitante": "boca-alumni",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-31",
+     "local": "general-san-martin",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de General San Martín",
+     "goles": [
+      {
+       "jugador": "Gurutchague",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ronzoni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-31",
+     "local": "progresista",
+     "visitante": "sportsman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Progresista",
+     "goles": [
+      {
+       "jugador": "Lalaurette",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferraro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-08-31",
+     "local": "argentinos-juniors",
+     "visitante": "del-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1924-08-31",
+     "local": "universal",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Universal",
+     "goles": []
+    },
+    {
+     "fecha": "1924-10-19",
+     "local": "sportivo-barracas",
+     "visitante": "san-fernando",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1924-09-07",
+     "local": "sportivo-barracas",
+     "visitante": "temperley",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "dock-sud",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Antraygues",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Antraygues",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Elli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "huracan",
+     "visitante": "palermo-buenos-aires",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saldías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saldías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saldías",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saldías",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Terminó a los 83 minutos."
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "nueva-chicago",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "el-porvenir",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Seoane",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bourdieu",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "sportsman",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "boca-alumni",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "argentino-de-lomas",
+     "visitante": "progresista",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "colegiales",
+     "visitante": "san-fernando",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": [],
+     "nota": "Se suspendió a los 78 minutos, 0-2; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "alvear",
+     "visitante": "general-san-martin",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1924-09-07",
+     "local": "del-plata",
+     "visitante": "universal",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1924-10-05",
+     "local": "boca-juniors",
+     "visitante": "el-porvenir",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Landini",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Bidoglio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tubio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-10-05",
+     "local": "argentinos-juniors",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1924-10-05",
+     "local": "san-fernando",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1924-10-05",
+     "local": "sportivo-barracas",
+     "visitante": "boca-alumni",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1924-10-05",
+     "local": "progresista",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Progresista",
+     "goles": [
+      {
+       "jugador": "Lalaurettte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fonte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bianchi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Manuale",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "E.Galeano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "G.Galeano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-10-05",
+     "local": "temperley",
+     "visitante": "argentino-de-lomas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1924-10-05",
+     "local": "argentino-de-quilmes",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Toselli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Power",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Moro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-10-05",
+     "local": "palermo-buenos-aires",
+     "visitante": "sportsman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1924-10-05",
+     "local": "universal",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Universal",
+     "goles": []
+    },
+    {
+     "fecha": "1924-10-05",
+     "local": "porteno",
+     "visitante": "alvear",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1924-10-05",
+     "local": "general-san-martin",
+     "visitante": "del-plata",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de General San Martín",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1924-10-26",
+     "local": "del-plata",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1924-10-26",
+     "local": "colegiales",
+     "visitante": "palermo-buenos-aires",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Lorenzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-10-26",
+     "local": "progresista",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1924-11-02",
+     "local": "dock-sud",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-02",
+     "local": "all-boys",
+     "visitante": "boca-alumni",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-02",
+     "local": "nueva-chicago",
+     "visitante": "colegiales",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-02",
+     "local": "palermo-buenos-aires",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Palermo",
+     "goles": [
+      {
+       "jugador": "Sandoval",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fabiano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-11-02",
+     "local": "argentino-de-lomas",
+     "visitante": "argentinos-juniors",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-02",
+     "local": "sportsman",
+     "visitante": "general-san-martin",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-02",
+     "local": "porteno",
+     "visitante": "universal",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1924-11-09",
+     "local": "boca-juniors",
+     "visitante": "san-fernando",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Pertini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cerrotti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pozzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garasini",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-11-09",
+     "local": "temperley",
+     "visitante": "sportsman",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-09",
+     "local": "argentino-de-lomas",
+     "visitante": "all-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-09",
+     "local": "el-porvenir",
+     "visitante": "dock-sud",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Seoane",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Power",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "De los Santos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-11-09",
+     "local": "colegiales",
+     "visitante": "boca-alumni",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-09",
+     "local": "universal",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Universal",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-09",
+     "local": "nueva-chicago",
+     "visitante": "general-san-martin",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-09",
+     "local": "del-plata",
+     "visitante": "progresista",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Del Plata",
+     "goles": [
+      {
+       "jugador": "Dulce",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Magurno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Magurno",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Boy",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barreto",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vaghi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-11-09",
+     "local": "alvear",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1924-11-16",
+     "local": "palermo-buenos-aires",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-16",
+     "local": "progresista",
+     "visitante": "alvear",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Progresista",
+     "goles": [
+      {
+       "jugador": "Poeta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mancini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-11-16",
+     "local": "dock-sud",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Moro",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-11-16",
+     "local": "argentino-de-quilmes",
+     "visitante": "temperley",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Bordieu",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cosoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ottonello",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perducca",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-11-16",
+     "local": "san-fernando",
+     "visitante": "general-san-martin",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1924-11-23",
+     "local": "colegiales",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Toscano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Passadore",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Granara",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Seoane",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sacarello",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-11-23",
+     "local": "argentino-de-quilmes",
+     "visitante": "argentino-de-lomas",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-23",
+     "local": "dock-sud",
+     "visitante": "palermo-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Moro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caliche",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gallo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-11-23",
+     "local": "boca-alumni",
+     "visitante": "porteno",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-23",
+     "local": "argentinos-juniors",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Argentinos no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1924-11-23",
+     "local": "temperley",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Perducca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pertini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-11-23",
+     "local": "sportsman",
+     "visitante": "universal",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1924-11-30",
+     "local": "colegiales",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Pertini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-11-30",
+     "local": "all-boys",
+     "visitante": "san-fernando",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-30",
+     "local": "argentinos-juniors",
+     "visitante": "progresista",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-30",
+     "local": "boca-alumni",
+     "visitante": "del-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-30",
+     "local": "nueva-chicago",
+     "visitante": "el-porvenir",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1924-11-30",
+     "local": "temperley",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "P.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "P.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "P.Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saldías",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1924-12-07",
+     "local": "san-fernando",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1924-12-07",
+     "local": "del-plata",
+     "visitante": "argentino-de-lomas",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1924-12-07",
+     "local": "progresista",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Progresista",
+     "goles": [
+      {
+       "jugador": "Power",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-12-07",
+     "local": "temperley",
+     "visitante": "alvear",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    },
+    {
+     "fecha": "1924-12-07",
+     "local": "general-san-martin",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 7,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Pozzo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pozzo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pozzo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pertini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Antraygues",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cerrotti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Terminó a los 77 minutos."
+    },
+    {
+     "fecha": "1924-12-07",
+     "local": "huracan",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1924-12-01",
+     "local": "progresista",
+     "visitante": "temperley",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Progresista",
+     "goles": [
+      {
+       "jugador": "Perducca",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Perducca",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Salvetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-12-01",
+     "local": "porteno",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Cacopardo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Seoane",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Seoane",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-12-01",
+     "local": "huracan",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1924-12-02",
+     "local": "nueva-chicago",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "nota": "Se suspendió a los 30 minutos, 0-0, y no se terminó: los puntos fueron para Nueva Chicago (con los goles del partido en la tabla)."
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1924-12-02",
+     "local": "boca-juniors",
+     "visitante": "sportsman",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Pozzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pozzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zanetti",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1924-12-02",
+     "local": "el-porvenir",
+     "visitante": "universal",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Universal no se presentó y perdió el partido."
+    }
+   ]
+  }
+ ]
+}
