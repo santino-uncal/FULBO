@@ -33,6 +33,21 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1918: el campeonato de la Asociación Argentina de Football, la única liga ese año (abril a noviembre; campeón
+    # Racing, invicto, el sexto seguido): 20 equipos a una rueda, con 2 puntos por partido ganado. Bajaban los dos
+    # últimos: Ferro y Argentino de Quilmes. Columbian se fusionó después con Almagro: va como club aparte. ESPN no lo
+    # tiene: va a mano (tools/a_mano; RSSSF, sin goles)
+    "1918-primera": {"nombre": "Campeonato de Primera División 1918 (amateur)", "anio": 1918, "liga": "a_mano",
+                     "slug": "1918-primera", "zonas": "unica", "fechas": 33, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide "
+                                    "con el orden de RSSSF). Columbian, que se fusionó después con Almagro, va como club aparte.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1918 (amateur). Cada partido ganado valía 2 "
+                                    "puntos.",
+                     "goleadores_nota": "RSSSF no trae los goles de cada partido. Según RSSSF, el goleador del torneo fue "
+                                        "Albérico Zabaleta (Racing), con 13 goles.",
+                     "descensos": "tabla", "descienden": 2},
     # 1919: el primer año con dos ligas (hasta 1926), amateurs las dos; la AFA reconoce a los dos campeones. En la
     # Asociación Argentina, el campeonato que empezó en marzo con 19 equipos se anuló en septiembre, cuando la asociación
     # desafilió a seis clubes y expulsó a otros siete (formaron la Asociación Amateurs); se volvió a empezar con los seis
@@ -5223,7 +5238,8 @@ CLUBES_NUEVOS = {
     "unv": ("universal", "Universal"),
     "dpl": ("del-plata", "Del Plata"),
     "prg": ("progresista", "Progresista"),   # (no están en ESPN: 1926; escudos genéricos los de Boca Alumni, Universal y Del Plata)
-    "eur": ("eureka", "Eureka"),   # (no está en ESPN: 1919; escudo genérico)
+    "eur": ("eureka", "Eureka"),
+    "col": ("columbian", "Columbian"),   # (no están en ESPN: 1919 y 1918; escudos genéricos)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),
