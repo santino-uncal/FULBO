@@ -1,0 +1,3179 @@
+{
+ "nombre": "Campeonato de Primera División 1923 (amateur, Asociación Argentina de Football)",
+ "fuente": "Resultados y días: RSSSF (Pablo Wally, de La Prensa, La Vanguardia y La Nación), sin goles salvo los del desempate. RSSSF no trae las fechas: cada día de partidos es una fecha (quedan 40). RSSSF no trae las canchas: va la del local. Solo se jugaron unos dos tercios de los partidos (era a dos ruedas). Los que la asociación le dio ganados a uno van con el resultado del momento y sin goles en la tabla, como en la de RSSSF (el Palermo-Boca Alumni, como lo cuenta RSSSF: ganado para Palermo y empatado 1-1 para Boca Alumni). Platense (de Buenos Aires, después Retiro y Universal) va como Universal; Villa Urquiza, como General San Martín, y Sportivo del Norte, como Colegiales. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1923-03-11",
+     "local": "all-boys",
+     "visitante": "temperley",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-11",
+     "local": "argentino-de-lomas",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-11",
+     "local": "boca-alumni",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Boca Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-11",
+     "local": "boca-juniors",
+     "visitante": "colegiales",
+     "gl": 6,
+     "gv": 3,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-11",
+     "local": "el-porvenir",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-11",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "progresista",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-11",
+     "local": "huracan",
+     "visitante": "porteno",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-11",
+     "local": "universal",
+     "visitante": "del-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Platense (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-11",
+     "local": "san-fernando",
+     "visitante": "alvear",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-11",
+     "local": "sportivo-palermo",
+     "visitante": "general-san-martin",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1923-03-18",
+     "local": "boca-juniors",
+     "visitante": "dock-sud",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-18",
+     "local": "el-porvenir",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-18",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "del-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-18",
+     "local": "huracan",
+     "visitante": "argentino-de-lomas",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-18",
+     "local": "nueva-chicago",
+     "visitante": "universal",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-18",
+     "local": "porteno",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-18",
+     "local": "progresista",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-18",
+     "local": "sportivo-barracas",
+     "visitante": "alvear",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-18",
+     "local": "sportivo-palermo",
+     "visitante": "boca-alumni",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-18",
+     "local": "temperley",
+     "visitante": "general-san-martin",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1923-03-25",
+     "local": "all-boys",
+     "visitante": "progresista",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-25",
+     "local": "argentino-de-lomas",
+     "visitante": "universal",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-25",
+     "local": "argentinos-juniors",
+     "visitante": "sportivo-barracas",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-25",
+     "local": "boca-alumni",
+     "visitante": "colegiales",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Boca Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-25",
+     "local": "del-plata",
+     "visitante": "temperley",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-25",
+     "local": "el-porvenir",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-25",
+     "local": "porteno",
+     "visitante": "alvear",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-25",
+     "local": "general-san-martin",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Villa Urquiza",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1923-03-26",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "nueva-chicago",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-26",
+     "local": "dock-sud",
+     "visitante": "san-fernando",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1923-03-29",
+     "local": "argentinos-juniors",
+     "visitante": "del-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-29",
+     "local": "boca-juniors",
+     "visitante": "universal",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-29",
+     "local": "huracan",
+     "visitante": "boca-alumni",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-29",
+     "local": "nueva-chicago",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-29",
+     "local": "san-fernando",
+     "visitante": "argentino-de-lomas",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-29",
+     "local": "sportivo-barracas",
+     "visitante": "porteno",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-29",
+     "local": "sportivo-palermo",
+     "visitante": "colegiales",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-03-29",
+     "local": "temperley",
+     "visitante": "alvear",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1923-04-01",
+     "local": "el-porvenir",
+     "visitante": "argentino-de-lomas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-01",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-01",
+     "local": "san-fernando",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-01",
+     "local": "sportivo-palermo",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1923-04-08",
+     "local": "argentino-de-lomas",
+     "visitante": "colegiales",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-08",
+     "local": "argentinos-juniors",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-08",
+     "local": "boca-alumni",
+     "visitante": "temperley",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Boca Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-08",
+     "local": "boca-juniors",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-08",
+     "local": "del-plata",
+     "visitante": "nueva-chicago",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-08",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-08",
+     "local": "huracan",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-08",
+     "local": "porteno",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-08",
+     "local": "progresista",
+     "visitante": "san-fernando",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-08",
+     "local": "general-san-martin",
+     "visitante": "universal",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Villa Urquiza",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1923-04-15",
+     "local": "alvear",
+     "visitante": "argentino-de-lomas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-15",
+     "local": "el-porvenir",
+     "visitante": "universal",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-15",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-alumni",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-15",
+     "local": "huracan",
+     "visitante": "progresista",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-15",
+     "local": "porteno",
+     "visitante": "argentinos-juniors",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-15",
+     "local": "sportivo-barracas",
+     "visitante": "san-fernando",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-15",
+     "local": "colegiales",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-15",
+     "local": "dock-sud",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-15",
+     "local": "sportivo-palermo",
+     "visitante": "del-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-15",
+     "local": "temperley",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1923-04-22",
+     "local": "all-boys",
+     "visitante": "alvear",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-22",
+     "local": "boca-alumni",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Boca Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-22",
+     "local": "progresista",
+     "visitante": "argentino-de-lomas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-22",
+     "local": "san-fernando",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-22",
+     "local": "dock-sud",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-22",
+     "local": "sportivo-palermo",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-22",
+     "local": "temperley",
+     "visitante": "universal",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-22",
+     "local": "general-san-martin",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Villa Urquiza",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1923-04-29",
+     "local": "argentino-de-lomas",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-29",
+     "local": "argentinos-juniors",
+     "visitante": "general-san-martin",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-29",
+     "local": "boca-juniors",
+     "visitante": "all-boys",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-29",
+     "local": "el-porvenir",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-29",
+     "local": "huracan",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-29",
+     "local": "san-fernando",
+     "visitante": "boca-alumni",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-29",
+     "local": "sportivo-barracas",
+     "visitante": "progresista",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-29",
+     "local": "colegiales",
+     "visitante": "del-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-29",
+     "local": "dock-sud",
+     "visitante": "alvear",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1923-04-29",
+     "local": "sportivo-palermo",
+     "visitante": "universal",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1923-05-06",
+     "local": "argentino-de-lomas",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-06",
+     "local": "argentino-de-quilmes",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-06",
+     "local": "boca-alumni",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Boca Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-06",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-06",
+     "local": "huracan",
+     "visitante": "dock-sud",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-06",
+     "local": "universal",
+     "visitante": "san-fernando",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Platense (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-06",
+     "local": "progresista",
+     "visitante": "del-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-06",
+     "local": "sportivo-barracas",
+     "visitante": "colegiales",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-06",
+     "local": "sportivo-palermo",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-06",
+     "local": "temperley",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-06",
+     "local": "general-san-martin",
+     "visitante": "alvear",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Villa Urquiza",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1923-05-10",
+     "local": "argentino-de-lomas",
+     "visitante": "general-san-martin",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-10",
+     "local": "argentino-de-quilmes",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-10",
+     "local": "boca-alumni",
+     "visitante": "del-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Boca Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-10",
+     "local": "boca-juniors",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-10",
+     "local": "el-porvenir",
+     "visitante": "progresista",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-10",
+     "local": "universal",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Platense (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-10",
+     "local": "porteno",
+     "visitante": "temperley",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-10",
+     "local": "san-fernando",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-10",
+     "local": "sportivo-barracas",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [],
+     "nota": "Empezó el 10 de mayo; se suspendió a los 60 minutos, 1-0, por incidentes con el público, y los minutos que faltaban se jugaron el 29 de junio."
+    },
+    {
+     "fecha": "1923-05-10",
+     "local": "colegiales",
+     "visitante": "alvear",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-10",
+     "local": "dock-sud",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1923-05-13",
+     "local": "alvear",
+     "visitante": "progresista",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-13",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-13",
+     "local": "boca-juniors",
+     "visitante": "argentino-de-lomas",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-13",
+     "local": "el-porvenir",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-13",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-13",
+     "local": "nueva-chicago",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-13",
+     "local": "universal",
+     "visitante": "boca-alumni",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Platense (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-13",
+     "local": "porteno",
+     "visitante": "del-plata",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-13",
+     "local": "san-fernando",
+     "visitante": "general-san-martin",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-13",
+     "local": "colegiales",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-13",
+     "local": "sportivo-palermo",
+     "visitante": "temperley",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1923-05-27",
+     "local": "all-boys",
+     "visitante": "dock-sud",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-27",
+     "local": "argentino-de-lomas",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-27",
+     "local": "boca-juniors",
+     "visitante": "san-fernando",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-27",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "sportivo-barracas",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-27",
+     "local": "nueva-chicago",
+     "visitante": "alvear",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-27",
+     "local": "porteno",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-27",
+     "local": "sportivo-palermo",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1923-05-31",
+     "local": "all-boys",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-31",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-31",
+     "local": "del-plata",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-31",
+     "local": "huracan",
+     "visitante": "alvear",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-31",
+     "local": "universal",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Platense (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-31",
+     "local": "porteno",
+     "visitante": "palermo-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-31",
+     "local": "progresista",
+     "visitante": "argentino-de-quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-31",
+     "local": "san-fernando",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-31",
+     "local": "temperley",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    },
+    {
+     "fecha": "1923-05-31",
+     "local": "general-san-martin",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Villa Urquiza",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1923-06-03",
+     "local": "boca-alumni",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Boca Alumni no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1923-06-03",
+     "local": "boca-juniors",
+     "visitante": "progresista",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-03",
+     "local": "del-plata",
+     "visitante": "alvear",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-03",
+     "local": "el-porvenir",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "palermo-buenos-aires",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-03",
+     "local": "universal",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Platense (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-03",
+     "local": "porteno",
+     "visitante": "general-san-martin",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-03",
+     "local": "sportivo-barracas",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-03",
+     "local": "sportivo-palermo",
+     "visitante": "argentino-de-lomas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-03",
+     "local": "temperley",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1923-06-10",
+     "local": "all-boys",
+     "visitante": "general-san-martin",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-10",
+     "local": "argentino-de-quilmes",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-10",
+     "local": "argentinos-juniors",
+     "visitante": "temperley",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-10",
+     "local": "boca-alumni",
+     "visitante": "alvear",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Boca Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-10",
+     "local": "del-plata",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-10",
+     "local": "huracan",
+     "visitante": "universal",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-10",
+     "local": "nueva-chicago",
+     "visitante": "argentino-de-lomas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-10",
+     "local": "palermo-buenos-aires",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-10",
+     "local": "progresista",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1923-06-17",
+     "local": "argentino-de-lomas",
+     "visitante": "del-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-17",
+     "local": "argentinos-juniors",
+     "visitante": "san-fernando",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-17",
+     "local": "boca-alumni",
+     "visitante": "argentino-de-quilmes",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Boca Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-17",
+     "local": "el-porvenir",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "alvear",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-17",
+     "local": "huracan",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-17",
+     "local": "nueva-chicago",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-17",
+     "local": "palermo-buenos-aires",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-17",
+     "local": "sportivo-barracas",
+     "visitante": "universal",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-17",
+     "local": "dock-sud",
+     "visitante": "general-san-martin",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1923-06-17",
+     "local": "sportivo-palermo",
+     "visitante": "progresista",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1923-06-29",
+     "local": "palermo-buenos-aires",
+     "visitante": "argentino-de-quilmes",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1923-07-01",
+     "local": "all-boys",
+     "visitante": "argentino-de-lomas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-01",
+     "local": "argentinos-juniors",
+     "visitante": "alvear",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-01",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-01",
+     "local": "palermo-buenos-aires",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-01",
+     "local": "porteno",
+     "visitante": "universal",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-01",
+     "local": "progresista",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-01",
+     "local": "san-fernando",
+     "visitante": "del-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-01",
+     "local": "temperley",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-01",
+     "local": "general-san-martin",
+     "visitante": "boca-alumni",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Villa Urquiza",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1923-07-08",
+     "local": "argentinos-juniors",
+     "visitante": "palermo-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-08",
+     "local": "general-san-martin",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Villa Urquiza",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1923-07-22",
+     "local": "all-boys",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-22",
+     "local": "argentino-de-lomas",
+     "visitante": "boca-alumni",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-22",
+     "local": "argentino-de-quilmes",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-22",
+     "local": "palermo-buenos-aires",
+     "visitante": "general-san-martin",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-22",
+     "local": "porteno",
+     "visitante": "progresista",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1923-07-29",
+     "local": "all-boys",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-29",
+     "local": "argentinos-juniors",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-29",
+     "local": "boca-juniors",
+     "visitante": "nueva-chicago",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-29",
+     "local": "del-plata",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-29",
+     "local": "el-porvenir",
+     "visitante": "alvear",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-29",
+     "local": "palermo-buenos-aires",
+     "visitante": "san-fernando",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-29",
+     "local": "universal",
+     "visitante": "progresista",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Platense (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-29",
+     "local": "porteno",
+     "visitante": "boca-alumni",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-29",
+     "local": "dock-sud",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-29",
+     "local": "temperley",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    },
+    {
+     "fecha": "1923-07-29",
+     "local": "general-san-martin",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Villa Urquiza",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1923-08-05",
+     "local": "argentino-de-quilmes",
+     "visitante": "argentino-de-lomas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1923-08-05",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "colegiales",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1923-08-05",
+     "local": "huracan",
+     "visitante": "el-porvenir",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1923-08-05",
+     "local": "nueva-chicago",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1923-08-05",
+     "local": "universal",
+     "visitante": "alvear",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Platense (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1923-08-05",
+     "local": "porteno",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1923-08-05",
+     "local": "progresista",
+     "visitante": "boca-alumni",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1923-08-05",
+     "local": "san-fernando",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1923-08-05",
+     "local": "dock-sud",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1923-08-05",
+     "local": "temperley",
+     "visitante": "palermo-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    },
+    {
+     "fecha": "1923-08-05",
+     "local": "general-san-martin",
+     "visitante": "del-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Villa Urquiza",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1923-08-15",
+     "local": "all-boys",
+     "visitante": "del-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1923-08-15",
+     "local": "argentino-de-lomas",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1923-08-15",
+     "local": "boca-juniors",
+     "visitante": "boca-alumni",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-08-15",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1923-08-15",
+     "local": "palermo-buenos-aires",
+     "visitante": "alvear",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-08-15",
+     "local": "universal",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Platense (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1923-08-15",
+     "local": "san-fernando",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1923-08-15",
+     "local": "sportivo-barracas",
+     "visitante": "nueva-chicago",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1923-09-16",
+     "local": "argentino-de-quilmes",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1923-09-16",
+     "local": "argentinos-juniors",
+     "visitante": "all-boys",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-09-16",
+     "local": "boca-juniors",
+     "visitante": "alvear",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-09-16",
+     "local": "del-plata",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1923-09-16",
+     "local": "el-porvenir",
+     "visitante": "boca-alumni",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1923-09-16",
+     "local": "nueva-chicago",
+     "visitante": "progresista",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1923-09-16",
+     "local": "palermo-buenos-aires",
+     "visitante": "universal",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-09-16",
+     "local": "san-fernando",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1923-09-16",
+     "local": "sportivo-barracas",
+     "visitante": "general-san-martin",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1923-09-23",
+     "local": "all-boys",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1923-09-23",
+     "local": "alvear",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1923-09-23",
+     "local": "argentino-de-lomas",
+     "visitante": "dock-sud",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1923-09-23",
+     "local": "argentinos-juniors",
+     "visitante": "universal",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-09-23",
+     "local": "del-plata",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1923-09-23",
+     "local": "el-porvenir",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1923-09-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-fernando",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1923-09-23",
+     "local": "palermo-buenos-aires",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-09-23",
+     "local": "progresista",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1923-09-23",
+     "local": "general-san-martin",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Villa Urquiza",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1923-09-30",
+     "local": "argentino-de-quilmes",
+     "visitante": "alvear",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1923-09-30",
+     "local": "boca-alumni",
+     "visitante": "palermo-buenos-aires",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Boca Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1923-09-30",
+     "local": "progresista",
+     "visitante": "general-san-martin",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1923-10-07",
+     "local": "alvear",
+     "visitante": "boca-alumni",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-07",
+     "local": "argentino-de-quilmes",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-07",
+     "local": "boca-juniors",
+     "visitante": "palermo-buenos-aires",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "general-san-martin",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Estudiantes no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1923-10-07",
+     "local": "san-fernando",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-07",
+     "local": "sportivo-barracas",
+     "visitante": "all-boys",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1923-10-14",
+     "local": "argentino-de-quilmes",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-14",
+     "local": "del-plata",
+     "visitante": "palermo-buenos-aires",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-14",
+     "local": "el-porvenir",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-14",
+     "local": "nueva-chicago",
+     "visitante": "colegiales",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-14",
+     "local": "dock-sud",
+     "visitante": "temperley",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-14",
+     "local": "general-san-martin",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Villa Urquiza",
+     "goles": [],
+     "nota": "Se suspendió a los 40 minutos, 0-0, por incidentes con el público; RSSSF dice que se volvió a jugar el 1 de noviembre, pero da este resultado."
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "partidos": [
+    {
+     "fecha": "1923-10-21",
+     "local": "all-boys",
+     "visitante": "boca-alumni",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-21",
+     "local": "alvear",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-21",
+     "local": "del-plata",
+     "visitante": "dock-sud",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-21",
+     "local": "el-porvenir",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-21",
+     "local": "palermo-buenos-aires",
+     "visitante": "progresista",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-21",
+     "local": "temperley",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-21",
+     "local": "general-san-martin",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Villa Urquiza",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "partidos": [
+    {
+     "fecha": "1923-10-28",
+     "local": "palermo-buenos-aires",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-28",
+     "local": "porteno",
+     "visitante": "argentino-de-lomas",
+     "gl": 4,
+     "gv": 7,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-28",
+     "local": "progresista",
+     "visitante": "el-porvenir",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-28",
+     "local": "san-fernando",
+     "visitante": "universal",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-28",
+     "local": "dock-sud",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1923-10-28",
+     "local": "temperley",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "partidos": [
+    {
+     "fecha": "1923-11-01",
+     "local": "all-boys",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-01",
+     "local": "alvear",
+     "visitante": "del-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-01",
+     "local": "argentino-de-lomas",
+     "visitante": "el-porvenir",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-01",
+     "local": "argentino-de-quilmes",
+     "visitante": "san-fernando",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-01",
+     "local": "huracan",
+     "visitante": "temperley",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-01",
+     "local": "palermo-buenos-aires",
+     "visitante": "nueva-chicago",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-01",
+     "local": "progresista",
+     "visitante": "universal",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-01",
+     "local": "sportivo-barracas",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [],
+     "nota": "El 14 de octubre no se terminó; este es el partido que se volvió a jugar."
+    },
+    {
+     "fecha": "1923-11-01",
+     "local": "dock-sud",
+     "visitante": "boca-alumni",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "partidos": [
+    {
+     "fecha": "1923-11-04",
+     "local": "alvear",
+     "visitante": "all-boys",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-04",
+     "local": "argentinos-juniors",
+     "visitante": "boca-alumni",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-04",
+     "local": "boca-juniors",
+     "visitante": "general-san-martin",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-04",
+     "local": "del-plata",
+     "visitante": "progresista",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-04",
+     "local": "nueva-chicago",
+     "visitante": "sportivo-barracas",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-04",
+     "local": "palermo-buenos-aires",
+     "visitante": "argentino-de-lomas",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-04",
+     "local": "universal",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Platense (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-04",
+     "local": "porteno",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-04",
+     "local": "san-fernando",
+     "visitante": "dock-sud",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-04",
+     "local": "colegiales",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo del Norte",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 35,
+   "partidos": [
+    {
+     "fecha": "1923-11-11",
+     "local": "alvear",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-11",
+     "local": "argentino-de-lomas",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-11",
+     "local": "boca-alumni",
+     "visitante": "progresista",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Boca Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-11",
+     "local": "huracan",
+     "visitante": "general-san-martin",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-11",
+     "local": "palermo-buenos-aires",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-11",
+     "local": "universal",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Platense (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-11",
+     "local": "porteno",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-11",
+     "local": "dock-sud",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-11",
+     "local": "temperley",
+     "visitante": "del-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 36,
+   "partidos": [
+    {
+     "fecha": "1923-11-18",
+     "local": "argentino-de-quilmes",
+     "visitante": "general-san-martin",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-18",
+     "local": "el-porvenir",
+     "visitante": "san-fernando",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-18",
+     "local": "palermo-buenos-aires",
+     "visitante": "boca-alumni",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      1,
+      1,
+      "E"
+     ],
+     "nota": "Terminó 1-1, pero la asociación le dio los puntos a Palermo porque le provocaron una lesión grave a uno de sus jugadores. En la tabla de RSSSF, Palermo lo cuenta como ganado y Boca Alumni, como empatado 1-1.",
+     "estadio": "Cancha de Palermo"
+    },
+    {
+     "fecha": "1923-11-18",
+     "local": "progresista",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-18",
+     "local": "dock-sud",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 37,
+   "partidos": [
+    {
+     "fecha": "1923-11-25",
+     "local": "all-boys",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-25",
+     "local": "alvear",
+     "visitante": "universal",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-25",
+     "local": "argentino-de-quilmes",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-25",
+     "local": "del-plata",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-25",
+     "local": "nueva-chicago",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-25",
+     "local": "temperley",
+     "visitante": "boca-alumni",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    },
+    {
+     "fecha": "1923-11-25",
+     "local": "general-san-martin",
+     "visitante": "san-fernando",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Villa Urquiza",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 38,
+   "partidos": [
+    {
+     "fecha": "1923-12-16",
+     "local": "alvear",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-16",
+     "local": "argentino-de-quilmes",
+     "visitante": "boca-alumni",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-16",
+     "local": "huracan",
+     "visitante": "san-fernando",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-16",
+     "local": "nueva-chicago",
+     "visitante": "all-boys",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-16",
+     "local": "palermo-buenos-aires",
+     "visitante": "dock-sud",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-16",
+     "local": "progresista",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-16",
+     "local": "sportivo-barracas",
+     "visitante": "del-plata",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "nota": "Se suspendió a los 24 minutos, cuando Del Plata se fue de la cancha porque le cobraron un penal a Sportivo Barracas: la asociación le dio los puntos a Sportivo Barracas.",
+     "estadio": "Cancha de Sportivo Barracas"
+    },
+    {
+     "fecha": "1923-12-16",
+     "local": "colegiales",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-16",
+     "local": "temperley",
+     "visitante": "argentino-de-lomas",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Temperley",
+     "goles": [],
+     "nota": "Se suspendió a los 70 minutos y quedó ese resultado."
+    },
+    {
+     "fecha": "1923-12-16",
+     "local": "general-san-martin",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Villa Urquiza",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 39,
+   "partidos": [
+    {
+     "fecha": "1923-12-23",
+     "local": "argentino-de-lomas",
+     "visitante": "progresista",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-23",
+     "local": "argentino-de-quilmes",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-23",
+     "local": "argentinos-juniors",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-23",
+     "local": "boca-alumni",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 9,
+     "estadio": "Cancha de Boca Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-23",
+     "local": "del-plata",
+     "visitante": "all-boys",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-23",
+     "local": "nueva-chicago",
+     "visitante": "dock-sud",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-23",
+     "local": "universal",
+     "visitante": "general-san-martin",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Platense (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-23",
+     "local": "san-fernando",
+     "visitante": "palermo-buenos-aires",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-23",
+     "local": "colegiales",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-23",
+     "local": "temperley",
+     "visitante": "el-porvenir",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 40,
+   "partidos": [
+    {
+     "fecha": "1923-12-30",
+     "local": "all-boys",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de All Boys",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-30",
+     "local": "alvear",
+     "visitante": "san-fernando",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Alvear",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-30",
+     "local": "argentino-de-lomas",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-30",
+     "local": "boca-juniors",
+     "visitante": "del-plata",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-30",
+     "local": "nueva-chicago",
+     "visitante": "temperley",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-30",
+     "local": "universal",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Platense (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-30",
+     "local": "porteno",
+     "visitante": "dock-sud",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-30",
+     "local": "progresista",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-30",
+     "local": "colegiales",
+     "visitante": "boca-alumni",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo del Norte",
+     "goles": []
+    },
+    {
+     "fecha": "1923-12-30",
+     "local": "general-san-martin",
+     "visitante": "palermo-buenos-aires",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Villa Urquiza",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

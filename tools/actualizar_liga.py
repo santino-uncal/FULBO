@@ -33,6 +33,62 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1923: las dos ligas, amateurs las dos (la AFA reconoce a los dos campeones). La de la Asociación Amateurs (julio de
+    # 1923 a enero de 1924; campeón San Lorenzo): 21 equipos a una rueda, con 2 puntos por partido ganado. Los suspendidos
+    # que la asociación le dio ganados a uno van con el resultado del momento y sin goles en la tabla ("para_local"), como
+    # en la de RSSSF. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles salvo los del partido del título)
+    "1923-amateurs": {"nombre": "Campeonato de Primera División 1923 (amateur, Asociación Amateurs)", "anio": 1923,
+                      "liga": "a_mano", "slug": "1923-amateurs", "zonas": "unica", "fechas": 23, "pasan": 0,
+                      "puntos_victoria": 2, "campeon_tabla": True,
+                      "orden_texto": "Campeonato amateur, de la Asociación Amateurs Argentina de Football: de 1919 a 1926 hubo "
+                                     "dos ligas, esta y la de la Asociación Argentina, y la AFA reconoce a los campeones de las "
+                                     "dos. Orden: puntos y, con los mismos puntos, la diferencia de gol (RSSSF los pone en el "
+                                     "mismo puesto). Almagro se llamaba Sportivo Almagro.",
+                      "anual_texto": "La tabla del Campeonato de Primera División 1923 de la Asociación Amateurs. Cada "
+                                     "partido ganado valía 2 puntos.",
+                      "goleadores_nota": "Los goles son solo del Lanús 1-4 San Lorenzo, el partido en el que San Lorenzo salió "
+                                         "campeón (de RSSSF, con los minutos). RSSSF no dice quién fue el goleador del torneo.",
+                      "sin_descensos": "No hubo descensos."},
+    # La de la Asociación Argentina (marzo de 1923 a abril de 1924; campeón Boca): 23 equipos a dos ruedas, pero solo se
+    # jugaron unos dos tercios de los partidos. RSSSF no dice a qué fecha pertenece cada partido: cada día es una fecha
+    # (40). Boca y Huracán empataron el primer puesto y jugaron cuatro desempates (en "playoffs", sin cuadro): ganó Boca,
+    # que va primero en la tabla (también por la diferencia de gol). Platense (de Buenos Aires) va como Universal; Villa
+    # Urquiza, como General San Martín, y Sportivo del Norte, como Colegiales. ESPN no lo tiene: va a mano (tools/a_mano;
+    # RSSSF, sin goles salvo los del último desempate)
+    "1923-aaf": {"nombre": "Campeonato de Primera División 1923 (amateur, Asociación Argentina de Football)", "anio": 1923,
+                 "liga": "a_mano", "slug": "1923-aaf", "zonas": "unica", "fechas": 40, "pasan": 2, "puntos_victoria": 2,
+                 "campeon_tabla": True,
+                 "texto_pasan": "Empatados en el primer puesto (51 puntos): jugaron cuatro desempates por el título, y ganó Boca",
+                 "orden_texto": "Campeonato amateur, de la Asociación Argentina de Football: de 1919 a 1926 hubo dos ligas, "
+                                "esta y la de la Asociación Amateurs, y la AFA reconoce a los campeones de las dos. Era a dos "
+                                "ruedas, pero a fin de año solo se habían jugado unos dos tercios de los partidos, y Boca y "
+                                "Huracán acordaron definir el título en desempates. Orden: puntos y, con los mismos puntos, "
+                                "la diferencia de gol (RSSSF pone a los empatados en el mismo puesto). Universal se llamaba "
+                                "Platense; General San Martín, Villa Urquiza; Colegiales, Sportivo del Norte; Argentino de "
+                                "Lomas, Argentino de Banfield; Dock Sud, Sportivo Dock Sud. Palermo y Sportivo Palermo eran "
+                                "clubes distintos.",
+                 "anual_texto": "La tabla del Campeonato de Primera División 1923 de la Asociación Argentina (amateur), sin "
+                                "los desempates. Cada partido ganado valía 2 puntos.",
+                 "goleadores_nota": "Los goles son solo del último desempate (los dos de Garassino, en el alargue). RSSSF no "
+                                    "dice quién fue el goleador del torneo.",
+                 "nombre_playoffs": "Desempate", "sin_cuadro": True,
+                 "playoffs": [(r"^$^", "Desempate por el título")],
+                 "playoffs_a_mano": {
+                     "Desempate por el título": [
+                         {"fecha": "1924-03-16", "local": "boca-juniors", "visitante": "huracan", "gl": 3, "gv": 0,
+                          "estadio": "Cancha de Sportivo Barracas"},
+                         {"fecha": "1924-03-30", "local": "huracan", "visitante": "boca-juniors", "gl": 2, "gv": 0,
+                          "estadio": "Cancha de Sportivo Barracas"},
+                         {"fecha": "1924-04-06", "local": "huracan", "visitante": "boca-juniors", "gl": 0, "gv": 0,
+                          "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+                          "nota": "Siguió 0-0 después del alargue."},
+                         {"fecha": "1924-04-27", "local": "boca-juniors", "visitante": "huracan", "gl": 2, "gv": 0,
+                          "alargue": True, "estadio": "Cancha de Sportivo Barracas",
+                          "goles": [{"jugador": "Garassino", "equipo": "local"}, {"jugador": "Garassino", "equipo": "local"}],
+                          "nota": "Terminó 0-0 y Boca ganó en el alargue, con dos goles de Garassino: salió campeón."},
+                     ],
+                 },
+                 "sin_descensos": "No hubo descensos."},
     # 1924: las dos ligas, la Asociación Argentina de Football y la Asociación Amateurs, amateurs las dos (la AFA reconoce
     # a los dos campeones). La de la Asociación Argentina (abril a diciembre; campeón Boca, invicto): 22 equipos a una
     # rueda, con 2 puntos por partido ganado; cinco partidos no se jugaron. Un suspendido se lo dieron ganado a Nueva
