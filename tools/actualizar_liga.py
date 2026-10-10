@@ -33,6 +33,42 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1920: las dos ligas, amateurs las dos (la AFA reconoce a los dos campeones). A mitad de año Lanús y Sportivo Almagro
+    # se pasaron de la Asociación Argentina a la Amateurs, y los dos fixtures se rehicieron: RSSSF sigue el original en la
+    # primera rueda y, en la segunda, cada día de partidos es una fecha. La de la Asociación Amateurs (marzo de 1920 a
+    # enero de 1921; campeón River): 19 equipos a dos ruedas (Lanús y Sportivo Almagro, solo la segunda), con 2 puntos
+    # por partido ganado. ESPN no los tiene: van a mano (tools/a_mano; RSSSF, sin goles salvo los de los partidos del
+    # título)
+    "1920-amateurs": {"nombre": "Campeonato de Primera División 1920 (amateur, Asociación Amateurs)", "anio": 1920,
+                      "liga": "a_mano", "slug": "1920-amateurs", "zonas": "unica", "fechas": 45, "pasan": 0,
+                      "puntos_victoria": 2, "campeon_tabla": True,
+                      "orden_texto": "Campeonato amateur, de la Asociación Amateurs Argentina de Football: de 1919 a 1926 hubo "
+                                     "dos ligas, esta y la de la Asociación Argentina, y la AFA reconoce a los campeones de las "
+                                     "dos. Lanús y Sportivo Almagro llegaron de la otra asociación a mitad de año y jugaron solo "
+                                     "una rueda. Orden: puntos y, con los mismos puntos, la diferencia de gol (RSSSF pone a los "
+                                     "empatados en el mismo puesto). Almagro se llamaba Sportivo Almagro.",
+                      "anual_texto": "La tabla del Campeonato de Primera División 1920 de la Asociación Amateurs. Cada "
+                                     "partido ganado valía 2 puntos.",
+                      "goleadores_nota": "Los goles son solo del Quilmes 0-2 River, el partido en el que River salió campeón "
+                                         "(de RSSSF). RSSSF no dice quién fue el goleador del torneo.",
+                      "sin_descensos": "No hubo descensos."},
+    # La de la Asociación Argentina (marzo de 1920 a enero de 1921; campeón Boca): 13 equipos a dos ruedas, con 2 puntos
+    # por partido ganado. Lanús y Sportivo Almagro se fueron y Palermo se desafilió: los partidos que les faltaban se los
+    # dieron perdidos ("para_local"/"para_visitante", sin goles; algunos, perdidos para los dos)
+    "1920-aaf": {"nombre": "Campeonato de Primera División 1920 (amateur, Asociación Argentina de Football)", "anio": 1920,
+                 "liga": "a_mano", "slug": "1920-aaf", "zonas": "unica", "fechas": 44, "pasan": 0, "puntos_victoria": 2,
+                 "campeon_tabla": True,
+                 "orden_texto": "Campeonato amateur, de la Asociación Argentina de Football: de 1919 a 1926 hubo dos ligas, "
+                                "esta y la de la Asociación Amateurs, y la AFA reconoce a los campeones de las dos. Lanús y "
+                                "Sportivo Almagro se fueron a la otra asociación a mitad de año, y Palermo se desafilió: los "
+                                "partidos que les faltaban se los dieron perdidos. Orden: puntos y, con los mismos puntos, la "
+                                "diferencia de gol (RSSSF pone a los empatados en el mismo puesto). Colegiales se llamaba "
+                                "Sportivo del Norte. Palermo y Sportivo Palermo eran clubes distintos.",
+                 "anual_texto": "La tabla del Campeonato de Primera División 1920 de la Asociación Argentina (amateur). Cada "
+                                "partido ganado valía 2 puntos.",
+                 "goleadores_nota": "Los goles son solo del Boca 7-0 Nueva Chicago, el partido que le dio el título a Boca "
+                                    "(de RSSSF, con los minutos). RSSSF no dice quién fue el goleador del torneo.",
+                 "sin_descensos": "No hubo descensos."},
     # 1921: las dos ligas, amateurs las dos (la AFA reconoce a los dos campeones). La de la Asociación Argentina (abril a
     # diciembre; campeón Huracán): 10 equipos a dos ruedas, con 2 puntos por partido ganado; sin los partidos de Platense,
     # que la asociación anuló (no jugó el mínimo reglamentario). Un suspendido se lo dieron ganado a El Porvenir, con los
