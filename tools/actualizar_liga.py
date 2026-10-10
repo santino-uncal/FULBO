@@ -33,6 +33,33 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1911: el campeonato de la Argentine Football Association, la única liga ese año (mayo a noviembre; campeón Alumni,
+    # su décimo y último título): 9 equipos a dos ruedas, con 2 puntos por partido ganado. Alumni y Porteño empataron el
+    # primer puesto y jugaron una final (en "playoffs"; ganó Alumni). Estudiantes es el de Buenos Aires. ESPN no lo
+    # tiene: va a mano (tools/a_mano; RSSSF, sin goles salvo los de la final)
+    "1911-primera": {"nombre": "Campeonato de Primera División 1911 (amateur)", "anio": 1911, "liga": "a_mano",
+                     "slug": "1911-primera", "zonas": "unica", "fechas": 29, "pasan": 2, "puntos_victoria": 2,
+                     "texto_pasan": "Empatados en el primer puesto (23 puntos): definieron el título en una final",
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide "
+                                    "con el orden de RSSSF).",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1911 (amateur), sin la final. Cada partido "
+                                    "ganado valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo de la final (de RSSSF, con los minutos). Según RSSSF, el goleador "
+                                        "del torneo fue R. Malbrán (San Isidro), con 11 goles.",
+                     "nombre_playoffs": "Final (desempate)",
+                     "playoffs": [(r"^$^", "Final")],
+                     "playoffs_a_mano": {
+                         "Final": [
+                             {"fecha": "1911-11-26", "local": "alumni", "visitante": "porteno", "gl": 2, "gv": 1,
+                              "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires", "arbitro": "H. Alfano",
+                              "goles": [{"jugador": "A. Brown", "equipo": "local", "min": 28},
+                                        {"jugador": "V. Weiss", "equipo": "local", "min": 55},
+                                        {"jugador": "M. Genoud", "equipo": "visitante", "min": 84}],
+                              "nota": "Fue el último título de Alumni, que se disolvió en 1913."},
+                         ],
+                     },
+                     "sin_descensos": "No hubo descensos."},
     # 1912: el año en que se partió el fútbol argentino: en julio varios clubes se fueron de la Asociación Argentina de
     # Football y formaron la Federación Argentina de Football (hasta 1914). La AFA reconoce a los dos campeones; los dos
     # campeonatos eran amateurs. El de la Asociación Argentina (abril a noviembre; campeón Quilmes): quedaron 6 equipos a
@@ -5453,6 +5480,7 @@ CLUBES_NUEVOS = {
     "oli": ("olivos", "Olivos"),
     "ria": ("riachuelo", "Riachuelo"),
     "ssa": ("sportiva-argentina", "Sportiva Argentina"),   # (no están en ESPN: 1913)
+    "alu": ("alumni", "Alumni"),   # (no está en ESPN: 1911)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),
