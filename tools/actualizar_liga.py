@@ -33,6 +33,66 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1929: el campeonato de la Asociación Amateurs Argentina de Football (julio de 1929 a febrero de 1930; campeón
+    # Gimnasia), que se contó como el de 1929 porque el oficial no se jugó: 35 equipos en dos zonas a una rueda (la
+    # Impar, de 18, y la Par, de 17; 17 fechas), con 2 puntos por partido ganado. Al final, muchos equipos se retiraron
+    # o no se presentaron, y perdían todos los partidos que les faltaban ("para_local"/"para_visitante", sin goles); a
+    # los suspendidos que la asociación le dio ganados a uno se les cuentan los goles, como en la tabla de RSSSF. En la
+    # Par, Boca y San Lorenzo empataron el primer puesto y lo desempataron en tres partidos ("playoffs"; Boca va primero,
+    # "orden_a_mano", como Defensores de Belgrano delante de Sportivo Buenos Aires, el orden de RSSSF). La final, entre los
+    # primeros de cada zona, la ganó Gimnasia; el partido por el tercer puesto lo ganó River porque San Lorenzo no se
+    # presentó ("gana"). No hubo descensos. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles salvo los de la
+    # final)
+    "1929-primera": {"nombre": "Campeonato de Primera División 1929 (amateur)", "anio": 1929, "liga": "a_mano",
+                     "slug": "1929-primera",
+                     "zonas_a_mano": {
+                         "Zona Impar": ["gimnasia-y-esgrima", "river-plate", "lanus", "racing-club", "almagro",
+                                        "talleres-remedios-de-escalada", "san-fernando", "colegiales", "el-porvenir",
+                                        "estudiantes-de-la-plata", "tigre", "argentino-del-sud", "banfield", "huracan",
+                                        "atlanta", "san-isidro", "estudiantes-buenos-aires", "platense"],
+                         "Zona Par": ["boca-juniors", "san-lorenzo", "independiente", "estudiantil-porteno",
+                                      "chacarita-juniors", "velez-sarsfield", "argentinos-juniors", "barracas-central",
+                                      "sportivo-palermo", "quilmes", "defensores-de-belgrano", "sportivo-buenos-aires",
+                                      "excursionistas", "argentino-de-quilmes", "argentino-de-lomas", "ferro-carril-oeste",
+                                      "sportivo-barracas"]},
+                     "fechas": 17, "pasan": 2, "puntos_victoria": 2,
+                     "orden_a_mano": ["boca-juniors", "san-lorenzo", "defensores-de-belgrano", "sportivo-buenos-aires"],
+                     "texto_pasan": "Los dos primeros de cada zona: los primeros jugaron la final y los segundos, el partido "
+                                    "por el tercer puesto (en la Zona Par, Boca y San Lorenzo empataron el primer puesto y lo "
+                                    "desempataron en tres partidos)",
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Se contó como el campeonato de 1929 porque el oficial no se jugó. Al "
+                                    "final muchos equipos se retiraron o no se presentaron, y perdieron todos los partidos que "
+                                    "les faltaban. Orden: puntos y, con los mismos puntos, la diferencia de gol; Boca va "
+                                    "delante de San Lorenzo por el desempate, y Defensores de Belgrano delante de Sportivo "
+                                    "Buenos Aires, como en RSSSF. Argentino de Lomas se llamaba Argentino de Banfield.",
+                     "goleadores_nota": "Los goles son solo de la final (de RSSSF, con los minutos).",
+                     "nombre_playoffs": "Fase final",
+                     "cuadro_desde": "Final",
+                     "playoffs": [(r"^$^", n) for n in ("Desempate de la Zona Par", "Tercer puesto", "Final")],
+                     "playoffs_a_mano": {
+                         "Desempate de la Zona Par": [
+                             {"fecha": "1930-01-19", "local": "boca-juniors", "visitante": "san-lorenzo", "gl": 2, "gv": 2,
+                              "estadio": "Cancha de River Plate"},
+                             {"fecha": "1930-01-26", "local": "boca-juniors", "visitante": "san-lorenzo", "gl": 2, "gv": 2,
+                              "estadio": "Cancha de Racing Club"},
+                             {"fecha": "1930-02-02", "local": "boca-juniors", "visitante": "san-lorenzo", "gl": 3, "gv": 1,
+                              "estadio": "Cancha de River Plate"},
+                         ],
+                         "Tercer puesto": [
+                             {"fecha": "1930-02-09", "local": "river-plate", "visitante": "san-lorenzo", "gl": 0, "gv": 0,
+                              "gana": "river-plate", "sin_goles": True, "estadio": "Cancha de Racing Club",
+                              "nota": "No se jugó: San Lorenzo no se presentó y perdió el partido."},
+                         ],
+                         "Final": [
+                             {"fecha": "1930-02-09", "local": "boca-juniors", "visitante": "gimnasia-y-esgrima", "gl": 1, "gv": 2,
+                              "estadio": "Cancha de River Plate",
+                              "goles": [{"jugador": "Di Giano", "equipo": "local", "min": 30, "tipo": "ec"},
+                                        {"jugador": "Maleanni", "equipo": "visitante", "min": 62},
+                                        {"jugador": "Maleanni", "equipo": "visitante", "min": 70}]},
+                         ],
+                     },
+                     "sin_descensos": "No hubo descensos: en 1930 jugaron los mismos 35 equipos y subió Honor y Patria."},
     # 1930: el último campeonato de la era amateur antes de la división de 1931, de la Asociación Amateurs Argentina de
     # Football (marzo de 1930 a abril de 1931; campeón Boca): 36 equipos a una rueda (35 fechas), con 2 puntos por partido
     # ganado. Varios partidos se suspendieron y quedaron con el resultado del momento; en tres, la asociación le dio los
