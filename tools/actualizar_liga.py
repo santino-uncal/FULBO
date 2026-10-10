@@ -33,6 +33,27 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1930: el último campeonato de la era amateur antes de la división de 1931, de la Asociación Amateurs Argentina de
+    # Football (marzo de 1930 a abril de 1931; campeón Boca): 36 equipos a una rueda (35 fechas), con 2 puntos por partido
+    # ganado. Varios partidos se suspendieron y quedaron con el resultado del momento; en tres, la asociación le dio los
+    # puntos a uno, con los goles del partido en la tabla ("para_local"/"para_visitante"); los que se terminaron o se
+    # volvieron a jugar van una sola vez, con el resultado final. Al final, varios equipos no se presentaron
+    # ("para_local"/"para_visitante", sin goles). Tres equipos empataron en puntos y en diferencia de gol: en el orden de
+    # RSSSF ("orden_a_mano"). Bajaban los dos últimos: Honor y Patria y Argentino del Sud. ESPN no lo tiene: va a mano
+    # (tools/a_mano; RSSSF, con los goles de algunos partidos, sin minutos)
+    "1930-primera": {"nombre": "Campeonato de Primera División 1930 (amateur)", "anio": 1930, "liga": "a_mano",
+                     "slug": "1930-primera", "zonas": "unica", "fechas": 35, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_a_mano": ["defensores-de-belgrano", "el-porvenir", "excursionistas"],
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol; Defensores "
+                                    "de Belgrano, El Porvenir y Excursionistas, con los mismos puntos y la misma diferencia de "
+                                    "gol, en el orden de RSSSF. Argentino de Lomas se llamaba Argentino de Banfield.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1930 (amateur). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo de algunos partidos (de RSSSF, sin minutos). Según RSSSF, el "
+                                        "goleador del torneo fue Roberto Cherro (Boca), con 37 goles.",
+                     "descensos": "tabla", "descienden": 2},
     # 1931 (amateur): el campeonato de la Asociación Amateurs Argentina de Football (desde junio, Asociación Argentina de
     # Football, Amateurs y Profesionales), el que se jugó desde junio, después de que los clubes grandes se fueran a la
     # liga profesional (junio a diciembre; campeón Estudiantil Porteño): 16 equipos a una rueda, con 2 puntos por partido
@@ -4706,6 +4727,9 @@ CLUBES_NUEVOS = {
     "spa": ("sportivo-palermo", "Sportivo Palermo"),
     "sfe": ("san-fernando", "San Fernando"),
     "alo": ("argentino-de-lomas", "Argentino de Lomas"),   # (no están en ESPN: el amateur 1931; escudos genéricos)   # (no está en ESPN: el amateur 1932; escudo genérico)
+    "csi": ("san-isidro", "San Isidro"),
+    "hyp": ("honor-y-patria", "Honor y Patria"),
+    "ads": ("argentino-del-sud", "Argentino del Sud"),   # (no están en ESPN: 1930; escudo genérico el de Argentino del Sud)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),

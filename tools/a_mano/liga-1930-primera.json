@@ -1,0 +1,8767 @@
+{
+ "nombre": "Campeonato de Primera División 1930 (amateur)",
+ "fuente": "Resultados, días y fechas: RSSSF (Pablo Ciullini, de La Nación y La Prensa), con los goles de algunos partidos (sin minutos; los que RSSSF no dice van sin autor). RSSSF no trae las canchas: va la del local, salvo las que dice. Los partidos suspendidos que se terminaron o se volvieron a jugar van una sola vez, con el resultado final. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1930-03-23",
+     "local": "barracas-central",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Mastrolorenzo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vitali",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ciancio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-03-23",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "defensores-de-belgrano",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Varallo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Varallo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maleanni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Curell",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-03-23",
+     "local": "velez-sarsfield",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-03-23",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "argentino-del-sud",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1930-03-23",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-03-23",
+     "local": "sportivo-barracas",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Marascci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cruz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Landolfi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D.García",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-03-23",
+     "local": "river-plate",
+     "visitante": "san-fernando",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1930-03-23",
+     "local": "racing-club",
+     "visitante": "sportivo-palermo",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Barañano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tabar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perinetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pompey",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stagnaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Batz",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Monti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-03-23",
+     "local": "quilmes",
+     "visitante": "excursionistas",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1930-03-23",
+     "local": "argentinos-juniors",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-03-23",
+     "local": "el-porvenir",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "de los Santos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Naveira",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vigliola",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-03-23",
+     "local": "honor-y-patria",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1930-03-23",
+     "local": "atlanta",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1930-03-23",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1930-03-23",
+     "local": "colegiales",
+     "visitante": "argentino-de-lomas",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-17",
+     "local": "san-isidro",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-29",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Onzari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fleitas Solich",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M.Evaristo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-19",
+     "local": "tigre",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1930-03-30",
+     "local": "colegiales",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1930-03-30",
+     "local": "argentino-de-lomas",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1930-03-30",
+     "local": "boca-juniors",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "B.Ferreyra",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-03-30",
+     "local": "sportivo-buenos-aires",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1930-03-30",
+     "local": "independiente",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-03-30",
+     "local": "excursionistas",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-03-30",
+     "local": "sportivo-palermo",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Batz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Debatte",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Giglio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-03-30",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-03-30",
+     "local": "lanus",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-03-30",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Stagnaro",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-03-30",
+     "local": "defensores-de-belgrano",
+     "visitante": "almagro",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Barreiro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De Jonge",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giménez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ciancio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-17",
+     "local": "estudiantil-porteno",
+     "visitante": "honor-y-patria",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-17",
+     "local": "banfield",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "equipo": "local"
+      },
+      {
+       "jugador": "Naveira",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Naveira",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-17",
+     "local": "san-fernando",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-17",
+     "local": "argentino-del-sud",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 6,
+     "estadio": "Cancha de Argentino del Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-29",
+     "local": "argentino-de-quilmes",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mellone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-19",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Fernández",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sponda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Benedetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spósito",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1930-04-06",
+     "local": "barracas-central",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-06",
+     "local": "almagro",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Gaslini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-06",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentino-del-sud",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Varallo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Varallo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Varallo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García",
+       "equipo": "local",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-06",
+     "local": "velez-sarsfield",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-06",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-06",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-fernando",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-06",
+     "local": "sportivo-barracas",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-06",
+     "local": "river-plate",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Debatte",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-06",
+     "local": "racing-club",
+     "visitante": "excursionistas",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Perinetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perinetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perinetti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-06",
+     "local": "san-isidro",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-06",
+     "local": "quilmes",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-06",
+     "local": "tigre",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-06",
+     "local": "huracan",
+     "visitante": "banfield",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spósito",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-06",
+     "local": "el-porvenir",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-06",
+     "local": "honor-y-patria",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Honor y Patria",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-06",
+     "local": "atlanta",
+     "visitante": "argentino-de-lomas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-06",
+     "local": "platense",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-02",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "A.Suárez",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Penella",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1930-04-13",
+     "local": "platense",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-13",
+     "local": "colegiales",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-13",
+     "local": "argentino-de-lomas",
+     "visitante": "honor-y-patria",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-13",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "el-porvenir",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-13",
+     "local": "estudiantil-porteno",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Vesperoni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-13",
+     "local": "banfield",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-13",
+     "local": "ferro-carril-oeste",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-13",
+     "local": "boca-juniors",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "M.Evaristo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Kuko",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Penella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quadrio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A.Vázquez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A.Vázquez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mandile",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-13",
+     "local": "sportivo-buenos-aires",
+     "visitante": "san-isidro",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-13",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Lalín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravaschino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravaschino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mellone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-13",
+     "local": "excursionistas",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Belis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Belis",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dapit",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Locasso",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Debatte",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-13",
+     "local": "argentino-de-quilmes",
+     "visitante": "sportivo-barracas",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-13",
+     "local": "sportivo-palermo",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-13",
+     "local": "san-fernando",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-13",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-13",
+     "local": "lanus",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spadaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Minella",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-13",
+     "local": "argentino-del-sud",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Argentino del Sud",
+     "goles": [
+      {
+       "jugador": "Agrelo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vivas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Oro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ciancio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vitali",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-13",
+     "local": "chacarita-juniors",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1930-04-20",
+     "local": "barracas-central",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-20",
+     "local": "defensores-de-belgrano",
+     "visitante": "argentino-del-sud",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-20",
+     "local": "almagro",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-20",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Minella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morgada",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morgada",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Corsetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-20",
+     "local": "velez-sarsfield",
+     "visitante": "san-fernando",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-20",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-20",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-20",
+     "local": "sportivo-barracas",
+     "visitante": "excursionistas",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-20",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Ganduglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Seoane",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-20",
+     "local": "racing-club",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Mellone",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-20",
+     "local": "san-isidro",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de San Isidro",
+     "goles": [
+      {
+       "jugador": "Penella",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fleitas Solich",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-20",
+     "local": "quilmes",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "nota": "Terminó a los 82 minutos."
+    },
+    {
+     "fecha": "1930-04-20",
+     "local": "argentinos-juniors",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-20",
+     "local": "tigre",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-20",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tellechea",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tellechea",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lauri",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-20",
+     "local": "el-porvenir",
+     "visitante": "argentino-de-lomas",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "de los Santos",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-20",
+     "local": "honor-y-patria",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Honor y Patria",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-20",
+     "local": "atlanta",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1930-04-27",
+     "local": "platense",
+     "visitante": "honor-y-patria",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-27",
+     "local": "argentino-de-lomas",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": [
+      {
+       "jugador": "Zoroza",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-04-27",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-27",
+     "local": "estudiantil-porteno",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-27",
+     "local": "banfield",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-27",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-isidro",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-27",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-27",
+     "local": "sportivo-palermo",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1930-04-27",
+     "local": "san-fernando",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": [
+      {
+       "jugador": "Pessaressi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "De Vicente",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maleanni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-05-29",
+     "local": "atlanta",
+     "visitante": "barracas-central",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-29",
+     "local": "colegiales",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-29",
+     "local": "sportivo-buenos-aires",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Cilento",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Debatte",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Debatte",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ganduglia",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Granara Costa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-05-29",
+     "local": "independiente",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-29",
+     "local": "excursionistas",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-29",
+     "local": "san-lorenzo",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "D.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D.García",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-05-29",
+     "local": "lanus",
+     "visitante": "defensores-de-belgrano",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-29",
+     "local": "argentino-del-sud",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Argentino del Sud",
+     "goles": [
+      {
+       "jugador": "Róscolo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Benavídez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Benavídez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Stochetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-19",
+     "local": "argentino-de-quilmes",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1930-05-04",
+     "local": "barracas-central",
+     "visitante": "argentino-del-sud",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-04",
+     "local": "chacarita-juniors",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-04",
+     "local": "defensores-de-belgrano",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-04",
+     "local": "almagro",
+     "visitante": "san-fernando",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Oro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Oro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rabanal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferrara",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ramos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-05-04",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "sportivo-palermo",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Varallo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Minella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Minella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Malianni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Monti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-05-04",
+     "local": "velez-sarsfield",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-04",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "excursionistas",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-04",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-04",
+     "local": "sportivo-barracas",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-04",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Ganduglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ganduglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Locasso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-05-04",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 7,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Tabar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tabar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tabar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Del Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Del Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sponda",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "D'Alessandro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-05-04",
+     "local": "san-isidro",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-04",
+     "local": "quilmes",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-04",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-04",
+     "local": "tigre",
+     "visitante": "argentino-de-lomas",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-04",
+     "local": "huracan",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spósito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giúdice",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-05-04",
+     "local": "el-porvenir",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Naveira",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.García",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Quilindro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M.García",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M.García",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-05-04",
+     "local": "honor-y-patria",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Honor y Patria",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1930-05-18",
+     "local": "honor-y-patria",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Honor y Patria",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-18",
+     "local": "atlanta",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-18",
+     "local": "platense",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "H.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quilindro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vesperoni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-05-18",
+     "local": "colegiales",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-18",
+     "local": "argentino-de-lomas",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-18",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-18",
+     "local": "estudiantil-porteno",
+     "visitante": "san-isidro",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-18",
+     "local": "banfield",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Nappi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-05-18",
+     "local": "boca-juniors",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Semino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-05-18",
+     "local": "sportivo-buenos-aires",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-18",
+     "local": "independiente",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-18",
+     "local": "excursionistas",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-18",
+     "local": "argentino-de-quilmes",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maleanni",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 67 minutos, 2-1; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1930-05-18",
+     "local": "sportivo-palermo",
+     "visitante": "almagro",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Terrot",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Terrot",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Evaristo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-05-18",
+     "local": "san-fernando",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-18",
+     "local": "san-lorenzo",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-05-18",
+     "local": "lanus",
+     "visitante": "argentino-del-sud",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1930-06-01",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "excursionistas",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-01",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "J.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fleitas Solich",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Kuko",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-01",
+     "local": "san-isidro",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-01",
+     "local": "argentinos-juniors",
+     "visitante": "colegiales",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-01",
+     "local": "tigre",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-01",
+     "local": "huracan",
+     "visitante": "atlanta",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Spósito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spósito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Terminó a los 80 minutos."
+    },
+    {
+     "fecha": "1930-06-19",
+     "local": "barracas-central",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-19",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-19",
+     "local": "argentino-del-sud",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 6,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-19",
+     "local": "chacarita-juniors",
+     "visitante": "san-fernando",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-19",
+     "local": "defensores-de-belgrano",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-19",
+     "local": "river-plate",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Locasso",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-19",
+     "local": "racing-club",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Del Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Del Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barañano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Devicenzi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-19",
+     "local": "quilmes",
+     "visitante": "argentino-de-lomas",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-19",
+     "local": "el-porvenir",
+     "visitante": "honor-y-patria",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Naveira",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lenders",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lenders",
+       "equipo": "local"
+      },
+      {
+       "jugador": "de los Santos",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-12-28",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-28",
+     "local": "almagro",
+     "visitante": "argentino-de-quilmes",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Sampayo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Varalli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Varalli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olivetto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cacciópoli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cacciópoli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Trujillo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-01-06",
+     "local": "sportivo-barracas",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1930-06-08",
+     "local": "honor-y-patria",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Honor y Patria",
+     "goles": [
+      {
+       "jugador": "Olivari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Spósito",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-08",
+     "local": "atlanta",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-08",
+     "local": "platense",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-08",
+     "local": "colegiales",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-08",
+     "local": "argentino-de-lomas",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-08",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Ochoa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-08",
+     "local": "estudiantil-porteno",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "F.Martínez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Debatte",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-08",
+     "local": "banfield",
+     "visitante": "sportivo-barracas",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-08",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-08",
+     "local": "boca-juniors",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "M.Evaristo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-08",
+     "local": "sportivo-buenos-aires",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-08",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Ravaschino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Paolinetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maleanni",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Varallo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-08",
+     "local": "sportivo-palermo",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [],
+     "para_local": [
+      1,
+      1,
+      "D"
+     ],
+     "para_visitante": [
+      1,
+      1,
+      "V"
+     ],
+     "nota": "Se suspendió a los 44 minutos, 1-1, y no se terminó: los puntos fueron para Chacarita (con los goles del partido en la tabla)."
+    },
+    {
+     "fecha": "1930-06-08",
+     "local": "san-fernando",
+     "visitante": "argentino-del-sud",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-08",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-19",
+     "local": "excursionistas",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-02",
+     "local": "el-porvenir",
+     "visitante": "barracas-central",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Naveira",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Naveira",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chozas",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-11-02",
+     "local": "argentino-de-quilmes",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1930-06-15",
+     "local": "barracas-central",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-15",
+     "local": "lanus",
+     "visitante": "san-fernando",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-15",
+     "local": "argentino-del-sud",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Argentino del Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-15",
+     "local": "defensores-de-belgrano",
+     "visitante": "excursionistas",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-15",
+     "local": "almagro",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Ravaschino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-15",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Maleanni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Díaz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Varallo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-15",
+     "local": "velez-sarsfield",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Quiroga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Alberino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-15",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-15",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-15",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Scopelli",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Scopelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-15",
+     "local": "racing-club",
+     "visitante": "argentino-de-lomas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Ochoa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perinetti",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-15",
+     "local": "san-isidro",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-15",
+     "local": "quilmes",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-15",
+     "local": "argentinos-juniors",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-15",
+     "local": "tigre",
+     "visitante": "honor-y-patria",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-15",
+     "local": "huracan",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Bartolucci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Artel",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-11-02",
+     "local": "sportivo-barracas",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-04-05",
+     "local": "chacarita-juniors",
+     "visitante": "argentino-de-quilmes",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1930-06-22",
+     "local": "huracan",
+     "visitante": "barracas-central",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Onzari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Prato",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-22",
+     "local": "el-porvenir",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "de los Santos",
+       "equipo": "local"
+      },
+      {
+       "jugador": "B.Ferreyra",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-22",
+     "local": "honor-y-patria",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Honor y Patria",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-22",
+     "local": "atlanta",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-22",
+     "local": "platense",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-22",
+     "local": "colegiales",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-22",
+     "local": "argentino-de-lomas",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Gondar",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Locasso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-22",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "sportivo-barracas",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-22",
+     "local": "estudiantil-porteno",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-22",
+     "local": "banfield",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-22",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-22",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fleitas Solich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fleitas Solich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Penella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Varallo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-22",
+     "local": "sportivo-buenos-aires",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Peucelle",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-22",
+     "local": "independiente",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-22",
+     "local": "excursionistas",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-22",
+     "local": "argentino-de-quilmes",
+     "visitante": "argentino-del-sud",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-22",
+     "local": "sportivo-palermo",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-22",
+     "local": "san-fernando",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1930-06-29",
+     "local": "barracas-central",
+     "visitante": "san-fernando",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-29",
+     "local": "san-lorenzo",
+     "visitante": "sportivo-palermo",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-29",
+     "local": "lanus",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-29",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-29",
+     "local": "defensores-de-belgrano",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-29",
+     "local": "almagro",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Rabanal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M.Evaristo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M.Evaristo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M.Evaristo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-29",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "J.L.Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-29",
+     "local": "velez-sarsfield",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-29",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-29",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-29",
+     "local": "sportivo-barracas",
+     "visitante": "argentino-de-lomas",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-29",
+     "local": "river-plate",
+     "visitante": "colegiales",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Debatte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Locasso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ganduglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ganduglia",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-29",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Del Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Del Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mellone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Recagno",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "O.Mapelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-29",
+     "local": "san-isidro",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-29",
+     "local": "quilmes",
+     "visitante": "honor-y-patria",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1930-06-29",
+     "local": "argentinos-juniors",
+     "visitante": "el-porvenir",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Ruffo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Garabelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "de los Santos",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-06-29",
+     "local": "tigre",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": [
+      {
+       "jugador": "Haedo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-11-02",
+     "local": "argentino-del-sud",
+     "visitante": "excursionistas",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1930-08-17",
+     "local": "tigre",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-17",
+     "local": "huracan",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-08-17",
+     "local": "el-porvenir",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-17",
+     "local": "honor-y-patria",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Honor y Patria",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-17",
+     "local": "atlanta",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-17",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "R.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Granara Costa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ganduglia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-08-17",
+     "local": "colegiales",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-17",
+     "local": "argentino-de-lomas",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-17",
+     "local": "estudiantil-porteno",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-17",
+     "local": "banfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Rodríguez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Liciardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Liciardi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Varallo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Varallo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Minella",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-08-17",
+     "local": "ferro-carril-oeste",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Oro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-08-17",
+     "local": "boca-juniors",
+     "visitante": "defensores-de-belgrano",
+     "gl": 8,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M.Evaristo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M.Evaristo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alberino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fleitas Solich",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-08-17",
+     "local": "sportivo-buenos-aires",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-17",
+     "local": "independiente",
+     "visitante": "argentino-del-sud",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-17",
+     "local": "excursionistas",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-17",
+     "local": "argentino-de-quilmes",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-17",
+     "local": "sportivo-palermo",
+     "visitante": "san-fernando",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1930-08-24",
+     "local": "barracas-central",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-24",
+     "local": "san-fernando",
+     "visitante": "argentino-de-quilmes",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-24",
+     "local": "san-lorenzo",
+     "visitante": "excursionistas",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-24",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 6,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-24",
+     "local": "argentino-del-sud",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentino del Sud",
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "nota": "Se suspendió a los 10 minutos, 0-0, y no se terminó: los puntos fueron para Sportivo Buenos Aires (con los goles del partido en la tabla)."
+    },
+    {
+     "fecha": "1930-08-24",
+     "local": "chacarita-juniors",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Nin",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gaslini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M.Evaristo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-08-24",
+     "local": "defensores-de-belgrano",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-24",
+     "local": "almagro",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Echeverría",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-08-24",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Ruscitti",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-08-24",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-24",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "argentino-de-lomas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-24",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-24",
+     "local": "sportivo-barracas",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-24",
+     "local": "river-plate",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Ganduglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giglio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Debatte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "B.Delgado",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "B.Delgado",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ordoñez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-08-24",
+     "local": "racing-club",
+     "visitante": "honor-y-patria",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Pompey",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pompey",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Del Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barañano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olivari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-08-24",
+     "local": "san-isidro",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-08-24",
+     "local": "quilmes",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Vázquez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Arrillaga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-08-24",
+     "local": "argentinos-juniors",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1930-09-14",
+     "local": "argentinos-juniors",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-14",
+     "local": "tigre",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-14",
+     "local": "huracan",
+     "visitante": "san-isidro",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Loizo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spósito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-09-14",
+     "local": "el-porvenir",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Gurrutchague",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mellone",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Del Giúdice",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Barañano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-09-14",
+     "local": "honor-y-patria",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de Honor y Patria",
+     "goles": [
+      {
+       "jugador": "Granara Costa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Granara Costa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Granara Costa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ganduglia",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Locasso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-09-14",
+     "local": "atlanta",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-14",
+     "local": "platense",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-14",
+     "local": "colegiales",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-14",
+     "local": "argentino-de-lomas",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Ferreira",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Guaita",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zozaya",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scopelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Varallo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-09-14",
+     "local": "estudiantil-porteno",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Devicenzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bettinotti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ciancio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ciancio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-09-14",
+     "local": "banfield",
+     "visitante": "defensores-de-belgrano",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-14",
+     "local": "ferro-carril-oeste",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-14",
+     "local": "boca-juniors",
+     "visitante": "argentino-del-sud",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Fleitas Solich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M.Evaristo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M.Evaristo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Penella",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-09-14",
+     "local": "sportivo-buenos-aires",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-14",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-14",
+     "local": "excursionistas",
+     "visitante": "san-fernando",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-14",
+     "local": "argentino-de-quilmes",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1930-09-21",
+     "local": "barracas-central",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-21",
+     "local": "sportivo-palermo",
+     "visitante": "excursionistas",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-21",
+     "local": "san-fernando",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-21",
+     "local": "san-lorenzo",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-21",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "M.Evaristo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-09-21",
+     "local": "argentino-del-sud",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Argentino del Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-21",
+     "local": "chacarita-juniors",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-21",
+     "local": "defensores-de-belgrano",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-21",
+     "local": "almagro",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Mastrolorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Zozaya",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Guaita",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-09-21",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentino-de-lomas",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Varallo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Varallo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.C.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.C.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.C.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.C.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Curell",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-09-21",
+     "local": "velez-sarsfield",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-21",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-21",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "nota": "Se suspendió a los 67 minutos, 1-0; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1930-09-21",
+     "local": "sportivo-barracas",
+     "visitante": "honor-y-patria",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-21",
+     "local": "river-plate",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Ganduglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ganduglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Debatte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Iribarren",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Naveira",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-09-21",
+     "local": "racing-club",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Del Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barañano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-09-21",
+     "local": "san-isidro",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-21",
+     "local": "quilmes",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1930-09-28",
+     "local": "quilmes",
+     "visitante": "barracas-central",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-28",
+     "local": "argentinos-juniors",
+     "visitante": "san-isidro",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-28",
+     "local": "tigre",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-28",
+     "local": "huracan",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Locasso",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ganduglia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-09-28",
+     "local": "el-porvenir",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-28",
+     "local": "honor-y-patria",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Honor y Patria",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-28",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-28",
+     "local": "colegiales",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Felipelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giudice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.C.González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-09-28",
+     "local": "argentino-de-lomas",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-28",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "defensores-de-belgrano",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "nota": "Terminó a los 75 minutos."
+    },
+    {
+     "fecha": "1930-09-28",
+     "local": "estudiantil-porteno",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-28",
+     "local": "banfield",
+     "visitante": "argentino-del-sud",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-28",
+     "local": "ferro-carril-oeste",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-28",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "M.Evaristo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-09-28",
+     "local": "sportivo-buenos-aires",
+     "visitante": "san-fernando",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-28",
+     "local": "independiente",
+     "visitante": "sportivo-palermo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1930-09-28",
+     "local": "excursionistas",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Pereira",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cacciópoli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-11-02",
+     "local": "atlanta",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1930-10-05",
+     "local": "barracas-central",
+     "visitante": "excursionistas",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-05",
+     "local": "argentino-de-quilmes",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-05",
+     "local": "sportivo-palermo",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-05",
+     "local": "san-fernando",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 6,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Saint Estéven",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Penella",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M.Evaristo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-05",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Maglio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "S.Martín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gainzarain",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gainzarain",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gainzarain",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-05",
+     "local": "lanus",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-05",
+     "local": "argentino-del-sud",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Argentino del Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-05",
+     "local": "chacarita-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-05",
+     "local": "defensores-de-belgrano",
+     "visitante": "argentino-de-lomas",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-05",
+     "local": "almagro",
+     "visitante": "colegiales",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Olivetto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olivetto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sampayo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Filippelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Curell",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Varallo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morgada",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quilindro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-05",
+     "local": "velez-sarsfield",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-05",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "honor-y-patria",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-05",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "el-porvenir",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-05",
+     "local": "sportivo-barracas",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Campilongo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marassi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spósito",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-05",
+     "local": "river-plate",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Ganduglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Granara Costa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gondar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Debatte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Haedo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "B.Ferreyra",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-05",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-05",
+     "local": "san-isidro",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1930-10-12",
+     "local": "san-isidro",
+     "visitante": "barracas-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-12",
+     "local": "quilmes",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-12",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Di Paola",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ganduglia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-12",
+     "local": "tigre",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-12",
+     "local": "huracan",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spósito",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-12",
+     "local": "el-porvenir",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-12",
+     "local": "honor-y-patria",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Honor y Patria",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-12",
+     "local": "atlanta",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": [
+      {
+       "jugador": "Ordoñez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.C.González",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Varallo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Naón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-12",
+     "local": "platense",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-12",
+     "local": "colegiales",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-12",
+     "local": "argentino-de-lomas",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentino-del-sud",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-12",
+     "local": "estudiantil-porteno",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-12",
+     "local": "banfield",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-12",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-fernando",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-12",
+     "local": "boca-juniors",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-12",
+     "local": "sportivo-buenos-aires",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-12",
+     "local": "independiente",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1930-10-19",
+     "local": "barracas-central",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [],
+     "nota": "Se suspendió a los 82 minutos, 1-0; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1930-10-19",
+     "local": "excursionistas",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [],
+     "nota": "Se suspendió a los 50 minutos, 0-1; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1930-10-19",
+     "local": "argentino-de-quilmes",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Penella",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-19",
+     "local": "sportivo-palermo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-19",
+     "local": "san-fernando",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-19",
+     "local": "san-lorenzo",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "nota": "Se suspendió a los 80 minutos, 3-1; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1930-10-19",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-19",
+     "local": "argentino-del-sud",
+     "visitante": "argentino-de-lomas",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Argentino del Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-19",
+     "local": "chacarita-juniors",
+     "visitante": "colegiales",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-19",
+     "local": "defensores-de-belgrano",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-19",
+     "local": "almagro",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Recanatini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tibaldi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tibaldi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "C.Iglesias",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-19",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "honor-y-patria",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Naón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Naón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.C.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.C.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morgada",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bellagamba",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-19",
+     "local": "velez-sarsfield",
+     "visitante": "el-porvenir",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-19",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [
+      {
+       "jugador": "Novella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lamanna",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-19",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-19",
+     "local": "sportivo-barracas",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-19",
+     "local": "river-plate",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Giglio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Locasso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gondar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ganduglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mandile",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-19",
+     "local": "racing-club",
+     "visitante": "san-isidro",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Barañano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barañano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barañano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barañano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pompey",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mellone",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Flynn",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1930-10-26",
+     "local": "racing-club",
+     "visitante": "barracas-central",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-26",
+     "local": "san-isidro",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": [
+      {
+       "jugador": "Arriaga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Giglio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ganduglia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-26",
+     "local": "quilmes",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-26",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-26",
+     "local": "tigre",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-26",
+     "local": "huracan",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Loizo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spraggón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-26",
+     "local": "el-porvenir",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Naveira",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Varallo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Varallo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-26",
+     "local": "honor-y-patria",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Bellagamba",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cerrudo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rabanal",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Olivetto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-26",
+     "local": "atlanta",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-26",
+     "local": "platense",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-26",
+     "local": "colegiales",
+     "visitante": "argentino-del-sud",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-26",
+     "local": "argentino-de-lomas",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-26",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-26",
+     "local": "estudiantil-porteno",
+     "visitante": "san-fernando",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-26",
+     "local": "banfield",
+     "visitante": "sportivo-palermo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-26",
+     "local": "ferro-carril-oeste",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-10-26",
+     "local": "boca-juniors",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-10-26",
+     "local": "sportivo-buenos-aires",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1930-11-09",
+     "local": "barracas-central",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-09",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Seoane",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Seoane",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Seoane",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-11-09",
+     "local": "excursionistas",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [],
+     "para_local": [
+      1,
+      1,
+      "V"
+     ],
+     "para_visitante": [
+      1,
+      1,
+      "D"
+     ],
+     "nota": "Se suspendió a los 50 minutos, 1-1, y no se terminó: los puntos fueron para Excursionistas (con los goles del partido en la tabla)."
+    },
+    {
+     "fecha": "1930-11-09",
+     "local": "argentino-de-quilmes",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-09",
+     "local": "sportivo-palermo",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-09",
+     "local": "san-fernando",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-09",
+     "local": "san-lorenzo",
+     "visitante": "argentino-de-lomas",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-09",
+     "local": "lanus",
+     "visitante": "colegiales",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-09",
+     "local": "argentino-del-sud",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Argentino del Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-09",
+     "local": "chacarita-juniors",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-09",
+     "local": "defensores-de-belgrano",
+     "visitante": "honor-y-patria",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-09",
+     "local": "almagro",
+     "visitante": "el-porvenir",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Olivetto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olivetto",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-11-09",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spósito",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-11-09",
+     "local": "velez-sarsfield",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-09",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-09",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "quilmes",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-09",
+     "local": "sportivo-barracas",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-09",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Locasso",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1930-11-16",
+     "local": "river-plate",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Locasso",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-11-16",
+     "local": "racing-club",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Del Giúdice",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-11-16",
+     "local": "san-isidro",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-16",
+     "local": "quilmes",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-16",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-16",
+     "local": "tigre",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Tigre",
+     "goles": [
+      {
+       "jugador": "Haedo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Varallo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Varallo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J.C.González",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-11-16",
+     "local": "huracan",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vesperoni",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-11-16",
+     "local": "el-porvenir",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-16",
+     "local": "honor-y-patria",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Honor y Patria",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-16",
+     "local": "atlanta",
+     "visitante": "argentino-del-sud",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-16",
+     "local": "platense",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-16",
+     "local": "colegiales",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-16",
+     "local": "argentino-de-lomas",
+     "visitante": "san-fernando",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-16",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "sportivo-palermo",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "nota": "Terminó a los 75 minutos."
+    },
+    {
+     "fecha": "1930-11-16",
+     "local": "estudiantil-porteno",
+     "visitante": "argentino-de-quilmes",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-16",
+     "local": "banfield",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-16",
+     "local": "boca-juniors",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1930-11-23",
+     "local": "barracas-central",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Alberino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sarco",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-11-23",
+     "local": "sportivo-buenos-aires",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-23",
+     "local": "independiente",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-23",
+     "local": "excursionistas",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-23",
+     "local": "argentino-de-quilmes",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-23",
+     "local": "sportivo-palermo",
+     "visitante": "argentino-de-lomas",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-23",
+     "local": "san-fernando",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-23",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-23",
+     "local": "lanus",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-23",
+     "local": "argentino-del-sud",
+     "visitante": "honor-y-patria",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-23",
+     "local": "chacarita-juniors",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-23",
+     "local": "defensores-de-belgrano",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-23",
+     "local": "almagro",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Ciancio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "B.Ferreyra",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "J.C.Haedo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-11-23",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Naón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Naón",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Capellini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-11-23",
+     "local": "velez-sarsfield",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-23",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "san-isidro",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-23",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-23",
+     "local": "sportivo-barracas",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Ganduglia",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1930-11-30",
+     "local": "sportivo-barracas",
+     "visitante": "barracas-central",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-30",
+     "local": "river-plate",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Gondar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ganduglia",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-11-30",
+     "local": "racing-club",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Racing no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1930-11-30",
+     "local": "san-isidro",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-30",
+     "local": "quilmes",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Morgada",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-11-30",
+     "local": "argentinos-juniors",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "E.Cappellini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "P.Ruffo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Recanatini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-11-30",
+     "local": "tigre",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-30",
+     "local": "huracan",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-30",
+     "local": "el-porvenir",
+     "visitante": "argentino-del-sud",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [
+      {
+       "jugador": "Gurrutchague",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-11-30",
+     "local": "honor-y-patria",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Honor y Patria",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-30",
+     "local": "atlanta",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-30",
+     "local": "platense",
+     "visitante": "san-fernando",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-30",
+     "local": "colegiales",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-30",
+     "local": "argentino-de-lomas",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "excursionistas",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "nota": "Se suspendió a los 65 minutos, 6-0; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1930-11-30",
+     "local": "estudiantil-porteno",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-30",
+     "local": "banfield",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-11-30",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Pedemonte",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Kuko",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1930-11-02",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Duhalde",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tabar",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Perinetti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pompey",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-12-06",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "V.Martínez",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-12-07",
+     "local": "boca-juniors",
+     "visitante": "banfield",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Alberino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M.Evaristo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.Castro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-12-07",
+     "local": "sportivo-buenos-aires",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-07",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-07",
+     "local": "excursionistas",
+     "visitante": "argentino-de-lomas",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-07",
+     "local": "argentino-de-quilmes",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-07",
+     "local": "sportivo-palermo",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-07",
+     "local": "san-fernando",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-07",
+     "local": "san-lorenzo",
+     "visitante": "honor-y-patria",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-07",
+     "local": "lanus",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Spadaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Naveira",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-12-07",
+     "local": "argentino-del-sud",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": [
+      {
+       "jugador": "Souza",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Spósito",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Scursoni",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-12-07",
+     "local": "chacarita-juniors",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-07",
+     "local": "defensores-de-belgrano",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-07",
+     "local": "almagro",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Olivetto",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-12-07",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-isidro",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Ruscitti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.C.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.C.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morgada",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-12-07",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1931-04-05",
+     "local": "barracas-central",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [],
+     "nota": "Empezó el 7 de diciembre; se suspendió a los 37 minutos, 0-1, y los minutos que faltaban se jugaron el 5 de abril de 1931."
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1930-12-14",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "barracas-central",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-14",
+     "local": "sportivo-barracas",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-14",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Locasso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Locasso",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gondar",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-12-14",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Gíudice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.García",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-12-14",
+     "local": "san-isidro",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-14",
+     "local": "tigre",
+     "visitante": "argentino-del-sud",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": [],
+     "nota": "Terminó a los 79 minutos."
+    },
+    {
+     "fecha": "1930-12-14",
+     "local": "huracan",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-14",
+     "local": "atlanta",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-14",
+     "local": "platense",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-14",
+     "local": "colegiales",
+     "visitante": "excursionistas",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "nota": "Se suspendió a los 75 minutos, 4-0; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1930-12-28",
+     "local": "quilmes",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "nota": "El 14 de diciembre se suspendió a los 42 minutos, 0-0, y se volvió a jugar."
+    },
+    {
+     "fecha": "1930-12-28",
+     "local": "argentinos-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [],
+     "nota": "El 14 de diciembre se suspendió a los 45 minutos, 1-1, y se volvió a jugar."
+    },
+    {
+     "fecha": "1930-12-28",
+     "local": "el-porvenir",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de El Porvenir",
+     "goles": [],
+     "nota": "El 14 de diciembre se suspendió a los 55 minutos, 2-2, y se volvió a jugar."
+    },
+    {
+     "fecha": "1930-12-28",
+     "local": "argentino-de-lomas",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": [],
+     "nota": "Empezó el 14 de diciembre; se suspendió a los 45 minutos, 0-1, y los minutos que faltaban se jugaron el 28 de diciembre."
+    },
+    {
+     "fecha": "1930-12-28",
+     "local": "estudiantil-porteno",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Devicenzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Devicenzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Devicenzi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alberino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pedemonte",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Empezó el 14 de diciembre; se suspendió a los 45 minutos, 2-1, y los minutos que faltaban se jugaron el 28 de diciembre."
+    },
+    {
+     "fecha": "1930-12-28",
+     "local": "banfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": [],
+     "nota": "Empezó el 14 de diciembre; se suspendió a los 35 minutos, 2-0, y los minutos que faltaban se jugaron el 28 de diciembre."
+    },
+    {
+     "fecha": "1930-12-28",
+     "local": "honor-y-patria",
+     "visitante": "san-fernando",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Honor y Patria",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1930-12-21",
+     "local": "barracas-central",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-21",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-21",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scopelli",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 85 minutos, 2-1; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1930-12-21",
+     "local": "sportivo-buenos-aires",
+     "visitante": "argentino-de-lomas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-21",
+     "local": "independiente",
+     "visitante": "colegiales",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-21",
+     "local": "excursionistas",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-21",
+     "local": "sportivo-palermo",
+     "visitante": "honor-y-patria",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-21",
+     "local": "san-fernando",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de San Fernando",
+     "goles": [
+      {
+       "jugador": "de los Santos",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Naveira",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-12-21",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Cortecci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cortecci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Carricaberry",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Concheiro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-12-21",
+     "local": "lanus",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-21",
+     "local": "argentino-del-sud",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-21",
+     "local": "chacarita-juniors",
+     "visitante": "quilmes",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-21",
+     "local": "defensores-de-belgrano",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [],
+     "nota": "Se suspendió a los 75 minutos, 2-1; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1930-12-21",
+     "local": "almagro",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Varalli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tabar",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-12-21",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Palomino",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1930-12-21",
+     "local": "velez-sarsfield",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-21",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1930-12-21",
+     "local": "argentino-de-quilmes",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Maceda",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cacciópoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Delgado",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ordóñez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Iglesias",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1930-11-02",
+     "local": "tigre",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1931-01-03",
+     "local": "huracan",
+     "visitante": "san-fernando",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "para_local": [
+      3,
+      3,
+      "V"
+     ],
+     "para_visitante": [
+      3,
+      3,
+      "D"
+     ],
+     "nota": "Se suspendió a los 60 minutos, 3-3, y no se terminó: los puntos fueron para Huracán (con los goles del partido en la tabla)."
+    },
+    {
+     "fecha": "1931-01-06",
+     "local": "argentino-de-lomas",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Moure",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Alberino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-01",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "barracas-central",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-01",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-01",
+     "local": "sportivo-barracas",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Semino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cordero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Budiño",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-01",
+     "local": "river-plate",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Ganduglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rival",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-01",
+     "local": "racing-club",
+     "visitante": "defensores-de-belgrano",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Barañano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barañano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barañano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Del Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Del Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Perinetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stagnaro",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-01",
+     "local": "san-isidro",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-01",
+     "local": "quilmes",
+     "visitante": "argentino-del-sud",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-01",
+     "local": "argentinos-juniors",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-01",
+     "local": "el-porvenir",
+     "visitante": "sportivo-palermo",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-01",
+     "local": "honor-y-patria",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Honor y Patria",
+     "goles": [
+      {
+       "jugador": "Bellagamba",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Trujillo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-01",
+     "local": "atlanta",
+     "visitante": "excursionistas",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-01",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-01",
+     "local": "colegiales",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-01",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-01",
+     "local": "estudiantil-porteno",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "partidos": [
+    {
+     "fecha": "1931-01-06",
+     "local": "independiente",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-08",
+     "local": "barracas-central",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-08",
+     "local": "banfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-08",
+     "local": "ferro-carril-oeste",
+     "visitante": "argentino-de-lomas",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-08",
+     "local": "boca-juniors",
+     "visitante": "colegiales",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Penella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Kuko",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-08",
+     "local": "sportivo-buenos-aires",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-08",
+     "local": "excursionistas",
+     "visitante": "honor-y-patria",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-08",
+     "local": "argentino-de-quilmes",
+     "visitante": "el-porvenir",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-08",
+     "local": "sportivo-palermo",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-08",
+     "local": "san-fernando",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-08",
+     "local": "san-lorenzo",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-08",
+     "local": "lanus",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-08",
+     "local": "argentino-del-sud",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Argentino del Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-08",
+     "local": "chacarita-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Tabar",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Barañano",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mellone",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-08",
+     "local": "defensores-de-belgrano",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "G.Giménez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Izzeta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ganduglia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-08",
+     "local": "almagro",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Ciancio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Oro",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-08",
+     "local": "velez-sarsfield",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1931-04-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Palomino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Palomino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marciante",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "partidos": [
+    {
+     "fecha": "1931-03-15",
+     "local": "velez-sarsfield",
+     "visitante": "barracas-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-15",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [
+      {
+       "jugador": "Vázquez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Budiño",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-15",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "almagro",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Romito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Nardini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sánchez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Oro",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-15",
+     "local": "sportivo-barracas",
+     "visitante": "defensores-de-belgrano",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-15",
+     "local": "river-plate",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-15",
+     "local": "racing-club",
+     "visitante": "argentino-del-sud",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Barañano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Barañano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Del Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Del Giúdice",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ochoa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ochoa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mellone",
+       "equipo": "local"
+      }
+     ],
+     "nota": "Terminó a los 75 minutos."
+    },
+    {
+     "fecha": "1931-03-15",
+     "local": "san-isidro",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-15",
+     "local": "quilmes",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-15",
+     "local": "argentinos-juniors",
+     "visitante": "san-fernando",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-15",
+     "local": "tigre",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-15",
+     "local": "huracan",
+     "visitante": "argentino-de-quilmes",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Federici",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Loizo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Loizo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gentile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gentile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-15",
+     "local": "el-porvenir",
+     "visitante": "excursionistas",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-15",
+     "local": "honor-y-patria",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Honor y Patria",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-15",
+     "local": "atlanta",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-15",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Quilindro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Penella",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Alberino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-15",
+     "local": "colegiales",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-15",
+     "local": "argentino-de-lomas",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-15",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "estudiantil-porteno",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "partidos": [
+    {
+     "fecha": "1931-03-22",
+     "local": "barracas-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-22",
+     "local": "estudiantil-porteno",
+     "visitante": "argentino-de-lomas",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-22",
+     "local": "banfield",
+     "visitante": "colegiales",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-22",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-22",
+     "local": "boca-juniors",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Alberino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Penella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tibaldi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-22",
+     "local": "sportivo-buenos-aires",
+     "visitante": "honor-y-patria",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-22",
+     "local": "independiente",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "F.Sánchez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lenders",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-22",
+     "local": "excursionistas",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-22",
+     "local": "argentino-de-quilmes",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-22",
+     "local": "sportivo-palermo",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-22",
+     "local": "san-fernando",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-22",
+     "local": "san-lorenzo",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-22",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "Del Giúdice",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Del Giúdice",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ochoa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ochoa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-22",
+     "local": "argentino-del-sud",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de Argentino del Sud",
+     "goles": [
+      {
+       "jugador": "Gondar",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Locasso",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ganduglia",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ganduglia",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ganduglia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-22",
+     "local": "chacarita-juniors",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-22",
+     "local": "defensores-de-belgrano",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-22",
+     "local": "almagro",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Olivetto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D'Abatte",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lamanna",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lamanna",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-22",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "J.C.Gutiérrez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Olano",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Simielli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.Gómez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alonso",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "partidos": [
+    {
+     "fecha": "1931-03-29",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Budiño",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Simielli",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-29",
+     "local": "velez-sarsfield",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-29",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-29",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-29",
+     "local": "sportivo-barracas",
+     "visitante": "argentino-del-sud",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Argentino del Sud no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1931-03-29",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-29",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-29",
+     "local": "san-isidro",
+     "visitante": "san-fernando",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-29",
+     "local": "quilmes",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-29",
+     "local": "argentinos-juniors",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-29",
+     "local": "tigre",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-29",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Villanueva",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Paolinetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-29",
+     "local": "el-porvenir",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-29",
+     "local": "honor-y-patria",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 9,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Fontanini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Alberino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tomero",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-03-29",
+     "local": "atlanta",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "nota": "Terminó a los 88 minutos."
+    },
+    {
+     "fecha": "1931-03-29",
+     "local": "platense",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-29",
+     "local": "colegiales",
+     "visitante": "estudiantil-porteno",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1931-03-29",
+     "local": "argentino-de-lomas",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Argentino de Banfield",
+     "goles": [],
+     "nota": "Terminó a los 85 minutos."
+    }
+   ]
+  },
+  {
+   "numero": 35,
+   "partidos": [
+    {
+     "fecha": "1930-11-02",
+     "local": "sportivo-buenos-aires",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Larroca",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cilento",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Federici",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-04-05",
+     "local": "boca-juniors",
+     "visitante": "el-porvenir",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lenders",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "R.Pérez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-04-12",
+     "local": "barracas-central",
+     "visitante": "argentino-de-lomas",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1931-04-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "colegiales",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "nota": "Se suspendió a los 70 minutos, 5-0; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1931-04-12",
+     "local": "estudiantil-porteno",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1931-04-12",
+     "local": "banfield",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1931-04-12",
+     "local": "ferro-carril-oeste",
+     "visitante": "honor-y-patria",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Honor y Patria no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1931-04-12",
+     "local": "independiente",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1931-04-12",
+     "local": "excursionistas",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1931-04-12",
+     "local": "argentino-de-quilmes",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1931-04-12",
+     "local": "sportivo-palermo",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1931-04-12",
+     "local": "san-fernando",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Racing no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1931-04-12",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "D.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rival",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ganduglia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1931-04-12",
+     "local": "lanus",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1931-04-12",
+     "local": "argentino-del-sud",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Argentino del Sud no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1931-04-12",
+     "local": "chacarita-juniors",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1931-04-12",
+     "local": "defensores-de-belgrano",
+     "visitante": "velez-sarsfield",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1931-04-12",
+     "local": "almagro",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Gimnasia no se presentó y perdió el partido."
+    }
+   ]
+  }
+ ]
+}
