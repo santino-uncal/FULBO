@@ -39,19 +39,35 @@
     // de antes de 1990 más los de los torneos cargados hasta este. Y cuántos seguidos lleva el club (River en el
     // Apertura 1997: 3, un tricampeonato), contando todos los títulos en orden
     const TIT = window.LIGA_TITULOS || {};
+    // (los años con dos ligas a la vez, de 1912 a 1914, de 1919 a 1926 y de 1931 a 1934: cada campeón sigue la racha de
+    // los campeones del año anterior, de cualquiera de las dos; así Racing, campeón de 1913 a 1918 en una y de 1919 en
+    // la otra, lleva 7 seguidos)
+    const PARALELO = /^\d{4}-(aaf|amateurs|amateur|laf|faf)$/;
     const TITULOS = (() => {
       const cuenta = { ...TIT.antes };
       // (seguidos_antes: cuántos títulos seguidos llevaba ese club: River, campeón del Metropolitano y del Nacional 1979)
-      let anterior = TIT.ultimo_antes, seguidos = TIT.seguidos_antes || 1;
-      for (const t of INDICE) {
-        const deEste = (TIT.torneos?.[t.clave] || []).map(e => {
-          const [club, texto] = Array.isArray(e) ? e : [e, null];
-          cuenta[club] = (cuenta[club] || 0) + 1;
-          seguidos = club === anterior ? seguidos + 1 : 1;
-          anterior = club;
-          return { club, texto, n: cuenta[club], seguidos };
-        });
-        if (t.clave === CLAVE) return deEste;
+      // prev: los campeones del torneo anterior (o del año anterior, si tuvo dos ligas), con los títulos seguidos de cada uno
+      let prev = new Map(TIT.ultimo_antes ? [[TIT.ultimo_antes, TIT.seguidos_antes || 1]] : []);
+      for (let i = 0; i < INDICE.length;) {
+        // el período: un torneo, o los torneos paralelos del mismo año
+        let j = i + 1;
+        if (PARALELO.test(INDICE[i].clave))
+          while (j < INDICE.length && PARALELO.test(INDICE[j].clave) && INDICE[j].clave.slice(0, 4) === INDICE[i].clave.slice(0, 4)) j++;
+        const siguiente = new Map();
+        for (const t of INDICE.slice(i, j)) {
+          let cur = prev;   // (dentro de un torneo, sus títulos van en orden: River, campeón y Copa de Oro 1936)
+          const deEste = (TIT.torneos?.[t.clave] || []).map(e => {
+            const [club, texto] = Array.isArray(e) ? e : [e, null];
+            cuenta[club] = (cuenta[club] || 0) + 1;
+            const seguidos = (cur.get(club) || 0) + 1;
+            cur = new Map([[club, seguidos]]);
+            return { club, texto, n: cuenta[club], seguidos };
+          });
+          if (deEste.length) cur.forEach((s, c) => siguiente.set(c, Math.max(siguiente.get(c) || 0, s)));
+          if (t.clave === CLAVE) return deEste;
+        }
+        if (siguiente.size) prev = siguiente;
+        i = j;
       }
       return [];
     })();
