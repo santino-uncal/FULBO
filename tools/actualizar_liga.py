@@ -33,6 +33,22 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1910: el campeonato de la Argentine Football Association, la única liga ese año (abril a diciembre; campeón Alumni):
+    # 9 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de partidos es una
+    # fecha. Bajaba el último: Argentino de Quilmes. Estudiantes es el de Buenos Aires. La tabla de RSSSF cuenta un gol más
+    # a favor y en contra de Estudiantes y de Quilmes. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles)
+    "1910-primera": {"nombre": "Campeonato de Primera División 1910 (amateur)", "anio": 1910, "liga": "a_mano",
+                     "slug": "1910-primera", "zonas": "unica", "fechas": 33, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide "
+                                    "con el orden de RSSSF). En la tabla, Estudiantes y Quilmes tienen un gol menos a favor y "
+                                    "uno menos en contra que en la de RSSSF, que no coincide con los resultados de sus dos "
+                                    "partidos. RSSSF no numera las fechas: cada día de partidos es una fecha.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1910 (amateur). Cada partido ganado valía 2 "
+                                    "puntos.",
+                     "goleadores_nota": "RSSSF no trae los goles de este torneo.",
+                     "descensos": "tabla", "descienden": 1},
     # 1911: el campeonato de la Argentine Football Association, la única liga ese año (mayo a noviembre; campeón Alumni,
     # su décimo y último título): 9 equipos a dos ruedas, con 2 puntos por partido ganado. Alumni y Porteño empataron el
     # primer puesto y jugaron una final (en "playoffs"; ganó Alumni). Estudiantes es el de Buenos Aires. ESPN no lo

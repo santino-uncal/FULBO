@@ -1,0 +1,821 @@
+{
+ "nombre": "Campeonato de Primera División 1910 (amateur)",
+ "fuente": "Resultados y días: RSSSF (Pablo Ciullini, de La Nación y La Prensa), sin goles. RSSSF no numera las fechas: cada día de partidos es una fecha. RSSSF no trae las canchas: va la del local. Los partidos suspendidos que se terminaron después van una sola vez, con el resultado final. Estudiantes es el de Buenos Aires. La tabla que sale de los partidos es igual a la de RSSSF, salvo por un gol a favor y uno en contra de Estudiantes y de Quilmes: la tabla de RSSSF no coincide con los resultados de sus dos partidos (3-3 y 3-0)",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1910-04-24",
+     "local": "river-plate",
+     "visitante": "san-isidro",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1910-04-24",
+     "local": "argentino-de-quilmes",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 0,
+     "gv": 7,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1910-05-01",
+     "local": "alumni",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1910-05-01",
+     "local": "san-isidro",
+     "visitante": "belgrano-athletic",
+     "gl": 3,
+     "gv": 5,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1910-05-01",
+     "local": "quilmes",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1910-05-22",
+     "local": "san-isidro",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1910-06-19",
+     "local": "river-plate",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1910-06-24",
+     "local": "argentino-de-quilmes",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 6,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1910-06-26",
+     "local": "san-isidro",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1910-06-26",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "belgrano-athletic",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1910-06-26",
+     "local": "quilmes",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1910-06-29",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1910-06-29",
+     "local": "quilmes",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 7,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1910-07-03",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1910-07-03",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1910-07-03",
+     "local": "river-plate",
+     "visitante": "porteno",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1910-07-09",
+     "local": "belgrano-athletic",
+     "visitante": "porteno",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1910-07-10",
+     "local": "san-isidro",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1910-07-10",
+     "local": "river-plate",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1910-07-10",
+     "local": "belgrano-athletic",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1910-07-17",
+     "local": "belgrano-athletic",
+     "visitante": "argentino-de-quilmes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1910-07-24",
+     "local": "argentino-de-quilmes",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1910-07-31",
+     "local": "alumni",
+     "visitante": "belgrano-athletic",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1910-07-31",
+     "local": "quilmes",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1910-07-31",
+     "local": "porteno",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1910-07-31",
+     "local": "san-isidro",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1910-08-07",
+     "local": "belgrano-athletic",
+     "visitante": "san-isidro",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1910-08-14",
+     "local": "argentino-de-quilmes",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1910-08-15",
+     "local": "porteno",
+     "visitante": "belgrano-athletic",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1910-08-21",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "river-plate",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1910-08-21",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1910-08-21",
+     "local": "alumni",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1910-08-21",
+     "local": "porteno",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": [],
+     "nota": "Empezó el 7 de agosto; se suspendió, 0-0, y los minutos que faltaban se jugaron el 21 de agosto."
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1910-08-28",
+     "local": "quilmes",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1910-08-28",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "argentino-de-quilmes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1910-08-28",
+     "local": "belgrano-athletic",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1910-08-28",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1910-08-30",
+     "local": "san-isidro",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1910-08-30",
+     "local": "argentino-de-quilmes",
+     "visitante": "alumni",
+     "gl": 1,
+     "gv": 6,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1910-08-30",
+     "local": "belgrano-athletic",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1910-08-30",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1910-09-04",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1910-09-04",
+     "local": "quilmes",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1910-09-04",
+     "local": "san-isidro",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1910-09-08",
+     "local": "belgrano-athletic",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1910-09-18",
+     "local": "quilmes",
+     "visitante": "belgrano-athletic",
+     "gl": 1,
+     "gv": 7,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1910-09-25",
+     "local": "porteno",
+     "visitante": "argentino-de-quilmes",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1910-10-02",
+     "local": "river-plate",
+     "visitante": "belgrano-athletic",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1910-10-02",
+     "local": "quilmes",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1910-10-02",
+     "local": "alumni",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1910-10-02",
+     "local": "argentino-de-quilmes",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1910-10-09",
+     "local": "quilmes",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1910-10-09",
+     "local": "porteno",
+     "visitante": "alumni",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1910-10-09",
+     "local": "belgrano-athletic",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1910-10-16",
+     "local": "alumni",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1910-10-16",
+     "local": "san-isidro",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1910-10-16",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1910-10-16",
+     "local": "porteno",
+     "visitante": "river-plate",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1910-10-23",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1910-10-23",
+     "local": "porteno",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1910-10-23",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "alumni",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1910-10-23",
+     "local": "argentino-de-quilmes",
+     "visitante": "river-plate",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [],
+     "nota": "Empezó el 7 de agosto; se suspendió, 2-0, y los minutos que faltaban se jugaron el 23 de octubre."
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1910-10-30",
+     "local": "porteno",
+     "visitante": "alumni",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1910-10-30",
+     "local": "argentino-de-quilmes",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1910-10-30",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1910-11-01",
+     "local": "river-plate",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1910-11-01",
+     "local": "porteno",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1910-11-01",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-isidro",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1910-11-06",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "alumni",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "partidos": [
+    {
+     "fecha": "1910-11-11",
+     "local": "river-plate",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "partidos": [
+    {
+     "fecha": "1910-11-13",
+     "local": "river-plate",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "partidos": [
+    {
+     "fecha": "1910-12-08",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}
