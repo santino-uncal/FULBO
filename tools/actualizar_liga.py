@@ -33,6 +33,35 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1915: el campeonato de la Asociación Argentina de Football, la única liga ese año (abril de 1915 a enero de 1916;
+    # campeón Racing, el tercero seguido): 25 equipos a una rueda, con 2 puntos por partido ganado. RSSSF no numera las
+    # fechas: cada día de partidos es una fecha. Racing y San Isidro, invictos, empataron el primer puesto y jugaron una
+    # final (en "playoffs"; ganó Racing). Tres partidos se los dieron ganados al que había perdido o empatado, con los
+    # goles en la tabla. Bajaban los cuatro últimos. Banfield va delante de Quilmes, como en RSSSF ("orden_a_mano"; el
+    # cociente de goles). Hispano Argentino va como Columbian, el nombre que tuvo después. ESPN no lo tiene: va a mano
+    # (tools/a_mano; RSSSF, sin goles salvo el de la final)
+    "1915-primera": {"nombre": "Campeonato de Primera División 1915 (amateur)", "anio": 1915, "liga": "a_mano",
+                     "slug": "1915-primera", "zonas": "unica", "fechas": 45, "pasan": 2, "puntos_victoria": 2,
+                     "texto_pasan": "Empatados en el primer puesto (46 puntos, invictos): definieron el título en una final",
+                     "orden_a_mano": ["racing-club", "san-isidro", "banfield", "quilmes"],
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol; Banfield y "
+                                    "Quilmes, en el orden de RSSSF (por el cociente de goles). RSSSF no numera las fechas: cada "
+                                    "día de partidos es una fecha. Columbian se llamaba Hispano Argentino.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1915 (amateur), sin la final. Cada partido "
+                                    "ganado valía 2 puntos.",
+                     "goleadores_nota": "El gol es solo el de la final (de RSSSF, con el minuto). Según RSSSF, el goleador del "
+                                        "torneo fue Alberto Ohaco (Racing), con 30 goles.",
+                     "nombre_playoffs": "Final (desempate)",
+                     "playoffs": [(r"^$^", "Final")],
+                     "playoffs_a_mano": {
+                         "Final": [
+                             {"fecha": "1916-01-06", "local": "racing-club", "visitante": "san-isidro", "gl": 1, "gv": 0,
+                              "estadio": "Cancha de Independiente", "arbitro": "H. Alfano",
+                              "goles": [{"jugador": "A. Marcovecchio", "equipo": "local", "min": 6}]},
+                         ],
+                     },
+                     "descensos": "tabla", "descienden": 4},
     # 1916: el campeonato de la Asociación Argentina de Football, la única liga ese año (marzo a diciembre; campeón
     # Racing, el cuarto seguido): 22 equipos a una rueda, con 2 puntos por partido ganado. Bajaban los dos últimos:
     # Belgrano Athletic y Quilmes. Huracán va delante de Estudiantil Porteño, como en RSSSF ("orden_a_mano"). Columbian
@@ -5274,6 +5303,9 @@ CLUBES_NUEVOS = {
     "col": ("columbian", "Columbian"),   # (no están en ESPN: 1919 y 1918; escudos genéricos)
     "geb": ("gimnasia-buenos-aires", "Gimnasia y Esgrima (Buenos Aires)"),   # (no está en ESPN: 1917)
     "bac": ("belgrano-athletic", "Belgrano Athletic"),   # (no está en ESPN: 1916)
+    "kim": ("kimberley-devoto", "Kimberley (Villa Devoto)"),
+    "com": ("comercio", "Comercio"),
+    "flo": ("floresta", "Floresta"),   # (no están en ESPN: 1915; escudo genérico el de Floresta)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),
