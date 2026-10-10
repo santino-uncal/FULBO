@@ -33,6 +33,30 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1928: el campeonato de la Asociación Amateurs Argentina de Football (abril de 1928 a julio de 1929; campeón Huracán):
+    # 36 equipos a una rueda (35 fechas), con 2 puntos por partido ganado. Un partido suspendido se lo dieron ganado a
+    # Tigre, con los goles del partido en la tabla, y en otro no se presentó ninguno de los dos ("para_local"/
+    # "para_visitante"); los que se terminaron o se volvieron a jugar van una sola vez, con el resultado final. San Isidro,
+    # Vélez y Argentino de Quilmes, empatados en puntos, en el orden de RSSSF ("orden_a_mano"). Bajaron Liberal Argentino y
+    # Porteño: los clubes fundadores de la asociación (Argentino del Sud y Defensores de Belgrano) solo bajaban la segunda
+    # vez que quedaban entre los cuatro últimos ("descienden_clubes"). ESPN no lo tiene: va a mano (tools/a_mano; RSSSF,
+    # con los goles de algunos partidos, sin minutos)
+    "1928-primera": {"nombre": "Campeonato de Primera División 1928 (amateur)", "anio": 1928, "liga": "a_mano",
+                     "slug": "1928-primera", "zonas": "unica", "fechas": 35, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_a_mano": ["san-isidro", "velez-sarsfield", "argentino-de-quilmes"],
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol; San Isidro, "
+                                    "Vélez y Argentino de Quilmes, con los mismos puntos, en el orden de RSSSF. Argentino de "
+                                    "Lomas se llamaba Argentino de Banfield.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1928 (amateur). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo de algunos partidos (de RSSSF, sin minutos). RSSSF no dice quién "
+                                        "fue el goleador del torneo.",
+                     "descensos": "tabla", "descienden": 2, "descienden_clubes": ["liberal-argentino", "porteno"],
+                     "descienden_texto": "Liberal Argentino y Porteño, de los cuatro últimos; Argentino del Sud y "
+                                         "Defensores de Belgrano no bajaron porque, como fundadores de la asociación, solo "
+                                         "bajaban la segunda vez que quedaban entre los cuatro últimos"},
     # 1929: el campeonato de la Asociación Amateurs Argentina de Football (julio de 1929 a febrero de 1930; campeón
     # Gimnasia), que se contó como el de 1929 porque el oficial no se jugó: 35 equipos en dos zonas a una rueda (la
     # Impar, de 18, y la Par, de 17; 17 fechas), con 2 puntos por partido ganado. Al final, muchos equipos se retiraron
@@ -4790,6 +4814,7 @@ CLUBES_NUEVOS = {
     "csi": ("san-isidro", "San Isidro"),
     "hyp": ("honor-y-patria", "Honor y Patria"),
     "ads": ("argentino-del-sud", "Argentino del Sud"),   # (no están en ESPN: 1930; escudo genérico el de Argentino del Sud)
+    "pto": ("porteno", "Porteño"),   # (no está en ESPN: 1928)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),
@@ -5291,7 +5316,7 @@ def armar(clave):
     for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "goleadores_nota", "promocion", "ventaja", "triangular", "texto_triangular", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
               "campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro", "descuentos",
               "descuentos_texto", "promedios_victoria", "puntos_victoria", "punto_penales",
-              "promedios_por_temporada", "texto_promocion", "campeon_etapa", "pasan_triangular", "etapa_suma", "texto_suma", "desempate_goles", "descienden_etapa", "orden_a_mano", "orden_texto",
+              "promedios_por_temporada", "texto_promocion", "campeon_etapa", "pasan_triangular", "etapa_suma", "texto_suma", "desempate_goles", "descienden_etapa", "descienden_clubes", "descienden_texto", "orden_a_mano", "orden_texto",
               "promedios_orden", "promedios_texto"):
         if cfg.get(k):
             datos[k] = cfg[k]
