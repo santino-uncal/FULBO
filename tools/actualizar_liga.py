@@ -33,6 +33,54 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1912: el año en que se partió el fútbol argentino: en julio varios clubes se fueron de la Asociación Argentina de
+    # Football y formaron la Federación Argentina de Football (hasta 1914). La AFA reconoce a los dos campeones; los dos
+    # campeonatos eran amateurs. El de la Asociación Argentina (abril a noviembre; campeón Quilmes): quedaron 6 equipos a
+    # dos ruedas, con 2 puntos por partido ganado; sin los partidos de Alumni, que se retiró, ni los de Gimnasia y
+    # Esgrima, Estudiantes de La Plata y Porteño, que se fueron a la Federación (se anularon). ESPN no los tiene: van a
+    # mano (tools/a_mano; RSSSF)
+    "1912-aaf": {"nombre": "Campeonato de Primera División 1912 (amateur, Asociación Argentina de Football)", "anio": 1912,
+                 "liga": "a_mano", "slug": "1912-aaf", "zonas": "unica", "fechas": 17, "pasan": 0, "puntos_victoria": 2,
+                 "campeon_tabla": True,
+                 "orden_texto": "Campeonato amateur, de la Asociación Argentina de Football: en julio de 1912 varios clubes "
+                                "se fueron y formaron la Federación Argentina de Football, y de 1912 a 1914 hubo dos ligas; la "
+                                "AFA reconoce a los campeones de las dos. Los partidos de Alumni, que se retiró, y los de "
+                                "Gimnasia y Esgrima de Buenos Aires, Estudiantes de La Plata y Porteño, que se fueron a la "
+                                "Federación, se anularon. Orden: puntos y, con los mismos puntos, la diferencia de gol (que "
+                                "coincide con el orden de RSSSF).",
+                 "anual_texto": "La tabla del Campeonato de Primera División 1912 de la Asociación Argentina (amateur). Cada "
+                                "partido ganado valía 2 puntos.",
+                 "goleadores_nota": "Los goles son solo del Quilmes 2-1 Estudiantes, el partido en el que Quilmes salió "
+                                    "campeón (de RSSSF, con los minutos).",
+                 "sin_descensos": "No hubo descensos."},
+    # La de la Federación Argentina (julio a diciembre; campeón Porteño): 8 equipos a dos ruedas, con 2 puntos por
+    # partido ganado. Independiente terminó primero por el cociente de goles, pero renunció al título porque Argentino de
+    # Quilmes le puso un equipo débil en la última fecha, y propuso una final con Porteño (en "playoffs"): se suspendió
+    # 1-1 a los 87 minutos, cuando jugadores de Independiente se fueron de la cancha, y se la dieron a Porteño ("gana")
+    "1912-faf": {"nombre": "Campeonato de Primera División 1912 (amateur, Federación Argentina de Football)", "anio": 1912,
+                 "liga": "a_mano", "slug": "1912-faf", "zonas": "unica", "fechas": 22, "pasan": 2, "puntos_victoria": 2,
+                 "texto_pasan": "Empatados en el primer puesto (20 puntos): Independiente era campeón por el cociente de "
+                                "goles, pero renunció y propuso una final con Porteño",
+                 "orden_texto": "Campeonato amateur, de la Federación Argentina de Football, la que formaron en julio de 1912 "
+                                "los clubes que se fueron de la Asociación Argentina: de 1912 a 1914 hubo dos ligas, y la AFA "
+                                "reconoce a los campeones de las dos. Orden: puntos y, con los mismos puntos, la diferencia de "
+                                "gol (que coincide con el orden de RSSSF).",
+                 "anual_texto": "La tabla del Campeonato de Primera División 1912 de la Federación Argentina (amateur), sin la "
+                                "final. Cada partido ganado valía 2 puntos.",
+                 "goleadores_nota": "Los goles son solo de la final (de RSSSF).",
+                 "nombre_playoffs": "Final (desempate)",
+                 "playoffs": [(r"^$^", "Final")],
+                 "playoffs_a_mano": {
+                     "Final": [
+                         {"fecha": "1912-12-22", "local": "porteno", "visitante": "independiente", "gl": 1, "gv": 1,
+                          "gana": "porteno", "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires", "arbitro": "Carlos Aertz",
+                          "goles": [{"jugador": "P. Rithner", "equipo": "local"}, {"jugador": "Lloveras", "equipo": "visitante"}],
+                          "nota": "Se suspendió a los 87 minutos, 1-1, porque varios jugadores de Independiente se fueron de la "
+                                  "cancha reclamando un gol que el árbitro no dio. Al día siguiente, la federación le dio el "
+                                  "partido a Porteño."},
+                     ],
+                 },
+                 "sin_descensos": "No hubo descensos."},
     # 1913: dos ligas, amateurs las dos (la AFA reconoce a los dos campeones): la Asociación Argentina de Football y la
     # Federación Argentina de Football. RSSSF no numera las fechas: cada día de partidos es una fecha. La de la Asociación
     # Argentina (abril a diciembre; campeón Racing, el primero de sus siete seguidos): 15 equipos; era a dos ruedas, pero en

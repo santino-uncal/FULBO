@@ -1,0 +1,402 @@
+{
+ "nombre": "Campeonato de Primera División 1912 (amateur, Asociación Argentina de Football)",
+ "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi), sin goles salvo los del Quilmes-Estudiantes del título. RSSSF no trae las canchas: va la del local, salvo las que dice. Sin los partidos de Alumni, que se retiró, ni los de Gimnasia y Esgrima de Buenos Aires, Estudiantes de La Plata y Porteño, que se fueron a la Federación (se anularon). El Estudiantes-San Isidro no se jugó. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1912-04-14",
+     "local": "racing-club",
+     "visitante": "belgrano-athletic",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1912-04-21",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "belgrano-athletic",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1912-05-12",
+     "local": "belgrano-athletic",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1912-05-16",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1912-05-16",
+     "local": "racing-club",
+     "visitante": "san-isidro",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1912-05-19",
+     "local": "river-plate",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1912-05-26",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1912-05-26",
+     "local": "san-isidro",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1912-07-14",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1912-07-21",
+     "local": "belgrano-athletic",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1912-07-21",
+     "local": "river-plate",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1912-07-21",
+     "local": "san-isidro",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1912-07-28",
+     "local": "belgrano-athletic",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1912-07-28",
+     "local": "quilmes",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1912-07-28",
+     "local": "river-plate",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1912-08-04",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1912-08-04",
+     "local": "san-isidro",
+     "visitante": "belgrano-athletic",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1912-08-18",
+     "local": "belgrano-athletic",
+     "visitante": "river-plate",
+     "gl": 10,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1912-08-18",
+     "local": "racing-club",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1912-08-18",
+     "local": "quilmes",
+     "visitante": "san-isidro",
+     "gl": 11,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1912-09-22",
+     "local": "belgrano-athletic",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 6,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1912-09-22",
+     "local": "quilmes",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1912-09-22",
+     "local": "san-isidro",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1912-09-26",
+     "local": "quilmes",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Belgrano Athletic se retiró del campeonato y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1912-09-29",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1912-09-29",
+     "local": "san-isidro",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1912-10-06",
+     "local": "river-plate",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Belgrano Athletic se retiró del campeonato y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1912-10-13",
+     "local": "quilmes",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Gabitas",
+       "equipo": "local",
+       "min": 78
+      },
+      {
+       "jugador": "Weiss",
+       "equipo": "local",
+       "min": 83
+      },
+      {
+       "jugador": "Susán",
+       "equipo": "visitante",
+       "min": 27
+      }
+     ],
+     "nota": "Con este triunfo, Quilmes salió campeón."
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1912-11-03",
+     "local": "racing-club",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Quilmes no se presentó y perdió el partido."
+    }
+   ]
+  }
+ ]
+}

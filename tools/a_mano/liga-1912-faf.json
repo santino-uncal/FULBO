@@ -1,0 +1,697 @@
+{
+ "nombre": "Campeonato de Primera División 1912 (amateur, Federación Argentina de Football)",
+ "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi), sin goles salvo los de la final. RSSSF no trae las canchas: va la del local, salvo las que dice. Los partidos que perdió Sportiva Argentina al retirarse, que RSSSF pone juntos, van en fechas aparte. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1912-07-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1912-07-14",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1912-07-14",
+     "local": "independiente",
+     "visitante": "kimberley-devoto",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1912-07-21",
+     "local": "porteno",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1912-07-21",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1912-07-21",
+     "local": "sportiva-argentina",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    },
+    {
+     "fecha": "1912-07-21",
+     "local": "kimberley-devoto",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1912-07-28",
+     "local": "argentino-de-quilmes",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1912-07-28",
+     "local": "porteno",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1912-07-28",
+     "local": "sportiva-argentina",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    },
+    {
+     "fecha": "1912-07-28",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "kimberley-devoto",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1912-08-04",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1912-08-04",
+     "local": "independiente",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1912-08-04",
+     "local": "kimberley-devoto",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 6,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1912-08-04",
+     "local": "sportiva-argentina",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1912-08-15",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1912-08-15",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1912-08-15",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "sportiva-argentina",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    },
+    {
+     "fecha": "1912-08-15",
+     "local": "porteno",
+     "visitante": "kimberley-devoto",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1912-08-18",
+     "local": "porteno",
+     "visitante": "argentino-de-quilmes",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1912-08-18",
+     "local": "sportiva-argentina",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1912-08-25",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1912-08-25",
+     "local": "kimberley-devoto",
+     "visitante": "sportiva-argentina",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    },
+    {
+     "fecha": "1912-08-25",
+     "local": "argentino-de-quilmes",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1912-08-25",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1912-08-30",
+     "local": "atlanta",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1912-08-30",
+     "local": "argentino-de-quilmes",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1912-08-30",
+     "local": "kimberley-devoto",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 7,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1912-08-30",
+     "local": "porteno",
+     "visitante": "sportiva-argentina",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportiva Argentina se retiró del campeonato y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1912-09-29",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1912-09-29",
+     "local": "independiente",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1912-09-29",
+     "local": "atlanta",
+     "visitante": "sportiva-argentina",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    },
+    {
+     "fecha": "1912-09-29",
+     "local": "argentino-de-quilmes",
+     "visitante": "kimberley-devoto",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1912-10-06",
+     "local": "atlanta",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1912-10-06",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "sportiva-argentina",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1912-10-06",
+     "local": "kimberley-devoto",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1912-10-13",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "kimberley-devoto",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1912-10-13",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1912-10-13",
+     "local": "argentino-de-quilmes",
+     "visitante": "sportiva-argentina",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportiva Argentina se retiró del campeonato y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1912-10-20",
+     "local": "atlanta",
+     "visitante": "kimberley-devoto",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1912-10-27",
+     "local": "argentino-de-quilmes",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1912-10-27",
+     "local": "independiente",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1912-10-27",
+     "local": "kimberley-devoto",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1912-11-01",
+     "local": "porteno",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1912-11-01",
+     "local": "atlanta",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1912-11-01",
+     "local": "sportiva-argentina",
+     "visitante": "kimberley-devoto",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportiva Argentina se retiró del campeonato y perdió el partido."
+    },
+    {
+     "fecha": "1912-11-01",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1912-11-01",
+     "local": "independiente",
+     "visitante": "sportiva-argentina",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportiva Argentina se retiró del campeonato y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1912-11-01",
+     "local": "sportiva-argentina",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportiva Argentina se retiró del campeonato y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1912-11-01",
+     "local": "sportiva-argentina",
+     "visitante": "porteno",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportiva Argentina se retiró del campeonato y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1912-11-03",
+     "local": "atlanta",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Atlanta no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1912-11-10",
+     "local": "kimberley-devoto",
+     "visitante": "porteno",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1912-11-17",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1912-11-17",
+     "local": "porteno",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1912-12-01",
+     "local": "argentino-de-quilmes",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1912-12-08",
+     "local": "independiente",
+     "visitante": "argentino-de-quilmes",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}
