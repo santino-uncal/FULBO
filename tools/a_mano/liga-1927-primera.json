@@ -1,0 +1,6540 @@
+{
+ "nombre": "Campeonato de Primera División 1927 (amateur)",
+ "fuente": "Resultados, días y fechas: RSSSF (Pablo Ciullini, de La Nación y La Prensa), con los goles de algunos partidos (sin minutos; los que RSSSF no dice van sin autor). RSSSF no trae las canchas: va la del local, salvo las que dice. Los partidos suspendidos que se terminaron después van una sola vez, con el resultado final. La tabla que sale de los partidos (con el descuento a Talleres) es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1927-03-20",
+     "local": "sportivo-barracas",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-20",
+     "local": "san-isidro",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-20",
+     "local": "platense",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-20",
+     "local": "liberal-argentino",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-20",
+     "local": "banfield",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": [],
+     "para_local": [
+      0,
+      2,
+      "V"
+     ],
+     "para_visitante": [
+      2,
+      0,
+      "D"
+     ],
+     "nota": "Ganó Talleres, pero después la asociación le dio los puntos a Banfield y además le descontó 2 puntos a Talleres. En la tabla, como en la de RSSSF, cuentan los 2 goles de Talleres y no el de Banfield."
+    },
+    {
+     "fecha": "1927-03-20",
+     "local": "argentino-del-sud",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-20",
+     "local": "atlanta",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-20",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-20",
+     "local": "san-fernando",
+     "visitante": "barracas-central",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-20",
+     "local": "estudiantil-porteno",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Giglio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-03-20",
+     "local": "independiente",
+     "visitante": "excursionistas",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-20",
+     "local": "boca-juniors",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Echeverría",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-03-20",
+     "local": "quilmes",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-20",
+     "local": "sportivo-palermo",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-20",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-20",
+     "local": "porteno",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-20",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1927-03-27",
+     "local": "velez-sarsfield",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-27",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-27",
+     "local": "sportivo-buenos-aires",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-27",
+     "local": "argentino-de-quilmes",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-27",
+     "local": "river-plate",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-27",
+     "local": "excursionistas",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-27",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Spósito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spósito",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-03-27",
+     "local": "san-fernando",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-27",
+     "local": "ferro-carril-oeste",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-27",
+     "local": "defensores-de-belgrano",
+     "visitante": "argentino-del-sud",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-27",
+     "local": "argentinos-juniors",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-27",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-27",
+     "local": "lanus",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-27",
+     "local": "chacarita-juniors",
+     "visitante": "san-isidro",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1927-03-27",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-08",
+     "local": "barracas-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-18",
+     "local": "almagro",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Rivero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vitali",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fernández",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1927-04-03",
+     "local": "sportivo-barracas",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-03",
+     "local": "tigre",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-03",
+     "local": "san-isidro",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de San Isidro",
+     "goles": [],
+     "nota": "Se suspendió a los 45 minutos, 1-3; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1927-04-03",
+     "local": "platense",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-03",
+     "local": "liberal-argentino",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-03",
+     "local": "banfield",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-03",
+     "local": "argentino-del-sud",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-03",
+     "local": "atlanta",
+     "visitante": "barracas-central",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "estudiantil-porteno",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-03",
+     "local": "independiente",
+     "visitante": "san-fernando",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-03",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Fleitas Solich",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-04-03",
+     "local": "quilmes",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-03",
+     "local": "sportivo-palermo",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Vitali",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-04-03",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-03",
+     "local": "porteno",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-03",
+     "local": "san-lorenzo",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-03",
+     "local": "velez-sarsfield",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1927-04-10",
+     "local": "racing-club",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-10",
+     "local": "sportivo-buenos-aires",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "nota": "Terminó a los 82 minutos."
+    },
+    {
+     "fecha": "1927-04-10",
+     "local": "argentino-de-quilmes",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-10",
+     "local": "almagro",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Pertini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pertini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Uriarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Uriarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lattari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lagarde",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-04-10",
+     "local": "excursionistas",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-10",
+     "local": "huracan",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Maidana",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maidana",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maidana",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quadrio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-04-10",
+     "local": "san-fernando",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-10",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-10",
+     "local": "estudiantil-porteno",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-10",
+     "local": "barracas-central",
+     "visitante": "argentino-del-sud",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-10",
+     "local": "ferro-carril-oeste",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-10",
+     "local": "defensores-de-belgrano",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-10",
+     "local": "argentinos-juniors",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-10",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-10",
+     "local": "lanus",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-10",
+     "local": "chacarita-juniors",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-14",
+     "local": "river-plate",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1927-04-17",
+     "local": "sportivo-barracas",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-17",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-17",
+     "local": "tigre",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-17",
+     "local": "san-isidro",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-17",
+     "local": "platense",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-17",
+     "local": "liberal-argentino",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-17",
+     "local": "banfield",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-17",
+     "local": "argentino-del-sud",
+     "visitante": "estudiantil-porteno",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-17",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-17",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-17",
+     "local": "quilmes",
+     "visitante": "san-fernando",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-17",
+     "local": "sportivo-palermo",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Evaristo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Izaguirre",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Loizo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-04-17",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "excursionistas",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-17",
+     "local": "porteno",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Pardiñas",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lattari",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Fernández",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-04-17",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-17",
+     "local": "velez-sarsfield",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-17",
+     "local": "racing-club",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1927-04-24",
+     "local": "sportivo-buenos-aires",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-24",
+     "local": "argentino-de-quilmes",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-24",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-24",
+     "local": "almagro",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Acosta",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-04-24",
+     "local": "excursionistas",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-24",
+     "local": "huracan",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Onzari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bartolucci",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-04-24",
+     "local": "san-fernando",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-24",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-24",
+     "local": "atlanta",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-24",
+     "local": "independiente",
+     "visitante": "argentino-del-sud",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-24",
+     "local": "estudiantil-porteno",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-24",
+     "local": "barracas-central",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-24",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-24",
+     "local": "defensores-de-belgrano",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-24",
+     "local": "argentinos-juniors",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-24",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1927-04-24",
+     "local": "lanus",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1927-05-01",
+     "local": "sportivo-barracas",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-01",
+     "local": "chacarita-juniors",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-01",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-01",
+     "local": "tigre",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-01",
+     "local": "san-isidro",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-01",
+     "local": "platense",
+     "visitante": "barracas-central",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-01",
+     "local": "liberal-argentino",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-01",
+     "local": "banfield",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-01",
+     "local": "argentino-del-sud",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-01",
+     "local": "quilmes",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-01",
+     "local": "sportivo-palermo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-01",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-fernando",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-01",
+     "local": "porteno",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Oliva",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Loizo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Spósito",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Spósito",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-05-01",
+     "local": "san-lorenzo",
+     "visitante": "excursionistas",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-01",
+     "local": "velez-sarsfield",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Almagro no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1927-05-01",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-01",
+     "local": "sportivo-buenos-aires",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1927-05-08",
+     "local": "argentino-de-quilmes",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-08",
+     "local": "river-plate",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-08",
+     "local": "almagro",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Rey",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Perinetti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-05-08",
+     "local": "huracan",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Onzari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "E.Monti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Carricaberry",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-05-08",
+     "local": "san-fernando",
+     "visitante": "porteno",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-08",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-08",
+     "local": "atlanta",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "nota": "Se suspendió a los 85 minutos, 2-2; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1927-05-08",
+     "local": "argentino-del-sud",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-08",
+     "local": "boca-juniors",
+     "visitante": "banfield",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "nota": "Terminó a los 77 minutos."
+    },
+    {
+     "fecha": "1927-05-08",
+     "local": "independiente",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-08",
+     "local": "barracas-central",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-08",
+     "local": "ferro-carril-oeste",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-08",
+     "local": "defensores-de-belgrano",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-08",
+     "local": "argentinos-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-08",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-25",
+     "local": "excursionistas",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [],
+     "nota": "Empezó el 8 de mayo; se suspendió a los 40 minutos, 0-1, y los minutos que faltaban se jugaron el 25 de diciembre."
+    },
+    {
+     "fecha": "1927-12-25",
+     "local": "estudiantil-porteno",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [],
+     "nota": "Empezó el 8 de mayo; se suspendió, 0-0, y los minutos que faltaban se jugaron el 25 de diciembre."
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1927-05-15",
+     "local": "sportivo-barracas",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-15",
+     "local": "lanus",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-15",
+     "local": "chacarita-juniors",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-15",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-15",
+     "local": "tigre",
+     "visitante": "barracas-central",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-15",
+     "local": "san-isidro",
+     "visitante": "estudiantil-porteno",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-15",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-15",
+     "local": "liberal-argentino",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [],
+     "nota": "Se suspendió a los 85 minutos, 0-0; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1927-05-15",
+     "local": "banfield",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-15",
+     "local": "sportivo-palermo",
+     "visitante": "argentino-del-sud",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-15",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-15",
+     "local": "porteno",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 6,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-15",
+     "local": "san-lorenzo",
+     "visitante": "san-fernando",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-15",
+     "local": "velez-sarsfield",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Benítez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-05-15",
+     "local": "racing-club",
+     "visitante": "excursionistas",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-15",
+     "local": "sportivo-buenos-aires",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Pertini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-05-15",
+     "local": "argentino-de-quilmes",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1927-05-22",
+     "local": "river-plate",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-22",
+     "local": "almagro",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Sampayo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maseda",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-05-22",
+     "local": "excursionistas",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-22",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-22",
+     "local": "san-fernando",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-22",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-22",
+     "local": "atlanta",
+     "visitante": "porteno",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-22",
+     "local": "argentino-del-sud",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-22",
+     "local": "banfield",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-22",
+     "local": "quilmes",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-22",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-22",
+     "local": "independiente",
+     "visitante": "san-isidro",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-22",
+     "local": "estudiantil-porteno",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-22",
+     "local": "barracas-central",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-22",
+     "local": "ferro-carril-oeste",
+     "visitante": "chacarita-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-22",
+     "local": "defensores-de-belgrano",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-22",
+     "local": "argentinos-juniors",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1927-05-29",
+     "local": "sportivo-barracas",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-29",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-29",
+     "local": "lanus",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "nota": "Se suspendió a los 86 minutos, 0-0, y no se terminó: los puntos fueron para Lanús (con los goles del partido en la tabla)."
+    },
+    {
+     "fecha": "1927-05-29",
+     "local": "chacarita-juniors",
+     "visitante": "barracas-central",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-29",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantil-porteno",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-29",
+     "local": "tigre",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-29",
+     "local": "san-isidro",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 6,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-29",
+     "local": "platense",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-29",
+     "local": "liberal-argentino",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-29",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-29",
+     "local": "porteno",
+     "visitante": "argentino-del-sud",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-29",
+     "local": "san-lorenzo",
+     "visitante": "atlanta",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-29",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-29",
+     "local": "racing-club",
+     "visitante": "san-fernando",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-29",
+     "local": "sportivo-buenos-aires",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-29",
+     "local": "argentino-de-quilmes",
+     "visitante": "excursionistas",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1927-05-29",
+     "local": "river-plate",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1927-06-05",
+     "local": "almagro",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Recanatini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ciancio",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-06-05",
+     "local": "excursionistas",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-05",
+     "local": "huracan",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Loizo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-06-05",
+     "local": "san-fernando",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-05",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-05",
+     "local": "argentino-del-sud",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-05",
+     "local": "banfield",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-05",
+     "local": "liberal-argentino",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-05",
+     "local": "sportivo-palermo",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-05",
+     "local": "boca-juniors",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-05",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-05",
+     "local": "estudiantil-porteno",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-05",
+     "local": "barracas-central",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-05",
+     "local": "ferro-carril-oeste",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-05",
+     "local": "defensores-de-belgrano",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-16",
+     "local": "quilmes",
+     "visitante": "san-isidro",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1928-01-01",
+     "local": "atlanta",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1927-06-12",
+     "local": "sportivo-barracas",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-12",
+     "local": "argentinos-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-12",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-12",
+     "local": "lanus",
+     "visitante": "estudiantil-porteno",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-12",
+     "local": "chacarita-juniors",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": [],
+     "nota": "Terminó a los 84 minutos."
+    },
+    {
+     "fecha": "1927-06-12",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-12",
+     "local": "tigre",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-12",
+     "local": "san-isidro",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-12",
+     "local": "platense",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-12",
+     "local": "porteno",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-12",
+     "local": "san-lorenzo",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-12",
+     "local": "velez-sarsfield",
+     "visitante": "argentino-del-sud",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-12",
+     "local": "racing-club",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-12",
+     "local": "sportivo-buenos-aires",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-12",
+     "local": "argentino-de-quilmes",
+     "visitante": "san-fernando",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-12",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-12",
+     "local": "almagro",
+     "visitante": "excursionistas",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Vitali",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ciancio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ciancio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Secchi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Secchi",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1927-06-19",
+     "local": "excursionistas",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-19",
+     "local": "huracan",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Onzari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Maidana",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-06-19",
+     "local": "san-fernando",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-19",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentino-de-quilmes",
+     "gl": 6,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-19",
+     "local": "atlanta",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-19",
+     "local": "argentino-del-sud",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-19",
+     "local": "banfield",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-19",
+     "local": "liberal-argentino",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-19",
+     "local": "platense",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-19",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-19",
+     "local": "sportivo-palermo",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-19",
+     "local": "quilmes",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-19",
+     "local": "boca-juniors",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-19",
+     "local": "independiente",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-19",
+     "local": "estudiantil-porteno",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-19",
+     "local": "barracas-central",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-19",
+     "local": "ferro-carril-oeste",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1927-06-26",
+     "local": "sportivo-barracas",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-26",
+     "local": "defensores-de-belgrano",
+     "visitante": "barracas-central",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-26",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-26",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-26",
+     "local": "lanus",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-26",
+     "local": "chacarita-juniors",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-26",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-26",
+     "local": "tigre",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-26",
+     "local": "san-isidro",
+     "visitante": "porteno",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-26",
+     "local": "san-lorenzo",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-26",
+     "local": "velez-sarsfield",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-26",
+     "local": "racing-club",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-26",
+     "local": "sportivo-buenos-aires",
+     "visitante": "argentino-del-sud",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-26",
+     "local": "argentino-de-quilmes",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-26",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-26",
+     "local": "almagro",
+     "visitante": "san-fernando",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-06-26",
+     "local": "excursionistas",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1927-07-03",
+     "local": "huracan",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Spósito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Settis",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-07-03",
+     "local": "san-fernando",
+     "visitante": "excursionistas",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "almagro",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Aspiroz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aspiroz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scopelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scopelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ciancio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-07-03",
+     "local": "atlanta",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-03",
+     "local": "argentino-del-sud",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-03",
+     "local": "banfield",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-03",
+     "local": "liberal-argentino",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-03",
+     "local": "platense",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-03",
+     "local": "san-isidro",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-03",
+     "local": "porteno",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-03",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-03",
+     "local": "sportivo-palermo",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-03",
+     "local": "quilmes",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-03",
+     "local": "boca-juniors",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-03",
+     "local": "independiente",
+     "visitante": "argentinos-juniors",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-03",
+     "local": "estudiantil-porteno",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-03",
+     "local": "barracas-central",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1927-07-17",
+     "local": "sportivo-barracas",
+     "visitante": "barracas-central",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-17",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-17",
+     "local": "defensores-de-belgrano",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-17",
+     "local": "argentinos-juniors",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-17",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-17",
+     "local": "lanus",
+     "visitante": "sportivo-palermo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-17",
+     "local": "chacarita-juniors",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-17",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "porteno",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-17",
+     "local": "tigre",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-17",
+     "local": "velez-sarsfield",
+     "visitante": "san-isidro",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-17",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-17",
+     "local": "sportivo-buenos-aires",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-17",
+     "local": "argentino-de-quilmes",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-17",
+     "local": "river-plate",
+     "visitante": "argentino-del-sud",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-17",
+     "local": "almagro",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Ciancio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sampayo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-07-17",
+     "local": "excursionistas",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-17",
+     "local": "huracan",
+     "visitante": "san-fernando",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1927-07-24",
+     "local": "sportivo-barracas",
+     "visitante": "san-fernando",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-24",
+     "local": "atlanta",
+     "visitante": "excursionistas",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "nota": "Se suspendió a los 77 minutos, 3-1; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1927-07-24",
+     "local": "argentino-del-sud",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Longo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Recanatini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ciancio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-07-24",
+     "local": "banfield",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-24",
+     "local": "liberal-argentino",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-24",
+     "local": "platense",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-24",
+     "local": "san-isidro",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-24",
+     "local": "tigre",
+     "visitante": "velez-sarsfield",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-24",
+     "local": "porteno",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-24",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-24",
+     "local": "sportivo-palermo",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-24",
+     "local": "quilmes",
+     "visitante": "argentinos-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-24",
+     "local": "boca-juniors",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-24",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-24",
+     "local": "estudiantil-porteno",
+     "visitante": "barracas-central",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1928-01-22",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1928-02-05",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1927-07-31",
+     "local": "estudiantil-porteno",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-31",
+     "local": "argentinos-juniors",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-31",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-31",
+     "local": "lanus",
+     "visitante": "porteno",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-31",
+     "local": "chacarita-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-31",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-31",
+     "local": "racing-club",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-31",
+     "local": "sportivo-buenos-aires",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-31",
+     "local": "argentino-de-quilmes",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-31",
+     "local": "river-plate",
+     "visitante": "liberal-argentino",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-31",
+     "local": "almagro",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Ciancio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sampayo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Sampayo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vitali",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Clérice",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-07-31",
+     "local": "excursionistas",
+     "visitante": "argentino-del-sud",
+     "gl": 6,
+     "gv": 3,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-31",
+     "local": "huracan",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1927-07-31",
+     "local": "san-fernando",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-11",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1928-01-01",
+     "local": "defensores-de-belgrano",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Aguilar Pinedo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bissio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bissio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Vázquez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1928-01-08",
+     "local": "barracas-central",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [],
+     "nota": "Empezó el 31 de julio; se suspendió a los 45 minutos, 1-0, y los minutos que faltaban se jugaron el 8 de enero de 1928."
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1927-08-07",
+     "local": "sportivo-barracas",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-07",
+     "local": "atlanta",
+     "visitante": "san-fernando",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-07",
+     "local": "argentino-del-sud",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-07",
+     "local": "banfield",
+     "visitante": "excursionistas",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Temperley",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-07",
+     "local": "liberal-argentino",
+     "visitante": "almagro",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Battilana",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Aguinaga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Debatte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Recanatini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-08-07",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-07",
+     "local": "san-isidro",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-07",
+     "local": "tigre",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-07",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-07",
+     "local": "velez-sarsfield",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-07",
+     "local": "san-lorenzo",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-07",
+     "local": "porteno",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-07",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-07",
+     "local": "sportivo-palermo",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-07",
+     "local": "quilmes",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-07",
+     "local": "boca-juniors",
+     "visitante": "barracas-central",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1928-01-22",
+     "local": "independiente",
+     "visitante": "estudiantil-porteno",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1927-08-14",
+     "local": "independiente",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-14",
+     "local": "estudiantil-porteno",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-14",
+     "local": "ferro-carril-oeste",
+     "visitante": "sportivo-palermo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-14",
+     "local": "defensores-de-belgrano",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-14",
+     "local": "argentinos-juniors",
+     "visitante": "porteno",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-14",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-14",
+     "local": "argentino-de-quilmes",
+     "visitante": "tigre",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [],
+     "nota": "Terminó a los 79 minutos."
+    },
+    {
+     "fecha": "1927-08-14",
+     "local": "river-plate",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-14",
+     "local": "almagro",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Uriarte",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spraggón",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-08-14",
+     "local": "excursionistas",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-14",
+     "local": "huracan",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Spósito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Settis",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-08-14",
+     "local": "san-fernando",
+     "visitante": "argentino-del-sud",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-11",
+     "local": "sportivo-buenos-aires",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-18",
+     "local": "lanus",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-24",
+     "local": "chacarita-juniors",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-25",
+     "local": "barracas-central",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1927-08-21",
+     "local": "sportivo-barracas",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-21",
+     "local": "argentino-del-sud",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-21",
+     "local": "banfield",
+     "visitante": "san-fernando",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-21",
+     "local": "liberal-argentino",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Gaztelú",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spósito",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-08-21",
+     "local": "platense",
+     "visitante": "excursionistas",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-21",
+     "local": "san-isidro",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": [
+      {
+       "jugador": "Zúñiga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ciancio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-08-21",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-21",
+     "local": "chacarita-juniors",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-21",
+     "local": "velez-sarsfield",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-21",
+     "local": "san-lorenzo",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-21",
+     "local": "porteno",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-21",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-21",
+     "local": "sportivo-palermo",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-21",
+     "local": "quilmes",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-21",
+     "local": "boca-juniors",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-08-21",
+     "local": "tigre",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: River Plate no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1927-12-31",
+     "local": "racing-club",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1927-09-04",
+     "local": "boca-juniors",
+     "visitante": "sportivo-barracas",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-04",
+     "local": "independiente",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-04",
+     "local": "estudiantil-porteno",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-04",
+     "local": "barracas-central",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-04",
+     "local": "ferro-carril-oeste",
+     "visitante": "porteno",
+     "gl": 6,
+     "gv": 4,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-04",
+     "local": "defensores-de-belgrano",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-04",
+     "local": "argentinos-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-04",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-04",
+     "local": "lanus",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-04",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-04",
+     "local": "almagro",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Sampayo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Poletti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cinat",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-09-04",
+     "local": "excursionistas",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-04",
+     "local": "huracan",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pardal",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-09-04",
+     "local": "san-fernando",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-04",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-04",
+     "local": "atlanta",
+     "visitante": "argentino-del-sud",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-18",
+     "local": "argentino-de-quilmes",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1927-09-18",
+     "local": "sportivo-barracas",
+     "visitante": "argentino-del-sud",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-18",
+     "local": "liberal-argentino",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-18",
+     "local": "platense",
+     "visitante": "san-fernando",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-18",
+     "local": "san-isidro",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-18",
+     "local": "tigre",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-18",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Morgada",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pertini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-09-18",
+     "local": "chacarita-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-18",
+     "local": "lanus",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-18",
+     "local": "racing-club",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-18",
+     "local": "velez-sarsfield",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-18",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-18",
+     "local": "porteno",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 7,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-18",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-18",
+     "local": "sportivo-palermo",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-18",
+     "local": "quilmes",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-09-18",
+     "local": "banfield",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Atlanta no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1928-01-29",
+     "local": "sportivo-buenos-aires",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1927-09-25",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-08",
+     "local": "quilmes",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-08",
+     "local": "independiente",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-08",
+     "local": "ferro-carril-oeste",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-08",
+     "local": "defensores-de-belgrano",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-08",
+     "local": "argentinos-juniors",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-08",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-08",
+     "local": "excursionistas",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-08",
+     "local": "huracan",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Bartolucci",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-12-08",
+     "local": "san-fernando",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-08",
+     "local": "argentino-del-sud",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Dock Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-08",
+     "local": "estudiantil-porteno",
+     "visitante": "porteno",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Porteño no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1927-12-08",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Argentino de Quilmes no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1927-12-24",
+     "local": "atlanta",
+     "visitante": "liberal-argentino",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-24",
+     "local": "boca-juniors",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1928-01-08",
+     "local": "almagro",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Pertini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gaslini",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1928-02-12",
+     "local": "barracas-central",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "R.Estevarena 57",
+       "equipo": "local"
+      },
+      {
+       "jugador": "D.García 27",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "P.de Sarrasqueta 41",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "E.Monti 84",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1927-10-16",
+     "local": "sportivo-barracas",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Muiño",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Clerice",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Clerice",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-16",
+     "local": "liberal-argentino",
+     "visitante": "argentino-del-sud",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [
+      {
+       "jugador": "Raggio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Battilana",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-16",
+     "local": "platense",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Pardal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Oliver",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-16",
+     "local": "san-isidro",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": [
+      {
+       "jugador": "Annunziatta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Irurieta",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Scopelli",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-16",
+     "local": "tigre",
+     "visitante": "san-fernando",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Tigre",
+     "goles": [
+      {
+       "jugador": "Poletti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M.Torres",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M.Torres",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "O.Castro",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "M.García",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-16",
+     "local": "chacarita-juniors",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Stagnaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cesarini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Galeano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-16",
+     "local": "argentino-de-quilmes",
+     "visitante": "argentinos-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "Abella",
+       "equipo": "local"
+      },
+      {
+       "jugador": "C.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vivaldo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Meraldi",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-16",
+     "local": "sportivo-buenos-aires",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Barrios",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.Alvarez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "O.Suárez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-16",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Tubio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gainzarain",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-16",
+     "local": "velez-sarsfield",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Minalla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Lorenzo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "A.Lorenzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-16",
+     "local": "porteno",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "J.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Oliva",
+       "equipo": "local"
+      },
+      {
+       "jugador": "M.López",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chiarella",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lalín",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-16",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Craviotto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-16",
+     "local": "sportivo-palermo",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-10-16",
+     "local": "lanus",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Almagro no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1927-12-18",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-18",
+     "local": "san-lorenzo",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-31",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [
+      {
+       "jugador": "Spósito",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Spósito",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Stábile",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 72 minutos, 0-4; no se terminó y quedó ese resultado."
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1927-10-23",
+     "local": "sportivo-palermo",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Landolfi",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Forniche",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-23",
+     "local": "quilmes",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Sandoval",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mandili",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gadea",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-23",
+     "local": "boca-juniors",
+     "visitante": "porteno",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-23",
+     "local": "estudiantil-porteno",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [
+      {
+       "jugador": "Pedevilla",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Brameri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dellasala",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Saldías",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-23",
+     "local": "barracas-central",
+     "visitante": "racing-club",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Seijas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Seijas",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Lorenzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tabar",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Barañano",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-23",
+     "local": "ferro-carril-oeste",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Ganduglia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Alfieri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tasín",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-23",
+     "local": "defensores-de-belgrano",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Goicochea",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Penoni",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-23",
+     "local": "argentinos-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Lobianco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Locaso",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-23",
+     "local": "excursionistas",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Otero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Saruppo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "López Imizcoz",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-23",
+     "local": "huracan",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Spósito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Salatino",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-23",
+     "local": "san-fernando",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": [
+      {
+       "jugador": "Echeverría",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Echeverría",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Morgada",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-23",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Irurieta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Scopelli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lauri",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Rivas",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-23",
+     "local": "argentino-del-sud",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Boca Alumni",
+     "goles": [
+      {
+       "jugador": "Bao",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bao",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pardal",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pardal",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-23",
+     "local": "banfield",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": [
+      {
+       "jugador": "Presta",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-12-18",
+     "local": "atlanta",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-24",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-25",
+     "local": "almagro",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Vitali",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vitali",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1927-10-30",
+     "local": "sportivo-barracas",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Muiño",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.Cruz",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Battillana",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-30",
+     "local": "platense",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": [
+      {
+       "jugador": "Botta",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cracco",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Péndola",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-30",
+     "local": "san-isidro",
+     "visitante": "argentino-del-sud",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de San Isidro",
+     "goles": [
+      {
+       "jugador": "Zúñiga",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Russo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferraris",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Boyer",
+       "equipo": "visitante",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Longo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pardal",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-30",
+     "local": "tigre",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": [
+      {
+       "jugador": "Poletti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Poletti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J.C.Haedo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Iglesias",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-30",
+     "local": "chacarita-juniors",
+     "visitante": "san-fernando",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": [
+      {
+       "jugador": "Cesarini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Echeverría",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-30",
+     "local": "lanus",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": [
+      {
+       "jugador": "P.Salvia",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Spadaro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-30",
+     "local": "argentinos-juniors",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": [
+      {
+       "jugador": "Giachetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ciancio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-30",
+     "local": "river-plate",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [
+      {
+       "jugador": "Taboada",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Peniche",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-30",
+     "local": "argentino-de-quilmes",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [
+      {
+       "jugador": "C.González",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Gainzarain",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Vigliola",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-30",
+     "local": "sportivo-buenos-aires",
+     "visitante": "barracas-central",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": [
+      {
+       "jugador": "Tasín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cilento",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cilento",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Estevarena",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Lorenzo",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-30",
+     "local": "racing-club",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Cerrudo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tabar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Tabar",
+       "equipo": "local"
+      },
+      {
+       "jugador": "F.Martínez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-30",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": [
+      {
+       "jugador": "Dellasala",
+       "equipo": "visitante",
+       "tipo": "ec"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-30",
+     "local": "porteno",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Porteño",
+     "goles": [
+      {
+       "jugador": "J.Gómez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Vázquez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mandile",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-10-30",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-18",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "nota": "Terminó a los 84 minutos."
+    },
+    {
+     "fecha": "1927-12-31",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "excursionistas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-31",
+     "local": "san-lorenzo",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": [
+      {
+       "jugador": "Maglio",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bissio",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Tarasconi",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1927-11-06",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-06",
+     "local": "boca-juniors",
+     "visitante": "velez-sarsfield",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "nota": "Terminó a los 75 minutos."
+    },
+    {
+     "fecha": "1927-11-06",
+     "local": "estudiantil-porteno",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-06",
+     "local": "barracas-central",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-06",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-06",
+     "local": "defensores-de-belgrano",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [
+      {
+       "jugador": "Simonetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Simonetti",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vitali",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-11-06",
+     "local": "excursionistas",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-06",
+     "local": "huracan",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Stábile",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-11-06",
+     "local": "san-fernando",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-06",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "chacarita-juniors",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-06",
+     "local": "atlanta",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-06",
+     "local": "argentino-del-sud",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Alumni",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-06",
+     "local": "banfield",
+     "visitante": "san-isidro",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-06",
+     "local": "liberal-argentino",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-06",
+     "local": "sportivo-palermo",
+     "visitante": "porteno",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-18",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 7,
+     "gv": 4,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1928-01-08",
+     "local": "quilmes",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1927-11-13",
+     "local": "sportivo-barracas",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-13",
+     "local": "san-isidro",
+     "visitante": "liberal-argentino",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-13",
+     "local": "tigre",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-13",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentino-del-sud",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-13",
+     "local": "chacarita-juniors",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-13",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-13",
+     "local": "argentinos-juniors",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-13",
+     "local": "defensores-de-belgrano",
+     "visitante": "excursionistas",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-13",
+     "local": "almagro",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Almagro",
+     "goles": [
+      {
+       "jugador": "Alfieri",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Gainzaraín",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-11-13",
+     "local": "river-plate",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-13",
+     "local": "argentino-de-quilmes",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-13",
+     "local": "sportivo-buenos-aires",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-13",
+     "local": "racing-club",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-13",
+     "local": "velez-sarsfield",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-13",
+     "local": "porteno",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1928-01-15",
+     "local": "san-lorenzo",
+     "visitante": "sportivo-palermo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1928-01-22",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "san-fernando",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "partidos": [
+    {
+     "fecha": "1927-11-20",
+     "local": "ferro-carril-oeste",
+     "visitante": "excursionistas",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "nota": "Terminó a los 80 minutos."
+    },
+    {
+     "fecha": "1927-12-11",
+     "local": "sportivo-palermo",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-11",
+     "local": "quilmes",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-11",
+     "local": "estudiantil-porteno",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-11",
+     "local": "barracas-central",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Almagro no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1927-12-11",
+     "local": "huracan",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Spósito",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Irrazábal",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-12-11",
+     "local": "san-fernando",
+     "visitante": "argentinos-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-11",
+     "local": "atlanta",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Atlanta no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1927-12-11",
+     "local": "argentino-del-sud",
+     "visitante": "chacarita-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de El Porvenir",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-11",
+     "local": "liberal-argentino",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-11",
+     "local": "platense",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-11",
+     "local": "sportivo-barracas",
+     "visitante": "porteno",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Porteño no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1927-12-18",
+     "local": "boca-juniors",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-25",
+     "local": "banfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": [],
+     "nota": "Se suspendió a los 70 minutos, 2-0; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1928-01-01",
+     "local": "independiente",
+     "visitante": "argentino-de-quilmes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Orsi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Orsi",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Seoane",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1928-01-15",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1928-01-22",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "partidos": [
+    {
+     "fecha": "1927-11-26",
+     "local": "argentino-de-quilmes",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-27",
+     "local": "sportivo-barracas",
+     "visitante": "san-isidro",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-27",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "liberal-argentino",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-27",
+     "local": "chacarita-juniors",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Chacarita Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-27",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Atlanta no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1927-11-27",
+     "local": "argentinos-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-27",
+     "local": "defensores-de-belgrano",
+     "visitante": "san-fernando",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-27",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "Gainzarain",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Loizo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Spósito",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-11-27",
+     "local": "almagro",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Almagro no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1927-11-27",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-27",
+     "local": "sportivo-buenos-aires",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-27",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-11-27",
+     "local": "san-lorenzo",
+     "visitante": "porteno",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Porteño no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1927-12-18",
+     "local": "tigre",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-18",
+     "local": "excursionistas",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-25",
+     "local": "lanus",
+     "visitante": "argentino-del-sud",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "nota": "Terminó a los 68 minutos."
+    },
+    {
+     "fecha": "1928-01-08",
+     "local": "racing-club",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "partidos": [
+    {
+     "fecha": "1927-12-04",
+     "local": "porteno",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Argentinos Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-04",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Almagro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-04",
+     "local": "sportivo-palermo",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-04",
+     "local": "quilmes",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-04",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "R.Cherro",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-12-04",
+     "local": "barracas-central",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [
+      {
+       "jugador": "Spósito",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maidana",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1927-12-04",
+     "local": "san-fernando",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de San Fernando",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-04",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "defensores-de-belgrano",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-04",
+     "local": "banfield",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-04",
+     "local": "liberal-argentino",
+     "visitante": "chacarita-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-04",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-04",
+     "local": "san-isidro",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1927-12-04",
+     "local": "atlanta",
+     "visitante": "argentinos-juniors",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Atlanta no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1928-01-08",
+     "local": "argentino-del-sud",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1928-01-15",
+     "local": "independiente",
+     "visitante": "almagro",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [
+      {
+       "jugador": "Lalín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Lalín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Seoane",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ravaschino",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1928-01-29",
+     "local": "san-lorenzo",
+     "visitante": "sportivo-barracas",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1928-02-05",
+     "local": "estudiantil-porteno",
+     "visitante": "excursionistas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [],
+     "nota": "Empezó el 4 de diciembre; se suspendió a los 84 minutos, 1-1, y los minutos que faltaban se jugaron el 5 de febrero de 1928."
+    }
+   ]
+  }
+ ]
+}

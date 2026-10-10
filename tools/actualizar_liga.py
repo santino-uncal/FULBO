@@ -33,6 +33,46 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1927: el campeonato de la Asociación Amateurs Argentina de Football (marzo de 1927 a febrero de 1928; campeón San
+    # Lorenzo), el primero después de la unificación de las dos ligas de 1926: 34 equipos a una rueda (33 fechas), con 2
+    # puntos por partido ganado. El Banfield 1-2 Talleres se lo dieron ganado a Banfield y a Talleres le descontaron 2
+    # puntos; en la tabla de RSSSF cuentan los goles de Talleres y no el de Banfield ("para_local"/"para_visitante"). Otro
+    # suspendido se lo dieron ganado a Lanús, y al final varios equipos no se presentaron (sin goles). Defensores de
+    # Belgrano y Tigre, empatados en el puesto 30, jugaron un desempate para no quedar entre los cuatro últimos (en
+    # "playoffs"; ganó Defensores), pero no bajó nadie: los cuatro últimos eran fundadores de la asociación, que solo
+    # bajaban la segunda vez. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, con los goles de algunos partidos, sin
+    # minutos)
+    "1927-primera": {"nombre": "Campeonato de Primera División 1927 (amateur)", "anio": 1927, "liga": "a_mano",
+                     "slug": "1927-primera", "zonas": "unica", "fechas": 33, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "descuentos": {"talleres-remedios-de-escalada": 2},
+                     "descuentos_texto": "A Talleres (Remedios de Escalada) se le descontaron 2 puntos, además de perder "
+                                         "los del partido con Banfield de la fecha 1, que había ganado.",
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Fue el primero después de la unificación de las dos ligas que hubo de 1919 "
+                                    "a 1926. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide con "
+                                    "el orden de RSSSF). Almagro se llamaba Sportivo Almagro; Argentino de Lomas, Argentino "
+                                    "de Banfield.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1927 (amateur). Cada partido ganado "
+                                    "valía 2 puntos.",
+                     "goleadores_nota": "Los goles son solo de algunos partidos (de RSSSF, sin minutos). Según RSSSF, el "
+                                        "goleador del torneo fue Domingo Tarasconi (Boca), con 35 goles.",
+                     "nombre_playoffs": "Desempate", "sin_cuadro": True,
+                     "playoffs": [(r"^$^", "Desempate por el puesto 30")],
+                     "playoffs_a_mano": {
+                         "Desempate por el puesto 30": [
+                             {"fecha": "1928-04-05", "local": "defensores-de-belgrano", "visitante": "tigre", "gl": 1, "gv": 1,
+                              "estadio": "Cancha de Sportivo Barracas",
+                              "goles": [{"jugador": "Caldas", "equipo": "local"}, {"jugador": "Poletti", "equipo": "visitante"}]},
+                             {"fecha": "1928-04-08", "local": "defensores-de-belgrano", "visitante": "tigre", "gl": 1, "gv": 0,
+                              "estadio": "Cancha de Sportivo Barracas",
+                              "goles": [{"jugador": "Caldas", "equipo": "local"}]},
+                         ],
+                     },
+                     "sin_descensos": "No bajó nadie: los cuatro últimos (Tigre, que perdió el desempate con Defensores de "
+                                      "Belgrano por el puesto 30, San Isidro, Estudiantes de Buenos Aires y Porteño) eran "
+                                      "fundadores de la asociación, que solo bajaban la segunda vez que quedaban entre los "
+                                      "cuatro últimos."},
     # 1928: el campeonato de la Asociación Amateurs Argentina de Football (abril de 1928 a julio de 1929; campeón Huracán):
     # 36 equipos a una rueda (35 fechas), con 2 puntos por partido ganado. Un partido suspendido se lo dieron ganado a
     # Tigre, con los goles del partido en la tabla, y en otro no se presentó ninguno de los dos ("para_local"/
@@ -5316,7 +5356,7 @@ def armar(clave):
     for k in ("temporada", "descienden", "texto_pasan", "nombre_playoffs", "nombre_anual", "desempate_texto", "goleadores_nota", "promocion", "ventaja", "triangular", "texto_triangular", "ida_y_vuelta", "gol_visitante", "cuadro_desde",
               "campeon_tabla", "anual_texto", "descensos_anulados", "sin_descensos", "nota", "cuadro", "descuentos",
               "descuentos_texto", "promedios_victoria", "puntos_victoria", "punto_penales",
-              "promedios_por_temporada", "texto_promocion", "campeon_etapa", "pasan_triangular", "etapa_suma", "texto_suma", "desempate_goles", "descienden_etapa", "descienden_clubes", "descienden_texto", "orden_a_mano", "orden_texto",
+              "promedios_por_temporada", "texto_promocion", "campeon_etapa", "pasan_triangular", "etapa_suma", "texto_suma", "desempate_goles", "descienden_etapa", "descienden_clubes", "descienden_texto", "sin_cuadro", "orden_a_mano", "orden_texto",
               "promedios_orden", "promedios_texto"):
         if cfg.get(k):
             datos[k] = cfg[k]

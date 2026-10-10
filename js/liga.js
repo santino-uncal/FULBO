@@ -599,6 +599,8 @@
       // (T.pasan_triangular: los que pasaban, como los dos que fueron a la Libertadores en el Nacional 1974)
       if (tri) return `${tablaHTML("", { "": clubesTri }, T.pasan_triangular || 0, tri, 0, false, !T.campeon_etapa)}<p class="vacio">${esc(T.texto_triangular || "")}</p>` +
         T.playoffs.map(r => `<h3>Partidos</h3>${r.partidos.map(p => partidoHTML(p)).join("")}`).join("");
+      // (T.sin_cuadro: solo un desempate de varios partidos entre los mismos dos, sin cuadro; 1927)
+      if (T.playoffs.length && T.sin_cuadro) return T.playoffs.map(r => `<h3>${esc(r.nombre)}</h3>${r.partidos.map(p => partidoHTML(p)).join("")}`).join("");
       if (T.playoffs.length) return (!T.fechas.length && T.nota ? `<p class="nota-edicion">${esc(T.nota)}</p>` : "") +
         `${cuadroHTML()}<p class="vacio">${T.ida_y_vuelta
           ? "El que pasó cada serie, resaltado, con el global de los dos partidos (pasando el mouse, la ida y la vuelta)"
