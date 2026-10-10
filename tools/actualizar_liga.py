@@ -33,6 +33,23 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1916: el campeonato de la Asociación Argentina de Football, la única liga ese año (marzo a diciembre; campeón
+    # Racing, el cuarto seguido): 22 equipos a una rueda, con 2 puntos por partido ganado. Bajaban los dos últimos:
+    # Belgrano Athletic y Quilmes. Huracán va delante de Estudiantil Porteño, como en RSSSF ("orden_a_mano"). Columbian
+    # se llamaba Hispano Argentino. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles)
+    "1916-primera": {"nombre": "Campeonato de Primera División 1916 (amateur)", "anio": 1916, "liga": "a_mano",
+                     "slug": "1916-primera", "zonas": "unica", "fechas": 34, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_a_mano": ["huracan", "estudiantil-porteno"],
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol; Huracán y "
+                                    "Estudiantil Porteño, con los mismos puntos y la misma diferencia de gol, en el orden de "
+                                    "RSSSF (por el cociente de goles). Columbian se llamaba Hispano Argentino.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1916 (amateur). Cada partido ganado valía 2 "
+                                    "puntos.",
+                     "goleadores_nota": "RSSSF no trae los goles de cada partido. Según RSSSF, el goleador del torneo fue "
+                                        "Marius Hiller (Gimnasia y Esgrima de Buenos Aires), con 16 goles.",
+                     "descensos": "tabla", "descienden": 2},
     # 1917: el campeonato de la Asociación Argentina de Football, la única liga ese año (abril a diciembre; campeón
     # Racing, el quinto seguido): 21 equipos a una rueda, con 2 puntos por partido ganado. RSSSF no numera las fechas:
     # cada día de partidos es una fecha. Bajaban los dos últimos: Banfield y Gimnasia y Esgrima de Buenos Aires. ESPN no
@@ -5256,6 +5273,7 @@ CLUBES_NUEVOS = {
     "eur": ("eureka", "Eureka"),
     "col": ("columbian", "Columbian"),   # (no están en ESPN: 1919 y 1918; escudos genéricos)
     "geb": ("gimnasia-buenos-aires", "Gimnasia y Esgrima (Buenos Aires)"),   # (no está en ESPN: 1917)
+    "bac": ("belgrano-athletic", "Belgrano Athletic"),   # (no está en ESPN: 1916)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),
