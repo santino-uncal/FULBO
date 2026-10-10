@@ -1,18 +1,20 @@
 /* Los títulos de liga de cada club, para mostrar al lado del campeón qué número de título es (River en el Campeonato
    1989-90: el 23). Cuenta oficial de la AFA (Wikipedia, "List of Argentine Primera División champions"):
-   - antes: los títulos de cada club hasta los campeonatos de 1921 (todos amateurs); ultimo_antes: un campeón
-     de 1921 (para contar los títulos seguidos: bicampeonatos, tricampeonatos), y seguidos_antes, cuántos llevaba
-     seguidos (Huracán, el de la Asociación Argentina: solo ese; el de la Asociación Amateurs fue River).
+   - antes: los títulos de cada club hasta los campeonatos de 1920 (todos amateurs); ultimo_antes: un campeón
+     de 1920 (para contar los títulos seguidos: bicampeonatos, tricampeonatos), y seguidos_antes, cuántos llevaba
+     seguidos (Boca, el de la Asociación Argentina: dos, 1919 y 1920; el de la Asociación Amateurs fue River).
    - torneos: los títulos de cada torneo cargado, en orden. "club" es el campeón del torneo; ["club", "texto"] es otro
      título que se definió en ese torneo (la final de 1990-91, la Superfinal 2012-13, el "Campeón de Liga" 2025).
    - notas: los torneos cuyo campeón no suma un título de liga (y por qué).
    Al terminar un torneo nuevo, agregar su campeón acá (la prueba de tests/test_liga.py avisa si falta). */
 window.LIGA_TITULOS = {
-  "antes": {"river-plate": 1, "boca-juniors": 2, "racing-club": 8,
-            "huracan": 1, "estudiantes-de-la-plata": 1,
+  "antes": {"river-plate": 1, "boca-juniors": 2, "racing-club": 7,
+            "estudiantes-de-la-plata": 1,
             "quilmes": 1},
-  "ultimo_antes": "huracan", "seguidos_antes": 1,
+  "ultimo_antes": "boca-juniors", "seguidos_antes": 2,
   "torneos": {
+    "1921-aaf": ["huracan"],
+    "1921-amateurs": ["racing-club"],
     "1922-aaf": ["huracan"],
     "1922-amateurs": ["independiente"],
     "1923-amateurs": ["san-lorenzo"],

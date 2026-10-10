@@ -1,0 +1,1512 @@
+{
+ "nombre": "Campeonato de Primera División 1921 (amateur, Asociación Argentina de Football)",
+ "fuente": "Resultados, días y fechas: RSSSF (Pablo Ciullini, de La Nación y La Prensa), con los goles de algunos partidos (sin minutos; los que RSSSF no dice van sin autor). RSSSF no trae las canchas: va la del local, salvo las que dice. Los partidos suspendidos que se terminaron o se volvieron a jugar van una sola vez, con el resultado final. Sin los partidos de Platense, que la asociación anuló porque no jugó el mínimo reglamentario. Sportivo del Norte va como Colegiales. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1921-04-10",
+     "local": "el-porvenir",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Progresista",
+     "goles": []
+    },
+    {
+     "fecha": "1921-04-10",
+     "local": "porteno",
+     "visitante": "del-plata",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1921-04-17",
+     "local": "porteno",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Porteño",
+     "goles": [
+      {
+       "jugador": "Brenna",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Ginevra",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-04-17",
+     "local": "colegiales",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1921-04-17",
+     "local": "nueva-chicago",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1921-04-17",
+     "local": "del-plata",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1921-04-24",
+     "local": "el-porvenir",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Avellaneda",
+     "goles": []
+    },
+    {
+     "fecha": "1921-04-24",
+     "local": "huracan",
+     "visitante": "sportivo-palermo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Branna",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dannaher",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dannaher",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-04-24",
+     "local": "sportivo-barracas",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1921-04-24",
+     "local": "nueva-chicago",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1921-04-24",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "del-plata",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1921-05-08",
+     "local": "huracan",
+     "visitante": "colegiales",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Dannaher",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Cánepa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-05-08",
+     "local": "del-plata",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Mércoli",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vecchia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-05-08",
+     "local": "sportivo-palermo",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1921-05-08",
+     "local": "el-porvenir",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Avellaneda",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1921-05-15",
+     "local": "porteno",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1921-05-15",
+     "local": "sportivo-barracas",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1921-05-15",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Vecchia",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-05-15",
+     "local": "del-plata",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Del Plata",
+     "goles": [
+      {
+       "jugador": "Ragoni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Marini",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Di Lorenzo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Dannaher",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Dannaher",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-05-15",
+     "local": "sportivo-palermo",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1921-05-22",
+     "local": "boca-juniors",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Bozzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mange",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-05-22",
+     "local": "colegiales",
+     "visitante": "sportivo-palermo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1921-05-22",
+     "local": "sportivo-barracas",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1921-05-22",
+     "local": "el-porvenir",
+     "visitante": "del-plata",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Everton (Gerli)",
+     "goles": []
+    },
+    {
+     "fecha": "1921-05-22",
+     "local": "nueva-chicago",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": [
+      {
+       "jugador": "Villagra",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1921-05-29",
+     "local": "sportivo-barracas",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Masse",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Candal",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pisa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-05-29",
+     "local": "el-porvenir",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Bertagni",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dannaher",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-05-29",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1921-05-29",
+     "local": "porteno",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1921-05-29",
+     "local": "del-plata",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1921-06-05",
+     "local": "el-porvenir",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1921-06-05",
+     "local": "sportivo-palermo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1921-06-05",
+     "local": "sportivo-barracas",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1921-06-05",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Pisa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ferreyra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dannaher",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Dannaher",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1921-06-12",
+     "local": "huracan",
+     "visitante": "sportivo-barracas",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1921-06-12",
+     "local": "sportivo-palermo",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Pisa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-06-12",
+     "local": "colegiales",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1921-06-12",
+     "local": "porteno",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1921-06-12",
+     "local": "del-plata",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1921-06-26",
+     "local": "nueva-chicago",
+     "visitante": "del-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1921-06-26",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "P.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pratto",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Dannaher",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-06-26",
+     "local": "sportivo-palermo",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1921-06-26",
+     "local": "el-porvenir",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Sacarello",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pisa",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Elli",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1921-07-03",
+     "local": "sportivo-barracas",
+     "visitante": "del-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1921-07-03",
+     "local": "colegiales",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Ruggiero",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calomino",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cortella",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Bozzo",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Mange",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Brichetto",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-07-03",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1921-07-03",
+     "local": "nueva-chicago",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1921-07-03",
+     "local": "huracan",
+     "visitante": "porteno",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Dannaher",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Pratto",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Laguna",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Laguna",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Vivaldo",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1921-07-10",
+     "local": "boca-juniors",
+     "visitante": "del-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1921-07-10",
+     "local": "nueva-chicago",
+     "visitante": "porteno",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1921-07-10",
+     "local": "sportivo-barracas",
+     "visitante": "el-porvenir",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1921-07-17",
+     "local": "huracan",
+     "visitante": "el-porvenir",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Dannaher",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dannaher",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dannaher",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Strittmatter",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-07-17",
+     "local": "porteno",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1921-07-17",
+     "local": "nueva-chicago",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1921-07-17",
+     "local": "sportivo-palermo",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1921-07-31",
+     "local": "del-plata",
+     "visitante": "colegiales",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Del Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1921-07-31",
+     "local": "sportivo-barracas",
+     "visitante": "sportivo-palermo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1921-07-31",
+     "local": "huracan",
+     "visitante": "nueva-chicago",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Chavín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Chavín",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Deibe",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-07-31",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Bozzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Mange",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ballaratti",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "Pisa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Ballaratti",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Calandra",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1921-08-07",
+     "local": "colegiales",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Dannaher",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Dannaher",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-08-07",
+     "local": "del-plata",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": [
+      {
+       "jugador": "Bruzzone",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-08-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [
+      {
+       "jugador": "Calandra",
+       "equipo": "local"
+      },
+      {
+       "jugador": "García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Masse",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-08-07",
+     "local": "boca-juniors",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Bozzo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-08-07",
+     "local": "el-porvenir",
+     "visitante": "nueva-chicago",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Everton (Gerli)",
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "nota": "Se suspendió a los 65 minutos, 0-0, y no se terminó: los puntos fueron para El Porvenir (con los goles del partido en la tabla)."
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1921-08-14",
+     "local": "colegiales",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Landoni",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-08-14",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Dannaher",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dannaher",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Laguna",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Laguna",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-08-14",
+     "local": "porteno",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "J.García",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bertolini",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Pisa",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1921-09-04",
+     "local": "boca-juniors",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Pisa",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Calomino",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Galindez",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-09-04",
+     "local": "sportivo-palermo",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Montenegro",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dannaher",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Laguna",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-09-04",
+     "local": "del-plata",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": [],
+     "nota": "El 3 de abril se suspendió, 0-0, y se volvió a jugar."
+    },
+    {
+     "fecha": "1921-09-04",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1921-11-06",
+     "local": "nueva-chicago",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Nueva Chicago",
+     "goles": []
+    },
+    {
+     "fecha": "1921-11-06",
+     "local": "el-porvenir",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Everton (Gerli)",
+     "goles": []
+    },
+    {
+     "fecha": "1921-11-06",
+     "local": "boca-juniors",
+     "visitante": "colegiales",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Bozzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bozzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Bozzo",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-11-06",
+     "local": "del-plata",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Del Plata",
+     "goles": [],
+     "nota": "Terminó a los 84 minutos."
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1921-11-13",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Colegiales no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1921-11-27",
+     "local": "sportivo-barracas",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [
+      {
+       "jugador": "Galíndez",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Dannaher",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Dannaher",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Chiesa",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-11-27",
+     "local": "porteno",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1921-12-04",
+     "local": "huracan",
+     "visitante": "del-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "Dannaher",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Onzari",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Laguna",
+       "equipo": "local"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-12-04",
+     "local": "boca-juniors",
+     "visitante": "el-porvenir",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Bozzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Fabiano",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Strittmatter",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Cerrotti",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-12-04",
+     "local": "nueva-chicago",
+     "visitante": "colegiales",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Colegiales no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1921-12-11",
+     "local": "boca-juniors",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [
+      {
+       "jugador": "Bozzo",
+       "equipo": "local"
+      },
+      {
+       "jugador": "A.Lopez",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Varela",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Se suspendió a los 77 minutos, 1-2; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1921-12-11",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1921-12-11",
+     "local": "colegiales",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": [],
+     "nota": "Se suspendió a los 45 minutos, 0-0; no se terminó y quedó ese resultado."
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1921-12-16",
+     "local": "colegiales",
+     "visitante": "porteno",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Porteño no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1921-12-18",
+     "local": "sportivo-palermo",
+     "visitante": "del-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Uslenghi",
+       "equipo": "local",
+       "tipo": "pen"
+      },
+      {
+       "jugador": "Ragone",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rivet",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Rivet",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-12-18",
+     "local": "porteno",
+     "visitante": "el-porvenir",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Porteño no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1921-12-25",
+     "local": "sportivo-palermo",
+     "visitante": "nueva-chicago",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [
+      {
+       "jugador": "Clarke",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Villagra",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Maglio",
+       "equipo": "visitante"
+      }
+     ]
+    },
+    {
+     "fecha": "1921-12-25",
+     "local": "colegiales",
+     "visitante": "del-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Colegiales",
+     "goles": [
+      {
+       "jugador": "Cartagénova",
+       "equipo": "local"
+      },
+      {
+       "equipo": "visitante"
+      },
+      {
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "Empezó el 5 de junio; se suspendió a los 65 minutos, 1-1, y los minutos que faltaban se jugaron el 25 de diciembre."
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1922-01-08",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": [
+      {
+       "jugador": "G.Dannaher 44",
+       "equipo": "local"
+      },
+      {
+       "jugador": "71",
+       "equipo": "local"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

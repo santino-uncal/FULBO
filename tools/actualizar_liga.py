@@ -33,6 +33,43 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1921: las dos ligas, amateurs las dos (la AFA reconoce a los dos campeones). La de la Asociación Argentina (abril a
+    # diciembre; campeón Huracán): 10 equipos a dos ruedas, con 2 puntos por partido ganado; sin los partidos de Platense,
+    # que la asociación anuló (no jugó el mínimo reglamentario). Un suspendido se lo dieron ganado a El Porvenir, con los
+    # goles en la tabla. Sportivo del Norte va como Colegiales. ESPN no los tiene: van a mano (tools/a_mano; RSSSF, con
+    # los goles de algunos partidos)
+    "1921-aaf": {"nombre": "Campeonato de Primera División 1921 (amateur, Asociación Argentina de Football)", "anio": 1921,
+                 "liga": "a_mano", "slug": "1921-aaf", "zonas": "unica", "fechas": 26, "pasan": 0, "puntos_victoria": 2,
+                 "campeon_tabla": True,
+                 "orden_texto": "Campeonato amateur, de la Asociación Argentina de Football: de 1919 a 1926 hubo dos ligas, "
+                                "esta y la de la Asociación Amateurs, y la AFA reconoce a los campeones de las dos. Los "
+                                "partidos de Platense se anularon porque no jugó el mínimo reglamentario. Orden: puntos y, con "
+                                "los mismos puntos, la diferencia de gol (que coincide con el orden de RSSSF). Colegiales se "
+                                "llamaba Sportivo del Norte.",
+                 "anual_texto": "La tabla del Campeonato de Primera División 1921 de la Asociación Argentina (amateur). Cada "
+                                "partido ganado valía 2 puntos.",
+                 "goleadores_nota": "Los goles son solo de algunos partidos (de RSSSF, sin minutos). Según RSSSF, el goleador "
+                                    "del torneo fue Guillermo Dannaher (Huracán), con 25 goles.",
+                 "sin_descensos": "No hubo descensos."},
+    # La de la Asociación Amateurs (abril de 1921 a enero de 1922; campeón Racing): 20 equipos a dos ruedas, con 2 puntos
+    # por partido ganado; sin los partidos de General Mitre, que desapareció a mitad de año. El Independiente-Quilmes del
+    # 11 de diciembre figura dos veces en RSSSF: va el no jugado, como en su tabla. La tabla de RSSSF cuenta un gol más
+    # en un Atlanta-Ferro
+    "1921-amateurs": {"nombre": "Campeonato de Primera División 1921 (amateur, Asociación Amateurs)", "anio": 1921,
+                      "liga": "a_mano", "slug": "1921-amateurs", "zonas": "unica", "fechas": 47, "pasan": 0,
+                      "puntos_victoria": 2, "campeon_tabla": True,
+                      "orden_texto": "Campeonato amateur, de la Asociación Amateurs Argentina de Football: de 1919 a 1926 hubo "
+                                     "dos ligas, esta y la de la Asociación Argentina, y la AFA reconoce a los campeones de las "
+                                     "dos. Los partidos de General Mitre, que desapareció a mitad de año, se anularon. Orden: "
+                                     "puntos y, con los mismos puntos, la diferencia de gol (que coincide con el orden de "
+                                     "RSSSF). En la tabla, Atlanta tiene un gol menos en contra y Ferro uno menos a favor que en "
+                                     "la de RSSSF, que no coincide con sus propios resultados. Almagro se llamaba Sportivo "
+                                     "Almagro.",
+                      "anual_texto": "La tabla del Campeonato de Primera División 1921 de la Asociación Amateurs. Cada "
+                                     "partido ganado valía 2 puntos.",
+                      "goleadores_nota": "Los goles son solo de algunos partidos (de RSSSF, sin minutos). Según RSSSF, el "
+                                         "goleador del torneo fue Albérico Zabaleta (Racing), con 30 goles.",
+                      "sin_descensos": "No hubo descensos."},
     # 1922: las dos ligas, amateurs las dos (la AFA reconoce a los dos campeones). La de la Asociación Argentina (abril de
     # 1922 a enero de 1923; campeón Huracán): 17 equipos a una rueda, con 2 puntos por partido ganado. Un Del
     # Plata-Progresista suspendido, 1-0, no se terminó porque Progresista no se presentó: en la tabla de RSSSF cuenta el
