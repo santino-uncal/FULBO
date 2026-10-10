@@ -33,6 +33,57 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1925: las dos ligas, la Asociación Argentina de Football y la Asociación Amateurs, amateurs las dos (la AFA reconoce
+    # a los dos campeones). La de la Asociación Argentina (abril de 1925 a agosto de 1926; campeón Huracán): 23 equipos a
+    # una rueda, con 2 puntos por partido ganado, pero Boca se fue de gira por Europa y jugó solo 7 partidos, y otros
+    # quedaron sin jugar. Huracán y Nueva Chicago empataron el primer puesto y jugaron una final (en "playoffs"): 1-1,
+    # Nueva Chicago abandonó la cancha a los 83 minutos y no jugó el alargue, y se la dieron a Huracán ("gana"). Un Boca
+    # Alumni-Sportivo Barracas suspendido no cuenta en la tabla de RSSSF ("estado"). Platense (después Retiro y Universal)
+    # va como Universal, y Urquiza, como General San Martín. ESPN no los tiene: van a mano (tools/a_mano; RSSSF, con los
+    # goles de algunos partidos)
+    "1925-aaf": {"nombre": "Campeonato de Primera División 1925 (amateur, Asociación Argentina de Football)", "anio": 1925,
+                 "liga": "a_mano", "slug": "1925-aaf", "zonas": "unica", "fechas": 34, "pasan": 2, "puntos_victoria": 2,
+                 "texto_pasan": "Empatados en el primer puesto (38 puntos): definieron el título en una final",
+                 "orden_texto": "Campeonato amateur, de la Asociación Argentina de Football: de 1919 a 1926 hubo dos ligas, "
+                                "esta y la de la Asociación Amateurs, y la AFA reconoce a los campeones de las dos. No todos "
+                                "jugaron la misma cantidad de partidos: Boca se fue de gira por Europa y jugó solo 7, y otros "
+                                "partidos no se jugaron. Orden: puntos y, con los mismos puntos, la diferencia de gol (que "
+                                "coincide con el orden de RSSSF). Universal se llamaba Platense (y después Retiro); General "
+                                "San Martín, Urquiza; Colegiales, Sportivo del Norte; Argentino de Lomas, Argentino de "
+                                "Banfield; Dock Sud, Sportivo Dock Sud.",
+                 "anual_texto": "La tabla del Campeonato de Primera División 1925 de la Asociación Argentina (amateur), sin "
+                                "la final. Cada partido ganado valía 2 puntos.",
+                 "goleadores_nota": "Los goles son solo de algunos partidos (de RSSSF, sin minutos; los de la final, con los "
+                                    "minutos). Según RSSSF, el goleador del torneo fue Guillermo Stábile (Huracán), con 17 "
+                                    "goles.",
+                 "nombre_playoffs": "Final (desempate)",
+                 "playoffs": [(r"^$^", "Final")],
+                 "playoffs_a_mano": {
+                     "Final": [
+                         {"fecha": "1926-08-22", "local": "huracan", "visitante": "nueva-chicago", "gl": 1, "gv": 1,
+                          "gana": "huracan", "estadio": "Cancha de Sportivo Barracas", "arbitro": "L. Celleri",
+                          "goles": [{"jugador": "Stábile", "equipo": "local", "min": 65},
+                                    {"jugador": "Maure", "equipo": "visitante", "min": 4}],
+                          "nota": "Nueva Chicago abandonó la cancha a los 83 minutos y no jugó el alargue: la asociación le dio "
+                                  "el partido a Huracán. Dos días después, Nueva Chicago se fue a la Asociación Amateurs."},
+                     ],
+                 },
+                 "sin_descensos": "No hubo descensos."},
+    # La de la Asociación Amateurs (abril a diciembre de 1925; campeón Racing, invicto): 25 equipos a una rueda (25 fechas,
+    # con uno libre en cada una), con 2 puntos por partido ganado. Dos partidos se los dieron ganados a uno, con los goles
+    # en la tabla
+    "1925-amateurs": {"nombre": "Campeonato de Primera División 1925 (amateur, Asociación Amateurs)", "anio": 1925,
+                      "liga": "a_mano", "slug": "1925-amateurs", "zonas": "unica", "fechas": 25, "pasan": 0,
+                      "puntos_victoria": 2, "campeon_tabla": True,
+                      "orden_texto": "Campeonato amateur, de la Asociación Amateurs Argentina de Football: de 1919 a 1926 hubo "
+                                     "dos ligas, esta y la de la Asociación Argentina, y la AFA reconoce a los campeones de las "
+                                     "dos. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide con el "
+                                     "orden de RSSSF). Almagro se llamaba Sportivo Almagro.",
+                      "anual_texto": "La tabla del Campeonato de Primera División 1925 de la Asociación Amateurs. Cada "
+                                     "partido ganado valía 2 puntos.",
+                      "goleadores_nota": "Los goles son solo de algunos partidos (de RSSSF, sin minutos). Según RSSSF, el "
+                                         "goleador del torneo fue Francisco Bellomo (Estudiantes), con 17 goles.",
+                      "sin_descensos": "No hubo descensos."},
     # 1926: de 1919 a 1926 hubo dos ligas, la Asociación Argentina de Football (la oficial) y la Asociación Amateurs
     # Argentina de Football, y la AFA reconoce a los campeones de las dos; las dos eran amateurs. La de la Asociación
     # Argentina (abril de 1926 a enero de 1927; campeón Boca): 18 equipos a una rueda, con 2 puntos por partido ganado; en

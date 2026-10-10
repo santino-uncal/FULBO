@@ -143,6 +143,8 @@
     const serieFinal = T.ida_y_vuelta && T.playoffs.find(r => r.nombre === "Final")?.partidos.length === 2
       ? series(T.playoffs.find(r => r.nombre === "Final").partidos)[0] : null;
     const campeon = serieFinal ? serieFinal.gana || null
+      // (final.gana: una final empatada que se definió en el escritorio, Huracán-Nueva Chicago 1925)
+      : final && final.gana ? final.gana
       : final && final.gl != null ? (final.gl > final.gv || final.gl === final.gv && final.pen_l > final.pen_v ? final.local : final.visitante)
       // (T.campeon_etapa: el primero de la tabla de esa etapa, el Torneo Campeonato del Metropolitano 1976; antes que el
       // triangular, que en el Nacional 1974 fue el Reducido por la Libertadores)
