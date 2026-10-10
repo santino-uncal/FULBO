@@ -1,0 +1,2063 @@
+{
+ "nombre": "Campeonato de Primera División 1917 (amateur)",
+ "fuente": "Resultados y días: RSSSF (Pablo Ciullini, de La Nación y La Prensa), sin goles. RSSSF no numera las fechas: cada día de partidos es una fecha. RSSSF no trae las canchas: va la del local, salvo las que dice. Los partidos suspendidos que se terminaron o se volvieron a jugar van una sola vez, con el resultado final. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1917-04-01",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 7,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-01",
+     "local": "porteno",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-01",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-01",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-01",
+     "local": "sportivo-barracas",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-01",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-01",
+     "local": "san-isidro",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-01",
+     "local": "huracan",
+     "visitante": "columbian",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-01",
+     "local": "argentino-de-quilmes",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-01",
+     "local": "banfield",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1917-04-08",
+     "local": "racing-club",
+     "visitante": "porteno",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-08",
+     "local": "argentino-de-quilmes",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-08",
+     "local": "banfield",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-08",
+     "local": "sportivo-barracas",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-08",
+     "local": "huracan",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-08",
+     "local": "tigre",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-08",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-08",
+     "local": "estudiantil-porteno",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-08",
+     "local": "san-isidro",
+     "visitante": "columbian",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-08",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1917-04-15",
+     "local": "tigre",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-15",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-15",
+     "local": "independiente",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-15",
+     "local": "porteno",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-15",
+     "local": "ferro-carril-oeste",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-15",
+     "local": "atlanta",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Alumni (Olivos)",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-15",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-15",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1917-04-22",
+     "local": "san-isidro",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-22",
+     "local": "huracan",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-22",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-22",
+     "local": "sportivo-barracas",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1917-04-22",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1917-05-06",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-06",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-06",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-06",
+     "local": "columbian",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Columbian",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-06",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-06",
+     "local": "porteno",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-06",
+     "local": "san-isidro",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-06",
+     "local": "banfield",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-06",
+     "local": "estudiantil-porteno",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1917-05-13",
+     "local": "banfield",
+     "visitante": "estudiantil-porteno",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-13",
+     "local": "argentino-de-quilmes",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-13",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "porteno",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-13",
+     "local": "columbian",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-13",
+     "local": "river-plate",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-13",
+     "local": "platense",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-13",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-13",
+     "local": "ferro-carril-oeste",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-13",
+     "local": "san-lorenzo",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1917-05-17",
+     "local": "boca-juniors",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-17",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-17",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-17",
+     "local": "san-isidro",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1917-05-20",
+     "local": "huracan",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-20",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-20",
+     "local": "porteno",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-20",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-20",
+     "local": "argentino-de-quilmes",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1917-05-27",
+     "local": "argentino-de-quilmes",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-27",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-27",
+     "local": "sportivo-barracas",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-27",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-27",
+     "local": "estudiantil-porteno",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-27",
+     "local": "porteno",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-27",
+     "local": "columbian",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-27",
+     "local": "tigre",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-27",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1917-05-27",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1917-06-03",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "porteno",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1917-06-03",
+     "local": "racing-club",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1917-06-10",
+     "local": "tigre",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1917-06-10",
+     "local": "banfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1917-06-10",
+     "local": "san-lorenzo",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1917-06-10",
+     "local": "ferro-carril-oeste",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1917-06-10",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1917-06-10",
+     "local": "river-plate",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1917-06-10",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1917-06-17",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1917-06-17",
+     "local": "banfield",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1917-06-24",
+     "local": "argentino-de-quilmes",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1917-06-24",
+     "local": "atlanta",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1917-06-24",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1917-06-24",
+     "local": "river-plate",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1917-06-24",
+     "local": "porteno",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1917-06-24",
+     "local": "tigre",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1917-06-24",
+     "local": "sportivo-barracas",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1917-06-24",
+     "local": "estudiantil-porteno",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1917-07-01",
+     "local": "huracan",
+     "visitante": "porteno",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1917-07-01",
+     "local": "boca-juniors",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1917-07-01",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1917-07-01",
+     "local": "banfield",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1917-07-01",
+     "local": "argentino-de-quilmes",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1917-07-01",
+     "local": "atlanta",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1917-07-01",
+     "local": "river-plate",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1917-07-01",
+     "local": "racing-club",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1917-07-22",
+     "local": "atlanta",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1917-07-22",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1917-07-22",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "columbian",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1917-07-22",
+     "local": "estudiantil-porteno",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1917-07-22",
+     "local": "huracan",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1917-07-22",
+     "local": "boca-juniors",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1917-07-22",
+     "local": "platense",
+     "visitante": "porteno",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1917-07-29",
+     "local": "racing-club",
+     "visitante": "san-isidro",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1917-07-29",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1917-07-29",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1917-07-29",
+     "local": "ferro-carril-oeste",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1917-07-29",
+     "local": "tigre",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1917-08-05",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-05",
+     "local": "platense",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-05",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-05",
+     "local": "columbian",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Columbian",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-05",
+     "local": "argentino-de-quilmes",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-05",
+     "local": "estudiantil-porteno",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-05",
+     "local": "atlanta",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-05",
+     "local": "huracan",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-05",
+     "local": "boca-juniors",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-05",
+     "local": "porteno",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1917-08-12",
+     "local": "tigre",
+     "visitante": "san-lorenzo",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-12",
+     "local": "river-plate",
+     "visitante": "columbian",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-12",
+     "local": "argentino-de-quilmes",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1917-08-19",
+     "local": "tigre",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-19",
+     "local": "racing-club",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-19",
+     "local": "ferro-carril-oeste",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-19",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-19",
+     "local": "porteno",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-19",
+     "local": "atlanta",
+     "visitante": "columbian",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-19",
+     "local": "platense",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-19",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1917-08-26",
+     "local": "river-plate",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-26",
+     "local": "platense",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-26",
+     "local": "boca-juniors",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-26",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-26",
+     "local": "estudiantil-porteno",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-26",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "columbian",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1917-08-26",
+     "local": "independiente",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1917-09-02",
+     "local": "san-lorenzo",
+     "visitante": "atlanta",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1917-09-02",
+     "local": "sportivo-barracas",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1917-09-02",
+     "local": "san-isidro",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1917-09-02",
+     "local": "banfield",
+     "visitante": "porteno",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1917-09-09",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1917-09-09",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1917-09-09",
+     "local": "huracan",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1917-09-09",
+     "local": "atlanta",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1917-09-09",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1917-09-09",
+     "local": "banfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1917-09-09",
+     "local": "porteno",
+     "visitante": "columbian",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1917-09-09",
+     "local": "san-isidro",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1917-09-09",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1917-09-09",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1917-09-16",
+     "local": "columbian",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Columbian",
+     "goles": []
+    },
+    {
+     "fecha": "1917-09-16",
+     "local": "platense",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1917-09-16",
+     "local": "boca-juniors",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1917-09-16",
+     "local": "estudiantil-porteno",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1917-09-16",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1917-09-16",
+     "local": "banfield",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1917-10-28",
+     "local": "porteno",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1917-10-28",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1917-10-28",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1917-10-28",
+     "local": "columbian",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Columbian",
+     "goles": []
+    },
+    {
+     "fecha": "1917-10-28",
+     "local": "san-isidro",
+     "visitante": "sportivo-barracas",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1917-10-28",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1917-10-28",
+     "local": "argentino-de-quilmes",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1917-11-04",
+     "local": "atlanta",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 6,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-04",
+     "local": "estudiantil-porteno",
+     "visitante": "columbian",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-04",
+     "local": "river-plate",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-04",
+     "local": "independiente",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-04",
+     "local": "san-lorenzo",
+     "visitante": "argentino-de-quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-04",
+     "local": "sportivo-barracas",
+     "visitante": "porteno",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-04",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-04",
+     "local": "san-isidro",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-04",
+     "local": "platense",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1917-11-11",
+     "local": "racing-club",
+     "visitante": "columbian",
+     "gl": 8,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-11",
+     "local": "independiente",
+     "visitante": "argentino-de-quilmes",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-11",
+     "local": "estudiantil-porteno",
+     "visitante": "huracan",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-11",
+     "local": "san-isidro",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-11",
+     "local": "sportivo-barracas",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-11",
+     "local": "tigre",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-11",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-11",
+     "local": "river-plate",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-11",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1917-11-18",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-18",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-18",
+     "local": "independiente",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-18",
+     "local": "boca-juniors",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-18",
+     "local": "sportivo-barracas",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-18",
+     "local": "columbian",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Columbian",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-18",
+     "local": "huracan",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1917-11-25",
+     "local": "racing-club",
+     "visitante": "banfield",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-25",
+     "local": "atlanta",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-25",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1917-11-25",
+     "local": "sportivo-barracas",
+     "visitante": "columbian",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1917-12-02",
+     "local": "tigre",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1917-12-02",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1917-12-02",
+     "local": "columbian",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Columbian",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1917-12-09",
+     "local": "columbian",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Columbian",
+     "goles": []
+    },
+    {
+     "fecha": "1917-12-09",
+     "local": "ferro-carril-oeste",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1917-12-09",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1917-12-09",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1917-12-09",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [],
+     "nota": "Empezó el 1 de julio; se suspendió a los 70 minutos, 1-0, y los minutos que faltaban se jugaron el 9 de diciembre."
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "partidos": [
+    {
+     "fecha": "1917-12-16",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1917-12-16",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1917-12-16",
+     "local": "columbian",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Columbian",
+     "goles": []
+    },
+    {
+     "fecha": "1917-12-16",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "partidos": [
+    {
+     "fecha": "1917-12-23",
+     "local": "independiente",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1917-12-23",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "partidos": [
+    {
+     "fecha": "1917-12-30",
+     "local": "river-plate",
+     "visitante": "huracan",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1917-12-30",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1917-12-30",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "nota": "El 29 de abril se suspendió a los 40 minutos, 2-0, y se volvió a jugar."
+    }
+   ]
+  }
+ ]
+}
