@@ -1,0 +1,3268 @@
+{
+ "nombre": "Campeonato de Primera División 1926 (amateur, Asociación Amateurs)",
+ "fuente": "Resultados, días y fechas: RSSSF (Pablo Ciullini, de La Nación y La Prensa), con los goles de algunos partidos (sin minutos; los que RSSSF no dice van sin autor). RSSSF no trae las canchas: va la del local, salvo las que dice. Los partidos suspendidos que se terminaron después van una sola vez, con el resultado final. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1926-04-04",
+     "local": "sportivo-buenos-aires",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-04",
+     "local": "tigre",
+     "visitante": "argentino-del-sud",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-04",
+     "local": "river-plate",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-04",
+     "local": "san-lorenzo",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-04",
+     "local": "barracas-central",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-04",
+     "local": "san-isidro",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-04",
+     "local": "velez-sarsfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-04",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-04",
+     "local": "quilmes",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-04",
+     "local": "liberal-argentino",
+     "visitante": "excursionistas",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-26",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "nota": "Se suspendió a los 60 minutos, 4-0; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1926-11-21",
+     "local": "racing-club",
+     "visitante": "sportivo-palermo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-11-28",
+     "local": "platense",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 6,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1926-04-25",
+     "local": "independiente",
+     "visitante": "san-lorenzo",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-25",
+     "local": "defensores-de-belgrano",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-25",
+     "local": "almagro",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-25",
+     "local": "lanus",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-25",
+     "local": "ferro-carril-oeste",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-25",
+     "local": "estudiantil-porteno",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-25",
+     "local": "banfield",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-25",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "liberal-argentino",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": [],
+     "nota": "Empezó el 11 de abril; se suspendió a los 10 minutos, 0-0, y los minutos que faltaban se jugaron el 25 de abril."
+    },
+    {
+     "fecha": "1926-04-25",
+     "local": "excursionistas",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-25",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [],
+     "nota": "Empezó el 11 de abril; se suspendió a los 8 minutos, 0-0, y los minutos que faltaban se jugaron el 25 de abril."
+    },
+    {
+     "fecha": "1926-04-25",
+     "local": "argentino-del-sud",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-25",
+     "local": "atlanta",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-25",
+     "local": "sportivo-palermo",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1926-04-18",
+     "local": "san-lorenzo",
+     "visitante": "sportivo-palermo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-18",
+     "local": "barracas-central",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-18",
+     "local": "san-isidro",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-18",
+     "local": "velez-sarsfield",
+     "visitante": "almagro",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-18",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-18",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-18",
+     "local": "quilmes",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-18",
+     "local": "liberal-argentino",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-18",
+     "local": "sportivo-buenos-aires",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-18",
+     "local": "tigre",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-18",
+     "local": "river-plate",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-18",
+     "local": "racing-club",
+     "visitante": "argentino-del-sud",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-04-18",
+     "local": "platense",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1926-05-09",
+     "local": "atlanta",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-09",
+     "local": "sportivo-palermo",
+     "visitante": "barracas-central",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-09",
+     "local": "independiente",
+     "visitante": "san-isidro",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-09",
+     "local": "defensores-de-belgrano",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-09",
+     "local": "almagro",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-09",
+     "local": "lanus",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-09",
+     "local": "ferro-carril-oeste",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-09",
+     "local": "estudiantil-porteno",
+     "visitante": "liberal-argentino",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-09",
+     "local": "banfield",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-09",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "tigre",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-09",
+     "local": "excursionistas",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-09",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-09",
+     "local": "argentino-del-sud",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1926-05-02",
+     "local": "san-lorenzo",
+     "visitante": "argentino-del-sud",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-02",
+     "local": "san-isidro",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-02",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-02",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-02",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-02",
+     "local": "quilmes",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-02",
+     "local": "liberal-argentino",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-02",
+     "local": "sportivo-buenos-aires",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-02",
+     "local": "tigre",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-02",
+     "local": "river-plate",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-02",
+     "local": "racing-club",
+     "visitante": "excursionistas",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "nota": "Terminó a los 80 minutos."
+    },
+    {
+     "fecha": "1926-05-02",
+     "local": "platense",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-02",
+     "local": "barracas-central",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1926-05-23",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-lorenzo",
+     "gl": 2,
+     "gv": 6,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-23",
+     "local": "argentino-del-sud",
+     "visitante": "barracas-central",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-23",
+     "local": "sportivo-palermo",
+     "visitante": "velez-sarsfield",
+     "gl": 4,
+     "gv": 6,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-23",
+     "local": "independiente",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-23",
+     "local": "almagro",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-23",
+     "local": "ferro-carril-oeste",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-23",
+     "local": "estudiantil-porteno",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-23",
+     "local": "banfield",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-24",
+     "local": "excursionistas",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-24",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "racing-club",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1926-11-14",
+     "local": "atlanta",
+     "visitante": "san-isidro",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1926-12-26",
+     "local": "defensores-de-belgrano",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1926-12-26",
+     "local": "lanus",
+     "visitante": "liberal-argentino",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Liberal Argentino no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1926-05-16",
+     "local": "barracas-central",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-16",
+     "local": "san-isidro",
+     "visitante": "argentino-del-sud",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": [],
+     "nota": "Terminó a los 80 minutos."
+    },
+    {
+     "fecha": "1926-05-16",
+     "local": "velez-sarsfield",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-16",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-16",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-16",
+     "local": "quilmes",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-16",
+     "local": "liberal-argentino",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-16",
+     "local": "sportivo-buenos-aires",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-16",
+     "local": "tigre",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-16",
+     "local": "river-plate",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-16",
+     "local": "racing-club",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-16",
+     "local": "platense",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1926-11-28",
+     "local": "san-lorenzo",
+     "visitante": "excursionistas",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1926-06-06",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-06",
+     "local": "atlanta",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-06",
+     "local": "sportivo-palermo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-06",
+     "local": "independiente",
+     "visitante": "quilmes",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-06",
+     "local": "almagro",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-06",
+     "local": "lanus",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": [],
+     "nota": "Se suspendió a los 86 minutos, 2-0; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1926-06-06",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-17",
+     "local": "estudiantil-porteno",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-31",
+     "local": "excursionistas",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1926-11-14",
+     "local": "defensores-de-belgrano",
+     "visitante": "liberal-argentino",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1926-11-21",
+     "local": "banfield",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1927-01-23",
+     "local": "argentino-del-sud",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1927-01-23",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: San Isidro no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1926-05-30",
+     "local": "san-lorenzo",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-30",
+     "local": "barracas-central",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-30",
+     "local": "san-isidro",
+     "visitante": "excursionistas",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-30",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-30",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "argentino-del-sud",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-30",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-30",
+     "local": "quilmes",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-30",
+     "local": "liberal-argentino",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-30",
+     "local": "sportivo-buenos-aires",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-30",
+     "local": "river-plate",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-30",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-05-30",
+     "local": "platense",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1926-11-21",
+     "local": "tigre",
+     "visitante": "almagro",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1926-06-20",
+     "local": "estudiantil-porteno",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-20",
+     "local": "banfield",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-20",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "san-isidro",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-20",
+     "local": "excursionistas",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-20",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-20",
+     "local": "argentino-del-sud",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-20",
+     "local": "atlanta",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-20",
+     "local": "sportivo-palermo",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-20",
+     "local": "independiente",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "nota": "Se suspendió a los 85 minutos, 1-0; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1926-06-20",
+     "local": "defensores-de-belgrano",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-20",
+     "local": "almagro",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-20",
+     "local": "lanus",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-20",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1926-06-13",
+     "local": "san-lorenzo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-13",
+     "local": "barracas-central",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-13",
+     "local": "san-isidro",
+     "visitante": "banfield",
+     "gl": 7,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-13",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-13",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "excursionistas",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-13",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-13",
+     "local": "quilmes",
+     "visitante": "argentino-del-sud",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-13",
+     "local": "liberal-argentino",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-13",
+     "local": "sportivo-buenos-aires",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "nota": "Se suspendió a los 35 minutos, 1-2; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1926-06-13",
+     "local": "tigre",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-13",
+     "local": "river-plate",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-13",
+     "local": "racing-club",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-13",
+     "local": "platense",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1926-07-04",
+     "local": "almagro",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-04",
+     "local": "independiente",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-04",
+     "local": "lanus",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-04",
+     "local": "defensores-de-belgrano",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-04",
+     "local": "sportivo-palermo",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-04",
+     "local": "banfield",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-04",
+     "local": "ferro-carril-oeste",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-04",
+     "local": "estudiantil-porteno",
+     "visitante": "san-isidro",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-04",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-04",
+     "local": "excursionistas",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-04",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-04",
+     "local": "argentino-del-sud",
+     "visitante": "liberal-argentino",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-04",
+     "local": "atlanta",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1926-06-27",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-27",
+     "local": "platense",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-27",
+     "local": "racing-club",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-27",
+     "local": "river-plate",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-27",
+     "local": "estudiantil-porteno",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-27",
+     "local": "ferro-carril-oeste",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-27",
+     "local": "tigre",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-27",
+     "local": "excursionistas",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-27",
+     "local": "sportivo-buenos-aires",
+     "visitante": "argentino-del-sud",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-27",
+     "local": "barracas-central",
+     "visitante": "san-isidro",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-27",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1926-06-27",
+     "local": "banfield",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-12-19",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1926-07-11",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-11",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-11",
+     "local": "liberal-argentino",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-11",
+     "local": "barracas-central",
+     "visitante": "lanus",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-11",
+     "local": "atlanta",
+     "visitante": "excursionistas",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Atlanta no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1926-10-31",
+     "local": "sportivo-palermo",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-31",
+     "local": "almagro",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-31",
+     "local": "quilmes",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-31",
+     "local": "independiente",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-31",
+     "local": "san-isidro",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-11-28",
+     "local": "defensores-de-belgrano",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1926-12-08",
+     "local": "argentino-del-sud",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1926-12-08",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: River Plate no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1926-07-18",
+     "local": "estudiantil-porteno",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-18",
+     "local": "platense",
+     "visitante": "san-isidro",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-18",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-18",
+     "local": "san-lorenzo",
+     "visitante": "barracas-central",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-18",
+     "local": "river-plate",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-18",
+     "local": "tigre",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-18",
+     "local": "lanus",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-18",
+     "local": "ferro-carril-oeste",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-18",
+     "local": "sportivo-buenos-aires",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-18",
+     "local": "banfield",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-18",
+     "local": "excursionistas",
+     "visitante": "argentino-del-sud",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-18",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-18",
+     "local": "liberal-argentino",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1926-07-25",
+     "local": "san-lorenzo",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-25",
+     "local": "san-isidro",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-25",
+     "local": "velez-sarsfield",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-25",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": [],
+     "para_local": [
+      1,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      1,
+      "D"
+     ],
+     "nota": "Se suspendió a los 20 minutos, 1-0, y no se terminó: los puntos fueron para Talleres (con los goles del partido en la tabla)."
+    },
+    {
+     "fecha": "1926-07-25",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-25",
+     "local": "atlanta",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "nota": "Se suspendió a los 45 minutos, 0-0, y no se terminó: los puntos fueron para Banfield (con los goles del partido en la tabla)."
+    },
+    {
+     "fecha": "1926-07-25",
+     "local": "sportivo-palermo",
+     "visitante": "estudiantil-porteno",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": [],
+     "nota": "Terminó a los 75 minutos."
+    },
+    {
+     "fecha": "1926-07-25",
+     "local": "independiente",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1926-07-25",
+     "local": "defensores-de-belgrano",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1926-11-21",
+     "local": "quilmes",
+     "visitante": "liberal-argentino",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-12-12",
+     "local": "argentino-del-sud",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1926-12-19",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1927-01-02",
+     "local": "barracas-central",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "nota": "Se suspendió a los 35 minutos, 1-1, el 25 de julio. El 2 de enero de 1927, cuando se iban a jugar los minutos que faltaban, Platense no se presentó y perdió el partido.",
+     "estadio": "Cancha de Barracas Central"
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1926-08-01",
+     "local": "almagro",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-01",
+     "local": "lanus",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-01",
+     "local": "ferro-carril-oeste",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-01",
+     "local": "estudiantil-porteno",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-01",
+     "local": "banfield",
+     "visitante": "argentino-del-sud",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-01",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-01",
+     "local": "quilmes",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-01",
+     "local": "sportivo-buenos-aires",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-01",
+     "local": "tigre",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-01",
+     "local": "river-plate",
+     "visitante": "san-isidro",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-01",
+     "local": "racing-club",
+     "visitante": "barracas-central",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-01",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-01",
+     "local": "liberal-argentino",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": [],
+     "nota": "Se suspendió a los 85 minutos, 0-1; no se terminó y quedó ese resultado."
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1926-08-08",
+     "local": "independiente",
+     "visitante": "almagro",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-08",
+     "local": "san-lorenzo",
+     "visitante": "racing-club",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-08",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-08",
+     "local": "velez-sarsfield",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-08",
+     "local": "san-isidro",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-08",
+     "local": "platense",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-08",
+     "local": "atlanta",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-08",
+     "local": "excursionistas",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-08",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-08",
+     "local": "barracas-central",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-08",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-08",
+     "local": "argentino-del-sud",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1926-11-28",
+     "local": "sportivo-palermo",
+     "visitante": "lanus",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1926-08-22",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-22",
+     "local": "defensores-de-belgrano",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-22",
+     "local": "river-plate",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-22",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-22",
+     "local": "almagro",
+     "visitante": "sportivo-palermo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-22",
+     "local": "liberal-argentino",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-22",
+     "local": "quilmes",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-22",
+     "local": "lanus",
+     "visitante": "atlanta",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-22",
+     "local": "tigre",
+     "visitante": "barracas-central",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-22",
+     "local": "estudiantil-porteno",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1926-08-22",
+     "local": "ferro-carril-oeste",
+     "visitante": "argentino-del-sud",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-24",
+     "local": "sportivo-buenos-aires",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1926-11-14",
+     "local": "banfield",
+     "visitante": "excursionistas",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1926-09-12",
+     "local": "racing-club",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-12",
+     "local": "san-lorenzo",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-12",
+     "local": "argentino-del-sud",
+     "visitante": "lanus",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-12",
+     "local": "barracas-central",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-12",
+     "local": "san-isidro",
+     "visitante": "liberal-argentino",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-12",
+     "local": "velez-sarsfield",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-12",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-12",
+     "local": "excursionistas",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1926-11-28",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Colegiales",
+     "goles": []
+    },
+    {
+     "fecha": "1926-12-08",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1926-12-19",
+     "local": "atlanta",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1926-12-19",
+     "local": "sportivo-palermo",
+     "visitante": "defensores-de-belgrano",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1926-09-05",
+     "local": "independiente",
+     "visitante": "sportivo-palermo",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": [],
+     "nota": "Se suspendió a los 84 minutos, 3-2; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1926-09-05",
+     "local": "sportivo-buenos-aires",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-05",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-05",
+     "local": "tigre",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-05",
+     "local": "quilmes",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-05",
+     "local": "almagro",
+     "visitante": "argentino-del-sud",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-05",
+     "local": "liberal-argentino",
+     "visitante": "barracas-central",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-05",
+     "local": "ferro-carril-oeste",
+     "visitante": "excursionistas",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-05",
+     "local": "defensores-de-belgrano",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-05",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-05",
+     "local": "estudiantil-porteno",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Estudiantes no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1926-10-31",
+     "local": "lanus",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1926-12-12",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "nota": "Se suspendió a los 44 minutos, 0-2; no se terminó y quedó ese resultado."
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1926-09-26",
+     "local": "river-plate",
+     "visitante": "sportivo-palermo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-26",
+     "local": "san-lorenzo",
+     "visitante": "liberal-argentino",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-26",
+     "local": "platense",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-26",
+     "local": "barracas-central",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Central",
+     "goles": [],
+     "nota": "Se suspendió a los 65 minutos, 2-1; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1926-09-26",
+     "local": "argentino-del-sud",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-26",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-26",
+     "local": "excursionistas",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Excursionistas",
+     "goles": []
+    },
+    {
+     "fecha": "1926-09-26",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-31",
+     "local": "velez-sarsfield",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-12-19",
+     "local": "racing-club",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": [],
+     "nota": "Se suspendió a los 65 minutos, 4-2; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1926-12-26",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": [],
+     "nota": "Empezó el 12 de diciembre; se suspendió a los 66 minutos, 0-1, y los minutos que faltaban se jugaron el 26 de diciembre."
+    },
+    {
+     "fecha": "1926-12-26",
+     "local": "san-isidro",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: San Isidro no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1926-12-26",
+     "local": "banfield",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Estudiantil Porteño no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1926-09-26",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-17",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-17",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "barracas-central",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-17",
+     "local": "quilmes",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-17",
+     "local": "liberal-argentino",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-17",
+     "local": "tigre",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-17",
+     "local": "sportivo-palermo",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-17",
+     "local": "defensores-de-belgrano",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-17",
+     "local": "almagro",
+     "visitante": "excursionistas",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-17",
+     "local": "lanus",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Ciudad de Lanús",
+     "goles": []
+    },
+    {
+     "fecha": "1926-12-05",
+     "local": "independiente",
+     "visitante": "argentino-del-sud",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1926-12-12",
+     "local": "sportivo-buenos-aires",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Sportivo Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1926-12-12",
+     "local": "ferro-carril-oeste",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1926-10-24",
+     "local": "tigre",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-24",
+     "local": "barracas-central",
+     "visitante": "talleres-remedios-de-escalada",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Central",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-24",
+     "local": "san-lorenzo",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-24",
+     "local": "banfield",
+     "visitante": "lanus",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-24",
+     "local": "argentino-del-sud",
+     "visitante": "sportivo-palermo",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-24",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-24",
+     "local": "estudiantil-porteno",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [],
+     "nota": "Se suspendió a los 51 minutos, 1-0; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1926-10-24",
+     "local": "platense",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Quilmes no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1926-11-21",
+     "local": "san-isidro",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1926-12-08",
+     "local": "racing-club",
+     "visitante": "liberal-argentino",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-12-08",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "almagro",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1926-12-08",
+     "local": "river-plate",
+     "visitante": "sportivo-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: River Plate no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1927-01-16",
+     "local": "excursionistas",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Excursionistas",
+     "goles": [
+      {
+       "jugador": "Thilet",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Quilindro",
+       "equipo": "visitante"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1926-10-31",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-31",
+     "local": "liberal-argentino",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Liberal Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-31",
+     "local": "atlanta",
+     "visitante": "argentino-del-sud",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1926-10-31",
+     "local": "sportivo-buenos-aires",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Tigre no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1926-10-31",
+     "local": "almagro",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Banfield no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1926-10-31",
+     "local": "san-isidro",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: San Isidro no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1926-11-14",
+     "local": "sportivo-palermo",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Palermo",
+     "goles": []
+    },
+    {
+     "fecha": "1926-11-14",
+     "local": "quilmes",
+     "visitante": "racing-club",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1926-11-14",
+     "local": "talleres-remedios-de-escalada",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Talleres de Remedios de Escalada",
+     "goles": []
+    },
+    {
+     "fecha": "1926-11-14",
+     "local": "velez-sarsfield",
+     "visitante": "barracas-central",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1926-11-21",
+     "local": "independiente",
+     "visitante": "excursionistas",
+     "gl": 6,
+     "gv": 3,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1926-11-21",
+     "local": "defensores-de-belgrano",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Estudiantes no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1926-11-21",
+     "local": "lanus",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Estudiantil Porteño no se presentó y perdió el partido."
+    }
+   ]
+  }
+ ]
+}

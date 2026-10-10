@@ -33,6 +33,49 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1926: de 1919 a 1926 hubo dos ligas, la Asociación Argentina de Football (la oficial) y la Asociación Amateurs
+    # Argentina de Football, y la AFA reconoce a los campeones de las dos; las dos eran amateurs. La de la Asociación
+    # Argentina (abril de 1926 a enero de 1927; campeón Boca): 18 equipos a una rueda, con 2 puntos por partido ganado; en
+    # la fecha 5 se fueron seis equipos a la otra asociación y sus partidos se anularon (las fechas son las del torneo
+    # original: quedan 29, algunas con pocos partidos, y los no jugados de la última van repartidos en tres: 31). A General San Martín le descontaron 2 puntos y un partido suyo se
+    # lo dieron ganado a Sportsman. Un Argentinos-Alvear suspendido en el entretiempo, 1-0, no se terminó porque Alvear no
+    # se presentó: en la tabla de RSSSF cuenta el 1-0 ("para_local"); otro, el Barracas Central-Platense de la Amateurs,
+    # cuenta sin goles. Sin descensos: en 1927 las dos ligas se unieron y once clubes de la Asociación Argentina pasaron a
+    # la segunda división. ESPN no los tiene: van a mano (tools/a_mano; RSSSF, con los goles de algunos partidos)
+    "1926-aaf": {"nombre": "Campeonato de Primera División 1926 (amateur, Asociación Argentina de Football)", "anio": 1926,
+                 "liga": "a_mano", "slug": "1926-aaf", "zonas": "unica", "fechas": 31, "pasan": 0, "puntos_victoria": 2,
+                 "campeon_tabla": True,
+                 "descuentos": {"general-san-martin": 2},
+                 "descuentos_texto": "A General San Martín se le descontaron 2 puntos.",
+                 "orden_texto": "Campeonato amateur, de la Asociación Argentina de Football: de 1919 a 1926 hubo dos ligas, "
+                                "esta y la de la Asociación Amateurs, y la AFA reconoce a los campeones de las dos. En la "
+                                "fecha 5 se fueron a la otra asociación All Boys, Colegiales, El Porvenir, Nueva Chicago, "
+                                "Sportivo Barracas y Temperley, y sus partidos se anularon. Orden: puntos y, con los mismos "
+                                "puntos, la diferencia de gol (que coincide con el orden de RSSSF). Argentino de Lomas se "
+                                "llamaba Argentino de Banfield; Dock Sud, Sportivo Dock Sud.",
+                 "anual_texto": "La tabla del Campeonato de Primera División 1926 de la Asociación Argentina (amateur). Cada "
+                                "partido ganado valía 2 puntos.",
+                 "goleadores_nota": "Los goles son solo de algunos partidos (de RSSSF, sin minutos). Según RSSSF, el goleador "
+                                    "del torneo fue Roberto Cherro (Boca), con 19 goles.",
+                 "sin_descensos": "No hubo descensos: en 1927 las dos asociaciones se unieron, y Alvear, Argentino de "
+                                  "Banfield, Boca Alumni, Del Plata, General San Martín, Palermo, Progresista, Sportivo "
+                                  "Balcarce, Sportivo Dock Sud, Sportsman y Universal pasaron a la segunda división."},
+    # La de la Asociación Amateurs (abril a diciembre de 1926; campeón Independiente, invicto): 26 equipos a una rueda (25
+    # fechas), con 2 puntos por partido ganado. Dos suspendidos se los dieron ganados a uno, con los goles del partido en
+    # la tabla; al final, varios equipos no se presentaron (sin goles)
+    "1926-amateurs": {"nombre": "Campeonato de Primera División 1926 (amateur, Asociación Amateurs)", "anio": 1926,
+                      "liga": "a_mano", "slug": "1926-amateurs", "zonas": "unica", "fechas": 25, "pasan": 0,
+                      "puntos_victoria": 2, "campeon_tabla": True,
+                      "orden_texto": "Campeonato amateur, de la Asociación Amateurs Argentina de Football: de 1919 a 1926 hubo "
+                                     "dos ligas, esta y la de la Asociación Argentina, y la AFA reconoce a los campeones de las "
+                                     "dos. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide con el "
+                                     "orden de RSSSF). Almagro se llamaba Sportivo Almagro.",
+                      "anual_texto": "La tabla del Campeonato de Primera División 1926 de la Asociación Amateurs. Cada "
+                                     "partido ganado valía 2 puntos.",
+                      "goleadores_nota": "Los goles son solo de algunos partidos (de RSSSF, sin minutos). Según RSSSF, el "
+                                         "goleador del torneo fue Manuel Seoane (Independiente), con 30 goles.",
+                      "sin_descensos": "No hubo descensos: en 1927 las dos asociaciones se unieron y todos estos equipos "
+                                       "siguieron en Primera."},
     # 1927: el campeonato de la Asociación Amateurs Argentina de Football (marzo de 1927 a febrero de 1928; campeón San
     # Lorenzo), el primero después de la unificación de las dos ligas de 1926: 34 equipos a una rueda (33 fechas), con 2
     # puntos por partido ganado. El Banfield 1-2 Talleres se lo dieron ganado a Banfield y a Talleres le descontaron 2
@@ -4855,6 +4898,13 @@ CLUBES_NUEVOS = {
     "hyp": ("honor-y-patria", "Honor y Patria"),
     "ads": ("argentino-del-sud", "Argentino del Sud"),   # (no están en ESPN: 1930; escudo genérico el de Argentino del Sud)
     "pto": ("porteno", "Porteño"),   # (no está en ESPN: 1928)
+    "sbc": ("sportivo-balcarce", "Sportivo Balcarce"),
+    "spm": ("sportsman", "Sportsman"),
+    "bal": ("boca-alumni", "Boca Alumni"),
+    "alv": ("alvear", "Alvear"),
+    "unv": ("universal", "Universal"),
+    "dpl": ("del-plata", "Del Plata"),
+    "prg": ("progresista", "Progresista"),   # (no están en ESPN: 1926; escudos genéricos los de Boca Alumni, Universal y Del Plata)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),
