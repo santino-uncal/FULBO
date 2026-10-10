@@ -1,0 +1,227 @@
+{
+ "nombre": "Campeonato de Primera División 1919 (amateur, Asociación Argentina de Football)",
+ "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi, de El Diario, La Argentina, La Nación, La Prensa y La Vanguardia), sin goles. Es el campeonato que se volvió a empezar en septiembre, con los seis equipos que quedaban: el que había empezado en marzo, con 19, se anuló cuando la asociación desafilió y expulsó a los demás. No se jugaron 12 partidos; el 20 de enero de 1920 la asociación lo dio por terminado. Sin la fecha 9, en la que no se jugó nada. RSSSF no trae las canchas: va la del local, salvo las que dice. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1919-09-28",
+     "local": "boca-juniors",
+     "visitante": "porteno",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1919-09-28",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "huracan",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1919-09-28",
+     "local": "almagro",
+     "visitante": "eureka",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1919-10-05",
+     "local": "eureka",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Lanús",
+     "goles": [],
+     "nota": "Se suspendió a los 89 minutos; el 20 de enero de 1920 quedó ese resultado."
+    },
+    {
+     "fecha": "1919-10-05",
+     "local": "huracan",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-05",
+     "local": "porteno",
+     "visitante": "almagro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1919-10-26",
+     "local": "boca-juniors",
+     "visitante": "eureka",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-26",
+     "local": "huracan",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-26",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "almagro",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1919-11-23",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1919-11-30",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "porteno",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "Estudiantes no lo jugó por los puntos y perdió el partido (se jugó como amistoso: 0-0)."
+    },
+    {
+     "fecha": "1920-01-04",
+     "local": "boca-juniors",
+     "visitante": "almagro",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": [],
+     "nota": "Se suspendió a los 80 minutos; el 16 de enero de 1920 quedó ese resultado."
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1919-12-14",
+     "local": "porteno",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1920-01-04",
+     "local": "huracan",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Huracán",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1919-11-16",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "eureka",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1919-12-21",
+     "local": "boca-juniors",
+     "visitante": "huracan",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Cancha de Boca Juniors",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1919-11-30",
+     "local": "eureka",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Huracán",
+     "goles": [],
+     "nota": "Se suspendió en el entretiempo; el 20 de enero de 1920 quedó ese resultado."
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1919-12-21",
+     "local": "porteno",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,973 @@
+{
+ "nombre": "Campeonato de Primera División 1919 (amateur, Asociación Amateurs)",
+ "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi, de El Diario, La Argentina, La Nación, La Prensa y La Vanguardia), sin goles salvo los del Racing-Tigre del título. RSSSF no trae las canchas: va la del local, salvo las que dice. Los partidos suspendidos y anulados que se volvieron a jugar van una sola vez, con el resultado que contó. Dos partidos que RSSSF pone en fechas donde el mismo equipo ya jugaba van en fechas aparte (quedan 15). La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1919-09-28",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1919-09-28",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1919-09-28",
+     "local": "estudiantil-porteno",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1919-09-28",
+     "local": "racing-club",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1919-09-28",
+     "local": "san-isidro",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1919-09-28",
+     "local": "sportivo-barracas",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1919-12-21",
+     "local": "velez-sarsfield",
+     "visitante": "platense",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1919-10-05",
+     "local": "defensores-de-belgrano",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-05",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-05",
+     "local": "independiente",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-05",
+     "local": "river-plate",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-05",
+     "local": "san-lorenzo",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-05",
+     "local": "tigre",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1920-01-03",
+     "local": "velez-sarsfield",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportivo Barracas no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1919-10-12",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-12",
+     "local": "platense",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-12",
+     "local": "racing-club",
+     "visitante": "sportivo-barracas",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-12",
+     "local": "river-plate",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-12",
+     "local": "san-isidro",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-12",
+     "local": "san-lorenzo",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-12",
+     "local": "velez-sarsfield",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1919-10-19",
+     "local": "atlanta",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-19",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-19",
+     "local": "defensores-de-belgrano",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-19",
+     "local": "estudiantil-porteno",
+     "visitante": "san-lorenzo",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-19",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-19",
+     "local": "independiente",
+     "visitante": "san-isidro",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-19",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1919-10-26",
+     "local": "estudiantil-porteno",
+     "visitante": "defensores-de-belgrano",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-26",
+     "local": "platense",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-26",
+     "local": "racing-club",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-26",
+     "local": "river-plate",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "nota": "El primer partido (1-1) se anuló; se volvió a jugar el 7 de diciembre en la cancha de River, con Tigre de local."
+    },
+    {
+     "fecha": "1919-10-26",
+     "local": "san-isidro",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1919-10-26",
+     "local": "sportivo-barracas",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1919-11-23",
+     "local": "san-lorenzo",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "El Gasómetro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1919-11-01",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1919-11-02",
+     "local": "defensores-de-belgrano",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1919-11-02",
+     "local": "estudiantil-porteno",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1919-11-02",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1919-11-02",
+     "local": "san-lorenzo",
+     "visitante": "river-plate",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1919-11-02",
+     "local": "sportivo-barracas",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1919-11-02",
+     "local": "velez-sarsfield",
+     "visitante": "tigre",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1919-11-09",
+     "local": "atlanta",
+     "visitante": "defensores-de-belgrano",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "nota": "Terminó a los 84 minutos; el 22 de noviembre quedó ese resultado."
+    },
+    {
+     "fecha": "1919-11-09",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-lorenzo",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1919-11-09",
+     "local": "independiente",
+     "visitante": "estudiantil-porteno",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1919-11-09",
+     "local": "platense",
+     "visitante": "sportivo-barracas",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1919-11-09",
+     "local": "tigre",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1919-11-09",
+     "local": "river-plate",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1919-11-23",
+     "local": "racing-club",
+     "visitante": "san-isidro",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1919-11-11",
+     "local": "atlanta",
+     "visitante": "velez-sarsfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "nota": "Se suspendió a los 66 minutos; los 24 que faltaban se iban a jugar el 6 de enero, pero Vélez no se presentó y quedó ese resultado."
+    },
+    {
+     "fecha": "1919-11-11",
+     "local": "defensores-de-belgrano",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": [],
+     "nota": "Se suspendió en el entretiempo; el segundo tiempo se iba a jugar el 4 de enero, pero San Lorenzo no se presentó y quedó ese resultado."
+    },
+    {
+     "fecha": "1919-11-11",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "san-isidro",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1919-11-11",
+     "local": "river-plate",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Independiente",
+     "goles": [],
+     "nota": "El primer partido se suspendió a los 54 minutos, 0-0, y se anuló; se volvió a jugar el 11 de noviembre en la cancha de Independiente."
+    },
+    {
+     "fecha": "1919-11-11",
+     "local": "sportivo-barracas",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [],
+     "nota": "El primer partido se suspendió en el entretiempo, 0-0, y se anuló; se volvió a jugar el 14 de diciembre en la cancha de Estudiantil Porteño."
+    },
+    {
+     "fecha": "1919-11-11",
+     "local": "tigre",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1919-12-13",
+     "local": "racing-club",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 10,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1919-11-16",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "defensores-de-belgrano",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Estudiantes no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1919-11-16",
+     "local": "estudiantil-porteno",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1919-11-16",
+     "local": "san-isidro",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a River el 29 de diciembre."
+    },
+    {
+     "fecha": "1919-11-16",
+     "local": "san-lorenzo",
+     "visitante": "sportivo-barracas",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1919-11-16",
+     "local": "tigre",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1919-11-16",
+     "local": "velez-sarsfield",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Vélez Sarsfield",
+     "goles": []
+    },
+    {
+     "fecha": "1919-12-07",
+     "local": "independiente",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1919-11-23",
+     "local": "sportivo-barracas",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": []
+    },
+    {
+     "fecha": "1919-12-07",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "estudiantil-porteno",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1919-12-07",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1919-12-07",
+     "local": "platense",
+     "visitante": "san-lorenzo",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1919-12-07",
+     "local": "san-isidro",
+     "visitante": "velez-sarsfield",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1919-12-14",
+     "local": "racing-club",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": [
+      {
+       "jugador": "Marcovecchio",
+       "equipo": "local",
+       "min": 7
+      },
+      {
+       "jugador": "Marcovecchio",
+       "equipo": "local",
+       "min": 55
+      },
+      {
+       "jugador": "Dattas",
+       "equipo": "visitante",
+       "min": 40
+      }
+     ],
+     "nota": "Con este triunfo, Racing salió campeón."
+    },
+    {
+     "fecha": "1919-12-21",
+     "local": "defensores-de-belgrano",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1919-11-30",
+     "local": "atlanta",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [],
+     "nota": "Se suspendió a los 41 minutos; los 49 que faltaban se iban a jugar el 4 de enero, pero Atlanta no se presentó y quedó ese resultado."
+    },
+    {
+     "fecha": "1919-11-30",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1919-11-30",
+     "local": "platense",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "nota": "Se suspendió a los 20 minutos; los 70 que faltaban se iban a jugar el 14 de diciembre en San Isidro, pero San Isidro no se presentó y perdió el partido (en la tabla, como en la de RSSSF, sin el gol)."
+    },
+    {
+     "fecha": "1919-11-30",
+     "local": "river-plate",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": [],
+     "nota": "El primer partido se suspendió en el entretiempo, 1-1, y se anuló; se volvió a jugar el 30 de noviembre en la cancha de Gimnasia."
+    },
+    {
+     "fecha": "1919-11-30",
+     "local": "san-lorenzo",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "El Gasómetro",
+     "goles": [],
+     "nota": "Se suspendió a los 50 minutos; el 7 de enero quedó ese resultado."
+    },
+    {
+     "fecha": "1919-11-30",
+     "local": "sportivo-barracas",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [],
+     "nota": "El primer partido se suspendió en el entretiempo, 0-0, y se anuló; se volvió a jugar el 7 de diciembre, se suspendió a los 75 minutos, 1-2, y los 15 que faltaban se jugaron el 6 de enero."
+    },
+    {
+     "fecha": "1919-11-30",
+     "local": "velez-sarsfield",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [],
+     "nota": "El primer partido se suspendió en el entretiempo, 0-0, y se anuló; se volvió a jugar el 30 de noviembre en la cancha de Estudiantil Porteño."
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1919-11-23",
+     "local": "platense",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 8,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1919-12-08",
+     "local": "estudiantil-porteno",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1919-12-14",
+     "local": "independiente",
+     "visitante": "gimnasia-y-esgrima",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1919-12-14",
+     "local": "river-plate",
+     "visitante": "defensores-de-belgrano",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1919-12-14",
+     "local": "san-lorenzo",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "El Gasómetro",
+     "goles": []
+    },
+    {
+     "fecha": "1919-12-21",
+     "local": "atlanta",
+     "visitante": "san-isidro",
+     "gl": 8,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1919-12-21",
+     "local": "sportivo-barracas",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Sportivo Barracas",
+     "goles": [],
+     "nota": "Terminó a los 75 minutos."
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1919-11-23",
+     "local": "atlanta",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1919-11-23",
+     "local": "defensores-de-belgrano",
+     "visitante": "velez-sarsfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Defensores de Belgrano",
+     "goles": []
+    },
+    {
+     "fecha": "1919-11-23",
+     "local": "gimnasia-y-esgrima",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Juan Carmelo Zerillo",
+     "goles": []
+    },
+    {
+     "fecha": "1919-12-21",
+     "local": "racing-club",
+     "visitante": "san-lorenzo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1919-12-28",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1919-12-28",
+     "local": "san-isidro",
+     "visitante": "sportivo-barracas",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1919-12-28",
+     "local": "independiente",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

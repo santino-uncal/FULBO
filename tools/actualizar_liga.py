@@ -33,6 +33,42 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1919: el primer año con dos ligas (hasta 1926), amateurs las dos; la AFA reconoce a los dos campeones. En la
+    # Asociación Argentina, el campeonato que empezó en marzo con 19 equipos se anuló en septiembre, cuando la asociación
+    # desafilió a seis clubes y expulsó a otros siete (formaron la Asociación Amateurs); se volvió a empezar con los seis
+    # que quedaban, a dos ruedas, y en enero de 1920 se dio por terminado con 12 partidos sin jugar (campeón Boca, que
+    # ganó los 8 que jugó). Es el que va acá (cargado a mano, de RSSSF, en tools/a_mano)
+    "1919-aaf": {"nombre": "Campeonato de Primera División 1919 (amateur, Asociación Argentina de Football)", "anio": 1919,
+                 "liga": "a_mano", "slug": "1919-aaf", "zonas": "unica", "fechas": 9, "pasan": 0, "puntos_victoria": 2,
+                 "campeon_tabla": True,
+                 "orden_texto": "Campeonato amateur, de la Asociación Argentina de Football: de 1919 a 1926 hubo dos ligas, "
+                                "esta y la de la Asociación Amateurs, y la AFA reconoce a los campeones de las dos. Es el "
+                                "campeonato que se volvió a empezar en septiembre con los seis equipos que quedaban: el que "
+                                "había empezado en marzo, con 19, se anuló cuando la asociación desafilió y expulsó a los "
+                                "demás, que formaron la Asociación Amateurs. Era a dos ruedas, pero en enero de 1920 se dio "
+                                "por terminado con 12 partidos sin jugar. Orden: puntos y, con los mismos puntos, la "
+                                "diferencia de gol (RSSSF usa el cociente de goles; el orden es el mismo). Almagro se llamaba "
+                                "Sportivo de Almagro.",
+                 "anual_texto": "La tabla del Campeonato de Primera División 1919 de la Asociación Argentina (amateur). Cada "
+                                "partido ganado valía 2 puntos.",
+                 "goleadores_nota": "RSSSF no trae los goles de este torneo.",
+                 "sin_descensos": "No hubo descensos."},
+    # La de la Asociación Amateurs, la que formaron los clubes que se fueron de la Asociación Argentina (septiembre de
+    # 1919 a enero de 1920; campeón Racing, que ganó los 13 partidos): 14 equipos a una rueda, con 2 puntos por partido
+    # ganado. Un Platense-San Isidro suspendido, que San Isidro no se presentó a terminar, cuenta sin goles, como en la
+    # tabla de RSSSF
+    "1919-amateurs": {"nombre": "Campeonato de Primera División 1919 (amateur, Asociación Amateurs)", "anio": 1919,
+                      "liga": "a_mano", "slug": "1919-amateurs", "zonas": "unica", "fechas": 15, "pasan": 0,
+                      "puntos_victoria": 2, "campeon_tabla": True,
+                      "orden_texto": "Campeonato amateur, de la Asociación Amateurs de Football, la que formaron en 1919 los "
+                                     "clubes que se fueron de la Asociación Argentina: de 1919 a 1926 hubo dos ligas, y la AFA "
+                                     "reconoce a los campeones de las dos. Orden: puntos y, con los mismos puntos, la "
+                                     "diferencia de gol (RSSSF usa el cociente de goles; el orden es el mismo).",
+                      "anual_texto": "La tabla del Campeonato de Primera División 1919 de la Asociación Amateurs. Cada "
+                                     "partido ganado valía 2 puntos.",
+                      "goleadores_nota": "Los goles son solo del Racing 2-1 Tigre, el partido en el que Racing salió campeón "
+                                         "(de RSSSF, con los minutos). RSSSF no dice quién fue el goleador del torneo.",
+                      "sin_descensos": "No hubo descensos."},
     # 1920: las dos ligas, amateurs las dos (la AFA reconoce a los dos campeones). A mitad de año Lanús y Sportivo Almagro
     # se pasaron de la Asociación Argentina a la Amateurs, y los dos fixtures se rehicieron: RSSSF sigue el original en la
     # primera rueda y, en la segunda, cada día de partidos es una fecha. La de la Asociación Amateurs (marzo de 1920 a
@@ -5187,6 +5223,7 @@ CLUBES_NUEVOS = {
     "unv": ("universal", "Universal"),
     "dpl": ("del-plata", "Del Plata"),
     "prg": ("progresista", "Progresista"),   # (no están en ESPN: 1926; escudos genéricos los de Boca Alumni, Universal y Del Plata)
+    "eur": ("eureka", "Eureka"),   # (no está en ESPN: 1919; escudo genérico)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),
