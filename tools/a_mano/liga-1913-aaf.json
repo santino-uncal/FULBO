@@ -1,0 +1,1589 @@
+{
+ "nombre": "Campeonato de Primera División 1913 (amateur, Asociación Argentina de Football)",
+ "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi, de La Nación, La Prensa, La Gaceta de Buenos Aires, La Mañana y La Vanguardia). RSSSF no numera las fechas: cada día de partidos es una fecha. RSSSF no trae todas las canchas: va la del local, salvo las que dice. Sin goles, salvo los de la final. Era a dos ruedas, pero en octubre se reorganizó: los equipos siguieron con sus puntos y jugaron la vuelta solo con los de su grupo (A, B y C). Un Comercio-Banfield de la segunda rueda que se jugó antes se anuló. Las tablas de los grupos que salen de los partidos son iguales a las de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1913-04-13",
+     "local": "belgrano-athletic",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1913-04-13",
+     "local": "estudiantil-porteno",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1913-04-13",
+     "local": "ferro-carril-oeste",
+     "visitante": "riachuelo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1913-04-13",
+     "local": "ferrocarril-sud",
+     "visitante": "comercio",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Ferrocarril Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1913-04-13",
+     "local": "san-isidro",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1913-04-13",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1913-04-13",
+     "local": "racing-club",
+     "visitante": "banfield",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1913-04-20",
+     "local": "belgrano-athletic",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1913-04-20",
+     "local": "banfield",
+     "visitante": "comercio",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1913-04-20",
+     "local": "estudiantil-porteno",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [],
+     "nota": "Se suspendió a los 60 minutos, 2-0; los minutos que faltaban se iban a jugar el 28 de septiembre, pero Ferro no se presentó y quedó ese resultado."
+    },
+    {
+     "fecha": "1913-04-20",
+     "local": "platense",
+     "visitante": "riachuelo",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Platense",
+     "goles": [],
+     "nota": "La Prensa dio 11-0."
+    },
+    {
+     "fecha": "1913-04-20",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1913-04-20",
+     "local": "quilmes",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1913-04-20",
+     "local": "racing-club",
+     "visitante": "olivos",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1913-04-27",
+     "local": "belgrano-athletic",
+     "visitante": "olivos",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1913-04-27",
+     "local": "banfield",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1913-04-27",
+     "local": "ferro-carril-oeste",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1913-04-27",
+     "local": "ferrocarril-sud",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Ferrocarril Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1913-04-27",
+     "local": "riachuelo",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Riachuelo",
+     "goles": []
+    },
+    {
+     "fecha": "1913-04-27",
+     "local": "quilmes",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1913-05-01",
+     "local": "belgrano-athletic",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-01",
+     "local": "ferro-carril-oeste",
+     "visitante": "ferrocarril-sud",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-01",
+     "local": "platense",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-01",
+     "local": "san-isidro",
+     "visitante": "boca-juniors",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-01",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "estudiantil-porteno",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-01",
+     "local": "quilmes",
+     "visitante": "comercio",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1913-05-11",
+     "local": "belgrano-athletic",
+     "visitante": "ferrocarril-sud",
+     "gl": 9,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-11",
+     "local": "boca-juniors",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-11",
+     "local": "estudiantil-porteno",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-11",
+     "local": "ferro-carril-oeste",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 6,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-11",
+     "local": "olivos",
+     "visitante": "comercio",
+     "gl": 1,
+     "gv": 6,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-11",
+     "local": "platense",
+     "visitante": "quilmes",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-11",
+     "local": "riachuelo",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Riachuelo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1913-05-18",
+     "local": "estudiantil-porteno",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-18",
+     "local": "ferrocarril-sud",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Ferrocarril Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-18",
+     "local": "olivos",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación se lo dio a Boca el 21 de mayo."
+    },
+    {
+     "fecha": "1913-05-18",
+     "local": "san-isidro",
+     "visitante": "belgrano-athletic",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-18",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "platense",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-18",
+     "local": "comercio",
+     "visitante": "ferro-carril-oeste",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Comercio",
+     "goles": [],
+     "nota": "Se suspendió a los 78 minutos, 3-2; los 12 que faltaban se jugaron el 21 de septiembre."
+    },
+    {
+     "fecha": "1913-05-18",
+     "local": "quilmes",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1913-05-25",
+     "local": "boca-juniors",
+     "visitante": "belgrano-athletic",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-25",
+     "local": "ferrocarril-sud",
+     "visitante": "riachuelo",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Ferrocarril Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-25",
+     "local": "olivos",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Olivos",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-25",
+     "local": "san-isidro",
+     "visitante": "banfield",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-25",
+     "local": "comercio",
+     "visitante": "river-plate",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Comercio",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-25",
+     "local": "racing-club",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1913-06-01",
+     "local": "ferro-carril-oeste",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-01",
+     "local": "platense",
+     "visitante": "ferrocarril-sud",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-01",
+     "local": "riachuelo",
+     "visitante": "olivos",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Riachuelo",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-01",
+     "local": "river-plate",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-01",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-01",
+     "local": "comercio",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Comercio",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1913-06-08",
+     "local": "quilmes",
+     "visitante": "riachuelo",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1913-06-22",
+     "local": "ferro-carril-oeste",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-22",
+     "local": "ferrocarril-sud",
+     "visitante": "olivos",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Ferrocarril Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-22",
+     "local": "river-plate",
+     "visitante": "estudiantil-porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-22",
+     "local": "comercio",
+     "visitante": "boca-juniors",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Comercio",
+     "goles": [],
+     "nota": "La Prensa dio 0-4."
+    },
+    {
+     "fecha": "1913-06-22",
+     "local": "racing-club",
+     "visitante": "belgrano-athletic",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1913-06-29",
+     "local": "banfield",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-29",
+     "local": "estudiantil-porteno",
+     "visitante": "belgrano-athletic",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-29",
+     "local": "ferrocarril-sud",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Ferrocarril Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-29",
+     "local": "platense",
+     "visitante": "comercio",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-29",
+     "local": "san-isidro",
+     "visitante": "riachuelo",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-29",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "olivos",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-29",
+     "local": "racing-club",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1913-07-06",
+     "local": "banfield",
+     "visitante": "riachuelo",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1913-07-06",
+     "local": "boca-juniors",
+     "visitante": "ferrocarril-sud",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": [],
+     "nota": "La Prensa dio 4-0."
+    },
+    {
+     "fecha": "1913-07-06",
+     "local": "ferro-carril-oeste",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1913-07-06",
+     "local": "platense",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1913-07-06",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "comercio",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1913-07-13",
+     "local": "olivos",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Olivos",
+     "goles": []
+    },
+    {
+     "fecha": "1913-07-13",
+     "local": "riachuelo",
+     "visitante": "comercio",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Riachuelo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1913-07-20",
+     "local": "banfield",
+     "visitante": "estudiantil-porteno",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1913-07-20",
+     "local": "ferro-carril-oeste",
+     "visitante": "olivos",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1913-07-20",
+     "local": "ferrocarril-sud",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Ferrocarril Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1913-07-20",
+     "local": "platense",
+     "visitante": "river-plate",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1913-07-20",
+     "local": "riachuelo",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Riachuelo",
+     "goles": []
+    },
+    {
+     "fecha": "1913-07-20",
+     "local": "san-isidro",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1913-07-20",
+     "local": "quilmes",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1913-07-27",
+     "local": "river-plate",
+     "visitante": "olivos",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1913-08-24",
+     "local": "belgrano-athletic",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1913-08-24",
+     "local": "boca-juniors",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1913-08-24",
+     "local": "ferrocarril-sud",
+     "visitante": "estudiantil-porteno",
+     "gl": 3,
+     "gv": 6,
+     "estadio": "Cancha de Ferrocarril Sud",
+     "goles": []
+    },
+    {
+     "fecha": "1913-08-24",
+     "local": "platense",
+     "visitante": "banfield",
+     "gl": 5,
+     "gv": 4,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1913-08-24",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [],
+     "nota": "Se jugó en San Isidro porque se desbordó el arroyo Maldonado."
+    },
+    {
+     "fecha": "1913-08-24",
+     "local": "quilmes",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1913-08-30",
+     "local": "ferro-carril-oeste",
+     "visitante": "boca-juniors",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1913-08-30",
+     "local": "olivos",
+     "visitante": "platense",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Olivos",
+     "goles": []
+    },
+    {
+     "fecha": "1913-08-30",
+     "local": "river-plate",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de River Plate",
+     "goles": []
+    },
+    {
+     "fecha": "1913-08-30",
+     "local": "comercio",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Comercio",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1913-08-31",
+     "local": "belgrano-athletic",
+     "visitante": "comercio",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1913-08-31",
+     "local": "estudiantil-porteno",
+     "visitante": "olivos",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1913-08-31",
+     "local": "platense",
+     "visitante": "boca-juniors",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1913-08-31",
+     "local": "san-isidro",
+     "visitante": "ferrocarril-sud",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1913-08-31",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "riachuelo",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [],
+     "nota": "La Vanguardia dio 2-0."
+    },
+    {
+     "fecha": "1913-08-31",
+     "local": "quilmes",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1913-08-31",
+     "local": "racing-club",
+     "visitante": "ferro-carril-oeste",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1913-09-07",
+     "local": "boca-juniors",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1913-09-07",
+     "local": "estudiantil-porteno",
+     "visitante": "riachuelo",
+     "gl": 8,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantil Porteño",
+     "goles": [],
+     "nota": "Se suspendió en el entretiempo y quedó ese resultado."
+    },
+    {
+     "fecha": "1913-09-07",
+     "local": "san-isidro",
+     "visitante": "olivos",
+     "gl": 10,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1913-09-21",
+     "local": "riachuelo",
+     "visitante": "racing-club",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Riachuelo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1913-09-28",
+     "local": "platense",
+     "visitante": "belgrano-athletic",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Platense",
+     "goles": []
+    },
+    {
+     "fecha": "1913-09-28",
+     "local": "comercio",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Comercio",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1913-10-12",
+     "local": "quilmes",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "nota": "La Vanguardia dio 1-1. Último partido de la primera rueda."
+    },
+    {
+     "fecha": "1913-10-12",
+     "local": "banfield",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1913-10-12",
+     "local": "river-plate",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Belgrano Athletic renunció a los puntos el 10 de octubre."
+    },
+    {
+     "fecha": "1913-10-12",
+     "local": "boca-juniors",
+     "visitante": "estudiantil-porteno",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1913-10-12",
+     "local": "olivos",
+     "visitante": "ferro-carril-oeste",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Olivos",
+     "goles": []
+    },
+    {
+     "fecha": "1913-10-12",
+     "local": "riachuelo",
+     "visitante": "ferrocarril-sud",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Riachuelo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1913-10-15",
+     "local": "belgrano-athletic",
+     "visitante": "platense",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Belgrano Athletic se retiró del campeonato y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1913-10-15",
+     "local": "belgrano-athletic",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Belgrano Athletic se retiró del campeonato y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1913-10-15",
+     "local": "banfield",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Belgrano Athletic se retiró del campeonato y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1913-10-19",
+     "local": "banfield",
+     "visitante": "river-plate",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1913-10-19",
+     "local": "boca-juniors",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Quilmes renunció a los puntos el 17 de octubre."
+    },
+    {
+     "fecha": "1913-10-19",
+     "local": "comercio",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Comercio",
+     "goles": []
+    },
+    {
+     "fecha": "1913-10-19",
+     "local": "olivos",
+     "visitante": "ferrocarril-sud",
+     "gl": 5,
+     "gv": 1,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "nota": "Terminó 5-1 para Olivos, pero el 5 de febrero de 1914 la asociación le dio el partido a Ferrocarril Sud (en la tabla, sin goles, como en la de RSSSF).",
+     "estadio": "Cancha de Olivos"
+    },
+    {
+     "fecha": "1913-10-19",
+     "local": "riachuelo",
+     "visitante": "ferro-carril-oeste",
+     "gl": 4,
+     "gv": 5,
+     "estadio": "Cancha de Riachuelo",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1913-10-22",
+     "local": "estudiantil-porteno",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Quilmes se retiró del campeonato y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1913-10-22",
+     "local": "san-isidro",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Quilmes se retiró del campeonato y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1913-10-22",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Quilmes se retiró del campeonato y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1913-10-22",
+     "local": "comercio",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Quilmes se retiró del campeonato y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "partidos": [
+    {
+     "fecha": "1913-10-26",
+     "local": "boca-juniors",
+     "visitante": "comercio",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Riachuelo",
+     "goles": []
+    },
+    {
+     "fecha": "1913-10-26",
+     "local": "estudiantil-porteno",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1913-10-26",
+     "local": "olivos",
+     "visitante": "riachuelo",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Comercio",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "partidos": [
+    {
+     "fecha": "1913-11-02",
+     "local": "ferrocarril-sud",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Ferrocarril Sud no se presentó y perdió el partido (era de la primera rueda)."
+    },
+    {
+     "fecha": "1913-11-02",
+     "local": "river-plate",
+     "visitante": "platense",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1913-11-02",
+     "local": "san-isidro",
+     "visitante": "estudiantil-porteno",
+     "gl": 5,
+     "gv": 4,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "partidos": [
+    {
+     "fecha": "1913-11-09",
+     "local": "boca-juniors",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Riachuelo",
+     "goles": []
+    },
+    {
+     "fecha": "1913-11-09",
+     "local": "estudiantil-porteno",
+     "visitante": "comercio",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Estudiantil Porteño renunció a los puntos."
+    },
+    {
+     "fecha": "1913-11-09",
+     "local": "ferrocarril-sud",
+     "visitante": "ferro-carril-oeste",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Ferro renunció a los puntos."
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "partidos": [
+    {
+     "fecha": "1913-11-11",
+     "local": "racing-club",
+     "visitante": "platense",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1913-11-11",
+     "local": "san-isidro",
+     "visitante": "comercio",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Comercio",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 35,
+   "partidos": [
+    {
+     "fecha": "1913-11-23",
+     "local": "river-plate",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Racing Club",
+     "goles": []
+    },
+    {
+     "fecha": "1913-11-23",
+     "local": "san-isidro",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 36,
+   "partidos": [
+    {
+     "fecha": "1913-11-30",
+     "local": "boca-juniors",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Estudiantes no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 37,
+   "partidos": [
+    {
+     "fecha": "1913-12-14",
+     "local": "banfield",
+     "visitante": "racing-club",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

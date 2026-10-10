@@ -1,0 +1,1016 @@
+{
+ "nombre": "Campeonato de Primera División 1913 (amateur, Federación Argentina de Football)",
+ "fuente": "Resultados y días: RSSSF (Osvaldo José Gorgazzi, de La Nación, La Prensa, La Gaceta de Buenos Aires, La Mañana y La Vanguardia). RSSSF no numera las fechas: cada día de partidos es una fecha. RSSSF no trae todas las canchas: va la del local, salvo las que dice. Sin goles, salvo los del Argentino de Quilmes-Estudiantes del 23 de noviembre. Hispano Argentino va como Columbian, el nombre que tuvo después. Sin los partidos que se jugaron como amistosos y no contaron. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1913-05-01",
+     "local": "argentino-de-quilmes",
+     "visitante": "kimberley-devoto",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-01",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-01",
+     "local": "tigre",
+     "visitante": "porteno",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-01",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "sportiva-argentina",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-01",
+     "local": "atlanta",
+     "visitante": "columbian",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1913-05-11",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "kimberley-devoto",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-11",
+     "local": "independiente",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-11",
+     "local": "porteno",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-11",
+     "local": "columbian",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Hispano Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-11",
+     "local": "sportiva-argentina",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1913-05-18",
+     "local": "argentino-de-quilmes",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-18",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-18",
+     "local": "independiente",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-18",
+     "local": "porteno",
+     "visitante": "sportiva-argentina",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    },
+    {
+     "fecha": "1913-05-18",
+     "local": "columbian",
+     "visitante": "kimberley-devoto",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Hispano Argentino",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1913-06-15",
+     "local": "independiente",
+     "visitante": "atlanta",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-15",
+     "local": "columbian",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Hispano Argentino",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1913-06-22",
+     "local": "argentino-de-quilmes",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-22",
+     "local": "tigre",
+     "visitante": "kimberley-devoto",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-22",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1913-06-29",
+     "local": "atlanta",
+     "visitante": "sportiva-argentina",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-29",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "columbian",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-29",
+     "local": "tigre",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1913-06-29",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1913-07-06",
+     "local": "independiente",
+     "visitante": "kimberley-devoto",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1913-07-20",
+     "local": "atlanta",
+     "visitante": "kimberley-devoto",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1913-07-20",
+     "local": "independiente",
+     "visitante": "columbian",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1913-07-20",
+     "local": "porteno",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1913-07-20",
+     "local": "tigre",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1913-07-20",
+     "local": "sportiva-argentina",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1913-07-27",
+     "local": "atlanta",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1913-07-27",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1913-07-27",
+     "local": "independiente",
+     "visitante": "sportiva-argentina",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1913-07-27",
+     "local": "columbian",
+     "visitante": "tigre",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Hispano Argentino",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1913-08-03",
+     "local": "independiente",
+     "visitante": "porteno",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1913-08-03",
+     "local": "tigre",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1913-08-03",
+     "local": "columbian",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Hispano Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1913-08-03",
+     "local": "kimberley-devoto",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Kimberley",
+     "goles": []
+    },
+    {
+     "fecha": "1913-08-03",
+     "local": "sportiva-argentina",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 6,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1913-08-10",
+     "local": "kimberley-devoto",
+     "visitante": "sportiva-argentina",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Kimberley",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1913-08-15",
+     "local": "kimberley-devoto",
+     "visitante": "porteno",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Kimberley",
+     "goles": [],
+     "nota": "El primer partido, el 27 de julio en la cancha de Argentino de Quilmes, se suspendió a los 75 minutos, 0-0, y se anuló; se volvió a jugar el 15 de agosto."
+    },
+    {
+     "fecha": "1913-08-15",
+     "local": "argentino-de-quilmes",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1913-08-15",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1913-08-15",
+     "local": "columbian",
+     "visitante": "sportiva-argentina",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Hispano Argentino",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1913-09-07",
+     "local": "porteno",
+     "visitante": "tigre",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1913-09-07",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1913-09-07",
+     "local": "kimberley-devoto",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Kimberley",
+     "goles": []
+    },
+    {
+     "fecha": "1913-09-07",
+     "local": "sportiva-argentina",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1913-09-21",
+     "local": "argentino-de-quilmes",
+     "visitante": "independiente",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1913-09-21",
+     "local": "tigre",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1913-09-21",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "columbian",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1913-09-21",
+     "local": "sportiva-argentina",
+     "visitante": "kimberley-devoto",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "Sportiva Argentina no lo jugó por los puntos y lo perdió; se jugó como amistoso (0-4), de 60 minutos."
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1913-10-05",
+     "local": "atlanta",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1913-10-05",
+     "local": "tigre",
+     "visitante": "independiente",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1913-10-05",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1913-10-05",
+     "local": "kimberley-devoto",
+     "visitante": "columbian",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Kimberley",
+     "goles": []
+    },
+    {
+     "fecha": "1913-10-05",
+     "local": "sportiva-argentina",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1913-10-12",
+     "local": "atlanta",
+     "visitante": "tigre",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1913-10-12",
+     "local": "argentino-de-quilmes",
+     "visitante": "columbian",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1913-10-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "sportiva-argentina",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    },
+    {
+     "fecha": "1913-10-12",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "kimberley-devoto",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1913-10-19",
+     "local": "argentino-de-quilmes",
+     "visitante": "tigre",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1913-10-19",
+     "local": "porteno",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1913-10-19",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1913-10-26",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1913-10-26",
+     "local": "porteno",
+     "visitante": "columbian",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1913-10-26",
+     "local": "tigre",
+     "visitante": "sportiva-argentina",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1913-10-26",
+     "local": "kimberley-devoto",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Kimberley",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1913-11-01",
+     "local": "kimberley-devoto",
+     "visitante": "tigre",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Kimberley",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1913-11-02",
+     "local": "porteno",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1913-11-02",
+     "local": "columbian",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de Hispano Argentino",
+     "goles": []
+    },
+    {
+     "fecha": "1913-11-02",
+     "local": "kimberley-devoto",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Kimberley",
+     "goles": []
+    },
+    {
+     "fecha": "1913-11-02",
+     "local": "sportiva-argentina",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 8,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1913-11-09",
+     "local": "atlanta",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1913-11-09",
+     "local": "argentino-de-quilmes",
+     "visitante": "sportiva-argentina",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportiva Argentina renunció a los puntos el 7 de noviembre."
+    },
+    {
+     "fecha": "1913-11-09",
+     "local": "porteno",
+     "visitante": "kimberley-devoto",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1913-11-09",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "tigre",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": []
+    },
+    {
+     "fecha": "1913-11-09",
+     "local": "columbian",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Hispano Argentino",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1913-11-11",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    },
+    {
+     "fecha": "1913-11-11",
+     "local": "porteno",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1913-11-19",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "porteno",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes de La Plata",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1913-11-23",
+     "local": "atlanta",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1913-11-23",
+     "local": "argentino-de-quilmes",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": [
+      {
+       "jugador": "A. Badaracco",
+       "equipo": "local",
+       "min": 13,
+       "tipo": "pen"
+      },
+      {
+       "jugador": "O. Hirschi",
+       "equipo": "visitante",
+       "min": 67
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1913-11-30",
+     "local": "tigre",
+     "visitante": "columbian",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Tigre",
+     "goles": []
+    },
+    {
+     "fecha": "1913-11-30",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Gimnasia y Esgrima de Buenos Aires",
+     "goles": [],
+     "nota": "Se suspendió a los 75 minutos, 2-0; los 15 que faltaban se jugaron el 21 de diciembre."
+    },
+    {
+     "fecha": "1913-11-30",
+     "local": "kimberley-devoto",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Kimberley",
+     "goles": [],
+     "nota": "Se suspendió a los 75 minutos, 3-2; los 15 que faltaban se jugaron el 1 de enero de 1914, en la cancha de Gimnasia y Esgrima."
+    },
+    {
+     "fecha": "1913-11-30",
+     "local": "sportiva-argentina",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1913-12-07",
+     "local": "columbian",
+     "visitante": "atlanta",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "Se jugó como amistoso (1-3), en la cancha de Atlanta; el 10 de diciembre la asociación le dio el partido a Hispano Argentino.",
+     "estadio": "Cancha de Atlanta"
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1913-12-14",
+     "local": "independiente",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Independiente",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1913-12-21",
+     "local": "sportiva-argentina",
+     "visitante": "columbian",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Sportiva Argentina no se presentó y perdió el partido."
+    }
+   ]
+  }
+ ]
+}

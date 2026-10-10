@@ -33,6 +33,64 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1913: dos ligas, amateurs las dos (la AFA reconoce a los dos campeones): la Asociación Argentina de Football y la
+    # Federación Argentina de Football. RSSSF no numera las fechas: cada día de partidos es una fecha. La de la Asociación
+    # Argentina (abril a diciembre; campeón Racing, el primero de sus siete seguidos): 15 equipos; era a dos ruedas, pero en
+    # octubre, por falta de tiempo, se reorganizó: cada equipo siguió con sus puntos y jugó la vuelta solo con los de su
+    # grupo ("zonas_a_mano": A y B por el título, C por el descenso; los partidos de la primera rueda suman en el grupo de
+    # cada club, como en las tablas de RSSSF). Racing y River empataron el Grupo A y jugaron un desempate; Racing le ganó
+    # la final a San Isidro, el primero del B (en "playoffs"). Bajaron Olivos y Riachuelo, los dos últimos del Grupo C.
+    # ESPN no los tiene: van a mano (tools/a_mano; RSSSF)
+    "1913-aaf": {"nombre": "Campeonato de Primera División 1913 (amateur, Asociación Argentina de Football)", "anio": 1913,
+                 "liga": "a_mano", "slug": "1913-aaf",
+                 "zonas_a_mano": {
+                     "Grupo A": ["racing-club", "river-plate", "platense", "belgrano-athletic", "banfield"],
+                     "Grupo B": ["san-isidro", "boca-juniors", "quilmes", "estudiantes-buenos-aires", "estudiantil-porteno", "comercio"],
+                     "Grupo C": ["ferro-carril-oeste", "ferrocarril-sud", "olivos", "riachuelo"]},
+                 "fechas": 37, "pasan": 0, "puntos_victoria": 2,
+                 "orden_a_mano": ["racing-club", "river-plate"],
+                 "orden_texto": "Campeonato amateur, de la Asociación Argentina de Football: de 1912 a 1914 hubo dos ligas, "
+                                "esta y la de la Federación Argentina de Football, y la AFA reconoce a los campeones de las "
+                                "dos. Era a dos ruedas, pero en octubre, por falta de tiempo, se reorganizó: cada equipo siguió "
+                                "con sus puntos y jugó la vuelta solo con los de su grupo. Los primeros de los grupos A y B "
+                                "jugaron la final (en el A, Racing y River empataron y jugaron un desempate), y del C bajaban "
+                                "los dos últimos. Cada tabla cuenta todos los partidos de esos equipos, los de la primera "
+                                "rueda también. Orden: puntos y, con los mismos puntos, la diferencia de gol (Racing va "
+                                "delante de River por el desempate). RSSSF no numera las fechas: cada día de partidos es una "
+                                "fecha.",
+                 "anual_texto": "Todos los equipos juntos, sin el desempate ni la final. Cada partido ganado valía 2 puntos.",
+                 "goleadores_nota": "Los goles son solo de la final (de RSSSF, con los minutos).",
+                 "nombre_playoffs": "Fase final", "cuadro_desde": "Final",
+                 "playoffs": [(r"^$^", n) for n in ("Desempate del Grupo A", "Final")],
+                 "playoffs_a_mano": {
+                     "Desempate del Grupo A": [
+                         {"fecha": "1913-12-21", "local": "racing-club", "visitante": "river-plate", "gl": 3, "gv": 0,
+                          "estadio": "Cancha de Estudiantes (Buenos Aires)"},
+                     ],
+                     "Final": [
+                         {"fecha": "1913-12-28", "local": "racing-club", "visitante": "san-isidro", "gl": 2, "gv": 0,
+                          "arbitro": "Héctor Alfano", "publico": 9000,
+                          "goles": [{"jugador": "A. Ohaco", "equipo": "local", "min": 11},
+                                    {"jugador": "A. Ohaco", "equipo": "local", "min": 70}],
+                          "nota": "La Nación dio 2-1. Fue el primer título de liga de Racing."},
+                     ],
+                 },
+                 "descensos": "tabla", "descienden": 2},
+    # La de la Federación Argentina (mayo a diciembre; campeón Estudiantes de La Plata): 10 equipos a dos ruedas, con 2
+    # puntos por partido ganado. Bajaba el último: Sportiva Argentina. Hispano Argentino va como Columbian
+    "1913-faf": {"nombre": "Campeonato de Primera División 1913 (amateur, Federación Argentina de Football)", "anio": 1913,
+                 "liga": "a_mano", "slug": "1913-faf", "zonas": "unica", "fechas": 28, "pasan": 0, "puntos_victoria": 2,
+                 "campeon_tabla": True,
+                 "orden_texto": "Campeonato amateur, de la Federación Argentina de Football: de 1912 a 1914 hubo dos ligas, "
+                                "esta y la de la Asociación Argentina, y la AFA reconoce a los campeones de las dos. Orden: "
+                                "puntos y, con los mismos puntos, la diferencia de gol (que coincide con el orden de RSSSF). "
+                                "RSSSF no numera las fechas: cada día de partidos es una fecha. Columbian se llamaba Hispano "
+                                "Argentino.",
+                 "anual_texto": "La tabla del Campeonato de Primera División 1913 de la Federación Argentina (amateur). Cada "
+                                "partido ganado valía 2 puntos.",
+                 "goleadores_nota": "Los goles son solo del Argentino de Quilmes 1-1 Estudiantes del 23 de noviembre (de "
+                                    "RSSSF, con los minutos).",
+                 "descensos": "tabla", "descienden": 1},
     # 1914: dos ligas, amateurs las dos (la AFA reconoce a los dos campeones): la Asociación Argentina de Football y la
     # Federación Argentina de Football, que se formó en 1912 y volvió a unirse a la Asociación en 1915. RSSSF no numera
     # las fechas: cada día de partidos es una fecha. La de la Asociación Argentina (marzo a noviembre; campeón Racing, el
@@ -5343,6 +5401,10 @@ CLUBES_NUEVOS = {
     "kim": ("kimberley-devoto", "Kimberley (Villa Devoto)"),
     "com": ("comercio", "Comercio"),
     "flo": ("floresta", "Floresta"),   # (no están en ESPN: 1915; escudo genérico el de Floresta)
+    "fcs": ("ferrocarril-sud", "Ferrocarril Sud"),
+    "oli": ("olivos", "Olivos"),
+    "ria": ("riachuelo", "Riachuelo"),
+    "ssa": ("sportiva-argentina", "Sportiva Argentina"),   # (no están en ESPN: 1913)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),
