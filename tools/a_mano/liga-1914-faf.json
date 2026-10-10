@@ -1,0 +1,657 @@
+{
+ "nombre": "Campeonato de Primera División 1914 (amateur, Federación Argentina de Football)",
+ "fuente": "Resultados y días: RSSSF (Pablo Ciullini, de La Nación y La Prensa), sin goles. RSSSF no numera las fechas: cada día de partidos es una fecha. RSSSF no trae las canchas: va la del local, salvo las que dice. Sin los partidos de Tigre, que fue expulsado, ni los de Argentino de Quilmes, que perdió la afiliación (se anularon). Hispano Argentino va como Columbian, el nombre que tuvo después. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1914-04-05",
+     "local": "kimberley-devoto",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Kimberley",
+     "goles": []
+    },
+    {
+     "fecha": "1914-04-05",
+     "local": "floresta",
+     "visitante": "atlanta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1914-04-05",
+     "local": "porteno",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Pabellón de las Rosas",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1914-04-10",
+     "local": "atlanta",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1914-04-10",
+     "local": "kimberley-devoto",
+     "visitante": "floresta",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Kimberley",
+     "goles": []
+    },
+    {
+     "fecha": "1914-04-10",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "columbian",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1914-04-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "columbian",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1914-04-19",
+     "local": "independiente",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1914-04-19",
+     "local": "porteno",
+     "visitante": "floresta",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1914-04-19",
+     "local": "kimberley-devoto",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Kimberley",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1914-05-10",
+     "local": "atlanta",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1914-05-10",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "floresta",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1914-05-10",
+     "local": "kimberley-devoto",
+     "visitante": "columbian",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Kimberley",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1914-05-17",
+     "local": "independiente",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1914-05-21",
+     "local": "atlanta",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 7,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1914-06-07",
+     "local": "porteno",
+     "visitante": "columbian",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1914-06-07",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "atlanta",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1914-06-07",
+     "local": "independiente",
+     "visitante": "kimberley-devoto",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1914-06-14",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1914-06-14",
+     "local": "floresta",
+     "visitante": "columbian",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1914-06-21",
+     "local": "atlanta",
+     "visitante": "columbian",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1914-06-28",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1914-06-28",
+     "local": "atlanta",
+     "visitante": "kimberley-devoto",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1914-07-12",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "independiente",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1914-07-12",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "kimberley-devoto",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Kimberley",
+     "goles": []
+    },
+    {
+     "fecha": "1914-07-12",
+     "local": "floresta",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de Floresta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1914-07-19",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "porteno",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1914-07-19",
+     "local": "atlanta",
+     "visitante": "floresta",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1914-07-26",
+     "local": "porteno",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1914-07-26",
+     "local": "independiente",
+     "visitante": "atlanta",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1914-07-26",
+     "local": "columbian",
+     "visitante": "floresta",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Pabellón de las Rosas",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1914-08-02",
+     "local": "porteno",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1914-08-02",
+     "local": "columbian",
+     "visitante": "kimberley-devoto",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Columbian",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1914-08-09",
+     "local": "porteno",
+     "visitante": "kimberley-devoto",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Pabellón de las Rosas",
+     "goles": []
+    },
+    {
+     "fecha": "1914-08-09",
+     "local": "columbian",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1914-08-09",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "floresta",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1914-08-16",
+     "local": "porteno",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Pabellón de las Rosas",
+     "goles": []
+    },
+    {
+     "fecha": "1914-08-16",
+     "local": "columbian",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    },
+    {
+     "fecha": "1914-08-16",
+     "local": "floresta",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "La Doble Visera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1914-09-06",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1914-09-06",
+     "local": "independiente",
+     "visitante": "floresta",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1914-10-04",
+     "local": "columbian",
+     "visitante": "estudiantes-de-la-plata",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Columbian",
+     "goles": []
+    },
+    {
+     "fecha": "1914-10-04",
+     "local": "independiente",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "La Doble Visera",
+     "goles": []
+    },
+    {
+     "fecha": "1914-10-04",
+     "local": "floresta",
+     "visitante": "kimberley-devoto",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Floresta",
+     "goles": [],
+     "para_local": [
+      2,
+      3,
+      "D"
+     ],
+     "para_visitante": [
+      3,
+      2,
+      "V"
+     ],
+     "nota": "Se suspendió a los 66 minutos, 2-3, y no se terminó: los puntos fueron para Kimberley (con los goles del partido en la tabla)."
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1914-10-11",
+     "local": "floresta",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Floresta",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1914-10-18",
+     "local": "columbian",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Columbian",
+     "goles": []
+    },
+    {
+     "fecha": "1914-10-18",
+     "local": "kimberley-devoto",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Kimberley",
+     "goles": []
+    },
+    {
+     "fecha": "1914-10-18",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1914-10-25",
+     "local": "gimnasia-buenos-aires",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Gimnasia y Esgrima BA",
+     "goles": []
+    },
+    {
+     "fecha": "1914-10-25",
+     "local": "estudiantes-de-la-plata",
+     "visitante": "kimberley-devoto",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Jorge Luis Hirschi",
+     "goles": []
+    },
+    {
+     "fecha": "1914-10-25",
+     "local": "independiente",
+     "visitante": "columbian",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "La Doble Visera",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1914-11-01",
+     "local": "kimberley-devoto",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 7,
+     "estadio": "Cancha de Kimberley",
+     "goles": []
+    },
+    {
+     "fecha": "1914-11-01",
+     "local": "floresta",
+     "visitante": "independiente",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Floresta no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1914-11-08",
+     "local": "columbian",
+     "visitante": "independiente",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Columbian",
+     "goles": []
+    },
+    {
+     "fecha": "1914-11-08",
+     "local": "kimberley-devoto",
+     "visitante": "atlanta",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Kimberley",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1914-11-29",
+     "local": "atlanta",
+     "visitante": "gimnasia-buenos-aires",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Atlanta",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

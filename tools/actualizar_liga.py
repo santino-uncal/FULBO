@@ -33,6 +33,43 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1914: dos ligas, amateurs las dos (la AFA reconoce a los dos campeones): la Asociación Argentina de Football y la
+    # Federación Argentina de Football, que se formó en 1912 y volvió a unirse a la Asociación en 1915. RSSSF no numera
+    # las fechas: cada día de partidos es una fecha. La de la Asociación Argentina (marzo a noviembre; campeón Racing, el
+    # segundo seguido): 13 equipos a una rueda, con 2 puntos por partido ganado; sin los partidos de Ferrocarril Sud, que
+    # se disolvió (se anularon). Estudiantes es el de Buenos Aires. ESPN no los tiene: van a mano (tools/a_mano; RSSSF,
+    # sin goles)
+    "1914-aaf": {"nombre": "Campeonato de Primera División 1914 (amateur, Asociación Argentina de Football)", "anio": 1914,
+                 "liga": "a_mano", "slug": "1914-aaf", "zonas": "unica", "fechas": 25, "pasan": 0, "puntos_victoria": 2,
+                 "campeon_tabla": True,
+                 "orden_texto": "Campeonato amateur, de la Asociación Argentina de Football: de 1912 a 1914 hubo dos ligas, "
+                                "esta y la de la Federación Argentina de Football, y la AFA reconoce a los campeones de las "
+                                "dos. Los partidos de Ferrocarril Sud, que se disolvió, se anularon. Orden: puntos y, con los "
+                                "mismos puntos, la diferencia de gol (que coincide con el orden de RSSSF). RSSSF no numera las "
+                                "fechas: cada día de partidos es una fecha.",
+                 "anual_texto": "La tabla del Campeonato de Primera División 1914 de la Asociación Argentina (amateur). Cada "
+                                "partido ganado valía 2 puntos.",
+                 "goleadores_nota": "RSSSF no trae los goles de cada partido. Según RSSSF, el goleador del torneo fue Alberto "
+                                    "Ohaco (Racing), con 19 goles.",
+                 "sin_descensos": "No hubo descensos."},
+    # La de la Federación Argentina (abril a noviembre; campeón Porteño, invicto): 8 equipos a dos ruedas, con 2 puntos
+    # por partido ganado; sin los partidos de Tigre, que fue expulsado, ni los de Argentino de Quilmes, que perdió la
+    # afiliación (se anularon). Hispano Argentino va como Columbian
+    "1914-faf": {"nombre": "Campeonato de Primera División 1914 (amateur, Federación Argentina de Football)", "anio": 1914,
+                 "liga": "a_mano", "slug": "1914-faf", "zonas": "unica", "fechas": 25, "pasan": 0, "puntos_victoria": 2,
+                 "campeon_tabla": True,
+                 "orden_a_mano": ["gimnasia-buenos-aires", "columbian"],
+                 "orden_texto": "Campeonato amateur, de la Federación Argentina de Football: de 1912 a 1914 hubo dos ligas, "
+                                "esta y la de la Asociación Argentina, y la AFA reconoce a los campeones de las dos. Los "
+                                "partidos de Tigre, que fue expulsado, y los de Argentino de Quilmes, que perdió la afiliación, "
+                                "se anularon. Orden: puntos y, con los mismos puntos, la diferencia de gol; Gimnasia y "
+                                "Esgrima de Buenos Aires y Columbian, en el orden de RSSSF. RSSSF no numera las fechas: cada "
+                                "día de partidos es una fecha. Columbian se llamaba Hispano Argentino.",
+                 "anual_texto": "La tabla del Campeonato de Primera División 1914 de la Federación Argentina (amateur). Cada "
+                                "partido ganado valía 2 puntos.",
+                 "goleadores_nota": "RSSSF no trae los goles de cada partido. Según RSSSF, el goleador del torneo fue Esteban "
+                                    "Carabelli (Hispano Argentino), con 11 goles.",
+                 "sin_descensos": "No hubo descensos."},
     # 1915: el campeonato de la Asociación Argentina de Football, la única liga ese año (abril de 1915 a enero de 1916;
     # campeón Racing, el tercero seguido): 25 equipos a una rueda, con 2 puntos por partido ganado. RSSSF no numera las
     # fechas: cada día de partidos es una fecha. Racing y San Isidro, invictos, empataron el primer puesto y jugaron una
