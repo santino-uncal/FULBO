@@ -2720,8 +2720,7 @@
      "gl": 1,
      "gv": 0,
      "estadio": "Platense",
-     "goles": [],
-     "nota": "El 29 de junio se suspendió a los 5 minutos, 0-0, y se volvió a jugar."
+     "goles": []
     },
     {
      "fecha": "1922-09-17",
@@ -5267,7 +5266,8 @@
      "gl": 1,
      "gv": 1,
      "estadio": "Cancha de Estudiantes (Buenos Aires)",
-     "goles": []
+     "goles": [],
+     "nota": "El 29 de junio se suspendió a los 5 minutos, 0-0, y se volvió a jugar."
     },
     {
      "fecha": "1923-04-22",
