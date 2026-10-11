@@ -1,0 +1,617 @@
+{
+ "nombre": "Campeonato de Primera División 1905 (amateur)",
+ "fuente": "Resultados y días: RSSSF (de La Nación y La Prensa), sin goles salvo los del Alumni-Estudiantes del 17 de septiembre (con los minutos). RSSSF no numera las fechas: cada día de partidos es una fecha; los cuatro partidos de Barracas Athletic del 6 de septiembre (un día dudoso en RSSSF), cada uno en una fecha aparte. RSSSF no trae las canchas: va la del local, o la que dice RSSSF (Alumni jugaba de local en la de Sportiva Argentina). Estudiantes (Atlético Estudiantes) es el de Buenos Aires. Los partidos que la asociación le dio a uno van sin goles. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1905-05-07",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "lomas-athletic",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1905-05-07",
+     "local": "quilmes",
+     "visitante": "reformer",
+     "gl": 12,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1905-05-14",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1905-05-14",
+     "local": "belgrano-athletic",
+     "visitante": "barracas-athletic",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1905-05-14",
+     "local": "lomas-athletic",
+     "visitante": "alumni",
+     "gl": 1,
+     "gv": 7,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1905-05-21",
+     "local": "alumni",
+     "visitante": "reformer",
+     "gl": 14,
+     "gv": 0,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    },
+    {
+     "fecha": "1905-05-21",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1905-05-25",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "barracas-athletic",
+     "gl": 7,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1905-05-25",
+     "local": "lomas-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1905-05-25",
+     "local": "quilmes",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1905-05-28",
+     "local": "belgrano-athletic",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "nota": "Se suspendió a los 85 minutos, 3-0, y después la asociación le dio el partido a Quilmes (en la tabla, sin goles, como en la de RSSSF). RSSSF no está seguro del día del fallo (¿28 de junio?)."
+    },
+    {
+     "fecha": "1905-05-28",
+     "local": "lomas-athletic",
+     "visitante": "barracas-athletic",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1905-05-28",
+     "local": "reformer",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 8,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1905-06-01",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1905-06-01",
+     "local": "belgrano-athletic",
+     "visitante": "reformer",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1905-06-01",
+     "local": "quilmes",
+     "visitante": "barracas-athletic",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1905-06-11",
+     "local": "barracas-athletic",
+     "visitante": "reformer",
+     "gl": 1,
+     "gv": 12,
+     "estadio": "Cancha de Sportiva Argentina (o la de Porteño)",
+     "goles": []
+    },
+    {
+     "fecha": "1905-06-11",
+     "local": "belgrano-athletic",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1905-06-11",
+     "local": "quilmes",
+     "visitante": "lomas-athletic",
+     "gl": 8,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1905-06-18",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "reformer",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1905-06-24",
+     "local": "belgrano-athletic",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1905-07-09",
+     "local": "reformer",
+     "visitante": "belgrano-athletic",
+     "gl": 2,
+     "gv": 8,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1905-07-16",
+     "local": "lomas-athletic",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1905-07-30",
+     "local": "barracas-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Lomas Athletic."
+    },
+    {
+     "fecha": "1905-07-30",
+     "local": "quilmes",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1905-07-30",
+     "local": "reformer",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1905-08-06",
+     "local": "alumni",
+     "visitante": "belgrano-athletic",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1905-08-06",
+     "local": "barracas-athletic",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Quilmes."
+    },
+    {
+     "fecha": "1905-08-06",
+     "local": "lomas-athletic",
+     "visitante": "reformer",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1905-08-13",
+     "local": "lomas-athletic",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1905-09-03",
+     "local": "alumni",
+     "visitante": "barracas-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Alumni."
+    },
+    {
+     "fecha": "1905-09-03",
+     "local": "reformer",
+     "visitante": "lomas-athletic",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1905-09-06",
+     "local": "barracas-athletic",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Alumni. RSSSF no está seguro del día."
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1905-09-06",
+     "local": "barracas-athletic",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Estudiantes. RSSSF no está seguro del día."
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1905-09-06",
+     "local": "barracas-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Belgrano Athletic. RSSSF no está seguro del día."
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1905-09-06",
+     "local": "reformer",
+     "visitante": "barracas-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Reformer. RSSSF no está seguro del día."
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1905-09-08",
+     "local": "alumni",
+     "visitante": "lomas-athletic",
+     "gl": 11,
+     "gv": 1,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    },
+    {
+     "fecha": "1905-09-08",
+     "local": "quilmes",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1905-09-17",
+     "local": "alumni",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Tomás González",
+       "equipo": "visitante",
+       "min": 27
+      },
+      {
+       "jugador": "Weiss",
+       "equipo": "local",
+       "min": 40
+      }
+     ],
+     "arbitro": "S. R. Wilson",
+     "nota": "Con este partido Alumni se aseguró el campeonato."
+    },
+    {
+     "fecha": "1905-09-17",
+     "local": "belgrano-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1905-09-17",
+     "local": "reformer",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Reformer."
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1905-09-24",
+     "local": "alumni",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Alumni."
+    }
+   ]
+  }
+ ]
+}

@@ -33,6 +33,26 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1905: el campeonato de la Argentine Football Association, la única liga ese año (mayo a septiembre; campeón Alumni):
+    # 7 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de partidos es una
+    # fecha. Barracas Athletic dejó de presentarse: la asociación les dio esos partidos a los otros (sin goles). El
+    # Belgrano-Quilmes se suspendió 3-0 y se lo dieron a Quilmes. No bajó nadie. Estudiantes es el de Buenos Aires. ESPN no
+    # lo tiene: va a mano (tools/a_mano; RSSSF, sin goles salvo los del partido en el que Alumni se aseguró el título)
+    "1905-primera": {"nombre": "Campeonato de Primera División 1905 (amateur)", "anio": 1905, "liga": "a_mano",
+                     "slug": "1905-primera", "zonas": "unica", "fechas": 22, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol (RSSSF pone a "
+                                    "Reformer delante de Lomas Athletic, que tiene mejor diferencia de gol y le ganó el "
+                                    "partido de vuelta). Los partidos que no se jugaron y la asociación "
+                                    "le dio a uno cuentan sin goles, y también el Belgrano-Quilmes, que se suspendió 3-0 y "
+                                    "se lo dieron a Quilmes. RSSSF no numera las fechas: cada día de partidos es una fecha.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1905 (amateur). Cada partido ganado valía 2 "
+                                    "puntos.",
+                     "goleadores_nota": "Los goles son solo del Alumni 1-1 Estudiantes del 17 de septiembre, el partido en el "
+                                        "que Alumni se aseguró el campeonato (de RSSSF, con los minutos).",
+                     "sin_descensos": "No hubo descensos. En 1906 se sumaron San Martín Athletic, San Isidro, Argentino de "
+                                      "Quilmes y Belgrano Extra."},
     # 1906: el campeonato de la Argentine Football Association, la única liga ese año (abril a octubre; campeón Alumni):
     # 11 equipos en dos grupos a dos ruedas ("zonas_a_mano": el A, de 6, y el B, de 5), con 2 puntos por partido ganado.
     # Cada día de partidos es una fecha, con los dos grupos juntos. Los primeros de cada grupo jugaron la final (en
