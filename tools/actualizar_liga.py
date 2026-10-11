@@ -33,6 +33,23 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1909: el campeonato de la Argentine Football Association, la única liga ese año (mayo a noviembre; campeón Alumni):
+    # 10 equipos a dos ruedas, con 2 puntos por partido ganado. Cada día de partidos es una fecha. Bajaban los dos últimos:
+    # Reformer y Lomas Athletic. Estudiantes es el de Buenos Aires. La tabla de RSSSF cuenta un gol más a favor de
+    # Argentino de Quilmes y uno más en contra de Lomas. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles)
+    "1909-primera": {"nombre": "Campeonato de Primera División 1909 (amateur)", "anio": 1909, "liga": "a_mano",
+                     "slug": "1909-primera", "zonas": "unica", "fechas": 33, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide "
+                                    "con el orden de RSSSF). En la tabla, Argentino de Quilmes tiene un gol más a favor y Lomas "
+                                    "Athletic uno más en contra que en la de RSSSF, que no coincide con el resultado de su "
+                                    "partido. Los partidos que no se jugaron porque un equipo no se presentó cuentan como "
+                                    "ganados por el otro, sin goles.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1909 (amateur). Cada partido ganado valía 2 "
+                                    "puntos.",
+                     "goleadores_nota": "RSSSF no trae los goles de este torneo.",
+                     "descensos": "tabla", "descienden": 2},
     # 1910: el campeonato de la Argentine Football Association, la única liga ese año (abril a diciembre; campeón Alumni):
     # 9 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de partidos es una
     # fecha. Bajaba el último: Argentino de Quilmes. Estudiantes es el de Buenos Aires. La tabla de RSSSF cuenta un gol más
@@ -5497,6 +5514,8 @@ CLUBES_NUEVOS = {
     "ria": ("riachuelo", "Riachuelo"),
     "ssa": ("sportiva-argentina", "Sportiva Argentina"),   # (no están en ESPN: 1913)
     "alu": ("alumni", "Alumni"),   # (no está en ESPN: 1911)
+    "ref": ("reformer", "Reformer"),
+    "lac": ("lomas-athletic", "Lomas Athletic"),   # (no están en ESPN: 1909)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),

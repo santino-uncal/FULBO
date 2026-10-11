@@ -1,16 +1,18 @@
 /* Los títulos de liga de cada club, para mostrar al lado del campeón qué número de título es (River en el Campeonato
    1989-90: el 23). Cuenta oficial de la AFA (Wikipedia, "List of Argentine Primera División champions"):
-   - antes: los títulos de cada club hasta los campeonatos de 1909 (todos amateurs); ultimo_antes: el campeón
-     de 1909 (para contar los títulos seguidos: bicampeonatos, tricampeonatos), y seguidos_antes, cuántos llevaba
-     seguidos (Alumni: solo ese, porque el de 1908 lo ganó Belgrano Athletic).
+   - antes: los títulos de cada club hasta los campeonatos de 1908 (todos amateurs); ultimo_antes: el campeón
+     de 1908 (para contar los títulos seguidos: bicampeonatos, tricampeonatos), y seguidos_antes, cuántos llevaba
+     seguidos (Belgrano Athletic: solo ese, porque el de 1907 lo ganó Alumni; de los campeones de antes, solo Alumni
+     ganó otra vez).
    - torneos: los títulos de cada torneo cargado, en orden. "club" es el campeón del torneo; ["club", "texto"] es otro
      título que se definió en ese torneo (la final de 1990-91, la Superfinal 2012-13, el "Campeón de Liga" 2025).
    - notas: los torneos cuyo campeón no suma un título de liga (y por qué).
    Al terminar un torneo nuevo, agregar su campeón acá (la prueba de tests/test_liga.py avisa si falta). */
 window.LIGA_TITULOS = {
-  "antes": {"alumni": 8},
-  "ultimo_antes": "alumni", "seguidos_antes": 1,
+  "antes": {"alumni": 7},
+  "ultimo_antes": "belgrano-athletic", "seguidos_antes": 1,
   "torneos": {
+    "1909-primera": ["alumni"],
     "1910-primera": ["alumni"],
     "1911-primera": ["alumni"],
     "1912-aaf": ["quilmes"],
