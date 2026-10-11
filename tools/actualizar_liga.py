@@ -33,6 +33,22 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1903: el campeonato de la Argentine Football Association, la única liga ese año (abril a agosto; campeón Alumni):
+    # 6 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de partidos es una
+    # fecha. Flores Athletic no ganó ningún partido. No bajó nadie. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin
+    # goles salvo los del partido en el que Alumni se aseguró el título)
+    "1903-primera": {"nombre": "Campeonato de Primera División 1903 (amateur)", "anio": 1903, "liga": "a_mano",
+                     "slug": "1903-primera", "zonas": "unica", "fechas": 18, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide "
+                                    "con el orden de RSSSF). Los partidos que no se jugaron y la asociación le dio a uno cuentan "
+                                    "sin goles. RSSSF no numera las fechas: cada día de partidos es una fecha.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1903 (amateur). Cada partido ganado valía 2 "
+                                    "puntos.",
+                     "goleadores_nota": "Los goles son solo del Flores Athletic 0-10 Alumni del 5 de julio, el partido en el "
+                                        "que Alumni se aseguró el campeonato (de RSSSF, con los minutos).",
+                     "sin_descensos": "No hubo descensos. En 1904 ya no jugó Flores Athletic y se sumó Estudiantes."},
     # 1904: el campeonato de la Argentine Football Association, la única liga ese año (mayo a septiembre; campeón Belgrano
     # Athletic, invicto): 6 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de
     # partidos es una fecha. No bajó nadie. Estudiantes es el de Buenos Aires. ESPN no lo tiene: va a mano (tools/a_mano;
@@ -5634,6 +5650,7 @@ CLUBES_NUEVOS = {
     "sma": ("san-martin-athletic", "San Martín Athletic"),   # (no está en ESPN: 1908; escudo genérico)
     "bat": ("barracas-athletic", "Barracas Athletic"),   # (no está en ESPN: 1907; escudo genérico)
     "bex": ("belgrano-extra", "Belgrano Extra"),   # (no está en ESPN: 1906; el segundo equipo de Belgrano Athletic, con su escudo)
+    "fla": ("flores-athletic", "Flores Athletic"),   # (no está en ESPN: 1903; escudo genérico)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),

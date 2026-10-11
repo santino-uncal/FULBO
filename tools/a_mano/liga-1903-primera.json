@@ -1,0 +1,463 @@
+{
+ "nombre": "Campeonato de Primera División 1903 (amateur)",
+ "fuente": "Resultados, días y canchas: RSSSF (de La Nación y La Prensa), sin goles salvo los del Flores-Alumni del 5 de julio (con los minutos). RSSSF no numera las fechas: cada día de partidos es una fecha. Las canchas, por el lugar que da RSSSF (Alumni y Flores Athletic jugaban de local en Caballito; Barracas Athletic, en Lanús). Los partidos que no se jugaron y la asociación le dio a uno van sin goles. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1903-04-26",
+     "local": "quilmes",
+     "visitante": "flores-athletic",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1903-05-03",
+     "local": "alumni",
+     "visitante": "flores-athletic",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha en Caballito",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1903-05-10",
+     "local": "alumni",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha en Caballito",
+     "goles": []
+    },
+    {
+     "fecha": "1903-05-10",
+     "local": "belgrano-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1903-05-17",
+     "local": "quilmes",
+     "visitante": "barracas-athletic",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1903-05-21",
+     "local": "lomas-athletic",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1903-05-24",
+     "local": "alumni",
+     "visitante": "barracas-athletic",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha en Caballito",
+     "goles": []
+    },
+    {
+     "fecha": "1903-05-24",
+     "local": "flores-athletic",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Quilmes."
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1903-05-25",
+     "local": "alumni",
+     "visitante": "lomas-athletic",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1903-05-31",
+     "local": "belgrano-athletic",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1903-05-31",
+     "local": "lomas-athletic",
+     "visitante": "barracas-athletic",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1903-06-07",
+     "local": "barracas-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Athletic (Lanús)",
+     "goles": []
+    },
+    {
+     "fecha": "1903-06-07",
+     "local": "lomas-athletic",
+     "visitante": "flores-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Lomas Athletic."
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1903-06-11",
+     "local": "flores-athletic",
+     "visitante": "barracas-athletic",
+     "gl": 0,
+     "gv": 12,
+     "estadio": "Cancha en Caballito",
+     "goles": []
+    },
+    {
+     "fecha": "1903-06-11",
+     "local": "quilmes",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1903-06-14",
+     "local": "flores-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Belgrano Athletic."
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1903-06-24",
+     "local": "belgrano-athletic",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1903-06-29",
+     "local": "belgrano-athletic",
+     "visitante": "flores-athletic",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1903-06-29",
+     "local": "lomas-athletic",
+     "visitante": "alumni",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1903-07-05",
+     "local": "barracas-athletic",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Athletic (Lanús)",
+     "goles": []
+    },
+    {
+     "fecha": "1903-07-05",
+     "local": "lomas-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1903-07-05",
+     "local": "flores-athletic",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 10,
+     "estadio": "Cancha en Caballito",
+     "goles": [
+      {
+       "jugador": "Jorge Brown",
+       "equipo": "visitante",
+       "min": 8
+      },
+      {
+       "jugador": "Jorge Brown",
+       "equipo": "visitante",
+       "min": 12
+      },
+      {
+       "jugador": "Leonard",
+       "equipo": "visitante",
+       "min": 18
+      },
+      {
+       "jugador": "Leonard",
+       "equipo": "visitante",
+       "min": 22
+      },
+      {
+       "jugador": "Dillon",
+       "equipo": "visitante",
+       "min": 42
+      },
+      {
+       "jugador": "Jorge Brown",
+       "equipo": "visitante",
+       "min": 49
+      },
+      {
+       "jugador": "Leonard",
+       "equipo": "visitante",
+       "min": 61
+      },
+      {
+       "jugador": "Jorge Brown",
+       "equipo": "visitante",
+       "min": 66
+      },
+      {
+       "jugador": "Leonard",
+       "equipo": "visitante",
+       "min": 72
+      },
+      {
+       "jugador": "Leonard",
+       "equipo": "visitante",
+       "min": 82
+      }
+     ],
+     "arbitro": "Sidney R. Wilson",
+     "nota": "Con este partido Alumni se aseguró el campeonato."
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1903-07-12",
+     "local": "barracas-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Athletic (Lanús)",
+     "goles": []
+    },
+    {
+     "fecha": "1903-07-12",
+     "local": "quilmes",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1903-07-19",
+     "local": "barracas-athletic",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Athletic (Lanús)",
+     "goles": []
+    },
+    {
+     "fecha": "1903-07-19",
+     "local": "quilmes",
+     "visitante": "lomas-athletic",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1903-07-26",
+     "local": "alumni",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1903-07-26",
+     "local": "barracas-athletic",
+     "visitante": "flores-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Barracas Athletic."
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1903-08-09",
+     "local": "belgrano-athletic",
+     "visitante": "barracas-athletic",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1903-08-09",
+     "local": "flores-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 1,
+     "gv": 10,
+     "estadio": "Cancha en Caballito",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}
