@@ -33,6 +33,22 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1902: el campeonato de The Argentine Association Football League, la única liga ese año (mayo a septiembre; campeón
+    # Alumni, invicto): 5 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de
+    # partidos es una fecha. No bajó nadie. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles salvo los del
+    # partido en el que Alumni se aseguró el título)
+    "1902-primera": {"nombre": "Campeonato de Primera División 1902 (amateur)", "anio": 1902, "liga": "a_mano",
+                     "slug": "1902-primera", "zonas": "unica", "fechas": 17, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide "
+                                    "con el orden de RSSSF). Los partidos que no se jugaron y la asociación le dio a uno cuentan "
+                                    "sin goles. RSSSF no numera las fechas: cada día de partidos es una fecha.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1902 (amateur). Cada partido ganado valía 2 "
+                                    "puntos.",
+                     "goleadores_nota": "Los goles son solo del Alumni 2-0 Barracas Athletic del 15 de agosto, el partido en "
+                                        "el que Alumni se aseguró el campeonato (de RSSSF, con los minutos).",
+                     "sin_descensos": "No hubo descensos. En 1903 se sumó Flores Athletic."},
     # 1903: el campeonato de la Argentine Football Association, la única liga ese año (abril a agosto; campeón Alumni):
     # 6 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de partidos es una
     # fecha. Flores Athletic no ganó ningún partido. No bajó nadie. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin
