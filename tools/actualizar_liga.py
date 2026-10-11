@@ -33,6 +33,27 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1907: el campeonato de la Argentine Football Association, la única liga ese año (abril a noviembre; campeón Alumni,
+    # invicto): 11 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de partidos
+    # es una fecha. Barracas Athletic (en julio) y Quilmes (en octubre) abandonaron: los partidos que les faltaban, dados
+    # por perdidos, van cada uno en una fecha aparte. No bajó nadie. Estudiantes es el de Buenos Aires. ESPN no lo tiene: va
+    # a mano (tools/a_mano; RSSSF, sin goles salvo los del partido en el que Alumni se aseguró el título)
+    "1907-primera": {"nombre": "Campeonato de Primera División 1907 (amateur)", "anio": 1907, "liga": "a_mano",
+                     "slug": "1907-primera", "zonas": "unica", "fechas": 49, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide "
+                                    "con el orden de RSSSF). Barracas Athletic jugó 7 partidos y abandonó el campeonato en "
+                                    "julio; Quilmes lo abandonó en octubre, con 2 partidos por jugar. Los partidos que les "
+                                    "faltaban cuentan como perdidos, sin goles (cada uno en una fecha aparte), y lo mismo "
+                                    "los que no se jugaron porque un equipo no se presentó. RSSSF no numera las fechas: cada "
+                                    "día de partidos es una fecha.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1907 (amateur). Cada partido ganado valía 2 "
+                                    "puntos.",
+                     "goleadores_nota": "Los goles son solo del Alumni 5-0 San Isidro del 22 de septiembre, el partido en el "
+                                        "que Alumni se aseguró el campeonato (de RSSSF, con los minutos).",
+                     "sin_descensos": "No hubo descensos: todos siguieron en 1908, salvo Barracas Athletic, que había "
+                                      "abandonado."},
     # 1908: el campeonato de la Argentine Football Association, la única liga ese año (abril a noviembre; campeón
     # Belgrano Athletic): 10 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de
     # partidos es una fecha. Nacional abandonó después de dos partidos (anulados). A Estudiantes y a San Martín Athletic
@@ -5539,6 +5560,7 @@ CLUBES_NUEVOS = {
     "ref": ("reformer", "Reformer"),
     "lac": ("lomas-athletic", "Lomas Athletic"),   # (no están en ESPN: 1909)
     "sma": ("san-martin-athletic", "San Martín Athletic"),   # (no está en ESPN: 1908; escudo genérico)
+    "bat": ("barracas-athletic", "Barracas Athletic"),   # (no está en ESPN: 1907; escudo genérico)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),

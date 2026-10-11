@@ -1,0 +1,1513 @@
+{
+ "nombre": "Campeonato de Primera División 1907 (amateur)",
+ "fuente": "Resultados y días: RSSSF (de La Nación y La Prensa), sin goles salvo los del Alumni-San Isidro del 22 de septiembre (con los minutos). RSSSF no numera las fechas: cada día de partidos es una fecha. RSSSF no trae las canchas: va la del local, o la que dice RSSSF. Estudiantes (Atlético Estudiantes) es el de Buenos Aires. Barracas Athletic jugó 7 partidos y abandonó el campeonato en julio; Quilmes lo abandonó en octubre, con 2 partidos por jugar: RSSSF les da perdidos los que les faltaban, sin día, y van cada uno en una fecha aparte después del último día que jugaron. Sin el Lomas-Belgrano del 9 de junio, que se anuló. Los partidos que no se jugaron los ganó el otro, sin goles. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1907-04-21",
+     "local": "san-martin-athletic",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1907-04-28",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-isidro",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1907-04-28",
+     "local": "san-martin-athletic",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1907-05-05",
+     "local": "alumni",
+     "visitante": "argentino-de-quilmes",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    },
+    {
+     "fecha": "1907-05-05",
+     "local": "reformer",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Lomas Athletic no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1907-05-05",
+     "local": "san-isidro",
+     "visitante": "porteno",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1907-05-09",
+     "local": "barracas-athletic",
+     "visitante": "san-martin-athletic",
+     "gl": 9,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1907-05-09",
+     "local": "reformer",
+     "visitante": "porteno",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    },
+    {
+     "fecha": "1907-05-09",
+     "local": "san-isidro",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1907-05-12",
+     "local": "argentino-de-quilmes",
+     "visitante": "reformer",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1907-05-12",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "quilmes",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1907-05-12",
+     "local": "barracas-athletic",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1907-05-12",
+     "local": "belgrano-athletic",
+     "visitante": "san-martin-athletic",
+     "gl": 8,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1907-05-12",
+     "local": "lomas-athletic",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1907-05-19",
+     "local": "barracas-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1907-05-19",
+     "local": "belgrano-athletic",
+     "visitante": "argentino-de-quilmes",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1907-05-19",
+     "local": "porteno",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1907-05-19",
+     "local": "reformer",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    },
+    {
+     "fecha": "1907-05-19",
+     "local": "san-martin-athletic",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1907-05-25",
+     "local": "alumni",
+     "visitante": "san-martin-athletic",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1907-05-25",
+     "local": "argentino-de-quilmes",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1907-05-25",
+     "local": "porteno",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1907-05-25",
+     "local": "reformer",
+     "visitante": "barracas-athletic",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    },
+    {
+     "fecha": "1907-05-25",
+     "local": "san-isidro",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1907-05-26",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "reformer",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1907-05-30",
+     "local": "alumni",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    },
+    {
+     "fecha": "1907-05-30",
+     "local": "argentino-de-quilmes",
+     "visitante": "barracas-athletic",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1907-05-30",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-martin-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: San Martín Athletic no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1907-05-30",
+     "local": "reformer",
+     "visitante": "belgrano-athletic",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1907-06-02",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "belgrano-athletic",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1907-06-02",
+     "local": "barracas-athletic",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1907-06-02",
+     "local": "porteno",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1907-06-02",
+     "local": "san-martin-athletic",
+     "visitante": "reformer",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1907-06-09",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "alumni",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1907-06-09",
+     "local": "barracas-athletic",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1907-06-09",
+     "local": "porteno",
+     "visitante": "argentino-de-quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1907-06-09",
+     "local": "reformer",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1907-06-23",
+     "local": "argentino-de-quilmes",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1907-06-23",
+     "local": "lomas-athletic",
+     "visitante": "reformer",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1907-06-23",
+     "local": "porteno",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1907-06-24",
+     "local": "belgrano-athletic",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1907-06-24",
+     "local": "lomas-athletic",
+     "visitante": "san-martin-athletic",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1907-06-29",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "argentino-de-quilmes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1907-06-29",
+     "local": "belgrano-athletic",
+     "visitante": "barracas-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Barracas Athletic no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1907-06-29",
+     "local": "lomas-athletic",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1907-06-29",
+     "local": "san-isidro",
+     "visitante": "san-martin-athletic",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1907-06-30",
+     "local": "alumni",
+     "visitante": "lomas-athletic",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    },
+    {
+     "fecha": "1907-06-30",
+     "local": "belgrano-athletic",
+     "visitante": "reformer",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1907-06-30",
+     "local": "porteno",
+     "visitante": "barracas-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Barracas Athletic no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1907-06-30",
+     "local": "quilmes",
+     "visitante": "san-martin-athletic",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1907-07-07",
+     "local": "alumni",
+     "visitante": "belgrano-athletic",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    },
+    {
+     "fecha": "1907-07-07",
+     "local": "lomas-athletic",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1907-07-09",
+     "local": "lomas-athletic",
+     "visitante": "barracas-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Barracas Athletic no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1907-07-09",
+     "local": "quilmes",
+     "visitante": "argentino-de-quilmes",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1907-07-09",
+     "local": "san-isidro",
+     "visitante": "alumni",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1907-07-09",
+     "local": "san-martin-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1907-07-09",
+     "local": "alumni",
+     "visitante": "barracas-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Barracas Athletic abandonó el campeonato en julio y perdió los partidos que le faltaban (sin día)."
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1907-07-09",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "barracas-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Barracas Athletic abandonó el campeonato en julio y perdió los partidos que le faltaban (sin día)."
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1907-07-09",
+     "local": "barracas-athletic",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Barracas Athletic abandonó el campeonato en julio y perdió los partidos que le faltaban (sin día)."
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1907-07-09",
+     "local": "barracas-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Barracas Athletic abandonó el campeonato en julio y perdió los partidos que le faltaban (sin día)."
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1907-07-09",
+     "local": "barracas-athletic",
+     "visitante": "porteno",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Barracas Athletic abandonó el campeonato en julio y perdió los partidos que le faltaban (sin día)."
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1907-07-09",
+     "local": "barracas-athletic",
+     "visitante": "reformer",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Barracas Athletic abandonó el campeonato en julio y perdió los partidos que le faltaban (sin día)."
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1907-07-09",
+     "local": "barracas-athletic",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Barracas Athletic abandonó el campeonato en julio y perdió los partidos que le faltaban (sin día)."
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1907-07-09",
+     "local": "quilmes",
+     "visitante": "barracas-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Barracas Athletic abandonó el campeonato en julio y perdió los partidos que le faltaban (sin día)."
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1907-07-09",
+     "local": "san-isidro",
+     "visitante": "barracas-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Barracas Athletic abandonó el campeonato en julio y perdió los partidos que le faltaban (sin día)."
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1907-07-09",
+     "local": "san-martin-athletic",
+     "visitante": "barracas-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Barracas Athletic abandonó el campeonato en julio y perdió los partidos que le faltaban (sin día)."
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1907-07-14",
+     "local": "alumni",
+     "visitante": "reformer",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    },
+    {
+     "fecha": "1907-07-14",
+     "local": "argentino-de-quilmes",
+     "visitante": "san-martin-athletic",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1907-07-14",
+     "local": "belgrano-athletic",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1907-07-14",
+     "local": "lomas-athletic",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1907-07-21",
+     "local": "argentino-de-quilmes",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1907-08-04",
+     "local": "belgrano-athletic",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1907-08-04",
+     "local": "porteno",
+     "visitante": "san-martin-athletic",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1907-08-04",
+     "local": "reformer",
+     "visitante": "argentino-de-quilmes",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    },
+    {
+     "fecha": "1907-08-04",
+     "local": "san-isidro",
+     "visitante": "lomas-athletic",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "partidos": [
+    {
+     "fecha": "1907-08-11",
+     "local": "lomas-athletic",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1907-08-11",
+     "local": "quilmes",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1907-08-11",
+     "local": "reformer",
+     "visitante": "san-martin-athletic",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "partidos": [
+    {
+     "fecha": "1907-08-18",
+     "local": "quilmes",
+     "visitante": "san-isidro",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "partidos": [
+    {
+     "fecha": "1907-08-25",
+     "local": "alumni",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1907-08-25",
+     "local": "argentino-de-quilmes",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1907-08-25",
+     "local": "reformer",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    },
+    {
+     "fecha": "1907-08-25",
+     "local": "san-martin-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "partidos": [
+    {
+     "fecha": "1907-08-30",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "porteno",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1907-08-30",
+     "local": "belgrano-athletic",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1907-08-30",
+     "local": "quilmes",
+     "visitante": "lomas-athletic",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [],
+     "nota": "Se suspendió a los 70 minutos, 4-1; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1907-08-30",
+     "local": "san-martin-athletic",
+     "visitante": "alumni",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 35,
+   "partidos": [
+    {
+     "fecha": "1907-09-01",
+     "local": "porteno",
+     "visitante": "lomas-athletic",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 36,
+   "partidos": [
+    {
+     "fecha": "1907-09-08",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "lomas-athletic",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1907-09-08",
+     "local": "san-isidro",
+     "visitante": "reformer",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 37,
+   "partidos": [
+    {
+     "fecha": "1907-09-15",
+     "local": "argentino-de-quilmes",
+     "visitante": "alumni",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": [],
+     "nota": "Se suspendió a los 70 minutos, 1-5; no se terminó y quedó ese resultado."
+    },
+    {
+     "fecha": "1907-09-15",
+     "local": "porteno",
+     "visitante": "reformer",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 38,
+   "partidos": [
+    {
+     "fecha": "1907-09-22",
+     "local": "alumni",
+     "visitante": "san-isidro",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": [
+      {
+       "jugador": "J. A. Brown",
+       "equipo": "local",
+       "min": 21
+      },
+      {
+       "jugador": "Eliseo Brown",
+       "equipo": "local",
+       "min": 26
+      },
+      {
+       "jugador": "Alfredo Brown",
+       "equipo": "local",
+       "min": 27
+      },
+      {
+       "jugador": "J. A. Brown",
+       "equipo": "local",
+       "min": 31
+      },
+      {
+       "jugador": "J. A. Brown",
+       "equipo": "local",
+       "min": 72
+      }
+     ],
+     "arbitro": "W. J. Williams",
+     "nota": "Con este partido Alumni se aseguró el campeonato."
+    },
+    {
+     "fecha": "1907-09-22",
+     "local": "belgrano-athletic",
+     "visitante": "porteno",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1907-09-22",
+     "local": "quilmes",
+     "visitante": "reformer",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Reformer no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1907-09-22",
+     "local": "san-martin-athletic",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 39,
+   "partidos": [
+    {
+     "fecha": "1907-09-29",
+     "local": "reformer",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    },
+    {
+     "fecha": "1907-09-29",
+     "local": "san-isidro",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 40,
+   "partidos": [
+    {
+     "fecha": "1907-10-06",
+     "local": "san-martin-athletic",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Argentino de Quilmes."
+    }
+   ]
+  },
+  {
+   "numero": 41,
+   "partidos": [
+    {
+     "fecha": "1907-10-13",
+     "local": "argentino-de-quilmes",
+     "visitante": "lomas-athletic",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 42,
+   "partidos": [
+    {
+     "fecha": "1907-10-20",
+     "local": "porteno",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1907-10-20",
+     "local": "quilmes",
+     "visitante": "alumni",
+     "gl": 2,
+     "gv": 7,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 43,
+   "partidos": [
+    {
+     "fecha": "1907-10-27",
+     "local": "alumni",
+     "visitante": "porteno",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1907-10-27",
+     "local": "lomas-athletic",
+     "visitante": "argentino-de-quilmes",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 44,
+   "partidos": [
+    {
+     "fecha": "1907-10-27",
+     "local": "quilmes",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Quilmes abandonó el campeonato en octubre y perdió los partidos que le faltaban (sin día)."
+    }
+   ]
+  },
+  {
+   "numero": 45,
+   "partidos": [
+    {
+     "fecha": "1907-10-27",
+     "local": "quilmes",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Quilmes abandonó el campeonato en octubre y perdió los partidos que le faltaban (sin día)."
+    }
+   ]
+  },
+  {
+   "numero": 46,
+   "partidos": [
+    {
+     "fecha": "1907-11-01",
+     "local": "belgrano-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Lomas Athletic no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 47,
+   "partidos": [
+    {
+     "fecha": "1907-11-03",
+     "local": "argentino-de-quilmes",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Belgrano Athletic no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 48,
+   "partidos": [
+    {
+     "fecha": "1907-11-10",
+     "local": "san-isidro",
+     "visitante": "belgrano-athletic",
+     "gl": 8,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 49,
+   "partidos": [
+    {
+     "fecha": "1907-11-11",
+     "local": "lomas-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "El 9 de junio Belgrano Athletic había ganado 2-0, pero el partido se anuló y se tenía que volver a jugar. No se jugó: Lomas Athletic no se presentó y perdió el partido."
+    }
+   ]
+  }
+ ]
+}
