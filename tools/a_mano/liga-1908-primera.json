@@ -1,0 +1,1107 @@
+{
+ "nombre": "Campeonato de Primera División 1908 (amateur)",
+ "fuente": "Resultados y días: RSSSF (Pablo Ciullini, de La Nación y La Prensa), sin goles. RSSSF no numera las fechas: cada día de partidos es una fecha. RSSSF no trae las canchas: va la del local, o la que dice RSSSF (Alumni jugaba de local en la de Ferro Carril Oeste). Estudiantes es el de Buenos Aires. Nacional abandonó después de jugar dos partidos, que se anularon y no van. Los partidos que no se jugaron porque un equipo no se presentó los ganó el otro, sin goles. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1908-04-26",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "reformer",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1908-05-03",
+     "local": "belgrano-athletic",
+     "visitante": "san-martin-athletic",
+     "gl": 8,
+     "gv": 3,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1908-05-03",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "porteno",
+     "gl": 5,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1908-05-03",
+     "local": "reformer",
+     "visitante": "lomas-athletic",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    },
+    {
+     "fecha": "1908-05-03",
+     "local": "quilmes",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1908-05-10",
+     "local": "belgrano-athletic",
+     "visitante": "quilmes",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1908-05-10",
+     "local": "alumni",
+     "visitante": "lomas-athletic",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1908-05-10",
+     "local": "san-martin-athletic",
+     "visitante": "porteno",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": [],
+     "para_local": [
+      3,
+      2,
+      "D"
+     ],
+     "para_visitante": [
+      2,
+      3,
+      "V"
+     ],
+     "nota": "Después la asociación le dio el partido a Porteño y además le descontó 2 puntos a San Martín Athletic."
+    },
+    {
+     "fecha": "1908-05-10",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "argentino-de-quilmes",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1908-05-17",
+     "local": "alumni",
+     "visitante": "san-martin-athletic",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1908-05-17",
+     "local": "reformer",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    },
+    {
+     "fecha": "1908-05-17",
+     "local": "belgrano-athletic",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1908-05-17",
+     "local": "porteno",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 6,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1908-05-24",
+     "local": "san-isidro",
+     "visitante": "alumni",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1908-05-24",
+     "local": "lomas-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1908-05-25",
+     "local": "argentino-de-quilmes",
+     "visitante": "belgrano-athletic",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1908-05-25",
+     "local": "quilmes",
+     "visitante": "san-martin-athletic",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1908-05-31",
+     "local": "alumni",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1908-05-31",
+     "local": "san-martin-athletic",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1908-05-31",
+     "local": "porteno",
+     "visitante": "lomas-athletic",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1908-05-31",
+     "local": "reformer",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1908-06-07",
+     "local": "alumni",
+     "visitante": "porteno",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1908-06-07",
+     "local": "argentino-de-quilmes",
+     "visitante": "quilmes",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1908-06-07",
+     "local": "belgrano-athletic",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1908-06-07",
+     "local": "lomas-athletic",
+     "visitante": "reformer",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1908-06-18",
+     "local": "lomas-athletic",
+     "visitante": "alumni",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1908-06-18",
+     "local": "san-isidro",
+     "visitante": "san-martin-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: San Martín Athletic no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1908-06-18",
+     "local": "reformer",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1908-06-21",
+     "local": "alumni",
+     "visitante": "reformer",
+     "gl": 12,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1908-06-21",
+     "local": "belgrano-athletic",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1908-06-21",
+     "local": "san-martin-athletic",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1908-06-21",
+     "local": "quilmes",
+     "visitante": "lomas-athletic",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1908-06-24",
+     "local": "belgrano-athletic",
+     "visitante": "alumni",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1908-06-28",
+     "local": "belgrano-athletic",
+     "visitante": "reformer",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Reformer no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1908-06-29",
+     "local": "san-martin-athletic",
+     "visitante": "reformer",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1908-07-05",
+     "local": "san-martin-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1908-07-05",
+     "local": "porteno",
+     "visitante": "reformer",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1908-07-05",
+     "local": "lomas-athletic",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 6,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1908-07-09",
+     "local": "reformer",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    },
+    {
+     "fecha": "1908-07-09",
+     "local": "argentino-de-quilmes",
+     "visitante": "porteno",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1908-07-09",
+     "local": "lomas-athletic",
+     "visitante": "san-martin-athletic",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1908-07-12",
+     "local": "san-martin-athletic",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1908-07-19",
+     "local": "san-martin-athletic",
+     "visitante": "alumni",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1908-07-19",
+     "local": "quilmes",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1908-07-19",
+     "local": "lomas-athletic",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1908-07-26",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "reformer",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Estudiantes (Buenos Aires) no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1908-08-02",
+     "local": "san-martin-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1908-08-09",
+     "local": "quilmes",
+     "visitante": "reformer",
+     "gl": 8,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1908-08-09",
+     "local": "san-isidro",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1908-08-09",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-martin-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: San Martín Athletic no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1908-08-09",
+     "local": "lomas-athletic",
+     "visitante": "porteno",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1908-08-16",
+     "local": "argentino-de-quilmes",
+     "visitante": "san-martin-athletic",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1908-08-16",
+     "local": "quilmes",
+     "visitante": "belgrano-athletic",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1908-08-23",
+     "local": "argentino-de-quilmes",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1908-08-23",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "belgrano-athletic",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [],
+     "para_local": [
+      2,
+      2,
+      "D"
+     ],
+     "para_visitante": [
+      2,
+      2,
+      "V"
+     ],
+     "nota": "Después la asociación le dio el partido a Belgrano Athletic y además le descontó 2 puntos a Estudiantes."
+    },
+    {
+     "fecha": "1908-08-23",
+     "local": "san-isidro",
+     "visitante": "lomas-athletic",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1908-08-30",
+     "local": "porteno",
+     "visitante": "san-martin-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: San Martín Athletic no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1908-08-30",
+     "local": "alumni",
+     "visitante": "quilmes",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1908-08-30",
+     "local": "argentino-de-quilmes",
+     "visitante": "reformer",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1908-08-30",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1908-08-30",
+     "local": "belgrano-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1908-09-06",
+     "local": "belgrano-athletic",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1908-09-06",
+     "local": "san-isidro",
+     "visitante": "porteno",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1908-09-08",
+     "local": "quilmes",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 7,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1908-09-08",
+     "local": "porteno",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1908-09-08",
+     "local": "san-martin-athletic",
+     "visitante": "san-isidro",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1908-09-20",
+     "local": "alumni",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1908-09-20",
+     "local": "argentino-de-quilmes",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1908-09-20",
+     "local": "reformer",
+     "visitante": "san-martin-athletic",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "partidos": [
+    {
+     "fecha": "1908-09-27",
+     "local": "san-isidro",
+     "visitante": "reformer",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Reformer no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1908-09-27",
+     "local": "alumni",
+     "visitante": "argentino-de-quilmes",
+     "gl": 7,
+     "gv": 0,
+     "estadio": "Ferro Carril Oeste",
+     "goles": []
+    },
+    {
+     "fecha": "1908-09-27",
+     "local": "porteno",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1908-09-27",
+     "local": "quilmes",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "partidos": [
+    {
+     "fecha": "1908-10-04",
+     "local": "quilmes",
+     "visitante": "porteno",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    },
+    {
+     "fecha": "1908-10-04",
+     "local": "argentino-de-quilmes",
+     "visitante": "lomas-athletic",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "partidos": [
+    {
+     "fecha": "1908-10-11",
+     "local": "porteno",
+     "visitante": "alumni",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1908-10-11",
+     "local": "san-isidro",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1908-10-11",
+     "local": "reformer",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    },
+    {
+     "fecha": "1908-10-11",
+     "local": "lomas-athletic",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Lomas Athletic no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "partidos": [
+    {
+     "fecha": "1908-10-18",
+     "local": "alumni",
+     "visitante": "san-isidro",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1908-10-18",
+     "local": "porteno",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1908-10-18",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Quilmes no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "partidos": [
+    {
+     "fecha": "1908-10-25",
+     "local": "reformer",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    },
+    {
+     "fecha": "1908-10-25",
+     "local": "san-isidro",
+     "visitante": "quilmes",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1908-10-25",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "lomas-athletic",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "partidos": [
+    {
+     "fecha": "1908-11-01",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "alumni",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1908-11-01",
+     "local": "san-isidro",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "partidos": [
+    {
+     "fecha": "1908-11-08",
+     "local": "porteno",
+     "visitante": "san-isidro",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Porteño",
+     "goles": []
+    },
+    {
+     "fecha": "1908-11-08",
+     "local": "lomas-athletic",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Lomas Athletic no se presentó y perdió el partido."
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "partidos": [
+    {
+     "fecha": "1908-11-11",
+     "local": "argentino-de-quilmes",
+     "visitante": "san-isidro",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

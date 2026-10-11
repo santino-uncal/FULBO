@@ -33,6 +33,28 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1908: el campeonato de la Argentine Football Association, la única liga ese año (abril a noviembre; campeón
+    # Belgrano Athletic): 10 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de
+    # partidos es una fecha. Nacional abandonó después de dos partidos (anulados). A Estudiantes y a San Martín Athletic
+    # les dieron un partido perdido y les descontaron 2 puntos. Bajaba el último: San Martín Athletic. Estudiantes es el de
+    # Buenos Aires. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles)
+    "1908-primera": {"nombre": "Campeonato de Primera División 1908 (amateur)", "anio": 1908, "liga": "a_mano",
+                     "slug": "1908-primera", "zonas": "unica", "fechas": 34, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "descuentos": {"estudiantes-buenos-aires": 2, "san-martin-athletic": 2},
+                     "descuentos_texto": "A Estudiantes y a San Martín Athletic se les descontaron 2 puntos, además de "
+                                         "perder un partido que no habían perdido en la cancha (Estudiantes empató con "
+                                         "Belgrano Athletic; San Martín Athletic le ganó a Porteño).",
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide "
+                                    "con el orden de RSSSF). Nacional abandonó después de jugar dos partidos, que se anularon. "
+                                    "Los partidos que no se jugaron porque un equipo no se presentó cuentan como ganados por "
+                                    "el otro, sin goles. RSSSF no numera las fechas: cada día de partidos es una fecha.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1908 (amateur). Cada partido ganado valía 2 "
+                                    "puntos.",
+                     "goleadores_nota": "RSSSF no trae los goles de cada partido; el goleador del torneo fue Alfredo Brown "
+                                        "(Alumni), con 20 goles.",
+                     "descensos": "tabla", "descienden": 1},
     # 1909: el campeonato de la Argentine Football Association, la única liga ese año (mayo a noviembre; campeón Alumni):
     # 10 equipos a dos ruedas, con 2 puntos por partido ganado. Cada día de partidos es una fecha. Bajaban los dos últimos:
     # Reformer y Lomas Athletic. Estudiantes es el de Buenos Aires. La tabla de RSSSF cuenta un gol más a favor de
@@ -5516,6 +5538,7 @@ CLUBES_NUEVOS = {
     "alu": ("alumni", "Alumni"),   # (no está en ESPN: 1911)
     "ref": ("reformer", "Reformer"),
     "lac": ("lomas-athletic", "Lomas Athletic"),   # (no están en ESPN: 1909)
+    "sma": ("san-martin-athletic", "San Martín Athletic"),   # (no está en ESPN: 1908; escudo genérico)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),
