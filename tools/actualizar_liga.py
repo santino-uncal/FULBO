@@ -33,6 +33,22 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1904: el campeonato de la Argentine Football Association, la única liga ese año (mayo a septiembre; campeón Belgrano
+    # Athletic, invicto): 6 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de
+    # partidos es una fecha. No bajó nadie. Estudiantes es el de Buenos Aires. ESPN no lo tiene: va a mano (tools/a_mano;
+    # RSSSF, sin goles salvo los del partido en el que Belgrano se aseguró el título)
+    "1904-primera": {"nombre": "Campeonato de Primera División 1904 (amateur)", "anio": 1904, "liga": "a_mano",
+                     "slug": "1904-primera", "zonas": "unica", "fechas": 20, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide "
+                                    "con el orden de RSSSF). Los partidos que no se jugaron y la asociación le dio a uno cuentan "
+                                    "sin goles. RSSSF no numera las fechas: cada día de partidos es una fecha.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1904 (amateur). Cada partido ganado valía 2 "
+                                    "puntos.",
+                     "goleadores_nota": "Los goles son solo del Quilmes 0-4 Belgrano Athletic del 7 de agosto, el partido en "
+                                        "el que Belgrano se aseguró el campeonato (de RSSSF, con los minutos).",
+                     "sin_descensos": "No hubo descensos. En 1905 se sumó Reformer."},
     # 1905: el campeonato de la Argentine Football Association, la única liga ese año (mayo a septiembre; campeón Alumni):
     # 7 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de partidos es una
     # fecha. Barracas Athletic dejó de presentarse: la asociación les dio esos partidos a los otros (sin goles). El

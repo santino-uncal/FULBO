@@ -1,0 +1,432 @@
+{
+ "nombre": "Campeonato de Primera División 1904 (amateur)",
+ "fuente": "Resultados, días y canchas: RSSSF (de La Nación y La Prensa), sin goles salvo los del Quilmes-Belgrano Athletic del 7 de agosto (con los minutos). RSSSF no numera las fechas: cada día de partidos es una fecha. Las canchas, por el lugar que da RSSSF (Alumni jugaba de local en la del Club Atlético de Flores; Barracas Athletic, en Banfield). Estudiantes (Club de Estudiantes, de Palermo) es el de Buenos Aires. Los partidos que no se jugaron y la asociación le dio a uno van sin goles. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1904-05-09",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1904-05-12",
+     "local": "alumni",
+     "visitante": "barracas-athletic",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha del Club Atlético de Flores",
+     "goles": []
+    },
+    {
+     "fecha": "1904-05-12",
+     "local": "belgrano-athletic",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1904-05-12",
+     "local": "lomas-athletic",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1904-05-15",
+     "local": "lomas-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1904-05-22",
+     "local": "barracas-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Athletic (Banfield)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1904-05-24",
+     "local": "barracas-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Barracas Athletic (Banfield)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1904-05-29",
+     "local": "belgrano-athletic",
+     "visitante": "barracas-athletic",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1904-06-02",
+     "local": "belgrano-athletic",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 6,
+     "gv": 2,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1904-06-02",
+     "local": "quilmes",
+     "visitante": "barracas-athletic",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1904-06-05",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "barracas-athletic",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1904-06-12",
+     "local": "belgrano-athletic",
+     "visitante": "alumni",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1904-06-12",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "lomas-athletic",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1904-06-19",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1904-06-19",
+     "local": "lomas-athletic",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1904-06-24",
+     "local": "barracas-athletic",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Athletic (Banfield)",
+     "goles": []
+    },
+    {
+     "fecha": "1904-06-24",
+     "local": "belgrano-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1904-06-24",
+     "local": "quilmes",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1904-07-17",
+     "local": "lomas-athletic",
+     "visitante": "alumni",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1904-07-31",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "belgrano-athletic",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1904-08-07",
+     "local": "barracas-athletic",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de Barracas Athletic (Banfield)",
+     "goles": []
+    },
+    {
+     "fecha": "1904-08-07",
+     "local": "quilmes",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Quilmes Atlético Club",
+     "goles": [
+      {
+       "jugador": "Rioboó",
+       "equipo": "visitante",
+       "min": 5
+      },
+      {
+       "jugador": "Forrester",
+       "equipo": "visitante",
+       "min": 9
+      },
+      {
+       "jugador": "Ratcliff",
+       "equipo": "visitante",
+       "min": 32
+      },
+      {
+       "jugador": "Forrester",
+       "equipo": "visitante",
+       "min": 85
+      }
+     ],
+     "arbitro": "W. Williams",
+     "nota": "Con este partido Belgrano Athletic se aseguró el campeonato."
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1904-08-21",
+     "local": "alumni",
+     "visitante": "belgrano-athletic",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha del Club Atlético de Flores",
+     "goles": []
+    },
+    {
+     "fecha": "1904-08-21",
+     "local": "quilmes",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1904-08-28",
+     "local": "alumni",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Alumni."
+    },
+    {
+     "fecha": "1904-08-28",
+     "local": "lomas-athletic",
+     "visitante": "barracas-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Lomas Athletic."
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1904-08-30",
+     "local": "alumni",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1904-09-11",
+     "local": "alumni",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1904-09-18",
+     "local": "quilmes",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1904-09-24",
+     "local": "barracas-athletic",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Barracas Athletic."
+    }
+   ]
+  }
+ ]
+}
