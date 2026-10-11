@@ -1,0 +1,588 @@
+{
+ "nombre": "Campeonato de Primera División 1906 (amateur)",
+ "fuente": "Resultados y días: RSSSF (de La Nación y La Prensa), sin goles salvo los del Estudiantes-San Martín Athletic del 1 de julio y los de la final (con los minutos). Cada día de partidos es una fecha, con los dos grupos juntos. RSSSF no trae las canchas: va la del local, o la que dice RSSSF (Alumni jugaba de local en la de Sportiva Argentina; Belgrano Extra, el segundo equipo de Belgrano Athletic, en la de Belgrano). Estudiantes (Club Atlético Estudiantes) es el de Buenos Aires. La tabla de cada grupo que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1906-04-29",
+     "local": "san-isidro",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1906-04-29",
+     "local": "reformer",
+     "visitante": "lomas-athletic",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1906-05-06",
+     "local": "barracas-athletic",
+     "visitante": "reformer",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Barracas Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1906-05-06",
+     "local": "lomas-athletic",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1906-05-06",
+     "local": "san-martin-athletic",
+     "visitante": "san-isidro",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1906-05-06",
+     "local": "argentino-de-quilmes",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1906-05-06",
+     "local": "belgrano-extra",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1906-05-20",
+     "local": "san-isidro",
+     "visitante": "lomas-athletic",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1906-05-20",
+     "local": "argentino-de-quilmes",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1906-05-20",
+     "local": "belgrano-extra",
+     "visitante": "alumni",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1906-05-24",
+     "local": "barracas-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Barracas Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1906-05-24",
+     "local": "san-isidro",
+     "visitante": "reformer",
+     "gl": 4,
+     "gv": 3,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1906-05-24",
+     "local": "san-martin-athletic",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1906-05-24",
+     "local": "quilmes",
+     "visitante": "belgrano-athletic",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1906-05-25",
+     "local": "barracas-athletic",
+     "visitante": "san-martin-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Barracas Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1906-05-25",
+     "local": "belgrano-extra",
+     "visitante": "belgrano-athletic",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1906-05-25",
+     "local": "quilmes",
+     "visitante": "argentino-de-quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1906-06-17",
+     "local": "barracas-athletic",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1906-06-17",
+     "local": "lomas-athletic",
+     "visitante": "san-martin-athletic",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1906-06-17",
+     "local": "argentino-de-quilmes",
+     "visitante": "belgrano-extra",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    },
+    {
+     "fecha": "1906-06-17",
+     "local": "belgrano-athletic",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1906-07-01",
+     "local": "barracas-athletic",
+     "visitante": "san-isidro",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Barracas Athletic",
+     "goles": [],
+     "nota": "El 4 de septiembre la asociación le descontó 2 puntos a Barracas Athletic por haber puesto un jugador que no podía jugar."
+    },
+    {
+     "fecha": "1906-07-01",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-martin-athletic",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": [
+      {
+       "jugador": "Maximiliano Susán",
+       "equipo": "local",
+       "min": 1
+      },
+      {
+       "jugador": "Paolucci",
+       "equipo": "visitante",
+       "min": 40
+      },
+      {
+       "jugador": "Lennie",
+       "equipo": "local",
+       "min": 53
+      }
+     ],
+     "nota": "El acta se firmó 2-1, aunque varios diarios dieron 2-2. San Martín Athletic y el árbitro quisieron corregirla, pero la asociación no lo permitió y el 3 de octubre confirmó el 2-1: no contó el gol de Minvielle a los 89 minutos."
+    },
+    {
+     "fecha": "1906-07-01",
+     "local": "lomas-athletic",
+     "visitante": "reformer",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1906-07-01",
+     "local": "alumni",
+     "visitante": "belgrano-extra",
+     "gl": 9,
+     "gv": 0,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": [],
+     "nota": "Duró 60 minutos."
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1906-07-29",
+     "local": "lomas-athletic",
+     "visitante": "barracas-athletic",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": [],
+     "nota": "Duró 75 minutos."
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1906-08-05",
+     "local": "reformer",
+     "visitante": "estudiantes-buenos-aires",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1906-08-12",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "barracas-athletic",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1906-08-12",
+     "local": "belgrano-athletic",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1906-08-15",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "reformer",
+     "gl": 5,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1906-08-15",
+     "local": "san-isidro",
+     "visitante": "san-martin-athletic",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1906-08-19",
+     "local": "reformer",
+     "visitante": "san-isidro",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    },
+    {
+     "fecha": "1906-08-19",
+     "local": "belgrano-athletic",
+     "visitante": "belgrano-extra",
+     "gl": 6,
+     "gv": 3,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1906-08-26",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1906-08-26",
+     "local": "reformer",
+     "visitante": "barracas-athletic",
+     "gl": 11,
+     "gv": 0,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    },
+    {
+     "fecha": "1906-08-26",
+     "local": "argentino-de-quilmes",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Argentino de Quilmes",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1906-08-30",
+     "local": "san-martin-athletic",
+     "visitante": "reformer",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1906-09-02",
+     "local": "estudiantes-buenos-aires",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Estudiantes (Buenos Aires)",
+     "goles": []
+    },
+    {
+     "fecha": "1906-09-02",
+     "local": "san-martin-athletic",
+     "visitante": "barracas-athletic",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1906-09-02",
+     "local": "belgrano-athletic",
+     "visitante": "argentino-de-quilmes",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1906-09-02",
+     "local": "quilmes",
+     "visitante": "alumni",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1906-09-08",
+     "local": "lomas-athletic",
+     "visitante": "san-isidro",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1906-09-08",
+     "local": "alumni",
+     "visitante": "belgrano-athletic",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    },
+    {
+     "fecha": "1906-09-08",
+     "local": "quilmes",
+     "visitante": "belgrano-extra",
+     "gl": 8,
+     "gv": 0,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1906-09-09",
+     "local": "belgrano-extra",
+     "visitante": "argentino-de-quilmes",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1906-09-16",
+     "local": "san-isidro",
+     "visitante": "barracas-athletic",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de San Isidro",
+     "goles": []
+    },
+    {
+     "fecha": "1906-09-16",
+     "local": "san-martin-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de San Martín Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1906-09-23",
+     "local": "reformer",
+     "visitante": "san-martin-athletic",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Reformer",
+     "goles": []
+    },
+    {
+     "fecha": "1906-09-23",
+     "local": "alumni",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Sportiva Argentina",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1906-09-30",
+     "local": "alumni",
+     "visitante": "argentino-de-quilmes",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: Argentino de Quilmes no se presentó y perdió el partido.",
+     "estadio": "Cancha de Sportiva Argentina"
+    }
+   ]
+  }
+ ]
+}

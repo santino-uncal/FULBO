@@ -33,6 +33,42 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1906: el campeonato de la Argentine Football Association, la única liga ese año (abril a octubre; campeón Alumni):
+    # 11 equipos en dos grupos a dos ruedas ("zonas_a_mano": el A, de 6, y el B, de 5), con 2 puntos por partido ganado.
+    # Cada día de partidos es una fecha, con los dos grupos juntos. Los primeros de cada grupo jugaron la final (en
+    # "playoffs"; ganó Alumni). Belgrano Extra era el segundo equipo de Belgrano Athletic. A Barracas Athletic le
+    # descontaron 2 puntos. No bajó nadie. Estudiantes es el de Buenos Aires. ESPN no lo tiene: va a mano (tools/a_mano;
+    # RSSSF, sin goles salvo los de un partido y los de la final)
+    "1906-primera": {"nombre": "Campeonato de Primera División 1906 (amateur)", "anio": 1906, "liga": "a_mano",
+                     "slug": "1906-primera",
+                     "zonas_a_mano": {
+                         "Grupo A": ["lomas-athletic", "san-martin-athletic", "estudiantes-buenos-aires", "san-isidro",
+                                     "reformer", "barracas-athletic"],
+                         "Grupo B": ["alumni", "quilmes", "belgrano-athletic", "argentino-de-quilmes", "belgrano-extra"]},
+                     "fechas": 20, "pasan": 1, "puntos_victoria": 2,
+                     "descuentos": {"barracas-athletic": 2},
+                     "descuentos_texto": "A Barracas Athletic se le descontaron 2 puntos por haber puesto un jugador que no "
+                                         "podía jugar (en el partido con San Isidro del 1 de julio).",
+                     "texto_pasan": "El primero de cada grupo: jugaron la final",
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide "
+                                    "con el orden de RSSSF). Belgrano Extra era el segundo equipo de Belgrano Athletic. Cada "
+                                    "día de partidos es una fecha, con los dos grupos juntos.",
+                     "goleadores_nota": "Los goles son solo del Estudiantes-San Martín Athletic del 1 de julio y de la final "
+                                        "(de RSSSF, con los minutos).",
+                     "nombre_playoffs": "Final",
+                     "playoffs": [(r"^$^", "Final")],
+                     "playoffs_a_mano": {
+                         "Final": [
+                             {"fecha": "1906-10-07", "local": "alumni", "visitante": "lomas-athletic", "gl": 4, "gv": 0,
+                              "estadio": "Cancha de Porteño", "arbitro": "William Allerton Jordan",
+                              "goles": [{"jugador": "Lett", "equipo": "local", "min": 24},
+                                        {"jugador": "Eliseo Brown", "equipo": "local", "min": 35},
+                                        {"jugador": "Eliseo Brown", "equipo": "local", "min": 43},
+                                        {"jugador": "Campbell", "equipo": "local", "min": 80, "tipo": "ec"}]},
+                         ],
+                     },
+                     "sin_descensos": "No hubo descensos. En 1907 ya no jugó Belgrano Extra y se sumó Porteño."},
     # 1907: el campeonato de la Argentine Football Association, la única liga ese año (abril a noviembre; campeón Alumni,
     # invicto): 11 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de partidos
     # es una fecha. Barracas Athletic (en julio) y Quilmes (en octubre) abandonaron: los partidos que les faltaban, dados
@@ -5561,6 +5597,7 @@ CLUBES_NUEVOS = {
     "lac": ("lomas-athletic", "Lomas Athletic"),   # (no están en ESPN: 1909)
     "sma": ("san-martin-athletic", "San Martín Athletic"),   # (no está en ESPN: 1908; escudo genérico)
     "bat": ("barracas-athletic", "Barracas Athletic"),   # (no está en ESPN: 1907; escudo genérico)
+    "bex": ("belgrano-extra", "Belgrano Extra"),   # (no está en ESPN: 1906; el segundo equipo de Belgrano Athletic, con su escudo)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),
