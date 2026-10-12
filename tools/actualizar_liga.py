@@ -33,6 +33,22 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1899: el campeonato de The Argentine Association Football League, la única liga ese año (mayo a septiembre; campeón
+    # Belgrano Athletic, invicto, su primer título): 4 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no
+    # numera las fechas: cada día de partidos es una fecha. No bajó nadie. ESPN no lo tiene: va a mano (tools/a_mano;
+    # RSSSF, sin goles)
+    "1899-primera": {"nombre": "Campeonato de Primera División 1899 (amateur)", "anio": 1899, "liga": "a_mano",
+                     "slug": "1899-primera", "zonas": "unica", "fechas": 11, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide "
+                                    "con el orden de RSSSF). Los partidos que no se jugaron y la asociación le dio a uno cuentan "
+                                    "sin goles. RSSSF no numera las fechas: cada día de partidos es una fecha.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1899 (amateur). Cada partido ganado valía 2 "
+                                    "puntos.",
+                     "goleadores_nota": "RSSSF no trae los goles de este torneo.",
+                     "sin_descensos": "No hubo descensos. En 1900 ya no jugaron Lobos ni Lanús Athletic, y se sumaron English "
+                                      "High School (después Alumni) y Quilmes."},
     # 1900: el campeonato de The Argentine Association Football League, la única liga ese año (mayo a septiembre; campeón
     # English High School, que en 1901 pasó a llamarse Alumni: va como Alumni): 4 equipos a dos ruedas, con 2 puntos por
     # partido ganado. RSSSF no numera las fechas: cada día de partidos es una fecha. No bajó nadie. ESPN no lo tiene: va a
@@ -5696,6 +5712,8 @@ CLUBES_NUEVOS = {
     "bat": ("barracas-athletic", "Barracas Athletic"),   # (no está en ESPN: 1907; escudo genérico)
     "bex": ("belgrano-extra", "Belgrano Extra"),   # (no está en ESPN: 1906; el segundo equipo de Belgrano Athletic, con su escudo)
     "fla": ("flores-athletic", "Flores Athletic"),   # (no está en ESPN: 1903; escudo genérico)
+    "lob": ("lobos-athletic", "Lobos"),
+    "lat": ("lanus-athletic", "Lanús Athletic"),   # (no están en ESPN: 1899; escudo genérico el de Lanús Athletic)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),

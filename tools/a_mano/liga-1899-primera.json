@@ -1,0 +1,204 @@
+{
+ "nombre": "Campeonato de Primera División 1899 (amateur)",
+ "fuente": "Resultados y días: RSSSF (de La Nación y La Prensa), sin goles. RSSSF no numera las fechas: cada día de partidos es una fecha. RSSSF no trae las canchas: va la del local, o la que dice RSSSF. Los partidos que no se jugaron y la asociación le dio a uno van sin goles. La tabla que sale de los partidos es igual a la primera tabla de RSSSF; la de abajo de la página no coincide con los resultados en los goles de Belgrano Athletic y de Lanús Athletic",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1899-05-14",
+     "local": "lobos-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Lobos Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1899-05-25",
+     "local": "lanus-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Lanús Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1899-05-28",
+     "local": "belgrano-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1899-06-16",
+     "local": "lobos-athletic",
+     "visitante": "lanus-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Lobos."
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1899-06-24",
+     "local": "lanus-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Lanús Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1899-06-24",
+     "local": "belgrano-athletic",
+     "visitante": "lobos-athletic",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1899-06-29",
+     "local": "lanus-athletic",
+     "visitante": "lobos-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Lanús Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1899-07-09",
+     "local": "belgrano-athletic",
+     "visitante": "lanus-athletic",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1899-07-16",
+     "local": "lomas-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1899-08-06",
+     "local": "lomas-athletic",
+     "visitante": "lanus-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Lomas Athletic."
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1899-08-15",
+     "local": "lomas-athletic",
+     "visitante": "lobos-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Lobos."
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1899-09-09",
+     "local": "lobos-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de English High School",
+     "goles": [],
+     "arbitro": "Barrington Blomfield Syer",
+     "nota": "Con este partido Belgrano Athletic se aseguró el campeonato."
+    }
+   ]
+  }
+ ]
+}
