@@ -33,6 +33,37 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1898: el campeonato de The Argentine Association Football League, la única liga ese año (mayo a septiembre; campeón
+    # Lomas Athletic): 7 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de
+    # partidos es una fecha. Banfield (Banfield Athletic Club) dejó de presentarse: la asociación les dio esos partidos a
+    # los rivales. Lomas y Lobos empataron el primer puesto y jugaron un desempate (en "playoffs"; el primero, que ganó
+    # Lomas 1-0, se anuló, y Lomas ganó el segundo). No bajó nadie. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin
+    # goles salvo los del desempate)
+    "1898-primera": {"nombre": "Campeonato de Primera División 1898 (amateur)", "anio": 1898, "liga": "a_mano",
+                     "slug": "1898-primera", "zonas": "unica", "fechas": 26, "pasan": 2, "puntos_victoria": 2,
+                     "texto_pasan": "Empatados en el primer puesto (20 puntos): definieron el título en un desempate",
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide "
+                                    "con el orden de RSSSF). Banfield se llamaba Banfield Athletic Club; Palermo Athletic no es "
+                                    "el Palermo de después. Los partidos que no se jugaron y la asociación le dio a uno cuentan "
+                                    "sin goles. RSSSF no numera las fechas: cada día de partidos es una fecha.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1898 (amateur). Cada partido ganado valía 2 "
+                                    "puntos.",
+                     "goleadores_nota": "Los goles son solo del desempate (de RSSSF, sin los minutos).",
+                     "nombre_playoffs": "Desempate",
+                     "playoffs": [(r"^$^", "Final")],
+                     "playoffs_a_mano": {
+                         "Final": [
+                             {"fecha": "1898-09-11", "local": "lomas-athletic", "visitante": "lobos-athletic", "gl": 2, "gv": 1,
+                              "estadio": "Cancha de Barker Memorial School", "arbitro": "W. McEwen",
+                              "goles": [{"jugador": "J. Anderson", "equipo": "local"},
+                                        {"jugador": "J. Anderson", "equipo": "local"},
+                                        {"jugador": "Jordan", "equipo": "visitante"}],
+                              "nota": "Se jugó otra vez porque el primer desempate, el 28 de agosto en la misma cancha, que "
+                                      "Lomas había ganado 1-0, se anuló."},
+                         ],
+                     },
+                     "sin_descensos": "No hubo descensos. En 1899 ya no jugaron United Banks, Palermo Athletic ni Banfield."},
     # 1899: el campeonato de The Argentine Association Football League, la única liga ese año (mayo a septiembre; campeón
     # Belgrano Athletic, invicto, su primer título): 4 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no
     # numera las fechas: cada día de partidos es una fecha. No bajó nadie. ESPN no lo tiene: va a mano (tools/a_mano;
@@ -5714,6 +5745,8 @@ CLUBES_NUEVOS = {
     "fla": ("flores-athletic", "Flores Athletic"),   # (no está en ESPN: 1903; escudo genérico)
     "lob": ("lobos-athletic", "Lobos"),
     "lat": ("lanus-athletic", "Lanús Athletic"),   # (no están en ESPN: 1899; escudo genérico el de Lanús Athletic)
+    "ubk": ("united-banks", "United Banks"),
+    "pat": ("palermo-athletic", "Palermo Athletic"),   # (no están en ESPN: 1898; escudos genéricos)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),

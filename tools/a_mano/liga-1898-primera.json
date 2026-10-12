@@ -1,0 +1,581 @@
+{
+ "nombre": "Campeonato de Primera División 1898 (amateur)",
+ "fuente": "Resultados y días: RSSSF (de La Nación y La Prensa), sin goles salvo los del desempate. RSSSF no numera las fechas: cada día de partidos es una fecha. Los cuatro partidos que la asociación les dio a los rivales de Banfield después del 3 de julio (sin día) van cada uno en una fecha aparte, con el día 3 de julio. RSSSF no trae las canchas: va la del local, o la que dice RSSSF. Banfield se llamaba Banfield Athletic Club. Los partidos que no se jugaron y la asociación le dio a uno van sin goles. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1898-05-01",
+     "local": "belgrano-athletic",
+     "visitante": "united-banks",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1898-05-08",
+     "local": "belgrano-athletic",
+     "visitante": "palermo-athletic",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1898-05-15",
+     "local": "banfield",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1898-05-15",
+     "local": "palermo-athletic",
+     "visitante": "lanus-athletic",
+     "gl": 0,
+     "gv": 8,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1898-05-19",
+     "local": "banfield",
+     "visitante": "palermo-athletic",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1898-05-19",
+     "local": "lobos-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Lobos",
+     "goles": []
+    },
+    {
+     "fecha": "1898-05-19",
+     "local": "lomas-athletic",
+     "visitante": "united-banks",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1898-05-22",
+     "local": "banfield",
+     "visitante": "lobos-athletic",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1898-05-22",
+     "local": "lomas-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1898-05-25",
+     "local": "belgrano-athletic",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Belgrano Athletic."
+    },
+    {
+     "fecha": "1898-05-25",
+     "local": "lobos-athletic",
+     "visitante": "palermo-athletic",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Lobos",
+     "goles": []
+    },
+    {
+     "fecha": "1898-05-25",
+     "local": "lomas-athletic",
+     "visitante": "lanus-athletic",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1898-05-29",
+     "local": "palermo-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1898-05-29",
+     "local": "united-banks",
+     "visitante": "lanus-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Barker Memorial School",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1898-06-05",
+     "local": "lanus-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Lanús Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1898-06-09",
+     "local": "lanus-athletic",
+     "visitante": "banfield",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Lanús Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1898-06-09",
+     "local": "lobos-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Lobos",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1898-06-12",
+     "local": "banfield",
+     "visitante": "united-banks",
+     "gl": 0,
+     "gv": 7,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1898-06-19",
+     "local": "lomas-athletic",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Lomas Athletic."
+    },
+    {
+     "fecha": "1898-06-19",
+     "local": "palermo-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 1,
+     "gv": 8,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1898-06-24",
+     "local": "belgrano-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1898-06-24",
+     "local": "lobos-athletic",
+     "visitante": "lanus-athletic",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Lobos",
+     "goles": []
+    },
+    {
+     "fecha": "1898-06-24",
+     "local": "palermo-athletic",
+     "visitante": "united-banks",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1898-06-26",
+     "local": "lomas-athletic",
+     "visitante": "palermo-athletic",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1898-06-26",
+     "local": "united-banks",
+     "visitante": "lobos-athletic",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1898-06-29",
+     "local": "belgrano-athletic",
+     "visitante": "lobos-athletic",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1898-07-03",
+     "local": "banfield",
+     "visitante": "lanus-athletic",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1898-07-03",
+     "local": "united-banks",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1898-07-03",
+     "local": "banfield",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Belgrano Athletic, después del 3 de julio (sin día). Banfield no se presentó a ninguno de sus últimos partidos."
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1898-07-03",
+     "local": "lobos-athletic",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Lobos, después del 3 de julio (sin día). Banfield no se presentó a ninguno de sus últimos partidos."
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1898-07-03",
+     "local": "palermo-athletic",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a Palermo Athletic, después del 3 de julio (sin día). Banfield no se presentó a ninguno de sus últimos partidos."
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1898-07-03",
+     "local": "united-banks",
+     "visitante": "banfield",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "sin_goles": true,
+     "nota": "No se jugó: la asociación le dio el partido a United Banks, después del 3 de julio (sin día). Banfield no se presentó a ninguno de sus últimos partidos."
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1898-07-09",
+     "local": "lanus-athletic",
+     "visitante": "united-banks",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Lanús Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1898-07-09",
+     "local": "lomas-athletic",
+     "visitante": "lobos-athletic",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1898-07-24",
+     "local": "lanus-athletic",
+     "visitante": "lobos-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Lanús Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1898-07-24",
+     "local": "united-banks",
+     "visitante": "belgrano-athletic",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1898-07-31",
+     "local": "belgrano-athletic",
+     "visitante": "lanus-athletic",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1898-08-07",
+     "local": "lanus-athletic",
+     "visitante": "palermo-athletic",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Lanús Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1898-08-14",
+     "local": "lanus-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Lanús Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1898-08-14",
+     "local": "lobos-athletic",
+     "visitante": "united-banks",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Lobos",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1898-08-21",
+     "local": "palermo-athletic",
+     "visitante": "lobos-athletic",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "partidos": [
+    {
+     "fecha": "1898-08-28",
+     "local": "united-banks",
+     "visitante": "palermo-athletic",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Barker Memorial School",
+     "goles": [],
+     "nota": "Duró 60 minutos."
+    }
+   ]
+  }
+ ]
+}
