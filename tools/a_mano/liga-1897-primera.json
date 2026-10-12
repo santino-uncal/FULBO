@@ -1,0 +1,499 @@
+{
+ "nombre": "Campeonato de Primera División 1897 (amateur)",
+ "fuente": "Resultados y días: RSSSF (de La Nación y La Prensa), sin goles salvo el del tercer desempate. RSSSF no numera las fechas: cada día de partidos es una fecha. RSSSF no trae las canchas: va la del local, o la que dice RSSSF. Banfield se llamaba Banfield Athletic Club. Belgrano B era el segundo equipo de Belgrano Athletic (el mismo que en 1906 jugó como Belgrano Extra), y jugaba en su cancha. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1897-05-02",
+     "local": "flores-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 3,
+     "gv": 4,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1897-05-09",
+     "local": "banfield",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 6,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1897-05-09",
+     "local": "belgrano-extra",
+     "visitante": "flores-athletic",
+     "gl": 0,
+     "gv": 8,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1897-05-16",
+     "local": "belgrano-athletic",
+     "visitante": "lanus-athletic",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1897-05-16",
+     "local": "flores-athletic",
+     "visitante": "palermo-athletic",
+     "gl": 11,
+     "gv": 0,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1897-05-16",
+     "local": "lomas-athletic",
+     "visitante": "belgrano-extra",
+     "gl": 10,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1897-05-25",
+     "local": "banfield",
+     "visitante": "lanus-athletic",
+     "gl": 1,
+     "gv": 8,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1897-05-25",
+     "local": "belgrano-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1897-05-27",
+     "local": "belgrano-athletic",
+     "visitante": "belgrano-extra",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1897-05-27",
+     "local": "lomas-athletic",
+     "visitante": "flores-athletic",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1897-05-30",
+     "local": "flores-athletic",
+     "visitante": "lanus-athletic",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1897-05-30",
+     "local": "palermo-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 6,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1897-06-06",
+     "local": "banfield",
+     "visitante": "flores-athletic",
+     "gl": 1,
+     "gv": 9,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1897-06-06",
+     "local": "belgrano-athletic",
+     "visitante": "palermo-athletic",
+     "gl": 14,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1897-06-13",
+     "local": "belgrano-extra",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1897-06-17",
+     "local": "banfield",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 6,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1897-06-17",
+     "local": "lanus-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1897-06-24",
+     "local": "lomas-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1897-06-24",
+     "local": "palermo-athletic",
+     "visitante": "belgrano-extra",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Palermo Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1897-06-27",
+     "local": "banfield",
+     "visitante": "palermo-athletic",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1897-06-27",
+     "local": "lanus-athletic",
+     "visitante": "belgrano-extra",
+     "gl": 8,
+     "gv": 0,
+     "estadio": "Cancha de Lanús Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1897-06-29",
+     "local": "belgrano-athletic",
+     "visitante": "flores-athletic",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1897-06-29",
+     "local": "lomas-athletic",
+     "visitante": "palermo-athletic",
+     "gl": 7,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1897-07-04",
+     "local": "flores-athletic",
+     "visitante": "banfield",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1897-07-04",
+     "local": "palermo-athletic",
+     "visitante": "lanus-athletic",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1897-07-09",
+     "local": "flores-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1897-07-09",
+     "local": "lanus-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1897-07-11",
+     "local": "banfield",
+     "visitante": "belgrano-extra",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1897-07-18",
+     "local": "lomas-athletic",
+     "visitante": "banfield",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1897-07-18",
+     "local": "belgrano-extra",
+     "visitante": "lanus-athletic",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1897-07-25",
+     "local": "lanus-athletic",
+     "visitante": "flores-athletic",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1897-07-25",
+     "local": "palermo-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Palermo Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1897-08-01",
+     "local": "lanus-athletic",
+     "visitante": "palermo-athletic",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1897-08-08",
+     "local": "belgrano-athletic",
+     "visitante": "banfield",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1897-08-08",
+     "local": "palermo-athletic",
+     "visitante": "flores-athletic",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1897-08-15",
+     "local": "lanus-athletic",
+     "visitante": "banfield",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1897-08-15",
+     "local": "belgrano-extra",
+     "visitante": "palermo-athletic",
+     "gl": 1,
+     "gv": 4,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1897-08-22",
+     "local": "palermo-athletic",
+     "visitante": "banfield",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Banfield",
+     "goles": []
+    },
+    {
+     "fecha": "1897-08-22",
+     "local": "flores-athletic",
+     "visitante": "belgrano-extra",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1897-08-29",
+     "local": "belgrano-extra",
+     "visitante": "lomas-athletic",
+     "gl": 1,
+     "gv": 9,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1897-08-30",
+     "local": "lomas-athletic",
+     "visitante": "lanus-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1897-08-30",
+     "local": "belgrano-extra",
+     "visitante": "belgrano-athletic",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

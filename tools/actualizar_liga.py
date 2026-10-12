@@ -33,6 +33,45 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1897: el campeonato de The Argentine Association Football League, la única liga ese año (mayo a septiembre; campeón
+    # Lomas Athletic): 7 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de
+    # partidos es una fecha. Belgrano B era el segundo equipo de Belgrano Athletic (va como Belgrano Extra, el nombre que
+    # tuvo en 1906). Lomas y Lanús Athletic empataron el primer puesto y jugaron un desempate de tres partidos (en
+    # "playoffs", sin cuadro: los dos primeros, empatados con alargue, y el tercero como "Final"). No bajó nadie. ESPN no lo tiene: va a mano (tools/a_mano;
+    # RSSSF, sin goles salvo el del último desempate)
+    "1897-primera": {"nombre": "Campeonato de Primera División 1897 (amateur)", "anio": 1897, "liga": "a_mano",
+                     "slug": "1897-primera", "zonas": "unica", "fechas": 23, "pasan": 2, "puntos_victoria": 2,
+                     "texto_pasan": "Empatados en el primer puesto (20 puntos): definieron el título en un desempate de tres "
+                                    "partidos",
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide "
+                                    "con el orden de RSSSF). Banfield se llamaba Banfield Athletic Club. Belgrano Extra (en "
+                                    "RSSSF, Belgrano B) era el segundo equipo de Belgrano Athletic; Palermo Athletic no es el "
+                                    "Palermo de después. RSSSF no numera las fechas: cada día de partidos es una fecha.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1897 (amateur). Cada partido ganado valía 2 "
+                                    "puntos.",
+                     "goleadores_nota": "Los goles son solo del último desempate (de RSSSF, sin los minutos).",
+                     "nombre_playoffs": "Desempate",
+                     "sin_cuadro": True,
+                     "playoffs": [(r"^$^", "Desempate"), (r"^$^", "Final")],
+                     "playoffs_a_mano": {
+                         "Desempate": [
+                             {"fecha": "1897-09-08", "local": "lomas-athletic", "visitante": "lanus-athletic", "gl": 1, "gv": 1,
+                              "alargue": True, "estadio": "Cancha de Lomas Athletic",
+                              "nota": "Duró 90 minutos más 30 de alargue."},
+                             {"fecha": "1897-09-12", "local": "lomas-athletic", "visitante": "lanus-athletic", "gl": 0, "gv": 0,
+                              "alargue": True, "estadio": "Cancha de Lomas Athletic",
+                              "nota": "Duró 60 minutos más 30 de alargue."},
+                         ],
+                         "Final": [
+                             {"fecha": "1897-09-19", "local": "lomas-athletic", "visitante": "lanus-athletic", "gl": 1, "gv": 0,
+                              "estadio": "Cancha de Lomas Athletic", "arbitro": "Barrington Blomfield Syer",
+                              "goles": [{"jugador": "Stirling", "equipo": "local"}],
+                              "nota": "El tercer desempate. Duró 60 minutos."},
+                         ],
+                     },
+                     "sin_descensos": "No hubo descensos. En 1898 ya no jugaron Flores Athletic ni Belgrano B, y se sumaron "
+                                      "Lobos y United Banks."},
     # 1898: el campeonato de The Argentine Association Football League, la única liga ese año (mayo a septiembre; campeón
     # Lomas Athletic): 7 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de
     # partidos es una fecha. Banfield (Banfield Athletic Club) dejó de presentarse: la asociación les dio esos partidos a
