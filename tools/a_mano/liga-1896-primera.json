@@ -1,0 +1,285 @@
+{
+ "nombre": "Campeonato de Primera División 1896 (amateur)",
+ "fuente": "Resultados, fechas y días: RSSSF (de The Buenos Aires Herald y otras fuentes), sin goles salvo los del Belgrano-Lomas Athletic. Las fechas son las de RSSSF (la 13 se jugó en dos días; la 16, antes que otras). RSSSF no trae las canchas: va la del local, o la que dice RSSSF (RSSSF cree que Lomas Academy jugaba de local en la de Lomas Athletic y Belgrano Athletic en el Belgrano Polo Ground). Lomas Academy era un equipo de Lomas Athletic. Belgrano Athletic se llamaba Saint Lawrence hasta abril. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1896-05-10",
+     "local": "flores-athletic",
+     "visitante": "retiro-athletic",
+     "gl": 4,
+     "gv": 2,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1896-05-10",
+     "local": "lomas-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1896-05-17",
+     "local": "belgrano-athletic",
+     "visitante": "retiro-athletic",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1896-05-25",
+     "local": "lomas-academy",
+     "visitante": "lomas-athletic",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Academy",
+     "goles": []
+    },
+    {
+     "fecha": "1896-05-25",
+     "local": "flores-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1896-05-31",
+     "local": "retiro-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 1,
+     "gv": 5,
+     "estadio": "Cancha de Retiro Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1896-06-04",
+     "local": "flores-athletic",
+     "visitante": "lomas-academy",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1896-06-13",
+     "local": "retiro-athletic",
+     "visitante": "lomas-academy",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Retiro Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1896-06-21",
+     "local": "flores-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1896-06-24",
+     "local": "lomas-academy",
+     "visitante": "belgrano-athletic",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Academy",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1896-06-29",
+     "local": "retiro-athletic",
+     "visitante": "flores-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Retiro Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1896-06-29",
+     "local": "lomas-athletic",
+     "visitante": "lomas-academy",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1896-07-09",
+     "local": "lomas-academy",
+     "visitante": "flores-athletic",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1896-07-11",
+     "local": "lomas-academy",
+     "visitante": "retiro-athletic",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Academy",
+     "goles": [],
+     "nota": "Con este partido Lomas Academy se aseguró el campeonato."
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1896-07-13",
+     "local": "belgrano-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Belgrano Polo Ground",
+     "goles": [
+      {
+       "jugador": "D. Gibson",
+       "equipo": "local",
+       "tipo": "ec"
+      },
+      {
+       "jugador": "H. Rugeroni",
+       "equipo": "local"
+      },
+      {
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "C. Comber",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "RSSSF no está seguro del día (el 12 o el 13 de julio). Va el 2-2 de The Buenos Aires Herald (con los goles; uno de Lomas, de un tumulto, sin autor); otra fuente dio 1-1."
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1896-07-26",
+     "local": "belgrano-athletic",
+     "visitante": "flores-athletic",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1896-08-09",
+     "local": "lomas-athletic",
+     "visitante": "retiro-athletic",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1896-08-02",
+     "local": "retiro-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Retiro Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1896-08-15",
+     "local": "belgrano-athletic",
+     "visitante": "lomas-academy",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1896-07-05",
+     "local": "lomas-athletic",
+     "visitante": "flores-athletic",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

@@ -33,6 +33,23 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1896: el campeonato de la Argentine Association Football League, la única liga ese año (mayo a agosto; campeón
+    # Lomas Academy, un equipo de Lomas Athletic, que la AFA cuenta aparte): 5 equipos a dos ruedas, con 2 puntos por
+    # partido ganado, en las 16 fechas de RSSSF. No bajó nadie. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles
+    # salvo los de un partido)
+    "1896-primera": {"nombre": "Campeonato de Primera División 1896 (amateur)", "anio": 1896, "liga": "a_mano",
+                     "slug": "1896-primera", "zonas": "unica", "fechas": 16, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide "
+                                    "con el orden de RSSSF). Lomas Academy era un equipo de Lomas Athletic; la AFA le cuenta el "
+                                    "título aparte. Belgrano Athletic se llamaba Saint Lawrence hasta abril.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1896 (amateur). Cada partido ganado valía 2 "
+                                    "puntos.",
+                     "goleadores_nota": "Los goles son solo del Belgrano Athletic 2-2 Lomas Athletic (de The Buenos Aires "
+                                        "Herald, sin los minutos).",
+                     "sin_descensos": "No hubo descensos. En 1897 ya no jugaron Lomas Academy ni Retiro Athletic, y se sumaron "
+                                      "Lanús Athletic, Palermo Athletic, Belgrano B y Banfield."},
     # 1897: el campeonato de The Argentine Association Football League, la única liga ese año (mayo a septiembre; campeón
     # Lomas Athletic): 7 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de
     # partidos es una fecha. Belgrano B era el segundo equipo de Belgrano Athletic (va como Belgrano Extra, el nombre que
@@ -5786,6 +5803,8 @@ CLUBES_NUEVOS = {
     "lat": ("lanus-athletic", "Lanús Athletic"),   # (no están en ESPN: 1899; escudo genérico el de Lanús Athletic)
     "ubk": ("united-banks", "United Banks"),
     "pat": ("palermo-athletic", "Palermo Athletic"),   # (no están en ESPN: 1898; escudos genéricos)
+    "lac2": ("lomas-academy", "Lomas Academy"),
+    "rat": ("retiro-athletic", "Retiro Athletic"),   # (no están en ESPN: 1896; Lomas Academy, con el escudo de Lomas Athletic; Retiro, genérico)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),
