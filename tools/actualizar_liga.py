@@ -33,6 +33,25 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1894: el campeonato de The Argentine Association Football League, la única liga ese año (abril a septiembre; campeón
+    # Lomas Athletic, invicto): 6 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada
+    # día de partidos es una fecha. Buenos Aires and Rosario Railway se retiró y sus partidos se anularon. De 3 partidos
+    # solo se sabe quién ganó ("sin_resultado"). Rosario Athletic, Lobos y Saint Andrew's perdieron la afiliación
+    # ("descienden_clubes"). ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles)
+    "1894-primera": {"nombre": "Campeonato de Primera División 1894 (amateur)", "anio": 1894, "liga": "a_mano",
+                     "slug": "1894-primera", "zonas": "unica", "fechas": 25, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide "
+                                    "con el orden de RSSSF). De 3 partidos no se sabe el resultado, solo quién ganó: cuentan "
+                                    "sin goles, así que los goles de la tabla están incompletos. Buenos Aires and Rosario "
+                                    "Railway se retiró y sus partidos se anularon. Rosario Athletic es el actual Atlético del "
+                                    "Rosario. RSSSF no numera las fechas: cada día de partidos es una fecha.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1894 (amateur). Cada partido ganado valía 2 "
+                                    "puntos.",
+                     "goleadores_nota": "RSSSF no trae los goles de este torneo.",
+                     "descensos": "tabla", "descienden": 3, "descienden_clubes": ["rosario-athletic", "lobos-athletic", "saint-andrews"],
+                     "descienden_texto": "Rosario Athletic, Lobos y Saint Andrew's perdieron la afiliación a la liga."},
     # 1895: el campeonato de la Argentine Association Football League, la única liga ese año (mayo a agosto; campeón Lomas
     # Athletic, invicto): 6 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de
     # partidos es una fecha. De 7 partidos solo se sabe quién ganó ("sin_resultado": '? - ?', sin goles en la tabla).
@@ -5825,6 +5844,8 @@ CLUBES_NUEVOS = {
     "pat": ("palermo-athletic", "Palermo Athletic"),   # (no están en ESPN: 1898; escudos genéricos)
     "lac2": ("lomas-academy", "Lomas Academy"),
     "rat": ("retiro-athletic", "Retiro Athletic"),   # (no están en ESPN: 1896; Lomas Academy, con el escudo de Lomas Athletic; Retiro, genérico)
+    "roa": ("rosario-athletic", "Rosario Athletic"),
+    "sta": ("saint-andrews", "Saint Andrew's"),   # (no están en ESPN: 1894; escudo genérico el de Saint Andrew's)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),

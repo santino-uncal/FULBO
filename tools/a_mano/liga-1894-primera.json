@@ -1,0 +1,450 @@
+{
+ "nombre": "Campeonato de Primera División 1894 (amateur)",
+ "fuente": "Resultados y días: RSSSF, sin goles. RSSSF no numera las fechas: cada día de partidos es una fecha. De 3 partidos RSSSF no encontró el resultado, solo quién ganó: van como '? - ?', y en la tabla sin goles (como la tabla de RSSSF, que es provisoria). Buenos Aires and Rosario Railway se retiró y sus partidos se anularon: no van. RSSSF no trae las canchas: va la del local, o la que dice RSSSF. Rosario Athletic es el actual Atlético del Rosario. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1894-04-15",
+     "local": "lobos-athletic",
+     "visitante": "retiro-athletic",
+     "estadio": "Cancha de Lobos",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1894-04-22",
+     "local": "retiro-athletic",
+     "visitante": "flores-athletic",
+     "estadio": "Cancha de Retiro Athletic",
+     "gl": 0,
+     "gv": 8,
+     "goles": []
+    },
+    {
+     "fecha": "1894-04-22",
+     "local": "rosario-athletic",
+     "visitante": "lobos-athletic",
+     "estadio": "Cancha de Rosario Athletic",
+     "gl": 5,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1894-04-29",
+     "local": "saint-andrews",
+     "visitante": "retiro-athletic",
+     "estadio": "Cancha de Saint Andrew's",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1894-05-03",
+     "local": "flores-athletic",
+     "visitante": "saint-andrews",
+     "estadio": "Cancha de Flores Athletic",
+     "gl": 3,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1894-05-06",
+     "local": "retiro-athletic",
+     "visitante": "lomas-athletic",
+     "estadio": "Cancha de Retiro Athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "sin_goles": true,
+     "sin_resultado": true,
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "nota": "No se sabe el resultado: ganó Lomas Athletic (en la tabla, sin goles)."
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1894-05-13",
+     "local": "lomas-athletic",
+     "visitante": "lobos-athletic",
+     "estadio": "Cancha de Lomas Athletic",
+     "gl": 6,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1894-05-20",
+     "local": "lomas-athletic",
+     "visitante": "flores-athletic",
+     "estadio": "Cancha de Lomas Athletic",
+     "gl": 6,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1894-05-24",
+     "local": "flores-athletic",
+     "visitante": "rosario-athletic",
+     "estadio": "Cancha de Flores Athletic",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1894-05-24",
+     "local": "lobos-athletic",
+     "visitante": "saint-andrews",
+     "estadio": "Cancha de Lobos",
+     "gl": 2,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1894-05-25",
+     "local": "saint-andrews",
+     "visitante": "rosario-athletic",
+     "estadio": "Cancha de Lomas Athletic",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": []
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1894-06-03",
+     "local": "rosario-athletic",
+     "visitante": "lomas-athletic",
+     "estadio": "Cancha de Rosario Athletic",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1894-06-10",
+     "local": "flores-athletic",
+     "visitante": "lobos-athletic",
+     "estadio": "Cancha de Flores Athletic",
+     "gl": 6,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1894-06-10",
+     "local": "retiro-athletic",
+     "visitante": "saint-andrews",
+     "estadio": "Cancha de Retiro Athletic",
+     "gl": 0,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1894-06-29",
+     "local": "rosario-athletic",
+     "visitante": "retiro-athletic",
+     "estadio": "Cancha de Rosario Athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "sin_goles": true,
+     "sin_resultado": true,
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "nota": "No se sabe el resultado: ganó Rosario Athletic (en la tabla, sin goles)."
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1894-07-01",
+     "local": "flores-athletic",
+     "visitante": "retiro-athletic",
+     "estadio": "Cancha de Flores Athletic",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1894-07-08",
+     "local": "lomas-athletic",
+     "visitante": "rosario-athletic",
+     "estadio": "Cancha de Lomas Athletic",
+     "gl": 2,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1894-07-09",
+     "local": "lobos-athletic",
+     "visitante": "rosario-athletic",
+     "estadio": "Cancha de Lobos",
+     "gl": 1,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1894-07-15",
+     "local": "lomas-athletic",
+     "visitante": "retiro-athletic",
+     "estadio": "Cancha de Lomas Athletic",
+     "gl": 7,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1894-07-22",
+     "local": "rosario-athletic",
+     "visitante": "saint-andrews",
+     "estadio": "Cancha de Rosario Athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "sin_goles": true,
+     "sin_resultado": true,
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "nota": "No se sabe el resultado: ganó Rosario Athletic (en la tabla, sin goles)."
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1894-07-29",
+     "local": "lobos-athletic",
+     "visitante": "lomas-athletic",
+     "estadio": "Cancha de Lobos",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1894-08-05",
+     "local": "lomas-athletic",
+     "visitante": "saint-andrews",
+     "estadio": "Cancha de Lomas Athletic",
+     "gl": 6,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1894-08-05",
+     "local": "retiro-athletic",
+     "visitante": "lobos-athletic",
+     "estadio": "Cancha de Retiro Athletic",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": "1894-08-15",
+     "local": "saint-andrews",
+     "visitante": "flores-athletic",
+     "estadio": "Cancha de Lomas Athletic",
+     "gl": 3,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1894-08-19",
+     "local": "flores-athletic",
+     "visitante": "lomas-athletic",
+     "estadio": "Cancha de Flores Athletic",
+     "gl": 0,
+     "gv": 6,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "partidos": [
+    {
+     "fecha": "1894-08-29",
+     "local": "rosario-athletic",
+     "visitante": "flores-athletic",
+     "estadio": "Cancha de Rosario Athletic",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1894-08-29",
+     "local": "saint-andrews",
+     "visitante": "lobos-athletic",
+     "estadio": "Cancha de Saint Andrew's",
+     "gl": 0,
+     "gv": 7,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "partidos": [
+    {
+     "fecha": "1894-09-08",
+     "local": "lobos-athletic",
+     "visitante": "flores-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "sin_goles": true,
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "nota": "No se jugó: la asociación le dio el partido a Lobos."
+    },
+    {
+     "fecha": "1894-09-08",
+     "local": "saint-andrews",
+     "visitante": "lomas-athletic",
+     "estadio": "Cancha de Saint Andrew's",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "partidos": [
+    {
+     "fecha": "1894-09-09",
+     "local": "retiro-athletic",
+     "visitante": "rosario-athletic",
+     "estadio": "Cancha de Retiro Athletic",
+     "gl": 0,
+     "gv": 5,
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

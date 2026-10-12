@@ -1,16 +1,17 @@
 /* Los títulos de liga de cada club, para mostrar al lado del campeón qué número de título es (River en el Campeonato
    1989-90: el 23). Cuenta oficial de la AFA (Wikipedia, "List of Argentine Primera División champions"):
-   - antes: los títulos de cada club hasta los campeonatos de 1894 (todos amateurs); ultimo_antes: el campeón
-     de 1894 (para contar los títulos seguidos: bicampeonatos, tricampeonatos), y seguidos_antes, cuántos llevaba
-     seguidos (Lomas Athletic: dos, 1893 y 1894).
+   - antes: los títulos de cada club hasta los campeonatos de 1893 (todos amateurs); ultimo_antes: el campeón
+     de 1893 (para contar los títulos seguidos: bicampeonatos, tricampeonatos), y seguidos_antes, cuántos llevaba
+     seguidos (Lomas Athletic: solo ese; en 1892 no hubo campeonato).
    - torneos: los títulos de cada torneo cargado, en orden. "club" es el campeón del torneo; ["club", "texto"] es otro
      título que se definió en ese torneo (la final de 1990-91, la Superfinal 2012-13, el "Campeón de Liga" 2025).
    - notas: los torneos cuyo campeón no suma un título de liga (y por qué).
    Al terminar un torneo nuevo, agregar su campeón acá (la prueba de tests/test_liga.py avisa si falta). */
 window.LIGA_TITULOS = {
-  "antes": {"lomas-athletic": 2},
-  "ultimo_antes": "lomas-athletic", "seguidos_antes": 2,
+  "antes": {"lomas-athletic": 1},
+  "ultimo_antes": "lomas-athletic", "seguidos_antes": 1,
   "torneos": {
+    "1894-primera": ["lomas-athletic"],
     "1895-primera": ["lomas-athletic"],
     "1896-primera": ["lomas-academy"],
     "1897-primera": ["lomas-athletic"],
