@@ -1,0 +1,175 @@
+{
+ "nombre": "Campeonato de Primera División 1901 (amateur)",
+ "fuente": "Resultados y días: RSSSF (de La Nación y La Prensa), sin goles. RSSSF no numera las fechas: cada día de partidos es una fecha. RSSSF no trae las canchas: va la del local, o la que dice RSSSF (Alumni jugaba de local en la de Flores Athletic). La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1901-05-19",
+     "local": "lomas-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1901-06-06",
+     "local": "belgrano-athletic",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1901-06-16",
+     "local": "quilmes",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1901-06-24",
+     "local": "quilmes",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1901-06-29",
+     "local": "belgrano-athletic",
+     "visitante": "quilmes",
+     "gl": 8,
+     "gv": 2,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1901-07-09",
+     "local": "alumni",
+     "visitante": "belgrano-athletic",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1901-07-14",
+     "local": "lomas-athletic",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1901-07-21",
+     "local": "quilmes",
+     "visitante": "belgrano-athletic",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1901-08-04",
+     "local": "belgrano-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": [],
+     "nota": "Con este resultado Alumni se aseguró el campeonato."
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1901-08-11",
+     "local": "lomas-athletic",
+     "visitante": "quilmes",
+     "gl": 0,
+     "gv": 3,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1901-08-15",
+     "local": "alumni",
+     "visitante": "quilmes",
+     "gl": 3,
+     "gv": 1,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1901-08-30",
+     "local": "alumni",
+     "visitante": "lomas-athletic",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}
