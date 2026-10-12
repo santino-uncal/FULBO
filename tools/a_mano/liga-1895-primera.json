@@ -1,0 +1,489 @@
+{
+ "nombre": "Campeonato de Primera División 1895 (amateur)",
+ "fuente": "Resultados y días: RSSSF, sin goles. RSSSF no numera las fechas: cada día de partidos es una fecha (el Quilmes-Flores, sin día, en una fecha aparte). De 7 partidos RSSSF no encontró el resultado, solo quién ganó: van como '? - ?', y en la tabla sin goles (como la tabla de RSSSF, que es provisoria). RSSSF no trae las canchas: va la del local, o la que dice RSSSF. Alumni se llamaba English High School; Quilmes, Quilmes Rovers; Lomas Academy, Lomas Academicals (un equipo de Lomas Athletic). La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1895-05-10",
+     "local": "quilmes",
+     "visitante": "alumni",
+     "estadio": "Cancha de Quilmes Rovers",
+     "gl": 1,
+     "gv": 3,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1895-05-19",
+     "local": "retiro-athletic",
+     "visitante": "lomas-athletic",
+     "estadio": "Cancha de Retiro Athletic",
+     "gl": 1,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1895-05-23",
+     "local": "flores-athletic",
+     "visitante": "quilmes",
+     "estadio": "Cancha de Flores Athletic",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1895-05-23",
+     "local": "lomas-athletic",
+     "visitante": "alumni",
+     "estadio": "Cancha de Lomas Athletic",
+     "gl": 8,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1895-05-25",
+     "local": "lomas-athletic",
+     "visitante": "lomas-academy",
+     "estadio": "Cancha de Lomas Athletic",
+     "gl": 2,
+     "gv": 1,
+     "goles": []
+    },
+    {
+     "fecha": "1895-05-25",
+     "local": "retiro-athletic",
+     "visitante": "alumni",
+     "estadio": "Cancha de Retiro Athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "sin_goles": true,
+     "sin_resultado": true,
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "nota": "No se sabe el resultado: ganó Retiro Athletic (en la tabla, sin goles)."
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1895-05-26",
+     "local": "flores-athletic",
+     "visitante": "lomas-athletic",
+     "estadio": "Cancha de Flores Athletic",
+     "gl": 0,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1895-06-02",
+     "local": "retiro-athletic",
+     "visitante": "flores-athletic",
+     "estadio": "Cancha de Retiro Athletic",
+     "gl": 0,
+     "gv": 3,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1895-06-08",
+     "local": "lomas-academy",
+     "visitante": "alumni",
+     "estadio": "Cancha de Lomas Academy",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "sin_goles": true,
+     "sin_resultado": true,
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "nota": "No se sabe el resultado: ganó Lomas Academy (en la tabla, sin goles)."
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1895-06-13",
+     "local": "flores-athletic",
+     "visitante": "alumni",
+     "estadio": "Cancha de Flores Athletic",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    },
+    {
+     "fecha": "1895-06-13",
+     "local": "lomas-athletic",
+     "visitante": "quilmes",
+     "estadio": "Cancha de Lomas Athletic",
+     "gl": 4,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1895-06-15",
+     "local": "alumni",
+     "visitante": "retiro-athletic",
+     "estadio": "Cancha de English High School",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "sin_goles": true,
+     "sin_resultado": true,
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "nota": "No se sabe el resultado: ganó English High School (en la tabla, sin goles)."
+    },
+    {
+     "fecha": "1895-06-15",
+     "local": "quilmes",
+     "visitante": "lomas-academy",
+     "estadio": "Cancha de Quilmes Rovers",
+     "gl": 1,
+     "gv": 9,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1895-06-24",
+     "local": "lomas-academy",
+     "visitante": "flores-athletic",
+     "estadio": "Cancha de Lomas Academy",
+     "gl": 0,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1895-06-24",
+     "local": "quilmes",
+     "visitante": "retiro-athletic",
+     "estadio": "Cancha de Quilmes Rovers",
+     "gl": 0,
+     "gv": 3,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1895-06-29",
+     "local": "alumni",
+     "visitante": "quilmes",
+     "estadio": "Cancha de English High School",
+     "gl": 8,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1895-07-09",
+     "local": "lomas-academy",
+     "visitante": "lomas-athletic",
+     "estadio": "Cancha de Lomas Athletic",
+     "gl": 2,
+     "gv": 5,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1895-07-13",
+     "local": "retiro-athletic",
+     "visitante": "lomas-academy",
+     "estadio": "Cancha de Retiro Athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "sin_goles": true,
+     "sin_resultado": true,
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "nota": "No se sabe el resultado: ganó Lomas Academy (en la tabla, sin goles)."
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1895-07-14",
+     "local": "lomas-academy",
+     "visitante": "retiro-athletic",
+     "estadio": "Cancha de Lomas Academy",
+     "gl": 3,
+     "gv": 0,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1895-07-20",
+     "local": "alumni",
+     "visitante": "lomas-academy",
+     "estadio": "Cancha de English High School",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "sin_goles": true,
+     "sin_resultado": true,
+     "para_local": [
+      0,
+      0,
+      "E"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "E"
+     ],
+     "nota": "No se sabe el resultado: empataron (en la tabla, sin goles)."
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1895-07-21",
+     "local": "lomas-athletic",
+     "visitante": "flores-athletic",
+     "estadio": "Cancha de Lomas Athletic",
+     "gl": 4,
+     "gv": 2,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1895-07-27",
+     "local": "quilmes",
+     "visitante": "lomas-athletic",
+     "estadio": "Cancha de Quilmes Rovers",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "sin_goles": true,
+     "sin_resultado": true,
+     "para_local": [
+      0,
+      0,
+      "E"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "E"
+     ],
+     "nota": "No se sabe el resultado: empataron (en la tabla, sin goles)."
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "partidos": [
+    {
+     "fecha": "1895-08-04",
+     "local": "flores-athletic",
+     "visitante": "retiro-athletic",
+     "estadio": "Cancha de Flores Athletic",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "partidos": [
+    {
+     "fecha": "1895-08-15",
+     "local": "alumni",
+     "visitante": "flores-athletic",
+     "estadio": "Cancha de English High School",
+     "gl": 0,
+     "gv": 3,
+     "goles": []
+    },
+    {
+     "fecha": "1895-08-15",
+     "local": "lomas-academy",
+     "visitante": "quilmes",
+     "estadio": "Cancha de Lomas Academy",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "sin_goles": true,
+     "sin_resultado": true,
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "nota": "No se sabe el resultado: ganó Lomas Academy (en la tabla, sin goles)."
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "partidos": [
+    {
+     "fecha": "1895-08-25",
+     "local": "lomas-athletic",
+     "visitante": "retiro-athletic",
+     "estadio": "Cancha de Lomas Athletic",
+     "gl": 3,
+     "gv": 1,
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "partidos": [
+    {
+     "fecha": null,
+     "local": "quilmes",
+     "visitante": "flores-athletic",
+     "estadio": "Cancha de Quilmes Rovers",
+     "gl": 3,
+     "gv": 1,
+     "goles": [],
+     "nota": "No se sabe el día: se jugó entre el 29 de junio y el 30 de agosto."
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "partidos": [
+    {
+     "fecha": "1895-08-30",
+     "local": "alumni",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "sin_goles": true,
+     "para_local": [
+      0,
+      0,
+      "D"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "V"
+     ],
+     "nota": "No se jugó: English High School no se presentó y perdió el partido."
+    },
+    {
+     "fecha": "1895-08-30",
+     "local": "flores-athletic",
+     "visitante": "lomas-academy",
+     "estadio": "Cancha de Flores Athletic",
+     "gl": 0,
+     "gv": 5,
+     "goles": []
+    },
+    {
+     "fecha": "1895-08-30",
+     "local": "retiro-athletic",
+     "visitante": "quilmes",
+     "estadio": "Cancha de Retiro Athletic",
+     "gl": 0,
+     "gv": 5,
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

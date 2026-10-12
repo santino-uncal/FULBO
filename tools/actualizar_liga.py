@@ -33,6 +33,26 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1895: el campeonato de la Argentine Association Football League, la única liga ese año (mayo a agosto; campeón Lomas
+    # Athletic, invicto): 6 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de
+    # partidos es una fecha. De 7 partidos solo se sabe quién ganó ("sin_resultado": '? - ?', sin goles en la tabla).
+    # English High School (Alumni) y Quilmes Rovers (Quilmes) perdieron la afiliación ("descienden_clubes"). ESPN no lo
+    # tiene: va a mano (tools/a_mano; RSSSF, sin goles)
+    "1895-primera": {"nombre": "Campeonato de Primera División 1895 (amateur)", "anio": 1895, "liga": "a_mano",
+                     "slug": "1895-primera", "zonas": "unica", "fechas": 22, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol (que "
+                                    "coincide con el orden de RSSSF). De 7 partidos no se sabe el resultado, solo "
+                                    "quién ganó: cuentan sin goles, así que los goles de la tabla están incompletos. Alumni se "
+                                    "llamaba English High School; Quilmes, Quilmes Rovers; Lomas Academy, Lomas Academicals (un "
+                                    "equipo de Lomas Athletic). RSSSF no numera las fechas: cada día de partidos es una fecha.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1895 (amateur). Cada partido ganado valía 2 "
+                                    "puntos.",
+                     "goleadores_nota": "RSSSF no trae los goles de este torneo.",
+                     "descensos": "tabla", "descienden": 2, "descienden_clubes": ["alumni", "quilmes"],
+                     "descienden_texto": "English High School (después Alumni) y Quilmes Rovers (después Quilmes) perdieron "
+                                         "la afiliación a la liga; volvieron en 1900."},
     # 1896: el campeonato de la Argentine Association Football League, la única liga ese año (mayo a agosto; campeón
     # Lomas Academy, un equipo de Lomas Athletic, que la AFA cuenta aparte): 5 equipos a dos ruedas, con 2 puntos por
     # partido ganado, en las 16 fechas de RSSSF. No bajó nadie. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles
@@ -5829,9 +5849,13 @@ def eventos_a_mano(clave):
     espn_a_club, eq = catalogo()
     id_espn = {**{c: e for e, c in espn_a_club.items()}, **{c: e for e, (c, _) in CLUBES_NUEVOS.items()}}
     eventos = []
+    hora = None
     for f in json.loads(archivo.read_text(encoding="utf-8"))["fechas"]:
         for i, p in enumerate(f["partidos"]):
-            hora = datetime.datetime.strptime(f"{p['fecha']} {p.get('hora') or '15:00'}", "%Y-%m-%d %H:%M")
+            # (un partido sin día, como el Quilmes-Flores de 1895: para ordenar, el del partido anterior; en la página,
+            # sin día)
+            if p["fecha"]:
+                hora = datetime.datetime.strptime(f"{p['fecha']} {p.get('hora') or '15:00'}", "%Y-%m-%d %H:%M")
             eventos.append({
                 "id": f"{clave}-{f['numero']}-{i + 1}", "date": (hora + datetime.timedelta(hours=3)).strftime("%Y-%m-%dT%H:%MZ"),
                 # (un partido puede decir su propia etapa: en el Metropolitano 1976, el Torneo Campeonato y el del
@@ -6204,6 +6228,8 @@ def armar(clave):
                       "para_local": m.get("para_local"), "para_visitante": m.get("para_visitante"),
                       # (sin_goles: un partido dado por ganado en el escritorio, sin goles de verdad: Lanús-Platense 1991)
                       "sin_goles": m.get("sin_goles"),
+                      # (sin_resultado: se sabe quién ganó, pero no el resultado: 1895)
+                      "sin_resultado": m.get("sin_resultado"),
                       # (árbitro y público, si el archivo los trae: 1931)
                       "arbitro": m.get("arbitro") or p.get("arbitro"), "publico": m.get("publico") or p.get("publico"),
                       # (los penales después de cada empate: el Campeonato 1988-89)
