@@ -33,6 +33,8 @@
     const escudo = id => club(id).escudo ? `<img class="escudo" src="${club(id).escudo}" alt="" loading="lazy" onerror="this.remove()">` : "";
     const nombreClub = id => `${escudo(id)}${esc(club(id).nombre)}`;
     const jugado = p => p.gl != null;
+    // (p.sin_resultado: se sabe quién ganó, pero no el resultado; en la tabla cuenta sin goles: 1895)
+    const marcador = (p, sep) => p.sin_resultado ? `?${sep}?` : `${p.gl}${sep}${p.gv}`;
     const todos = T.fechas.flatMap(f => f.partidos.map(p => ({ ...p, n: f.numero })));
     const zonaDe = {};
     // Los títulos de liga de este torneo, con el número de cada uno para su club (data/ligas/argentina/titulos.js): los
@@ -209,7 +211,7 @@
           // (T.punto_penales: el Campeonato 1988-89, con penales después de cada empate y un punto más para el ganador)
           const pen = T.punto_penales && r === "E" && p.pen_l != null && !p.para_local;
           if (pen && (id === p.local ? p.pen_l > p.pen_v : p.pen_v > p.pen_l)) f.pg++;
-          f.ultimos.push({ r, texto: `${p.n != null ? `Fecha ${p.n}: ` : ""}${club(p.local).nombre} ${p.gl}–${p.gv} ${club(p.visitante).nombre}${pen ? ` (penales ${p.pen_l}–${p.pen_v})` : ""}` });
+          f.ultimos.push({ r, texto: `${p.n != null ? `Fecha ${p.n}: ` : ""}${club(p.local).nombre} ${marcador(p, "–")} ${club(p.visitante).nombre}${pen ? ` (penales ${p.pen_l}–${p.pen_v})` : ""}` });
         });
       });
       // (T.descuentos: puntos que se le restaron a un club en este torneo, como a Los Andes en el Clausura 2001)
@@ -477,7 +479,7 @@
     // ---- Un partido ----
     // conDia: poner el día en cada partido (en las fechas no hace falta: van agrupados por día)
     function partidoHTML(p, conDia = true) {
-      const res = jugado(p) ? `${p.gl} – ${p.gv}` : p.estado ? esc(p.estado) : p.hora ? `${p.hora} h` : "vs";
+      const res = jugado(p) ? marcador(p, " – ") : p.estado ? esc(p.estado) : p.hora ? `${p.hora} h` : "vs";
       // (en los torneos por etapas, las zonas de la etapa de esa fecha)
       const zd = T.etapas ? zonaEtapa[p.n] || {} : zonaDe;
       const interzonal = p.n != null && zd[p.local] && zd[p.visitante] && zd[p.local] !== zd[p.visitante];
