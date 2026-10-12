@@ -33,6 +33,25 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1893: el campeonato de The Argentine Association Football League, la única liga ese año (abril a julio; campeón
+    # Lomas Athletic, invicto, su primer título): 5 equipos a dos ruedas, con 2 puntos por partido ganado (era a tres,
+    # pero la asociación suspendió la tercera y anuló sus partidos). RSSSF no numera las fechas: cada día de partidos es
+    # una fecha. English High School (Alumni) y Quilmes Club (Quilmes) perdieron la afiliación ("descienden_clubes").
+    # ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles)
+    "1893-primera": {"nombre": "Campeonato de Primera División 1893 (amateur)", "anio": 1893, "liga": "a_mano",
+                     "slug": "1893-primera", "zonas": "unica", "fechas": 17, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide "
+                                    "con el orden de RSSSF). Era a tres ruedas, pero el 25 de agosto la asociación suspendió "
+                                    "la tercera y anuló sus partidos. Alumni se llamaba English High School; Quilmes, Quilmes "
+                                    "Club. RSSSF no numera las fechas: cada día de partidos es una fecha.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1893 (amateur). Cada partido ganado valía 2 "
+                                    "puntos.",
+                     "goleadores_nota": "RSSSF no trae los goles de este torneo.",
+                     "descensos": "tabla", "descienden": 2, "descienden_clubes": ["alumni", "quilmes"],
+                     "descienden_texto": "English High School (después Alumni) y Quilmes Club (después Quilmes) perdieron la "
+                                         "afiliación a la liga; volvieron en 1895."},
     # 1894: el campeonato de The Argentine Association Football League, la única liga ese año (abril a septiembre; campeón
     # Lomas Athletic, invicto): 6 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las fechas: cada
     # día de partidos es una fecha. Buenos Aires and Rosario Railway se retiró y sus partidos se anularon. De 3 partidos
@@ -5846,6 +5865,7 @@ CLUBES_NUEVOS = {
     "rat": ("retiro-athletic", "Retiro Athletic"),   # (no están en ESPN: 1896; Lomas Academy, con el escudo de Lomas Athletic; Retiro, genérico)
     "roa": ("rosario-athletic", "Rosario Athletic"),
     "sta": ("saint-andrews", "Saint Andrew's"),   # (no están en ESPN: 1894; escudo genérico el de Saint Andrew's)
+    "bar": ("buenos-aires-rosario-railway", "Buenos Aires al Rosario Railway"),   # (no está en ESPN: 1893; escudo genérico)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),

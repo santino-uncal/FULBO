@@ -1,0 +1,283 @@
+{
+ "nombre": "Campeonato de Primera División 1893 (amateur)",
+ "fuente": "Resultados y días: RSSSF, sin goles. RSSSF no numera las fechas: cada día de partidos es una fecha. El campeonato era a tres ruedas, pero el 25 de agosto la asociación suspendió la tercera y anuló sus partidos (el Flores-Lomas del 16 de julio y el Quilmes-Flores del 20 de agosto): no van. RSSSF no trae las canchas: va la del local, o la que dice RSSSF. Alumni se llamaba English High School; Quilmes, Quilmes Club. La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1893-04-23",
+     "local": "flores-athletic",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1893-04-23",
+     "local": "lomas-athletic",
+     "visitante": "buenos-aires-rosario-railway",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1893-04-29",
+     "local": "alumni",
+     "visitante": "buenos-aires-rosario-railway",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de English High School",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1893-05-07",
+     "local": "quilmes",
+     "visitante": "buenos-aires-rosario-railway",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Quilmes Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1893-05-11",
+     "local": "alumni",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 5,
+     "estadio": "Cancha de English High School",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1893-05-14",
+     "local": "buenos-aires-rosario-railway",
+     "visitante": "flores-athletic",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Buenos Aires al Rosario Railway",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1893-05-21",
+     "local": "lomas-athletic",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1893-05-23",
+     "local": "alumni",
+     "visitante": "flores-athletic",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Cancha de English High School",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1893-05-28",
+     "local": "lomas-athletic",
+     "visitante": "flores-athletic",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1893-06-01",
+     "local": "alumni",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de English High School",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1893-06-11",
+     "local": "flores-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1893-06-18",
+     "local": "buenos-aires-rosario-railway",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Buenos Aires al Rosario Railway",
+     "goles": []
+    },
+    {
+     "fecha": "1893-06-18",
+     "local": "quilmes",
+     "visitante": "flores-athletic",
+     "gl": 0,
+     "gv": 2,
+     "estadio": "Cancha de Quilmes Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1893-06-24",
+     "local": "flores-athletic",
+     "visitante": "alumni",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1893-06-29",
+     "local": "lomas-athletic",
+     "visitante": "alumni",
+     "gl": 11,
+     "gv": 0,
+     "estadio": "Cancha de English High School",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1893-07-02",
+     "local": "buenos-aires-rosario-railway",
+     "visitante": "quilmes",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Cancha de Buenos Aires al Rosario Railway",
+     "goles": [],
+     "nota": "Otra fuente dice que lo ganó Quilmes."
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1893-07-15",
+     "local": "buenos-aires-rosario-railway",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 0,
+     "estadio": "Cancha de Buenos Aires al Rosario Railway",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1893-07-23",
+     "local": "quilmes",
+     "visitante": "lomas-athletic",
+     "gl": 0,
+     "gv": 1,
+     "estadio": "Cancha de Quilmes Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1893-07-30",
+     "local": "flores-athletic",
+     "visitante": "buenos-aires-rosario-railway",
+     "gl": 6,
+     "gv": 1,
+     "estadio": "Cancha de Flores Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1893-07-30",
+     "local": "quilmes",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 0,
+     "goles": [],
+     "sin_goles": true,
+     "para_local": [
+      0,
+      0,
+      "V"
+     ],
+     "para_visitante": [
+      0,
+      0,
+      "D"
+     ],
+     "nota": "No se jugó: English High School no se presentó, y el 25 de agosto la asociación le dio el partido a Quilmes."
+    }
+   ]
+  }
+ ]
+}
