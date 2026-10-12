@@ -1,0 +1,300 @@
+{
+ "nombre": "Campeonato de Primera División 1891 (amateur)",
+ "fuente": "Resultados, días y canchas: RSSSF (de The Buenos Aires Herald y The Standard), sin goles salvo los del Saint Andrew's-Old Caledonians del 30 de agosto. RSSSF no numera las fechas: cada día de partidos es una fecha. Old Caledonians figura en RSSSF como Caledonians Club. Hurlingham se anotó pero no jugó ningún partido: no va. RSSSF trae dos tablas: la que sale de los partidos es igual a la segunda (la primera le cuenta un partido más a Saint Andrew's y a Old Caledonians)",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1891-04-12",
+     "local": "buenos-aires-fc",
+     "visitante": "saint-andrews",
+     "gl": 2,
+     "gv": 5,
+     "estadio": "Old Ground Flores (Caballito)",
+     "goles": []
+    },
+    {
+     "fecha": "1891-04-12",
+     "local": "old-caledonians",
+     "visitante": "belgrano-fc",
+     "gl": 6,
+     "gv": 0,
+     "estadio": "Solá Works Ground (Barracas)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1891-04-19",
+     "local": "belgrano-fc",
+     "visitante": "buenos-aires-fc",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Highfield (Belgrano)",
+     "goles": [],
+     "nota": "Los diarios no traen el resultado: RSSSF lo saca de la tabla."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1891-04-26",
+     "local": "belgrano-fc",
+     "visitante": "saint-andrews",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Highfield (Belgrano)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1891-05-03",
+     "local": "saint-andrews",
+     "visitante": "buenos-aires-rosario-railway",
+     "gl": 3,
+     "gv": 2,
+     "estadio": "1336 Montes de Oca (Barracas)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1891-05-17",
+     "local": "old-caledonians",
+     "visitante": "saint-andrews",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Solá Works Ground (Barracas)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1891-05-28",
+     "local": "buenos-aires-fc",
+     "visitante": "buenos-aires-rosario-railway",
+     "gl": 2,
+     "gv": 2,
+     "estadio": "Old Ground Flores (Caballito)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1891-05-31",
+     "local": "buenos-aires-fc",
+     "visitante": "old-caledonians",
+     "gl": 2,
+     "gv": 6,
+     "estadio": "Old Ground Flores (Caballito)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1891-06-07",
+     "local": "old-caledonians",
+     "visitante": "buenos-aires-rosario-railway",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Solá Works Ground (Barracas)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1891-06-21",
+     "local": "buenos-aires-rosario-railway",
+     "visitante": "saint-andrews",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "North of the Workshops (Campana)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1891-07-05",
+     "local": "saint-andrews",
+     "visitante": "buenos-aires-fc",
+     "gl": 1,
+     "gv": 0,
+     "estadio": "1336 Montes de Oca (Barracas)",
+     "goles": [],
+     "nota": "Buenos Aires FC reclamó por irregularidades y el consejo de la asociación revisó el primer partido entre los dos."
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "partidos": [
+    {
+     "fecha": "1891-07-12",
+     "local": "saint-andrews",
+     "visitante": "belgrano-fc",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "1336 Montes de Oca (Barracas)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "partidos": [
+    {
+     "fecha": "1891-07-19",
+     "local": "belgrano-fc",
+     "visitante": "buenos-aires-rosario-railway",
+     "gl": 2,
+     "gv": 3,
+     "estadio": "Highfield (Belgrano)",
+     "goles": []
+    },
+    {
+     "fecha": "1891-07-19",
+     "local": "old-caledonians",
+     "visitante": "buenos-aires-fc",
+     "gl": 2,
+     "gv": 1,
+     "estadio": "Solá Works Ground (Barracas)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "partidos": [
+    {
+     "fecha": "1891-07-26",
+     "local": "buenos-aires-rosario-railway",
+     "visitante": "old-caledonians",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "North of the Workshops (Campana)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "partidos": [
+    {
+     "fecha": "1891-08-02",
+     "local": "belgrano-fc",
+     "visitante": "old-caledonians",
+     "gl": 0,
+     "gv": 7,
+     "estadio": "Highfield (Belgrano)",
+     "goles": [],
+     "nota": "Los diarios no traen el resultado: RSSSF lo saca de la tabla."
+    },
+    {
+     "fecha": "1891-08-02",
+     "local": "buenos-aires-rosario-railway",
+     "visitante": "buenos-aires-fc",
+     "gl": 3,
+     "gv": 5,
+     "estadio": "Ferrocarril Buenos Aires a Rosario Field (San Martín)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "partidos": [
+    {
+     "fecha": "1891-08-23",
+     "local": "buenos-aires-rosario-railway",
+     "visitante": "belgrano-fc",
+     "gl": 4,
+     "gv": 4,
+     "estadio": "North of the Workshops (Campana)",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "partidos": [
+    {
+     "fecha": "1891-08-30",
+     "local": "saint-andrews",
+     "visitante": "old-caledonians",
+     "gl": 3,
+     "gv": 3,
+     "estadio": "Solá Works Ground (Barracas)",
+     "goles": [
+      {
+       "jugador": "Caldwell",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Caldwell",
+       "equipo": "local"
+      },
+      {
+       "jugador": "Moffatt",
+       "equipo": "local"
+      },
+      {
+       "jugador": "White",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Sutherland",
+       "equipo": "visitante"
+      },
+      {
+       "jugador": "Riggs",
+       "equipo": "visitante"
+      }
+     ],
+     "nota": "The Buenos Aires Herald lo da 1-1, pero The Standard trae los goles del 3-3. Con este partido Saint Andrew's y Old Caledonians se aseguraron el campeonato, compartido."
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "partidos": [
+    {
+     "fecha": "1891-09-06",
+     "local": "buenos-aires-fc",
+     "visitante": "belgrano-fc",
+     "gl": 5,
+     "gv": 1,
+     "estadio": "Old Ground Flores (Caballito)",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

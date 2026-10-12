@@ -33,6 +33,40 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1891: el primer campeonato, de la Argentine Association Football League (abril a septiembre): 5 equipos a dos ruedas
+    # (Hurlingham se anotó pero no jugó), con 2 puntos por partido ganado. RSSSF no numera las fechas: cada día de partidos
+    # es una fecha. Saint Andrew's y Old Caledonians empataron el primer puesto y compartieron el título (en titulos.js,
+    # el segundo campeón va como otro título del torneo); después jugaron un partido por las medallas, que ganó Saint
+    # Andrew's (en "playoffs", sin cuadro: no define el campeón). ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin
+    # goles salvo los de dos partidos)
+    "1891-primera": {"nombre": "Campeonato de Primera División 1891 (amateur)", "anio": 1891, "liga": "a_mano",
+                     "slug": "1891-primera", "zonas": "unica", "fechas": 17, "pasan": 2, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "texto_pasan": "Empatados en el primer puesto (13 puntos): compartieron el título (y jugaron un partido "
+                                    "por las medallas)",
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Fue el primer campeonato. Orden: puntos y, con los mismos puntos, la "
+                                    "diferencia de gol. Saint Andrew's y Old Caledonians terminaron empatados en puntos y "
+                                    "compartieron el título. Hurlingham se anotó pero no jugó ningún partido. RSSSF no numera "
+                                    "las fechas: cada día de partidos es una fecha.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1891 (amateur). Cada partido ganado valía 2 "
+                                    "puntos.",
+                     "goleadores_nota": "Los goles son solo del Saint Andrew's 3-3 Old Caledonians y del partido por las "
+                                        "medallas (de RSSSF, sin los minutos).",
+                     "nombre_playoffs": "Medallas",
+                     "sin_cuadro": True,
+                     "playoffs": [(r"^$^", "Partido por las medallas")],
+                     "playoffs_a_mano": {
+                         "Partido por las medallas": [
+                             {"fecha": "1891-09-13", "local": "saint-andrews", "visitante": "old-caledonians", "gl": 3, "gv": 1,
+                              "alargue": True, "estadio": "Old Ground Flores (Caballito)", "arbitro": "J. Wilson",
+                              "goles": [{"jugador": "Moffatt", "equipo": "local"}, {"jugador": "Moffatt", "equipo": "local"},
+                                        {"jugador": "Moffatt", "equipo": "local"}, {"jugador": "Wilson", "equipo": "visitante"}],
+                              "nota": "No definía el campeonato, que fue compartido: se jugó por las medallas de los "
+                                      "campeones."},
+                         ],
+                     },
+                     "sin_descensos": "No hubo descensos. En 1892 no hubo campeonato."},
     # 1893: el campeonato de The Argentine Association Football League, la única liga ese año (abril a julio; campeón
     # Lomas Athletic, invicto, su primer título): 5 equipos a dos ruedas, con 2 puntos por partido ganado (era a tres,
     # pero la asociación suspendió la tercera y anuló sus partidos). RSSSF no numera las fechas: cada día de partidos es
@@ -5866,6 +5900,9 @@ CLUBES_NUEVOS = {
     "roa": ("rosario-athletic", "Rosario Athletic"),
     "sta": ("saint-andrews", "Saint Andrew's"),   # (no están en ESPN: 1894; escudo genérico el de Saint Andrew's)
     "bar": ("buenos-aires-rosario-railway", "Buenos Aires al Rosario Railway"),   # (no está en ESPN: 1893; escudo genérico)
+    "olc": ("old-caledonians", "Old Caledonians"),
+    "bfc": ("buenos-aires-fc", "Buenos Aires FC"),
+    "blf": ("belgrano-fc", "Belgrano FC"),   # (no están en ESPN: 1891; escudos genéricos)
     "ate": ("argentino-de-temperley", "Argentino de Temperley"),   # (no están en ESPN: el amateur 1934; escudos genéricos los de Sportivo Alsina, Liberal Argentino y Argentino de Temperley)
     "sgu": ("sportivo-guzman", "Sportivo Guzmán (Tucumán)"),   # (no están en ESPN: 1967)
     "ddb": ("defensores-de-belgrano", "Defensores de Belgrano"),

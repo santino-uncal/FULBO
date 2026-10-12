@@ -1,8 +1,8 @@
 /* Los títulos de liga de cada club, para mostrar al lado del campeón qué número de título es (River en el Campeonato
    1989-90: el 23). Cuenta oficial de la AFA (Wikipedia, "List of Argentine Primera División champions"):
-   - antes: los títulos de cada club hasta los campeonatos de 1892 (todos amateurs); ultimo_antes: el campeón
-     de 1892 (para contar los títulos seguidos: bicampeonatos, tricampeonatos), y seguidos_antes, cuántos llevaba
-     seguidos (ninguno: en 1892 no hubo campeonato, y el de 1891 no está cargado).
+   - antes: los títulos de cada club hasta 1890 (ninguno: el primer campeonato fue el de 1891) (todos amateurs); ultimo_antes: el campeón
+     de 1890 (para contar los títulos seguidos: bicampeonatos, tricampeonatos), y seguidos_antes, cuántos llevaba
+     seguidos (ninguno). En 1891 hubo dos campeones (compartido): el segundo va como otro título del torneo.
    - torneos: los títulos de cada torneo cargado, en orden. "club" es el campeón del torneo; ["club", "texto"] es otro
      título que se definió en ese torneo (la final de 1990-91, la Superfinal 2012-13, el "Campeón de Liga" 2025).
    - notas: los torneos cuyo campeón no suma un título de liga (y por qué).
@@ -11,6 +11,7 @@ window.LIGA_TITULOS = {
   "antes": {},
   "ultimo_antes": null, "seguidos_antes": 0,
   "torneos": {
+    "1891-primera": ["old-caledonians", ["saint-andrews", "También campeón (título compartido)"]],
     "1893-primera": ["lomas-athletic"],
     "1894-primera": ["lomas-athletic"],
     "1895-primera": ["lomas-athletic"],
