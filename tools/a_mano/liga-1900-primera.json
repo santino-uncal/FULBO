@@ -1,0 +1,187 @@
+{
+ "nombre": "Campeonato de Primera División 1900 (amateur)",
+ "fuente": "Resultados y días: RSSSF (de La Nación y La Prensa), sin goles salvo los del English High School-Quilmes del 15 de agosto (sin los minutos). RSSSF no numera las fechas: cada día de partidos es una fecha. RSSSF no trae las canchas: va la del local, Alumni se llamaba English High School Athletic Club (el nombre cambió en 1901). La tabla que sale de los partidos es igual a la de RSSSF",
+ "fechas": [
+  {
+   "numero": 1,
+   "partidos": [
+    {
+     "fecha": "1900-05-20",
+     "local": "alumni",
+     "visitante": "lomas-athletic",
+     "gl": 1,
+     "gv": 1,
+     "estadio": "Cancha de English High School",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "partidos": [
+    {
+     "fecha": "1900-05-25",
+     "local": "lomas-athletic",
+     "visitante": "belgrano-athletic",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "partidos": [
+    {
+     "fecha": "1900-06-14",
+     "local": "belgrano-athletic",
+     "visitante": "lomas-athletic",
+     "gl": 2,
+     "gv": 0,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    },
+    {
+     "fecha": "1900-06-14",
+     "local": "quilmes",
+     "visitante": "alumni",
+     "gl": 0,
+     "gv": 4,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "partidos": [
+    {
+     "fecha": "1900-06-17",
+     "local": "quilmes",
+     "visitante": "lomas-athletic",
+     "gl": 4,
+     "gv": 1,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "partidos": [
+    {
+     "fecha": "1900-06-29",
+     "local": "quilmes",
+     "visitante": "belgrano-athletic",
+     "gl": 2,
+     "gv": 4,
+     "estadio": "Quilmes Atlético Club",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "partidos": [
+    {
+     "fecha": "1900-07-09",
+     "local": "lomas-athletic",
+     "visitante": "alumni",
+     "gl": 1,
+     "gv": 2,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "partidos": [
+    {
+     "fecha": "1900-07-22",
+     "local": "belgrano-athletic",
+     "visitante": "alumni",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "partidos": [
+    {
+     "fecha": "1900-08-15",
+     "local": "alumni",
+     "visitante": "quilmes",
+     "gl": 5,
+     "gv": 0,
+     "estadio": "Cancha de English High School",
+     "goles": [
+      {
+       "jugador": "S. Leonard",
+       "equipo": "local"
+      },
+      {
+       "jugador": "H. Jordan",
+       "equipo": "local"
+      },
+      {
+       "jugador": "W. A. Jordan",
+       "equipo": "local"
+      },
+      {
+       "jugador": "J. Moore",
+       "equipo": "local"
+      },
+      {
+       "jugador": "S. Leonard",
+       "equipo": "local"
+      }
+     ],
+     "arbitro": "Barrington Blomfield Syer",
+     "nota": "Con este partido English High School (después Alumni) se aseguró el campeonato."
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "partidos": [
+    {
+     "fecha": "1900-08-30",
+     "local": "belgrano-athletic",
+     "visitante": "quilmes",
+     "gl": 1,
+     "gv": 3,
+     "estadio": "Cancha de Belgrano Athletic",
+     "goles": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "partidos": [
+    {
+     "fecha": "1900-09-08",
+     "local": "alumni",
+     "visitante": "belgrano-athletic",
+     "gl": 3,
+     "gv": 0,
+     "estadio": "Cancha de English High School",
+     "goles": []
+    },
+    {
+     "fecha": "1900-09-08",
+     "local": "lomas-athletic",
+     "visitante": "quilmes",
+     "gl": 4,
+     "gv": 0,
+     "estadio": "Cancha de Lomas Athletic",
+     "goles": []
+    }
+   ]
+  }
+ ]
+}

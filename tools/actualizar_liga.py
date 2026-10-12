@@ -33,6 +33,22 @@ ESCUDO = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/{}.png&h=
 
 # slug: cómo llama ESPN a la fase regular ("torneo-clausura") y a los playoffs ("clausura---round-of-16")
 TORNEOS = {
+    # 1900: el campeonato de The Argentine Association Football League, la única liga ese año (mayo a septiembre; campeón
+    # English High School, que en 1901 pasó a llamarse Alumni: va como Alumni): 4 equipos a dos ruedas, con 2 puntos por
+    # partido ganado. RSSSF no numera las fechas: cada día de partidos es una fecha. No bajó nadie. ESPN no lo tiene: va a
+    # mano (tools/a_mano; RSSSF, sin goles salvo los del partido en el que English High School se aseguró el título)
+    "1900-primera": {"nombre": "Campeonato de Primera División 1900 (amateur)", "anio": 1900, "liga": "a_mano",
+                     "slug": "1900-primera", "zonas": "unica", "fechas": 10, "pasan": 0, "puntos_victoria": 2,
+                     "campeon_tabla": True,
+                     "orden_texto": "Campeonato amateur: hasta 1930 todo el fútbol argentino era amateur; el profesionalismo "
+                                    "empezó en 1931. Orden: puntos y, con los mismos puntos, la diferencia de gol (que coincide "
+                                    "con el orden de RSSSF). Alumni se llamaba English High School Athletic Club (el nombre "
+                                    "cambió en 1901). RSSSF no numera las fechas: cada día de partidos es una fecha.",
+                     "anual_texto": "La tabla del Campeonato de Primera División 1900 (amateur). Cada partido ganado valía 2 "
+                                    "puntos.",
+                     "goleadores_nota": "Los goles son solo del English High School 5-0 Quilmes del 15 de agosto, el partido en "
+                                        "el que se aseguró el campeonato (de RSSSF, sin los minutos).",
+                     "sin_descensos": "No hubo descensos: en 1901 jugaron los mismos cuatro equipos."},
     # 1901: el campeonato de The Argentine Association Football League, la única liga ese año (mayo a agosto; campeón
     # Alumni, que ganó todos sus partidos): 4 equipos a dos ruedas, con 2 puntos por partido ganado. RSSSF no numera las
     # fechas: cada día de partidos es una fecha. No bajó nadie. ESPN no lo tiene: va a mano (tools/a_mano; RSSSF, sin goles)
